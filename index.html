@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跨境出海智库 - 全球市场罗盘</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #0f1f2e 0%, #1a2b3c 50%, #0d1b2a 100%); font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+        .card { backdrop-filter: blur(10px); background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
+        .spin { animation: spin 1s linear infinite; }
+        @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="text-white min-h-screen">
+
+<!-- Ticker -->
+<div class="bg-black/40 py-2 px-6 flex gap-6 items-center text-xs border-b border-white/10">
+    <span id="el-gold" class="text-yellow-400">伦敦金: $3,342.50 (+0.4%)</span>
+    <span id="el-fx" class="text-gray-300">USD/CNY: 7.2651 | EUR/CNY: 7.8432</span>
+    <span class="text-green-400 flex items-center gap-1"><span style="width:6px;height:6px;background:#22c55e;border-radius:50%;display:inline-block"></span> 智库就绪</span>
+</div>
+
+<!-- Nav -->
+<nav class="bg-black/20 backdrop-blur-md border-b border-white/10 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="bg-blue-600 p-2 rounded-lg text-xl">&#127757;</div>
+            <span class="text-xl font-bold">Cross-border <span class="text-blue-400">Intel</span></span>
+        </div>
+        <div class="flex items-center gap-3 text-sm">
+            <span class="text-gray-300">公共访客</span>
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded text-xs">智库点数: 999+</span>
+        </div>
+    </div>
+</nav>
+
+<main class="max-w-6xl mx-auto px-8 py-12">
+
+    <!-- Hero -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-3">全球 80% 消费地图罗盘</h1>
+        <p class="text-gray-400 text-lg">覆盖 29 个海关一级品类，一键匹配全球利润、规模与蓝海市场</p>
+    </div>
+
+    <!-- Search -->
+    <div class="max-w-2xl mx-auto mb-16 relative">
+        <input id="search-input" type="text"
+            placeholder="输入产品类目，如：户外储能、陶瓷产品、玩具..."
+            class="w-full bg-white/10 border border-white/20 rounded-full py-4 px-8 text-lg outline-none focus:ring-2 focus:ring-blue-500">
+        <button id="btn-run"
+            onclick="runCompass()"
+            class="absolute right-2 top-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full px-8 py-2 transition-all">
+            开启罗盘
+        </button>
+    </div>
+
+    <!-- Loading -->
+    <div id="el-loading" style="display:none" class="text-center py-10">
+        <div class="spin inline-block w-8 h-8 border-4 border-blue-400 border-t-transparent rounded-full mb-3"></div>
+        <p class="text-gray-400">智库分析中，请稍候...</p>
+    </div>
+
+    <!-- Country Matrix -->
+    <div id="el-results" style="display:none" class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="card p-6 rounded-2xl">
+            <div class="flex items-center gap-3 mb-5">
+                <span class="bg-green-500/20 p-2 rounded-lg text-xl">&#128142;</span>
+                <h2 class="text-lg font-semibold">首选利润国</h2>
+            </div>
+            <div id="profit-list" class="space-y-3"></div>
+        </div>
+        <div class="card p-6 rounded-2xl">
+            <div class="flex items-center gap-3 mb-5">
+                <span class="bg-blue-500/20 p-2 rounded-lg text-xl">&#127754;</span>
+                <h2 class="text-lg font-semibold">首选规模国</h2>
+            </div>
+            <div id="mass-list" class="space-y-3"></div>
+        </div>
+        <div class="card p-6 rounded-2xl">
+            <div class="flex items-center gap-3 mb-5">
+                <span class="bg-purple-500/20 p-2 rounded-lg text-xl">&#128640;</span>
+                <h2 class="text-lg font-semibold">首选蓝海国</h2>
+            </div>
+            <div id="blue-list" class="space-y-3"></div>
+        </div>
+    </div>
+
+    <!-- Compliance -->
+    <div id="el-compliance" style="display:none" class="card p-8 rounded-2xl mb-10">
+        <h2 class="text-xl font-bold mb-6">&#128737; 行业合规转型建议</h2>
+        <div id="compliance-content" class="grid md:grid-cols-2 gap-8"></div>
+    </div>
+
+    <!-- Pricing -->
+    <div id="el-pricing" style="display:none" class="mb-10">
+        <h2 class="text-xl font-bold mb-5">&#128176; 全球竞品价格监测</h2>
+        <div id="pricing-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-5"></div>
+    </div>
+
+    <!-- Customs -->
+    <div id="el-customs" style="display:none" class="mb-10">
+        <h2 class="text-xl font-bold mb-5">&#128674; 海关数据看板</h2>
+        <div id="customs-content" class="card p-8 rounded-2xl grid md:grid-cols-3 gap-8"></div>
+    </div>
+
+    <!-- Download -->
+    <div id="el-download" style="display:none" class="text-center mb-16">
+        <button onclick="downloadReport()"
+            class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:opacity-90 text-white font-bold py-4 px-14 rounded-full shadow-xl text-lg transition-all">
+            下载完整 PDF 调研报告
+        </button>
+        <p class="text-gray-500 text-xs mt-3">完整后端部署后可生成麦肯锡风格深度报告</p>
+    </div>
+
+</main>
+
+<script>
+// =========================================================
+// 数据库：国家
+// =========================================================
+var COUNTRIES = [
+    {name:'美国',   gdp:76000, pop:332,  growth:2.1, region:'北美'},
+    {name:'德国',   gdp:51000, pop:83,   growth:1.5, region:'欧洲'},
+    {name:'英国',   gdp:46000, pop:68,   growth:1.8, region:'欧洲'},
+    {name:'法国',   gdp:43000, pop:68,   growth:1.6, region:'欧洲'},
+    {name:'澳大利亚', gdp:65000, pop:26,  growth:2.5, region:'亚太'},
+    {name:'日本',   gdp:40000, pop:125,  growth:1.2, region:'亚太'},
+    {name:'韩国',   gdp:35000, pop:52,   growth:2.3, region:'亚太'},
+    {name:'加拿大', gdp:54000, pop:38,   growth:2.0, region:'北美'},
+    {name:'巴西',   gdp:9000,  pop:214,  growth:4.5, region:'新兴'},
+    {name:'印度',   gdp:2500,  pop:1400, growth:6.8, region:'新兴'},
+    {name:'越南',   gdp:4100,  pop:98,   growth:6.2, region:'东南亚'},
+    {name:'印尼',   gdp:4500,  pop:273,  growth:5.2, region:'东南亚'},
+    {name:'墨西哥', gdp:10000, pop:130,  growth:3.2, region:'新兴'},
+    {name:'沙特',   gdp:24000, pop:36,   growth:3.8, region:'中东'},
+    {name:'阿联酋', gdp:44000, pop:10,   growth:4.0, region:'中东'}
+];
+
+// =========================================================
+// 数据库：合规 (29 大类，不含中文弯引号)
+// =========================================================
+var COMPLIANCE = [
+    {kw:['储能','电池','锂电'],
+     reason:'涉及锂电池运输安全(UN38.3)及用电安全标准，欧盟电池法案2024年已更新。',
+     suggestion:'通过UL 9540、IEC 62619等核心认证，在目标市场建立本地售后体系。',
+     breakthrough:'深耕露营经济与家庭备用电源场景，同步布局B端工商业储能柜市场。',
+     hs:'850760', tariff_us:'25%', tariff_eu:'2.7%'},
+
+    {kw:['机电','电机','发电'],
+     reason:'涉及用电安全及电网稳定性，各国对能效、EMC有严格限制。',
+     suggestion:'建立全生命周期质量追溯，通过CE、UL等认证。',
+     breakthrough:'向智能制造转型，提供远程诊断及售后全包服务。',
+     hs:'850100', tariff_us:'3.5%', tariff_eu:'2.5%'},
+
+    {kw:['高新技术','科技'],
+     reason:'技术敏感度高，受国际贸易管制及技术壁垒影响大。',
+     suggestion:'建立内部合规体系(ICP)，加强核心专利全球布局。',
+     breakthrough:'深耕垂直细分领域，通过技术领跑建立行业事实标准。',
+     hs:'847100', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['钢材','钢铁','型钢'],
+     reason:'产能过剩行业，受欧盟CBAM碳边境税及反倾销调查强力监管。',
+     suggestion:'测算并披露产品碳足迹，申请EPD环境产品声明认证。',
+     breakthrough:'向高强度特种钢材转型，避开低端价格战。',
+     hs:'720800', tariff_us:'25%', tariff_eu:'15%'},
+
+    {kw:['成品油','石油','燃油'],
+     reason:'涉及能源安全及严格的危化品储存运输标准。',
+     suggestion:'密切关注商务部出口配额政策，优化供应链物流成本。',
+     breakthrough:'开拓一带一路沿线加油补给网络，提供一体化能源解决方案。',
+     hs:'271000', tariff_us:'5%', tariff_eu:'3.5%'},
+
+    {kw:['铝','铝材','未锻轧铝'],
+     reason:'高耗能行业，受全球减碳目标及CBAM碳关税影响。',
+     suggestion:'利用绿电铝资源，提升再生铝使用比例，降低碳强度。',
+     breakthrough:'进入高端航空及新能源汽车供应链，实现产品高端化。',
+     hs:'760100', tariff_us:'10%', tariff_eu:'3%'},
+
+    {kw:['陶瓷','瓷器','瓷砖'],
+     reason:'涉及食品接触安全及铅镉重金属污染风险，FDA检测严格。',
+     suggestion:'加强原材料检测，通过国际食品接触材料认证(FCM)。',
+     breakthrough:'融合东方美学与现代工艺，打造品牌IP进军高端礼品市场。',
+     hs:'691100', tariff_us:'7%', tariff_eu:'6.5%'},
+
+    {kw:['肥料','化肥','氮肥'],
+     reason:'直接关系土壤环境、水质及农业安全，各国登记管理严格。',
+     suggestion:'针对不同土壤特性定制配方，通过本地化肥料登记。',
+     breakthrough:'发展水溶肥、有机肥等新型环保产品，符合现代农业可持续需求。',
+     hs:'310500', tariff_us:'2%', tariff_eu:'3.5%'},
+
+    {kw:['稀土'],
+     reason:'国家战略资源，受出口配额及国际贸易管制保护。',
+     suggestion:'深加工下游稀土永磁材料，通过高附加值产品出口。',
+     breakthrough:'建立全产业链可溯源系统，符合国际供应链透明度要求。',
+     hs:'280530', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['汽车','轿车','新能源车','底盘'],
+     reason:'公共安全第一位，排放标准直接关系目的地国环保考核。',
+     suggestion:'针对目标市场进行本地化调校，建立完善的海外售后中心。',
+     breakthrough:'利用中国新能源汽车先发优势，建立数字化充电生态网络。',
+     hs:'870300', tariff_us:'2.5%', tariff_eu:'10%'},
+
+    {kw:['汽车零配件','零部件','配件'],
+     reason:'作为整车供应链一部分，其质量直接影响整车行驶安全。',
+     suggestion:'争取进入主机厂OEM体系，同步进行售后(AM)市场品牌化建设。',
+     breakthrough:'针对新能源车维修痛点，开发三电系统专属配件。',
+     hs:'870800', tariff_us:'2.5%', tariff_eu:'4.5%'},
+
+    {kw:['农产品','蔬菜','水果'],
+     reason:'防止有害生物入侵及保障食品消费安全，SPS措施严格。',
+     suggestion:'建立从田间到港口的溯源系统，通过GLOBAL GAP认证。',
+     breakthrough:'发展深加工及冷链技术，打造高端有机农业品牌。',
+     hs:'070900', tariff_us:'5%', tariff_eu:'10%'},
+
+    {kw:['水产品','海鲜','鱼','虾'],
+     reason:'易腐食品，重金属(汞)及抗生素残留是监管红线。',
+     suggestion:'强化冷链温控记录，确保符合HACCP体系要求。',
+     breakthrough:'开发预制菜及精深加工水产品，进军海外零售超市渠道。',
+     hs:'030300', tariff_us:'0%', tariff_eu:'12%'},
+
+    {kw:['粮食','大米','小麦','玉米'],
+     reason:'事关国家粮食安全及动植物保护，GMO标签法严格。',
+     suggestion:'严格执行植物检疫处理，关注双边贸易协议中的配额变化。',
+     breakthrough:'主打非转基因、功能性原粮，满足高端健康餐饮市场需求。',
+     hs:'100600', tariff_us:'0%', tariff_eu:'10%'},
+
+    {kw:['数据处理','电脑','计算机','ADP'],
+     reason:'高技术密集，涉及数据安全及冲突矿产(CM)申报要求。',
+     suggestion:'完善供应链审计，确保核心零部件无数据后门风险。',
+     breakthrough:'针对海外远程办公需求，开发轻量化高性能移动工作站方案。',
+     hs:'847130', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['集成电路','芯片','半导体'],
+     reason:'全球核心竞争力焦点，受地缘政治及技术封锁影响极大。',
+     suggestion:'多元化供应链渠道，加大研发自主知识产权，通过车规级认证。',
+     breakthrough:'深耕物联网及边缘计算芯片，寻求非敏感领域规模化应用。',
+     hs:'854200', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['手机','智能手机','移动电话'],
+     reason:'移动通讯频率需合法，电子垃圾回收(WEEE/RoHS)是强制要求。',
+     suggestion:'建立本地化营销及售后服务中心，符合欧洲可维修性评分要求。',
+     breakthrough:'利用5G/AI影像技术优势，在东南亚、非洲等新兴市场建立生态闭环。',
+     hs:'851713', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['机械','通用机械','工程机械'],
+     reason:'涉及工业操作安全、电气安全及高压爆炸风险。',
+     suggestion:'提供多语言说明书，加强工人操作安全培训服务。',
+     breakthrough:'向服务型制造转型，提供按需定制及租赁服务模式。',
+     hs:'841300', tariff_us:'2%', tariff_eu:'2.5%'},
+
+    {kw:['船舶','轮船','游艇'],
+     reason:'海上航行安全及防止船舶污染(MARPOL)是国际强制要求。',
+     suggestion:'提前布局绿色甲醇、LNG动力系统研发。',
+     breakthrough:'在特种作业船(风电安装船、滚装船)领域形成领先竞争力。',
+     hs:'890100', tariff_us:'1.5%', tariff_eu:'1.7%'},
+
+    {kw:['灯具','照明','LED'],
+     reason:'涉及视觉健康及电气火灾预防，需通过光生物安全认证。',
+     suggestion:'通过DLC认证进入北美商业照明市场，提升光效表现。',
+     breakthrough:'深耕智能家居及户外景观照明，融合AI调光与传感器技术。',
+     hs:'940500', tariff_us:'3.9%', tariff_eu:'2.7%'},
+
+    {kw:['音视频','音响','电视','投影'],
+     reason:'版权保护机制及音频专利授权要求严格。',
+     suggestion:'支付必要的专利池费用(如MPEG-LA)，规避侵权诉讼风险。',
+     breakthrough:'进军专业级家庭影院及户外移动影音，打造沉浸式视听体验。',
+     hs:'852100', tariff_us:'3.9%', tariff_eu:'14%'},
+
+    {kw:['医疗','器械','医疗仪器'],
+     reason:'生命安全不容有失，属于各国监管优先级最高的产品。',
+     suggestion:'建立海外临床测试中心，选择高信誉等级的当地授权代表。',
+     breakthrough:'发力便携式、家用化医疗设备，将数字化诊疗延伸至家庭端。',
+     hs:'901800', tariff_us:'0%', tariff_eu:'0%'},
+
+    {kw:['纺织','面料','纱线','布料'],
+     reason:'涉及皮肤接触安全及生产过程中的废水排放问题。',
+     suggestion:'使用环保生物基纤维，通过全球回收标准(GRS)认证。',
+     breakthrough:'开发具备抗病毒、吸湿快干功能的功能性面料。',
+     hs:'540200', tariff_us:'12%', tariff_eu:'8%'},
+
+    {kw:['服装','衣服','衣着','外套'],
+     reason:'供应链人权透明度及消费者基本知情权是现代贸易门槛。',
+     suggestion:'优化工厂ESG表现，通过可持续时尚平台提升品牌声誉。',
+     breakthrough:'利用跨境电商直邮优势，通过D2C模式快速响应全球流行趋势。',
+     hs:'620300', tariff_us:'16%', tariff_eu:'12%'},
+
+    {kw:['塑料','塑料制品'],
+     reason:'白色污染是全球环保公敌，涉及内分泌干扰物风险。',
+     suggestion:'研发可降解塑料(PLA/PBAT)，提升循环塑料回用比例。',
+     breakthrough:'在高端工业塑料及精密模具领域寻找突破口。',
+     hs:'392600', tariff_us:'6%', tariff_eu:'6.5%'},
+
+    {kw:['鞋','鞋靴','运动鞋'],
+     reason:'防止皮革鞣制过程中有害物质残留导致过敏或致癌。',
+     suggestion:'通过无铬鞣制技术提升环保溢价，进行人体工程学本地化研究。',
+     breakthrough:'针对户外运动及专业防护鞋(劳保鞋)蓝海市场进行深度开发。',
+     hs:'640300', tariff_us:'20%', tariff_eu:'8%'},
+
+    {kw:['玩具'],
+     reason:'保障婴幼儿生命安全，防范窒息、误食及重金属中毒。',
+     suggestion:'建立实验室内部轮抽机制，通过EN71、ASTM F963等严格测试。',
+     breakthrough:'开发STEM教育玩具，融合AR/VR交互，提升寓教于乐价值。',
+     hs:'950300', tariff_us:'0%', tariff_eu:'4.7%'},
+
+    {kw:['箱包','行李箱','皮包'],
+     reason:'涉及消费者耐用品的使用寿命及接触安全性。',
+     suggestion:'强化提手及轮轴耐磨测试，建立全球保修响应机制。',
+     breakthrough:'结合智能定位与指纹解锁，打造针对差旅精英的智能箱包品牌。',
+     hs:'420200', tariff_us:'6%', tariff_eu:'3.7%'},
+
+    {kw:['家电','家用电器','空调','冰箱'],
+     reason:'节约能源资源及保障家庭用电环境安全。',
+     suggestion:'针对不同电压制式开发兼容机型，通过本地化实验室能效检测。',
+     breakthrough:'深耕单身经济与露营经济的小家电市场，强调设计感与便携性。',
+     hs:'850900', tariff_us:'2%', tariff_eu:'2.7%'},
+
+    {kw:['家具','沙发','床','椅子','桌子'],
+     reason:'室内甲醛空气质量直接影响健康，阻燃性涉及火灾安全。',
+     suggestion:'使用无甲醛胶黏剂，确保木材来源符合可持续森林管理规范(FSC)。',
+     breakthrough:'发力扁平化包装(RTA)家具，降低跨境物流成本，主打DIY潮流。',
+     hs:'940300', tariff_us:'0%', tariff_eu:'2.7%'},
+
+    {kw:['建材','建筑材料','瓷砖','水泥'],
+     reason:'涉及建筑结构安全及防火性能要求，各国标准差异较大。',
+     suggestion:'针对目标市场申请本地建材认证(CE标志、UL认证)。',
+     breakthrough:'发力绿色建材与装配式建筑，满足欧美低碳建筑需求。',
+     hs:'730890', tariff_us:'0%', tariff_eu:'3.5%'},
+
+    {kw:['食品','零食','饮料','糖果'],
+     reason:'各国对添加剂、农药残留、微生物指标有严格限制。',
+     suggestion:'建议通过HACCP或ISO 22000认证，针对不同市场调整配方。',
+     breakthrough:'开发具有独特地理标识的产品，主打超级食品概念。',
+     hs:'210690', tariff_us:'6%', tariff_eu:'9%'},
+
+    {kw:['母婴','婴儿','儿童用品'],
+     reason:'儿童产品安全标准最为严苛，化学品和物理性能均需通过检测。',
+     suggestion:'通过EN 71、ASTM等标准，建立全球召回响应预案。',
+     breakthrough:'围绕智能育儿和亲子互动场景，开发具有科技感的高端母婴产品。',
+     hs:'940370', tariff_us:'0%', tariff_eu:'2%'}
+];
+
+// =========================================================
+// 价格模板
+// =========================================================
+var PRICING = {
+    '储能':    [['北美','USD','299-899',[['EcoFlow Delta','899'],['Jackery 500','499']]],
+                ['欧洲','EUR','250-750',[['Bluetti EB3A','299'],['Anker SOLIX','599']]],
+                ['澳洲','AUD','399-999',[['EcoFlow RIVER','599']]],
+                ['日本','JPY','35000-95000',[['BLUETTI EB70','49800']]]],
+
+    '家具':    [['北美','USD','150-600',[['IKEA KALLAX','199'],['Wayfair Sofa','499']]],
+                ['欧洲','EUR','120-500',[['IKEA BILLY','59'],['Made.com','320']]],
+                ['澳洲','AUD','200-700',[['Temple & Webster','350']]],
+                ['日本','JPY','15000-60000',[['MUJI','25000']]]],
+
+    '玩具':    [['北美','USD','20-80',[['LEGO Set','45'],['Barbie','25']]],
+                ['欧洲','EUR','15-70',[['Playmobil','35'],['Ravensburger','28']]],
+                ['东南亚','USD','8-35',[['Local Brand','12']]],
+                ['日本','JPY','2000-8000',[['Bandai','3500']]]],
+
+    '家电':    [['北美','USD','50-300',[['Instant Pot','80'],['Ninja Air Fryer','120']]],
+                ['欧洲','EUR','40-250',[['Philips','150'],['Braun','80']]],
+                ['澳洲','AUD','80-400',[['Breville','180']]],
+                ['东南亚','USD','30-150',[['Xiaomi','60']]]],
+
+    '服装':    [['北美','USD','30-150',[['Zara Jacket','89'],['H&M Dress','45']]],
+                ['欧洲','EUR','25-120',[['Mango','75'],['Reserved','35']]],
+                ['日本','JPY','3000-15000',[['Uniqlo','4500']]],
+                ['东南亚','USD','10-60',[['Local Brand','15']]]],
+
+    '鞋':      [['北美','USD','60-250',[['Nike Air','130'],['Adidas','110']]],
+                ['欧洲','EUR','50-200',[['Ecco','150'],['Camper','130']]],
+                ['日本','JPY','8000-25000',[['Asics','12000']]],
+                ['东南亚','USD','20-80',[['Local','30']]]],
+
+    'default': [['北美','USD','80-500',[['Brand A','299'],['Brand B','149']]],
+                ['欧洲','EUR','60-400',[['EU Brand','199']]],
+                ['东南亚','USD','30-200',[['Local','89']]],
+                ['中东','USD','50-300',[['Regional','150']]]]
+};
+
+function getPricing(cat) {
+    var keys = Object.keys(PRICING);
+    for (var i = 0; i < keys.length; i++) {
+        if (keys[i] !== 'default' && cat.indexOf(keys[i]) !== -1) {
+            return PRICING[keys[i]];
+        }
+    }
+    return PRICING['default'];
+}
+
+// =========================================================
+// 合规匹配
+// =========================================================
+function getCompliance(cat) {
+    for (var i = 0; i < COMPLIANCE.length; i++) {
+        var item = COMPLIANCE[i];
+        for (var j = 0; j < item.kw.length; j++) {
+            if (cat.indexOf(item.kw[j]) !== -1) {
+                return item;
+            }
+        }
+    }
+    return {
+        reason: '建议在进入目标市场前，详细研究目的地国对该类产品的准入标准及认证要求。',
+        suggestion: '建议委托专业贸易合规机构进行市场准入评估，制定专属合规路径。',
+        breakthrough: '积极寻找当地代理商，结合本地化需求调整产品定位，快速切入细分市场。',
+        hs: '999999', tariff_us: '5~25%', tariff_eu: '2.7~12%'
+    };
+}
+
+// =========================================================
+// 罗盘算法：加权评分
+// =========================================================
+function computeCompass(cat) {
+    var isElec = ['储能','电池','手机','芯片','集成电路','家电'].some(function(k){ return cat.indexOf(k) !== -1; });
+    var isFood = ['食品','农产品','水产','粮食'].some(function(k){ return cat.indexOf(k) !== -1; });
+    var isIndu = ['钢材','机电','铝','机械','船舶'].some(function(k){ return cat.indexOf(k) !== -1; });
+
+    var scored = COUNTRIES.map(function(c) {
+        var gdpW  = isElec ? 1.3 : isIndu ? 1.5 : 1.0;
+        var popW  = isFood ? 2.0 : 1.0;
+        var growW = isElec ? 1.5 : 1.2;
+        var score = (c.gdp / 10000) * gdpW + (c.pop / 80) * popW + c.growth * growW;
+        return {name:c.name, gdp:c.gdp, pop:c.pop, growth:c.growth, region:c.region, score:score};
+    });
+
+    var byGdp   = scored.slice().sort(function(a,b){ return b.gdp - a.gdp; });
+    var byPop   = scored.slice().sort(function(a,b){ return b.pop - a.pop; });
+    var emerging = scored.filter(function(c){ return c.gdp < 20000; })
+                         .sort(function(a,b){ return b.score - a.score; });
+
+    return {
+        profit: byGdp.slice(0, 3),
+        mass:   byPop.slice(0, 2),
+        blue:   emerging.slice(0, 3)
+    };
+}
+
+// =========================================================
+// DOM 工具
+// =========================================================
+function show(id) { document.getElementById(id).style.display = ''; }
+function hide(id) { document.getElementById(id).style.display = 'none'; }
+
+function countryCard(c) {
+    return '<div class="card p-4 rounded-xl">' +
+        '<div class="font-bold">' + c.name + '</div>' +
+        '<div class="text-xs text-gray-400 mt-1">' + c.region + '</div>' +
+        '<div class="text-xs text-gray-300 mt-1">GDP $' + Math.round(c.gdp/1000) + 'k | 增速 ' + c.growth + '%</div>' +
+    '</div>';
+}
+
+// =========================================================
+// 主函数：开启罗盘
+// =========================================================
+function runCompass() {
+    var cat = document.getElementById('search-input').value.trim();
+    if (!cat) { alert('请输入产品类目'); return; }
+
+    // UI: 显示 loading，隐藏结果
+    show('el-loading');
+    hide('el-results');
+    hide('el-compliance');
+    hide('el-pricing');
+    hide('el-customs');
+    hide('el-download');
+
+    // 给浏览器一帧时间先渲染 loading，再执行计算
+    setTimeout(function() {
+        try {
+            renderAll(cat);
+        } catch(e) {
+            hide('el-loading');
+            alert('分析出错，请刷新后重试：' + e.message);
+        }
+    }, 200);
+}
+
+function renderAll(cat) {
+    var compass    = computeCompass(cat);
+    var compliance = getCompliance(cat);
+    var pricing    = getPricing(cat);
+
+    // --- 国家矩阵 ---
+    document.getElementById('profit-list').innerHTML = compass.profit.map(countryCard).join('');
+    document.getElementById('mass-list').innerHTML   = compass.mass.map(countryCard).join('');
+    document.getElementById('blue-list').innerHTML   = compass.blue.map(countryCard).join('');
+
+    // --- 合规 ---
+    document.getElementById('compliance-content').innerHTML =
+        '<div class="border-r border-white/10 pr-8">' +
+            '<h3 class="text-blue-400 font-bold mb-3">准入红线</h3>' +
+            '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.reason + '</p>' +
+            '<p class="text-gray-300 text-sm leading-relaxed mt-3">' + compliance.suggestion + '</p>' +
+        '</div>' +
+        '<div>' +
+            '<h3 class="text-green-400 font-bold mb-3">出海突破口</h3>' +
+            '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.breakthrough + '</p>' +
+        '</div>';
+
+    // --- 定价 ---
+    var pricingHtml = '';
+    for (var i = 0; i < pricing.length; i++) {
+        var region = pricing[i][0], cur = pricing[i][1], range = pricing[i][2], prods = pricing[i][3];
+        var prodHtml = '';
+        for (var j = 0; j < prods.length; j++) {
+            prodHtml += '<div>' + prods[j][0] + ' (' + cur + ' ' + prods[j][1] + ')</div>';
+        }
+        pricingHtml +=
+            '<div class="card p-5 rounded-2xl">' +
+                '<div class="text-xs text-blue-400 font-bold mb-2">' + region + '</div>' +
+                '<div class="text-2xl font-bold mb-3">' + cur + ' ' + range + '</div>' +
+                '<div class="text-xs text-gray-400 space-y-1">' + prodHtml + '</div>' +
+            '</div>';
+    }
+    document.getElementById('pricing-grid').innerHTML = pricingHtml;
+
+    // --- 海关 ---
+    var hs = compliance.hs || '999999';
+    var us = compliance.tariff_us || '5~25%';
+    var eu = compliance.tariff_eu || '2.7~12%';
+    document.getElementById('customs-content').innerHTML =
+        '<div>' +
+            '<p class="text-gray-400 text-sm mb-2">HS Code</p>' +
+            '<div class="text-3xl font-bold text-blue-300">' + hs + '</div>' +
+            '<div class="text-xs text-green-400 mt-3">出口额同比增速 +8~15%</div>' +
+        '</div>' +
+        '<div class="border-x border-white/10 px-8">' +
+            '<p class="text-gray-400 text-sm mb-2">风险预警</p>' +
+            '<div class="text-xs text-red-400 space-y-1">' +
+                '<div>- 欧盟新法规持续更新(2025)</div>' +
+                '<div>- 美国 301 关税波动风险</div>' +
+                '<div>- 目标市场认证要求变化</div>' +
+            '</div>' +
+        '</div>' +
+        '<div>' +
+            '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
+            '<div class="text-sm space-y-2">' +
+                '<div class="flex justify-between"><span class="text-gray-400">美国</span><span>' + us + '</span></div>' +
+                '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span>' + eu + '</span></div>' +
+                '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
+            '</div>' +
+        '</div>';
+
+    // 显示所有结果
+    hide('el-loading');
+    document.getElementById('el-results').style.display = 'grid';
+    show('el-compliance');
+    document.getElementById('el-pricing').style.display = 'block';
+    show('el-customs');
+    show('el-download');
+
+    window.scrollTo({top: document.getElementById('el-results').offsetTop - 100, behavior: 'smooth'});
+}
+
+// =========================================================
+// 报告下载提示
+// =========================================================
+function downloadReport() {
+    alert('PDF 报告生成功能需要后端服务支持。\n完整部署后即可自动生成麦肯锡风格深度调研报告。');
+}
+
+// =========================================================
+// 行情（静态兜底）
+// =========================================================
+(function fetchMarket() {
+    fetch('/api/market').then(function(r){ return r.json(); }).then(function(d) {
+        document.getElementById('el-gold').innerText = '伦敦金: $' + d.gold.price + ' (' + d.gold.change + '%)';
+        document.getElementById('el-fx').innerText   = 'USD/CNY: ' + parseFloat(d.forex[0].rate).toFixed(4) + ' | EUR/CNY: ' + parseFloat(d.forex[1].rate).toFixed(4);
+    }).catch(function(){
+        // Keep static fallback already set in HTML
+    });
+})();
+
+// 回车键触发
+document.getElementById('search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') runCompass();
+});
+</script>
+</body>
+</html>
