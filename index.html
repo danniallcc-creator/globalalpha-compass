@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>跨境出海智库 · 全球风险罗盘</title>
+<title>载堉视界 Zaiyu's Horizon · 全球跨境情报平台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -50,11 +50,13 @@ input[type=range]{accent-color:#60a5fa}
 
 <!-- ===== NAV ===== -->
 <nav class="sticky top-0 z-50 bg-black/30 backdrop-blur-lg border-b border-white/5 px-8 py-4 flex justify-between items-center">
-  <div class="flex items-center gap-3">
-    <div class="bg-gradient-to-br from-blue-600 to-purple-600 p-2 rounded-xl text-xl">&#127757;</div>
+  <div class="flex items-center gap-2">
+    <img src="https://sc01.alicdn.com/kf/H3859a09df1744790885e33482ab9a9bej.png"
+         alt="globe"
+         style="width:2em;height:2em;object-fit:cover;border-radius:50%;mix-blend-mode:screen;background:transparent;">
     <div>
-      <div class="font-bold text-lg">Cross-border <span class="text-blue-400">Intel</span> Pro</div>
-      <div class="text-xs text-gray-500">全球风险罗盘 · 实时驱动</div>
+      <div class="font-bold text-lg">载堉视界 <span class="text-blue-400">Zaiyu's</span> Horizon</div>
+      <div class="text-xs text-gray-500">全球跨境情报平台 · 实时驱动</div>
     </div>
   </div>
   <div id="clock" class="text-xs text-gray-400"></div>
@@ -63,16 +65,16 @@ input[type=range]{accent-color:#60a5fa}
 <!-- ===== MAIN NAV TABS ===== -->
 <div class="max-w-7xl mx-auto px-6 pt-8">
   <div class="flex gap-3 flex-wrap mb-8">
-    <button class="nav-pill active" onclick="switchTab('tab-compass',this)">&#127914; 市场罗盘</button>
+    <button class="nav-pill active" onclick="switchTab('tab-think',this)">&#127758; 跨境智库</button>
+    <button class="nav-pill" onclick="switchTab('tab-tools',this)">&#128295; 工具箱</button>
+    <button class="nav-pill" onclick="switchTab('tab-compass',this)">&#127914; 市场罗盘</button>
     <button class="nav-pill" onclick="switchTab('tab-map',this)">&#127758; 全球风险地图</button>
     <button class="nav-pill" onclick="switchTab('tab-risk',this)">&#9888; 风险预警看板</button>
     <button class="nav-pill" onclick="switchTab('tab-news',this)">&#128240; 实时情报流</button>
-    <button class="nav-pill" onclick="switchTab('tab-think',this)">&#127758; 跨境智库</button>
-    <button class="nav-pill" onclick="switchTab('tab-tools',this)">&#128295; 工具箱</button>
   </div>
 
 <!-- ==================== TAB 1: 市场罗盘 ==================== -->
-<div id="tab-compass" class="tab-content active">
+<div id="tab-compass" class="tab-content">
 
   <!-- Hero search -->
   <div class="text-center mb-10">
@@ -271,7 +273,7 @@ input[type=range]{accent-color:#60a5fa}
 
 
 <!-- ==================== TAB 5: 跨境智库 ==================== -->
-<div id="tab-think" class="tab-content">
+<div id="tab-think" class="tab-content active">
   <div class="text-center mb-8">
     <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-green-400 to-teal-400 bg-clip-text text-transparent">跨境智库 · 国别情报中心</h1>
     <p class="text-gray-400">41 国完整数据 · 综合评分算法 · AI 需求分析 · 行业趋势</p>
