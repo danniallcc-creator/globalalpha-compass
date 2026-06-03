@@ -405,6 +405,10 @@ input[type=range]{accent-color:#60a5fa}
               <option value="NG">尼日利亚</option>
               <option value="KE">肯尼亚</option>
             </optgroup>
+            <optgroup label="中亚/俄语区">
+              <option value="RU">俄罗斯</option>
+              <option value="KZ">哈萨克斯坦(EAEU)</option>
+            </optgroup>
           </select>
         </div>
         <button onclick="runCompliance()" class="px-6 py-2.5 rounded-lg text-sm font-semibold" style="background:linear-gradient(135deg,#10b981,#0d9488)">&#128269; 查询合规</button>
@@ -3322,6 +3326,74 @@ var COMPLIANCE_DB = {
 
 
 
+
+
+// ========== COMPLIANCE_DB 市场扩展：中亚/非洲 ==========
+(function() {
+  var extra = {
+    'KZ': { // 哈萨克斯坦/EAEU(GOST-K)
+      cert: ['EAC认证(EAEU统一)','GOST-K(哈国)'],
+      std: ['GOST CIS国际标准等效'],
+      banned: ['EAEU TR有害物质限制'],
+      label: ['俄/哈双语标签','EAC标志'],
+      customs: ['阿斯塔纳海关EAC证书','EAEU统一清关']
+    },
+    'NG': { // 尼日利亚
+      cert: ['NAFDAC注册(食品/医疗/化妆)','SON认证(工业品)'],
+      std: ['NIS国家工业标准'],
+      banned: ['未NAFDAC批准食品/医疗品禁止'],
+      label: ['英语标签','NAFDAC注册号'],
+      customs: ['SON合规证书','拉各斯港海关重点查验']
+    },
+    'KE': { // 肯尼亚
+      cert: ['KEBS认证(强制产品)','EAC关税同盟合规'],
+      std: ['KS肯尼亚标准','EAC区域标准'],
+      banned: ['塑料袋全面禁止(2017)'],
+      label: ['斯瓦希里/英语标签','KEBS标志'],
+      customs: ['蒙巴萨港清关','EAC共同外关税CET']
+    }
+  };
+
+  // 为每个品类补充市场数据（基于类别特殊情况调整）
+  var catOverrides = {
+    '消费电子': {
+      'KZ': { cert:['EAC(TR CU 020/037)','GOST-K无线许可'], std:['GOST IEC 62368-1'], banned:['EAEU有害物质'], label:['EAC标志','俄哈双语说明'], customs:['EAC证书随货，哈国Customs Union'] },
+      'NG': { cert:['SON MANCAP认证','NCC无线型式认证'], std:['NIS 36系列'], banned:['未批准无线频段设备'], label:['英语标签','SON认证号','NAFDAC号(含锂电池)'], customs:['Lagos港海关SON证书检查'] },
+      'KE': { cert:['KEBS强制认证','CA无线型式认证'], std:['KS IEC 62368-1'], banned:['未授权无线设备'], label:['KEBS标志','CA型式认证号'], customs:['蒙巴萨港认证随货'] }
+    },
+    '食品及饮料': {
+      'KZ': { cert:['EAC食品安全(TR CU 021/2011)','有机EAEU认证(可选)'], std:['EAEU食品安全统一规定'], banned:['EAEU禁止添加剂','农残MRL超EAEU限量'], label:['俄/哈双语食品标签','营养成分','生产日期'], customs:['EAC食品合规声明','海关总局抽检'] },
+      'NG': { cert:['NAFDAC进口食品注册(强制)','SON食品标准'], std:['NIS 20食品卫生'], banned:['未批准防腐剂','禁止转基因(尚未明确)'], label:['英语标签','NAFDAC号','原产国','保质期'], customs:['NAFDAC注册在前，拉各斯港重点检疫'] },
+      'KE': { cert:['KEBS食品认证','KEPHIS植检许可(农产品)'], std:['KS EAC食品标准'], banned:['未批准添加剂'], label:['英语/斯瓦希里标签','KEBS标志','原产国'], customs:['Mombasa港植检+KEBS证书'] }
+    },
+    '医疗器械': {
+      'KZ': { cert:['EAC医疗器械认证(TR CU/EAEU)','哈国MCHSD登记'], std:['GOST ISO 13485'], banned:['未批准材料'], label:['EAC标志','俄哈双语IFU'], customs:['EAC证书+哈国登记号'] },
+      'NG': { cert:['NAFDAC医疗器械注册(强制)'], std:['SON医疗标准'], banned:['未注册器械'], label:['NAFDAC注册号','英语IFU'], customs:['NAFDAC审批先于进口'] },
+      'KE': { cert:['PPB注册(药房委员会)','KEBS(部分器械)'], std:['KS ISO 13485'], banned:['未注册器械'], label:['PPB注册号','英语标签'], customs:['PPB审批随货证明'] }
+    },
+    '美妆': {
+      'KZ': { cert:['EAC化妆品(TR CU 009/2011)'], std:['EAEU化妆品安全要求'], banned:['EAEU禁限成分1200+'], label:['俄/哈双语INCI','保质期','EAC标志'], customs:['EAC合规声明'] },
+      'NG': { cert:['NAFDAC化妆品注册(强制)'], std:['NIS化妆品卫生标准'], banned:['汞超标产品','漂白剂含氢醌>2%'], label:['英语INCI','NAFDAC注册号','保质期'], customs:['NAFDAC须提前注册'] },
+      'KE': { cert:['KEBS化妆品认证'], std:['EAS化妆品标准'], banned:['汞/铅超标','氢醌浓度限制'], label:['英语/斯瓦希里','KEBS标志'], customs:['KEBS证书随货'] }
+    },
+    '玩具': {
+      'KZ': { cert:['EAC玩具安全(TR CU 008/2011)'], std:['GOST EN 71等效'], banned:['重金属超EAEU限量','邻苯二甲酸酯'], label:['EAC标志','年龄警示','俄/哈双语'], customs:['EAC证书随货'] },
+      'NG': { cert:['SON MANCAP玩具认证'], std:['NIS 37玩具安全'], banned:['重金属超标'], label:['英语年龄警示','SON标志'], customs:['SON证书检查'] },
+      'KE': { cert:['KEBS玩具强制认证'], std:['KS EN 71等效'], banned:['重金属超限','邻苯二甲酸酯'], label:['KEBS标志','年龄警示'], customs:['Mombasa港KEBS查验'] }
+    }
+  };
+
+  // 为每个品类填充市场
+  Object.keys(COMPLIANCE_DB).forEach(function(cat) {
+    ['KZ','NG','KE'].forEach(function(mkt) {
+      if(!COMPLIANCE_DB[cat][mkt]) {
+        var override = catOverrides[cat] && catOverrides[cat][mkt];
+        COMPLIANCE_DB[cat][mkt] = override || extra[mkt];
+      }
+    });
+  });
+})();
+
 </script>
 <!-- ===== DATA: 关税计算器 ===== -->
 <script>
@@ -4055,7 +4127,7 @@ function runTariff() {
   var fob  = parseFloat(document.getElementById('tariff-fob').value) || 0;
   var fr   = parseFloat(document.getElementById('tariff-freight').value) || 0;
   var ins  = parseFloat(document.getElementById('tariff-ins').value) || 0;
-  var destNames = {US:'美国',EU:'欧盟',UK:'英国',JP:'日本',AU:'澳大利亚',IN:'印度',SA:'沙特阿拉伯',BR:'巴西'};
+  var destNames = {US:'美国',EU:'欧盟',UK:'英国',JP:'日本',AU:'澳大利亚',IN:'印度',SA:'沙特阿拉伯',BR:'巴西',KR:'韩国',TR:'土耳其',MX:'墨西哥'};
   var r = calcTariff(hs, dest, fob, fr, ins);
   var el = document.getElementById('tariff-result');
   if(!r) {
