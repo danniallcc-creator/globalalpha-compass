@@ -1230,14 +1230,14 @@ document.addEventListener('DOMContentLoaded', function() {
 // T1: 45国完整基础数据库
 // 数据来源：World Bank, IMF, UN Population Division, Pew Research
 // ============================================================
-var COUNTRY_DB = {
+var COUNTRY_DB = { // 数据更新: 2026-Q2, 部分2025为实际值, 2026e为预测
 
   // ==================== 北美区 ====================
   'US': {
     name:'美国', flag:'🇺🇸', region:'北美', iso:'US',
     lat:38, lng:-97,
     pop:{ total:3.32, newborn:360, age1850pct:52, age1555pct:58 }, // 亿/万人/占比%
-    gdp:{ '2022':{total:25.5,perCap:76390,growth:2.1}, '2023':{total:27.4,perCap:81680,growth:2.5}, '2024':{total:28.8,perCap:85370,growth:2.9}, '2025e':{total:30.1,perCap:88900,growth:2.2} },
+    gdp:{ '2022':{total:25.5,perCap:76390,growth:2.1}, '2023':{total:27.4,perCap:81680,growth:2.5}, '2024':{total:28.8,perCap:85370,growth:2.9}, '2025':{total:29.2,perCap:86400,growth:1.4}, '2026e':{total:29.8,perCap:87800,growth:2.0} },
     urban:83, electricity:100, internet:93,
     fdi:{ '2024':2310 }, // 亿美元
     tradeWithChina:{ total:5750, importFromChina:4270, yoy:-3.2 }, // 2024, 亿美元
@@ -3667,140 +3667,146 @@ var HS_QUICK = [
 // T6: AI趋势选品数据库
 // ============================================================
 var TRENDING_DB = {
+  // 数据更新: 2026-Q2
   amazon_bsr: {
     'US': [
-      { rank:1, asin:'B0BSM3XCQN', title:'便携储能电源1000W', cat:'储能', price:'$399', rating:4.7, reviews:12840, trend:'up', insight:'户外露营季推动，去年同期+187%' },
-      { rank:2, asin:'B09V2TNDWP', title:'空气炸锅6.8QT大容量', cat:'厨房小家电', price:'$89', rating:4.6, reviews:45230, trend:'stable', insight:'家庭聚会常备，圣诞季峰值明显' },
-      { rank:3, asin:'B0C1DBTQBS', title:'扫地机器人AI避障', cat:'智能家居', price:'$279', rating:4.5, reviews:8920, trend:'up', insight:'LiDAR避障技术降价推动换购潮' },
-      { rank:4, asin:'B09KXQQLQ7', title:'LED灯带RGBIC智能', cat:'灯具', price:'$35', rating:4.6, reviews:89400, trend:'stable', insight:'TikTok房间装饰视频带货效应持续' },
-      { rank:5, asin:'B0BQ3S5XFJ', title:'洗地机湿干两用', cat:'清洁家电', price:'$199', rating:4.4, reviews:23150, trend:'up', insight:'拖把替代品，宠物家庭购买比例高' },
-      { rank:6, asin:'B0BW4PNWZR', title:'无线吸尘器宠物款', cat:'清洁家电', price:'$149', rating:4.5, reviews:34560, trend:'up', insight:'养宠物家庭47%有吸尘器需求' },
-      { rank:7, asin:'B09MCXBJTS', title:'蓝牙音箱防水便携', cat:'音频', price:'$45', rating:4.6, reviews:67890, trend:'stable', insight:'夏季户外刚需，IPX7防水为核心卖点' },
-      { rank:8, asin:'B0C6BGMTYX', title:'太阳能充电板100W折叠', cat:'储能配件', price:'$129', rating:4.4, reviews:5670, trend:'up', insight:'储能套组搭配销售，客单价提升' },
-      { rank:9, asin:'B0BFCB765X', title:'睡眠耳机超薄蓝牙', cat:'音频健康', price:'$55', rating:4.3, reviews:18900, trend:'new', insight:'睡眠经济兴起，失眠人群定向需求' },
-      { rank:10, asin:'B0C8X1KZNF', title:'电动牙刷超声波4支头', cat:'个护', price:'$35', rating:4.5, reviews:29400, trend:'stable', insight:'替代头订阅模式拉长LTV' }
+      { rank:1,  asin:'B0D3KXMN8P', title:'AI语音台灯 ChatGPT联动', cat:'AI智能家居', price:'$79', rating:4.6, reviews:28400, trend:'new', insight:'OpenAI API开放带动AIoT配件爆发，2026年1月上架即冲榜' },
+      { rank:2,  asin:'B0C9XBLP22', title:'LiFePO4储能1500Wh+200W太阳能套装', cat:'储能', price:'$899', rating:4.7, reviews:18200, trend:'up', insight:'美国极端天气频发，FEMA推荐清单带动搜索量+340%' },
+      { rank:3,  asin:'B0BFSP7Q14', title:'宠物AI健康监测项圈GPS', cat:'宠物科技', price:'$129/年订阅', rating:4.5, reviews:34500, trend:'up', insight:'美国宠物保险渗透率23%，宠物健康科技溢价空间大' },
+      { rank:4,  asin:'B0CQ8KVD31', title:'无线可折叠显示器15.6寸', cat:'移动办公', price:'$219', rating:4.5, reviews:12800, trend:'up', insight:'数字游民+WFH混合办公，便携屏需求年增67%' },
+      { rank:5,  asin:'B0D1WXTQVK', title:'冷敷美容仪射频EMS合一', cat:'美容仪', price:'$159', rating:4.4, reviews:22000, trend:'new', insight:'高端美容仪需求下沉，DTC品牌社媒带货冲击传统渠道' },
+      { rank:6,  asin:'B0BQ3S5XFJ', title:'洗地机湿干两用大吸力', cat:'清洁家电', price:'$199', rating:4.5, reviews:45100, trend:'stable', insight:'中国品牌市占率突破38%，产品力已超日韩' },
+      { rank:7,  asin:'B0C6BGMTYX', title:'Stanley竞品40oz保温杯(吸管)', cat:'户外', price:'$35', rating:4.7, reviews:112000, trend:'stable', insight:'Stanley效应持续，白标竞品月销10万+' },
+      { rank:8,  asin:'B0CRTQLLNX', title:'银发助行电动轮椅折叠款', cat:'银发科技', price:'$799', rating:4.6, reviews:7800, trend:'new', insight:'美国婴儿潮老龄化加速，老年辅助设备增速22%' },
+      { rank:9,  asin:'B0D7MNPQ44', title:'磁吸模块化钱包MagSafe', cat:'3C配件', price:'$45', rating:4.5, reviews:56700, trend:'stable', insight:'苹果生态周边锁客，复购率38%' },
+      { rank:10, asin:'B0CXKLN821', title:'儿童陪伴机器人AI对话', cat:'AI玩具', price:'$89', rating:4.3, reviews:15600, trend:'new', insight:'大语言模型赋能玩具，2026圣诞旺季前黄金窗口' }
     ],
     'DE': [
-      { rank:1, asin:'DE-001', title:'家用储能系统5kWh', cat:'储能', price:'€1299', rating:4.6, reviews:3240, trend:'up', insight:'德国电价全球最高，储能投资回报周期短' },
-      { rank:2, asin:'DE-002', title:'热泵热水器200L', cat:'家电', price:'€899', rating:4.5, reviews:2890, trend:'up', insight:'能源危机后需求激增，政府补贴加速' },
-      { rank:3, asin:'DE-003', title:'E-Bike电动自行车', cat:'出行', price:'€1499', rating:4.7, reviews:8920, trend:'up', insight:'德国骑行文化+气候出行，增速35%' },
-      { rank:4, asin:'DE-004', title:'机器人割草机', cat:'园艺', price:'€299', rating:4.4, reviews:5670, trend:'new', insight:'德国庭院文化，独立屋比例高' },
-      { rank:5, asin:'DE-005', title:'空气净化器H13 HEPA', cat:'健康家电', price:'€199', rating:4.6, reviews:12340, trend:'up', insight:'花粉过敏季德国1/3人口受影响' }
+      { rank:1, asin:'DE-2026-01', title:'家庭储能系统10kWh壁挂式', cat:'储能', price:'€2499', rating:4.7, reviews:5600, trend:'up', insight:'德国净电价EUR 0.31/kWh，储能5年回本，政府补贴BAFA申请火爆' },
+      { rank:2, asin:'DE-2026-02', title:'热泵式烘干机A+++', cat:'白色家电', price:'€699', rating:4.8, reviews:8900, trend:'up', insight:'欧盟能效标签改革2026年执行，A级才能上架销售' },
+      { rank:3, asin:'DE-2026-03', title:'E-Cargo电动货运自行车', cat:'出行', price:'€3499', rating:4.6, reviews:3400, trend:'new', insight:'德国城市最后一公里物流，企业采购批量增大' },
+      { rank:4, asin:'DE-2026-04', title:'Matter智能家居网关+4件套', cat:'智能家居', price:'€189', rating:4.5, reviews:12300, trend:'up', insight:'Matter 1.3协议稳定，跨品牌互联打开德国智能家居市场' },
+      { rank:5, asin:'DE-2026-05', title:'竹纤维厨房纸巾可堆肥', cat:'可持续', price:'€12/100张', rating:4.6, reviews:34000, trend:'up', insight:'德国环保意识欧洲最强，OEKO-TEX+可堆肥认证溢价+40%' }
     ],
     'JP': [
-      { rank:1, asin:'JP-001', title:'超高速电热水壶钛金属', cat:'厨房', price:'¥12800', rating:4.8, reviews:45000, trend:'stable', insight:'日本人均烧水频率全球最高，品质敏感' },
-      { rank:2, asin:'JP-002', title:'颈部按摩仪EMS', cat:'健康', price:'¥8900', rating:4.6, reviews:28900, trend:'up', insight:'久坐办公族颈椎问题刚需，礼品属性强' },
-      { rank:3, asin:'JP-003', title:'蒸汽眼罩加热型', cat:'健康', price:'¥1200/6枚', rating:4.7, reviews:89000, trend:'stable', insight:'日本眼疲劳市场成熟，复购率极高' },
-      { rank:4, asin:'JP-004', title:'超声波加湿器静音', cat:'健康家电', price:'¥6800', rating:4.7, reviews:34000, trend:'stable', insight:'日本干燥冬季必备，过滤芯订阅收益' },
-      { rank:5, asin:'JP-005', title:'扫地机器人低噪音', cat:'智能家居', price:'¥29800', rating:4.5, reviews:12000, trend:'up', insight:'日本家庭空间小，薄型机(<8cm)偏好' }
+      { rank:1, asin:'JP-2026-01', title:'AI翻译耳机实时多语言', cat:'AI科技', price:'¥18800', rating:4.6, reviews:23000, trend:'new', insight:'日本旅游业复苏带动翻译设备需求，入境外国人达历史新高' },
+      { rank:2, asin:'JP-2026-02', title:'颈部加热按摩仪3D揉捏', cat:'健康', price:'¥9800', rating:4.7, reviews:56000, trend:'up', insight:'日本1亿人颈椎不适，礼品属性极强(含礼盒版)' },
+      { rank:3, asin:'JP-2026-03', title:'银发防跌倒智能手表', cat:'银发科技', price:'¥14800', rating:4.5, reviews:18000, trend:'up', insight:'日本65岁以上占29.3%全球最高，家庭看护设备刚需' },
+      { rank:4, asin:'JP-2026-04', title:'超薄静音空气净化器', cat:'健康家电', price:'¥19800', rating:4.8, reviews:42000, trend:'stable', insight:'PM2.5+花粉双需求，H14 HEPA成新标准' },
+      { rank:5, asin:'JP-2026-05', title:'可降解宠物拾便袋(100片)', cat:'宠物', price:'¥1200', rating:4.7, reviews:89000, trend:'up', insight:'日本宠物登记狗猫合计1500万，环保需求日益强烈' }
     ],
     'UK': [
-      { rank:1, asin:'UK-001', title:'电热毯双人控温', cat:'家电', price:'£65', rating:4.6, reviews:34500, trend:'up', insight:'能源成本居高，电热毯比暖气便宜80%' },
-      { rank:2, asin:'UK-002', title:'空气炸锅双层抽屉式', cat:'厨房', price:'£89', rating:4.7, reviews:56000, trend:'stable', insight:'英国早采用市场，产品创新持续拉动' },
-      { rank:3, asin:'UK-003', title:'便携充电宝20000mAh磁吸', cat:'3C配件', price:'£35', rating:4.5, reviews:23000, trend:'stable', insight:'MagSafe生态带动磁吸配件需求' },
-      { rank:4, asin:'UK-004', title:'宠物自动喂食器摄像头', cat:'宠物', price:'£79', rating:4.4, reviews:18900, trend:'up', insight:'英国宠物登记率62%，智能宠物设备渗透快' },
-      { rank:5, asin:'UK-005', title:'电动站立办公桌', cat:'家具', price:'£299', rating:4.5, reviews:8900, trend:'up', insight:'混合办公模式固化，家庭办公设备升级' }
+      { rank:1, asin:'UK-2026-01', title:'热泵烤暖器家用便携', cat:'供暖', price:'£145', rating:4.5, reviews:28000, trend:'up', insight:'英国天然气价格仍高，热泵技术下沉至小型设备' },
+      { rank:2, asin:'UK-2026-02', title:'宠物摄像头双向对话+零食投喂', cat:'宠物科技', price:'£89', rating:4.6, reviews:34000, trend:'up', insight:'英国宠物家庭62%，分离焦虑设备爆发' },
+      { rank:3, asin:'UK-2026-03', title:'儿童AI绘本机器人', cat:'AI教育', price:'£65', rating:4.4, reviews:18000, trend:'new', insight:'英国父母教育科技消费意愿强，AI辅助学习接受度高' },
+      { rank:4, asin:'UK-2026-04', title:'折叠电动自行车20英寸', cat:'出行', price:'£749', rating:4.5, reviews:12000, trend:'up', insight:'伦敦骑行友好改造持续，折叠款地铁携带刚需' },
+      { rank:5, asin:'UK-2026-05', title:'太阳能露台加热灯', cat:'户外', price:'£89', rating:4.4, reviews:22000, trend:'up', insight:'英国庭院文化+能源成本，太阳能户外设备年增45%' }
+    ],
+    'SA': [
+      { rank:1, asin:'SA-2026-01', title:'空气净化器HEPA沙尘专用', cat:'家电', price:'SAR680', rating:4.7, reviews:8900, trend:'up', insight:'沙特Vision 2030改善空气质量，沙尘暴季需求峰值+200%' },
+      { rank:2, asin:'SA-2026-02', title:'按摩浴缸便携气泡脚盆', cat:'健康', price:'SAR380', rating:4.6, reviews:12000, trend:'up', insight:'沙特人均消费升级，SPA类产品家用化趋势明显' },
+      { rank:3, asin:'SA-2026-03', title:'游戏周边机械键盘RGB', cat:'游戏', price:'SAR420', rating:4.5, reviews:15000, trend:'up', insight:'沙特游戏产业2030年目标全球前5，年轻人口+游戏消费强' },
+      { rank:4, asin:'SA-2026-04', title:'穆斯林智能电子Quran阅读器', cat:'宗教科技', price:'SAR580', rating:4.8, reviews:23000, trend:'stable', insight:'斋月礼品刚需，阿文AI朗读版需求高' },
+      { rank:5, asin:'SA-2026-05', title:'太阳能庭院灯套装(6个)', cat:'户外', price:'SAR320', rating:4.5, reviews:18000, trend:'up', insight:'沙特太阳能年均日照超300天，户外太阳能产品零费用运营' }
     ]
   },
 
   local_ecom: {
     'Shopee（东南亚）': [
-      { platform:'Shopee', country:'TH/ID/PH', cat:'美容护肤', title:'韩系面膜套装30片', price:'SGD12-25', gmv_rank:1, insight:'东南亚美妆增速30%+，K-beauty风格热度不减' },
-      { platform:'Shopee', country:'ID', cat:'头巾/穆斯林时装', title:'运动速干头巾hijab', price:'IDR45K', gmv_rank:2, insight:'印尼穆斯林运动装备蓝海，主力消费力强' },
-      { platform:'Shopee', country:'PH', cat:'家电', title:'小型空调1HP', price:'PHP12800', gmv_rank:3, insight:'菲律宾全年高温，空调渗透率仍低于30%' },
-      { platform:'Shopee', country:'TH', cat:'宠物用品', title:'猫粮冻干生骨肉', price:'THB350', gmv_rank:4, insight:'泰国宠物经济年增25%，高端粮类增速最快' },
-      { platform:'Shopee', country:'MY', cat:'母婴', title:'可折叠婴儿车轻便款', price:'MYR480', gmv_rank:5, insight:'马来西亚年轻父母数字原住民，线上母婴首选' }
+      { platform:'Shopee', country:'ID/PH/TH', cat:'AI周边数码', title:'AI降噪耳机主动消噪', price:'SGD25-55', gmv_rank:1, insight:'东南亚年轻人数字娱乐消费增速35%，ANC耳机从小众到大众' },
+      { platform:'Shopee', country:'ID', cat:'穆斯林美妆', title:'Halal认证粉底液防汗', price:'IDR65K', gmv_rank:2, insight:'印尼2.7亿穆斯林化妆品市场，清真认证溢价+25%' },
+      { platform:'Shopee', country:'TH', cat:'宠物智能', title:'猫咪自动喂食器APP控制', price:'THB1200', gmv_rank:3, insight:'泰国宠物经济规模全球前15，智能设备接受度高' },
+      { platform:'Shopee', country:'PH', cat:'太阳能', title:'家用太阳能充电系统200W', price:'PHP8500', gmv_rank:4, insight:'菲律宾电费亚洲最贵，太阳能DIY套装投资回报3年以内' },
+      { platform:'Shopee', country:'MY', cat:'AI教育', title:'儿童AI学习机双语版', price:'MYR580', gmv_rank:5, insight:'马来西亚双语家庭比例高，英/马来语AI教育设备需求强' }
     ],
     'Lazada（东南亚）': [
-      { platform:'Lazada', country:'SG', cat:'3C数码', title:'国产TWS耳机降噪款', price:'SGD45', gmv_rank:1, insight:'新加坡通勤族降噪耳机刚需，ANC技术下沉' },
-      { platform:'Lazada', country:'VN', cat:'家具', title:'实木书桌简约款', price:'VND1.2M', gmv_rank:2, insight:'越南中产居家办公趋势，品质家具需求上升' },
-      { platform:'Lazada', country:'ID', cat:'储能', title:'便携电源300Wh', price:'IDR1.8M', gmv_rank:3, insight:'印尼农村停电频繁，便携储能性价比突破' }
+      { platform:'Lazada', country:'SG', cat:'银发科技', title:'智能血压计蓝牙APP同步', price:'SGD68', gmv_rank:1, insight:'新加坡人口老龄化加速，居家健康监测设备刚需' },
+      { platform:'Lazada', country:'VN', cat:'储能', title:'停电应急储能300Wh', price:'VND2.8M', gmv_rank:2, insight:'越南工业园用电缺口，家庭/小店停电应急需求真实' },
+      { platform:'Lazada', country:'ID', cat:'可持续', title:'竹制厨房收纳套装5件', price:'IDR280K', gmv_rank:3, insight:'印尼塑料袋税倒逼替代品，竹制品环保溢价已被接受' }
     ],
     'MercadoLibre（拉美）': [
-      { platform:'MercadoLibre', country:'BR', cat:'汽车配件', title:'倒车摄像头无线', price:'BRL180', gmv_rank:1, insight:'巴西汽车保有量高，改装配件市场庞大' },
-      { platform:'MercadoLibre', country:'MX', cat:'家具', title:'办公椅人体工学', price:'MXN1800', gmv_rank:2, insight:'墨西哥居家办公常态化，办公家具替换潮' },
-      { platform:'MercadoLibre', country:'AR', cat:'电子', title:'太阳能充电宝', price:'ARS15000', gmv_rank:3, insight:'阿根廷经济不稳定，太阳能产品被视为保值品' },
-      { platform:'MercadoLibre', country:'CO', cat:'美容', title:'射频美容仪家用', price:'COP280000', gmv_rank:4, insight:'哥伦比亚医美意识觉醒，家用美容仪需求强' }
+      { platform:'MercadoLibre', country:'MX', cat:'太阳能', title:'家用太阳能系统1kW', price:'MXN12000', gmv_rank:1, insight:'墨西哥电力改革+日照充足，民用太阳能装机2026年翻倍' },
+      { platform:'MercadoLibre', country:'BR', cat:'AI工具', title:'AI绘图平板+手写笔套装', price:'BRL890', gmv_rank:2, insight:'巴西创意经济蓬勃，设计/内容创作者群体消费AI工具' },
+      { platform:'MercadoLibre', country:'CO', cat:'宠物', title:'宠物GPS追踪器防水', price:'COP350000', gmv_rank:3, insight:'哥伦比亚宠物失窃率高，GPS追踪需求刚性' },
+      { platform:'MercadoLibre', country:'AR', cat:'健康', title:'家用血氧仪+额温枪套装', price:'ARS28000', gmv_rank:4, insight:'阿根廷医疗资源分配不均，家庭自测健康设备普及' }
     ],
-    'OTTO（德国）': [
-      { platform:'OTTO', country:'DE', cat:'智能家居', title:'Matter智能插座4口', price:'€35', gmv_rank:1, insight:'Matter协议统一后智能家居购入潮启动' },
-      { platform:'OTTO', country:'DE', cat:'床品家纺', title:'天然乳胶枕头', price:'€89', gmv_rank:2, insight:'德国有机认证床品溢价明显，OEKO-TEX必须' },
-      { platform:'OTTO', country:'DE', cat:'厨房', title:'铸铁锅珐琅内壁', price:'€159', gmv_rank:3, insight:'德国烹饪文化，品质厨具长期需求稳定' }
+    'Noon/Amazon.ae（中东）': [
+      { platform:'Noon', country:'UAE/SA', cat:'AI家居', title:'Matter协议智能面板+AI语音控制', price:'AED280', gmv_rank:1, insight:'中东智能豪宅渗透率全球最高，Matter统一生态推动换代' },
+      { platform:'Noon', country:'SA', cat:'游戏外设', title:'电竞椅Pro+腰靠套装', price:'SAR950', gmv_rank:2, insight:'沙特游戏产业政策支持，18-35岁主力消费人群' },
+      { platform:'Noon', country:'UAE', cat:'高端护肤', title:'中东专研沙漠肌补水精华', price:'AED380', gmv_rank:3, insight:'中东干燥气候护肤刚需，中国成分科技+阿文营销突破' }
     ],
-    'Noon（中东）': [
-      { platform:'Noon', country:'SA/UAE', cat:'智能手机配件', title:'磁吸手机支架车载', price:'AED45', gmv_rank:1, insight:'中东驾车出行率高，车载配件刚需' },
-      { platform:'Noon', country:'SA', cat:'家电', title:'空气净化器HEPA H13', price:'SAR380', gmv_rank:2, insight:'沙特沙尘暴频发，PM2.5净化需求常态化' },
-      { platform:'Noon', country:'UAE', cat:'护肤', title:'香水礼盒中东特供款', price:'AED220', gmv_rank:3, insight:'中东香水消费全球最高，礼品香水市场规模大' }
+    'Ozon（俄罗斯）': [
+      { platform:'Ozon', country:'RU', cat:'国产替代3C', title:'国产安卓平板10.1寸', price:'RUB12800', gmv_rank:1, insight:'苹果/三星制裁后，中国品牌市占率飙升至55%' },
+      { platform:'Ozon', country:'RU', cat:'家用医疗', title:'家用理疗仪红外热敷', price:'RUB3800', gmv_rank:2, insight:'俄罗斯进口医疗器械受限，国内替代品需求旺盛' },
+      { platform:'Ozon', country:'KZ', cat:'储能', title:'便携储能500Wh多路输出', price:'KZT95000', gmv_rank:3, insight:'哈萨克斯坦冬季停电风险，储能应急产品需求刚性' }
     ]
   },
 
   social_hotwords: {
     'TikTok': [
-      { keyword:'#CleanTok', count:'45B', product:'洗碗机清洁片/消毒喷雾/洗地机', insight:'清洁类视频持续爆发，展示性产品转化率高' },
-      { keyword:'#BedRotting', count:'8B', product:'高品质床品/记忆棉枕头/睡眠眼罩', insight:'Gen-Z居家疗愈趋势，床品消费升级' },
-      { keyword:'#RoomDecor', count:'120B', product:'LED氛围灯/挂钟/艺术画/储物格', insight:'房间改造视频经久不衰，标杆爆品IKEA竞品机会' },
-      { keyword:'#StanleyCup', count:'28B', product:'大容量保温杯/吸管杯/户外水杯', insight:'Stanley现象带动保温杯赛道，国内替代品机会大' },
-      { keyword:'#AirFryer', count:'18B', product:'空气炸锅/煎锅/烤盘', insight:'饮食创作内容核心道具，功能多样化拉动复购' },
-      { keyword:'#OutdoorChair', count:'5B', product:'折叠椅/月亮椅/露营椅', insight:'Cottagecore美学推动户外家具TikTok电商爆发' },
-      { keyword:'#GlassHair', count:'12B', product:'发膜/直发梳/离子夹', insight:'发型护理趋势带动美发工具需求' },
-      { keyword:'#DigitalNomad', count:'22B', product:'便携显示器/折叠键盘/降噪耳机/旅行包', insight:'数字游民增加，移动办公设备套装有机会' }
+      { keyword:'#AIProductivity', count:'38B', product:'AI录音笔/AI翻译器/AI绘图板', insight:'2026年AI工具消费主流化，办公效率设备TikTok测评带货' },
+      { keyword:'#CleanTok', count:'52B', product:'洗地机/消毒凝胶棒/超声波清洗机', insight:'清洁赛道仍是TikTok最强带货场景，视觉冲击感决定转化' },
+      { keyword:'#SeniorTech', count:'12B', product:'防跌倒智能鞋/大字手机/智能药盒', insight:'婴儿潮老龄化主题，90后帮父母买单成为主要购买决策链' },
+      { keyword:'#OutdoorDining', count:'18B', product:'便携气炸锅/户外折叠桌/太阳能冰箱', insight:'露营/庭院生活方式持续扩散，户外烹饪场景扩展' },
+      { keyword:'#PetHotel', count:'8B', product:'宠物智能摄像头/自动饮水机/猫厕所', insight:'宠物消费人格化趋势，单品客单价持续走高' },
+      { keyword:'#GreenHome', count:'22B', product:'竹制收纳/可堆肥垃圾袋/LED节能灯', insight:'Z世代绿色消费意识驱动，可持续认证成品牌护城河' },
+      { keyword:'#GameSetup', count:'35B', product:'RGB灯条/游戏桌椅/机械键盘/电竞鼠标', insight:'游戏房间改造热持续，内容属性强，直播场景高频出现' },
+      { keyword:'#MindfulMorning', count:'15B', product:'空气净化器/白噪音机/Sunrise闹钟灯', insight:'心理健康消费化，早晨仪式感产品溢价30%以上' }
     ],
     'Instagram': [
-      { keyword:'Aesthetic Home', count:'1.2B posts', product:'极简灯具/大理石纹家具/香薰蜡烛', insight:'家居美学账号推动品牌溢价，白领女性主导' },
-      { keyword:'Fitness Lifestyle', count:'850M posts', product:'哑铃/瑜伽垫/健身服/蛋白粉', insight:'家庭健身设备疫情后渗透率稳定在高位' },
-      { keyword:'Sustainable Living', count:'420M posts', product:'可降解餐具/竹制日用品/可折叠购物袋', insight:'可持续消费从小众到主流，北欧/西欧引领' },
-      { keyword:'Modest Fashion', count:'380M posts', product:'遮体时装/运动头巾/穆斯林泳衣', insight:'全球穆斯林时尚市场3370亿美元，TikTok/INS双渠道' }
+      { keyword:'AI Art Studio', count:'890M posts', product:'AI绘图平板/手写板/数字框架屏', insight:'创作经济兴起，AI辅助创作工具成创作者核心装备' },
+      { keyword:'Quiet Luxury', count:'1.5B posts', product:'奶油色家居/无LOGO极简包/羊绒针织', insight:'安静奢华美学替代炫富，高质感低调品牌溢价空间' },
+      { keyword:'Functional Fitness', count:'980M posts', product:'哑铃套装/壶铃/健身镜/泡沫滚轴', insight:'家庭健身房永久化，功能性健身装备复购率高' },
+      { keyword:'Halal Beauty', count:'620M posts', product:'清真口红/无酒精香水/清真护肤', insight:'全球穆斯林美妆市场年增15%，TikTok+INS双平台渗透' }
     ],
     'YouTube': [
-      { keyword:'Van Life', count:'8B views', product:'车载冰箱/太阳能板/便携储能/车载厨具', insight:'旅居车生活趋势，全套户外生活系统需求' },
-      { keyword:'Budget Travel Gear', count:'4B views', product:'压缩打包袋/旅行枕/折叠水瓶', insight:'价格敏感旅行博主测评带货，信任度高' },
-      { keyword:'Smart Home Setup', count:'6B views', product:'智能插座/窗帘电机/门铃摄像头/NAS存储', insight:'Matter协议统一推动全屋智能入门门槛降低' },
-      { keyword:'Retro Tech', count:'2.5B views', product:'黑胶唱机/胶片相机/复古收音机', insight:'复古科技怀旧消费，年轻人反科技焦虑' }
-    ]
-  },
-
-  ai_search_trends: {
-    'ChatGPT热门提问': [
-      { query:'best portable power station 2025', product:'便携储能电源', insight:'GPT搜索用户高购买意向，推荐结果直接转化' },
-      { query:'affordable robot vacuum with LiDAR', product:'激光导航扫地机', insight:'技术参数导向搜索，品质需求明确' },
-      { query:'noise canceling headphones under $100', product:'ANC降噪耳机', insight:'价格区间明确，国内品牌Anker/QCY替代空间大' },
-      { query:'solar panel for camping van', product:'车载折叠太阳能板', insight:'场景明确，户外垂直用户高价值' },
-      { query:'smart home devices compatible with Matter', product:'Matter智能家居设备', insight:'协议统一后新一波智能家居普及潮' },
-      { query:'ergonomic chair home office 2025', product:'人体工学椅', insight:'居家办公刚需，$300-600价格带竞争激烈' }
-    ],
-    'Perplexity热门查询': [
-      { query:'which country makes the best LED grow lights', product:'植物生长灯（中国主导）', insight:'Perplexity对信息源透明，中国品牌正面曝光机会' },
-      { query:'Chinese EV brands available in Europe', product:'中国新能源车', insight:'消费者主动了解中国品牌，认知窗口期' },
-      { query:'best OSMO pocket alternative', product:'便携云台相机', insight:'DJI平替需求旺盛，中价位市场空缺' },
-      { query:'air purifier for wildfire smoke', product:'空气净化器（HEPA H13）', insight:'北美野火季性需求激增，精准场景定位' }
+      { keyword:'Off-Grid Living', count:'12B views', product:'太阳能系统/储能/净水设备/卫星通讯', insight:'美国"逃离城市"趋势，完整离网系统客单价$3000+' },
+      { keyword:'AI Gadget Reviews', count:'9B views', product:'AI录笔/AR眼镜/AI音箱/本地大模型设备', insight:'科技博主测评驱动消费，新品首发7天决定市场声量' },
+      { keyword:'Elderly Parent Care', count:'5B views', product:'智能药盒/防跌感应灯/视频通话大屏', insight:'三明治一代照护父母需求，远程看护设备信任度来源YouTube' },
+      { keyword:'Budget Build PC', count:'8B views', product:'CPU散热器/M.2固态硬盘/机箱风扇', insight:'DIY电脑文化，高性价比零件信息差机会' }
     ]
   },
 
   product_recommendations: [
     {
-      trend:'TikTok #CleanTok + 居家清洁',
+      trend:'AI硬件消费化 2026',
       products: [
-        { name:'超细纤维圆盘拖把替换头', targetMarket:'US/UK/AU', hs:'9603', priceUS:'$15-35', certNeeded:['CE','CPSC无需'], channel:'TikTok Shop+亚马逊', timeline:'Q3旺季前' },
-        { name:'洗碗机专用清洁片（泡腾式）', targetMarket:'DE/UK/US', hs:'3402', priceUS:'$18-25/30片', certNeeded:['EPA DfE认证','EU清洁剂法规'], channel:'亚马逊Subscribe&Save', timeline:'常青款' }
+        { name:'AI录音笔+实时转录(32GB)', targetMarket:'US/UK/JP/AU', hs:'8519', priceUS:'$89-149', certNeeded:['FCC','CE','PSE'], channel:'亚马逊+品牌官网', timeline:'Q3-Q4旺季' },
+        { name:'儿童AI学习机 双语对话', targetMarket:'US/DE/UK/SA', hs:'8471', priceUS:'$65-99', certNeeded:['FCC','CE','UKCA','CPSC'], channel:'TikTok Shop+亚马逊', timeline:'开学季/圣诞季' },
+        { name:'AR轻量化眼镜(显示/导航)', targetMarket:'US/JP/KR', hs:'9004', priceUS:'$199-399', certNeeded:['FCC','CE','KC'], channel:'亚马逊+独立站', timeline:'Q4 2026' }
       ]
     },
     {
-      trend:'AI搜索 + 户外储能',
+      trend:'银发科技/养老经济',
       products: [
-        { name:'LiFePO4便携储能1200Wh', targetMarket:'US/DE/AU', hs:'8507', priceUS:'$599-899', certNeeded:['UL9540','CE','RCM'], channel:'亚马逊+独立站', timeline:'Q2-Q3户外季' },
-        { name:'100W单晶折叠太阳能板套装', targetMarket:'US/AU/DE', hs:'8541', priceUS:'$149-229', certNeeded:['IEC61215','CE','MCS(英国)'], channel:'亚马逊+品牌独立站', timeline:'全年' }
+        { name:'防跌倒智能感应夜灯套装(4个)', targetMarket:'US/UK/JP/DE/AU', hs:'9405', priceUS:'$35-55', certNeeded:['UL','CE','RCM'], channel:'亚马逊/OTTO', timeline:'全年刚需' },
+        { name:'蓝牙血压计+APP血压日历', targetMarket:'US/DE/JP/SA', hs:'9019', priceUS:'$45-79', certNeeded:['FDA Class II 510k','CE MDR','PSE'], channel:'亚马逊+药店渠道', timeline:'全年' },
+        { name:'便携折叠轻量电动轮椅<15kg', targetMarket:'US/UK/AU/JP', hs:'8713', priceUS:'$799-1299', certNeeded:['FDA Class I','CE','TGA'], channel:'医疗器械经销商+亚马逊', timeline:'全年' }
       ]
     },
     {
-      trend:'Instagram Modest Fashion + 穆斯林市场',
+      trend:'宠物科技全球化',
       products: [
-        { name:'速干运动头巾（UPF50+多色）', targetMarket:'ID/SA/UAE/MY', hs:'6117', priceUS:'$8-18', certNeeded:['OEKO-TEX','清真(ID需)'], channel:'Shopee/Lazada/Noon', timeline:'斋月前2个月' },
-        { name:'穆斯林泳衣全遮体款', targetMarket:'ID/MY/SA', hs:'6211', priceUS:'$25-65', certNeeded:['OEKO-TEX'], channel:'Lazada/Noon/独立站', timeline:'旅游季前' }
+        { name:'宠物GPS+健康监测项圈', targetMarket:'US/UK/AU/SE', hs:'8517', priceUS:'$69+$9.99/月', certNeeded:['FCC','CE','ICASA'], channel:'亚马逊+DTC订阅', timeline:'全年，促销节点Q4' },
+        { name:'自动猫咪喂食器AI识别', targetMarket:'US/JP/UK/TH', hs:'8479', priceUS:'$89-149', certNeeded:['FCC','CE','PSC(JP)'], channel:'Shopee+亚马逊+TikTok', timeline:'全年' }
+      ]
+    },
+    {
+      trend:'离网/储能生活方式',
+      products: [
+        { name:'LiFePO4储能2000Wh+双100W折叠板', targetMarket:'US/DE/AU/UK', hs:'8507', priceUS:'$1199-1599', certNeeded:['UL9540','CE','RCM','IEC62133'], channel:'亚马逊+REI+独立站', timeline:'Q2-Q3户外季' },
+        { name:'家庭太阳能+储能一体机5kWh', targetMarket:'DE/AU/SA/ZA', hs:'8507', priceUS:'€2999-4999', certNeeded:['CE','VDE','CEC(AU)','SASO'], channel:'本地经销商+B2B工程商', timeline:'全年' }
+      ]
+    },
+    {
+      trend:'清真/穆斯林消费市场',
+      products: [
+        { name:'Halal认证防汗粉底+气垫套装', targetMarket:'ID/MY/SA/UAE/TR', hs:'3304', priceUS:'$18-35', certNeeded:['HALAL MUI(ID)','SFDA(SA)','JAKIM(MY)'], channel:'Shopee/Noon/TikTok', timeline:'斋月前2个月黄金期' },
+        { name:'速干UPF50+ 穆斯林运动服套装', targetMarket:'ID/SA/UAE/MY/TR', hs:'6211', priceUS:'$22-45', certNeeded:['OEKO-TEX','HALAL(可选)'], channel:'Lazada/Noon/Instagram', timeline:'伊斯兰体育赛事季' }
       ]
     }
   ]
 };
-
 
 </script>
 <!-- ===== UI LOGIC: Tab5 & Tab6 ===== -->
@@ -4143,12 +4149,44 @@ function runTariff() {
   ].filter(function(x){ return x.val > 0; }).map(function(x){
     return '<div class="flex justify-between py-1 border-b border-white/5 text-xs"><span class="text-gray-400">'+x.label+'</span><span class="'+x.color+'">+'+x.val+'%</span></div>';
   }).join('');
+  // 风险等级判定
+  var totalDuty = (r.breakdown.mfn||0) + (r.breakdown.antidumping||0) + (r.breakdown.section301||0) + (r.breakdown.other||0);
+  var riskLevel = totalDuty >= 50 ? 'high' : totalDuty >= 20 ? 'medium' : 'low';
+  var riskBanner = '';
+  if(riskLevel === 'high') {
+    // 推荐替代市场
+    var allMarkets = ['US','EU','UK','JP','AU','IN','SA','BR','KR','TR','MX'];
+    var altMarkets = [];
+    allMarkets.forEach(function(m) {
+      if(m === dest) return;
+      var altDb = TARIFF_DB[hs] && TARIFF_DB[hs][m];
+      if(!altDb) return;
+      var altTotal = (altDb.mfn||0) + (altDb.antidumping||0) + (altDb.special301||altDb.special||0);
+      if(altTotal < 15) altMarkets.push(destNames[m] || m);
+    });
+    var altText = altMarkets.length ? '推荐替代市场：' + altMarkets.slice(0,3).join(' / ') : '建议通过第三国转口或调整HS归类';
+    riskBanner = '<div class="bg-red-500/10 border border-red-500/30 rounded-xl p-4 mb-2">' +
+      '<div class="flex items-start gap-2">' +
+        '<span class="text-red-400 text-lg flex-shrink-0">&#128721;</span>' +
+        '<div>' +
+          '<div class="text-red-400 font-semibold text-sm mb-1">高壁垒预警：综合税率达 '+totalDuty+'%</div>' +
+          '<div class="text-xs text-red-300/80">出口竞争力严重受损，建议重新评估该市场可行性。</div>' +
+          '<div class="text-xs text-yellow-300 mt-1">&#128161; '+altText+'</div>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  } else if(riskLevel === 'medium') {
+    riskBanner = '<div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-3 mb-2">' +
+      '<div class="text-yellow-400 text-xs"><span class="font-semibold">&#9888; 中等壁垒：</span>综合税率 '+totalDuty+'%，请确认售价空间。可申请原产地优惠/FTA降税。</div>' +
+    '</div>';
+  }
   el.innerHTML =
-    '<div class="space-y-4">' +
+    '<div class="space-y-3">' +
+      riskBanner +
       '<div class="bg-slate-800/50 rounded-xl p-4">' +
         '<div class="text-xs text-gray-400 mb-3">&#128202; 关税构成明细</div>' +
         bkRows +
-        '<div class="flex justify-between py-1 text-sm font-bold mt-1"><span class="text-white">合计税率</span><span class="text-red-300">'+r.dutyRate+'</span></div>' +
+        '<div class="flex justify-between py-1 text-sm font-bold mt-1"><span class="text-white">合计税率</span><span class="'+(riskLevel==='high'?'text-red-400':riskLevel==='medium'?'text-yellow-400':'text-green-400')+'">'+r.dutyRate+'</span></div>' +
       '</div>' +
       '<div class="grid grid-cols-2 gap-3">' +
         '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-lg font-bold text-blue-400">$'+r.cifUSD.toLocaleString()+'</div><div class="text-xs text-gray-400">CIF到港价</div></div>' +
@@ -4156,7 +4194,7 @@ function runTariff() {
         '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-lg font-bold text-yellow-400">$'+r.vatAmt.toLocaleString()+'</div><div class="text-xs text-gray-400">增值税('+r.vatRate+')</div></div>' +
         '<div class="bg-green-400/10 border border-green-400/20 rounded-xl p-3 text-center"><div class="text-xl font-bold text-green-300">$'+r.landedCost.toLocaleString()+'</div><div class="text-xs text-gray-400">完税落地价</div></div>' +
       '</div>' +
-      (r.note ? '<div class="bg-yellow-400/5 border border-yellow-400/20 rounded-lg p-3 text-xs text-yellow-300"><span class="font-medium">&#9888; 注意：</span>'+r.note+'</div>' : '') +
+      (r.note ? '<div class="bg-blue-400/5 border border-blue-400/20 rounded-lg p-3 text-xs text-blue-300"><span class="font-medium">&#128216; 说明：</span>'+r.note+'</div>' : '') +
     '</div>';
 }
 
@@ -4176,7 +4214,7 @@ function switchTrendView(view, btn) {
 
 function renderTrendBSR() {
   var el = document.getElementById('trend-bsr');
-  if(!el || el.innerHTML) return;
+  if(!el) return;
   var markets = Object.keys(TRENDING_DB.amazon_bsr);
   var html = markets.map(function(mkt){
     var items = TRENDING_DB.amazon_bsr[mkt];
@@ -4200,7 +4238,7 @@ function renderTrendBSR() {
 
 function renderTrendLocal() {
   var el = document.getElementById('trend-local');
-  if(!el || el.innerHTML) return;
+  if(!el) return;
   var platforms = Object.keys(TRENDING_DB.local_ecom);
   var html = platforms.map(function(pf){
     var items = TRENDING_DB.local_ecom[pf];
@@ -4221,7 +4259,7 @@ function renderTrendLocal() {
 
 function renderTrendSocial() {
   var el = document.getElementById('trend-social');
-  if(!el || el.innerHTML) return;
+  if(!el) return;
   var platforms = Object.keys(TRENDING_DB.social_hotwords);
   var html = platforms.map(function(pf){
     var items = TRENDING_DB.social_hotwords[pf];
@@ -4242,7 +4280,7 @@ function renderTrendSocial() {
 
 function renderTrendRecommend() {
   var el = document.getElementById('trend-recommend');
-  if(!el || el.innerHTML) return;
+  if(!el) return;
   var html = TRENDING_DB.product_recommendations.map(function(rec){
     var prodHtml = rec.products.map(function(p){
       var certs = p.certNeeded.map(function(c){ return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
