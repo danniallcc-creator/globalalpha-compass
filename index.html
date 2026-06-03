@@ -745,19 +745,67 @@ function fetchRates() {
 
 // 2. 金价: metals.live (免费, 无需Key)
 function fetchGold() {
-  fetch('https://data-asg.goldprice.org/dbXRates/USD')
+  // 主API: fawazahmed0 CDN (XAU->USD倒数), 免密钥, 全球CDN稳定
+  fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
     .then(function(r){return r.json();})
     .then(function(d) {
-      if(d && d.items && d.items[0]) {
-        var price = parseFloat(d.items[0].xauPrice).toFixed(2);
-        if($el('t-gold')) $el('t-gold').textContent = '伦敦金 $' + price + '/oz';
+      var xau = d && d.usd && d.usd.xau;
+      if(xau) {
+        var price = (1 / parseFloat(xau)).toFixed(2);
+        if($el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 $' + price + '/oz';
+      } else { fetchGoldBackup(); }
+    })
+    .catch(function(){ fetchGoldBackup(); });
+}
+
+function fetchGoldBackup() {
+  // 备用API: stooq CSV接口 (通过CORS代理)
+  fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://stooq.com/q/l/?s=xauusd&f=sd2t2ohlc&h&e=csv'))
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d && d.contents){
+        var lines = d.contents.trim().split('\n');
+        if(lines.length > 1){
+          var cols = lines[1].split(',');
+          var price = parseFloat(cols[cols.length-1]).toFixed(2);
+          if(!isNaN(price) && $el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 $' + price + '/oz';
+        }
       }
     })
-    .catch(function(){
-      // 备用：Open Exchange Rates metals endpoint
-      fetch('https://openexchangerates.org/api/latest.json?app_id=&symbols=XAU')
-        .catch(function(){});
-    });
+    .catch(function(){});
+}
+
+function fetchOil() {
+  // 主API: EIA公开数据 (DEMO_KEY, 有速率限制但免费)
+  var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?api_key=DEMO_KEY&frequency=daily' +
+    '&data%5B0%5D=value&facets%5Bproduct%5D%5B%5D=EPCBRENT' +
+    '&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=1';
+  fetch(eiaUrl)
+    .then(function(r){return r.json();})
+    .then(function(d){
+      var rows = d && d.response && d.response.data;
+      if(rows && rows.length){
+        var price = parseFloat(rows[0].value).toFixed(2);
+        if(!isNaN(price) && $el('t-oil'))
+          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + price + '/\u6876';
+      } else { fetchOilBackup(); }
+    })
+    .catch(function(){ fetchOilBackup(); });
+}
+
+function fetchOilBackup() {
+  // 备用API: Yahoo Finance BZ=F (布伦特原油期货)
+  fetch('https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=1d')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      var result = d && d.chart && d.chart.result;
+      if(result && result[0]){
+        var price = result[0].meta && result[0].meta.regularMarketPrice;
+        if(price && $el('t-oil'))
+          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + parseFloat(price).toFixed(2) + '/\u6876';
+      }
+    })
+    .catch(function(){});
 }
 
 // 3. 新闻: GNews (免费 tier 100req/day)
@@ -1121,9 +1169,11 @@ document.addEventListener('DOMContentLoaded', function() {
   setInterval(updateClock, 1000);
   fetchRates();
   fetchGold();
+  fetchOil();
   fetchNews();
   setInterval(fetchRates, 60000);   // 每分钟刷新汇率
   setInterval(fetchGold,  120000);  // 每2分钟刷新金价
+  setInterval(fetchOil,   180000);  // 每3分钟刷新油价
 
   // SCFI 图表（在地图Tab激活时再画，避免canvas尺寸为0）
   document.querySelector('[onclick*="tab-map"]').addEventListener('click', function(){
