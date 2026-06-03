@@ -498,27 +498,47 @@ function switchTab(id, btn) {
 // 实时 API 抓取
 // ============================================================
 
-// 1. 汇率: Frankfurter (免费无需Key)
+// 1. 汇率: open.er-api.com (免费无需Key，以USD为基准交叉计算对CNY汇率)
 function fetchRates() {
-  fetch('https://api.frankfurter.app/latest?from=CNY&to=USD,EUR,GBP,JPY,AUD,SGD,AED,THB')
-    .then(function(r){return r.json();})
+  fetch('https://open.er-api.com/v6/latest/USD')
+    .then(function(r){ return r.json(); })
     .then(function(d) {
       if(!d.rates) return;
       var r = d.rates;
-      // 显示为 X/CNY 即 1/rate
-      var usd = r.USD ? (1/r.USD).toFixed(4) : '7.2651';
-      var eur = r.EUR ? (1/r.EUR).toFixed(4) : '7.8432';
-      var gbp = r.GBP ? (1/r.GBP).toFixed(4) : '9.1823';
+      var cny = r.CNY;
+      if(!cny) return;
+      // X/CNY = CNY数量 / X数量（即1单位外币换多少人民币）
+      var usd = cny.toFixed(4);
+      var eur = r.EUR ? (cny / r.EUR).toFixed(4) : '7.8836';
+      var gbp = r.GBP ? (cny / r.GBP).toFixed(4) : '9.1259';
+      var jpy = r.JPY ? (cny / r.JPY * 100).toFixed(4) : null; // 100日元对CNY
+      var aud = r.AUD ? (cny / r.AUD).toFixed(4) : null;
       if($el('t-usdcny')) $el('t-usdcny').textContent = 'USD/CNY ' + usd;
       if($el('t-eurcny')) $el('t-eurcny').textContent = 'EUR/CNY ' + eur;
       if($el('t-gbpcny')) $el('t-gbpcny').textContent = 'GBP/CNY ' + gbp;
-      window._rates = {usd:parseFloat(usd), eur:parseFloat(eur), gbp:parseFloat(gbp), jpy:r.JPY?(1/r.JPY*100).toFixed(2):null};
-      // 更新汇率风险评分（波动越大分越高）
-      var score = Math.min(99, Math.round(Math.abs(parseFloat(usd)-7.2)*100));
+      window._rates = {usd:parseFloat(usd), eur:parseFloat(eur), gbp:parseFloat(gbp), jpy:jpy, aud:aud};
+      // 汇率风险评分：USD/CNY偏离7.2越大风险越高
+      var score = Math.min(99, Math.round(Math.abs(parseFloat(usd) - 7.2) * 100));
       if($el('fx-risk-score')) $el('fx-risk-score').textContent = score;
       if($el('fx-risk-bar')) $el('fx-risk-bar').style.width = score + '%';
     })
-    .catch(function(){/* 保持静态兜底 */});
+    .catch(function() {
+      // 备用：fawazahmed0 CDN镜像（100%免费无频次限制）
+      fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
+        .then(function(r){ return r.json(); })
+        .then(function(d) {
+          var r = d.usd || {};
+          var cny = r.cny;
+          if(!cny) return;
+          var usd = cny.toFixed(4);
+          var eur = r.eur ? (cny / r.eur).toFixed(4) : '7.88';
+          var gbp = r.gbp ? (cny / r.gbp).toFixed(4) : '9.13';
+          if($el('t-usdcny')) $el('t-usdcny').textContent = 'USD/CNY ' + usd;
+          if($el('t-eurcny')) $el('t-eurcny').textContent = 'EUR/CNY ' + eur;
+          if($el('t-gbpcny')) $el('t-gbpcny').textContent = 'GBP/CNY ' + gbp;
+        })
+        .catch(function(){/* 保持静态兜底 */});
+    });
 }
 
 // 2. 金价: metals.live (免费, 无需Key)
