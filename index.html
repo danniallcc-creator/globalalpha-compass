@@ -193,27 +193,27 @@ input[type=range]{accent-color:#60a5fa}
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
     <div class="card p-5">
       <div class="text-xs text-gray-400 mb-1">综合风险指数</div>
-      <div class="text-3xl font-bold text-yellow-400">62</div>
-      <div class="risk-bar mt-2"><div class="risk-fill bg-yellow-400" style="width:62%"></div></div>
-      <div class="text-xs text-gray-500 mt-2">中等风险</div>
+      <div class="text-3xl font-bold text-red-400">78</div>
+      <div class="risk-bar mt-2"><div class="risk-fill bg-red-400" style="width:78%"></div></div>
+      <div class="text-xs text-gray-500 mt-2">高风险 &#8593;16</div>
     </div>
     <div class="card p-5">
-      <div class="text-xs text-gray-400 mb-1">能源价格风险</div>
-      <div class="text-3xl font-bold text-orange-400">54</div>
-      <div class="risk-bar mt-2"><div class="risk-fill bg-orange-400" style="width:54%"></div></div>
-      <div class="text-xs text-gray-500 mt-2">油价震荡</div>
+      <div class="text-xs text-gray-400 mb-1">贸易政策风险</div>
+      <div class="text-3xl font-bold text-red-400">91</div>
+      <div class="risk-bar mt-2"><div class="risk-fill bg-red-400" style="width:91%"></div></div>
+      <div class="text-xs text-gray-500 mt-2">关税战极端风险</div>
     </div>
     <div class="card p-5">
       <div class="text-xs text-gray-400 mb-1">汇率波动风险</div>
-      <div class="text-3xl font-bold text-blue-400" id="fx-risk-score">38</div>
-      <div class="risk-bar mt-2"><div id="fx-risk-bar" class="risk-fill bg-blue-400" style="width:38%"></div></div>
-      <div class="text-xs text-gray-500 mt-2">实时更新</div>
+      <div class="text-3xl font-bold text-yellow-400" id="fx-risk-score">55</div>
+      <div class="risk-bar mt-2"><div id="fx-risk-bar" class="risk-fill bg-yellow-400" style="width:55%"></div></div>
+      <div class="text-xs text-gray-500 mt-2">人民币承压</div>
     </div>
     <div class="card p-5">
       <div class="text-xs text-gray-400 mb-1">地缘政治风险</div>
-      <div class="text-3xl font-bold text-red-400">75</div>
-      <div class="risk-bar mt-2"><div class="risk-fill bg-red-400" style="width:75%"></div></div>
-      <div class="text-xs text-gray-500 mt-2">高风险</div>
+      <div class="text-3xl font-bold text-red-400">82</div>
+      <div class="risk-bar mt-2"><div class="risk-fill bg-red-400" style="width:82%"></div></div>
+      <div class="text-xs text-gray-500 mt-2">多点冲突高位</div>
     </div>
   </div>
   <!-- Warning list -->
@@ -227,6 +227,11 @@ input[type=range]{accent-color:#60a5fa}
       <div id="orange-warnings" class="space-y-3"></div>
     </div>
   </div>
+  <!-- Green opportunities -->
+  <div class="card p-6 mb-6">
+    <h3 class="font-bold mb-4 text-green-400">&#9989; 绿色机遇窗口</h3>
+    <div id="green-opportunities" class="grid md:grid-cols-3 gap-3"></div>
+  </div>
   <!-- Charts row -->
   <div class="grid md:grid-cols-2 gap-6 mb-8">
     <div class="card p-6">
@@ -238,6 +243,7 @@ input[type=range]{accent-color:#60a5fa}
       <canvas id="commodity-chart" height="120"></canvas>
     </div>
   </div>
+  <div class="text-xs text-gray-500 text-right">数据更新: 2026-Q2 | 风险评分基于AI多维度综合评估</div>
 </div>
 
 <!-- ==================== TAB 4: 实时情报流 ==================== -->
@@ -507,7 +513,7 @@ input[type=range]{accent-color:#60a5fa}
 // 国家数据库
 // ============================================================
 var COUNTRIES = [
-  {name:'美国',   flag:'&#127482;&#127480;', gdp:76000, pop:332,  growth:2.1, region:'北美',   risk:35, lat:38,  lng:-97},
+  {name:'美国',   flag:'&#127482;&#127480;', gdp:76000, pop:332,  growth:2.1, region:'北美',   risk:62, lat:38,  lng:-97},
   {name:'德国',   flag:'&#127465;&#127466;', gdp:51000, pop:83,   growth:1.5, region:'欧洲',   risk:28, lat:51,  lng:10},
   {name:'英国',   flag:'&#127468;&#127463;', gdp:46000, pop:68,   growth:1.8, region:'欧洲',   risk:32, lat:55,  lng:-3},
   {name:'法国',   flag:'&#127467;&#127479;', gdp:43000, pop:68,   growth:1.6, region:'欧洲',   risk:30, lat:46,  lng:2},
@@ -517,9 +523,9 @@ var COUNTRIES = [
   {name:'加拿大', flag:'&#127464;&#127462;', gdp:54000, pop:38,   growth:2.0, region:'北美',   risk:20, lat:56,  lng:-106},
   {name:'巴西',   flag:'&#127463;&#127479;', gdp:9000,  pop:214,  growth:4.5, region:'新兴',   risk:55, lat:-15, lng:-51},
   {name:'印度',   flag:'&#127470;&#127475;', gdp:2500,  pop:1400, growth:6.8, region:'新兴',   risk:45, lat:20,  lng:78},
-  {name:'越南',   flag:'&#127483;&#127475;', gdp:4100,  pop:98,   growth:6.2, region:'东南亚', risk:38, lat:16,  lng:108},
+  {name:'越南',   flag:'&#127483;&#127475;', gdp:4100,  pop:98,   growth:6.2, region:'东南亚', risk:32, lat:16,  lng:108},
   {name:'印尼',   flag:'&#127470;&#127465;', gdp:4500,  pop:273,  growth:5.2, region:'东南亚', risk:42, lat:-5,  lng:120},
-  {name:'墨西哥', flag:'&#127474;&#127485;', gdp:10000, pop:130,  growth:3.2, region:'新兴',   risk:50, lat:23,  lng:-102},
+  {name:'墨西哥', flag:'&#127474;&#127485;', gdp:10000, pop:130,  growth:3.2, region:'新兴',   risk:38, lat:23,  lng:-102},
   {name:'沙特',   flag:'&#127480;&#127462;', gdp:24000, pop:36,   growth:3.8, region:'中东',   risk:60, lat:24,  lng:45},
   {name:'阿联酋', flag:'&#127462;&#127466;', gdp:44000, pop:10,   growth:4.0, region:'中东',   risk:40, lat:24,  lng:54}
 ];
@@ -696,16 +702,22 @@ var PRICING = {
 // 新闻数据（静态库 + API 补充）
 // ============================================================
 var NEWS_STATIC = [
-  {tag:'trade',risk:'high',title:'美国对华额外关税调整最新动态',summary:'白宫贸易代表办公室宣布对部分商品关税税率进行复审，涵盖电子产品、机电设备等类别，出口商需及时评估影响。',time:'2小时前',src:'Reuters'},
-  {tag:'shipping',risk:'med',title:'红海局势持续影响全球供应链',summary:'胡塞武装再次袭击商船事件导致苏伊士运河通道绕行比例上升，亚欧航线运价指数(SCFI)当周上行2.3%。',time:'4小时前',src:'Lloyd\'s List'},
-  {tag:'energy',risk:'med',title:'布伦特原油受OPEC+减产延长支撑',summary:'OPEC+宣布将自愿减产协议延长至2026年Q1，布伦特原油报76.4美元/桶，能源密集型出口企业成本压力上升。',time:'5小时前',src:'Bloomberg'},
-  {tag:'policy',risk:'high',title:'欧盟碳边境调节机制CBAM 2026年全面实施',summary:'欧盟CBAM将于2026年1月起对钢铁、铝、化肥、水泥等六大行业出口商征收碳边境税，企业需提前申报嵌入碳排放数据。',time:'8小时前',src:'EUR-Lex'},
-  {tag:'trade',risk:'low',title:'东盟-澳新自贸协定(AANZFTA)升级议定书生效',summary:'AANZFTA第二议定书正式生效，东盟成员国对澳大利亚、新西兰关税进一步降低，为出口商打开新通道。',time:'1天前',src:'WTO'},
-  {tag:'shipping',risk:'high',title:'巴拿马运河水位持续偏低限制过闸数量',summary:'受厄尔尼诺影响，巴拿马运河日过闸船只仍低于正常水平约20%，大型散货船及集装箱船受影响最大。',time:'1天前',src:'Splash247'},
-  {tag:'policy',risk:'med',title:'印度BIS强制认证扩展至更多电子产品',summary:'印度工业标准局(BIS)将强制认证范围扩大至LED灯具、充电器等品类，出口商须在90天内完成注册。',time:'2天前',src:'BIS India'},
-  {tag:'energy',risk:'low',title:'天然气价格回落为欧洲出口提供成本红利',summary:'欧洲TTF天然气价格较2022年高点下跌逾70%，为中国制造业对欧出口提供竞争空间，特别是能源密集型产品。',time:'2天前',src:'Platts'},
-  {tag:'trade',risk:'med',title:'越南成为全球第四大电子产品出口国',summary:'2026年Q1越南电子产品出口额同比增长18%，三星、LG等持续扩大在越产能，东南亚供应链重构加速。',time:'3天前',src:'VCCI'},
-  {tag:'policy',risk:'high',title:'美国《清洁竞争法案》立法进程加快',summary:'美国参议院正在推进对进口高碳产品征收碳税法案，涉及化工、钢铁、铝材等多个品类，预计2027年实施。',time:'3天前',src:'S&P Global'}
+  // 2026-Q2 最新情报
+  {tag:'trade',risk:'high',title:'中美关税战：对华商品综合税率最高达145%',summary:'2026年4月起，美国对华商品叠加301税和互惠关税后综合税率高达145%，电子、家电、玩具、服装出口受到重创。出口商紧急评估越南/墨西哥分流方案，供应链重组进入加速期。',time:'1小时前',src:'Reuters'},
+  {tag:'policy',risk:'high',title:'美国UFLPA执法升级：供应链溯源举证难度倍增',summary:'美国CBP对UFLPA的执法从抽查升级为系统性扫描，含棉、多晶硅、橡胶手套等商品须提供完整供应链溯源报告。2026年Q1扣押货物同比增长217%，举证期缩短至30天。',time:'3小时前',src:'CBP.gov'},
+  {tag:'trade',risk:'high',title:'越南遭反规避调查：第三国转口风险激增',summary:'美国对越南出口的中国制造家具、太阳能电池板、钢铁制品发起反规避调查，要求证明35%本地增加值。纯组装被认定为规避行为，已有多批次货物被追缴高额反倾销税差额。',time:'5小时前',src:'USTR'},
+  {tag:'policy',risk:'high',title:'欧盟CBAM 2026年正式征收碳边境税',summary:'欧盟碳边境调节机制从1月起进入实际缴费阶段。钢铁、铝材、水泥、化肥、电力、氢气六大行业须按嵌入碳排放量购买CBAM证书（当前约EUR 65/吨CO₂）。无低碳认证企业出口成本增加15-30%。',time:'6小时前',src:'EUR-Lex'},
+  {tag:'shipping',risk:'high',title:'亚欧航运运费指数创年内新高',summary:'受红海绕行好望角常态化+中美贸易战转口需求激增双重影响，上海出口集装箱运价指数(SCFI)亚欧线报3850点，同比上涨68%。箱源紧张导致订舱提前期延长至45天。',time:'2小时前',src:"Drewry"},
+  {tag:'policy',risk:'med',title:'欧盟《强迫劳动条例》2027年执行，企业须立即筹备',summary:'EU Regulation 2024/3015要求2027年起禁止强迫劳动制造商品在欧盟销售，企业须建立供应链尽职调查(HRDD)体系。纺织、电子、农产品行业被列为高风险，需从现在开始构建溯源数字系统。',time:'1天前',src:'European Parliament'},
+  {tag:'trade',risk:'med',title:'中国与GCC签署自贸协定框架协议',summary:'中国与海湾合作委员会(GCC)自贸协定进入实质性谈判最后阶段，预计2026年底正式签署。届时中国制造业出口至沙特、阿联酋、卡塔尔等国关税将降至0-5%，为中东市场布局提供战略窗口。',time:'1天前',src:'MOFCOM'},
+  {tag:'shipping',risk:'med',title:'巴拿马运河水位恢复：太平洋航线运费回调',summary:'厄尔尼诺影响减弱，巴拿马运河水位回升至正常水位，日过闸量恢复至35艘，中美洲及美东航线运费较Q1高点回落22%。亚太-美东散货运输成本压力有所缓解。',time:'1天前',src:'ACP Panama'},
+  {tag:'energy',risk:'med',title:'OPEC+超预期增产：布伦特原油承压至$98/桶',summary:'OPEC+五月会议决定加速退出减产，日均增产幅度超市场预期，布伦特原油从$105高点回落至$98。能源密集型出口品类（铝、化工）生产成本小幅改善，但汇率对冲需求上升。',time:'2天前',src:'Bloomberg'},
+  {tag:'policy',risk:'med',title:'印度PLI政策扩容：电子制造本土化窗口期',summary:'印度生产挂钩激励计划(PLI)新增5G设备、服务器、AI芯片三个子类，并向中国制造商有条件开放。在印设厂可享政府补贴6-8%+优先采购资格。沙特-印度-墨西哥成为2026年产能转移三角。',time:'2天前',src:'MeitY'},
+  {tag:'trade',risk:'low',title:'RCEP红利释放：中国-东盟零关税覆盖率达92%',summary:'RCEP生效第4年，中国与东盟10国的零关税贸易品类覆盖率达92%。越南、马来西亚、泰国成为中国制造业出海落地优选，RCEP原产地规则累计规则(累积计算)为本地化生产提供认证便利。',time:'3天前',src:'WTO'},
+  {tag:'policy',risk:'med',title:'土耳其对电动汽车加征关税：欧洲转口路径收窄',summary:'土耳其宣布对产自中国的电动汽车维持40%额外关税，并开始追查通过第三国转口的规避行为。中国EV出口欧洲的土耳其中转路径基本关闭，匈牙利/塞尔维亚本地化生产方案受到更多关注。',time:'3天前',src:'Hurriyet'},
+  {tag:'trade',risk:'low',title:'沙特Vision2030制造业FDI大幅提速',summary:'2026年Q1沙特制造业FDI流入同比增长145%，其中中国企业占比38%。利雅得工业区中国制造企业已突破200家，享受15年免企业所得税+2%政府采购优先政策，GCC市场本地化生产窗口期3-5年。',time:'4天前',src:'MISA Saudi'},
+  {tag:'energy',risk:'low',title:'欧洲天然气库存充足：能源成本红利延续',summary:'2026年欧洲LNG终端扩容后天然气库存持续维持在历史高位，TTF价格稳定在EUR 28/MWh区间（较2022年高点下跌90%）。能源成本压力缓解为中欧贸易中制造业竞争力改善提供支撑。',time:'4天前',src:'ENTSO-G'},
+  {tag:'policy',risk:'high',title:'美国《产品安全与市场准入法案》拟加强认证壁垒',summary:'美国国会提案要求中国制造商品须通过经CPSC认可的第三方实验室检测（不含中国境内实验室），玩具、儿童用品、家用电器受影响最大。若法案通过，认证成本将增加40%、周期延长2-3个月。',time:'5天前',src:'CPSC'}
 ];
 
 var allNews = NEWS_STATIC.slice();
@@ -1101,9 +1113,9 @@ function renderFxChart() {
   var labels=[]; for(var i=6;i>=0;i--){var d=new Date();d.setDate(d.getDate()-i);labels.push((d.getMonth()+1)+'/'+d.getDate());}
   ctx._chartInstance = new Chart(ctx,{type:'line',
     data:{labels:labels,datasets:[
-      {label:'USD/CNY',data:[7.23,7.25,7.26,7.24,7.27,7.26,7.27],borderColor:'#60a5fa',tension:.4,pointRadius:2,fill:false},
-      {label:'EUR/CNY',data:[7.80,7.82,7.84,7.83,7.85,7.84,7.84],borderColor:'#4ade80',tension:.4,pointRadius:2,fill:false},
-      {label:'GBP/CNY',data:[9.15,9.17,9.18,9.18,9.20,9.19,9.18],borderColor:'#a78bfa',tension:.4,pointRadius:2,fill:false}
+      {label:'USD/CNY',data:[7.22,7.24,7.25,7.23,7.26,7.25,7.24],borderColor:'#60a5fa',tension:.4,pointRadius:2,fill:false},
+      {label:'EUR/CNY',data:[7.90,7.92,7.95,7.94,7.96,7.93,7.95],borderColor:'#4ade80',tension:.4,pointRadius:2,fill:false},
+      {label:'GBP/CNY',data:[9.28,9.30,9.32,9.31,9.33,9.30,9.29],borderColor:'#a78bfa',tension:.4,pointRadius:2,fill:false}
     ]},
     options:{responsive:true,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},
       scales:{x:{ticks:{color:'#64748b'}},y:{ticks:{color:'#64748b'}}}}});
@@ -1114,9 +1126,9 @@ function renderCommodityChart() {
   if(!ctx || ctx._chartInstance) return;
   ctx._chartInstance = new Chart(ctx,{type:'radar',
     data:{labels:['布伦特原油','伦敦金','铜','铁矿石','大豆','天然气'],
-      datasets:[{label:'当前水平',data:[72,85,65,58,70,45],
+      datasets:[{label:'2026-Q2当前',data:[88,98,72,61,68,32],
         borderColor:'#60a5fa',backgroundColor:'rgba(96,165,250,.15)',pointBackgroundColor:'#60a5fa'},
-      {label:'3个月前',data:[65,78,70,55,68,60],
+      {label:'2025-Q4基线',data:[70,82,68,58,65,55],
         borderColor:'#4ade80',backgroundColor:'rgba(74,222,128,.1)',pointBackgroundColor:'#4ade80'}]},
     options:{responsive:true,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},
       scales:{r:{grid:{color:'rgba(255,255,255,.1)'},ticks:{display:false},
@@ -1128,27 +1140,47 @@ function renderCommodityChart() {
 // ============================================================
 function renderWarnings() {
   var red = [
-    {title:'欧盟CBAM碳边境税 2026年全面实施',desc:'钢铁、铝材、化肥等六大行业出口商需申报嵌入碳排放，否则将面临关税额外征收。'},
-    {title:'红海局势：胡塞武装持续威胁商船',desc:'亚欧航线绕行占比超30%，运价指数SCFI持续上行，供应链周期延长3-5周。'},
-    {title:'地缘风险：多条贸易通道受阻',desc:'霍尔木兹、曼德海峡同时处于高警戒，能源及大宗商品运输成本显著上升。'}
+    {title:'中美关税战升级：对华商品最高145%关税',desc:'2026年4月美国对华全面加征关税，叠加原有301税最高达145%。电子、家电、玩具、服装等几乎所有品类受波及，直接出口美国大幅受阻。建议评估墨西哥/越南转产或转口方案。',tag:'贸易'},
+    {title:'美国UFLPA新疆强制劳动审查升级',desc:'进口商须证明供货链与新疆无任何关联，棉花、多晶硅、番茄、钢铁产品被扣押率大幅上升，举证责任在出口商。需提供完整供应链溯源报告。',tag:'合规'},
+    {title:'欧盟CBAM碳边境税2026年1月全面征收',desc:'钢铁、铝材、水泥、化肥、电力、氢气六大行业须申报嵌入碳排放并购买CBAM证书，首年实际缴纳。无低碳认证企业出口欧盟成本上升15-30%。',tag:'法规'},
+    {title:'欧盟《产品生态设计法规》(ESPR) 2025年起分批实施',desc:'家电、纺织、电子、电池等品类须符合可修复性、可回收性、数字产品护照要求，不达标产品禁止在欧盟销售。2027年前完成全品类覆盖。',tag:'法规'}
   ];
   var orange = [
-    {title:'巴拿马运河过闸限制延续',desc:'水位持续偏低，日过闸量较正常减少约20%，大型集装箱船改道苏伊士或好望角。'},
-    {title:'美国关税复审：电子产品可能再加征',desc:'301条款复审范围扩大，机电产品、储能电池等可能面临新一轮关税调整。'},
-    {title:'欧盟数字产品护照2026年上线',desc:'家电、纺织等品类出口商须为产品建立全生命周期数字档案，合规成本上升。'}
+    {title:'越南、泰国、马来西亚反规避调查风险',desc:'美国针对通过东南亚转口的中国商品发起反规避调查，要求证明实质性制造发生在当地，纯组装不被认可。需满足35%以上本地增加值要求。',tag:'贸易'},
+    {title:'欧盟《强迫劳动法规》2027年执行',desc:'从2027年起禁止由强迫劳动制造的商品在欧盟销售或出口，企业须建立ESG供应链尽职调查体系，否则面临市场禁入。',tag:'合规'},
+    {title:'印度BIS认证扩展+关税壁垒加强',desc:'印度对电子、玩具、LED灯具等品类强制BIS认证，同时对部分品类加征反倾销税。市场准入门槛大幅提升，认证周期延长至6-9个月。',tag:'法规'},
+    {title:'土耳其对中国商品加征额外关税',desc:'2024年起土耳其对电动汽车加征40%额外关税，钢铁、铝、纺织品亦受影响，与欧盟关税同盟规则冲突带来不确定性。',tag:'贸易'},
+    {title:'红海/霍尔木兹航线安全威胁持续',desc:'胡塞武装袭击事件频率未减，亚欧航线绕行好望角成常态，运费较2023年底高65%，船期不确定性增加。',tag:'航运'}
+  ];
+  var green = [
+    {title:'东盟RCEP: 越南/马来西亚FTA优惠扩大',desc:'RCEP框架下中国出口越南、马来西亚零关税品类持续扩大，可借助东南亚工厂作为欧美出口跳板。'},
+    {title:'中东沙特Vision2030: 制造业FDI优惠政策',desc:'沙特对制造业FDI提供15年税收豁免，建立工厂即可绕过GCC进口关税，本土化生产享政府采购优先。'},
+    {title:'巴西工业新政: 绿色转型补贴窗口',desc:'巴西REpowerBR计划对储能、光伏、风电设备免IPI税，同时与中国谈判电动汽车关税互惠，进入窗口期。'}
   ];
   var rh = red.map(function(w){
     return '<div class="bg-red-500/5 border border-red-500/20 rounded-xl p-4">' +
-      '<div class="font-semibold text-sm text-red-300 mb-1">&#128308; ' + w.title + '</div>' +
-      '<div class="text-xs text-gray-400">' + w.desc + '</div></div>';
+      '<div class="flex items-start justify-between gap-2">' +
+        '<div class="font-semibold text-sm text-red-300 mb-1">&#128308; ' + w.title + '</div>' +
+        '<span class="text-xs bg-red-500/20 text-red-300 px-2 py-0.5 rounded-full flex-shrink-0">' + w.tag + '</span>' +
+      '</div>' +
+      '<div class="text-xs text-gray-400 mt-1">' + w.desc + '</div></div>';
   }).join('');
   var oh = orange.map(function(w){
     return '<div class="bg-yellow-500/5 border border-yellow-500/20 rounded-xl p-4">' +
-      '<div class="font-semibold text-sm text-yellow-300 mb-1">&#128992; ' + w.title + '</div>' +
+      '<div class="flex items-start justify-between gap-2">' +
+        '<div class="font-semibold text-sm text-yellow-300 mb-1">&#128992; ' + w.title + '</div>' +
+        '<span class="text-xs bg-yellow-500/20 text-yellow-300 px-2 py-0.5 rounded-full flex-shrink-0">' + w.tag + '</span>' +
+      '</div>' +
+      '<div class="text-xs text-gray-400 mt-1">' + w.desc + '</div></div>';
+  }).join('');
+  var gh = green.map(function(w){
+    return '<div class="bg-green-500/5 border border-green-500/20 rounded-xl p-4">' +
+      '<div class="font-semibold text-sm text-green-300 mb-1">&#9989; ' + w.title + '</div>' +
       '<div class="text-xs text-gray-400">' + w.desc + '</div></div>';
   }).join('');
   if($el('red-warnings')) $el('red-warnings').innerHTML = rh;
   if($el('orange-warnings')) $el('orange-warnings').innerHTML = oh;
+  if($el('green-opportunities')) $el('green-opportunities').innerHTML = gh;
 }
 
 // ============================================================
