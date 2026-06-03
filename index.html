@@ -67,6 +67,8 @@ input[type=range]{accent-color:#60a5fa}
     <button class="nav-pill" onclick="switchTab('tab-map',this)">&#127758; 全球风险地图</button>
     <button class="nav-pill" onclick="switchTab('tab-risk',this)">&#9888; 风险预警看板</button>
     <button class="nav-pill" onclick="switchTab('tab-news',this)">&#128240; 实时情报流</button>
+    <button class="nav-pill" onclick="switchTab('tab-think',this)">&#127758; 跨境智库</button>
+    <button class="nav-pill" onclick="switchTab('tab-tools',this)">&#128295; 工具箱</button>
   </div>
 
 <!-- ==================== TAB 1: 市场罗盘 ==================== -->
@@ -261,6 +263,199 @@ input[type=range]{accent-color:#60a5fa}
   </div>
 </div>
 
+
+<!-- ==================== TAB 5: 跨境智库 ==================== -->
+<div id="tab-think" class="tab-content">
+  <div class="text-center mb-8">
+    <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-green-400 to-teal-400 bg-clip-text text-transparent">跨境智库 · 国别情报中心</h1>
+    <p class="text-gray-400">41 国完整数据 · 综合评分算法 · AI 需求分析 · 行业趋势</p>
+  </div>
+
+  <!-- Sub-tabs -->
+  <div class="flex gap-3 flex-wrap mb-6">
+    <button class="nav-pill active text-sm py-2 px-4" onclick="switchThinkTab('country',this)">&#127988; 国别报告</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="switchThinkTab('demand',this)">&#127919; 需求分析</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="switchThinkTab('industry',this)">&#128200; 行业趋势</button>
+  </div>
+
+  <!-- Country Report Panel -->
+  <div id="think-country" class="think-sub active">
+    <!-- Product input for scoring -->
+    <div class="card p-6 mb-6">
+      <div class="flex gap-4 items-end flex-wrap">
+        <div class="flex-1 min-w-48">
+          <label class="text-xs text-gray-400 mb-2 block">选择产品品类</label>
+          <select id="think-cat" class="w-full bg-slate-800 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+            <option value="储能">储能/电池</option>
+            <option value="家具">家具</option>
+            <option value="玩具">玩具</option>
+            <option value="家电">家电</option>
+            <option value="服装">服装</option>
+            <option value="陶瓷">陶瓷</option>
+            <option value="医疗器械">医疗器械</option>
+          </select>
+        </div>
+        <div class="flex-1 min-w-48">
+          <label class="text-xs text-gray-400 mb-2 block">筛选区域</label>
+          <select id="think-region" class="w-full bg-slate-800 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+            <option value="all">全部区域</option>
+            <option value="北美区">北美区</option>
+            <option value="欧洲区">欧洲区</option>
+            <option value="亚太区">亚太区</option>
+            <option value="新兴区">新兴市场</option>
+            <option value="中东区">中东区</option>
+            <option value="非洲区">非洲区</option>
+            <option value="中亚区">中亚区</option>
+          </select>
+        </div>
+        <button onclick="runCountryScore()" class="px-6 py-2.5 rounded-lg text-sm font-semibold" style="background:linear-gradient(135deg,#10b981,#0d9488)">&#128202; 生成评分</button>
+      </div>
+    </div>
+    <!-- Score results -->
+    <div id="country-score-result" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6"></div>
+    <!-- Country detail modal -->
+    <div id="country-detail" class="card p-6 hidden">
+      <div id="country-detail-content"></div>
+    </div>
+  </div>
+
+  <!-- Demand Analysis Panel -->
+  <div id="think-demand" class="think-sub hidden">
+    <div class="card p-5 mb-5">
+      <div class="flex gap-4 items-end flex-wrap">
+        <div class="flex-1 min-w-48">
+          <label class="text-xs text-gray-400 mb-2 block">选择品类获取需求分析</label>
+          <select id="demand-cat" class="w-full bg-slate-800 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+          </select>
+        </div>
+        <button onclick="runDemandAnalysis()" class="px-6 py-2.5 rounded-lg text-sm font-semibold" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6)">&#128269; 分析需求</button>
+      </div>
+    </div>
+    <div id="demand-result"></div>
+  </div>
+
+  <!-- Industry Trends Panel -->
+  <div id="think-industry" class="think-sub hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="industry-list"></div>
+  </div>
+</div>
+
+<!-- ==================== TAB 6: 工具箱 ==================== -->
+<div id="tab-tools" class="tab-content">
+  <div class="text-center mb-8">
+    <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">工具箱 · 出海必备</h1>
+    <p class="text-gray-400">合规查询 · 关税计算 · AI 趋势选品 三合一工具</p>
+  </div>
+
+  <!-- Sub-tabs -->
+  <div class="flex gap-3 flex-wrap mb-6">
+    <button class="nav-pill active text-sm py-2 px-4" onclick="switchToolTab('compliance',this)">&#9989; 合规查询</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="switchToolTab('tariff',this)">&#128181; 关税计算</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="switchToolTab('trending',this)">&#128293; AI 趋势选品</button>
+  </div>
+
+  <!-- Compliance Panel -->
+  <div id="tool-compliance" class="tool-sub active">
+    <div class="card p-6 mb-5">
+      <div class="flex gap-4 items-end flex-wrap">
+        <div class="flex-1 min-w-48">
+          <label class="text-xs text-gray-400 mb-2 block">产品品类</label>
+          <select id="comp-cat" class="w-full bg-slate-800 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+            <option value="电子产品">电子产品</option>
+            <option value="家电">家电(家用电热器具)</option>
+            <option value="食品">食品</option>
+            <option value="玩具">玩具</option>
+            <option value="服装纺织">服装纺织</option>
+            <option value="家具">家具</option>
+            <option value="医疗器械">医疗器械</option>
+          </select>
+        </div>
+        <div class="flex-1 min-w-48">
+          <label class="text-xs text-gray-400 mb-2 block">目标市场</label>
+          <select id="comp-market" class="w-full bg-slate-800 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+            <option value="美国">美国</option>
+            <option value="欧盟">欧盟</option>
+            <option value="英国">英国</option>
+            <option value="日本">日本</option>
+            <option value="澳大利亚">澳大利亚</option>
+            <option value="沙特/GCC">沙特/GCC</option>
+            <option value="印度">印度</option>
+          </select>
+        </div>
+        <button onclick="runCompliance()" class="px-6 py-2.5 rounded-lg text-sm font-semibold" style="background:linear-gradient(135deg,#10b981,#0d9488)">&#128269; 查询合规</button>
+      </div>
+    </div>
+    <div id="compliance-result"></div>
+  </div>
+
+  <!-- Tariff Calculator Panel -->
+  <div id="tool-tariff" class="tool-sub hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="card p-6">
+        <h3 class="font-semibold text-sm text-gray-300 mb-4">&#128197; 输入参数</h3>
+        <div class="space-y-4">
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">HS编码（前4位）</label>
+            <select id="tariff-hs" class="w-full bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+            </select>
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">目的国</label>
+            <select id="tariff-dest" class="w-full bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+              <option value="US">美国</option>
+              <option value="EU">欧盟</option>
+              <option value="UK">英国</option>
+              <option value="JP">日本</option>
+              <option value="AU">澳大利亚</option>
+              <option value="IN">印度</option>
+              <option value="SA">沙特阿拉伯</option>
+              <option value="BR">巴西</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">FOB价格 (USD)</label>
+            <input type="number" id="tariff-fob" value="10000" class="w-full bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">运费 (USD)</label>
+            <input type="number" id="tariff-freight" value="800" class="w-full bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">保险费 (USD)</label>
+            <input type="number" id="tariff-ins" value="50" class="w-full bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-blue-400">
+          </div>
+          <button onclick="runTariff()" class="w-full py-3 rounded-lg font-semibold text-sm" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6)">&#128181; 计算关税</button>
+        </div>
+      </div>
+      <div class="card p-6">
+        <h3 class="font-semibold text-sm text-gray-300 mb-4">&#128200; 计算结果</h3>
+        <div id="tariff-result">
+          <div class="text-center py-12 text-gray-500 text-sm">请在左侧填入参数后点击计算</div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6">
+      <div class="card p-5">
+        <h3 class="font-semibold text-sm text-gray-300 mb-3">&#128203; 常用HS编码速查</h3>
+        <div id="hs-quick-list" class="grid grid-cols-2 md:grid-cols-4 gap-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Trending Products Panel -->
+  <div id="tool-trending" class="tool-sub hidden">
+    <div class="flex gap-3 flex-wrap mb-5">
+      <button class="nav-pill active text-sm py-2 px-4" id="trend-bsr-btn" onclick="switchTrendView('bsr',this)">&#127881; Amazon BSR 热品</button>
+      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('local',this)">&#127760; 本土电商热品</button>
+      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('social',this)">&#128064; 社交热词</button>
+      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('recommend',this)">&#129302; AI 选品建议</button>
+    </div>
+    <div id="trend-bsr" class="trend-view"></div>
+    <div id="trend-local" class="trend-view hidden"></div>
+    <div id="trend-social" class="trend-view hidden"></div>
+    <div id="trend-recommend" class="trend-view hidden"></div>
+  </div>
+</div>
 </div><!-- end max-w-7xl -->
 
 <footer class="text-center text-gray-600 text-xs py-8 mt-8 border-t border-white/5">
@@ -492,6 +687,8 @@ function switchTab(id, btn) {
   if(id === 'tab-map' && !window._mapInited) { initMap(); window._mapInited=true; }
   if(id === 'tab-risk') { renderWarnings(); renderFxChart(); renderCommodityChart(); }
   if(id === 'tab-news') { renderNews('all'); }
+  if(id === 'tab-think') { renderThinkTab(); }
+  if(id === 'tab-tools') { renderToolsTab(); }
 }
 
 // ============================================================
@@ -933,6 +1130,1663 @@ document.addEventListener('DOMContentLoaded', function() {
     if(e.key==='Enter') runCompass();
   });
 });
+</script>
+
+<!-- ===== DATA: 45国数据库 ===== -->
+<script>
+// ============================================================
+// T1: 45国完整基础数据库
+// 数据来源：World Bank, IMF, UN Population Division, Pew Research
+// ============================================================
+var COUNTRY_DB = {
+
+  // ==================== 北美区 ====================
+  'US': {
+    name:'美国', flag:'🇺🇸', region:'北美', iso:'US',
+    lat:38, lng:-97,
+    pop:{ total:3.32, newborn:360, age1850pct:52, age1555pct:58 }, // 亿/万人/占比%
+    gdp:{ '2022':{total:25.5,perCap:76390,growth:2.1}, '2023':{total:27.4,perCap:81680,growth:2.5}, '2024':{total:28.8,perCap:85370,growth:2.9}, '2025e':{total:30.1,perCap:88900,growth:2.2} },
+    urban:83, electricity:100, internet:93,
+    fdi:{ '2024':2310 }, // 亿美元
+    tradeWithChina:{ total:5750, importFromChina:4270, yoy:-3.2 }, // 2024, 亿美元
+    religion:{ main:'基督教', pct:63, branches:[
+      {name:'新教',pct:43,beliefs:'圣经至上，因信称义，个人与上帝直接关系，重视主日礼拜与布道'},
+      {name:'天主教',pct:20,beliefs:'教皇权威，七圣事，圣母崇拜，弥撒与告解'},
+      {name:'摩门教',pct:2,beliefs:'先知约瑟夫·史密斯，摩门经，家庭至上'},
+      {name:'无宗教',pct:26,beliefs:'世俗主义，理性主义，个人自由'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:85, brandLoyalty:'高', priceElasticity:'低' }
+  },
+
+  'CA': {
+    name:'加拿大', flag:'🇨🇦', region:'北美', iso:'CA',
+    lat:56, lng:-106,
+    pop:{ total:0.39, newborn:37, age1850pct:50, age1555pct:56 },
+    gdp:{ '2022':{total:2.14,perCap:55540,growth:3.4}, '2023':{total:2.22,perCap:57060,growth:1.2}, '2024':{total:2.29,perCap:58400,growth:1.5}, '2025e':{total:2.34,perCap:59200,growth:1.8} },
+    urban:82, electricity:100, internet:92,
+    fdi:{ '2024':480 },
+    tradeWithChina:{ total:980, importFromChina:750, yoy:2.1 },
+    religion:{ main:'基督教', pct:53, branches:[
+      {name:'天主教',pct:29,beliefs:'弥撒，圣事，教皇权威，重视移民族裔社区凝聚力'},
+      {name:'新教',pct:18,beliefs:'因信称义，圣经权威，礼拜与布道'},
+      {name:'无宗教',pct:34,beliefs:'世俗自由主义，多元文化包容'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:82, brandLoyalty:'中高', priceElasticity:'低中' }
+  },
+
+  // ==================== 欧洲区 ====================
+  'GB': {
+    name:'英国', flag:'🇬🇧', region:'欧洲', iso:'GB',
+    lat:54, lng:-2,
+    pop:{ total:0.68, newborn:61, age1850pct:50, age1555pct:57 },
+    gdp:{ '2022':{total:3.08,perCap:45360,growth:4.1}, '2023':{total:3.09,perCap:45430,growth:0.1}, '2024':{total:3.18,perCap:46520,growth:1.1}, '2025e':{total:3.25,perCap:47300,growth:1.5} },
+    urban:84, electricity:100, internet:95,
+    fdi:{ '2024':330 },
+    tradeWithChina:{ total:1050, importFromChina:780, yoy:1.8 },
+    religion:{ main:'基督教', pct:46, branches:[
+      {name:'英国国教（圣公会）',pct:14,beliefs:'君主为最高首领，兼容天主教仪式与新教神学，主教制'},
+      {name:'天主教',pct:10,beliefs:'圣事，告解，弥撒，移民社区（波兰/爱尔兰）主力'},
+      {name:'伊斯兰教',pct:6,beliefs:'五功，清真饮食，斋月，社区聚居'},
+      {name:'无宗教',pct:37,beliefs:'世俗主义，实用主义，个人主义'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:87, brandLoyalty:'中', priceElasticity:'中' }
+  },
+
+  'DE': {
+    name:'德国', flag:'🇩🇪', region:'欧洲', iso:'DE',
+    lat:51, lng:10,
+    pop:{ total:0.84, newborn:69, age1850pct:49, age1555pct:58 },
+    gdp:{ '2022':{total:4.08,perCap:48640,growth:1.8}, '2023':{total:4.12,perCap:49030,growth:0.0}, '2024':{total:4.09,perCap:48620,growth:-0.2}, '2025e':{total:4.15,perCap:49100,growth:0.8} },
+    urban:78, electricity:100, internet:91,
+    fdi:{ '2024':220 },
+    tradeWithChina:{ total:2560, importFromChina:1550, yoy:-4.1 },
+    religion:{ main:'基督教', pct:52, branches:[
+      {name:'天主教',pct:26,beliefs:'七圣事，弥撒，梵蒂冈权威，南部巴伐利亚州尤为虔诚'},
+      {name:'新教（路德宗）',pct:24,beliefs:'因信称义，圣经权威，北部及东部为主'},
+      {name:'伊斯兰教',pct:5,beliefs:'土耳其移民社区为主，清真饮食，斋月'},
+      {name:'无宗教',pct:38,beliefs:'理性主义，工程师文化，环保意识强'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'极高', ecomPenetration:78, brandLoyalty:'高', priceElasticity:'低' }
+  },
+
+  'FR': {
+    name:'法国', flag:'🇫🇷', region:'欧洲', iso:'FR',
+    lat:46, lng:2,
+    pop:{ total:0.68, newborn:67, age1850pct:50, age1555pct:57 },
+    gdp:{ '2022':{total:2.78,perCap:41030,growth:2.5}, '2023':{total:2.92,perCap:42990,growth:0.9}, '2024':{total:2.99,perCap:43970,growth:1.1}, '2025e':{total:3.05,perCap:44700,growth:0.9} },
+    urban:81, electricity:100, internet:90,
+    fdi:{ '2024':270 },
+    tradeWithChina:{ total:820, importFromChina:610, yoy:-2.3 },
+    religion:{ main:'天主教（文化认同为主）', pct:41, branches:[
+      {name:'天主教',pct:41,beliefs:'文化天主教为主，圣母崇拜，传统节日，实际礼拜率仅约10%'},
+      {name:'伊斯兰教',pct:9,beliefs:'北非移民为主，阿尔及利亚/摩洛哥社区，政教分离紧张'},
+      {name:'新教',pct:2,beliefs:'少数群体'},
+      {name:'无宗教',pct:40,beliefs:'法国世俗主义(Laicite)，政教严格分离'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:73, brandLoyalty:'中高', priceElasticity:'中' }
+  },
+
+  'IT': {
+    name:'意大利', flag:'🇮🇹', region:'欧洲', iso:'IT',
+    lat:42, lng:12,
+    pop:{ total:0.59, newborn:38, age1850pct:46, age1555pct:55 },
+    gdp:{ '2022':{total:2.01,perCap:34050,growth:4.0}, '2023':{total:2.09,perCap:35560,growth:0.9}, '2024':{total:2.12,perCap:36060,growth:0.7}, '2025e':{total:2.14,perCap:36400,growth:0.7} },
+    urban:72, electricity:100, internet:78,
+    fdi:{ '2024':90 },
+    tradeWithChina:{ total:600, importFromChina:430, yoy:1.2 },
+    religion:{ main:'天主教', pct:71, branches:[
+      {name:'天主教',pct:71,beliefs:'梵蒂冈所在地，深厚的天主教文化，宗教节日众多，家庭圣像'},
+      {name:'无宗教',pct:20,beliefs:'北部工业区世俗化趋势明显'},
+      {name:'伊斯兰教',pct:4,beliefs:'北非移民社区'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:58, brandLoyalty:'高', priceElasticity:'中' }
+  },
+
+  'ES': {
+    name:'西班牙', flag:'🇪🇸', region:'欧洲', iso:'ES',
+    lat:40, lng:-4,
+    pop:{ total:0.48, newborn:33, age1850pct:49, age1555pct:57 },
+    gdp:{ '2022':{total:1.43,perCap:29830,growth:5.8}, '2023':{total:1.58,perCap:32730,growth:2.5}, '2024':{total:1.68,perCap:34700,growth:3.2}, '2025e':{total:1.76,perCap:36000,growth:2.8} },
+    urban:81, electricity:100, internet:88,
+    fdi:{ '2024':270 },
+    tradeWithChina:{ total:460, importFromChina:340, yoy:3.5 },
+    religion:{ main:'天主教', pct:62, branches:[
+      {name:'天主教',pct:62,beliefs:'传统圣周游行，宗教节日，南部安达卢西亚尤为虔诚'},
+      {name:'无宗教',pct:30,beliefs:'北部加泰罗尼亚世俗化'},
+      {name:'伊斯兰教',pct:4,beliefs:'摩洛哥移民为主'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'中高', ecomPenetration:71, brandLoyalty:'中', priceElasticity:'中高' }
+  },
+
+  'NL': {
+    name:'荷兰', flag:'🇳🇱', region:'欧洲', iso:'NL',
+    lat:52, lng:5,
+    pop:{ total:0.18, newborn:17, age1850pct:50, age1555pct:58 },
+    gdp:{ '2022':{total:1.01,perCap:58010,growth:4.4}, '2023':{total:1.06,perCap:60670,growth:0.1}, '2024':{total:1.10,perCap:62570,growth:0.9}, '2025e':{total:1.14,perCap:64500,growth:1.5} },
+    urban:93, electricity:100, internet:95,
+    fdi:{ '2024':450 },
+    tradeWithChina:{ total:980, importFromChina:760, yoy:-1.5 },
+    religion:{ main:'无宗教为主', pct:51, branches:[
+      {name:'无宗教',pct:51,beliefs:'高度世俗化，个人主义，实用主义'},
+      {name:'天主教',pct:20,beliefs:'南部林堡省传统天主教文化'},
+      {name:'新教（荷兰改革宗）',pct:15,beliefs:'加尔文主义，简朴，商业伦理'},
+      {name:'伊斯兰教',pct:5,beliefs:'土耳其/摩洛哥移民社区'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'极高', ecomPenetration:90, brandLoyalty:'中', priceElasticity:'低' }
+  },
+
+  'EU27': {
+    name:'欧盟27国', flag:'🇪🇺', region:'欧洲', iso:'EU',
+    lat:50, lng:10,
+    pop:{ total:4.47, newborn:370, age1850pct:49, age1555pct:57 },
+    gdp:{ '2022':{total:16.6,perCap:37140,growth:3.5}, '2023':{total:17.2,perCap:38490,growth:0.4}, '2024':{total:17.7,perCap:39600,growth:0.9}, '2025e':{total:18.2,perCap:40700,growth:1.3} },
+    urban:76, electricity:100, internet:89,
+    fdi:{ '2024':3200 },
+    tradeWithChina:{ total:7390, importFromChina:5050, yoy:-3.7 },
+    religion:{ main:'基督教为主', pct:64, branches:[
+      {name:'天主教',pct:37,beliefs:'南欧/中欧主导，梵蒂冈权威'},
+      {name:'新教',pct:19,beliefs:'北欧/德国/荷兰，路德宗/加尔文宗'},
+      {name:'东正教',pct:8,beliefs:'希腊/罗马尼亚/保加利亚，传统礼仪，圣像崇拜'},
+      {name:'伊斯兰教',pct:5,beliefs:'移民社区，法/德/荷为主'},
+      {name:'无宗教',pct:22,beliefs:'世俗化趋势加速'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:75, brandLoyalty:'中高', priceElasticity:'中' }
+  },
+
+  // ==================== 亚太区 ====================
+  'JP': {
+    name:'日本', flag:'🇯🇵', region:'亚太', iso:'JP',
+    lat:36, lng:138,
+    pop:{ total:1.24, newborn:75, age1850pct:46, age1555pct:57 },
+    gdp:{ '2022':{total:4.23,perCap:33780,growth:1.0}, '2023':{total:4.21,perCap:33440,growth:1.9}, '2024':{total:4.11,perCap:32620,growth:-0.1}, '2025e':{total:4.32,perCap:34300,growth:1.2} },
+    urban:92, electricity:100, internet:87,
+    fdi:{ '2024':340 },
+    tradeWithChina:{ total:3170, importFromChina:1890, yoy:-4.2 },
+    religion:{ main:'神道教+佛教（双信）', pct:85, branches:[
+      {name:'神道教',pct:70,beliefs:'自然崇拜，祖先崇敬，神社参拜，天皇神圣，清洁礼仪'},
+      {name:'佛教（大乘）',pct:67,beliefs:'无常，因果，净土宗/禅宗，葬礼由寺院主持，盂兰盆节'},
+      {name:'基督教',pct:2,beliefs:'明治后传入，圣诞节文化普及'},
+      {name:'无宗教形式但有文化信仰',pct:0,beliefs:'神道+佛教并存，日本人可同时持两种信仰'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'极高', ecomPenetration:80, brandLoyalty:'极高', priceElasticity:'极低' }
+  },
+
+  'KR': {
+    name:'韩国', flag:'🇰🇷', region:'亚太', iso:'KR',
+    lat:36, lng:128,
+    pop:{ total:0.52, newborn:23, age1850pct:49, age1555pct:58 },
+    gdp:{ '2022':{total:1.67,perCap:32370,growth:2.6}, '2023':{total:1.71,perCap:33180,growth:1.4}, '2024':{total:1.74,perCap:33700,growth:2.1}, '2025e':{total:1.80,perCap:34800,growth:1.8} },
+    urban:82, electricity:100, internet:97,
+    fdi:{ '2024':160 },
+    tradeWithChina:{ total:3100, importFromChina:1620, yoy:-5.1 },
+    religion:{ main:'无宗教为多，基督教+佛教并存', pct:56, branches:[
+      {name:'无宗教',pct:56,beliefs:'儒家伦理渗透日常，长幼有序，集体主义'},
+      {name:'基督教（新教）',pct:20,beliefs:'大型教会文化，五旬节派，个人奋斗与信仰结合'},
+      {name:'佛教',pct:16,beliefs:'曹溪宗为主，寺院文化，禅修旅游'},
+      {name:'天主教',pct:8,beliefs:'弥撒，社区服务，精英阶层偏多'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'极高', ecomPenetration:92, brandLoyalty:'高', priceElasticity:'低中' }
+  },
+
+  'AU': {
+    name:'澳大利亚', flag:'🇦🇺', region:'亚太', iso:'AU',
+    lat:-25, lng:133,
+    pop:{ total:0.27, newborn:31, age1850pct:51, age1555pct:58 },
+    gdp:{ '2022':{total:1.72,perCap:65740,growth:3.8}, '2023':{total:1.75,perCap:66010,growth:2.0}, '2024':{total:1.80,perCap:66900,growth:1.5}, '2025e':{total:1.85,perCap:67800,growth:2.1} },
+    urban:87, electricity:100, internet:91,
+    fdi:{ '2024':310 },
+    tradeWithChina:{ total:2780, importFromChina:880, yoy:4.3 },
+    religion:{ main:'基督教', pct:44, branches:[
+      {name:'天主教',pct:20,beliefs:'爱尔兰/意大利移民传统，弥撒，天主教学校体系发达'},
+      {name:'英国国教',pct:9,beliefs:'传统英式礼拜，与国家体制历史关联'},
+      {name:'无宗教',pct:39,beliefs:'世俗化加速，移民多元文化'},
+      {name:'佛教/印度教',pct:5,beliefs:'东南亚/印度移民社区'}
+    ]},
+    indicators:{ marketMaturity:'成熟', consumerSophistication:'高', ecomPenetration:82, brandLoyalty:'中', priceElasticity:'中' }
+  },
+
+  'IN': {
+    name:'印度', flag:'🇮🇳', region:'亚太', iso:'IN',
+    lat:20, lng:78,
+    pop:{ total:14.2, newborn:2180, age1850pct:55, age1555pct:61 },
+    gdp:{ '2022':{total:3.39,perCap:2390,growth:7.2}, '2023':{total:3.74,perCap:2610,growth:8.2}, '2024':{total:4.11,perCap:2840,growth:6.8}, '2025e':{total:4.58,perCap:3140,growth:6.5} },
+    urban:37, electricity:97, internet:52,
+    fdi:{ '2024':730 },
+    tradeWithChina:{ total:1360, importFromChina:1010, yoy:12.5 },
+    religion:{ main:'印度教', pct:80, branches:[
+      {name:'印度教（湿婆派）',pct:25,beliefs:'湿婆崇拜，瑜伽，苦修，林伽圣物'},
+      {name:'印度教（毗湿奴派）',pct:35,beliefs:'克里希纳崇拜，奉爱瑜伽，《薄伽梵歌》'},
+      {name:'伊斯兰教',pct:14,beliefs:'五功，清真饮食，斋月，乌尔都语文化'},
+      {name:'基督教',pct:2,beliefs:'喀拉拉邦叙利亚基督徒，传教士传统'},
+      {name:'锡克教',pct:2,beliefs:'一神论，武士精神，金庙，无种姓歧视'},
+      {name:'佛教/耆那教',pct:2,beliefs:'非暴力，苦修，素食主义'}
+    ]},
+    indicators:{ marketMaturity:'高速成长', consumerSophistication:'中', ecomPenetration:52, brandLoyalty:'中', priceElasticity:'高' }
+  },
+
+  'SG': {
+    name:'新加坡', flag:'🇸🇬', region:'亚太', iso:'SG',
+    lat:1.4, lng:103.8,
+    pop:{ total:0.059, newborn:3, age1850pct:55, age1555pct:64 },
+    gdp:{ '2022':{total:0.467,perCap:82810,growth:3.6}, '2023':{total:0.497,perCap:87880,growth:1.1}, '2024':{total:0.525,perCap:92100,growth:4.0}, '2025e':{total:0.551,perCap:96000,growth:2.5} },
+    urban:100, electricity:100, internet:96,
+    fdi:{ '2024':1050 },
+    tradeWithChina:{ total:1350, importFromChina:580, yoy:6.8 },
+    religion:{ main:'多元宗教', pct:100, branches:[
+      {name:'佛教/道教',pct:31,beliefs:'华人社区，祖先崇拜，烧纸钱，庙会'},
+      {name:'基督教',pct:19,beliefs:'英语教会，年轻精英阶层偏多'},
+      {name:'伊斯兰教',pct:16,beliefs:'马来族主体，清真认证严格，斋月禁食'},
+      {name:'印度教',pct:5,beliefs:'泰米尔族，节日丰富，牛奶浴节'},
+      {name:'无宗教',pct:19,beliefs:'世俗实用主义'}
+    ]},
+    indicators:{ marketMaturity:'成熟转口枢纽', consumerSophistication:'极高', ecomPenetration:88, brandLoyalty:'高', priceElasticity:'极低' }
+  },
+
+  // ==================== 新兴区 ====================
+  'BR': {
+    name:'巴西', flag:'🇧🇷', region:'新兴', iso:'BR',
+    lat:-15, lng:-51,
+    pop:{ total:2.15, newborn:260, age1850pct:54, age1555pct:61 },
+    gdp:{ '2022':{total:1.92,perCap:8940,growth:3.0}, '2023':{total:2.13,perCap:9860,growth:2.9}, '2024':{total:2.32,perCap:10670,growth:3.4}, '2025e':{total:2.47,perCap:11300,growth:2.5} },
+    urban:88, electricity:99, internet:84,
+    fdi:{ '2024':650 },
+    tradeWithChina:{ total:1890, importFromChina:980, yoy:7.3 },
+    religion:{ main:'基督教', pct:88, branches:[
+      {name:'天主教',pct:50,beliefs:'传统天主教节日，圣母崇拜，嘉年华文化，家庭圣龛'},
+      {name:'五旬节新教',pct:31,beliefs:'圣灵充满，方言，医治神迹，快速增长'},
+      {name:'非洲传统宗教（坎东布雷）',pct:3,beliefs:'非裔巴西人，神灵附体，祭祀仪式'},
+      {name:'无宗教',pct:8,beliefs:'世俗化年轻人增加'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'中', ecomPenetration:73, brandLoyalty:'低中', priceElasticity:'高' }
+  },
+
+  'RU': {
+    name:'俄罗斯', flag:'🇷🇺', region:'新兴', iso:'RU',
+    lat:60, lng:100,
+    pop:{ total:1.44, newborn:125, age1850pct:49, age1555pct:57 },
+    gdp:{ '2022':{total:2.24,perCap:15520,growth:-2.1}, '2023':{total:2.24,perCap:15540,growth:3.6}, '2024':{total:2.24,perCap:15600,growth:3.8}, '2025e':{total:2.26,perCap:15700,growth:1.5} },
+    urban:75, electricity:100, internet:88,
+    fdi:{ '2024':30 },
+    tradeWithChina:{ total:2400, importFromChina:1100, yoy:25.3 },
+    religion:{ main:'东正教', pct:71, branches:[
+      {name:'俄罗斯东正教',pct:71,beliefs:'圣像崇拜，繁复礼仪，教会与国家结合，复活节为最高节日'},
+      {name:'伊斯兰教',pct:10,beliefs:'北高加索/鞑靼斯坦，车臣伊斯兰传统'},
+      {name:'无宗教/无神论',pct:15,beliefs:'苏联无神论传统延续'}
+    ]},
+    indicators:{ marketMaturity:'特殊市场', consumerSophistication:'中高', ecomPenetration:71, brandLoyalty:'中', priceElasticity:'中' }
+  },
+
+  'MX': {
+    name:'墨西哥', flag:'🇲🇽', region:'新兴', iso:'MX',
+    lat:23, lng:-102,
+    pop:{ total:1.30, newborn:206, age1850pct:53, age1555pct:59 },
+    gdp:{ '2022':{total:1.32,perCap:10160,growth:3.9}, '2023':{total:1.47,perCap:11250,growth:3.2}, '2024':{total:1.52,perCap:11590,growth:1.5}, '2025e':{total:1.54,perCap:11700,growth:1.2} },
+    urban:81, electricity:99, internet:75,
+    fdi:{ '2024':360 },
+    tradeWithChina:{ total:1100, importFromChina:980, yoy:8.9 },
+    religion:{ main:'天主教', pct:78, branches:[
+      {name:'天主教',pct:78,beliefs:'危地马拉圣母，亡灵节，圣诞节游行，深度融合阿兹特克传统'},
+      {name:'福音派新教',pct:11,beliefs:'五旬节派增长最快，农村贫困社区传播'},
+      {name:'无宗教',pct:7,beliefs:'城市中产世俗化'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'中', ecomPenetration:63, brandLoyalty:'低中', priceElasticity:'高' }
+  },
+
+  'ID': {
+    name:'印度尼西亚', flag:'🇮🇩', region:'新兴', iso:'ID',
+    lat:-5, lng:120,
+    pop:{ total:2.75, newborn:460, age1850pct:54, age1555pct:60 },
+    gdp:{ '2022':{total:1.32,perCap:4800,growth:5.3}, '2023':{total:1.42,perCap:5140,growth:5.0}, '2024':{total:1.51,perCap:5470,growth:5.0}, '2025e':{total:1.62,perCap:5820,growth:5.1} },
+    urban:58, electricity:99, internet:77,
+    fdi:{ '2024':470 },
+    tradeWithChina:{ total:1390, importFromChina:870, yoy:4.6 },
+    religion:{ main:'伊斯兰教', pct:87, branches:[
+      {name:'逊尼派（沙斐仪学派）',pct:85,beliefs:'五功，清真饮食，传统与现代共存，纳达图尔乌拉玛（NU）温和派'},
+      {name:'伊斯兰现代主义（穆罕默迪亚）',pct:10,beliefs:'理性诠释伊斯兰，重视教育与社会改革'},
+      {name:'基督教',pct:10,beliefs:'苏拉威西/巴布亚/巴塔克，新教与天主教'},
+      {name:'印度教（巴厘岛）',pct:2,beliefs:'巴厘印度教，神庙，舞蹈，独特仪式'}
+    ]},
+    indicators:{ marketMaturity:'高速成长', consumerSophistication:'中', ecomPenetration:68, brandLoyalty:'中', priceElasticity:'高' }
+  },
+
+  // ==================== 中东区 ====================
+  'SA': {
+    name:'沙特阿拉伯', flag:'🇸🇦', region:'中东', iso:'SA',
+    lat:24, lng:45,
+    pop:{ total:0.37, newborn:49, age1850pct:55, age1555pct:63 },
+    gdp:{ '2022':{total:1.11,perCap:30040,growth:8.7}, '2023':{total:1.07,perCap:28690,growth:-0.8}, '2024':{total:1.09,perCap:29050,growth:1.3}, '2025e':{total:1.15,perCap:30500,growth:4.6} },
+    urban:85, electricity:100, internet:97,
+    fdi:{ '2024':290 },
+    tradeWithChina:{ total:1060, importFromChina:420, yoy:9.2 },
+    religion:{ main:'伊斯兰教（逊尼派为主）', pct:99, branches:[
+      {name:'逊尼派（瓦哈比/萨拉菲）',pct:85,beliefs:'纯洁伊斯兰，反偶像崇拜，麦加朝觐，伊斯兰法（沙里亚），宗教警察（正在改革）'},
+      {name:'什叶派',pct:14,beliefs:'东部省份，胡塞尼亚社区，阿舒拉节哀悼'},
+      {name:'其他（外籍劳工）',pct:1,beliefs:'菲律宾基督徒，印度印度教/伊斯兰混合'}
+    ]},
+    indicators:{ marketMaturity:'快速变革', consumerSophistication:'中高', ecomPenetration:79, brandLoyalty:'中高', priceElasticity:'低中' }
+  },
+
+  'AE': {
+    name:'阿联酋', flag:'🇦🇪', region:'中东', iso:'AE',
+    lat:24, lng:54,
+    pop:{ total:0.099, newborn:9, age1850pct:67, age1555pct:74 },
+    gdp:{ '2022':{total:0.503,perCap:50740,growth:7.4}, '2023':{total:0.504,perCap:50820,growth:3.4}, '2024':{total:0.528,perCap:53220,growth:4.0}, '2025e':{total:0.555,perCap:55900,growth:4.5} },
+    urban:88, electricity:100, internet:99,
+    fdi:{ '2024':300 },
+    tradeWithChina:{ total:810, importFromChina:490, yoy:11.4 },
+    religion:{ main:'伊斯兰教', pct:76, branches:[
+      {name:'逊尼派',pct:55,beliefs:'五功，清真饮食，斋月，商业伊斯兰，现代与传统共存'},
+      {name:'什叶派',pct:20,beliefs:'移民社区，伊朗/南亚裔'},
+      {name:'基督教/印度教（外籍）',pct:24,beliefs:'菲律宾/南亚/欧美外籍劳工，允许私下礼拜'}
+    ]},
+    indicators:{ marketMaturity:'成熟转口枢纽', consumerSophistication:'高', ecomPenetration:82, brandLoyalty:'中', priceElasticity:'低' }
+  },
+
+  'TR': {
+    name:'土耳其', flag:'🇹🇷', region:'中东', iso:'TR',
+    lat:39, lng:35,
+    pop:{ total:0.85, newborn:112, age1850pct:53, age1555pct:61 },
+    gdp:{ '2022':{total:0.91,perCap:10740,growth:5.5}, '2023':{total:1.12,perCap:13100,growth:5.1}, '2024':{total:1.34,perCap:15700,growth:3.2}, '2025e':{total:1.45,perCap:16900,growth:3.0} },
+    urban:77, electricity:100, internet:83,
+    fdi:{ '2024':130 },
+    tradeWithChina:{ total:470, importFromChina:380, yoy:14.2 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:99, branches:[
+      {name:'逊尼派（哈纳菲学派）',pct:75,beliefs:'温和现代伊斯兰，世俗国家体制，土耳其民族主义与伊斯兰结合'},
+      {name:'阿拉维派',pct:20,beliefs:'什叶派分支，神秘主义，音乐舞蹈礼拜，苏菲传统'},
+      {name:'其他少数',pct:1,beliefs:'基督徒（亚美尼亚/希腊/叙利亚）'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'中高', ecomPenetration:74, brandLoyalty:'中', priceElasticity:'高' }
+  },
+
+  'QA': {
+    name:'卡塔尔', flag:'🇶🇦', region:'中东', iso:'QA',
+    lat:25.3, lng:51.2,
+    pop:{ total:0.029, newborn:2, age1850pct:73, age1555pct:80 },
+    gdp:{ '2022':{total:0.237,perCap:81970,growth:4.8}, '2023':{total:0.220,perCap:76020,growth:-0.3}, '2024':{total:0.225,perCap:77700,growth:1.5}, '2025e':{total:0.231,perCap:79800,growth:2.8} },
+    urban:99, electricity:100, internet:99,
+    fdi:{ '2024':50 },
+    tradeWithChina:{ total:190, importFromChina:70, yoy:8.5 },
+    religion:{ main:'伊斯兰教', pct:67, branches:[
+      {name:'逊尼派（瓦哈比）',pct:60,beliefs:'与沙特相近，清真严格，卡塔尔公民保守'},
+      {name:'什叶派及其他穆斯林',pct:7,beliefs:'南亚移民为主'},
+      {name:'基督教/印度教（外籍）',pct:33,beliefs:'外籍劳工，允许私下礼拜'}
+    ]},
+    indicators:{ marketMaturity:'高净值小市场', consumerSophistication:'极高', ecomPenetration:86, brandLoyalty:'低', priceElasticity:'极低' }
+  },
+
+  'EG': {
+    name:'埃及', flag:'🇪🇬', region:'中东/非洲', iso:'EG',
+    lat:26, lng:30,
+    pop:{ total:1.06, newborn:230, age1850pct:53, age1555pct:60 },
+    gdp:{ '2022':{total:0.476,perCap:4490,growth:6.6}, '2023':{total:0.378,perCap:3520,growth:3.8}, '2024':{total:0.348,perCap:3190,growth:2.5}, '2025e':{total:0.420,perCap:3800,growth:4.2} },
+    urban:43, electricity:100, internet:72,
+    fdi:{ '2024':90 },
+    tradeWithChina:{ total:450, importFromChina:310, yoy:6.8 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:90, branches:[
+      {name:'逊尼派（马利基/沙斐仪）',pct:90,beliefs:'爱资哈尔大学权威，温和传统，苏菲主义影响深'},
+      {name:'科普特基督教',pct:10,beliefs:'世界最古老基督教之一，圣经科普特文，独特节日历法'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'低中', ecomPenetration:41, brandLoyalty:'中', priceElasticity:'极高' }
+  },
+
+  // ==================== 非洲区 ====================
+  'NG': {
+    name:'尼日利亚', flag:'🇳🇬', region:'非洲', iso:'NG',
+    lat:10, lng:8,
+    pop:{ total:2.24, newborn:760, age1850pct:52, age1555pct:57 },
+    gdp:{ '2022':{total:0.477,perCap:2130,growth:3.3}, '2023':{total:0.362,perCap:1590,growth:2.9}, '2024':{total:0.252,perCap:1100,growth:3.2}, '2025e':{total:0.275,perCap:1180,growth:4.0} },
+    urban:54, electricity:56, internet:55,
+    fdi:{ '2024':31 },
+    tradeWithChina:{ total:260, importFromChina:200, yoy:3.4 },
+    religion:{ main:'伊斯兰教+基督教各半', pct:100, branches:[
+      {name:'伊斯兰教（逊尼派）',pct:53,beliefs:'北部豪萨-富拉尼族，沙里亚法庭，科兰学校(Almajiri)'},
+      {name:'基督教（五旬节/灵恩派）',pct:46,beliefs:'南部约鲁巴/伊博族，特大型教会，繁荣神学'},
+      {name:'传统非洲宗教',pct:1,beliefs:'约鲁巴奥里沙崇拜，祖先联系'}
+    ]},
+    indicators:{ marketMaturity:'潜力', consumerSophistication:'低', ecomPenetration:32, brandLoyalty:'低', priceElasticity:'极高' }
+  },
+
+  'ZA': {
+    name:'南非', flag:'🇿🇦', region:'非洲', iso:'ZA',
+    lat:-29, lng:25,
+    pop:{ total:0.60, newborn:115, age1850pct:53, age1555pct:60 },
+    gdp:{ '2022':{total:0.405,perCap:6770,growth:1.9}, '2023':{total:0.377,perCap:6220,growth:0.7}, '2024':{total:0.363,perCap:5980,growth:0.6}, '2025e':{total:0.375,perCap:6150,growth:1.7} },
+    urban:68, electricity:84, internet:68,
+    fdi:{ '2024':55 },
+    tradeWithChina:{ total:480, importFromChina:280, yoy:1.8 },
+    religion:{ main:'基督教', pct:86, branches:[
+      {name:'非洲独立教会（锡安/使徒）',pct:36,beliefs:'融合基督教与非洲传统，治愈礼仪，圣灵重视'},
+      {name:'新教（荷兰改革宗/卫理公会）',pct:28,beliefs:'英国/荷兰传教历史，城市中产黑人'},
+      {name:'天主教',pct:10,beliefs:'传教士教育遗产，天主教学校体系'},
+      {name:'伊斯兰教',pct:2,beliefs:'开普穆斯林，马来后裔，波本尼社区'}
+    ]},
+    indicators:{ marketMaturity:'中等', consumerSophistication:'中', ecomPenetration:45, brandLoyalty:'中低', priceElasticity:'高' }
+  },
+
+  'KE': {
+    name:'肯尼亚', flag:'🇰🇪', region:'非洲', iso:'KE',
+    lat:-1, lng:37,
+    pop:{ total:0.56, newborn:133, age1850pct:52, age1555pct:57 },
+    gdp:{ '2022':{total:0.113,perCap:2010,growth:4.8}, '2023':{total:0.118,perCap:2080,growth:5.6}, '2024':{total:0.120,perCap:2090,growth:4.9}, '2025e':{total:0.127,perCap:2170,growth:5.2} },
+    urban:29, electricity:75, internet:42,
+    fdi:{ '2024':8 },
+    tradeWithChina:{ total:75, importFromChina:60, yoy:7.2 },
+    religion:{ main:'基督教', pct:85, branches:[
+      {name:'新教（五旬节/ACK）',pct:50,beliefs:'灵恩运动，家庭教会，布道帐篷复兴'},
+      {name:'天主教',pct:23,beliefs:'传教士学校遗产，农村社区'},
+      {name:'伊斯兰教',pct:11,beliefs:'海岸省斯瓦希里穆斯林，索马里社区'}
+    ]},
+    indicators:{ marketMaturity:'潜力', consumerSophistication:'低中', ecomPenetration:28, brandLoyalty:'低', priceElasticity:'极高' }
+  },
+
+  'MA': {
+    name:'摩洛哥', flag:'🇲🇦', region:'非洲', iso:'MA',
+    lat:32, lng:-6,
+    pop:{ total:0.38, newborn:65, age1850pct:52, age1555pct:59 },
+    gdp:{ '2022':{total:0.132,perCap:3460,growth:1.2}, '2023':{total:0.142,perCap:3710,growth:3.4}, '2024':{total:0.150,perCap:3900,growth:3.2}, '2025e':{total:0.160,perCap:4140,growth:4.0} },
+    urban:65, electricity:100, internet:88,
+    fdi:{ '2024':21 },
+    tradeWithChina:{ total:110, importFromChina:78, yoy:8.3 },
+    religion:{ main:'伊斯兰教（逊尼派，马利基学派）', pct:99, branches:[
+      {name:'逊尼派（马利基）',pct:99,beliefs:'国王为信士领袖，苏菲传统（扎维亚圣所），圣人崇拜，拉马丹文化'},
+      {name:'苏菲兄弟会（蒂加尼亚/沙兹利亚）',pct:30,beliefs:'精神修炼，圣人崇拜，音乐冥想（迪克尔）'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'中', ecomPenetration:47, brandLoyalty:'中', priceElasticity:'高' }
+  },
+
+  // ==================== 中亚区 ====================
+  'KZ': {
+    name:'哈萨克斯坦', flag:'🇰🇿', region:'中亚', iso:'KZ',
+    lat:48, lng:68,
+    pop:{ total:0.20, newborn:46, age1850pct:51, age1555pct:57 },
+    gdp:{ '2022':{total:0.220,perCap:11020,growth:3.2}, '2023':{total:0.259,perCap:12790,growth:5.1}, '2024':{total:0.286,perCap:13960,growth:4.8}, '2025e':{total:0.305,perCap:14700,growth:5.0} },
+    urban:60, electricity:97, internet:91,
+    fdi:{ '2024':120 },
+    tradeWithChina:{ total:360, importFromChina:190, yoy:31.5 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:70, branches:[
+      {name:'逊尼派（哈纳菲，温和）',pct:70,beliefs:'苏联后复兴，民族认同与伊斯兰结合，不甚严格，饮酒普遍'},
+      {name:'东正教（俄罗斯族）',pct:18,beliefs:'俄罗斯/乌克兰移民后裔，节日文化'},
+      {name:'无宗教/无神论',pct:8,beliefs:'苏联无神论遗产'}
+    ]},
+    indicators:{ marketMaturity:'成长', consumerSophistication:'中高', ecomPenetration:62, brandLoyalty:'中', priceElasticity:'中高' }
+  },
+
+  'UZ': {
+    name:'乌兹别克斯坦', flag:'🇺🇿', region:'中亚', iso:'UZ',
+    lat:41, lng:64,
+    pop:{ total:0.37, newborn:93, age1850pct:52, age1555pct:57 },
+    gdp:{ '2022':{total:0.080,perCap:2160,growth:5.7}, '2023':{total:0.090,perCap:2400,growth:6.3}, '2024':{total:0.100,perCap:2640,growth:6.5}, '2025e':{total:0.112,perCap:2940,growth:6.2} },
+    urban:51, electricity:100, internet:77,
+    fdi:{ '2024':28 },
+    tradeWithChina:{ total:120, importFromChina:72, yoy:27.8 },
+    religion:{ main:'伊斯兰教（逊尼派，哈纳菲）', pct:88, branches:[
+      {name:'逊尼派（哈纳菲）',pct:88,beliefs:'撒马尔罕/布哈拉伊斯兰文化中心，苏菲神学，民俗伊斯兰与正统并存'},
+      {name:'无宗教',pct:8,beliefs:'苏联化城市居民'},
+      {name:'东正教',pct:2,beliefs:'俄罗斯族残余'}
+    ]},
+    indicators:{ marketMaturity:'潜力', consumerSophistication:'低中', ecomPenetration:35, brandLoyalty:'中', priceElasticity:'高' }
+  },
+
+  'KG': {
+    name:'吉尔吉斯斯坦', flag:'🇰🇬', region:'中亚', iso:'KG',
+    lat:41, lng:75,
+    pop:{ total:0.068, newborn:16, age1850pct:50, age1555pct:55 },
+    gdp:{ '2022':{total:0.011,perCap:1620,growth:7.0}, '2023':{total:0.013,perCap:1900,growth:6.3}, '2024':{total:0.014,perCap:2050,growth:6.0}, '2025e':{total:0.016,perCap:2290,growth:5.5} },
+    urban:37, electricity:100, internet:73,
+    fdi:{ '2024':6 },
+    tradeWithChina:{ total:55, importFromChina:42, yoy:35.2 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:90, branches:[
+      {name:'逊尼派（哈纳菲，民俗化）',pct:90,beliefs:'萨满传统与伊斯兰融合，游牧习俗，玛纳斯史诗文化'},
+      {name:'无宗教',pct:7,beliefs:'苏联化遗存'}
+    ]},
+    indicators:{ marketMaturity:'初级', consumerSophistication:'低', ecomPenetration:22, brandLoyalty:'低', priceElasticity:'极高' }
+  },
+
+  'TM': {
+    name:'土库曼斯坦', flag:'🇹🇲', region:'中亚', iso:'TM',
+    lat:40, lng:60,
+    pop:{ total:0.063, newborn:14, age1850pct:51, age1555pct:57 },
+    gdp:{ '2022':{total:0.059,perCap:9370,growth:6.2}, '2023':{total:0.061,perCap:9680,growth:6.3}, '2024':{total:0.064,perCap:10160,growth:6.3}, '2025e':{total:0.067,perCap:10640,growth:6.0} },
+    urban:54, electricity:100, internet:28,
+    fdi:{ '2024':3 },
+    tradeWithChina:{ total:110, importFromChina:30, yoy:-8.2 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:89, branches:[
+      {name:'逊尼派（哈纳菲，官方管控）',pct:89,beliefs:'国家管控宗教，土库曼民族主义与伊斯兰结合，总统神格化'},
+      {name:'东正教',pct:9,beliefs:'俄罗斯族，官方认可'}
+    ]},
+    indicators:{ marketMaturity:'封闭', consumerSophistication:'低', ecomPenetration:8, brandLoyalty:'低', priceElasticity:'极高' }
+  },
+
+  'TJ': {
+    name:'塔吉克斯坦', flag:'🇹🇯', region:'中亚', iso:'TJ',
+    lat:39, lng:71,
+    pop:{ total:0.102, newborn:27, age1850pct:51, age1555pct:55 },
+    gdp:{ '2022':{total:0.010,perCap:980,growth:8.0}, '2023':{total:0.011,perCap:1070,growth:8.3}, '2024':{total:0.013,perCap:1270,growth:7.0}, '2025e':{total:0.014,perCap:1370,growth:7.0} },
+    urban:27, electricity:100, internet:42,
+    fdi:{ '2024':3 },
+    tradeWithChina:{ total:45, importFromChina:32, yoy:22.4 },
+    religion:{ main:'伊斯兰教（逊尼派）', pct:95, branches:[
+      {name:'逊尼派（哈纳菲）',pct:85,beliefs:'波斯-伊朗文化圈，诺鲁孜节（波斯新年），苏菲传统'},
+      {name:'伊斯玛仪什叶派',pct:7,beliefs:'帕米尔山区，阿加汗领导，教育发展重视'}
+    ]},
+    indicators:{ marketMaturity:'初级', consumerSophistication:'极低', ecomPenetration:12, brandLoyalty:'低', priceElasticity:'极高' }
+  }
+};
+
+// 区域分组
+var REGIONS = {
+  '北美区': ['US','CA'],
+  '欧洲区': ['GB','DE','FR','IT','ES','NL','EU27'],
+  '亚太区': ['JP','KR','AU','IN','SG'],
+  '新兴区': ['BR','RU','MX','ID'],
+  '中东区': ['SA','AE','TR','QA','EG'],
+  '非洲区': ['NG','ZA','KE','MA','EG'],
+  '中亚区': ['KZ','UZ','KG','TM','TJ']
+};
+
+
+</script>
+<!-- ===== DATA: 需求分析+行业趋势 ===== -->
+<script>
+// ============================================================
+// T2: 国别需求分析引擎 + T3: 行业趋势数据库
+// ============================================================
+
+// ------ 综合评分算法（国别报告评估） ------
+function scoreCountry(iso, cat) {
+  var c = COUNTRY_DB[iso];
+  if (!c) return 0;
+  var g = c.gdp['2024'];
+  var score = 0;
+  // GDP规模(20) + 增速(15) + 人均GDP(15) + 主力人口(15) + 城市化(10) + 网络率(10) + 与中国贸易(15)
+  score += Math.min(20, g.total / 2);
+  score += Math.min(15, g.growth * 2);
+  score += Math.min(15, g.perCap / 6000);
+  score += Math.min(15, c.pop.age1850pct / 4);
+  score += Math.min(10, c.urban / 10);
+  score += Math.min(10, c.internet / 10);
+  score += Math.min(15, c.tradeWithChina.importFromChina / 100);
+  return Math.round(score);
+}
+
+function getTop5Countries(isoList, cat) {
+  return isoList
+    .map(function(iso){ return {iso:iso, score:scoreCountry(iso,cat)}; })
+    .sort(function(a,b){ return b.score - a.score; })
+    .slice(0, 5);
+}
+
+// ------ 需求场景矩阵（品类×国家类型）------
+var DEMAND_MATRIX = {
+  '储能': {
+    scenes: [
+      {scene:'户外露营/越野',crowd:'25-45岁中产男性',reason:'周末经济繁荣，追求独立电力体验，脱离市政网格'},
+      {scene:'家庭应急备电',crowd:'35-55岁家庭主力',reason:'极端天气频发，断电风险意识上升，家庭安全刚需'},
+      {scene:'工商业备电',crowd:'中小企业主',reason:'电价上涨+碳中和压力，寻求储能削峰填谷降本'},
+      {scene:'离网农村电气化',crowd:'发展中国家农村人口',reason:'通电率低，光储一体是最经济的通电方案'}
+    ],
+    products: {
+      cert: ['UN38.3(航空锂电)','UL9540(储能系统)','IEC62619','CE/EMC','FCC(美国)','RCM(澳洲)'],
+      params: ['容量500Wh-5kWh','循环寿命>2000次','充电速度<2h','IP55防水防尘','工作温度-20~60°C'],
+      features: ['APP远程监控','太阳能充电兼容','双向快充','BMS过充过放保护','多接口输出'],
+      priceRange: { '成熟市场':'$299-$1200', '新兴市场':'$150-$500', '工商业':'$2000-$50000' }
+    },
+    exportTrend: {
+      '2020':{ scale:42, yoy:18 }, '2021':{ scale:78, yoy:86 }, '2022':{ scale:156, yoy:100 },
+      '2023':{ scale:198, yoy:27 }, '2024':{ scale:231, yoy:17 },
+      trends: ['欧洲家用储能受益于电价高企增长最快','美国Inflation Reduction Act推动本土储能但中国供应链仍主导','东南亚离网储能光储一体成新蓝海','中东沙特/UAE大型储能项目国产化要求提高'],
+      focus: ['家用全能源管理系统(HEMS)','便携储能向工商业升级','储能即服务(EaaS)商业模式']
+    }
+  },
+  '家具': {
+    scenes: [
+      {scene:'新婚置业',crowd:'25-35岁新婚夫妇',reason:'首次置家预算有限，扁平化RTA家具性价比高'},
+      {scene:'租房经济',crowd:'22-32岁城市单身/合租',reason:'城市化加速，租房市场扩大，轻便可移动家具需求旺'},
+      {scene:'家居升级',crowd:'35-50岁中产家庭',reason:'疫情后居家时间增加，高品质家居消费升级'},
+      {scene:'电商仓配家具',crowd:'B端电商卖家',reason:'跨境电商B2B采购，寻求质量稳定、包装出货标准化'}
+    ],
+    products: {
+      cert: ['FSC(可持续木材)','CARB(加州甲醛标准)','EN71-3(欧洲儿童安全)','TSCA Title VI(美国)','BIFMA(北美商业家具)'],
+      params: ['甲醛释放量<0.05ppm(E0级)','承重>100kg(座椅)','阻燃等级B1','表面耐磨>10万次','VOC含量符合加州标准'],
+      features: ['扁平包装可自装','多场景模块化组合','智能储物功能','可持续材料（再生木/竹）'],
+      priceRange: { '成熟市场':'$80-$800', '新兴市场':'$30-$300', '高端定制':'$500-$5000' }
+    },
+    exportTrend: {
+      '2020':{ scale:520, yoy:12 }, '2021':{ scale:680, yoy:31 }, '2022':{ scale:590, yoy:-13 },
+      '2023':{ scale:540, yoy:-8 }, '2024':{ scale:560, yoy:4 },
+      trends: ['越南/马来西亚分流明显，中国份额向东南亚转移','美国301关税推动买家拆单规避','中国家具品牌出海(曲美/顾家)直接冲击代工利润','绿色认证(FSC)成为欧盟采购前提条件'],
+      focus: ['品牌直营DTC模式(独立站+亚马逊品牌)','定制化软体家具（沙发/床垫）增长>20%','智能家具（无线充电/传感器）差异化']
+    }
+  },
+  '玩具': {
+    scenes: [
+      {scene:'婴幼儿早教',crowd:'0-6岁儿童，购买者为父母',reason:'STEM教育理念渗透，父母愿为教育属性产品溢价'},
+      {scene:'儿童益智娱乐',crowd:'6-12岁，购买者为父母/祖父母',reason:'减少屏幕时间需求，动手操作类玩具受青睐'},
+      {scene:'青少年/成人收藏',crowd:'15-35岁IP粉丝',reason:'潮玩/盲盒/手办兴起，成人玩具市场迅速扩大'},
+      {scene:'节日礼品',crowd:'全年龄',reason:'圣诞/春节/开斋节礼品属性强，季节性采购峰值'}
+    ],
+    products: {
+      cert: ['EN71-1/2/3(欧洲)','ASTM F963(美国)','GB6675(中国出口)','UKCA(英国)','CPSIA(美国儿童品)'],
+      params: ['适龄标注清晰','小零件>3cm(防窒息)','无AZO偶氮染料','重金属含量<EN71-3限值','噪音<85dB'],
+      features: ['APP互动/AR增强','STEM学习属性','IP授权联名','环保可降解材料'],
+      priceRange: { '成熟市场':'$15-$150', '新兴市场':'$5-$50', '潮玩收藏':'$30-$500' }
+    },
+    exportTrend: {
+      '2020':{ scale:460, yoy:14 }, '2021':{ scale:530, yoy:15 }, '2022':{ scale:490, yoy:-8 },
+      '2023':{ scale:510, yoy:4 }, '2024':{ scale:545, yoy:7 },
+      trends: ['IP授权成差异化壁垒，无IP玩具价格战激烈','STEM玩具/编程玩具年增>25%','成人潮玩（泡泡玛特模式）市场规模突破1000亿','可持续材质玩具在欧洲成采购门槛'],
+      focus: ['STEM+AI互动（机器人编程套件）','成人盲盒/潮玩品牌化出海','节日礼品定制化（圣诞/开斋节/排灯节）']
+    }
+  },
+  '家电': {
+    scenes: [
+      {scene:'厨房小家电',crowd:'28-45岁家庭主妇/厨房爱好者',reason:'健康饮食趋势，空气炸锅/破壁机等爆款品类'},
+      {scene:'生活美容电器',crowd:'18-35岁女性',reason:'颜值经济，美发/美容家电社交媒体带货效应强'},
+      {scene:'家居清洁',crowd:'25-45岁双职工家庭',reason:'时间成本上升，扫地机器人/洗碗机渗透率快速提升'},
+      {scene:'气候家电',crowd:'35-60岁',reason:'全球极端天气，空调/除湿机/空气净化器需求上升'}
+    ],
+    products: {
+      cert: ['CE(欧洲)','UL/ETL(美国)','RCM(澳洲)','PSE(日本)','EK(韩国)','BIS(印度)'],
+      params: ['能效等级A+++（欧洲）/Energy Star（美国）','噪音<45dB','电压适配(110V/220V)','WIFI/蓝牙连接','寿命>5年/10000小时'],
+      features: ['APP智能控制','语音助手兼容(Alexa/Google)','自动清洁功能','节能模式'],
+      priceRange: { '成熟市场':'$50-$600', '新兴市场':'$25-$200', '高端智能':'$300-$2000' }
+    },
+    exportTrend: {
+      '2020':{ scale:880, yoy:21 }, '2021':{ scale:1120, yoy:27 }, '2022':{ scale:980, yoy:-13 },
+      '2023':{ scale:1050, yoy:7 }, '2024':{ scale:1180, yoy:12 },
+      trends: ['小家电细分爆品（空气炸锅/洗地机）增速>30%','东南亚市场小家电渗透率提升最快','中国品牌(海尔/美的/海信)直接出海占比增加','欧盟能效标签升级推动产品迭代'],
+      focus: ['洗地机/扫拖一体机东南亚/中东增长','厨房一体化解决方案','美容仪/家用射频仪高端市场']
+    }
+  },
+  '服装': {
+    scenes: [
+      {scene:'快时尚/日常基本款',crowd:'18-35岁',reason:'SHEIN模式验证，高频换新，性价比敏感'},
+      {scene:'户外运动服装',crowd:'25-45岁中产',reason:'户外运动人口增加，功能性服装（防水/防紫外线）需求旺'},
+      {scene:'穆斯林服装',crowd:'中东/东南亚/非洲穆斯林女性',reason:'人口增长最快群体，斋月+开斋节消费峰值，遮体需求稳定'},
+      {scene:'职业正装/商务',crowd:'25-50岁城市职场人',reason:'复工复产后正装需求回升，品质消费升级'}
+    ],
+    products: {
+      cert: ['OEKO-TEX Standard 100','GOTS(有机棉)','GRS(全球回收标准)','WRAP(负责任生产)','Bluesign(功能面料)'],
+      params: ['面料成分清晰标注','洗涤缩率<3%','色牢度>4级','甲醛含量<75mg/kg','穆斯林款：覆盖头部颈部四肢'],
+      features: ['可持续材料(竹纤维/再生聚酯)','防紫外线UPF50+','快干吸湿排汗','尺码包容性(XS-5XL)'],
+      priceRange: { '快时尚':'$5-$50', '功能性运动':'$30-$200', '高端品牌':'$80-$500' }
+    },
+    exportTrend: {
+      '2020':{ scale:1480, yoy:-7 }, '2021':{ scale:1720, yoy:16 }, '2022':{ scale:1820, yoy:6 },
+      '2023':{ scale:1690, yoy:-7 }, '2024':{ scale:1750, yoy:4 },
+      trends: ['SHEIN/Temu对传统服装出口冲击，直邮小包模式重构供应链','穆斯林时尚(Modest Fashion)全球规模超3000亿美元','越南/孟加拉国分流中低端订单','欧盟数字产品护照2026年要求供应链透明化'],
+      focus: ['穆斯林时尚新品类（运动abaya/时尚头巾）','功能性户外服装（冲锋衣/速干衣）','可持续认证高端小单']
+    }
+  },
+  '陶瓷': {
+    scenes: [
+      {scene:'建筑装修用砖',crowd:'建筑开发商/装修业主',reason:'城市化建设旺盛，陶瓷砖耐用美观'},
+      {scene:'厨卫家居装饰',crowd:'30-50岁家装市场',reason:'消费升级带动高端艺术陶瓷装饰需求'},
+      {scene:'礼品工艺品',crowd:'全球高端礼品采购',reason:'中国陶瓷文化底蕴，景德镇等品牌全球认知'}
+    ],
+    products: {
+      cert: ['ISO13006(建筑陶瓷)','FDA(食品接触陶瓷,美国)','DGCCRF(法国食品接触)','EN14411(欧洲建筑陶瓷)'],
+      params: ['铅镉溶出<EN1388限值','吸水率<0.5%(瓷质砖)','抗折强度>35MPa','表面耐磨PEI等级4-5级'],
+      features: ['纳米抗污釉面','仿石仿木大板效果','薄板轻量化','抗菌釉(银离子)'],
+      priceRange: { '普通建筑瓷砖':'$5-$20/m2', '高端装饰':'$30-$150/m2', '工艺礼品':'$20-$500/件' }
+    },
+    exportTrend: {
+      '2020':{ scale:68, yoy:3 }, '2021':{ scale:82, yoy:21 }, '2022':{ scale:79, yoy:-4 },
+      '2023':{ scale:86, yoy:9 }, '2024':{ scale:94, yoy:9 },
+      trends: ['中东建筑热带动陶瓷砖需求','非洲城市化建设采购中国瓷砖','高端艺术陶瓷在欧洲/日本溢价空间大','反倾销调查（印度/欧盟）压缩低端空间'],
+      focus: ['大板岩板（1.2m*2.4m）高端家装','中东沙特NEOM项目供应链机会','非洲清真寺/政府建筑采购']
+    }
+  },
+  '医疗器械': {
+    scenes: [
+      {scene:'家用健康监测',crowd:'40-70岁慢病管理人群',reason:'慢性病患者居家监测刚需（血压/血糖/心率）'},
+      {scene:'医院临床设备',crowd:'医院采购',reason:'新兴市场医疗基础设施投资增加，中国品牌性价比高'},
+      {scene:'运动康复',crowd:'25-45岁运动人群',reason:'体育经济兴起，运动恢复设备（EMS/按摩仪）消费升级'}
+    ],
+    products: {
+      cert: ['FDA 510k(美国)','CE MDR(欧盟新法规)','NMPA出口认证','PMDA(日本)','TGA(澳大利亚)'],
+      params: ['精度±3mmHg(血压计)','血糖误差<15%','IP67防水','电池续航>300次测量','蓝牙4.0+'],
+      features: ['APP数据管理','多用户档案','异常值预警','与苹果健康/Google Fit同步'],
+      priceRange: { '家用监测':'$20-$200', '运动健康':'$50-$500', '医疗级专业':'$500-$50000' }
+    },
+    exportTrend: {
+      '2020':{ scale:320, yoy:45 }, '2021':{ scale:280, yoy:-13 }, '2022':{ scale:240, yoy:-14 },
+      '2023':{ scale:260, yoy:8 }, '2024':{ scale:295, yoy:13 },
+      trends: ['疫情后家用健康设备渗透率永久提升','AI辅助诊断设备进入新兴市场','可穿戴医疗（连续血糖监测CGM）爆发','美国FDA对中国医疗器械加强审查'],
+      focus: ['CGM连续血糖监测出海(FreeStyle竞品)','AI眼底筛查/远程诊断设备','中东/非洲医院整体解决方案']
+    }
+  },
+  '灯具': {
+    scenes: [
+      {scene:'商业照明改造',crowd:'商场/办公/工厂业主',reason:'LED替换节能改造，降低电费成本'},
+      {scene:'家居智能照明',crowd:'25-45岁智能家居用户',reason:'Matter协议统一，全屋智能照明需求增加'},
+      {scene:'户外市政照明',crowd:'政府市政采购',reason:'新兴市场城市基础设施投资，路灯/景观灯采购'}
+    ],
+    products: {
+      cert: ['CE(欧洲)','UL(美国)','DLC(北美商业)','RCM(澳洲)','SASO(沙特)','BIS(印度)'],
+      params: ['光效>160lm/W','显色指数Ra>80','色温误差<200K','寿命>50000小时','功率因数>0.9'],
+      features: ['Matter/Zigbee/蓝牙协议','调光调色(2700K-6500K)','0-10V调光接口','防蓝光认证'],
+      priceRange: { 'LED球泡/灯管':'$2-$15', '智能灯具':'$15-$100', '商业工程':'$50-$500' }
+    },
+    exportTrend: {
+      '2020':{ scale:350, yoy:5 }, '2021':{ scale:420, yoy:20 }, '2022':{ scale:390, yoy:-7 },
+      '2023':{ scale:410, yoy:5 }, '2024':{ scale:445, yoy:9 },
+      trends: ['Matter协议推动智能灯具标准化','中东市政路灯项目大规模招标','欧盟能效法规推动T8替换T12加速','印度BIS认证成中国灯具出口壁垒'],
+      focus: ['智能全彩RGB灯具（家居+娱乐）','中东/非洲太阳能路灯','植物生长灯（农业+室内种植）']
+    }
+  },
+  '新能源汽车': {
+    scenes: [
+      {scene:'个人日常出行',crowd:'25-50岁城市中产',reason:'油价上涨，充电成本低，政策补贴推动'},
+      {scene:'网约车运营',crowd:'出行平台/司机',reason:'运营里程高，电动车总持有成本(TCO)更低'},
+      {scene:'政府公务/公交',crowd:'政府采购',reason:'碳中和目标，新能源公交/政府用车强制比例'}
+    ],
+    products: {
+      cert: ['WVTA(欧盟整车型式认证)','FMVSS(美国)','GB/T(中国出口标准)','HS(欧盟电磁兼容)'],
+      params: ['续航里程>400km(WLTP)','快充30min至80%','车身扭转刚度>20000Nm/deg','NCAP5星安全评级'],
+      features: ['OTA远程升级','L2+辅助驾驶','智能座舱大屏','热泵空调（低温续航保障）'],
+      priceRange: { '经济型':'$18000-$30000', '主流中型':'$25000-$45000', '高端SUV':'$40000-$80000' }
+    },
+    exportTrend: {
+      '2020':{ scale:48, yoy:70 }, '2021':{ scale:102, yoy:113 }, '2022':{ scale:256, yoy:151 },
+      '2023':{ scale:491, yoy:92 }, '2024':{ scale:580, yoy:18 },
+      trends: ['欧盟加征临时关税(最高38.1%)，中国车企加速在欧洲建厂','东南亚成中国新能源车主战场（泰国/印尼投资设厂）','中东/拉美市场快速启动，本地化要求提升','与特斯拉直接竞争区域向新兴市场转移'],
+      focus: ['东南亚右舵车型本地化','中东皮卡型电动车需求','欧洲小型电动车(A-segment)补贴窗口']
+    }
+  },
+  '建材': {
+    scenes: [
+      {scene:'住宅新建/装修',crowd:'新房业主/装修业主',reason:'城市化建设持续，新兴市场住房刚需旺盛'},
+      {scene:'商业地产建设',crowd:'开发商/施工方',reason:'中东/非洲基建投资加速，大型商业项目采购'},
+      {scene:'绿色改造',crowd:'欧洲/北美建筑业主',reason:'碳中和建筑标准（LEED/BREEAM）推动绿色建材替换'}
+    ],
+    products: {
+      cert: ['CE(欧盟建材法规CPR)','UL(美国)','LEED认证配套','ISO9001质量','FSC(木制建材)'],
+      params: ['防火等级A1/A2','导热系数<0.04W/mK(保温材料)','VOC<1g/L(涂料)','承重满足当地规范'],
+      features: ['装配式预制（缩短工期）','节能保温一体化','防霉防潮处理','本地化尺寸规格'],
+      priceRange: { '普通建材':'$10-$50/m2', '高端绿色建材':'$30-$150/m2', '系统解决方案':'$100-$500/m2' }
+    },
+    exportTrend: {
+      '2020':{ scale:95, yoy:2 }, '2021':{ scale:128, yoy:35 }, '2022':{ scale:145, yoy:13 },
+      '2023':{ scale:138, yoy:-5 }, '2024':{ scale:149, yoy:8 },
+      trends: ['中东NEOM等大型项目带动中国建材批量采购','非洲援建项目配套建材本土化要求','欧盟CBAM间接影响钢铁/铝制建材出口成本','装配式建筑出口（整体卫浴/集成厨房）增长快'],
+      focus: ['沙特/UAE大型基建项目配套建材','整体卫浴/装配式内装系统','非洲低成本绿色建材（竹钢/轻钢龙骨）']
+    }
+  }
+};
+
+// -------- 行业趋势数据库（T3）-------
+var INDUSTRY_TRENDS = {
+  '机电产品': {
+    culture: '欧美消费者重视品牌和认证，亚非新兴市场价格敏感，中东注重品牌地位象征',
+    consumer: '工业4.0推动智能化采购，B2B采购数字化平台兴起，绿色能效成采购前提',
+    infra: '全球制造业回流推动机电设备本地化，东南亚建厂热带动机电设备进口',
+    population: '发达国家老龄化推动自动化替代人力需求，新兴市场劳动力充裕但升级压力增大',
+    social: '劳工保护意识上升，机电设备安全认证门槛提高，ESG采购要求渗透',
+    environment: 'CBAM碳边境税影响高能耗机电设备出口成本，能效标准持续提升',
+    opportunity: '东南亚制造业转移带动机电设备配套，工业机器人中小企业渗透加速'
+  },
+  '高新技术产品': {
+    culture: '硅谷/深圳/东京创新文化推崇，新兴市场对中国科技品牌接受度快速提升',
+    consumer: 'Z世代数字原住民主导消费，AI功能成产品溢价核心，订阅制模式渗透',
+    infra: '5G基础设施建设加速，边缘计算需求带动硬件升级，东南亚数据中心投资激增',
+    population: '年轻人口大国（印度/印尼）数字化需求爆发，老龄化国家辅助科技需求增加',
+    social: '数据隐私法规（GDPR/印度PDPB）影响科技产品合规，数字鸿沟问题引发政策干预',
+    environment: '芯片制造高耗水耗能，绿色数据中心成监管方向，电子废弃物回收强制化',
+    opportunity: 'AI硬件（推理卡/边缘AI设备）全球供给紧张，中国性价比优势窗口期'
+  },
+  '纺织纱线织物': {
+    culture: '穆斯林世界对遮体面料需求持续，日本匠人文化推崇高端面料，快时尚文化全球化',
+    consumer: '可持续时尚兴起（二手服装+循环纤维），功能性面料（运动/户外）增速领跑',
+    infra: '孟加拉国/越南纺织产能扩张，亚非成衣工厂本地采购中国面料',
+    population: '非洲人口增长提供纺织品增量市场，欧洲人口减少倒逼高端品质突围',
+    social: '供应链透明度要求（欧盟尽职调查法），工厂劳工权利审计成采购前提',
+    environment: '欧盟禁止快时尚过季销毁，纺织品微塑料污染监管，天然纤维溢价回归',
+    opportunity: '非洲AGOA协议面料供应商机，穆斯林运动面料（抗菌速干遮体）蓝海'
+  }
+};
+
+
+</script>
+<!-- ===== DATA: 合规查询 ===== -->
+<script>
+// ============================================================
+// T4: 合规查询数据库
+// ============================================================
+var COMPLIANCE_DB = {
+  '电子产品': {
+    '美国': {
+      cert: ['FCC Part 15(无线电频率)','UL 60950/62368(电器安全)','Energy Star(能效)','CPSC(消费品安全)'],
+      std: ['ANSI C63.4(电磁兼容)','IEEE 802.11(WiFi)','Bluetooth SIG认证'],
+      banned: ['六价铬','PBB','PBDE(RoHS对应TSCA Title VI)','含氟聚合物PFAS(部分州)'],
+      label: ['FCC ID标注','Energy Star标识','UL认证标志','加州Prop 65警告标签'],
+      customs: ['HS 8471-8479类重点审查','进口商需提交FCC授权文件','锂电池需符合PHMSA航空规定']
+    },
+    '欧盟': {
+      cert: ['CE认证(RED/LVD/EMC指令)','RoHS II指令','WEEE注册','REACH登记'],
+      std: ['EN 55032(EMC)','EN 60950-1/62368-1(安全)','EN 301 489(无线)','IEC 62321(有害物质检测)'],
+      banned: ['铅<0.1%','汞<0.1%','镉<0.01%','六价铬<0.1%','PBB/PBDE<0.1%','DEHP/BBP/DBP/DIBP<0.1%'],
+      label: ['CE标识（强制）','WEEE回收符号','DOC符合性声明','Importer EU地址'],
+      customs: ['进口商须在欧盟境内注册','AEO认证加快清关','电池新法规2023年底生效，循环率要求提高']
+    },
+    '英国': {
+      cert: ['UKCA认证（替代CE）','UK PSTI法（2024年物联网安全）','UKNI(北爱尔兰特殊规定)'],
+      std: ['UK RoHS 2(SI 2012/3032)','UK EMC Regs 2016','UK Ecodesign Regs'],
+      banned: ['同欧盟RoHS受限物质','部分SVHC物质英国自行列表扩展'],
+      label: ['UKCA标识（2025年强制）','UK地址Importer','英文标签'],
+      customs: ['脱欧后需英国进口商','Customs declaration需EORI号']
+    },
+    '日本': {
+      cert: ['PSE认证（电气用品安全法）','TELEC(无线认证)','VCCI(EMI自愿认证)','J-Moss(有害物质)'],
+      std: ['JIS C6950(安全)','ARIB STD(无线)','J-Moss(RoHS类似,附件J标识)'],
+      banned: ['PSE法特定电气用品铅/镉等限制','PFOS/PFOA禁用'],
+      label: ['PSE标志（菱形/圆形区分）','JIS编号','TELEC认证号','日语说明书'],
+      customs: ['海关需提交PSE证书原件','抽检严格，退运风险高','小家电需附属文件完整']
+    },
+    '澳大利亚': {
+      cert: ['RCM认证（整合原C-Tick+A-Tick+SAA）','Energy Rating标签','EESS能效注册'],
+      std: ['AS/NZS 4268(无线)','AS/NZS 62368-1(安全)','AS 4954(能效)'],
+      banned: ['同欧盟RoHS主要物质','Ozone-depleting substances禁用'],
+      label: ['RCM标识','Energy Star(非强制但加分)','澳洲进口商地址'],
+      customs: ['DIBP进口合规','家电需EESS能效评级注册']
+    },
+    '沙特/GCC': {
+      cert: ['SASO(沙特标准局)认证','IECEE CB证书互认','GSO(海湾标准)'],
+      std: ['GSO 60335(家电安全)','GSO 62368(音视频IT)','CITC(无线产品)'],
+      banned: ['无特别RoHS要求但参照国际标准'],
+      label: ['SASO标志','阿拉伯语标签','产地标注必须(Made in China)'],
+      customs: ['COC商品检验证书强制','沙特需Energy Performance Certificate','清真认证(对食品接触类)']
+    },
+    '印度': {
+      cert: ['BIS认证（IS标准，强制）','WPC无线认证','BEE能效标签（强制或自愿）'],
+      std: ['IS 616/IS 13252(安全)','IS 15663(EMI)','BEE能效等级1-5星'],
+      banned: ['E-Waste Rules 2022限制铅/汞/镉等'],
+      label: ['IS标志','BIS注册号','制造商/进口商印度地址','印地语标签(强制)'],
+      customs: ['BIS License强制（60+类电子产品）','进口清关需BIS证书','P-Mark(压力设备)']
+    }
+  },
+  '食品': {
+    '美国': {
+      cert: ['FDA食品设施注册','FSMA预防性控制','HACCP计划','有机认证(USDA)'],
+      std: ['21 CFR Food Standards','FSVP(外国供应商验证)','Bioterrorism Act提前通报'],
+      banned: ['六种偶氮染料禁用','反式脂肪（PHOs）禁用','部分防腐剂受限（溴酸钾禁止加面粉）','PFAS食品接触材料管控'],
+      label: ['营养成分表（FDA格式）','过敏原标注（9大类）','产地标注（COOL）','有效期格式规范'],
+      customs: ['FDA Prior Notice提前通报','FSVP文件备查','可口可乐等含咖啡因饮料量限制']
+    },
+    '欧盟': {
+      cert: ['EC 852/2004食品卫生法规','EFSA安全评估（新食品）','有机认证(EC 2018/848)'],
+      std: ['EC 1333/2008食品添加剂','EC 1334/2008香精','EC 1881/2006污染物限量'],
+      banned: ['苏丹红等非允许色素','甜蜜素（部分产品限量）','转基因未批准品种零容忍','硝酸盐超限蔬菜'],
+      label: ['QID量化成分标注','过敏原14类强制标注','原产地（对肉/蜂蜜/橄榄油强制）','营养声称规范'],
+      customs: ['RASFF快速预警系统','入境健康证书','部分动物源食品需兽医证书']
+    }
+  },
+  '玩具': {
+    '美国': {
+      cert: ['CPSIA 3rd party testing','ASTM F963玩具安全','CPSC注册（6-96月龄）','铅含量测试'],
+      std: ['ASTM F963-23','16 CFR Part 1303(铅涂料)','16 CFR Part 1501(小零件)'],
+      banned: ['铅涂料>90ppm','小零件(<36月龄)','磁铁功率(Φ<1.06mm限制)','邻苯二甲酸酯<0.1%'],
+      label: ['年龄段警告标识','窒息危险警示','制造商信息','批次编号可追溯'],
+      customs: ['Children\'s Product Certificate(CPC)','CPSC注册进口商备案','第三方认证实验室必须CPSC认可']
+    },
+    '欧盟': {
+      cert: ['CE认证（玩具指令2009/48/EC）','EN71-1/2/3/4/5/6测试','REACH化学品登记'],
+      std: ['EN71系列全套','EN 62115(电动玩具)','EN 71-9(化学品,2021更新)'],
+      banned: ['EN71-3附录限制16种重金属迁移','AZO偶氮染料（部分）','双酚A（接触嘴类玩具）'],
+      label: ['CE标志','年龄段警告（0-3/0-36月龄）','EN71符合性','EU进口商地址'],
+      customs: ['DoC符合性声明','技术文件备查10年','市场监管局定期抽检']
+    }
+  },
+  '服装纺织': {
+    '美国': {
+      cert: ['CPSC(儿童服装阻燃)','FTC纤维成分标签法','CARB(加州空气质量)'],
+      std: ['16 CFR 1610/1611(阻燃)','16 CFR Part 303(纤维成分)','CPSIA(儿童服装铅/邻苯)'],
+      banned: ['AZO偶氮染料（联邦未强制但部分州禁止）','儿童睡衣需满足阻燃标准或贴身剪裁','铅>100ppm(儿童服装)'],
+      label: ['纤维成分(英文)','洗涤说明（符号+文字）','原产地Made in XX','RN号（制造商注册号）'],
+      customs: ['纺织配额（部分类别）','原产地规则严格（变性纱线规则）','USTR 301关税（中国产品25%+）']
+    },
+    '欧盟': {
+      cert: ['REACH附录XVII限制AZO染料','Ecolabel(非强制但市场加分)','OEKO-TEX（市场认可度高）'],
+      std: ['EN 14682(儿童绳带安全)','EN 13402(尺码标注)','REACH SVHC 224种物质'],
+      banned: ['22种AZO偶氮染料代谢物4-氨基联苯等','NPE壬基酚聚氧乙烯醚（洗涤剂残留）','镍释放（金属配件）'],
+      label: ['纤维成分(本国语言)','洗涤符号(ISO 3758)','EU进口商地址','Ecolabel(自愿)'],
+      customs: ['欧盟供应链尽职调查法2024年起大企业适用','强制报告使用强迫劳动的供应链']
+    }
+  },
+  '家具': {
+    '美国': {
+      cert: ['CARB Phase 2(加州甲醛标准，全美实质强制)','CPSC儿童家具','BIFMA(商业家具)'],
+      std: ['ANSI/BIFMA x5.1-2017','ASTM F2057(抽屉倾翻安全)','TSCA Title VI(甲醛)'],
+      banned: ['甲醛释放>0.05ppm(板材)','儿童家具铅>90ppm','儿童床栏间距>6cm禁止'],
+      label: ['CARB符合性标识','阻燃证书(TB117-2013加州)','年龄段警告（儿童家具）'],
+      customs: ['2022年起进口商需CARB自我认证','木材合规（Lacey Act）需木材来源证明']
+    },
+    '欧盟': {
+      cert: ['EN 14749(家具稳定性)','EN 71(儿童家具)','REACH(化学品)'],
+      std: ['EN 1021(阻燃,软体家具)','EN 13986(板材甲醛)','EN 14073(办公家具)'],
+      banned: ['SVHC物质','甲醛E2级不可用（E1以下）','偶氮染料（纺织覆盖物）'],
+      label: ['CE(儿童家具)','甲醛E0/E1级标注','FSC/PEFC(可持续木材)','回收符号'],
+      customs: ['欧盟木材法规EUTR/EUDR(2025年延期执行)','供应链追溯文件']
+    }
+  },
+  '医疗器械': {
+    '美国': {
+      cert: ['FDA 510(k)预市认证（II类器械）','PMA上市前审批（III类）','EUA（紧急授权）'],
+      std: ['21 CFR Part 820(质量体系)','21 CFR Part 801(标签)','IEC 60601(电气安全)'],
+      banned: ['未经510(k)的Ⅱ类器械进口','含石棉类材料','乳胶（需标注敏感警告）'],
+      label: ['FDA注册号','Rx/OTC区分标注','器械独特标识UDI','使用期限格式'],
+      customs: ['FDA进口监管线(Import Alert)','部分器械海关扣押风险','代理人(Agent)在美必须']
+    },
+    '欧盟': {
+      cert: ['CE(MDR 2017/745强制)','ISO 13485质量体系','Notified Body评审（II类以上）'],
+      std: ['EN ISO 14971(风险管理)','IEC 60601-1(电气安全)','EN ISO 10993(生物相容性)'],
+      banned: ['SVHC物质在接触患者器械中须申报','PVC/邻苯医疗管路须替代'],
+      label: ['CE+NB编号','UDI欧洲数据库注册','使用说明强制多语言'],
+      customs: ['EUDAMED注册强制','授权代表EU REP必须','MDR过渡期至2027年底']
+    }
+  }
+};
+
+
+</script>
+<!-- ===== DATA: 关税计算器 ===== -->
+<script>
+// ============================================================
+// T5: 关税计算器数据库
+// ============================================================
+var TARIFF_DB = {
+  // 格式: HS前4位 -> { 目的国 -> { mfn, fta, antidumping, special, vat, note } }
+  '8471': { // 计算机
+    'US':  { mfn:0,   fta:0,   antidumping:0,  special301:0,   vat:0,    note:'IT协议(ITA)零关税' },
+    'EU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:20,   note:'ITA零关税，VAT进口时缴纳' },
+    'UK':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:20,   note:'ITA零关税' },
+    'JP':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ITA零关税' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ITA零关税' },
+    'IN':  { mfn:7.5, fta:0,   antidumping:0,  special:0,      vat:18,   note:'GST 18%，ITA部分品类豁免' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'GCC统一关税5%' },
+    'BR':  { mfn:16,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'ICMS州税另加，总税负可达50%+' }
+  },
+  '8516': { // 家用电热器具（含家电）
+    'US':  { mfn:3.7, fta:0,   antidumping:0,  special301:25,  vat:0,    note:'301加征25%，总税率28.7%' },
+    'EU':  { mfn:2.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'MFN 2.7%，需CE认证' },
+    'UK':  { mfn:3.5, fta:0,   antidumping:0,  special:0,      vat:20,   note:'脱欧后自主关税税率' },
+    'JP':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'大部分家电ITA/EPA零关税' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA中澳FTA零关税' },
+    'IN':  { mfn:20,  fta:0,   antidumping:0,  special:0,      vat:18,   note:'BIS认证强制，总税负40%+' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'需SASO认证' },
+    'BR':  { mfn:20,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'ICMS+IPI，总税负可超80%' }
+  },
+  '6101': { // 服装针织外衣
+    'US':  { mfn:16.5,fta:0,   antidumping:0,  special301:7.5, vat:0,    note:'301额外7.5%，总23.5-32%' },
+    'EU':  { mfn:12,  fta:0,   antidumping:0,  special:0,      vat:20,   note:'MFN 12%，原产地文件要求高' },
+    'UK':  { mfn:12,  fta:0,   antidumping:0,  special:0,      vat:20,   note:'DCTS对最不发达国家0%' },
+    'JP':  { mfn:10.9,fta:0,   antidumping:0,  special:0,      vat:10,   note:'原产地证明可降税' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA零关税' },
+    'IN':  { mfn:20,  fta:0,   antidumping:0,  special:0,      vat:5,    note:'非棉纤维有附加税' },
+    'SA':  { mfn:12,  fta:0,   antidumping:0,  special:0,      vat:15,   note:'GCC 12%，部分清真要求' },
+    'BR':  { mfn:35,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'最高关税国之一' }
+  },
+  '9401': { // 家具（座具）
+    'US':  { mfn:0,   fta:0,   antidumping:25, special301:25,  vat:0,    note:'床垫反倾销税29.6%-763.28%，301税25%' },
+    'EU':  { mfn:2.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'需CARB/REACH符合性' },
+    'UK':  { mfn:2.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'UKCA要求' },
+    'JP':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'EPA协议零关税' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA零关税' },
+    'IN':  { mfn:25,  fta:0,   antidumping:0,  special:0,      vat:18,   note:'高关税保护本土家具' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'GCC低关税' },
+    'BR':  { mfn:20,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'ICMS额外税' }
+  },
+  '8507': { // 电池/储能
+    'US':  { mfn:3.4, fta:0,   antidumping:0,  special301:7.5, vat:0,    note:'301税7.5%，IRA补贴推动本土采购' },
+    'EU':  { mfn:1.5, fta:0,   antidumping:0,  special:0,      vat:20,   note:'EU电池法规2023强制回收率' },
+    'UK':  { mfn:2.0, fta:0,   antidumping:0,  special:0,      vat:20,   note:'英国电池战略' },
+    'JP':  { mfn:3.0, fta:0,   antidumping:0,  special:0,      vat:10,   note:'EPA部分零关税' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA零关税' },
+    'IN':  { mfn:15,  fta:0,   antidumping:0,  special:0,      vat:18,   note:'PLI政策推动本土电池制造' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'' },
+    'BR':  { mfn:12,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'ICMS另计' }
+  },
+  '3926': { // 塑料制品
+    'US':  { mfn:3.1, fta:0,   antidumping:0,  special301:25,  vat:0,    note:'301税25%部分塑料制品' },
+    'EU':  { mfn:3.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'REACH化学品登记必须' },
+    'UK':  { mfn:3.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'英国塑料税(2022) £200/吨<30%再生料' },
+    'JP':  { mfn:3.5, fta:0,   antidumping:0,  special:0,      vat:10,   note:'' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA零关税' },
+    'IN':  { mfn:15,  fta:0,   antidumping:0,  special:0,      vat:18,   note:'' },
+    'SA':  { mfn:6.5, fta:0,   antidumping:0,  special:0,      vat:15,   note:'' },
+    'BR':  { mfn:18,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'' }
+  },
+  '8703': { // 乘用车
+    'US':  { mfn:2.5, fta:0,   antidumping:0,  special301:100, vat:0,    note:'2024年5月301税升至100%，实质禁止进口' },
+    'EU':  { mfn:10,  fta:0,   antidumping:17, special:0,      vat:20,   note:'2024年临时反补贴税+10% MFN，最高47.6%' },
+    'UK':  { mfn:6.5, fta:0,   antidumping:0,  special:0,      vat:20,   note:'2027年前MFN有效' },
+    'JP':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'零关税但技术标准壁垒高' },
+    'AU':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA 0%，LCT豪华车税另计' },
+    'IN':  { mfn:125, fta:0,   antidumping:0,  special:0,      vat:28,   note:'超高关税保护，特斯拉等推动降税谈判' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'GCC低关税，中国车品牌快速增长' },
+    'BR':  { mfn:35,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'IPI工业税+ICMS，总税负极高' }
+  },
+  '8481': { // 管道阀门
+    'US':  { mfn:3.0, fta:0,   antidumping:82, special301:25,  vat:0,    note:'钢铁阀门反倾销税最高82%，+25%301税' },
+    'EU':  { mfn:1.7, fta:0,   antidumping:0,  special:0,      vat:20,   note:'PED压力设备指令' },
+    'UK':  { mfn:2.5, fta:0,   antidumping:0,  special:0,      vat:20,   note:'' },
+    'JP':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'' },
+    'AU':  { mfn:0,   fta:0,   antidumping:0,  special:0,      vat:10,   note:'ChAFTA零关税' },
+    'SA':  { mfn:5,   fta:0,   antidumping:0,  special:0,      vat:15,   note:'' },
+    'BR':  { mfn:14,  fta:0,   antidumping:0,  special:0,      vat:12,   note:'' }
+  }
+};
+
+// 关税计算函数
+function calcTariff(hs4, dest, fobUSD, freightUSD, insuranceUSD) {
+  var db = TARIFF_DB[hs4] && TARIFF_DB[hs4][dest];
+  if (!db) return null;
+  var cif = fobUSD + freightUSD + insuranceUSD;
+  var totalDutyRate = (db.mfn || 0) + (db.antidumping || 0) + (db.special301 || 0) + (db.special || 0);
+  var dutyAmt = cif * totalDutyRate / 100;
+  var vatAmt = (cif + dutyAmt) * (db.vat || 0) / 100;
+  var landedCost = cif + dutyAmt + vatAmt;
+  return {
+    cifUSD: Math.round(cif),
+    dutyRate: totalDutyRate.toFixed(1) + '%',
+    dutyAmt: Math.round(dutyAmt),
+    vatRate: (db.vat || 0) + '%',
+    vatAmt: Math.round(vatAmt),
+    landedCost: Math.round(landedCost),
+    note: db.note,
+    breakdown: {
+      mfn: db.mfn || 0,
+      antidumping: db.antidumping || 0,
+      section301: db.special301 || 0,
+      other: db.special || 0
+    }
+  };
+}
+
+// 常见HS编码快查
+var HS_QUICK = [
+  { code:'8471', desc:'自动数据处理机(电脑/笔记本)', category:'高新技术' },
+  { code:'8516', desc:'家用电热器具(电吹风/电熨斗/空气炸锅)', category:'家电' },
+  { code:'8507', desc:'蓄电池/储能电池', category:'储能' },
+  { code:'9401', desc:'座具/椅子/沙发', category:'家具' },
+  { code:'9403', desc:'其他家具(床/桌/柜)', category:'家具' },
+  { code:'6101', desc:'针织外衣(男士)', category:'服装' },
+  { code:'6104', desc:'针织外衣(女士套装)', category:'服装' },
+  { code:'9503', desc:'玩具(其他)', category:'玩具' },
+  { code:'6911', desc:'瓷器餐具', category:'陶瓷' },
+  { code:'6907', desc:'陶瓷地砖/墙砖', category:'陶瓷' },
+  { code:'8703', desc:'乘用汽车(<3.0L)', category:'汽车' },
+  { code:'9018', desc:'医疗器械', category:'医疗' },
+  { code:'8481', desc:'阀门/管道附件', category:'建材' },
+  { code:'3926', desc:'其他塑料制品', category:'塑料' },
+  { code:'7010', desc:'玻璃容器(瓶罐)', category:'包装' },
+  { code:'8544', desc:'绝缘电线电缆', category:'机电' }
+];
+
+
+</script>
+<!-- ===== DATA: 趋势选品 ===== -->
+<script>
+// ============================================================
+// T6: AI趋势选品数据库
+// ============================================================
+var TRENDING_DB = {
+  amazon_bsr: {
+    'US': [
+      { rank:1, asin:'B0BSM3XCQN', title:'便携储能电源1000W', cat:'储能', price:'$399', rating:4.7, reviews:12840, trend:'up', insight:'户外露营季推动，去年同期+187%' },
+      { rank:2, asin:'B09V2TNDWP', title:'空气炸锅6.8QT大容量', cat:'厨房小家电', price:'$89', rating:4.6, reviews:45230, trend:'stable', insight:'家庭聚会常备，圣诞季峰值明显' },
+      { rank:3, asin:'B0C1DBTQBS', title:'扫地机器人AI避障', cat:'智能家居', price:'$279', rating:4.5, reviews:8920, trend:'up', insight:'LiDAR避障技术降价推动换购潮' },
+      { rank:4, asin:'B09KXQQLQ7', title:'LED灯带RGBIC智能', cat:'灯具', price:'$35', rating:4.6, reviews:89400, trend:'stable', insight:'TikTok房间装饰视频带货效应持续' },
+      { rank:5, asin:'B0BQ3S5XFJ', title:'洗地机湿干两用', cat:'清洁家电', price:'$199', rating:4.4, reviews:23150, trend:'up', insight:'拖把替代品，宠物家庭购买比例高' },
+      { rank:6, asin:'B0BW4PNWZR', title:'无线吸尘器宠物款', cat:'清洁家电', price:'$149', rating:4.5, reviews:34560, trend:'up', insight:'养宠物家庭47%有吸尘器需求' },
+      { rank:7, asin:'B09MCXBJTS', title:'蓝牙音箱防水便携', cat:'音频', price:'$45', rating:4.6, reviews:67890, trend:'stable', insight:'夏季户外刚需，IPX7防水为核心卖点' },
+      { rank:8, asin:'B0C6BGMTYX', title:'太阳能充电板100W折叠', cat:'储能配件', price:'$129', rating:4.4, reviews:5670, trend:'up', insight:'储能套组搭配销售，客单价提升' },
+      { rank:9, asin:'B0BFCB765X', title:'睡眠耳机超薄蓝牙', cat:'音频健康', price:'$55', rating:4.3, reviews:18900, trend:'new', insight:'睡眠经济兴起，失眠人群定向需求' },
+      { rank:10, asin:'B0C8X1KZNF', title:'电动牙刷超声波4支头', cat:'个护', price:'$35', rating:4.5, reviews:29400, trend:'stable', insight:'替代头订阅模式拉长LTV' }
+    ],
+    'DE': [
+      { rank:1, asin:'DE-001', title:'家用储能系统5kWh', cat:'储能', price:'€1299', rating:4.6, reviews:3240, trend:'up', insight:'德国电价全球最高，储能投资回报周期短' },
+      { rank:2, asin:'DE-002', title:'热泵热水器200L', cat:'家电', price:'€899', rating:4.5, reviews:2890, trend:'up', insight:'能源危机后需求激增，政府补贴加速' },
+      { rank:3, asin:'DE-003', title:'E-Bike电动自行车', cat:'出行', price:'€1499', rating:4.7, reviews:8920, trend:'up', insight:'德国骑行文化+气候出行，增速35%' },
+      { rank:4, asin:'DE-004', title:'机器人割草机', cat:'园艺', price:'€299', rating:4.4, reviews:5670, trend:'new', insight:'德国庭院文化，独立屋比例高' },
+      { rank:5, asin:'DE-005', title:'空气净化器H13 HEPA', cat:'健康家电', price:'€199', rating:4.6, reviews:12340, trend:'up', insight:'花粉过敏季德国1/3人口受影响' }
+    ],
+    'JP': [
+      { rank:1, asin:'JP-001', title:'超高速电热水壶钛金属', cat:'厨房', price:'¥12800', rating:4.8, reviews:45000, trend:'stable', insight:'日本人均烧水频率全球最高，品质敏感' },
+      { rank:2, asin:'JP-002', title:'颈部按摩仪EMS', cat:'健康', price:'¥8900', rating:4.6, reviews:28900, trend:'up', insight:'久坐办公族颈椎问题刚需，礼品属性强' },
+      { rank:3, asin:'JP-003', title:'蒸汽眼罩加热型', cat:'健康', price:'¥1200/6枚', rating:4.7, reviews:89000, trend:'stable', insight:'日本眼疲劳市场成熟，复购率极高' },
+      { rank:4, asin:'JP-004', title:'超声波加湿器静音', cat:'健康家电', price:'¥6800', rating:4.7, reviews:34000, trend:'stable', insight:'日本干燥冬季必备，过滤芯订阅收益' },
+      { rank:5, asin:'JP-005', title:'扫地机器人低噪音', cat:'智能家居', price:'¥29800', rating:4.5, reviews:12000, trend:'up', insight:'日本家庭空间小，薄型机(<8cm)偏好' }
+    ],
+    'UK': [
+      { rank:1, asin:'UK-001', title:'电热毯双人控温', cat:'家电', price:'£65', rating:4.6, reviews:34500, trend:'up', insight:'能源成本居高，电热毯比暖气便宜80%' },
+      { rank:2, asin:'UK-002', title:'空气炸锅双层抽屉式', cat:'厨房', price:'£89', rating:4.7, reviews:56000, trend:'stable', insight:'英国早采用市场，产品创新持续拉动' },
+      { rank:3, asin:'UK-003', title:'便携充电宝20000mAh磁吸', cat:'3C配件', price:'£35', rating:4.5, reviews:23000, trend:'stable', insight:'MagSafe生态带动磁吸配件需求' },
+      { rank:4, asin:'UK-004', title:'宠物自动喂食器摄像头', cat:'宠物', price:'£79', rating:4.4, reviews:18900, trend:'up', insight:'英国宠物登记率62%，智能宠物设备渗透快' },
+      { rank:5, asin:'UK-005', title:'电动站立办公桌', cat:'家具', price:'£299', rating:4.5, reviews:8900, trend:'up', insight:'混合办公模式固化，家庭办公设备升级' }
+    ]
+  },
+
+  local_ecom: {
+    'Shopee（东南亚）': [
+      { platform:'Shopee', country:'TH/ID/PH', cat:'美容护肤', title:'韩系面膜套装30片', price:'SGD12-25', gmv_rank:1, insight:'东南亚美妆增速30%+，K-beauty风格热度不减' },
+      { platform:'Shopee', country:'ID', cat:'头巾/穆斯林时装', title:'运动速干头巾hijab', price:'IDR45K', gmv_rank:2, insight:'印尼穆斯林运动装备蓝海，主力消费力强' },
+      { platform:'Shopee', country:'PH', cat:'家电', title:'小型空调1HP', price:'PHP12800', gmv_rank:3, insight:'菲律宾全年高温，空调渗透率仍低于30%' },
+      { platform:'Shopee', country:'TH', cat:'宠物用品', title:'猫粮冻干生骨肉', price:'THB350', gmv_rank:4, insight:'泰国宠物经济年增25%，高端粮类增速最快' },
+      { platform:'Shopee', country:'MY', cat:'母婴', title:'可折叠婴儿车轻便款', price:'MYR480', gmv_rank:5, insight:'马来西亚年轻父母数字原住民，线上母婴首选' }
+    ],
+    'Lazada（东南亚）': [
+      { platform:'Lazada', country:'SG', cat:'3C数码', title:'国产TWS耳机降噪款', price:'SGD45', gmv_rank:1, insight:'新加坡通勤族降噪耳机刚需，ANC技术下沉' },
+      { platform:'Lazada', country:'VN', cat:'家具', title:'实木书桌简约款', price:'VND1.2M', gmv_rank:2, insight:'越南中产居家办公趋势，品质家具需求上升' },
+      { platform:'Lazada', country:'ID', cat:'储能', title:'便携电源300Wh', price:'IDR1.8M', gmv_rank:3, insight:'印尼农村停电频繁，便携储能性价比突破' }
+    ],
+    'MercadoLibre（拉美）': [
+      { platform:'MercadoLibre', country:'BR', cat:'汽车配件', title:'倒车摄像头无线', price:'BRL180', gmv_rank:1, insight:'巴西汽车保有量高，改装配件市场庞大' },
+      { platform:'MercadoLibre', country:'MX', cat:'家具', title:'办公椅人体工学', price:'MXN1800', gmv_rank:2, insight:'墨西哥居家办公常态化，办公家具替换潮' },
+      { platform:'MercadoLibre', country:'AR', cat:'电子', title:'太阳能充电宝', price:'ARS15000', gmv_rank:3, insight:'阿根廷经济不稳定，太阳能产品被视为保值品' },
+      { platform:'MercadoLibre', country:'CO', cat:'美容', title:'射频美容仪家用', price:'COP280000', gmv_rank:4, insight:'哥伦比亚医美意识觉醒，家用美容仪需求强' }
+    ],
+    'OTTO（德国）': [
+      { platform:'OTTO', country:'DE', cat:'智能家居', title:'Matter智能插座4口', price:'€35', gmv_rank:1, insight:'Matter协议统一后智能家居购入潮启动' },
+      { platform:'OTTO', country:'DE', cat:'床品家纺', title:'天然乳胶枕头', price:'€89', gmv_rank:2, insight:'德国有机认证床品溢价明显，OEKO-TEX必须' },
+      { platform:'OTTO', country:'DE', cat:'厨房', title:'铸铁锅珐琅内壁', price:'€159', gmv_rank:3, insight:'德国烹饪文化，品质厨具长期需求稳定' }
+    ],
+    'Noon（中东）': [
+      { platform:'Noon', country:'SA/UAE', cat:'智能手机配件', title:'磁吸手机支架车载', price:'AED45', gmv_rank:1, insight:'中东驾车出行率高，车载配件刚需' },
+      { platform:'Noon', country:'SA', cat:'家电', title:'空气净化器HEPA H13', price:'SAR380', gmv_rank:2, insight:'沙特沙尘暴频发，PM2.5净化需求常态化' },
+      { platform:'Noon', country:'UAE', cat:'护肤', title:'香水礼盒中东特供款', price:'AED220', gmv_rank:3, insight:'中东香水消费全球最高，礼品香水市场规模大' }
+    ]
+  },
+
+  social_hotwords: {
+    'TikTok': [
+      { keyword:'#CleanTok', count:'45B', product:'洗碗机清洁片/消毒喷雾/洗地机', insight:'清洁类视频持续爆发，展示性产品转化率高' },
+      { keyword:'#BedRotting', count:'8B', product:'高品质床品/记忆棉枕头/睡眠眼罩', insight:'Gen-Z居家疗愈趋势，床品消费升级' },
+      { keyword:'#RoomDecor', count:'120B', product:'LED氛围灯/挂钟/艺术画/储物格', insight:'房间改造视频经久不衰，标杆爆品IKEA竞品机会' },
+      { keyword:'#StanleyCup', count:'28B', product:'大容量保温杯/吸管杯/户外水杯', insight:'Stanley现象带动保温杯赛道，国内替代品机会大' },
+      { keyword:'#AirFryer', count:'18B', product:'空气炸锅/煎锅/烤盘', insight:'饮食创作内容核心道具，功能多样化拉动复购' },
+      { keyword:'#OutdoorChair', count:'5B', product:'折叠椅/月亮椅/露营椅', insight:'Cottagecore美学推动户外家具TikTok电商爆发' },
+      { keyword:'#GlassHair', count:'12B', product:'发膜/直发梳/离子夹', insight:'发型护理趋势带动美发工具需求' },
+      { keyword:'#DigitalNomad', count:'22B', product:'便携显示器/折叠键盘/降噪耳机/旅行包', insight:'数字游民增加，移动办公设备套装有机会' }
+    ],
+    'Instagram': [
+      { keyword:'Aesthetic Home', count:'1.2B posts', product:'极简灯具/大理石纹家具/香薰蜡烛', insight:'家居美学账号推动品牌溢价，白领女性主导' },
+      { keyword:'Fitness Lifestyle', count:'850M posts', product:'哑铃/瑜伽垫/健身服/蛋白粉', insight:'家庭健身设备疫情后渗透率稳定在高位' },
+      { keyword:'Sustainable Living', count:'420M posts', product:'可降解餐具/竹制日用品/可折叠购物袋', insight:'可持续消费从小众到主流，北欧/西欧引领' },
+      { keyword:'Modest Fashion', count:'380M posts', product:'遮体时装/运动头巾/穆斯林泳衣', insight:'全球穆斯林时尚市场3370亿美元，TikTok/INS双渠道' }
+    ],
+    'YouTube': [
+      { keyword:'Van Life', count:'8B views', product:'车载冰箱/太阳能板/便携储能/车载厨具', insight:'旅居车生活趋势，全套户外生活系统需求' },
+      { keyword:'Budget Travel Gear', count:'4B views', product:'压缩打包袋/旅行枕/折叠水瓶', insight:'价格敏感旅行博主测评带货，信任度高' },
+      { keyword:'Smart Home Setup', count:'6B views', product:'智能插座/窗帘电机/门铃摄像头/NAS存储', insight:'Matter协议统一推动全屋智能入门门槛降低' },
+      { keyword:'Retro Tech', count:'2.5B views', product:'黑胶唱机/胶片相机/复古收音机', insight:'复古科技怀旧消费，年轻人反科技焦虑' }
+    ]
+  },
+
+  ai_search_trends: {
+    'ChatGPT热门提问': [
+      { query:'best portable power station 2025', product:'便携储能电源', insight:'GPT搜索用户高购买意向，推荐结果直接转化' },
+      { query:'affordable robot vacuum with LiDAR', product:'激光导航扫地机', insight:'技术参数导向搜索，品质需求明确' },
+      { query:'noise canceling headphones under $100', product:'ANC降噪耳机', insight:'价格区间明确，国内品牌Anker/QCY替代空间大' },
+      { query:'solar panel for camping van', product:'车载折叠太阳能板', insight:'场景明确，户外垂直用户高价值' },
+      { query:'smart home devices compatible with Matter', product:'Matter智能家居设备', insight:'协议统一后新一波智能家居普及潮' },
+      { query:'ergonomic chair home office 2025', product:'人体工学椅', insight:'居家办公刚需，$300-600价格带竞争激烈' }
+    ],
+    'Perplexity热门查询': [
+      { query:'which country makes the best LED grow lights', product:'植物生长灯（中国主导）', insight:'Perplexity对信息源透明，中国品牌正面曝光机会' },
+      { query:'Chinese EV brands available in Europe', product:'中国新能源车', insight:'消费者主动了解中国品牌，认知窗口期' },
+      { query:'best OSMO pocket alternative', product:'便携云台相机', insight:'DJI平替需求旺盛，中价位市场空缺' },
+      { query:'air purifier for wildfire smoke', product:'空气净化器（HEPA H13）', insight:'北美野火季性需求激增，精准场景定位' }
+    ]
+  },
+
+  product_recommendations: [
+    {
+      trend:'TikTok #CleanTok + 居家清洁',
+      products: [
+        { name:'超细纤维圆盘拖把替换头', targetMarket:'US/UK/AU', hs:'9603', priceUS:'$15-35', certNeeded:['CE','CPSC无需'], channel:'TikTok Shop+亚马逊', timeline:'Q3旺季前' },
+        { name:'洗碗机专用清洁片（泡腾式）', targetMarket:'DE/UK/US', hs:'3402', priceUS:'$18-25/30片', certNeeded:['EPA DfE认证','EU清洁剂法规'], channel:'亚马逊Subscribe&Save', timeline:'常青款' }
+      ]
+    },
+    {
+      trend:'AI搜索 + 户外储能',
+      products: [
+        { name:'LiFePO4便携储能1200Wh', targetMarket:'US/DE/AU', hs:'8507', priceUS:'$599-899', certNeeded:['UL9540','CE','RCM'], channel:'亚马逊+独立站', timeline:'Q2-Q3户外季' },
+        { name:'100W单晶折叠太阳能板套装', targetMarket:'US/AU/DE', hs:'8541', priceUS:'$149-229', certNeeded:['IEC61215','CE','MCS(英国)'], channel:'亚马逊+品牌独立站', timeline:'全年' }
+      ]
+    },
+    {
+      trend:'Instagram Modest Fashion + 穆斯林市场',
+      products: [
+        { name:'速干运动头巾（UPF50+多色）', targetMarket:'ID/SA/UAE/MY', hs:'6117', priceUS:'$8-18', certNeeded:['OEKO-TEX','清真(ID需)'], channel:'Shopee/Lazada/Noon', timeline:'斋月前2个月' },
+        { name:'穆斯林泳衣全遮体款', targetMarket:'ID/MY/SA', hs:'6211', priceUS:'$25-65', certNeeded:['OEKO-TEX'], channel:'Lazada/Noon/独立站', timeline:'旅游季前' }
+      ]
+    }
+  ]
+};
+
+
+</script>
+<!-- ===== UI LOGIC: Tab5 & Tab6 ===== -->
+<script>
+
+// ============================================================
+// UI LOGIC: Tab 5 - 跨境智库
+// ============================================================
+var currentThinkTab = 'country';
+var currentToolTab  = 'compliance';
+var currentTrendView= 'bsr';
+
+function switchThinkTab(tab, btn) {
+  currentThinkTab = tab;
+  document.querySelectorAll('.think-sub').forEach(function(el){ el.classList.add('hidden'); el.classList.remove('active'); });
+  var el = document.getElementById('think-' + tab);
+  if(el){ el.classList.remove('hidden'); el.classList.add('active'); }
+  document.querySelectorAll('#tab-think .nav-pill').forEach(function(b){ b.classList.remove('active'); });
+  if(btn) btn.classList.add('active');
+  if(tab === 'industry') renderIndustryList();
+  if(tab === 'demand') initDemandSelect();
+}
+
+function runCountryScore() {
+  var cat = document.getElementById('think-cat').value;
+  var region = document.getElementById('think-region').value;
+  var isos = [];
+  if(region === 'all') {
+    isos = Object.keys(COUNTRY_DB);
+  } else {
+    isos = REGIONS[region] || Object.keys(COUNTRY_DB);
+  }
+  var scored = isos.map(function(iso){
+    var s = scoreCountry(iso, cat);
+    var c = COUNTRY_DB[iso];
+    return { iso: iso, score: s, c: c };
+  }).filter(function(x){ return x.c; }).sort(function(a,b){ return b.score - a.score; });
+
+  var html = scored.map(function(item, idx) {
+    var c = item.c;
+    var g = c.gdp['2024'];
+    var tag = idx < 3 ? '<span class="badge badge-up">Top'+(idx+1)+'</span>' : '';
+    var ringColor = idx===0?'#4ade80':idx===1?'#60a5fa':idx===2?'#a78bfa':'#475569';
+    return '<div class="card p-5 cursor-pointer hover:border-green-400/30" onclick="showCountryDetail(\''+item.iso+'\')">' +
+      '<div class="flex justify-between items-start mb-3">' +
+        '<div class="flex items-center gap-2">' +
+          '<span class="text-2xl">'+c.flag+'</span>' +
+          '<div><div class="font-semibold">'+c.name+'</div><div class="text-xs text-gray-500">'+c.region+'</div></div>' +
+        '</div>' + tag +
+      '</div>' +
+      '<div class="flex items-center gap-3 mb-3">' +
+        '<div class="relative w-14 h-14 flex-shrink-0">' +
+          '<svg viewBox="0 0 36 36" class="w-14 h-14 -rotate-90">' +
+            '<circle cx="18" cy="18" r="15.9" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="3"/>' +
+            '<circle cx="18" cy="18" r="15.9" fill="none" stroke="'+ringColor+'" stroke-width="3" stroke-dasharray="'+Math.min(100,item.score)+',100"/>' +
+          '</svg>' +
+          '<div class="absolute inset-0 flex items-center justify-center text-xs font-bold">'+item.score+'</div>' +
+        '</div>' +
+        '<div class="flex-1 text-xs space-y-1">' +
+          '<div class="flex justify-between"><span class="text-gray-400">GDP(2024)</span><span>$'+g.total+'T</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">增速</span><span class="'+(g.growth>=0?'text-green-400':'text-red-400')+'">'+(g.growth>=0?'+':'')+g.growth+'%</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">网络率</span><span>'+c.internet+'%</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">中国进口</span><span>$'+c.tradeWithChina.importFromChina+'亿</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="text-xs text-gray-500 border-t border-white/5 pt-2">&#128100; '+c.pop.total+'亿 · 城市化'+c.urban+'% · 主要: '+c.religion.main+'</div>' +
+    '</div>';
+  }).join('');
+
+  document.getElementById('country-score-result').innerHTML = html || '<div class="col-span-3 text-center text-gray-500 py-8">暂无符合条件的国家</div>';
+  document.getElementById('country-detail').classList.add('hidden');
+}
+
+function showCountryDetail(iso) {
+  var c = COUNTRY_DB[iso];
+  if(!c) return;
+  var g = c.gdp;
+  var rel = c.religion;
+  var gdpRows = ['2022','2023','2024','2025e'].map(function(yr){
+    var d = g[yr];
+    if(!d) return '';
+    return '<tr class="border-t border-white/5">' +
+      '<td class="py-2 text-gray-400">'+yr+'</td>' +
+      '<td class="py-2">$'+d.total+'T</td>' +
+      '<td class="py-2">$'+d.perCap+'</td>' +
+      '<td class="py-2 '+(d.growth>=0?'text-green-400':'text-red-400')+'">'+(d.growth>=0?'+':'')+d.growth+'%</td>' +
+    '</tr>';
+  }).join('');
+  var branches = rel.branches.map(function(b){
+    return '<div class="bg-slate-800/50 rounded-lg p-3 text-xs">' +
+      '<div class="flex justify-between mb-1"><span class="text-gray-200 font-medium">'+b.name+'</span><span class="text-blue-400">'+b.pct+'%</span></div>' +
+      '<div class="text-gray-400 leading-relaxed">'+b.beliefs+'</div>' +
+    '</div>';
+  }).join('');
+  var html = '<div class="flex items-center gap-3 mb-6">' +
+    '<span class="text-4xl">'+c.flag+'</span>' +
+    '<div><h2 class="text-2xl font-bold">'+c.name+'</h2><p class="text-gray-400 text-sm">'+c.region+' · ISO '+c.iso+'</p></div>' +
+  '</div>' +
+  '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
+    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-blue-400">'+c.pop.total+'亿</div><div class="text-xs text-gray-400">人口总量</div></div>' +
+    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-green-400">'+c.pop.age1850pct+'%</div><div class="text-xs text-gray-400">18-50岁占比</div></div>' +
+    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-purple-400">'+c.urban+'%</div><div class="text-xs text-gray-400">城市化率</div></div>' +
+    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-yellow-400">'+c.internet+'%</div><div class="text-xs text-gray-400">互联网覆盖</div></div>' +
+  '</div>' +
+  '<h3 class="font-semibold text-sm mb-3 text-gray-300">GDP 趋势</h3>' +
+  '<div class="overflow-x-auto mb-6"><table class="w-full text-sm"><thead><tr class="text-gray-400 text-xs">' +
+    '<th class="pb-2 text-left">年份</th><th class="pb-2 text-left">GDP总量</th><th class="pb-2 text-left">人均GDP</th><th class="pb-2 text-left">增速</th>' +
+  '</tr></thead><tbody>'+gdpRows+'</tbody></table></div>' +
+  '<h3 class="font-semibold text-sm mb-3 text-gray-300">&#10016; 宗教信仰与消费行为影响</h3>' +
+  '<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">'+branches+'</div>' +
+  '<div class="text-center mt-4"><button onclick="document.getElementById(\'country-detail\').classList.add(\'hidden\')" class="nav-pill text-sm">&#215; 关闭</button></div>';
+  var det = document.getElementById('country-detail');
+  document.getElementById('country-detail-content').innerHTML = html;
+  det.classList.remove('hidden');
+  det.scrollIntoView({behavior:'smooth'});
+}
+
+function renderIndustryList() {
+  var html = Object.keys(INDUSTRY_TRENDS).map(function(ind) {
+    var d = INDUSTRY_TRENDS[ind];
+    return '<div class="card p-5">' +
+      '<h3 class="font-semibold text-base mb-4 text-blue-300">&#128200; ' + ind + '</h3>' +
+      '<div class="space-y-3 text-xs">' +
+        '<div><span class="text-purple-400 font-medium">文化习惯：</span><span class="text-gray-300">'+d.culture+'</span></div>' +
+        '<div><span class="text-green-400 font-medium">消费趋势：</span><span class="text-gray-300">'+d.consumer+'</span></div>' +
+        '<div><span class="text-yellow-400 font-medium">基建趋势：</span><span class="text-gray-300">'+d.infra+'</span></div>' +
+        '<div><span class="text-blue-400 font-medium">人口趋势：</span><span class="text-gray-300">'+d.population+'</span></div>' +
+        '<div><span class="text-orange-400 font-medium">社会环境：</span><span class="text-gray-300">'+d.social+'</span></div>' +
+        '<div><span class="text-teal-400 font-medium">自然环境：</span><span class="text-gray-300">'+d.environment+'</span></div>' +
+        '<div class="bg-green-400/5 border border-green-400/20 rounded-lg p-3 mt-2"><span class="text-green-300 font-medium">&#127919; 机会点：</span><span class="text-gray-300">'+d.opportunity+'</span></div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+  document.getElementById('industry-list').innerHTML = html;
+}
+
+function initDemandSelect() {
+  var sel = document.getElementById('demand-cat');
+  if(!sel || sel.options.length > 1) return;
+  Object.keys(DEMAND_MATRIX).forEach(function(k){
+    var opt = document.createElement('option');
+    opt.value = k; opt.textContent = k;
+    sel.appendChild(opt);
+  });
+}
+
+function runDemandAnalysis() {
+  var cat = document.getElementById('demand-cat').value;
+  var d = DEMAND_MATRIX[cat];
+  if(!d) { document.getElementById('demand-result').innerHTML = '<p class="text-gray-500 text-sm">暂无该品类数据</p>'; return; }
+  var scenesHtml = d.scenes.map(function(s,i){
+    return '<div class="bg-slate-800/50 rounded-xl p-4">' +
+      '<div class="flex items-center gap-2 mb-2">' +
+        '<span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs flex items-center justify-center font-bold">'+(i+1)+'</span>' +
+        '<span class="font-semibold text-sm">'+s.scene+'</span>' +
+      '</div>' +
+      '<div class="text-xs space-y-1 pl-8">' +
+        '<div><span class="text-gray-400">目标人群：</span><span class="text-gray-200">'+s.crowd+'</span></div>' +
+        '<div><span class="text-gray-400">需求原因：</span><span class="text-gray-200">'+s.reason+'</span></div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+  var certHtml = d.products.cert.map(function(c){ return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
+  var paramHtml = d.products.params.map(function(p){ return '<span class="badge" style="background:rgba(20,184,166,.1);color:#2dd4bf">'+p+'</span>'; }).join(' ');
+  var featureHtml = d.products.features.map(function(f){ return '<li class="text-gray-300">'+f+'</li>'; }).join('');
+  var priceHtml = Object.keys(d.products.priceRange).map(function(k){ return '<div class="flex justify-between py-1 border-b border-white/5"><span class="text-gray-400">'+k+'</span><span class="text-green-400 font-medium">'+d.products.priceRange[k]+'</span></div>'; }).join('');
+  var trendRows = ['2020','2021','2022','2023','2024'].map(function(yr){
+    var t = d.exportTrend[yr];
+    if(!t) return '';
+    var up = t.yoy >= 0;
+    return '<tr class="border-t border-white/5 text-sm"><td class="py-2 text-gray-400">'+yr+'</td><td class="py-2">$'+t.scale+'亿</td>' +
+      '<td class="py-2 '+(up?'text-green-400':'text-red-400')+'">'+(up?'+':'')+t.yoy+'%</td></tr>';
+  }).join('');
+  var trendsList = d.exportTrend.trends.map(function(t){ return '<li class="text-gray-300 text-xs">'+t+'</li>'; }).join('');
+  var focusList = d.exportTrend.focus.map(function(f){ return '<li class="text-gray-300 text-xs">'+f+'</li>'; }).join('');
+
+  document.getElementById('demand-result').innerHTML =
+    '<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">' +
+      '<div class="card p-5">' +
+        '<h3 class="font-semibold text-sm mb-4 text-blue-300">&#127919; 需求场景矩阵</h3>' +
+        '<div class="space-y-3">'+scenesHtml+'</div>' +
+      '</div>' +
+      '<div class="space-y-4">' +
+        '<div class="card p-5">' +
+          '<h3 class="font-semibold text-sm mb-3 text-purple-300">&#128203; 产品匹配要求</h3>' +
+          '<div class="text-xs space-y-2">' +
+            '<div><span class="text-gray-400 block mb-1">必备证书认证：</span>'+certHtml+'</div>' +
+            '<div class="mt-2"><span class="text-gray-400 block mb-1">关键参数要求：</span>'+paramHtml+'</div>' +
+            '<div class="mt-2"><span class="text-gray-400 block mb-1">核心功能卖点：</span><ul class="list-disc pl-4 space-y-0.5">'+featureHtml+'</ul></div>' +
+            '<div class="mt-2"><span class="text-gray-400 block mb-1">建议价格段：</span>'+priceHtml+'</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="card p-5">' +
+          '<h3 class="font-semibold text-sm mb-3 text-green-300">&#128200; 出口趋势(2020-2024)</h3>' +
+          '<table class="w-full text-xs"><thead><tr class="text-gray-400"><th class="pb-1 text-left">年份</th><th class="pb-1 text-left">规模</th><th class="pb-1 text-left">增速</th></tr></thead><tbody>'+trendRows+'</tbody></table>' +
+          '<div class="mt-3"><p class="text-xs text-gray-400 mb-1">最新趋势：</p><ul class="list-disc pl-4 space-y-0.5">'+trendsList+'</ul></div>' +
+          '<div class="mt-3 bg-yellow-400/5 border border-yellow-400/20 rounded-lg p-3"><p class="text-xs text-yellow-300 font-medium mb-1">&#127919; 重点关注方向</p><ul class="list-disc pl-4 space-y-0.5">'+focusList+'</ul></div>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+}
+
+function renderThinkTab() {
+  if(!document.getElementById('country-score-result').innerHTML) {
+    runCountryScore();
+  }
+}
+
+// ============================================================
+// UI LOGIC: Tab 6 - 工具箱
+// ============================================================
+function switchToolTab(tab, btn) {
+  currentToolTab = tab;
+  document.querySelectorAll('.tool-sub').forEach(function(el){ el.classList.add('hidden'); el.classList.remove('active'); });
+  var el = document.getElementById('tool-' + tab);
+  if(el){ el.classList.remove('hidden'); el.classList.add('active'); }
+  document.querySelectorAll('#tab-tools .nav-pill').forEach(function(b){ b.classList.remove('active'); });
+  if(btn) btn.classList.add('active');
+  if(tab === 'tariff') initTariffSelects();
+  if(tab === 'trending') renderTrendBSR();
+}
+
+function runCompliance() {
+  var cat = document.getElementById('comp-cat').value;
+  var mkt = document.getElementById('comp-market').value;
+  var db = COMPLIANCE_DB[cat] && COMPLIANCE_DB[cat][mkt];
+  if(!db) {
+    document.getElementById('compliance-result').innerHTML = '<div class="card p-6 text-center text-gray-500">暂无该品类在目标市场的合规数据，请尝试其他组合。</div>';
+    return;
+  }
+  var certH = db.cert.map(function(c){ return '<div class="flex items-start gap-2"><span class="text-green-400 mt-0.5 flex-shrink-0">&#10003;</span><span class="text-gray-200 text-xs">'+c+'</span></div>'; }).join('');
+  var stdH  = db.std.map(function(s){ return '<div class="flex items-start gap-2"><span class="text-blue-400 mt-0.5 flex-shrink-0">&#9632;</span><span class="text-gray-200 text-xs">'+s+'</span></div>'; }).join('');
+  var banH  = db.banned.map(function(b){ return '<div class="flex items-start gap-2"><span class="text-red-400 mt-0.5 flex-shrink-0">&#10005;</span><span class="text-gray-200 text-xs">'+b+'</span></div>'; }).join('');
+  var lblH  = db.label.map(function(l){ return '<div class="flex items-start gap-2"><span class="text-yellow-400 mt-0.5 flex-shrink-0">&#128204;</span><span class="text-gray-200 text-xs">'+l+'</span></div>'; }).join('');
+  var cstH  = db.customs.map(function(c){ return '<div class="flex items-start gap-2"><span class="text-purple-400 mt-0.5 flex-shrink-0">&#128681;</span><span class="text-gray-200 text-xs">'+c+'</span></div>'; }).join('');
+  document.getElementById('compliance-result').innerHTML =
+    '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">' +
+      '<div class="card p-4"><h4 class="text-sm font-semibold text-green-400 mb-3">&#9989; 必备认证/证书</h4><div class="space-y-2">'+certH+'</div></div>' +
+      '<div class="card p-4"><h4 class="text-sm font-semibold text-blue-400 mb-3">&#128195; 技术标准</h4><div class="space-y-2">'+stdH+'</div></div>' +
+      '<div class="card p-4"><h4 class="text-sm font-semibold text-red-400 mb-3">&#128683; 禁限物质</h4><div class="space-y-2">'+banH+'</div></div>' +
+      '<div class="card p-4"><h4 class="text-sm font-semibold text-yellow-400 mb-3">&#128204; 标签要求</h4><div class="space-y-2">'+lblH+'</div></div>' +
+      '<div class="card p-4 md:col-span-2"><h4 class="text-sm font-semibold text-purple-400 mb-3">&#128681; 海关查验重点</h4><div class="space-y-2">'+cstH+'</div></div>' +
+    '</div>';
+}
+
+function initTariffSelects() {
+  var sel = document.getElementById('tariff-hs');
+  if(!sel || sel.options.length > 0) return;
+  HS_QUICK.forEach(function(item){
+    var opt = document.createElement('option');
+    opt.value = item.code;
+    opt.textContent = item.code + ' - ' + item.desc;
+    sel.appendChild(opt);
+  });
+  renderHSQuickList();
+}
+
+function renderHSQuickList() {
+  var html = HS_QUICK.map(function(item){
+    return '<div class="bg-slate-800/50 rounded-lg p-2 cursor-pointer hover:border-blue-400/30 border border-transparent text-xs" onclick="document.getElementById(\'tariff-hs\').value=\''+item.code+'\'">' +
+      '<div class="font-mono text-blue-400 font-bold">'+item.code+'</div>' +
+      '<div class="text-gray-400 truncate">'+item.desc+'</div>' +
+      '<div class="text-gray-600">'+item.category+'</div>' +
+    '</div>';
+  }).join('');
+  if(document.getElementById('hs-quick-list')) document.getElementById('hs-quick-list').innerHTML = html;
+}
+
+function runTariff() {
+  var hs   = document.getElementById('tariff-hs').value;
+  var dest = document.getElementById('tariff-dest').value;
+  var fob  = parseFloat(document.getElementById('tariff-fob').value) || 0;
+  var fr   = parseFloat(document.getElementById('tariff-freight').value) || 0;
+  var ins  = parseFloat(document.getElementById('tariff-ins').value) || 0;
+  var destNames = {US:'美国',EU:'欧盟',UK:'英国',JP:'日本',AU:'澳大利亚',IN:'印度',SA:'沙特阿拉伯',BR:'巴西'};
+  var r = calcTariff(hs, dest, fob, fr, ins);
+  var el = document.getElementById('tariff-result');
+  if(!r) {
+    el.innerHTML = '<div class="text-center py-8 text-yellow-400 text-sm">&#9888; 该HS编码暂无 '+destNames[dest]+' 数据，请尝试其他组合</div>';
+    return;
+  }
+  var bk = r.breakdown;
+  var bkRows = [
+    {label:'MFN最惠国税率', val:bk.mfn, color:'text-blue-400'},
+    {label:'反倾销税', val:bk.antidumping, color:'text-red-400'},
+    {label:'301条款/特别关税', val:bk.section301, color:'text-orange-400'},
+    {label:'其他附加税', val:bk.other, color:'text-yellow-400'}
+  ].filter(function(x){ return x.val > 0; }).map(function(x){
+    return '<div class="flex justify-between py-1 border-b border-white/5 text-xs"><span class="text-gray-400">'+x.label+'</span><span class="'+x.color+'">+'+x.val+'%</span></div>';
+  }).join('');
+  el.innerHTML =
+    '<div class="space-y-4">' +
+      '<div class="bg-slate-800/50 rounded-xl p-4">' +
+        '<div class="text-xs text-gray-400 mb-3">&#128202; 关税构成明细</div>' +
+        bkRows +
+        '<div class="flex justify-between py-1 text-sm font-bold mt-1"><span class="text-white">合计税率</span><span class="text-red-300">'+r.dutyRate+'</span></div>' +
+      '</div>' +
+      '<div class="grid grid-cols-2 gap-3">' +
+        '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-lg font-bold text-blue-400">$'+r.cifUSD.toLocaleString()+'</div><div class="text-xs text-gray-400">CIF到港价</div></div>' +
+        '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-lg font-bold text-orange-400">$'+r.dutyAmt.toLocaleString()+'</div><div class="text-xs text-gray-400">关税金额</div></div>' +
+        '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-lg font-bold text-yellow-400">$'+r.vatAmt.toLocaleString()+'</div><div class="text-xs text-gray-400">增值税('+r.vatRate+')</div></div>' +
+        '<div class="bg-green-400/10 border border-green-400/20 rounded-xl p-3 text-center"><div class="text-xl font-bold text-green-300">$'+r.landedCost.toLocaleString()+'</div><div class="text-xs text-gray-400">完税落地价</div></div>' +
+      '</div>' +
+      (r.note ? '<div class="bg-yellow-400/5 border border-yellow-400/20 rounded-lg p-3 text-xs text-yellow-300"><span class="font-medium">&#9888; 注意：</span>'+r.note+'</div>' : '') +
+    '</div>';
+}
+
+// ====== Trending Views ======
+function switchTrendView(view, btn) {
+  currentTrendView = view;
+  document.querySelectorAll('.trend-view').forEach(function(el){ el.classList.add('hidden'); });
+  var el = document.getElementById('trend-' + view);
+  if(el){ el.classList.remove('hidden'); }
+  document.querySelectorAll('#tool-trending .nav-pill').forEach(function(b){ b.classList.remove('active'); });
+  if(btn) btn.classList.add('active');
+  if(view === 'bsr') renderTrendBSR();
+  if(view === 'local') renderTrendLocal();
+  if(view === 'social') renderTrendSocial();
+  if(view === 'recommend') renderTrendRecommend();
+}
+
+function renderTrendBSR() {
+  var el = document.getElementById('trend-bsr');
+  if(!el || el.innerHTML) return;
+  var markets = Object.keys(TRENDING_DB.amazon_bsr);
+  var html = markets.map(function(mkt){
+    var items = TRENDING_DB.amazon_bsr[mkt];
+    var rows = items.map(function(item){
+      var trendIcon = item.trend === 'up' ? '&#8679;' : item.trend === 'new' ? '&#10024;' : '&#8680;';
+      var trendColor = item.trend === 'up' ? 'text-green-400' : item.trend === 'new' ? 'text-yellow-400' : 'text-gray-400';
+      return '<div class="flex items-start gap-3 py-3 border-b border-white/5 last:border-0">' +
+        '<span class="text-gray-600 font-mono text-xs w-5 text-right flex-shrink-0">#'+item.rank+'</span>' +
+        '<div class="flex-1 min-w-0">' +
+          '<div class="font-medium text-sm text-gray-200 mb-0.5">'+item.title+'</div>' +
+          '<div class="text-xs text-gray-400 mb-1">'+item.cat+' &middot; '+item.price+' &middot; &#11088; '+item.rating+' ('+item.reviews.toLocaleString()+')</div>' +
+          '<div class="text-xs text-blue-300">'+item.insight+'</div>' +
+        '</div>' +
+        '<span class="'+trendColor+' text-lg flex-shrink-0">'+trendIcon+'</span>' +
+      '</div>';
+    }).join('');
+    return '<div class="card p-5"><h3 class="font-semibold text-sm text-yellow-400 mb-3">&#128293; Amazon BSR · '+mkt+'</h3>'+rows+'</div>';
+  }).join('');
+  el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+}
+
+function renderTrendLocal() {
+  var el = document.getElementById('trend-local');
+  if(!el || el.innerHTML) return;
+  var platforms = Object.keys(TRENDING_DB.local_ecom);
+  var html = platforms.map(function(pf){
+    var items = TRENDING_DB.local_ecom[pf];
+    var rows = items.map(function(item){
+      return '<div class="py-2 border-b border-white/5 last:border-0">' +
+        '<div class="flex justify-between items-start">' +
+          '<span class="font-medium text-sm text-gray-200">'+item.title+'</span>' +
+          '<span class="text-xs text-gray-500 ml-2 flex-shrink-0">'+item.price+'</span>' +
+        '</div>' +
+        '<div class="text-xs text-gray-400 mt-0.5">'+item.cat+' &middot; '+item.country+'</div>' +
+        '<div class="text-xs text-blue-300 mt-0.5">'+item.insight+'</div>' +
+      '</div>';
+    }).join('');
+    return '<div class="card p-5"><h3 class="font-semibold text-sm text-purple-400 mb-3">&#127760; '+pf+'</h3>'+rows+'</div>';
+  }).join('');
+  el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+}
+
+function renderTrendSocial() {
+  var el = document.getElementById('trend-social');
+  if(!el || el.innerHTML) return;
+  var platforms = Object.keys(TRENDING_DB.social_hotwords);
+  var html = platforms.map(function(pf){
+    var items = TRENDING_DB.social_hotwords[pf];
+    var rows = items.map(function(item){
+      return '<div class="bg-slate-800/50 rounded-xl p-3">' +
+        '<div class="flex justify-between items-start mb-1">' +
+          '<span class="font-bold text-sm text-pink-400">'+item.keyword+'</span>' +
+          '<span class="text-xs text-gray-500">'+item.count+'</span>' +
+        '</div>' +
+        '<div class="text-xs text-green-400 mb-1">&#128201; 关联产品：'+item.product+'</div>' +
+        '<div class="text-xs text-gray-400">'+item.insight+'</div>' +
+      '</div>';
+    }).join('');
+    return '<div class="card p-5"><h3 class="font-semibold text-sm text-pink-400 mb-3">&#128064; '+pf+'</h3><div class="space-y-2">'+rows+'</div></div>';
+  }).join('');
+  el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+}
+
+function renderTrendRecommend() {
+  var el = document.getElementById('trend-recommend');
+  if(!el || el.innerHTML) return;
+  var html = TRENDING_DB.product_recommendations.map(function(rec){
+    var prodHtml = rec.products.map(function(p){
+      var certs = p.certNeeded.map(function(c){ return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
+      return '<div class="bg-slate-800/50 rounded-xl p-4">' +
+        '<div class="font-semibold text-sm text-gray-200 mb-2">'+p.name+'</div>' +
+        '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs mb-2">' +
+          '<div><span class="text-gray-400">目标市场：</span><span class="text-blue-300">'+p.targetMarket+'</span></div>' +
+          '<div><span class="text-gray-400">HS编码：</span><span class="font-mono text-gray-300">'+p.hs+'</span></div>' +
+          '<div><span class="text-gray-400">参考价格：</span><span class="text-green-400">'+p.priceUS+'</span></div>' +
+          '<div><span class="text-gray-400">渠道：</span><span class="text-gray-300">'+p.channel+'</span></div>' +
+          '<div><span class="text-gray-400">时机：</span><span class="text-yellow-400">'+p.timeline+'</span></div>' +
+        '</div>' +
+        '<div class="text-xs text-gray-400 mb-1">必备认证：</div>' + certs +
+      '</div>';
+    }).join('');
+    return '<div class="card p-5">' +
+      '<div class="flex items-center gap-2 mb-4">' +
+        '<span class="text-xl">&#129302;</span>' +
+        '<h3 class="font-semibold text-sm text-teal-300">'+rec.trend+'</h3>' +
+      '</div>' +
+      '<div class="space-y-3">'+prodHtml+'</div>' +
+    '</div>';
+  }).join('');
+  el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+}
+
+function renderToolsTab() {
+  if(!document.getElementById('compliance-result').innerHTML) {
+    runCompliance();
+  }
+}
+
 </script>
 </body>
 </html>
