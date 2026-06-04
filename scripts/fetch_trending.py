@@ -1350,6 +1350,80 @@ def fetch_freight_pricing():
     return pricing
 
 
+def fetch_risk_hotspots():
+    """为每个风险热点抓取最新动态描述 (每日更新)"""
+    hotspot_queries = [
+        {'id': 'red_sea', 'query': 'Red Sea Houthi shipping attack 2026', 'name': '红海-曼德海峡'},
+        {'id': 'hormuz', 'query': 'Hormuz strait Iran oil shipping', 'name': '霍尔木兹海峡'},
+        {'id': 'israel_gaza', 'query': 'Israel Gaza ceasefire negotiation', 'name': '以色列-加沙'},
+        {'id': 'taiwan', 'query': 'Taiwan strait military tension shipping', 'name': '台湾海峡'},
+        {'id': 'panama', 'query': 'Panama canal water level transit', 'name': '巴拿马运河'},
+        {'id': 'south_china_sea', 'query': 'South China Sea dispute Philippines', 'name': '南海争议区'},
+        {'id': 'ukraine_blacksea', 'query': 'Ukraine Black Sea grain corridor shipping', 'name': '乌克兰-黑海'},
+        {'id': 'us_tariff', 'query': 'USTR 301 tariff investigation 60 countries 2026', 'name': '美国关税壁垒'}
+    ]
+    
+    results = {}
+    
+    for spot in hotspot_queries:
+        try:
+            url = f"https://news.google.com/rss/search?q={quote_plus(spot['query'])}+when:30d&hl=en-US&gl=US&ceid=US:en"
+            resp = safe_get(url, timeout=12, via_proxy=True)
+            
+            headlines = []
+            latest_date = ''
+            
+            if resp:
+                try:
+                    soup = BeautifulSoup(resp.text, 'xml')
+                except Exception:
+                    soup = BeautifulSoup(resp.text, 'html.parser')
+                
+                items = soup.find_all('item') or soup.find_all('entry')
+                for item in items[:4]:
+                    title_el = item.find('title')
+                    if title_el:
+                        title = title_el.get_text(strip=True)
+                        if len(title) > 15:
+                            headlines.append(title[:100])
+                    if not latest_date:
+                        pub_el = item.find('pubDate') or item.find('published')
+                        if pub_el:
+                            latest_date = pub_el.get_text(strip=True)
+                
+                # 提取链接
+                link = ''
+                first_item = items[0] if items else None
+                if first_item:
+                    link_el = first_item.find('link')
+                    if link_el:
+                        link = link_el.get('href', '') or link_el.get_text(strip=True) or ''
+            
+            results[spot['id']] = {
+                'name': spot['name'],
+                'headlines': headlines[:3],
+                'latest_date': latest_date,
+                'source_url': link,
+                'updated': today_str()
+            }
+            
+            if headlines:
+                print(f"  [OK] {spot['name']}: {len(headlines)} headlines")
+            
+            time.sleep(0.8)
+        except Exception as e:
+            print(f"  [WARN] {spot['name']} failed: {e}")
+            results[spot['id']] = {
+                'name': spot['name'],
+                'headlines': [],
+                'latest_date': '',
+                'source_url': '',
+                'updated': today_str()
+            }
+    
+    return results
+
+
 # ============================================================
 # 主流程
 # ============================================================
@@ -1375,46 +1449,47 @@ def main():
         'product_recommendations': [],
         'trade_news': [],
         'risk_indicators': {},
-        'freight_pricing': {}
+        'freight_pricing': {},
+        'risk_hotspots': {}
     }
     
     # 1. Google Trends 每日热搜
-    print("\n[1/9] Fetching Google Trends daily...")
+    print("\n[1/10] Fetching Google Trends daily...")
     google_trends = fetch_google_trends_daily()
     if google_trends:
         result['search_growth'] = google_trends
         print(f"  Total markets: {len(google_trends)}")
     
     # 2. Amazon BSR
-    print("\n[2/9] Fetching Amazon BSR...")
+    print("\n[2/10] Fetching Amazon BSR...")
     bsr_data = fetch_amazon_bsr()
     if bsr_data:
         result['amazon_bsr'] = bsr_data
         print(f"  Total markets: {len(bsr_data)}")
     
     # 3. 本土电商
-    print("\n[3/9] Fetching local e-commerce...")
+    print("\n[3/10] Fetching local e-commerce...")
     local_data = fetch_local_ecom()
     if local_data:
         result['local_ecom'] = local_data
         print(f"  Total platforms: {len(local_data)}")
     
     # 4. 社交热词
-    print("\n[4/9] Fetching social hotwords...")
+    print("\n[4/10] Fetching social hotwords...")
     social_data = fetch_social_hotwords()
     if social_data:
         result['social_hotwords'] = social_data
         print(f"  Total platforms: {len(social_data)}")
     
     # 5. 搜索增速
-    print("\n[5/9] Computing search growth...")
+    print("\n[5/10] Computing search growth...")
     if social_data and bsr_data:
         social_data, bsr_data = compute_all_growth(social_data, bsr_data)
         result['social_hotwords'] = social_data
         result['amazon_bsr'] = bsr_data
     
     # 6. AI选品建议（交叉分析前3个模块）
-    print("\n[6/9] Generating AI product recommendations...")
+    print("\n[6/10] Generating AI product recommendations...")
     effective_bsr = result.get('amazon_bsr', bsr_data or {})
     effective_local = result.get('local_ecom', local_data or {})
     effective_social = result.get('social_hotwords', social_data or {})
@@ -1424,23 +1499,29 @@ def main():
         print(f"  Generated {len(recommendations)} recommendations")
     
     # 7. 全球贸易实时情报
-    print("\n[7/9] Fetching global trade news from authoritative sources...")
+    print("\n[7/10] Fetching global trade news from authoritative sources...")
     trade_news = fetch_trade_news()
     if trade_news:
         result['trade_news'] = trade_news
         print(f"  Total news articles: {len(trade_news)}")
     
     # 8. 风险指标
-    print("\n[8/9] Fetching risk indicators...")
+    print("\n[8/10] Fetching risk indicators...")
     risk_indicators = fetch_risk_indicators()
     result['risk_indicators'] = risk_indicators
     print(f"  SCFI: {risk_indicators.get('scfi_index', 'N/A')}")
     
     # 9. 运价报价 (集装箱/散货/中欧班列/空运)
-    print("\n[9/9] Fetching freight pricing data...")
+    print("\n[9/10] Fetching freight pricing data...")
     freight_pricing = fetch_freight_pricing()
     result['freight_pricing'] = freight_pricing
     print(f"  Freight categories: {len(freight_pricing.get('rates', {}))}")
+    
+    # 10. 风险热点动态 (每日更新各热点最新新闻)
+    print("\n[10/10] Fetching risk hotspot updates...")
+    risk_hotspots = fetch_risk_hotspots()
+    result['risk_hotspots'] = risk_hotspots
+    print(f"  Hotspots updated: {len(risk_hotspots)}")
     
     # 输出
     os.makedirs(OUTPUT_DIR, exist_ok=True)

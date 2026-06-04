@@ -1032,6 +1032,10 @@ function fetchNews() {
       if(d.freight_pricing && d.freight_pricing.rates) {
         window._freightRates = d.freight_pricing.rates;
       }
+      // 动态更新风险热点popup内容
+      if(d.risk_hotspots) {
+        updateRiskHotspots(d.risk_hotspots);
+      }
       // 更新时间戳
       if(d.meta && d.meta.updated_at) {
         var upd = new Date(d.meta.updated_at);
@@ -1391,6 +1395,39 @@ function getAIProductAdvice(cat) {
 // ============================================================
 var _map=null, _layers={};
 
+// 构建热点Popup HTML (支持动态headlines)
+function buildHotspotPopup(h, color, dynamicData) {
+  var levelText = h.level==='high'?'高风险':'中等关注';
+  var headlines = '';
+  if(dynamicData && dynamicData.headlines && dynamicData.headlines.length) {
+    headlines = '<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1)">' +
+      '<div style="font-size:10px;color:#94a3b8;margin-bottom:4px">📡 最新动态 (' + (dynamicData.updated||'今日') + ')</div>' +
+      dynamicData.headlines.map(function(t){
+        return '<div style="font-size:11px;color:#cbd5e1;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04)">• ' + t + '</div>';
+      }).join('') +
+      (dynamicData.source_url ? '<a href="'+dynamicData.source_url+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:6px;font-size:10px;color:#60a5fa;text-decoration:underline">查看更多 ↗</a>' : '') +
+    '</div>';
+  }
+  return '<div style="min-width:220px;max-width:320px">' +
+    '<h4 style="margin:0 0 6px;font-size:14px;font-weight:bold;color:'+color+'">' + h.name + '</h4>' +
+    '<p style="margin:0;font-size:12px;line-height:1.5;color:#e2e8f0">' + h.desc + '</p>' +
+    headlines +
+    '<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;color:#94a3b8">风险等级: <b style="color:'+color+'">' + levelText + '</b></div>' +
+  '</div>';
+}
+
+// 动态更新热点popup内容 (从trending.json加载后调用)
+function updateRiskHotspots(hotspotData) {
+  if(!hotspotData || !window._riskMarkers) return;
+  Object.keys(hotspotData).forEach(function(id){
+    var ref = window._riskMarkers[id];
+    if(ref && ref.marker) {
+      var newPopup = buildHotspotPopup(ref.data, ref.color, hotspotData[id]);
+      ref.marker.setPopupContent(newPopup);
+    }
+  });
+}
+
 function initMap() {
   if(_map) return;
   _map = L.map('world-map', {zoomControl:true, scrollWheelZoom:true}).setView([20,50], 2);
@@ -1439,17 +1476,18 @@ function initMap() {
   });
   _layers.shipping = shipping;
 
-  // ========== 风险热点 (带脉冲动画效果) ==========
+  // ========== 风险热点 (带脉冲动画+动态内容) ==========
   var risk = L.layerGroup();
+  window._riskMarkers = {}; // 全局引用，用于动态更新popup
   var hotspots = [
-    {name:'🔴 红海-曼德海峡',lat:12.5,lng:43.5,level:'high',desc:'胡塞武装持续袭击商船，2026年上半年超120起攻击事件。全球90%亚欧航线绕行好望角，运费增65%以上。'},
-    {name:'🔴 霍尔木兹海峡',lat:26.6,lng:56.3,level:'high',desc:'全球35%海运石油经此通过。伊朗核谈判停滞+美以军事部署，能源运输战争险保费飙升300%。'},
-    {name:'🔴 以色列-加沙',lat:31.5,lng:34.4,level:'high',desc:'中东冲突持续，停火谈判反复。苏伊士运河通行受间接影响，周边港口货物中转延误。'},
-    {name:'🟡 台湾海峡',lat:24,lng:120,level:'med',desc:'地缘紧张周期性升级，部分保险公司对穿越台海的船舶上调战争险附加费0.5-1%。'},
-    {name:'🟡 巴拿马运河',lat:9,lng:-79.5,level:'med',desc:'水位已恢复正常，日过闸36艘。但厄尔尼诺周期不确定性仍需关注，Q4可能再次限行。'},
-    {name:'🟡 南海争议区',lat:10,lng:115,level:'med',desc:'南沙岛礁主权争议持续，中菲/中越对峙事件频发。民用航运暂未受阻但保险附加费上调。'},
-    {name:'🔴 乌克兰-黑海',lat:46,lng:33,level:'high',desc:'黑海粮食走廊中断，乌克兰港口矿石/农产品出口受阻。俄乌冲突外溢影响欧洲能源价格。'},
-    {name:'🟡 美国关税壁垒',lat:38,lng:-97,level:'med',desc:'USTR 301条款调查60国，对华综合税率145%。第三轮豁免清单评估中，30天公众评论期进行中。'}
+    {id:'red_sea',name:'🔴 红海-曼德海峡',lat:12.5,lng:43.5,level:'high',desc:'胡塞武装持续袭击商船，2026年上半年超120起攻击事件。全球90%亚欧航线绕行好望角，运费增65%以上。'},
+    {id:'hormuz',name:'🔴 霍尔木兹海峡',lat:26.6,lng:56.3,level:'high',desc:'全球35%海运石油经此通过。伊朗核谈判停滞+美以军事部署，能源运输战争险保费飙升300%。'},
+    {id:'israel_gaza',name:'🔴 以色列-加沙',lat:31.5,lng:34.4,level:'high',desc:'中东冲突持续，停火谈判反复。苏伊士运河通行受间接影响，周边港口货物中转延误。'},
+    {id:'taiwan',name:'🟡 台湾海峡',lat:24,lng:120,level:'med',desc:'地缘紧张周期性升级，部分保险公司对穿越台海的船舶上调战争险附加费0.5-1%。'},
+    {id:'panama',name:'🟡 巴拿马运河',lat:9,lng:-79.5,level:'med',desc:'水位已恢复正常，日过闸36艘。但厄尔尼诺周期不确定性仍需关注，Q4可能再次限行。'},
+    {id:'south_china_sea',name:'🟡 南海争议区',lat:10,lng:115,level:'med',desc:'南沙岛礁主权争议持续，中菲/中越对峙事件频发。民用航运暂未受阻但保险附加费上调。'},
+    {id:'ukraine_blacksea',name:'🔴 乌克兰-黑海',lat:46,lng:33,level:'high',desc:'黑海粮食走廊中断，乌克兰港口矿石/农产品出口受阻。俄乌冲突外溢影响欧洲能源价格。'},
+    {id:'us_tariff',name:'🟡 美国关税壁垒',lat:38,lng:-97,level:'med',desc:'USTR 301条款调查60国，对华综合税率145%。第三轮豁免清单评估中，30天公众评论期进行中。'}
   ];
   hotspots.forEach(function(h){
     var color = h.level==='high'?'#f87171':'#fbbf24';
@@ -1462,19 +1500,14 @@ function initMap() {
     L.marker([h.lat,h.lng],{icon:pulseIcon}).addTo(risk);
     // 内层实心圆 (可点击)
     var marker = L.circleMarker([h.lat,h.lng],{radius:8,color:color,fillColor:color,fillOpacity:.6,weight:2}).addTo(risk);
-    marker.bindPopup(
-      '<div style="min-width:200px;max-width:280px">' +
-        '<h4 style="margin:0 0 6px;font-size:14px;font-weight:bold;color:'+color+'">' + h.name + '</h4>' +
-        '<p style="margin:0;font-size:12px;line-height:1.5;color:#e2e8f0">' + h.desc + '</p>' +
-        '<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;color:#94a3b8">风险等级: <b style="color:'+color+'">' + (h.level==='high'?'高风险':'中等关注') + '</b></div>' +
-      '</div>',
-      {className:'dark-popup'}
-    );
+    marker.bindPopup(buildHotspotPopup(h, color), {className:'dark-popup', maxWidth:320});
     // 点击时弹跳效果
     marker.on('click', function(e){
       var el = e.target._path;
       if(el){ el.classList.add('marker-bounce'); setTimeout(function(){el.classList.remove('marker-bounce');},600); }
     });
+    // 保存引用用于动态更新
+    window._riskMarkers[h.id] = {marker:marker, data:h, color:color};
   });
   // 国家标注
   COUNTRIES.forEach(function(c){
