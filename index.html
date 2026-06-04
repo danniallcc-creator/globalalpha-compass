@@ -34,7 +34,8 @@ body{background:linear-gradient(135deg,#0a0f1e 0%,#0d1b2e 50%,#0a0f1e 100%);font
 input[type=range]{accent-color:#60a5fa}
 .leaflet-container{background:#0a0f1e}
 /* 风险热点脉冲动画 */
-.risk-pulse{width:30px;height:30px;border-radius:50%;background:var(--pulse-color);opacity:.4;animation:riskPulse 2s infinite ease-out}
+.risk-pulse-wrapper{pointer-events:none !important}
+.risk-pulse{width:30px;height:30px;border-radius:50%;background:var(--pulse-color);opacity:.4;animation:riskPulse 2s infinite ease-out;pointer-events:none}
 @keyframes riskPulse{0%{transform:scale(.5);opacity:.7}70%{transform:scale(2.2);opacity:0}100%{transform:scale(.5);opacity:0}}
 /* 点击弹跳效果 */
 @keyframes markerBounce{0%{transform:scale(1)}30%{transform:scale(1.8)}50%{transform:scale(0.7)}70%{transform:scale(1.3)}100%{transform:scale(1)}}
@@ -43,6 +44,7 @@ input[type=range]{accent-color:#60a5fa}
 .dark-popup .leaflet-popup-content-wrapper{background:rgba(15,23,42,.95);color:#e2e8f0;border-radius:12px;border:1px solid rgba(96,165,250,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
 .dark-popup .leaflet-popup-tip{background:rgba(15,23,42,.95)}
 .dark-popup .leaflet-popup-close-button{color:#94a3b8}
+.dark-popup .leaflet-popup-content{margin:12px 14px;line-height:1.4}
 </style>
 </head>
 <body>
@@ -1491,15 +1493,15 @@ function initMap() {
   ];
   hotspots.forEach(function(h){
     var color = h.level==='high'?'#f87171':'#fbbf24';
-    // 外层脉冲圆 (CSS动画)
+    // 外层脉冲圆 (CSS动画, 不可交互让点击穿透到下层)
     var pulseIcon = L.divIcon({
-      className:'',
+      className:'risk-pulse-wrapper',
       html:'<div class="risk-pulse" style="--pulse-color:'+color+'"></div>',
       iconSize:[30,30],iconAnchor:[15,15]
     });
-    L.marker([h.lat,h.lng],{icon:pulseIcon}).addTo(risk);
-    // 内层实心圆 (可点击)
-    var marker = L.circleMarker([h.lat,h.lng],{radius:8,color:color,fillColor:color,fillOpacity:.6,weight:2}).addTo(risk);
+    L.marker([h.lat,h.lng],{icon:pulseIcon,interactive:false}).addTo(risk);
+    // 内层实心圆 (可点击, 绑定popup)
+    var marker = L.circleMarker([h.lat,h.lng],{radius:10,color:color,fillColor:color,fillOpacity:.6,weight:2}).addTo(risk);
     marker.bindPopup(buildHotspotPopup(h, color), {className:'dark-popup', maxWidth:320});
     // 点击时弹跳效果
     marker.on('click', function(e){
