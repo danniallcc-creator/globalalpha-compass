@@ -594,6 +594,276 @@ def compute_all_growth(social_data, bsr_data):
 
 
 # ============================================================
+# 6. 动态AI选品建议生成器
+#    交叉分析 BSR + 本土电商 + 社交热词 → 生成推荐
+# ============================================================
+
+# 趋势关键词 → 品类映射（用于交叉匹配）
+TREND_CATEGORIES = {
+    'AI硬件/AI科技': {
+        'keywords': ['ai', 'AI', 'chatgpt', '大模型', '翻译', '录音', '绘图', '学习机', '机器人',
+                     'AIProductivity', 'AIGadgets', 'AIGadget', 'AIHardware', 'AI Art'],
+        'products': [
+            {'name': 'AI录音笔+实时转录(32GB)', 'hs': '8519', 'priceUS': '$89-149',
+             'certNeeded': ['FCC', 'CE', 'PSE'], 'channel': '亚马逊+品牌官网', 'timeline': 'Q3-Q4旺季'},
+            {'name': '儿童AI学习机 双语对话', 'hs': '8471', 'priceUS': '$65-99',
+             'certNeeded': ['FCC', 'CE', 'UKCA', 'CPSC'], 'channel': 'TikTok Shop+亚马逊', 'timeline': '开学季/圣诞季'},
+            {'name': 'AR轻量化眼镜(显示/导航)', 'hs': '9004', 'priceUS': '$199-399',
+             'certNeeded': ['FCC', 'CE', 'KC'], 'channel': '亚马逊+独立站', 'timeline': 'Q4 2026'},
+        ]
+    },
+    '银发科技/养老经济': {
+        'keywords': ['银发', '老年', 'elderly', 'senior', '防跌倒', '轮椅', '药盒', '血压',
+                     'SeniorTech', 'Elderly Parent', 'HealthWearables', 'aging'],
+        'products': [
+            {'name': '防跌倒智能感应夜灯套装(4个)', 'hs': '9405', 'priceUS': '$35-55',
+             'certNeeded': ['UL', 'CE', 'RCM'], 'channel': '亚马逊/OTTO', 'timeline': '全年刚需'},
+            {'name': '蓝牙血压计+APP血压日历', 'hs': '9019', 'priceUS': '$45-79',
+             'certNeeded': ['FDA Class II 510k', 'CE MDR', 'PSE'], 'channel': '亚马逊+药店渠道', 'timeline': '全年'},
+            {'name': '便携折叠轻量电动轮椅<15kg', 'hs': '8713', 'priceUS': '$799-1299',
+             'certNeeded': ['FDA Class I', 'CE', 'TGA'], 'channel': '医疗器械经销商+亚马逊', 'timeline': '全年'},
+        ]
+    },
+    '宠物科技': {
+        'keywords': ['宠物', 'pet', 'dog', 'cat', '猫', '狗', '项圈', '喂食',
+                     'PetHotel', 'PetTech', 'PetLovers', 'pet camera', 'pet GPS'],
+        'products': [
+            {'name': '宠物GPS+健康监测项圈', 'hs': '8517', 'priceUS': '$69+$9.99/月',
+             'certNeeded': ['FCC', 'CE', 'ICASA'], 'channel': '亚马逊+DTC订阅', 'timeline': '全年，促销节点Q4'},
+            {'name': '自动猫咪喂食器AI识别', 'hs': '8479', 'priceUS': '$89-149',
+             'certNeeded': ['FCC', 'CE', 'PSC(JP)'], 'channel': 'Shopee+亚马逊+TikTok', 'timeline': '全年'},
+            {'name': '宠物摄像头双向对话+零食投喂', 'hs': '8525', 'priceUS': '$59-99',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+TikTok Shop', 'timeline': '全年'},
+        ]
+    },
+    '储能/太阳能/清洁能源': {
+        'keywords': ['储能', '太阳能', 'solar', 'battery', 'off-grid', '离网', 'LiFePO4',
+                     'OffGridSolar', 'CleanEnergy', 'Off-Grid Living', '停电'],
+        'products': [
+            {'name': 'LiFePO4储能2000Wh+双100W折叠板', 'hs': '8507', 'priceUS': '$1199-1599',
+             'certNeeded': ['UL9540', 'CE', 'RCM', 'IEC62133'], 'channel': '亚马逊+REI+独立站', 'timeline': 'Q2-Q3户外季'},
+            {'name': '家庭太阳能+储能一体机5kWh', 'hs': '8507', 'priceUS': '$2999-4999',
+             'certNeeded': ['CE', 'VDE', 'CEC(AU)', 'SASO'], 'channel': '本地经销商+B2B工程商', 'timeline': '全年'},
+            {'name': '便携太阳能充电系统200W', 'hs': '8541', 'priceUS': '$199-349',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+户外渠道', 'timeline': 'Q2-Q3'},
+        ]
+    },
+    '智能家居/Matter': {
+        'keywords': ['智能家居', 'smart home', 'matter', '智能灯', '智能锁', '传感器',
+                     'SmartHomeMatter', 'Smart Home', 'SmartHome'],
+        'products': [
+            {'name': 'Matter协议智能网关+4件套', 'hs': '8517', 'priceUS': '$149-249',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+独立站', 'timeline': '全年'},
+            {'name': '智能门锁指纹+密码+APP', 'hs': '8301', 'priceUS': '$99-199',
+             'certNeeded': ['FCC', 'CE', 'UL'], 'channel': '亚马逊+Home Depot', 'timeline': '全年'},
+            {'name': '全屋氛围灯带Music Sync', 'hs': '9405', 'priceUS': '$29-59',
+             'certNeeded': ['FCC', 'CE'], 'channel': 'TikTok+亚马逊', 'timeline': 'Q4旺季'},
+        ]
+    },
+    '清洁家电': {
+        'keywords': ['洗地机', '扫地机', '清洁', 'clean', '净化', 'air purifier',
+                     'CleanTok', '#CleanTok', 'HEPA'],
+        'products': [
+            {'name': '洗地机湿干两用大吸力', 'hs': '8509', 'priceUS': '$179-299',
+             'certNeeded': ['FCC', 'CE', 'PSE'], 'channel': '亚马逊+TikTok', 'timeline': '全年'},
+            {'name': '扫地机器人激光导航', 'hs': '8509', 'priceUS': '$299-499',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+独立站', 'timeline': 'Prime Day/黑五'},
+            {'name': 'HEPA空气净化器(甲醛数显)', 'hs': '8421', 'priceUS': '$129-249',
+             'certNeeded': ['FCC', 'CE', 'CARB'], 'channel': '亚马逊+线下', 'timeline': '秋冬旺季'},
+        ]
+    },
+    '游戏电竞': {
+        'keywords': ['游戏', 'gaming', 'game', '电竞', 'RGB', '键盘',
+                     'GameSetup', 'GamingSetup', '#GameSetup'],
+        'products': [
+            {'name': '电竞机械键盘热插拔RGB', 'hs': '8471', 'priceUS': '$59-129',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+TikTok', 'timeline': '全年'},
+            {'name': '电竞椅人体工学Pro', 'hs': '9401', 'priceUS': '$199-399',
+             'certNeeded': ['BIFMA', 'CE'], 'channel': '亚马逊+独立站', 'timeline': '全年'},
+            {'name': 'RGB灯条+桌面灯板套装', 'hs': '9405', 'priceUS': '$29-69',
+             'certNeeded': ['FCC', 'CE'], 'channel': 'TikTok+亚马逊', 'timeline': 'Q4'},
+        ]
+    },
+    '清真/穆斯林消费': {
+        'keywords': ['halal', '清真', '穆斯林', 'muslim', '斋月',
+                     'Halal Beauty'],
+        'products': [
+            {'name': 'Halal认证防汗粉底+气垫套装', 'hs': '3304', 'priceUS': '$18-35',
+             'certNeeded': ['HALAL MUI(ID)', 'SFDA(SA)', 'JAKIM(MY)'], 'channel': 'Shopee/Noon/TikTok', 'timeline': '斋月前2个月'},
+            {'name': '速干UPF50+穆斯林运动服套装', 'hs': '6211', 'priceUS': '$22-45',
+             'certNeeded': ['OEKO-TEX', 'HALAL(可选)'], 'channel': 'Lazada/Noon/Instagram', 'timeline': '伊斯兰体育赛事季'},
+            {'name': '智能电子Quran阅读器AI朗读', 'hs': '8519', 'priceUS': '$59-129',
+             'certNeeded': ['CE', 'SASO'], 'channel': 'Noon+Amazon.sa', 'timeline': '斋月/开斋节'},
+        ]
+    },
+    '美容健康': {
+        'keywords': ['美容', 'beauty', 'skincare', '护肤', '射频', 'EMS', '按摩',
+                     'SkincareRoutine', 'Functional Fitness', 'MindfulMorning'],
+        'products': [
+            {'name': '射频EMS冷敷美容仪合一', 'hs': '8543', 'priceUS': '$129-199',
+             'certNeeded': ['FDA', 'CE', 'PSE'], 'channel': 'TikTok Shop+亚马逊', 'timeline': '全年'},
+            {'name': '颈部加热按摩仪3D揉捏', 'hs': '9019', 'priceUS': '$49-89',
+             'certNeeded': ['FCC', 'CE', 'PSE'], 'channel': '亚马逊+Shopee', 'timeline': '全年(礼品属性)'},
+            {'name': 'Sunrise闹钟灯+白噪音机', 'hs': '9405', 'priceUS': '$35-65',
+             'certNeeded': ['FCC', 'CE'], 'channel': '亚马逊+TikTok', 'timeline': '全年'},
+        ]
+    },
+    '出行/电动车': {
+        'keywords': ['电动', 'e-bike', '电动车', 'EV', '骑行', '折叠',
+                     'EVLife', '#EVLife', '电动自行车'],
+        'products': [
+            {'name': '折叠电动自行车20英寸轻量', 'hs': '8711', 'priceUS': '$599-899',
+             'certNeeded': ['UL', 'CE', 'EN15194'], 'channel': '亚马逊+独立站', 'timeline': '春夏旺季'},
+            {'name': 'EV便携充电器Type2 7kW', 'hs': '8504', 'priceUS': '$199-349',
+             'certNeeded': ['CE', 'TUV', 'UL'], 'channel': '亚马逊+独立站', 'timeline': '全年'},
+            {'name': 'E-Cargo电动货运自行车', 'hs': '8711', 'priceUS': '$2499-3999',
+             'certNeeded': ['CE', 'EN15194'], 'channel': '本地经销商+B2B', 'timeline': '全年'},
+        ]
+    },
+}
+
+
+def generate_recommendations(bsr_data, local_data, social_data):
+    """
+    交叉分析BSR+本土电商+社交热词 → 生成动态AI选品建议
+    
+    评分维度:
+    - 跨平台信号: 同一趋势在BSR+本土+社交多个源出现 → 高分
+    - 增速加权: 该趋势下产品的平均growth% → 高分
+    - 市场覆盖: 出现在多少个不同国家/市场 → 高分
+    - 社交热度: 社交平台上的讨论量/观看量 → 高分
+    """
+    print("  Analyzing cross-platform trend signals...")
+    
+    trend_scores = {}  # trend_name → {score, sources, avg_growth, markets, signals, products}
+    
+    # ---- 分析 BSR 数据 ----
+    for mkt, items in bsr_data.items():
+        for item in items:
+            title = item.get('title', '')
+            cat = item.get('cat', '')
+            growth = item.get('growth', 0)
+            combined_text = (title + ' ' + cat).lower()
+            
+            for trend_name, trend_cfg in TREND_CATEGORIES.items():
+                match_count = sum(1 for kw in trend_cfg['keywords'] if kw.lower() in combined_text)
+                if match_count > 0:
+                    if trend_name not in trend_scores:
+                        trend_scores[trend_name] = {
+                            'score': 0, 'sources': set(), 'growth_values': [],
+                            'markets': set(), 'signals': [], 'products': trend_cfg['products']
+                        }
+                    ts = trend_scores[trend_name]
+                    ts['score'] += match_count * 15 + growth * 0.3
+                    ts['sources'].add('BSR')
+                    ts['growth_values'].append(growth)
+                    ts['markets'].add(mkt)
+                    ts['signals'].append(f"BSR {mkt} #{item.get('rank','?')}: {title[:40]}")
+    
+    # ---- 分析本土电商数据 ----
+    for platform, items in local_data.items():
+        for item in items:
+            title = item.get('title', '')
+            cat = item.get('cat', '')
+            country = item.get('country', '')
+            growth = item.get('growth', 0)
+            combined_text = (title + ' ' + cat).lower()
+            
+            for trend_name, trend_cfg in TREND_CATEGORIES.items():
+                match_count = sum(1 for kw in trend_cfg['keywords'] if kw.lower() in combined_text)
+                if match_count > 0:
+                    if trend_name not in trend_scores:
+                        trend_scores[trend_name] = {
+                            'score': 0, 'sources': set(), 'growth_values': [],
+                            'markets': set(), 'signals': [], 'products': trend_cfg['products']
+                        }
+                    ts = trend_scores[trend_name]
+                    ts['score'] += match_count * 12 + growth * 0.25
+                    ts['sources'].add('本土电商')
+                    ts['growth_values'].append(growth)
+                    for c in country.split('/'):
+                        ts['markets'].add(c.strip())
+                    ts['signals'].append(f"{platform} {country}: {title[:40]}")
+    
+    # ---- 分析社交热词数据 ----
+    for platform, items in social_data.items():
+        for item in items:
+            keyword = item.get('keyword', '')
+            product_text = item.get('product', '')
+            growth = item.get('growth', 0)
+            combined_text = (keyword + ' ' + product_text).lower()
+            
+            for trend_name, trend_cfg in TREND_CATEGORIES.items():
+                match_count = sum(1 for kw in trend_cfg['keywords'] if kw.lower() in combined_text)
+                if match_count > 0:
+                    if trend_name not in trend_scores:
+                        trend_scores[trend_name] = {
+                            'score': 0, 'sources': set(), 'growth_values': [],
+                            'markets': set(), 'signals': [], 'products': trend_cfg['products']
+                        }
+                    ts = trend_scores[trend_name]
+                    ts['score'] += match_count * 10 + growth * 0.2
+                    ts['sources'].add(f'社交({platform})')
+                    ts['growth_values'].append(growth)
+                    ts['signals'].append(f"{platform}热词: {keyword} ({item.get('count', 'N/A')})")
+    
+    # ---- 交叉加成: 多源出现的趋势额外加分 ----
+    for trend_name, ts in trend_scores.items():
+        source_count = len(ts['sources'])
+        if source_count >= 3:
+            ts['score'] += 50  # 三源共振
+        elif source_count >= 2:
+            ts['score'] += 25  # 双源验证
+    
+    # ---- 排序 + 生成输出 ----
+    sorted_trends = sorted(trend_scores.items(), key=lambda x: x[1]['score'], reverse=True)
+    
+    recommendations = []
+    for trend_name, ts in sorted_trends[:8]:  # 取前8个趋势
+        avg_growth = round(sum(ts['growth_values']) / max(len(ts['growth_values']), 1), 1)
+        
+        # 确定目标市场
+        market_list = sorted(ts['markets'])
+        if len(market_list) > 6:
+            target_market = '/'.join(market_list[:6]) + '+'
+        else:
+            target_market = '/'.join(market_list) if market_list else 'Global'
+        
+        # 生成数据洞察
+        source_str = ' + '.join(sorted(ts['sources']))
+        signal_count = len(ts['signals'])
+        
+        # 选择最相关的2-3个产品
+        products_out = []
+        for p in ts['products'][:3]:
+            products_out.append({
+                'name': p['name'],
+                'targetMarket': target_market,
+                'hs': p['hs'],
+                'priceUS': p['priceUS'],
+                'certNeeded': p['certNeeded'],
+                'channel': p['channel'],
+                'timeline': p['timeline'],
+            })
+        
+        recommendations.append({
+            'trend': f"{trend_name} ({today_str()})",
+            'score': round(ts['score'], 1),
+            'avgGrowth': avg_growth,
+            'sources': source_str,
+            'signalCount': signal_count,
+            'topSignals': ts['signals'][:4],  # 最多展示4条信号
+            'products': products_out,
+        })
+    
+    print(f"  Generated {len(recommendations)} trend recommendations")
+    for i, rec in enumerate(recommendations):
+        print(f"    #{i+1} {rec['trend']} | score={rec['score']} | growth={rec['avgGrowth']}% | sources={rec['sources']}")
+    
+    return recommendations
+
+
+# ============================================================
 # 主流程
 # ============================================================
 def main():
@@ -612,43 +882,54 @@ def main():
         'amazon_bsr': {},
         'local_ecom': {},
         'social_hotwords': {},
-        'search_growth': {}
+        'search_growth': {},
+        'product_recommendations': []
     }
     
     # 1. Google Trends 每日热搜
-    print("\n[1/5] Fetching Google Trends daily...")
+    print("\n[1/6] Fetching Google Trends daily...")
     google_trends = fetch_google_trends_daily()
     if google_trends:
         result['search_growth'] = google_trends
         print(f"  Total markets: {len(google_trends)}")
     
     # 2. Amazon BSR
-    print("\n[2/5] Fetching Amazon BSR...")
+    print("\n[2/6] Fetching Amazon BSR...")
     bsr_data = fetch_amazon_bsr()
     if bsr_data:
         result['amazon_bsr'] = bsr_data
         print(f"  Total markets: {len(bsr_data)}")
     
     # 3. 本土电商
-    print("\n[3/5] Fetching local e-commerce...")
+    print("\n[3/6] Fetching local e-commerce...")
     local_data = fetch_local_ecom()
     if local_data:
         result['local_ecom'] = local_data
         print(f"  Total platforms: {len(local_data)}")
     
     # 4. 社交热词
-    print("\n[4/5] Fetching social hotwords...")
+    print("\n[4/6] Fetching social hotwords...")
     social_data = fetch_social_hotwords()
     if social_data:
         result['social_hotwords'] = social_data
         print(f"  Total platforms: {len(social_data)}")
     
     # 5. 搜索增速
-    print("\n[5/5] Computing search growth...")
+    print("\n[5/6] Computing search growth...")
     if social_data and bsr_data:
         social_data, bsr_data = compute_all_growth(social_data, bsr_data)
         result['social_hotwords'] = social_data
         result['amazon_bsr'] = bsr_data
+    
+    # 6. AI选品建议（交叉分析前3个模块）
+    print("\n[6/6] Generating AI product recommendations...")
+    effective_bsr = result.get('amazon_bsr', bsr_data or {})
+    effective_local = result.get('local_ecom', local_data or {})
+    effective_social = result.get('social_hotwords', social_data or {})
+    if effective_bsr or effective_social:
+        recommendations = generate_recommendations(effective_bsr, effective_local, effective_social)
+        result['product_recommendations'] = recommendations
+        print(f"  Generated {len(recommendations)} recommendations")
     
     # 输出
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -661,6 +942,7 @@ def main():
     print(f"BSR markets: {len(result['amazon_bsr'])}")
     print(f"Local platforms: {len(result['local_ecom'])}")
     print(f"Social platforms: {len(result['social_hotwords'])}")
+    print(f"Recommendations: {len(result['product_recommendations'])}")
     print(f"{'='*60}")
     
     return 0

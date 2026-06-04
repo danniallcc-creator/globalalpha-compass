@@ -4271,6 +4271,10 @@ async function fetchTrendingJSON() {
     if (data.social_hotwords && Object.keys(data.social_hotwords).length > 0) {
       TRENDING_DB.social_hotwords = data.social_hotwords;
     }
+    // 合并推荐数据
+    if (data.product_recommendations && data.product_recommendations.length > 0) {
+      TRENDING_DB.product_recommendations = data.product_recommendations;
+    }
     // 更新时间显示
     if (data.meta && data.meta.date) {
       var el = document.getElementById('trending-update-time');
@@ -4399,30 +4403,186 @@ function renderTrendSocial() {
 function renderTrendRecommend() {
   var el = document.getElementById('trend-recommend');
   if(!el) return;
-  var html = TRENDING_DB.product_recommendations.map(function(rec){
-    var prodHtml = rec.products.map(function(p){
-      var certs = p.certNeeded.map(function(c){ return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
-      return '<div class="bg-slate-800/50 rounded-xl p-4">' +
-        '<div class="font-semibold text-sm text-gray-200 mb-2">'+p.name+'</div>' +
-        '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs mb-2">' +
-          '<div><span class="text-gray-400">目标市场：</span><span class="text-blue-300">'+p.targetMarket+'</span></div>' +
-          '<div><span class="text-gray-400">HS编码：</span><span class="font-mono text-gray-300">'+p.hs+'</span></div>' +
-          '<div><span class="text-gray-400">参考价格：</span><span class="text-green-400">'+p.priceUS+'</span></div>' +
-          '<div><span class="text-gray-400">渠道：</span><span class="text-gray-300">'+p.channel+'</span></div>' +
-          '<div><span class="text-gray-400">时机：</span><span class="text-yellow-400">'+p.timeline+'</span></div>' +
+  
+  var recs = TRENDING_DB.product_recommendations;
+  
+  // 如果JSON数据没有推荐数据，用前端JS实时交叉分析生成
+  if (!recs || recs.length === 0) {
+    recs = _clientSideCrossAnalysis();
+  }
+  
+  // 检查是否为新版动态格式（含score字段）
+  var isDynamicFormat = recs.length > 0 && recs[0].score !== undefined;
+  
+  if (isDynamicFormat) {
+    var html = recs.map(function(rec, idx) {
+      var prodHtml = (rec.products || []).map(function(p) {
+        var certs = (p.certNeeded || []).map(function(c) {
+          return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>';
+        }).join(' ');
+        return '<div class="bg-slate-800/50 rounded-xl p-4">' +
+          '<div class="font-semibold text-sm text-gray-200 mb-2">'+p.name+'</div>' +
+          '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs mb-2">' +
+            '<div><span class="text-gray-400">目标市场：</span><span class="text-blue-300">'+p.targetMarket+'</span></div>' +
+            '<div><span class="text-gray-400">HS编码：</span><span class="font-mono text-gray-300">'+p.hs+'</span></div>' +
+            '<div><span class="text-gray-400">参考价格：</span><span class="text-green-400">'+p.priceUS+'</span></div>' +
+            '<div><span class="text-gray-400">渠道：</span><span class="text-gray-300">'+p.channel+'</span></div>' +
+            '<div><span class="text-gray-400">时机：</span><span class="text-yellow-400">'+(p.timeline||'全年')+'</span></div>' +
+          '</div>' +
+          '<div class="text-xs text-gray-400 mb-1">必备认证：</div>' + certs +
+        '</div>';
+      }).join('');
+      
+      // 信号摘要
+      var signalsHtml = '';
+      if (rec.topSignals && rec.topSignals.length > 0) {
+        signalsHtml = '<div class="mt-3 p-3 rounded-lg" style="background:rgba(20,184,166,.06);border:1px solid rgba(20,184,166,.15)">' +
+          '<div class="text-xs text-teal-400 font-medium mb-1">&#128225; 交叉信号 ('+rec.signalCount+'条)：</div>' +
+          rec.topSignals.map(function(s) {
+            return '<div class="text-xs text-gray-400 py-0.5">• '+s+'</div>';
+          }).join('') +
+        '</div>';
+      }
+      
+      // 评分条
+      var maxScore = recs[0].score || 1;
+      var barWidth = Math.min(100, Math.round((rec.score / maxScore) * 100));
+      var barColor = rec.avgGrowth > 100 ? '#22c55e' : rec.avgGrowth > 50 ? '#4ade80' : '#facc15';
+      
+      return '<div class="card p-5">' +
+        '<div class="flex items-center justify-between mb-3 flex-wrap gap-2">' +
+          '<div class="flex items-center gap-2">' +
+            '<span class="text-xl">&#129302;</span>' +
+            '<h3 class="font-semibold text-sm text-teal-300">'+rec.trend+'</h3>' +
+          '</div>' +
+          '<div class="flex items-center gap-2">' +
+            growthBadge(rec.avgGrowth) +
+          '</div>' +
         '</div>' +
-        '<div class="text-xs text-gray-400 mb-1">必备认证：</div>' + certs +
+        '<div class="flex items-center gap-3 text-xs mb-3 flex-wrap">' +
+          '<span class="text-gray-400">综合评分：<span class="text-white font-semibold">'+rec.score+'</span></span>' +
+          '<span class="text-gray-400">数据源：<span class="text-blue-300">'+rec.sources+'</span></span>' +
+        '</div>' +
+        '<div class="w-full h-1.5 rounded-full bg-white/5 mb-4">' +
+          '<div class="h-full rounded-full" style="width:'+barWidth+'%;background:'+barColor+'"></div>' +
+        '</div>' +
+        signalsHtml +
+        '<div class="space-y-3 mt-3">'+prodHtml+'</div>' +
       '</div>';
     }).join('');
-    return '<div class="card p-5">' +
-      '<div class="flex items-center gap-2 mb-4">' +
-        '<span class="text-xl">&#129302;</span>' +
-        '<h3 class="font-semibold text-sm text-teal-300">'+rec.trend+'</h3>' +
-      '</div>' +
-      '<div class="space-y-3">'+prodHtml+'</div>' +
-    '</div>';
-  }).join('');
-  el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+    
+    el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+  } else {
+    // 兼容旧版硬编码格式
+    var html = recs.map(function(rec) {
+      var prodHtml = rec.products.map(function(p) {
+        var certs = p.certNeeded.map(function(c) { return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
+        return '<div class="bg-slate-800/50 rounded-xl p-4">' +
+          '<div class="font-semibold text-sm text-gray-200 mb-2">'+p.name+'</div>' +
+          '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs mb-2">' +
+            '<div><span class="text-gray-400">目标市场：</span><span class="text-blue-300">'+p.targetMarket+'</span></div>' +
+            '<div><span class="text-gray-400">HS编码：</span><span class="font-mono text-gray-300">'+p.hs+'</span></div>' +
+            '<div><span class="text-gray-400">参考价格：</span><span class="text-green-400">'+p.priceUS+'</span></div>' +
+            '<div><span class="text-gray-400">渠道：</span><span class="text-gray-300">'+p.channel+'</span></div>' +
+            '<div><span class="text-gray-400">时机：</span><span class="text-yellow-400">'+p.timeline+'</span></div>' +
+          '</div>' +
+          '<div class="text-xs text-gray-400 mb-1">必备认证：</div>' + certs +
+        '</div>';
+      }).join('');
+      return '<div class="card p-5">' +
+        '<div class="flex items-center gap-2 mb-4">' +
+          '<span class="text-xl">&#129302;</span>' +
+          '<h3 class="font-semibold text-sm text-teal-300">'+rec.trend+'</h3>' +
+        '</div>' +
+        '<div class="space-y-3">'+prodHtml+'</div>' +
+      '</div>';
+    }).join('');
+    el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
+  }
+}
+
+// 前端JS实时交叉分析（fallback: 当JSON无推荐数据时使用）
+function _clientSideCrossAnalysis() {
+  var categoryScores = {};
+  var CATEGORY_MAP = {
+    'AI硬件/AI科技': ['ai', 'AI', '录音', '翻译', '绘图', '学习机', '机器人', 'AIProductivity', 'AIGadget', 'AIHardware', 'AI Art'],
+    '银发科技/养老经济': ['银发', '老年', 'senior', '防跌倒', '轮椅', '血压', 'SeniorTech', 'Elderly', 'HealthWearables'],
+    '宠物科技': ['宠物', 'pet', '猫', '狗', '项圈', 'PetHotel', 'PetTech', 'PetLovers'],
+    '储能/太阳能': ['储能', '太阳能', 'solar', 'off-grid', '离网', 'OffGrid', 'CleanEnergy', 'Off-Grid'],
+    '智能家居': ['智能家居', 'smart home', 'matter', 'SmartHome'],
+    '清洁家电': ['洗地机', '清洁', 'clean', '净化', 'CleanTok', 'HEPA'],
+    '游戏电竞': ['游戏', 'gaming', '电竞', 'RGB', 'GameSetup', 'GamingSetup'],
+    '美容健康': ['美容', 'beauty', '护肤', '按摩', 'SkincareRoutine', 'Functional Fitness'],
+    '出行/电动车': ['电动', 'e-bike', 'EV', '折叠', 'EVLife', '自行车'],
+    '清真/穆斯林': ['halal', '清真', '穆斯林', 'Halal Beauty']
+  };
+  
+  // 分析BSR
+  Object.keys(TRENDING_DB.amazon_bsr).forEach(function(mkt) {
+    TRENDING_DB.amazon_bsr[mkt].forEach(function(item) {
+      var text = (item.title + ' ' + item.cat).toLowerCase();
+      Object.keys(CATEGORY_MAP).forEach(function(cat) {
+        var hits = CATEGORY_MAP[cat].filter(function(kw) { return text.indexOf(kw.toLowerCase()) >= 0; }).length;
+        if (hits > 0) {
+          if (!categoryScores[cat]) categoryScores[cat] = {score:0, growth:[], sources:new Set()};
+          categoryScores[cat].score += hits * 15 + (item.growth || 0) * 0.3;
+          categoryScores[cat].growth.push(item.growth || 0);
+          categoryScores[cat].sources.add('BSR ' + mkt);
+        }
+      });
+    });
+  });
+  
+  // 分析社交热词
+  Object.keys(TRENDING_DB.social_hotwords).forEach(function(pf) {
+    TRENDING_DB.social_hotwords[pf].forEach(function(item) {
+      var text = (item.keyword + ' ' + item.product).toLowerCase();
+      Object.keys(CATEGORY_MAP).forEach(function(cat) {
+        var hits = CATEGORY_MAP[cat].filter(function(kw) { return text.indexOf(kw.toLowerCase()) >= 0; }).length;
+        if (hits > 0) {
+          if (!categoryScores[cat]) categoryScores[cat] = {score:0, growth:[], sources:new Set()};
+          categoryScores[cat].score += hits * 10 + (item.growth || 0) * 0.2;
+          categoryScores[cat].growth.push(item.growth || 0);
+          categoryScores[cat].sources.add(pf);
+        }
+      });
+    });
+  });
+  
+  // 本土电商
+  Object.keys(TRENDING_DB.local_ecom).forEach(function(pf) {
+    TRENDING_DB.local_ecom[pf].forEach(function(item) {
+      var text = (item.title + ' ' + item.cat).toLowerCase();
+      Object.keys(CATEGORY_MAP).forEach(function(cat) {
+        var hits = CATEGORY_MAP[cat].filter(function(kw) { return text.indexOf(kw.toLowerCase()) >= 0; }).length;
+        if (hits > 0) {
+          if (!categoryScores[cat]) categoryScores[cat] = {score:0, growth:[], sources:new Set()};
+          categoryScores[cat].score += hits * 12 + (item.growth || 0) * 0.25;
+          categoryScores[cat].growth.push(item.growth || 0);
+          categoryScores[cat].sources.add(pf);
+        }
+      });
+    });
+  });
+  
+  // 排序输出
+  var sorted = Object.keys(categoryScores).sort(function(a,b) { return categoryScores[b].score - categoryScores[a].score; });
+  return sorted.slice(0, 6).map(function(cat) {
+    var cs = categoryScores[cat];
+    var avgG = cs.growth.length ? Math.round(cs.growth.reduce(function(a,b){return a+b;},0) / cs.growth.length * 10) / 10 : 0;
+    var sourceArr = Array.from(cs.sources);
+    if (sourceArr.length >= 3) cs.score += 50;
+    else if (sourceArr.length >= 2) cs.score += 25;
+    return {
+      trend: cat,
+      score: Math.round(cs.score * 10) / 10,
+      avgGrowth: avgG,
+      sources: sourceArr.join(' + '),
+      signalCount: cs.growth.length,
+      topSignals: sourceArr.slice(0, 4).map(function(s) { return '来自 ' + s; }),
+      products: []
+    };
+  });
 }
 
 function renderToolsTab() {
