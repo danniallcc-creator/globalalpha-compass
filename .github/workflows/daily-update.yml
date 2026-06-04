@@ -1,0 +1,36 @@
+name: Daily Trending Data Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-trending:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4 lxml pytrends
+      - run: python scripts/fetch_trending.py
+        env:
+          PYTHONUNBUFFERED: '1'
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/trending.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "📊 Update trending data $(date -u +%Y-%m-%d)"
+            git push
+          fi
