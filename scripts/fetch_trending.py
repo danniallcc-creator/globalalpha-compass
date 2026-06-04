@@ -78,6 +78,14 @@ LOCAL_PLATFORMS = {
     'MercadoLibre（拉美）': {'countries': ['MX', 'BR', 'CO', 'AR'], 'lang': 'es'},
     'Noon/Amazon.ae（中东）': {'countries': ['UAE', 'SA'], 'lang': 'en'},
     'Ozon（俄罗斯）': {'countries': ['RU', 'KZ'], 'lang': 'ru'},
+    'Allegro（东欧）': {'countries': ['PL'], 'lang': 'pl'},
+    'eBay（全球）': {'countries': ['US', 'UK', 'DE', 'AU'], 'lang': 'en'},
+    'AliExpress（全球）': {'countries': ['Global'], 'lang': 'en'},
+    'Etsy（欧美）': {'countries': ['US', 'UK', 'DE'], 'lang': 'en'},
+    'Vinted（欧洲）': {'countries': ['FR', 'DE', 'PL'], 'lang': 'en'},
+    'OLX（东欧/新兴）': {'countries': ['PL', 'RO', 'BG'], 'lang': 'pl'},
+    'Zalando（欧洲）': {'countries': ['DE', 'FR', 'IT'], 'lang': 'de'},
+    'Otto（德国）': {'countries': ['DE'], 'lang': 'de'},
 }
 
 SOCIAL_PLATFORMS = ['TikTok', 'Instagram', 'YouTube', 'X']
@@ -354,6 +362,187 @@ def fetch_local_ecom():
             print(f"  [OK] MercadoLibre: {len(ml_items)} items")
     except Exception as e:
         print(f"  [WARN] MercadoLibre failed: {e}")
+    
+    # ---- eBay: Browse API (公开搜索) ----
+    try:
+        ebay_items = []
+        ebay_queries = [
+            ('electronics', 'refurbished laptop', '翻新电子'),
+            ('motors', 'car accessories LED', '汽车配件'),
+            ('fashion', 'vintage designer bag', '复古时尚'),
+            ('collectibles', 'trading cards pokemon', '收藏卡牌'),
+        ]
+        for section, query, cat in ebay_queries:
+            url = f"https://www.ebay.com/sch/i.html?_nkw={quote_plus(query)}&_sop=12"
+            resp = safe_get(url, timeout=12, via_proxy=True)
+            if resp:
+                try:
+                    soup = BeautifulSoup(resp.text, 'html.parser')
+                    item_els = soup.select('.s-item__info')[:2]
+                    for el in item_els:
+                        title_el = el.select_one('.s-item__title span')
+                        price_el = el.select_one('.s-item__price')
+                        title = title_el.get_text(strip=True) if title_el else 'Trending on eBay'
+                        price = price_el.get_text(strip=True) if price_el else 'N/A'
+                        if title and title != 'Shop on eBay':
+                            ebay_items.append({
+                                'platform': 'eBay', 'country': 'US/UK/DE/AU',
+                                'cat': cat, 'title': title[:60], 'price': price,
+                                'gmv_rank': len(ebay_items) + 1,
+                                'insight': f'eBay trending in {section} ({today_str()})'
+                            })
+                except Exception as e:
+                    print(f"  [WARN] eBay {section} parse failed: {e}")
+            time.sleep(2)
+        if ebay_items:
+            results['eBay（全球）'] = ebay_items[:5]
+            print(f"  [OK] eBay: {len(ebay_items)} items")
+    except Exception as e:
+        print(f"  [WARN] eBay failed: {e}")
+    
+    # ---- AliExpress: 热门商品页 ----
+    try:
+        ali_items = []
+        url = "https://www.aliexpress.com/ranking/index.html"
+        resp = safe_get(url, timeout=12, via_proxy=True)
+        if resp:
+            try:
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                product_els = soup.select('[class*=card], [class*=product], [class*=item]')[:5]
+                for el in product_els:
+                    title_el = el.select_one('[class*=title], h3, h4')
+                    price_el = el.select_one('[class*=price]')
+                    title = title_el.get_text(strip=True) if title_el else 'AliExpress Trending'
+                    price = price_el.get_text(strip=True) if price_el else 'N/A'
+                    if title and len(title) > 3:
+                        ali_items.append({
+                            'platform': 'AliExpress', 'country': 'Global',
+                            'cat': 'Trending', 'title': title[:60], 'price': price,
+                            'gmv_rank': len(ali_items) + 1,
+                            'insight': f'AliExpress top ranking ({today_str()})'
+                        })
+            except Exception as e:
+                print(f"  [WARN] AliExpress parse failed: {e}")
+        if ali_items:
+            results['AliExpress（全球）'] = ali_items[:5]
+            print(f"  [OK] AliExpress: {len(ali_items)} items")
+    except Exception as e:
+        print(f"  [WARN] AliExpress failed: {e}")
+    
+    # ---- Allegro (波兰): 畅销排行 ----
+    try:
+        allegro_items = []
+        url = "https://allegro.pl/kategorie"
+        resp = safe_get(url, timeout=12, via_proxy=True)
+        if resp:
+            try:
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                cat_els = soup.select('a[href*="/kategoria/"], [class*=category]')[:5]
+                for el in cat_els:
+                    text = el.get_text(strip=True)
+                    if text and len(text) > 3:
+                        allegro_items.append({
+                            'platform': 'Allegro', 'country': 'PL',
+                            'cat': 'Trending', 'title': text[:60], 'price': 'zobacz oferty',
+                            'gmv_rank': len(allegro_items) + 1,
+                            'insight': f'Allegro popularna kategoria ({today_str()})'
+                        })
+            except Exception as e:
+                print(f"  [WARN] Allegro parse failed: {e}")
+        if allegro_items:
+            results['Allegro（东欧）'] = allegro_items[:5]
+            print(f"  [OK] Allegro: {len(allegro_items)} items")
+    except Exception as e:
+        print(f"  [WARN] Allegro failed: {e}")
+    
+    # ---- Etsy: Trending/Popular ----
+    try:
+        etsy_items = []
+        url = "https://www.etsy.com/trending"
+        resp = safe_get(url, timeout=12, via_proxy=True)
+        if resp:
+            try:
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                item_els = soup.select('[data-search-results] .v2-listing-card, .js-merchstash_item')[:5]
+                for el in item_els:
+                    title_el = el.select_one('.v2-listing-card__info h3, .listing-link')
+                    price_el = el.select_one('.currency-value, .search-collage-overlay-price')
+                    title = title_el.get_text(strip=True) if title_el else 'Etsy Trending'
+                    price = price_el.get_text(strip=True) if price_el else 'N/A'
+                    if title and len(title) > 3:
+                        etsy_items.append({
+                            'platform': 'Etsy', 'country': 'US/UK/DE',
+                            'cat': 'Handmade', 'title': title[:60], 'price': '$' + price if price != 'N/A' else 'N/A',
+                            'gmv_rank': len(etsy_items) + 1,
+                            'insight': f'Etsy trending item ({today_str()})'
+                        })
+            except Exception as e:
+                print(f"  [WARN] Etsy parse failed: {e}")
+        if etsy_items:
+            results['Etsy（欧美）'] = etsy_items[:4]
+            print(f"  [OK] Etsy: {len(etsy_items)} items")
+    except Exception as e:
+        print(f"  [WARN] Etsy failed: {e}")
+    
+    # ---- Zalando: 热门品类 ----
+    try:
+        zalando_items = []
+        for query, cat in [('sneakers', '运动时尚'), ('outdoor jacket', '功能户外'), ('sustainable', '可持续时尚')]:
+            url = f"https://www.zalando.de/catalog/?q={quote_plus(query)}"
+            resp = safe_get(url, timeout=12, via_proxy=True)
+            if resp:
+                try:
+                    soup = BeautifulSoup(resp.text, 'html.parser')
+                    item_els = soup.select('[data-testid="productCard"], .z-1b5xs7')[:1]
+                    for el in item_els:
+                        title_el = el.select_one('[data-testid="productCardInfo"], h3')
+                        price_el = el.select_one('[data-testid="price"], .z-k9te7s')
+                        title = title_el.get_text(strip=True) if title_el else 'Zalando Trending'
+                        price = price_el.get_text(strip=True) if price_el else 'N/A'
+                        if title and len(title) > 3:
+                            zalando_items.append({
+                                'platform': 'Zalando', 'country': 'DE/FR/IT',
+                                'cat': cat, 'title': title[:60], 'price': price,
+                                'gmv_rank': len(zalando_items) + 1,
+                                'insight': f'Zalando trending {query} ({today_str()})'
+                            })
+                except Exception as e:
+                    print(f"  [WARN] Zalando {query} parse failed: {e}")
+            time.sleep(2)
+        if zalando_items:
+            results['Zalando（欧洲）'] = zalando_items[:4]
+            print(f"  [OK] Zalando: {len(zalando_items)} items")
+    except Exception as e:
+        print(f"  [WARN] Zalando failed: {e}")
+    
+    # ---- Otto (德国): Bestseller ----
+    try:
+        otto_items = []
+        url = "https://www.otto.de/bestseller/"
+        resp = safe_get(url, timeout=12, via_proxy=True)
+        if resp:
+            try:
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                item_els = soup.select('[class*=product], .producttile, article')[:5]
+                for el in item_els:
+                    title_el = el.select_one('[class*=title], h3, h4')
+                    price_el = el.select_one('[class*=price]')
+                    title = title_el.get_text(strip=True) if title_el else 'Otto Bestseller'
+                    price = price_el.get_text(strip=True) if price_el else 'N/A'
+                    if title and len(title) > 3:
+                        otto_items.append({
+                            'platform': 'Otto', 'country': 'DE',
+                            'cat': 'Bestseller', 'title': title[:60], 'price': price,
+                            'gmv_rank': len(otto_items) + 1,
+                            'insight': f'Otto bestseller ({today_str()})'
+                        })
+            except Exception as e:
+                print(f"  [WARN] Otto parse failed: {e}")
+        if otto_items:
+            results['Otto（德国）'] = otto_items[:4]
+            print(f"  [OK] Otto: {len(otto_items)} items")
+    except Exception as e:
+        print(f"  [WARN] Otto failed: {e}")
     
     return results
 
