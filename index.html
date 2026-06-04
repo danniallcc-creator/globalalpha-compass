@@ -492,11 +492,17 @@ input[type=range]{accent-color:#60a5fa}
 
   <!-- AI Trending Products Panel -->
   <div id="tool-trending" class="tool-sub hidden">
-    <div class="flex gap-3 flex-wrap mb-5">
-      <button class="nav-pill active text-sm py-2 px-4" id="trend-bsr-btn" onclick="switchTrendView('bsr',this)">&#127881; Amazon BSR 热品</button>
-      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('local',this)">&#127760; 本土电商热品</button>
-      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('social',this)">&#128064; 社交热词</button>
-      <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('recommend',this)">&#129302; AI 选品建议</button>
+    <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
+      <div class="flex gap-3 flex-wrap">
+        <button class="nav-pill active text-sm py-2 px-4" id="trend-bsr-btn" onclick="switchTrendView('bsr',this)">&#127881; Amazon BSR 热品</button>
+        <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('local',this)">&#127760; 本土电商热品</button>
+        <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('social',this)">&#128064; 社交热词</button>
+        <button class="nav-pill text-sm py-2 px-4" onclick="switchTrendView('recommend',this)">&#129302; AI 选品建议</button>
+      </div>
+      <div id="trending-update-time" class="text-xs text-gray-500 flex items-center gap-1">
+        <span class="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+        <span>数据每日自动更新</span>
+      </div>
     </div>
     <div id="trend-bsr" class="trend-view"></div>
     <div id="trend-local" class="trend-view hidden"></div>
@@ -3798,6 +3804,16 @@ var TRENDING_DB = {
       { keyword:'AI Gadget Reviews', count:'9B views', product:'AI录笔/AR眼镜/AI音箱/本地大模型设备', insight:'科技博主测评驱动消费，新品首发7天决定市场声量' },
       { keyword:'Elderly Parent Care', count:'5B views', product:'智能药盒/防跌感应灯/视频通话大屏', insight:'三明治一代照护父母需求，远程看护设备信任度来源YouTube' },
       { keyword:'Budget Build PC', count:'8B views', product:'CPU散热器/M.2固态硬盘/机箱风扇', insight:'DIY电脑文化，高性价比零件信息差机会' }
+    ],
+    'X': [
+      { keyword:'#AIHardware', count:'280K posts', product:'AI录音笔/AR眼镜/AI音箱/本地大模型设备', insight:'AI硬件消费化成为X科技圈最热议题，VC创业者密集讨论' },
+      { keyword:'#EVLife', count:'195K posts', product:'EV充电桩/车载配件/便携储能/太阳能板', insight:'电动车生活方式话题持续升温，特斯拉+中国品牌双热' },
+      { keyword:'#SmartHomeMatter', count:'142K posts', product:'Matter网关/智能门锁/传感器套装/智能灯', insight:'Matter协议统一智能家居生态，X极客圈强烈推荐' },
+      { keyword:'#OffGridSolar', count:'98K posts', product:'太阳能系统/储能电池/逆变器/离网套件', insight:'美国离网生活运动加速，X生存主义+环保主义合流' },
+      { keyword:'#PetTech', count:'167K posts', product:'宠物GPS项圈/智能喂食器/宠物摄像头', insight:'宠物科技产品在X上频繁开箱测评，宠物主社群活跃' },
+      { keyword:'#HealthWearables', count:'223K posts', product:'智能手表/血糖仪/睡眠追踪器/血压计', insight:'健康穿戴设备讨论热度不减，CGM血糖仪尤其受关注' },
+      { keyword:'#CleanEnergy', count:'310K posts', product:'家用储能/太阳能板/风力发电/氢能源', insight:'清洁能源政策辩论带动相关设备搜索量飙升' },
+      { keyword:'#GamingSetup2026', count:'445K posts', product:'电竞椅/RGB灯条/机械键盘/4K显示器', insight:'游戏桌面改造年度话题，硬件升级需求集中释放' }
     ]
   },
 
@@ -4112,7 +4128,7 @@ function switchToolTab(tab, btn) {
   document.querySelectorAll('#tab-tools .nav-pill').forEach(function(b){ b.classList.remove('active'); });
   if(btn) btn.classList.add('active');
   if(tab === 'tariff') initTariffSelects();
-  if(tab === 'trending') renderTrendBSR();
+  if(tab === 'trending') { fetchTrendingJSON().then(function(){ renderTrendBSR(); }); }
 }
 
 function runCompliance() {
@@ -4233,6 +4249,54 @@ function runTariff() {
 }
 
 // ====== Trending Views ======
+var _trendingJSONLoaded = false;
+
+// 从 data/trending.json 加载每日更新数据，合并到 TRENDING_DB
+async function fetchTrendingJSON() {
+  if (_trendingJSONLoaded) return;
+  try {
+    var resp = await fetch('data/trending.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    var data = await resp.json();
+    
+    // 合并 BSR 数据
+    if (data.amazon_bsr && Object.keys(data.amazon_bsr).length > 0) {
+      TRENDING_DB.amazon_bsr = data.amazon_bsr;
+    }
+    // 合并本土电商数据
+    if (data.local_ecom && Object.keys(data.local_ecom).length > 0) {
+      TRENDING_DB.local_ecom = data.local_ecom;
+    }
+    // 合并社交热词数据（含X平台）
+    if (data.social_hotwords && Object.keys(data.social_hotwords).length > 0) {
+      TRENDING_DB.social_hotwords = data.social_hotwords;
+    }
+    // 更新时间显示
+    if (data.meta && data.meta.date) {
+      var el = document.getElementById('trending-update-time');
+      if (el) {
+        el.innerHTML = '<span class="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>' +
+          '<span>数据更新于 ' + data.meta.date + ' · 每日自动刷新</span>';
+      }
+    }
+    _trendingJSONLoaded = true;
+    console.log('[Trending] JSON loaded:', data.meta.date, '- BSR:', Object.keys(data.amazon_bsr||{}).length, 'markets, Social:', Object.keys(data.social_hotwords||{}).length, 'platforms');
+  } catch (e) {
+    console.warn('[Trending] JSON fetch failed, using hardcoded data:', e.message);
+  }
+}
+
+function growthBadge(growth) {
+  if (growth === undefined || growth === null) return '';
+  var isPositive = growth >= 0;
+  var color = isPositive ? (growth > 50 ? '#22c55e' : '#4ade80') : '#f87171';
+  var arrow = isPositive ? '↑' : '↓';
+  var bg = isPositive ? 'rgba(34,197,94,.12)' : 'rgba(248,113,113,.12)';
+  return '<span style="display:inline-flex;align-items:center;gap:2px;padding:1px 6px;border-radius:6px;font-size:11px;font-weight:600;color:'+color+';background:'+bg+'">' +
+    arrow + ' ' + Math.abs(growth).toFixed(1) + '%' +
+  '</span>';
+}
+
 function switchTrendView(view, btn) {
   currentTrendView = view;
   document.querySelectorAll('.trend-view').forEach(function(el){ el.classList.add('hidden'); });
@@ -4240,10 +4304,13 @@ function switchTrendView(view, btn) {
   if(el){ el.classList.remove('hidden'); }
   document.querySelectorAll('#tool-trending .nav-pill').forEach(function(b){ b.classList.remove('active'); });
   if(btn) btn.classList.add('active');
-  if(view === 'bsr') renderTrendBSR();
-  if(view === 'local') renderTrendLocal();
-  if(view === 'social') renderTrendSocial();
-  if(view === 'recommend') renderTrendRecommend();
+  // 确保JSON已加载
+  fetchTrendingJSON().then(function() {
+    if(view === 'bsr') renderTrendBSR();
+    if(view === 'local') renderTrendLocal();
+    if(view === 'social') renderTrendSocial();
+    if(view === 'recommend') renderTrendRecommend();
+  });
 }
 
 function renderTrendBSR() {
@@ -4258,7 +4325,10 @@ function renderTrendBSR() {
       return '<div class="flex items-start gap-3 py-3 border-b border-white/5 last:border-0">' +
         '<span class="text-gray-600 font-mono text-xs w-5 text-right flex-shrink-0">#'+item.rank+'</span>' +
         '<div class="flex-1 min-w-0">' +
-          '<div class="font-medium text-sm text-gray-200 mb-0.5">'+item.title+'</div>' +
+          '<div class="font-medium text-sm text-gray-200 mb-0.5 flex items-center gap-2 flex-wrap">' +
+            item.title +
+            growthBadge(item.growth) +
+          '</div>' +
           '<div class="text-xs text-gray-400 mb-1">'+item.cat+' &middot; '+item.price+' &middot; &#11088; '+item.rating+' ('+item.reviews.toLocaleString()+')</div>' +
           '<div class="text-xs text-blue-300">'+item.insight+'</div>' +
         '</div>' +
@@ -4279,7 +4349,10 @@ function renderTrendLocal() {
     var rows = items.map(function(item){
       return '<div class="py-2 border-b border-white/5 last:border-0">' +
         '<div class="flex justify-between items-start">' +
-          '<span class="font-medium text-sm text-gray-200">'+item.title+'</span>' +
+          '<span class="font-medium text-sm text-gray-200 flex items-center gap-2 flex-wrap">' +
+            item.title +
+            growthBadge(item.growth) +
+          '</span>' +
           '<span class="text-xs text-gray-500 ml-2 flex-shrink-0">'+item.price+'</span>' +
         '</div>' +
         '<div class="text-xs text-gray-400 mt-0.5">'+item.cat+' &middot; '+item.country+'</div>' +
@@ -4295,19 +4368,30 @@ function renderTrendSocial() {
   var el = document.getElementById('trend-social');
   if(!el) return;
   var platforms = Object.keys(TRENDING_DB.social_hotwords);
+  // 平台图标和颜色映射
+  var platformMeta = {
+    'TikTok':    { icon: '&#127911;', color: 'text-pink-400',   bgColor: 'rgba(236,72,153,.08)' },
+    'Instagram': { icon: '&#128248;', color: 'text-purple-400', bgColor: 'rgba(168,85,247,.08)' },
+    'YouTube':   { icon: '&#9654;&#65039;',  color: 'text-red-400',    bgColor: 'rgba(239,68,68,.08)' },
+    'X':         { icon: '&#120143;', color: 'text-sky-400',    bgColor: 'rgba(56,189,248,.08)' }
+  };
   var html = platforms.map(function(pf){
     var items = TRENDING_DB.social_hotwords[pf];
+    var meta = platformMeta[pf] || { icon: '&#128064;', color: 'text-pink-400', bgColor: 'rgba(236,72,153,.08)' };
     var rows = items.map(function(item){
-      return '<div class="bg-slate-800/50 rounded-xl p-3">' +
+      return '<div class="rounded-xl p-3" style="background:'+meta.bgColor+'">' +
         '<div class="flex justify-between items-start mb-1">' +
-          '<span class="font-bold text-sm text-pink-400">'+item.keyword+'</span>' +
+          '<span class="font-bold text-sm '+meta.color+' flex items-center gap-2 flex-wrap">' +
+            item.keyword +
+            growthBadge(item.growth) +
+          '</span>' +
           '<span class="text-xs text-gray-500">'+item.count+'</span>' +
         '</div>' +
         '<div class="text-xs text-green-400 mb-1">&#128201; 关联产品：'+item.product+'</div>' +
         '<div class="text-xs text-gray-400">'+item.insight+'</div>' +
       '</div>';
     }).join('');
-    return '<div class="card p-5"><h3 class="font-semibold text-sm text-pink-400 mb-3">&#128064; '+pf+'</h3><div class="space-y-2">'+rows+'</div></div>';
+    return '<div class="card p-5"><h3 class="font-semibold text-sm '+meta.color+' mb-3">'+meta.icon+' '+pf+'</h3><div class="space-y-2">'+rows+'</div></div>';
   }).join('');
   el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
 }
