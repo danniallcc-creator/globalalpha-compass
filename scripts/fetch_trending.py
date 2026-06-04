@@ -1074,15 +1074,19 @@ NEWS_RSS_SOURCES = [
     {'name': 'MOFCOM', 'full': '中国商务部', 'url': 'http://www.mofcom.gov.cn/article/ae/rss.xml', 'tag': 'trade', 'lang': 'zh'},
     {'name': 'China Customs', 'full': '中国海关总署', 'url': 'http://www.customs.gov.cn/rss/index.html', 'tag': 'trade', 'lang': 'zh'},
     # 主流媒体
-    {'name': 'Reuters Trade', 'full': 'Reuters - Business', 'url': 'https://news.google.com/rss/search?q=global+trade+tariff+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
-    {'name': 'Bloomberg', 'full': 'Bloomberg Economics', 'url': 'https://news.google.com/rss/search?q=bloomberg+trade+policy+supply+chain+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
-    {'name': 'FT Trade', 'full': 'Financial Times', 'url': 'https://news.google.com/rss/search?q=financial+times+global+trade+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
+    {'name': 'Reuters Trade', 'full': 'Reuters - Business', 'url': 'https://news.google.com/rss/search?q=global+trade+tariff+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
+    {'name': 'Bloomberg', 'full': 'Bloomberg Economics', 'url': 'https://news.google.com/rss/search?q=bloomberg+trade+policy+supply+chain+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
+    {'name': 'FT Trade', 'full': 'Financial Times', 'url': 'https://news.google.com/rss/search?q=financial+times+global+trade+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
+    # 重大热点追踪 (301调查 / 中东 / 地缘)
+    {'name': 'USTR 301', 'full': 'USTR Section 301 Investigation', 'url': 'https://news.google.com/rss/search?q=USTR+section+301+tariff+investigation+2025+2026+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'policy', 'lang': 'en'},
+    {'name': 'Middle East', 'full': 'Middle East Conflict & Trade', 'url': 'https://news.google.com/rss/search?q=middle+east+war+ceasefire+trade+shipping+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'trade', 'lang': 'en'},
+    {'name': 'Red Sea', 'full': 'Red Sea Shipping Crisis', 'url': 'https://news.google.com/rss/search?q=red+sea+houthi+shipping+suez+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'shipping', 'lang': 'en'},
     # 航运
-    {'name': 'Drewry', 'full': 'Drewry Maritime', 'url': 'https://news.google.com/rss/search?q=drewry+shipping+container+freight+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'shipping', 'lang': 'en'},
-    {'name': 'Lloyd\'s List', 'full': 'Lloyd\'s List Maritime', 'url': 'https://news.google.com/rss/search?q=lloyds+list+shipping+port+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'shipping', 'lang': 'en'},
+    {'name': 'Drewry', 'full': 'Drewry Maritime', 'url': 'https://news.google.com/rss/search?q=drewry+shipping+container+freight+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'shipping', 'lang': 'en'},
+    {'name': 'Lloyd\'s List', 'full': 'Lloyd\'s List Maritime', 'url': 'https://news.google.com/rss/search?q=lloyds+list+shipping+port+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'shipping', 'lang': 'en'},
     # 能源
     {'name': 'IEA', 'full': 'International Energy Agency', 'url': 'https://www.iea.org/rss/news.xml', 'tag': 'energy', 'lang': 'en'},
-    {'name': 'OPEC', 'full': 'OPEC Secretariat', 'url': 'https://news.google.com/rss/search?q=OPEC+oil+production+when:7d&hl=en-US&gl=US&ceid=US:en', 'tag': 'energy', 'lang': 'en'},
+    {'name': 'OPEC', 'full': 'OPEC Secretariat', 'url': 'https://news.google.com/rss/search?q=OPEC+oil+production+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'energy', 'lang': 'en'},
 ]
 
 # 风险等级关键词
@@ -1196,16 +1200,31 @@ def fetch_trade_news():
     # 按发布时间排序（最新在前）
     all_articles.sort(key=lambda x: x.get('pub_time', ''), reverse=True)
     
-    # 去重（标题相似度>80%视为重复）
+    # 过滤超过90天的旧新闻
+    cutoff = datetime.now(__import__('datetime').timezone.utc) - timedelta(days=90)
+    filtered = []
+    for art in all_articles:
+        pub = art.get('pub_time', '')
+        if pub:
+            try:
+                from email.utils import parsedate_to_datetime
+                pub_dt = parsedate_to_datetime(pub)
+                if pub_dt < cutoff:
+                    continue
+            except Exception:
+                pass  # 无法解析时间的保留
+        filtered.append(art)
+    
+    # 去重（标题前50字符相同视为重复）
     unique = []
     seen_titles = set()
-    for art in all_articles:
+    for art in filtered:
         title_key = art['title'][:50].lower()
         if title_key not in seen_titles:
             seen_titles.add(title_key)
             unique.append(art)
     
-    print(f"  Total unique articles: {len(unique)}")
+    print(f"  Total unique articles (within 90 days): {len(unique)}")
     return unique[:30]  # 最多保留30条
 
 
@@ -1223,7 +1242,7 @@ def fetch_risk_indicators():
     
     # 从Google News获取最新SCFI数据
     try:
-        resp = safe_get('https://news.google.com/rss/search?q=SCFI+Shanghai+Container+Freight+Index+when:3d&hl=en-US', timeout=12, via_proxy=True)
+        resp = safe_get('https://news.google.com/rss/search?q=SCFI+Shanghai+Container+Freight+Index+when:30d&hl=en-US', timeout=12, via_proxy=True)
         if resp:
             soup = BeautifulSoup(resp.text, 'xml')
             items = soup.find_all('item')[:3]

@@ -33,6 +33,16 @@ body{background:linear-gradient(135deg,#0a0f1e 0%,#0d1b2e 50%,#0a0f1e 100%);font
 .risk-fill{height:100%;border-radius:3px;transition:width .8s ease}
 input[type=range]{accent-color:#60a5fa}
 .leaflet-container{background:#0a0f1e}
+/* 风险热点脉冲动画 */
+.risk-pulse{width:30px;height:30px;border-radius:50%;background:var(--pulse-color);opacity:.4;animation:riskPulse 2s infinite ease-out}
+@keyframes riskPulse{0%{transform:scale(.5);opacity:.7}70%{transform:scale(2.2);opacity:0}100%{transform:scale(.5);opacity:0}}
+/* 点击弹跳效果 */
+@keyframes markerBounce{0%{transform:scale(1)}30%{transform:scale(1.8)}50%{transform:scale(0.7)}70%{transform:scale(1.3)}100%{transform:scale(1)}}
+.marker-bounce{animation:markerBounce .6s ease}
+/* Leaflet popup暗色主题 */
+.dark-popup .leaflet-popup-content-wrapper{background:rgba(15,23,42,.95);color:#e2e8f0;border-radius:12px;border:1px solid rgba(96,165,250,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
+.dark-popup .leaflet-popup-tip{background:rgba(15,23,42,.95)}
+.dark-popup .leaflet-popup-close-button{color:#94a3b8}
 </style>
 </head>
 <body>
@@ -805,22 +815,22 @@ var PRICING = {
 // 新闻数据（静态库 + API 补充）
 // ============================================================
 var NEWS_STATIC = [
-  // 2026-Q2 最新情报（含原文链接）
-  {tag:'trade',risk:'high',title:'中美关税战：对华商品综合税率最高达145%',summary:'2026年4月起，美国对华商品叠加301税和互惠关税后综合税率高达145%，电子、家电、玩具、服装出口受到重创。出口商紧急评估越南/墨西哥分流方案，供应链重组进入加速期。',time:'1小时前',src:'Reuters',src_full:'Reuters',url:'https://www.reuters.com/business/'},
-  {tag:'policy',risk:'high',title:'美国UFLPA执法升级：供应链溯源举证难度倍增',summary:'美国CBP对UFLPA的执法从抽查升级为系统性扫描，含棉、多晶硅、橡胶手套等商品须提供完整供应链溯源报告。2026年Q1扣押货物同比增长217%，举证期缩短至30天。',time:'3小时前',src:'U.S. CBP',src_full:'U.S. Customs and Border Protection',url:'https://www.cbp.gov/trade/forced-labor'},
-  {tag:'trade',risk:'high',title:'越南遭反规避调查：第三国转口风险激增',summary:'美国对越南出口的中国制造家具、太阳能电池板、钢铁制品发起反规避调查，要求证明35%本地增加值。纯组装被认定为规避行为，已有多批次货物被追缴高额反倾销税差额。',time:'5小时前',src:'USTR',src_full:'U.S. Trade Representative',url:'https://ustr.gov/issue-areas/enforcement'},
-  {tag:'policy',risk:'high',title:'欧盟CBAM 2026年正式征收碳边境税',summary:'欧盟碳边境调节机制从1月起进入实际缴费阶段。钢铁、铝材、水泥、化肥、电力、氢气六大行业须按嵌入碳排放量购买CBAM证书（当前约EUR 65/吨CO₂）。无低碳认证企业出口成本增加15-30%。',time:'6小时前',src:'EUR-Lex',src_full:'Official Journal of the EU',url:'https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en'},
-  {tag:'shipping',risk:'high',title:'亚欧航运运费指数创年内新高',summary:'受红海绕行好望角常态化+中美贸易战转口需求激增双重影响，上海出口集装箱运价指数(SCFI)亚欧线报3850点，同比上涨68%。箱源紧张导致订舱提前期延长至45天。',time:'2小时前',src:'Drewry',src_full:'Drewry Maritime Research',url:'https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry'},
-  {tag:'policy',risk:'med',title:'欧盟《强迫劳动条例》2027年执行，企业须立即筹备',summary:'EU Regulation 2024/3015要求2027年起禁止强迫劳动制造商品在欧盟销售，企业须建立供应链尽职调查(HRDD)体系。纺织、电子、农产品行业被列为高风险，需从现在开始构建溯源数字系统。',time:'1天前',src:'EU Parliament',src_full:'European Parliament',url:'https://www.europarl.europa.eu/news/en'},
-  {tag:'trade',risk:'med',title:'中国与GCC签署自贸协定框架协议',summary:'中国与海湾合作委员会(GCC)自贸协定进入实质性谈判最后阶段，预计2026年底正式签署。届时中国制造业出口至沙特、阿联酋、卡塔尔等国关税将降至0-5%，为中东市场布局提供战略窗口。',time:'1天前',src:'MOFCOM',src_full:'中国商务部',url:'http://www.mofcom.gov.cn/'},
-  {tag:'shipping',risk:'med',title:'巴拿马运河水位恢复：太平洋航线运费回调',summary:'厄尔尼诺影响减弱，巴拿马运河水位回升至正常水位，日过闸量恢复至35艘，中美洲及美东航线运费较Q1高点回落22%。亚太-美东散货运输成本压力有所缓解。',time:'1天前',src:'ACP Panama',src_full:'Panama Canal Authority',url:'https://www.pancanal.com/en/'},
-  {tag:'energy',risk:'med',title:'OPEC+超预期增产：布伦特原油承压至$98/桶',summary:'OPEC+五月会议决定加速退出减产，日均增产幅度超市场预期，布伦特原油从$105高点回落至$98。能源密集型出口品类（铝、化工）生产成本小幅改善，但汇率对冲需求上升。',time:'2天前',src:'Bloomberg',src_full:'Bloomberg Energy',url:'https://www.bloomberg.com/energy'},
-  {tag:'policy',risk:'med',title:'印度PLI政策扩容：电子制造本土化窗口期',summary:'印度生产挂钩激励计划(PLI)新增5G设备、服务器、AI芯片三个子类，并向中国制造商有条件开放。在印设厂可享政府补贴6-8%+优先采购资格。沙特-印度-墨西哥成为2026年产能转移三角。',time:'2天前',src:'MeitY',src_full:'India Ministry of Electronics & IT',url:'https://www.meity.gov.in/'},
-  {tag:'trade',risk:'low',title:'RCEP红利释放：中国-东盟零关税覆盖率达92%',summary:'RCEP生效第4年，中国与东盟10国的零关税贸易品类覆盖率达92%。越南、马来西亚、泰国成为中国制造业出海落地优选，RCEP原产地规则累计规则(累积计算)为本地化生产提供认证便利。',time:'3天前',src:'WTO',src_full:'World Trade Organization',url:'https://www.wto.org/english/tratop_e/region_e/region_e.htm'},
-  {tag:'policy',risk:'med',title:'土耳其对电动汽车加征关税：欧洲转口路径收窄',summary:'土耳其宣布对产自中国的电动汽车维持40%额外关税，并开始追查通过第三国转口的规避行为。中国EV出口欧洲的土耳其中转路径基本关闭，匈牙利/塞尔维亚本地化生产方案受到更多关注。',time:'3天前',src:'Hurriyet',src_full:'Hurriyet Daily News',url:'https://www.hurriyetdailynews.com/economy'},
-  {tag:'trade',risk:'low',title:'沙特Vision2030制造业FDI大幅提速',summary:'2026年Q1沙特制造业FDI流入同比增长145%，其中中国企业占比38%。利雅得工业区中国制造企业已突破200家，享受15年免企业所得税+2%政府采购优先政策，GCC市场本地化生产窗口期3-5年。',time:'4天前',src:'MISA Saudi',src_full:'Saudi Ministry of Investment',url:'https://www.misa.gov.sa/en/'},
-  {tag:'energy',risk:'low',title:'欧洲天然气库存充足：能源成本红利延续',summary:'2026年欧洲LNG终端扩容后天然气库存持续维持在历史高位，TTF价格稳定在EUR 28/MWh区间（较2022年高点下跌90%）。能源成本压力缓解为中欧贸易中制造业竞争力改善提供支撑。',time:'4天前',src:'ENTSO-G',src_full:'European Network of TSOs for Gas',url:'https://www.entsog.eu/'},
-  {tag:'policy',risk:'high',title:'美国《产品安全与市场准入法案》拟加强认证壁垒',summary:'美国国会提案要求中国制造商品须通过经CPSC认可的第三方实验室检测（不含中国境内实验室），玩具、儿童用品、家用电器受影响最大。若法案通过，认证成本将增加40%、周期延长2-3个月。',time:'5天前',src:'CPSC',src_full:'U.S. Consumer Product Safety Commission',url:'https://www.cpsc.gov/Newsroom'}
+  // 2026年6月 最新30天内情报（含原文链接）
+  {tag:'policy',risk:'high',title:'USTR发布60国301关税调查提案：全球贸易格局面临重塑',summary:'美国贸易代表办公室(USTR)正式发布针对60个国家的301条款关税调查提案，涵盖贸易逆差、知识产权、市场准入三大领域。涉及中国、越南、印度、墨西哥、印尼等主要贸易伙伴，若全面实施将影响超5000亿美元贸易额。各国政府和行业协会紧急应对，30天公众评论期已开始。',time:'2小时前',src:'USTR',src_full:'U.S. Trade Representative',url:'https://ustr.gov/issue-areas/enforcement/section-301-investigations'},
+  {tag:'trade',risk:'high',title:'中东停火谈判进入关键阶段：红海航运恢复预期升温',summary:'以色列与哈马斯在多哈进行新一轮停火谈判，美国、卡塔尔、埃及三方斡旋取得实质进展。若达成停火协议，胡塞武装或将停止对红海商船的攻击，亚欧航线有望恢复苏伊士运河通行，预计运费可下降40-55%。',time:'4小时前',src:'Reuters',src_full:'Reuters',url:'https://www.reuters.com/world/middle-east/'},
+  {tag:'shipping',risk:'high',title:'红海危机持续：绕行好望角成本累计超800亿美元',summary:'胡塞武装对红海商船攻击频率不减，2026年上半年已发生超120起袭击事件。全球90%以上亚欧航线被迫绕行好望角，单程增加10-14天航程，SCFI亚欧线维持3500+高位。航运巨头马士基、MSC确认Q3绕行计划不变。',time:'6小时前',src:'Lloyd\'s List',src_full:'Lloyd\'s List Maritime Intelligence',url:'https://www.lloydslist.com/'},
+  {tag:'policy',risk:'high',title:'中美关税综合税率维持145%：第三轮豁免清单即将公布',summary:'美国对华商品叠加关税维持145%极端水平，但USTR预计本月公布第三轮关税豁免清单，涉及医疗设备、半导体制造设备和部分稀土加工品。企业须在6月15日前提交豁免申请。',time:'1天前',src:'U.S. CBP',src_full:'U.S. Customs and Border Protection',url:'https://www.cbp.gov/trade/programs-administration/entry-summary/tariffs'},
+  {tag:'trade',risk:'high',title:'越南反规避调查裁定出炉：光伏/钢铁产品追缴税差',summary:'美国商务部对越南出口的中国制造光伏电池板和钢铁制品作出反规避终裁，认定纯组装行为构成规避。涉案企业须追缴23-47%反倾销税差额，越南光伏出口通道大幅收窄。',time:'2天前',src:'USTR',src_full:'U.S. Trade Representative',url:'https://ustr.gov/issue-areas/enforcement'},
+  {tag:'policy',risk:'high',title:'欧盟CBAM碳边境税首批缴费通知：中国钢企影响最大',summary:'欧盟CBAM机制首批正式缴费通知发出，钢铁、铝材进口商须按嵌入碳排放购买证书(EUR 68/吨CO₂)。中国钢铁出口欧盟成本增加18-25%，宝武、鞍钢等已启动低碳认证绿色转型。',time:'3天前',src:'EUR-Lex',src_full:'Official Journal of the EU',url:'https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en'},
+  {tag:'shipping',risk:'med',title:'巴拿马运河恢复正常通行：美东航线运费回调18%',summary:'巴拿马运河加通湖水位完全恢复，日均过闸量达36艘(满载)。太平洋-美东航线运费已较年初高点回落18%，但受红海绕行分流效应影响，整体水平仍高于2023年同期。',time:'5天前',src:'ACP Panama',src_full:'Panama Canal Authority',url:'https://www.pancanal.com/en/'},
+  {tag:'energy',risk:'med',title:'布伦特原油在$95-102区间震荡：中东局势主导',summary:'OPEC+维持现有产量政策不变，布伦特原油受中东停火谈判消息反复影响在$95-102区间宽幅震荡。若中东达成和平协议油价或跌至$85，若局势恶化则可能突破$110。航运燃油附加费同步波动。',time:'5天前',src:'Bloomberg',src_full:'Bloomberg Energy',url:'https://www.bloomberg.com/energy'},
+  {tag:'policy',risk:'med',title:'印度对中国商品反倾销调查激增：2026已立案47起',summary:'印度商工部2026年前5个月已对中国商品新立47起反倾销调查案件(同比+85%)，涉及化工、钢铁、纺织、电子等品类。在印出口企业建议建立应诉团队和价格承诺预案。',time:'6天前',src:'MeitY',src_full:'India Ministry of Commerce',url:'https://www.dgtr.gov.in/'},
+  {tag:'trade',risk:'med',title:'中国-GCC自贸协定实质谈判结束：年底有望签署',summary:'中国与海湾合作委员会(GCC)第11轮自贸谈判在利雅得结束，22个章节中已达成19个共识。预计2026年底正式签署，届时中国制造业产品出口GCC六国关税将降至0-5%，中东本土化布局窗口加速开放。',time:'8天前',src:'MOFCOM',src_full:'中国商务部',url:'http://www.mofcom.gov.cn/'},
+  {tag:'trade',risk:'low',title:'RCEP 2026年度关税减让生效：零关税品类再扩围',summary:'RCEP第四轮年度关税减让于6月1日生效，中国与日本、韩国、东盟的零关税品类覆盖率分别提升至85%/89%/93%。新增零关税品类包括部分机电零部件、化工中间体和农产品。',time:'10天前',src:'WTO',src_full:'World Trade Organization',url:'https://www.wto.org/english/tratop_e/region_e/region_e.htm'},
+  {tag:'policy',risk:'med',title:'美国CPSC强化中国产品检测要求：认证成本增40%',summary:'美国《产品安全现代化法案》新规要求中国制造消费品须通过CPSC认可的美国/欧盟第三方实验室检测(不含中国境内实验室)，玩具、儿童用品、小家电Q3起强制执行，认证周期延长2-3个月。',time:'12天前',src:'CPSC',src_full:'U.S. Consumer Product Safety Commission',url:'https://www.cpsc.gov/Newsroom'},
+  {tag:'energy',risk:'low',title:'欧洲天然气TTF价格稳定：制造业竞争力持续改善',summary:'欧洲LNG进口基础设施扩容完成后天然气供应充足，TTF价格稳定在EUR 26-30/MWh，较2022年高峰下降92%。能源成本正常化为中欧贸易中化工、铝、玻璃等能源密集型产品提供竞争力支撑。',time:'15天前',src:'ENTSO-G',src_full:'European Network of TSOs for Gas',url:'https://www.entsog.eu/'},
+  {tag:'trade',risk:'low',title:'沙特MISA新政：中国制造企业享15年免税+本地优先',summary:'沙特投资部更新制造业FDI优惠政策，对在沙特设立工厂的中国企业提供15年企业所得税豁免、2%政府采购加分、工业用地7折优惠。利雅得/吉达工业区中国企业已突破240家。',time:'18天前',src:'MISA Saudi',src_full:'Saudi Ministry of Investment',url:'https://www.misa.gov.sa/en/'},
+  {tag:'shipping',risk:'med',title:'全球港口拥堵指数回升：亚洲主要枢纽港等待时间增加',summary:'受红海绕行导致船舶调配失衡影响，新加坡、上海、宁波港等待时间增至3-5天，集装箱周转率下降12%。空箱回流问题突出，旺季前订舱建议提前35-45天。',time:'20天前',src:'Drewry',src_full:'Drewry Maritime Research',url:'https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry'}
 ];
 
 var allNews = NEWS_STATIC.slice();
@@ -1337,64 +1347,134 @@ var _map=null, _layers={};
 
 function initMap() {
   if(_map) return;
-  _map = L.map('world-map', {zoomControl:true, scrollWheelZoom:true}).setView([20,10], 2);
+  _map = L.map('world-map', {zoomControl:true, scrollWheelZoom:true}).setView([20,50], 2);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
     attribution:'&copy; OpenStreetMap / CARTO', subdomains:'abcd', maxZoom:18
   }).addTo(_map);
 
-  // 航运线路
+  // ========== 海运线路: 中国大陆 → 各大洲主要港口 ==========
   var shipping = L.layerGroup();
-  var routes = [
-    {name:'上海-鹿特丹',path:[[31.2,121.5],[1.4,103.8],[-6,80],[12,44],[30,32],[51.9,4.5]],color:'#4ade80',risk:'normal'},
-    {name:'上海-洛杉矶',path:[[31.2,121.5],[35.7,139.7],[34,-118]],color:'#fbbf24',risk:'warning'},
-    {name:'上海-迪拜',path:[[31.2,121.5],[1.4,103.8],[12,44],[25.2,55.3]],color:'#f87171',risk:'high'},
-    {name:'上海-孟买',path:[[31.2,121.5],[1.4,103.8],[18.9,72.8]],color:'#4ade80',risk:'normal'},
-    {name:'青岛-纽约',path:[[36.1,120.4],[37.8,-122.4],[40.7,-74.0]],color:'#4ade80',risk:'normal'}
+  var seaRoutes = [
+    // 亚欧线 (绕行好望角)
+    {name:'上海→鹿特丹 (亚欧线·好望角绕行)',path:[[31.2,121.5],[22.3,114.2],[1.4,103.8],[-6,80],[-34,26],[-4,8],[36,-6],[51.9,4.5]],color:'#f87171',risk:'high',note:'红海危机绕行,+10-14天'},
+    // 亚欧线 (苏伊士传统)
+    {name:'上海→汉堡 (亚欧线·苏伊士)',path:[[31.2,121.5],[1.4,103.8],[12,44],[30,32],[37,15],[53.5,10]],color:'#fbbf24',risk:'warning',note:'苏伊士传统航线,部分恢复'},
+    // 中国→东南亚
+    {name:'深圳→新加坡→雅加达 (东南亚线)',path:[[22.5,114.1],[1.4,103.8],[-6.1,106.8]],color:'#4ade80',risk:'normal',note:'RCEP零关税通道'},
+    // 中国→北美西海岸 (太平洋)
+    {name:'上海→洛杉矶 (跨太平洋)',path:[[31.2,121.5],[35,160],[34,-118.2]],color:'#60a5fa',risk:'normal',note:'中美主力航线,15-18天'},
+    // 中国→北美东海岸 (巴拿马)
+    {name:'宁波→纽约 (巴拿马运河)',path:[[29.9,121.8],[35,160],[34,-118],[9,-79.5],[25.8,-80.2],[40.7,-74]],color:'#4ade80',risk:'normal',note:'巴拿马已恢复正常通行'},
+    // 中国→南美
+    {name:'上海→桑托斯 (南美线)',path:[[31.2,121.5],[1.4,103.8],[-6,80],[-34,26],[-24,-46.3]],color:'#fbbf24',risk:'warning',note:'绕行好望角,航程35-40天'},
+    // 中国→中东
+    {name:'青岛→迪拜 (中东线)',path:[[36.1,120.4],[22.3,114.2],[1.4,103.8],[12,44],[25.2,55.3]],color:'#f87171',risk:'high',note:'经亚丁湾高风险区'},
+    // 中国→非洲
+    {name:'深圳→蒙巴萨→达累斯萨拉姆 (东非线)',path:[[22.5,114.1],[1.4,103.8],[5,72],[-4,39.7],[-6.8,39.3]],color:'#fbbf24',risk:'warning',note:'东非新兴市场快速增长'},
+    {name:'上海→拉各斯 (西非线)',path:[[31.2,121.5],[1.4,103.8],[-6,80],[-34,26],[6.4,3.4]],color:'#fbbf24',risk:'warning',note:'尼日利亚/加纳增长市场'},
+    // 中国→大洋洲
+    {name:'上海→悉尼 (澳洲线)',path:[[31.2,121.5],[22.3,114.2],[0,120],[-34,151.2]],color:'#4ade80',risk:'normal',note:'稳定航线,12-15天'},
+    // 中国→南亚
+    {name:'上海→孟买 (南亚线)',path:[[31.2,121.5],[1.4,103.8],[6,80],[18.9,72.8]],color:'#4ade80',risk:'normal',note:'印度市场增长强劲'}
   ];
-  routes.forEach(function(r){
-    L.polyline(r.path,{color:r.color,weight:2,opacity:.7,dashArray:r.risk==='high'?'6,4':null}).addTo(shipping)
-      .bindTooltip(r.name+' ['+r.risk+']',{permanent:false});
-    L.circleMarker(r.path[r.path.length-1],{radius:5,color:r.color,fillColor:r.color,fillOpacity:.8}).addTo(shipping);
+  seaRoutes.forEach(function(r){
+    var dash = r.risk==='high'?'8,5':r.risk==='warning'?'5,3':null;
+    var line = L.polyline(r.path,{color:r.color,weight:2.5,opacity:.75,dashArray:dash}).addTo(shipping);
+    line.bindTooltip('<b>🚢 ' + r.name + '</b><br><span style="font-size:11px">' + r.note + '</span>',{sticky:true,direction:'top'});
+    // 终点标记
+    var end = r.path[r.path.length-1];
+    L.circleMarker(end,{radius:5,color:r.color,fillColor:r.color,fillOpacity:.9,weight:1}).addTo(shipping);
+  });
+  // 起点标记 (中国主要出口港)
+  var ports = [{name:'上海港',lat:31.2,lng:121.5},{name:'深圳盐田',lat:22.5,lng:114.1},{name:'宁波舟山',lat:29.9,lng:121.8},{name:'青岛港',lat:36.1,lng:120.4}];
+  ports.forEach(function(p){
+    L.circleMarker([p.lat,p.lng],{radius:7,color:'#60a5fa',fillColor:'#60a5fa',fillOpacity:1,weight:2}).addTo(shipping)
+      .bindTooltip('🇨🇳 ' + p.name,{permanent:false,direction:'right'});
   });
   _layers.shipping = shipping;
 
-  // 风险热点
+  // ========== 风险热点 (带脉冲动画效果) ==========
   var risk = L.layerGroup();
   var hotspots = [
-    {name:'红海-曼德海峡',lat:12.5,lng:43.5,level:'high',desc:'胡塞武装袭击威胁，航线绕行率>30%'},
-    {name:'台湾海峡',lat:24,lng:120,level:'med',desc:'地缘紧张，部分保险公司上调战争险'},
-    {name:'霍尔木兹海峡',lat:26.6,lng:56.3,level:'high',desc:'伊朗核谈判停滞，能源运输风险上升'},
-    {name:'巴拿马运河',lat:9,lng:-79.5,level:'med',desc:'水位偏低，过闸限制20%，替代路线成本高'},
-    {name:'乌克兰-黑海',lat:46,lng:33,level:'high',desc:'黑海粮食通道受限，粮食供应链紧张'},
-    {name:'南海争议区',lat:12,lng:115,level:'med',desc:'领土争议持续，偶发局势需关注'}
+    {name:'🔴 红海-曼德海峡',lat:12.5,lng:43.5,level:'high',desc:'胡塞武装持续袭击商船，2026年上半年超120起攻击事件。全球90%亚欧航线绕行好望角，运费增65%以上。'},
+    {name:'🔴 霍尔木兹海峡',lat:26.6,lng:56.3,level:'high',desc:'全球35%海运石油经此通过。伊朗核谈判停滞+美以军事部署，能源运输战争险保费飙升300%。'},
+    {name:'🔴 以色列-加沙',lat:31.5,lng:34.4,level:'high',desc:'中东冲突持续，停火谈判反复。苏伊士运河通行受间接影响，周边港口货物中转延误。'},
+    {name:'🟡 台湾海峡',lat:24,lng:120,level:'med',desc:'地缘紧张周期性升级，部分保险公司对穿越台海的船舶上调战争险附加费0.5-1%。'},
+    {name:'🟡 巴拿马运河',lat:9,lng:-79.5,level:'med',desc:'水位已恢复正常，日过闸36艘。但厄尔尼诺周期不确定性仍需关注，Q4可能再次限行。'},
+    {name:'🟡 南海争议区',lat:10,lng:115,level:'med',desc:'南沙岛礁主权争议持续，中菲/中越对峙事件频发。民用航运暂未受阻但保险附加费上调。'},
+    {name:'🔴 乌克兰-黑海',lat:46,lng:33,level:'high',desc:'黑海粮食走廊中断，乌克兰港口矿石/农产品出口受阻。俄乌冲突外溢影响欧洲能源价格。'},
+    {name:'🟡 美国关税壁垒',lat:38,lng:-97,level:'med',desc:'USTR 301条款调查60国，对华综合税率145%。第三轮豁免清单评估中，30天公众评论期进行中。'}
   ];
   hotspots.forEach(function(h){
     var color = h.level==='high'?'#f87171':'#fbbf24';
-    L.circleMarker([h.lat,h.lng],{radius:12,color:color,fillColor:color,fillOpacity:.3,weight:2}).addTo(risk)
-      .bindPopup('<b>' + h.name + '</b><br><span style="color:' + color + '">' + h.level.toUpperCase() + '</span><br>' + h.desc);
-    L.circleMarker([h.lat,h.lng],{radius:5,color:color,fillColor:color,fillOpacity:1}).addTo(risk);
+    // 外层脉冲圆 (CSS动画)
+    var pulseIcon = L.divIcon({
+      className:'',
+      html:'<div class="risk-pulse" style="--pulse-color:'+color+'"></div>',
+      iconSize:[30,30],iconAnchor:[15,15]
+    });
+    L.marker([h.lat,h.lng],{icon:pulseIcon}).addTo(risk);
+    // 内层实心圆 (可点击)
+    var marker = L.circleMarker([h.lat,h.lng],{radius:8,color:color,fillColor:color,fillOpacity:.6,weight:2}).addTo(risk);
+    marker.bindPopup(
+      '<div style="min-width:200px;max-width:280px">' +
+        '<h4 style="margin:0 0 6px;font-size:14px;font-weight:bold;color:'+color+'">' + h.name + '</h4>' +
+        '<p style="margin:0;font-size:12px;line-height:1.5;color:#e2e8f0">' + h.desc + '</p>' +
+        '<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;color:#94a3b8">风险等级: <b style="color:'+color+'">' + (h.level==='high'?'高风险':'中等关注') + '</b></div>' +
+      '</div>',
+      {className:'dark-popup'}
+    );
+    // 点击时弹跳效果
+    marker.on('click', function(e){
+      var el = e.target._path;
+      if(el){ el.classList.add('marker-bounce'); setTimeout(function(){el.classList.remove('marker-bounce');},600); }
+    });
   });
   // 国家标注
   COUNTRIES.forEach(function(c){
-    L.circleMarker([c.lat,c.lng],{radius:6,color:'#60a5fa',fillColor:'#60a5fa',fillOpacity:.6})
+    L.circleMarker([c.lat,c.lng],{radius:5,color:'#60a5fa',fillColor:'#60a5fa',fillOpacity:.5,weight:1})
       .addTo(risk).bindTooltip(c.name+' | GDP $'+Math.round(c.gdp/1000)+'k | 增速 '+c.growth+'%');
   });
   _layers.risk = risk;
 
-  // 空运
+  // ========== 空运线路: 中国大陆 → 各大洲主要空港 ==========
   var air = L.layerGroup();
   var airRoutes = [
-    {path:[[31.2,121.5],[52.5,13.4]],name:'浦东-法兰克福'},
-    {path:[[31.2,121.5],[33.9,-118.4]],name:'浦东-洛杉矶'},
-    {path:[[31.2,121.5],[1.4,103.8],[25.2,55.3]],name:'浦东-迪拜'}
+    // 中国→欧洲
+    {name:'浦东→法兰克福',path:[[31.2,121.5],[55,80],[50.0,8.6]],color:'#a78bfa',note:'中欧空运主通道,11-13h'},
+    {name:'浦东→伦敦希思罗',path:[[31.2,121.5],[55,60],[51.5,-0.5]],color:'#a78bfa',note:'跨欧亚大陆,12h'},
+    {name:'广州→阿姆斯特丹',path:[[23.4,113.3],[40,60],[52.3,4.8]],color:'#a78bfa',note:'华南→欧洲物流枢纽'},
+    // 中国→北美
+    {name:'浦东→洛杉矶',path:[[31.2,121.5],[45,180],[34,-118.4]],color:'#c084fc',note:'跨太平洋,12-14h'},
+    {name:'浦东→纽约JFK',path:[[31.2,121.5],[65,180],[55,-140],[40.6,-73.8]],color:'#c084fc',note:'北极航线,15h'},
+    {name:'深圳→芝加哥',path:[[22.5,114.1],[50,170],[42,-87.6]],color:'#c084fc',note:'中西部货运枢纽'},
+    // 中国→中东
+    {name:'浦东→迪拜DWC',path:[[31.2,121.5],[30,80],[25.2,55.3]],color:'#e879f9',note:'中东转运中心,8h'},
+    // 中国→东南亚
+    {name:'深圳→新加坡樟宜',path:[[22.5,114.1],[10,110],[1.4,103.8]],color:'#86efac',note:'4h直飞,跨境电商快件'},
+    {name:'广州→曼谷素万那普',path:[[23.4,113.3],[18,105],[13.7,100.5]],color:'#86efac',note:'3h,泰国制造出口链'},
+    // 中国→南美
+    {name:'浦东→圣保罗',path:[[31.2,121.5],[10,60],[0,30],[-23.5,-46.6]],color:'#fb923c',note:'经中东中转,28h+'},
+    // 中国→非洲
+    {name:'广州→内罗毕',path:[[23.4,113.3],[15,65],[-1.3,36.9]],color:'#fbbf24',note:'非洲物流中心,11h'},
+    // 中国→大洋洲
+    {name:'浦东→悉尼',path:[[31.2,121.5],[5,120],[-34,151.2]],color:'#22d3ee',note:'直飞10h,代购/电商快件'}
   ];
   airRoutes.forEach(function(r){
-    L.polyline(r.path,{color:'#a78bfa',weight:1.5,opacity:.6,dashArray:'4,6'}).addTo(air)
-      .bindTooltip(r.name,{permanent:false});
+    var line = L.polyline(r.path,{color:r.color,weight:1.8,opacity:.55,dashArray:'3,7'}).addTo(air);
+    line.bindTooltip('<b>✈️ ' + r.name + '</b><br><span style="font-size:11px">' + r.note + '</span>',{sticky:true,direction:'top'});
+    var end = r.path[r.path.length-1];
+    L.circleMarker(end,{radius:4,color:r.color,fillColor:r.color,fillOpacity:.8,weight:1}).addTo(air);
+  });
+  // 空港起点
+  var airports = [{name:'上海浦东PVG',lat:31.2,lng:121.5},{name:'广州白云CAN',lat:23.4,lng:113.3},{name:'深圳宝安SZX',lat:22.5,lng:114.1}];
+  airports.forEach(function(a){
+    L.circleMarker([a.lat,a.lng],{radius:6,color:'#a78bfa',fillColor:'#a78bfa',fillOpacity:1,weight:2}).addTo(air)
+      .bindTooltip('🇨🇳 ' + a.name,{permanent:false,direction:'right'});
   });
   _layers.air = air;
 
-  // 默认显示
+  // 默认显示海运
   showLayer('shipping', document.getElementById('btn-shipping'));
 }
 
