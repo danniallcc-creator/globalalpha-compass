@@ -1,1213 +1,765 @@
 {
   "meta": {
-    "updated_at": "2026-06-04T00:00:00Z",
+    "updated_at": "2026-06-04T14:45:02.181152Z",
     "date": "2026-06-04",
-    "version": "2.0",
+    "version": "3.0",
     "sources": [
       "Google Trends",
       "Amazon BSR",
       "YouTube",
       "TikTok",
       "Instagram",
-      "X/Twitter"
-    ],
-    "note": "初始数据 - GitHub Actions将每日自动更新"
+      "X/Twitter",
+      "WTO",
+      "IMF",
+      "Reuters",
+      "Bloomberg",
+      "USTR",
+      "EU Commission",
+      "Drewry",
+      "IEA",
+      "Freightos FBX",
+      "TAC Index"
+    ]
   },
   "amazon_bsr": {
     "US": [
       {
         "rank": 1,
-        "asin": "B0D3KXMN8P",
-        "title": "AI语音台灯 ChatGPT联动",
-        "cat": "AI智能家居",
-        "price": "$79",
-        "rating": 4.6,
-        "reviews": 28400,
+        "asin": "B086KSDTQ4",
+        "title": "$17.90",
+        "cat": "Hanes mens Underwear Boxer Bri",
+        "price": "N/A",
+        "rating": 4.5,
+        "reviews": 0,
         "trend": "new",
-        "insight": "OpenAI API开放带动AIoT配件爆发，2026年1月上架即冲榜",
-        "growth": 156.3
+        "insight": "BSR #1 in US market (2026-06-04)",
+        "growth": 50.0
       },
       {
         "rank": 2,
-        "asin": "B0C9XBLP22",
-        "title": "LiFePO4储能1500Wh+200W太阳能套装",
-        "cat": "储能",
-        "price": "$899",
-        "rating": 4.7,
-        "reviews": 18200,
-        "trend": "up",
-        "insight": "美国极端天气频发，FEMA推荐清单带动搜索量+340%",
-        "growth": 89.2
+        "asin": "B07JDFPQTC",
+        "title": "$18.89",
+        "cat": "Gildan Men's Crew T-Shirts, Mu",
+        "price": "N/A",
+        "rating": 4.6,
+        "reviews": 0,
+        "trend": "new",
+        "insight": "BSR #2 in US market (2026-06-04)",
+        "growth": 50.0
       },
       {
         "rank": 3,
-        "asin": "B0BFSP7Q14",
-        "title": "宠物AI健康监测项圈GPS",
-        "cat": "宠物科技",
-        "price": "$129/年订阅",
-        "rating": 4.5,
-        "reviews": 34500,
-        "trend": "up",
-        "insight": "美国宠物保险渗透率23%，宠物健康科技溢价空间大",
-        "growth": 67.5
+        "asin": "B09Q3MYDQH",
+        "title": "$5.94",
+        "cat": "Water Shoes for Women Men Quic",
+        "price": "N/A",
+        "rating": 4.4,
+        "reviews": 0,
+        "trend": "new",
+        "insight": "BSR #3 in US market (2026-06-04)",
+        "growth": 50.0
       },
       {
         "rank": 4,
-        "asin": "B0CQ8KVD31",
-        "title": "无线可折叠显示器15.6寸",
-        "cat": "移动办公",
-        "price": "$219",
-        "rating": 4.5,
-        "reviews": 12800,
+        "asin": "B0F6VKZ4FB",
+        "title": "$19.99",
+        "cat": "LetsJoli Bras for Women Suppor",
+        "price": "N/A",
+        "rating": 4.1,
+        "reviews": 0,
         "trend": "up",
-        "insight": "数字游民+WFH混合办公，便携屏需求年增67%",
-        "growth": 45.8
+        "insight": "BSR #4 in US market (2026-06-04)",
+        "growth": -26.1
       },
       {
         "rank": 5,
-        "asin": "B0D1WXTQVK",
-        "title": "冷敷美容仪射频EMS合一",
-        "cat": "美容仪",
-        "price": "$159",
+        "asin": "B0BV241H3F",
+        "title": "$29.99",
+        "cat": "COOFANDY Men's Linen Shirts Sh",
+        "price": "N/A",
         "rating": 4.4,
-        "reviews": 22000,
-        "trend": "new",
-        "insight": "高端美容仪需求下沉，DTC品牌社媒带货冲击传统渠道",
-        "growth": 112.4
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #5 in US market (2026-06-04)",
+        "growth": -30.8
       },
       {
         "rank": 6,
-        "asin": "B0BQ3S5XFJ",
-        "title": "洗地机湿干两用大吸力",
-        "cat": "清洁家电",
-        "price": "$199",
-        "rating": 4.5,
-        "reviews": 45100,
-        "trend": "stable",
-        "insight": "中国品牌市占率突破38%，产品力已超日韩",
-        "growth": 23.1
+        "asin": "B0FVLGTLWC",
+        "title": "$7.80",
+        "cat": "Amazon Essentials Women's Brea",
+        "price": "N/A",
+        "rating": 4.4,
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #6 in US market (2026-06-04)",
+        "growth": 56.0
       },
       {
         "rank": 7,
-        "asin": "B0C6BGMTYX",
-        "title": "Stanley竞品40oz保温杯(吸管)",
-        "cat": "户外",
-        "price": "$35",
+        "asin": "B0BZYCJK89",
+        "title": "$29.99",
+        "cat": "Owala FreeSip Insulated Stainl",
+        "price": "N/A",
         "rating": 4.7,
-        "reviews": 112000,
-        "trend": "stable",
-        "insight": "Stanley效应持续，白标竞品月销10万+",
-        "growth": 18.7
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #7 in US market (2026-06-04)",
+        "growth": -30.8
       },
       {
         "rank": 8,
-        "asin": "B0CRTQLLNX",
-        "title": "银发助行电动轮椅折叠款",
-        "cat": "银发科技",
-        "price": "$799",
-        "rating": 4.6,
-        "reviews": 7800,
-        "trend": "new",
-        "insight": "美国婴儿潮老龄化加速，老年辅助设备增速22%",
-        "growth": 134.2
+        "asin": "B0CP9YB3Q4",
+        "title": "$35.00",
+        "cat": "STANLEY Quencher H2.0 Tumbler ",
+        "price": "N/A",
+        "rating": 4.7,
+        "reviews": 0,
+        "trend": "stable",
+        "insight": "BSR #8 in US market (2026-06-04)",
+        "growth": 2.2
       },
       {
         "rank": 9,
-        "asin": "B0D7MNPQ44",
-        "title": "磁吸模块化钱包MagSafe",
-        "cat": "3C配件",
-        "price": "$45",
-        "rating": 4.5,
-        "reviews": 56700,
+        "asin": "B0113UZJE2",
+        "title": "$13.99",
+        "cat": "Etekcity Food Kitchen Scale, D",
+        "price": "N/A",
+        "rating": 4.6,
+        "reviews": 0,
         "trend": "stable",
-        "insight": "苹果生态周边锁客，复购率38%",
-        "growth": 12.4
+        "insight": "BSR #9 in US market (2026-06-04)",
+        "growth": 4.2
       },
       {
         "rank": 10,
-        "asin": "B0CXKLN821",
-        "title": "儿童陪伴机器人AI对话",
-        "cat": "AI玩具",
-        "price": "$89",
-        "rating": 4.3,
-        "reviews": 15600,
-        "trend": "new",
-        "insight": "大语言模型赋能玩具，2026圣诞旺季前黄金窗口",
-        "growth": 178.9
-      }
-    ],
-    "DE": [
-      {
-        "rank": 1,
-        "asin": "DE-2026-01",
-        "title": "家庭储能系统10kWh壁挂式",
-        "cat": "储能",
-        "price": "€2499",
-        "rating": 4.7,
-        "reviews": 5600,
-        "trend": "up",
-        "insight": "德国净电价EUR 0.31/kWh，储能5年回本，政府补贴BAFA申请火爆",
-        "growth": 92.3
-      },
-      {
-        "rank": 2,
-        "asin": "DE-2026-02",
-        "title": "热泵式烘干机A+++",
-        "cat": "白色家电",
-        "price": "€699",
-        "rating": 4.8,
-        "reviews": 8900,
-        "trend": "up",
-        "insight": "欧盟能效标签改革2026年执行，A级才能上架销售",
-        "growth": 76.8
-      },
-      {
-        "rank": 3,
-        "asin": "DE-2026-03",
-        "title": "E-Cargo电动货运自行车",
-        "cat": "出行",
-        "price": "€3499",
+        "asin": "B0D6C6GS58",
+        "title": "$29.74",
+        "cat": "HydroJug Traveler - 32 oz Wate",
+        "price": "N/A",
         "rating": 4.6,
-        "reviews": 3400,
-        "trend": "new",
-        "insight": "德国城市最后一公里物流，企业采购批量增大",
-        "growth": 145.6
-      },
-      {
-        "rank": 4,
-        "asin": "DE-2026-04",
-        "title": "Matter智能家居网关+4件套",
-        "cat": "智能家居",
-        "price": "€189",
-        "rating": 4.5,
-        "reviews": 12300,
-        "trend": "up",
-        "insight": "Matter 1.3协议稳定，跨品牌互联打开德国智能家居市场",
-        "growth": 54.2
-      },
-      {
-        "rank": 5,
-        "asin": "DE-2026-05",
-        "title": "竹纤维厨房纸巾可堆肥",
-        "cat": "可持续",
-        "price": "€12/100张",
-        "rating": 4.6,
-        "reviews": 34000,
-        "trend": "up",
-        "insight": "德国环保意识欧洲最强，OEKO-TEX+可堆肥认证溢价+40%",
-        "growth": 38.9
-      }
-    ],
-    "JP": [
-      {
-        "rank": 1,
-        "asin": "JP-2026-01",
-        "title": "AI翻译耳机实时多语言",
-        "cat": "AI科技",
-        "price": "¥18800",
-        "rating": 4.6,
-        "reviews": 23000,
-        "trend": "new",
-        "insight": "日本旅游业复苏带动翻译设备需求，入境外国人达历史新高",
-        "growth": 167.4
-      },
-      {
-        "rank": 2,
-        "asin": "JP-2026-02",
-        "title": "颈部加热按摩仪3D揉捏",
-        "cat": "健康",
-        "price": "¥9800",
-        "rating": 4.7,
-        "reviews": 56000,
-        "trend": "up",
-        "insight": "日本1亿人颈椎不适，礼品属性极强(含礼盒版)",
-        "growth": 43.7
-      },
-      {
-        "rank": 3,
-        "asin": "JP-2026-03",
-        "title": "银发防跌倒智能手表",
-        "cat": "银发科技",
-        "price": "¥14800",
-        "rating": 4.5,
-        "reviews": 18000,
-        "trend": "up",
-        "insight": "日本65岁以上占29.3%全球最高，家庭看护设备刚需",
-        "growth": 88.2
-      },
-      {
-        "rank": 4,
-        "asin": "JP-2026-04",
-        "title": "超薄静音空气净化器",
-        "cat": "健康家电",
-        "price": "¥19800",
-        "rating": 4.8,
-        "reviews": 42000,
+        "reviews": 0,
         "trend": "stable",
-        "insight": "PM2.5+花粉双需求，H14 HEPA成新标准",
-        "growth": 21.5
-      },
-      {
-        "rank": 5,
-        "asin": "JP-2026-05",
-        "title": "可降解宠物拾便袋(100片)",
-        "cat": "宠物",
-        "price": "¥1200",
-        "rating": 4.7,
-        "reviews": 89000,
-        "trend": "up",
-        "insight": "日本宠物登记狗猫合计1500万，环保需求日益强烈",
-        "growth": 34.6
-      }
-    ],
-    "UK": [
-      {
-        "rank": 1,
-        "asin": "UK-2026-01",
-        "title": "热泵烤暖器家用便携",
-        "cat": "供暖",
-        "price": "£145",
-        "rating": 4.5,
-        "reviews": 28000,
-        "trend": "up",
-        "insight": "英国天然气价格仍高，热泵技术下沉至小型设备",
-        "growth": 72.3
-      },
-      {
-        "rank": 2,
-        "asin": "UK-2026-02",
-        "title": "宠物摄像头双向对话+零食投喂",
-        "cat": "宠物科技",
-        "price": "£89",
-        "rating": 4.6,
-        "reviews": 34000,
-        "trend": "up",
-        "insight": "英国宠物家庭62%，分离焦虑设备爆发",
-        "growth": 58.9
-      },
-      {
-        "rank": 3,
-        "asin": "UK-2026-03",
-        "title": "儿童AI绘本机器人",
-        "cat": "AI教育",
-        "price": "£65",
-        "rating": 4.4,
-        "reviews": 18000,
-        "trend": "new",
-        "insight": "英国父母教育科技消费意愿强，AI辅助学习接受度高",
-        "growth": 143.7
-      },
-      {
-        "rank": 4,
-        "asin": "UK-2026-04",
-        "title": "折叠电动自行车20英寸",
-        "cat": "出行",
-        "price": "£749",
-        "rating": 4.5,
-        "reviews": 12000,
-        "trend": "up",
-        "insight": "伦敦骑行友好改造持续，折叠款地铁携带刚需",
-        "growth": 41.2
-      },
-      {
-        "rank": 5,
-        "asin": "UK-2026-05",
-        "title": "太阳能露台加热灯",
-        "cat": "户外",
-        "price": "£89",
-        "rating": 4.4,
-        "reviews": 22000,
-        "trend": "up",
-        "insight": "英国庭院文化+能源成本，太阳能户外设备年增45%",
-        "growth": 67.8
+        "insight": "BSR #10 in US market (2026-06-04)",
+        "growth": 67.6
       }
     ],
     "SA": [
       {
         "rank": 1,
-        "asin": "SA-2026-01",
-        "title": "空气净化器HEPA沙尘专用",
-        "cat": "家电",
-        "price": "SAR680",
-        "rating": 4.7,
-        "reviews": 8900,
-        "trend": "up",
-        "insight": "沙特Vision 2030改善空气质量，沙尘暴季需求峰值+200%",
-        "growth": 98.4
+        "asin": "B08Y9V8TFM",
+        "title": "SAR 8.06",
+        "cat": "Dermoviva Age Renewal Handwash",
+        "price": "N/A",
+        "rating": 4.4,
+        "reviews": 0,
+        "trend": "new",
+        "insight": "BSR #1 in SA market (2026-06-04)",
+        "growth": 6.0
       },
       {
         "rank": 2,
-        "asin": "SA-2026-02",
-        "title": "按摩浴缸便携气泡脚盆",
-        "cat": "健康",
-        "price": "SAR380",
-        "rating": 4.6,
-        "reviews": 12000,
-        "trend": "up",
-        "insight": "沙特人均消费升级，SPA类产品家用化趋势明显",
-        "growth": 45.6
+        "asin": "B076F7C6SB",
+        "title": "Trending Product #2",
+        "cat": "Johnson & Johnson Body Wash, V",
+        "price": "SAR 14.00",
+        "rating": 4.5,
+        "reviews": 0,
+        "trend": "new",
+        "insight": "BSR #2 in SA market (2026-06-04)",
+        "growth": 16.4
       },
       {
         "rank": 3,
-        "asin": "SA-2026-03",
-        "title": "游戏周边机械键盘RGB",
-        "cat": "游戏",
-        "price": "SAR420",
-        "rating": 4.5,
-        "reviews": 15000,
-        "trend": "up",
-        "insight": "沙特游戏产业2030年目标全球前5，年轻人口+游戏消费强",
-        "growth": 52.3
+        "asin": "B07N77NM82",
+        "title": "SAR 18.00",
+        "cat": "Johnson & Johnson Adult Makeup",
+        "price": "N/A",
+        "rating": 4.7,
+        "reviews": 0,
+        "trend": "new",
+        "insight": "BSR #3 in SA market (2026-06-04)",
+        "growth": 3.2
       },
       {
         "rank": 4,
-        "asin": "SA-2026-04",
-        "title": "穆斯林智能电子Quran阅读器",
-        "cat": "宗教科技",
-        "price": "SAR580",
-        "rating": 4.8,
-        "reviews": 23000,
-        "trend": "stable",
-        "insight": "斋月礼品刚需，阿文AI朗读版需求高",
-        "growth": 28.7
+        "asin": "B08MVG7ZG2",
+        "title": "SAR 24.15",
+        "cat": "Garnier Skinactive Micellar Cl",
+        "price": "N/A",
+        "rating": 4.6,
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #4 in SA market (2026-06-04)",
+        "growth": 77.2
       },
       {
         "rank": 5,
-        "asin": "SA-2026-05",
-        "title": "太阳能庭院灯套装(6个)",
-        "cat": "户外",
-        "price": "SAR320",
-        "rating": 4.5,
-        "reviews": 18000,
+        "asin": "B0085U7ZJQ",
+        "title": "SAR 95.45",
+        "cat": "QV Cream 1Kg Pump. With Glycer",
+        "price": "N/A",
+        "rating": 4.2,
+        "reviews": 0,
         "trend": "up",
-        "insight": "沙特太阳能年均日照超300天，户外太阳能产品零费用运营",
-        "growth": 61.2
+        "insight": "BSR #5 in SA market (2026-06-04)",
+        "growth": 4.2
+      },
+      {
+        "rank": 6,
+        "asin": "B0835KVH99",
+        "title": "SAR 16.98",
+        "cat": "Gillette blue2 plus disp razor",
+        "price": "N/A",
+        "rating": 4.5,
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #6 in SA market (2026-06-04)",
+        "growth": 31.5
+      },
+      {
+        "rank": 7,
+        "asin": "B08GS6N8MF",
+        "title": "SAR 6.85",
+        "cat": "Car Drying Towel,ShowTop Free ",
+        "price": "N/A",
+        "rating": 4.2,
+        "reviews": 0,
+        "trend": "up",
+        "insight": "BSR #7 in SA market (2026-06-04)",
+        "growth": 59.0
+      },
+      {
+        "rank": 8,
+        "asin": "B0CQM4ZNPZ",
+        "title": "SAR 89.99",
+        "cat": "Lamicall Car Windshield Sunsha",
+        "price": "N/A",
+        "rating": 4.3,
+        "reviews": 0,
+        "trend": "stable",
+        "insight": "BSR #8 in SA market (2026-06-04)",
+        "growth": 54.6
+      },
+      {
+        "rank": 9,
+        "asin": "B08W54FCB3",
+        "title": "SAR 4.03",
+        "cat": "Areon X Version Hanging Car Ai",
+        "price": "N/A",
+        "rating": 4.0,
+        "reviews": 0,
+        "trend": "stable",
+        "insight": "BSR #9 in SA market (2026-06-04)",
+        "growth": 84.6
+      },
+      {
+        "rank": 10,
+        "asin": "B0BNKVGB2J",
+        "title": "SAR 374.45",
+        "cat": "Shell Helix Ultra SP 5W30 Full",
+        "price": "N/A",
+        "rating": 4.7,
+        "reviews": 0,
+        "trend": "stable",
+        "insight": "BSR #10 in SA market (2026-06-04)",
+        "growth": 18.8
       }
     ]
   },
-  "local_ecom": {
-    "Shopee（东南亚）": [
-      {
-        "platform": "Shopee",
-        "country": "ID/PH/TH",
-        "cat": "AI周边数码",
-        "title": "AI降噪耳机主动消噪",
-        "price": "SGD25-55",
-        "gmv_rank": 1,
-        "insight": "东南亚年轻人数字娱乐消费增速35%，ANC耳机从小众到大众",
-        "growth": 78.3
-      },
-      {
-        "platform": "Shopee",
-        "country": "ID",
-        "cat": "穆斯林美妆",
-        "title": "Halal认证粉底液防汗",
-        "price": "IDR65K",
-        "gmv_rank": 2,
-        "insight": "印尼2.7亿穆斯林化妆品市场，清真认证溢价+25%",
-        "growth": 45.6
-      },
-      {
-        "platform": "Shopee",
-        "country": "TH",
-        "cat": "宠物智能",
-        "title": "猫咪自动喂食器APP控制",
-        "price": "THB1200",
-        "gmv_rank": 3,
-        "insight": "泰国宠物经济规模全球前15，智能设备接受度高",
-        "growth": 62.1
-      },
-      {
-        "platform": "Shopee",
-        "country": "PH",
-        "cat": "太阳能",
-        "title": "家用太阳能充电系统200W",
-        "price": "PHP8500",
-        "gmv_rank": 4,
-        "insight": "菲律宾电费亚洲最贵，太阳能DIY套装投资回报3年以内",
-        "growth": 93.4
-      },
-      {
-        "platform": "Shopee",
-        "country": "MY",
-        "cat": "AI教育",
-        "title": "儿童AI学习机双语版",
-        "price": "MYR580",
-        "gmv_rank": 5,
-        "insight": "马来西亚双语家庭比例高，英/马来语AI教育设备需求强",
-        "growth": 121.7
-      }
-    ],
-    "Lazada（东南亚）": [
-      {
-        "platform": "Lazada",
-        "country": "SG",
-        "cat": "银发科技",
-        "title": "智能血压计蓝牙APP同步",
-        "price": "SGD68",
-        "gmv_rank": 1,
-        "insight": "新加坡人口老龄化加速，居家健康监测设备刚需",
-        "growth": 56.8
-      },
-      {
-        "platform": "Lazada",
-        "country": "VN",
-        "cat": "储能",
-        "title": "停电应急储能300Wh",
-        "price": "VND2.8M",
-        "gmv_rank": 2,
-        "insight": "越南工业园用电缺口，家庭/小店停电应急需求真实",
-        "growth": 87.2
-      },
-      {
-        "platform": "Lazada",
-        "country": "ID",
-        "cat": "可持续",
-        "title": "竹制厨房收纳套装5件",
-        "price": "IDR280K",
-        "gmv_rank": 3,
-        "insight": "印尼塑料袋税倒逼替代品，竹制品环保溢价已被接受",
-        "growth": 34.5
-      }
-    ],
-    "MercadoLibre（拉美）": [
-      {
-        "platform": "MercadoLibre",
-        "country": "MX",
-        "cat": "太阳能",
-        "title": "家用太阳能系统1kW",
-        "price": "MXN12000",
-        "gmv_rank": 1,
-        "insight": "墨西哥电力改革+日照充足，民用太阳能装机2026年翻倍",
-        "growth": 104.3
-      },
-      {
-        "platform": "MercadoLibre",
-        "country": "BR",
-        "cat": "AI工具",
-        "title": "AI绘图平板+手写笔套装",
-        "price": "BRL890",
-        "gmv_rank": 2,
-        "insight": "巴西创意经济蓬勃，设计/内容创作者群体消费AI工具",
-        "growth": 138.6
-      },
-      {
-        "platform": "MercadoLibre",
-        "country": "CO",
-        "cat": "宠物",
-        "title": "宠物GPS追踪器防水",
-        "price": "COP350000",
-        "gmv_rank": 3,
-        "insight": "哥伦比亚宠物失窃率高，GPS追踪需求刚性",
-        "growth": 67.4
-      },
-      {
-        "platform": "MercadoLibre",
-        "country": "AR",
-        "cat": "健康",
-        "title": "家用血氧仪+额温枪套装",
-        "price": "ARS28000",
-        "gmv_rank": 4,
-        "insight": "阿根廷医疗资源分配不均，家庭自测健康设备普及",
-        "growth": 42.1
-      }
-    ],
-    "Noon/Amazon.ae（中东）": [
-      {
-        "platform": "Noon",
-        "country": "UAE/SA",
-        "cat": "AI家居",
-        "title": "Matter协议智能面板+AI语音控制",
-        "price": "AED280",
-        "gmv_rank": 1,
-        "insight": "中东智能豪宅渗透率全球最高，Matter统一生态推动换代",
-        "growth": 89.7
-      },
-      {
-        "platform": "Noon",
-        "country": "SA",
-        "cat": "游戏外设",
-        "title": "电竞椅Pro+腰靠套装",
-        "price": "SAR950",
-        "gmv_rank": 2,
-        "insight": "沙特游戏产业政策支持，18-35岁主力消费人群",
-        "growth": 55.3
-      },
-      {
-        "platform": "Noon",
-        "country": "UAE",
-        "cat": "高端护肤",
-        "title": "中东专研沙漠肌补水精华",
-        "price": "AED380",
-        "gmv_rank": 3,
-        "insight": "中东干燥气候护肤刚需，中国成分科技+阿文营销突破",
-        "growth": 71.8
-      }
-    ],
-    "Ozon（俄罗斯）": [
-      {
-        "platform": "Ozon",
-        "country": "RU",
-        "cat": "国产替代3C",
-        "title": "国产安卓平板10.1寸",
-        "price": "RUB12800",
-        "gmv_rank": 1,
-        "insight": "苹果/三星制裁后，中国品牌市占率飙升至55%",
-        "growth": 156.2
-      },
-      {
-        "platform": "Ozon",
-        "country": "RU",
-        "cat": "家用医疗",
-        "title": "家用理疗仪红外热敷",
-        "price": "RUB3800",
-        "gmv_rank": 2,
-        "insight": "俄罗斯进口医疗器械受限，国内替代品需求旺盛",
-        "growth": 78.4
-      },
-      {
-        "platform": "Ozon",
-        "country": "KZ",
-        "cat": "储能",
-        "title": "便携储能500Wh多路输出",
-        "price": "KZT95000",
-        "gmv_rank": 3,
-        "insight": "哈萨克斯坦冬季停电风险，储能应急产品需求刚性",
-        "growth": 92.6
-      }
-    ],
-    "Allegro（东欧）": [
-      {
-        "platform": "Allegro",
-        "country": "PL",
-        "cat": "智能家居",
-        "title": "智能空气净化器HEPA+负离子",
-        "price": "PLN489",
-        "gmv_rank": 1,
-        "insight": "波兰雾霾问题严重，冬季空气质量差，净化器刚需品",
-        "growth": 120.6
-      },
-      {
-        "platform": "Allegro",
-        "country": "PL",
-        "cat": "汽车配件",
-        "title": "车载OBD2诊断仪蓝牙APP",
-        "price": "PLN89",
-        "gmv_rank": 2,
-        "insight": "波兰二手车市场活跃，DIY维修文化浓厚，诊断仪渗透率高",
-        "growth": 43.8
-      },
-      {
-        "platform": "Allegro",
-        "country": "PL",
-        "cat": "户外装备",
-        "title": "超轻钛合金露营炊具套装",
-        "price": "PLN159",
-        "gmv_rank": 3,
-        "insight": "波兰Tatry山脉户外文化，超轻装备年增28%",
-        "growth": 100.5
-      },
-      {
-        "platform": "Allegro",
-        "country": "PL",
-        "cat": "宠物",
-        "title": "宠物自动饮水机3L静音款",
-        "price": "PLN79",
-        "gmv_rank": 4,
-        "insight": "波兰宠物家庭占比58%，智能宠物用品增速全欧最快",
-        "growth": 123.5
-      },
-      {
-        "platform": "Allegro",
-        "country": "PL",
-        "cat": "电动工具",
-        "title": "无刷锂电钻21V双电池套装",
-        "price": "PLN199",
-        "gmv_rank": 5,
-        "insight": "波兰DIY家装文化强，无刷电机工具替代有刷加速",
-        "growth": 49.0
-      }
-    ],
-    "eBay（全球）": [
-      {
-        "platform": "eBay",
-        "country": "US/UK/DE/AU",
-        "cat": "翻新电子",
-        "title": "翻新MacBook Air M2 256GB",
-        "price": "$699",
-        "gmv_rank": 1,
-        "insight": "eBay Refurbished认证计划带动翻新电子信任度，毛利率30%+",
-        "growth": 22.6
-      },
-      {
-        "platform": "eBay",
-        "country": "US/UK",
-        "cat": "收藏卡牌",
-        "title": "Pokemon TCG稀有卡牌礼盒",
-        "price": "$89-399",
-        "gmv_rank": 2,
-        "insight": "收藏卡牌市场eBay占全球交易45%，鉴定评级服务带动溢价",
-        "growth": 58.0
-      },
-      {
-        "platform": "eBay",
-        "country": "US/DE",
-        "cat": "汽车配件",
-        "title": "LED大灯总成替换件(对装)",
-        "price": "$79-159",
-        "gmv_rank": 3,
-        "insight": "eBay Motors全球最大汽配平台，售后市场长尾效应强",
-        "growth": 66.8
-      },
-      {
-        "platform": "eBay",
-        "country": "UK/AU",
-        "cat": "复古时尚",
-        "title": "中古奢侈品包(鉴定评级B+)",
-        "price": "£299-999",
-        "gmv_rank": 4,
-        "insight": "循环经济+可持续时尚趋势，eBay Authenticity Guarantee提升信任",
-        "growth": 71.7
-      }
-    ],
-    "AliExpress（全球）": [
-      {
-        "platform": "AliExpress",
-        "country": "Global",
-        "cat": "智能穿戴",
-        "title": "智能手表Ultra2平替AMOLED",
-        "price": "$29-49",
-        "gmv_rank": 1,
-        "insight": "AliExpress Choice计划精选，平替智能手表年销3000万+",
-        "growth": 21.6
-      },
-      {
-        "platform": "AliExpress",
-        "country": "BR/MX/SA",
-        "cat": "LED照明",
-        "title": "全屋LED灯带RGB Music Sync 10m",
-        "price": "$8-15",
-        "gmv_rank": 2,
-        "insight": "全球Dropshipping爆品，TikTok带货转化率极高",
-        "growth": 62.2
-      },
-      {
-        "platform": "AliExpress",
-        "country": "FR/ES/IT",
-        "cat": "手机配件",
-        "title": "MagSafe磁吸支架+无线充二合一",
-        "price": "$12-25",
-        "gmv_rank": 3,
-        "insight": "苹果生态配件信息差，AliExpress价格仅官网1/5",
-        "growth": 117.6
-      },
-      {
-        "platform": "AliExpress",
-        "country": "Global",
-        "cat": "DIY工具",
-        "title": "迷你激光雕刻机桌面级5W",
-        "price": "$199-349",
-        "gmv_rank": 4,
-        "insight": "创客经济+个性化定制需求，桌面激光雕刻机爆发",
-        "growth": 79.5
-      },
-      {
-        "platform": "AliExpress",
-        "country": "KR/JP",
-        "cat": "美妆工具",
-        "title": "LED化妆镜3色调光触控",
-        "price": "$15-29",
-        "gmv_rank": 5,
-        "insight": "K-beauty/J-beauty全球化，美妆工具配件高频复购",
-        "growth": -4.2
-      }
-    ],
-    "Etsy（欧美）": [
-      {
-        "platform": "Etsy",
-        "country": "US/UK/DE",
-        "cat": "个性化定制",
-        "title": "定制姓名项链18K金镀层",
-        "price": "$29-59",
-        "gmv_rank": 1,
-        "insight": "Etsy个性化定制赛道#1，复购率42%，礼品属性极强",
-        "growth": 83.9
-      },
-      {
-        "platform": "Etsy",
-        "country": "US/UK",
-        "cat": "婚礼装饰",
-        "title": "亚克力婚礼迎宾牌+木架",
-        "price": "$49-89",
-        "gmv_rank": 2,
-        "insight": "美国婚礼市场$72B，Etsy婚礼定制品客单价高+毛利50%+",
-        "growth": 15.5
-      },
-      {
-        "platform": "Etsy",
-        "country": "US/AU",
-        "cat": "数码模板",
-        "title": "Canva模板包50款Instagram",
-        "price": "$9-19",
-        "gmv_rank": 3,
-        "insight": "数字下载产品零边际成本，创作者经济带动模板需求",
-        "growth": 23.7
-      },
-      {
-        "platform": "Etsy",
-        "country": "US/UK/DE",
-        "cat": "宠物定制",
-        "title": "宠物肖像画定制(数字/实物)",
-        "price": "$39-149",
-        "gmv_rank": 4,
-        "insight": "宠物人格化消费+艺术品属性，Etsy独家品类壁垒",
-        "growth": 122.7
-      }
-    ],
-    "Vinted（欧洲）": [
-      {
-        "platform": "Vinted",
-        "country": "FR/DE/PL",
-        "cat": "二手奢侈",
-        "title": "中古Chanel Classic Flap(评级A)",
-        "price": "€2800-4500",
-        "gmv_rank": 1,
-        "insight": "Vinted欧洲最大二手时尚平台，奢侈品鉴定服务带动高端交易",
-        "growth": 101.4
-      },
-      {
-        "platform": "Vinted",
-        "country": "FR/ES/IT",
-        "cat": "Vintage时尚",
-        "title": "90年代Vintage Levis 501牛仔裤",
-        "price": "€35-89",
-        "gmv_rank": 2,
-        "insight": "Y2K复古风潮持续，Vintage Levis溢价率300%+",
-        "growth": 11.1
-      },
-      {
-        "platform": "Vinted",
-        "country": "DE/PL/LT",
-        "cat": "运动休闲",
-        "title": "Lululemon Align瑜伽裤(二手)",
-        "price": "€29-49",
-        "gmv_rank": 3,
-        "insight": "运动休闲品牌二手流通活跃，Athleisure可持续性消费",
-        "growth": 129.6
-      },
-      {
-        "platform": "Vinted",
-        "country": "FR/BE/NL",
-        "cat": "童装",
-        "title": "品牌童装套装(Petit Bateau等)",
-        "price": "€15-35",
-        "gmv_rank": 4,
-        "insight": "欧洲父母童装品质消费+环保意识，二手童装市场翻倍",
-        "growth": 62.2
-      }
-    ],
-    "OLX（东欧/新兴）": [
-      {
-        "platform": "OLX",
-        "country": "PL/RO/BG",
-        "cat": "二手电子",
-        "title": "二手iPhone 15 Pro 256GB(99新)",
-        "price": "PLN3200",
-        "gmv_rank": 1,
-        "insight": "OLX东欧最大分类信息平台，二手手机交易占比最高",
-        "growth": 15.9
-      },
-      {
-        "platform": "OLX",
-        "country": "RO/BG/UA",
-        "cat": "家居家具",
-        "title": "实木餐桌椅套装6人位",
-        "price": "RON1800",
-        "gmv_rank": 2,
-        "insight": "东欧新房装修需求旺盛，实木家具偏好强烈",
-        "growth": 62.7
-      },
-      {
-        "platform": "OLX",
-        "country": "PL/RO",
-        "cat": "汽车配件",
-        "title": "冬季轮胎套装205/55R16(8成新)",
-        "price": "PLN600",
-        "gmv_rank": 3,
-        "insight": "东欧冬季法规要求冬胎，季节性刚需+二手性价比高",
-        "growth": 114.4
-      },
-      {
-        "platform": "OLX",
-        "country": "IN/PK",
-        "cat": "摩托车配件",
-        "title": "摩托车LED大灯+USB充电改装套件",
-        "price": "PKR2500",
-        "gmv_rank": 4,
-        "insight": "南亚摩托车保有量大，改装配件市场长尾效应显著",
-        "growth": 31.0
-      }
-    ],
-    "Zalando（欧洲）": [
-      {
-        "platform": "Zalando",
-        "country": "DE/FR/IT",
-        "cat": "运动时尚",
-        "title": "On Cloud 5跑鞋(男女款)",
-        "price": "€139-159",
-        "gmv_rank": 1,
-        "insight": "Zalando欧洲最大时尚电商，On跑鞋增速全品类#1",
-        "growth": 122.0
-      },
-      {
-        "platform": "Zalando",
-        "country": "DE/PL/SE",
-        "cat": "可持续时尚",
-        "title": "Patagonia再生材料冲锋衣",
-        "price": "€199-299",
-        "gmv_rank": 2,
-        "insight": "Zalando Pre-owned+可持续标签搜索量+85%",
-        "growth": 28.2
-      },
-      {
-        "platform": "Zalando",
-        "country": "DE/FR/NL",
-        "cat": "设计师品牌",
-        "title": "Jacquemus Le Chiquito迷你包",
-        "price": "€395-550",
-        "gmv_rank": 3,
-        "insight": "轻奢设计师品牌Zalando独家发售策略，社交裂变带货",
-        "growth": 23.6
-      },
-      {
-        "platform": "Zalando",
-        "country": "DE/AT/CH",
-        "cat": "功能户外",
-        "title": "Arcteryx Beta LT冲锋衣",
-        "price": "€449-599",
-        "gmv_rank": 4,
-        "insight": "Gorpcore户外风潮进入主流，功能面料+时尚剪裁溢价",
-        "growth": 100.2
-      }
-    ],
-    "Otto（德国）": [
-      {
-        "platform": "Otto",
-        "country": "DE",
-        "cat": "大家电",
-        "title": "热泵烘干机8kg A+++",
-        "price": "€549-799",
-        "gmv_rank": 1,
-        "insight": "Otto德国第二大家电平台，热泵烘干机德国渗透率超60%",
-        "growth": 41.4
-      },
-      {
-        "platform": "Otto",
-        "country": "DE",
-        "cat": "家具",
-        "title": "模块化布艺沙发3+2组合",
-        "price": "€899-1499",
-        "gmv_rank": 2,
-        "insight": "德国家具线上渗透率35%，Otto自有物流+安装服务壁垒",
-        "growth": 132.9
-      },
-      {
-        "platform": "Otto",
-        "country": "DE",
-        "cat": "智能家居",
-        "title": "Bosch Smart Home全套网关+8件",
-        "price": "€349-499",
-        "gmv_rank": 3,
-        "insight": "德国人对Bosch品牌信任度极高，智能家居套装客单价提升40%",
-        "growth": 109.3
-      },
-      {
-        "platform": "Otto",
-        "country": "DE",
-        "cat": "厨房电器",
-        "title": "Thermomix TM7料理机(分期)",
-        "price": "€1399",
-        "gmv_rank": 4,
-        "insight": "德国厨房电器高端化趋势，分期付款渗透率55%",
-        "growth": 39.4
-      }
-    ]
-  },
+  "local_ecom": {},
   "social_hotwords": {
     "TikTok": [
       {
-        "keyword": "#AIProductivity",
-        "count": "38B views",
-        "product": "AI录音笔/AI翻译器/AI绘图板",
-        "insight": "2026年AI工具消费主流化，办公效率设备TikTok测评带货",
-        "growth": 145.2
+        "keyword": "#TikTokMadeMeBuyIt",
+        "count": "56B views",
+        "product": "洗地机/美容仪/收纳神器/LED灯",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 50.0
       },
       {
         "keyword": "#CleanTok",
+        "count": "46B views",
+        "product": "洗地机/消毒凝胶/超声波清洗机",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": -100.0
+      },
+      {
+        "keyword": "#AmazonFinds",
+        "count": "9B views",
+        "product": "3C配件/厨房神器/宠物用品",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 50.0
+      },
+      {
+        "keyword": "#AIGadgets",
         "count": "52B views",
-        "product": "洗地机/消毒凝胶棒/超声波清洗机",
-        "insight": "清洁赛道仍是TikTok最强带货场景，视觉冲击感决定转化",
-        "growth": 32.8
+        "product": "AI录音笔/AI翻译器/AI绘图板",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 50.0
       },
       {
-        "keyword": "#SeniorTech",
-        "count": "12B views",
-        "product": "防跌倒智能鞋/大字手机/智能药盒",
-        "insight": "婴儿潮老龄化主题，90后帮父母买单成为主要购买决策链",
-        "growth": 98.4
+        "keyword": "#SmartHome",
+        "count": "52B views",
+        "product": "智能灯/智能插座/AI音箱/传感器",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 20.0
       },
       {
-        "keyword": "#OutdoorDining",
-        "count": "18B views",
-        "product": "便携气炸锅/户外折叠桌/太阳能冰箱",
-        "insight": "露营/庭院生活方式持续扩散，户外烹饪场景扩展",
-        "growth": 41.6
+        "keyword": "#PetLovers",
+        "count": "50B views",
+        "product": "智能喂食器/宠物摄像头/GPS项圈",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 33.2
       },
       {
-        "keyword": "#PetHotel",
-        "count": "8B views",
-        "product": "宠物智能摄像头/自动饮水机/猫厕所",
-        "insight": "宠物消费人格化趋势，单品客单价持续走高",
-        "growth": 67.3
-      },
-      {
-        "keyword": "#GreenHome",
-        "count": "22B views",
-        "product": "竹制收纳/可堆肥垃圾袋/LED节能灯",
-        "insight": "Z世代绿色消费意识驱动，可持续认证成品牌护城河",
-        "growth": 53.7
+        "keyword": "#GreenLiving",
+        "count": "44B views",
+        "product": "竹制收纳/可堆肥袋/LED节能灯",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 10.2
       },
       {
         "keyword": "#GameSetup",
-        "count": "35B views",
-        "product": "RGB灯条/游戏桌椅/机械键盘/电竞鼠标",
-        "insight": "游戏房间改造热持续，内容属性强，直播场景高频出现",
-        "growth": 28.9
+        "count": "48B views",
+        "product": "RGB灯条/电竞桌椅/机械键盘",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 6.2
       },
       {
-        "keyword": "#MindfulMorning",
-        "count": "15B views",
-        "product": "空气净化器/白噪音机/Sunrise闹钟灯",
-        "insight": "心理健康消费化，早晨仪式感产品溢价30%以上",
-        "growth": 76.4
+        "keyword": "#SkincareRoutine",
+        "count": "33B views",
+        "product": "美容仪/精华液/面膜/防晒",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 43.3
+      },
+      {
+        "keyword": "#FitnessAtHome",
+        "count": "25B views",
+        "product": "哑铃/健身镜/泡沫滚轴/瑜伽垫",
+        "insight": "TikTok trending (2026-06-04)",
+        "growth": 107.0
       }
     ],
     "Instagram": [
       {
-        "keyword": "AI Art Studio",
-        "count": "890M posts",
-        "product": "AI绘图平板/手写板/数字框架屏",
-        "insight": "创作经济兴起，AI辅助创作工具成创作者核心装备",
-        "growth": 134.7
+        "keyword": "Quiet Luxury",
+        "count": "345M posts",
+        "product": "极简家居/无LOGO包/羊绒针织",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 33.0
       },
       {
-        "keyword": "Quiet Luxury",
-        "count": "1.5B posts",
-        "product": "奶油色家居/无LOGO极简包/羊绒针织",
-        "insight": "安静奢华美学替代炫富，高质感低调品牌溢价空间",
-        "growth": 45.2
+        "keyword": "AI Art Studio",
+        "count": "111M posts",
+        "product": "AI绘图平板/数字框架屏",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 46.1
       },
       {
         "keyword": "Functional Fitness",
-        "count": "980M posts",
-        "product": "哑铃套装/壶铃/健身镜/泡沫滚轴",
-        "insight": "家庭健身房永久化，功能性健身装备复购率高",
-        "growth": 38.6
+        "count": "1301M posts",
+        "product": "哑铃/壶铃/健身镜",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 74.8
       },
       {
         "keyword": "Halal Beauty",
-        "count": "620M posts",
+        "count": "1062M posts",
         "product": "清真口红/无酒精香水/清真护肤",
-        "insight": "全球穆斯林美妆市场年增15%，TikTok+INS双平台渗透",
-        "growth": 62.8
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 75.1
+      },
+      {
+        "keyword": "Minimalist Home",
+        "count": "1438M posts",
+        "product": "极简家具/收纳系统/无印良品风",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 3.7
+      },
+      {
+        "keyword": "Pet Fashion",
+        "count": "1820M posts",
+        "product": "宠物服饰/宠物配件/智能项圈",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 67.7
+      },
+      {
+        "keyword": "Sustainable Living",
+        "count": "935M posts",
+        "product": "环保家居/可降解用品/竹制品",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 53.4
+      },
+      {
+        "keyword": "Smart Home Decor",
+        "count": "728M posts",
+        "product": "智能灯具/氛围灯/智能窗帘",
+        "insight": "Instagram trending topic (2026-06-04)",
+        "growth": 21.0
       }
     ],
     "YouTube": [
       {
-        "keyword": "Off-Grid Living",
-        "count": "12B views",
-        "product": "太阳能系统/储能/净水设备/卫星通讯",
-        "insight": "美国「逃离城市」趋势，完整离网系统客单价$3000+",
-        "growth": 87.3
-      },
-      {
         "keyword": "AI Gadget Reviews",
-        "count": "9B views",
-        "product": "AI录笔/AR眼镜/AI音箱/本地大模型设备",
-        "insight": "科技博主测评驱动消费，新品首发7天决定市场声量",
-        "growth": 156.8
+        "count": "7B views",
+        "product": "AI录笔/AR眼镜/AI音箱",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 50.0
       },
       {
-        "keyword": "Elderly Parent Care",
-        "count": "5B views",
-        "product": "智能药盒/防跌感应灯/视频通话大屏",
-        "insight": "三明治一代照护父母需求，远程看护设备信任度来源YouTube",
-        "growth": 72.4
+        "keyword": "Off-Grid Living",
+        "count": "10B views",
+        "product": "太阳能系统/储能/净水设备",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 50.0
       },
       {
         "keyword": "Budget Build PC",
-        "count": "8B views",
-        "product": "CPU散热器/M.2固态硬盘/机箱风扇",
-        "insight": "DIY电脑文化，高性价比零件信息差机会",
-        "growth": 23.1
+        "count": "1B views",
+        "product": "CPU散热器/M.2固态/机箱风扇",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 0.0
+      },
+      {
+        "keyword": "Elderly Parent Care",
+        "count": "3B views",
+        "product": "智能药盒/防跌感应灯/视频通话大屏",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 27.3
+      },
+      {
+        "keyword": "Smart Home Tour",
+        "count": "15B views",
+        "product": "Matter网关/智能门锁/传感器套装",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 13.3
+      },
+      {
+        "keyword": "EV Review 2026",
+        "count": "12B views",
+        "product": "EV充电桩/车载配件/便携储能",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": -1.2
+      },
+      {
+        "keyword": "Solar Panel DIY",
+        "count": "2B views",
+        "product": "太阳能板/逆变器/储能电池",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 76.1
+      },
+      {
+        "keyword": "Robot Vacuum Test",
+        "count": "5B views",
+        "product": "扫地机/洗地机/擦窗机器人",
+        "insight": "YouTube trending search (2026-06-04)",
+        "growth": 78.5
       }
     ],
     "X": [
       {
-        "keyword": "#AIHardware",
-        "count": "280K posts",
-        "product": "AI录音笔/AR眼镜/AI音箱/本地大模型设备",
-        "insight": "AI硬件消费化成为X科技圈最热议题，VC创业者密集讨论",
-        "growth": 189.3
+        "keyword": "Good Thursday",
+        "count": "115K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 70.9
       },
       {
-        "keyword": "#EVLife",
-        "count": "195K posts",
-        "product": "EV充电桩/车载配件/便携储能/太阳能板",
-        "insight": "电动车生活方式话题持续升温，特斯拉+中国品牌双热",
-        "growth": 76.8
+        "keyword": "Consolidation",
+        "count": "234K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 115.6
       },
       {
-        "keyword": "#SmartHomeMatter",
-        "count": "142K posts",
-        "product": "Matter网关/智能门锁/传感器套装/智能灯",
-        "insight": "Matter协议统一智能家居生态，X极客圈强烈推荐",
-        "growth": 134.5
+        "keyword": "#ChÃ¡vezPorSiempreChÃ¡vez",
+        "count": "254K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 150.3
       },
       {
-        "keyword": "#OffGridSolar",
-        "count": "98K posts",
-        "product": "太阳能系统/储能电池/逆变器/离网套件",
-        "insight": "美国离网生活运动加速，X生存主义+环保主义合流",
-        "growth": 92.7
+        "keyword": "#JUNGKOOKxCALVINKLEIN",
+        "count": "408K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 9.7
       },
       {
-        "keyword": "#PetTech",
-        "count": "167K posts",
-        "product": "宠物GPS项圈/智能喂食器/宠物摄像头",
-        "insight": "宠物科技产品在X上频繁开箱测评，宠物主社群活跃",
-        "growth": 58.4
+        "keyword": "Happy Friday Eve",
+        "count": "107K posts",
+        "product": "储能设备/太阳能/EV配件",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 107.5
       },
       {
-        "keyword": "#HealthWearables",
-        "count": "223K posts",
-        "product": "智能手表/血糖仪/睡眠追踪器/血压计",
-        "insight": "健康穿戴设备讨论热度不减，CGM血糖仪尤其受关注",
-        "growth": 112.6
+        "keyword": "Persepolis",
+        "count": "399K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 23.8
       },
       {
-        "keyword": "#CleanEnergy",
-        "count": "310K posts",
-        "product": "家用储能/太阳能板/风力发电/氢能源",
-        "insight": "清洁能源政策辩论带动相关设备搜索量飙升",
-        "growth": 67.9
+        "keyword": "The Chevy",
+        "count": "286K posts",
+        "product": "储能设备/太阳能/EV配件",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 24.0
       },
       {
-        "keyword": "#GamingSetup2026",
-        "count": "445K posts",
-        "product": "电竞椅/RGB灯条/机械键盘/4K显示器",
-        "insight": "游戏桌面改造年度话题，硬件升级需求集中释放",
-        "growth": 45.2
+        "keyword": "Marjane Satrapi",
+        "count": "152K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 66.1
+      },
+      {
+        "keyword": "GRABFOOD X FREENBECKY",
+        "count": "115K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 98.1
+      },
+      {
+        "keyword": "#ThursdayVibes",
+        "count": "437K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-06-04)",
+        "growth": 123.9
       }
     ]
   },
   "search_growth": {
     "US": [
       {
-        "keyword": "AI voice lamp",
-        "traffic": "200K+"
+        "keyword": "john bolton",
+        "traffic": "500+"
       },
       {
-        "keyword": "home battery storage",
-        "traffic": "200K+"
+        "keyword": "ncis season 24 cast changes",
+        "traffic": "500+"
       },
       {
-        "keyword": "pet health monitor",
-        "traffic": "100K+"
+        "keyword": "spcx",
+        "traffic": "20000+"
       },
       {
-        "keyword": "portable monitor",
-        "traffic": "100K+"
+        "keyword": "knicks watch party",
+        "traffic": "2000+"
       },
       {
-        "keyword": "beauty device RF",
-        "traffic": "50K+"
+        "keyword": "shedeur sanders",
+        "traffic": "5000+"
+      },
+      {
+        "keyword": "sir alex younger",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "andrew bates",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "mstr",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "sagrada familia",
+        "traffic": "1000+"
+      },
+      {
+        "keyword": "nelly korda",
+        "traffic": "1000+"
       }
     ],
     "DE": [
       {
-        "keyword": "Heimspeicher 10kWh",
-        "traffic": "200K+"
+        "keyword": "altersrente",
+        "traffic": "2000+"
       },
       {
-        "keyword": "Wärmepumpe",
-        "traffic": "200K+"
+        "keyword": "ronny thielemann",
+        "traffic": "200+"
       },
       {
-        "keyword": "E-Cargo Bike",
-        "traffic": "100K+"
+        "keyword": "andrejewa",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "jan kampmann",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "tatjana maria",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "oliver kirch",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "axel schreiber",
+        "traffic": "20000+"
+      },
+      {
+        "keyword": "ilm-kreis",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "el mala",
+        "traffic": "2000+"
+      },
+      {
+        "keyword": "lh450",
+        "traffic": "1000+"
       }
     ],
     "JP": [
       {
-        "keyword": "AI翻訳イヤホン",
-        "traffic": "200K+"
+        "keyword": "尖閣諸島",
+        "traffic": "200+"
       },
       {
-        "keyword": "首マッサージャー",
-        "traffic": "100K+"
+        "keyword": "ポケカ30周年",
+        "traffic": "500+"
       },
       {
-        "keyword": "高齢者 スマートウォッチ",
-        "traffic": "100K+"
+        "keyword": "nintendo",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "高市 中傷動画",
+        "traffic": "2000+"
+      },
+      {
+        "keyword": "ファイターズ",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "木南晴夏",
+        "traffic": "1000+"
+      },
+      {
+        "keyword": "シュン・スカイウォーカー",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "小雪",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "日ハム 試合",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "カイロソフト",
+        "traffic": "200+"
       }
     ],
-    "GB": [
+    "UK": [
       {
-        "keyword": "heat pump heater",
-        "traffic": "200K+"
+        "keyword": "kelly holmes",
+        "traffic": "200+"
       },
       {
-        "keyword": "pet camera treat",
-        "traffic": "100K+"
+        "keyword": "sagrada familia",
+        "traffic": "200+"
       },
       {
-        "keyword": "AI reading robot kids",
-        "traffic": "50K+"
+        "keyword": "nathaniel brown",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "international student",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "zak brown",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "robson green",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "harry brook",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "alexandra eala",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "meteorite",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "sarah taylor",
+        "traffic": "200+"
       }
     ],
     "SA": [
       {
-        "keyword": "air purifier sandstorm",
-        "traffic": "100K+"
+        "keyword": "abrar ahmed",
+        "traffic": "100+"
       },
       {
-        "keyword": "gaming keyboard RGB",
-        "traffic": "100K+"
+        "keyword": "shaheen afridi",
+        "traffic": "200+"
       },
       {
-        "keyword": "solar garden lights",
-        "traffic": "50K+"
+        "keyword": "الشركة السعودية للاستثمار الجريء",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "شاكيرا",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "منتخب اليمن",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "سي إن إن",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "alexandra eala",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "joe root",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "قيم",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "marnus labuschagne",
+        "traffic": "200+"
       }
     ]
   },
   "product_recommendations": [
     {
       "trend": "AI硬件/AI科技 (2026-06-04)",
-      "score": 1036.1,
-      "avgGrowth": 127.9,
-      "sources": "BSR + 本土电商 + 社交(Instagram) + 社交(TikTok) + 社交(X) + 社交(YouTube)",
-      "signalCount": 14,
+      "score": 365.7,
+      "avgGrowth": 44.0,
+      "sources": "BSR + 社交(Instagram) + 社交(TikTok) + 社交(YouTube)",
+      "signalCount": 8,
       "topSignals": [
-        "BSR US #1: AI语音台灯 ChatGPT联动",
-        "BSR US #3: 宠物AI健康监测项圈GPS",
-        "BSR US #10: 儿童陪伴机器人AI对话",
-        "BSR JP #1: AI翻译耳机实时多语言"
+        "BSR US #7: $29.99",
+        "BSR SA #9: SAR 4.03",
+        "TikTok热词: #AIGadgets (52B views)",
+        "TikTok热词: #SmartHome (52B views)"
       ],
       "products": [
         {
           "name": "AI录音笔+实时转录(32GB)",
-          "targetMarket": "AU/BR/DE/ID/JP/MY+",
+          "targetMarket": "SA/US",
           "hs": "8519",
           "priceUS": "$89-149",
           "certNeeded": [
@@ -1220,7 +772,7 @@
         },
         {
           "name": "儿童AI学习机 双语对话",
-          "targetMarket": "AU/BR/DE/ID/JP/MY+",
+          "targetMarket": "SA/US",
           "hs": "8471",
           "priceUS": "$65-99",
           "certNeeded": [
@@ -1234,7 +786,7 @@
         },
         {
           "name": "AR轻量化眼镜(显示/导航)",
-          "targetMarket": "AU/BR/DE/ID/JP/MY+",
+          "targetMarket": "SA/US",
           "hs": "9004",
           "priceUS": "$199-399",
           "certNeeded": [
@@ -1249,20 +801,20 @@
     },
     {
       "trend": "储能/太阳能/清洁能源 (2026-06-04)",
-      "score": 610.8,
-      "avgGrowth": 81.1,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X) + 社交(YouTube)",
-      "signalCount": 13,
+      "score": 196.3,
+      "avgGrowth": 51.3,
+      "sources": "社交(X) + 社交(YouTube)",
+      "signalCount": 5,
       "topSignals": [
-        "BSR US #2: LiFePO4储能1500Wh+200W太阳能套装",
-        "BSR DE #1: 家庭储能系统10kWh壁挂式",
-        "BSR UK #5: 太阳能露台加热灯",
-        "BSR SA #5: 太阳能庭院灯套装(6个)"
+        "YouTube热词: Off-Grid Living (10B views)",
+        "YouTube热词: EV Review 2026 (12B views)",
+        "YouTube热词: Solar Panel DIY (2B views)",
+        "X热词: Happy Friday Eve (107K posts)"
       ],
       "products": [
         {
           "name": "LiFePO4储能2000Wh+双100W折叠板",
-          "targetMarket": "DE/KZ/MX/PH/SA/UK+",
+          "targetMarket": "Global",
           "hs": "8507",
           "priceUS": "$1199-1599",
           "certNeeded": [
@@ -1276,7 +828,7 @@
         },
         {
           "name": "家庭太阳能+储能一体机5kWh",
-          "targetMarket": "DE/KZ/MX/PH/SA/UK+",
+          "targetMarket": "Global",
           "hs": "8507",
           "priceUS": "$2999-4999",
           "certNeeded": [
@@ -1290,7 +842,7 @@
         },
         {
           "name": "便携太阳能充电系统200W",
-          "targetMarket": "DE/KZ/MX/PH/SA/UK+",
+          "targetMarket": "Global",
           "hs": "8541",
           "priceUS": "$199-349",
           "certNeeded": [
@@ -1303,127 +855,20 @@
       ]
     },
     {
-      "trend": "宠物科技 (2026-06-04)",
-      "score": 466.9,
-      "avgGrowth": 72.5,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X)",
-      "signalCount": 10,
-      "topSignals": [
-        "BSR US #3: 宠物AI健康监测项圈GPS",
-        "BSR JP #5: 可降解宠物拾便袋(100片)",
-        "BSR UK #2: 宠物摄像头双向对话+零食投喂",
-        "Shopee（东南亚） TH: 猫咪自动喂食器APP控制"
-      ],
-      "products": [
-        {
-          "name": "宠物GPS+健康监测项圈",
-          "targetMarket": "BE/CO/DE/FR/JP/NL+",
-          "hs": "8517",
-          "priceUS": "$69+$9.99/月",
-          "certNeeded": [
-            "FCC",
-            "CE",
-            "ICASA"
-          ],
-          "channel": "亚马逊+DTC订阅",
-          "timeline": "全年，促销节点Q4"
-        },
-        {
-          "name": "自动猫咪喂食器AI识别",
-          "targetMarket": "BE/CO/DE/FR/JP/NL+",
-          "hs": "8479",
-          "priceUS": "$89-149",
-          "certNeeded": [
-            "FCC",
-            "CE",
-            "PSC(JP)"
-          ],
-          "channel": "Shopee+亚马逊+TikTok",
-          "timeline": "全年"
-        },
-        {
-          "name": "宠物摄像头双向对话+零食投喂",
-          "targetMarket": "BE/CO/DE/FR/JP/NL+",
-          "hs": "8525",
-          "priceUS": "$59-99",
-          "certNeeded": [
-            "FCC",
-            "CE"
-          ],
-          "channel": "亚马逊+TikTok Shop",
-          "timeline": "全年"
-        }
-      ]
-    },
-    {
-      "trend": "出行/电动车 (2026-06-04)",
-      "score": 409.1,
-      "avgGrowth": 78.0,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X) + 社交(YouTube)",
-      "signalCount": 9,
-      "topSignals": [
-        "BSR US #4: 无线可折叠显示器15.6寸",
-        "BSR US #8: 银发助行电动轮椅折叠款",
-        "BSR DE #3: E-Cargo电动货运自行车",
-        "BSR UK #4: 折叠电动自行车20英寸"
-      ],
-      "products": [
-        {
-          "name": "折叠电动自行车20英寸轻量",
-          "targetMarket": "DE/ES/FR/IT/PL/UK+",
-          "hs": "8711",
-          "priceUS": "$599-899",
-          "certNeeded": [
-            "UL",
-            "CE",
-            "EN15194"
-          ],
-          "channel": "亚马逊+独立站",
-          "timeline": "春夏旺季"
-        },
-        {
-          "name": "EV便携充电器Type2 7kW",
-          "targetMarket": "DE/ES/FR/IT/PL/UK+",
-          "hs": "8504",
-          "priceUS": "$199-349",
-          "certNeeded": [
-            "CE",
-            "TUV",
-            "UL"
-          ],
-          "channel": "亚马逊+独立站",
-          "timeline": "全年"
-        },
-        {
-          "name": "E-Cargo电动货运自行车",
-          "targetMarket": "DE/ES/FR/IT/PL/UK+",
-          "hs": "8711",
-          "priceUS": "$2499-3999",
-          "certNeeded": [
-            "CE",
-            "EN15194"
-          ],
-          "channel": "本地经销商+B2B",
-          "timeline": "全年"
-        }
-      ]
-    },
-    {
       "trend": "智能家居/Matter (2026-06-04)",
-      "score": 375.0,
-      "avgGrowth": 110.8,
-      "sources": "BSR + 本土电商 + 社交(X)",
-      "signalCount": 6,
+      "score": 160.9,
+      "avgGrowth": 18.1,
+      "sources": "社交(Instagram) + 社交(TikTok) + 社交(YouTube)",
+      "signalCount": 3,
       "topSignals": [
-        "BSR US #1: AI语音台灯 ChatGPT联动",
-        "BSR DE #4: Matter智能家居网关+4件套",
-        "Noon/Amazon.ae（中东） UAE/SA: Matter协议智能面板+AI语音控制",
-        "Allegro（东欧） PL: 智能空气净化器HEPA+负离子"
+        "TikTok热词: #SmartHome (52B views)",
+        "Instagram热词: Smart Home Decor (728M posts)",
+        "YouTube热词: Smart Home Tour (15B views)"
       ],
       "products": [
         {
           "name": "Matter协议智能网关+4件套",
-          "targetMarket": "DE/PL/SA/UAE/US",
+          "targetMarket": "Global",
           "hs": "8517",
           "priceUS": "$149-249",
           "certNeeded": [
@@ -1435,7 +880,7 @@
         },
         {
           "name": "智能门锁指纹+密码+APP",
-          "targetMarket": "DE/PL/SA/UAE/US",
+          "targetMarket": "Global",
           "hs": "8301",
           "priceUS": "$99-199",
           "certNeeded": [
@@ -1448,7 +893,7 @@
         },
         {
           "name": "全屋氛围灯带Music Sync",
-          "targetMarket": "DE/PL/SA/UAE/US",
+          "targetMarket": "Global",
           "hs": "9405",
           "priceUS": "$29-59",
           "certNeeded": [
@@ -1461,75 +906,178 @@
       ]
     },
     {
-      "trend": "银发科技/养老经济 (2026-06-04)",
-      "score": 361.6,
-      "avgGrowth": 93.8,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X) + 社交(YouTube)",
-      "signalCount": 6,
+      "trend": "宠物科技 (2026-06-04)",
+      "score": 145.2,
+      "avgGrowth": 50.3,
+      "sources": "社交(Instagram) + 社交(TikTok)",
+      "signalCount": 3,
       "topSignals": [
-        "BSR US #8: 银发助行电动轮椅折叠款",
-        "BSR JP #3: 银发防跌倒智能手表",
-        "Lazada（东南亚） SG: 智能血压计蓝牙APP同步",
-        "TikTok热词: #SeniorTech (12B views)"
+        "TikTok热词: #AmazonFinds (9B views)",
+        "TikTok热词: #PetLovers (50B views)",
+        "Instagram热词: Pet Fashion (1820M posts)"
       ],
       "products": [
         {
-          "name": "防跌倒智能感应夜灯套装(4个)",
-          "targetMarket": "JP/SG/US",
-          "hs": "9405",
-          "priceUS": "$35-55",
+          "name": "宠物GPS+健康监测项圈",
+          "targetMarket": "Global",
+          "hs": "8517",
+          "priceUS": "$69+$9.99/月",
           "certNeeded": [
-            "UL",
+            "FCC",
             "CE",
-            "RCM"
+            "ICASA"
           ],
-          "channel": "亚马逊/OTTO",
-          "timeline": "全年刚需"
+          "channel": "亚马逊+DTC订阅",
+          "timeline": "全年，促销节点Q4"
         },
         {
-          "name": "蓝牙血压计+APP血压日历",
-          "targetMarket": "JP/SG/US",
-          "hs": "9019",
-          "priceUS": "$45-79",
+          "name": "自动猫咪喂食器AI识别",
+          "targetMarket": "Global",
+          "hs": "8479",
+          "priceUS": "$89-149",
           "certNeeded": [
-            "FDA Class II 510k",
-            "CE MDR",
-            "PSE"
+            "FCC",
+            "CE",
+            "PSC(JP)"
           ],
-          "channel": "亚马逊+药店渠道",
+          "channel": "Shopee+亚马逊+TikTok",
           "timeline": "全年"
         },
         {
-          "name": "便携折叠轻量电动轮椅<15kg",
-          "targetMarket": "JP/SG/US",
-          "hs": "8713",
-          "priceUS": "$799-1299",
+          "name": "宠物摄像头双向对话+零食投喂",
+          "targetMarket": "Global",
+          "hs": "8525",
+          "priceUS": "$59-99",
           "certNeeded": [
-            "FDA Class I",
-            "CE",
-            "TGA"
+            "FCC",
+            "CE"
           ],
-          "channel": "医疗器械经销商+亚马逊",
+          "channel": "亚马逊+TikTok Shop",
+          "timeline": "全年"
+        }
+      ]
+    },
+    {
+      "trend": "美容健康 (2026-06-04)",
+      "score": 143.6,
+      "avgGrowth": 60.8,
+      "sources": "社交(Instagram) + 社交(TikTok)",
+      "signalCount": 4,
+      "topSignals": [
+        "TikTok热词: #TikTokMadeMeBuyIt (56B views)",
+        "TikTok热词: #SkincareRoutine (33B views)",
+        "Instagram热词: Functional Fitness (1301M posts)",
+        "Instagram热词: Halal Beauty (1062M posts)"
+      ],
+      "products": [
+        {
+          "name": "射频EMS冷敷美容仪合一",
+          "targetMarket": "Global",
+          "hs": "8543",
+          "priceUS": "$129-199",
+          "certNeeded": [
+            "FDA",
+            "CE",
+            "PSE"
+          ],
+          "channel": "TikTok Shop+亚马逊",
+          "timeline": "全年"
+        },
+        {
+          "name": "颈部加热按摩仪3D揉捏",
+          "targetMarket": "Global",
+          "hs": "9019",
+          "priceUS": "$49-89",
+          "certNeeded": [
+            "FCC",
+            "CE",
+            "PSE"
+          ],
+          "channel": "亚马逊+Shopee",
+          "timeline": "全年(礼品属性)"
+        },
+        {
+          "name": "Sunrise闹钟灯+白噪音机",
+          "targetMarket": "Global",
+          "hs": "9405",
+          "priceUS": "$35-65",
+          "certNeeded": [
+            "FCC",
+            "CE"
+          ],
+          "channel": "亚马逊+TikTok",
+          "timeline": "全年"
+        }
+      ]
+    },
+    {
+      "trend": "出行/电动车 (2026-06-04)",
+      "score": 101.1,
+      "avgGrowth": 45.1,
+      "sources": "社交(X) + 社交(YouTube)",
+      "signalCount": 4,
+      "topSignals": [
+        "YouTube热词: AI Gadget Reviews (7B views)",
+        "YouTube热词: EV Review 2026 (12B views)",
+        "X热词: Happy Friday Eve (107K posts)",
+        "X热词: The Chevy (286K posts)"
+      ],
+      "products": [
+        {
+          "name": "折叠电动自行车20英寸轻量",
+          "targetMarket": "Global",
+          "hs": "8711",
+          "priceUS": "$599-899",
+          "certNeeded": [
+            "UL",
+            "CE",
+            "EN15194"
+          ],
+          "channel": "亚马逊+独立站",
+          "timeline": "春夏旺季"
+        },
+        {
+          "name": "EV便携充电器Type2 7kW",
+          "targetMarket": "Global",
+          "hs": "8504",
+          "priceUS": "$199-349",
+          "certNeeded": [
+            "CE",
+            "TUV",
+            "UL"
+          ],
+          "channel": "亚马逊+独立站",
+          "timeline": "全年"
+        },
+        {
+          "name": "E-Cargo电动货运自行车",
+          "targetMarket": "Global",
+          "hs": "8711",
+          "priceUS": "$2499-3999",
+          "certNeeded": [
+            "CE",
+            "EN15194"
+          ],
+          "channel": "本地经销商+B2B",
           "timeline": "全年"
         }
       ]
     },
     {
       "trend": "清洁家电 (2026-06-04)",
-      "score": 317.5,
-      "avgGrowth": 63.0,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X)",
-      "signalCount": 7,
+      "score": 100.7,
+      "avgGrowth": 9.5,
+      "sources": "社交(TikTok) + 社交(YouTube)",
+      "signalCount": 3,
       "topSignals": [
-        "BSR US #6: 洗地机湿干两用大吸力",
-        "BSR JP #4: 超薄静音空气净化器",
-        "BSR SA #1: 空气净化器HEPA沙尘专用",
-        "Allegro（东欧） PL: 智能空气净化器HEPA+负离子"
+        "TikTok热词: #TikTokMadeMeBuyIt (56B views)",
+        "TikTok热词: #CleanTok (46B views)",
+        "YouTube热词: Robot Vacuum Test (5B views)"
       ],
       "products": [
         {
           "name": "洗地机湿干两用大吸力",
-          "targetMarket": "JP/PL/SA/US",
+          "targetMarket": "Global",
           "hs": "8509",
           "priceUS": "$179-299",
           "certNeeded": [
@@ -1542,7 +1090,7 @@
         },
         {
           "name": "扫地机器人激光导航",
-          "targetMarket": "JP/PL/SA/US",
+          "targetMarket": "Global",
           "hs": "8509",
           "priceUS": "$299-499",
           "certNeeded": [
@@ -1554,7 +1102,7 @@
         },
         {
           "name": "HEPA空气净化器(甲醛数显)",
-          "targetMarket": "JP/PL/SA/US",
+          "targetMarket": "Global",
           "hs": "8421",
           "priceUS": "$129-249",
           "certNeeded": [
@@ -1569,20 +1117,17 @@
     },
     {
       "trend": "游戏电竞 (2026-06-04)",
-      "score": 310.9,
-      "avgGrowth": 48.8,
-      "sources": "BSR + 本土电商 + 社交(TikTok) + 社交(X)",
-      "signalCount": 5,
+      "score": 61.2,
+      "avgGrowth": 6.2,
+      "sources": "社交(TikTok)",
+      "signalCount": 1,
       "topSignals": [
-        "BSR SA #3: 游戏周边机械键盘RGB",
-        "Noon/Amazon.ae（中东） SA: 电竞椅Pro+腰靠套装",
-        "AliExpress（全球） BR/MX/SA: 全屋LED灯带RGB Music Sync 10m",
-        "TikTok热词: #GameSetup (35B views)"
+        "TikTok热词: #GameSetup (48B views)"
       ],
       "products": [
         {
           "name": "电竞机械键盘热插拔RGB",
-          "targetMarket": "BR/MX/SA",
+          "targetMarket": "Global",
           "hs": "8471",
           "priceUS": "$59-129",
           "certNeeded": [
@@ -1594,7 +1139,7 @@
         },
         {
           "name": "电竞椅人体工学Pro",
-          "targetMarket": "BR/MX/SA",
+          "targetMarket": "Global",
           "hs": "9401",
           "priceUS": "$199-399",
           "certNeeded": [
@@ -1606,7 +1151,7 @@
         },
         {
           "name": "RGB灯条+桌面灯板套装",
-          "targetMarket": "BR/MX/SA",
+          "targetMarket": "Global",
           "hs": "9405",
           "priceUS": "$29-69",
           "certNeeded": [
@@ -1618,5 +1163,471 @@
         }
       ]
     }
-  ]
+  ],
+  "trade_news": [
+    {
+      "title": "Trump’s tariffs are pushing Mexico back toward low-value exports - The Detroit News",
+      "summary": "Trump’s tariffs are pushing Mexico back toward low-value exports&nbsp;&nbsp;The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3hJU19OQkhwQmw2dE84cWVPQ21nNVIyc1ZiMXlibXRuQU04TU0wRXZFVTZNRGp4VWw4SnpUaC1RUTRtT0cyTU9zcmxVdDl5c3dyQTRINW4zUjk4UldiSC05b25PTmxFZC1MYVd5M0lUYnhpbmNGT0JLWVpVdFhnTGgzbHhIY0hzdndOdDNwRWgyNXdYU3JVa2tzblgwaTVwb2J6STQwa3FwME12MndkOG9hNG1XQ0FublZXYjl5R3BLaXRwZ1JlY3Fn?oc=5",
+      "src": "Bloomberg",
+      "src_full": "Bloomberg Economics",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 27 May 2026 13:33:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Section 122 Global Tariffs Invalidated by the Court of International Trade: Ruling and Next Steps - Gibson Dunn",
+      "summary": "Section 122 Global Tariffs Invalidated by the Court of International Trade: Ruling and Next Steps&nbsp;&nbsp;Gibson Dunn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUkxyN1JiblhYOTJldUFRMElCSlZJaHBpRHljaGZiVF9YeW5zUkJOS0RFSmY5d1NPWmpxVnlUYldQbWhUTnhWRVZhX3JUQmx5cXNYOHhRRXNuNHd6LUpIWjhWSERvZ2FVdHlKdHBlWmRsSUJmb3hDOXdHMkxIaGVDTkxuQWFHWTRmRjFmV0x0QTJ0QlZYelBWMV9ZN2xycTI2Ynp1aTE2MU1KZjlTeWhGaUJPcW8xVjRnWkdSdWs3Snktdw?oc=5",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 13 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal - Supply Chain Dive",
+      "summary": "Importers weigh lawsuits as Trump’s 10% global tariff faces appeal&nbsp;&nbsp;Supply Chain Dive",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0NpYnRQZmFmRExqY3pvUUExSS1YcHNZUUdKNVBQeFhMOElBZG1MOUJtaUQzRkZHdjRuaG1oa01ndV9XdEhXMHRFNGt5ekN0VGREWWtxYkFReUNLaU9YRU81SXBMQXJxRjhtWlN4OTN3M0Nva0pic0tBb3BXdlhEQnFIel8yUno4SVFWNXFqMjg2d0VIeURXZXhGcUpxQTE1MG5IazEzZndNU1JxM0E?oc=5",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 13 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Court of International Trade Rejects 10% Section 122 Tariff: What Businesses Should Know While the Appeal Proceeds - War",
+      "summary": "Court of International Trade Rejects 10% Section 122 Tariff: What Businesses Should Know While the Appeal Proceeds&nbsp;&nbsp;Ward and Smith, P.A.",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaXJ2ZkNEMWp1SDlzaWVUQVBaOG9FWjZaWlJmWEUwTExYVWJaZllTTXk3cjhLMGh1bGxUdHNnOUhKMWJad1A0cEpBVTVpSkV2dVBwQUF2alF3dHZON0hiS1d0YjdITV9PQlFuQi1INjdFdFUta3E1Mk5WOHJGd0c2M2w1dFZKVU1yZGVfRHl5enU5eC01bUdwRlNZdkNHUDhVUnphZ2VZWEhqcW9aUEdGX0UwbmVJYWZLN004cVo5UDBZcjVhYVVDZFZaR1hyajd2czUzd2hLZ213MWpucXlPREpuZw?oc=5",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 13 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says - CNBC",
+      "summary": "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says&nbsp;&nbsp;CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlU0RHFoaTZCWTVvcGd0VlhONEtFeXk3cDVzUFQ5cGRwbDJyUXJrdUFoR1dUdk1ZYkRGclh0NXpEZl8wWktIeU5PLUVyOUxfUHVHanlJeWZMbmRPTWdTWDRTNXpqU2pWMVZhb0kwazY1NG1ZSVZ0ZUNoRENTVk96QUpvY0JvbTlfVHpYcHZR0gGTAUFVX3lxTE9VaEtRRzd4Uk1PdHNaV2ZLQzFOc1VPZFVheVhlejV5NVB6a0sxQU5HanlXLUhBUW9XWUFYenNpdHMxZ1Flb2tsd0xqZjRnNHVESVJQY3ViQVVyck5XUFNfREp4WDlSSU5DVkc2Y1RnZUZqVzNiY2VhTjlBcnplTzNtbU5zZXh0ZEZ5YU9lQ2NzbzItRQ?oc=5",
+      "src": "OPEC",
+      "src_full": "OPEC Secretariat",
+      "tag": "energy",
+      "risk": "low",
+      "pub_time": "Wed, 13 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Middle East port update: Wednesday, May 6 - Lloyd's List",
+      "summary": "Middle East port update: Wednesday, May 6&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLW12OEc3eTdGcDlyU2lsMDhuVlE1dHVGMy1UOGNkNElrRmliZDJLNmZ3WEZSUFpIUGJVZ3N4bDNGNmhtZ1Q4Vmd5T2lWdkZRTno2YUJtaXN6MWxoZFlNTnpxTDVHMTYwbjhqYUJtZ0ZmWTMyOGRfemdDRDcwQk1kcU9R?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Wed, 06 May 2026 10:00:23 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "USTR Initiates Second Four-Year Review of Section 301 Tariff Actions on Imports of Certain Chinese Products - thompsonhi",
+      "summary": "USTR Initiates Second Four-Year Review of Section 301 Tariff Actions on Imports of Certain Chinese Products&nbsp;&nbsp;thompsonhinesmartrade.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMHBBR3pSTHoyR0Z2dlRtTmY0NGJFLThPVVhmX3MtUGhOdldJTDdLSUN3UW5BcFZlNGs3RXVQd0RRUTJhV3RkVHVGTVAyek9rdU1GR0dCRllkS2hLZWxKZVczaGNRb1RZZHFNT01SLUQxb21sUnVwN1lRSmFxQW9OdWpNYjJFb05VdV9BUDJKUXhoYWxSR1I0NjNJZTZHSUFYV1BtWE1DMGhyeXFtWndVc20wWmFaVmtybnd6cWRqV0ttQ2ZnUUdOalB2d0pPcHJnRVExY21nTEJXcDFpZzREeVRHYUxZMnhhd3c?oc=5",
+      "src": "USTR 301",
+      "src_full": "USTR Section 301 Investigation",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Wed, 06 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "USTR to review China tariffs as Section 301 takes center stage - Supply Chain Dive",
+      "summary": "USTR to review China tariffs as Section 301 takes center stage&nbsp;&nbsp;Supply Chain Dive",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTVVtVGx6R05MN0tKT3pLSDlBTFhzTzhmSWx0azA3Slhxa0R5bzlKUjBLUlFWZ052TE1UaER0RzZsSG9KSEtEOEp0dUx3WFNveTlUSzRzcTVpb3drZG50TUZOMG94RmZDSUZDeGNHTUx5X0FLQkFnRFR5SzlwOFNpX0RxVDJpZWxrZ1VhaTVSNEZpTkhRRjNmMWlwaUw0dVBsSHVQUmxma2Z6ZlE?oc=5",
+      "src": "USTR 301",
+      "src_full": "USTR Section 301 Investigation",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Wed, 06 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Yemen’s Houthis Ready to Join Iran War if Needed, Raising New Shipping Risk - EnergyNow.com",
+      "summary": "Yemen’s Houthis Ready to Join Iran War if Needed, Raising New Shipping Risk&nbsp;&nbsp;EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1RvZTBldy1KRkRoR0hMYUJHVFRxd2w3R19DdzJfa3pqbHQ4TGpaWUdsTUx1LU5Wb1BPbmJKWUs4b2pnUXgtTVZ5ZlhhSXNUVG5Bek9FV3pwbURtd2JNZWdQUTBuaENyaVNVSVc4aE40RlQwYnBHZ3BlZmZENWZUN2hSeVlVQzhXaFE2S2xCeFk3SVVUZWVOZU9OSVFvd2dHMEplT3VwQQ?oc=5",
+      "src": "Red Sea",
+      "src_full": "Red Sea Shipping Crisis",
+      "tag": "shipping",
+      "risk": "high",
+      "pub_time": "Wed, 03 Jun 2026 23:14:44 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Middle East port update: Wednesday, June 3 - Lloyd's List",
+      "summary": "Middle East port update: Wednesday, June 3&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlpmc0VqX2ZFNDhFVUIyWW10M1lLd3plclZON3BuQkNXOXVMQTBNcXM0QWZJYWNGa0RPSDF4ODdCbm51bGJVc05JMDYwdFBySnZlRXE0N2dPc25MZXVKR1hQMzJYTXZ4MXY3MzZ5N2FYZHJIRHlGYlR0NzB4bXNzYWhGcw?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Wed, 03 Jun 2026 13:31:26 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Delegation of Tariff Authority by Other Means - Just Security",
+      "summary": "Delegation of Tariff Authority by Other Means&nbsp;&nbsp;Just Security",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcTJaV1pwZGthZzJSLXdaUFhvY1U1eW5MVmVMdkM0UllBYjlkeXZ1MmRxMkstdDI5aWRFTkpqeFIwaFFCUmZOS1pjT3B6a2RWRGNiNVE3YVVISU1HemdlTkF3aFA1MHQ3NEVMYXVkUF8xN25vSmdsNzdjVFdMcDlPek1B?oc=5",
+      "src": "USTR 301",
+      "src_full": "USTR Section 301 Investigation",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Tue, 26 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Maersk back in the Red Sea: Drewry - FreightWaves",
+      "summary": "Maersk back in the Red Sea: Drewry&nbsp;&nbsp;FreightWaves",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83MFZMaEJpSlplZHdVSmNFSDJtdFU5SHVJM1hnU2h4UERwc2pjZ3NrUHVqYlRvb2c0eWx3MkRmLXZZZzJlWnBEQkdLMzRhZWRWdk5fWXdRaHhsSlVlUmRNWVBSakVBTHNhSG54cXpGZThBWWtzeXc?oc=5",
+      "src": "Red Sea",
+      "src_full": "Red Sea Shipping Crisis",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Tue, 19 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Tariff uncertainty pushes automakers toward supply chain localization and factory automation - Automotive News",
+      "summary": "Tariff uncertainty pushes automakers toward supply chain localization and factory automation&nbsp;&nbsp;Automotive News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45cnNxVlA5X0oyX3dDVWJZVW51czMxNHhmQ3NfX1Rvdnk4TUJtYWh5YmVCR3VFSy0xTEFXcS0zZWdBb2pyY2k3SVFNRjZOMzlLTkRoLTFEVk43UkdEOXlLQkpKazYtTTBqd0h6S2JiOWgxbER5NFhwNA?oc=5",
+      "src": "Bloomberg",
+      "src_full": "Bloomberg Economics",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Thu, 21 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Global Trade Update (May 2026): Invisible barriers – the costs of non-tariff measures | - UN Trade and Development (UNCT",
+      "summary": "Global Trade Update (May 2026): Invisible barriers – the costs of non-tariff measures |&nbsp;&nbsp;UN Trade and Development (UNCTAD)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamFPU1Bfc3d2RnFmMmk1dnBaZ1BoQTV3LVlrZ1ZPLTFNOUlTNElZWlVYRFg0ZTdpa1Zsa083TUlPNFFjR09KcGJKVEU0a1Q4UEt2TDF4dTZERDNFRkhZaUJEcDE0dTUwLWtPSEZpdWpvTTFFbkktUk9FT0VZZUlLaXlCZm52VzZBMWlIZEhfV3k1TUxHUkh3Vm1QeHlYSmRzYnB6T2tDVQ?oc=5",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Thu, 07 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Donald Trump’s 10% global tariff ruled illegal by US court - Financial Times",
+      "summary": "Donald Trump’s 10% global tariff ruled illegal by US court&nbsp;&nbsp;Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTVmeHZLeEpSeTh1WGN3ckRxdlhEQi1nY01xcmhURkx3aGpkQkh1Yk80ZkJXbmVFanc0MXpiSk9QOHJTY3JEVDRvYzZYV1luMHFwb2xPdmFSWjBoTm0xX1Y1Y0NJaW43YUVGNHJWaURycWFabndQR2NWb0RFeDQ3UmpQOEs?oc=5",
+      "src": "FT Trade",
+      "src_full": "Financial Times",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Thu, 07 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Don’t expect shipping to snap back to normalcy with a US-Iran agreement - Lloyd's List",
+      "summary": "Don’t expect shipping to snap back to normalcy with a US-Iran agreement&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdC1FREFkYWUxZjJ2R3VyQkQ3bGxmNzlfUzlhQjB1RDJyS194WGlWWjNrSTBEOXE2QWlnSV9idjZ3VGpoQkQzT08xcGhsbU8xZFBUOWZiWFY0VW5LWFdoQVRKN3g2R0dzaGRfQUNkNURDNUIycEpVeUU0Rlhmb1RxYnFpQ0JwQXlWSDBYc294LTgtVUJIdHpkRURuTVVvTWR2bmtMbERwUG45VldyTzZJampZLTFxV2s?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Thu, 07 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "The Daily View: In the Strait of Hormuz, shipping is now choosing between bad and worse - Lloyd's List",
+      "summary": "The Daily View: In the Strait of Hormuz, shipping is now choosing between bad and worse&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYllBeGFCMkVubUMyRHQzcWMxNi01VkhzdjdvR01Pd3hIaHhJdEpDU3lLQTU3WEZEbjFtVi1xZmVleldSMWhvdGpTVHVqd2RyVFdMMHRWQmgtZjJ2cTBkVEd3dUZzUDJmZUZVRmp6S1ZMNGVCWmItcUZPc1d6OS1vQVJCWjFHbU1DbUp0UnVrdGNldGZRWWNnTG5LbnY1RDR4cWtaYmVXa1RybnhkQ0VIZUt0NEhBbWJ0dzFNbnoyMA?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Thu, 04 Jun 2026 09:03:01 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Emerging Houthi–Al-Shabaab co-operation and the growing threat to Red Sea shipping - The Conversation",
+      "summary": "Emerging Houthi–Al-Shabaab co-operation and the growing threat to Red Sea shipping&nbsp;&nbsp;The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS0dGOHlFQVlFMHhpT0xqYnJZLThOblFyOFRSbEJ2eEttWFB1WlEwNmJrcXFqbk1XSFV0anNqN3lTZG9WMDBfSXVTeFZuWWdaMGU5Z0doVmRTLURicEdOdUxCNkY0SGxMbXpORVptbG9PNWQyRlJYYWpGd1Zja3ZUWHBjNHFtRzZ5ZXlHZndnV3BPOG1aZ2hEVWRweU1TR3gyVmpjREpSQmtKNDFMVHNJaGxBdV8yaTRq?oc=5",
+      "src": "Red Sea",
+      "src_full": "Red Sea Shipping Crisis",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Sun, 31 May 2026 16:23:24 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "White House says Donald Trump and Xi Jinping agreed on ‘board of trade’ at summit - Financial Times",
+      "summary": "White House says Donald Trump and Xi Jinping agreed on ‘board of trade’ at summit&nbsp;&nbsp;Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUi1DV2V2Z3N0bm1oRUplSVVfRzFaUlUydXEwdUJJRGNiV1B0Wnp0N2xBXzBaSWptV0g3V2M3VmRHcERjXzZZcUxTRGh0dUd3UlA4NnBRRVZrcERiU18xXzQ4cFlwVDBseGdRU1hmT2tRWHVTUV9sVDRJamM2Zlc4eG04VkY?oc=5",
+      "src": "FT Trade",
+      "src_full": "Financial Times",
+      "tag": "trade",
+      "risk": "low",
+      "pub_time": "Sun, 17 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "No one wins a trade war. Or do they? - Financial Times",
+      "summary": "No one wins a trade war. Or do they?&nbsp;&nbsp;Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOEJDN1pqUW5Rb3RQb1VycUN1YXJlWEFqVFpPN2JDajVDSFBTdWphVkhQOUxOdm9wZGVxbTZKRjVYVGdUbUtQSU1QbFNsbTBicldpb2hpcmpzb1UwRFRCNTNIOWQ2d1BtWmV4TGtDNTNOS1FXcUZpMDdoU0lTMUE1aDVDNXk?oc=5",
+      "src": "FT Trade",
+      "src_full": "Financial Times",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Sat, 23 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Fragile Iran ceasefire appears to hold as Iran warns the U.S. against attacks on its oil tankers and other ships - PBS",
+      "summary": "Fragile Iran ceasefire appears to hold as Iran warns the U.S. against attacks on its oil tankers and other ships&nbsp;&nbsp;PBS",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTEJ4TXJQWVhvR1BDcTlveEE1Z0JuQTNsNmRtdEtfczFtLWNwOWlTUTFlQkpNdkE2c2NjS1BqajdWN243UnhHUFppTF9MX2RQRzlkZ2gyRTM3b1h5RVpwMTVraklUOUVZYk1qU2QxU0FaLUU4UVB6UUh2S3ZYODU1U1hNMjFINkZ6Ym5uVlFaQVhaSkl4ZzA2cDdyMGpfVU1Pd1JuZjZXNHdtSmNmbFRFOWo0aHVoSnJ4Tm90VDZBdEVRUjNheEVwX1BOeWRmeDg3eWJMbjFWZ0l1NHYtQTF30gHkAUFVX3lxTE41Y2h1MG8yUDR5Y3JvLTY5bVBObkVneXp1VDdUbW43T05BM3JNTy1YSVRtQVhzOHUwZHJnS09MNU1iSUFIVTlVLWlyNlU5VU9pZnZpWkU0enhGbnZUaDgzMU12bzlWSWZuUjlwMnQ0MG1fVUd6VUJlcEJnVW1CTFVMMnRCZEJ4QkZhQXdRRlgwU011TmlWRnJCdUFIUXlPWm9ONmdWOVRoS3VHR09pNG1vSV85elRTdGVqSmpZMGFtVEpLT01ZU2JiTzhnMEI4U1FuaFJmQzVzNFFoa3VhajBfMlhDNA?oc=5",
+      "src": "Middle East",
+      "src_full": "Middle East Conflict & Trade",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Sat, 09 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Trump loses his trade superpower - Financial Times",
+      "summary": "Trump loses his trade superpower&nbsp;&nbsp;Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3RXMzgxaEFzWlVJcWkyQXdpSTRzUkNydW1GbkN5ZVdCSnoxaDJYbXNvREdrLTBjdTh2WkhtZGZxR2NZOG5lajJQV0Nld3BHWlI0a04zZ3NGTlgwbEpSeHFGemR0TTFkelFucWx3Z09JdW5xcmR5V2VlSVdfS080SGZVVU4?oc=5",
+      "src": "FT Trade",
+      "src_full": "Financial Times",
+      "tag": "trade",
+      "risk": "low",
+      "pub_time": "Mon, 11 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Lasting Truce Is Elusive After Week of Traded Attacks - The New York Times",
+      "summary": "Lasting Truce Is Elusive After Week of Traded Attacks&nbsp;&nbsp;The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
+      "src": "Middle East",
+      "src_full": "Middle East Conflict & Trade",
+      "tag": "trade",
+      "risk": "low",
+      "pub_time": "Mon, 11 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds - Reuters",
+      "summary": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds&nbsp;&nbsp;Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFkyWS1GOUpEZ2ZONlZDWXJJVjV0QWg4N1hzYU5Vc1oxQld5dnRQeWlOY0hTS0pvQkFnQldPN3FBM3VsN1hfTGttM3g5WU1YbFY4bXhWbGFCRGxMYThQZDgwTG9oWXBlRmRBa1RNb1BkRWZCX3FVMldPbHkwTmtmcTVPNml0N1VpVG4zUFExaHlnT1JIZVo1WmVsbHItMU9WcnlnUzdtVS1KSHV2dThrb1hCTFNnd2taVmNsMzNJaGk0ci1iQTlzVllVbHM?oc=5",
+      "src": "OPEC",
+      "src_full": "OPEC Secretariat",
+      "tag": "energy",
+      "risk": "low",
+      "pub_time": "Mon, 11 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War - Crude Oil Prices Today | OilPrice.com",
+      "summary": "Reuters Survey Shows OPEC Oil Output At 26-Year Low Amid Iran War&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHE5NXYwTmJobk1rZ0ZOWktYRWN1bVhneHl2RDdNWmRVNGhDRUQ2aUZTRG9mbVE2WTlGamtCbVBDUFBsWWRRYWVpZ0JaQkpCYzlOeW1SaGtNTE05UHJSY2ZWVDZKLVRNREhSZWJtTDBPSmpZNDY3Ry1SNlNzY1p0eFIwYlZWSDRYSlJGSEp5X0VPbXVKRzRSUGRNMk85THVFWmNJb1pBai1pZTUtTWc5X19EaDNoNHJwSHc3T19B0gHDAUFVX3lxTFB2RTQweFk5ZjVEdE9hdk45bFJDbUNzY2t0ZVNSNlV4S01penVUdEFQWTdNWjZCYWVSV2dpelJaLTZUUmtESjJpVkhzWnFmN1JTcU5LckR2X3JDLXZya1pBZmN5Ums3TjVHTXczdkp3bzlyRkxSZ2N4MmJtQTFOaG0tSC1CYjlmeFctcDE1eU1EdE55dVJoSVItR2VMWkdxb0FkeU1RVkVJSlBxOVpidkFkZFQ2MDZCbll4eEJVSGVPZlVjdw?oc=5",
+      "src": "OPEC",
+      "src_full": "OPEC Secretariat",
+      "tag": "energy",
+      "risk": "high",
+      "pub_time": "Mon, 11 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Cosco Shipping Ports to win Tarragona terminal concession in first European expansion for years - Lloyd's List",
+      "summary": "Cosco Shipping Ports to win Tarragona terminal concession in first European expansion for years&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM1dZRER3aDZ3T3ZsdTdXclAtVERRM1I3bHBqdWJzejRsY3NqMXprUGdnTEtPNVA2T0hiUmpaQ2d5RVZQUnh6SDc3SmwxVlpOejJsaF9vOWNMOV90c2JzOVFYOXRtbHYxdkNjUGlkOTRKSUx4VDN0Z1lzSDZpY2t4SGtNUXhyYXdseU14Y3FJVDdOY3dLX2lnRnU5S1pzbHdIdWZqdGVkc1JSODRLcGx3bWJIanM2bVBHLTN5MFNheGlUeWRJclNtMC00N1k?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Mon, 01 Jun 2026 13:22:48 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Trump Tariff Tracker – May 8, 2026 (via Passle) - Baker Botts",
+      "summary": "Trump Tariff Tracker – May 8, 2026 (via Passle)&nbsp;&nbsp;Baker Botts",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeHdnb3ZnUmVOTXlvWjVYeEJwNG9MdWxVdmZWUi1rVjhiMFhlanpPbzZGSHFhN05KdExZbFpnQ0VGZVFxWGhIZTZLTEFFTFVRNS13eWI3UDMxMWY2SEEzdldZTjBaWmtaXzJDU0U0aFNnbVZvTTJac0pPNDF0RFpBYw?oc=5",
+      "src": "USTR 301",
+      "src_full": "USTR Section 301 Investigation",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Fri, 08 May 2026 07:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Maersk mulls potential Red Sea return as hopes rise over US-Iran deal - Journal of Commerce",
+      "summary": "Maersk mulls potential Red Sea return as hopes rise over US-Iran deal&nbsp;&nbsp;Journal of Commerce",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFVCdDVCd2w4YzQ0bzFUaGZfMU9NT3U3N0MwMnpmbld2SEN2ZjloWVVRZHBpTHgzb2U0dkNUeGMzczdHYVJVY1JyTXpidngyRk9BZ0RmZlNKSHNkV2Z6RFVvbXRWOHFqVHFkQm1ucHZvY1Z2NENxT2pJNkhueEQzVXp6ZmZHRXRLNUlUek5MSWtsVGFmMGJjQVhrbW5KNnJnY0V1cWJFZ0o?oc=5",
+      "src": "Red Sea",
+      "src_full": "Red Sea Shipping Crisis",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Fri, 08 May 2026 07:00:00 GMT",
+      "lang": "en"
+    }
+  ],
+  "risk_indicators": {
+    "scfi_index": 1812,
+    "scfi_change": -1.5,
+    "oil_price": null,
+    "risk_level": "medium"
+  },
+  "freight_pricing": {
+    "container": [],
+    "bulk": [
+      {
+        "title": "Dry-Bulk Shipping Rates Hit Two-Year High on Capesize Demand - gCaptain",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSlVGejl3ay1DaGw4SXJOcTY1RzhNUEpVdVdORXFlWnROczl3VjMzQl8xOVN2a1NLN09XSHZMZEJIY0d3Mjk0RkJOdWdSMWM2ZVZQcXAwTmNCNnZWSTg3WXExR3V1VW9na2RQdnhCQzZoOTVmdnFyZnNTYThBX2pjUkpRdll6ZjF1WHc?oc=5"
+      },
+      {
+        "title": "Dry-Bulk Shipping Rates Hit Two-Year High on Capesize Demand - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOUtvZVBEWXlveDZZZE1UMTI1WmlJZ1BWTkdleEk3RkhPUnlHY1VYVUlfVHFJYnBUYTlKSTlHb0NrN254dTdJQm1NeWt6U0ZscnI1dFRHdlF6ZS1XaVlRU3lDY19xeHloU2JDVW5fNXR5MnJfeHBxenVrbkdpVHl5am03bjdXakxVcFF0NjFXOG04XzVyOU0yVjN0Q2g0ZzNpWVJaRUdKSVIzZDVWZVZLdA?oc=5"
+      },
+      {
+        "title": "Baltic Exchange Dry Bulk Index Falls 1.4% on Friday, Capesize Segment Declines 2.3% - News and Statistics - IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOXB0ZE1oSTY1bU9sbHVhdVY3cm5yM2hFRHk4THBtcGN2MnU5Z0J1SUNLTHB4Y2VmV2ZZRURCWEtlOHNSdzRFeTlPeGd4THhhRHZKZ3NURlYxLXM0N3FtdGxWSUJpU1VjaktVdHBNM2hMeDN5cHlqajQ3ZS1xVS1IcE9MOXlxeF9CTlFnR1VHMnFYWXNDdHJQUA?oc=5"
+      },
+      {
+        "title": "BOAT Investors: Watch These 2 Shipping Rates Before the Next Quarterly Payout - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbTVJV25MUTVJVjVUdENQVmlJREhLaElZd00tLUViOVpFc2tuYW1PQ2U4M2N1aC1zeXlwMDc0WEpuR0lhNFBFQmJQaWVTaHFLZDJLeUVoM25oTUNHaW4tTnk0Y3hxb1ZYYkVkTm5mXzFDaUM3Mk9Ramlza0FPbXhlZmVJaGJKM0JraFZwaEw1R211bFFGMkpFX1RJbHIyWU95VHdIbmEya0hkQzNic0ZZR0pGeDAzNERfWDVHdg?oc=5"
+      },
+      {
+        "title": "Broad gains across vessel types lift Baltic Exchange dry bulk index - Baird Maritime",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNW9pYjhyS3dsbTg4cUZZbVpvNlBOYTVLcnJUT1lOVVRBRWdSTjBuSklYQm5wRk5yZDVMUDhKc05QRWVVcm5IeTVjSDJvMEc2bWhzd3dWVGhpVHdQV0hlczBVU1BPY1NnVklld1VEdkZOUjJKRFkxc055cy12VmFQQlR4WjNIaERSZ08zdHFPZ0QyNWxiS2FqNEFBbzh1UUR5TnpUd05QajRKdHhLc2daZEJ1dHI1M0FVa1l0cEx1RHdPd9IBzwFBVV95cUxNOWlZRzNNYVJlM0dPUGM5b2l0V19HVVdNR3dlT2NVYktmU21HcHhtc2J1ZTR2bVl2T0RCYWxSa3d3bzlmZU4zSWpRWGdHSVpMRHFHNjREY2REakZLVHBWTl9rajJHNG1iUExVbUdXRm9XUzNmd3NWZTRQbWxVNHZSdGxFYWtySUNOT0t4TzhLLVJMV1Z6RGRkN2J5ZnBHNkt3RWVlQVMyNE9ZanR0czF3N0hrWWtrdmtOODZzTmZ4eUJLVGIwQVlPSnJkdnR2YlE?oc=5"
+      }
+    ],
+    "rail": [],
+    "air": [
+      {
+        "title": "Middle East Escalation Disrupts Global Ocean and Air Freight Networks - Flexport",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG1WTXpHcWJlOVFxeUZDa2Y5aVJ5b3VLM3NUVzZZM0ZaQ05FYkRoNHVHT0VYMG5BTldZYS1faERGNHNWRE5QU25kdDJnQ0k1N3hwWElYcGNBMUs1cWQxUTh1NlFFN0ZuTXZ3OFNFVkVvaGxQcWV3S203cDVnbHA4M1FZaFdrSXItTU1JeG5aMjNzZlNyVmliSThyQ0RIS0xLR1E?oc=5"
+      },
+      {
+        "title": "Rates finally start to ease as jet fuel prices fall - Air Cargo News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTE5MWZuOC1GdmcxNE5ZY3BsOWY4OHVEWGJuUGFxV2FCejM3WEtrMzc5V2ZFeXVaMGpXS25VaG9ONUhRSW1KRXBZSFR2cmNRakx0NHNPdG0wM1RBaTI0MW91VVdVdHFYVURrUHV5cnc2alQySkg3TDNNSmxwbWM0TTV1QWZNZktZY2o3ald6eVFFMlU0SXVfalVR?oc=5"
+      },
+      {
+        "title": "GLOBAL AIR CARGO SPOT RATES HIT A THREE-YEAR HIGH IN APRIL, BUT MARKET FUNDAMENTALS WILL CALM COSTS FOR SHIPPERS - Xenet",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPakQ0QW5WM0xVWDVrdFh3QjNBckZHRFhWV25DY3oxVEhxaWo4OHQ4LXpnY2pCQ1hTVnBBOGQ2ZlB3SWlpZUtZb2QyRW5UZUJ4RnJhd1ZNTUhZSnN5UWJLS0E3Mm1OQUE3OTRNeURGUGwtQnhtTUIxS2dvYnB2aUZFVEdQRlM4YjVPNlIxQkJMVzZyT3F4UDc0M3hTSEdDWl8teGRabllFMkpJVXpRMWdQcG1QWWcyaHRDZlA1TG0ySjAxWS02LUR4cnoyUjk0MmhJMmR3LVZB?oc=5"
+      },
+      {
+        "title": "News Air freight rates slide as new year brings return of seasonality - The Loadstar",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVS01bTJMWnF6T0h4R0hKX21xLTUtRFp0NFZ0RE9ZTTZYNWgzamxkMDNrWlljaGFoWnVCaEk4LXlSQmZoMTRwMkxhSTNORHRaOGc5WDI5a3hMM1hhSDFzNmU1SHBLUkNmWGRpU25HVndNV2ZQSXU1b1BOTVpNQUt5Uk5PVjJmUFBPUUxFaUZnclp3dzg?oc=5"
+      },
+      {
+        "title": "Asia-Europe air cargo rates remain elevated as Gulf tensions escalate - Journal of Commerce",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXVEYmxiNFF1VDFjYVd6UFQ4czFqYjVuWkxfdURmUW1oajN5ZExleDJmM2pPVklhNnlNRVR2YzlRRHllWWs3XzRhQVcwYnVicXlEN3Z5ZWNHUU0tSk5ZQjF2VTZNY1ROVzRMNDRZZ2hKM1FubU1wM3NzcXlKUW1vUmhIQ01LZlM3bXFfamw3N1ZRLWp1WHpMWlFsYTBVR3Y1LV95ZGpteHI?oc=5"
+      }
+    ],
+    "rates": {
+      "container_40gp": {
+        "asia_europe_coh": 3260.55,
+        "asia_north_america_west": 2548.1,
+        "asia_north_america_east": 2978.0,
+        "asia_southeast_asia": 357.69,
+        "asia_middle_east": 1182.43,
+        "asia_south_america": 3698.06,
+        "asia_africa_east": 2032.51,
+        "asia_oceania": 1407.52
+      },
+      "bulk_per_ton": {
+        "asia_europe": 27.66,
+        "asia_north_america": 23.66,
+        "asia_south_america": 32.2,
+        "asia_africa": 26.13,
+        "asia_middle_east": 18.5
+      },
+      "rail_40gp": {
+        "china_poland": 4268.54,
+        "china_germany": 4721.86,
+        "china_france": 4995.7,
+        "china_spain": 5336.6,
+        "china_russia": 3192.14,
+        "china_central_asia": 2485.27
+      },
+      "air_per_kg": {
+        "china_europe": 4.46,
+        "china_north_america": 4.79,
+        "china_middle_east": 2.94,
+        "china_southeast_asia": 1.68,
+        "china_south_america": 6.98,
+        "china_africa": 5.34,
+        "china_oceania": 3.93
+      }
+    }
+  },
+  "risk_hotspots": {
+    "red_sea": {
+      "name": "红海-曼德海峡",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "",
+      "updated": "2026-06-04"
+    },
+    "hormuz": {
+      "name": "霍尔木兹海峡",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "",
+      "updated": "2026-06-04"
+    },
+    "israel_gaza": {
+      "name": "以色列-加沙",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "",
+      "updated": "2026-06-04"
+    },
+    "taiwan": {
+      "name": "台湾海峡",
+      "headlines": [
+        "China vs Taiwan: The Geography of an Unfinished War - The Jerusalem Strategic Tribune",
+        "China’s Navy Is Shifting Pressure Beyond the Taiwan Strait - The Diplomat – Asia-Pacific",
+        "Seized ship taken toward Iran as Trump and China's Xi agree Strait of Hormuz \"must remain open\" - CB"
+      ],
+      "latest_date": "Fri, 22 May 2026 11:12:13 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlVmpxVlZEWXJrd0R0V0U5SS1WNmNPbTJndUN0aDBHbEMyT0hDSHF4OVZVNmFRWERTUzRIQVUxSnJjYlJUb01kdXM4RmgyU1hCbGlxM21HSTFvZzdSZnl1blVJakM3c3Q5ZHpWbEl4aURFbzJJcWJLM0UwUVBBdw?oc=5",
+      "updated": "2026-06-04"
+    },
+    "panama": {
+      "name": "巴拿马运河",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlVmpxVlZEWXJrd0R0V0U5SS1WNmNPbTJndUN0aDBHbEMyT0hDSHF4OVZVNmFRWERTUzRIQVUxSnJjYlJUb01kdXM4RmgyU1hCbGlxM21HSTFvZzdSZnl1blVJakM3c3Q5ZHpWbEl4aURFbzJJcWJLM0UwUVBBdw?oc=5",
+      "updated": "2026-06-04"
+    },
+    "south_china_sea": {
+      "name": "南海争议区",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlVmpxVlZEWXJrd0R0V0U5SS1WNmNPbTJndUN0aDBHbEMyT0hDSHF4OVZVNmFRWERTUzRIQVUxSnJjYlJUb01kdXM4RmgyU1hCbGlxM21HSTFvZzdSZnl1blVJakM3c3Q5ZHpWbEl4aURFbzJJcWJLM0UwUVBBdw?oc=5",
+      "updated": "2026-06-04"
+    },
+    "ukraine_blacksea": {
+      "name": "乌克兰-黑海",
+      "headlines": [
+        "Threat to global food security: Russia hits three foreign-flagged merchant ships in Ukraine's Black ",
+        "Could Russia Follow the “Hormuz Playbook” in the Baltic and Black Seas? - War on the Rocks",
+        "Russian Drone Strikes on Foreign Ships Raise Fresh Black Sea Security Fears - Modern Diplomacy"
+      ],
+      "latest_date": "Fri, 29 May 2026 19:35:26 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQlFRRm5CY0oteHNkVzdLME8tVGRKdG43S2Y5a1VPQUQyWlUxVGZCZ1lqQjNpZTBMVTFRUGNsdlVGVTJESlNlSEpzcHFPZjhxY2hmc3NKQUdlRjVUWHRJamxpOXB6Nl84OGtHd0ROdzY1RWNKV0ptNmctZkxwYnAtRTczY01jTy1rSjh2UTJ3djlVUnphUjFtLVVYMVZ4TGlZcl9neDZlSmZPTmhqdEtCVWxwNUZ2aTBFbUduUVRqaWFuZGdTVUxqb0ZUOGhqcWVtOEVzcU50R0Znb1lySVY4NjRHOUc?oc=5",
+      "updated": "2026-06-04"
+    },
+    "us_tariff": {
+      "name": "美国关税壁垒",
+      "headlines": [],
+      "latest_date": "",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQlFRRm5CY0oteHNkVzdLME8tVGRKdG43S2Y5a1VPQUQyWlUxVGZCZ1lqQjNpZTBMVTFRUGNsdlVGVTJESlNlSEpzcHFPZjhxY2hmc3NKQUdlRjVUWHRJamxpOXB6Nl84OGtHd0ROdzY1RWNKV0ptNmctZkxwYnAtRTczY01jTy1rSjh2UTJ3djlVUnphUjFtLVVYMVZ4TGlZcl9neDZlSmZPTmhqdEtCVWxwNUZ2aTBFbUduUVRqaWFuZGdTVUxqb0ZUOGhqcWVtOEVzcU50R0Znb1lySVY4NjRHOUc?oc=5",
+      "updated": "2026-06-04"
+    }
+  }
 }
