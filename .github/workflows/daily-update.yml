@@ -1,17 +1,18 @@
-name: Daily Trending Data Update
+name: Daily Data Update (Trending + Trade News + Risk)
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'    # UTC 00:00 = 北京 08:00
+    - cron: '0 12 * * *'   # UTC 12:00 = 北京 20:00
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-trending:
+  update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,6 +32,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "📊 Update trending data $(date -u +%Y-%m-%d)"
+            git commit -m "📊 Update data: trending + trade news + risk $(date -u +%Y-%m-%d %H:%M)"
             git push
           fi
