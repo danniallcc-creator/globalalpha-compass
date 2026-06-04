@@ -135,9 +135,15 @@ input[type=range]{accent-color:#60a5fa}
     </div>
 
     <!-- Customs -->
-    <div class="card p-8 mb-10">
+    <div class="card p-8 mb-8">
       <h2 class="text-xl font-bold mb-6">&#128674; 海关数据看板</h2>
-      <div id="customs-content" class="grid md:grid-cols-3 gap-8"></div>
+      <div id="customs-content"></div>
+    </div>
+
+    <!-- Industry Trends from 跨境智库 -->
+    <div class="card p-8 mb-10">
+      <h2 class="text-xl font-bold mb-6">&#128218; 跨境智库 · 行业趋势洞察</h2>
+      <div id="industry-trends-content"></div>
     </div>
   </div>
 </div>
@@ -673,37 +679,118 @@ var COMPLIANCE = [
 ];
 
 // ============================================================
-// 价格模板
+// 国家核心需求品类数据库
+// ============================================================
+var COUNTRY_CORE_DEMANDS = {
+  '美国':   { '储能':'家庭备电/户外露营储能柜', '家电':'智能空气炸锅/扫地机器人', '玩具':'STEM教育玩具/IP手办', '家具':'RTA扁平包装组装家具', '服装':'运动休闲Athleisure', '陶瓷':'高端餐具套装', '灯具':'智能家居LED', '医疗器械':'CGM连续血糖监测仪', 'default':'高附加值消费电子及智能硬件' },
+  '德国':   { '储能':'户用光储系统/阳台储能', '家电':'高能效A级节能家电', '玩具':'木质环保积木/桌游', '家具':'可持续FSC认证实木家具', '服装':'可持续认证户外服饰', '陶瓷':'工业级精密陶瓷', '灯具':'商业照明LED替换', '医疗器械':'精密诊断设备', 'default':'高品质工业品及绿色消费品' },
+  '英国':   { '储能':'家庭应急备电系统', '家电':'厨房智能小家电', '玩具':'益智编程机器人', '家具':'北欧风现代简约家具', '服装':'可持续快时尚', '陶瓷':'骨瓷茶具礼品', '灯具':'庭院景观灯串', '医疗器械':'家用健康监测设备', 'default':'品质生活消费品及设计品牌' },
+  '法国':   { '储能':'户用储能+EV充电', '家电':'高端厨电/美容仪', '玩具':'文创IP联名产品', '家具':'设计师款软体家具', '服装':'高端时尚配饰', '陶瓷':'艺术陶瓷装饰品', '灯具':'设计师灯饰', '医疗器械':'医美设备', 'default':'时尚设计及高端消费品' },
+  '澳大利亚':{ '储能':'离网太阳能储能系统', '家电':'户外BBQ小家电', '玩具':'户外运动益智玩具', '家具':'户外庭院家具', '服装':'防晒运动服饰', '陶瓷':'建筑装饰瓷砖', '灯具':'太阳能户外灯具', '医疗器械':'远程医疗终端', 'default':'户外生活方式产品及资源加工设备' },
+  '日本':   { '储能':'便携式储能电源', '家电':'静音高品质小家电', '玩具':'动漫IP衍生品/扭蛋', '家具':'极简收纳多功能家具', '服装':'机能面料/UNIQLO风', '陶瓷':'日用精致餐具', '灯具':'氛围感照明', '医疗器械':'老龄护理辅具', 'default':'精细化高品质日用消费品' },
+  '韩国':   { '储能':'ESS家用储能', '家电':'美容个护家电', '玩具':'K-POP周边/潮玩', '家具':'单身公寓小型家具', '服装':'K-Fashion潮流服饰', '陶瓷':'韩式餐具套装', '灯具':'智能调光灯具', '医疗器械':'医美注射器械', 'default':'潮流消费电子及美容个护' },
+  '加拿大': { '储能':'极寒户外储能设备', '家电':'节能暖通设备', '玩具':'户外冰雪玩具', '家具':'环保板材家具', '服装':'加厚保暖户外服', '陶瓷':'家居装饰陶艺', '灯具':'全屋智能照明', '医疗器械':'家用诊断设备', 'default':'高品质生活消费品' },
+  '巴西':   { '储能':'离网光伏储能', '家电':'性价比智能家电', '玩具':'足球/户外运动玩具', '家具':'热带风格实木家具', '服装':'嘉年华/沙滩/运动服饰', '陶瓷':'建筑瓷砖地砖', '灯具':'商业照明工程', '医疗器械':'基层诊所基础设备', 'default':'性价比高的工业品及日用消费品' },
+  '印度':   { '储能':'离网太阳能家用储能', '家电':'空调/净水器/风扇', '玩具':'低价益智拼图', '家具':'婚庆豪华家具', '服装':'婚庆/宗教节日服饰面料', '陶瓷':'日用陶瓷杯碗', '灯具':'太阳能路灯', '医疗器械':'基层CT/B超/监护仪', 'default':'基础设施建材及大规模消费品' },
+  '越南':   { '储能':'工商业储能系统', '家电':'空调/洗衣机/冰箱', '玩具':'中低端塑料玩具', '家具':'出口代工原材料/配件', '服装':'代工面料辅料', '陶瓷':'工业陶瓷/卫浴', '灯具':'工厂照明系统', '医疗器械':'基础监护设备', 'default':'制造业配套原材料及设备' },
+  '印尼':   { '储能':'海岛离网储能', '家电':'热带制冷空调', '玩具':'穆斯林文化教育玩具', '家具':'藤编/热带木材家具', '服装':'穆斯林Modest Fashion', '陶瓷':'清真餐具/建筑砖', '灯具':'清真寺/商业照明', '医疗器械':'基层医疗整包方案', 'default':'穆斯林文化消费品及基建材料' },
+  '墨西哥': { '储能':'家用+工业备电', '家电':'厨房家电/空调', '玩具':'传统节日玩具', '家具':'美式乡村风格家具', '服装':'近岸代工出口美国', '陶瓷':'装饰彩绘陶瓷', '灯具':'城市景观照明', '医疗器械':'口腔/外科器械', 'default':'面向美国市场的中转加工品及内需消费品' },
+  '沙特':   { '储能':'沙漠高温储能系统', '家电':'大型全屋空调/净化', '玩具':'高端智能玩具礼品', '家具':'宫廷豪华定制家具', '服装':'高端长袍Thobe/Abaya', '陶瓷':'宫殿装饰瓷砖/金边餐具', '灯具':'超大水晶灯/宫殿照明', '医疗器械':'高端影像设备', 'default':'高端奢华消费品及大型基建项目材料' },
+  '阿联酋': { '储能':'智能建筑储能', '家电':'高端智能家居全套', '玩具':'奢侈品牌玩具/乐高旗舰', '家具':'奢侈品牌家具', '服装':'奢侈品/设计师品牌', '陶瓷':'高端进口装饰瓷砖', '灯具':'智慧城市/商业综合体照明', '医疗器械':'高端医疗旅游设备', 'default':'高端奢侈消费品及智慧城市基建设备' }
+};
+
+// ============================================================
+// 海关出口历史数据（近3年出口金额/增速/TOP5国家）
+// ============================================================
+var CUSTOMS_EXPORT_DATA = {
+  '850760': { name:'锂电储能', data:[ {yr:'2024',amt:231,yoy:17}, {yr:'2023',amt:198,yoy:27}, {yr:'2022',amt:156,yoy:100} ],
+    top5:[ {c:'美国',amt:68,yoy:22}, {c:'德国',amt:35,yoy:31}, {c:'英国',amt:21,yoy:18}, {c:'日本',amt:19,yoy:12}, {c:'澳大利亚',amt:15,yoy:25} ] },
+  '850100': { name:'电机/发电机', data:[ {yr:'2024',amt:185,yoy:8}, {yr:'2023',amt:171,yoy:11}, {yr:'2022',amt:154,yoy:15} ],
+    top5:[ {c:'美国',amt:42,yoy:10}, {c:'越南',amt:28,yoy:18}, {c:'印度',amt:22,yoy:25}, {c:'德国',amt:18,yoy:5}, {c:'墨西哥',amt:14,yoy:12} ] },
+  '847100': { name:'计算机', data:[ {yr:'2024',amt:1520,yoy:3}, {yr:'2023',amt:1475,yoy:-5}, {yr:'2022',amt:1553,yoy:-8} ],
+    top5:[ {c:'美国',amt:380,yoy:5}, {c:'荷兰',amt:210,yoy:8}, {c:'日本',amt:145,yoy:-2}, {c:'德国',amt:120,yoy:3}, {c:'韩国',amt:95,yoy:6} ] },
+  '720800': { name:'钢材', data:[ {yr:'2024',amt:620,yoy:12}, {yr:'2023',amt:554,yoy:8}, {yr:'2022',amt:513,yoy:-3} ],
+    top5:[ {c:'韩国',amt:95,yoy:8}, {c:'越南',amt:88,yoy:22}, {c:'泰国',amt:62,yoy:15}, {c:'印度',amt:55,yoy:18}, {c:'菲律宾',amt:42,yoy:10} ] },
+  '691100': { name:'陶瓷', data:[ {yr:'2024',amt:118,yoy:5}, {yr:'2023',amt:112,yoy:7}, {yr:'2022',amt:105,yoy:7} ],
+    top5:[ {c:'美国',amt:28,yoy:3}, {c:'沙特',amt:18,yoy:12}, {c:'阿联酋',amt:14,yoy:15}, {c:'英国',amt:12,yoy:2}, {c:'澳大利亚',amt:9,yoy:8} ] },
+  '870300': { name:'汽车', data:[ {yr:'2024',amt:980,yoy:35}, {yr:'2023',amt:726,yoy:62}, {yr:'2022',amt:448,yoy:85} ],
+    top5:[ {c:'俄罗斯',amt:195,yoy:48}, {c:'墨西哥',amt:120,yoy:55}, {c:'比利时',amt:98,yoy:30}, {c:'英国',amt:85,yoy:25}, {c:'泰国',amt:72,yoy:20} ] },
+  '870800': { name:'汽车零配件', data:[ {yr:'2024',amt:420,yoy:10}, {yr:'2023',amt:382,yoy:12}, {yr:'2022',amt:341,yoy:8} ],
+    top5:[ {c:'美国',amt:95,yoy:8}, {c:'日本',amt:52,yoy:5}, {c:'德国',amt:48,yoy:12}, {c:'墨西哥',amt:38,yoy:18}, {c:'韩国',amt:32,yoy:10} ] },
+  '070900': { name:'蔬菜', data:[ {yr:'2024',amt:85,yoy:6}, {yr:'2023',amt:80,yoy:4}, {yr:'2022',amt:77,yoy:3} ],
+    top5:[ {c:'越南',amt:18,yoy:10}, {c:'马来西亚',amt:14,yoy:8}, {c:'日本',amt:12,yoy:3}, {c:'韩国',amt:10,yoy:5}, {c:'泰国',amt:8,yoy:6} ] },
+  '030300': { name:'水产品', data:[ {yr:'2024',amt:145,yoy:5}, {yr:'2023',amt:138,yoy:3}, {yr:'2022',amt:134,yoy:-2} ],
+    top5:[ {c:'日本',amt:32,yoy:4}, {c:'美国',amt:25,yoy:6}, {c:'韩国',amt:22,yoy:8}, {c:'泰国',amt:15,yoy:3}, {c:'欧盟',amt:12,yoy:5} ] },
+  '854200': { name:'集成电路', data:[ {yr:'2024',amt:1180,yoy:15}, {yr:'2023',amt:1026,yoy:-8}, {yr:'2022',amt:1115,yoy:-5} ],
+    top5:[ {c:'中国香港',amt:320,yoy:18}, {c:'越南',amt:165,yoy:35}, {c:'韩国',amt:142,yoy:12}, {c:'日本',amt:98,yoy:5}, {c:'马来西亚',amt:85,yoy:22} ] },
+  '851713': { name:'智能手机', data:[ {yr:'2024',amt:1380,yoy:8}, {yr:'2023',amt:1278,yoy:-3}, {yr:'2022',amt:1318,yoy:-10} ],
+    top5:[ {c:'中国香港',amt:285,yoy:5}, {c:'印度',amt:180,yoy:25}, {c:'荷兰',amt:145,yoy:10}, {c:'阿联酋',amt:95,yoy:15}, {c:'日本',amt:88,yoy:3} ] },
+  '940500': { name:'灯具', data:[ {yr:'2024',amt:280,yoy:8}, {yr:'2023',amt:259,yoy:5}, {yr:'2022',amt:247,yoy:10} ],
+    top5:[ {c:'美国',amt:72,yoy:10}, {c:'德国',amt:32,yoy:6}, {c:'英国',amt:25,yoy:8}, {c:'日本',amt:20,yoy:3}, {c:'澳大利亚',amt:18,yoy:12} ] },
+  '901800': { name:'医疗器械', data:[ {yr:'2024',amt:380,yoy:9}, {yr:'2023',amt:350,yoy:-10}, {yr:'2022',amt:390,yoy:-19} ],
+    top5:[ {c:'美国',amt:82,yoy:12}, {c:'德国',amt:45,yoy:8}, {c:'日本',amt:38,yoy:5}, {c:'印度',amt:32,yoy:22}, {c:'英国',amt:28,yoy:10} ] },
+  '540200': { name:'纺织面料', data:[ {yr:'2024',amt:350,yoy:4}, {yr:'2023',amt:337,yoy:-2}, {yr:'2022',amt:344,yoy:5} ],
+    top5:[ {c:'越南',amt:82,yoy:10}, {c:'孟加拉国',amt:55,yoy:8}, {c:'印度',amt:42,yoy:12}, {c:'印尼',amt:35,yoy:6}, {c:'土耳其',amt:28,yoy:3} ] },
+  '620300': { name:'服装', data:[ {yr:'2024',amt:1820,yoy:2}, {yr:'2023',amt:1780,yoy:-4}, {yr:'2022',amt:1850,yoy:8} ],
+    top5:[ {c:'美国',amt:380,yoy:3}, {c:'日本',amt:210,yoy:-1}, {c:'德国',amt:145,yoy:2}, {c:'英国',amt:120,yoy:5}, {c:'韩国',amt:95,yoy:4} ] },
+  '950300': { name:'玩具', data:[ {yr:'2024',amt:385,yoy:7}, {yr:'2023',amt:360,yoy:-5}, {yr:'2022',amt:380,yoy:-7} ],
+    top5:[ {c:'美国',amt:125,yoy:10}, {c:'英国',amt:42,yoy:5}, {c:'德国',amt:35,yoy:3}, {c:'日本',amt:28,yoy:8}, {c:'澳大利亚',amt:22,yoy:6} ] },
+  '850900': { name:'家用电器', data:[ {yr:'2024',amt:740,yoy:4}, {yr:'2023',amt:710,yoy:-7}, {yr:'2022',amt:760,yoy:-7} ],
+    top5:[ {c:'美国',amt:165,yoy:6}, {c:'英国',amt:72,yoy:3}, {c:'德国',amt:65,yoy:5}, {c:'日本',amt:55,yoy:2}, {c:'澳大利亚',amt:48,yoy:8} ] },
+  '940300': { name:'家具', data:[ {yr:'2024',amt:560,yoy:4}, {yr:'2023',amt:540,yoy:-8}, {yr:'2022',amt:590,yoy:-13} ],
+    top5:[ {c:'美国',amt:185,yoy:5}, {c:'英国',amt:52,yoy:3}, {c:'德国',amt:45,yoy:2}, {c:'澳大利亚',amt:38,yoy:8}, {c:'加拿大',amt:35,yoy:6} ] },
+  '640300': { name:'鞋类', data:[ {yr:'2024',amt:420,yoy:3}, {yr:'2023',amt:408,yoy:-2}, {yr:'2022',amt:416,yoy:5} ],
+    top5:[ {c:'美国',amt:115,yoy:4}, {c:'俄罗斯',amt:52,yoy:15}, {c:'英国',amt:38,yoy:2}, {c:'德国',amt:32,yoy:3}, {c:'日本',amt:28,yoy:1} ] },
+  '420200': { name:'箱包', data:[ {yr:'2024',amt:320,yoy:5}, {yr:'2023',amt:305,yoy:-3}, {yr:'2022',amt:314,yoy:6} ],
+    top5:[ {c:'美国',amt:88,yoy:6}, {c:'日本',amt:42,yoy:3}, {c:'英国',amt:28,yoy:4}, {c:'韩国',amt:22,yoy:8}, {c:'德国',amt:20,yoy:2} ] },
+  '210690': { name:'食品', data:[ {yr:'2024',amt:195,yoy:8}, {yr:'2023',amt:181,yoy:6}, {yr:'2022',amt:171,yoy:10} ],
+    top5:[ {c:'日本',amt:38,yoy:5}, {c:'美国',amt:32,yoy:10}, {c:'韩国',amt:25,yoy:8}, {c:'东南亚',amt:22,yoy:12}, {c:'中国香港',amt:18,yoy:3} ] },
+  '100600': { name:'粮食', data:[ {yr:'2024',amt:52,yoy:4}, {yr:'2023',amt:50,yoy:6}, {yr:'2022',amt:47,yoy:8} ],
+    top5:[ {c:'非洲',amt:18,yoy:10}, {c:'东南亚',amt:12,yoy:5}, {c:'韩国',amt:8,yoy:3}, {c:'日本',amt:6,yoy:2}, {c:'中东',amt:5,yoy:8} ] },
+  '999999': { name:'通用商品', data:[ {yr:'2024',amt:500,yoy:6}, {yr:'2023',amt:472,yoy:4}, {yr:'2022',amt:454,yoy:8} ],
+    top5:[ {c:'美国',amt:120,yoy:8}, {c:'欧盟',amt:95,yoy:5}, {c:'东南亚',amt:72,yoy:12}, {c:'日本',amt:55,yoy:3}, {c:'中东',amt:42,yoy:10} ] }
+};
+
+// ============================================================
+// 价格模板（含竞品链接）
 // ============================================================
 var PRICING = {
-  '储能':   [['北美','USD','299-899',[['EcoFlow Delta','899'],['Jackery 500','499']]],
-             ['欧洲','EUR','250-750',[['Bluetti EB3A','299'],['Anker SOLIX','599']]],
-             ['澳洲','AUD','399-999',[['EcoFlow RIVER','599']]],
-             ['日本','JPY','35000-95000',[['BLUETTI EB70','49800']]]],
-  '家具':   [['北美','USD','150-600',[['IKEA KALLAX','199'],['Wayfair Sofa','499']]],
-             ['欧洲','EUR','120-500',[['IKEA BILLY','59'],['Made.com','320']]],
-             ['澳洲','AUD','200-700',[['Temple & Webster','350']]],
-             ['日本','JPY','15000-60000',[['MUJI','25000']]]],
-  '玩具':   [['北美','USD','20-80',[['LEGO Set','45'],['Barbie','25']]],
-             ['欧洲','EUR','15-70',[['Playmobil','35'],['Ravensburger','28']]],
-             ['东南亚','USD','8-35',[['Local Brand','12']]],
-             ['日本','JPY','2000-8000',[['Bandai','3500']]]],
-  '家电':   [['北美','USD','50-300',[['Instant Pot','80'],['Ninja AF','120']]],
-             ['欧洲','EUR','40-250',[['Philips','150'],['Braun','80']]],
-             ['澳洲','AUD','80-400',[['Breville','180']]],
-             ['东南亚','USD','30-150',[['Xiaomi','60']]]],
-  '服装':   [['北美','USD','30-150',[['Zara Jacket','89'],['H&M Dress','45']]],
-             ['欧洲','EUR','25-120',[['Mango','75'],['Reserved','35']]],
-             ['日本','JPY','3000-15000',[['Uniqlo','4500']]],
-             ['东南亚','USD','10-60',[['Local Brand','15']]]],
-  '鞋':     [['北美','USD','60-250',[['Nike Air','130'],['Adidas','110']]],
-             ['欧洲','EUR','50-200',[['Ecco','150'],['Camper','130']]],
-             ['日本','JPY','8000-25000',[['Asics','12000']]],
-             ['东南亚','USD','20-80',[['Local','30']]]],
-  'default':[['北美','USD','80-500',[['Brand A','299'],['Brand B','149']]],
-             ['欧洲','EUR','60-400',[['EU Brand','199']]],
-             ['东南亚','USD','30-200',[['Local','89']]],
-             ['中东','USD','50-300',[['Regional','150']]]]
+  '储能':   [['北美','USD','299-899',[['EcoFlow Delta','899','https://www.ecoflow.com/delta-2-portable-power-station'],['Jackery 500','499','https://www.jackery.com/products/explorer-500-portable-power-station']]],
+             ['欧洲','EUR','250-750',[['Bluetti EB3A','299','https://www.bluettipower.com/products/eb3a'],['Anker SOLIX','599','https://www.anker.com/products/anker-solix-c1000-portable-power-station']]],
+             ['澳洲','AUD','399-999',[['EcoFlow RIVER 2','599','https://www.ecoflow.com/au/river-2-portable-power-station']]],
+             ['日本','JPY','35000-95000',[['BLUETTI EB70','49800','https://www.bluettipower.co.jp/products/eb70']]]],
+  '家具':   [['北美','USD','150-600',[['IKEA KALLAX','199','https://www.ikea.com/us/en/p/kallax-shelf-unit-white-20275814/'],['Wayfair Sofa','499','https://www.wayfair.com/furniture/sb0/sofas-c413892.html']]],
+             ['欧洲','EUR','120-500',[['IKEA BILLY','59','https://www.ikea.com/de/de/p/billy-buecherregal-weiss-00263850/'],['Made.com','320','https://www.made.com/sofas']]],
+             ['澳洲','AUD','200-700',[['Temple & Webster','350','https://www.templeandwebster.com.au/furniture.html']]],
+             ['日本','JPY','15000-60000',[['MUJI','25000','https://www.muji.com/jp/ja/store/cmdty/section/S107']]]],
+  '玩具':   [['北美','USD','20-80',[['LEGO Set','45','https://www.lego.com/en-us/themes'],['Barbie','25','https://www.barbie.com/shop']]],
+             ['欧洲','EUR','15-70',[['Playmobil','35','https://www.playmobil.com/en-gb'],['Ravensburger','28','https://www.ravensburger.com/en-gb/shop']]],
+             ['东南亚','USD','8-35',[['Shopee Toys','12','https://shopee.sg/Toys-Games-cat.11041670']]],
+             ['日本','JPY','2000-8000',[['Bandai','3500','https://www.bandai.co.jp/catalog/']]]],
+  '家电':   [['北美','USD','50-300',[['Instant Pot','80','https://www.amazon.com/dp/B00FLYWNYQ'],['Ninja Air Fryer','120','https://www.ninjakitchen.com/air-fryers/']]],
+             ['欧洲','EUR','40-250',[['Philips','150','https://www.philips.com/c-m-ho/cooking/airfryer'],['Braun','80','https://www.braun.com/en-gb/household']]],
+             ['澳洲','AUD','80-400',[['Breville','180','https://www.breville.com/au/en/home.html']]],
+             ['东南亚','USD','30-150',[['Xiaomi','60','https://www.mi.com/global/product/home-appliances']]]],
+  '服装':   [['北美','USD','30-150',[['Zara Jacket','89','https://www.zara.com/us/en/woman-outerwear-l1114.html'],['H&M Dress','45','https://www2.hm.com/en_us/women/new-arrivals.html']]],
+             ['欧洲','EUR','25-120',[['Mango','75','https://shop.mango.com/en/women'],['Reserved','35','https://www.reserved.com/gb/en/']]],
+             ['日本','JPY','3000-15000',[['Uniqlo','4500','https://www.uniqlo.com/jp/ja/']]],
+             ['东南亚','USD','10-60',[['Shopee Fashion','15','https://shopee.sg/Women-Clothes-cat.11012819']]]],
+  '鞋':     [['北美','USD','60-250',[['Nike Air','130','https://www.nike.com/w/air-max-shoes-a4dahzy7ok'],['Adidas','110','https://www.adidas.com/us/shoes']]],
+             ['欧洲','EUR','50-200',[['Ecco','150','https://www.ecco.com/en-gb/'],['Camper','130','https://www.camper.com/en_GB/']]],
+             ['日本','JPY','8000-25000',[['Asics','12000','https://www.asics.com/jp/ja-jp/']]],
+             ['东南亚','USD','20-80',[['Shopee Shoes','30','https://shopee.sg/Men-Shoes-cat.11012964']]]],
+  '陶瓷':   [['北美','USD','30-300',[['Crate & Barrel','85','https://www.crateandbarrel.com/dining-and-entertaining/dinnerware/1'],['Williams Sonoma','150','https://www.williams-sonoma.com/shop/tabletop-bar/dinnerware/']]],
+             ['欧洲','EUR','25-250',[['Villeroy & Boch','120','https://www.villeroy-boch.com/en-gb/shop/tableware.html'],['Royal Doulton','80','https://www.royaldoulton.com/']]],
+             ['中东','USD','50-500',[['Luxury Ceramics','200','https://www.noon.com/en-sa/home-and-kitchen/']]],
+             ['日本','JPY','3000-30000',[['Noritake','8500','https://www.noritake.co.jp/eng/']]]],
+  '医疗器械':[['北美','USD','50-5000',[['Omron BP','80','https://www.omronhealthcare.com/'],['Abbott FreeStyle','199','https://www.freestyle.abbott/']]],
+             ['欧洲','EUR','40-4000',[['Withings','149','https://www.withings.com/'],['Medela','89','https://www.medela.com/']]],
+             ['东南亚','USD','30-500',[['Yuwell鱼跃','45','https://www.yuwell.com/en']]],
+             ['日本','JPY','5000-500000',[['Terumo','15000','https://www.terumo.co.jp/']]]],
+  'default':[['北美','USD','80-500',[['Amazon Best','299','https://www.amazon.com/Best-Sellers/'],['Walmart','149','https://www.walmart.com/']]],
+             ['欧洲','EUR','60-400',[['Amazon EU','199','https://www.amazon.de/']]],
+             ['东南亚','USD','30-200',[['Shopee','89','https://shopee.sg/']]],
+             ['中东','USD','50-300',[['Noon','150','https://www.noon.com/']]]]
 };
 
 // ============================================================
@@ -936,8 +1023,16 @@ function getPricing(cat) {
 // ============================================================
 // 罗盘渲染
 // ============================================================
-function countryCard(c) {
+function countryCard(c, cat) {
   var riskColor = c.risk > 60 ? '#f87171' : c.risk > 40 ? '#fbbf24' : '#4ade80';
+  var demands = COUNTRY_CORE_DEMANDS[c.name] || {};
+  var coreDemand = '';
+  // 匹配品类关键词
+  var demandKeys = Object.keys(demands);
+  for(var i=0;i<demandKeys.length;i++){
+    if(demandKeys[i]!=='default' && cat.indexOf(demandKeys[i])!==-1){ coreDemand=demands[demandKeys[i]]; break; }
+  }
+  if(!coreDemand) coreDemand = demands['default'] || '综合消费品';
   return '<div class="bg-white/5 p-4 rounded-xl border border-white/5 hover:border-blue-400/30 transition-all">' +
     '<div class="flex justify-between items-start">' +
       '<div><div class="font-bold">' + (c.flag||'') + ' ' + c.name + '</div>' +
@@ -948,6 +1043,10 @@ function countryCard(c) {
       '<span>GDP $' + Math.round(c.gdp/1000) + 'k</span>' +
       '<span>增速 ' + c.growth + '%</span>' +
       '<span>人口 ' + (c.pop>=100?Math.round(c.pop/100)+'亿':c.pop+'M') + '</span>' +
+    '</div>' +
+    '<div class="mt-3 pt-3 border-t border-white/5">' +
+      '<div class="text-xs text-blue-400 font-semibold mb-1">&#127919; 核心需求品类</div>' +
+      '<div class="text-xs text-gray-300">' + coreDemand + '</div>' +
     '</div></div>';
 }
 
@@ -966,60 +1065,252 @@ function renderCompass(cat) {
   var compliance = getCompliance(cat);
   var pricing    = getPricing(cat);
 
-  $el('profit-list').innerHTML = compass.profit.map(countryCard).join('');
-  $el('mass-list').innerHTML   = compass.mass.map(countryCard).join('');
-  $el('blue-list').innerHTML   = compass.blue.map(countryCard).join('');
+  $el('profit-list').innerHTML = compass.profit.map(function(c){return countryCard(c,cat);}).join('');
+  $el('mass-list').innerHTML   = compass.mass.map(function(c){return countryCard(c,cat);}).join('');
+  $el('blue-list').innerHTML   = compass.blue.map(function(c){return countryCard(c,cat);}).join('');
+
+  // ===== 行业合规建议（融合工具箱合规+AI建议） =====
+  var compDbCat = getComplianceDBCategory(cat);
+  var compDbData = COMPLIANCE_DB[compDbCat] || {};
+  var usComp = compDbData['US'] || {};
+  var euComp = compDbData['EU'] || {};
+  var jpComp = compDbData['JP'] || {};
+
+  var certHtml = '';
+  if(usComp.cert && usComp.cert.length) certHtml += '<div class="mb-2"><span class="text-xs font-bold text-blue-300">美国:</span> <span class="text-xs text-gray-300">' + usComp.cert.join(', ') + '</span></div>';
+  if(euComp.cert && euComp.cert.length) certHtml += '<div class="mb-2"><span class="text-xs font-bold text-blue-300">欧盟:</span> <span class="text-xs text-gray-300">' + euComp.cert.join(', ') + '</span></div>';
+  if(jpComp.cert && jpComp.cert.length) certHtml += '<div class="mb-2"><span class="text-xs font-bold text-blue-300">日本:</span> <span class="text-xs text-gray-300">' + jpComp.cert.join(', ') + '</span></div>';
+
+  var bannedHtml = '';
+  if(usComp.banned && usComp.banned.length) bannedHtml += '<div class="mb-2"><span class="text-xs font-bold text-red-300">美国:</span> <span class="text-xs text-gray-300">' + usComp.banned.join(', ') + '</span></div>';
+  if(euComp.banned && euComp.banned.length) bannedHtml += '<div class="mb-2"><span class="text-xs font-bold text-red-300">欧盟:</span> <span class="text-xs text-gray-300">' + euComp.banned.join(', ') + '</span></div>';
+
+  var labelHtml = '';
+  if(usComp.label && usComp.label.length) labelHtml += '<div class="mb-2"><span class="text-xs font-bold text-yellow-300">美国:</span> <span class="text-xs text-gray-300">' + usComp.label.join(', ') + '</span></div>';
+  if(euComp.label && euComp.label.length) labelHtml += '<div class="mb-2"><span class="text-xs font-bold text-yellow-300">欧盟:</span> <span class="text-xs text-gray-300">' + euComp.label.join(', ') + '</span></div>';
+
+  // AI产品建议（来自AI趋势选品模块）
+  var aiAdvice = getAIProductAdvice(cat);
 
   $el('compliance-content').innerHTML =
-    '<div class="border-r border-white/10 pr-8">' +
-      '<h3 class="text-blue-400 font-bold mb-3">&#128737; 准入红线 &amp; 认证路径</h3>' +
-      '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.reason + '</p>' +
-      '<p class="text-gray-300 text-sm leading-relaxed mt-3">' + compliance.suggestion + '</p>' +
+    '<div class="grid md:grid-cols-2 gap-6 mb-6">' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<h3 class="text-blue-400 font-bold mb-3 text-sm">&#128737; 准入红线 &amp; 认证路径</h3>' +
+        '<p class="text-gray-300 text-sm leading-relaxed mb-4">' + compliance.reason + '</p>' +
+        '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.suggestion + '</p>' +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<h3 class="text-green-400 font-bold mb-3 text-sm">&#127919; 出海突破口</h3>' +
+        '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.breakthrough + '</p>' +
+        (aiAdvice ? '<div class="mt-4 pt-3 border-t border-white/10"><div class="text-xs text-purple-300 font-bold mb-2">&#129302; AI趋势建议</div><p class="text-xs text-gray-400">' + aiAdvice + '</p></div>' : '') +
+      '</div>' +
     '</div>' +
-    '<div>' +
-      '<h3 class="text-green-400 font-bold mb-3">&#127919; 出海突破口</h3>' +
-      '<p class="text-gray-300 text-sm leading-relaxed">' + compliance.breakthrough + '</p>' +
+    '<div class="grid md:grid-cols-3 gap-4">' +
+      '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+        '<h4 class="text-xs font-bold text-blue-300 mb-3">&#128196; 各市场必需认证</h4>' +
+        (certHtml || '<div class="text-xs text-gray-500">暂无详细认证数据</div>') +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+        '<h4 class="text-xs font-bold text-red-300 mb-3">&#9888;&#65039; 禁限物质 &amp; 标签要求</h4>' +
+        (bannedHtml || '<div class="text-xs text-gray-500">暂无禁限物质数据</div>') +
+        (labelHtml ? '<div class="mt-3 pt-2 border-t border-white/10">' + labelHtml + '</div>' : '') +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+        '<h4 class="text-xs font-bold text-yellow-300 mb-3">&#128736; 海关重点稽查</h4>' +
+        (usComp.customs ? '<div class="text-xs text-gray-300 mb-1">' + usComp.customs.join('; ') + '</div>' : '') +
+        (euComp.customs ? '<div class="text-xs text-gray-300">' + euComp.customs.join('; ') + '</div>' : '<div class="text-xs text-gray-500">暂无稽查数据</div>') +
+      '</div>' +
     '</div>';
 
+  // ===== 全球竞品价格监测（含可点击链接） =====
   var ph = '';
   for(var i=0;i<pricing.length;i++){
     var r=pricing[i], prodH='';
-    for(var j=0;j<r[3].length;j++) prodH+='<div class="flex justify-between text-xs text-gray-400"><span>'+r[3][j][0]+'</span><span>'+r[1]+' '+r[3][j][1]+'</span></div>';
+    for(var j=0;j<r[3].length;j++){
+      var pName=r[3][j][0], pPrice=r[3][j][1], pUrl=r[3][j][2]||'';
+      if(pUrl){
+        prodH+='<div class="flex justify-between text-xs text-gray-400 items-center"><a href="'+pUrl+'" target="_blank" rel="noopener" class="text-blue-400 hover:text-blue-300 underline decoration-dotted truncate mr-2">'+pName+'</a><span class="whitespace-nowrap">'+r[1]+' '+pPrice+'</span></div>';
+      } else {
+        prodH+='<div class="flex justify-between text-xs text-gray-400"><span>'+pName+'</span><span>'+r[1]+' '+pPrice+'</span></div>';
+      }
+    }
     ph+='<div class="card p-5">' +
       '<div class="text-xs text-blue-400 font-bold mb-2">'+r[0]+'</div>' +
       '<div class="text-2xl font-bold mb-3">'+r[1]+' '+r[2]+'</div>' +
-      '<div class="space-y-1">'+prodH+'</div></div>';
+      '<div class="space-y-2">'+prodH+'</div></div>';
   }
   $el('pricing-grid').innerHTML = ph;
 
+  // ===== 海关数据看板（3年出口数据+TOP5国家） =====
   var hs=compliance.hs||'999999', us=compliance.tariff_us||'5-25%', eu=compliance.tariff_eu||'2.7-12%';
+  var cData = CUSTOMS_EXPORT_DATA[hs] || CUSTOMS_EXPORT_DATA['999999'];
+  var yearHtml = '';
+  for(var yi=0;yi<cData.data.length;yi++){
+    var d=cData.data[yi];
+    var yoyColor = d.yoy>=0 ? 'text-green-400' : 'text-red-400';
+    yearHtml += '<div class="flex justify-between items-center py-1 border-b border-white/5"><span class="text-gray-400 text-xs">'+d.yr+'年</span><span class="text-sm font-bold text-blue-300">$'+d.amt+'亿</span><span class="text-xs '+yoyColor+'">'+(d.yoy>=0?'+':'')+d.yoy+'%</span></div>';
+  }
+  var topHtml = '';
+  for(var ti=0;ti<cData.top5.length;ti++){
+    var t=cData.top5[ti];
+    var tColor = t.yoy>=0 ? 'text-green-400' : 'text-red-400';
+    var barW = Math.min(Math.round(t.amt / cData.top5[0].amt * 100), 100);
+    topHtml += '<div class="mb-2"><div class="flex justify-between text-xs mb-1"><span class="text-gray-300">'+t.c+'</span><span class="text-blue-300 font-bold">$'+t.amt+'亿</span><span class="'+tColor+'">'+(t.yoy>=0?'+':'')+t.yoy+'%</span></div><div class="w-full bg-white/5 rounded-full h-1.5"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+barW+'%"></div></div></div>';
+  }
+
   $el('customs-content').innerHTML =
-    '<div>' +
-      '<p class="text-gray-400 text-sm mb-2">HS Code</p>' +
-      '<div class="text-3xl font-bold text-blue-300">' + hs + '</div>' +
-      '<div class="text-xs text-green-400 mt-3">出口额同比增速 +8~15%</div>' +
-    '</div>' +
-    '<div class="border-x border-white/10 px-8">' +
-      '<p class="text-gray-400 text-sm mb-2">风险预警</p>' +
-      '<div class="text-xs text-red-400 space-y-1">' +
-        '<div>&#9657; 欧盟新法规持续更新(2026)</div>' +
-        '<div>&#9657; 美国 301 关税波动风险</div>' +
-        '<div>&#9657; 认证要求随时变化</div>' +
+    '<div class="grid md:grid-cols-3 gap-6 mb-6">' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<p class="text-gray-400 text-sm mb-2">HS Code</p>' +
+        '<div class="text-3xl font-bold text-blue-300">' + hs + '</div>' +
+        '<div class="text-xs text-gray-500 mt-1">' + (cData.name||'') + '</div>' +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
+        '<div class="text-sm space-y-2">' +
+          '<div class="flex justify-between"><span class="text-gray-400">美国</span><span class="font-bold">' + us + '</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span class="font-bold">' + eu + '</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
+          '<div class="flex justify-between"><span class="text-gray-400">中东</span><span>2~5%</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<p class="text-gray-400 text-sm mb-2">&#9888;&#65039; 风险预警</p>' +
+        '<div class="text-xs text-red-400 space-y-1">' +
+          '<div>&#9657; 欧盟CBAM碳边境税2026全面征收</div>' +
+          '<div>&#9657; 美国301关税波动+反规避调查</div>' +
+          '<div>&#9657; 各国认证标准持续更新</div>' +
+        '</div>' +
       '</div>' +
     '</div>' +
-    '<div>' +
-      '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
-      '<div class="text-sm space-y-2">' +
-        '<div class="flex justify-between"><span class="text-gray-400">美国</span><span>' + us + '</span></div>' +
-        '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span>' + eu + '</span></div>' +
-        '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
-        '<div class="flex justify-between"><span class="text-gray-400">中东</span><span>2~5%</span></div>' +
+    '<div class="grid md:grid-cols-2 gap-6">' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<h4 class="text-sm font-bold text-blue-300 mb-3">&#128200; 近3年中国出口金额 &amp; 增速</h4>' +
+        '<div>' + yearHtml + '</div>' +
+      '</div>' +
+      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+        '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP5目的国</h4>' +
+        '<div>' + topHtml + '</div>' +
       '</div>' +
     '</div>';
+
+  // ===== 跨境智库·行业趋势洞察 =====
+  var trendKey = getIndustryTrendKey(cat);
+  var trend = INDUSTRY_TRENDS[trendKey];
+  if(trend){
+    $el('industry-trends-content').innerHTML =
+      '<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-blue-300 mb-2">&#127758; 文化与区域特征</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.culture + '</p>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-green-300 mb-2">&#128176; 消费趋势</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.consumer + '</p>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-yellow-300 mb-2">&#127959;&#65039; 基础设施驱动</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.infra + '</p>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-purple-300 mb-2">&#128101; 人口结构</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.population + '</p>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-red-300 mb-2">&#128220; 政策法规</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.social + '</p>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-4 border border-white/5">' +
+          '<div class="text-xs font-bold text-cyan-300 mb-2">&#127793; 环境因素</div>' +
+          '<p class="text-xs text-gray-300 leading-relaxed">' + trend.environment + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="mt-4 bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-xl p-5 border border-blue-500/20">' +
+        '<div class="text-sm font-bold text-blue-300 mb-2">&#128161; 出海机会点</div>' +
+        '<p class="text-sm text-gray-200 leading-relaxed">' + trend.opportunity + '</p>' +
+      '</div>';
+  } else {
+    $el('industry-trends-content').innerHTML = '<div class="text-gray-500 text-sm">暂无该品类的行业趋势数据，请尝试其他品类关键词。</div>';
+  }
 
   hide('el-loading');
   $el('el-results').style.display = 'block';
   setTimeout(function(){ $el('el-results').scrollIntoView({behavior:'smooth',block:'start'}); }, 100);
+}
+
+// 匹配COMPLIANCE_DB品类
+function getComplianceDBCategory(cat) {
+  var catMap = {
+    '储能':'消费电子', '电池':'消费电子', '手机':'消费电子', '芯片':'消费电子', '集成电路':'消费电子', '电子':'消费电子',
+    '家电':'家用电器', '空调':'家用电器', '冰箱':'家用电器', '洗衣机':'家用电器',
+    '食品':'食品及饮料', '饮料':'食品及饮料', '零食':'食品及饮料', '农产品':'食品及饮料', '水产':'食品及饮料',
+    '服装':'服装及配饰', '衣服':'服装及配饰', '外套':'服装及配饰', '鞋':'服装及配饰',
+    '玩具':'玩具',
+    '医疗':'医疗器械', '器械':'医疗器械',
+    '家具':'家具', '沙发':'家具', '床':'家具',
+    '陶瓷':'消费电子', '灯具':'消费电子'
+  };
+  var keys = Object.keys(catMap);
+  for(var i=0;i<keys.length;i++){
+    if(cat.indexOf(keys[i])!==-1) return catMap[keys[i]];
+  }
+  return '消费电子';
+}
+
+// 匹配行业趋势关键词
+function getIndustryTrendKey(cat) {
+  var trendMap = {
+    '储能':'电气设备及用品', '电池':'电气设备及用品', '电机':'电气设备及用品', '电气':'电气设备及用品',
+    '家电':'家用电器', '空调':'家用电器', '冰箱':'家用电器', '洗衣':'家用电器', '小家电':'家用电器',
+    '食品':'食品及饮料', '饮料':'食品及饮料', '零食':'食品及饮料', '农产品':'农业', '粮食':'农业', '水产':'食品及饮料',
+    '服装':'服装及配饰', '衣服':'服装及配饰', '外套':'服装及配饰', '鞋':'服装及配饰', '纺织':'面料及纺织原材料', '面料':'面料及纺织原材料',
+    '玩具':'家居园艺', '家具':'建材与房地产', '沙发':'建材与房地产', '床':'建材与房地产',
+    '陶瓷':'建材与房地产', '瓷器':'建材与房地产', '建材':'建材与房地产', '水泥':'建材与房地产',
+    '灯具':'电气设备及用品', '照明':'电气设备及用品', 'LED':'电气设备及用品',
+    '医疗':'医疗器械', '器械':'医疗器械',
+    '钢材':'金属与合金', '钢铁':'金属与合金', '铝':'金属与合金', '金属':'金属与合金',
+    '化学':'化学品', '化肥':'化学品', '肥料':'化学品', '农药':'化学品',
+    '汽车':'电气设备及用品', '手机':'消费电子', '芯片':'消费电子', '集成电路':'消费电子',
+    '高新技术':'消费电子', '科技':'消费电子'
+  };
+  var keys = Object.keys(trendMap);
+  for(var i=0;i<keys.length;i++){
+    if(cat.indexOf(keys[i])!==-1) return trendMap[keys[i]];
+  }
+  return '';
+}
+
+// 获取AI产品建议
+function getAIProductAdvice(cat) {
+  // 从TRENDING_DB和动态数据中提取建议
+  var recs = [];
+  if(typeof TRENDING_DB !== 'undefined' && TRENDING_DB.product_recommendations){
+    var pr = TRENDING_DB.product_recommendations;
+    for(var i=0;i<pr.length && recs.length<2;i++){
+      if(pr[i].name && (pr[i].name.indexOf(cat)!==-1 || cat.indexOf(pr[i].category||'')!==-1)){
+        recs.push(pr[i].name + '(增速' + (pr[i].growth||'N/A') + ')');
+      }
+    }
+  }
+  // 如果没有精准匹配，给出通用AI建议
+  if(recs.length===0){
+    var adviceMap = {
+      '储能':'AI建议关注：家用全能源管理系统(HEMS)、光储充一体产品、便携储能向工商业升级方向，2024-2025增速最快的细分为阳台储能和露营储能。',
+      '家电':'AI建议关注：小家电品类爆款迭代快(空气炸锅→洗地机→自动炒菜机)，Matter协议智能家居设备互联是2025-2026核心趋势。',
+      '玩具':'AI建议关注：STEM编程教育玩具溢价明显，成人潮玩/盲盒模式出海成功验证，IP联名产品在Q4圣诞季集中爆发。',
+      '家具':'AI建议关注：扁平化RTA家具跨境物流成本最优，可持续FSC认证是欧盟采购前提，DTC模式和定制化软体家具增速>20%。',
+      '服装':'AI建议关注：穆斯林Modest Fashion市场超3000亿美元，运动休闲Athleisure年增15%，跨境电商小单快反模式是行业标准。',
+      '陶瓷':'AI建议关注：骨瓷餐具DTC品牌出海潜力大，中东宫廷风装饰瓷器定制需求旺盛，景德镇品牌化出海正在加速。',
+      '医疗':'AI建议关注：CGM连续血糖监测是明星赛道，AI辅助诊断设备认证通过率提升，非洲医疗整包项目是中国设备重要出口渠道。',
+      '灯具':'AI建议关注：Matter协议统一后智能灯具互联需求爆发，北美户外景观灯/露营灯持续增长，植物生长灯新蓝海。'
+    };
+    var aKeys = Object.keys(adviceMap);
+    for(var k=0;k<aKeys.length;k++){
+      if(cat.indexOf(aKeys[k])!==-1) return adviceMap[aKeys[k]];
+    }
+    return '该品类建议通过跨境电商平台(亚马逊/TikTok Shop/Temu)测试市场反馈，结合社交媒体热词分析寻找差异化切入点。关注ESG合规趋势对供应链的影响。';
+  }
+  return '热门趋势品：' + recs.join('；');
 }
 
 // ============================================================
