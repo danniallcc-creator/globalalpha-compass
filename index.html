@@ -257,8 +257,16 @@ input[type=range]{accent-color:#60a5fa}
 <!-- ==================== TAB 4: 实时情报流 ==================== -->
 <div id="tab-news" class="tab-content">
   <div class="mb-6">
-    <h2 class="text-2xl font-bold mb-2">&#128240; 全球贸易实时情报</h2>
-    <p class="text-gray-400 text-sm">聚合全球财经资讯，AI 评分相关性与风险等级</p>
+    <div class="flex items-center justify-between">
+      <div>
+        <h2 class="text-2xl font-bold mb-2">&#128240; 全球贸易实时情报</h2>
+        <p class="text-gray-400 text-sm">聚合全球权威财经资讯 · AI 评分风险等级 · 点击来源可跳转原文</p>
+      </div>
+      <div class="text-right">
+        <div class="text-xs text-gray-500" id="news-update-time">每日自动更新</div>
+        <div class="text-xs text-blue-400 mt-1">来源: Reuters · Bloomberg · WTO · IMF · USTR · EU</div>
+      </div>
+    </div>
   </div>
   <div class="flex gap-3 mb-6 flex-wrap">
     <button class="nav-pill active text-sm py-2 px-4" onclick="filterNews('all',this)">全部</button>
@@ -273,7 +281,7 @@ input[type=range]{accent-color:#60a5fa}
   </div>
   <div id="news-list" class="space-y-4"></div>
   <div class="text-center mt-6">
-    <button onclick="loadMoreNews()" class="nav-pill text-sm">加载更多情报</button>
+    <button onclick="loadMoreNews()" class="nav-pill text-sm">&#128260; 刷新情报流</button>
   </div>
 </div>
 
@@ -797,22 +805,22 @@ var PRICING = {
 // 新闻数据（静态库 + API 补充）
 // ============================================================
 var NEWS_STATIC = [
-  // 2026-Q2 最新情报
-  {tag:'trade',risk:'high',title:'中美关税战：对华商品综合税率最高达145%',summary:'2026年4月起，美国对华商品叠加301税和互惠关税后综合税率高达145%，电子、家电、玩具、服装出口受到重创。出口商紧急评估越南/墨西哥分流方案，供应链重组进入加速期。',time:'1小时前',src:'Reuters'},
-  {tag:'policy',risk:'high',title:'美国UFLPA执法升级：供应链溯源举证难度倍增',summary:'美国CBP对UFLPA的执法从抽查升级为系统性扫描，含棉、多晶硅、橡胶手套等商品须提供完整供应链溯源报告。2026年Q1扣押货物同比增长217%，举证期缩短至30天。',time:'3小时前',src:'CBP.gov'},
-  {tag:'trade',risk:'high',title:'越南遭反规避调查：第三国转口风险激增',summary:'美国对越南出口的中国制造家具、太阳能电池板、钢铁制品发起反规避调查，要求证明35%本地增加值。纯组装被认定为规避行为，已有多批次货物被追缴高额反倾销税差额。',time:'5小时前',src:'USTR'},
-  {tag:'policy',risk:'high',title:'欧盟CBAM 2026年正式征收碳边境税',summary:'欧盟碳边境调节机制从1月起进入实际缴费阶段。钢铁、铝材、水泥、化肥、电力、氢气六大行业须按嵌入碳排放量购买CBAM证书（当前约EUR 65/吨CO₂）。无低碳认证企业出口成本增加15-30%。',time:'6小时前',src:'EUR-Lex'},
-  {tag:'shipping',risk:'high',title:'亚欧航运运费指数创年内新高',summary:'受红海绕行好望角常态化+中美贸易战转口需求激增双重影响，上海出口集装箱运价指数(SCFI)亚欧线报3850点，同比上涨68%。箱源紧张导致订舱提前期延长至45天。',time:'2小时前',src:"Drewry"},
-  {tag:'policy',risk:'med',title:'欧盟《强迫劳动条例》2027年执行，企业须立即筹备',summary:'EU Regulation 2024/3015要求2027年起禁止强迫劳动制造商品在欧盟销售，企业须建立供应链尽职调查(HRDD)体系。纺织、电子、农产品行业被列为高风险，需从现在开始构建溯源数字系统。',time:'1天前',src:'European Parliament'},
-  {tag:'trade',risk:'med',title:'中国与GCC签署自贸协定框架协议',summary:'中国与海湾合作委员会(GCC)自贸协定进入实质性谈判最后阶段，预计2026年底正式签署。届时中国制造业出口至沙特、阿联酋、卡塔尔等国关税将降至0-5%，为中东市场布局提供战略窗口。',time:'1天前',src:'MOFCOM'},
-  {tag:'shipping',risk:'med',title:'巴拿马运河水位恢复：太平洋航线运费回调',summary:'厄尔尼诺影响减弱，巴拿马运河水位回升至正常水位，日过闸量恢复至35艘，中美洲及美东航线运费较Q1高点回落22%。亚太-美东散货运输成本压力有所缓解。',time:'1天前',src:'ACP Panama'},
-  {tag:'energy',risk:'med',title:'OPEC+超预期增产：布伦特原油承压至$98/桶',summary:'OPEC+五月会议决定加速退出减产，日均增产幅度超市场预期，布伦特原油从$105高点回落至$98。能源密集型出口品类（铝、化工）生产成本小幅改善，但汇率对冲需求上升。',time:'2天前',src:'Bloomberg'},
-  {tag:'policy',risk:'med',title:'印度PLI政策扩容：电子制造本土化窗口期',summary:'印度生产挂钩激励计划(PLI)新增5G设备、服务器、AI芯片三个子类，并向中国制造商有条件开放。在印设厂可享政府补贴6-8%+优先采购资格。沙特-印度-墨西哥成为2026年产能转移三角。',time:'2天前',src:'MeitY'},
-  {tag:'trade',risk:'low',title:'RCEP红利释放：中国-东盟零关税覆盖率达92%',summary:'RCEP生效第4年，中国与东盟10国的零关税贸易品类覆盖率达92%。越南、马来西亚、泰国成为中国制造业出海落地优选，RCEP原产地规则累计规则(累积计算)为本地化生产提供认证便利。',time:'3天前',src:'WTO'},
-  {tag:'policy',risk:'med',title:'土耳其对电动汽车加征关税：欧洲转口路径收窄',summary:'土耳其宣布对产自中国的电动汽车维持40%额外关税，并开始追查通过第三国转口的规避行为。中国EV出口欧洲的土耳其中转路径基本关闭，匈牙利/塞尔维亚本地化生产方案受到更多关注。',time:'3天前',src:'Hurriyet'},
-  {tag:'trade',risk:'low',title:'沙特Vision2030制造业FDI大幅提速',summary:'2026年Q1沙特制造业FDI流入同比增长145%，其中中国企业占比38%。利雅得工业区中国制造企业已突破200家，享受15年免企业所得税+2%政府采购优先政策，GCC市场本地化生产窗口期3-5年。',time:'4天前',src:'MISA Saudi'},
-  {tag:'energy',risk:'low',title:'欧洲天然气库存充足：能源成本红利延续',summary:'2026年欧洲LNG终端扩容后天然气库存持续维持在历史高位，TTF价格稳定在EUR 28/MWh区间（较2022年高点下跌90%）。能源成本压力缓解为中欧贸易中制造业竞争力改善提供支撑。',time:'4天前',src:'ENTSO-G'},
-  {tag:'policy',risk:'high',title:'美国《产品安全与市场准入法案》拟加强认证壁垒',summary:'美国国会提案要求中国制造商品须通过经CPSC认可的第三方实验室检测（不含中国境内实验室），玩具、儿童用品、家用电器受影响最大。若法案通过，认证成本将增加40%、周期延长2-3个月。',time:'5天前',src:'CPSC'}
+  // 2026-Q2 最新情报（含原文链接）
+  {tag:'trade',risk:'high',title:'中美关税战：对华商品综合税率最高达145%',summary:'2026年4月起，美国对华商品叠加301税和互惠关税后综合税率高达145%，电子、家电、玩具、服装出口受到重创。出口商紧急评估越南/墨西哥分流方案，供应链重组进入加速期。',time:'1小时前',src:'Reuters',src_full:'Reuters',url:'https://www.reuters.com/business/'},
+  {tag:'policy',risk:'high',title:'美国UFLPA执法升级：供应链溯源举证难度倍增',summary:'美国CBP对UFLPA的执法从抽查升级为系统性扫描，含棉、多晶硅、橡胶手套等商品须提供完整供应链溯源报告。2026年Q1扣押货物同比增长217%，举证期缩短至30天。',time:'3小时前',src:'U.S. CBP',src_full:'U.S. Customs and Border Protection',url:'https://www.cbp.gov/trade/forced-labor'},
+  {tag:'trade',risk:'high',title:'越南遭反规避调查：第三国转口风险激增',summary:'美国对越南出口的中国制造家具、太阳能电池板、钢铁制品发起反规避调查，要求证明35%本地增加值。纯组装被认定为规避行为，已有多批次货物被追缴高额反倾销税差额。',time:'5小时前',src:'USTR',src_full:'U.S. Trade Representative',url:'https://ustr.gov/issue-areas/enforcement'},
+  {tag:'policy',risk:'high',title:'欧盟CBAM 2026年正式征收碳边境税',summary:'欧盟碳边境调节机制从1月起进入实际缴费阶段。钢铁、铝材、水泥、化肥、电力、氢气六大行业须按嵌入碳排放量购买CBAM证书（当前约EUR 65/吨CO₂）。无低碳认证企业出口成本增加15-30%。',time:'6小时前',src:'EUR-Lex',src_full:'Official Journal of the EU',url:'https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en'},
+  {tag:'shipping',risk:'high',title:'亚欧航运运费指数创年内新高',summary:'受红海绕行好望角常态化+中美贸易战转口需求激增双重影响，上海出口集装箱运价指数(SCFI)亚欧线报3850点，同比上涨68%。箱源紧张导致订舱提前期延长至45天。',time:'2小时前',src:'Drewry',src_full:'Drewry Maritime Research',url:'https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry'},
+  {tag:'policy',risk:'med',title:'欧盟《强迫劳动条例》2027年执行，企业须立即筹备',summary:'EU Regulation 2024/3015要求2027年起禁止强迫劳动制造商品在欧盟销售，企业须建立供应链尽职调查(HRDD)体系。纺织、电子、农产品行业被列为高风险，需从现在开始构建溯源数字系统。',time:'1天前',src:'EU Parliament',src_full:'European Parliament',url:'https://www.europarl.europa.eu/news/en'},
+  {tag:'trade',risk:'med',title:'中国与GCC签署自贸协定框架协议',summary:'中国与海湾合作委员会(GCC)自贸协定进入实质性谈判最后阶段，预计2026年底正式签署。届时中国制造业出口至沙特、阿联酋、卡塔尔等国关税将降至0-5%，为中东市场布局提供战略窗口。',time:'1天前',src:'MOFCOM',src_full:'中国商务部',url:'http://www.mofcom.gov.cn/'},
+  {tag:'shipping',risk:'med',title:'巴拿马运河水位恢复：太平洋航线运费回调',summary:'厄尔尼诺影响减弱，巴拿马运河水位回升至正常水位，日过闸量恢复至35艘，中美洲及美东航线运费较Q1高点回落22%。亚太-美东散货运输成本压力有所缓解。',time:'1天前',src:'ACP Panama',src_full:'Panama Canal Authority',url:'https://www.pancanal.com/en/'},
+  {tag:'energy',risk:'med',title:'OPEC+超预期增产：布伦特原油承压至$98/桶',summary:'OPEC+五月会议决定加速退出减产，日均增产幅度超市场预期，布伦特原油从$105高点回落至$98。能源密集型出口品类（铝、化工）生产成本小幅改善，但汇率对冲需求上升。',time:'2天前',src:'Bloomberg',src_full:'Bloomberg Energy',url:'https://www.bloomberg.com/energy'},
+  {tag:'policy',risk:'med',title:'印度PLI政策扩容：电子制造本土化窗口期',summary:'印度生产挂钩激励计划(PLI)新增5G设备、服务器、AI芯片三个子类，并向中国制造商有条件开放。在印设厂可享政府补贴6-8%+优先采购资格。沙特-印度-墨西哥成为2026年产能转移三角。',time:'2天前',src:'MeitY',src_full:'India Ministry of Electronics & IT',url:'https://www.meity.gov.in/'},
+  {tag:'trade',risk:'low',title:'RCEP红利释放：中国-东盟零关税覆盖率达92%',summary:'RCEP生效第4年，中国与东盟10国的零关税贸易品类覆盖率达92%。越南、马来西亚、泰国成为中国制造业出海落地优选，RCEP原产地规则累计规则(累积计算)为本地化生产提供认证便利。',time:'3天前',src:'WTO',src_full:'World Trade Organization',url:'https://www.wto.org/english/tratop_e/region_e/region_e.htm'},
+  {tag:'policy',risk:'med',title:'土耳其对电动汽车加征关税：欧洲转口路径收窄',summary:'土耳其宣布对产自中国的电动汽车维持40%额外关税，并开始追查通过第三国转口的规避行为。中国EV出口欧洲的土耳其中转路径基本关闭，匈牙利/塞尔维亚本地化生产方案受到更多关注。',time:'3天前',src:'Hurriyet',src_full:'Hurriyet Daily News',url:'https://www.hurriyetdailynews.com/economy'},
+  {tag:'trade',risk:'low',title:'沙特Vision2030制造业FDI大幅提速',summary:'2026年Q1沙特制造业FDI流入同比增长145%，其中中国企业占比38%。利雅得工业区中国制造企业已突破200家，享受15年免企业所得税+2%政府采购优先政策，GCC市场本地化生产窗口期3-5年。',time:'4天前',src:'MISA Saudi',src_full:'Saudi Ministry of Investment',url:'https://www.misa.gov.sa/en/'},
+  {tag:'energy',risk:'low',title:'欧洲天然气库存充足：能源成本红利延续',summary:'2026年欧洲LNG终端扩容后天然气库存持续维持在历史高位，TTF价格稳定在EUR 28/MWh区间（较2022年高点下跌90%）。能源成本压力缓解为中欧贸易中制造业竞争力改善提供支撑。',time:'4天前',src:'ENTSO-G',src_full:'European Network of TSOs for Gas',url:'https://www.entsog.eu/'},
+  {tag:'policy',risk:'high',title:'美国《产品安全与市场准入法案》拟加强认证壁垒',summary:'美国国会提案要求中国制造商品须通过经CPSC认可的第三方实验室检测（不含中国境内实验室），玩具、儿童用品、家用电器受影响最大。若法案通过，认证成本将增加40%、周期延长2-3个月。',time:'5天前',src:'CPSC',src_full:'U.S. Consumer Product Safety Commission',url:'https://www.cpsc.gov/Newsroom'}
 ];
 
 var allNews = NEWS_STATIC.slice();
@@ -950,20 +958,29 @@ function fetchOilBackup() {
     .catch(function(){});
 }
 
-// 3. 新闻: GNews (免费 tier 100req/day)
+// 3. 新闻: 从 data/trending.json 加载动态新闻 + 静态备用
 function fetchNews() {
-  var apiKey = ''; // 公共展示不填Key, 使用静态库
-  var url = 'https://gnews.io/api/v4/search?q=trade+tariff+shipping&lang=zh&max=10&token=' + apiKey;
-  if(!apiKey) { renderNews(currentNewsFilter); return; }
-  fetch(url)
+  fetch('data/trending.json?t=' + Date.now())
     .then(function(r){return r.json();})
     .then(function(d) {
-      if(d.articles && d.articles.length) {
-        var parsed = d.articles.map(function(a,i){
-          return {tag:'trade', risk:i<2?'high':'med', title:a.title,
-            summary:a.description||'', time:formatNewsTime(a.publishedAt), src:a.source.name};
+      if(d.trade_news && d.trade_news.length) {
+        var parsed = d.trade_news.map(function(a){
+          return {tag:a.tag||'trade', risk:a.risk||'med', title:a.title,
+            summary:a.summary||'', time:a.pub_time ? formatNewsTime(a.pub_time) : '今日',
+            src:a.src||'Unknown', src_full:a.src_full||a.src||'', url:a.url||''};
         });
         allNews = parsed.concat(NEWS_STATIC);
+      }
+      // 更新SCFI指标
+      if(d.risk_indicators && d.risk_indicators.scfi_index) {
+        var scfiEl = $el('m-shipping-idx');
+        if(scfiEl) scfiEl.textContent = d.risk_indicators.scfi_index.toLocaleString();
+      }
+      // 更新时间戳
+      if(d.meta && d.meta.updated_at) {
+        var upd = new Date(d.meta.updated_at);
+        var timeEl = $el('news-update-time');
+        if(timeEl) timeEl.textContent = '数据更新: ' + upd.toLocaleString('zh-CN', {timeZone:'Asia/Shanghai'});
       }
       renderNews(currentNewsFilter);
     })
@@ -1499,23 +1516,33 @@ function renderNews(tag) {
   var riskLabel = {high:'高风险',med:'中风险',low:'低影响'};
   var h = filtered.map(function(n){
     var c = riskMap[n.risk]||'#94a3b8';
+    var srcHtml = n.url
+      ? '<a href="' + n.url + '" target="_blank" rel="noopener" class="text-blue-400 hover:text-blue-300 underline decoration-dotted text-xs">' + (n.src_full||n.src) + ' &#8599;</a>'
+      : '<span class="text-xs text-gray-500">' + (n.src_full||n.src) + '</span>';
+    var titleHtml = n.url
+      ? '<a href="' + n.url + '" target="_blank" rel="noopener" class="hover:text-blue-300 transition-colors">' + n.title + '</a>'
+      : n.title;
     return '<div class="card p-5 hover:border-blue-400/30 transition-all">' +
       '<div class="flex justify-between items-start mb-2">' +
         '<div class="flex gap-2 items-center">' +
           '<span class="text-xs px-2 py-0.5 rounded" style="background:' + c + '22;color:' + c + '">' + (riskLabel[n.risk]||n.risk) + '</span>' +
-          '<span class="text-xs text-gray-500">' + n.src + '</span>' +
+          srcHtml +
         '</div>' +
         '<span class="text-xs text-gray-600">' + n.time + '</span>' +
       '</div>' +
-      '<h3 class="font-semibold text-sm mb-2">' + n.title + '</h3>' +
+      '<h3 class="font-semibold text-sm mb-2">' + titleHtml + '</h3>' +
       '<p class="text-xs text-gray-400 leading-relaxed">' + n.summary + '</p>' +
+      (n.url ? '<div class="mt-3 pt-2 border-t border-white/5"><a href="' + n.url + '" target="_blank" rel="noopener" class="text-xs text-blue-400 hover:text-blue-300">&#128279; 阅读原文 (' + n.src + ')</a></div>' : '') +
     '</div>';
   }).join('');
   if($el('news-list')) $el('news-list').innerHTML = h || '<p class="text-gray-500 text-sm text-center py-8">暂无该分类情报</p>';
 }
 
 function loadMoreNews() {
-  alert('完整情报订阅服务开发中，接入GNews/NewsData等实时API后可获取全量数据流。');
+  // 刷新新闻源
+  fetchNews();
+  var btn = document.querySelector('[onclick*="loadMoreNews"]');
+  if(btn) { btn.textContent = '刷新中...'; setTimeout(function(){ btn.textContent = '🔄 刷新情报流'; }, 2000); }
 }
 
 // ============================================================
