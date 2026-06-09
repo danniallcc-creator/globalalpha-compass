@@ -4726,7 +4726,7 @@ function runCountryScore() {
           '<div class="flex justify-between"><span class="text-gray-400">中国进口</span><span>$'+c.tradeWithChina.importFromChina+'亿</span></div>' +
         '</div>' +
       '</div>' +
-      '<div class="text-xs text-gray-500 border-t border-white/5 pt-2">&#128100; '+c.pop.total+'亿 · 城市化'+c.urban+'% · 主要: '+c.religion.main+'</div>' +
+      '<div class="text-xs text-gray-500 border-t border-white/5 pt-2">'+c.pop.total+'亿 · 城市化'+c.urban+'% · 主要: '+c.religion.main+'</div>' +
     '</div>';
   }).join('');
 
@@ -4773,7 +4773,7 @@ function showCountryDetail(iso) {
     // 需求场景（针对该国的动态匹配）
     var countryScenes = demandMatrix.scenes.map(function(s){
       return '<div class="flex items-start gap-2 py-1.5 border-b border-white/5">' +
-        '<span class="text-blue-400 mt-0.5 flex-shrink-0 text-xs">&#9679;</span>' +
+        '<span class="text-blue-400 mt-0.5 flex-shrink-0 text-xs">·</span>' +
         '<div class="text-xs"><span class="text-gray-200 font-medium">'+s.scene+'</span><span class="text-gray-500 ml-2">'+s.crowd+'</span></div>' +
       '</div>';
     }).join('');
@@ -4796,7 +4796,7 @@ function showCountryDetail(iso) {
     var exportToCountryHtml = '';
     if(countryInTop5) {
       exportToCountryHtml = '<div class="bg-green-400/10 border border-green-400/20 rounded-lg p-3 mt-3">' +
-        '<div class="text-xs text-green-300 font-medium mb-1">&#128200; 中国→'+c.name+' 出口数据</div>' +
+        '<div class="text-xs text-green-300 font-medium mb-1">中国→'+c.name+' 出口数据</div>' +
         '<div class="text-xs text-gray-300">出口金额: <span class="text-green-400 font-bold">$'+countryInTop5.amt+'亿</span> · 同比增速: <span class="'+(countryInTop5.yoy>=0?'text-green-400':'text-red-400')+' font-bold">'+(countryInTop5.yoy>=0?'+':'')+countryInTop5.yoy+'%</span></div>' +
       '</div>';
     } else {
@@ -4811,7 +4811,7 @@ function showCountryDetail(iso) {
 
     demandSectionHtml =
       '<div class="border-t border-white/5 pt-6 mt-6">' +
-        '<h3 class="font-semibold text-sm mb-4 text-green-300">&#127919; '+cat+' · '+c.name+' 品类需求分析</h3>' +
+        '<h3 class="font-semibold text-sm mb-4 text-green-300">'+cat+' · '+c.name+' 品类需求分析</h3>' +
         '<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">' +
           '<div class="bg-slate-800/50 rounded-xl p-4">' +
             '<div class="text-xs text-blue-300 font-medium mb-2">该国核心需求产品</div>' +
@@ -4833,7 +4833,7 @@ function showCountryDetail(iso) {
             '<ul class="list-disc pl-4 space-y-1">'+trendNotes+'</ul>' +
           '</div>' +
           '<div class="bg-yellow-400/5 border border-yellow-400/20 rounded-xl p-4">' +
-            '<div class="text-xs text-yellow-300 font-medium mb-2">&#127919; 重点关注方向</div>' +
+            '<div class="text-xs text-yellow-300 font-medium mb-2">重点关注方向</div>' +
             '<ul class="list-disc pl-4 space-y-1">'+focusNotes+'</ul>' +
           '</div>' +
         '</div>' +
@@ -4863,7 +4863,7 @@ function showCountryDetail(iso) {
     importMarketHtml =
       '<div class="bg-gradient-to-r from-indigo-900/40 to-purple-900/40 border border-indigo-400/30 rounded-2xl p-5 mb-6">' +
         '<div class="flex items-center justify-between mb-4">' +
-          '<h3 class="font-bold text-sm text-indigo-200">&#128202; '+cat+' · '+c.name+' 进口市场规模</h3>' +
+          '<h3 class="font-bold text-sm text-indigo-200">'+cat+' · '+c.name+' 进口市场规模</h3>' +
           '<span class="text-xs text-gray-500 bg-slate-800/80 rounded px-2 py-0.5">数据年份: 2025全年 · 来源: '+importSource.label+'</span>' +
         '</div>' +
         '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">' +
@@ -4886,7 +4886,7 @@ function showCountryDetail(iso) {
         '</div>' +
         '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">' +
           '<div class="bg-slate-900/60 rounded-xl p-4">' +
-            '<div class="text-xs text-gray-400 font-medium mb-2">&#128200; 增长趋势预测 (2025-2035)</div>' +
+            '<div class="text-xs text-gray-400 font-medium mb-2">增长趋势预测 (2025-2035)</div>' +
             '<canvas id="importForecastChart" height="160"></canvas>' +
           '</div>' +
           '<div class="bg-slate-900/60 rounded-xl p-4 overflow-y-auto" style="max-height:220px">' +
@@ -4896,7 +4896,7 @@ function showCountryDetail(iso) {
           '</div>' +
         '</div>' +
         '<div class="mt-3 flex items-center gap-2 text-xs text-gray-500">' +
-          '<span>&#128712; 数据来源: <a href="'+importSource.url+'" target="_blank" class="text-indigo-400 hover:underline">'+importSource.name+'</a></span>' +
+          '<span>数据来源: <a href="'+importSource.url+'" target="_blank" class="text-indigo-400 hover:underline">'+importSource.name+'</a></span>' +
           '<span class="mx-1">|</span>' +
           '<span>预测方法: 基于2020-2025历史CAGR + 行业研究机构(BNEF/Statista/Mordor Intelligence)复合增速模型</span>' +
         '</div>' +
@@ -4918,7 +4918,7 @@ function showCountryDetail(iso) {
   '<div class="overflow-x-auto mb-6"><table class="w-full text-sm"><thead><tr class="text-gray-400 text-xs">' +
     '<th class="pb-2 text-left">年份</th><th class="pb-2 text-left">GDP总量</th><th class="pb-2 text-left">人均GDP</th><th class="pb-2 text-left">增速</th>' +
   '</tr></thead><tbody>'+gdpRows+'</tbody></table></div>' +
-  '<h3 class="font-semibold text-sm mb-3 text-gray-300">&#10016; 宗教信仰与消费行为影响</h3>' +
+  '<h3 class="font-semibold text-sm mb-3 text-gray-300">宗教信仰与消费行为影响</h3>' +
   '<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">'+branches+'</div>' +
   demandSectionHtml +
   '<div class="text-center mt-6"><button onclick="document.getElementById(\'country-detail\').classList.add(\'hidden\')" class="nav-pill text-sm">&#215; 关闭</button></div>';
