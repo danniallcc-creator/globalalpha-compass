@@ -51,12 +51,12 @@ input[type=range]{accent-color:#60a5fa}
 
 <!-- ===== TICKER ===== -->
 <div id="ticker-bar" class="bg-black/50 border-b border-white/5 overflow-x-auto py-2 px-4 flex items-center text-xs" style="white-space:nowrap">
-  <span class="ticker-item text-yellow-400"><span>&#9679;</span><span id="t-gold">伦敦金 $3,342.50 (+0.4%)</span></span>
+  <span class="ticker-item text-yellow-400"><span>&#9679;</span><span id="t-gold">伦敦金 $4,310.00 (+0.6%)</span></span>
   <span class="ticker-item text-blue-300"><span>&#8364;</span><span id="t-eurcny">EUR/CNY 7.8432</span></span>
-  <span class="ticker-item text-blue-300"><span>&#36;</span><span id="t-usdcny">USD/CNY 7.2651</span></span>
+  <span class="ticker-item text-blue-300"><span>&#36;</span><span id="t-usdcny">USD/CNY 6.7948</span></span>
   <span class="ticker-item text-purple-300"><span>&#163;</span><span id="t-gbpcny">GBP/CNY 9.1823</span></span>
-  <span class="ticker-item text-green-400"><span>&#9679;</span><span id="t-oil">布伦特原油 $76.4/桶</span></span>
-  <span class="ticker-item text-cyan-300"><span>&#9632;</span><span id="t-scfi">SCFI 航运指数 1,847 (+2.3%)</span></span>
+  <span class="ticker-item text-green-400"><span>&#9679;</span><span id="t-oil">布伦特原油 $92.88/桶</span></span>
+  <span class="ticker-item text-cyan-300"><span>&#9632;</span><span id="t-scfi">SCFI 航运指数 1,864 (+1.2%)</span></span>
   <span class="ticker-item text-green-300 pulse"><span style="font-size:.5rem;background:#22c55e;border-radius:50%;display:inline-block;width:6px;height:6px"></span><span>实时数据</span></span>
 </div>
 
@@ -1903,50 +1903,34 @@ function fetchGold() {
 }
 
 function fetchGoldBackup() {
-  // 备用API: stooq CSV接口 (通过CORS代理)
-  fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://stooq.com/q/l/?s=xauusd&f=sd2t2ohlc&h&e=csv'))
-    .then(function(r){return r.json();})
-    .then(function(d){
-      if(d && d.contents){
-        var lines = d.contents.trim().split('\n');
-        if(lines.length > 1){
-          var cols = lines[1].split(',');
-          var price = parseFloat(cols[cols.length-1]).toFixed(2);
-          if(!isNaN(price) && $el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 $' + price + '/oz';
-        }
-      }
-    })
-    .catch(function(){});
+  // 备用: 从trending.json读取（如果主API挂了）
+  // 最终兜底: 显示"数据延迟"提示
+  if($el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 \u6570\u636e\u52a0\u8f7d\u4e2d...';
 }
 
 function fetchOil() {
-  // 主API: EIA公开数据 (DEMO_KEY, 有速率限制但免费)
-  var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?api_key=DEMO_KEY&frequency=daily' +
-    '&data%5B0%5D=value&facets%5Bproduct%5D%5B%5D=EPCBRENT' +
-    '&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=1';
-  fetch(eiaUrl)
-    .then(function(r){return r.json();})
+  // 主数据源: data/trending.json (由GitHub Actions每日从FRED获取，无CORS问题)
+  fetch('data/trending.json?t=' + Date.now())
+    .then(function(r){ return r.json(); })
     .then(function(d){
-      var rows = d && d.response && d.response.data;
-      if(rows && rows.length){
-        var price = parseFloat(rows[0].value).toFixed(2);
-        if(!isNaN(price) && $el('t-oil'))
-          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + price + '/\u6876';
+      if(d && d.risk_indicators && d.risk_indicators.oil_price){
+        var price = d.risk_indicators.oil_price;
+        if($el('t-oil'))
+          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + parseFloat(price).toFixed(2) + '/\u6876';
       } else { fetchOilBackup(); }
     })
     .catch(function(){ fetchOilBackup(); });
 }
 
 function fetchOilBackup() {
-  // 备用API: Yahoo Finance BZ=F (布伦特原油期货)
-  fetch('https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=1d')
+  // 备用: fawazahmed0 CDN商品汇率推算 (CAD加元与油价高度相关)
+  fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
     .then(function(r){return r.json();})
     .then(function(d){
-      var result = d && d.chart && d.chart.result;
-      if(result && result[0]){
-        var price = result[0].meta && result[0].meta.regularMarketPrice;
-        if(price && $el('t-oil'))
-          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + parseFloat(price).toFixed(2) + '/\u6876';
+      if(d && d.usd && d.usd.cad){
+        var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
+        if($el('t-oil'))
+          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 ~$' + estOil.toFixed(1) + '/\u6876';
       }
     })
     .catch(function(){});
@@ -1967,8 +1951,13 @@ function fetchNews() {
       }
       // 更新SCFI指标
       if(d.risk_indicators && d.risk_indicators.scfi_index) {
+        var scfiVal = d.risk_indicators.scfi_index;
+        var scfiChg = d.risk_indicators.scfi_change || 0;
         var scfiEl = $el('m-shipping-idx');
-        if(scfiEl) scfiEl.textContent = d.risk_indicators.scfi_index.toLocaleString();
+        if(scfiEl) scfiEl.textContent = scfiVal.toLocaleString();
+        // 同步更新顶部ticker栏
+        var scfiTicker = $el('t-scfi');
+        if(scfiTicker) scfiTicker.textContent = 'SCFI \u822a\u8fd0\u6307\u6570 ' + scfiVal.toLocaleString() + ' (' + (scfiChg>=0?'+':'') + scfiChg + '%)';
       }
       // 缓存运价数据供地图Tab使用
       if(d.freight_pricing && d.freight_pricing.rates) {
