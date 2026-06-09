@@ -960,6 +960,211 @@ function getCountryImportData(countryName, cat) {
 }
 
 // ============================================================
+// 竞争格局数据（各国×品类 主要竞争者/市场集中度/中国卖家占比）
+// ============================================================
+var COMPETITION_DATA = {
+  '美国': {
+    '储能': {cr3:45, cnShare:28, players:[{name:'Tesla Energy',share:18,origin:'美国'},{name:'LG Energy',share:15,origin:'韩国'},{name:'BYD',share:12,origin:'中国'},{name:'Enphase',share:8,origin:'美国'},{name:'华宝新能',share:6,origin:'中国'}], trend:'中国品牌快速渗透，价格优势明显，但面临301关税壁垒'},
+    '家具': {cr3:22, cnShare:42, players:[{name:'Ashley',share:9,origin:'美国'},{name:'IKEA',share:8,origin:'瑞典'},{name:'Wayfair自营',share:5,origin:'美国'},{name:'林氏木业',share:4,origin:'中国'},{name:'源氏木语',share:3,origin:'中国'}], trend:'中国卖家以高性价比占据亚马逊中低端市场，品牌化程度待提升'},
+    '玩具': {cr3:38, cnShare:55, players:[{name:'Hasbro',share:16,origin:'美国'},{name:'Mattel',share:13,origin:'美国'},{name:'LEGO',share:9,origin:'丹麦'},{name:'奥飞娱乐',share:4,origin:'中国'},{name:'泡泡玛特',share:3,origin:'中国'}], trend:'中国制造占全球玩具供应70%+,品牌出海IP化是突破口'},
+    '家电': {cr3:52, cnShare:18, players:[{name:'Whirlpool',share:22,origin:'美国'},{name:'Samsung',share:16,origin:'韩国'},{name:'LG',share:14,origin:'韩国'},{name:'海尔/GE',share:10,origin:'中国'},{name:'Midea',share:8,origin:'中国'}], trend:'品牌集中度高，中国品牌通过并购(海尔收购GE家电)切入'},
+    '服装': {cr3:12, cnShare:35, players:[{name:'Nike',share:5,origin:'美国'},{name:'SHEIN',share:4,origin:'中国'},{name:'H&M',share:3,origin:'瑞典'},{name:'Temu卖家群',share:8,origin:'中国'},{name:'Amazon卖家',share:15,origin:'中国'}], trend:'极度分散，SHEIN/Temu带动中国快时尚出海，低价竞争激烈'},
+    '陶瓷': {cr3:30, cnShare:62, players:[{name:'Villeroy&Boch',share:12,origin:'德国'},{name:'RAK',share:10,origin:'阿联酋'},{name:'佛山产区',share:25,origin:'中国'},{name:'唐山产区',share:18,origin:'中国'},{name:'Mohawk',share:8,origin:'美国'}], trend:'中国建筑陶瓷主导中低端市场，高端仍由欧洲品牌把持'},
+    '灯具': {cr3:28, cnShare:48, players:[{name:'Philips/Signify',share:12,origin:'荷兰'},{name:'Acuity',share:9,origin:'美国'},{name:'欧普照明',share:7,origin:'中国'},{name:'雷士照明',share:6,origin:'中国'},{name:'Cree',share:7,origin:'美国'}], trend:'LED渗透率高，中国品牌在智能照明赛道有技术优势'},
+    '医疗器械': {cr3:55, cnShare:8, players:[{name:'Medtronic',share:22,origin:'美国'},{name:'J&J',share:18,origin:'美国'},{name:'Abbott',share:15,origin:'美国'},{name:'迈瑞医疗',share:5,origin:'中国'},{name:'鱼跃医疗',share:3,origin:'中国'}], trend:'高壁垒市场，FDA认证门槛高，中国企业以中低端器械切入'}
+  },
+  '德国': {
+    '储能': {cr3:40, cnShare:35, players:[{name:'Sonnen',share:16,origin:'德国'},{name:'BYD',share:14,origin:'中国'},{name:'Huawei FusionSolar',share:10,origin:'中国'},{name:'E3/DC',share:8,origin:'德国'},{name:'派能科技',share:7,origin:'中国'}], trend:'户储市场全球最大，中国品牌凭性价比+技术快速抢占'},
+    '家电': {cr3:58, cnShare:12, players:[{name:'BSH(Bosch/Siemens)',share:28,origin:'德国'},{name:'Miele',share:16,origin:'德国'},{name:'Samsung',share:14,origin:'韩国'},{name:'海尔',share:7,origin:'中国'},{name:'Midea',share:5,origin:'中国'}], trend:'本土品牌忠诚度极高，中国品牌需走高端化路线'},
+    '服装': {cr3:15, cnShare:22, players:[{name:'Zalando自营',share:6,origin:'德国'},{name:'H&M',share:5,origin:'瑞典'},{name:'SHEIN',share:4,origin:'中国'},{name:'Temu',share:5,origin:'中国'},{name:'C&A',share:4,origin:'荷兰'}], trend:'电商渗透率高，SHEIN/Temu增长迅猛但面临ESG法规压力'},
+    '灯具': {cr3:35, cnShare:38, players:[{name:'OSRAM/ams',share:15,origin:'德国'},{name:'Philips/Signify',share:12,origin:'荷兰'},{name:'Zumtobel',share:8,origin:'奥地利'},{name:'欧普',share:6,origin:'中国'},{name:'阳光照明',share:5,origin:'中国'}], trend:'工业照明需求强，中国企业以OEM+自主品牌双轨并进'}
+  },
+  '英国': {
+    '储能': {cr3:38, cnShare:32, players:[{name:'Tesla Energy',share:15,origin:'美国'},{name:'GivEnergy',share:13,origin:'英国'},{name:'BYD',share:10,origin:'中国'},{name:'Huawei',share:9,origin:'中国'},{name:'Pylontech',share:8,origin:'中国'}], trend:'家庭储能政策驱动强，中国品牌通过本地经销商渗透'},
+    '家电': {cr3:45, cnShare:15, players:[{name:'Dyson',share:18,origin:'英国'},{name:'BSH',share:15,origin:'德国'},{name:'Samsung',share:12,origin:'韩国'},{name:'海尔',share:8,origin:'中国'},{name:'Hisense',share:7,origin:'中国'}], trend:'Dyson主导高端，中国品牌在中端性价比区间发力'},
+    '服装': {cr3:18, cnShare:30, players:[{name:'ASOS',share:7,origin:'英国'},{name:'Primark',share:6,origin:'爱尔兰'},{name:'SHEIN',share:5,origin:'中国'},{name:'Next',share:5,origin:'英国'},{name:'Temu',share:4,origin:'中国'}], trend:'线上渗透率欧洲最高，中国快时尚平台增长凶猛'}
+  },
+  '日本': {
+    '储能': {cr3:55, cnShare:15, players:[{name:'Panasonic',share:22,origin:'日本'},{name:'Sharp',share:18,origin:'日本'},{name:'Tesla',share:15,origin:'美国'},{name:'Huawei',share:8,origin:'中国'},{name:'BYD',share:7,origin:'中国'}], trend:'本土品牌主导，准入认证严格(JET/JIS)，中国品牌增长缓慢'},
+    '家电': {cr3:62, cnShare:8, players:[{name:'Panasonic',share:24,origin:'日本'},{name:'Hitachi',share:20,origin:'日本'},{name:'Daikin',share:18,origin:'日本'},{name:'海尔AQUA',share:5,origin:'中国'},{name:'Midea',share:3,origin:'中国'}], trend:'极高品牌忠诚度，中国通过收购本地品牌(海尔收购AQUA)切入'},
+    '玩具': {cr3:42, cnShare:45, players:[{name:'Bandai Namco',share:20,origin:'日本'},{name:'Takara Tomy',share:14,origin:'日本'},{name:'任天堂',share:8,origin:'日本'},{name:'中国OEM群',share:30,origin:'中国'},{name:'泡泡玛特',share:5,origin:'中国'}], trend:'IP授权为王，中国制造+日本IP组合模式成熟'}
+  },
+  '澳大利亚': {
+    '储能': {cr3:42, cnShare:40, players:[{name:'Tesla Energy',share:18,origin:'美国'},{name:'BYD',share:14,origin:'中国'},{name:'Alpha ESS',share:10,origin:'中国'},{name:'Sungrow',share:9,origin:'中国'},{name:'Enphase',share:8,origin:'美国'}], trend:'户用光储需求旺盛，中国品牌CEC认证后快速铺开'},
+    '家具': {cr3:25, cnShare:38, players:[{name:'IKEA',share:10,origin:'瑞典'},{name:'Temple&Webster',share:8,origin:'澳大利亚'},{name:'Fantastic',share:7,origin:'澳大利亚'},{name:'中国卖家群',share:20,origin:'中国'},{name:'Koala',share:5,origin:'澳大利亚'}], trend:'电商增长快，中国卖家物流时效是核心痛点'}
+  },
+  '印度': {
+    '储能': {cr3:35, cnShare:45, players:[{name:'Tata Power',share:14,origin:'印度'},{name:'Luminous(Schneider)',share:12,origin:'法国'},{name:'华为',share:9,origin:'中国'},{name:'古瑞瓦特',share:8,origin:'中国'},{name:'阳光电源',share:7,origin:'中国'}], trend:'光伏储能政策驱动，中国逆变器/电池组件占据供应链主导'},
+    '家电': {cr3:40, cnShare:22, players:[{name:'Samsung',share:16,origin:'韩国'},{name:'LG',share:14,origin:'韩国'},{name:'Voltas(Tata)',share:10,origin:'印度'},{name:'Xiaomi',share:12,origin:'中国'},{name:'Haier',share:8,origin:'中国'}], trend:'小米等中国品牌通过性价比策略快速崛起，BIS认证是准入关键'},
+    '医疗器械': {cr3:30, cnShare:18, players:[{name:'Medtronic',share:12,origin:'美国'},{name:'Philips Healthcare',share:10,origin:'荷兰'},{name:'GE Healthcare',share:8,origin:'美国'},{name:'迈瑞',share:10,origin:'中国'},{name:'Trivitron',share:6,origin:'印度'}], trend:'政府Make in India政策推动本地化，中国企业可通过合资进入'}
+  },
+  '巴西': {
+    '储能': {cr3:30, cnShare:50, players:[{name:'BYD',share:12,origin:'中国'},{name:'Huawei',share:10,origin:'中国'},{name:'Growatt',share:8,origin:'中国'},{name:'WEG',share:7,origin:'巴西'},{name:'Deye',share:6,origin:'中国'}], trend:'分布式光伏爆发带动储能，中国品牌几乎垄断逆变器供应'},
+    '家电': {cr3:48, cnShare:12, players:[{name:'Whirlpool/Consul',share:20,origin:'美国'},{name:'Electrolux',share:16,origin:'瑞典'},{name:'Samsung',share:12,origin:'韩国'},{name:'Midea/Carrier',share:8,origin:'中国'},{name:'LG',share:7,origin:'韩国'}], trend:'高关税保护本地制造，中国企业需设立本地工厂才有竞争力'}
+  },
+  '沙特': {
+    '储能': {cr3:28, cnShare:55, players:[{name:'ACWA Power',share:12,origin:'沙特'},{name:'华为',share:10,origin:'中国'},{name:'BYD',share:8,origin:'中国'},{name:'阳光电源',share:7,origin:'中国'},{name:'Tesla',share:5,origin:'美国'}], trend:'Vision 2030驱动可再生能源，中国EPC+设备联合出海模式成熟'},
+    '陶瓷': {cr3:35, cnShare:48, players:[{name:'RAK Ceramics',share:15,origin:'阿联酋'},{name:'Saudi Ceramics',share:12,origin:'沙特'},{name:'佛山产区',share:20,origin:'中国'},{name:'Porcelanosa',share:8,origin:'西班牙'},{name:'淄博产区',share:10,origin:'中国'}], trend:'大型基建项目多，中国建陶以批量供应+交期优势取胜'},
+    '家具': {cr3:20, cnShare:42, players:[{name:'IKEA',share:8,origin:'瑞典'},{name:'Home Centre',share:7,origin:'阿联酋'},{name:'中国卖家',share:22,origin:'中国'},{name:'Pan Emirates',share:5,origin:'阿联酋'},{name:'Pottery Barn',share:4,origin:'美国'}], trend:'新房装修需求大，中国家具以全屋定制模式受欢迎'}
+  },
+  '阿联酋': {
+    '储能': {cr3:32, cnShare:50, players:[{name:'Masdar',share:12,origin:'阿联酋'},{name:'华为',share:11,origin:'中国'},{name:'BYD',share:9,origin:'中国'},{name:'CATL',share:8,origin:'中国'},{name:'Enphase',share:5,origin:'美国'}], trend:'迪拜清洁能源战略2050，中国储能设备通过本地代理商快速铺开'},
+    '家电': {cr3:38, cnShare:25, players:[{name:'Samsung',share:15,origin:'韩国'},{name:'LG',share:13,origin:'韩国'},{name:'Beko',share:10,origin:'土耳其'},{name:'Midea',share:8,origin:'中国'},{name:'Haier',share:7,origin:'中国'}], trend:'高端消费力强，中国品牌定位中高端可获得溢价空间'}
+  },
+  '墨西哥': {
+    '储能': {cr3:25, cnShare:48, players:[{name:'Tesla',share:10,origin:'美国'},{name:'BYD',share:9,origin:'中国'},{name:'Huawei',share:8,origin:'中国'},{name:'Sungrow',share:6,origin:'中国'},{name:'Generac',share:5,origin:'美国'}], trend:'近岸外包趋势下储能需求增长，中国品牌借USMCA通道辐射北美'},
+    '家电': {cr3:42, cnShare:15, players:[{name:'Whirlpool',share:18,origin:'美国'},{name:'Mabe',share:14,origin:'墨西哥'},{name:'Samsung',share:10,origin:'韩国'},{name:'Hisense',share:8,origin:'中国'},{name:'LG',share:7,origin:'韩国'}], trend:'中国品牌通过墨西哥建厂规避关税，辐射美国市场'}
+  },
+  '越南': {
+    '储能': {cr3:28, cnShare:60, players:[{name:'华为',share:11,origin:'中国'},{name:'Growatt',share:10,origin:'中国'},{name:'Sungrow',share:9,origin:'中国'},{name:'Vingroup',share:7,origin:'越南'},{name:'SMA',share:5,origin:'德国'}], trend:'光伏装机亚洲前列，中国逆变器+储能系统占据主流'},
+    '家电': {cr3:35, cnShare:30, players:[{name:'Samsung',share:14,origin:'韩国'},{name:'LG',share:12,origin:'韩国'},{name:'Panasonic',share:9,origin:'日本'},{name:'Xiaomi',share:8,origin:'中国'},{name:'Midea',share:6,origin:'中国'}], trend:'韩系品牌主导，中国品牌通过电商+线下并行渗透'}
+  },
+  '印尼': {
+    '储能': {cr3:25, cnShare:55, players:[{name:'华为',share:10,origin:'中国'},{name:'BYD',share:9,origin:'中国'},{name:'CATL',share:8,origin:'中国'},{name:'PLN(国电)',share:6,origin:'印尼'},{name:'Sungrow',share:5,origin:'中国'}], trend:'镍矿资源+电池产业链本地化趋势，中国企业深度参与'},
+    '家电': {cr3:38, cnShare:28, players:[{name:'Samsung',share:15,origin:'韩国'},{name:'LG',share:13,origin:'韩国'},{name:'Sharp',share:10,origin:'日本'},{name:'Xiaomi',share:8,origin:'中国'},{name:'Midea',share:6,origin:'中国'}], trend:'人口红利大，中小城市渗透率低，中国性价比品牌机会明确'}
+  },
+  '韩国': {
+    '储能': {cr3:65, cnShare:10, players:[{name:'LG Energy',share:28,origin:'韩国'},{name:'Samsung SDI',share:22,origin:'韩国'},{name:'SK On',share:15,origin:'韩国'},{name:'BYD',share:6,origin:'中国'},{name:'CATL',share:4,origin:'中国'}], trend:'本土三大电池厂垄断，中国品牌准入极难，以零部件供应切入'},
+    '家电': {cr3:72, cnShare:5, players:[{name:'Samsung',share:32,origin:'韩国'},{name:'LG',share:28,origin:'韩国'},{name:'Coway',share:12,origin:'韩国'},{name:'Xiaomi',share:3,origin:'中国'},{name:'Dyson',share:4,origin:'英国'}], trend:'双寡头垄断，外资极难突破，仅小家电/智能设备有缝隙'}
+  },
+  '加拿大': {
+    '储能': {cr3:40, cnShare:30, players:[{name:'Tesla',share:16,origin:'美国'},{name:'Enphase',share:14,origin:'美国'},{name:'BYD',share:10,origin:'中国'},{name:'Generac',share:8,origin:'美国'},{name:'Huawei',share:7,origin:'中国'}], trend:'与美国市场联动，中国品牌通过北美渠道同步覆盖'},
+    '家电': {cr3:48, cnShare:12, players:[{name:'Whirlpool',share:20,origin:'美国'},{name:'Samsung',share:16,origin:'韩国'},{name:'LG',share:12,origin:'韩国'},{name:'Midea',share:7,origin:'中国'},{name:'Haier',share:5,origin:'中国'}], trend:'市场跟随美国趋势，中国品牌以北美统一策略覆盖'}
+  },
+  '法国': {
+    '储能': {cr3:38, cnShare:30, players:[{name:'Engie',share:15,origin:'法国'},{name:'Total Energies',share:13,origin:'法国'},{name:'BYD',share:10,origin:'中国'},{name:'Huawei',share:9,origin:'中国'},{name:'Sonnen',share:7,origin:'德国'}], trend:'能源巨头主导分销渠道，中国品牌需通过本地合作伙伴进入'},
+    '家电': {cr3:40, cnShare:10, players:[{name:'SEB Group',share:16,origin:'法国'},{name:'BSH',share:14,origin:'德国'},{name:'Electrolux',share:10,origin:'瑞典'},{name:'Haier/Candy',share:6,origin:'中国'},{name:'Xiaomi',share:4,origin:'中国'}], trend:'品牌意识强，中国企业通过收购欧洲品牌(海尔收购Candy)建立渠道'},
+    '服装': {cr3:15, cnShare:20, players:[{name:'LVMH',share:6,origin:'法国'},{name:'Kering',share:5,origin:'法国'},{name:'SHEIN',share:4,origin:'中国'},{name:'H&M',share:4,origin:'瑞典'},{name:'Zara',share:4,origin:'西班牙'}], trend:'奢侈品主导高端，SHEIN切入快时尚但面临反浪费法规'}
+  }
+};
+
+// ============================================================
+// 物流成本数据（中国出口到各国 · 海运/空运/快递）
+// ============================================================
+var LOGISTICS_DATA = {
+  '美国': {
+    sea: {cost:'$3-5/kg', time:'25-35天', port:'洛杉矶/长滩/纽约', note:'西海岸快5-7天，FBA头程海运约$8-12/CBM'},
+    air: {cost:'$28-38/kg', time:'5-8天', port:'LAX/JFK/ORD', note:'旺季(Q4)运价上浮30-50%'},
+    express:{cost:'$45-65/kg', time:'3-5天', carrier:'DHL/FedEx/UPS', note:'单件重量<30kg适用，大件不经济'},
+    recommend:'海运整柜(大货) + 空运补货(旺季)',
+    fba:'FBA头程海运约$6-9/CBM(美西)，$8-12/CBM(美东)，空派约$35-45/kg',
+    tips:'注意ISF申报(开船前24h)，否则罚款$5000/票'
+  },
+  '德国': {
+    sea: {cost:'$2.5-4.5/kg', time:'30-40天', port:'汉堡/不来梅哈芬', note:'欧洲门户港，可转运周边国家'},
+    air: {cost:'$25-35/kg', time:'4-7天', port:'FRA/MUC', note:'法兰克福为欧洲航空枢纽'},
+    express:{cost:'$40-58/kg', time:'3-5天', carrier:'DHL/UPS/DPD', note:'DHL本土优势明显'},
+    recommend:'海运拼箱(中小卖家) + 海外仓前置(提升时效)',
+    fba:'FBA欧洲仓头程海运约$7-11/CBM，空派约$32-42/kg',
+    tips:'IOSS税号必备(€150以下)，超€150需在目的国清关缴VAT'
+  },
+  '英国': {
+    sea: {cost:'$2.5-4/kg', time:'28-38天', port:'费利克斯托/南安普顿', note:'脱欧后需单独清关，不能与EU合并'},
+    air: {cost:'$24-34/kg', time:'4-6天', port:'LHR/STN', note:'希思罗容量大但费用高'},
+    express:{cost:'$38-55/kg', time:'3-5天', carrier:'DHL/Royal Mail/DPD', note:'Royal Mail末端配送覆盖全'},
+    recommend:'海运+英国海外仓(独立于欧盟仓)',
+    fba:'FBA英国仓头程约$6-10/CBM(海运)，空派约$30-40/kg',
+    tips:'脱欧后需UK EORI号+VAT号，£135以下ODP代扣'
+  },
+  '日本': {
+    sea: {cost:'$1.5-3/kg', time:'7-12天', port:'东京/横滨/大阪', note:'距离近，日本线船期密集，时效稳定'},
+    air: {cost:'$20-30/kg', time:'2-4天', port:'NRT/KIX', note:'日本空运时效亚洲最佳'},
+    express:{cost:'$35-50/kg', time:'2-3天', carrier:'佐川急便/雅玛多/EMS', note:'日本末端配送极准时'},
+    recommend:'海运小包(轻小件) + 空运(高附加值)',
+    fba:'FBA日本仓头程海运约$4-7/CBM，空派约$25-32/kg',
+    tips:'関税率低但逆算法复杂，建议用ACP代理清关'
+  },
+  '韩国': {
+    sea: {cost:'$1-2.5/kg', time:'3-7天', port:'釜山/仁川', note:'距离极近，海运近似空运时效'},
+    air: {cost:'$15-25/kg', time:'1-3天', port:'ICN', note:'仁川转运效率极高'},
+    express:{cost:'$30-45/kg', time:'2-3天', carrier:'CJ大韩通运/韩进', note:'本土快递发达'},
+    recommend:'海运(时效已很快) + 韩国本土仓',
+    fba:'韩国无FBA，主流平台Coupang Rocket配送',
+    tips:'KC认证强制要求，无证不可销售电子电器类'
+  },
+  '澳大利亚': {
+    sea: {cost:'$3-5/kg', time:'15-25天', port:'悉尼/墨尔本', note:'南半球航线，船期相对少'},
+    air: {cost:'$28-40/kg', time:'5-8天', port:'SYD/MEL', note:'空运选择较少，旺季波动大'},
+    express:{cost:'$45-65/kg', time:'4-6天', carrier:'Australia Post/DHL/TNT', note:'偏远地区附加费高'},
+    recommend:'海运整柜 + 澳洲本地海外仓',
+    fba:'FBA澳洲仓头程约$8-13/CBM(海运)，空派约$38-48/kg',
+    tips:'生物安全检查严格(木制品需熏蒸)，ACCC合规检查频繁'
+  },
+  '加拿大': {
+    sea: {cost:'$3-5/kg', time:'22-32天', port:'温哥华/多伦多', note:'西海岸经温哥华，东部走蒙特利尔'},
+    air: {cost:'$26-36/kg', time:'5-7天', port:'YVR/YYZ', note:'可从美国转运'},
+    express:{cost:'$42-60/kg', time:'3-5天', carrier:'Canada Post/Purolator/DHL', note:'偏远省份时效长'},
+    recommend:'海运(走美加联运) + FBA加拿大仓',
+    fba:'FBA加拿大仓头程约$7-11/CBM(海运)',
+    tips:'CBSA清关标准类似美国，需注意法语标签(魁北克省)'
+  },
+  '印度': {
+    sea: {cost:'$2-4/kg', time:'15-22天', port:'孟买/钦奈/德里ICD', note:'内陆运输基建差，到门时效不稳定'},
+    air: {cost:'$18-28/kg', time:'4-6天', port:'BOM/DEL', note:'德里/孟买为主要货运枢纽'},
+    express:{cost:'$35-50/kg', time:'4-7天', carrier:'DTDC/Blue Dart/DHL', note:'末端配送覆盖不均'},
+    recommend:'海运(大货) + 印度本地仓储',
+    fba:'印度无国际FBA，需通过本地合作仓或Amazon.in SFP',
+    tips:'BIS认证强制+高关税(部分品类40-60%)，清关效率波动大'
+  },
+  '巴西': {
+    sea: {cost:'$4-7/kg', time:'30-45天', port:'桑托斯/里约', note:'南美航线长，港口效率偏低'},
+    air: {cost:'$30-45/kg', time:'7-10天', port:'GRU/GIG', note:'航线少、运力紧张'},
+    express:{cost:'$55-80/kg', time:'7-12天', carrier:'Correios/DHL/FedEx', note:'巴西邮政效率低'},
+    recommend:'海运整柜 + 巴西本地仓(规避高税)',
+    fba:'巴西无FBA，主流平台Mercado Livre配送(Mercado Envios)',
+    tips:'进口税极高(II+IPI+ICMS叠加可达100%+)，强烈建议当地设仓或合资'
+  },
+  '墨西哥': {
+    sea: {cost:'$3-5/kg', time:'25-35天', port:'曼萨尼约/拉萨罗', note:'太平洋侧港口效率优于大西洋侧'},
+    air: {cost:'$25-35/kg', time:'5-8天', port:'MEX', note:'墨城为中转枢纽'},
+    express:{cost:'$40-60/kg', time:'5-8天', carrier:'Estafeta/DHL/FedEx', note:'末端配送需注意安全'},
+    recommend:'海运(走太平洋线) + 墨西哥保税仓',
+    fba:'FBA墨西哥仓头程约$6-10/CBM(海运)',
+    tips:'USMCA可降低对美出口关税，适合作为北美跳板'
+  },
+  '沙特': {
+    sea: {cost:'$2.5-4.5/kg', time:'18-25天', port:'吉达/达曼', note:'红海航线受地缘影响，需关注绕行'},
+    air: {cost:'$22-32/kg', time:'4-6天', port:'RUH/JED', note:'中东航空货运发达'},
+    express:{cost:'$40-55/kg', time:'3-5天', carrier:'SMSA/Aramex/DHL', note:'Aramex为区域龙头'},
+    recommend:'海运(需关注红海安全局势) + 沙特本地仓',
+    fba:'沙特无FBA，Noon平台有类FBA服务(Noon Fulfillment)',
+    tips:'SABER认证强制，所有消费品需取得合格证书方可清关'
+  },
+  '阿联酋': {
+    sea: {cost:'$2-4/kg', time:'15-22天', port:'杰贝阿里/阿布扎比', note:'杰贝阿里为中东最大自由港，可转口'},
+    air: {cost:'$20-30/kg', time:'3-5天', port:'DXB/AUH', note:'迪拜为全球货运枢纽，航线极丰富'},
+    express:{cost:'$35-50/kg', time:'2-4天', carrier:'Aramex/Fetchr/DHL', note:'迪拜配送效率高'},
+    recommend:'空运(高价值)+海运(大宗) 迪拜自贸区中转',
+    fba:'Amazon.ae有FBA服务，头程约$5-8/CBM(海运)',
+    tips:'杰贝阿里自贸区0%关税可作中东转口中心，ECAS/ESMA认证注意'
+  },
+  '越南': {
+    sea: {cost:'$1-2/kg', time:'5-8天', port:'胡志明/海防', note:'距离近，南方走胡志明，北方走海防'},
+    air: {cost:'$12-20/kg', time:'2-3天', port:'SGN/HAN', note:'航线多，时效快'},
+    express:{cost:'$25-40/kg', time:'2-4天', carrier:'Viettel Post/GHN/DHL', note:'本土快递发展快'},
+    recommend:'海运(时效近似空运) + 越南本地仓',
+    fba:'越南无FBA，主流平台Shopee/Lazada有平台仓配',
+    tips:'中越陆运也是选项(广西-谅山口岸)，适合小批量快速补货'
+  },
+  '印尼': {
+    sea: {cost:'$1.5-3/kg', time:'8-14天', port:'丹戎不碌/泗水', note:'岛屿国家，离岛物流成本翻倍'},
+    air: {cost:'$15-25/kg', time:'3-5天', port:'CGK', note:'雅加达为唯一大型货运枢纽'},
+    express:{cost:'$30-45/kg', time:'4-7天', carrier:'JNE/J&T/SiCepat', note:'J&T(中国背景)覆盖广'},
+    recommend:'海运到雅加达 + 平台仓配(Shopee/Tokopedia)',
+    fba:'印尼无FBA，Shopee/Tokopedia有官方仓配',
+    tips:'SNI认证强制(电子/玩具)，清关效率波动，建议用当地报关行'
+  },
+  '法国': {
+    sea: {cost:'$2.5-4.5/kg', time:'28-38天', port:'勒阿弗尔/马赛', note:'可与德国合并欧洲头程'},
+    air: {cost:'$24-34/kg', time:'4-6天', port:'CDG', note:'戴高乐为欧洲主要货运机场'},
+    express:{cost:'$38-55/kg', time:'3-5天', carrier:'La Poste/Colissimo/DHL', note:'法邮末端覆盖全'},
+    recommend:'海运到欧洲仓(德国/荷兰) + 欧盟内配送',
+    fba:'FBA法国仓头程同德国线，约$7-11/CBM',
+    tips:'EPR(生产者责任延伸)注册强制，WEEE/包装/电池分类注册'
+  }
+};
+
+// ============================================================
 // 价格模板（含竞品链接）
 // ============================================================
 var PRICING = {
@@ -4912,12 +5117,94 @@ function showCountryDetail(iso) {
       '</div>';
   }
 
+  // ===== 竞争格局 =====
+  var compHtml = '';
+  var compData = COMPETITION_DATA[c.name];
+  if(compData) {
+    var catComp = null;
+    var compKeys = Object.keys(compData);
+    for(var ci=0;ci<compKeys.length;ci++){
+      if(cat.indexOf(compKeys[ci])!==-1){ catComp=compData[compKeys[ci]]; break; }
+    }
+    if(catComp) {
+      var playersRows = catComp.players.map(function(p,idx){
+        var barW = Math.min(p.share*2.5, 100);
+        return '<tr class="border-t border-white/5">' +
+          '<td class="py-1.5 text-xs text-gray-400">'+(idx+1)+'</td>' +
+          '<td class="py-1.5 text-xs text-gray-200 font-medium">'+p.name+'</td>' +
+          '<td class="py-1.5 text-xs text-gray-400">'+p.origin+'</td>' +
+          '<td class="py-1.5 text-xs"><div class="flex items-center gap-2"><div class="h-1.5 rounded-full bg-indigo-500/60" style="width:'+barW+'%"></div><span class="text-gray-300">'+p.share+'%</span></div></td>' +
+        '</tr>';
+      }).join('');
+      compHtml =
+        '<div class="border-t border-white/5 pt-6 mt-6">' +
+          '<h3 class="font-semibold text-sm mb-4 text-orange-300">'+cat+' · '+c.name+' 竞争格局</h3>' +
+          '<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">' +
+            '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-orange-300">'+catComp.cr3+'%</div><div class="text-xs text-gray-400">CR3 集中度</div></div>' +
+            '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-red-400">'+catComp.cnShare+'%</div><div class="text-xs text-gray-400">中国卖家占比</div></div>' +
+            '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-blue-400">'+catComp.players.length+'</div><div class="text-xs text-gray-400">主要竞争者</div></div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4 mb-3">' +
+            '<table class="w-full"><thead><tr class="text-gray-500 text-xs"><th class="pb-2 text-left w-8">#</th><th class="pb-2 text-left">品牌/企业</th><th class="pb-2 text-left">来源</th><th class="pb-2 text-left">市占率</th></tr></thead>' +
+            '<tbody>'+playersRows+'</tbody></table>' +
+          '</div>' +
+          '<div class="bg-orange-400/5 border border-orange-400/20 rounded-lg p-3 text-xs text-orange-200">'+catComp.trend+'</div>' +
+        '</div>';
+    }
+  }
+
+  // ===== 物流成本 =====
+  var logHtml = '';
+  var logData = LOGISTICS_DATA[c.name];
+  if(logData) {
+    logHtml =
+      '<div class="border-t border-white/5 pt-6 mt-6">' +
+        '<h3 class="font-semibold text-sm mb-4 text-cyan-300">中国 → '+c.name+' 物流成本</h3>' +
+        '<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-blue-300 font-medium mb-2">海运</div>' +
+            '<div class="text-sm text-gray-200 font-bold mb-1">'+logData.sea.cost+'</div>' +
+            '<div class="text-xs text-gray-400">时效: '+logData.sea.time+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">港口: '+logData.sea.port+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">'+logData.sea.note+'</div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-purple-300 font-medium mb-2">空运</div>' +
+            '<div class="text-sm text-gray-200 font-bold mb-1">'+logData.air.cost+'</div>' +
+            '<div class="text-xs text-gray-400">时效: '+logData.air.time+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">机场: '+logData.air.port+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">'+logData.air.note+'</div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-pink-300 font-medium mb-2">国际快递</div>' +
+            '<div class="text-sm text-gray-200 font-bold mb-1">'+logData.express.cost+'</div>' +
+            '<div class="text-xs text-gray-400">时效: '+logData.express.time+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">承运商: '+logData.express.carrier+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">'+logData.express.note+'</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="grid grid-cols-1 md:grid-cols-2 gap-3">' +
+          '<div class="bg-cyan-400/5 border border-cyan-400/20 rounded-lg p-3">' +
+            '<div class="text-xs text-cyan-300 font-medium mb-1">推荐物流方案</div>' +
+            '<div class="text-xs text-gray-300">'+logData.recommend+'</div>' +
+          '</div>' +
+          '<div class="bg-yellow-400/5 border border-yellow-400/20 rounded-lg p-3">' +
+            '<div class="text-xs text-yellow-300 font-medium mb-1">注意事项</div>' +
+            '<div class="text-xs text-gray-300">'+logData.tips+'</div>' +
+          '</div>' +
+        '</div>' +
+        (logData.fba ? '<div class="mt-3 text-xs text-gray-500">FBA头程参考: '+logData.fba+'</div>' : '') +
+      '</div>';
+  }
+
   var html = '<div class="flex items-center gap-3 mb-6">' +
     '<span class="text-4xl">'+c.flag+'</span>' +
     '<div><h2 class="text-2xl font-bold">'+c.name+'</h2><p class="text-gray-400 text-sm">'+c.region+' · ISO '+c.iso+' · 当前品类: <span class="text-green-400">'+cat+'</span></p></div>' +
   '</div>' +
   importMarketHtml +
   demandSectionHtml +
+  compHtml +
+  logHtml +
   '<div class="border-t border-white/5 pt-6 mt-6">' +
     '<h3 class="font-semibold text-sm mb-4 text-gray-300">国家概况</h3>' +
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
