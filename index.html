@@ -5556,15 +5556,78 @@ function showCountryDetail(iso) {
       }
     }
     var exportToCountryHtml = '';
-    if(countryInTop5) {
-      exportToCountryHtml = '<div class="bg-green-400/10 border border-green-400/20 rounded-lg p-3 mt-3">' +
-        '<div class="text-xs text-green-300 font-medium mb-1">中国→'+c.name+' 出口数据</div>' +
-        '<div class="text-xs text-gray-300">出口金额: <span class="text-green-400 font-bold">$'+countryInTop5.amt+'亿</span> · 同比增速: <span class="'+(countryInTop5.yoy>=0?'text-green-400':'text-red-400')+' font-bold">'+(countryInTop5.yoy>=0?'+':'')+countryInTop5.yoy+'%</span></div>' +
+    // 建材品类: 聚合20个子品类HS编码展示全景数据
+    var isBuildingCat = (cat.indexOf('建材')!==-1 || cat.indexOf('建筑材料')!==-1);
+    if(isBuildingCat) {
+      var BM_HS_LIST = [
+        {hs:'940610',label:'装配式建筑'},{hs:'681011',label:'水泥制品'},{hs:'680210',label:'加工石材'},
+        {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材'},
+        {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
+        {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝门窗'},{hs:'848180',label:'阀门龙头'},
+        {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
+        {hs:'690310',label:'耐火陶瓷'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
+        {hs:'441012',label:'刨花板'},{hs:'252321',label:'水泥'}
+      ];
+      var bmMatches = [];
+      var bmTotal = 0;
+      for(var bi=0;bi<BM_HS_LIST.length;bi++){
+        var bmHS = CUSTOMS_EXPORT_DATA[BM_HS_LIST[bi].hs];
+        if(bmHS && bmHS.top5){
+          for(var bt=0;bt<bmHS.top5.length;bt++){
+            if(bmHS.top5[bt].c === c.name){
+              bmMatches.push({label:BM_HS_LIST[bi].label, amt:bmHS.top5[bt].amt, yoy:bmHS.top5[bt].yoy, hs:BM_HS_LIST[bi].hs});
+              bmTotal += bmHS.top5[bt].amt;
+              break;
+            }
+          }
+        }
+      }
+      bmMatches.sort(function(a,b){ return b.amt - a.amt; });
+      var bmRowsHtml = '';
+      for(var mi=0;mi<bmMatches.length;mi++){
+        var m = bmMatches[mi];
+        var yoyColor = m.yoy>=0 ? 'text-green-400' : 'text-red-400';
+        var yoySign = m.yoy>=0 ? '+' : '';
+        bmRowsHtml += '<tr class="border-t border-white/5">' +
+          '<td class="py-1 text-xs text-gray-400">'+(mi+1)+'</td>' +
+          '<td class="py-1 text-xs text-gray-200">'+m.label+'</td>' +
+          '<td class="py-1 text-xs text-gray-500 font-mono">'+m.hs+'</td>' +
+          '<td class="py-1 text-xs text-blue-300 font-bold text-right">$'+m.amt+'亿</td>' +
+          '<td class="py-1 text-xs '+yoyColor+' font-semibold text-right">'+yoySign+m.yoy+'%</td>' +
+        '</tr>';
+      }
+      // 列出该国不在Top5的子品类
+      var bmNotInTop5 = [];
+      for(var ni=0;ni<BM_HS_LIST.length;ni++){
+        var found = false;
+        for(var nj=0;nj<bmMatches.length;nj++){
+          if(bmMatches[nj].hs === BM_HS_LIST[ni].hs){ found=true; break; }
+        }
+        if(!found) bmNotInTop5.push(BM_HS_LIST[ni].label);
+      }
+      var bmNotInHtml = bmNotInTop5.length > 0 ? '<div class="text-xs text-gray-500 mt-2">未进入Top5: '+bmNotInTop5.join(' · ')+'</div>' : '';
+
+      exportToCountryHtml = '<div class="bg-slate-800/50 rounded-xl p-4 mt-3">' +
+        '<div class="text-xs text-green-300 font-medium mb-1">中国→'+c.name+' 建材出口全景 <span class="text-gray-500 font-normal">（20个子品类HS编码聚合 · 2024年）</span></div>' +
+        '<div class="text-lg font-bold text-green-400 mb-3">$'+bmTotal+'亿 <span class="text-xs text-gray-400 font-normal">('+bmMatches.length+'个子品类进入Top5)</span></div>' +
+        '<div class="overflow-x-auto"><table class="w-full">' +
+          '<thead><tr class="text-gray-500 text-xs"><th class="pb-1 text-left w-6">#</th><th class="pb-1 text-left">子品类</th><th class="pb-1 text-left">HS编码</th><th class="pb-1 text-right">出口金额</th><th class="pb-1 text-right">同比</th></tr></thead>' +
+          '<tbody>'+bmRowsHtml+'</tbody>' +
+        '</table></div>' +
+        bmNotInHtml +
       '</div>';
     } else {
-      exportToCountryHtml = '<div class="bg-blue-400/10 border border-blue-400/20 rounded-lg p-3 mt-3">' +
-        '<div class="text-xs text-blue-300">中国→'+c.name+' ('+cData.name+') 出口: 未进入Top5目的国，预估规模较小，可开发潜力市场</div>' +
-      '</div>';
+      // 非建材品类: 原有单HS编码展示逻辑
+      if(countryInTop5) {
+        exportToCountryHtml = '<div class="bg-green-400/10 border border-green-400/20 rounded-lg p-3 mt-3">' +
+          '<div class="text-xs text-green-300 font-medium mb-1">中国→'+c.name+' 出口数据</div>' +
+          '<div class="text-xs text-gray-300">出口金额: <span class="text-green-400 font-bold">$'+countryInTop5.amt+'亿</span> · 同比增速: <span class="'+(countryInTop5.yoy>=0?'text-green-400':'text-red-400')+' font-bold">'+(countryInTop5.yoy>=0?'+':'')+countryInTop5.yoy+'%</span></div>' +
+        '</div>';
+      } else {
+        exportToCountryHtml = '<div class="bg-blue-400/10 border border-blue-400/20 rounded-lg p-3 mt-3">' +
+          '<div class="text-xs text-blue-300">中国→'+c.name+' ('+cData.name+') 出口: 未进入Top5目的国，预估规模较小，可开发潜力市场</div>' +
+        '</div>';
+      }
     }
 
     // 出口趋势数据
@@ -6019,7 +6082,67 @@ function runDemandAnalysis() {
   var hs = compInfo.hs || '999999';
   var cData = CUSTOMS_EXPORT_DATA[hs] || CUSTOMS_EXPORT_DATA['999999'];
   var top5Html = '';
-  if(cData && cData.top5) {
+
+  // 建材品类: 聚合20个子品类HS编码的TOP5数据
+  var isBuildingCatDemand = (cat.indexOf('建材')!==-1 || cat.indexOf('建筑材料')!==-1);
+  if(isBuildingCatDemand) {
+    var BM_HS_ALL = [
+      {hs:'940610',label:'装配式建筑'},{hs:'252321',label:'水泥'},{hs:'680210',label:'加工石材'},
+      {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材'},
+      {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
+      {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝门窗'},{hs:'848180',label:'阀门龙头'},
+      {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
+      {hs:'690310',label:'耐火陶瓷'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
+      {hs:'441012',label:'刨花板'},{hs:'681011',label:'水泥制品'}
+    ];
+    // 聚合各国总金额
+    var countryAgg = {};
+    for(var bi=0;bi<BM_HS_ALL.length;bi++){
+      var bHS = CUSTOMS_EXPORT_DATA[BM_HS_ALL[bi].hs];
+      if(bHS && bHS.top5){
+        for(var bt=0;bt<bHS.top5.length;bt++){
+          var cc = bHS.top5[bt].c;
+          if(!countryAgg[cc]) countryAgg[cc] = {amt:0, details:[]};
+          countryAgg[cc].amt += bHS.top5[bt].amt;
+          countryAgg[cc].details.push({label:BM_HS_ALL[bi].label, amt:bHS.top5[bt].amt, yoy:bHS.top5[bt].yoy});
+        }
+      }
+    }
+    // 排序取TOP5
+    var aggList = [];
+    for(var ck in countryAgg){ aggList.push({c:ck, amt:countryAgg[ck].amt, details:countryAgg[ck].details}); }
+    aggList.sort(function(a,b){ return b.amt - a.amt; });
+    var aggTop5 = aggList.slice(0, 5);
+
+    if(aggTop5.length > 0) {
+      // 计算总金额
+      var bmTotalAll = 0;
+      for(var bti=0;bti<aggList.length;bti++) bmTotalAll += aggList[bti].amt;
+      top5Html = '<div class="mt-4 bg-slate-800/50 rounded-xl p-4">' +
+        '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (建材全品类20个HS编码聚合) <span class="text-gray-500 font-normal ml-1">数据周期: 2024年1-12月</span></div>' +
+        '<div class="text-xs text-gray-400 mb-3">建材全品类出口总额: <span class="text-green-400 font-bold">$'+bmTotalAll+'亿</span> (覆盖'+aggList.length+'个目的国)</div>' +
+        '<div class="space-y-3">';
+      for(var ai=0;ai<aggTop5.length;ai++){
+        var ag = aggTop5[ai];
+        var avgYoy = 0;
+        for(var di=0;di<ag.details.length;di++) avgYoy += ag.details[di].yoy;
+        avgYoy = Math.round(avgYoy / ag.details.length);
+        var aColor = avgYoy>=0 ? 'text-green-400' : 'text-red-400';
+        var aBarW = Math.min(Math.round(ag.amt / aggTop5[0].amt * 100), 100);
+        var detailStr = ag.details.map(function(dd){ return dd.label+'($'+dd.amt+'亿)'; }).join(' · ');
+        top5Html += '<div>' +
+          '<div class="flex justify-between text-xs mb-1">' +
+            '<span class="text-gray-300 font-medium">'+(ai+1)+'. '+ag.c+'</span>' +
+            '<span class="text-blue-300 font-bold">$'+ag.amt+'亿</span>' +
+            '<span class="'+aColor+' font-semibold">'+(avgYoy>=0?'+':'')+avgYoy+'%</span>' +
+          '</div>' +
+          '<div class="w-full bg-white/5 rounded-full h-1.5 mb-1"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+aBarW+'%"></div></div>' +
+          '<div class="text-xs text-gray-500">'+detailStr+'</div>' +
+        '</div>';
+      }
+      top5Html += '</div></div>';
+    }
+  } else if(cData && cData.top5) {
     top5Html = '<div class="mt-4 bg-slate-800/50 rounded-xl p-4">' +
       '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (HS '+hs+' · '+cData.name+') <span class="text-gray-500 font-normal ml-1">数据周期: 2024年1-12月</span></div>' +
       '<div class="space-y-2">';
