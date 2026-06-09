@@ -1268,7 +1268,7 @@ function renderCompass(cat) {
         '<div>' + yearHtml + '</div>' +
       '</div>' +
       '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP5目的国</h4>' +
+        '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP5目的国 <span class="text-xs text-gray-500 font-normal ml-1">数据周期: 2024年1-12月</span></h4>' +
         '<div>' + topHtml + '</div>' +
       '</div>' +
     '</div>';
@@ -4815,7 +4815,7 @@ function runDemandAnalysis() {
   var top5Html = '';
   if(cData && cData.top5) {
     top5Html = '<div class="mt-4 bg-slate-800/50 rounded-xl p-4">' +
-      '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (HS '+hs+' · '+cData.name+')</div>' +
+      '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (HS '+hs+' · '+cData.name+') <span class="text-gray-500 font-normal ml-1">数据周期: 2024年1-12月</span></div>' +
       '<div class="space-y-2">';
     for(var ti=0;ti<cData.top5.length;ti++){
       var t=cData.top5[ti];
