@@ -1165,6 +1165,148 @@ var LOGISTICS_DATA = {
 };
 
 // ============================================================
+// 准入门槛评分（各国综合评估 · 认证难度/合规成本/平台入驻/综合评分）
+// 评分规则: 1-10分，分越高越难准入
+// ============================================================
+var ENTRY_BARRIER_DATA = {
+  '美国': {
+    overall: 6.5,
+    cert: {score:7, name:'FCC/UL/EPA/DOE', time:'3-6个月', cost:'$8,000-25,000', note:'FCC强制(电子类)，UL自愿但渠道要求，DOE能效新规趋严'},
+    compliance: {score:6, items:['CPSIA(儿童用品)','Prop 65(加州化学物质)','TSCA(有毒物质)','FDA(食品/医疗)'], cost:'合规顾问$5,000-15,000/年'},
+    platform: {score:6, channels:['Amazon(品牌备案+2周审核)','Walmart(邀请制/年收入$500K+)','独立站(Shopify+Google Ads)'], note:'Amazon新卖家需品牌备案，Walmart门槛较高'},
+    tariff: {score:7, rate:'平均3-25%，301关税附加25%', note:'对华301关税涵盖大量品类，需关注排除清单'},
+    ip: {score:8, note:'知识产权诉讼成本极高($5-50万)，需提前做FTO检索，Amazon品牌投诉响应快'},
+    summary:'市场巨大但合规成本高，301关税是核心壁垒，IP风险需重视'
+  },
+  '德国': {
+    overall: 7.0,
+    cert: {score:7, name:'CE/GS/WEEE/REACH', time:'2-5个月', cost:'€5,000-20,000', note:'CE强制，GS自愿但消费者认可度高，WEEE注册必须'},
+    compliance: {score:8, items:['EPR注册(包装/WEEE/电池)','REACH(化学品)','GPSR(通用产品安全)','能效标签(ErP)'], cost:'EPR注册+年度报告€3,000-8,000/年'},
+    platform: {score:6, channels:['Amazon.de(注册简单但需VAT)','Otto(邀请制/德国品质标准)','独立站(本地化要求高)'], note:'德国消费者对产品质量/售后要求极高，退货率25-30%'},
+    tariff: {score:5, rate:'EU统一关税0-12%，无附加关税', note:'IOSS简化€150以下清关，超额需本地报关'},
+    ip: {score:7, note:'德国专利诉讼活跃(欧洲最多)，海关扣货门槛低，需提前做欧洲专利检索'},
+    summary:'欧洲最严市场之一，EPR/REACH合规成本高，退货率是隐形成本'
+  },
+  '英国': {
+    overall: 6.0,
+    cert: {score:6, name:'UKCA/BS标准', time:'2-4个月', cost:'£4,000-15,000', note:'脱欧后UKCA替代CE(过渡期延长至2025底)，部分仍认CE'},
+    compliance: {score:6, items:['UK EPR(包装/WEEE)','UK REACH','产品安全法(OPSS)','能效标签'], cost:'EPR+合规£2,500-6,000/年'},
+    platform: {score:5, channels:['Amazon.co.uk(门槛低)','eBay UK(成熟市场)','独立站(英国消费者接受度高)'], note:'英国消费者线上消费习惯成熟，独立站转化率相对高'},
+    tariff: {score:5, rate:'0-12%，MFN关税', note:'脱欧后需独立清关+UK EORI，£135以下ODP代扣'},
+    ip: {score:6, note:'IP保护体系完善但诉讼成本低于美国，Trading Standards主动执法'},
+    summary:'脱欧后需独立合规体系，但整体准入难度低于德国/美国'
+  },
+  '日本': {
+    overall: 7.5,
+    cert: {score:8, name:'PSE/PSC/JIS/TELEC', time:'3-8个月', cost:'¥50-200万(约$3,500-14,000)', note:'PSE强制(电器)，测试必须日本NRTL实验室，流程慢'},
+    compliance: {score:7, items:['电气用品安全法(PSE)','消费生活用品安全法(PSC)','食品卫生法','药机法(医疗)'], cost:'合规代理¥30-100万/年'},
+    platform: {score:7, channels:['Amazon.co.jp(需日语客服)','乐天(入驻审核严/月租高)','Yahoo Shopping','独立站(日语必须)'], note:'乐天要求日本法人或代理人，月租3-5万日元'},
+    tariff: {score:4, rate:'平均0-8%，EPA协定进一步降低', note:'关税低但逆算法和事后调查严格，需专业报关'},
+    ip: {score:7, note:'日本海关知识产权边境措施活跃，侵权品扣押率高'},
+    summary:'认证流程长且必须本地实验室，语言/服务本地化要求高'
+  },
+  '韩国': {
+    overall: 7.0,
+    cert: {score:8, name:'KC/KCC/KFDA', time:'3-6个月', cost:'₩500-2000万(约$3,800-15,000)', note:'KC认证强制(电子电器)，必须韩国本地代理人'},
+    compliance: {score:6, items:['电器安全(KC)','EMC认证(KCC)','化学品(K-REACH)','食品(KFDA)'], cost:'KC年度维护₩200-500万/年'},
+    platform: {score:7, channels:['Coupang(最大电商/Rocket配送)','Naver Shopping','Gmarket/11st','独立站(渗透率低)'], note:'Coupang入驻需韩国法人或代理人，韩语客服必须'},
+    tariff: {score:4, rate:'FTA下多数品类0-8%', note:'中韩FTA覆盖广，关税不是主要障碍'},
+    ip: {score:6, note:'韩国知识产权局(KIPO)保护力度强，需提前注册韩国商标'},
+    summary:'KC认证为核心壁垒，本地代理人制度增加运营复杂度'
+  },
+  '澳大利亚': {
+    overall: 5.5,
+    cert: {score:5, name:'RCM/SAA/TGA', time:'2-4个月', cost:'AUD$3,000-12,000', note:'电器需RCM标志，医疗器械需TGA，食品需FSANZ'},
+    compliance: {score:5, items:['消费品安全标准','电器安全(AS/NZS)','生物安全(木制品熏蒸)','ACL消费者法'], cost:'合规AUD$2,000-5,000/年'},
+    platform: {score:4, channels:['Amazon.com.au(增长快)','eBay AU(成熟)','Kogan(本土平台)','独立站'], note:'市场规模小但竞争相对温和，利润空间好'},
+    tariff: {score:4, rate:'ChAFTA下多数0-5%', note:'中澳FTA大幅降低关税，GST 10%由平台代扣'},
+    ip: {score:5, note:'IP保护体系完善但诉讼成本较低，ACCC主动执法'},
+    summary:'准入门槛相对低，ChAFTA关税优惠，但物流时效是痛点'
+  },
+  '加拿大': {
+    overall: 5.5,
+    cert: {score:5, name:'CSA/ISED/NRCan', time:'2-4个月', cost:'CAD$4,000-15,000', note:'电器需CSA/cUL，无线设备需ISED，能效需NRCan'},
+    compliance: {score:5, items:['加拿大消费品安全法(CCPSA)','WHMIS(化学品标签)','法语标签(魁北克)','能效法规'], cost:'合规CAD$2,000-5,000/年'},
+    platform: {score:4, channels:['Amazon.ca(与美国联动)','Walmart Canada','Shopify(加拿大本土)','独立站'], note:'可与美国市场联动运营，降低边际成本'},
+    tariff: {score:5, rate:'MFN 0-18%，部分品类反倾销', note:'CUSMA可通过墨西哥转口降低关税'},
+    ip: {score:5, note:'IP体系与美国类似但执法力度稍弱，CIPO商标注册简单'},
+    summary:'跟随美国标准体系，可与美国一体化运营，门槛适中'
+  },
+  '印度': {
+    overall: 8.0,
+    cert: {score:8, name:'BIS/WPC/CDSCO', time:'4-12个月', cost:'₹5-20lakh(约$6,000-24,000)', note:'BIS强制注册(电子/玩具/钢材等)，流程官僚且慢'},
+    compliance: {score:8, items:['BIS强制注册(CRS)','WPC(无线设备)','FSSAI(食品)','药品管理局(医疗)','FDI政策限制'], cost:'BIS代理+年检₹3-8lakh/年'},
+    platform: {score:8, channels:['Amazon.in(需印度实体)','Flipkart(需印度法人)','Meesho(社交电商)'], note:'FDI政策限制外资直营，需通过印度合资公司或代理进入'},
+    tariff: {score:9, rate:'平均20-60%，部分品类100%+', note:'保护主义关税极高，Make in India政策推动本地制造'},
+    ip: {score:6, note:'IP执法效率低，仿冒品泛滥，但正在改善中'},
+    summary:'准入最难市场之一：高关税+BIS耗时+FDI限制三重壁垒'
+  },
+  '巴西': {
+    overall: 8.5,
+    cert: {score:7, name:'INMETRO/ANATEL/ANVISA', time:'4-10个月', cost:'R$20,000-80,000(约$4,000-16,000)', note:'INMETRO强制(电器/玩具)，需巴西本地代理人'},
+    compliance: {score:8, items:['INMETRO认证','ANATEL(电信设备)','ANVISA(医疗/化妆品)','环境许可(IBAMA)'], cost:'代理+合规R$15,000-40,000/年'},
+    platform: {score:7, channels:['Mercado Livre(主导)','Shopee BR','Amazon.com.br(起步期)','Magazine Luiza'], note:'Mercado Livre占60%+电商份额，需葡语运营'},
+    tariff: {score:10, rate:'II+IPI+ICMS+PIS/COFINS叠加60-120%', note:'全球最高进口税率之一，强烈建议本地设厂或保税仓'},
+    ip: {score:5, note:'INPI商标注册极慢(2-3年)，建议提前申请'},
+    summary:'税负全球最高+认证慢+语言壁垒，但市场潜力巨大值得长期投入'
+  },
+  '墨西哥': {
+    overall: 6.0,
+    cert: {score:6, name:'NOM/NYCE/COFEPRIS', time:'3-6个月', cost:'$3,000-12,000 USD', note:'NOM强制(电器/电子)，可通过USMCA简化部分流程'},
+    compliance: {score:5, items:['NOM认证','NYCE(电子认证)','COFEPRIS(食品/医疗)','SAT税务登记'], cost:'NOM维护$2,000-5,000/年'},
+    platform: {score:5, channels:['Mercado Libre MX(主导)','Amazon.com.mx','Walmart Mexico','独立站'], note:'可作为进入北美市场的跳板(USMCA原产地规则)'},
+    tariff: {score:5, rate:'MFN 5-20%，USMCA下可降', note:'近岸外包趋势下设厂可享USMCA零关税出口美加'},
+    ip: {score:5, note:'IMPI知识产权保护力度在提升，T-MEC(USMCA)条款加强IP执法'},
+    summary:'门槛适中，USMCA是最大战略优势，适合作为北美制造/出口基地'
+  },
+  '沙特': {
+    overall: 6.5,
+    cert: {score:7, name:'SABER/SASO/SFDA', time:'2-5个月', cost:'SAR 15,000-50,000(约$4,000-13,000)', note:'SABER平台强制(所有消费品)，需获得合格证书方可清关'},
+    compliance: {score:6, items:['SABER/SALEEM合格证','SASO技术法规','SFDA(食品/药品)','沙特标准(SASO)'], cost:'SABER年度SAR 10,000-30,000'},
+    platform: {score:5, channels:['Noon(区域主导)','Amazon.sa','Salla(本土SaaS)','独立站'], note:'Noon有FBN配送服务，入驻需要沙特/阿联酋公司注册'},
+    tariff: {score:5, rate:'GCC统一关税5-12%', note:'GCC关税较低，但VAT 15%由平台代扣'},
+    ip: {score:5, note:'IP保护在改善(Vision 2030)，但执法资源有限'},
+    summary:'SABER认证是核心准入门槛，市场正处于电商爆发期'
+  },
+  '阿联酋': {
+    overall: 5.0,
+    cert: {score:5, name:'ECAS/ESMA/DM', time:'2-4个月', cost:'AED 10,000-35,000(约$2,700-9,500)', note:'迪拜自贸区可简化部分认证流程'},
+    compliance: {score:4, items:['ECAS(阿联酋合格评定)','ESMA(标准化)','Dubai Municipality(食品)','TRA(电信)'], cost:'合规AED 8,000-20,000/年'},
+    platform: {score:4, channels:['Noon(区域主导)','Amazon.ae','Namshi(时尚)','独立站(高消费力)'], note:'自贸区0%企业税+0%关税，适合作为中东跳板'},
+    tariff: {score:3, rate:'GCC统一5%，自贸区0%', note:'杰贝阿里自贸区零关税+零企业税，是中东转口中心'},
+    ip: {score:4, note:'迪拜IP保护较强(中东领先)，注册商标流程快'},
+    summary:'准入最友好的中东市场，自贸区政策极优，适合作为区域总部'
+  },
+  '越南': {
+    overall: 5.5,
+    cert: {score:5, name:'QUACERT/MIC', time:'2-4个月', cost:'$1,500-6,000', note:'电子产品需MIC型式认证，玩具需QUACERT'},
+    compliance: {score:5, items:['MIC(信息通信设备)','QUACERT(产品认证)','VFA(食品)','MOH(医疗)'], cost:'合规$1,500-4,000/年'},
+    platform: {score:4, channels:['Shopee VN(主导)','Lazada VN','TikTok Shop','Tiki(本土)'], note:'Shopee/Lazada为主流，TikTok Shop增速最快'},
+    tariff: {score:4, rate:'ACFTA下多数0-5%', note:'中越FTA(ACFTA)关税极低，陆运成本优势明显'},
+    ip: {score:4, note:'IP执法力度弱，仿冒品多，但正在改善(CPTPP推动)'},
+    summary:'准入门槛低+FTA关税优势+地理近便，适合测试东南亚市场'
+  },
+  '印尼': {
+    overall: 6.5,
+    cert: {score:7, name:'SNI/SDPPI/BPOM', time:'3-8个月', cost:'$2,500-10,000', note:'SNI强制(电子/玩具/纺织)，需印尼本地代理人'},
+    compliance: {score:6, items:['SNI(国家标准)','SDPPI(无线设备)','BPOM(食品/化妆品)','API进口许可证'], cost:'SNI+代理$2,000-6,000/年'},
+    platform: {score:5, channels:['Shopee ID(主导)','Tokopedia','Lazada ID','TikTok Shop','Blibli'], note:'需印尼公司注册或找本地代理，印尼语运营必须'},
+    tariff: {score:6, rate:'MFN 5-30%，部分品类有保障措施', note:'印尼对华部分品类加征反倾销税(钢材/陶瓷等)'},
+    ip: {score:5, note:'DGIP知识产权保护在加强，但执法效率仍有限'},
+    summary:'SNI认证和本地代理人是核心门槛，市场潜力(2.7亿人口)值得投入'
+  },
+  '法国': {
+    overall: 7.0,
+    cert: {score:7, name:'CE/NF/ANSM', time:'2-5个月', cost:'€5,000-18,000', note:'CE强制(同EU)，NF为法国自愿高标准，医疗需ANSM'},
+    compliance: {score:8, items:['EPR(包装/WEEE/电池/纺织/家具)','REACH','反浪费法(AGEC)','GPSR','法语标签'], cost:'EPR注册(多品类)€4,000-10,000/年'},
+    platform: {score:6, channels:['Amazon.fr','Cdiscount(法国本土)','Fnac/Darty','独立站(法语必须)'], note:'法国消费者重视法语服务+本地退货地址'},
+    tariff: {score:5, rate:'EU统一关税0-12%', note:'同德国，EU内部流通免关税'},
+    ip: {score:7, note:'法国海关知识产权扣押活跃，INPI商标注册高效'},
+    summary:'EPR合规品类最多(全球之最)，反浪费法(AGEC)对包装/维修有额外要求'
+  }
+};
+
+// ============================================================
 // 价格模板（含竞品链接）
 // ============================================================
 var PRICING = {
@@ -5197,6 +5339,75 @@ function showCountryDetail(iso) {
       '</div>';
   }
 
+  // ===== 准入门槛评分 =====
+  var barrierHtml = '';
+  var barrierData = ENTRY_BARRIER_DATA[c.name];
+  if(barrierData) {
+    var scoreColor = barrierData.overall <= 5 ? 'text-green-400' : barrierData.overall <= 7 ? 'text-yellow-400' : 'text-red-400';
+    var scoreLabel = barrierData.overall <= 5 ? '较易准入' : barrierData.overall <= 7 ? '中等难度' : '高壁垒';
+    var complianceList = barrierData.compliance.items.map(function(item){ return '<span class="text-xs bg-white/5 rounded px-2 py-0.5 text-gray-300">'+item+'</span>'; }).join(' ');
+    var channelList = barrierData.platform.channels.map(function(ch){ return '<div class="text-xs text-gray-300 py-0.5">· '+ch+'</div>'; }).join('');
+
+    // 各维度评分条
+    var dims = [
+      {name:'认证难度', score:barrierData.cert.score, detail:barrierData.cert.name},
+      {name:'合规成本', score:barrierData.compliance.score, detail:barrierData.compliance.cost},
+      {name:'平台门槛', score:barrierData.platform.score, detail:barrierData.platform.note},
+      {name:'关税壁垒', score:barrierData.tariff.score, detail:barrierData.tariff.rate},
+      {name:'知识产权风险', score:barrierData.ip.score, detail:barrierData.ip.note}
+    ];
+    var dimRows = dims.map(function(d){
+      var barColor = d.score <= 4 ? 'bg-green-500/70' : d.score <= 6 ? 'bg-yellow-500/70' : 'bg-red-500/70';
+      return '<div class="mb-2">' +
+        '<div class="flex justify-between items-center mb-0.5"><span class="text-xs text-gray-400">'+d.name+'</span><span class="text-xs text-gray-300">'+d.score+'/10</span></div>' +
+        '<div class="w-full h-1.5 bg-white/5 rounded-full"><div class="h-1.5 rounded-full '+barColor+'" style="width:'+d.score*10+'%"></div></div>' +
+        '<div class="text-xs text-gray-500 mt-0.5">'+d.detail+'</div>' +
+      '</div>';
+    }).join('');
+
+    barrierHtml =
+      '<div class="border-t border-white/5 pt-6 mt-6">' +
+        '<h3 class="font-semibold text-sm mb-4 text-rose-300">'+c.name+' 准入门槛评分</h3>' +
+        '<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">' +
+          '<div class="bg-slate-800/50 rounded-xl p-4 text-center">' +
+            '<div class="text-3xl font-bold '+scoreColor+'">'+barrierData.overall+'<span class="text-sm font-normal text-gray-400">/10</span></div>' +
+            '<div class="text-xs text-gray-400 mt-1">综合准入难度</div>' +
+            '<div class="text-xs mt-1 '+scoreColor+'">'+scoreLabel+'</div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4 md:col-span-2">' +
+            dimRows +
+          '</div>' +
+        '</div>' +
+        '<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-blue-300 font-medium mb-2">认证要求</div>' +
+            '<div class="text-xs text-gray-300 mb-1">主要认证: <span class="text-gray-200 font-medium">'+barrierData.cert.name+'</span></div>' +
+            '<div class="text-xs text-gray-400">办理周期: '+barrierData.cert.time+' · 费用: '+barrierData.cert.cost+'</div>' +
+            '<div class="text-xs text-gray-500 mt-1">'+barrierData.cert.note+'</div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-purple-300 font-medium mb-2">合规要求</div>' +
+            '<div class="flex flex-wrap gap-1 mb-2">'+complianceList+'</div>' +
+            '<div class="text-xs text-gray-400">年度合规成本: '+barrierData.compliance.cost+'</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-green-300 font-medium mb-2">主要销售渠道</div>' +
+            channelList +
+            '<div class="text-xs text-gray-500 mt-2">'+barrierData.platform.note+'</div>' +
+          '</div>' +
+          '<div class="bg-slate-800/50 rounded-xl p-4">' +
+            '<div class="text-xs text-yellow-300 font-medium mb-2">关税 & 知识产权</div>' +
+            '<div class="text-xs text-gray-300 mb-1">关税税率: '+barrierData.tariff.rate+'</div>' +
+            '<div class="text-xs text-gray-500 mb-2">'+barrierData.tariff.note+'</div>' +
+            '<div class="text-xs text-gray-300 mb-1">IP风险: '+barrierData.ip.note+'</div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="bg-rose-400/5 border border-rose-400/20 rounded-lg p-3 text-xs text-rose-200">'+barrierData.summary+'</div>' +
+      '</div>';
+  }
+
   var html = '<div class="flex items-center gap-3 mb-6">' +
     '<span class="text-4xl">'+c.flag+'</span>' +
     '<div><h2 class="text-2xl font-bold">'+c.name+'</h2><p class="text-gray-400 text-sm">'+c.region+' · ISO '+c.iso+' · 当前品类: <span class="text-green-400">'+cat+'</span></p></div>' +
@@ -5205,6 +5416,7 @@ function showCountryDetail(iso) {
   demandSectionHtml +
   compHtml +
   logHtml +
+  barrierHtml +
   '<div class="border-t border-white/5 pt-6 mt-6">' +
     '<h3 class="font-semibold text-sm mb-4 text-gray-300">国家概况</h3>' +
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
