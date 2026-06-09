@@ -761,6 +761,65 @@ var COUNTRY_CORE_DEMANDS = {
   '阿联酋': { '储能':'智能建筑储能', '家电':'高端智能家居全套', '玩具':'奢侈品牌玩具/乐高旗舰', '家具':'奢侈品牌家具', '服装':'奢侈品/设计师品牌', '陶瓷':'高端进口装饰瓷砖', '灯具':'智慧城市/商业综合体照明', '医疗器械':'高端医疗旅游设备', 'default':'高端奢侈消费品及智慧城市基建设备' }
 };
 
+// 品类×国家 细分产品需求（结构化）
+var CATEGORY_PRODUCT_NEEDS = {
+  '储能': {
+    '美国': {products:['家庭备电系统(5-15kWh)','户外露营便携电源(1-3kWh)','工商业储能柜(100kWh+)','EV充电储能一体机'], specs:'UL9540认证, LFP电芯为主, 兼容Tesla/SolarEdge逆变器', price:'家用$3,000-12,000, 便携$500-2,000', trend:'加州NEM3.0推动户储需求爆发, 高电价州需求增长最快'},
+    '德国': {products:['阳台光储一体系统(800W)','户用光储(5-10kWh)','社区共享储能','VPP虚拟电厂设备'], specs:'TÜV认证, 兼容SMA/Fronius逆变器, 低温性能要求', price:'阳台€1,000-2,500, 户用€5,000-15,000', trend:'阳台光储(Balkonkraftwerk)爆发式增长, 政策补贴强劲'},
+    '英国': {products:['家庭应急备电(5-10kWh)','智能储能+热泵联动','商业储能租赁方案'], specs:'MCS认证(微型发电), UKCA标志, G99并网标准', price:'£3,000-10,000', trend:'电价持续高位驱动, 政府0% VAT补贴至2027'},
+    '日本': {products:['便携式储能电源(500-2000Wh)','家用蓄电池(6-16kWh)','V2H(车到家)系统'], specs:'JET认证必须, 抗震设计, 兼容日本50/60Hz双频', price:'便携¥5-20万, 家用¥80-250万', trend:'FIT退出后自消费模式兴起, 灾害防备意识强'},
+    '澳大利亚': {products:['离网太阳能储能(10-30kWh)','户用混合逆变储能','农场/矿场大型储能'], specs:'CEC认证必须, AS/NZS 5139安装标准, 高温耐受', price:'AUD$6,000-20,000', trend:'全球户储渗透率最高国家之一, 离网需求强(农场/偏远地区)'},
+    '印度': {products:['离网太阳能家用系统(1-5kWh)','逆变器+电池UPS替代','工商业屋顶光储'], specs:'BIS认证, 高温45°C+耐受, 电压波动适应(160-270V)', price:'家用₹50,000-200,000', trend:'频繁停电驱动需求, PM-KUSUM计划补贴农业光储'},
+    '沙特': {products:['沙漠高温储能(55°C+工作)','大型地面电站储能','智能建筑BESS'], specs:'SABER认证, 极端高温防护IP65+, 沙尘防护设计', price:'项目型$200-500/kWh', trend:'Vision 2030可再生能源50GW目标, NEOM等超级项目拉动'},
+    '巴西': {products:['分布式光储(5-15kWh)','农村离网微网','工商业削峰填谷'], specs:'INMETRO认证, 兼容巴西220V/127V双电压', price:'R$15,000-50,000', trend:'分布式光伏全球第二, GD法规推动储能配比要求'},
+    'default': {products:['户用储能系统','便携储能电源','工商业储能'], specs:'当地认证必须, LFP电芯为主流', price:'$2,000-15,000(家用)', trend:'全球储能市场高速增长'}
+  },
+  '家电': {
+    '美国': {products:['智能空气炸锅/多功能料理机','扫地机器人(激光导航)','智能门锁/安防','便携式空调'], specs:'FCC/UL/DOE能效认证, Alexa/Google Home兼容, 110V/60Hz', price:'$50-500(小家电), $200-1000(扫地机)', trend:'智能家居生态联动需求强, TikTok带货小家电爆款频出'},
+    '德国': {products:['高能效A级洗碗机','节能热泵干衣机','智能恒温壶/厨师机','全屋新风系统'], specs:'CE/GS认证, ErP能效最低A+, WEEE回收, 230V/50Hz', price:'€100-800(小家电), €500-2000(大家电)', trend:'能效等级是核心卖点, 消费者愿为节能高品质付溢价'},
+    '日本': {products:['静音加湿器/除湿机','迷你烘焙烤箱','美容仪(射频/LED)','极简设计电热壶'], specs:'PSE认证必须, 100V/50-60Hz, 极致静音(<30dB)', price:'¥5,000-50,000', trend:'小巧精致+极致静音是硬性要求, 颜值设计溢价空间大'},
+    '印度': {products:['变频空调(1.5T为主)','RO净水器','高速无叶风扇','电饭煲/压力锅'], specs:'BIS认证, 宽电压(160-270V), 防尘防虫设计', price:'₹5,000-30,000', trend:'空调渗透率<10%增长空间巨大, 净水器因水质问题刚需'},
+    '巴西': {products:['性价比变频空调','智能洗衣机','空气炸锅','榨汁机/搅拌机'], specs:'INMETRO认证, 127V/220V双版本, 葡语说明书', price:'R$500-3,000', trend:'高温气候空调需求大, 消费分期(12x)是常见购买方式'},
+    'default': {products:['智能小家电','节能大家电','美容个护电器'], specs:'当地认证+能效标签必须', price:'$50-500(小家电)', trend:'智能化+节能是全球趋势'}
+  },
+  '玩具': {
+    '美国': {products:['STEM编程机器人','IP授权手办(漫威/迪士尼)','户外水枪/泡泡机','解压/fidget玩具'], specs:'CPSIA/ASTM F963强制, 无毒涂料, 窒息警告(<3岁)', price:'$10-80(大众), $50-300(收藏)', trend:'TikTok爆款周期短(4-8周), STEM教育类持续增长'},
+    '日本': {products:['动漫IP手办/扭蛋','精密拼装模型(高达等)','卡牌游戏(TCG)','电子宠物'], specs:'ST标志(日本玩具协会), 食品级塑料, 精细做工要求极高', price:'¥500-30,000', trend:'IP授权为王, 中国制造+日本IP组合是成熟商业模式'},
+    '德国': {products:['木质环保积木(FSC认证)','科学实验套装','户外探索玩具','高端桌游'], specs:'CE/EN71强制, 无BPA/邻苯, 可回收包装, 德语说明', price:'€15-80', trend:'可持续材料+教育属性是德国家长核心关注点'},
+    'default': {products:['益智教育玩具','IP授权手办','户外运动玩具'], specs:'当地安全认证必须, 无毒材料', price:'$10-50(大众)', trend:'IP+教育双驱动'}
+  },
+  '家具': {
+    '美国': {products:['RTA扁平包装沙发/床','升降办公桌','户外露台家具','模块化收纳系统'], specs:'CARB P2(甲醛排放), BIFMA(办公), 抗倾倒测试', price:'$100-800(大众), $500-3000(中高端)', trend:'WFH远程办公驱动办公家具, 亚马逊RTA品类竞争白热化'},
+    '德国': {products:['FSC认证实木衣柜/书桌','人体工学办公椅','可持续竹制家具','系统柜(定制)'], specs:'FSC/PEFC认证, REACH(涂料), DIN标准, Blue Angel优选', price:'€200-2000', trend:'可持续认证是准入门槛, 德国消费者愿为FSC付20%+溢价'},
+    '沙特': {products:['宫廷风豪华真皮沙发','全屋定制(别墅)','婚房整装家具套','阿拉伯风Majlis坐垫'], specs:'SABER认证, 阻燃测试, 真皮材质需标注, 大尺寸设计', price:'SAR 5,000-50,000', trend:'新房装修需求旺盛(年轻人口), 全屋定制模式受欢迎'},
+    'default': {products:['组装式家具','办公家具','户外家具'], specs:'甲醛排放标准+结构安全测试', price:'$100-1000', trend:'电商友好型RTA品类增长最快'}
+  },
+  '服装': {
+    '美国': {products:['运动休闲Athleisure','大码包容性服饰','可持续面料T恤','功能性户外夹克'], specs:'CPSIA(儿童), FTC标签法(成分/产地), Prop 65(加州)', price:'$15-80(大众快时尚)', trend:'SHEIN/Temu价格战激烈, 品牌化+可持续是差异化方向'},
+    '德国': {products:['GOTS有机棉基础款','Bluesign认证户外服','功能性骑行服','环保再生涤纶外套'], specs:'REACH(AZO/重金属), OEKO-TEX 100, 德语洗标', price:'€20-120', trend:'可持续认证几乎成硬性要求, 消费者查标签率极高'},
+    '印尼': {products:['穆斯林头巾Hijab','长款裙装Gamis','开斋节礼服','运动Modest wear'], specs:'SNI(纺织品), 清真认证(穆斯林服饰)', price:'Rp 50,000-500,000', trend:'2.3亿穆斯林人口, Modest Fashion全球最大市场'},
+    'default': {products:['休闲服饰','功能运动服','时尚配饰'], specs:'当地标签法+安全标准', price:'$10-50(大众)', trend:'快时尚电商竞争激烈, 品牌化是利润关键'}
+  },
+  '灯具': {
+    '美国': {products:['智能LED灯泡(WiFi/Zigbee)','太阳能庭院灯','商业LED面板灯','氛围灯带'], specs:'FCC/UL/DLC/Energy Star, 110V, Alexa/HomeKit兼容', price:'$10-60(消费), $50-300(商业)', trend:'智能照明+户外景观灯增速最快, DLC认证可获返利'},
+    '德国': {products:['商业LED替换(T8/T5)','户外IP65防水灯具','人体感应楼道灯','全光谱护眼台灯'], specs:'CE/ENEC/VDE优选, ErP能效, WEEE回收, RoHS', price:'€15-150', trend:'工业/商业LED改造需求大, 能效和寿命是核心竞争力'},
+    '沙特': {products:['超大水晶吊灯(宫殿/酒店)','高温户外LED路灯','清真寺巨型照明','太阳能路灯'], specs:'SABER认证, 高温50°C+耐受, 防沙尘IP65+', price:'SAR 500-50,000', trend:'超大项目(NEOM/Red Sea)带来巨量商业照明需求'},
+    'default': {products:['LED室内照明','智能灯具','户外太阳能灯'], specs:'当地安规认证+能效标准', price:'$10-100', trend:'LED渗透率持续提升, 智能化是附加值方向'}
+  },
+  '医疗器械': {
+    '美国': {products:['CGM连续血糖监测仪','家用血氧/血压监测','电动轮椅/助行器','远程诊疗终端'], specs:'FDA 510(k)/PMA, QSR(质量体系), UDI追溯', price:'$100-5,000(消费医疗)', trend:'数字健康+远程监测爆发, FDA对AI医疗器械态度积极'},
+    '德国': {products:['精密IVD诊断设备','康复理疗器械','手术导航系统','呼吸机/监护仪'], specs:'CE-MDR(EU 2017/745), ISO 13485, 公告机构审核', price:'€5,000-200,000', trend:'MDR新规增加合规成本, 但也提高准入门槛利好先入者'},
+    '印度': {products:['基层CT/DR影像','便携B超','监护仪/呼吸机','诊断试剂/POCT'], specs:'CDSCO注册, BIS(电安全), 印度临床数据可能需要', price:'₹2-50 lakh', trend:'基层医疗建设(Ayushman Bharat)拉动需求, 性价比优先'},
+    'default': {products:['影像诊断设备','监护/治疗设备','家用健康监测'], specs:'当地医疗器械注册+质量体系', price:'$1,000-100,000', trend:'老龄化+基层医疗建设双驱动'}
+  },
+  '陶瓷': {
+    '美国': {products:['高端骨瓷餐具套装','大规格瓷砖(600x1200+)','定制卫浴洁具','装饰花瓶/摆件'], specs:'FDA(食品接触), ASTM C373(吸水率), 铅镉溶出限量', price:'$20-200(餐具套), $3-8/sqft(瓷砖)', trend:'大板瓷砖趋势明显, 定制化餐具礼品化需求增长'},
+    '沙特': {products:['宫殿级装饰瓷砖(金边/浮雕)','大型工程瓷砖','金边茶具套装','卫浴洁具(金色配件)'], specs:'SABER认证, 高温抗裂测试, 耐磨等级PEI IV+', price:'SAR 50-500/m²', trend:'大型基建(NEOM/Jeddah Tower)带来海量工程瓷砖需求'},
+    '德国': {products:['工业级精密氧化铝陶瓷','环保釉料餐具','极简设计卫浴','技术陶瓷(电子/医疗)'], specs:'REACH(釉料重金属), DIN EN标准, LFGB(食品接触)', price:'€30-300(餐具), €20-80/m²(瓷砖)', trend:'技术陶瓷高附加值, 日用陶瓷需生态认证加持'},
+    'default': {products:['建筑瓷砖','日用餐具','卫浴洁具'], specs:'铅镉溶出+强度测试', price:'$2-10/sqft(瓷砖)', trend:'大板化+定制化趋势'}
+  }
+};
+
 // ============================================================
 // 海关出口历史数据（近3年出口金额/增速/TOP5国家）
 // ============================================================
@@ -5156,16 +5215,46 @@ function showCountryDetail(iso) {
     var trendNotes = demandMatrix.exportTrend.trends.map(function(t){ return '<li class="text-xs text-gray-300">'+t+'</li>'; }).join('');
     var focusNotes = demandMatrix.exportTrend.focus.map(function(f){ return '<li class="text-xs text-gray-300">'+f+'</li>'; }).join('');
 
+    // 获取品类×国家的细分产品需求
+    var catNeeds = null;
+    var needsCatData = CATEGORY_PRODUCT_NEEDS[cat];
+    if(!needsCatData) {
+      var needsCatKeys = Object.keys(CATEGORY_PRODUCT_NEEDS);
+      for(var ni=0;ni<needsCatKeys.length;ni++){
+        if(cat.indexOf(needsCatKeys[ni])!==-1){ needsCatData=CATEGORY_PRODUCT_NEEDS[needsCatKeys[ni]]; break; }
+      }
+    }
+    if(needsCatData) {
+      catNeeds = needsCatData[c.name] || needsCatData['default'] || null;
+    }
+    var catNeedsHtml = '';
+    if(catNeeds) {
+      var prodList = catNeeds.products.map(function(p){ return '<div class="text-xs text-gray-200 py-0.5">· '+p+'</div>'; }).join('');
+      catNeedsHtml =
+        '<div class="bg-slate-800/50 rounded-xl p-4">' +
+          '<div class="text-xs text-blue-300 font-medium mb-2">'+cat+' · '+c.name+' 细分产品需求</div>' +
+          '<div class="mb-2">'+prodList+'</div>' +
+          '<div class="text-xs text-gray-400 mt-2 border-t border-white/5 pt-2">' +
+            '<div class="mb-1"><span class="text-gray-500">规格要求: </span><span class="text-gray-300">'+catNeeds.specs+'</span></div>' +
+            '<div class="mb-1"><span class="text-gray-500">价格区间: </span><span class="text-green-400">'+catNeeds.price+'</span></div>' +
+            '<div><span class="text-gray-500">趋势判断: </span><span class="text-gray-300">'+catNeeds.trend+'</span></div>' +
+          '</div>' +
+        '</div>';
+    } else {
+      catNeedsHtml =
+        '<div class="bg-slate-800/50 rounded-xl p-4">' +
+          '<div class="text-xs text-blue-300 font-medium mb-2">'+cat+' · '+c.name+' 核心需求</div>' +
+          '<div class="text-sm text-gray-200 font-semibold mb-3">'+coreDemand+'</div>' +
+          '<div class="text-xs text-gray-400 font-medium mb-2">需求场景</div>' +
+          countryScenes +
+        '</div>';
+    }
+
     demandSectionHtml =
       '<div class="border-t border-white/5 pt-6 mt-6">' +
         '<h3 class="font-semibold text-sm mb-4 text-green-300">'+cat+' · '+c.name+' 品类需求分析</h3>' +
         '<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">' +
-          '<div class="bg-slate-800/50 rounded-xl p-4">' +
-            '<div class="text-xs text-blue-300 font-medium mb-2">该国核心需求产品</div>' +
-            '<div class="text-sm text-gray-200 font-semibold mb-3">'+coreDemand+'</div>' +
-            '<div class="text-xs text-gray-400 font-medium mb-2">需求场景</div>' +
-            countryScenes +
-          '</div>' +
+          catNeedsHtml +
           '<div class="bg-slate-800/50 rounded-xl p-4">' +
             '<div class="text-xs text-purple-300 font-medium mb-2">产品匹配要求</div>' +
             '<div class="mb-2"><span class="text-xs text-gray-400">必备认证: </span>'+certBadges+'</div>' +
