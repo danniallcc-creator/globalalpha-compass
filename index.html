@@ -4886,8 +4886,17 @@ function showCountryDetail(iso) {
         '</div>' +
         '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">' +
           '<div class="bg-slate-900/60 rounded-xl p-4">' +
-            '<div class="text-xs text-gray-400 font-medium mb-2">增长趋势预测 (2025-2035)</div>' +
-            '<canvas id="importForecastChart" height="160"></canvas>' +
+            '<div class="text-xs text-gray-400 font-medium mb-3">增长趋势预测 (2025-2035)</div>' +
+            '<div class="space-y-2">' +
+              '<div class="flex justify-between items-center text-xs"><span class="text-gray-400">2025年(现状)</span><span class="text-indigo-300 font-bold">$'+importData.imp+'亿</span></div>' +
+              '<div class="flex justify-between items-center text-xs"><span class="text-gray-400">2030年(5年后)</span><span class="text-purple-300 font-bold">$'+yr2030+'亿</span></div>' +
+              '<div class="flex justify-between items-center text-xs"><span class="text-gray-400">2035年(10年后)</span><span class="text-yellow-300 font-bold">$'+yr2035+'亿</span></div>' +
+              '<div class="border-t border-white/5 pt-2 mt-2">' +
+                '<div class="flex justify-between items-center text-xs"><span class="text-gray-400">5年复合增长率(CAGR)</span><span class="text-green-400 font-bold">'+importData.cagr5+'%</span></div>' +
+                '<div class="flex justify-between items-center text-xs mt-1"><span class="text-gray-400">10年复合增长率(CAGR)</span><span class="text-green-400 font-bold">'+importData.cagr10+'%</span></div>' +
+              '</div>' +
+              '<div class="border-t border-white/5 pt-2 mt-2 text-xs text-gray-500">10年增幅约'+ Math.round((importData.f['2035']/importData.imp - 1)*100) +'%，市场规模扩大至'+Math.round(importData.f['2035']/importData.imp*10)/10+'倍</div>' +
+            '</div>' +
           '</div>' +
           '<div class="bg-slate-900/60 rounded-xl p-4 overflow-y-auto" style="max-height:220px">' +
             '<div class="text-xs text-gray-400 font-medium mb-2">逐年预测明细 · CAGR<sub>5yr</sub>='+importData.cagr5+'% · CAGR<sub>10yr</sub>='+importData.cagr10+'%</div>' +
@@ -4926,49 +4935,6 @@ function showCountryDetail(iso) {
   document.getElementById('country-detail-content').innerHTML = html;
   det.classList.remove('hidden');
   det.scrollIntoView({behavior:'smooth'});
-
-  // 渲染进口市场增长预测Chart.js图表
-  if(importData) {
-    var ctx = document.getElementById('importForecastChart');
-    if(ctx) {
-      var fYears = Object.keys(importData.f).sort();
-      var fValues = fYears.map(function(y){ return importData.f[y]; });
-      if(window._importForecastChartInstance) { window._importForecastChartInstance.destroy(); }
-      window._importForecastChartInstance = new Chart(ctx.getContext('2d'), {
-        type: 'line',
-        data: {
-          labels: fYears,
-          datasets: [{
-            label: cat+' 进口规模(亿美元)',
-            data: fValues,
-            borderColor: 'rgba(129,140,248,1)',
-            backgroundColor: 'rgba(129,140,248,0.1)',
-            fill: true,
-            tension: 0.3,
-            pointBackgroundColor: 'rgba(129,140,248,1)',
-            pointRadius: 3,
-            pointHoverRadius: 6
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: {
-                label: function(ctx) { return '$'+ctx.parsed.y+'亿'; }
-              }
-            }
-          },
-          scales: {
-            x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 } } },
-            y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#9ca3af', font: { size: 10 }, callback: function(v){ return '$'+v+'亿'; } } }
-          }
-        }
-      });
-    }
-  }
 }
 
 // 品类分组映射
