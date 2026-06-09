@@ -4917,19 +4917,22 @@ function showCountryDetail(iso) {
     '<div><h2 class="text-2xl font-bold">'+c.name+'</h2><p class="text-gray-400 text-sm">'+c.region+' · ISO '+c.iso+' · 当前品类: <span class="text-green-400">'+cat+'</span></p></div>' +
   '</div>' +
   importMarketHtml +
-  '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
-    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-blue-400">'+c.pop.total+'亿</div><div class="text-xs text-gray-400">人口总量</div></div>' +
-    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-green-400">'+c.pop.age1850pct+'%</div><div class="text-xs text-gray-400">18-50岁占比</div></div>' +
-    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-purple-400">'+c.urban+'%</div><div class="text-xs text-gray-400">城市化率</div></div>' +
-    '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-yellow-400">'+c.internet+'%</div><div class="text-xs text-gray-400">互联网覆盖</div></div>' +
-  '</div>' +
-  '<h3 class="font-semibold text-sm mb-3 text-gray-300">GDP 趋势</h3>' +
-  '<div class="overflow-x-auto mb-6"><table class="w-full text-sm"><thead><tr class="text-gray-400 text-xs">' +
-    '<th class="pb-2 text-left">年份</th><th class="pb-2 text-left">GDP总量</th><th class="pb-2 text-left">人均GDP</th><th class="pb-2 text-left">增速</th>' +
-  '</tr></thead><tbody>'+gdpRows+'</tbody></table></div>' +
-  '<h3 class="font-semibold text-sm mb-3 text-gray-300">宗教信仰与消费行为影响</h3>' +
-  '<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">'+branches+'</div>' +
   demandSectionHtml +
+  '<div class="border-t border-white/5 pt-6 mt-6">' +
+    '<h3 class="font-semibold text-sm mb-4 text-gray-300">国家概况</h3>' +
+    '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
+      '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-blue-400">'+c.pop.total+'亿</div><div class="text-xs text-gray-400">人口总量</div></div>' +
+      '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-green-400">'+c.pop.age1850pct+'%</div><div class="text-xs text-gray-400">18-50岁占比</div></div>' +
+      '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-purple-400">'+c.urban+'%</div><div class="text-xs text-gray-400">城市化率</div></div>' +
+      '<div class="bg-slate-800/50 rounded-xl p-3 text-center"><div class="text-2xl font-bold text-yellow-400">'+c.internet+'%</div><div class="text-xs text-gray-400">互联网覆盖</div></div>' +
+    '</div>' +
+    '<h4 class="font-semibold text-xs mb-3 text-gray-400">GDP 趋势</h4>' +
+    '<div class="overflow-x-auto mb-6"><table class="w-full text-sm"><thead><tr class="text-gray-400 text-xs">' +
+      '<th class="pb-2 text-left">年份</th><th class="pb-2 text-left">GDP总量</th><th class="pb-2 text-left">人均GDP</th><th class="pb-2 text-left">增速</th>' +
+    '</tr></thead><tbody>'+gdpRows+'</tbody></table></div>' +
+    '<h4 class="font-semibold text-xs mb-3 text-gray-400">宗教信仰与消费行为影响</h4>' +
+    '<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">'+branches+'</div>' +
+  '</div>' +
   '<div class="text-center mt-6"><button onclick="document.getElementById(\'country-detail\').classList.add(\'hidden\')" class="nav-pill text-sm">&#215; 关闭</button></div>';
   var det = document.getElementById('country-detail');
   document.getElementById('country-detail-content').innerHTML = html;
