@@ -1917,6 +1917,130 @@ var CUSTOMS_EXPORT_DATA = {
 };
 
 // ============================================================
+// 品类层级映射：一级品类 → 包含的HS编码（二级/三级子类目）
+// 用于海关数据看板的聚合展示
+// ============================================================
+var CATEGORY_HS_MAP = {
+  '建材': {
+    name: '建材及房地产',
+    subs: [
+      {hs:'940610',label:'装配式建筑'},{hs:'681011',label:'水泥制品'},{hs:'680210',label:'加工石材'},
+      {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材原木'},
+      {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
+      {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝型材'},{hs:'848180',label:'阀门龙头'},
+      {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
+      {hs:'690310',label:'耐火材料'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
+      {hs:'441012',label:'刨花板'},{hs:'252321',label:'水泥'}
+    ]
+  },
+  '储能': {
+    name: '储能与电力设备',
+    subs: [{hs:'850760',label:'锂电储能'},{hs:'850100',label:'电机发电机'}]
+  },
+  '汽车': {
+    name: '汽车及配件',
+    subs: [{hs:'870300',label:'整车'},{hs:'870800',label:'汽车零配件'}]
+  },
+  '食品': {
+    name: '食品饮料及农产品',
+    subs: [{hs:'210690',label:'食品'},{hs:'070900',label:'蔬菜'},{hs:'030300',label:'水产品'},{hs:'100600',label:'粮食'}]
+  },
+  '服装': {
+    name: '服装鞋帽箱包',
+    subs: [{hs:'620300',label:'服装'},{hs:'540200',label:'纺织面料'},{hs:'640300',label:'鞋类'},{hs:'420200',label:'箱包'}]
+  },
+  '纺织': {
+    name: '纺织服装',
+    subs: [{hs:'540200',label:'纺织面料'},{hs:'620300',label:'服装'},{hs:'640300',label:'鞋类'}]
+  },
+  '电子': {
+    name: '消费电子及通讯',
+    subs: [{hs:'847100',label:'计算机'},{hs:'854200',label:'集成电路'},{hs:'851713',label:'智能手机'},{hs:'852100',label:'音视频'}]
+  },
+  '医疗': {
+    name: '医疗健康',
+    subs: [{hs:'901800',label:'医疗器械'}]
+  },
+  '消费品': {
+    name: '日用消费品',
+    subs: [{hs:'850900',label:'家用电器'},{hs:'940300',label:'家具'},{hs:'940500',label:'灯具'},{hs:'950300',label:'玩具'},{hs:'691100',label:'陶瓷'}]
+  },
+  '钢铁': {
+    name: '钢铁及金属',
+    subs: [{hs:'720800',label:'钢材'},{hs:'760100',label:'铝材'}]
+  },
+  '工业': {
+    name: '工业品及化工',
+    subs: [{hs:'392600',label:'塑料制品'},{hs:'841300',label:'机械'},{hs:'890100',label:'船舶'},{hs:'310500',label:'肥料'},{hs:'271000',label:'成品油'},{hs:'280530',label:'稀土'}]
+  }
+};
+
+// 根据输入品类查找匹配的HS编码组
+function getCategoryHsGroup(cat) {
+  var keys = Object.keys(CATEGORY_HS_MAP);
+  for(var i=0;i<keys.length;i++){
+    if(cat.indexOf(keys[i])!==-1) return CATEGORY_HS_MAP[keys[i]];
+  }
+  var comp = getCompliance(cat);
+  if(comp.hs && comp.hs!=='999999') {
+    return {name:cat, subs:[{hs:comp.hs, label:comp.kw?comp.kw[0]:cat}]};
+  }
+  return null;
+}
+
+// 聚合多个HS编码的出口数据（二级/三级→一级品类）
+function getAggregatedExportData(cat) {
+  var group = getCategoryHsGroup(cat);
+  if(!group) return {type:'single', hs:'999999', data:CUSTOMS_EXPORT_DATA['999999']};
+
+  var subs = group.subs;
+  var validSubs = [];
+  for(var si=0;si<subs.length;si++){
+    if(CUSTOMS_EXPORT_DATA[subs[si].hs]) validSubs.push(subs[si]);
+  }
+
+  if(validSubs.length===0) return {type:'single', hs:'999999', data:CUSTOMS_EXPORT_DATA['999999']};
+  if(validSubs.length===1) return {type:'single', hs:validSubs[0].hs, label:validSubs[0].label, data:CUSTOMS_EXPORT_DATA[validSubs[0].hs], group:group};
+
+  // 多子类目聚合
+  var yearMap = {}, countryMap = {};
+  for(var i=0;i<validSubs.length;i++){
+    var sub = validSubs[i];
+    var ed = CUSTOMS_EXPORT_DATA[sub.hs];
+    if(!ed) continue;
+    for(var j=0;j<ed.data.length;j++){
+      var d = ed.data[j];
+      if(!yearMap[d.yr]) yearMap[d.yr] = {yr:d.yr, amt:0};
+      yearMap[d.yr].amt += d.amt;
+    }
+    for(var k=0;k<ed.top5.length;k++){
+      var t = ed.top5[k];
+      if(!countryMap[t.c]) countryMap[t.c] = {c:t.c, amt:0};
+      countryMap[t.c].amt += t.amt;
+    }
+  }
+
+  var yearList = Object.values(yearMap).sort(function(a,b){ return parseInt(b.yr)-parseInt(a.yr); });
+  for(var yi=0;yi<yearList.length-1;yi++){
+    var prev = yearList[yi+1];
+    yearList[yi].yoy = prev.amt>0 ? Math.round((yearList[yi].amt/prev.amt-1)*100) : 0;
+  }
+  yearList[yearList.length-1].yoy = null; // 最老年份无yoy
+  yearList.forEach(function(y){ y.amt = Math.round(y.amt*100)/100; });
+
+  // 各国yoy: 因top5仅存当年金额，无法精确计算各国yoy，显示品类总yoy作为参考
+  var countryList = Object.values(countryMap);
+  var overallYoy = yearList[0]&&yearList[0].yoy!=null ? yearList[0].yoy : null;
+  countryList.forEach(function(c){ c.yoy = overallYoy; c.amt = Math.round(c.amt*100)/100; });
+  countryList.sort(function(a,b){ return b.amt-a.amt; });
+
+  return {
+    type:'aggregated', name:group.name, subCount:validSubs.length,
+    subs:validSubs, data:yearList, top5:countryList.slice(0,8), group:group
+  };
+}
+
+// ============================================================
 // 各国进口市场规模数据（2025年全年） & 5-10年增长预测
 // 数据来源标注: 各国官方海关/统计局
 // ============================================================
@@ -3105,58 +3229,142 @@ function renderCompass(cat) {
   }
   $el('pricing-grid').innerHTML = ph;
 
-  // ===== 海关数据看板（3年出口数据+TOP5国家） =====
-  var hs=compliance.hs||'999999', us=compliance.tariff_us||'5-25%', eu=compliance.tariff_eu||'2.7-12%';
-  var cData = CUSTOMS_EXPORT_DATA[hs] || CUSTOMS_EXPORT_DATA['999999'];
-  var yearHtml = '';
-  for(var yi=0;yi<cData.data.length;yi++){
-    var d=cData.data[yi];
-    var yoyColor = d.yoy>=0 ? 'text-green-400' : 'text-red-400';
-    yearHtml += '<div class="flex justify-between items-center py-1 border-b border-white/5"><span class="text-gray-400 text-xs">'+d.yr+'年</span><span class="text-sm font-bold text-blue-300">$'+d.amt+'亿</span><span class="text-xs '+yoyColor+'">'+(d.yoy>=0?'+':'')+d.yoy+'%</span></div>';
-  }
-  var topHtml = '';
-  for(var ti=0;ti<cData.top5.length;ti++){
-    var t=cData.top5[ti];
-    var tColor = t.yoy>=0 ? 'text-green-400' : 'text-red-400';
-    var barW = Math.min(Math.round(t.amt / cData.top5[0].amt * 100), 100);
-    topHtml += '<div class="mb-2"><div class="flex justify-between text-xs mb-1"><span class="text-gray-300">'+t.c+'</span><span class="text-blue-300 font-bold">$'+t.amt+'亿</span><span class="'+tColor+'">'+(t.yoy>=0?'+':'')+t.yoy+'%</span></div><div class="w-full bg-white/5 rounded-full h-1.5"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+barW+'%"></div></div></div>';
-  }
+  // ===== 海关数据看板（3年出口数据+TOP5国家+子类目明细） =====
+  var agg = getAggregatedExportData(cat);
+  var us=compliance.tariff_us||'5-25%', eu=compliance.tariff_eu||'2.7-12%';
 
-  $el('customs-content').innerHTML =
-    '<div class="grid md:grid-cols-3 gap-6 mb-6">' +
-      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<p class="text-gray-400 text-sm mb-2">HS Code</p>' +
-        '<div class="text-3xl font-bold text-blue-300">' + hs + '</div>' +
-        '<div class="text-xs text-gray-500 mt-1">' + (cData.name||'') + '</div>' +
-      '</div>' +
-      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
-        '<div class="text-sm space-y-2">' +
-          '<div class="flex justify-between"><span class="text-gray-400">美国</span><span class="font-bold">' + us + '</span></div>' +
-          '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span class="font-bold">' + eu + '</span></div>' +
-          '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
-          '<div class="flex justify-between"><span class="text-gray-400">中东</span><span>2~5%</span></div>' +
+  if(agg.type==='aggregated'){
+    // ---- 聚合模式：多HS编码汇总 ----
+    var yearHtml = '';
+    for(var yi=0;yi<agg.data.length;yi++){
+      var d=agg.data[yi];
+      var yoyStr = d.yoy!=null ? ('<span class="text-xs '+(d.yoy>=0?'text-green-400':'text-red-400')+'">'+(d.yoy>=0?'+':'')+d.yoy+'%</span>') : '<span class="text-xs text-gray-600">--</span>';
+      yearHtml += '<div class="flex justify-between items-center py-1 border-b border-white/5"><span class="text-gray-400 text-xs">'+d.yr+'年</span><span class="text-sm font-bold text-blue-300">$'+d.amt+'亿</span>'+yoyStr+'</div>';
+    }
+    var topHtml = '';
+    var maxAmt = agg.top5[0] ? agg.top5[0].amt : 1;
+    for(var ti=0;ti<agg.top5.length;ti++){
+      var t=agg.top5[ti];
+      var barW = Math.min(Math.round(t.amt / maxAmt * 100), 100);
+      topHtml += '<div class="mb-2"><div class="flex justify-between text-xs mb-1"><span class="text-gray-300">'+(ti+1)+'. '+t.c+'</span><span class="text-blue-300 font-bold">$'+t.amt+'亿</span></div><div class="w-full bg-white/5 rounded-full h-1.5"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+barW+'%"></div></div></div>';
+    }
+    if(agg.top5[0] && agg.top5[0].yoy!=null){
+      topHtml += '<div class="text-xs text-gray-500 mt-2">品类整体同比: '+(agg.top5[0].yoy>=0?'+':'')+agg.top5[0].yoy+'%</div>';
+    }
+
+    // 子类目明细表（按2025金额排序，显示前8）
+    var subDetails = [];
+    for(var si=0;si<agg.subs.length;si++){
+      var sub = agg.subs[si];
+      var sd = CUSTOMS_EXPORT_DATA[sub.hs];
+      if(sd && sd.data && sd.data[0]) subDetails.push({label:sub.label, hs:sub.hs, amt:sd.data[0].amt, yoy:sd.data[0].yoy});
+    }
+    subDetails.sort(function(a,b){ return b.amt-a.amt; });
+    var subHtml = '';
+    var showCount = Math.min(subDetails.length, 8);
+    for(var subi=0;subi<showCount;subi++){
+      var s = subDetails[subi];
+      var sYoyColor = s.yoy>=0 ? 'text-green-400' : 'text-red-400';
+      var sBarW = Math.min(Math.round(s.amt / subDetails[0].amt * 100), 100);
+      subHtml += '<div class="mb-1.5"><div class="flex justify-between text-xs mb-0.5"><span class="text-gray-400 truncate" style="max-width:90px">'+s.label+'</span><span class="text-blue-300">$'+s.amt+'亿</span><span class="'+sYoyColor+'">'+(s.yoy>=0?'+':'')+s.yoy+'%</span></div><div class="w-full bg-white/5 rounded-full h-1"><div class="bg-gradient-to-r from-cyan-500 to-blue-500 h-1 rounded-full" style="width:'+sBarW+'%"></div></div></div>';
+    }
+    if(subDetails.length > 8) subHtml += '<div class="text-xs text-gray-500 mt-2">还有'+(subDetails.length-8)+'个子类目...</div>';
+
+    $el('customs-content').innerHTML =
+      '<div class="grid md:grid-cols-3 gap-6 mb-6">' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">品类总览</p>' +
+          '<div class="text-xl font-bold text-blue-300">' + agg.name + '</div>' +
+          '<div class="text-xs text-gray-500 mt-1">' + agg.subCount + '个子类目HS编码聚合</div>' +
+          '<div class="text-2xl font-bold text-white mt-2">$' + (agg.data[0]?agg.data[0].amt:0) + '亿</div>' +
+          '<div class="text-xs text-gray-500">' + (agg.data[0]?agg.data[0].yr:'') + '年出口总额</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
+          '<div class="text-sm space-y-2">' +
+            '<div class="flex justify-between"><span class="text-gray-400">美国</span><span class="font-bold">' + us + '</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span class="font-bold">' + eu + '</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">中东</span><span>2~5%</span></div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">&#9888;&#65039; 风险预警</p>' +
+          '<div class="text-xs text-red-400 space-y-1">' +
+            '<div>&#9657; 欧盟CBAM碳边境税2026全面征收</div>' +
+            '<div>&#9657; 美国301关税波动+反规避调查</div>' +
+            '<div>&#9657; 各国认证标准持续更新</div>' +
+          '</div>' +
         '</div>' +
       '</div>' +
-      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<p class="text-gray-400 text-sm mb-2">&#9888;&#65039; 风险预警</p>' +
-        '<div class="text-xs text-red-400 space-y-1">' +
-          '<div>&#9657; 欧盟CBAM碳边境税2026全面征收</div>' +
-          '<div>&#9657; 美国301关税波动+反规避调查</div>' +
-          '<div>&#9657; 各国认证标准持续更新</div>' +
+      '<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<h4 class="text-sm font-bold text-blue-300 mb-3">&#128200; 近3年品类出口总额 &amp; 增速</h4>' +
+          '<div>' + yearHtml + '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP目的国 <span class="text-xs text-gray-500 font-normal ml-1">数据周期: 2025年1-12月</span></h4>' +
+          '<div>' + topHtml + '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<h4 class="text-sm font-bold text-cyan-300 mb-3">&#128230; 子类目出口明细 <span class="text-xs text-gray-500 font-normal ml-1">TOP'+showCount+'</span></h4>' +
+          '<div>' + subHtml + '</div>' +
+        '</div>' +
+      '</div>';
+  } else {
+    // ---- 单品模式：单个HS编码 ----
+    var cData = agg.data;
+    var hs = agg.hs;
+    var yearHtml = '';
+    for(var yi=0;yi<cData.data.length;yi++){
+      var d=cData.data[yi];
+      var yoyColor = d.yoy>=0 ? 'text-green-400' : 'text-red-400';
+      yearHtml += '<div class="flex justify-between items-center py-1 border-b border-white/5"><span class="text-gray-400 text-xs">'+d.yr+'年</span><span class="text-sm font-bold text-blue-300">$'+d.amt+'亿</span><span class="text-xs '+yoyColor+'">'+(d.yoy>=0?'+':'')+d.yoy+'%</span></div>';
+    }
+    var topHtml = '';
+    for(var ti=0;ti<cData.top5.length;ti++){
+      var t=cData.top5[ti];
+      var tColor = t.yoy>=0 ? 'text-green-400' : 'text-red-400';
+      var barW = Math.min(Math.round(t.amt / cData.top5[0].amt * 100), 100);
+      topHtml += '<div class="mb-2"><div class="flex justify-between text-xs mb-1"><span class="text-gray-300">'+t.c+'</span><span class="text-blue-300 font-bold">$'+t.amt+'亿</span><span class="'+tColor+'">'+(t.yoy>=0?'+':'')+t.yoy+'%</span></div><div class="w-full bg-white/5 rounded-full h-1.5"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+barW+'%"></div></div></div>';
+    }
+
+    $el('customs-content').innerHTML =
+      '<div class="grid md:grid-cols-3 gap-6 mb-6">' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">HS Code</p>' +
+          '<div class="text-3xl font-bold text-blue-300">' + hs + '</div>' +
+          '<div class="text-xs text-gray-500 mt-1">' + (cData.name||'') + '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">主要市场关税</p>' +
+          '<div class="text-sm space-y-2">' +
+            '<div class="flex justify-between"><span class="text-gray-400">美国</span><span class="font-bold">' + us + '</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">欧盟</span><span class="font-bold">' + eu + '</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">东南亚</span><span>0~5%</span></div>' +
+            '<div class="flex justify-between"><span class="text-gray-400">中东</span><span>2~5%</span></div>' +
+          '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<p class="text-gray-400 text-sm mb-2">&#9888;&#65039; 风险预警</p>' +
+          '<div class="text-xs text-red-400 space-y-1">' +
+            '<div>&#9657; 欧盟CBAM碳边境税2026全面征收</div>' +
+            '<div>&#9657; 美国301关税波动+反规避调查</div>' +
+            '<div>&#9657; 各国认证标准持续更新</div>' +
+          '</div>' +
         '</div>' +
       '</div>' +
-    '</div>' +
-    '<div class="grid md:grid-cols-2 gap-6">' +
-      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<h4 class="text-sm font-bold text-blue-300 mb-3">&#128200; 近3年中国出口金额 &amp; 增速</h4>' +
-        '<div>' + yearHtml + '</div>' +
-      '</div>' +
-      '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
-        '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP5目的国 <span class="text-xs text-gray-500 font-normal ml-1">数据周期: 2025年1-12月</span></h4>' +
-        '<div>' + topHtml + '</div>' +
-      '</div>' +
-    '</div>';
+      '<div class="grid md:grid-cols-2 gap-6">' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<h4 class="text-sm font-bold text-blue-300 mb-3">&#128200; 近3年中国出口金额 &amp; 增速</h4>' +
+          '<div>' + yearHtml + '</div>' +
+        '</div>' +
+        '<div class="bg-white/5 rounded-xl p-5 border border-white/5">' +
+          '<h4 class="text-sm font-bold text-purple-300 mb-3">&#127760; 出口TOP5目的国 <span class="text-xs text-gray-500 font-normal ml-1">数据周期: 2025年1-12月</span></h4>' +
+          '<div>' + topHtml + '</div>' +
+        '</div>' +
+      '</div>';
+  }
 
   // ===== 跨境智库·行业趋势洞察 =====
   var trendKey = getIndustryTrendKey(cat);
