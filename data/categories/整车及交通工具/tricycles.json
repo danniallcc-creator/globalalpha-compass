@@ -1,0 +1,136 @@
+{
+  "id": "整车及交通工具--tricycles",
+  "name_cn": "三轮车",
+  "name_en": "Tricycles",
+  "parent_cn": "整车及交通工具",
+  "parent_en": "Vehicles & Transportation",
+  "l1_slug": "整车及交通工具",
+  "hs_codes": [
+    "87xx"
+  ],
+  "keywords_en": [
+    "tricycles",
+    "china tricycles export",
+    "tricycles wholesale supplier",
+    "tricycles manufacturer",
+    "china tricycles trade"
+  ],
+  "keywords_cn": [
+    "三轮车",
+    "三轮车出口",
+    "三轮车批发",
+    "三轮车供应商",
+    "三轮车工厂"
+  ],
+  "export_data": [
+    {
+      "hs_code": "870300",
+      "name": "汽车",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 1100,
+          "yoy": 12
+        },
+        {
+          "yr": "2024",
+          "amt": 980,
+          "yoy": 35
+        },
+        {
+          "yr": "2023",
+          "amt": 726,
+          "yoy": 62
+        }
+      ],
+      "top5": [
+        {
+          "c": "俄罗斯",
+          "amt": 240.77,
+          "yoy": 23
+        },
+        {
+          "c": "墨西哥",
+          "amt": 141.43,
+          "yoy": 18
+        },
+        {
+          "c": "比利时",
+          "amt": 112.2,
+          "yoy": 14
+        },
+        {
+          "c": "英国",
+          "amt": 92.55,
+          "yoy": 9
+        },
+        {
+          "c": "泰国",
+          "amt": 87.28,
+          "yoy": 21
+        }
+      ]
+    },
+    {
+      "hs_code": "870800",
+      "name": "汽车零配件",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 450,
+          "yoy": 7
+        },
+        {
+          "yr": "2024",
+          "amt": 420,
+          "yoy": 10
+        },
+        {
+          "yr": "2023",
+          "amt": 382,
+          "yoy": 12
+        }
+      ],
+      "top5": [
+        {
+          "c": "美国",
+          "amt": 91.61,
+          "yoy": -4
+        },
+        {
+          "c": "日本",
+          "amt": 55.71,
+          "yoy": 7
+        },
+        {
+          "c": "德国",
+          "amt": 49.37,
+          "yoy": 3
+        },
+        {
+          "c": "墨西哥",
+          "amt": 42.75,
+          "yoy": 13
+        },
+        {
+          "c": "韩国",
+          "amt": 34.97,
+          "yoy": 9
+        }
+      ]
+    }
+  ],
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "Vehicle preferences vary by market (SUVs in US, compact cars in Europe/Japan, two-wheelers in SE Asia). Status symbol associated with vehicle brands. Electric vehicle adoption culturally more accepted in some markets.",
+    "consumer": "Total cost of ownership (fuel, maintenance, insurance) considered. Online research and comparison extensive. Brand heritage and reliability reputation important. EV range anxiety still a barrier in some markets.",
+    "infra": "Homologation and type approval required (ECE, DOT, CCC). Emissions testing and certification. Dealer networks and after-sales service infrastructure. Charging infrastructure for EVs.",
+    "population": "Urbanization driving demand for compact and electric vehicles. Growing middle class in emerging markets upgrading to personal vehicles. Aging populations need accessible vehicle features.",
+    "social": "EV transition and climate change awareness. Autonomous vehicle development. Mobility-as-a-service and ride-sharing. Vehicle connectivity and over-the-air updates.",
+    "environment": "Emissions standards tightening (Euro 7, China 6d, EPA Tier 4). Battery recycling and second-life applications. Sustainable manufacturing. Carbon-neutral production targets.",
+    "opportunity": "Electric vehicles and charging infrastructure. Connected and autonomous vehicles. Emerging market vehicle ownership growth. Micro-mobility and last-mile delivery vehicles."
+  },
+  "compliance_summary": "ECE/EEC type approval, DOT/EPA compliance (US), CCC certification (China), emissions standards (Euro 6/China 6), crash safety testing (NCAP).",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing"
+}

@@ -1,0 +1,213 @@
+{
+  "id": "农业--industrial-hemp-products",
+  "name_cn": "工业大麻产品",
+  "name_en": "Industrial Hemp Products",
+  "parent_cn": "农业",
+  "parent_en": "Agriculture",
+  "l1_slug": "农业",
+  "hs_codes": [
+    "53xx"
+  ],
+  "keywords_en": [
+    "industrial hemp products",
+    "china industrial hemp products export",
+    "industrial hemp products wholesale supplier",
+    "industrial hemp products manufacturer",
+    "china industrial hemp products trade"
+  ],
+  "keywords_cn": [
+    "工业大麻产品",
+    "工业大麻产品出口",
+    "工业大麻产品批发",
+    "工业大麻产品供应商",
+    "工业大麻产品工厂"
+  ],
+  "export_data": null,
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "中东/非洲粮食安全高度依赖进口，中亚游牧文化向定居农业转型，东南亚稻米文化深植日常饮食结构",
+    "consumer": "全球有机农业需求年增12%，精准农业与智慧灌溉受新兴市场政府补贴推动，垂直农业在中东/日本城市化区域快速商业化",
+    "infra": "非洲非盟2063议程重点投资农业基础设施，中亚\"一带一路\"农业灌溉项目拉动农机需求，印度PM-KISAN农业补贴推动农资采购",
+    "population": "全球人口将达100亿，粮食缺口倒逼农业效率提升；非洲15亿年轻劳动力向城市迁移，留守农村老龄化推动农机替代",
+    "social": "碳农业(Carbon Farming)兴起，欧盟农场到餐桌战略要求减少化肥30%，供应链溯源要求覆盖初级农产品",
+    "environment": "极端气候频发，抗旱/耐盐碱种子需求激增；中东水资源稀缺推动滴灌与海水淡化农业；非洲蝗虫灾害驱动生物农药需求",
+    "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；工业大麻产品(Industrial Hemp Products)细分领域机会值得关注"
+  },
+  "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "demand_scenarios": {
+    "scenes": [
+      {
+        "scene": "精准农业种植",
+        "crowd": "中大型农场主",
+        "reason": "物联网传感器+无人机+数字化管理降低农业生产成本"
+      },
+      {
+        "scene": "农业机械化替代",
+        "crowd": "劳动力短缺地区农业生产者",
+        "reason": "农村劳动力向城市转移，机械替代刚需"
+      },
+      {
+        "scene": "温室/垂直农业",
+        "crowd": "中东/日本城市农业投资者",
+        "reason": "土地资源稀缺+水资源匮乏，温室高效生产"
+      },
+      {
+        "scene": "病虫害防控",
+        "crowd": "东南亚/非洲小农",
+        "reason": "气候变化加剧病虫害，生物农药替代化学农药趋势"
+      }
+    ],
+    "products": {
+      "cert": [
+        "ISO 11783农机总线",
+        "CE农机认证",
+        "EPA农药注册(美国)",
+        "有机认证(USDA/欧盟有机)",
+        "FAO推荐"
+      ],
+      "params": [
+        "农机耗油率<200g/kWh",
+        "喷施精度±3%",
+        "传感器精度±0.5%",
+        "防水IP67",
+        "连续作业>8h"
+      ],
+      "features": [
+        "GPS精准定位",
+        "远程监控管理",
+        "太阳能辅助供电",
+        "多功能模块化设计",
+        "抗盐碱/耐极端气候"
+      ],
+      "priceRange": {
+        "手动小型农机": "$500-$5000",
+        "中型农机": "$10000-$80000",
+        "智能农业系统": "$50000+"
+      }
+    },
+    "exportTrend": {
+      "2020": {
+        "scale": 180,
+        "yoy": 10
+      },
+      "2021": {
+        "scale": 210,
+        "yoy": 17
+      },
+      "2022": {
+        "scale": 245,
+        "yoy": 17
+      },
+      "2023": {
+        "scale": 270,
+        "yoy": 10
+      },
+      "2024": {
+        "scale": 295,
+        "yoy": 9
+      },
+      "trends": [
+        "非洲是增速最快市场，中国农机政府援助项目带动",
+        "中亚农业机械化率提升需求旺盛",
+        "东南亚水稻机械化收割机需求稳定增长"
+      ],
+      "focus": [
+        "非洲粮食深加工设备整体方案",
+        "中东沙漠温室灌溉系统",
+        "中亚棉花采摘机械化"
+      ]
+    }
+  },
+  "compliance_detail": {
+    "US": {
+      "cert": [
+        "EPA FIFRA农药注册",
+        "USDA有机认证(可选)",
+        "FDA GAP备案"
+      ],
+      "std": [
+        "EPA 40 CFR Part 180农残限量",
+        "USDA有机法规"
+      ],
+      "banned": [
+        "未EPA批准农药",
+        "特定杀虫剂(滴滴涕)"
+      ],
+      "label": [
+        "EPA注册号",
+        "有机USDA标志",
+        "原产国"
+      ],
+      "customs": [
+        "FDA Prior Notice",
+        "USDA APHIS检疫证明"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "欧盟植物检疫证书",
+        "有机EU认证(834/2007)"
+      ],
+      "std": [
+        "EC 396/2005农残限量",
+        "EC 178/2002"
+      ],
+      "banned": [
+        "未批准农药活性成分",
+        "MRLs超限"
+      ],
+      "label": [
+        "植检证书",
+        "原产地",
+        "有机认证标志"
+      ],
+      "customs": [
+        "CHED-PP植物产品边检"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "植物防疫法检疫证书",
+        "有机JAS认证(可选)"
+      ],
+      "std": [
+        "肯定列表0.01ppm默认限量"
+      ],
+      "banned": [
+        "肯定列表未收录成分>0.01ppm"
+      ],
+      "label": [
+        "JAS有机标志",
+        "农残检测报告",
+        "原产地"
+      ],
+      "customs": [
+        "厚生劳动省食品检疫抽检"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "DAFF检疫进口许可",
+        "AQIS植检证书",
+        "有机ACO认证(可选)"
+      ],
+      "std": [
+        "MRL标准",
+        "Food Standards Code"
+      ],
+      "banned": [
+        "特定害虫病原体入境",
+        "未批准农药"
+      ],
+      "label": [
+        "有机认证标志",
+        "原产国"
+      ],
+      "customs": [
+        "生物安全DAFF严格检查"
+      ]
+    }
+  }
+}

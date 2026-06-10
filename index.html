@@ -83,6 +83,7 @@ input[type=range]{accent-color:#60a5fa}
     <button class="nav-pill" onclick="switchTab('tab-map',this)">&#127758; 全球风险地图</button>
     <button class="nav-pill" onclick="switchTab('tab-risk',this)">&#9888; 风险预警看板</button>
     <button class="nav-pill" onclick="switchTab('tab-news',this)">&#128240; 实时情报流</button>
+    <button class="nav-pill" onclick="switchTab('tab-categories',this)">&#128203; 全品类分析</button>
   </div>
 
 <!-- ==================== TAB 1: 市场罗盘 ==================== -->
@@ -576,6 +577,46 @@ input[type=range]{accent-color:#60a5fa}
     <div id="trend-local" class="trend-view hidden"></div>
     <div id="trend-social" class="trend-view hidden"></div>
     <div id="trend-recommend" class="trend-view hidden"></div>
+  </div>
+</div>
+
+<!-- ==================== TAB 7: 全品类分析 ==================== -->
+<div id="tab-categories" class="tab-content">
+  <div class="text-center mb-8">
+    <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">全品类分析 · Category Browser</h1>
+    <p class="text-gray-400">浏览全部品类层级 · 出口数据 · 行业趋势 · 合规要求 · 需求场景</p>
+  </div>
+
+  <!-- Search filter -->
+  <div class="max-w-2xl mx-auto mb-6">
+    <input id="category-search" type="text" placeholder="搜索品类名称、关键词、HS编码..."
+      class="w-full bg-white/5 border border-white/15 rounded-full py-3 px-6 text-sm outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
+      oninput="filterCategoryTree(this.value)">
+  </div>
+
+  <!-- Two-column layout -->
+  <div class="flex flex-col md:flex-row gap-4" style="min-height:60vh">
+    <!-- Left sidebar: category tree -->
+    <div class="w-full md:w-72 flex-shrink-0">
+      <div class="card p-4 sticky top-24 overflow-y-auto" style="max-height:75vh">
+        <div class="text-xs text-gray-500 mb-3 font-semibold uppercase tracking-wider">L1 品类目录</div>
+        <div id="category-tree">
+          <div class="text-gray-500 text-sm p-4 text-center">点击标签页后加载...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right panel: category detail -->
+    <div class="flex-1">
+      <div class="card p-6">
+        <div id="category-detail">
+          <div class="text-gray-500 text-sm p-8 text-center">
+            <div class="text-3xl mb-3 opacity-30">&#128203;</div>
+            <div>请从左侧目录选择一个品类查看详情</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </div><!-- end max-w-7xl -->
@@ -1838,6 +1879,7 @@ function switchTab(id, btn) {
   if(id === 'tab-news') { renderNews('all'); }
   if(id === 'tab-think') { renderThinkTab(); }
   if(id === 'tab-tools') { renderToolsTab(); }
+  if(id === 'tab-categories') { initCategorySection(); }
 }
 
 // ============================================================
@@ -6720,6 +6762,244 @@ function _clientSideCrossAnalysis() {
 function renderToolsTab() {
   if(!document.getElementById('compliance-result').innerHTML) {
     runCompliance();
+  }
+}
+
+// ============================================================
+// === Category Browser Module ===
+// ============================================================
+
+var CATEGORY_INDEX = null;
+var CURRENT_CATEGORY = null;
+var _categorySectionInited = false;
+
+// Load category index on demand
+async function loadCategoryIndex() {
+  if (CATEGORY_INDEX) return CATEGORY_INDEX;
+  try {
+    var resp = await fetch('data/category_index.json');
+    CATEGORY_INDEX = await resp.json();
+    return CATEGORY_INDEX;
+  } catch(e) {
+    console.error('Failed to load category index', e);
+    return null;
+  }
+}
+
+// Render the category tree in sidebar
+async function renderCategoryTree() {
+  var idx = await loadCategoryIndex();
+  if (!idx) {
+    document.getElementById('category-tree').innerHTML = '<div class="text-gray-500 text-sm p-4 text-center">品类索引加载失败，请刷新重试。</div>';
+    return;
+  }
+
+  // Group by L1
+  var l1Map = {};
+  idx.categories.forEach(function(c) {
+    if (!l1Map[c.l1_cn]) l1Map[c.l1_cn] = { slug: c.l1_slug, items: [] };
+    l1Map[c.l1_cn].items.push(c);
+  });
+
+  var html = '';
+  Object.keys(l1Map).sort().forEach(function(l1) {
+    var group = l1Map[l1];
+    html += '<div class="l1-group mb-2">';
+    html += '<div class="l1-header cursor-pointer px-3 py-2 bg-white/5 rounded-lg text-sm font-semibold text-gray-300 hover:bg-white/10 flex justify-between items-center" onclick="toggleL1(this)">';
+    html += '<span>' + l1 + '</span>';
+    html += '<span class="text-xs text-gray-500">' + group.items.length + '</span>';
+    html += '</div>';
+    html += '<div class="l1-children hidden mt-1 ml-2 space-y-1">';
+    group.items.forEach(function(item) {
+      var detailBadge = item.has_detailed_data ? '<span class="text-green-400 text-xs">&#9679;</span>' : '<span class="text-gray-600 text-xs">&#9675;</span>';
+      html += '<div class="l2-item cursor-pointer px-3 py-1.5 text-xs text-gray-400 hover:text-white hover:bg-white/5 rounded flex justify-between items-center" ';
+      html += 'onclick="loadCategoryDetail(\'' + item.l1_slug + '\',\'' + item.l2_slug + '\',this)">';
+      html += '<span>' + detailBadge + ' ' + item.name_cn + '</span>';
+      html += '<span class="text-gray-600">' + item.l3_count + '项</span>';
+      html += '</div>';
+    });
+    html += '</div></div>';
+  });
+
+  document.getElementById('category-tree').innerHTML = html;
+}
+
+function toggleL1(el) {
+  var children = el.nextElementSibling;
+  children.classList.toggle('hidden');
+}
+
+// Load and display a single category's detail
+async function loadCategoryDetail(l1Slug, l2Slug, clickedEl) {
+  // Highlight selected
+  document.querySelectorAll('.l2-item').forEach(function(el) { el.classList.remove('bg-blue-500/20', 'text-blue-300'); });
+  if (clickedEl) { clickedEl.classList.add('bg-blue-500/20', 'text-blue-300'); }
+
+  document.getElementById('category-detail').innerHTML = '<div class="text-gray-500 text-sm p-8 text-center"><div class="spin inline-block w-6 h-6 border-2 border-cyan-400 border-t-transparent rounded-full mb-2"></div><div>加载中...</div></div>';
+
+  try {
+    var resp = await fetch('data/categories/' + encodeURIComponent(l1Slug) + '/' + encodeURIComponent(l2Slug) + '.json');
+    if (!resp.ok) throw new Error('Not found');
+    var data = await resp.json();
+    CURRENT_CATEGORY = data;
+    renderCategoryDetail(data);
+  } catch(e) {
+    document.getElementById('category-detail').innerHTML = '<div class="text-gray-500 p-4 text-center text-sm">该品类数据暂未加载，请等待下次数据更新。</div>';
+  }
+}
+
+function renderCategoryDetail(d) {
+  var html = '';
+
+  // Header
+  html += '<div class="mb-4">';
+  html += '<h3 class="text-xl font-bold text-white">' + d.name_cn + '</h3>';
+  html += '<p class="text-sm text-gray-400">' + d.parent_cn + ' &gt; ' + d.name_cn + ' (' + d.name_en + ')</p>';
+  html += '<div class="flex gap-2 mt-2 flex-wrap">';
+  if (d.hs_codes) d.hs_codes.forEach(function(hs) {
+    html += '<span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded">HS: ' + hs + '</span>';
+  });
+  if (d.keywords_en) d.keywords_en.slice(0,3).forEach(function(kw) {
+    html += '<span class="text-xs bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded">' + kw + '</span>';
+  });
+  html += '</div></div>';
+
+  // Export data
+  if (d.export_data && Array.isArray(d.export_data) && d.export_data.length > 0) {
+    html += '<div class="mb-4 bg-white/5 rounded-lg p-3">';
+    html += '<h4 class="text-sm font-semibold text-yellow-300 mb-2">&#128230; 出口数据</h4>';
+    html += '<div class="grid grid-cols-3 gap-2 text-xs">';
+    d.export_data.slice(0,3).forEach(function(yr) {
+      html += '<div class="bg-white/5 rounded p-2 text-center">';
+      html += '<div class="text-gray-400">' + yr.yr + '</div>';
+      html += '<div class="text-white font-bold">$' + yr.amt + '亿</div>';
+      html += '<div class="' + (yr.yoy >= 0 ? 'text-green-400' : 'text-red-400') + '">' + (yr.yoy >= 0 ? '+' : '') + yr.yoy + '%</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+    // Top5 countries
+    if (d.export_data[0] && d.export_data[0].top5) {
+      html += '<div class="mt-2"><span class="text-xs text-gray-400">TOP5市场: </span>';
+      d.export_data[0].top5.slice(0,5).forEach(function(c) {
+        html += '<span class="text-xs text-blue-300 mr-2">' + c.c + '($' + c.amt + '亿)</span>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+
+  // Industry analysis (6 dimensions)
+  if (d.industry_analysis) {
+    var ia = d.industry_analysis;
+    var dims = [
+      {key:'culture', label:'&#127758; 文化因素', color:'text-blue-300'},
+      {key:'consumer', label:'&#128722; 消费趋势', color:'text-green-300'},
+      {key:'infra', label:'&#127959; 基础设施', color:'text-yellow-300'},
+      {key:'population', label:'&#128101; 人口结构', color:'text-purple-300'},
+      {key:'social', label:'&#128220; 社会法规', color:'text-red-300'},
+      {key:'environment', label:'&#127793; 环境因素', color:'text-teal-300'},
+      {key:'opportunity', label:'&#128161; 机会点', color:'text-orange-300'}
+    ];
+    html += '<div class="mb-4">';
+    html += '<h4 class="text-sm font-semibold text-cyan-300 mb-2">行业趋势分析</h4>';
+    dims.forEach(function(dim) {
+      if (ia[dim.key]) {
+        html += '<div class="mb-2 bg-white/5 rounded-lg p-2">';
+        html += '<div class="text-xs font-semibold ' + dim.color + ' mb-1">' + dim.label + '</div>';
+        html += '<div class="text-xs text-gray-300 leading-relaxed">' + ia[dim.key] + '</div>';
+        html += '</div>';
+      }
+    });
+    html += '</div>';
+  }
+
+  // Compliance
+  if (d.compliance_summary) {
+    html += '<div class="mb-4 bg-white/5 rounded-lg p-3">';
+    html += '<h4 class="text-sm font-semibold text-red-300 mb-2">&#9878; 合规要求</h4>';
+    html += '<div class="text-xs text-gray-300">' + d.compliance_summary + '</div>';
+    html += '</div>';
+  }
+
+  // Demand scenarios (if available)
+  if (d.demand_scenarios) {
+    html += '<div class="mb-4 bg-white/5 rounded-lg p-3">';
+    html += '<h4 class="text-sm font-semibold text-indigo-300 mb-2">&#128202; 需求场景</h4>';
+    if (d.demand_scenarios.scenes) {
+      d.demand_scenarios.scenes.forEach(function(s) {
+        html += '<div class="mb-1 text-xs"><span class="text-white font-medium">' + s.scene + '</span> <span class="text-gray-400">(' + s.crowd + ')</span></div>';
+        html += '<div class="text-xs text-gray-400 mb-2 ml-2">' + s.reason + '</div>';
+      });
+    }
+    html += '</div>';
+  }
+
+  // Global trends
+  if (d.global_trends && d.global_trends.google_trends) {
+    html += '<div class="mb-4 bg-white/5 rounded-lg p-3">';
+    html += '<h4 class="text-sm font-semibold text-pink-300 mb-2">&#128200; 搜索热度</h4>';
+    var gt = d.global_trends.google_trends;
+    if (gt.interest_score) {
+      html += '<div class="flex items-center gap-2">';
+      html += '<div class="flex-1 bg-white/10 rounded-full h-2"><div class="bg-pink-400 rounded-full h-2" style="width:' + gt.interest_score + '%"></div></div>';
+      html += '<span class="text-xs text-gray-400">' + gt.interest_score + '/100</span>';
+      html += '<span class="text-xs ' + (gt.trend_direction === 'up' ? 'text-green-400' : gt.trend_direction === 'down' ? 'text-red-400' : 'text-gray-400') + '">' + (gt.trend_direction === 'up' ? '&#8593;' : gt.trend_direction === 'down' ? '&#8595;' : '&#8594;') + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+
+  // News sentiment
+  if (d.news_sentiment) {
+    html += '<div class="mb-4 bg-white/5 rounded-lg p-3">';
+    html += '<h4 class="text-sm font-semibold text-emerald-300 mb-2">&#128240; 新闻情绪</h4>';
+    var ns = d.news_sentiment;
+    html += '<div class="flex gap-3 text-xs">';
+    html += '<span class="text-green-400">正面 ' + (ns.positive_pct || 0) + '%</span>';
+    html += '<span class="text-gray-400">中性 ' + (ns.neutral_pct || 0) + '%</span>';
+    html += '<span class="text-red-400">负面 ' + (ns.negative_pct || 0) + '%</span>';
+    html += '</div>';
+    if (ns.top_headlines) {
+      ns.top_headlines.slice(0,3).forEach(function(h) {
+        html += '<div class="text-xs text-gray-400 mt-1">&#8226; ' + h.title + '</div>';
+      });
+    }
+    html += '</div>';
+  }
+
+  // Footer
+  html += '<div class="text-xs text-gray-600 mt-4">';
+  html += '数据更新: ' + (d.last_updated || 'N/A') + ' | 数据来源: ' + (d.data_source || 'N/A');
+  html += '</div>';
+
+  document.getElementById('category-detail').innerHTML = html;
+}
+
+// Category search/filter
+function filterCategoryTree(query) {
+  query = query.toLowerCase().trim();
+  document.querySelectorAll('.l2-item').forEach(function(el) {
+    var text = el.textContent.toLowerCase();
+    el.style.display = (!query || text.indexOf(query) !== -1) ? '' : 'none';
+  });
+  // Auto-expand matching L1 groups
+  if (query) {
+    document.querySelectorAll('.l1-group').forEach(function(group) {
+      var hasVisible = false;
+      group.querySelectorAll('.l2-item').forEach(function(item) {
+        if (item.style.display !== 'none') hasVisible = true;
+      });
+      var children = group.querySelector('.l1-children');
+      if (hasVisible && children) children.classList.remove('hidden');
+    });
+  }
+}
+
+// Initialize when section is opened
+function initCategorySection() {
+  if (!_categorySectionInited) {
+    _categorySectionInited = true;
+    renderCategoryTree();
   }
 }
 

@@ -1,0 +1,174 @@
+{
+  "id": "健康护理--health-care-equipment",
+  "name_cn": "保健设备",
+  "name_en": "Health Care Equipment",
+  "parent_cn": "健康护理",
+  "parent_en": "Health Care",
+  "l1_slug": "健康护理",
+  "hs_codes": [
+    "90xx"
+  ],
+  "keywords_en": [
+    "health care equipment",
+    "china health care equipment export",
+    "health care equipment wholesale supplier",
+    "health care equipment manufacturer",
+    "china health care equipment trade"
+  ],
+  "keywords_cn": [
+    "保健设备",
+    "保健设备出口",
+    "保健设备批发",
+    "保健设备供应商",
+    "保健设备工厂"
+  ],
+  "export_data": [
+    {
+      "hs_code": "901800",
+      "name": "医疗器械",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 415,
+          "yoy": 9
+        },
+        {
+          "yr": "2024",
+          "amt": 380,
+          "yoy": 9
+        },
+        {
+          "yr": "2023",
+          "amt": 350,
+          "yoy": -10
+        }
+      ],
+      "top5": [
+        {
+          "c": "美国",
+          "amt": 80.6,
+          "yoy": -2
+        },
+        {
+          "c": "德国",
+          "amt": 47.18,
+          "yoy": 5
+        },
+        {
+          "c": "日本",
+          "amt": 41.5,
+          "yoy": 9
+        },
+        {
+          "c": "印度",
+          "amt": 40.19,
+          "yoy": 26
+        },
+        {
+          "c": "英国",
+          "amt": 29.66,
+          "yoy": 6
+        }
+      ]
+    }
+  ],
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
+  },
+  "compliance_summary": "US: FDA OTC药品注册/monograph, DSHEA膳食补充剂GMP | EU: NHP食品补充剂指令2002/46/EC, 医药类需EMA/国家批准 | JP: 机能性表示食品届出(FSSAI相当), 特保FOSHU厚生批准 | SA: SFDA营养补充剂注册",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "compliance_detail": {
+    "US": {
+      "cert": [
+        "FDA OTC药品注册/monograph",
+        "DSHEA膳食补充剂GMP"
+      ],
+      "std": [
+        "21 CFR 111 GMP(补充剂)",
+        "USP标准"
+      ],
+      "banned": [
+        "特定禁用成分(麻黄碱/荷尔蒙类)",
+        "未批准药物成分"
+      ],
+      "label": [
+        "Supplement Facts标签",
+        "FDA注册号",
+        "含量声明"
+      ],
+      "customs": [
+        "FDA审查可能扣押"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "NHP食品补充剂指令2002/46/EC",
+        "医药类需EMA/国家批准"
+      ],
+      "std": [
+        "EFSA安全评估",
+        "GMP Directive 2003/94"
+      ],
+      "banned": [
+        "未批准植物提取物",
+        "特定维生素剂量上限"
+      ],
+      "label": [
+        "营养素参考值NRV",
+        "警告语",
+        "EU RP信息"
+      ],
+      "customs": [
+        "边检CHED文件"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "机能性表示食品届出(FSSAI相当)",
+        "特保FOSHU厚生批准"
+      ],
+      "std": [
+        "日本薬事法(医药品)"
+      ],
+      "banned": [
+        "指定成分须申报",
+        "禁止特定中草药(马兜铃酸等)"
+      ],
+      "label": [
+        "日文标签",
+        "功能声明须经届出"
+      ],
+      "customs": [
+        "食品申报+化妆品/医药分类海关审查"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA营养补充剂注册"
+      ],
+      "std": [
+        "GCC健康产品标准"
+      ],
+      "banned": [
+        "哈拉姆成分",
+        "特定激素"
+      ],
+      "label": [
+        "阿文标签",
+        "SFDA注册号",
+        "Halal"
+      ],
+      "customs": [
+        "SFDA提前注册"
+      ]
+    }
+  }
+}

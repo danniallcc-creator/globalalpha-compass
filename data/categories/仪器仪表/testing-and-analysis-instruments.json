@@ -1,0 +1,153 @@
+{
+  "id": "仪器仪表--testing-and-analysis-instruments",
+  "name_cn": "检测与分析仪器",
+  "name_en": "Testing and Analysis Instruments",
+  "parent_cn": "仪器仪表",
+  "parent_en": "Instruments & Meters",
+  "l1_slug": "仪器仪表",
+  "hs_codes": [
+    "90xx"
+  ],
+  "keywords_en": [
+    "testing and analysis instruments",
+    "china testing and analysis instruments export",
+    "testing and analysis instruments wholesale supplier",
+    "testing and analysis instruments manufacturer",
+    "china testing and analysis instruments trade"
+  ],
+  "keywords_cn": [
+    "检测与分析仪器",
+    "检测与分析仪器出口",
+    "检测与分析仪器批发",
+    "检测与分析仪器供应商",
+    "检测与分析仪器工厂"
+  ],
+  "export_data": [
+    {
+      "hs_code": "901800",
+      "name": "医疗器械",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 415,
+          "yoy": 9
+        },
+        {
+          "yr": "2024",
+          "amt": 380,
+          "yoy": 9
+        },
+        {
+          "yr": "2023",
+          "amt": 350,
+          "yoy": -10
+        }
+      ],
+      "top5": [
+        {
+          "c": "美国",
+          "amt": 80.6,
+          "yoy": -2
+        },
+        {
+          "c": "德国",
+          "amt": 47.18,
+          "yoy": 5
+        },
+        {
+          "c": "日本",
+          "amt": 41.5,
+          "yoy": 9
+        },
+        {
+          "c": "印度",
+          "amt": 40.19,
+          "yoy": 26
+        },
+        {
+          "c": "英国",
+          "amt": 29.66,
+          "yoy": 6
+        }
+      ]
+    }
+  ],
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
+  },
+  "compliance_summary": "US: NIST溯源校准, FCC(含无线模块), UL(用于危险场合) | EU: CE(MID测量仪器指令2014/32/EU), ATEX(防爆) | JP: 计量法型式承认(法制计量器), JIS工业仪表(自愿)",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "compliance_detail": {
+    "US": {
+      "cert": [
+        "NIST溯源校准",
+        "FCC(含无线模块)",
+        "UL(用于危险场合)"
+      ],
+      "std": [
+        "ANSI/ISA-18.2(仪表)",
+        "IEEE 1588(时间同步)"
+      ],
+      "banned": [
+        "含汞仪表(替代趋势)",
+        "禁用中国军事关联企业产品"
+      ],
+      "label": [
+        "NIST溯源证书",
+        "UL标识"
+      ],
+      "customs": [
+        "EAR出口管制(部分精密仪器须许可证)",
+        "ECCN分类须查"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(MID测量仪器指令2014/32/EU)",
+        "ATEX(防爆)"
+      ],
+      "std": [
+        "EN ISO 11064",
+        "OIML国际法制计量"
+      ],
+      "banned": [
+        "汞仪表(EU 2017逐步淘汰)"
+      ],
+      "label": [
+        "CE+M标识(法制计量)",
+        "DoC符合性声明"
+      ],
+      "customs": [
+        "MID认证必须(贸易结算计量器具)"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "计量法型式承认(法制计量器)",
+        "JIS工业仪表(自愿)"
+      ],
+      "std": [
+        "JIS Z 8000计量",
+        "JIS C 1系列电子仪器"
+      ],
+      "banned": [
+        "汞高压计量器"
+      ],
+      "label": [
+        "型式承认号",
+        "JCSS校准证书"
+      ],
+      "customs": [
+        "法制计量器须型式承认"
+      ]
+    }
+  }
+}

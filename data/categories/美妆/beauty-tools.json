@@ -1,0 +1,218 @@
+{
+  "id": "美妆--beauty-tools",
+  "name_cn": "美妆工具",
+  "name_en": "Beauty Tools",
+  "parent_cn": "美妆",
+  "parent_en": "Beauty & Cosmetics",
+  "l1_slug": "美妆",
+  "hs_codes": [
+    "33xx"
+  ],
+  "keywords_en": [
+    "beauty tools",
+    "china beauty tools export",
+    "beauty tools wholesale supplier",
+    "beauty tools professional",
+    "beauty tools industrial"
+  ],
+  "keywords_cn": [
+    "美妆工具",
+    "美妆工具出口",
+    "美妆工具批发",
+    "美妆工具供应商",
+    "美妆工具工厂"
+  ],
+  "export_data": null,
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "K-beauty席卷全球，多步护肤程序文化推动面膜/精华液全球普及；中东香水消费全球最高，香水文化嵌入社交礼仪；印度Ayurveda草本护肤文化推动天然成分溢价",
+    "consumer": "男性美妆（Guyliner/男性面霜）年增18%，Z世代打破性别护肤边界；功能性护肤（类视黄醇/烟酰胺/玻色因）成分党文化全球化；清洁美妆（Clean Beauty）欧美市场渗透率超30%",
+    "infra": "TikTok Shop美妆品类GMV在美国/东南亚爆发（美国单月GMV超5亿美元）；中东Noon/Namshi美妆平台快速增长；直播电商在东南亚美妆渗透率达60%+",
+    "population": "印度年轻中产推动护肤品升级消费；非洲城市女性美妆意识觉醒（肤色包容美妆兴起）；老龄化推动抗衰成分（视黄醇/胜肽/抗氧化）需求",
+    "social": "EU化妆品法规(EC)1223/2009禁限成分超1300种；美国MoCRA 2022化妆品法规改革推动注册要求；\"成分党\"文化推动透明成分表；动物测试禁令在欧盟/英国已生效",
+    "environment": "无塑料包装美妆（竹管口红/补充装精华）兴起；气候美妆（防晒与环保珊瑚礁友好配方）；有机认证（COSMOS/Ecocert）在欧洲美妆采购中权重提升",
+    "opportunity": "中东清真认证美妆（无酒精香水/清真成分）；非洲肤色包容美妆（深色肌肤粉底/发型产品）；印度草本护肤OEM代工出口；东南亚白皙护肤+美白产品（SPF+美白双效）；美妆工具(Beauty Tools)细分领域机会值得关注"
+  },
+  "compliance_summary": "US: FDA化妆品注册(MoCRA 2022新增), cruelty-free(自愿) | EU: EU 1223/2009化妆品法规, CPNP通知系统登记（强制） | JP: 医薬部外品批准/化粧品届出, 厚生劳动省 | AU: NICNAS/AICIS化学品登记(成分) | KR: MFDS化妆品GMP认证(出口加分), 化妆品申报 | SA: SFDA化妆品注册, 清真认证(强烈建议)",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "compliance_detail": {
+    "US": {
+      "cert": [
+        "FDA化妆品注册(MoCRA 2022新增)",
+        "cruelty-free(自愿)"
+      ],
+      "std": [
+        "21 CFR Parts 700-740",
+        "PCPC自愿标准"
+      ],
+      "banned": [
+        "11种禁用物质(铅/汞等)",
+        "防晒OTC成分需NDA",
+        "含氟碳化合物趋势"
+      ],
+      "label": [
+        "成分INCI名称",
+        "Net weight",
+        "Prop 65(CA)"
+      ],
+      "customs": [
+        "MoCRA后进口商需FDA设施注册"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "EU 1223/2009化妆品法规",
+        "CPNP通知系统登记（强制）"
+      ],
+      "std": [
+        "ISO 22716 GMP",
+        "欧盟禁限物质列表(附件II/III/IV)"
+      ],
+      "banned": [
+        "1600+种禁用物质",
+        "禁止动物测试(成品及原料)",
+        "PFAS趋势"
+      ],
+      "label": [
+        "成分INCI(降序)",
+        "RP负责人EU地址",
+        "PAO或BBE日期",
+        "警告语"
+      ],
+      "customs": [
+        "CPNP须在上市前完成",
+        "SCCS安全评估"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "医薬部外品批准/化粧品届出",
+        "厚生劳动省"
+      ],
+      "std": [
+        "日本化妆品标准(2001)",
+        "医薬部外品原料规格"
+      ],
+      "banned": [
+        "禁用成分列表",
+        "特定漂白剂",
+        "禁止动物实验(趋势)"
+      ],
+      "label": [
+        "日文全成分标注",
+        "制造商/进口商",
+        "净含量",
+        "使用期限"
+      ],
+      "customs": [
+        "化粧品进口须届出; 医薬部外品须批准"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "NICNAS/AICIS化学品登记(成分)"
+      ],
+      "std": [
+        "AICIS评估"
+      ],
+      "banned": [
+        "禁用成分参照EU",
+        "石棉/汞禁止"
+      ],
+      "label": [
+        "INCI成分",
+        "警告语",
+        "原产地"
+      ],
+      "customs": [
+        "含禁用成分被扣押"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "MFDS化妆品GMP认证(出口加分)",
+        "化妆品申报"
+      ],
+      "std": [
+        "KSA化妆品安全标准"
+      ],
+      "banned": [
+        "韩国禁用成分表(1600+同EU参考)",
+        "禁止动物测试"
+      ],
+      "label": [
+        "全成分韩文(INCI+韩名)",
+        "제조국(原产国)"
+      ],
+      "customs": [
+        "须本地进口商(Responsible person)"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA化妆品注册",
+        "清真认证(强烈建议)"
+      ],
+      "std": [
+        "GCC化妆品技术法规"
+      ],
+      "banned": [
+        "猪源成分",
+        "酒精>2%须标注",
+        "男性化妆品某些成分限制"
+      ],
+      "label": [
+        "阿文INCI成分",
+        "Halal标志",
+        "保质期"
+      ],
+      "customs": [
+        "SFDA须在进口前注册"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "CDSCO化妆品进口许可",
+        "BIS(某些类别)"
+      ],
+      "std": [
+        "Drugs & Cosmetics Act 1940",
+        "BIS IS 6608"
+      ],
+      "banned": [
+        "汞超标",
+        "铅超5ppm"
+      ],
+      "label": [
+        "英/印度语成分",
+        "制造商及进口商",
+        "MRP价格"
+      ],
+      "customs": [
+        "CDSCO许可证先行"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Anvisa化妆品注册/通知"
+      ],
+      "std": [
+        "RDC 166/2017 GMP",
+        "RDC 7/2015"
+      ],
+      "banned": [
+        "Anvisa禁用成分清单",
+        "动物测试(部分州)"
+      ],
+      "label": [
+        "葡语INCI成分",
+        "Anvisa号码",
+        "保质期"
+      ],
+      "customs": [
+        "Anvisa需提前申请，I/II类不同审批时长"
+      ]
+    }
+  }
+}

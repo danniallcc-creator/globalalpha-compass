@@ -1,0 +1,2707 @@
+{
+  "消费电子": {
+    "US": {
+      "cert": [
+        "FCC Part 15(射频)",
+        "UL 62368-1(安全)",
+        "Energy Star(能效)",
+        "CPSC备案"
+      ],
+      "std": [
+        "ANSI C63.4(EMC)",
+        "IEEE 802.11/BT"
+      ],
+      "banned": [
+        "PFAS(部分州)",
+        "六价铬",
+        "PBB/PBDE"
+      ],
+      "label": [
+        "FCC ID",
+        "Energy Star标识",
+        "加州Prop 65"
+      ],
+      "customs": [
+        "进口商须提交FCC授权",
+        "锂电池PHMSA合规",
+        "HS 8471-8479重点查"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(RED/LVD/EMC)",
+        "RoHS II",
+        "WEEE注册",
+        "REACH"
+      ],
+      "std": [
+        "EN 55032",
+        "EN 62368-1",
+        "EN 301 489"
+      ],
+      "banned": [
+        "铅<0.1%",
+        "汞<0.1%",
+        "镉<0.01%",
+        "六价铬<0.1%",
+        "DEHP/BBP/DBP<0.1%"
+      ],
+      "label": [
+        "CE标识",
+        "WEEE回收符号",
+        "EU DoC",
+        "进口商EU地址"
+      ],
+      "customs": [
+        "AEO认证加快清关",
+        "电池法2023起"
+      ]
+    },
+    "GB": {
+      "cert": [
+        "UKCA认证",
+        "UK RoHS 2",
+        "PSTI法(IoT安全)"
+      ],
+      "std": [
+        "BS EN 62368-1",
+        "UK EMC 2016"
+      ],
+      "banned": [
+        "同EU RoHS禁限物质"
+      ],
+      "label": [
+        "UKCA标识",
+        "UK Importer地址"
+      ],
+      "customs": [
+        "英国海关CHIEF/CDS申报",
+        "原产地证明"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PSE认证(电安法)",
+        "技適(TELEC无线)",
+        "VCCI自愿(EMC)"
+      ],
+      "std": [
+        "JIS C 6950-1",
+        "ARIB STD-T66"
+      ],
+      "banned": [
+        "J-MOSS有害物质申报(J-RoHS)"
+      ],
+      "label": [
+        "PSE菱形/圆形标志",
+        "技適号码"
+      ],
+      "customs": [
+        "日本海关4210需提供PSE证书",
+        "锂电池UN38.3"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "RCM认证(SAA+ACMA)",
+        "MEPS(能效)"
+      ],
+      "std": [
+        "AS/NZS 62368-1",
+        "AS/NZS CISPR 32"
+      ],
+      "banned": [
+        "同EU RoHS参考执行"
+      ],
+      "label": [
+        "RCM标志",
+        "能效等级标签(GEMS)"
+      ],
+      "customs": [
+        "澳海关须提供DoC",
+        "DIBP进口许可"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "KC认证(전기용품)",
+        "RRA无线型式认证"
+      ],
+      "std": [
+        "KS C IEC 62368-1"
+      ],
+      "banned": [
+        "K-RoHS 10种有害物质"
+      ],
+      "label": [
+        "KC标识",
+        "한국 어 사용说明"
+      ],
+      "customs": [
+        "QR追溯标签要求",
+        "KC申报必须"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS注册(CRS)",
+        "WPC无线认证"
+      ],
+      "std": [
+        "IS 13252",
+        "IS 15958"
+      ],
+      "banned": [
+        "BIS禁止特定PFAS"
+      ],
+      "label": [
+        "BIS注册号",
+        "印地语标签"
+      ],
+      "customs": [
+        "BIS必须在进口前完成",
+        "海关HS 8471随附BIS证书"
+      ]
+    },
+    "SG": {
+      "cert": [
+        "IMDA认证(含无线)",
+        "SAFETY MARK(LEA)"
+      ],
+      "std": [
+        "SS 563",
+        "IEC 62368-1"
+      ],
+      "banned": [
+        "参照EU RoHS"
+      ],
+      "label": [
+        "SAFETY MARK标志"
+      ],
+      "customs": [
+        "新加坡海关CaC申报"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO认证/IECEE CB",
+        "CITC型式认证(无线)"
+      ],
+      "std": [
+        "SASO IEC 62368-1"
+      ],
+      "banned": [
+        "GCC RoHS 10种物质"
+      ],
+      "label": [
+        "SASO合格标志",
+        "阿文标签"
+      ],
+      "customs": [
+        "SABER平台预注册",
+        "产地证明COO"
+      ]
+    },
+    "TR": {
+      "cert": [
+        "CE(仍被土耳其认可)",
+        "BTK无线型式认证"
+      ],
+      "std": [
+        "TS EN 62368-1"
+      ],
+      "banned": [
+        "土耳其RoHS Yönetmeliği"
+      ],
+      "label": [
+        "CE标志或土耳其本地标志"
+      ],
+      "customs": [
+        "TAREKS进口关口审查"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Anatel认证(无线)",
+        "Inmetro认证"
+      ],
+      "std": [
+        "ABNT NBR IEC 62368-1"
+      ],
+      "banned": [
+        "无单独RoHS，参考一般化学品法"
+      ],
+      "label": [
+        "Anatel号码",
+        "Inmetro贴标"
+      ],
+      "customs": [
+        "Siscomex申报",
+        "进口许可LI须提前申请"
+      ]
+    },
+    "RU": {
+      "cert": [
+        "EAC认证(EAEU TR CU)",
+        "GOST-R(含无线)"
+      ],
+      "std": [
+        "GOST IEC 62368-1"
+      ],
+      "banned": [
+        "EAEU TR 037/2016有害物质"
+      ],
+      "label": [
+        "EAC标志",
+        "俄文说明书"
+      ],
+      "customs": [
+        "证书/声明须随货清关",
+        "圣彼得堡/莫斯科海关"
+      ]
+    },
+    "ZA": {
+      "cert": [
+        "ICASA型式认证(无线)",
+        "NRCS注册"
+      ],
+      "std": [
+        "SANS 62368-1"
+      ],
+      "banned": [
+        "同EU参考"
+      ],
+      "label": [
+        "NRCS合规标志"
+      ],
+      "customs": [
+        "南非SABS进口审查"
+      ]
+    }
+  },
+  "家用电器": {
+    "US": {
+      "cert": [
+        "UL认证或ETL",
+        "Energy Star",
+        "FCC(含遥控)",
+        "CPSC上报"
+      ],
+      "std": [
+        "UL 1026/1082等",
+        "AHAM行标"
+      ],
+      "banned": [
+        "PFAS不粘涂层替代趋势",
+        "CFC制冷剂"
+      ],
+      "label": [
+        "UL标志",
+        "Energy Star",
+        "CSA/cUL(加拿大互认)"
+      ],
+      "customs": [
+        "Section 301加征关税(洗衣机/太阳能电池板等特殊豁免查)"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(LVD/EMC/ErP)",
+        "RoHS II",
+        "WEEE",
+        "REACH"
+      ],
+      "std": [
+        "EN 60335系列",
+        "EN 55014"
+      ],
+      "banned": [
+        "R22制冷剂禁止",
+        "铅/汞/镉/六价铬/PBB/PBDE"
+      ],
+      "label": [
+        "CE",
+        "能效等级标签(A-G)",
+        "WEEE"
+      ],
+      "customs": [
+        "ErP能效最低要求，不达标禁入"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PSE(电器/热器具)",
+        "METI节能标识"
+      ],
+      "std": [
+        "JIS C 9335系列"
+      ],
+      "banned": [
+        "同J-MOSS有害物质"
+      ],
+      "label": [
+        "PSE标志",
+        "统一节能标识"
+      ],
+      "customs": [
+        "家用电器须PSE后方可进口"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "RCM",
+        "GEMS能效注册"
+      ],
+      "std": [
+        "AS/NZS 60335系列"
+      ],
+      "banned": [
+        "臭氧层物质ODS制冷剂"
+      ],
+      "label": [
+        "RCM",
+        "GEMS能效标签"
+      ],
+      "customs": [
+        "能效标签须提前注册GEMS数据库"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "KC(가전제품)",
+        "e-Stand能效"
+      ],
+      "std": [
+        "KS C IEC 60335"
+      ],
+      "banned": [
+        "K-RoHS"
+      ],
+      "label": [
+        "KC标识",
+        "能效等级"
+      ],
+      "customs": [
+        "须证明KC认证有效期"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BEE星级能效",
+        "BIS CRS"
+      ],
+      "std": [
+        "IS 302系列"
+      ],
+      "banned": [
+        "ODS制冷剂Phase-out"
+      ],
+      "label": [
+        "BEE Star Rating",
+        "BIS注册号"
+      ],
+      "customs": [
+        "大型家电进口关税较高，约20%"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO能效认证",
+        "SABER合规"
+      ],
+      "std": [
+        "SASO IEC 60335"
+      ],
+      "banned": [
+        "GCC RoHS"
+      ],
+      "label": [
+        "能效标识(沙特标准)",
+        "SASO"
+      ],
+      "customs": [
+        "SABER平台提前申报"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Inmetro强制认证",
+        "Eletrobras能效"
+      ],
+      "std": [
+        "ABNT NBR IEC 60335"
+      ],
+      "banned": [
+        "含汞荧光灯Hg限制"
+      ],
+      "label": [
+        "Inmetro标识",
+        "能效Procel标签"
+      ],
+      "customs": [
+        "SISCOMEX+进口许可LI"
+      ]
+    },
+    "RU": {
+      "cert": [
+        "EAC (TR CU 004/011/020)"
+      ],
+      "std": [
+        "GOST 60335系列"
+      ],
+      "banned": [
+        "EAEU有害物质限制"
+      ],
+      "label": [
+        "EAC标志",
+        "俄文说明书"
+      ],
+      "customs": [
+        "EAC证书随货"
+      ]
+    }
+  },
+  "食品及饮料": {
+    "US": {
+      "cert": [
+        "FDA食品设施注册(FSVP)",
+        "FSMA合规",
+        "有机USDA(可选)"
+      ],
+      "std": [
+        "21 CFR食品法规",
+        "HACCP/GMP"
+      ],
+      "banned": [
+        "部分添加剂须GRAS认定",
+        "反式脂肪(PHO)禁止",
+        "亚硝酸盐超限"
+      ],
+      "label": [
+        "FDA营养成分表",
+        "过敏原标注",
+        "净含量(英制+公制)"
+      ],
+      "customs": [
+        "FDA Prior Notice提前申报",
+        "可能被扣押检验"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "欧盟食品进口许可(RASFF)",
+        "有机EU认证(可选)",
+        "有机认证843/2018"
+      ],
+      "std": [
+        "EC 178/2002食品安全总法",
+        "EC 852/2004卫生法"
+      ],
+      "banned": [
+        "使用EU不允许添加剂",
+        "农残超EC 396/2005限量",
+        "特定转基因未获批"
+      ],
+      "label": [
+        "营养标签EU 1169/2011",
+        "过敏原加粗",
+        "原产国标注"
+      ],
+      "customs": [
+        "CHED-P进口卫生证书",
+        "边境检查BIP入境"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "厚生劳动省进口届出(食安法)",
+        "FAMIC检验"
+      ],
+      "std": [
+        "日本食品安全基本法",
+        "农药残留肯定列表"
+      ],
+      "banned": [
+        "超过肯定列表0.01ppm残留",
+        "禁止使用成分一览"
+      ],
+      "label": [
+        "日本食品标签法(日文)",
+        "过敏原28品目",
+        "原产地",
+        "赏味期限"
+      ],
+      "customs": [
+        "食品进口检疫申报",
+        "可能抽查化学成分"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "FSANZ标准合规",
+        "有机ACO认证(可选)"
+      ],
+      "std": [
+        "Australia New Zealand Food Standards Code"
+      ],
+      "banned": [
+        "未批准添加剂",
+        "色素限量"
+      ],
+      "label": [
+        "FSANZ营养标签",
+        "Country of Origin",
+        "过敏原"
+      ],
+      "customs": [
+        "DAFF进口许可",
+        "生鲜类需检疫证明"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "MFDS进口申报",
+        "HACCP(可选加分)"
+      ],
+      "std": [
+        "韩国食品卫生法",
+        "KFS添加剂标准"
+      ],
+      "banned": [
+        "未批准添加剂",
+        "农残超KFS限量"
+      ],
+      "label": [
+        "韩文标签(强制)",
+        "营养成分",
+        "原产地"
+      ],
+      "customs": [
+        "进口申报需提供卫生证明"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA进口许可",
+        "清真Halal认证(强制)"
+      ],
+      "std": [
+        "沙特食品安全法",
+        "GSO 9/2013"
+      ],
+      "banned": [
+        "猪肉制品禁止",
+        "禁止酒精成分超限"
+      ],
+      "label": [
+        "阿文标签",
+        "Halal标志",
+        "保质期(沙特历法+公历)"
+      ],
+      "customs": [
+        "SABER食品预注册",
+        "清真证书须沙特认可机构"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "FSSAI进口注册(必须)",
+        "有机NPOP(可选)"
+      ],
+      "std": [
+        "食品安全与标准法2006",
+        "FSSAI法规"
+      ],
+      "banned": [
+        "超过FSSAI农残限量",
+        "禁止特定色素"
+      ],
+      "label": [
+        "FSSAI注册号",
+        "印地语标签",
+        "Best Before",
+        "营养信息"
+      ],
+      "customs": [
+        "FSSAI须在进口前批准",
+        "Class-B进口商注册"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "MAPA/ANVISA进口注册"
+      ],
+      "std": [
+        "RDC 259等ANVISA法规"
+      ],
+      "banned": [
+        "未批准食品添加剂"
+      ],
+      "label": [
+        "葡萄牙语标签",
+        "Tabela Nutricional",
+        "origem"
+      ],
+      "customs": [
+        "SISCOMEX+卫生证书"
+      ]
+    }
+  },
+  "服装及配饰": {
+    "US": {
+      "cert": [
+        "CPSC纤维成分申报(Textile Act)",
+        "CA Prop 65(化学品)",
+        "有机GOTS(可选)"
+      ],
+      "std": [
+        "16 CFR Part 303纤维成分",
+        "ASTM F1816(儿童外衣绳扣)"
+      ],
+      "banned": [
+        "偶氮染料中已禁芳香胺",
+        "PFAS防水整理（多州趋势）",
+        "铅含量>100ppm(儿童)"
+      ],
+      "label": [
+        "Care Label护理标签(RN号)",
+        "纤维成分%",
+        "原产国Made in"
+      ],
+      "customs": [
+        "贸易合规纤维成分检测",
+        "第301条加征关税"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "REACH SVHC申报",
+        "Oeko-Tex 100(自愿加分)",
+        "GPSR通用产品安全"
+      ],
+      "std": [
+        "EN 14682(儿童服装绳扣)",
+        "REACH附件XVII"
+      ],
+      "banned": [
+        "禁用偶氮染料(表24芳香胺)",
+        "甲醛超限",
+        "镍超限(金属配件)"
+      ],
+      "label": [
+        "纤维成分(EU多语言)",
+        "原产国",
+        "尺寸EU码",
+        "护理标志"
+      ],
+      "customs": [
+        "海关随机抽查REACH合规",
+        "纺织品原产地证明"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "家用品品质标示法申报",
+        "有机JGAPS(可选)"
+      ],
+      "std": [
+        "JIS L 0001护理标志",
+        "JIS T 8118工作服"
+      ],
+      "banned": [
+        "特定偶氮色素禁止",
+        "甲醛(婴儿75ppm/成人300ppm)"
+      ],
+      "label": [
+        "日文纤维成分",
+        "护理标志(JIS图示)",
+        "原产国"
+      ],
+      "customs": [
+        "日本贸易统计申报"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "ACCC消费品安全",
+        "供应链透明度报告(Modern Slavery Act)"
+      ],
+      "std": [
+        "AS/NZS 1957护理标志"
+      ],
+      "banned": [
+        "致癌偶氮染料",
+        "PFAS整理剂"
+      ],
+      "label": [
+        "纤维成分",
+        "护理标签",
+        "Country of Origin"
+      ],
+      "customs": [
+        "现代奴隶制声明>$100M营业额公司须提交"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "KATC质量认证(自愿)",
+        "KC(儿童服装强制)"
+      ],
+      "std": [
+        "KS K ISO 3758护理标志"
+      ],
+      "banned": [
+        "偶氮染料禁限芳香胺",
+        "甲醛限量"
+      ],
+      "label": [
+        "韩文纤维成分",
+        "KC标识(儿童)",
+        "护理标志"
+      ],
+      "customs": [
+        "进口商须备案"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS(婴儿服强制)",
+        "GOTS(出口导向)"
+      ],
+      "std": [
+        "IS 1956纺织品标准"
+      ],
+      "banned": [
+        "偶氮染料AZO"
+      ],
+      "label": [
+        "纤维成分(英/印度语)",
+        "尺码",
+        "护理标志"
+      ],
+      "customs": [
+        "BIS证书须在进口前取得(婴儿服)"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO纺织品标准",
+        "SABER注册"
+      ],
+      "std": [
+        "SASO GSO 1956"
+      ],
+      "banned": [
+        "猥亵图案禁止",
+        "透明度过高面料限制"
+      ],
+      "label": [
+        "阿文标签",
+        "纤维成分",
+        "护理标志"
+      ],
+      "customs": [
+        "清真文化合规性考量",
+        "SABER预申报"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Inmetro儿童服装强制",
+        "ABNT纺织标准"
+      ],
+      "std": [
+        "ABNT NBR 15236"
+      ],
+      "banned": [
+        "偶氮染料",
+        "儿童服装绳扣安全"
+      ],
+      "label": [
+        "葡语纤维成分",
+        "INMETRO(儿童)",
+        "护理标志"
+      ],
+      "customs": [
+        "须提供纤维成分测试报告"
+      ]
+    }
+  },
+  "玩具": {
+    "US": {
+      "cert": [
+        "CPSC/CPSA合规",
+        "ASTM F963强制",
+        "17项重金属检测",
+        "3C(非，但需CPSC备案)"
+      ],
+      "std": [
+        "ASTM F963玩具安全",
+        "16 CFR 1500/1501"
+      ],
+      "banned": [
+        "铅含量>100ppm(油漆)",
+        "邻苯二甲酸酯>0.1%(儿童玩具)",
+        "特定磁铁规格限制"
+      ],
+      "label": [
+        "Age Grading年龄标识",
+        "Choking Hazard窒息警告",
+        "CA Prop 65"
+      ],
+      "customs": [
+        "CPSC测试报告随货",
+        "进口商备案"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(玩具安全指令2009/48/EC)",
+        "EN 71系列测试"
+      ],
+      "std": [
+        "EN 71-1(机械/物理)",
+        "EN 71-3(重金属迁移)",
+        "EN 62115(电动玩具)"
+      ],
+      "banned": [
+        "铅/钡/锑等重金属迁移超限",
+        "16种邻苯二甲酸酯",
+        "致癌/致敏染料"
+      ],
+      "label": [
+        "CE标识",
+        "年龄警告",
+        "生产商EU地址",
+        "DoC符合性声明"
+      ],
+      "customs": [
+        "高风险产品需通知机构认证",
+        "RAPEX通报产品拒绝入境"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "ST安全玩具自愿(日本玩协)",
+        "PSE(电动玩具)"
+      ],
+      "std": [
+        "JIS S 6100系列"
+      ],
+      "banned": [
+        "化审法管控物质"
+      ],
+      "label": [
+        "ST标志",
+        "年龄适合",
+        "日文说明"
+      ],
+      "customs": [
+        "儿童玩具优先检查重金属"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "ACCC玩具安全标准AS/NZS 8124",
+        "RCM(电动玩具)"
+      ],
+      "std": [
+        "AS/NZS 8124-1/2/3"
+      ],
+      "banned": [
+        "铅油漆",
+        "邻苯二甲酸酯"
+      ],
+      "label": [
+        "年龄警示",
+        "窒息危险警告",
+        "制造商信息"
+      ],
+      "customs": [
+        "高风险玩具抽检率高"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "KC(어린이제품)强制认证"
+      ],
+      "std": [
+        "KS G 5401系列"
+      ],
+      "banned": [
+        "重金属迁移限制",
+        "邻苯二甲酸酯"
+      ],
+      "label": [
+        "KC标识",
+        "年龄段",
+        "制造日期"
+      ],
+      "customs": [
+        "KC证书须随货"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS IS 9873强制认证(2021年起)"
+      ],
+      "std": [
+        "IS 9873-1/2/3"
+      ],
+      "banned": [
+        "重金属超标",
+        "邻苯二甲酸酯超限"
+      ],
+      "label": [
+        "BIS注册号",
+        "年龄警示",
+        "印地/英文说明"
+      ],
+      "customs": [
+        "BIS证书须在海关出示"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO玩具安全强制认证",
+        "SABER平台"
+      ],
+      "std": [
+        "SASO IEC 62115",
+        "SASO EN 71"
+      ],
+      "banned": [
+        "同EU重金属限制",
+        "猥亵内容禁止"
+      ],
+      "label": [
+        "阿文标签",
+        "年龄警示",
+        "SASO标志"
+      ],
+      "customs": [
+        "SABER预注册后方可进口"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Inmetro强制认证(OCP)"
+      ],
+      "std": [
+        "ABNT NBR NM 300系列"
+      ],
+      "banned": [
+        "重金属超标",
+        "邻苯二甲酸酯DEHP"
+      ],
+      "label": [
+        "Inmetro标识",
+        "年龄段",
+        "Portugues标签"
+      ],
+      "customs": [
+        "须有Inmetro证书方可清关"
+      ]
+    }
+  },
+  "医疗器械": {
+    "US": {
+      "cert": [
+        "FDA 510(k)预市上市(II类)或PMA(III类)",
+        "Class I豁免仅需GMP"
+      ],
+      "std": [
+        "21 CFR Part 820 QSR",
+        "ISO 13485",
+        "IEC 60601-1"
+      ],
+      "banned": [
+        "含汞血压计(FDA限制)",
+        "特定塑化剂(医疗PVC管路)"
+      ],
+      "label": [
+        "FDA注册号",
+        "UDI唯一识别码(强制)",
+        "Rx标注(处方器械)"
+      ],
+      "customs": [
+        "FDA CDRH须提前510(k)清关"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(MDR EU 2017/745)",
+        "NB公告机构认证(II类以上)",
+        "EUDAMED注册"
+      ],
+      "std": [
+        "ISO 14971风险管理",
+        "IEC 60601-1",
+        "EN ISO 10993"
+      ],
+      "banned": [
+        "SVHC须替代(高关注物质)",
+        "PVC/邻苯医疗管路限制"
+      ],
+      "label": [
+        "CE+NB编号",
+        "UDI欧洲数据库",
+        "多语言IFU"
+      ],
+      "customs": [
+        "AR授权代表强制",
+        "MDR过渡期至2027"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PMDA承认/認定/届出（对应三类器械）",
+        "QMS调查"
+      ],
+      "std": [
+        "JIS T 0601系列",
+        "JIS Q 13485"
+      ],
+      "banned": [
+        "未批准原材料"
+      ],
+      "label": [
+        "薬事法标识",
+        "日文说明书(强制)",
+        "承认番号"
+      ],
+      "customs": [
+        "须本地代理人（选任営業所管理者）"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "TGA ARTG登记（Class I-IV）"
+      ],
+      "std": [
+        "AS/NZS ISO 13485",
+        "TGA guidance"
+      ],
+      "banned": [
+        "含汞产品限制"
+      ],
+      "label": [
+        "ARTG编号",
+        "澳大利亚Sponsor地址",
+        "警告说明"
+      ],
+      "customs": [
+        "TGA审批先于进口"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "MFDS医疗器械审批",
+        "GMP认证"
+      ],
+      "std": [
+        "KS P ISO 13485"
+      ],
+      "banned": [
+        "未批准物质"
+      ],
+      "label": [
+        "MFDS허가/인증号",
+        "韩文IFU"
+      ],
+      "customs": [
+        "MFDS随货证明"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "CDSCO注册(MD & IVD Regulations 2017)",
+        "BIS(部分器械)"
+      ],
+      "std": [
+        "IS ISO 13485"
+      ],
+      "banned": [
+        "未批准植入物材料"
+      ],
+      "label": [
+        "CDSCO注册号",
+        "印地/英文说明书"
+      ],
+      "customs": [
+        "CDSCO在先批准"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA医疗器械注册",
+        "GCC GMED"
+      ],
+      "std": [
+        "SASO ISO 13485"
+      ],
+      "banned": [
+        "未经SFDA批准原料"
+      ],
+      "label": [
+        "SFDA注册号",
+        "阿文标签"
+      ],
+      "customs": [
+        "SFDA先行审批"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Anvisa IDAPPSBS注册"
+      ],
+      "std": [
+        "ABNT ISO 13485"
+      ],
+      "banned": [
+        "特定有害物质"
+      ],
+      "label": [
+        "Anvisa注册号",
+        "葡语说明书"
+      ],
+      "customs": [
+        "Anvisa证书随货"
+      ]
+    }
+  },
+  "家具": {
+    "US": {
+      "cert": [
+        "CARB Phase II(板材甲醛)",
+        "CPSC(儿童家具)",
+        "ANSI/BIFMA(商用)"
+      ],
+      "std": [
+        "ASTM E1333(甲醛)",
+        "ASTM F2057(抽屉柜稳定性)",
+        "ANSI/BIFMA X5.1"
+      ],
+      "banned": [
+        "甲醛超CARB Phase II",
+        "含铅油漆(儿童家具)"
+      ],
+      "label": [
+        "CARB合规声明",
+        "TSCA Title VI标识",
+        "CA Prop 65"
+      ],
+      "customs": [
+        "CARB证书随货",
+        "木材Lacey Act来源申报"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(部分类别，如床架)",
+        "REACH",
+        "EN标准符合性"
+      ],
+      "std": [
+        "EN 1022稳定性",
+        "EN 12521强度",
+        "EN 13501阻燃"
+      ],
+      "banned": [
+        "甲醛超EN 717-1 E1级",
+        "SVHC>0.1%",
+        "偶氮染料(纺织面料)"
+      ],
+      "label": [
+        "生产商信息",
+        "REACH合规声明",
+        "阻燃处理说明"
+      ],
+      "customs": [
+        "木材EUTR合法来源证明"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "F☆☆☆☆甲醛等级(JIS A 1460)",
+        "SGF认证(自愿)"
+      ],
+      "std": [
+        "JIS A 1901甲醛散发",
+        "JIS S 1030力学性能"
+      ],
+      "banned": [
+        "甲醛超0.12mg/L",
+        "禁止特定阻燃剂"
+      ],
+      "label": [
+        "F等级标识",
+        "制造商信息",
+        "日文警告"
+      ],
+      "customs": [
+        "甲醛测试报告随货"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "ACCC消费品安全",
+        "Timber Legality(澳非法伐木法案)"
+      ],
+      "std": [
+        "AS/NZS 4396",
+        "AS 2688"
+      ],
+      "banned": [
+        "甲醛超E1级",
+        "阻燃剂PBDE"
+      ],
+      "label": [
+        "供应商信息",
+        "原产地"
+      ],
+      "customs": [
+        "木材须FLEGT证书或来源证明"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO产品合规"
+      ],
+      "std": [
+        "SASO GSO家具标准"
+      ],
+      "banned": [
+        "甲醛超E1",
+        "未批准阻燃剂"
+      ],
+      "label": [
+        "阿文标签",
+        "SASO标志"
+      ],
+      "customs": [
+        "SABER预注册"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "ABNT NBR合规",
+        "Ibama木材原产地(DOCOF)"
+      ],
+      "std": [
+        "ABNT NBR 13961"
+      ],
+      "banned": [
+        "亚马逊非法木材"
+      ],
+      "label": [
+        "葡语合规标签",
+        "原产地"
+      ],
+      "customs": [
+        "Ibama木材合法证明强制"
+      ]
+    }
+  },
+  "美妆": {
+    "US": {
+      "cert": [
+        "FDA化妆品注册(MoCRA 2022新增)",
+        "cruelty-free(自愿)"
+      ],
+      "std": [
+        "21 CFR Parts 700-740",
+        "PCPC自愿标准"
+      ],
+      "banned": [
+        "11种禁用物质(铅/汞等)",
+        "防晒OTC成分需NDA",
+        "含氟碳化合物趋势"
+      ],
+      "label": [
+        "成分INCI名称",
+        "Net weight",
+        "Prop 65(CA)"
+      ],
+      "customs": [
+        "MoCRA后进口商需FDA设施注册"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "EU 1223/2009化妆品法规",
+        "CPNP通知系统登记（强制）"
+      ],
+      "std": [
+        "ISO 22716 GMP",
+        "欧盟禁限物质列表(附件II/III/IV)"
+      ],
+      "banned": [
+        "1600+种禁用物质",
+        "禁止动物测试(成品及原料)",
+        "PFAS趋势"
+      ],
+      "label": [
+        "成分INCI(降序)",
+        "RP负责人EU地址",
+        "PAO或BBE日期",
+        "警告语"
+      ],
+      "customs": [
+        "CPNP须在上市前完成",
+        "SCCS安全评估"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "医薬部外品批准/化粧品届出",
+        "厚生劳动省"
+      ],
+      "std": [
+        "日本化妆品标准(2001)",
+        "医薬部外品原料规格"
+      ],
+      "banned": [
+        "禁用成分列表",
+        "特定漂白剂",
+        "禁止动物实验(趋势)"
+      ],
+      "label": [
+        "日文全成分标注",
+        "制造商/进口商",
+        "净含量",
+        "使用期限"
+      ],
+      "customs": [
+        "化粧品进口须届出; 医薬部外品须批准"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "NICNAS/AICIS化学品登记(成分)"
+      ],
+      "std": [
+        "AICIS评估"
+      ],
+      "banned": [
+        "禁用成分参照EU",
+        "石棉/汞禁止"
+      ],
+      "label": [
+        "INCI成分",
+        "警告语",
+        "原产地"
+      ],
+      "customs": [
+        "含禁用成分被扣押"
+      ]
+    },
+    "KR": {
+      "cert": [
+        "MFDS化妆品GMP认证(出口加分)",
+        "化妆品申报"
+      ],
+      "std": [
+        "KSA化妆品安全标准"
+      ],
+      "banned": [
+        "韩国禁用成分表(1600+同EU参考)",
+        "禁止动物测试"
+      ],
+      "label": [
+        "全成分韩文(INCI+韩名)",
+        "제조국(原产国)"
+      ],
+      "customs": [
+        "须本地进口商(Responsible person)"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA化妆品注册",
+        "清真认证(强烈建议)"
+      ],
+      "std": [
+        "GCC化妆品技术法规"
+      ],
+      "banned": [
+        "猪源成分",
+        "酒精>2%须标注",
+        "男性化妆品某些成分限制"
+      ],
+      "label": [
+        "阿文INCI成分",
+        "Halal标志",
+        "保质期"
+      ],
+      "customs": [
+        "SFDA须在进口前注册"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "CDSCO化妆品进口许可",
+        "BIS(某些类别)"
+      ],
+      "std": [
+        "Drugs & Cosmetics Act 1940",
+        "BIS IS 6608"
+      ],
+      "banned": [
+        "汞超标",
+        "铅超5ppm"
+      ],
+      "label": [
+        "英/印度语成分",
+        "制造商及进口商",
+        "MRP价格"
+      ],
+      "customs": [
+        "CDSCO许可证先行"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Anvisa化妆品注册/通知"
+      ],
+      "std": [
+        "RDC 166/2017 GMP",
+        "RDC 7/2015"
+      ],
+      "banned": [
+        "Anvisa禁用成分清单",
+        "动物测试(部分州)"
+      ],
+      "label": [
+        "葡语INCI成分",
+        "Anvisa号码",
+        "保质期"
+      ],
+      "customs": [
+        "Anvisa需提前申请，I/II类不同审批时长"
+      ]
+    }
+  },
+  "汽车零配件": {
+    "US": {
+      "cert": [
+        "FMVSS安全标准合规",
+        "EPA排放认证(含排气系统)",
+        "DOT认证(轮胎/灯具)"
+      ],
+      "std": [
+        "FMVSS系列",
+        "SAE J标准",
+        "IIHS(自愿)"
+      ],
+      "banned": [
+        "含汞部件限制",
+        "特定制冷剂HFC-134a替代趋势"
+      ],
+      "label": [
+        "DOT编号(轮胎)",
+        "FMVSS合规声明",
+        "OEM/Aftermarket标识"
+      ],
+      "customs": [
+        "Section 232钢铁关税影响",
+        "HS 8708海关重点"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "ECE/UNECE型式认证",
+        "e/E标志",
+        "RoHS(电子部件)"
+      ],
+      "std": [
+        "UN Regulation No.10(EMC)",
+        "ECE R37(灯泡)",
+        "REACH"
+      ],
+      "banned": [
+        "铅/汞/六价铬/镉(ELV指令)",
+        "石棉禁止"
+      ],
+      "label": [
+        "e标志+国家代码",
+        "ECE认证编号"
+      ],
+      "customs": [
+        "ELV指令4种重金属限制强制",
+        "REACH声明"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "JASO型式认证",
+        "PSE(电子配件)"
+      ],
+      "std": [
+        "JIS D系列",
+        "JASIC标准"
+      ],
+      "banned": [
+        "石棉刹车片",
+        "特定重金属"
+      ],
+      "label": [
+        "JASO编号",
+        "日文警告"
+      ],
+      "customs": [
+        "港口海关抽查率较高"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "ADR澳大利亚设计规则",
+        "RCM(含电子)"
+      ],
+      "std": [
+        "ADR系列规定"
+      ],
+      "banned": [
+        "石棉",
+        "特定制冷剂"
+      ],
+      "label": [
+        "ADR合规声明"
+      ],
+      "customs": [
+        "ROVER系统申报"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS认证(轮胎/安全玻璃等)",
+        "AIS型式认证"
+      ],
+      "std": [
+        "IS 15500系列"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "BIS注册号",
+        "AIS认证编号"
+      ],
+      "customs": [
+        "BIS须先行取得"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO型式认证",
+        "SABER"
+      ],
+      "std": [
+        "SASO ECE等效标准"
+      ],
+      "banned": [
+        "石棉",
+        "特定制冷剂"
+      ],
+      "label": [
+        "SASO认证号",
+        "阿文说明"
+      ],
+      "customs": [
+        "SABER预注册"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Denatran/Senatran型式认证",
+        "Inmetro(特定零件)"
+      ],
+      "std": [
+        "NBR系列"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "Inmetro号码"
+      ],
+      "customs": [
+        "Siscomex申报+进口许可"
+      ]
+    }
+  },
+  "母婴及玩具": {
+    "US": {
+      "cert": [
+        "CPSIA合规(16 CFR)",
+        "ASTM F963(玩具)",
+        "JPMA(婴儿用品自愿)",
+        "CPSC备案"
+      ],
+      "std": [
+        "16 CFR 1500",
+        "ASTM F833(婴儿车)",
+        "ASTM F2050(婴儿背带)"
+      ],
+      "banned": [
+        "铅<100ppm(涂层)",
+        "邻苯二甲酸酯<0.1%",
+        "特定磁铁"
+      ],
+      "label": [
+        "Age Grading",
+        "Choking Hazard",
+        "CPSC号码"
+      ],
+      "customs": [
+        "独立第三方实验室测试报告(CPSC要求)"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(EN 71玩具/EN 1888婴儿车)",
+        "GPSR通用产品安全2024"
+      ],
+      "std": [
+        "EN 71系列",
+        "EN 13209婴儿背带",
+        "EN 1888婴儿车"
+      ],
+      "banned": [
+        "铅/镉超限",
+        "邻苯二甲酸酯6种超0.1%",
+        "特定偶氮染料"
+      ],
+      "label": [
+        "CE",
+        "警告语",
+        "年龄适合",
+        "Importer EU地址"
+      ],
+      "customs": [
+        "RAPEX通报产品须立即下架"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "ST安全玩具(自愿)",
+        "PSC婴儿床(义务)",
+        "SG马克(自愿)"
+      ],
+      "std": [
+        "JIS S 6100系列",
+        "消费生活用製品安全法PSC"
+      ],
+      "banned": [
+        "甲醛(婴儿75ppm)",
+        "特定染料"
+      ],
+      "label": [
+        "ST/SG/PSC标识",
+        "日文警告",
+        "适用年龄"
+      ],
+      "customs": [
+        "婴儿床需PSC证书"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "AS/NZS 8124玩具安全强制",
+        "AS/NZS 2172婴儿床强制"
+      ],
+      "std": [
+        "AS/NZS 2036婴儿车"
+      ],
+      "banned": [
+        "含铅涂料",
+        "邻苯二甲酸酯"
+      ],
+      "label": [
+        "年龄警示",
+        "制造商信息",
+        "合规声明"
+      ],
+      "customs": [
+        "强制标准不达标被扣押"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO玩具安全认证",
+        "SABER"
+      ],
+      "std": [
+        "SASO EN 71等效"
+      ],
+      "banned": [
+        "重金属超限",
+        "猥亵内容"
+      ],
+      "label": [
+        "阿文标签",
+        "年龄警示"
+      ],
+      "customs": [
+        "SABER预申报"
+      ]
+    }
+  },
+  "灯具照明": {
+    "US": {
+      "cert": [
+        "UL 1598/8750",
+        "Energy Star(LED)",
+        "FCC(含无线调光)",
+        "DLC(工程照明)"
+      ],
+      "std": [
+        "IESNA LM-79",
+        "LM-80寿命测试",
+        "ANSI C82.11"
+      ],
+      "banned": [
+        "汞超标荧光灯(2023年起)",
+        "含铅焊料趋势"
+      ],
+      "label": [
+        "UL标识",
+        "Energy Star",
+        "流明/功率标注"
+      ],
+      "customs": [
+        "HS 9405/8541类查"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(LVD/EMC/ErP)",
+        "RoHS",
+        "WEEE注册"
+      ],
+      "std": [
+        "EN 60598系列",
+        "EN 55015(EMC)",
+        "ErP 2019/2020"
+      ],
+      "banned": [
+        "汞超荧光灯EU 2023淘汰",
+        "卤素白炽灯限制"
+      ],
+      "label": [
+        "CE",
+        "能效等级A-G",
+        "WEEE符号"
+      ],
+      "customs": [
+        "ErP不达标禁止销售"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PSE(特定电气用品)",
+        "SG(自愿)"
+      ],
+      "std": [
+        "JIS C 7527系列"
+      ],
+      "banned": [
+        "汞超标"
+      ],
+      "label": [
+        "PSE标志(菱形)",
+        "节能等级"
+      ],
+      "customs": [
+        "须提供PSE证书"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "RCM",
+        "GEMS能效注册"
+      ],
+      "std": [
+        "AS/NZS 61347",
+        "AS/NZS 60598"
+      ],
+      "banned": [
+        "汞超标"
+      ],
+      "label": [
+        "RCM",
+        "GEMS能效标签"
+      ],
+      "customs": [
+        "GEMS须提前注册"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO能效认证",
+        "SABER"
+      ],
+      "std": [
+        "SASO IEC 60598"
+      ],
+      "banned": [
+        "汞超标"
+      ],
+      "label": [
+        "SASO认证",
+        "能效标识"
+      ],
+      "customs": [
+        "SABER预注册"
+      ]
+    }
+  },
+  "安防": {
+    "US": {
+      "cert": [
+        "UL 2050/2572(安防系统)",
+        "FCC Part 15(无线)",
+        "UL 294(门禁)"
+      ],
+      "std": [
+        "ANSI/SIA CP-01",
+        "NFPA 72"
+      ],
+      "banned": [
+        "中国特定厂商产品(Hikvision/Dahua受NDAA限制)"
+      ],
+      "label": [
+        "UL Listed标志",
+        "FCC ID"
+      ],
+      "customs": [
+        "NDAA Section 889合规声明强制"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(RED/EMC/LVD)",
+        "EN 50131认证(入侵探测)"
+      ],
+      "std": [
+        "EN 50131系列",
+        "EN 50136(通讯)"
+      ],
+      "banned": [
+        "特定中国供应商产品部分EU成员国限制"
+      ],
+      "label": [
+        "CE标识",
+        "Grade等级标注"
+      ],
+      "customs": [
+        "CRA网络安全法2025年起逐步执行"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "RCM",
+        "ACMA频谱许可(无线)"
+      ],
+      "std": [
+        "AS 2201系列"
+      ],
+      "banned": [
+        "特定中国品牌政府采购受限"
+      ],
+      "label": [
+        "RCM标志"
+      ],
+      "customs": [
+        "政府项目须声明非受限品牌"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS认证(闭路电视)",
+        "WPC无线许可"
+      ],
+      "std": [
+        "IS 16667"
+      ],
+      "banned": [
+        "含特定加密后门"
+      ],
+      "label": [
+        "BIS注册号",
+        "WPC许可号"
+      ],
+      "customs": [
+        "BIS先行取得"
+      ]
+    }
+  },
+  "工业机械": {
+    "US": {
+      "cert": [
+        "OSHA 1910/1926安全合规",
+        "UL认证(电控)",
+        "EPA(排放)",
+        "ANSI B11系列"
+      ],
+      "std": [
+        "ANSI/PMMI B155.1",
+        "NFPA 79"
+      ],
+      "banned": [
+        "含石棉部件",
+        "特定制冷剂"
+      ],
+      "label": [
+        "UL/ETL标识",
+        "OSHA警告标识"
+      ],
+      "customs": [
+        "EPA认证先行",
+        "Section 232钢铁关税"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(机械指令2006/42/EC)",
+        "ATEX(防爆)",
+        "PED(压力设备)"
+      ],
+      "std": [
+        "EN ISO 12100风险评估",
+        "EN 60204-1电气安全"
+      ],
+      "banned": [
+        "石棉",
+        "特定危险化学品"
+      ],
+      "label": [
+        "CE+声明",
+        "危险区域标识"
+      ],
+      "customs": [
+        "技术文档须在EU境内保存"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "JISZ安全标准",
+        "PSE(电气部分)",
+        "劳动安全卫生法"
+      ],
+      "std": [
+        "JIS B 9700系列"
+      ],
+      "banned": [
+        "特定化学物质"
+      ],
+      "label": [
+        "JIS认证",
+        "日文安全标识"
+      ],
+      "customs": [
+        "大型机械须提前申报"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS认证(部分)",
+        "PESO(压力容器)"
+      ],
+      "std": [
+        "IS 15681系列"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "BIS号码",
+        "制造商信息"
+      ],
+      "customs": [
+        "BIS先行，Part 3机械重点检查"
+      ]
+    }
+  },
+  "化学品": {
+    "US": {
+      "cert": [
+        "TSCA新化学物质申报(PMN)",
+        "EPA FIFRA(农药)",
+        "OSHA SDS"
+      ],
+      "std": [
+        "TSCA Title I",
+        "OSHA HazCom 2012(GHS)"
+      ],
+      "banned": [
+        "石棉(民用)",
+        "特定POPs",
+        "苯类用途限制"
+      ],
+      "label": [
+        "GHS标签(危险品)",
+        "SDS安全数据表",
+        "EPA注册号(农药)"
+      ],
+      "customs": [
+        "TSCA进口认证",
+        "危险品须DOT申报"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "REACH注册(>1吨/年须注册)",
+        "CLP分类标识",
+        "ECHA授权"
+      ],
+      "std": [
+        "REACH 1907/2006",
+        "CLP 1272/2008",
+        "BPR(杀生物剂)"
+      ],
+      "banned": [
+        "SVHC候选物质须申报",
+        "POPs禁止",
+        "石棉"
+      ],
+      "label": [
+        "CLP危险标签",
+        "SDS 16项",
+        "ECHA注册号"
+      ],
+      "customs": [
+        "REACH注册是进口前提"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "化审法第一类监控化学物质申报",
+        "毒物及剧毒物取缔法"
+      ],
+      "std": [
+        "化審法(化学物质审查规制法)"
+      ],
+      "banned": [
+        "第一类特定化学物质禁止"
+      ],
+      "label": [
+        "SDS日文版",
+        "化審法分类"
+      ],
+      "customs": [
+        "新化学物质须提前申报"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "AICIS工业化学品申报",
+        "APVMA(农药/兽药)"
+      ],
+      "std": [
+        "工业化学品法2019"
+      ],
+      "banned": [
+        "特定POPs",
+        "石棉"
+      ],
+      "label": [
+        "GHS标签",
+        "SDS澳大利亚版"
+      ],
+      "customs": [
+        "AICIS评估后可进口"
+      ]
+    }
+  },
+  "可再生能源": {
+    "US": {
+      "cert": [
+        "UL 1741(逆变器)",
+        "IEEE 1547(并网)",
+        "IEC 61730(光伏组件)",
+        "UL 9540(储能)"
+      ],
+      "std": [
+        "NEC Article 690",
+        "NFPA 855(储能)"
+      ],
+      "banned": [
+        "含铅焊接(WEEE参考)",
+        "特定中国光伏产品(UFLPA强制劳工审查)"
+      ],
+      "label": [
+        "UL认证",
+        "ETL标识",
+        "能效等级"
+      ],
+      "customs": [
+        "UFLPA新疆来源太阳能板禁止",
+        "AD/CVD双反税"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(LVD/EMC)",
+        "IEC 61215光伏组件",
+        "IEC 62109逆变器",
+        "EN 62305防雷"
+      ],
+      "std": [
+        "IEC 61730",
+        "IEC 61439(配电柜)"
+      ],
+      "banned": [
+        "含六价铬部件",
+        "特定PFAS(光伏背板趋势)"
+      ],
+      "label": [
+        "CE标识",
+        "能效标签",
+        "产品护照(Carbon Footprint趋势)"
+      ],
+      "customs": [
+        "碳边界调整机制CBAM 2026电力"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PSE(逆变器)",
+        "J-PEC认证(光伏组件)"
+      ],
+      "std": [
+        "JIS C 8918/8992"
+      ],
+      "banned": [
+        "镉超标"
+      ],
+      "label": [
+        "PSE标志",
+        "J-PEC认证号"
+      ],
+      "customs": [
+        "FIT申请须JET/J-PEC认证"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "CEC认证(列名)",
+        "RCM",
+        "AS 4777(并网)"
+      ],
+      "std": [
+        "AS/NZS 5033(光伏系统)"
+      ],
+      "banned": [
+        "PFAS(储能隔膜趋势)"
+      ],
+      "label": [
+        "CEC列名编号",
+        "RCM"
+      ],
+      "customs": [
+        "STC政策补贴须CEC认证"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS IS 14286(光伏组件)",
+        "MNRE ALMM清单(并网须用国内/ALMM认证组件)"
+      ],
+      "std": [
+        "IS 16169逆变器"
+      ],
+      "banned": [
+        "非ALMM清单产品不得用于并网项目"
+      ],
+      "label": [
+        "BIS注册号",
+        "ALMM认证"
+      ],
+      "customs": [
+        "ALMM外产品加征关税"
+      ]
+    }
+  },
+  "健康护理": {
+    "US": {
+      "cert": [
+        "FDA OTC药品注册/monograph",
+        "DSHEA膳食补充剂GMP"
+      ],
+      "std": [
+        "21 CFR 111 GMP(补充剂)",
+        "USP标准"
+      ],
+      "banned": [
+        "特定禁用成分(麻黄碱/荷尔蒙类)",
+        "未批准药物成分"
+      ],
+      "label": [
+        "Supplement Facts标签",
+        "FDA注册号",
+        "含量声明"
+      ],
+      "customs": [
+        "FDA审查可能扣押"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "NHP食品补充剂指令2002/46/EC",
+        "医药类需EMA/国家批准"
+      ],
+      "std": [
+        "EFSA安全评估",
+        "GMP Directive 2003/94"
+      ],
+      "banned": [
+        "未批准植物提取物",
+        "特定维生素剂量上限"
+      ],
+      "label": [
+        "营养素参考值NRV",
+        "警告语",
+        "EU RP信息"
+      ],
+      "customs": [
+        "边检CHED文件"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "机能性表示食品届出(FSSAI相当)",
+        "特保FOSHU厚生批准"
+      ],
+      "std": [
+        "日本薬事法(医药品)"
+      ],
+      "banned": [
+        "指定成分须申报",
+        "禁止特定中草药(马兜铃酸等)"
+      ],
+      "label": [
+        "日文标签",
+        "功能声明须经届出"
+      ],
+      "customs": [
+        "食品申报+化妆品/医药分类海关审查"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SFDA营养补充剂注册"
+      ],
+      "std": [
+        "GCC健康产品标准"
+      ],
+      "banned": [
+        "哈拉姆成分",
+        "特定激素"
+      ],
+      "label": [
+        "阿文标签",
+        "SFDA注册号",
+        "Halal"
+      ],
+      "customs": [
+        "SFDA提前注册"
+      ]
+    }
+  },
+  "橡胶与塑料制品": {
+    "US": {
+      "cert": [
+        "REACH参考+TSCA",
+        "FDA(食品接触须FCN)"
+      ],
+      "std": [
+        "ASTM D系列",
+        "FDA 21 CFR 177(食品接触)"
+      ],
+      "banned": [
+        "BPA(婴儿塑料制品限制)",
+        "特定邻苯二甲酸酯",
+        "PFAS(部分州)"
+      ],
+      "label": [
+        "材质标识(树脂码)",
+        "Prop 65(CA)"
+      ],
+      "customs": [
+        "Section 301加征关税"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "REACH",
+        "食品接触材料(FCM)法规EC 10/2011"
+      ],
+      "std": [
+        "EN 71-3(接触玩具)",
+        "EC 1935/2004"
+      ],
+      "banned": [
+        "SVHCs",
+        "双酚A BPA(婴儿用品)",
+        "偶氮染料(接触皮肤)"
+      ],
+      "label": [
+        "材质标识",
+        "REACH符合性声明"
+      ],
+      "customs": [
+        "SVHC>0.1%须申报"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "食品卫生法(食品接触)",
+        "化審法(化学物质)"
+      ],
+      "std": [
+        "JIS K 6762/6783(食品接触)"
+      ],
+      "banned": [
+        "特定可塑剂",
+        "挥发性有机物"
+      ],
+      "label": [
+        "日文材质标识",
+        "食品用标志(厨房用品)"
+      ],
+      "customs": [
+        "食品接触须厚生省确认"
+      ]
+    }
+  },
+  "五金工具": {
+    "US": {
+      "cert": [
+        "UL认证(电动工具)",
+        "OSHA合规",
+        "ANSI/ASME工具标准"
+      ],
+      "std": [
+        "ANSI B107系列",
+        "OSHA 1910.242"
+      ],
+      "banned": [
+        "含铅涂料(消费品)",
+        "石棉垫片"
+      ],
+      "label": [
+        "UL/ETL标志",
+        "OSHA危险标识",
+        "材质标识"
+      ],
+      "customs": [
+        "Section 301关税影响大"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(机械指令/LVD/EMC)",
+        "EN标准"
+      ],
+      "std": [
+        "EN 60745电动工具",
+        "EN ISO 11148手工具"
+      ],
+      "banned": [
+        "含石棉",
+        "特定溶剂"
+      ],
+      "label": [
+        "CE",
+        "警告语(多语言)"
+      ],
+      "customs": [
+        "机械指令技术文档须保留"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "PSE(电动工具)",
+        "JISA工具标准"
+      ],
+      "std": [
+        "JIS B 4655系列"
+      ],
+      "banned": [
+        "石棉垫片"
+      ],
+      "label": [
+        "PSE标志",
+        "JIS标识"
+      ],
+      "customs": [
+        "电动工具须PSE"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "RCM(电动)",
+        "ACCC消费品安全"
+      ],
+      "std": [
+        "AS/NZS 60745"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "RCM标志"
+      ],
+      "customs": [
+        "ACCC不合格品召回"
+      ]
+    }
+  },
+  "建材与房地产": {
+    "US": {
+      "cert": [
+        "CARB Phase II(木质板材)",
+        "ASTM材料标准",
+        "ICC建筑认证"
+      ],
+      "std": [
+        "ASTM C系列",
+        "ANSI A108(瓷砖)",
+        "CARB ATCM 93120"
+      ],
+      "banned": [
+        "石棉建材",
+        "甲醛超CARB限量",
+        "含铅涂料(1978年前建筑)"
+      ],
+      "label": [
+        "CARB合规声明",
+        "LEED环保(自愿)"
+      ],
+      "customs": [
+        "Section 301钢铁/铝关税",
+        "Section 232"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(建材法规CPR 305/2011)",
+        "DoP性能声明"
+      ],
+      "std": [
+        "EN 1992/1993/1995(混凝土/钢/木Eurocode)",
+        "EN 13501阻燃"
+      ],
+      "banned": [
+        "石棉",
+        "甲醛超E1",
+        "铅油漆"
+      ],
+      "label": [
+        "CE+DoP性能声明",
+        "CPR等级标识"
+      ],
+      "customs": [
+        "CPR必须，无CE则无法销售"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "JIS认证(部分强制)",
+        "建築基準法确认"
+      ],
+      "std": [
+        "JIS A系列建材",
+        "国土交通省认定"
+      ],
+      "banned": [
+        "石棉",
+        "特定有害建材"
+      ],
+      "label": [
+        "JIS标识",
+        "F等级(甲醛)"
+      ],
+      "customs": [
+        "建筑材料厚生检验"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "Codemark或StateAuth认证",
+        "CodeMark(自愿但推荐)"
+      ],
+      "std": [
+        "NCC国家建筑规范",
+        "AS 1170系列"
+      ],
+      "banned": [
+        "石棉",
+        "甲醛超E1"
+      ],
+      "label": [
+        "合规标识",
+        "原产地"
+      ],
+      "customs": [
+        "石棉绝对禁止进口"
+      ]
+    }
+  },
+  "农业": {
+    "US": {
+      "cert": [
+        "EPA FIFRA农药注册",
+        "USDA有机认证(可选)",
+        "FDA GAP备案"
+      ],
+      "std": [
+        "EPA 40 CFR Part 180农残限量",
+        "USDA有机法规"
+      ],
+      "banned": [
+        "未EPA批准农药",
+        "特定杀虫剂(滴滴涕)"
+      ],
+      "label": [
+        "EPA注册号",
+        "有机USDA标志",
+        "原产国"
+      ],
+      "customs": [
+        "FDA Prior Notice",
+        "USDA APHIS检疫证明"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "欧盟植物检疫证书",
+        "有机EU认证(834/2007)"
+      ],
+      "std": [
+        "EC 396/2005农残限量",
+        "EC 178/2002"
+      ],
+      "banned": [
+        "未批准农药活性成分",
+        "MRLs超限"
+      ],
+      "label": [
+        "植检证书",
+        "原产地",
+        "有机认证标志"
+      ],
+      "customs": [
+        "CHED-PP植物产品边检"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "植物防疫法检疫证书",
+        "有机JAS认证(可选)"
+      ],
+      "std": [
+        "肯定列表0.01ppm默认限量"
+      ],
+      "banned": [
+        "肯定列表未收录成分>0.01ppm"
+      ],
+      "label": [
+        "JAS有机标志",
+        "农残检测报告",
+        "原产地"
+      ],
+      "customs": [
+        "厚生劳动省食品检疫抽检"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "DAFF检疫进口许可",
+        "AQIS植检证书",
+        "有机ACO认证(可选)"
+      ],
+      "std": [
+        "MRL标准",
+        "Food Standards Code"
+      ],
+      "banned": [
+        "特定害虫病原体入境",
+        "未批准农药"
+      ],
+      "label": [
+        "有机认证标志",
+        "原产国"
+      ],
+      "customs": [
+        "生物安全DAFF严格检查"
+      ]
+    }
+  },
+  "仪器仪表": {
+    "US": {
+      "cert": [
+        "NIST溯源校准",
+        "FCC(含无线模块)",
+        "UL(用于危险场合)"
+      ],
+      "std": [
+        "ANSI/ISA-18.2(仪表)",
+        "IEEE 1588(时间同步)"
+      ],
+      "banned": [
+        "含汞仪表(替代趋势)",
+        "禁用中国军事关联企业产品"
+      ],
+      "label": [
+        "NIST溯源证书",
+        "UL标识"
+      ],
+      "customs": [
+        "EAR出口管制(部分精密仪器须许可证)",
+        "ECCN分类须查"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "CE(MID测量仪器指令2014/32/EU)",
+        "ATEX(防爆)"
+      ],
+      "std": [
+        "EN ISO 11064",
+        "OIML国际法制计量"
+      ],
+      "banned": [
+        "汞仪表(EU 2017逐步淘汰)"
+      ],
+      "label": [
+        "CE+M标识(法制计量)",
+        "DoC符合性声明"
+      ],
+      "customs": [
+        "MID认证必须(贸易结算计量器具)"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "计量法型式承认(法制计量器)",
+        "JIS工业仪表(自愿)"
+      ],
+      "std": [
+        "JIS Z 8000计量",
+        "JIS C 1系列电子仪器"
+      ],
+      "banned": [
+        "汞高压计量器"
+      ],
+      "label": [
+        "型式承认号",
+        "JCSS校准证书"
+      ],
+      "customs": [
+        "法制计量器须型式承认"
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "面料及纺织原材料--fur",
+  "name_cn": "毛皮",
+  "name_en": "Fur",
+  "parent_cn": "面料及纺织原材料",
+  "parent_en": "Fabrics & Textile Raw Materials",
+  "l1_slug": "面料及纺织原材料",
+  "hs_codes": [
+    "43xx"
+  ],
+  "keywords_en": [
+    "fur",
+    "china fur export",
+    "fur wholesale supplier",
+    "fur manufacturer",
+    "china fur trade"
+  ],
+  "keywords_cn": [
+    "毛皮",
+    "毛皮出口",
+    "毛皮批发",
+    "毛皮供应商",
+    "毛皮工厂"
+  ],
+  "export_data": null,
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "印度丝绸/棉花文化传统，高端面料出口历史悠久；日本匠人织造技艺（西阵织/阿波和三盆）带动高溢价面料贸易；中亚丝绸之路丝绸文化复兴",
+    "consumer": "功能性面料（防紫外线/抗菌/相变温控）年增20%；可持续面料（再生聚酯/有机棉/天丝Lyocell）需求驱动品牌绿色采购；无纺布医用及过滤市场疫情后维持高位",
+    "infra": "孟加拉国/越南纺织产能扩张，对中国纱线/面料进口持续旺盛；欧洲快时尚品牌在土耳其近岸采购比例上升；印度纺织园区建设加速本土面料供应",
+    "population": "全球服装产量持续增长支撑面料需求基本盘；穆斯林人口增长推动遮体面料；老龄化市场推动医用功能性面料（防压疮/温控）",
+    "social": "全球回收标准GRS认证成品牌采购门槛；ZDHC有害化学品零排放协议覆盖主要快时尚品牌供应链；美国Uyghur Forced Labor Prevention Act影响新疆棉采购",
+    "environment": "棉花种植高耗水（1件T恤耗水2700L），有机棉/再生棉溢价明显；欧盟微塑料法规限制合成纤维洗涤；气候变化推动抗病虫害棉花品种需求",
+    "opportunity": "越南/孟加拉国成衣厂配套面料本地化供应；中东清真酒店统一制服面料采购；欧洲可降解无纺布替代方案；功能性防护面料（消防/化工）；毛皮(Fur)细分领域机会值得关注"
+  },
+  "compliance_summary": "OEKO-TEX certification, REACH compliance, fiber content labeling, organic certification (GOTS), AZO dye restrictions, formaldehyde limits.",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "demand_scenarios": {
+    "scenes": [
+      {
+        "scene": "服装制造配套",
+        "crowd": "越南/孟加拉/印度成衣厂",
+        "reason": "成衣产能扩张带动面料本地供应需求，中国纱线/坯布主供"
+      },
+      {
+        "scene": "功能性面料采购",
+        "crowd": "运动/户外品牌采购商",
+        "reason": "速干/防紫外线/防水透湿功能面料品牌差异化采购"
+      },
+      {
+        "scene": "家用纺织品",
+        "crowd": "家纺制造商",
+        "reason": "床品/窗帘/地毯等家纺面料全球采购需求"
+      },
+      {
+        "scene": "工业防护面料",
+        "crowd": "安全用品制造商",
+        "reason": "消防/化工防护面料需求随安全法规升级"
+      }
+    ],
+    "products": {
+      "cert": [
+        "OEKO-TEX Standard 100",
+        "GOTS(有机纺织)",
+        "GRS(再生纤维)",
+        "Bluesign(清洁生产)",
+        "ZDHC化学品"
+      ],
+      "params": [
+        "纱支精度±3%",
+        "拉伸强度>150N",
+        "撕裂强度>80N",
+        "色牢度4-5级",
+        "透气率>3000g/m²/24h"
+      ],
+      "features": [
+        "抗菌防臭处理",
+        "防水DWR涂层",
+        "阻燃FR处理",
+        "弹力四面拉伸",
+        "可持续认证"
+      ],
+      "priceRange": {
+        "基础棉/涤纶坯布": "$1.5-$5/m",
+        "功能性面料": "$5-$20/m",
+        "高端技术面料": "$15-$80/m"
+      }
+    },
+    "exportTrend": {
+      "2020": {
+        "scale": 890,
+        "yoy": -5
+      },
+      "2021": {
+        "scale": 1080,
+        "yoy": 21
+      },
+      "2022": {
+        "scale": 1150,
+        "yoy": 6
+      },
+      "2023": {
+        "scale": 1050,
+        "yoy": -9
+      },
+      "2024": {
+        "scale": 1080,
+        "yoy": 3
+      },
+      "trends": [
+        "越南/孟加拉国成衣厂对中国面料依赖维持高位",
+        "有机棉/再生聚酯认证面料溢价明显",
+        "美国Uyghur法案影响新疆棉采购，印度棉崛起"
+      ],
+      "focus": [
+        "功能性面料差异化出口欧美品牌",
+        "越南成衣配套面料稳定供应",
+        "可持续认证面料溢价销售"
+      ]
+    }
+  }
+}

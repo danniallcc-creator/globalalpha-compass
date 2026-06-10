@@ -1,0 +1,219 @@
+{
+  "id": "汽车用品-电子及工具设备--fluid-chemicals",
+  "name_cn": "液体及化学品",
+  "name_en": "Fluid & Chemicals",
+  "parent_cn": "汽车用品、电子及工具设备",
+  "parent_en": "Auto Accessories, Electronics & Tools",
+  "l1_slug": "汽车用品-电子及工具设备",
+  "hs_codes": [
+    "87xx"
+  ],
+  "keywords_en": [
+    "fluid & chemicals",
+    "china fluid & chemicals export",
+    "fluid & chemicals wholesale supplier",
+    "fluid & chemicals industrial-grade",
+    "fluid & chemicals high-purity"
+  ],
+  "keywords_cn": [
+    "液体及化学品",
+    "液体及化学品出口",
+    "液体及化学品批发",
+    "液体及化学品供应商",
+    "液体及化学品工厂"
+  ],
+  "export_data": [
+    {
+      "hs_code": "870300",
+      "name": "汽车",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 1100,
+          "yoy": 12
+        },
+        {
+          "yr": "2024",
+          "amt": 980,
+          "yoy": 35
+        },
+        {
+          "yr": "2023",
+          "amt": 726,
+          "yoy": 62
+        }
+      ],
+      "top5": [
+        {
+          "c": "俄罗斯",
+          "amt": 240.77,
+          "yoy": 23
+        },
+        {
+          "c": "墨西哥",
+          "amt": 141.43,
+          "yoy": 18
+        },
+        {
+          "c": "比利时",
+          "amt": 112.2,
+          "yoy": 14
+        },
+        {
+          "c": "英国",
+          "amt": 92.55,
+          "yoy": 9
+        },
+        {
+          "c": "泰国",
+          "amt": 87.28,
+          "yoy": 21
+        }
+      ]
+    },
+    {
+      "hs_code": "870800",
+      "name": "汽车零配件",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 450,
+          "yoy": 7
+        },
+        {
+          "yr": "2024",
+          "amt": 420,
+          "yoy": 10
+        },
+        {
+          "yr": "2023",
+          "amt": 382,
+          "yoy": 12
+        }
+      ],
+      "top5": [
+        {
+          "c": "美国",
+          "amt": 91.61,
+          "yoy": -4
+        },
+        {
+          "c": "日本",
+          "amt": 55.71,
+          "yoy": 7
+        },
+        {
+          "c": "德国",
+          "amt": 49.37,
+          "yoy": 3
+        },
+        {
+          "c": "墨西哥",
+          "amt": 42.75,
+          "yoy": 13
+        },
+        {
+          "c": "韩国",
+          "amt": 34.97,
+          "yoy": 9
+        }
+      ]
+    }
+  ],
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
+  },
+  "compliance_summary": "ECE regulations, FCC/CE for automotive electronics, automotive EMC standards (CISPR 25), product safety testing, OEM approvals.",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "demand_scenarios": {
+    "scenes": [
+      {
+        "scene": "农业植保",
+        "crowd": "农资经销商/农业合作社",
+        "reason": "东南亚/非洲粮食需求增长推动农药/化肥采购"
+      },
+      {
+        "scene": "工业清洗/表面处理",
+        "crowd": "制造企业",
+        "reason": "金属/电子加工清洗剂，汽车涂装表面处理"
+      },
+      {
+        "scene": "精细化学品合成",
+        "crowd": "医药/日化企业",
+        "reason": "API医药中间体，日化功能成分，专用溶剂"
+      },
+      {
+        "scene": "建筑化学品",
+        "crowd": "建筑承包商",
+        "reason": "防水材料/密封胶/建筑涂料，随建设业兴旺"
+      }
+    ],
+    "products": {
+      "cert": [
+        "REACH注册(EU)",
+        "GHS全球化学品统一分类",
+        "EPA注册(农药/美国)",
+        "ISO 9001",
+        "危化品运输ADR/IMDG"
+      ],
+      "params": [
+        "纯度>99%(工业级)",
+        "含水量<0.1%",
+        "闪点符合安全标准",
+        "重金属符合REACH",
+        "pH稳定性"
+      ],
+      "features": [
+        "SDS(安全数据表)完整",
+        "危险品包装UN认证",
+        "定制配方服务",
+        "第三方SGS检测证书"
+      ],
+      "priceRange": {
+        "基础化工品": "$500-$2000/吨",
+        "精细化学品": "$5-$500/kg",
+        "高纯特种化学品": "$100-$5000/kg"
+      }
+    },
+    "exportTrend": {
+      "2020": {
+        "scale": 510,
+        "yoy": 3
+      },
+      "2021": {
+        "scale": 620,
+        "yoy": 22
+      },
+      "2022": {
+        "scale": 720,
+        "yoy": 16
+      },
+      "2023": {
+        "scale": 680,
+        "yoy": -6
+      },
+      "2024": {
+        "scale": 700,
+        "yoy": 3
+      },
+      "trends": [
+        "CBAM碳边境税2026年对基础化工品影响显现",
+        "印度仿制药爆发带动API医药中间体出口",
+        "农药中间体对东南亚/非洲农业市场出口稳健"
+      ],
+      "focus": [
+        "API医药中间体GMP合规出口",
+        "农药中间体非洲/东南亚市场",
+        "水性环保涂料原料欧洲出口"
+      ]
+    }
+  }
+}

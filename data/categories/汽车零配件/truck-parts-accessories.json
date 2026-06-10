@@ -1,0 +1,284 @@
+{
+  "id": "汽车零配件--truck-parts-accessories",
+  "name_cn": "卡车零部件",
+  "name_en": "Truck Parts & Accessories",
+  "parent_cn": "汽车零配件",
+  "parent_en": "Auto Parts & Accessories",
+  "l1_slug": "汽车零配件",
+  "hs_codes": [
+    "87xx"
+  ],
+  "keywords_en": [
+    "truck parts & accessories",
+    "china truck parts & accessories export",
+    "truck parts & accessories wholesale supplier",
+    "truck parts & accessories manufacturer",
+    "china truck parts & accessories trade"
+  ],
+  "keywords_cn": [
+    "卡车零部件",
+    "卡车零部件出口",
+    "卡车零部件批发",
+    "卡车零部件供应商",
+    "卡车零部件工厂"
+  ],
+  "export_data": [
+    {
+      "hs_code": "870300",
+      "name": "汽车",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 1100,
+          "yoy": 12
+        },
+        {
+          "yr": "2024",
+          "amt": 980,
+          "yoy": 35
+        },
+        {
+          "yr": "2023",
+          "amt": 726,
+          "yoy": 62
+        }
+      ],
+      "top5": [
+        {
+          "c": "俄罗斯",
+          "amt": 240.77,
+          "yoy": 23
+        },
+        {
+          "c": "墨西哥",
+          "amt": 141.43,
+          "yoy": 18
+        },
+        {
+          "c": "比利时",
+          "amt": 112.2,
+          "yoy": 14
+        },
+        {
+          "c": "英国",
+          "amt": 92.55,
+          "yoy": 9
+        },
+        {
+          "c": "泰国",
+          "amt": 87.28,
+          "yoy": 21
+        }
+      ]
+    },
+    {
+      "hs_code": "870800",
+      "name": "汽车零配件",
+      "data": [
+        {
+          "yr": "2025",
+          "amt": 450,
+          "yoy": 7
+        },
+        {
+          "yr": "2024",
+          "amt": 420,
+          "yoy": 10
+        },
+        {
+          "yr": "2023",
+          "amt": 382,
+          "yoy": 12
+        }
+      ],
+      "top5": [
+        {
+          "c": "美国",
+          "amt": 91.61,
+          "yoy": -4
+        },
+        {
+          "c": "日本",
+          "amt": 55.71,
+          "yoy": 7
+        },
+        {
+          "c": "德国",
+          "amt": 49.37,
+          "yoy": 3
+        },
+        {
+          "c": "墨西哥",
+          "amt": 42.75,
+          "yoy": 13
+        },
+        {
+          "c": "韩国",
+          "amt": 34.97,
+          "yoy": 9
+        }
+      ]
+    }
+  ],
+  "global_trends": null,
+  "industry_analysis": {
+    "culture": "德国汽车文化对零配件品质极致要求（OEM同等件）；中东改装文化（提升底盘/性能改装）带动高性能零配件；巴西汽车保有量高且车龄老，维修配件需求稳定",
+    "consumer": "新能源汽车电动底盘/热管理系统零配件年增80%+；独立售后市场（IAM）在新兴市场快速增长超过OEM渠道；汽车连网化带动OTA诊断设备/行车记录仪需求",
+    "infra": "东南亚汽车产业链本土化（泰国/印尼汽车生产）带动零配件本地供应需求；欧盟汽车维修权利法规保障独立维修店配件获取权；一带一路交通基础设施建设增加工程车辆配件需求",
+    "population": "全球汽车保有量超15亿辆，维修配件市场庞大且稳定；新兴市场中产购车推动汽车保有量快速增长（印度/东南亚）；老龄驾驶员推动辅助驾驶升级改装套件",
+    "social": "欧盟型式认证TS（WVTA）要求配件符合整车认证标准；部分国家强制车辆安全检测推动配件更换周期；假冒配件打击行动在东南亚/中东加强",
+    "environment": "欧盟2035年禁售燃油新车推动ICE配件需求转折；电动化推动刹车片/传动系统配件需求结构变化；汽车拆解/再制造配件在欧洲合规化（IMDS材料数据系统）",
+    "opportunity": "中东改装配件市场（轮毂/排气/悬挂）；印度摩托车配件大众化出口；非洲工程车辆/公交车维修配件；东南亚新能源汽车热管理系统零配件；卡车零部件(Truck Parts & Accessories)细分领域机会值得关注"
+  },
+  "compliance_summary": "US: FMVSS安全标准合规, EPA排放认证(含排气系统), DOT认证(轮胎/灯具) | EU: ECE/UNECE型式认证, e/E标志, RoHS(电子部件) | JP: JASO型式认证, PSE(电子配件) | AU: ADR澳大利亚设计规则, RCM(含电子) | IN: BIS认证(轮胎/安全玻璃等), AIS型式认证 | SA: SASO型式认证, SABER",
+  "last_updated": "2026-06-10",
+  "data_source": "merged_existing",
+  "compliance_detail": {
+    "US": {
+      "cert": [
+        "FMVSS安全标准合规",
+        "EPA排放认证(含排气系统)",
+        "DOT认证(轮胎/灯具)"
+      ],
+      "std": [
+        "FMVSS系列",
+        "SAE J标准",
+        "IIHS(自愿)"
+      ],
+      "banned": [
+        "含汞部件限制",
+        "特定制冷剂HFC-134a替代趋势"
+      ],
+      "label": [
+        "DOT编号(轮胎)",
+        "FMVSS合规声明",
+        "OEM/Aftermarket标识"
+      ],
+      "customs": [
+        "Section 232钢铁关税影响",
+        "HS 8708海关重点"
+      ]
+    },
+    "EU": {
+      "cert": [
+        "ECE/UNECE型式认证",
+        "e/E标志",
+        "RoHS(电子部件)"
+      ],
+      "std": [
+        "UN Regulation No.10(EMC)",
+        "ECE R37(灯泡)",
+        "REACH"
+      ],
+      "banned": [
+        "铅/汞/六价铬/镉(ELV指令)",
+        "石棉禁止"
+      ],
+      "label": [
+        "e标志+国家代码",
+        "ECE认证编号"
+      ],
+      "customs": [
+        "ELV指令4种重金属限制强制",
+        "REACH声明"
+      ]
+    },
+    "JP": {
+      "cert": [
+        "JASO型式认证",
+        "PSE(电子配件)"
+      ],
+      "std": [
+        "JIS D系列",
+        "JASIC标准"
+      ],
+      "banned": [
+        "石棉刹车片",
+        "特定重金属"
+      ],
+      "label": [
+        "JASO编号",
+        "日文警告"
+      ],
+      "customs": [
+        "港口海关抽查率较高"
+      ]
+    },
+    "AU": {
+      "cert": [
+        "ADR澳大利亚设计规则",
+        "RCM(含电子)"
+      ],
+      "std": [
+        "ADR系列规定"
+      ],
+      "banned": [
+        "石棉",
+        "特定制冷剂"
+      ],
+      "label": [
+        "ADR合规声明"
+      ],
+      "customs": [
+        "ROVER系统申报"
+      ]
+    },
+    "IN": {
+      "cert": [
+        "BIS认证(轮胎/安全玻璃等)",
+        "AIS型式认证"
+      ],
+      "std": [
+        "IS 15500系列"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "BIS注册号",
+        "AIS认证编号"
+      ],
+      "customs": [
+        "BIS须先行取得"
+      ]
+    },
+    "SA": {
+      "cert": [
+        "SASO型式认证",
+        "SABER"
+      ],
+      "std": [
+        "SASO ECE等效标准"
+      ],
+      "banned": [
+        "石棉",
+        "特定制冷剂"
+      ],
+      "label": [
+        "SASO认证号",
+        "阿文说明"
+      ],
+      "customs": [
+        "SABER预注册"
+      ]
+    },
+    "BR": {
+      "cert": [
+        "Denatran/Senatran型式认证",
+        "Inmetro(特定零件)"
+      ],
+      "std": [
+        "NBR系列"
+      ],
+      "banned": [
+        "石棉"
+      ],
+      "label": [
+        "Inmetro号码"
+      ],
+      "customs": [
+        "Siscomex申报+进口许可"
+      ]
+    }
+  }
+}
