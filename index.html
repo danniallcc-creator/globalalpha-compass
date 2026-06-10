@@ -2665,8 +2665,8 @@ function switchTab(id, btn) {
   if(id === 'tab-map' && !window._mapInited) { initMap(); window._mapInited=true; }
   if(id === 'tab-risk') { renderWarnings(); renderFxChart(); renderCommodityChart(); }
   if(id === 'tab-news') { renderNews('all'); }
-  if(id === 'tab-think') { renderThinkTab(); }
-  if(id === 'tab-tools') { renderToolsTab(); }
+  if(id === 'tab-think') { loadEnrichedData().then(function(){ renderThinkTab(); }); }
+  if(id === 'tab-tools') { loadEnrichedData().then(function(){ renderToolsTab(); }); }
   if(id === 'tab-categories') { initCategorySection(); }
 }
 
@@ -3884,6 +3884,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   initThinkCatSelect();
   initComplianceCatSelect();
+  loadEnrichedData();
 });
 </script>
 
@@ -8386,6 +8387,114 @@ function renderCategoryAdvice(catData) {
 function renderToolsTab() {
   if(!document.getElementById('compliance-result').innerHTML) {
     runCompliance();
+  }
+}
+
+// ============================================================
+// === \u6570\u636e\u5bcc\u5316\u5c42: \u4eceJSON\u52a0\u8f7d\u5168\u54c1\u7c7b\u6570\u636e\u5e76\u5408\u5e76\u5230\u786c\u7f01\u7801\u53d8\u91cf ===
+// ============================================================
+var _enrichedDataLoaded = false;
+
+async function loadEnrichedData() {
+  if (_enrichedDataLoaded) return;
+  var files = [
+    {url: 'data/industry_trends.json', target: 'INDUSTRY_TRENDS'},
+    {url: 'data/demand_matrix.json', target: 'DEMAND_MATRIX'},
+    {url: 'data/customs_export.json', target: 'CUSTOMS_EXPORT_DATA'},
+    {url: 'data/compliance_db.json', target: 'COMPLIANCE_DB'},
+    {url: 'data/tariff_db.json', target: 'TARIFF_DB'}
+  ];
+
+  var promises = files.map(function(f) {
+    return fetch(f.url)
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(data) {
+        if (!data) return;
+        if (f.target === 'INDUSTRY_TRENDS' && typeof INDUSTRY_TRENDS === 'object') {
+          Object.keys(data).forEach(function(k) {
+            if (!INDUSTRY_TRENDS[k]) INDUSTRY_TRENDS[k] = data[k];
+          });
+        } else if (f.target === 'DEMAND_MATRIX' && typeof DEMAND_MATRIX === 'object') {
+          Object.keys(data).forEach(function(k) {
+            if (!DEMAND_MATRIX[k]) DEMAND_MATRIX[k] = data[k];
+          });
+        } else if (f.target === 'CUSTOMS_EXPORT_DATA' && typeof CUSTOMS_EXPORT_DATA === 'object') {
+          Object.keys(data).forEach(function(k) {
+            if (!CUSTOMS_EXPORT_DATA[k]) CUSTOMS_EXPORT_DATA[k] = data[k];
+          });
+        } else if (f.target === 'COMPLIANCE_DB' && typeof COMPLIANCE_DB === 'object') {
+          Object.keys(data).forEach(function(k) {
+            if (!COMPLIANCE_DB[k]) COMPLIANCE_DB[k] = data[k];
+          });
+        } else if (f.target === 'TARIFF_DB' && typeof TARIFF_DB === 'object') {
+          Object.keys(data).forEach(function(k) {
+            if (!TARIFF_DB[k]) TARIFF_DB[k] = data[k];
+          });
+        }
+      })
+      .catch(function() {});
+  });
+
+  await Promise.all(promises);
+  _enrichedDataLoaded = true;
+
+  // \u5237\u65b0\u4e0b\u62c9\u9009\u62e9\u5668\uff08\u6dfb\u52a0\u65b0\u6570\u636e\u9879\uff09
+  refreshEnrichedDropdowns();
+}
+
+function refreshEnrichedDropdowns() {
+  // \u5237\u65b0\u56fd\u522b\u62a5\u544a\u54c1\u7c7b\u9009\u62e9
+  var thinkSel = document.getElementById('think-cat');
+  if (thinkSel) {
+    var existingValues = {};
+    for (var i = 0; i < thinkSel.options.length; i++) {
+      existingValues[thinkSel.options[i].value] = true;
+    }
+    Object.keys(DEMAND_MATRIX).forEach(function(k) {
+      if (!existingValues[k]) {
+        var opt = document.createElement('option');
+        opt.value = k; opt.textContent = k;
+        thinkSel.appendChild(opt);
+      }
+    });
+  }
+
+  // \u5237\u65b0\u9700\u6c42\u5206\u6790\u54c1\u7c7b\u9009\u62e9
+  var demandSel = document.getElementById('demand-cat');
+  if (demandSel) {
+    var existingDemand = {};
+    for (var i = 0; i < demandSel.options.length; i++) {
+      existingDemand[demandSel.options[i].value] = true;
+    }
+    Object.keys(DEMAND_MATRIX).forEach(function(k) {
+      if (!existingDemand[k]) {
+        var opt = document.createElement('option');
+        opt.value = k; opt.textContent = k;
+        demandSel.appendChild(opt);
+      }
+    });
+  }
+
+  // \u5237\u65b0\u5408\u89c4\u54c1\u7c7b\u9009\u62e9
+  var compSel = document.getElementById('comp-cat');
+  if (compSel) {
+    var existingComp = {};
+    for (var i = 0; i < compSel.options.length; i++) {
+      existingComp[compSel.options[i].value] = true;
+    }
+    Object.keys(COMPLIANCE_DB).forEach(function(k) {
+      if (!existingComp[k]) {
+        var opt = document.createElement('option');
+        opt.value = k; opt.textContent = k;
+        compSel.appendChild(opt);
+      }
+    });
+  }
+
+  // \u5982\u679c\u884c\u4e1a\u8d8b\u52bf\u6a21\u5757\u5f53\u524d\u53ef\u89c1\uff0c\u5237\u65b0\u5217\u8868
+  var industryList = document.getElementById('industry-list');
+  if (industryList && industryList.offsetParent !== null) {
+    filterIndustryList();
   }
 }
 
