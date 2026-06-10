@@ -2082,22 +2082,29 @@ function countryCard(c, cat) {
   for(var i=0;i<demandKeys.length;i++){
     if(demandKeys[i]!=='default' && cat.indexOf(demandKeys[i])!==-1){ coreDemand=demands[demandKeys[i]]; break; }
   }
-  if(!coreDemand) coreDemand = demands['default'] || '综合消费品';
+  if(!coreDemand) coreDemand = demands['default'] || '\u7efc\u5408\u6d88\u8d39\u54c1';
+  // B5: unique IDs for async social/policy tags
+  var safeId = (c.name || '').replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
   return '<div class="bg-white/5 p-4 rounded-xl border border-white/5 hover:border-blue-400/30 transition-all">' +
     '<div class="flex justify-between items-start">' +
       '<div><div class="font-bold">' + (c.flag||'') + ' ' + c.name + '</div>' +
            '<div class="text-xs text-gray-400 mt-1">' + c.region + '</div></div>' +
-      '<span class="text-xs px-2 py-1 rounded" style="background:' + riskColor + '22;color:' + riskColor + '">风险 ' + c.risk + '</span>' +
+      '<span class="text-xs px-2 py-1 rounded" style="background:' + riskColor + '22;color:' + riskColor + '">\u98ce\u9669 ' + c.risk + '</span>' +
     '</div>' +
     '<div class="text-xs text-gray-400 mt-2 flex gap-3">' +
       '<span>GDP $' + Math.round(c.gdp/1000) + 'k</span>' +
-      '<span>增速 ' + c.growth + '%</span>' +
-      '<span>人口 ' + (c.pop>=100?Math.round(c.pop/100)+'亿':c.pop+'M') + '</span>' +
+      '<span>\u589e\u901f ' + c.growth + '%</span>' +
+      '<span>\u4eba\u53e3 ' + (c.pop>=100?Math.round(c.pop/100)+'\u4ebf':c.pop+'M') + '</span>' +
     '</div>' +
     '<div class="mt-3 pt-3 border-t border-white/5">' +
-      '<div class="text-xs text-blue-400 font-semibold mb-1">&#127919; 核心需求品类</div>' +
+      '<div class="text-xs text-blue-400 font-semibold mb-1">&#127919; \u6838\u5fc3\u9700\u6c42\u54c1\u7c7b</div>' +
       '<div class="text-xs text-gray-300">' + coreDemand + '</div>' +
-    '</div></div>';
+    '</div>' +
+    '<div class="mt-2 pt-2 border-t border-white/5 flex gap-2 flex-wrap">' +
+      '<span id="cc-social-' + safeId + '" class="text-xs px-2 py-0.5 rounded bg-white/5 text-gray-600" style="display:none"></span>' +
+      '<span id="cc-policy-' + safeId + '" class="text-xs px-2 py-0.5 rounded bg-white/5 text-gray-600" style="display:none"></span>' +
+    '</div>' +
+  '</div>';
 }
 
 function runCompass() {
@@ -2118,6 +2125,74 @@ function renderCompass(cat) {
   $el('profit-list').innerHTML = compass.profit.map(function(c){return countryCard(c,cat);}).join('');
   $el('mass-list').innerHTML   = compass.mass.map(function(c){return countryCard(c,cat);}).join('');
   $el('blue-list').innerHTML   = compass.blue.map(function(c){return countryCard(c,cat);}).join('');
+
+  // B5: Async fill social trend & policy tags on country cards
+  (function(_cat, _allCountries) {
+    loadSocialTrends().then(function(st) {
+      if (!st) return;
+      for (var i = 0; i < _allCountries.length; i++) {
+        var cName = _allCountries[i];
+        var safeId = cName.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
+        var el = document.getElementById('cc-social-' + safeId);
+        if (!el) continue;
+        // Find matching social data
+        var catData = st[_cat] || null;
+        if (!catData) {
+          var stKeys = Object.keys(st);
+          for (var si = 0; si < stKeys.length; si++) {
+            if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
+          }
+        }
+        if (!catData) continue;
+        // Find top keyword for this country (use google platform as default)
+        var topKw = null;
+        var platforms = ['google','youtube','tiktok','instagram','x'];
+        for (var pi = 0; pi < platforms.length; pi++) {
+          var pkws = catData[platforms[pi]] || [];
+          if (pkws.length && (!topKw || (pkws[0].growth||0) > (topKw.growth||0))) {
+            topKw = pkws[0];
+          }
+        }
+        if (topKw) {
+          var gColor = (topKw.growth||0) > 0 ? '#00ff88' : '#ff4444';
+          el.style.display = '';
+          el.style.background = gColor + '22';
+          el.style.color = gColor;
+          el.innerHTML = '\ud83d\udcf1 ' + topKw.keyword + ' ' + ((topKw.growth||0) > 0 ? '+' : '') + (topKw.growth||0).toFixed(0) + '%';
+        }
+      }
+    });
+    loadPolicyUpdates().then(function(pu) {
+      if (!pu || !pu.country_summary) return;
+      var isoMap = {};
+      for (var j = 0; j < _allCountries.length; j++) {
+        // Try common ISO codes
+        var nameMap = {'\u7f8e\u56fd':'US','\u65e5\u672c':'JP','\u97e9\u56fd':'KR','\u82f1\u56fd':'GB','\u5fb7\u56fd':'DE','\u6cd5\u56fd':'FR','\u5370\u5ea6':'IN','\u6fb3\u5927\u5229\u4e9a':'AU','\u5df4\u897f':'BR','\u6c99\u7279':'SA','\u52a0\u62ff\u5927':'CA','\u58a8\u897f\u54e5':'MX','\u5370\u5c3c':'ID','\u6cf0\u56fd':'TH','\u8d8a\u5357':'VN','\u9a6c\u6765\u897f\u4e9a':'MY','\u83f2\u5f8b\u5bbe':'PH','\u4fc4\u7f57\u65af':'RU','\u571f\u8033\u5176':'TR','\u5357\u975e':'ZA','\u963f\u8054\u914b':'AE','\u65b0\u52a0\u5761':'SG','\u4ee5\u8272\u5217':'IL','\u610f\u5927\u5229':'IT','\u897f\u73ed\u7259':'ES','\u8377\u5170':'NL'};
+        var iso = nameMap[_allCountries[j]] || _allCountries[j];
+        isoMap[iso] = _allCountries[j];
+      }
+      var codes = Object.keys(pu.country_summary);
+      for (var ci = 0; ci < codes.length; ci++) {
+        var code = codes[ci];
+        var cName = isoMap[code];
+        if (!cName) continue;
+        var safeId = cName.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
+        var el = document.getElementById('cc-policy-' + safeId);
+        if (!el) continue;
+        var info = pu.country_summary[code];
+        var trendIcon = info.trend === 'tightening' ? '\u2191\u6536\u7d27' : info.trend === 'opening' ? '\u2193\u5f00\u653e' : '\u2192\u7a33\u5b9a';
+        var trendColor = info.trend === 'tightening' ? '#ff4444' : info.trend === 'opening' ? '#00ff88' : '#ffa500';
+        el.style.display = '';
+        el.style.background = trendColor + '22';
+        el.style.color = trendColor;
+        el.innerHTML = '\ud83c\udfdb\ufe0f ' + trendIcon;
+      }
+    });
+  })(cat, [].concat(
+    compass.profit.map(function(c){return c.name;}),
+    compass.mass.map(function(c){return c.name;}),
+    compass.blue.map(function(c){return c.name;})
+  ));
 
   // ===== 行业合规建议（融合工具箱合规+AI建议） =====
   var compDbCat = getComplianceDBCategory(cat);
@@ -2170,7 +2245,58 @@ function renderCompass(cat) {
         (usComp.customs ? '<div class="text-xs text-gray-300 mb-1">' + usComp.customs.join('; ') + '</div>' : '') +
         (euComp.customs ? '<div class="text-xs text-gray-300">' + euComp.customs.join('; ') + '</div>' : '<div class="text-xs text-gray-500">暂无稽查数据</div>') +
       '</div>' +
+    '</div>' +
+    // B6: Policy updates placeholder
+    '<div class="mt-4 bg-white/5 rounded-xl p-5 border border-white/5">' +
+      '<h4 class="text-xs font-bold text-orange-300 mb-3">&#127963;\ufe0f \u6700\u65b0\u52a8\u6001 \u00b7 \u5408\u89c4\u65b0\u95fb</h4>' +
+      '<div id="compliance-policy-updates" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
     '</div>';
+
+  // B6: Async load policy updates for compliance section
+  (function(_cat) {
+    loadPolicyUpdates().then(function(pu) {
+      var el = document.getElementById('compliance-policy-updates');
+      if (!el) return;
+      if (!pu) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
+      var ph = '';
+      // Show articles related to compliance
+      if (pu.articles && pu.articles.length) {
+        var articles = pu.articles.slice(0, 6);
+        ph += '<div class="space-y-2">';
+        for (var ai = 0; ai < articles.length; ai++) {
+          var a = articles[ai];
+          var impactIcon = a.impact === 'positive' ? '\ud83d\udfe2' : a.impact === 'negative' ? '\ud83d\udd34' : '\ud83d\udfe1';
+          ph += '<div class="flex items-start gap-2 py-1 border-b border-white/5">' +
+            '<span class="flex-shrink-0">' + impactIcon + '</span>' +
+            '<div>' +
+              '<a href="' + (a.url||'#') + '" target="_blank" class="text-blue-400 hover:text-blue-300 text-xs" style="text-decoration:none">' + (a.title||'') + '</a>' +
+              '<div class="text-gray-600 text-xs mt-0.5">' + (a.source||'') + ' \u00b7 ' + (a.published||'') + '</div>' +
+            '</div>' +
+          '</div>';
+        }
+        ph += '</div>';
+      }
+      // Show country compliance trend summary
+      if (pu.country_summary) {
+        ph += '<div class="mt-3 pt-3 border-t border-white/5">';
+        ph += '<div class="text-xs text-gray-400 mb-2">\u5404\u5e02\u573a\u5408\u89c4\u8d8b\u52bf</div>';
+        ph += '<div class="flex flex-wrap gap-2">';
+        var flags = {US:'\ud83c\uddfa\ud83c\uddf8',EU:'\ud83c\uddea\ud83c\uddfa',JP:'\ud83c\uddef\ud83c\uddf5',GB:'\ud83c\uddec\ud83c\udde7',IN:'\ud83c\uddee\ud83c\uddf3',KR:'\ud83c\uddf0\ud83c\uddf7',DE:'\ud83c\udde9\ud83c\uddea',FR:'\ud83c\uddeb\ud83c\uddf7'};
+        var codes = Object.keys(pu.country_summary);
+        for (var ci = 0; ci < Math.min(codes.length, 8); ci++) {
+          var code = codes[ci];
+          var info = pu.country_summary[code];
+          var trendColor = info.trend === 'tightening' ? '#ff4444' : info.trend === 'opening' ? '#00ff88' : '#ffa500';
+          var trendLabel = info.trend === 'tightening' ? '\u6536\u7d27' : info.trend === 'opening' ? '\u5f00\u653e' : '\u7a33\u5b9a';
+          ph += '<span class="px-2 py-0.5 rounded text-xs" style="background:' + trendColor + '22;color:' + trendColor + '">' +
+            (flags[code]||'') + ' ' + code + ' ' + trendLabel + '</span>';
+        }
+        ph += '</div></div>';
+      }
+      if (!ph) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u5408\u89c4\u65b0\u95fb\u52a8\u6001</span>'; return; }
+      el.innerHTML = ph;
+    });
+  })(cat);
 
   // ===== 全球竞品价格监测（含可点击链接） =====
   var ph = '';
@@ -6028,6 +6154,17 @@ function showCountryDetail(iso) {
       '</div>';
   }
 
+  // ===== B1: Country Social Trends & Policy placeholder =====
+  var countrySocialPlaceholder =
+    '<div class="border-t border-white/5 pt-6 mt-6">' +
+      '<h3 class="font-semibold text-sm mb-4 text-cyan-300">&#128202; \u54c1\u7c7b\u793e\u5a92\u70ed\u5ea6 (' + c.name + ')</h3>' +
+      '<div id="country-social-trends" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
+    '</div>' +
+    '<div class="border-t border-white/5 pt-6 mt-6">' +
+      '<h3 class="font-semibold text-sm mb-4 text-orange-300">&#127963;\ufe0f \u8be5\u56fd\u653f\u7b56\u52a8\u6001</h3>' +
+      '<div id="country-policy-trends" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
+    '</div>';
+
   var html = '<div class="flex items-center gap-3 mb-6">' +
     '<span class="text-4xl">'+c.flag+'</span>' +
     '<div><h2 class="text-2xl font-bold">'+c.name+'</h2><p class="text-gray-400 text-sm">'+c.region+' · ISO '+c.iso+' · 当前品类: <span class="text-green-400">'+cat+'</span></p></div>' +
@@ -6037,6 +6174,7 @@ function showCountryDetail(iso) {
   compHtml +
   logHtml +
   barrierHtml +
+  countrySocialPlaceholder +
   '<div class="border-t border-white/5 pt-6 mt-6">' +
     '<h3 class="font-semibold text-sm mb-4 text-gray-300">国家概况</h3>' +
     '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">' +
@@ -6057,6 +6195,69 @@ function showCountryDetail(iso) {
   document.getElementById('country-detail-content').innerHTML = html;
   det.classList.remove('hidden');
   det.scrollIntoView({behavior:'smooth'});
+
+  // ===== B1: Async load country social trends & policy =====
+  (function(_iso, _cat, _countryName) {
+    loadSocialTrends().then(function(st) {
+      var el = document.getElementById('country-social-trends');
+      if (!el) return;
+      if (!st) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
+      // Find matching category data
+      var catData = st[_cat] || null;
+      if (!catData) {
+        var stKeys = Object.keys(st);
+        for (var si = 0; si < stKeys.length; si++) {
+          if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
+        }
+      }
+      if (!catData) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8be5\u54c1\u7c7b\u793e\u5a92\u8d8b\u52bf\u6570\u636e</span>'; return; }
+      // Show top trending keywords across platforms
+      var allKws = [];
+      var platforms = ['google','youtube','x','instagram','tiktok'];
+      for (var pi = 0; pi < platforms.length; pi++) {
+        var pkws = catData[platforms[pi]] || [];
+        for (var ki = 0; ki < Math.min(pkws.length, 3); ki++) {
+          allKws.push({keyword: pkws[ki].keyword, growth: pkws[ki].growth || 0, platform: platforms[pi]});
+        }
+      }
+      allKws.sort(function(a, b) { return (b.growth || 0) - (a.growth || 0); });
+      var topKws = allKws.slice(0, 8);
+      if (!topKws.length) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8d8b\u52bf\u6570\u636e</span>'; return; }
+      var kh = '<div class="flex flex-wrap gap-2">';
+      for (var ti = 0; ti < topKws.length; ti++) {
+        var gColor = topKws[ti].growth > 0 ? 'text-green-400' : 'text-red-400';
+        var gSign = topKws[ti].growth > 0 ? '+' : '';
+        kh += '<span class="bg-white/5 rounded-lg px-2 py-1 text-xs">' +
+          '<span class="text-gray-300">' + topKws[ti].keyword + '</span> ' +
+          '<span class="text-gray-500">(' + topKws[ti].platform + ')</span> ' +
+          '<span class="' + gColor + ' font-semibold">' + gSign + topKws[ti].growth.toFixed(0) + '%</span>' +
+        '</span>';
+      }
+      kh += '</div>';
+      el.innerHTML = kh;
+    });
+    loadPolicyUpdates().then(function(pu) {
+      var el = document.getElementById('country-policy-trends');
+      if (!el) return;
+      if (!pu || !pu.country_summary) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u653f\u7b56\u52a8\u6001\u6570\u636e</span>'; return; }
+      var countryInfo = pu.country_summary[_iso] || null;
+      if (!countryInfo) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0' + _countryName + '\u7684\u653f\u7b56\u52a8\u6001</span>'; return; }
+      var trendIcon = countryInfo.trend === 'tightening' ? '\ud83d\udd34\u2191 \u6536\u7d27' : countryInfo.trend === 'opening' ? '\ud83d\udfe2\u2193 \u5f00\u653e' : '\ud83d\udfe1\u2192 \u7a33\u5b9a';
+      var ph = '<div class="bg-slate-800/50 rounded-lg p-3">' +
+        '<div class="flex justify-between items-center mb-2">' +
+          '<span class="text-gray-300 font-medium">' + _countryName + ' (' + _iso + ')</span>' +
+          '<span class="text-xs">' + trendIcon + '</span>' +
+        '</div>';
+      var pols = countryInfo.key_policies || [];
+      for (var pi = 0; pi < Math.min(pols.length, 3); pi++) {
+        ph += '<div class="text-xs text-gray-400 mb-1">\u2022 ' + pols[pi] + '</div>';
+      }
+      var impactColor = countryInfo.impact === 'positive' ? 'text-green-400' : countryInfo.impact === 'negative' ? 'text-red-400' : 'text-yellow-400';
+      ph += '<div class="mt-2 text-xs ' + impactColor + ' font-semibold">\u5f71\u54cd: ' + (countryInfo.impact || '\u5f85\u8bc4\u4f30') + '</div>';
+      ph += '</div>';
+      el.innerHTML = ph;
+    });
+  })(iso, cat, c.name);
 }
 
 // 品类分组映射
@@ -6089,24 +6290,68 @@ function filterIndustryList() {
     });
   }
   var cntEl = document.getElementById('industry-count');
-  if(cntEl) cntEl.innerHTML = '共 <b class="text-blue-300 mx-1">' + keys.length + '</b> 个品类';
+  if(cntEl) cntEl.innerHTML = '\u5171 <b class="text-blue-300 mx-1">' + keys.length + '</b> \u4e2a\u54c1\u7c7b';
   var html = keys.map(function(ind) {
     var d = INDUSTRY_TRENDS[ind];
+    // B3: social heat placeholder
+    var heatId = 'ind-heat-' + ind.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
     return '<div class="card p-5">' +
-      '<h3 class="font-semibold text-base mb-4 text-blue-300">&#128200; ' + ind + '</h3>' +
+      '<div class="flex justify-between items-start mb-4">' +
+        '<h3 class="font-semibold text-base text-blue-300">&#128200; ' + ind + '</h3>' +
+        '<span id="' + heatId + '" class="text-xs px-2 py-0.5 rounded bg-white/5 text-gray-500" title="\u793e\u5a92\u70ed\u5ea6">&#128293; --</span>' +
+      '</div>' +
       '<div class="space-y-3 text-xs">' +
-        '<div><span class="text-purple-400 font-medium">文化习惯：</span><span class="text-gray-300">'+d.culture+'</span></div>' +
-        '<div><span class="text-green-400 font-medium">消费趋势：</span><span class="text-gray-300">'+d.consumer+'</span></div>' +
-        '<div><span class="text-yellow-400 font-medium">基建趋势：</span><span class="text-gray-300">'+d.infra+'</span></div>' +
-        '<div><span class="text-blue-400 font-medium">人口趋势：</span><span class="text-gray-300">'+d.population+'</span></div>' +
-        '<div><span class="text-orange-400 font-medium">社会环境：</span><span class="text-gray-300">'+d.social+'</span></div>' +
-        '<div><span class="text-teal-400 font-medium">自然环境：</span><span class="text-gray-300">'+d.environment+'</span></div>' +
-        '<div class="bg-green-400/5 border border-green-400/20 rounded-lg p-3 mt-2"><span class="text-green-300 font-medium">&#127919; 机会点：</span><span class="text-gray-300">'+d.opportunity+'</span></div>' +
+        '<div><span class="text-purple-400 font-medium">\u6587\u5316\u4e60\u60ef\uff1a</span><span class="text-gray-300">'+d.culture+'</span></div>' +
+        '<div><span class="text-green-400 font-medium">\u6d88\u8d39\u8d8b\u52bf\uff1a</span><span class="text-gray-300">'+d.consumer+'</span></div>' +
+        '<div><span class="text-yellow-400 font-medium">\u57fa\u5efa\u8d8b\u52bf\uff1a</span><span class="text-gray-300">'+d.infra+'</span></div>' +
+        '<div><span class="text-blue-400 font-medium">\u4eba\u53e3\u8d8b\u52bf\uff1a</span><span class="text-gray-300">'+d.population+'</span></div>' +
+        '<div><span class="text-orange-400 font-medium">\u793e\u4f1a\u73af\u5883\uff1a</span><span class="text-gray-300">'+d.social+'</span></div>' +
+        '<div><span class="text-teal-400 font-medium">\u81ea\u7136\u73af\u5883\uff1a</span><span class="text-gray-300">'+d.environment+'</span></div>' +
+        '<div class="bg-green-400/5 border border-green-400/20 rounded-lg p-3 mt-2"><span class="text-green-300 font-medium">&#127919; \u673a\u4f1a\u70b9\uff1a</span><span class="text-gray-300">'+d.opportunity+'</span></div>' +
       '</div>' +
     '</div>';
   }).join('');
-  if(!html) html = '<div class="col-span-2 text-center py-12 text-gray-500">未找到匹配品类，请尝试其他关键词</div>';
+  if(!html) html = '<div class="col-span-2 text-center py-12 text-gray-500">\u672a\u627e\u5230\u5339\u914d\u54c1\u7c7b\uff0c\u8bf7\u5c1d\u8bd5\u5176\u4ed6\u5173\u952e\u8bcd</div>';
   document.getElementById('industry-list').innerHTML = html;
+
+  // B3: Async load social trends and fill heat scores
+  (function(_keys) {
+    loadSocialTrends().then(function(st) {
+      if (!st) return;
+      for (var i = 0; i < _keys.length; i++) {
+        var ind = _keys[i];
+        var heatId = 'ind-heat-' + ind.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
+        var el = document.getElementById(heatId);
+        if (!el) continue;
+        var catData = st[ind] || null;
+        if (!catData) {
+          var stKeys = Object.keys(st);
+          for (var si = 0; si < stKeys.length; si++) {
+            if (ind.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(ind) !== -1) { catData = st[stKeys[si]]; break; }
+          }
+        }
+        if (!catData) continue;
+        var totalGrowth = 0;
+        var kwCount = 0;
+        var platforms = ['google','youtube','x','instagram','tiktok'];
+        for (var pi = 0; pi < platforms.length; pi++) {
+          var pkws = catData[platforms[pi]] || [];
+          for (var ki = 0; ki < pkws.length; ki++) {
+            totalGrowth += (pkws[ki].growth || 0);
+            kwCount++;
+          }
+        }
+        if (kwCount > 0) {
+          var avgGrowth = totalGrowth / kwCount;
+          var heatColor = avgGrowth > 10 ? '#00ff88' : avgGrowth > 0 ? '#ffa500' : '#ff4444';
+          var heatLabel = avgGrowth > 10 ? '\u70ed' : avgGrowth > 0 ? '\u6e29' : '\u51b7';
+          el.style.background = heatColor + '22';
+          el.style.color = heatColor;
+          el.innerHTML = '&#128293; ' + heatLabel + ' ' + avgGrowth.toFixed(0) + '%';
+        }
+      }
+    });
+  })(keys);
 }
 
 function initDemandSelect() {
@@ -6282,7 +6527,50 @@ function runDemandAnalysis() {
         '</div>' +
       '</div>' +
     '</div>' +
-    countryDemandsHtml;
+    countryDemandsHtml +
+    // B2: Social trends cross-platform keywords placeholder
+    '<div class="card p-5 mt-6">' +
+      '<h3 class="font-semibold text-sm mb-4 text-pink-300">&#128241; \u8de8\u5e73\u53f0\u793e\u5a92\u70ed\u8bcd (' + cat + ')</h3>' +
+      '<div id="demand-social-trends" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
+    '</div>';
+  // B2: Async load social trends for demand analysis
+  (function(_cat) {
+    loadSocialTrends().then(function(st) {
+      var el = document.getElementById('demand-social-trends');
+      if (!el) return;
+      if (!st) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
+      var catData = st[_cat] || null;
+      if (!catData) {
+        var stKeys = Object.keys(st);
+        for (var si = 0; si < stKeys.length; si++) {
+          if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
+        }
+      }
+      if (!catData) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8be5\u54c1\u7c7b\u793e\u5a92\u8d8b\u52bf\u6570\u636e</span>'; return; }
+      var platforms = ['google','youtube','x','instagram','tiktok'];
+      var platformLabels = {google:'Google',youtube:'YouTube',x:'\ud835\udd4f',instagram:'Instagram',tiktok:'TikTok'};
+      var sh = '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">';
+      for (var pi = 0; pi < platforms.length; pi++) {
+        var pkws = catData[platforms[pi]] || [];
+        if (!pkws.length) continue;
+        sh += '<div class="bg-slate-800/50 rounded-lg p-3">';
+        sh += '<div class="text-xs font-medium text-blue-300 mb-2">' + platformLabels[platforms[pi]] + '</div>';
+        var slice = pkws.slice(0, 5);
+        for (var ki = 0; ki < slice.length; ki++) {
+          var kw = slice[ki];
+          var gColor = (kw.growth||0) > 0 ? 'text-green-400' : 'text-red-400';
+          var gSign = (kw.growth||0) > 0 ? '+' : '';
+          sh += '<div class="flex justify-between items-center py-0.5">' +
+            '<span class="text-gray-300">' + (kw.keyword||'') + '</span>' +
+            '<span class="' + gColor + ' font-semibold">' + gSign + (kw.growth||0).toFixed(0) + '%</span>' +
+          '</div>';
+        }
+        sh += '</div>';
+      }
+      sh += '</div>';
+      el.innerHTML = sh;
+    });
+  })(cat);
 }
 
 function renderThinkTab() {
@@ -6673,6 +6961,63 @@ function renderTrendRecommend() {
     }).join('');
     el.innerHTML = '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">'+html+'</div>';
   }
+
+  // B4: Async load social trends for cross-platform signals
+  loadSocialTrends().then(function(st) {
+    if (!st) return;
+    var signalHtml = '<div class="mt-6 card p-5">' +
+      '<h3 class="font-semibold text-sm mb-4 text-pink-300">&#128241; \u793e\u5a92\u8de8\u5e73\u53f0\u4fe1\u53f7\u786e\u8ba4</h3>' +
+      '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">';
+    var catKeys = Object.keys(st);
+    var hasAny = false;
+    for (var ci = 0; ci < catKeys.length; ci++) {
+      var catName = catKeys[ci];
+      var catData = st[catName];
+      if (!catData || typeof catData !== 'object') continue;
+      var platforms = ['google','youtube','x','instagram','tiktok'];
+      var multiPlatformKws = [];
+      for (var pi = 0; pi < platforms.length; pi++) {
+        var pkws = catData[platforms[pi]] || [];
+        for (var ki = 0; ki < Math.min(pkws.length, 3); ki++) {
+          var kw = pkws[ki].keyword || '';
+          if (!kw) continue;
+          var existing = null;
+          for (var ei = 0; ei < multiPlatformKws.length; ei++) {
+            if (multiPlatformKws[ei].keyword === kw) { existing = multiPlatformKws[ei]; break; }
+          }
+          if (existing) {
+            existing.platforms.push(platforms[pi]);
+            existing.totalGrowth += (pkws[ki].growth || 0);
+          } else {
+            multiPlatformKws.push({keyword: kw, platforms: [platforms[pi]], totalGrowth: (pkws[ki].growth || 0)});
+          }
+        }
+      }
+      // Only show keywords confirmed on 2+ platforms
+      var confirmed = [];
+      for (var fi = 0; fi < multiPlatformKws.length; fi++) {
+        if (multiPlatformKws[fi].platforms.length >= 2) confirmed.push(multiPlatformKws[fi]);
+      }
+      if (confirmed.length > 0) {
+        hasAny = true;
+        signalHtml += '<div class="bg-slate-800/50 rounded-lg p-3">';
+        signalHtml += '<div class="text-xs font-medium text-cyan-300 mb-2">' + catName + '</div>';
+        for (var ci2 = 0; ci2 < Math.min(confirmed.length, 3); ci2++) {
+          var ck = confirmed[ci2];
+          var platLabels = ck.platforms.map(function(p) { return p.charAt(0).toUpperCase() + p.slice(1); }).join('+');
+          signalHtml += '<div class="flex justify-between items-center py-0.5 text-xs">' +
+            '<span class="text-gray-300">' + ck.keyword + '</span>' +
+            '<span class="text-gray-500">' + platLabels + '</span>' +
+          '</div>';
+        }
+        signalHtml += '</div>';
+      }
+    }
+    signalHtml += '</div></div>';
+    if (hasAny && el) {
+      el.innerHTML += signalHtml;
+    }
+  });
 }
 
 // 前端JS实时交叉分析（fallback: 当JSON无推荐数据时使用）
@@ -6757,6 +7102,232 @@ function _clientSideCrossAnalysis() {
       products: []
     };
   });
+}
+
+// ====== Lazy-loaded Data Modules (Social Trends / Policy / Customs 2025) ======
+var _socialTrendsLoaded = false;
+var _socialTrends = null;
+var _policyUpdatesLoaded = false;
+var _policyUpdates = null;
+var _customs2025Loaded = false;
+var _customs2025 = null;
+
+async function loadSocialTrends() {
+  if (_socialTrendsLoaded) return _socialTrends;
+  try {
+    var r = await fetch('data/social_trends.json?t=' + Date.now());
+    if (!r.ok) return null;
+    _socialTrends = await r.json();
+    _socialTrendsLoaded = true;
+    return _socialTrends;
+  } catch(e) { return null; }
+}
+
+async function loadPolicyUpdates() {
+  if (_policyUpdatesLoaded) return _policyUpdates;
+  try {
+    var r = await fetch('data/policy_updates.json?t=' + Date.now());
+    if (!r.ok) return null;
+    _policyUpdates = await r.json();
+    _policyUpdatesLoaded = true;
+    return _policyUpdates;
+  } catch(e) { return null; }
+}
+
+async function loadCustoms2025() {
+  if (_customs2025Loaded) return _customs2025;
+  try {
+    var r = await fetch('data/customs_2025_l1.json?t=' + Date.now());
+    if (!r.ok) return null;
+    _customs2025 = await r.json();
+    _customs2025Loaded = true;
+    return _customs2025;
+  } catch(e) { return null; }
+}
+
+// Social media platform switcher
+var _currentSocialPlatform = 'google';
+var _currentCatSocialData = null;
+
+function switchSocialPlatform(platform, btn) {
+  _currentSocialPlatform = platform;
+  var tabs = document.querySelectorAll('.social-tab');
+  for (var i = 0; i < tabs.length; i++) { tabs[i].classList.remove('active'); }
+  if (btn) btn.classList.add('active');
+  renderSocialPlatformContent();
+}
+
+function renderSocialPlatformContent() {
+  if (!_currentCatSocialData) return;
+  var data = _currentCatSocialData[_currentSocialPlatform] || [];
+  var el = document.getElementById('cat-social-content');
+  if (!el) return;
+  if (!data.length) { el.innerHTML = '<p style="color:#888">\u6682\u65e0\u8be5\u5e73\u53f0\u8d8b\u52bf\u6570\u636e</p>'; return; }
+  var h = '';
+  var slice = data.slice(0, 5);
+  for (var i = 0; i < slice.length; i++) {
+    var kw = slice[i];
+    var growth = kw.growth || 0;
+    var growthColor = growth > 0 ? '#00ff88' : '#ff4444';
+    var growthSign = growth > 0 ? '+' : '';
+    var barW = Math.min(Math.abs(growth), 100);
+    h += '<div style="display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid #333">';
+    h += '<span style="flex:1;color:#e0e0e0;font-weight:500">' + (kw.keyword||'') + '</span>';
+    h += '<span style="color:#888;font-size:12px">' + (kw.volume||'') + '</span>';
+    h += '<div style="width:120px;height:8px;background:#333;border-radius:4px;overflow:hidden">';
+    h += '<div style="width:' + barW + '%;height:100%;background:' + growthColor + ';border-radius:4px"></div>';
+    h += '</div>';
+    h += '<span style="color:' + growthColor + ';font-weight:600;min-width:50px;text-align:right">' + growthSign + growth.toFixed(1) + '%</span>';
+    h += '</div>';
+  }
+  // Business opportunity text
+  var opps = [];
+  for (var j = 0; j < data.length; j++) {
+    if (data[j].business_opportunity || data[j].opportunity) opps.push(data[j]);
+  }
+  if (opps.length) {
+    h += '<div style="margin-top:12px;padding:12px;background:#0d1b2a;border-radius:8px">';
+    h += '<div style="color:#00d4ff;font-size:12px;margin-bottom:8px">&#128270; \u5546\u673a\u6d1e\u5bdf</div>';
+    for (var k = 0; k < opps.length; k++) {
+      h += '<div style="color:#ccc;font-size:13px;margin-bottom:4px">\u2022 ' + (opps[k].business_opportunity || opps[k].opportunity || '') + '</div>';
+    }
+    h += '</div>';
+  }
+  el.innerHTML = h;
+}
+
+function renderPolicyUpdates(policyData) {
+  var el = document.getElementById('cat-policy-content');
+  if (!el) return;
+  if (!policyData || !policyData.country_summary) {
+    el.innerHTML = '<p style="color:#888">\u6682\u65e0\u653f\u7b56\u52a8\u6001\u6570\u636e</p>'; return;
+  }
+  var countries = policyData.country_summary;
+  var flags = {US:'\ud83c\uddfa\ud83c\uddf8',EU:'\ud83c\uddea\ud83c\uddfa',DE:'\ud83c\udde9\ud83c\uddea',JP:'\ud83c\uddef\ud83c\uddf5',GB:'\ud83c\uddec\ud83c\udde7',IN:'\ud83c\uddee\ud83c\uddf3',KR:'\ud83c\uddf0\ud83c\uddf7',AU:'\ud83c\udde6\ud83c\uddfa',BR:'\ud83c\udde7\ud83c\uddf7',SA:'\ud83c\uddf8\ud83c\udde6',FR:'\ud83c\uddeb\ud83c\uddf7'};
+  var h = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px">';
+  var codes = Object.keys(countries);
+  for (var ci = 0; ci < codes.length; ci++) {
+    var code = codes[ci];
+    var info = countries[code];
+    var trendIcon = info.trend === 'tightening' ? '\ud83d\udd34\u2191' : info.trend === 'opening' ? '\ud83d\udfe2\u2193' : '\ud83d\udfe1\u2192';
+    var impactColor = info.impact === 'positive' ? '#00ff88' : info.impact === 'negative' ? '#ff4444' : '#ffa500';
+    var policies = info.key_policies || [];
+    var polItems = '';
+    for (var pi = 0; pi < Math.min(policies.length, 3); pi++) {
+      polItems += '<div style="color:#ccc;font-size:12px;margin-bottom:4px">\u2022 ' + policies[pi] + '</div>';
+    }
+    h += '<div style="background:#0d1b2a;border-radius:8px;padding:12px">';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">';
+    h += '<span style="font-size:18px">' + (flags[code]||'\ud83c\udf0d') + ' ' + code + '</span>';
+    h += '<span style="font-size:12px">' + trendIcon + ' ' + (info.trend||'') + '</span>';
+    h += '</div>';
+    h += polItems;
+    h += '<div style="margin-top:8px;color:' + impactColor + ';font-size:12px;font-weight:600">\u5f71\u54cd: ' + (info.impact||'\u5f85\u8bc4\u4f30') + '</div>';
+    h += '</div>';
+  }
+  h += '</div>';
+  // Article links
+  if (policyData.articles && policyData.articles.length) {
+    h += '<div style="margin-top:12px;padding-top:12px;border-top:1px solid #333">';
+    h += '<div style="color:#ffa500;font-size:12px;margin-bottom:8px">&#128240; \u6700\u65b0\u653f\u7b56\u65b0\u95fb</div>';
+    var articles = policyData.articles.slice(0, 5);
+    for (var ai = 0; ai < articles.length; ai++) {
+      var a = articles[ai];
+      var aImpactIcon = a.impact === 'positive' ? '\ud83d\udfe2' : a.impact === 'negative' ? '\ud83d\udd34' : '\ud83d\udfe1';
+      h += '<div style="margin-bottom:6px"><a href="' + (a.url||'#') + '" target="_blank" style="color:#7cb9e8;font-size:13px;text-decoration:none">' + aImpactIcon + ' ' + (a.title||'') + '</a> <span style="color:#666;font-size:11px">' + (a.source||'') + ' \u00b7 ' + (a.published||'') + '</span></div>';
+    }
+    h += '</div>';
+  }
+  el.innerHTML = h;
+}
+
+function renderCategoryAdvice(catData) {
+  var el = document.getElementById('cat-advice-content');
+  if (!el) return;
+  var advices = [];
+  // Generate advice from social trends
+  var social = catData.social_media_trends;
+  if (social) {
+    var allKws = [];
+    var platforms = ['google','youtube','x','instagram','tiktok'];
+    for (var pi = 0; pi < platforms.length; pi++) {
+      var pKws = social[platforms[pi]] || [];
+      for (var ki = 0; ki < pKws.length; ki++) {
+        if ((pKws[ki].growth || 0) > 20) {
+          allKws.push({keyword: pKws[ki].keyword, growth: pKws[ki].growth, platform: platforms[pi]});
+        }
+      }
+    }
+    allKws.sort(function(a, b) { return (b.growth || 0) - (a.growth || 0); });
+    if (allKws.length) {
+      var top3 = allKws.slice(0, 3);
+      var kwStr = '';
+      for (var ti = 0; ti < top3.length; ti++) {
+        if (ti > 0) kwStr += ', ';
+        kwStr += top3[ti].keyword + '(' + top3[ti].platform + ' +' + (top3[ti].growth||0).toFixed(0) + '%)';
+      }
+      advices.push({icon:'\ud83d\udcc8', text:'\u793e\u5a92\u9ad8\u589e\u957f\u5173\u952e\u8bcd: ' + kwStr + ' \u2014 \u5efa\u8bae\u5173\u6ce8\u76f8\u5173\u9009\u54c1\u548c\u8425\u9500\u6295\u5165'});
+    }
+  }
+  // Generate advice from policy
+  var policy = catData.policy_updates;
+  if (policy && policy.country_summary) {
+    var opening = [];
+    var tightening = [];
+    var pCodes = Object.keys(policy.country_summary);
+    for (var pci = 0; pci < pCodes.length; pci++) {
+      var pinfo = policy.country_summary[pCodes[pci]];
+      if (pinfo.trend === 'opening') opening.push(pCodes[pci]);
+      if (pinfo.trend === 'tightening') tightening.push(pCodes[pci]);
+    }
+    if (opening.length) advices.push({icon:'\ud83d\udfe2', text:'\u5e02\u573a\u5f00\u653e\u4fe1\u53f7: ' + opening.join(', ') + ' \u2014 \u5efa\u8bae\u52a0\u5927\u5e02\u573a\u5f00\u62d3\u529b\u5ea6'});
+    if (tightening.length) advices.push({icon:'\ud83d\udd34', text:'\u8d38\u6613\u6536\u7d27\u9884\u8b66: ' + tightening.join(', ') + ' \u2014 \u5efa\u8bae\u5173\u6ce8\u5408\u89c4\u8981\u6c42\u548c\u66ff\u4ee3\u5e02\u573a'});
+  }
+  // Generate advice from customs
+  var customs = catData.customs_2025;
+  if (customs && customs.imports_from_china) {
+    var importers = Object.keys(customs.imports_from_china);
+    var importerList = [];
+    for (var ii = 0; ii < importers.length; ii++) {
+      importerList.push({c: importers[ii], value_usd: customs.imports_from_china[importers[ii]].value_usd || 0, yoy: customs.imports_from_china[importers[ii]].yoy || 0});
+    }
+    importerList.sort(function(a, b) { return b.value_usd - a.value_usd; });
+    var topImporters = importerList.slice(0, 3);
+    if (topImporters.length) {
+      var topStr = '';
+      for (var tii = 0; tii < topImporters.length; tii++) {
+        if (tii > 0) topStr += ', ';
+        topStr += topImporters[tii].c + '($' + (topImporters[tii].value_usd / 1e6).toFixed(0) + 'M)';
+      }
+      advices.push({icon:'\ud83d\udea2', text:'2025\u5e74\u8fdb\u53e3TOP3: ' + topStr + ' \u2014 \u6838\u5fc3\u51fa\u53e3\u76ee\u6807\u5e02\u573a'});
+    }
+    var fastGrowing = [];
+    for (var fi = 0; fi < importerList.length; fi++) {
+      if (importerList[fi].yoy > 15) fastGrowing.push(importerList[fi]);
+    }
+    fastGrowing.sort(function(a, b) { return b.yoy - a.yoy; });
+    if (fastGrowing.length) {
+      var fgStr = '';
+      var fgSlice = fastGrowing.slice(0, 3);
+      for (var fgi = 0; fgi < fgSlice.length; fgi++) {
+        if (fgi > 0) fgStr += ', ';
+        fgStr += fgSlice[fgi].c + '(+' + fgSlice[fgi].yoy.toFixed(0) + '%)';
+      }
+      advices.push({icon:'\u26a1', text:'\u9ad8\u589e\u957f\u5e02\u573a: ' + fgStr + ' \u2014 \u503c\u5f97\u91cd\u70b9\u5173\u6ce8\u7684\u65b0\u5174\u9700\u6c42'});
+    }
+  }
+  if (!advices.length) {
+    el.innerHTML = '<p style="color:#888">AI\u5efa\u8bae\u5c06\u5728\u6570\u636e\u66f4\u65b0\u540e\u751f\u6210\uff0c\u8bf7\u7b49\u5f85\u4e0b\u4e00\u6b21\u6570\u636e\u6293\u53d6\u5468\u671f</p>';
+    return;
+  }
+  var ah = '';
+  for (var ai = 0; ai < advices.length; ai++) {
+    ah += '<div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.07)">';
+    ah += '<span style="font-size:20px">' + advices[ai].icon + '</span>';
+    ah += '<span style="color:#e0e0e0;font-size:13px;line-height:1.6">' + advices[ai].text + '</span>';
+    ah += '</div>';
+  }
+  el.innerHTML = ah;
 }
 
 function renderToolsTab() {
@@ -6967,12 +7538,66 @@ function renderCategoryDetail(d) {
     html += '</div>';
   }
 
+  // ===== Social Media Trends Card =====
+  html += '<div style="margin-top:16px;background:#1a1a2e;border:1px solid #333;border-radius:12px;padding:16px">';
+  html += '<h3 style="color:#00d4ff;margin:0 0 12px">&#128241; \u793e\u5a92\u8d8b\u52bf \u00b7 \u5546\u673a\u6d1e\u5bdf</h3>';
+  html += '<div id="cat-social-tabs" style="display:flex;gap:8px;margin-bottom:12px">';
+  var _spTabs = [{p:'google',l:'Google'},{p:'youtube',l:'YouTube'},{p:'x',l:'\ud835\udd4f'},{p:'instagram',l:'Instagram'},{p:'tiktok',l:'TikTok'}];
+  for (var _sti = 0; _sti < _spTabs.length; _sti++) {
+    var _activeCls = _spTabs[_sti].p === 'google' ? ' active' : '';
+    var _activeBg = _spTabs[_sti].p === 'google' ? 'background:rgba(0,212,255,0.15);color:#00d4ff;border-color:#00d4ff;' : '';
+    html += '<button class="social-tab' + _activeCls + '" onclick="switchSocialPlatform(\'' + _spTabs[_sti].p + '\',this)" style="padding:4px 12px;border-radius:6px;border:1px solid #444;background:transparent;color:#888;cursor:pointer;font-size:12px;' + _activeBg + '">' + _spTabs[_sti].l + '</button>';
+  }
+  html += '</div>';
+  html += '<div id="cat-social-content" style="color:#ccc;font-size:13px">\u52a0\u8f7d\u4e2d...</div>';
+  html += '</div>';
+
+  // ===== Policy & Trade Updates Card =====
+  html += '<div style="margin-top:16px;background:#1a1a2e;border:1px solid #333;border-radius:12px;padding:16px">';
+  html += '<h3 style="color:#ffa500;margin:0 0 12px">&#127963;\ufe0f \u5404\u56fd\u653f\u7b56 \u00b7 \u8d38\u6613\u89c4\u5219</h3>';
+  html += '<div id="cat-policy-content" style="color:#ccc;font-size:13px">\u52a0\u8f7d\u4e2d...</div>';
+  html += '</div>';
+
+  // ===== AI Recommendations Card =====
+  html += '<div style="margin-top:16px;background:linear-gradient(135deg,#1a1a2e,#0d1b2a);border:1px solid rgba(0,212,255,0.2);border-radius:12px;padding:16px">';
+  html += '<h3 style="color:#00ff88;margin:0 0 12px">&#128161; AI\u7efc\u5408\u5206\u6790 \u00b7 \u54c1\u7c7b\u5efa\u8bae</h3>';
+  html += '<div id="cat-advice-content" style="color:#ccc;font-size:13px">\u52a0\u8f7d\u4e2d...</div>';
+  html += '</div>';
+
   // Footer
   html += '<div class="text-xs text-gray-600 mt-4">';
-  html += '数据更新: ' + (d.last_updated || 'N/A') + ' | 数据来源: ' + (d.data_source || 'N/A');
+  html += '\u6570\u636e\u66f4\u65b0: ' + (d.last_updated || 'N/A') + ' | \u6570\u636e\u6765\u6e90: ' + (d.data_source || 'N/A');
   html += '</div>';
 
   document.getElementById('category-detail').innerHTML = html;
+
+  // ===== Initialize social/policy/advice rendering =====
+  _currentCatSocialData = d.social_media_trends || null;
+  _currentSocialPlatform = 'google';
+  if (_currentCatSocialData) {
+    renderSocialPlatformContent();
+  } else {
+    var socEl = document.getElementById('cat-social-content');
+    if (socEl) socEl.innerHTML = '<p style="color:#888">\u6682\u65e0\u793e\u5a92\u8d8b\u52bf\u6570\u636e\uff0c\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</p>';
+  }
+  // Render policy from embedded data or lazy-load
+  if (d.policy_updates) {
+    renderPolicyUpdates(d.policy_updates);
+  } else {
+    loadPolicyUpdates().then(function(pu) {
+      if (pu && pu.categories) {
+        // Try to find matching category policy data
+        var catKey = d.name_cn || d.name_en || '';
+        var matched = pu.categories[catKey] || pu.categories[d.parent_cn] || null;
+        if (matched) renderPolicyUpdates(matched);
+        else renderPolicyUpdates(null);
+      } else {
+        renderPolicyUpdates(null);
+      }
+    });
+  }
+  // Render AI advice
+  renderCategoryAdvice(d);
 }
 
 // Category search/filter

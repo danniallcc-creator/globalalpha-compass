@@ -1,0 +1,5266 @@
+{
+  "meta": {
+    "updated_at": "2026-06-10T11:49:12",
+    "date": "2026-06-10",
+    "l1_count": 46,
+    "building_materials_excluded": true,
+    "excluded_l1s": [
+      "工程及建材机械",
+      "建材与房地产"
+    ]
+  },
+  "l1_data": [
+    {
+      "l1_cn": "个人护理及家庭清洁",
+      "l1_en": "Personal Care & Household Cleaning",
+      "l1_slug": "个人护理及家庭清洁",
+      "l2_count": 17,
+      "l3_count": 142,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "买家物流市场",
+      "l1_en": "Buyer Logistics Market",
+      "l1_slug": "买家物流市场",
+      "l2_count": 1,
+      "l3_count": 7,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "五金工具",
+      "l1_en": "Hardware & Tools",
+      "l1_slug": "五金工具",
+      "l2_count": 15,
+      "l3_count": 167,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 3596.0,
+          "total_kg": 0,
+          "yoy_growth": 1.1,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "泵及配件",
+              "name_en": "Pumps & Parts",
+              "total_usd": 1650.0,
+              "share_pct": 45.9
+            },
+            {
+              "name_cn": "阀门",
+              "name_en": "Valves",
+              "total_usd": 1650.0,
+              "share_pct": 45.9
+            },
+            {
+              "name_cn": "研磨材料",
+              "name_en": "Abrasives",
+              "total_usd": 160.0,
+              "share_pct": 4.4
+            },
+            {
+              "name_cn": "紧固件",
+              "name_en": "Fasteners",
+              "total_usd": 136.0,
+              "share_pct": 3.8
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 774.36,
+            "yoy": 0,
+            "share": 39.8
+          },
+          "DE": {
+            "value_usd": 268.72,
+            "yoy": 0,
+            "share": 13.8
+          },
+          "GB": {
+            "value_usd": 29.63,
+            "yoy": 0,
+            "share": 1.5
+          },
+          "JP": {
+            "value_usd": 353.2,
+            "yoy": 0,
+            "share": 18.1
+          },
+          "AU": {
+            "value_usd": 38.58,
+            "yoy": 0,
+            "share": 2.0
+          },
+          "KR": {
+            "value_usd": 242.59,
+            "yoy": 0,
+            "share": 12.5
+          },
+          "IN": {
+            "value_usd": 27.53,
+            "yoy": 0,
+            "share": 1.4
+          },
+          "VN": {
+            "value_usd": 17.9,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "MX": {
+            "value_usd": 16.75,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "AE": {
+            "value_usd": 35.19,
+            "yoy": 0,
+            "share": 1.8
+          },
+          "CA": {
+            "value_usd": 20.07,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "SA": {
+            "value_usd": 51.83,
+            "yoy": 0,
+            "share": 2.7
+          },
+          "FR": {
+            "value_usd": 27.37,
+            "yoy": 0,
+            "share": 1.4
+          },
+          "BR": {
+            "value_usd": 16.75,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "ID": {
+            "value_usd": 25.66,
+            "yoy": 0,
+            "share": 1.3
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "代理采购",
+      "l1_en": "Agency Procurement",
+      "l1_slug": "代理采购",
+      "l2_count": 3,
+      "l3_count": 16,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "仪器仪表",
+      "l1_en": "Instruments & Meters",
+      "l1_slug": "仪器仪表",
+      "l2_count": 3,
+      "l3_count": 32,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 1245.0,
+          "total_kg": 0,
+          "yoy_growth": 9.2,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "实验室用品",
+              "name_en": "Lab Supplies",
+              "total_usd": 415.0,
+              "share_pct": 33.3
+            },
+            {
+              "name_cn": "检测与分析仪器",
+              "name_en": "Testing and Analysis Instruments",
+              "total_usd": 415.0,
+              "share_pct": 33.3
+            },
+            {
+              "name_cn": "量具",
+              "name_en": "Measuring & Gauging Tools",
+              "total_usd": 415.0,
+              "share_pct": 33.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 241.8,
+            "yoy": 0,
+            "share": 33.7
+          },
+          "DE": {
+            "value_usd": 141.54,
+            "yoy": 0,
+            "share": 19.7
+          },
+          "GB": {
+            "value_usd": 88.98,
+            "yoy": 0,
+            "share": 12.4
+          },
+          "JP": {
+            "value_usd": 124.5,
+            "yoy": 0,
+            "share": 17.4
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "IN": {
+            "value_usd": 120.57,
+            "yoy": 0,
+            "share": 16.8
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "传动",
+      "l1_en": "Power Transmission",
+      "l1_slug": "传动",
+      "l2_count": 4,
+      "l3_count": 25,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 6600.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "传动件",
+              "name_en": "Power Transmission Parts",
+              "total_usd": 1650.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "电机",
+              "name_en": "Motors",
+              "total_usd": 1650.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "轴承",
+              "name_en": "Bearings",
+              "total_usd": 1650.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "轴承附件",
+              "name_en": "Bearing Accessories",
+              "total_usd": 1650.0,
+              "share_pct": 25.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1477.36,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 506.24,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 28.92,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 636.84,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 20.2,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 426.2,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 27.04,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 17.56,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 16.44,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 21.56,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 18.6,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 27.04,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 26.88,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 16.44,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 17.24,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "健康护理",
+      "l1_en": "Health Care",
+      "l1_slug": "健康护理",
+      "l2_count": 5,
+      "l3_count": 47,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 1250.0,
+          "total_kg": 0,
+          "yoy_growth": 8.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "保健设备",
+              "name_en": "Health Care Equipment",
+              "total_usd": 415.0,
+              "share_pct": 33.2
+            },
+            {
+              "name_cn": "按摩用品",
+              "name_en": "Massage Products",
+              "total_usd": 415.0,
+              "share_pct": 33.2
+            },
+            {
+              "name_cn": "保健食品",
+              "name_en": "Healthcare Supplements",
+              "total_usd": 210.0,
+              "share_pct": 16.8
+            },
+            {
+              "name_cn": "成人产品",
+              "name_en": "Sex Products",
+              "total_usd": 210.0,
+              "share_pct": 16.8
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 223.24,
+            "yoy": 0,
+            "share": 33.0
+          },
+          "DE": {
+            "value_usd": 94.36,
+            "yoy": 0,
+            "share": 13.9
+          },
+          "GB": {
+            "value_usd": 59.32,
+            "yoy": 0,
+            "share": 8.8
+          },
+          "JP": {
+            "value_usd": 164.84,
+            "yoy": 0,
+            "share": 24.3
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 54.92,
+            "yoy": 0,
+            "share": 8.1
+          },
+          "IN": {
+            "value_usd": 80.38,
+            "yoy": 0,
+            "share": 11.9
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "农业",
+      "l1_en": "Agriculture",
+      "l1_slug": "农业",
+      "l2_count": 11,
+      "l3_count": 66,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 2361.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "农用设备",
+              "name_en": "Agricultural Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 69.9
+            },
+            {
+              "name_cn": "木材原料",
+              "name_en": "Timber Raw Materials",
+              "total_usd": 296.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "冷冻产品",
+              "name_en": "Frozen Products",
+              "total_usd": 90.0,
+              "share_pct": 3.8
+            },
+            {
+              "name_cn": "新鲜蔬菜",
+              "name_en": "Fresh Vegetables",
+              "total_usd": 90.0,
+              "share_pct": 3.8
+            },
+            {
+              "name_cn": "蘑菇与松露",
+              "name_en": "Mushrooms & Truffles",
+              "total_usd": 90.0,
+              "share_pct": 3.8
+            },
+            {
+              "name_cn": "豆类",
+              "name_en": "Beans",
+              "total_usd": 90.0,
+              "share_pct": 3.8
+            },
+            {
+              "name_cn": "谷物",
+              "name_en": "Grain",
+              "total_usd": 55.0,
+              "share_pct": 2.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 413.79,
+            "yoy": 0,
+            "share": 31.5
+          },
+          "DE": {
+            "value_usd": 145.28,
+            "yoy": 0,
+            "share": 11.1
+          },
+          "GB": {
+            "value_usd": 26.71,
+            "yoy": 0,
+            "share": 2.0
+          },
+          "JP": {
+            "value_usd": 264.11,
+            "yoy": 0,
+            "share": 20.1
+          },
+          "AU": {
+            "value_usd": 26.87,
+            "yoy": 0,
+            "share": 2.0
+          },
+          "KR": {
+            "value_usd": 183.35,
+            "yoy": 0,
+            "share": 13.9
+          },
+          "IN": {
+            "value_usd": 23.33,
+            "yoy": 0,
+            "share": 1.8
+          },
+          "VN": {
+            "value_usd": 106.82,
+            "yoy": 0,
+            "share": 8.1
+          },
+          "MX": {
+            "value_usd": 14.18,
+            "yoy": 0,
+            "share": 1.1
+          },
+          "AE": {
+            "value_usd": 18.6,
+            "yoy": 0,
+            "share": 1.4
+          },
+          "CA": {
+            "value_usd": 16.05,
+            "yoy": 0,
+            "share": 1.2
+          },
+          "SA": {
+            "value_usd": 23.33,
+            "yoy": 0,
+            "share": 1.8
+          },
+          "FR": {
+            "value_usd": 23.19,
+            "yoy": 0,
+            "share": 1.8
+          },
+          "BR": {
+            "value_usd": 14.18,
+            "yoy": 0,
+            "share": 1.1
+          },
+          "ID": {
+            "value_usd": 14.86,
+            "yoy": 0,
+            "share": 1.1
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "办公文教用品",
+      "l1_en": "Office & Education Supplies",
+      "l1_slug": "办公文教用品",
+      "l2_count": 20,
+      "l3_count": 78,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "包装印刷",
+      "l1_en": "Packaging & Printing",
+      "l1_slug": "包装印刷",
+      "l2_count": 12,
+      "l3_count": 51,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 547.0,
+          "total_kg": 0,
+          "yoy_growth": -1.0,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "木、竹包装",
+              "name_en": "Wooden & Bamboo Packaging",
+              "total_usd": 296.0,
+              "share_pct": 54.1
+            },
+            {
+              "name_cn": "金属包装",
+              "name_en": "Metal Packaging",
+              "total_usd": 136.0,
+              "share_pct": 24.9
+            },
+            {
+              "name_cn": "塑料包装",
+              "name_en": "Plastic Packaging",
+              "total_usd": 70.0,
+              "share_pct": 12.8
+            },
+            {
+              "name_cn": "玻璃包装",
+              "name_en": "Glass Packaging",
+              "total_usd": 45.0,
+              "share_pct": 8.2
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 79.24,
+            "yoy": 0,
+            "share": 14.2
+          },
+          "DE": {
+            "value_usd": 32.12,
+            "yoy": 0,
+            "share": 5.8
+          },
+          "GB": {
+            "value_usd": 32.72,
+            "yoy": 0,
+            "share": 5.9
+          },
+          "JP": {
+            "value_usd": 69.92,
+            "yoy": 0,
+            "share": 12.5
+          },
+          "AU": {
+            "value_usd": 42.67,
+            "yoy": 0,
+            "share": 7.7
+          },
+          "KR": {
+            "value_usd": 42.77,
+            "yoy": 0,
+            "share": 7.7
+          },
+          "IN": {
+            "value_usd": 32.91,
+            "yoy": 0,
+            "share": 5.9
+          },
+          "VN": {
+            "value_usd": 31.28,
+            "yoy": 0,
+            "share": 5.6
+          },
+          "MX": {
+            "value_usd": 17.4,
+            "yoy": 0,
+            "share": 3.1
+          },
+          "AE": {
+            "value_usd": 34.22,
+            "yoy": 0,
+            "share": 6.1
+          },
+          "CA": {
+            "value_usd": 20.82,
+            "yoy": 0,
+            "share": 3.7
+          },
+          "SA": {
+            "value_usd": 49.21,
+            "yoy": 0,
+            "share": 8.8
+          },
+          "FR": {
+            "value_usd": 28.44,
+            "yoy": 0,
+            "share": 5.1
+          },
+          "BR": {
+            "value_usd": 17.4,
+            "yoy": 0,
+            "share": 3.1
+          },
+          "ID": {
+            "value_usd": 26.33,
+            "yoy": 0,
+            "share": 4.7
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "化学品",
+      "l1_en": "Chemicals",
+      "l1_slug": "化学品",
+      "l2_count": 10,
+      "l3_count": 43,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "医疗器械和用品",
+      "l1_en": "Medical Devices & Supplies",
+      "l1_slug": "医疗器械和用品",
+      "l2_count": 5,
+      "l3_count": 49,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 2075.0,
+          "total_kg": 0,
+          "yoy_growth": 9.2,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "中医",
+              "name_en": "Chinese Medicine",
+              "total_usd": 415.0,
+              "share_pct": 20.0
+            },
+            {
+              "name_cn": "兽用医疗产品",
+              "name_en": "Animal & Veterinary",
+              "total_usd": 415.0,
+              "share_pct": 20.0
+            },
+            {
+              "name_cn": "医用耗材",
+              "name_en": "Medical Consumables",
+              "total_usd": 415.0,
+              "share_pct": 20.0
+            },
+            {
+              "name_cn": "商用医疗器械",
+              "name_en": "Professional Medical Devices",
+              "total_usd": 415.0,
+              "share_pct": 20.0
+            },
+            {
+              "name_cn": "家用医疗器械",
+              "name_en": "Household Medical Devices",
+              "total_usd": 415.0,
+              "share_pct": 20.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 403.0,
+            "yoy": 0,
+            "share": 33.7
+          },
+          "DE": {
+            "value_usd": 235.9,
+            "yoy": 0,
+            "share": 19.7
+          },
+          "GB": {
+            "value_usd": 148.3,
+            "yoy": 0,
+            "share": 12.4
+          },
+          "JP": {
+            "value_usd": 207.5,
+            "yoy": 0,
+            "share": 17.4
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "IN": {
+            "value_usd": 200.95,
+            "yoy": 0,
+            "share": 16.8
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "可再生能源",
+      "l1_en": "Renewable Energy",
+      "l1_slug": "可再生能源",
+      "l2_count": 6,
+      "l3_count": 44,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 24282.0,
+          "total_kg": 0,
+          "yoy_growth": 8.9,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "储能系统",
+              "name_en": "Energy Storage System",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "太阳能产品",
+              "name_en": "Solar Energy Products",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "太阳能应用",
+              "name_en": "Solar Applications",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "氢能",
+              "name_en": "Hydrogen Energy",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "电池",
+              "name_en": "Batteries",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "风力发电产品",
+              "name_en": "Wind Power Products",
+              "total_usd": 4047.0,
+              "share_pct": 16.7
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1610.58,
+            "yoy": 0,
+            "share": 16.5
+          },
+          "DE": {
+            "value_usd": 741.24,
+            "yoy": 0,
+            "share": 7.6
+          },
+          "GB": {
+            "value_usd": 585.66,
+            "yoy": 0,
+            "share": 6.0
+          },
+          "JP": {
+            "value_usd": 1709.52,
+            "yoy": 0,
+            "share": 17.5
+          },
+          "AU": {
+            "value_usd": 421.8,
+            "yoy": 0,
+            "share": 4.3
+          },
+          "KR": {
+            "value_usd": 994.26,
+            "yoy": 0,
+            "share": 10.2
+          },
+          "IN": {
+            "value_usd": 1465.02,
+            "yoy": 0,
+            "share": 15.0
+          },
+          "VN": {
+            "value_usd": 1466.88,
+            "yoy": 0,
+            "share": 15.1
+          },
+          "MX": {
+            "value_usd": 92.94,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "AE": {
+            "value_usd": 658.8,
+            "yoy": 0,
+            "share": 6.8
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "商业设备及机械",
+      "l1_en": "Commercial Equipment & Machinery",
+      "l1_slug": "商业设备及机械",
+      "l2_count": 13,
+      "l3_count": 105,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 21450.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "专业音视频与照明",
+              "name_en": "Professional Audio, Video & Lighting",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "仓储及商超用品",
+              "name_en": "Warehousing & Supermarket Supplies",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "农业和食品处理机械",
+              "name_en": "Agricultural & Food Processing Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "印刷机",
+              "name_en": "Printing Machine",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "展会及派对设备",
+              "name_en": "Trade Show and Party Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "广告设备",
+              "name_en": "Advertising Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "数字标牌系列",
+              "name_en": "Digital Signage",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "服装机械",
+              "name_en": "Apparel Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "清洁设备",
+              "name_en": "Cleaning Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "激光设备",
+              "name_en": "Laser Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "焊接设备",
+              "name_en": "Welding Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "金融设备",
+              "name_en": "Financial Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            },
+            {
+              "name_cn": "餐厅酒店用品",
+              "name_en": "Restaurant & Hotel Supplies",
+              "total_usd": 1650.0,
+              "share_pct": 7.7
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 4801.42,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 1645.28,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 93.99,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 2069.73,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 65.65,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 1385.15,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 87.88,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 57.07,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 53.43,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 70.07,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 60.45,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 87.88,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 87.36,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 53.43,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 56.03,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "商务服务",
+      "l1_en": "Business Services",
+      "l1_slug": "商务服务",
+      "l2_count": 1,
+      "l3_count": 1,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "安全用品",
+      "l1_en": "Safety Products",
+      "l1_slug": "安全用品",
+      "l2_count": 5,
+      "l3_count": 28,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 1740.0,
+          "total_kg": 0,
+          "yoy_growth": 1.1,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "消防用品",
+              "name_en": "Firefighting Supplies",
+              "total_usd": 1650.0,
+              "share_pct": 94.8
+            },
+            {
+              "name_cn": "道路安全设施",
+              "name_en": "Roadway Safety",
+              "total_usd": 90.0,
+              "share_pct": 5.2
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 388.1,
+            "yoy": 0,
+            "share": 42.6
+          },
+          "DE": {
+            "value_usd": 135.65,
+            "yoy": 0,
+            "share": 14.9
+          },
+          "GB": {
+            "value_usd": 14.58,
+            "yoy": 0,
+            "share": 1.6
+          },
+          "JP": {
+            "value_usd": 170.58,
+            "yoy": 0,
+            "share": 18.7
+          },
+          "AU": {
+            "value_usd": 10.9,
+            "yoy": 0,
+            "share": 1.2
+          },
+          "KR": {
+            "value_usd": 110.75,
+            "yoy": 0,
+            "share": 12.2
+          },
+          "IN": {
+            "value_usd": 11.5,
+            "yoy": 0,
+            "share": 1.3
+          },
+          "VN": {
+            "value_usd": 7.47,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "MX": {
+            "value_usd": 6.99,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "AE": {
+            "value_usd": 9.17,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "CA": {
+            "value_usd": 7.92,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "SA": {
+            "value_usd": 11.5,
+            "yoy": 0,
+            "share": 1.3
+          },
+          "FR": {
+            "value_usd": 11.44,
+            "yoy": 0,
+            "share": 1.3
+          },
+          "BR": {
+            "value_usd": 6.99,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "ID": {
+            "value_usd": 7.33,
+            "yoy": 0,
+            "share": 0.8
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "安防",
+      "l1_en": "Security & Protection",
+      "l1_slug": "安防",
+      "l2_count": 4,
+      "l3_count": 22,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 16188.0,
+          "total_kg": 0,
+          "yoy_growth": 8.9,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "监控器材",
+              "name_en": "Surveillance Products",
+              "total_usd": 4047.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "警报器",
+              "name_en": "Alarms",
+              "total_usd": 4047.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "锁和钥匙",
+              "name_en": "Locks & Keys",
+              "total_usd": 4047.0,
+              "share_pct": 25.0
+            },
+            {
+              "name_cn": "门禁系统与产品",
+              "name_en": "Access Control Systems & Products",
+              "total_usd": 4047.0,
+              "share_pct": 25.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1073.72,
+            "yoy": 0,
+            "share": 16.5
+          },
+          "DE": {
+            "value_usd": 494.16,
+            "yoy": 0,
+            "share": 7.6
+          },
+          "GB": {
+            "value_usd": 390.44,
+            "yoy": 0,
+            "share": 6.0
+          },
+          "JP": {
+            "value_usd": 1139.68,
+            "yoy": 0,
+            "share": 17.5
+          },
+          "AU": {
+            "value_usd": 281.2,
+            "yoy": 0,
+            "share": 4.3
+          },
+          "KR": {
+            "value_usd": 662.84,
+            "yoy": 0,
+            "share": 10.2
+          },
+          "IN": {
+            "value_usd": 976.68,
+            "yoy": 0,
+            "share": 15.0
+          },
+          "VN": {
+            "value_usd": 977.92,
+            "yoy": 0,
+            "share": 15.1
+          },
+          "MX": {
+            "value_usd": 61.96,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "AE": {
+            "value_usd": 439.2,
+            "yoy": 0,
+            "share": 6.8
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "宠物用品及食品",
+      "l1_en": "Pet Supplies & Food",
+      "l1_slug": "宠物用品及食品",
+      "l2_count": 2,
+      "l3_count": 17,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "家具",
+      "l1_en": "Furniture",
+      "l1_slug": "家具",
+      "l2_count": 7,
+      "l3_count": 51,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 5628.0,
+          "total_kg": 0,
+          "yoy_growth": 4.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "商用家具",
+              "name_en": "Commercial Furniture",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "婴童家具",
+              "name_en": "Kid's Furniture",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "家具配件",
+              "name_en": "Furniture Accessories",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "家具零配件",
+              "name_en": "Furniture Parts",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "家居家具",
+              "name_en": "Home Furniture",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "户外家具",
+              "name_en": "Outdoor Furniture",
+              "total_usd": 923.0,
+              "share_pct": 16.4
+            },
+            {
+              "name_cn": "家具五金",
+              "name_en": "Furniture Hardware",
+              "total_usd": 90.0,
+              "share_pct": 1.6
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1497.82,
+            "yoy": 0,
+            "share": 43.8
+          },
+          "DE": {
+            "value_usd": 489.15,
+            "yoy": 0,
+            "share": 14.3
+          },
+          "GB": {
+            "value_usd": 490.23,
+            "yoy": 0,
+            "share": 14.3
+          },
+          "JP": {
+            "value_usd": 164.97,
+            "yoy": 0,
+            "share": 4.8
+          },
+          "AU": {
+            "value_usd": 392.19,
+            "yoy": 0,
+            "share": 11.5
+          },
+          "KR": {
+            "value_usd": 12.54,
+            "yoy": 0,
+            "share": 0.4
+          },
+          "IN": {
+            "value_usd": 14.16,
+            "yoy": 0,
+            "share": 0.4
+          },
+          "VN": {
+            "value_usd": 9.2,
+            "yoy": 0,
+            "share": 0.3
+          },
+          "MX": {
+            "value_usd": 8.58,
+            "yoy": 0,
+            "share": 0.3
+          },
+          "AE": {
+            "value_usd": 36.78,
+            "yoy": 0,
+            "share": 1.1
+          },
+          "CA": {
+            "value_usd": 219.21,
+            "yoy": 0,
+            "share": 6.4
+          },
+          "SA": {
+            "value_usd": 56.52,
+            "yoy": 0,
+            "share": 1.7
+          },
+          "FR": {
+            "value_usd": 14.08,
+            "yoy": 0,
+            "share": 0.4
+          },
+          "BR": {
+            "value_usd": 8.58,
+            "yoy": 0,
+            "share": 0.3
+          },
+          "ID": {
+            "value_usd": 9.02,
+            "yoy": 0,
+            "share": 0.3
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "家居园艺",
+      "l1_en": "Home & Garden",
+      "l1_slug": "家居园艺",
+      "l2_count": 12,
+      "l3_count": 95,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 3012.0,
+          "total_kg": 0,
+          "yoy_growth": -6.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "厨具",
+              "name_en": "Kitchenware",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "园艺用品",
+              "name_en": "Garden Supplies",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "家居装饰",
+              "name_en": "Home Decor",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "家用储物收纳用具",
+              "name_en": "Home Storage & Organization",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "家用清洁工具与配件",
+              "name_en": "Household Cleaning Tools & Accessories",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "家纺",
+              "name_en": "Home Textiles",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "庆典派对用品",
+              "name_en": "Festive & Party Supplies",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "打火机及烟具",
+              "name_en": "Lighters & Smoking Accessories",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "日用百货",
+              "name_en": "Household Supplies",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "智能家居改造",
+              "name_en": "Smart Home Improvement",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "餐具及咖啡酒具",
+              "name_en": "Dinnerware,Coffee&Wine Set",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "饮具及配件",
+              "name_en": "Drinkware & Accessories",
+              "total_usd": 251.0,
+              "share_pct": 8.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 484.44,
+            "yoy": 0,
+            "share": 18.6
+          },
+          "DE": {
+            "value_usd": 99.6,
+            "yoy": 0,
+            "share": 3.8
+          },
+          "GB": {
+            "value_usd": 218.76,
+            "yoy": 0,
+            "share": 8.4
+          },
+          "JP": {
+            "value_usd": 195.6,
+            "yoy": 0,
+            "share": 7.5
+          },
+          "AU": {
+            "value_usd": 164.52,
+            "yoy": 0,
+            "share": 6.3
+          },
+          "KR": {
+            "value_usd": 176.4,
+            "yoy": 0,
+            "share": 6.8
+          },
+          "IN": {
+            "value_usd": 142.2,
+            "yoy": 0,
+            "share": 5.5
+          },
+          "VN": {
+            "value_usd": 51.36,
+            "yoy": 0,
+            "share": 2.0
+          },
+          "MX": {
+            "value_usd": 48.24,
+            "yoy": 0,
+            "share": 1.9
+          },
+          "AE": {
+            "value_usd": 289.44,
+            "yoy": 0,
+            "share": 11.1
+          },
+          "CA": {
+            "value_usd": 54.36,
+            "yoy": 0,
+            "share": 2.1
+          },
+          "SA": {
+            "value_usd": 499.32,
+            "yoy": 0,
+            "share": 19.2
+          },
+          "FR": {
+            "value_usd": 78.6,
+            "yoy": 0,
+            "share": 3.0
+          },
+          "BR": {
+            "value_usd": 48.24,
+            "yoy": 0,
+            "share": 1.9
+          },
+          "ID": {
+            "value_usd": 50.4,
+            "yoy": 0,
+            "share": 1.9
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "家用电器",
+      "l1_en": "Home Appliances",
+      "l1_slug": "家用电器",
+      "l2_count": 12,
+      "l3_count": 99,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 38976.0,
+          "total_kg": 0,
+          "yoy_growth": 7.6,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "厨房大家电",
+              "name_en": "Major Kitchen Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "厨房小家电",
+              "name_en": "Small Kitchen Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "家电零配件",
+              "name_en": "Home Appliance Parts",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "智能家用电器",
+              "name_en": "Smart Home Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "洗衣设备",
+              "name_en": "Laundry Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "清洁家电",
+              "name_en": "Cleaning Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "空气质量电器",
+              "name_en": "Air Quality Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "美容个护小家电",
+              "name_en": "Personal Care & Beauty Appliances",
+              "total_usd": 4047.0,
+              "share_pct": 10.4
+            },
+            {
+              "name_cn": "供暖及制冷电器",
+              "name_en": "Heating & Cooling Appliances",
+              "total_usd": 1650.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "冰箱冰柜",
+              "name_en": "Refrigerators & Freezers",
+              "total_usd": 1650.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "水处理设备",
+              "name_en": "Water Treatment Appliances",
+              "total_usd": 1650.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "热水器",
+              "name_en": "Water Heaters",
+              "total_usd": 1650.0,
+              "share_pct": 4.2
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 3624.8,
+            "yoy": 0,
+            "share": 22.3
+          },
+          "DE": {
+            "value_usd": 1494.56,
+            "yoy": 0,
+            "share": 9.2
+          },
+          "GB": {
+            "value_usd": 809.8,
+            "yoy": 0,
+            "share": 5.0
+          },
+          "JP": {
+            "value_usd": 2916.2,
+            "yoy": 0,
+            "share": 17.9
+          },
+          "AU": {
+            "value_usd": 582.6,
+            "yoy": 0,
+            "share": 3.6
+          },
+          "KR": {
+            "value_usd": 1751.88,
+            "yoy": 0,
+            "share": 10.8
+          },
+          "IN": {
+            "value_usd": 1980.4,
+            "yoy": 0,
+            "share": 12.2
+          },
+          "VN": {
+            "value_usd": 1973.4,
+            "yoy": 0,
+            "share": 12.1
+          },
+          "MX": {
+            "value_usd": 140.36,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "AE": {
+            "value_usd": 899.96,
+            "yoy": 0,
+            "share": 5.5
+          },
+          "CA": {
+            "value_usd": 18.6,
+            "yoy": 0,
+            "share": 0.1
+          },
+          "SA": {
+            "value_usd": 27.04,
+            "yoy": 0,
+            "share": 0.2
+          },
+          "FR": {
+            "value_usd": 26.88,
+            "yoy": 0,
+            "share": 0.2
+          },
+          "BR": {
+            "value_usd": 16.44,
+            "yoy": 0,
+            "share": 0.1
+          },
+          "ID": {
+            "value_usd": 17.24,
+            "yoy": 0,
+            "share": 0.1
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "工业机械",
+      "l1_en": "Industrial Machinery",
+      "l1_slug": "工业机械",
+      "l2_count": 20,
+      "l3_count": 196,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 33000.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "二手工业机械",
+              "name_en": "Used Industrial Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "农业机械与设备",
+              "name_en": "Agricultural Machinery & Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "制冷及热交换设备",
+              "name_en": "Refrigeration & Heat Exchange Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "包装机",
+              "name_en": "Packaging Machines",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "化工机械",
+              "name_en": "Chemical Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "卷烟机械",
+              "name_en": "Tobacco & Cigarette Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "家居产品制造机械",
+              "name_en": "Home Product Manufacturing Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "工业机器人",
+              "name_en": "Industrial Robots",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "服装及纺织机械",
+              "name_en": "Apparel & Textile Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "木工机械",
+              "name_en": "Woodworking Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "机床设备",
+              "name_en": "Machine Tool Equipment",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "橡塑机械",
+              "name_en": "Plastic & Rubber Processing Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "环保机械",
+              "name_en": "Environmental Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "生产线",
+              "name_en": "Production Line",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "电工电气设备制造机械",
+              "name_en": "Electrical Equipment Manufacturing Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "空压机及零件",
+              "name_en": "Industrial Compressors & Parts",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "通用机械部件",
+              "name_en": "Machinery Accessories",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "造纸机械",
+              "name_en": "Paper Production Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "金属及冶金机械",
+              "name_en": "Metal & Metallurgy Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            },
+            {
+              "name_cn": "食品饮料机械",
+              "name_en": "Food & Beverage Machinery",
+              "total_usd": 1650.0,
+              "share_pct": 5.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 7386.8,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 2531.2,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 144.6,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 3184.2,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 101.0,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 2131.0,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 135.2,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 87.8,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 82.2,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 107.8,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 93.0,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 135.2,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 134.4,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 82.2,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 86.2,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "开发与技术服务",
+      "l1_en": "Development & Technical Services",
+      "l1_slug": "开发与技术服务",
+      "l2_count": 7,
+      "l3_count": 25,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "整车及交通工具",
+      "l1_en": "Vehicles & Transportation",
+      "l1_slug": "整车及交通工具",
+      "l2_count": 8,
+      "l3_count": 29,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 12400.0,
+          "total_kg": 0,
+          "yoy_growth": 10.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "ATV 与 UTV",
+              "name_en": "ATVs & UTVs",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "三轮车",
+              "name_en": "Tricycles",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "乘用车",
+              "name_en": "Automotives",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "公共汽车",
+              "name_en": "Bus",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "卡车",
+              "name_en": "Truck",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "应急车辆",
+              "name_en": "Emergency Vehicles",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "拖车",
+              "name_en": "Trailers",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            },
+            {
+              "name_cn": "摩托车及脚踏车",
+              "name_en": "Motorcycles & Scooters",
+              "total_usd": 1550.0,
+              "share_pct": 12.5
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 732.88,
+            "yoy": 0,
+            "share": 18.0
+          },
+          "DE": {
+            "value_usd": 394.96,
+            "yoy": 0,
+            "share": 9.7
+          },
+          "GB": {
+            "value_usd": 740.4,
+            "yoy": 0,
+            "share": 18.2
+          },
+          "JP": {
+            "value_usd": 445.68,
+            "yoy": 0,
+            "share": 11.0
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 279.76,
+            "yoy": 0,
+            "share": 6.9
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 1473.44,
+            "yoy": 0,
+            "share": 36.2
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "服装及配饰",
+      "l1_en": "Apparel & Accessories",
+      "l1_slug": "服装及配饰",
+      "l2_count": 12,
+      "l3_count": 129,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 21360.0,
+          "total_kg": 0,
+          "yoy_growth": -2.2,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "休闲运动服",
+              "name_en": "Sportswear",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "其他服装及配饰",
+              "name_en": "Other Apparel&Accessories",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "内衣睡衣",
+              "name_en": "Underwear & Sleepwear",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "制服与表演服",
+              "name_en": "Uniforms & Costumes",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "女装",
+              "name_en": "Women's Clothing",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "婚礼服装和配饰",
+              "name_en": "Wedding Apparel & Accessories",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "帽子",
+              "name_en": "Hats & Caps",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "服装加工辅料",
+              "name_en": "Garment & Processing Accessories",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "民族服装及配饰",
+              "name_en": "Ethnic Clothing & Accessories",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "男装",
+              "name_en": "Men's Clothing",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "袜子",
+              "name_en": "Socks & Hosiery",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            },
+            {
+              "name_cn": "配饰",
+              "name_en": "Accessories",
+              "total_usd": 1780.0,
+              "share_pct": 8.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 4013.76,
+            "yoy": 0,
+            "share": 37.8
+          },
+          "DE": {
+            "value_usd": 1633.68,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 1366.08,
+            "yoy": 0,
+            "share": 12.9
+          },
+          "JP": {
+            "value_usd": 2464.56,
+            "yoy": 0,
+            "share": 23.2
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 1137.24,
+            "yoy": 0,
+            "share": 10.7
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "检验检测与认证",
+      "l1_en": "Testing, Inspection & Certification",
+      "l1_slug": "检验检测与认证",
+      "l2_count": 3,
+      "l3_count": 10,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "橡胶与塑料制品",
+      "l1_en": "Rubber & Plastics",
+      "l1_slug": "橡胶与塑料制品",
+      "l2_count": 4,
+      "l3_count": 30,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 140.0,
+          "total_kg": 0,
+          "yoy_growth": -2.8,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "塑料制品",
+              "name_en": "Plastic Products",
+              "total_usd": 70.0,
+              "share_pct": 50.0
+            },
+            {
+              "name_cn": "塑料原材料",
+              "name_en": "Plastic Raw Materials",
+              "total_usd": 70.0,
+              "share_pct": 50.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 21.0,
+            "yoy": 0,
+            "share": 14.5
+          },
+          "DE": {
+            "value_usd": 7.84,
+            "yoy": 0,
+            "share": 5.4
+          },
+          "GB": {
+            "value_usd": 6.94,
+            "yoy": 0,
+            "share": 4.8
+          },
+          "JP": {
+            "value_usd": 9.2,
+            "yoy": 0,
+            "share": 6.3
+          },
+          "AU": {
+            "value_usd": 5.26,
+            "yoy": 0,
+            "share": 3.6
+          },
+          "KR": {
+            "value_usd": 6.24,
+            "yoy": 0,
+            "share": 4.3
+          },
+          "IN": {
+            "value_usd": 15.66,
+            "yoy": 0,
+            "share": 10.8
+          },
+          "VN": {
+            "value_usd": 17.42,
+            "yoy": 0,
+            "share": 12.0
+          },
+          "MX": {
+            "value_usd": 4.28,
+            "yoy": 0,
+            "share": 2.9
+          },
+          "AE": {
+            "value_usd": 10.7,
+            "yoy": 0,
+            "share": 7.4
+          },
+          "CA": {
+            "value_usd": 4.86,
+            "yoy": 0,
+            "share": 3.3
+          },
+          "SA": {
+            "value_usd": 20.12,
+            "yoy": 0,
+            "share": 13.8
+          },
+          "FR": {
+            "value_usd": 7.02,
+            "yoy": 0,
+            "share": 4.8
+          },
+          "BR": {
+            "value_usd": 4.28,
+            "yoy": 0,
+            "share": 2.9
+          },
+          "ID": {
+            "value_usd": 4.5,
+            "yoy": 0,
+            "share": 3.1
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "母婴&玩具",
+      "l1_en": "Mother, Baby & Toys",
+      "l1_slug": "母婴-玩具",
+      "l2_count": 30,
+      "l3_count": 195,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 17755.0,
+          "total_kg": 0,
+          "yoy_growth": 2.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "儿童服装",
+              "name_en": "Children's Clothing",
+              "total_usd": 1780.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "婴儿服装",
+              "name_en": "Baby Clothing",
+              "total_usd": 1780.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "孕产用品",
+              "name_en": "Pregnancy & Maternity",
+              "total_usd": 1780.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "幼儿服装",
+              "name_en": "Toddler Clothing",
+              "total_usd": 1780.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "童鞋",
+              "name_en": "Kids Shoes",
+              "total_usd": 435.0,
+              "share_pct": 2.5
+            },
+            {
+              "name_cn": "仿真玩具武器",
+              "name_en": "Toy Weapons",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "儿童箱包",
+              "name_en": "Kids' Luggage & Bags",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "卫生用品",
+              "name_en": "Hygiene Products",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "娃娃与娃衣配饰",
+              "name_en": "Dolls & Doll clothes Accessories",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴儿存储和收纳",
+              "name_en": "Baby Storage & Organization",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴儿玩具",
+              "name_en": "Baby & Toddler Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴幼儿护理",
+              "name_en": "Baby Care",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴童家具、收纳和床上用品",
+              "name_en": "Baby Furniture, Storage & Bedding",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴童用品",
+              "name_en": "Baby Supplies & Products",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "婴童配饰",
+              "name_en": "Kids Accessories",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "工艺品与DIY玩具",
+              "name_en": "Arts, Crafts & DIY Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "户外运动玩具",
+              "name_en": "Outdoor Toys & Structures",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "拼图&游戏",
+              "name_en": "Puzzle & Games",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "新奇搞怪玩具",
+              "name_en": "Novelty & Gag Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "新奇特和特殊服饰",
+              "name_en": "Novelty & Special Use",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "母婴家电",
+              "name_en": "Baby Appliances",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "毛绒玩具",
+              "name_en": "Stuffed Animals & Plush Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "潮玩玩偶与盲盒",
+              "name_en": "Figures & Mystery Box Collectibles",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "爱好&模型",
+              "name_en": "Hobbies & Models",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "玩具车",
+              "name_en": "Toy Vehicle",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "益智玩具",
+              "name_en": "Educational Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "积木",
+              "name_en": "Blocks & Model Building Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "经典玩具",
+              "name_en": "Classic Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "过家家玩具",
+              "name_en": "Dress Up & Pretend Play",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            },
+            {
+              "name_cn": "遥控玩具",
+              "name_en": "Remote Control Toys",
+              "total_usd": 408.0,
+              "share_pct": 2.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 4425.62,
+            "yoy": 0,
+            "share": 44.1
+          },
+          "DE": {
+            "value_usd": 1466.63,
+            "yoy": 0,
+            "share": 14.6
+          },
+          "GB": {
+            "value_usd": 1572.79,
+            "yoy": 0,
+            "share": 15.7
+          },
+          "JP": {
+            "value_usd": 1592.27,
+            "yoy": 0,
+            "share": 15.9
+          },
+          "AU": {
+            "value_usd": 600.25,
+            "yoy": 0,
+            "share": 6.0
+          },
+          "KR": {
+            "value_usd": 379.08,
+            "yoy": 0,
+            "share": 3.8
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "汽车用品、电子及工具设备",
+      "l1_en": "Auto Accessories, Electronics & Tools",
+      "l1_slug": "汽车用品-电子及工具设备",
+      "l2_count": 9,
+      "l3_count": 102,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 13950.0,
+          "total_kg": 0,
+          "yoy_growth": 10.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "外部配件",
+              "name_en": "Exterior Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "户外及越野配件",
+              "name_en": "Recovery & Off-road Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "汽车互联类产品",
+              "name_en": "Automobile interconnected products",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "汽车养护和清洁",
+              "name_en": "Car Care & Cleanings",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "汽车内饰件",
+              "name_en": "Interior Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "液体及化学品",
+              "name_en": "Fluid & Chemicals",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "车用电子",
+              "name_en": "Auto Electronics",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "车辆工具",
+              "name_en": "Vehicle Tools",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "车辆设备",
+              "name_en": "Vehicle Equipment",
+              "total_usd": 1550.0,
+              "share_pct": 11.1
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 824.49,
+            "yoy": 0,
+            "share": 18.0
+          },
+          "DE": {
+            "value_usd": 444.33,
+            "yoy": 0,
+            "share": 9.7
+          },
+          "GB": {
+            "value_usd": 832.95,
+            "yoy": 0,
+            "share": 18.2
+          },
+          "JP": {
+            "value_usd": 501.39,
+            "yoy": 0,
+            "share": 11.0
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 314.73,
+            "yoy": 0,
+            "share": 6.9
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 1657.62,
+            "yoy": 0,
+            "share": 36.2
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "汽车零配件",
+      "l1_en": "Auto Parts & Accessories",
+      "l1_slug": "汽车零配件",
+      "l2_count": 20,
+      "l3_count": 137,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 37041.0,
+          "total_kg": 0,
+          "yoy_growth": 9.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "新能源汽车零部件及配件",
+              "name_en": "New Energy Vehicle Parts & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 10.9
+            },
+            {
+              "name_cn": "汽车照明系统",
+              "name_en": "Auto Lighting Systems",
+              "total_usd": 4047.0,
+              "share_pct": 10.9
+            },
+            {
+              "name_cn": "汽车电器系统",
+              "name_en": "Auto Electrical Systems",
+              "total_usd": 4047.0,
+              "share_pct": 10.9
+            },
+            {
+              "name_cn": "汽车引擎",
+              "name_en": "Auto Engine Systems",
+              "total_usd": 1650.0,
+              "share_pct": 4.5
+            },
+            {
+              "name_cn": "公交汽车零部件及配件",
+              "name_en": "Bus Parts & Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "内饰配件系统",
+              "name_en": "Interior Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "冷却系统",
+              "name_en": "Cooling System",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "卡车零部件",
+              "name_en": "Truck Parts & Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "摩托车零部件及配件",
+              "name_en": "Motorcycle Parts & Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车传动系统",
+              "name_en": "Auto Transmission Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车制动系统",
+              "name_en": "Auto Brake Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车悬架系统",
+              "name_en": "Auto Suspension Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车改装零件",
+              "name_en": "Auto Performance Parts",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车覆盖件系统",
+              "name_en": "Auto Body Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "汽车转向系统",
+              "name_en": "Auto Steering Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "空调系统",
+              "name_en": "Air Conditioning Systems",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "航空零部件及配件",
+              "name_en": "Aviation Parts & Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "船用零部件及配件",
+              "name_en": "Marine Parts & Accessories",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            },
+            {
+              "name_cn": "通用零部件",
+              "name_en": "Universal Parts",
+              "total_usd": 1550.0,
+              "share_pct": 4.2
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 2548.78,
+            "yoy": 0,
+            "share": 19.1
+          },
+          "DE": {
+            "value_usd": 1237.73,
+            "yoy": 0,
+            "share": 9.3
+          },
+          "GB": {
+            "value_usd": 1688.31,
+            "yoy": 0,
+            "share": 12.7
+          },
+          "JP": {
+            "value_usd": 1849.62,
+            "yoy": 0,
+            "share": 13.9
+          },
+          "AU": {
+            "value_usd": 215.95,
+            "yoy": 0,
+            "share": 1.6
+          },
+          "KR": {
+            "value_usd": 1128.23,
+            "yoy": 0,
+            "share": 8.5
+          },
+          "IN": {
+            "value_usd": 739.27,
+            "yoy": 0,
+            "share": 5.5
+          },
+          "VN": {
+            "value_usd": 737.83,
+            "yoy": 0,
+            "share": 5.5
+          },
+          "MX": {
+            "value_usd": 2813.28,
+            "yoy": 0,
+            "share": 21.1
+          },
+          "AE": {
+            "value_usd": 334.79,
+            "yoy": 0,
+            "share": 2.5
+          },
+          "CA": {
+            "value_usd": 4.65,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.1
+          },
+          "FR": {
+            "value_usd": 6.72,
+            "yoy": 0,
+            "share": 0.1
+          },
+          "BR": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 4.31,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "消费电子",
+      "l1_en": "Consumer Electronics",
+      "l1_slug": "消费电子",
+      "l2_count": 16,
+      "l3_count": 171,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 58723.0,
+          "total_kg": 0,
+          "yoy_growth": 8.7,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "二手电子产品",
+              "name_en": "Used Electronics",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "便携式音视频与配件",
+              "name_en": "Portable Audio, Video & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "元宇宙硬件和软件",
+              "name_en": "VR, AR, MR Hardware & Software",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "充电器，电池和电源",
+              "name_en": "Chargers, Batteries & Power Supplies",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "手机与配件",
+              "name_en": "Mobile Phone & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "手机及电脑维修零部件",
+              "name_en": "Mobile Phone & Computer Repair Parts",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "扬声器及配件",
+              "name_en": "Speakers & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "投影及展示设备",
+              "name_en": "Projectors & Presentation Equipments",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "智能电子",
+              "name_en": "Smart Electronics",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "电子游戏及配件",
+              "name_en": "Video Games & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "电视接收器及配件",
+              "name_en": "TV Receivers & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "电视机，家用音频、视频设备及配件",
+              "name_en": "Television, Home Audio, Video & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "线材及常用零配件",
+              "name_en": "Cables & Commonly Used Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "耳塞和耳机",
+              "name_en": "Earphone & Headphone & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "计算机软硬件",
+              "name_en": "Computer Hardware & Software",
+              "total_usd": 1650.0,
+              "share_pct": 2.8
+            },
+            {
+              "name_cn": "相机，无人机配件",
+              "name_en": "Camera, Photo & Accessories",
+              "total_usd": 415.0,
+              "share_pct": 0.7
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 4207.96,
+            "yoy": 0,
+            "share": 17.7
+          },
+          "DE": {
+            "value_usd": 1903.3,
+            "yoy": 0,
+            "share": 8.0
+          },
+          "GB": {
+            "value_usd": 1403.43,
+            "yoy": 0,
+            "share": 5.9
+          },
+          "JP": {
+            "value_usd": 4189.59,
+            "yoy": 0,
+            "share": 17.6
+          },
+          "AU": {
+            "value_usd": 989.25,
+            "yoy": 0,
+            "share": 4.2
+          },
+          "KR": {
+            "value_usd": 2426.49,
+            "yoy": 0,
+            "share": 10.2
+          },
+          "IN": {
+            "value_usd": 3465.33,
+            "yoy": 0,
+            "share": 14.6
+          },
+          "VN": {
+            "value_usd": 3427.11,
+            "yoy": 0,
+            "share": 14.4
+          },
+          "MX": {
+            "value_usd": 220.97,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "AE": {
+            "value_usd": 1542.59,
+            "yoy": 0,
+            "share": 6.5
+          },
+          "CA": {
+            "value_usd": 4.65,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 6.72,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 4.31,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "灯具照明",
+      "l1_en": "Lights & Lighting",
+      "l1_slug": "灯具照明",
+      "l2_count": 10,
+      "l3_count": 92,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 12354.0,
+          "total_kg": 0,
+          "yoy_growth": 6.0,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "灯泡、灯管",
+              "name_en": "Lighting Bulbs & Tubes",
+              "total_usd": 4047.0,
+              "share_pct": 32.8
+            },
+            {
+              "name_cn": "专业照明",
+              "name_en": "Professional Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "商业及工业照明",
+              "name_en": "Commercial & Industrial Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "太阳能照明",
+              "name_en": "Solar lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "室内照明",
+              "name_en": "Indoor Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "户外照明",
+              "name_en": "Outdoor Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "景观灯",
+              "name_en": "Landscape Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "智能照明",
+              "name_en": "Smart lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "灯饰配件",
+              "name_en": "Lighting Accessories",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "节日照明",
+              "name_en": "Holiday Lighting",
+              "total_usd": 923.0,
+              "share_pct": 7.5
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 2487.02,
+            "yoy": 0,
+            "share": 37.5
+          },
+          "DE": {
+            "value_usd": 843.63,
+            "yoy": 0,
+            "share": 12.7
+          },
+          "GB": {
+            "value_usd": 821.93,
+            "yoy": 0,
+            "share": 12.4
+          },
+          "JP": {
+            "value_usd": 515.32,
+            "yoy": 0,
+            "share": 7.8
+          },
+          "AU": {
+            "value_usd": 649.81,
+            "yoy": 0,
+            "share": 9.8
+          },
+          "KR": {
+            "value_usd": 178.22,
+            "yoy": 0,
+            "share": 2.7
+          },
+          "IN": {
+            "value_usd": 258.3,
+            "yoy": 0,
+            "share": 3.9
+          },
+          "VN": {
+            "value_usd": 253.66,
+            "yoy": 0,
+            "share": 3.8
+          },
+          "MX": {
+            "value_usd": 24.04,
+            "yoy": 0,
+            "share": 0.4
+          },
+          "AE": {
+            "value_usd": 159.3,
+            "yoy": 0,
+            "share": 2.4
+          },
+          "CA": {
+            "value_usd": 323.91,
+            "yoy": 0,
+            "share": 4.9
+          },
+          "SA": {
+            "value_usd": 77.67,
+            "yoy": 0,
+            "share": 1.2
+          },
+          "FR": {
+            "value_usd": 14.04,
+            "yoy": 0,
+            "share": 0.2
+          },
+          "BR": {
+            "value_usd": 8.55,
+            "yoy": 0,
+            "share": 0.1
+          },
+          "ID": {
+            "value_usd": 9.0,
+            "yoy": 0,
+            "share": 0.1
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "物料搬运",
+      "l1_en": "Material Handling",
+      "l1_slug": "物料搬运",
+      "l2_count": 3,
+      "l3_count": 18,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 4950.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "仓储",
+              "name_en": "Warehousing",
+              "total_usd": 1650.0,
+              "share_pct": 33.3
+            },
+            {
+              "name_cn": "起重升降",
+              "name_en": "Lifting, Pulling & Positioning",
+              "total_usd": 1650.0,
+              "share_pct": 33.3
+            },
+            {
+              "name_cn": "运输",
+              "name_en": "Transporting",
+              "total_usd": 1650.0,
+              "share_pct": 33.3
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1108.02,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 379.68,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 21.69,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 477.63,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 15.15,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 319.65,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 20.28,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 13.17,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 12.33,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 16.17,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 13.95,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 20.28,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 20.16,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 12.33,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 12.93,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "环保",
+      "l1_en": "Environmental Protection",
+      "l1_slug": "环保",
+      "l2_count": 1,
+      "l3_count": 1,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 1650.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "回收",
+              "name_en": "Recycling",
+              "total_usd": 1650.0,
+              "share_pct": 100.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 369.34,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 126.56,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 7.23,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 159.21,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 5.05,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 106.55,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 4.39,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 5.39,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 4.65,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 6.72,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 4.31,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "珠宝眼镜手表及配饰",
+      "l1_en": "Jewelry, Eyewear, Watches & Accessories",
+      "l1_slug": "珠宝眼镜手表及配饰",
+      "l2_count": 9,
+      "l3_count": 59,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 830.0,
+          "total_kg": 0,
+          "yoy_growth": 9.2,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "眼镜",
+              "name_en": "Eyewear",
+              "total_usd": 415.0,
+              "share_pct": 50.0
+            },
+            {
+              "name_cn": "眼镜配件",
+              "name_en": "Eyewear Accessories",
+              "total_usd": 415.0,
+              "share_pct": 50.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 161.2,
+            "yoy": 0,
+            "share": 33.7
+          },
+          "DE": {
+            "value_usd": 94.36,
+            "yoy": 0,
+            "share": 19.7
+          },
+          "GB": {
+            "value_usd": 59.32,
+            "yoy": 0,
+            "share": 12.4
+          },
+          "JP": {
+            "value_usd": 83.0,
+            "yoy": 0,
+            "share": 17.4
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "IN": {
+            "value_usd": 80.38,
+            "yoy": 0,
+            "share": 16.8
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "电子元器件、配件及通讯",
+      "l1_en": "Electronic Components, Accessories & Telecom",
+      "l1_slug": "电子元器件-配件及通讯",
+      "l2_count": 17,
+      "l3_count": 157,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 68799.0,
+          "total_kg": 0,
+          "yoy_growth": 8.9,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "二极管、晶体管和晶闸管",
+              "name_en": "Discrete Semiconductors",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "传感器",
+              "name_en": "Sensors",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "射频，微波和 RFID",
+              "name_en": "RF, Microwave and RFID",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "开发系统",
+              "name_en": "Development Boards, Electronic Modules and Kits",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "无源元件",
+              "name_en": "Passive Components",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "无线及物联网",
+              "name_en": "Wireless & IoT Module and Products",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "显示屏、数码标识、光电子",
+              "name_en": "Displays, Signage and Optoelectronics",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "电声器件与产品",
+              "name_en": "Audio Components and Products",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "电子配件及用品",
+              "name_en": "Electronic Accessories & Supplies",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "电源",
+              "name_en": "Power Supplies",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "电源管理及电路保护",
+              "name_en": "Circuit Protection",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "电路板及组装",
+              "name_en": "PCB & PCBA",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "继电器",
+              "name_en": "Relays",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "连接器及配件",
+              "name_en": "Connectors, Terminals & Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "通讯",
+              "name_en": "Telecommunications",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "隔离器",
+              "name_en": "Isolators",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            },
+            {
+              "name_cn": "集成电路",
+              "name_en": "Integrated Circuits",
+              "total_usd": 4047.0,
+              "share_pct": 5.9
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 4563.31,
+            "yoy": 0,
+            "share": 16.5
+          },
+          "DE": {
+            "value_usd": 2100.18,
+            "yoy": 0,
+            "share": 7.6
+          },
+          "GB": {
+            "value_usd": 1659.37,
+            "yoy": 0,
+            "share": 6.0
+          },
+          "JP": {
+            "value_usd": 4843.64,
+            "yoy": 0,
+            "share": 17.5
+          },
+          "AU": {
+            "value_usd": 1195.1,
+            "yoy": 0,
+            "share": 4.3
+          },
+          "KR": {
+            "value_usd": 2817.07,
+            "yoy": 0,
+            "share": 10.2
+          },
+          "IN": {
+            "value_usd": 4150.89,
+            "yoy": 0,
+            "share": 15.0
+          },
+          "VN": {
+            "value_usd": 4156.16,
+            "yoy": 0,
+            "share": 15.1
+          },
+          "MX": {
+            "value_usd": 263.33,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "AE": {
+            "value_usd": 1866.6,
+            "yoy": 0,
+            "share": 6.8
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "电气设备及用品",
+      "l1_en": "Electrical Equipment & Supplies",
+      "l1_slug": "电气设备及用品",
+      "l2_count": 11,
+      "l3_count": 78,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 44517.0,
+          "total_kg": 0,
+          "yoy_growth": 8.9,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "中高压配电产品",
+              "name_en": "Medium & High Voltage Products",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "低压配电产品",
+              "name_en": "Low Voltage Products",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "发电机",
+              "name_en": "Generators",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "工业控制",
+              "name_en": "Industrial Controls",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "开关",
+              "name_en": "Switches",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "电工仪表",
+              "name_en": "Electrical Instruments",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "电气用品",
+              "name_en": "Electrical Supplies",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "电源",
+              "name_en": "Power Supplies",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "电线、电缆与电缆组件",
+              "name_en": "Wires, Cables & Cable Assemblies",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "连接器及终端器",
+              "name_en": "Connectors & Terminals",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            },
+            {
+              "name_cn": "配线器材",
+              "name_en": "Wiring Accessories",
+              "total_usd": 4047.0,
+              "share_pct": 9.1
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 2952.73,
+            "yoy": 0,
+            "share": 16.5
+          },
+          "DE": {
+            "value_usd": 1358.94,
+            "yoy": 0,
+            "share": 7.6
+          },
+          "GB": {
+            "value_usd": 1073.71,
+            "yoy": 0,
+            "share": 6.0
+          },
+          "JP": {
+            "value_usd": 3134.12,
+            "yoy": 0,
+            "share": 17.5
+          },
+          "AU": {
+            "value_usd": 773.3,
+            "yoy": 0,
+            "share": 4.3
+          },
+          "KR": {
+            "value_usd": 1822.81,
+            "yoy": 0,
+            "share": 10.2
+          },
+          "IN": {
+            "value_usd": 2685.87,
+            "yoy": 0,
+            "share": 15.0
+          },
+          "VN": {
+            "value_usd": 2689.28,
+            "yoy": 0,
+            "share": 15.1
+          },
+          "MX": {
+            "value_usd": 170.39,
+            "yoy": 0,
+            "share": 1.0
+          },
+          "AE": {
+            "value_usd": 1207.8,
+            "yoy": 0,
+            "share": 6.8
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "礼品与工艺品",
+      "l1_en": "Gifts & Crafts",
+      "l1_slug": "礼品与工艺品",
+      "l2_count": 10,
+      "l3_count": 67,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 4080.0,
+          "total_kg": 0,
+          "yoy_growth": 6.0,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "促销礼品&商务礼品",
+              "name_en": "Promotional & Business Gifts",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "其他礼品",
+              "name_en": "Other Gifts",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "工艺品",
+              "name_en": "Crafts",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "手工艺和DIY",
+              "name_en": "Handicraft and DIY",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "挂绳",
+              "name_en": "Lanyard",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "旗帜，横幅&展示设备",
+              "name_en": "Flags, Banners & Display Accessories",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "礼品礼盒套装",
+              "name_en": "Gift Sets",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "节庆礼品用品",
+              "name_en": "Festive Gifts",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "贴纸",
+              "name_en": "Stickers",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            },
+            {
+              "name_cn": "钥匙扣",
+              "name_en": "Key Chains",
+              "total_usd": 408.0,
+              "share_pct": 10.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1192.2,
+            "yoy": 0,
+            "share": 47.4
+          },
+          "DE": {
+            "value_usd": 356.1,
+            "yoy": 0,
+            "share": 14.1
+          },
+          "GB": {
+            "value_usd": 431.7,
+            "yoy": 0,
+            "share": 17.2
+          },
+          "JP": {
+            "value_usd": 296.7,
+            "yoy": 0,
+            "share": 11.8
+          },
+          "AU": {
+            "value_usd": 240.1,
+            "yoy": 0,
+            "share": 9.5
+          },
+          "KR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "箱包",
+      "l1_en": "Luggage & Bags",
+      "l1_slug": "箱包",
+      "l2_count": 9,
+      "l3_count": 54,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 3042.0,
+          "total_kg": 0,
+          "yoy_growth": 5.6,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "女士包袋",
+              "name_en": "Women's Bags",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "户外用箱包",
+              "name_en": "Outdoor Use Bags & Cases",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "特殊用途箱包",
+              "name_en": "Special Purpose Bags & Cases",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "生活类包袋",
+              "name_en": "Lifestyle Bags",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "男士包袋",
+              "name_en": "Men's Bags",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "箱包配件",
+              "name_en": "Bag，Luggage Parts & Accessories",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "背包",
+              "name_en": "Backpacks",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "行李箱及旅行包",
+              "name_en": "Luggage & Travel Bags",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            },
+            {
+              "name_cn": "钱包和卡包",
+              "name_en": "Wallets & Holders",
+              "total_usd": 338.0,
+              "share_pct": 11.1
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 752.85,
+            "yoy": 0,
+            "share": 41.7
+          },
+          "DE": {
+            "value_usd": 182.52,
+            "yoy": 0,
+            "share": 10.1
+          },
+          "GB": {
+            "value_usd": 258.21,
+            "yoy": 0,
+            "share": 14.3
+          },
+          "JP": {
+            "value_usd": 399.24,
+            "yoy": 0,
+            "share": 22.1
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 213.3,
+            "yoy": 0,
+            "share": 11.8
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "美妆",
+      "l1_en": "Beauty & Cosmetics",
+      "l1_slug": "美妆",
+      "l2_count": 12,
+      "l3_count": 84,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "设计服务",
+      "l1_en": "Design Services",
+      "l1_slug": "设计服务",
+      "l2_count": 5,
+      "l3_count": 31,
+      "customs_2025": null,
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "运动及娱乐",
+      "l1_en": "Sports & Entertainment",
+      "l1_slug": "运动及娱乐",
+      "l2_count": 17,
+      "l3_count": 136,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 7262.0,
+          "total_kg": 0,
+          "yoy_growth": 7.0,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "自行车",
+              "name_en": "Cycling",
+              "total_usd": 1550.0,
+              "share_pct": 21.3
+            },
+            {
+              "name_cn": "人造草坪&运动场设备、地板",
+              "name_en": "Artificial Grass&Sports Flooring&Sports Court Equipment",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "健身及塑形",
+              "name_en": "Fitness & Body Building",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "冰雪运动",
+              "name_en": "Winter Sports",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "垂钓",
+              "name_en": "Fishing",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "室内娱乐运动",
+              "name_en": "Indoor Recreational Sports",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "户外轻奢运动",
+              "name_en": "Outdoor Affordable Luxury Sports",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "水上运动",
+              "name_en": "Water Sports",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "游乐园设施",
+              "name_en": "Amusement Park Facilities",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "滑板车",
+              "name_en": "Scooters",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "球类运动装备",
+              "name_en": "Ball Sports Equipments",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "船舶&游艇&飞机&房车",
+              "name_en": "Luxury Travel Equipments",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "运动护具和康复用品",
+              "name_en": "Sports Safety&Rehabilitation",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "运动鞋、箱包及配件",
+              "name_en": "Sports Shoes, Bags & Accessories",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            },
+            {
+              "name_cn": "高尔夫",
+              "name_en": "Golf",
+              "total_usd": 408.0,
+              "share_pct": 5.6
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 1760.69,
+            "yoy": 0,
+            "share": 43.7
+          },
+          "DE": {
+            "value_usd": 547.91,
+            "yoy": 0,
+            "share": 13.6
+          },
+          "GB": {
+            "value_usd": 696.93,
+            "yoy": 0,
+            "share": 17.3
+          },
+          "JP": {
+            "value_usd": 471.09,
+            "yoy": 0,
+            "share": 11.7
+          },
+          "AU": {
+            "value_usd": 336.14,
+            "yoy": 0,
+            "share": 8.3
+          },
+          "KR": {
+            "value_usd": 34.97,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 184.18,
+            "yoy": 0,
+            "share": 4.6
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "金属与合金",
+      "l1_en": "Metals & Alloys",
+      "l1_slug": "金属与合金",
+      "l2_count": 7,
+      "l3_count": 37,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 2016.0,
+          "total_kg": 0,
+          "yoy_growth": 11.9,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "合金钢",
+              "name_en": "Alloy Steel",
+              "total_usd": 700.0,
+              "share_pct": 34.7
+            },
+            {
+              "name_cn": "碳钢",
+              "name_en": "Carbon Steel",
+              "total_usd": 700.0,
+              "share_pct": 34.7
+            },
+            {
+              "name_cn": "不锈钢",
+              "name_en": "Stainless Steel",
+              "total_usd": 136.0,
+              "share_pct": 6.7
+            },
+            {
+              "name_cn": "金属丝网",
+              "name_en": "Wire Mesh",
+              "total_usd": 136.0,
+              "share_pct": 6.7
+            },
+            {
+              "name_cn": "金属和金属制品",
+              "name_en": "Metals & Metal Products",
+              "total_usd": 136.0,
+              "share_pct": 6.7
+            },
+            {
+              "name_cn": "铁和铁制品",
+              "name_en": "Iron & Iron Products",
+              "total_usd": 136.0,
+              "share_pct": 6.7
+            },
+            {
+              "name_cn": "有色金属",
+              "name_en": "Non-ferrous Metal",
+              "total_usd": 72.0,
+              "share_pct": 3.6
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 80.97,
+            "yoy": 0,
+            "share": 6.7
+          },
+          "DE": {
+            "value_usd": 31.47,
+            "yoy": 0,
+            "share": 2.6
+          },
+          "GB": {
+            "value_usd": 35.95,
+            "yoy": 0,
+            "share": 3.0
+          },
+          "JP": {
+            "value_usd": 54.88,
+            "yoy": 0,
+            "share": 4.5
+          },
+          "AU": {
+            "value_usd": 64.47,
+            "yoy": 0,
+            "share": 5.3
+          },
+          "KR": {
+            "value_usd": 260.88,
+            "yoy": 0,
+            "share": 21.4
+          },
+          "IN": {
+            "value_usd": 171.06,
+            "yoy": 0,
+            "share": 14.0
+          },
+          "VN": {
+            "value_usd": 240.97,
+            "yoy": 0,
+            "share": 19.8
+          },
+          "MX": {
+            "value_usd": 17.26,
+            "yoy": 0,
+            "share": 1.4
+          },
+          "AE": {
+            "value_usd": 58.02,
+            "yoy": 0,
+            "share": 4.8
+          },
+          "CA": {
+            "value_usd": 23.96,
+            "yoy": 0,
+            "share": 2.0
+          },
+          "SA": {
+            "value_usd": 81.87,
+            "yoy": 0,
+            "share": 6.7
+          },
+          "FR": {
+            "value_usd": 28.09,
+            "yoy": 0,
+            "share": 2.3
+          },
+          "BR": {
+            "value_usd": 17.26,
+            "yoy": 0,
+            "share": 1.4
+          },
+          "ID": {
+            "value_usd": 50.45,
+            "yoy": 0,
+            "share": 4.1
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "面料及纺织原材料",
+      "l1_en": "Fabrics & Textile Raw Materials",
+      "l1_slug": "面料及纺织原材料",
+      "l2_count": 7,
+      "l3_count": 60,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 1650.0,
+          "total_kg": 0,
+          "yoy_growth": 1.4,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "纺织配件",
+              "name_en": "Textile Accessories",
+              "total_usd": 1650.0,
+              "share_pct": 100.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 369.34,
+            "yoy": 0,
+            "share": 45.0
+          },
+          "DE": {
+            "value_usd": 126.56,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 7.23,
+            "yoy": 0,
+            "share": 0.9
+          },
+          "JP": {
+            "value_usd": 159.21,
+            "yoy": 0,
+            "share": 19.4
+          },
+          "AU": {
+            "value_usd": 5.05,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "KR": {
+            "value_usd": 106.55,
+            "yoy": 0,
+            "share": 13.0
+          },
+          "IN": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "VN": {
+            "value_usd": 4.39,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "MX": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "AE": {
+            "value_usd": 5.39,
+            "yoy": 0,
+            "share": 0.7
+          },
+          "CA": {
+            "value_usd": 4.65,
+            "yoy": 0,
+            "share": 0.6
+          },
+          "SA": {
+            "value_usd": 6.76,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "FR": {
+            "value_usd": 6.72,
+            "yoy": 0,
+            "share": 0.8
+          },
+          "BR": {
+            "value_usd": 4.11,
+            "yoy": 0,
+            "share": 0.5
+          },
+          "ID": {
+            "value_usd": 4.31,
+            "yoy": 0,
+            "share": 0.5
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "鞋靴及配饰",
+      "l1_en": "Footwear & Accessories",
+      "l1_slug": "鞋靴及配饰",
+      "l2_count": 6,
+      "l3_count": 30,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 2610.0,
+          "total_kg": 0,
+          "yoy_growth": 3.6,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "功能鞋",
+              "name_en": "Functional Shoes",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "女鞋",
+              "name_en": "Women's Shoes",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "户外用鞋",
+              "name_en": "Outdoor Shoes",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "男鞋",
+              "name_en": "Men's Shoes",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "鞋类护理和服务",
+              "name_en": "Shoe Care & Services",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            },
+            {
+              "name_cn": "鞋靴零配件",
+              "name_en": "Shoe Parts & Accessories",
+              "total_usd": 435.0,
+              "share_pct": 16.7
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 643.2,
+            "yoy": 0,
+            "share": 52.0
+          },
+          "DE": {
+            "value_usd": 190.92,
+            "yoy": 0,
+            "share": 15.4
+          },
+          "GB": {
+            "value_usd": 229.08,
+            "yoy": 0,
+            "share": 18.5
+          },
+          "JP": {
+            "value_usd": 174.0,
+            "yoy": 0,
+            "share": 14.1
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    },
+    {
+      "l1_cn": "食品及饮料",
+      "l1_en": "Food & Beverage",
+      "l1_slug": "食品及饮料",
+      "l2_count": 16,
+      "l3_count": 83,
+      "customs_2025": {
+        "china_export": {
+          "total_usd": 350.0,
+          "total_kg": 0,
+          "yoy_growth": 3.3,
+          "data_quality": "complete",
+          "l2_breakdown": [
+            {
+              "name_cn": "食品添加剂",
+              "name_en": "Food Ingredients",
+              "total_usd": 210.0,
+              "share_pct": 60.0
+            },
+            {
+              "name_cn": "海鲜",
+              "name_en": "Seafood",
+              "total_usd": 140.0,
+              "share_pct": 40.0
+            }
+          ]
+        },
+        "imports_from_china": {
+          "US": {
+            "value_usd": 52.74,
+            "yoy": 0,
+            "share": 30.4
+          },
+          "DE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "GB": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "JP": {
+            "value_usd": 71.82,
+            "yoy": 0,
+            "share": 41.3
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 49.13,
+            "yoy": 0,
+            "share": 28.3
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "AE": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "CA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "SA": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "FR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "BR": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "ID": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          }
+        }
+      },
+      "social_media_trends": null,
+      "policy_updates": null
+    }
+  ]
+}
