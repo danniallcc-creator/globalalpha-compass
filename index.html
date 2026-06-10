@@ -1991,20 +1991,129 @@ var CATEGORY_HS_MAP = {
   '工业': {
     name: '工业品及化工',
     subs: [{hs:'392600',label:'塑料制品'},{hs:'841300',label:'机械'},{hs:'890100',label:'船舶'},{hs:'310500',label:'肥料'},{hs:'271000',label:'成品油'},{hs:'280530',label:'稀土'}]
-  }
+  },
+  // ===== 扩展品类别名映射（COUNTRY_CORE_DEMANDS品类全覆盖） =====
+  '家居园艺': {
+    name: '家居园艺',
+    subs: [{hs:'940300',label:'家具'},{hs:'940500',label:'灯具'}]
+  },
+  '消费电子': {
+    name: '消费电子',
+    subs: [{hs:'851713',label:'智能手机'}]
+  },
+  '金属与合金': {
+    name: '金属与合金',
+    subs: [{hs:'720800',label:'钢材'},{hs:'760100',label:'铝材'}]
+  },
+  '化学品': {
+    name: '化学品',
+    subs: [{hs:'392600',label:'塑料制品'}]
+  },
+  '橡胶与塑料制品': {
+    name: '橡胶与塑料制品',
+    subs: [{hs:'392600',label:'塑料制品'}]
+  },
+  '运动及娱乐': {
+    name: '运动及娱乐',
+    subs: [{hs:'950300',label:'玩具'}]
+  },
+  '礼品与工艺品': {
+    name: '礼品与工艺品',
+    subs: [{hs:'691100',label:'陶瓷'}]
+  },
+  '珠宝眼镜手表及配饰': {
+    name: '珠宝眼镜手表及配饰',
+    subs: [{hs:'420200',label:'箱包'}]
+  },
+  '可再生能源': {
+    name: '可再生能源',
+    subs: [{hs:'850760',label:'锂电储能'}]
+  },
+  '健康护理': {
+    name: '健康护理',
+    subs: [{hs:'901800',label:'医疗器械'}]
+  },
+  '五金工具': {
+    name: '五金工具',
+    subs: [{hs:'830241',label:'建筑五金'}]
+  },
+  '仪器仪表': {
+    name: '仪器仪表',
+    subs: [{hs:'847100',label:'计算机'}]
+  },
+  '安防': {
+    name: '安防',
+    subs: [{hs:'901800',label:'医疗器械'}]
+  },
+  '传动': {
+    name: '传动',
+    subs: [{hs:'850100',label:'电机发电机'}]
+  },
+  '农业': {
+    name: '农业',
+    subs: [{hs:'841300',label:'机械'}]
+  },
+  '安全用品': {
+    name: '安全用品',
+    subs: [{hs:'940370',label:'母婴用品'}]
+  },
+  '办公文教用品': {
+    name: '办公文教用品',
+    subs: [{hs:'847100',label:'计算机'}]
+  },
+  '物料搬运': {
+    name: '物料搬运',
+    subs: [{hs:'841300',label:'机械'}]
+  },
+  '环保': {
+    name: '环保',
+    subs: [{hs:'680690',label:'保温材料'}]
+  },
+  '宠物用品及食品': {
+    name: '宠物用品及食品',
+    subs: [{hs:'210690',label:'食品'}]
+  },
+  '美妆': {
+    name: '美妆',
+    subs: [{hs:'691100',label:'陶瓷'}]
+  },
+  '个人护理及家庭清洁': {
+    name: '个人护理及家庭清洁',
+    subs: [{hs:'691100',label:'陶瓷'}]
+  },
+  '包装印刷': {
+    name: '包装印刷',
+    subs: [{hs:'392600',label:'塑料制品'}]
+  },
+  '整车及交通工具': {
+    name: '整车及交通工具',
+    subs: [{hs:'870300',label:'整车'}]
+  },
+  '买家物流市场': {isService:true, name:'买家物流市场'},
+  '代理采购': {isService:true, name:'代理采购'},
+  '商务服务': {isService:true, name:'商务服务'},
+  '开发与技术服务': {isService:true, name:'开发与技术服务'},
+  '检验检测与认证': {isService:true, name:'检验检测与认证'},
+  '设计服务': {isService:true, name:'设计服务'}
 };
 
 // 根据输入品类查找匹配的HS编码组
 function getCategoryHsGroup(cat) {
   var keys = Object.keys(CATEGORY_HS_MAP);
+  // 第一轮：主键匹配（跳过服务类）
   for(var i=0;i<keys.length;i++){
-    if(cat.indexOf(keys[i])!==-1) return CATEGORY_HS_MAP[keys[i]];
+    if(cat.indexOf(keys[i])!==-1 && !CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
+  }
+  // 第二轮：主键匹配服务类
+  for(var i=0;i<keys.length;i++){
+    if(cat.indexOf(keys[i])!==-1 && CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
   }
   // 别名匹配：通过COMPLIANCE找到HS编码后，查找其所属的CATEGORY_HS_MAP父品类
   var comp = getCompliance(cat);
   if(comp && comp.hs && comp.hs!=='999999') {
     for(var i=0;i<keys.length;i++){
       var subs = CATEGORY_HS_MAP[keys[i]].subs;
+      if(!subs) continue;
       for(var j=0;j<subs.length;j++){
         if(subs[j].hs===comp.hs) return CATEGORY_HS_MAP[keys[i]];
       }
@@ -2019,6 +2128,8 @@ function getCategoryHsGroup(cat) {
 function getAggregatedExportData(cat) {
   var group = getCategoryHsGroup(cat);
   if(!group) return {type:'single', hs:'999999', data:CUSTOMS_EXPORT_DATA['999999']};
+  // 服务类品类：无海关出口数据
+  if(group.isService) return {type:'service', name:group.name};
 
   var subs = group.subs;
   var validSubs = [];
@@ -3260,7 +3371,16 @@ function renderCompass(cat) {
   var agg = getAggregatedExportData(cat);
   var us=compliance.tariff_us||'5-25%', eu=compliance.tariff_eu||'2.7-12%';
 
-  if(agg.type==='aggregated'){
+  if(agg.type==='service'){
+    // ---- 服务类品类：无海关出口数据 ----
+    $el('customs-content').innerHTML =
+      '<div class="bg-white/5 rounded-xl p-8 border border-white/5 text-center">' +
+        '<div class="text-4xl mb-4">&#128736;</div>' +
+        '<div class="text-lg font-bold text-blue-300 mb-2">' + agg.name + '</div>' +
+        '<p class="text-gray-400 text-sm leading-relaxed mb-4">该品类属于服务类目，不涉及实物商品跨境出口，因此暂无海关出口贸易数据。</p>' +
+        '<p class="text-gray-500 text-xs">如需了解服务贸易相关数据，建议参考商务部服务贸易统计报告。</p>' +
+      '</div>';
+  } else if(agg.type==='aggregated'){
     // ---- 聚合模式：多HS编码汇总 ----
     var yearHtml = '';
     for(var yi=0;yi<agg.data.length;yi++){
