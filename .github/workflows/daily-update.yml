@@ -1,4 +1,4 @@
-name: Daily Data Update (Trending + Categories + Trade News + Risk)
+name: Daily Data Update (Trending + Categories + Social + Policy + Trade)
 
 on:
   schedule:
@@ -25,6 +25,8 @@ jobs:
         env:
           PYTHONUNBUFFERED: '1'
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+      - name: Aggregate L1 data
+        run: python scripts/aggregate_l1_data.py
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions Bot"
@@ -33,9 +35,12 @@ jobs:
           git add data/update_state.json
           git add data/_comtrade_cache.json
           git add "data/categories/"
+          git add data/social_trends.json
+          git add data/policy_updates.json
+          git add data/customs_2025_l1.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update data: trending + category batch $(date -u +%Y-%m-%d\ %H:%M)"
+            git commit -m "Update data: trending + categories + social + policy $(date -u +%Y-%m-%d\ %H:%M)"
             git push
           fi
