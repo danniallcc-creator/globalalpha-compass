@@ -1,4 +1,4 @@
-name: Daily Data Update (Trending + Trade News + Risk)
+name: Daily Data Update (Trending + Categories + Trade News + Risk)
 
 on:
   schedule:
@@ -24,14 +24,18 @@ jobs:
       - run: python scripts/fetch_trending.py
         env:
           PYTHONUNBUFFERED: '1'
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
       - name: Commit and push
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add data/trending.json
+          git add data/update_state.json
+          git add data/_comtrade_cache.json
+          git add "data/categories/"
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "📊 Update data: trending + trade news + risk $(date -u +%Y-%m-%d %H:%M)"
+            git commit -m "Update data: trending + category batch $(date -u +%Y-%m-%d\ %H:%M)"
             git push
           fi
