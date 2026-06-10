@@ -90,6 +90,9 @@ LOCAL_PLATFORMS = {
 
 SOCIAL_PLATFORMS = ['TikTok', 'Instagram', 'YouTube', 'X']
 
+# Module-level cache for X trends (avoid re-fetching per category)
+_X_TRENDS_CACHE = None
+
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
@@ -2153,127 +2156,132 @@ def fetch_social_media_trends(batch_categories):
     }
     all_cross_platform = []
 
-    for cat in batch_categories:
-        try:
-            l1_slug = cat.get('l1_slug', '')
-            l2_slug = cat.get('l2_slug', '')
-            name_en = cat.get('name_en', '')
-            name_cn = cat.get('name_cn', cat.get('l1_cn', ''))
-            keywords_en = cat.get('keywords_en', [])
-
-            if not l1_slug or not l2_slug:
-                continue
-
-            cat_data = load_category_json(l1_slug, l2_slug)
-            if cat_data is None:
-                continue
-
-            query = keywords_en[0] if keywords_en else name_en
-            if not query:
-                continue
-
-            social_trends = {}
-
-            # ---- Google Trends ----
-            try:
-                google_data = _fetch_google_social_trends(query, name_en)
-                social_trends['google'] = google_data
-                global_platform_trends['google'].extend(
-                    _enrich_for_global(google_data, name_cn or name_en)
-                )
-            except Exception as e:
-                print(f"    [WARN] Google social trends failed for {name_en}: {e}")
-                social_trends['google'] = []
-
-            time.sleep(1)
-
-            # ---- YouTube Trends ----
-            try:
-                youtube_data = _fetch_youtube_social_trends(query, name_en)
-                social_trends['youtube'] = youtube_data
-                global_platform_trends['youtube'].extend(
-                    _enrich_for_global(youtube_data, name_cn or name_en)
-                )
-            except Exception as e:
-                print(f"    [WARN] YouTube social trends failed for {name_en}: {e}")
-                social_trends['youtube'] = []
-
-            time.sleep(1)
-
-            # ---- X/Twitter ----
-            try:
-                x_data = _fetch_x_social_trends(query, name_en)
-                social_trends['x'] = x_data
-                global_platform_trends['x'].extend(
-                    _enrich_for_global(x_data, name_cn or name_en)
-                )
-            except Exception as e:
-                print(f"    [WARN] X social trends failed for {name_en}: {e}")
-                social_trends['x'] = []
-
-            time.sleep(1)
-
-            # ---- Instagram ----
-            try:
-                ig_data = _fetch_instagram_social_trends(query, name_en)
-                social_trends['instagram'] = ig_data
-                global_platform_trends['instagram'].extend(
-                    _enrich_for_global(ig_data, name_cn or name_en)
-                )
-            except Exception as e:
-                print(f"    [WARN] Instagram social trends failed for {name_en}: {e}")
-                social_trends['instagram'] = []
-
-            time.sleep(1)
-
-            # ---- TikTok ----
-            try:
-                tiktok_data = _fetch_tiktok_social_trends(query, name_en)
-                social_trends['tiktok'] = tiktok_data
-                global_platform_trends['tiktok'].extend(
-                    _enrich_for_global(tiktok_data, name_cn or name_en)
-                )
-            except Exception as e:
-                print(f"    [WARN] TikTok social trends failed for {name_en}: {e}")
-                social_trends['tiktok'] = []
-
-            # Update category JSON
-            cat_data['social_media_trends'] = social_trends
-            cat_data['last_updated'] = today_str()
-
-            if save_category_json(l1_slug, l2_slug, cat_data):
-                updated += 1
-
-            # Cross-platform signals for this category
-            cross_signals = _detect_cross_platform_signals(social_trends, name_cn or name_en)
-            all_cross_platform.extend(cross_signals)
-
-        except Exception as e:
-            errors += 1
-            print(f"    [WARN] Social media trends failed for {cat.get('name_en', '?')}: {e}")
-
-    # Save global social_trends.json
-    social_trends_global = {
-        'meta': {
-            'updated_at': datetime.now(__import__('datetime').timezone.utc).isoformat().replace('+00:00', 'Z'),
-            'date': today_str()
-        },
-        'platform_trends': {
-            platform: sorted(items, key=lambda x: x.get('growth', 0), reverse=True)[:20]
-            for platform, items in global_platform_trends.items()
-        },
-        'cross_platform_signals': sorted(
-            all_cross_platform, key=lambda x: x.get('score', 0), reverse=True
-        )[:50]
-    }
-
     try:
-        social_trends_path = os.path.join(OUTPUT_DIR, 'social_trends.json')
-        with open(social_trends_path, 'w', encoding='utf-8') as f:
-            json.dump(social_trends_global, f, ensure_ascii=False, indent=2)
-        print(f"  [OK] Global social trends saved: {social_trends_path}")
+        for cat in batch_categories:
+            try:
+                l1_slug = cat.get('l1_slug', '')
+                l2_slug = cat.get('l2_slug', '')
+                name_en = cat.get('name_en', '')
+                name_cn = cat.get('name_cn', cat.get('l1_cn', ''))
+                keywords_en = cat.get('keywords_en', [])
+
+                if not l1_slug or not l2_slug:
+                    continue
+
+                cat_data = load_category_json(l1_slug, l2_slug)
+                if cat_data is None:
+                    continue
+
+                query = keywords_en[0] if keywords_en else name_en
+                if not query:
+                    continue
+
+                social_trends = {}
+
+                # ---- Google Trends ----
+                try:
+                    google_data = _fetch_google_social_trends(query, name_en)
+                    social_trends['google'] = google_data
+                    global_platform_trends['google'].extend(
+                        _enrich_for_global(google_data, name_cn or name_en)
+                    )
+                except Exception as e:
+                    print(f"    [WARN] Google social trends failed for {name_en}: {e}")
+                    social_trends['google'] = []
+
+                time.sleep(1)
+
+                # ---- YouTube Trends ----
+                try:
+                    youtube_data = _fetch_youtube_social_trends(query, name_en)
+                    social_trends['youtube'] = youtube_data
+                    global_platform_trends['youtube'].extend(
+                        _enrich_for_global(youtube_data, name_cn or name_en)
+                    )
+                except Exception as e:
+                    print(f"    [WARN] YouTube social trends failed for {name_en}: {e}")
+                    social_trends['youtube'] = []
+
+                time.sleep(1)
+
+                # ---- X/Twitter ----
+                try:
+                    x_data = _fetch_x_social_trends(query, name_en)
+                    social_trends['x'] = x_data
+                    global_platform_trends['x'].extend(
+                        _enrich_for_global(x_data, name_cn or name_en)
+                    )
+                except Exception as e:
+                    print(f"    [WARN] X social trends failed for {name_en}: {e}")
+                    social_trends['x'] = []
+
+                time.sleep(1)
+
+                # ---- Instagram ----
+                try:
+                    ig_data = _fetch_instagram_social_trends(query, name_en)
+                    social_trends['instagram'] = ig_data
+                    global_platform_trends['instagram'].extend(
+                        _enrich_for_global(ig_data, name_cn or name_en)
+                    )
+                except Exception as e:
+                    print(f"    [WARN] Instagram social trends failed for {name_en}: {e}")
+                    social_trends['instagram'] = []
+
+                time.sleep(1)
+
+                # ---- TikTok ----
+                try:
+                    tiktok_data = _fetch_tiktok_social_trends(query, name_en)
+                    social_trends['tiktok'] = tiktok_data
+                    global_platform_trends['tiktok'].extend(
+                        _enrich_for_global(tiktok_data, name_cn or name_en)
+                    )
+                except Exception as e:
+                    print(f"    [WARN] TikTok social trends failed for {name_en}: {e}")
+                    social_trends['tiktok'] = []
+
+                # Update category JSON
+                cat_data['social_media_trends'] = social_trends
+                cat_data['last_updated'] = today_str()
+
+                if save_category_json(l1_slug, l2_slug, cat_data):
+                    updated += 1
+
+                # Cross-platform signals for this category
+                cross_signals = _detect_cross_platform_signals(social_trends, name_cn or name_en)
+                all_cross_platform.extend(cross_signals)
+
+            except Exception as e:
+                errors += 1
+                print(f"    [WARN] Social media trends failed for {cat.get('name_en', '?')}: {e}")
+
     except Exception as e:
-        print(f"  [WARN] Failed to save social_trends.json: {e}")
+        print(f"  [WARN] Social media trends loop interrupted: {e}")
+
+    finally:
+        # Save global social_trends.json (even if only partial data)
+        social_trends_global = {
+            'meta': {
+                'updated_at': datetime.now(__import__('datetime').timezone.utc).isoformat().replace('+00:00', 'Z'),
+                'date': today_str()
+            },
+            'platform_trends': {
+                platform: sorted(items, key=lambda x: x.get('growth', 0), reverse=True)[:20]
+                for platform, items in global_platform_trends.items()
+            },
+            'cross_platform_signals': sorted(
+                all_cross_platform, key=lambda x: x.get('score', 0), reverse=True
+            )[:50]
+        }
+
+        try:
+            social_trends_path = os.path.join(OUTPUT_DIR, 'social_trends.json')
+            with open(social_trends_path, 'w', encoding='utf-8') as f:
+                json.dump(social_trends_global, f, ensure_ascii=False, indent=2)
+            print(f"  [OK] Global social trends saved: {social_trends_path}")
+        except Exception as e:
+            print(f"  [WARN] Failed to save social_trends.json: {e}")
 
     print(f"  [DONE] Social media trends: {updated} updated, {errors} errors")
 
@@ -2464,10 +2472,14 @@ def _parse_volume_str(vol_str):
 
 def _fetch_x_social_trends(query, name_en):
     """X/Twitter: use existing _fetch_x_trends() infrastructure, match against category"""
+    global _X_TRENDS_CACHE
     results = []
 
     try:
-        x_keywords = _fetch_x_trends()
+        # Use cached X trends if available (avoid re-fetching per category)
+        if _X_TRENDS_CACHE is None:
+            _X_TRENDS_CACHE = _fetch_x_trends()
+        x_keywords = _X_TRENDS_CACHE
         # Match X trends against category keywords
         query_lower = query.lower()
         name_lower = name_en.lower()
@@ -2786,142 +2798,147 @@ def fetch_policy_news(batch_categories):
     global_by_category = {}
     all_articles_global = []
 
-    for cat in batch_categories:
-        try:
-            l1_slug = cat.get('l1_slug', '')
-            l2_slug = cat.get('l2_slug', '')
-            name_en = cat.get('name_en', '')
-            name_cn = cat.get('name_cn', cat.get('l1_cn', ''))
-
-            if not l1_slug or not l2_slug or not name_en:
-                continue
-
-            cat_data = load_category_json(l1_slug, l2_slug)
-            if cat_data is None:
-                continue
-
-            # Fetch policy articles
-            articles = _fetch_policy_articles(name_en, name_cn)
-
-            if articles:
-                # Classify each article
-                classified_articles = []
-                country_summary = {}
-
-                for art in articles:
-                    classified = _classify_policy_article(art, name_en)
-                    classified_articles.append(classified)
-
-                    # Aggregate by country
-                    country = classified.get('country', 'Unknown')
-                    if country not in country_summary:
-                        country_summary[country] = {
-                            'articles': [],
-                            'impacts': {'positive': 0, 'negative': 0, 'neutral': 0},
-                            'key_policies': set()
-                        }
-                    country_summary[country]['articles'].append(classified)
-                    country_summary[country]['impacts'][classified.get('impact', 'neutral')] += 1
-                    country_summary[country]['key_policies'].add(
-                        classified.get('policy_type', 'unknown')
-                    )
-
-                    # Global aggregation
-                    if country not in global_by_country:
-                        global_by_country[country] = []
-                    global_by_country[country].append({
-                        'title': classified.get('title', ''),
-                        'category': name_cn or name_en,
-                        'impact': classified.get('impact', 'neutral'),
-                        'url': classified.get('url', '')
-                    })
-
-                # Build country summary output
-                country_summary_out = {}
-                for country, data in country_summary.items():
-                    impacts = data['impacts']
-                    if impacts['negative'] > impacts['positive']:
-                        trend = 'tightening'
-                        overall_impact = 'negative'
-                    elif impacts['positive'] > impacts['negative']:
-                        trend = 'opening'
-                        overall_impact = 'positive'
-                    else:
-                        trend = 'neutral'
-                        overall_impact = 'neutral'
-
-                    country_summary_out[country] = {
-                        'trend': trend,
-                        'key_policies': list(data['key_policies'])[:5],
-                        'impact': overall_impact
-                    }
-
-                cat_data['policy_updates'] = {
-                    'articles': classified_articles,
-                    'country_summary': country_summary_out
-                }
-                cat_data['last_updated'] = today_str()
-
-                if save_category_json(l1_slug, l2_slug, cat_data):
-                    updated += 1
-
-                # Global by category
-                cat_key = name_cn or name_en
-                global_by_category[cat_key] = [
-                    {
-                        'title': a.get('title', ''),
-                        'country': a.get('country', 'Unknown'),
-                        'impact': a.get('impact', 'neutral')
-                    }
-                    for a in classified_articles[:5]
-                ]
-
-            # Rate limit
-            time.sleep(1)
-
-        except Exception as e:
-            errors += 1
-            print(f"    [WARN] Policy news failed for {cat.get('name_en', '?')}: {e}")
-
-    # Determine global policy trend
-    total_pos = 0
-    total_neg = 0
-    for country_arts in global_by_country.values():
-        for art in country_arts:
-            if art.get('impact') == 'positive':
-                total_pos += 1
-            elif art.get('impact') == 'negative':
-                total_neg += 1
-
-    if total_neg > total_pos * 1.3:
-        global_trend = 'tightening'
-    elif total_pos > total_neg * 1.3:
-        global_trend = 'opening'
-    else:
-        global_trend = 'neutral'
-
-    # Save global policy_updates.json
-    policy_global = {
-        'meta': {
-            'updated_at': datetime.now(__import__('datetime').timezone.utc).isoformat().replace('+00:00', 'Z'),
-            'date': today_str()
-        },
-        'by_country': {
-            country: arts[:10] for country, arts in global_by_country.items()
-        },
-        'by_category': {
-            cat: arts[:10] for cat, arts in global_by_category.items()
-        },
-        'global_policy_trend': global_trend
-    }
-
     try:
-        policy_path = os.path.join(OUTPUT_DIR, 'policy_updates.json')
-        with open(policy_path, 'w', encoding='utf-8') as f:
-            json.dump(policy_global, f, ensure_ascii=False, indent=2)
-        print(f"  [OK] Global policy updates saved: {policy_path}")
+        for cat in batch_categories:
+            try:
+                l1_slug = cat.get('l1_slug', '')
+                l2_slug = cat.get('l2_slug', '')
+                name_en = cat.get('name_en', '')
+                name_cn = cat.get('name_cn', cat.get('l1_cn', ''))
+
+                if not l1_slug or not l2_slug or not name_en:
+                    continue
+
+                cat_data = load_category_json(l1_slug, l2_slug)
+                if cat_data is None:
+                    continue
+
+                # Fetch policy articles
+                articles = _fetch_policy_articles(name_en, name_cn)
+
+                if articles:
+                    # Classify each article
+                    classified_articles = []
+                    country_summary = {}
+
+                    for art in articles:
+                        classified = _classify_policy_article(art, name_en)
+                        classified_articles.append(classified)
+
+                        # Aggregate by country
+                        country = classified.get('country', 'Unknown')
+                        if country not in country_summary:
+                            country_summary[country] = {
+                                'articles': [],
+                                'impacts': {'positive': 0, 'negative': 0, 'neutral': 0},
+                                'key_policies': set()
+                            }
+                        country_summary[country]['articles'].append(classified)
+                        country_summary[country]['impacts'][classified.get('impact', 'neutral')] += 1
+                        country_summary[country]['key_policies'].add(
+                            classified.get('policy_type', 'unknown')
+                        )
+
+                        # Global aggregation
+                        if country not in global_by_country:
+                            global_by_country[country] = []
+                        global_by_country[country].append({
+                            'title': classified.get('title', ''),
+                            'category': name_cn or name_en,
+                            'impact': classified.get('impact', 'neutral'),
+                            'url': classified.get('url', '')
+                        })
+
+                    # Build country summary output
+                    country_summary_out = {}
+                    for country, data in country_summary.items():
+                        impacts = data['impacts']
+                        if impacts['negative'] > impacts['positive']:
+                            trend = 'tightening'
+                            overall_impact = 'negative'
+                        elif impacts['positive'] > impacts['negative']:
+                            trend = 'opening'
+                            overall_impact = 'positive'
+                        else:
+                            trend = 'neutral'
+                            overall_impact = 'neutral'
+
+                        country_summary_out[country] = {
+                            'trend': trend,
+                            'key_policies': list(data['key_policies'])[:5],
+                            'impact': overall_impact
+                        }
+
+                    cat_data['policy_updates'] = {
+                        'articles': classified_articles,
+                        'country_summary': country_summary_out
+                    }
+                    cat_data['last_updated'] = today_str()
+
+                    if save_category_json(l1_slug, l2_slug, cat_data):
+                        updated += 1
+
+                    # Global by category
+                    cat_key = name_cn or name_en
+                    global_by_category[cat_key] = [
+                        {
+                            'title': a.get('title', ''),
+                            'country': a.get('country', 'Unknown'),
+                            'impact': a.get('impact', 'neutral')
+                        }
+                        for a in classified_articles[:5]
+                    ]
+
+                # Rate limit
+                time.sleep(1)
+
+            except Exception as e:
+                errors += 1
+                print(f"    [WARN] Policy news failed for {cat.get('name_en', '?')}: {e}")
+
     except Exception as e:
-        print(f"  [WARN] Failed to save policy_updates.json: {e}")
+        print(f"  [WARN] Policy news loop interrupted: {e}")
+
+    finally:
+        # Determine global policy trend (runs even if loop was interrupted)
+        total_pos = 0
+        total_neg = 0
+        for country_arts in global_by_country.values():
+            for art in country_arts:
+                if art.get('impact') == 'positive':
+                    total_pos += 1
+                elif art.get('impact') == 'negative':
+                    total_neg += 1
+
+        if total_neg > total_pos * 1.3:
+            global_trend = 'tightening'
+        elif total_pos > total_neg * 1.3:
+            global_trend = 'opening'
+        else:
+            global_trend = 'neutral'
+
+        # Save global policy_updates.json (even if only partial data)
+        policy_global = {
+            'meta': {
+                'updated_at': datetime.now(__import__('datetime').timezone.utc).isoformat().replace('+00:00', 'Z'),
+                'date': today_str()
+            },
+            'by_country': {
+                country: arts[:10] for country, arts in global_by_country.items()
+            },
+            'by_category': {
+                cat: arts[:10] for cat, arts in global_by_category.items()
+            },
+            'global_policy_trend': global_trend
+        }
+
+        try:
+            policy_path = os.path.join(OUTPUT_DIR, 'policy_updates.json')
+            with open(policy_path, 'w', encoding='utf-8') as f:
+                json.dump(policy_global, f, ensure_ascii=False, indent=2)
+            print(f"  [OK] Global policy updates saved: {policy_path}")
+        except Exception as e:
+            print(f"  [WARN] Failed to save policy_updates.json: {e}")
 
     print(f"  [DONE] Policy news: {updated} updated, {errors} errors")
 
@@ -3118,20 +3135,24 @@ def fetch_customs_2025(batch_categories):
                     print(f"    [LIMIT] Reached 50 API calls, using fallback for remaining")
                     customs_data = _customs_2025_fallback(hs_chapter)
                 else:
-                    # Fetch China exports 2025
+                    # Fetch China exports 2025 (makes ~2 API calls: 2025 data + 2024 YoY)
                     china_export = _fetch_china_export_2025(hs_chapter)
-                    api_calls += 1
+                    api_calls += 2
                     time.sleep(1)
 
-                    # Fetch imports from China by major countries
-                    imports_data = _fetch_imports_from_china_2025(hs_chapter)
-                    api_calls += 1
+                    # Fetch imports from China by major countries (with remaining budget)
+                    remaining_budget = max(50 - api_calls, 0)
+                    imports_data = _fetch_imports_from_china_2025(hs_chapter, max_api_calls=remaining_budget)
                     time.sleep(1)
 
                     customs_data = {
                         'china_export': china_export,
                         'imports_from_china': imports_data
                     }
+
+                    # Estimate actual API calls used (1 for export + ~2 per import country)
+                    calls_for_imports = len(imports_data) * 2 if imports_data else 0
+                    api_calls += calls_for_imports  # Total: 1 (export) + calls_for_imports
 
                     if china_export:
                         cache[cache_key] = {
@@ -3270,11 +3291,20 @@ def _fetch_china_export_proxy(hs_chapter):
     return None
 
 
-def _fetch_imports_from_china_2025(hs_chapter):
-    """Fetch imports from China by major countries for 2025"""
+def _fetch_imports_from_china_2025(hs_chapter, max_api_calls=30):
+    """Fetch imports from China by major countries for 2025.
+    
+    Args:
+        hs_chapter: HS code chapter prefix
+        max_api_calls: Maximum number of API calls allowed within this function
+    """
     imports = {}
+    calls_used = 0
 
     for country_code, numeric_code in COMTRADE_2025_COUNTRY_CODES.items():
+        if calls_used >= max_api_calls:
+            print(f"    [LIMIT] Imports from China: reached {max_api_calls} call limit, skipping remaining countries")
+            break
         try:
             url = (
                 f"{COMTRADE_API_BASE}"
@@ -3286,6 +3316,7 @@ def _fetch_imports_from_china_2025(hs_chapter):
                 'Accept': 'application/json',
                 **HEADERS
             })
+            calls_used += 1
             if resp and resp.status_code == 200:
                 data = resp.json()
                 records = data.get('data', [])
@@ -3294,26 +3325,28 @@ def _fetch_imports_from_china_2025(hs_chapter):
                         (rec.get('primaryValue', 0) or 0) for rec in records
                     )
 
-                    # Get 2024 for YoY
+                    # Get 2024 for YoY (only if we have budget)
                     yoy = None
-                    try:
-                        url_2024 = url.replace('period=2025', 'period=2024')
-                        resp_2024 = SESSION.get(url_2024, timeout=15, headers={
-                            'Accept': 'application/json',
-                            **HEADERS
-                        })
-                        if resp_2024 and resp_2024.status_code == 200:
-                            data_2024 = resp_2024.json()
-                            records_2024 = data_2024.get('data', [])
-                            total_2024 = sum(
-                                (rec.get('primaryValue', 0) or 0) for rec in records_2024
-                            )
-                            if total_2024 > 0:
-                                yoy = round(
-                                    (total_value - total_2024) / total_2024 * 100, 1
+                    if calls_used < max_api_calls:
+                        try:
+                            url_2024 = url.replace('period=2025', 'period=2024')
+                            resp_2024 = SESSION.get(url_2024, timeout=15, headers={
+                                'Accept': 'application/json',
+                                **HEADERS
+                            })
+                            calls_used += 1
+                            if resp_2024 and resp_2024.status_code == 200:
+                                data_2024 = resp_2024.json()
+                                records_2024 = data_2024.get('data', [])
+                                total_2024 = sum(
+                                    (rec.get('primaryValue', 0) or 0) for rec in records_2024
                                 )
-                    except Exception:
-                        pass
+                                if total_2024 > 0:
+                                    yoy = round(
+                                        (total_value - total_2024) / total_2024 * 100, 1
+                                    )
+                        except Exception:
+                            pass
 
                     imports[country_code] = {
                         'value_usd': total_value,
@@ -3396,6 +3429,60 @@ def _save_customs_2025_cache(cache):
             json.dump(cache, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"  [WARN] Failed to save 2025 customs cache: {e}")
+
+
+# ============================================================
+# Validation summary helper
+# ============================================================
+def _print_steps_14_16_summary(batch_info):
+    """
+    Print a summary of how many categories were updated with
+    social media trends, policy news, and customs 2025 data.
+    """
+    categories = batch_info.get('categories', [])
+    if not categories:
+        print("  No categories to validate")
+        return
+
+    social_count = 0
+    policy_count = 0
+    customs_count = 0
+    errors = 0
+
+    for cat in categories:
+        l1_slug = cat.get('l1_slug', '')
+        l2_slug = cat.get('l2_slug', '')
+        if not l1_slug or not l2_slug:
+            continue
+        try:
+            cat_data = load_category_json(l1_slug, l2_slug)
+            if cat_data is None:
+                continue
+            if cat_data.get('social_media_trends'):
+                social_count += 1
+            if cat_data.get('policy_updates'):
+                policy_count += 1
+            if cat_data.get('customs_2025'):
+                customs_count += 1
+        except Exception:
+            errors += 1
+
+    print(f"  Categories checked: {len(categories)}")
+    print(f"  social_media_trends: {social_count} categories have data")
+    print(f"  policy_updates:      {policy_count} categories have data")
+    print(f"  customs_2025:        {customs_count} categories have data")
+    if errors:
+        print(f"  Read errors:         {errors}")
+
+    # Check global output files
+    social_path = os.path.join(OUTPUT_DIR, 'social_trends.json')
+    policy_path = os.path.join(OUTPUT_DIR, 'policy_updates.json')
+    for label, path in [('social_trends.json', social_path), ('policy_updates.json', policy_path)]:
+        if os.path.exists(path):
+            size = os.path.getsize(path)
+            print(f"  {label}: EXISTS ({size:,} bytes)")
+        else:
+            print(f"  {label}: NOT FOUND")
 
 
 # ============================================================
@@ -3535,29 +3622,34 @@ def main():
         print(f"  [WARN] Category batch updates failed (non-fatal): {e}")
         traceback.print_exc()
 
-    # Step 14: Social media trends
+    # Step 14: Social media trends (top 10 only - heavy per-category API calls)
+    # Each category makes ~5 platform calls with sleeps, so limit to stay within CI timeout
+    SOCIAL_MEDIA_BATCH_LIMIT = 10
     try:
-        print("\n[14/16] Fetching social media trends for batch categories...")
-        if batch_info.get('categories'):
-            fetch_social_media_trends(batch_info['categories'])
+        social_cats = batch_info.get('top_categories', [])[:SOCIAL_MEDIA_BATCH_LIMIT]
+        print(f"\n[14/16] Fetching social media trends for top {len(social_cats)} categories...")
+        if social_cats:
+            fetch_social_media_trends(social_cats)
         else:
             print("  [SKIP] No categories in current batch for social media trends")
     except Exception as e:
         print(f"  [WARN] Social media trends failed: {e}")
         traceback.print_exc()
 
-    # Step 15: Policy news
+    # Step 15: Policy news (top 20 only - one RSS/API call per category)
+    POLICY_NEWS_BATCH_LIMIT = 20
     try:
-        print("\n[15/16] Fetching policy news for batch categories...")
-        if batch_info.get('categories'):
-            fetch_policy_news(batch_info['categories'])
+        policy_cats = batch_info.get('top_categories', [])[:POLICY_NEWS_BATCH_LIMIT]
+        print(f"\n[15/16] Fetching policy news for top {len(policy_cats)} categories...")
+        if policy_cats:
+            fetch_policy_news(policy_cats)
         else:
             print("  [SKIP] No categories in current batch for policy news")
     except Exception as e:
         print(f"  [WARN] Policy news failed: {e}")
         traceback.print_exc()
 
-    # Step 16: Customs 2025 data
+    # Step 16: Customs 2025 data (full batch OK - grouped by HS chapter with 7-day cache)
     try:
         print("\n[16/16] Fetching 2025 customs data for batch categories...")
         if batch_info.get('categories'):
@@ -3567,6 +3659,12 @@ def main():
     except Exception as e:
         print(f"  [WARN] Customs 2025 data failed: {e}")
         traceback.print_exc()
+
+    # ---- Validation summary for steps 14-16 ----
+    print(f"\n{'='*60}")
+    print("Steps 14-16 Validation Summary")
+    print(f"{'='*60}")
+    _print_steps_14_16_summary(batch_info)
 
     # 输出
     os.makedirs(OUTPUT_DIR, exist_ok=True)
