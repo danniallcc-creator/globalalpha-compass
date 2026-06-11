@@ -2983,7 +2983,9 @@ function updateTicker(id, label, value, unit, decimals) {
     else if(value < prev) { arrow = ' \u25bc'; color = '#ef4444'; }
   }
   window._tickerCache[id] = value;
-  var text = label + ' ' + (typeof value === 'number' ? value.toFixed(decimals) : value) + (unit || '') + arrow;
+  // 智能拼接：label以$结尾时不插入空格
+  var sep = (label.charAt(label.length-1) === '$') ? '' : ' ';
+  var text = label + sep + (typeof value === 'number' ? value.toFixed(decimals) : value) + (unit || '') + arrow;
   el.textContent = text;
   if(color) {
     el.style.transition = 'color 0.5s';
