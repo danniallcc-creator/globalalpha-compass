@@ -2949,96 +2949,220 @@ function switchTab(id, btn) {
 // 实时 API 抓取
 // ============================================================
 
-// 1. 汇率: open.er-api.com (免费无需Key，以USD为基准交叉计算对CNY汇率)
+// ============================================================
+// 实时数据API (顶部Ticker) - 优化版
+// 设计原则:
+//   1. 多级fallback: 每个数据点至少3级数据源
+//   2. 超时控制: AbortController 5秒强制中断
+//   3. 不阻塞: 失败静默使用静态值，立即显示页面
+//   4. 趋势反馈: 价格变化箭头+颜色，增强"实时"感
+// ============================================================
+
+// 通用: 带超时的fetch
+function fetchWithTimeout(url, timeoutMs) {
+  timeoutMs = timeoutMs || 5000;
+  if(typeof AbortController !== 'undefined') {
+    var ctrl = new AbortController();
+    var timer = setTimeout(function(){ ctrl.abort(); }, timeoutMs);
+    return fetch(url, {signal: ctrl.signal, cache: 'no-store'})
+      .then(function(r){ clearTimeout(timer); if(!r.ok) throw new Error('HTTP '+r.status); return r; });
+  }
+  return fetch(url, {cache: 'no-store'}).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r; });
+}
+
+// 通用: 更新ticker元素 + 计算趋势箭头
+window._tickerCache = window._tickerCache || {};
+function updateTicker(id, label, value, unit, decimals) {
+  var el = $el(id);
+  if(!el) return;
+  decimals = (decimals === undefined) ? 2 : decimals;
+  var prev = window._tickerCache[id];
+  var arrow = '', color = '';
+  if(prev !== undefined && prev !== value) {
+    if(value > prev) { arrow = ' \u25b2'; color = '#22c55e'; }
+    else if(value < prev) { arrow = ' \u25bc'; color = '#ef4444'; }
+  }
+  window._tickerCache[id] = value;
+  var text = label + ' ' + (typeof value === 'number' ? value.toFixed(decimals) : value) + (unit || '') + arrow;
+  el.textContent = text;
+  if(color) {
+    el.style.transition = 'color 0.5s';
+    el.style.color = color;
+    setTimeout(function(){ el.style.color = ''; }, 2000);
+  }
+}
+
+// 1. 汇率: USD/CNY, EUR/CNY, GBP/CNY
+//    主源: open.er-api.com (200ms, 无需Key, *)
+//    备源: jsdelivr fawazahmed0 (500ms, 全球CDN)
+//    兜底: 静态默认值 (页面初始已显示)
 function fetchRates() {
-  fetch('https://open.er-api.com/v6/latest/USD')
+  var primaryDone = false;
+  fetchWithTimeout('https://open.er-api.com/v6/latest/USD', 5000)
     .then(function(r){ return r.json(); })
     .then(function(d) {
-      if(!d.rates) return;
-      var r = d.rates;
-      var cny = r.CNY;
-      if(!cny) return;
-      // X/CNY = CNY数量 / X数量（即1单位外币换多少人民币）
-      var usd = cny.toFixed(4);
-      var eur = r.EUR ? (cny / r.EUR).toFixed(4) : '7.8836';
-      var gbp = r.GBP ? (cny / r.GBP).toFixed(4) : '9.1259';
-      var jpy = r.JPY ? (cny / r.JPY * 100).toFixed(4) : null; // 100日元对CNY
-      var aud = r.AUD ? (cny / r.AUD).toFixed(4) : null;
-      if($el('t-usdcny')) $el('t-usdcny').textContent = 'USD/CNY ' + usd;
-      if($el('t-eurcny')) $el('t-eurcny').textContent = 'EUR/CNY ' + eur;
-      if($el('t-gbpcny')) $el('t-gbpcny').textContent = 'GBP/CNY ' + gbp;
-      window._rates = {usd:parseFloat(usd), eur:parseFloat(eur), gbp:parseFloat(gbp), jpy:jpy, aud:aud};
-      // 汇率风险评分：USD/CNY偏离7.2越大风险越高
-      var score = Math.min(99, Math.round(Math.abs(parseFloat(usd) - 7.2) * 100));
+      if(!d.rates || !d.rates.CNY) throw new Error('no rates');
+      primaryDone = true;
+      var r = d.rates, cny = r.CNY;
+      var usd = parseFloat(cny.toFixed(4));
+      var eur = r.EUR ? parseFloat((cny / r.EUR).toFixed(4)) : 7.88;
+      var gbp = r.GBP ? parseFloat((cny / r.GBP).toFixed(4)) : 9.13;
+      updateTicker('t-usdcny', 'USD/CNY', usd, '', 4);
+      updateTicker('t-eurcny', 'EUR/CNY', eur, '', 4);
+      updateTicker('t-gbpcny', 'GBP/CNY', gbp, '', 4);
+      window._rates = {usd:usd, eur:eur, gbp:gbp};
+      var score = Math.min(99, Math.round(Math.abs(usd - 7.2) * 100));
       if($el('fx-risk-score')) $el('fx-risk-score').textContent = score;
       if($el('fx-risk-bar')) $el('fx-risk-bar').style.width = score + '%';
     })
     .catch(function() {
-      // 备用：fawazahmed0 CDN镜像（100%免费无频次限制）
-      fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
+      if(primaryDone) return;
+      // 备源: fawazahmed0 jsdelivr CDN
+      fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
         .then(function(r){ return r.json(); })
         .then(function(d) {
-          var r = d.usd || {};
-          var cny = r.cny;
-          if(!cny) return;
-          var usd = cny.toFixed(4);
-          var eur = r.eur ? (cny / r.eur).toFixed(4) : '7.88';
-          var gbp = r.gbp ? (cny / r.gbp).toFixed(4) : '9.13';
-          if($el('t-usdcny')) $el('t-usdcny').textContent = 'USD/CNY ' + usd;
-          if($el('t-eurcny')) $el('t-eurcny').textContent = 'EUR/CNY ' + eur;
-          if($el('t-gbpcny')) $el('t-gbpcny').textContent = 'GBP/CNY ' + gbp;
+          var r = d.usd || {}; if(!r.cny) throw new Error('no cny');
+          var usd = parseFloat(r.cny.toFixed(4));
+          var eur = r.eur ? parseFloat((r.cny / r.eur).toFixed(4)) : 7.88;
+          var gbp = r.gbp ? parseFloat((r.cny / r.gbp).toFixed(4)) : 9.13;
+          updateTicker('t-usdcny', 'USD/CNY', usd, '', 4);
+          updateTicker('t-eurcny', 'EUR/CNY', eur, '', 4);
+          updateTicker('t-gbpcny', 'GBP/CNY', gbp, '', 4);
+          window._rates = {usd:usd, eur:eur, gbp:gbp};
         })
-        .catch(function(){/* 保持静态兜底 */});
+        .catch(function(){
+          // 备源2: cloudflare currency-api 镜像
+          fetchWithTimeout('https://currency-api.pages.dev/v1/currencies/usd.json', 5000)
+            .then(function(r){ return r.json(); })
+            .then(function(d) {
+              var r = d.usd || {}; if(!r.cny) return;
+              updateTicker('t-usdcny', 'USD/CNY', parseFloat(r.cny.toFixed(4)), '', 4);
+              if(r.eur) updateTicker('t-eurcny', 'EUR/CNY', parseFloat((r.cny / r.eur).toFixed(4)), '', 4);
+              if(r.gbp) updateTicker('t-gbpcny', 'GBP/CNY', parseFloat((r.cny / r.gbp).toFixed(4)), '', 4);
+            })
+            .catch(function(){/* 静态兜底已在HTML显示 */});
+        });
     });
 }
 
-// 2. 金价: metals.live (免费, 无需Key)
+// 2. 金价: 伦敦金 XAU (USD/oz)
+//    主源: jsdelivr fawazahmed0 xau倒数 (1USD = X盎司 → 1oz = $X)
+//    备源1: cloudflare currency-api 镜像
+//    备源2: trending.json (服务端缓存)
+//    兜底: 静态默认值
 function fetchGold() {
-  // 主API: fawazahmed0 CDN (XAU->USD倒数), 免密钥, 全球CDN稳定
-  fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
-    .then(function(r){return r.json();})
+  fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
+    .then(function(r){ return r.json(); })
     .then(function(d) {
       var xau = d && d.usd && d.usd.xau;
-      if(xau) {
-        var price = (1 / parseFloat(xau)).toFixed(2);
-        if($el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 $' + price + '/oz';
-      } else { fetchGoldBackup(); }
+      if(!xau) throw new Error('no xau');
+      var price = parseFloat((1 / parseFloat(xau)).toFixed(2));
+      if(price < 500 || price > 20000) throw new Error('xau out of range');
+      updateTicker('t-gold', '\u4f26\u6566\u91d1 $', price, '/oz', 2);
     })
-    .catch(function(){ fetchGoldBackup(); });
+    .catch(function(){
+      // 备源1: cloudflare currency-api pages.dev 镜像
+      fetchWithTimeout('https://currency-api.pages.dev/v1/currencies/usd.json', 5000)
+        .then(function(r){ return r.json(); })
+        .then(function(d) {
+          var xau = d && d.usd && d.usd.xau;
+          if(!xau) throw new Error('no xau');
+          var price = parseFloat((1 / parseFloat(xau)).toFixed(2));
+          if(price < 500 || price > 20000) throw new Error('xau out of range');
+          updateTicker('t-gold', '\u4f26\u6566\u91d1 $', price, '/oz', 2);
+        })
+        .catch(function(){
+          // 备源2: trending.json (如有)
+          fetchWithTimeout('data/trending.json?t=' + Date.now(), 3000)
+            .then(function(r){ return r.json(); })
+            .then(function(d) {
+              if(d && d.risk_indicators && d.risk_indicators.gold_price) {
+                updateTicker('t-gold', '\u4f26\u6566\u91d1 $', parseFloat(d.risk_indicators.gold_price), '/oz', 2);
+              }
+            })
+            .catch(function(){/* 静态兜底已在HTML显示 */});
+        });
+    });
 }
 
-function fetchGoldBackup() {
-  // 备用: 从trending.json读取（如果主API挂了）
-  // 最终兜底: 显示"数据延迟"提示
-  if($el('t-gold')) $el('t-gold').textContent = '\u4f26\u6566\u91d1 \u6570\u636e\u52a0\u8f7d\u4e2d...';
-}
-
+// 3. 油价: 布伦特原油 Brent ($/桶)
+//    主源: EIA API (CORS *, 官方权威)
+//    备源1: trending.json (GitHub Actions每日FRED获取)
+//    备源2: fawazahmed0 CAD推算
+//    兜底: 静态默认值
 function fetchOil() {
-  // 主数据源: data/trending.json (由GitHub Actions每日从FRED获取，无CORS问题)
-  fetch('data/trending.json?t=' + Date.now())
+  var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?frequency=daily&data%5B0%5D=value&facets%5Bseries%5D%5B0%5D=RBRTE&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=2&api_key=DEMO_KEY';
+  fetchWithTimeout(eiaUrl, 6000)
     .then(function(r){ return r.json(); })
-    .then(function(d){
-      if(d && d.risk_indicators && d.risk_indicators.oil_price){
-        var price = d.risk_indicators.oil_price;
-        if($el('t-oil'))
-          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 $' + parseFloat(price).toFixed(2) + '/\u6876';
-      } else { fetchOilBackup(); }
+    .then(function(d) {
+      var rows = d && d.response && d.response.data;
+      if(!rows || !rows.length) throw new Error('no eia data');
+      var price = parseFloat(rows[0].value);
+      if(!price || price < 20 || price > 300) throw new Error('eia out of range');
+      updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
     })
-    .catch(function(){ fetchOilBackup(); });
+    .catch(function(){
+      // 备源1: trending.json 服务端缓存
+      fetchWithTimeout('data/trending.json?t=' + Date.now(), 3000)
+        .then(function(r){ return r.json(); })
+        .then(function(d) {
+          if(d && d.risk_indicators && d.risk_indicators.oil_price) {
+            var price = parseFloat(d.risk_indicators.oil_price);
+            if(price >= 20 && price <= 300) {
+              updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
+              return;
+            }
+          }
+          throw new Error('no oil in trending');
+        })
+        .catch(function(){
+          // 备源2: CAD汇率推算 (加元与油价正相关)
+          fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
+            .then(function(r){ return r.json(); })
+            .then(function(d) {
+              if(d && d.usd && d.usd.cad) {
+                var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
+                if(estOil >= 20 && estOil <= 300) {
+                  updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 ~$', estOil, '/\u6876', 2);
+                }
+              }
+            })
+            .catch(function(){/* 静态兜底已在HTML显示 */});
+        });
+    });
 }
 
-function fetchOilBackup() {
-  // 备用: fawazahmed0 CDN商品汇率推算 (CAD加元与油价高度相关)
-  fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json')
-    .then(function(r){return r.json();})
-    .then(function(d){
-      if(d && d.usd && d.usd.cad){
-        var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
-        if($el('t-oil'))
-          $el('t-oil').textContent = '\u5e03\u4f26\u7279\u539f\u6cb9 ~$' + estOil.toFixed(1) + '/\u6876';
+// 4. SCFI: 上海航运交易所运价指数
+//    数据源: trending.json (GitHub Actions每日更新)
+//    无替代API (上海航交所无公开接口)
+function fetchScfi() {
+  fetchWithTimeout('data/trending.json?t=' + Date.now(), 5000)
+    .then(function(r){ return r.json(); })
+    .then(function(d) {
+      if(!d || !d.risk_indicators) return;
+      var ind = d.risk_indicators;
+      if(ind.scfi_index) {
+        var scfiVal = parseInt(ind.scfi_index);
+        var scfiChg = parseFloat(ind.scfi_change || 0);
+        var sign = scfiChg >= 0 ? '+' : '';
+        var text = 'SCFI \u822a\u8fd0\u6307\u6570 ' + scfiVal.toLocaleString() + ' (' + sign + scfiChg.toFixed(1) + '%)';
+        var prev = window._tickerCache['t-scfi-val'];
+        var el = $el('t-scfi');
+        if(el) {
+          el.textContent = text;
+          if(prev !== undefined && prev !== scfiVal) {
+            el.style.transition = 'color 0.5s';
+            el.style.color = scfiVal > prev ? '#22c55e' : '#ef4444';
+            setTimeout(function(){ el.style.color = ''; }, 2000);
+          }
+          window._tickerCache['t-scfi-val'] = scfiVal;
+        }
+        // 同步更新地图Tab的运价指标
+        var scfiMap = $el('m-shipping-idx');
+        if(scfiMap) scfiMap.textContent = scfiVal.toLocaleString();
       }
     })
-    .catch(function(){});
+    .catch(function(){/* 静态兜底已在HTML显示 */});
 }
 
 // 3. 新闻: 从 data/trending.json 加载动态新闻 + 静态备用
@@ -4233,13 +4357,16 @@ function updateClock() {
 document.addEventListener('DOMContentLoaded', function() {
   updateClock();
   setInterval(updateClock, 1000);
+  // 顶部Ticker: 4路实时数据并发首屏加载 + 独立轮询周期
   fetchRates();
   fetchGold();
   fetchOil();
+  fetchScfi();
   fetchNews();
-  setInterval(fetchRates, 60000);   // 每分钟刷新汇率
-  setInterval(fetchGold,  120000);  // 每2分钟刷新金价
-  setInterval(fetchOil,   180000);  // 每3分钟刷新油价
+  setInterval(fetchRates, 60000);   // 每1分钟刷新汇率 (open.er-api每小时刷新一次最新)
+  setInterval(fetchGold,  90000);   // 每90秒刷新金价 (CDN缓存约1分钟)
+  setInterval(fetchOil,   120000);  // 每2分钟刷新油价 (EIA每日更新)
+  setInterval(fetchScfi,  300000);  // 每5分钟刷新SCFI (服务端每日更新)
 
   // SCFI 图表 + 运价报价板（在地图Tab激活时再画，避免canvas尺寸为0）
   document.querySelector('[onclick*="tab-map"]').addEventListener('click', function(){
