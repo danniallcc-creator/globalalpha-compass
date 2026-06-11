@@ -2104,13 +2104,16 @@ var CATEGORY_HS_MAP = {
 // 根据输入品类查找匹配的HS编码组
 function getCategoryHsGroup(cat) {
   var keys = Object.keys(CATEGORY_HS_MAP);
+  var isMatch = function(cat, key) {
+    return cat.indexOf(key) !== -1 || (key.indexOf(cat) !== -1 && cat.length >= 2);
+  };
   // 第一轮：主键匹配（跳过服务类）
   for(var i=0;i<keys.length;i++){
-    if(cat.indexOf(keys[i])!==-1 && !CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
+    if(isMatch(cat, keys[i]) && !CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
   }
   // 第二轮：主键匹配服务类
   for(var i=0;i<keys.length;i++){
-    if(cat.indexOf(keys[i])!==-1 && CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
+    if(isMatch(cat, keys[i]) && CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
   }
   // 别名匹配：通过COMPLIANCE找到HS编码后，查找其所属的CATEGORY_HS_MAP父品类
   var comp = getCompliance(cat);
