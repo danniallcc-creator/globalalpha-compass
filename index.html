@@ -51,12 +51,12 @@ input[type=range]{accent-color:#60a5fa}
 
 <!-- ===== TICKER ===== -->
 <div id="ticker-bar" class="bg-black/50 border-b border-white/5 overflow-x-auto py-2 px-4 flex items-center text-xs" style="white-space:nowrap">
-  <span class="ticker-item text-yellow-400"><span>&#9679;</span><span id="t-gold">伦敦金 $4,310.00 (+0.6%)</span></span>
-  <span class="ticker-item text-blue-300"><span>&#8364;</span><span id="t-eurcny">EUR/CNY 7.8432</span></span>
-  <span class="ticker-item text-blue-300"><span>&#36;</span><span id="t-usdcny">USD/CNY 6.7948</span></span>
-  <span class="ticker-item text-purple-300"><span>&#163;</span><span id="t-gbpcny">GBP/CNY 9.1823</span></span>
-  <span class="ticker-item text-green-400"><span>&#9679;</span><span id="t-oil">布伦特原油 $92.88/桶</span></span>
-  <span class="ticker-item text-cyan-300"><span>&#9632;</span><span id="t-scfi">SCFI 航运指数 1,864 (+1.2%)</span></span>
+  <span class="ticker-item text-yellow-400"><span>&#9679;</span><span id="t-gold">伦敦金 $4,076.59/oz</span></span>
+  <span class="ticker-item text-blue-300"><span>&#8364;</span><span id="t-eurcny">EUR/CNY 7.8403</span></span>
+  <span class="ticker-item text-blue-300"><span>&#36;</span><span id="t-usdcny">USD/CNY 6.7876</span></span>
+  <span class="ticker-item text-purple-300"><span>&#163;</span><span id="t-gbpcny">GBP/CNY 9.0854</span></span>
+  <span class="ticker-item text-green-400"><span>&#9679;</span><span id="t-oil">布伦特原油 $89.35/桶</span></span>
+  <span class="ticker-item text-cyan-300"><span>&#9632;</span><span id="t-scfi">SCFI 航运指数 1,858 (+3.1%)</span></span>
   <span class="ticker-item text-green-300 pulse"><span style="font-size:.5rem;background:#22c55e;border-radius:50%;display:inline-block;width:6px;height:6px"></span><span>实时数据</span></span>
 </div>
 
@@ -3243,16 +3243,21 @@ function fetchOil() {
     return;
   }
   var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?frequency=daily&data%5B0%5D=value&facets%5Bseries%5D%5B0%5D=RBRTE&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=2&api_key=DEMO_KEY';
-  fetchWithTimeout(eiaUrl, 6000)
+  // 用原生fetch(非fetchWithTimeout)以便能读到status code做429判断
+  var oilFetch = (typeof AbortController !== 'undefined')
+    ? fetch(eiaUrl, {signal: (function(){ var c = new AbortController(); setTimeout(function(){c.abort()}, 8000); return c.signal; })()})
+    : fetch(eiaUrl);
+  oilFetch
     .then(function(r){
       if(r.status === 429) {
-        // 限流退避: 指数增长 (10min, 20min, 40min...)
+        // 限流退避: 指数增长 (10min, 20min, 40min...最长4h)
         var backoffMs = Math.min(10 * 60 * 1000 * Math.pow(2, _oilEiaFailCount), 4 * 60 * 60 * 1000);
         _oilEiaBackoffUntil = Date.now() + backoffMs;
         _oilEiaFailCount++;
         console.warn('[fetchOil] EIA 429 rate-limit, backoff ' + Math.round(backoffMs/60000) + 'min');
         throw new Error('eia rate-limited');
       }
+      if(!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
     .then(function(d) {
@@ -3262,10 +3267,14 @@ function fetchOil() {
       var price = parseFloat(rows[0].value);
       if(!price || price < 20 || price > 300) throw new Error('eia out of range');
       _oilEiaFailCount = 0; // 成功则重置失败计数
+      _oilEiaBackoffUntil = 0; // 成功则重置退避
       updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
     })
-    .catch(function(){
-      _oilEiaFailCount++;
+    .catch(function(e){
+      // 非429错误也需要增加失败计数（但429已在上面处理过了）
+      if(e && e.message && e.message.indexOf('rate-limited') === -1) {
+        _oilEiaFailCount++;
+      }
       // 备源1: trending.json 服务端缓存
       _fetchOilTrending();
     });
@@ -3345,15 +3354,10 @@ function fetchNews() {
         });
         allNews = parsed.concat(NEWS_STATIC);
       }
-      // 更新SCFI指标
+      // SCFI由fetchScfi()独立管理，此处仅同步地图Tab的运价指标
       if(d.risk_indicators && d.risk_indicators.scfi_index) {
-        var scfiVal = d.risk_indicators.scfi_index;
-        var scfiChg = d.risk_indicators.scfi_change || 0;
-        var scfiEl = $el('m-shipping-idx');
-        if(scfiEl) scfiEl.textContent = scfiVal.toLocaleString();
-        // 同步更新顶部ticker栏
-        var scfiTicker = $el('t-scfi');
-        if(scfiTicker) scfiTicker.textContent = 'SCFI \u822a\u8fd0\u6307\u6570 ' + scfiVal.toLocaleString() + ' (' + (scfiChg>=0?'+':'') + scfiChg + '%)';
+        var scfiMap = $el('m-shipping-idx');
+        if(scfiMap) scfiMap.textContent = d.risk_indicators.scfi_index.toLocaleString();
       }
       // 缓存运价数据供地图Tab使用
       if(d.freight_pricing && d.freight_pricing.rates) {

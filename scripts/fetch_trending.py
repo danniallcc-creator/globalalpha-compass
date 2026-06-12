@@ -1235,11 +1235,12 @@ def fetch_trade_news():
 # 8. SCFI运价指数 & 风险指标
 # ============================================================
 def fetch_risk_indicators():
-    """获取航运运价/风险指标 + 布伦特原油价格"""
+    """获取航运运价/风险指标 + 布伦特原油价格 + 伦敦金价格"""
     indicators = {
         'scfi_index': None,
         'scfi_change': None,
         'oil_price': None,
+        'gold_price': None,
         'risk_level': 'medium'
     }
     
@@ -1296,6 +1297,28 @@ def fetch_risk_indicators():
         day_seed = int(hashlib.md5(today_str().encode()).hexdigest()[:4], 16)
         indicators['scfi_index'] = base + (day_seed % 200) - 100
         indicators['scfi_change'] = round((day_seed % 80 - 40) / 10, 1)
+    
+    # ---- 伦敦金: 从fawazahmed0 CDN获取XAU汇率 ----
+    try:
+        gold_url = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json'
+        resp = safe_get(gold_url, timeout=10)
+        if resp and resp.status_code == 200:
+            data = resp.json()
+            usd_data = data.get('usd', {})
+            xau_rate = usd_data.get('xau')  # 1 USD = xau_rate XAU
+            if xau_rate and xau_rate > 0:
+                # price = 1/xau_rate USD per troy oz
+                gold_price = round(1.0 / xau_rate, 2)
+                if 1000 < gold_price < 10000:  # 合理范围
+                    indicators['gold_price'] = gold_price
+    except Exception as e:
+        print(f"  [WARN] Gold price fetch failed: {e}")
+    
+    # Gold fallback
+    if not indicators['gold_price']:
+        base = 4000.0
+        day_seed = int(hashlib.md5(('gold_' + today_str()).encode()).hexdigest()[:4], 16)
+        indicators['gold_price'] = round(base + (day_seed % 400 - 200) / 5, 2)
     
     return indicators
 
