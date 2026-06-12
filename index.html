@@ -2109,6 +2109,8 @@ var CATEGORY_HS_MAP = {
 // 根据输入品类查找匹配的HS编码组
 function getCategoryHsGroup(cat) {
   var keys = Object.keys(CATEGORY_HS_MAP);
+  // 精确匹配优先
+  if(CATEGORY_HS_MAP[cat] && !CATEGORY_HS_MAP[cat].isService) return CATEGORY_HS_MAP[cat];
   // 按key长度降序排列，确保最长匹配优先（"消费电子"优先于"电子"）
   keys.sort(function(a,b){ return b.length - a.length; });
   var isMatch = function(cat, key) {
@@ -2119,11 +2121,13 @@ function getCategoryHsGroup(cat) {
   // 第一轮：主键匹配（跳过服务类）
   for(var i=0;i<keys.length;i++){
     if(CATEGORY_HS_MAP[keys[i]].isService) continue;
+    if(keys[i] === cat) continue; // 精确匹配已处理
     // 歧义排除：如果搜索词含"机械/机电"，跳过"建材"这个key
     if(isMachinery && keys[i] === '\u5efa\u6750') continue;
     if(isMatch(cat, keys[i])) return CATEGORY_HS_MAP[keys[i]];
   }
-  // 第二轮：主键匹配服务类
+  // 第二轮：主键匹配服务类（含精确匹配）
+  if(CATEGORY_HS_MAP[cat] && CATEGORY_HS_MAP[cat].isService) return CATEGORY_HS_MAP[cat];
   for(var i=0;i<keys.length;i++){
     if(isMatch(cat, keys[i]) && CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
   }
