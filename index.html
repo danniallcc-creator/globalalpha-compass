@@ -168,7 +168,7 @@ input[type=range]{accent-color:#60a5fa}
     <p class="text-gray-400 text-sm">实时标注主要航线状态、热点风险区域与海峡通道</p>
   </div>
   <div class="card p-4 mb-6">
-    <div class="flex gap-3 mb-4 flex-wrap">
+    <div id="map-layer-btns" class="flex gap-3 mb-4 flex-wrap">
       <button class="nav-pill active text-sm py-2 px-4" id="btn-shipping" onclick="showLayer('shipping',this)">&#128674; 航运线路</button>
       <button class="nav-pill text-sm py-2 px-4" id="btn-air" onclick="showLayer('air',this)">&#9992; 空运线路</button>
       <button class="nav-pill text-sm py-2 px-4" id="btn-risk" onclick="showLayer('risk',this)">&#9888; 风险热点</button>
@@ -627,6 +627,9 @@ input[type=range]{accent-color:#60a5fa}
 <script>
 // ============================================================
 // 国家数据库
+// 注意：此数组为精简版，仅包含地图和概览所需的国家基本信息（GDP、人口、坐标等）。
+// 完整的国家数据（进口市场、竞争格局、物流、准入门槛等）存储在 COUNTRY_IMPORT_MARKET、
+// COMPETITION_DATA、LOGISTICS_DATA、ENTRY_BARRIER_DATA 等独立数据结构中，使用短名作为 key。
 // ============================================================
 var COUNTRIES = [
   {name:'美国',   flag:'&#127482;&#127480;', gdp:76000, pop:332,  growth:2.1, region:'北美',   risk:62, lat:38,  lng:-97},
@@ -2106,6 +2109,42 @@ var CATEGORY_HS_MAP = {
   '设计服务': {isService:true, name:'设计服务'}
 };
 
+// 建材20个子品类HS编码共享列表（供国别报告和需求分析共用，避免重复定义）
+var BM_HS_LIST = [
+  {hs:'940610',label:'装配式建筑'},{hs:'681011',label:'水泥制品'},{hs:'680210',label:'加工石材'},
+  {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材'},
+  {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
+  {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝门窗'},{hs:'848180',label:'阀门龙头'},
+  {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
+  {hs:'690310',label:'耐火陶瓷'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
+  {hs:'441012',label:'刨花板'},{hs:'252321',label:'水泥'}
+];
+
+// 聚合某国建材20个HS编码出口数据（供showCountryDetail和runDemandAnalysis共用）
+function getBuildingMaterialAggForCountry(countryName) {
+  var matches = [], total = 0;
+  for(var i=0;i<BM_HS_LIST.length;i++){
+    var hs = CUSTOMS_EXPORT_DATA[BM_HS_LIST[i].hs];
+    if(hs && hs.top5){
+      for(var t=0;t<hs.top5.length;t++){
+        if(hs.top5[t].c === countryName){
+          matches.push({label:BM_HS_LIST[i].label, amt:hs.top5[t].amt, yoy:hs.top5[t].yoy, hs:BM_HS_LIST[i].hs});
+          total += hs.top5[t].amt;
+          break;
+        }
+      }
+    }
+  }
+  matches.sort(function(a,b){ return b.amt - a.amt; });
+  var notInTop5 = [];
+  for(var n=0;n<BM_HS_LIST.length;n++){
+    var found = false;
+    for(var m=0;m<matches.length;m++){ if(matches[m].hs===BM_HS_LIST[n].hs){found=true;break;} }
+    if(!found) notInTop5.push(BM_HS_LIST[n].label);
+  }
+  return {matches:matches, total:total, notInTop5:notInTop5};
+}
+
 // 根据输入品类查找匹配的HS编码组
 function getCategoryHsGroup(cat) {
   var keys = Object.keys(CATEGORY_HS_MAP);
@@ -2981,10 +3020,16 @@ function fetchWithTimeout(url, timeoutMs) {
   if(typeof AbortController !== 'undefined') {
     var ctrl = new AbortController();
     var timer = setTimeout(function(){ ctrl.abort(); }, timeoutMs);
-    return fetch(url, {signal: ctrl.signal, cache: 'no-store'})
+    return fetch(url, {signal: ctrl.signal})
       .then(function(r){ clearTimeout(timer); if(!r.ok) throw new Error('HTTP '+r.status); return r; });
   }
-  return fetch(url, {cache: 'no-store'}).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r; });
+  return fetch(url).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r; });
+}
+
+// 按天级缓存key（避免Date.now()每次都破坏浏览器缓存，静态数据每日更新一次即可）
+function _dailyCacheKey() {
+  var d = new Date();
+  return 'v=' + d.getFullYear() + (d.getMonth()+1) + d.getDate();
 }
 
 // 通用: 更新ticker元素 + 计算趋势箭头
@@ -3092,7 +3137,7 @@ function fetchGold() {
         })
         .catch(function(){
           // 备源2: trending.json (如有)
-          fetchWithTimeout('data/trending.json?t=' + Date.now(), 3000)
+          fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 3000)
             .then(function(r){ return r.json(); })
             .then(function(d) {
               if(d && d.risk_indicators && d.risk_indicators.gold_price) {
@@ -3105,49 +3150,73 @@ function fetchGold() {
 }
 
 // 3. 油价: 布伦特原油 Brent ($/桶)
-//    主源: EIA API (CORS *, 官方权威)
-//    备源1: trending.json (GitHub Actions每日FRED获取)
+//    主源: trending.json (GitHub Actions服务端FRED获取, 可靠)
+//    备源1: EIA API (DEMO_KEY易429限流, 带退避策略)
 //    备源2: fawazahmed0 CAD推算
 //    兜底: 静态默认值
+var _oilEiaBackoffUntil = 0; // EIA 429限流退避时间戳
+var _oilEiaFailCount = 0;    // EIA连续失败计数
 function fetchOil() {
+  var now = Date.now();
+  // EIA退避中 → 直接用trending.json
+  if(now < _oilEiaBackoffUntil) {
+    _fetchOilTrending();
+    return;
+  }
   var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?frequency=daily&data%5B0%5D=value&facets%5Bseries%5D%5B0%5D=RBRTE&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=2&api_key=DEMO_KEY';
   fetchWithTimeout(eiaUrl, 6000)
-    .then(function(r){ return r.json(); })
+    .then(function(r){
+      if(r.status === 429) {
+        // 限流退避: 指数增长 (10min, 20min, 40min...)
+        var backoffMs = Math.min(10 * 60 * 1000 * Math.pow(2, _oilEiaFailCount), 4 * 60 * 60 * 1000);
+        _oilEiaBackoffUntil = Date.now() + backoffMs;
+        _oilEiaFailCount++;
+        console.warn('[fetchOil] EIA 429 rate-limit, backoff ' + Math.round(backoffMs/60000) + 'min');
+        throw new Error('eia rate-limited');
+      }
+      return r.json();
+    })
     .then(function(d) {
+      if(!d) throw new Error('no eia response');
       var rows = d && d.response && d.response.data;
       if(!rows || !rows.length) throw new Error('no eia data');
       var price = parseFloat(rows[0].value);
       if(!price || price < 20 || price > 300) throw new Error('eia out of range');
+      _oilEiaFailCount = 0; // 成功则重置失败计数
       updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
     })
     .catch(function(){
+      _oilEiaFailCount++;
       // 备源1: trending.json 服务端缓存
-      fetchWithTimeout('data/trending.json?t=' + Date.now(), 3000)
+      _fetchOilTrending();
+    });
+}
+function _fetchOilTrending() {
+  fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 3000)
+    .then(function(r){ return r.json(); })
+    .then(function(d) {
+      if(d && d.risk_indicators && d.risk_indicators.oil_price) {
+        var price = parseFloat(d.risk_indicators.oil_price);
+        if(price >= 20 && price <= 300) {
+          updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
+          return;
+        }
+      }
+      throw new Error('no oil in trending');
+    })
+    .catch(function(){
+      // 备源2: CAD汇率推算 (加元与油价正相关)
+      fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
         .then(function(r){ return r.json(); })
         .then(function(d) {
-          if(d && d.risk_indicators && d.risk_indicators.oil_price) {
-            var price = parseFloat(d.risk_indicators.oil_price);
-            if(price >= 20 && price <= 300) {
-              updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
-              return;
+          if(d && d.usd && d.usd.cad) {
+            var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
+            if(estOil >= 20 && estOil <= 300) {
+              updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 ~$', estOil, '/\u6876', 2);
             }
           }
-          throw new Error('no oil in trending');
         })
-        .catch(function(){
-          // 备源2: CAD汇率推算 (加元与油价正相关)
-          fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
-            .then(function(r){ return r.json(); })
-            .then(function(d) {
-              if(d && d.usd && d.usd.cad) {
-                var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
-                if(estOil >= 20 && estOil <= 300) {
-                  updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 ~$', estOil, '/\u6876', 2);
-                }
-              }
-            })
-            .catch(function(){/* 静态兜底已在HTML显示 */});
-        });
+        .catch(function(){/* 静态兜底已在HTML显示 */});
     });
 }
 
@@ -3155,7 +3224,7 @@ function fetchOil() {
 //    数据源: trending.json (GitHub Actions每日更新)
 //    无替代API (上海航交所无公开接口)
 function fetchScfi() {
-  fetchWithTimeout('data/trending.json?t=' + Date.now(), 5000)
+  fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 5000)
     .then(function(r){ return r.json(); })
     .then(function(d) {
       if(!d || !d.risk_indicators) return;
@@ -3186,7 +3255,7 @@ function fetchScfi() {
 
 // 3. 新闻: 从 data/trending.json 加载动态新闻 + 静态备用
 function fetchNews() {
-  fetch('data/trending.json?t=' + Date.now())
+  fetch('data/trending.json?' + _dailyCacheKey())
     .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
     .then(function(d) {
       if(d.trade_news && d.trade_news.length) {
@@ -4108,7 +4177,8 @@ function initMap() {
 
 function showLayer(name, btn) {
   Object.values(_layers).forEach(function(l){ if(_map && _map.hasLayer(l)) _map.removeLayer(l); });
-  document.querySelectorAll('[id^="btn-"]').forEach(function(b){b.classList.remove('active');});
+  var btnContainer = document.getElementById('map-layer-btns');
+  if(btnContainer) btnContainer.querySelectorAll('.nav-pill').forEach(function(b){b.classList.remove('active');});
   if(_layers[name] && _map) _map.addLayer(_layers[name]);
   if(btn) btn.classList.add('active');
 }
@@ -4166,6 +4236,9 @@ function renderScfiChart() {
 
 // 运价报价看板渲染
 function renderFreightPricing() {
+  var el = $el('freight-pricing-board');
+  if(!el || el._rendered) return;
+  el._rendered = true;
   // 如果有动态数据则用动态数据覆盖默认值
   var rates = window._freightRates || {};
   
@@ -4995,6 +5068,10 @@ function scoreCountry(iso, cat) {
 
 
 // ------ 需求场景矩阵（品类×国家类型）------
+// DEMAND_MATRIX别名解析（短名→规范名，用于合并重复条目）
+var _DEMAND_MATRIX_ALIAS = {'灯具':'灯具照明','服装':'服装及配饰'};
+function _demandAlias(cat) { return _DEMAND_MATRIX_ALIAS[cat] || cat; }
+
 var DEMAND_MATRIX = {
   '储能': {
     scenes: [
@@ -5076,26 +5153,7 @@ var DEMAND_MATRIX = {
       focus: ['小家电海外自有品牌建设','东南亚空调本地化营销','智能互联Matter协议产品']
     }
   },
-  '服装': {
-    scenes: [
-      {scene:'快时尚日常',crowd:'18-35岁年轻消费者',reason:'SHEIN/Temu重构快时尚供应链，小单快反低价竞争'},
-      {scene:'穆斯林遮体时尚',crowd:'中东/东南亚穆斯林女性',reason:'Modest Fashion市场超3000亿美元，专属需求明显'},
-      {scene:'运动休闲Athleisure',crowd:'25-45岁健康意识消费者',reason:'运动休闲服可工作可锻炼，穿着场景高频'},
-      {scene:'职业制服采购',crowd:'企业B端采购',reason:'非洲/中东城市化带动统一制服/工装采购量'}
-    ],
-    products: {
-      cert: ['OEKO-TEX Standard 100','GOTS有机棉','GRS再生材料','Bluesign环保染色','Fair Trade公平贸易'],
-      params: ['缩水率<3%','色牢度4级以上','无偶氮染料','甲醛含量<75ppm','透气率符合功能要求'],
-      features: ['可持续认证面料','抗菌防臭(银离子/竹炭)','速干防晒(UPF50+)','弹力四面拉伸'],
-      priceRange: { '快时尚':'$5-$50', '中端品牌':'$30-$150', '高端可持续':'$80-$500' }
-    },
-    exportTrend: {
-      '2020':{ scale:1480, yoy:-12 }, '2021':{ scale:1720, yoy:16 }, '2022':{ scale:1850, yoy:8 },
-      '2023':{ scale:1780, yoy:-4 }, '2024':{ scale:1820, yoy:2 },
-      trends: ['跨境电商SHEIN/Temu重构供应链，订单碎片化','穆斯林时尚细分市场增速超越大众服装','可持续认证成欧洲大客户采购门槛'],
-      focus: ['穆斯林时尚专款设计','运动功能服差异化认证','电商小单快反柔性供应链']
-    }
-  },
+  // '服装'已合并到'服装及配饰'(下方保留完整条目), 查找时通过别名解析
   '陶瓷': {
     scenes: [
       {scene:'家居装饰',crowd:'25-45岁中产家居消费者',reason:'网红家居风格带动装饰瓷器需求，礼品属性强'},
@@ -5136,26 +5194,7 @@ var DEMAND_MATRIX = {
       focus: ['CGM连续血糖监测出海','AI辅助诊断设备认证','非洲整体医疗解决方案']
     }
   },
-  '灯具': {
-    scenes: [
-      {scene:'智能家居照明',crowd:'28-45岁中产家庭',reason:'Matter协议统一后智能灯具互联需求，Color/场景灯爆款'},
-      {scene:'户外景观照明',crowd:'别墅/庭院业主',reason:'北美/欧洲庭院照明消费升级，露营灯/户外串灯持续增长'},
-      {scene:'商业照明改造',crowd:'零售/餐饮B端',reason:'欧盟能效法规推动LED批量替换，节能收益可计算'},
-      {scene:'植物生长灯',crowd:'室内种植爱好者/垂直农场',reason:'室内种植文化兴起，全光谱LED替代传统钠灯'}
-    ],
-    products: {
-      cert: ['DLC(北美商业)','UL8750','CE+EN60598','UKCA','RoHS','Energy Star'],
-      params: ['显色指数Ra>90','色温2700K-6500K可调','功率因数>0.95','使用寿命>50000h','防护IP65(户外)'],
-      features: ['调光调色温Tuya/Matter','无线控制','太阳能充电一体','定时感应','应急照明'],
-      priceRange: { '消费级智能灯':'$15-$80', '商业照明':'$30-$300', '专业植物灯':'$50-$500' }
-    },
-    exportTrend: {
-      '2020':{ scale:390, yoy:8 }, '2021':{ scale:450, yoy:15 }, '2022':{ scale:480, yoy:7 },
-      '2023':{ scale:510, yoy:6 }, '2024':{ scale:545, yoy:7 },
-      trends: ['智能灯具占比持续提升，哑光/色彩灯具社媒爆款','非洲太阳能路灯项目持续放量','欧盟荧光灯淘汰令推动LED商业替换潮'],
-      focus: ['Matter协议智能灯具全球互联','太阳能户外灯非洲/中东','植物生长灯北美/欧洲']
-    }
-  },
+  // '灯具'已合并到'灯具照明'(下方保留完整条目), 查找时通过别名解析
   '新能源汽车': {
     scenes: [
       {scene:'城市私家车出行',crowd:'25-45岁城市中产',reason:'燃油成本高企+政策补贴推动EV购车，续航焦虑降低'},
@@ -7219,8 +7258,8 @@ function showCountryDetail(iso) {
   }
   if(!coreDemand) coreDemand = demandData['default'] || '综合消费品';
 
-  // 获取需求分析模块的完整数据
-  var demandMatrix = DEMAND_MATRIX[cat];
+  // 获取需求分析模块的完整数据（含别名解析：灯具→灯具照明, 服装→服装及配饰）
+  var demandMatrix = DEMAND_MATRIX[cat] || DEMAND_MATRIX[_demandAlias(cat)];
   var demandSectionHtml = '';
   if(demandMatrix) {
     // 需求场景（针对该国的动态匹配）
@@ -7250,30 +7289,9 @@ function showCountryDetail(iso) {
     // 建材品类: 聚合20个子品类HS编码展示全景数据
     var isBuildingCat = (cat.indexOf('建材')!==-1 || cat.indexOf('建筑材料')!==-1);
     if(isBuildingCat) {
-      var BM_HS_LIST = [
-        {hs:'940610',label:'装配式建筑'},{hs:'681011',label:'水泥制品'},{hs:'680210',label:'加工石材'},
-        {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材'},
-        {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
-        {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝门窗'},{hs:'848180',label:'阀门龙头'},
-        {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
-        {hs:'690310',label:'耐火陶瓷'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
-        {hs:'441012',label:'刨花板'},{hs:'252321',label:'水泥'}
-      ];
-      var bmMatches = [];
-      var bmTotal = 0;
-      for(var bi=0;bi<BM_HS_LIST.length;bi++){
-        var bmHS = CUSTOMS_EXPORT_DATA[BM_HS_LIST[bi].hs];
-        if(bmHS && bmHS.top5){
-          for(var bt=0;bt<bmHS.top5.length;bt++){
-            if(bmHS.top5[bt].c === c.name){
-              bmMatches.push({label:BM_HS_LIST[bi].label, amt:bmHS.top5[bt].amt, yoy:bmHS.top5[bt].yoy, hs:BM_HS_LIST[bi].hs});
-              bmTotal += bmHS.top5[bt].amt;
-              break;
-            }
-          }
-        }
-      }
-      bmMatches.sort(function(a,b){ return b.amt - a.amt; });
+      var bmAgg = getBuildingMaterialAggForCountry(c.name);
+      var bmMatches = bmAgg.matches;
+      var bmTotal = bmAgg.total;
       var bmRowsHtml = '';
       for(var mi=0;mi<bmMatches.length;mi++){
         var m = bmMatches[mi];
@@ -7287,16 +7305,7 @@ function showCountryDetail(iso) {
           '<td class="py-1 text-xs '+yoyColor+' font-semibold text-right">'+yoySign+m.yoy+'%</td>' +
         '</tr>';
       }
-      // 列出该国不在Top5的子品类
-      var bmNotInTop5 = [];
-      for(var ni=0;ni<BM_HS_LIST.length;ni++){
-        var found = false;
-        for(var nj=0;nj<bmMatches.length;nj++){
-          if(bmMatches[nj].hs === BM_HS_LIST[ni].hs){ found=true; break; }
-        }
-        if(!found) bmNotInTop5.push(BM_HS_LIST[ni].label);
-      }
-      var bmNotInHtml = bmNotInTop5.length > 0 ? '<div class="text-xs text-gray-500 mt-2">未进入Top5: '+bmNotInTop5.join(' · ')+'</div>' : '';
+      var bmNotInHtml = bmAgg.notInTop5.length > 0 ? '<div class="text-xs text-gray-500 mt-2">未进入Top5: '+bmAgg.notInTop5.join(' · ')+'</div>' : '';
 
       if(bmMatches.length === 0) {
         exportToCountryHtml = '<div class="bg-blue-400/10 border border-blue-400/20 rounded-lg p-3 mt-3">' +
@@ -7322,7 +7331,7 @@ function showCountryDetail(iso) {
         '</div>';
       } else {
         exportToCountryHtml = '<div class="bg-blue-400/10 border border-blue-400/20 rounded-lg p-3 mt-3">' +
-          '<div class="text-xs text-blue-300">中国→'+c.name+' ('+cData.name+') 出口: 未进入Top5目的国，预估规模较小，可开发潜力市场</div>' +
+          '<div class="text-xs text-blue-300">中国→'+c.name+' ('+( cData ? cData.name : hs )+') 出口: 未进入Top5目的国，预估规模较小，可开发潜力市场</div>' +
         '</div>';
       }
     }
@@ -7865,7 +7874,7 @@ function initDemandSelect() {
 
 function runDemandAnalysis() {
   var cat = document.getElementById('demand-cat').value;
-  var d = DEMAND_MATRIX[cat];
+  var d = DEMAND_MATRIX[cat] || DEMAND_MATRIX[_demandAlias(cat)];
   if(!d) { document.getElementById('demand-result').innerHTML = '<p class="text-gray-500 text-sm">暂无该品类数据</p>'; return; }
   var scenesHtml = d.scenes.map(function(s,i){
     return '<div class="bg-slate-800/50 rounded-xl p-4">' +
@@ -7902,25 +7911,16 @@ function runDemandAnalysis() {
   // 建材品类: 聚合20个子品类HS编码的TOP5数据
   var isBuildingCatDemand = (cat.indexOf('建材')!==-1 || cat.indexOf('建筑材料')!==-1);
   if(isBuildingCatDemand) {
-    var BM_HS_ALL = [
-      {hs:'940610',label:'装配式建筑'},{hs:'252321',label:'水泥'},{hs:'680210',label:'加工石材'},
-      {hs:'441231',label:'胶合板'},{hs:'441810',label:'木门窗'},{hs:'440712',label:'锯材'},
-      {hs:'391722',label:'塑料管材'},{hs:'700729',label:'建筑玻璃'},{hs:'730840',label:'钢结构'},
-      {hs:'830241',label:'建筑五金'},{hs:'761010',label:'铝门窗'},{hs:'848180',label:'阀门龙头'},
-      {hs:'690721',label:'陶瓷砖'},{hs:'691010',label:'卫浴洁具'},{hs:'680690',label:'保温材料'},
-      {hs:'690310',label:'耐火陶瓷'},{hs:'732410',label:'金属卫浴'},{hs:'251511',label:'天然石材'},
-      {hs:'441012',label:'刨花板'},{hs:'681011',label:'水泥制品'}
-    ];
-    // 聚合各国总金额
+    // 聚合各国总金额（复用全局BM_HS_LIST）
     var countryAgg = {};
-    for(var bi=0;bi<BM_HS_ALL.length;bi++){
-      var bHS = CUSTOMS_EXPORT_DATA[BM_HS_ALL[bi].hs];
+    for(var bi=0;bi<BM_HS_LIST.length;bi++){
+      var bHS = CUSTOMS_EXPORT_DATA[BM_HS_LIST[bi].hs];
       if(bHS && bHS.top5){
         for(var bt=0;bt<bHS.top5.length;bt++){
           var cc = bHS.top5[bt].c;
           if(!countryAgg[cc]) countryAgg[cc] = {amt:0, details:[]};
           countryAgg[cc].amt += bHS.top5[bt].amt;
-          countryAgg[cc].details.push({label:BM_HS_ALL[bi].label, amt:bHS.top5[bt].amt, yoy:bHS.top5[bt].yoy});
+          countryAgg[cc].details.push({label:BM_HS_LIST[bi].label, amt:bHS.top5[bt].amt, yoy:bHS.top5[bt].yoy});
         }
       }
     }
@@ -8216,7 +8216,7 @@ var _trendingJSONLoaded = false;
 async function fetchTrendingJSON() {
   if (_trendingJSONLoaded) return;
   try {
-    var resp = await fetch('data/trending.json?t=' + Date.now());
+    var resp = await fetch('data/trending.json?' + _dailyCacheKey());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     var data = await resp.json();
     
@@ -8614,7 +8614,7 @@ var _customs2025 = null;
 async function loadSocialTrends() {
   if (_socialTrendsLoaded) return _socialTrends;
   try {
-    var r = await fetch('data/social_trends.json?t=' + Date.now());
+    var r = await fetch('data/social_trends.json?' + _dailyCacheKey());
     if (!r.ok) return null;
     _socialTrends = await r.json();
     _socialTrendsLoaded = true;
@@ -8625,7 +8625,7 @@ async function loadSocialTrends() {
 async function loadPolicyUpdates() {
   if (_policyUpdatesLoaded) return _policyUpdates;
   try {
-    var r = await fetch('data/policy_updates.json?t=' + Date.now());
+    var r = await fetch('data/policy_updates.json?' + _dailyCacheKey());
     if (!r.ok) return null;
     _policyUpdates = await r.json();
     _policyUpdatesLoaded = true;
@@ -8636,7 +8636,7 @@ async function loadPolicyUpdates() {
 async function loadCustoms2025() {
   if (_customs2025Loaded) return _customs2025;
   try {
-    var r = await fetch('data/customs_2025_l1.json?t=' + Date.now());
+    var r = await fetch('data/customs_2025_l1.json?' + _dailyCacheKey());
     if (!r.ok) return null;
     _customs2025 = await r.json();
     _customs2025Loaded = true;
@@ -8956,7 +8956,7 @@ async function loadEnrichedData() {
           });
         }
       })
-      .catch(function() {});
+      .catch(function(e) { console.error('[loadEnrichedData] Failed to load ' + f.url + ':', e.message || e); });
   });
 
   await Promise.all(promises);
@@ -9412,7 +9412,7 @@ function initCategorySection() {
 
     // Pre-load trending.json for social data fallback
     if (!window._trendingJSON) {
-        fetch('data/trending.json?t=' + Date.now()).then(function(r) {
+        fetch('data/trending.json?' + _dailyCacheKey()).then(function(r) {
             return r.ok ? r.json() : null;
         }).then(function(d) {
             if (d) window._trendingJSON = d;
