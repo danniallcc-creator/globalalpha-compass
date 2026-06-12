@@ -76,7 +76,7 @@ input[type=range]{accent-color:#60a5fa}
 
 <!-- ===== MAIN NAV TABS ===== -->
 <div class="max-w-7xl mx-auto px-6 pt-8">
-  <div class="flex gap-3 flex-wrap mb-8">
+  <div id="main-nav-pills" class="flex gap-3 flex-wrap mb-8">
     <button class="nav-pill active" onclick="switchTab('tab-think',this)">&#127758; 跨境智库</button>
     <button class="nav-pill" onclick="switchTab('tab-tools',this)">&#128295; 工具箱</button>
     <button class="nav-pill" onclick="switchTab('tab-compass',this)">&#127914; 市场罗盘</button>
@@ -474,7 +474,6 @@ input[type=range]{accent-color:#60a5fa}
             <optgroup label="新兴市场">
               <option value="BR">巴西</option>
               <option value="MX">墨西哥</option>
-              <option value="RU">俄罗斯</option>
               <option value="ID">印度尼西亚</option>
             </optgroup>
             <optgroup label="非洲">
@@ -1933,8 +1932,8 @@ var CUSTOMS_EXPORT_DATA = {
     top5:[{c:'日本',amt:6.86,yoy:14},{c:'韩国',amt:5.83,yoy:17},{c:'印度',amt:5.26,yoy:31},{c:'沙特阿拉伯',amt:3.94,yoy:31},{c:'德国',amt:2.19,yoy:9},{c:'美国',amt:1.73,yoy:3},{c:'英国',amt:1.09,yoy:11},{c:'法国',amt:1.1,yoy:12},{c:'澳大利亚',amt:0.82,yoy:17},{c:'加拿大',amt:0.76,yoy:9},{c:'阿联酋',amt:0.88,yoy:26},{c:'巴西',amt:0.67,yoy:20},{c:'越南',amt:0.72,yoy:29},{c:'印度尼西亚',amt:0.7,yoy:25},{c:'墨西哥',amt:0.67,yoy:20},{c:'新加坡',amt:0.38,yoy:19}] },
   '441012': { name:'刨花板/碎料板(4410系列)', data:[{yr:'2025',amt:28,yoy:12},{yr:'2024',amt:25,yoy:4},{yr:'2023',amt:24,yoy:-1}],
     top5:[{c:'日本',amt:5.6,yoy:12},{c:'韩国',amt:4.57,yoy:14},{c:'澳大利亚',amt:3.46,yoy:15},{c:'越南',amt:2.51,yoy:25},{c:'美国',amt:2.02,yoy:1},{c:'德国',amt:1.39,yoy:8},{c:'英国',amt:1.23,yoy:9},{c:'法国',amt:1.24,yoy:10},{c:'印度',amt:1.24,yoy:29},{c:'沙特阿拉伯',amt:1.24,yoy:29},{c:'加拿大',amt:0.85,yoy:6},{c:'阿联酋',amt:0.99,yoy:24},{c:'巴西',amt:0.75,yoy:17},{c:'印度尼西亚',amt:0.79,yoy:23},{c:'墨西哥',amt:0.75,yoy:17},{c:'新加坡',amt:0.45,yoy:18}] },
-  '999999': { name:'通用商品', data:[ {yr:'2024',amt:500,yoy:6}, {yr:'2023',amt:472,yoy:4}, {yr:'2022',amt:454,yoy:8} ],
-    top5:[ {c:'美国',amt:120,yoy:8}, {c:'欧盟',amt:95,yoy:5}, {c:'东南亚',amt:72,yoy:12}, {c:'日本',amt:55,yoy:3}, {c:'中东',amt:42,yoy:10} ] }
+  '999999': { name:'通用商品', data:[ {yr:'2025',amt:530,yoy:6}, {yr:'2024',amt:500,yoy:6}, {yr:'2023',amt:472,yoy:4} ],
+    top5:[ {c:'美国',amt:127,yoy:6}, {c:'欧盟',amt:100,yoy:5}, {c:'东南亚',amt:80,yoy:11}, {c:'日本',amt:57,yoy:4}, {c:'中东',amt:46,yoy:10} ] }
 };
 
 // ============================================================
@@ -2110,12 +2109,19 @@ var CATEGORY_HS_MAP = {
 // 根据输入品类查找匹配的HS编码组
 function getCategoryHsGroup(cat) {
   var keys = Object.keys(CATEGORY_HS_MAP);
+  // 按key长度降序排列，确保最长匹配优先（"消费电子"优先于"电子"）
+  keys.sort(function(a,b){ return b.length - a.length; });
   var isMatch = function(cat, key) {
     return cat.indexOf(key) !== -1 || (key.indexOf(cat) !== -1 && cat.length >= 2);
   };
+  // 排除歧义："工程及建材机械"含"建材"但语义为机械类
+  var isMachinery = cat.indexOf('\u673a\u68b0') !== -1 || cat.indexOf('\u673a\u7535') !== -1;
   // 第一轮：主键匹配（跳过服务类）
   for(var i=0;i<keys.length;i++){
-    if(isMatch(cat, keys[i]) && !CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
+    if(CATEGORY_HS_MAP[keys[i]].isService) continue;
+    // 歧义排除：如果搜索词含"机械/机电"，跳过"建材"这个key
+    if(isMachinery && keys[i] === '\u5efa\u6750') continue;
+    if(isMatch(cat, keys[i])) return CATEGORY_HS_MAP[keys[i]];
   }
   // 第二轮：主键匹配服务类
   for(var i=0;i<keys.length;i++){
@@ -2933,13 +2939,20 @@ function $el(id){return document.getElementById(id);}
 
 function switchTab(id, btn) {
   document.querySelectorAll('.tab-content').forEach(function(t){t.classList.remove('active');});
-  document.querySelectorAll('.nav-pill').forEach(function(b){b.classList.remove('active');});
+  document.querySelectorAll('#main-nav-pills .nav-pill').forEach(function(b){b.classList.remove('active');});
   var el = document.getElementById(id);
   if(el) el.classList.add('active');
   if(btn) btn.classList.add('active');
-  if(id === 'tab-map' && !window._mapInited) { initMap(); window._mapInited=true; }
+  if(id === 'tab-map') {
+    if(!window._mapInited) { initMap(); window._mapInited=true; }
+    else { document.getElementById('btn-shipping').classList.add('active'); }
+  }
   if(id === 'tab-risk') { renderWarnings(); renderFxChart(); renderCommodityChart(); }
-  if(id === 'tab-news') { renderNews('all'); }
+  if(id === 'tab-news') {
+    renderNews('all');
+    var allBtn = document.querySelector('#tab-news .nav-pill');
+    if(allBtn) allBtn.classList.add('active');
+  }
   if(id === 'tab-think') { loadEnrichedData().then(function(){ renderThinkTab(); }); }
   if(id === 'tab-tools') { loadEnrichedData().then(function(){ renderToolsTab(); }); }
   if(id === 'tab-categories') { initCategorySection(); }
@@ -3170,7 +3183,7 @@ function fetchScfi() {
 // 3. 新闻: 从 data/trending.json 加载动态新闻 + 静态备用
 function fetchNews() {
   fetch('data/trending.json?t=' + Date.now())
-    .then(function(r){return r.json();})
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
     .then(function(d) {
       if(d.trade_news && d.trade_news.length) {
         var parsed = d.trade_news.map(function(a){
@@ -4365,10 +4378,24 @@ document.addEventListener('DOMContentLoaded', function() {
   fetchOil();
   fetchScfi();
   fetchNews();
-  setInterval(fetchRates, 60000);   // 每1分钟刷新汇率 (open.er-api每小时刷新一次最新)
-  setInterval(fetchGold,  90000);   // 每90秒刷新金价 (CDN缓存约1分钟)
-  setInterval(fetchOil,   120000);  // 每2分钟刷新油价 (EIA每日更新)
-  setInterval(fetchScfi,  300000);  // 每5分钟刷新SCFI (服务端每日更新)
+  var _timerRates = setInterval(fetchRates, 60000);
+  var _timerGold  = setInterval(fetchGold,  90000);
+  var _timerOil   = setInterval(fetchOil,   120000);
+  var _timerScfi  = setInterval(fetchScfi,  300000);
+
+  // 页面不可见时暂停轮询，节省带宽和电池
+  document.addEventListener('visibilitychange', function() {
+    if(document.hidden) {
+      clearInterval(_timerRates); clearInterval(_timerGold);
+      clearInterval(_timerOil); clearInterval(_timerScfi);
+    } else {
+      fetchRates(); fetchGold(); fetchOil(); fetchScfi();
+      _timerRates = setInterval(fetchRates, 60000);
+      _timerGold  = setInterval(fetchGold,  90000);
+      _timerOil   = setInterval(fetchOil,   120000);
+      _timerScfi  = setInterval(fetchScfi,  300000);
+    }
+  });
 
   // SCFI 图表 + 运价报价板（在地图Tab激活时再画，避免canvas尺寸为0）
   document.querySelector('[onclick*="tab-map"]').addEventListener('click', function(){
@@ -4962,12 +4989,6 @@ function scoreCountry(iso, cat) {
   return Math.round(score);
 }
 
-function getTop5Countries(isoList, cat) {
-  return isoList
-    .map(function(iso){ return {iso:iso, score:scoreCountry(iso,cat)}; })
-    .sort(function(a,b){ return b.score - a.score; })
-    .slice(0, 5);
-}
 
 // ------ 需求场景矩阵（品类×国家类型）------
 var DEMAND_MATRIX = {
@@ -8854,7 +8875,7 @@ function renderCategoryAdvice(catData) {
             }
         }
         if (latest.top5 && latest.top5.length > 0) {
-            var top3 = latest.top5.slice(0, 3).map(function(c) { return c.c + '($' + (c.amt || 0).toFixed(0) + 'M)'; }).join(', ');
+            var top3 = latest.top5.slice(0, 3).map(function(c) { return c.c + '($' + (c.amt || 0).toFixed(1) + '\u4ebf)'; }).join(', ');
             advices.push({icon:'&#128674;', text:'出口TOP3市场: ' + top3 + ' — 核心出口目标市场'});
         }
     }
@@ -8882,8 +8903,10 @@ function renderCategoryAdvice(catData) {
 }
 
 function renderToolsTab() {
-  if(!document.getElementById('compliance-result').innerHTML) {
-    runCompliance();
+  // 不自动执行runCompliance()，等待用户选择品类和市场后手动触发
+  var resultEl = document.getElementById('compliance-result');
+  if(resultEl && !resultEl.innerHTML) {
+    resultEl.innerHTML = '<div class="card p-6 text-center text-gray-400">\u8bf7\u9009\u62e9\u54c1\u7c7b\u548c\u76ee\u6807\u5e02\u573a\uff0c\u7136\u540e\u70b9\u51fb\u201c\u67e5\u8be2\u5408\u89c4\u201d\u6309\u94ae\u3002</div>';
   }
 }
 
@@ -9095,13 +9118,13 @@ function renderCategoryDetail(d) {
   html += '</div></div>';
 
   // Export data
-  // Helper: format amount in millions/billions
+  // Helper: format amount (单位: 亿美元)
   function _fmtAmt(amt) {
     if (amt === undefined || amt === null) return 'N/A';
     var n = parseFloat(amt);
     if (isNaN(n)) return 'N/A';
-    if (n >= 1000) return '$' + (n / 1000).toFixed(1) + 'B';
-    return '$' + n.toFixed(0) + 'M';
+    if (n >= 100) return '$' + Math.round(n) + '\u4ebf';
+    return '$' + n.toFixed(1) + '\u4ebf';
   }
   if (d.export_data && Array.isArray(d.export_data) && d.export_data.length > 0 && d.export_data[0].data && d.export_data[0].data.length > 0) {
     var expItem = d.export_data[0];
