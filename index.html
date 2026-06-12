@@ -2157,6 +2157,27 @@ function getCategoryHsGroup(cat) {
   };
   // 排除歧义："工程及建材机械"含"建材"但语义为机械类
   var isMachinery = cat.indexOf('\u673a\u68b0') !== -1 || cat.indexOf('\u673a\u7535') !== -1;
+
+  // ★ 第零轮：子类目label精确匹配（如"家具"→单品类组，不被父品类"家居园艺"截获）
+  for(var i=0;i<keys.length;i++){
+    var subs = CATEGORY_HS_MAP[keys[i]].subs;
+    if(!subs) continue;
+    for(var j=0;j<subs.length;j++){
+      if(subs[j].label === cat) return {name:cat, subs:[subs[j]]};
+    }
+  }
+  // ★ 第零轮补充：子类目label模糊匹配（如"水泥制品"含"水泥"→匹配"水泥"子类目）
+  for(var i=0;i<keys.length;i++){
+    var subs = CATEGORY_HS_MAP[keys[i]].subs;
+    if(!subs) continue;
+    for(var j=0;j<subs.length;j++){
+      var lbl = subs[j].label;
+      if(lbl.length >= 2 && (cat.indexOf(lbl) !== -1 || lbl.indexOf(cat) !== -1) && lbl !== cat) {
+        return {name:cat, subs:[subs[j]]};
+      }
+    }
+  }
+
   // 第一轮：主键匹配（跳过服务类）
   for(var i=0;i<keys.length;i++){
     if(CATEGORY_HS_MAP[keys[i]].isService) continue;
@@ -2170,15 +2191,25 @@ function getCategoryHsGroup(cat) {
   for(var i=0;i<keys.length;i++){
     if(isMatch(cat, keys[i]) && CATEGORY_HS_MAP[keys[i]].isService) return CATEGORY_HS_MAP[keys[i]];
   }
-  // 别名匹配：通过COMPLIANCE找到HS编码后，查找其所属的CATEGORY_HS_MAP父品类
+  // 别名匹配：通过COMPLIANCE找到HS编码后，返回精确匹配的单品类（而非父品类聚合）
   var comp = getCompliance(cat);
   if(comp && comp.hs && comp.hs!=='999999') {
+    var allMatches = [], bestMatch = null;
     for(var i=0;i<keys.length;i++){
       var subs = CATEGORY_HS_MAP[keys[i]].subs;
       if(!subs) continue;
       for(var j=0;j<subs.length;j++){
-        if(subs[j].hs===comp.hs) return CATEGORY_HS_MAP[keys[i]];
+        if(subs[j].hs===comp.hs) {
+          var entry = {key:keys[i], sub:subs[j]};
+          allMatches.push(entry);
+          // 优先选择：搜索词包含子类目label（语义最相关）
+          if(!bestMatch && cat.indexOf(subs[j].label) !== -1) bestMatch = entry;
+        }
       }
+    }
+    if(allMatches.length > 0){
+      var chosen = bestMatch || allMatches[0];
+      return {name:cat, subs:[chosen.sub]};
     }
     // 未找到父品类归属，返回单品类组
     return {name:cat, subs:[{hs:comp.hs, label:comp.kw?comp.kw[0]:cat}]};
