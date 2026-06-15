@@ -18,14 +18,11 @@ body{background:linear-gradient(135deg,#0a0f1e 0%,#0d1b2e 50%,#0a0f1e 100%);font
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .spin{animation:spin 1s linear infinite}
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-.pulse{animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
 #world-map{height:480px;border-radius:12px}
 .badge{font-size:.7rem;padding:2px 8px;border-radius:99px;font-weight:600}
 .badge-up{background:rgba(34,197,94,.15);color:#4ade80}
 .badge-warn{background:rgba(251,191,36,.15);color:#fbbf24}
 .badge-down{background:rgba(239,68,68,.15);color:#f87171}
-.ticker-item{display:inline-flex;align-items:center;gap:6px;padding:0 20px;border-right:1px solid rgba(255,255,255,.08);white-space:nowrap}
 .nav-pill{padding:10px 22px;border-radius:10px;border:1px solid rgba(96,165,250,.2);background:rgba(30,41,59,.5);color:#94a3b8;cursor:pointer;font-size:.9rem;transition:all .25s}
 .nav-pill.active{background:linear-gradient(135deg,rgba(59,130,246,.25),rgba(147,51,234,.25));border-color:#60a5fa;color:#e2e8f0;font-weight:600}
 .nav-pill:hover:not(.active){background:rgba(30,41,59,.8);color:#e2e8f0}
@@ -48,17 +45,6 @@ input[type=range]{accent-color:#60a5fa}
 </style>
 </head>
 <body>
-
-<!-- ===== TICKER ===== -->
-<div id="ticker-bar" class="bg-black/50 border-b border-white/5 overflow-x-auto py-2 px-4 flex items-center text-xs" style="white-space:nowrap">
-  <span class="ticker-item text-yellow-400"><span>&#9679;</span><span id="t-gold">伦敦金 $4,076.59/oz</span></span>
-  <span class="ticker-item text-blue-300"><span>&#8364;</span><span id="t-eurcny">EUR/CNY 7.8403</span></span>
-  <span class="ticker-item text-blue-300"><span>&#36;</span><span id="t-usdcny">USD/CNY 6.7876</span></span>
-  <span class="ticker-item text-purple-300"><span>&#163;</span><span id="t-gbpcny">GBP/CNY 9.0854</span></span>
-  <span class="ticker-item text-green-400"><span>&#9679;</span><span id="t-oil">布伦特原油 $97.46/桶</span></span>
-  <span class="ticker-item text-cyan-300"><span>&#9632;</span><span id="t-scfi">SCFI 航运指数 1,858 (+3.1%)</span></span>
-  <span class="ticker-item text-green-300 pulse"><span style="font-size:.5rem;background:#22c55e;border-radius:50%;display:inline-block;width:6px;height:6px"></span><span>实时数据</span></span>
-</div>
 
 <!-- ===== NAV ===== -->
 <nav class="sticky top-0 z-50 bg-black/30 backdrop-blur-lg border-b border-white/5 px-8 py-4 flex justify-between items-center">
@@ -3093,252 +3079,10 @@ function switchTab(id, btn) {
 //   4. 趋势反馈: 价格变化箭头+颜色，增强"实时"感
 // ============================================================
 
-// 通用: 带超时的fetch
-function fetchWithTimeout(url, timeoutMs) {
-  timeoutMs = timeoutMs || 5000;
-  if(typeof AbortController !== 'undefined') {
-    var ctrl = new AbortController();
-    var timer = setTimeout(function(){ ctrl.abort(); }, timeoutMs);
-    return fetch(url, {signal: ctrl.signal})
-      .then(function(r){ clearTimeout(timer); if(!r.ok) throw new Error('HTTP '+r.status); return r; });
-  }
-  return fetch(url).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r; });
-}
-
 // 按天级缓存key（避免Date.now()每次都破坏浏览器缓存，静态数据每日更新一次即可）
 function _dailyCacheKey() {
   var d = new Date();
   return 'v=' + d.getFullYear() + (d.getMonth()+1) + d.getDate();
-}
-
-// 通用: 更新ticker元素 + 计算趋势箭头
-window._tickerCache = window._tickerCache || {};
-function updateTicker(id, label, value, unit, decimals) {
-  var el = $el(id);
-  if(!el) return;
-  decimals = (decimals === undefined) ? 2 : decimals;
-  var prev = window._tickerCache[id];
-  var arrow = '', color = '';
-  if(prev !== undefined && prev !== value) {
-    if(value > prev) { arrow = ' \u25b2'; color = '#22c55e'; }
-    else if(value < prev) { arrow = ' \u25bc'; color = '#ef4444'; }
-  }
-  window._tickerCache[id] = value;
-  // 智能拼接：label以$结尾时不插入空格
-  var sep = (label.charAt(label.length-1) === '$') ? '' : ' ';
-  var text = label + sep + (typeof value === 'number' ? value.toFixed(decimals) : value) + (unit || '') + arrow;
-  el.textContent = text;
-  if(color) {
-    el.style.transition = 'color 0.5s';
-    el.style.color = color;
-    setTimeout(function(){ el.style.color = ''; }, 2000);
-  }
-}
-
-// 1. 汇率: USD/CNY, EUR/CNY, GBP/CNY
-//    主源: open.er-api.com (200ms, 无需Key, *)
-//    备源: jsdelivr fawazahmed0 (500ms, 全球CDN)
-//    兜底: 静态默认值 (页面初始已显示)
-function fetchRates() {
-  var primaryDone = false;
-  fetchWithTimeout('https://open.er-api.com/v6/latest/USD', 5000)
-    .then(function(r){ return r.json(); })
-    .then(function(d) {
-      if(!d.rates || !d.rates.CNY) throw new Error('no rates');
-      primaryDone = true;
-      var r = d.rates, cny = r.CNY;
-      var usd = parseFloat(cny.toFixed(4));
-      var eur = r.EUR ? parseFloat((cny / r.EUR).toFixed(4)) : 7.88;
-      var gbp = r.GBP ? parseFloat((cny / r.GBP).toFixed(4)) : 9.13;
-      updateTicker('t-usdcny', 'USD/CNY', usd, '', 4);
-      updateTicker('t-eurcny', 'EUR/CNY', eur, '', 4);
-      updateTicker('t-gbpcny', 'GBP/CNY', gbp, '', 4);
-      window._rates = {usd:usd, eur:eur, gbp:gbp};
-      var score = Math.min(99, Math.round(Math.abs(usd - 7.2) * 100));
-      if($el('fx-risk-score')) $el('fx-risk-score').textContent = score;
-      if($el('fx-risk-bar')) $el('fx-risk-bar').style.width = score + '%';
-    })
-    .catch(function() {
-      if(primaryDone) return;
-      // 备源: fawazahmed0 jsdelivr CDN
-      fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
-        .then(function(r){ return r.json(); })
-        .then(function(d) {
-          var r = d.usd || {}; if(!r.cny) throw new Error('no cny');
-          var usd = parseFloat(r.cny.toFixed(4));
-          var eur = r.eur ? parseFloat((r.cny / r.eur).toFixed(4)) : 7.88;
-          var gbp = r.gbp ? parseFloat((r.cny / r.gbp).toFixed(4)) : 9.13;
-          updateTicker('t-usdcny', 'USD/CNY', usd, '', 4);
-          updateTicker('t-eurcny', 'EUR/CNY', eur, '', 4);
-          updateTicker('t-gbpcny', 'GBP/CNY', gbp, '', 4);
-          window._rates = {usd:usd, eur:eur, gbp:gbp};
-        })
-        .catch(function(){
-          // 备源2: cloudflare currency-api 镜像
-          fetchWithTimeout('https://currency-api.pages.dev/v1/currencies/usd.json', 5000)
-            .then(function(r){ return r.json(); })
-            .then(function(d) {
-              var r = d.usd || {}; if(!r.cny) return;
-              updateTicker('t-usdcny', 'USD/CNY', parseFloat(r.cny.toFixed(4)), '', 4);
-              if(r.eur) updateTicker('t-eurcny', 'EUR/CNY', parseFloat((r.cny / r.eur).toFixed(4)), '', 4);
-              if(r.gbp) updateTicker('t-gbpcny', 'GBP/CNY', parseFloat((r.cny / r.gbp).toFixed(4)), '', 4);
-            })
-            .catch(function(){/* 静态兜底已在HTML显示 */});
-        });
-    });
-}
-
-// 2. 金价: 伦敦金 XAU (USD/oz)
-//    主源: jsdelivr fawazahmed0 xau倒数 (1USD = X盎司 → 1oz = $X)
-//    备源1: cloudflare currency-api 镜像
-//    备源2: trending.json (服务端缓存)
-//    兜底: 静态默认值
-function fetchGold() {
-  fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
-    .then(function(r){ return r.json(); })
-    .then(function(d) {
-      var xau = d && d.usd && d.usd.xau;
-      if(!xau) throw new Error('no xau');
-      var price = parseFloat((1 / parseFloat(xau)).toFixed(2));
-      if(price < 500 || price > 20000) throw new Error('xau out of range');
-      updateTicker('t-gold', '\u4f26\u6566\u91d1 $', price, '/oz', 2);
-    })
-    .catch(function(){
-      // 备源1: cloudflare currency-api pages.dev 镜像
-      fetchWithTimeout('https://currency-api.pages.dev/v1/currencies/usd.json', 5000)
-        .then(function(r){ return r.json(); })
-        .then(function(d) {
-          var xau = d && d.usd && d.usd.xau;
-          if(!xau) throw new Error('no xau');
-          var price = parseFloat((1 / parseFloat(xau)).toFixed(2));
-          if(price < 500 || price > 20000) throw new Error('xau out of range');
-          updateTicker('t-gold', '\u4f26\u6566\u91d1 $', price, '/oz', 2);
-        })
-        .catch(function(){
-          // 备源2: trending.json (如有)
-          fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 3000)
-            .then(function(r){ return r.json(); })
-            .then(function(d) {
-              if(d && d.risk_indicators && d.risk_indicators.gold_price) {
-                updateTicker('t-gold', '\u4f26\u6566\u91d1 $', parseFloat(d.risk_indicators.gold_price), '/oz', 2);
-              }
-            })
-            .catch(function(){/* 静态兜底已在HTML显示 */});
-        });
-    });
-}
-
-// 3. 油价: 布伦特原油 Brent ($/桶)
-//    主源: trending.json (GitHub Actions服务端FRED获取, 可靠)
-//    备源1: EIA API (DEMO_KEY易429限流, 带退避策略)
-//    备源2: fawazahmed0 CAD推算
-//    兜底: 静态默认值
-var _oilEiaBackoffUntil = 0; // EIA 429限流退避时间戳
-var _oilEiaFailCount = 0;    // EIA连续失败计数
-function fetchOil() {
-  var now = Date.now();
-  // EIA退避中 → 直接用trending.json
-  if(now < _oilEiaBackoffUntil) {
-    _fetchOilTrending();
-    return;
-  }
-  var eiaUrl = 'https://api.eia.gov/v2/petroleum/pri/spt/data/?frequency=daily&data%5B0%5D=value&facets%5Bseries%5D%5B0%5D=RBRTE&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&offset=0&length=2&api_key=DEMO_KEY';
-  // 用原生fetch(非fetchWithTimeout)以便能读到status code做429判断
-  var oilFetch = (typeof AbortController !== 'undefined')
-    ? fetch(eiaUrl, {signal: (function(){ var c = new AbortController(); setTimeout(function(){c.abort()}, 8000); return c.signal; })()})
-    : fetch(eiaUrl);
-  oilFetch
-    .then(function(r){
-      if(r.status === 429) {
-        // 限流退避: 指数增长 (10min, 20min, 40min...最长4h)
-        var backoffMs = Math.min(10 * 60 * 1000 * Math.pow(2, _oilEiaFailCount), 4 * 60 * 60 * 1000);
-        _oilEiaBackoffUntil = Date.now() + backoffMs;
-        _oilEiaFailCount++;
-        console.warn('[fetchOil] EIA 429 rate-limit, backoff ' + Math.round(backoffMs/60000) + 'min');
-        throw new Error('eia rate-limited');
-      }
-      if(!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
-    .then(function(d) {
-      if(!d) throw new Error('no eia response');
-      var rows = d && d.response && d.response.data;
-      if(!rows || !rows.length) throw new Error('no eia data');
-      var price = parseFloat(rows[0].value);
-      if(!price || price < 20 || price > 300) throw new Error('eia out of range');
-      _oilEiaFailCount = 0; // 成功则重置失败计数
-      _oilEiaBackoffUntil = 0; // 成功则重置退避
-      updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
-    })
-    .catch(function(e){
-      // 非429错误也需要增加失败计数（但429已在上面处理过了）
-      if(e && e.message && e.message.indexOf('rate-limited') === -1) {
-        _oilEiaFailCount++;
-      }
-      // 备源1: trending.json 服务端缓存
-      _fetchOilTrending();
-    });
-}
-function _fetchOilTrending() {
-  fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 3000)
-    .then(function(r){ return r.json(); })
-    .then(function(d) {
-      if(d && d.risk_indicators && d.risk_indicators.oil_price) {
-        var price = parseFloat(d.risk_indicators.oil_price);
-        if(price >= 20 && price <= 300) {
-          updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 $', price, '/\u6876', 2);
-          return;
-        }
-      }
-      throw new Error('no oil in trending');
-    })
-    .catch(function(){
-      // 备源2: CAD汇率推算 (加元与油价正相关)
-      fetchWithTimeout('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json', 5000)
-        .then(function(r){ return r.json(); })
-        .then(function(d) {
-          if(d && d.usd && d.usd.cad) {
-            var estOil = Math.round(70 * Math.pow(d.usd.cad/1.25, 0.5) * 100) / 100;
-            if(estOil >= 20 && estOil <= 300) {
-              updateTicker('t-oil', '\u5e03\u4f26\u7279\u539f\u6cb9 ~$', estOil, '/\u6876', 2);
-            }
-          }
-        })
-        .catch(function(){/* 静态兜底已在HTML显示 */});
-    });
-}
-
-// 4. SCFI: 上海航运交易所运价指数
-//    数据源: trending.json (GitHub Actions每日更新)
-//    无替代API (上海航交所无公开接口)
-function fetchScfi() {
-  fetchWithTimeout('data/trending.json?' + _dailyCacheKey(), 5000)
-    .then(function(r){ return r.json(); })
-    .then(function(d) {
-      if(!d || !d.risk_indicators) return;
-      var ind = d.risk_indicators;
-      if(ind.scfi_index) {
-        var scfiVal = parseInt(ind.scfi_index);
-        var scfiChg = parseFloat(ind.scfi_change || 0);
-        var sign = scfiChg >= 0 ? '+' : '';
-        var text = 'SCFI \u822a\u8fd0\u6307\u6570 ' + scfiVal.toLocaleString() + ' (' + sign + scfiChg.toFixed(1) + '%)';
-        var prev = window._tickerCache['t-scfi-val'];
-        var el = $el('t-scfi');
-        if(el) {
-          el.textContent = text;
-          if(prev !== undefined && prev !== scfiVal) {
-            el.style.transition = 'color 0.5s';
-            el.style.color = scfiVal > prev ? '#22c55e' : '#ef4444';
-            setTimeout(function(){ el.style.color = ''; }, 2000);
-          }
-          window._tickerCache['t-scfi-val'] = scfiVal;
-        }
-        // 同步更新地图Tab的运价指标
-        var scfiMap = $el('m-shipping-idx');
-        if(scfiMap) scfiMap.textContent = scfiVal.toLocaleString();
-      }
-    })
-    .catch(function(){/* 静态兜底已在HTML显示 */});
 }
 
 // 3. 新闻: 从 data/trending.json 加载动态新闻 + 静态备用
@@ -4532,30 +4276,8 @@ function updateClock() {
 document.addEventListener('DOMContentLoaded', function() {
   updateClock();
   setInterval(updateClock, 1000);
-  // 顶部Ticker: 4路实时数据并发首屏加载 + 独立轮询周期
-  fetchRates();
-  fetchGold();
-  fetchOil();
-  fetchScfi();
+  // 新闻加载 (不再需要ticker轮询)
   fetchNews();
-  var _timerRates = setInterval(fetchRates, 60000);
-  var _timerGold  = setInterval(fetchGold,  90000);
-  var _timerOil   = setInterval(fetchOil,   120000);
-  var _timerScfi  = setInterval(fetchScfi,  300000);
-
-  // 页面不可见时暂停轮询，节省带宽和电池
-  document.addEventListener('visibilitychange', function() {
-    if(document.hidden) {
-      clearInterval(_timerRates); clearInterval(_timerGold);
-      clearInterval(_timerOil); clearInterval(_timerScfi);
-    } else {
-      fetchRates(); fetchGold(); fetchOil(); fetchScfi();
-      _timerRates = setInterval(fetchRates, 60000);
-      _timerGold  = setInterval(fetchGold,  90000);
-      _timerOil   = setInterval(fetchOil,   120000);
-      _timerScfi  = setInterval(fetchScfi,  300000);
-    }
-  });
 
   // SCFI 图表 + 运价报价板（在地图Tab激活时再画，避免canvas尺寸为0）
   document.querySelector('[onclick*="tab-map"]').addEventListener('click', function(){
