@@ -1,0 +1,246 @@
+{
+  "_comment": "Country-level policy/trend data used by renderCompass async enrichment (cc-policy-* tags on country cards)",
+  "meta": {
+    "updated_at": "2026-06-10",
+    "source": "WTO/USTR/EU Commission/MOFCom aggregated"
+  },
+  "country_summary": {
+    "US": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "301关税: 对华加征7.5%-100% (2025更新)",
+        "UFLPA: 新疆供应链审查持续加强",
+        "Section 232: 钢铝关税维持，汽车关税扩大"
+      ]
+    },
+    "DE": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "CBAM碳边境税: 2026起正式征收",
+        "EPR包装法: LUCID注册强制",
+        "REACH SVHC: 清单持续扩展至240+项"
+      ]
+    },
+    "GB": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "UK EPR: 2025年包装生产者责任延伸",
+        "UK REACH: 独立注册体系运行中",
+        "UKCA标志: 部分品类CE仍可接受"
+      ]
+    },
+    "FR": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "AGEC反浪费法: 包装/维修指数义务",
+        "EPR品类最多: 12大类强制回收",
+        "数字产品护照(DPP): 试点推进中"
+      ]
+    },
+    "AU": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "中澳FTA: 零关税品类持续扩大",
+        "ACCC合规: 消费品安全检查常态化",
+        "生物安全法: 木制品熏蒸强制"
+      ]
+    },
+    "JP": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "PSE/PSC: 电气用品安全法严格",
+        "食品卫生法: 进口检测标准升级",
+        "JIS标准: 2025版更新中"
+      ]
+    },
+    "KR": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "KC认证: 安全/EMC/能效三合一",
+        "化妆品法: 成分限制清单更新",
+        "K-REACH: 化学品注册义务扩大"
+      ]
+    },
+    "CA": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "CCPSA: 消费品安全法执行加强",
+        "WHMIS: 化学品标签GHS 2015对齐",
+        "法语标签: 魁北克省强制要求"
+      ]
+    },
+    "BR": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "INMETRO认证: 品类扩展中",
+        "RCEP替代: 南共市FTA谈判推进",
+        "进口税: 跨境电商50美元免税额争议"
+      ]
+    },
+    "IN": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "BIS认证: 强制品类扩至370+项",
+        "QCO质量管制令: 覆盖钢铁/化工/电子",
+        "Make in India: 本地化生产补贴"
+      ]
+    },
+    "VN": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "EVFTA: 欧盟零关税品类扩大",
+        "CPTPP: 原产地规则灵活化",
+        "投资优惠: 电子/纺织制造税收减免"
+      ]
+    },
+    "ID": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "SNI认证: 强制品类持续扩大",
+        "SNI标志: 进口消费品必须持有",
+        "本地化要求: 电商数据本地存储"
+      ]
+    },
+    "MX": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "USMCA: 原产地规则62.5%区域价值",
+        "NOM标准: 电子产品标签要求更新",
+        "近岸外包: 制造业投资优惠政策"
+      ]
+    },
+    "SA": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "Vision 2030: 非石油进口需求激增",
+        "SABER平台: 进口清关数字化",
+        "清真认证: 食品/化妆品强制要求"
+      ]
+    },
+    "AE": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "自贸区: JAFZA/DAFZA零关税通道",
+        "ECAS认证: 消费品安全标准对齐",
+        "电子商务法: 跨境电商监管便利化"
+      ]
+    }
+  },
+  "articles": [
+    {
+      "title": "美国301关税2025年更新: 电动车/锂电池/光伏加征至100%",
+      "country": "US",
+      "policy_type": "tariff",
+      "impact": "negative",
+      "impact_score": 0.95,
+      "url": "https://ustr.gov/issue-areas/enforcement/section-301-investigations",
+      "published": "2026-05-15",
+      "source": "USTR"
+    },
+    {
+      "title": "欧盟CBAM碳边境税2026年正式征收: 钢铁/铝/水泥/化肥/电力",
+      "country": "EU",
+      "policy_type": "regulation",
+      "impact": "negative",
+      "impact_score": 0.85,
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+      "published": "2026-04-20",
+      "source": "EU Commission"
+    },
+    {
+      "title": "印度BIS认证强制品类扩至370项: 中国出口企业应对指南",
+      "country": "IN",
+      "policy_type": "certification",
+      "impact": "negative",
+      "impact_score": 0.75,
+      "url": "https://www.bis.gov.in/",
+      "published": "2026-03-10",
+      "source": "BIS"
+    },
+    {
+      "title": "越南EVFTA第三年: 欧盟零关税品类覆盖率提升至72%",
+      "country": "VN",
+      "policy_type": "FTA",
+      "impact": "positive",
+      "impact_score": 0.8,
+      "url": "https://policy.tradeportal.eu/vietnam",
+      "published": "2026-02-28",
+      "source": "EU-VN FTA"
+    },
+    {
+      "title": "沙特SABER平台升级: 进口商注册流程简化至3个工作日",
+      "country": "SA",
+      "policy_type": "trade_facilitation",
+      "impact": "positive",
+      "impact_score": 0.65,
+      "url": "https://saber.sa/",
+      "published": "2026-04-05",
+      "source": "SABER/SASO"
+    },
+    {
+      "title": "UFLPA执法升级: 2025年Q1扣押中国商品同比增长45%",
+      "country": "US",
+      "policy_type": "compliance",
+      "impact": "negative",
+      "impact_score": 0.9,
+      "url": "https://www.dhs.gov/uflpa",
+      "published": "2026-05-20",
+      "source": "DHS/CBP"
+    },
+    {
+      "title": "法国AGEC反浪费法全面执行: 电子产品维修指数强制标注",
+      "country": "FR",
+      "policy_type": "regulation",
+      "impact": "negative",
+      "impact_score": 0.7,
+      "url": "https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire",
+      "published": "2026-01-15",
+      "source": "ADEME"
+    },
+    {
+      "title": "中澳FTA第九轮降税: 零关税品类覆盖率达98%",
+      "country": "AU",
+      "policy_type": "FTA",
+      "impact": "positive",
+      "impact_score": 0.75,
+      "url": "https://fta.mofcom.gov.cn/article/ae/aezd/202301/20230103294210.shtml",
+      "published": "2026-03-25",
+      "source": "MOFCOM"
+    },
+    {
+      "title": "巴西跨境电商50美元免税额政策收紧: 2025年起全额征税",
+      "country": "BR",
+      "policy_type": "tariff",
+      "impact": "negative",
+      "impact_score": 0.8,
+      "url": "https://www.gov.br/receitafederal/pt-br",
+      "published": "2026-02-10",
+      "source": "Receita Federal"
+    },
+    {
+      "title": "欧盟电池法案: 2027年电池护照强制实施，中国企业应对策略",
+      "country": "EU",
+      "policy_type": "regulation",
+      "impact": "negative",
+      "impact_score": 0.85,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1542",
+      "published": "2026-04-18",
+      "source": "EU Parliament"
+    }
+  ]
+}
