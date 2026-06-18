@@ -1,0 +1,347 @@
+{
+  "_comment": "Social media trend data by product category, used by renderCompass async enrichment (cc-social-* tags)",
+  "储能": {
+    "google": [
+      {"keyword": "portable power station", "volume": "823K", "growth": 42, "business_opportunity": "北美/欧洲户外储能搜索激增，便携式电站是主力品类"},
+      {"keyword": "home battery system", "volume": "450K", "growth": 35, "business_opportunity": "家庭储能系统需求上升，阳台储能成为新增长点"},
+      {"keyword": "solar generator", "volume": "310K", "growth": 28, "business_opportunity": "光储一体化产品搜索热度持续攀升"}
+    ],
+    "youtube": [
+      {"keyword": "best portable power station 2025", "count": "12M views", "growth": 55, "business_opportunity": "YouTube测评视频播放量暴涨，建议布局EcoFlow/Jackery同类竞品"},
+      {"keyword": "balcony solar battery", "count": "8M views", "growth": 78, "business_opportunity": "德国阳台储能系统成为爆款话题"}
+    ],
+    "tiktok": [
+      {"keyword": "#SolarGenerator", "count": "3.2B views", "growth": 65, "business_opportunity": "TikTok户外储能话题播放量持续走高"},
+      {"keyword": "#VanLifePower", "count": "1.8B views", "growth": 48, "business_opportunity": "房车储能场景在社媒上热度飙升"}
+    ],
+    "instagram": [
+      {"keyword": "#offgridliving", "count": "9.5M posts", "growth": 32, "business_opportunity": "离网生活美学带动储能产品种草"},
+      {"keyword": "#solarpowered", "count": "6.1M posts", "growth": 25, "business_opportunity": "太阳能产品视觉内容传播效果好"}
+    ],
+    "x": [
+      {"keyword": "energy storage policy", "count": "245K tweets", "growth": 38, "business_opportunity": "储能政策讨论在X上热度上升"},
+      {"keyword": "home battery rebate", "count": "120K tweets", "growth": 22, "business_opportunity": "各国补贴推动家庭储能采购"}
+    ]
+  },
+  "电子": {
+    "google": [
+      {"keyword": "AI smart glasses", "volume": "1.2M", "growth": 85, "business_opportunity": "AI智能眼镜成为消费电子最热品类"},
+      {"keyword": "wireless earbuds ANC", "volume": "680K", "growth": 22, "business_opportunity": "降噪耳机搜索稳定增长"},
+      {"keyword": "portable monitor", "volume": "410K", "growth": 35, "business_opportunity": "便携显示器远程办公需求持续"}
+    ],
+    "youtube": [
+      {"keyword": "best AI gadgets 2025", "count": "18M views", "growth": 120, "business_opportunity": "AI设备测评视频引爆流量"},
+      {"keyword": "smart home setup", "count": "15M views", "growth": 45, "business_opportunity": "智能家居场景搭建视频热度高"}
+    ],
+    "tiktok": [
+      {"keyword": "#AIGadgets", "count": "8B views", "growth": 95, "business_opportunity": "AI小工具在TikTok爆火"},
+      {"keyword": "#TechUnboxing", "count": "12B views", "growth": 38, "business_opportunity": "开箱视频持续带动消费电子曝光"}
+    ],
+    "instagram": [
+      {"keyword": "#SmartHome", "count": "4.2M posts", "growth": 28, "business_opportunity": "智能家居产品在Instagram种草效果好"},
+      {"keyword": "#DeskSetup", "count": "7.8M posts", "growth": 42, "business_opportunity": "桌面办公装备在IG上视觉传播强"}
+    ],
+    "x": [
+      {"keyword": "consumer electronics tariff", "count": "380K tweets", "growth": 65, "business_opportunity": "关税政策讨论影响消费电子采购决策"},
+      {"keyword": "CES 2025 best products", "count": "520K tweets", "growth": 55, "business_opportunity": "CES展后新品讨论热度高"}
+    ]
+  },
+  "家电": {
+    "google": [
+      {"keyword": "robot vacuum mop combo", "volume": "520K", "growth": 38, "business_opportunity": "扫拖一体机搜索持续增长"},
+      {"keyword": "air fryer oven", "volume": "890K", "growth": 18, "business_opportunity": "空气炸锅烤箱一体机需求稳定"},
+      {"keyword": "portable washing machine", "volume": "210K", "growth": 45, "business_opportunity": "迷你洗衣机在新兴市场搜索激增"}
+    ],
+    "youtube": [
+      {"keyword": "best robot vacuum 2025", "count": "22M views", "growth": 42, "business_opportunity": "扫地机器人测评视频播放量高"},
+      {"keyword": "smart kitchen gadgets", "count": "14M views", "growth": 35, "business_opportunity": "智能厨房小家电视频内容受欢迎"}
+    ],
+    "tiktok": [
+      {"keyword": "#CleanTok", "count": "31B views", "growth": 52, "business_opportunity": "清洁家电在TikTok CleanTok话题中爆火"},
+      {"keyword": "#KitchenHacks", "count": "18B views", "growth": 38, "business_opportunity": "厨房神器在TikTok传播效果好"}
+    ],
+    "instagram": [
+      {"keyword": "#HomeAppliances", "count": "3.5M posts", "growth": 22, "business_opportunity": "家电产品在Instagram家居内容中曝光高"},
+      {"keyword": "#MinimalistHome", "count": "8.2M posts", "growth": 28, "business_opportunity": "极简风家电产品视觉传播好"}
+    ],
+    "x": [
+      {"keyword": "smart home Matter protocol", "count": "180K tweets", "growth": 55, "business_opportunity": "Matter协议推动智能家居互联需求"},
+      {"keyword": "energy efficient appliances", "count": "95K tweets", "growth": 32, "business_opportunity": "节能家电讨论热度上升"}
+    ]
+  },
+  "服装": {
+    "google": [
+      {"keyword": "modest fashion", "volume": "340K", "growth": 45, "business_opportunity": "穆斯林时尚服饰搜索激增，中东/东南亚市场潜力大"},
+      {"keyword": "athleisure wear", "volume": "780K", "growth": 28, "business_opportunity": "运动休闲服饰持续流行"},
+      {"keyword": "sustainable clothing", "volume": "420K", "growth": 35, "business_opportunity": "可持续时尚服饰搜索热度上升"}
+    ],
+    "youtube": [
+      {"keyword": "summer outfit ideas 2025", "count": "25M views", "growth": 48, "business_opportunity": "穿搭灵感视频带动服饰购买"},
+      {"keyword": "activewear haul", "count": "18M views", "growth": 38, "business_opportunity": "运动服饰开箱视频热度高"}
+    ],
+    "tiktok": [
+      {"keyword": "#OOTD", "count": "85B views", "growth": 22, "business_opportunity": "每日穿搭话题持续带动服饰曝光"},
+      {"keyword": "#SustainableFashion", "count": "5.2B views", "growth": 58, "business_opportunity": "可持续时尚话题在年轻用户中增长快"}
+    ],
+    "instagram": [
+      {"keyword": "#StreetStyle", "count": "42M posts", "growth": 32, "business_opportunity": "街头风格服饰在IG传播效果好"},
+      {"keyword": "#ModestFashion", "count": "6.8M posts", "growth": 48, "business_opportunity": "穆斯林时尚在Instagram有庞大粉丝群"}
+    ],
+    "x": [
+      {"keyword": "fast fashion regulation", "count": "150K tweets", "growth": 42, "business_opportunity": "快时尚监管讨论升温影响出口策略"},
+      {"keyword": "textile tariff 2025", "count": "88K tweets", "growth": 35, "business_opportunity": "纺织品关税政策影响服装出口"}
+    ]
+  },
+  "玩具": {
+    "google": [
+      {"keyword": "STEM toys for kids", "volume": "450K", "growth": 42, "business_opportunity": "STEM教育玩具搜索持续高增长"},
+      {"keyword": "magnetic building blocks", "volume": "280K", "growth": 55, "business_opportunity": "磁力积木成为热门玩具品类"},
+      {"keyword": "adult collectible figures", "volume": "320K", "growth": 38, "business_opportunity": "成人收藏玩具市场增速明显"}
+    ],
+    "youtube": [
+      {"keyword": "best educational toys 2025", "count": "9M views", "growth": 35, "business_opportunity": "教育玩具推荐视频播放量稳定"},
+      {"keyword": "blind box unboxing", "count": "28M views", "growth": 72, "business_opportunity": "盲盒开箱视频在YouTube爆火"}
+    ],
+    "tiktok": [
+      {"keyword": "#ToyTok", "count": "4.5B views", "growth": 85, "business_opportunity": "TikTok玩具话题播放量暴涨"},
+      {"keyword": "#STEMtoys", "count": "1.2B views", "growth": 48, "business_opportunity": "STEM教育玩具在TikTok传播效果好"}
+    ],
+    "instagram": [
+      {"keyword": "#KidsToys", "count": "5.2M posts", "growth": 25, "business_opportunity": "儿童玩具在IG家长群体中传播好"},
+      {"keyword": "#DesignerToys", "count": "3.8M posts", "growth": 52, "business_opportunity": "潮玩设计师品牌在IG受追捧"}
+    ],
+    "x": [
+      {"keyword": "toy safety standards CPSC", "count": "65K tweets", "growth": 28, "business_opportunity": "玩具安全标准讨论影响出口合规"},
+      {"keyword": "holiday toy trends", "count": "120K tweets", "growth": 35, "business_opportunity": "节日玩具趋势讨论在Q4集中爆发"}
+    ]
+  },
+  "家具": {
+    "google": [
+      {"keyword": "flat pack furniture", "volume": "380K", "growth": 32, "business_opportunity": "平板包装家具搜索稳定增长，物流成本优势明显"},
+      {"keyword": "ergonomic office chair", "volume": "620K", "growth": 28, "business_opportunity": "人体工学椅远程办公需求持续"},
+      {"keyword": "sustainable furniture", "volume": "240K", "growth": 42, "business_opportunity": "可持续家具搜索热度上升"}
+    ],
+    "youtube": [
+      {"keyword": "furniture makeover DIY", "count": "16M views", "growth": 35, "business_opportunity": "家具改造DIY视频热度高"},
+      {"keyword": "small apartment furniture", "count": "12M views", "growth": 42, "business_opportunity": "小户型家具推荐视频播放量大"}
+    ],
+    "tiktok": [
+      {"keyword": "#FurnitureFlip", "count": "6.8B views", "growth": 45, "business_opportunity": "家具翻新改造话题在TikTok火爆"},
+      {"keyword": "#HomeDecor", "count": "22B views", "growth": 28, "business_opportunity": "家居装饰话题持续高流量"}
+    ],
+    "instagram": [
+      {"keyword": "#InteriorDesign", "count": "58M posts", "growth": 22, "business_opportunity": "室内设计内容在IG上传播效果好"},
+      {"keyword": "#ScandinavianStyle", "count": "4.5M posts", "growth": 35, "business_opportunity": "北欧风格家具在IG受追捧"}
+    ],
+    "x": [
+      {"keyword": "furniture tariff update", "count": "75K tweets", "growth": 38, "business_opportunity": "家具关税政策更新影响出口策略"},
+      {"keyword": "FSC certification", "count": "42K tweets", "growth": 25, "business_opportunity": "FSC认证讨论反映欧盟采购要求"}
+    ]
+  },
+  "食品": {
+    "google": [
+      {"keyword": "functional food ingredients", "volume": "290K", "growth": 48, "business_opportunity": "功能性食品原料搜索增长，健康食品出口潜力大"},
+      {"keyword": "plant based snacks", "volume": "350K", "growth": 35, "business_opportunity": "植物基零食搜索持续上升"},
+      {"keyword": "specialty tea", "volume": "420K", "growth": 28, "business_opportunity": "特种茶叶出口搜索热度稳定"}
+    ],
+    "youtube": [
+      {"keyword": "healthy snack review", "count": "8M views", "growth": 32, "business_opportunity": "健康零食测评视频播放量好"},
+      {"keyword": "Asian snacks taste test", "count": "22M views", "growth": 45, "business_opportunity": "亚洲零食试吃视频在YouTube爆火"}
+    ],
+    "tiktok": [
+      {"keyword": "#SnackTok", "count": "12B views", "growth": 55, "business_opportunity": "零食话题在TikTok播放量惊人"},
+      {"keyword": "#HealthyEating", "count": "18B views", "growth": 38, "business_opportunity": "健康饮食话题持续高流量"}
+    ],
+    "instagram": [
+      {"keyword": "#FoodPhotography", "count": "82M posts", "growth": 18, "business_opportunity": "美食摄影内容在IG传播效果极佳"},
+      {"keyword": "#Superfoods", "count": "5.5M posts", "growth": 42, "business_opportunity": "超级食品话题在IG增长快"}
+    ],
+    "x": [
+      {"keyword": "food safety FDA import", "count": "95K tweets", "growth": 35, "business_opportunity": "FDA食品进口安全讨论影响出口合规"},
+      {"keyword": "organic certification", "count": "68K tweets", "growth": 28, "business_opportunity": "有机认证讨论反映市场准入门槛"}
+    ]
+  },
+  "医疗": {
+    "google": [
+      {"keyword": "CGM continuous glucose monitor", "volume": "580K", "growth": 65, "business_opportunity": "CGM连续血糖监测设备搜索爆发"},
+      {"keyword": "home health monitoring", "volume": "420K", "growth": 42, "business_opportunity": "家用健康监测设备需求上升"},
+      {"keyword": "medical device export", "volume": "180K", "growth": 28, "business_opportunity": "医疗器械出口搜索稳定增长"}
+    ],
+    "youtube": [
+      {"keyword": "best health gadgets 2025", "count": "11M views", "growth": 52, "business_opportunity": "健康设备测评视频播放量高"},
+      {"keyword": "CGM review comparison", "count": "5M views", "growth": 78, "business_opportunity": "CGM产品对比视频热度飙升"}
+    ],
+    "tiktok": [
+      {"keyword": "#HealthTech", "count": "3.8B views", "growth": 62, "business_opportunity": "健康科技话题在TikTok增长迅猛"},
+      {"keyword": "#CGMlife", "count": "800M views", "growth": 95, "business_opportunity": "CGM使用体验分享在TikTok爆火"}
+    ],
+    "instagram": [
+      {"keyword": "#HealthMonitoring", "count": "2.1M posts", "growth": 38, "business_opportunity": "健康监测产品在IG传播效果好"},
+      {"keyword": "#Biohacking", "count": "4.8M posts", "growth": 55, "business_opportunity": "生物黑客话题带动健康设备曝光"}
+    ],
+    "x": [
+      {"keyword": "EU MDR certification", "count": "120K tweets", "growth": 48, "business_opportunity": "EU MDR认证讨论影响器械出口欧洲"},
+      {"keyword": "FDA medical device approval", "count": "85K tweets", "growth": 32, "business_opportunity": "FDA器械审批动态影响市场准入"}
+    ]
+  },
+  "灯具": {
+    "google": [
+      {"keyword": "smart LED lights", "volume": "520K", "growth": 35, "business_opportunity": "智能LED灯搜索持续上升"},
+      {"keyword": "outdoor landscape lighting", "volume": "380K", "growth": 28, "business_opportunity": "户外景观灯北美市场需求稳定"},
+      {"keyword": "grow light LED", "volume": "290K", "growth": 42, "business_opportunity": "植物生长灯搜索增长，室内种植市场扩大"}
+    ],
+    "youtube": [
+      {"keyword": "best smart lights setup", "count": "9M views", "growth": 38, "business_opportunity": "智能灯光布置视频热度高"},
+      {"keyword": "grow light comparison", "count": "6M views", "growth": 45, "business_opportunity": "植物灯对比测评视频播放量好"}
+    ],
+    "tiktok": [
+      {"keyword": "#LEDlights", "count": "8.5B views", "growth": 32, "business_opportunity": "LED灯装饰话题在TikTok持续火热"},
+      {"keyword": "#RoomMakeover", "count": "15B views", "growth": 28, "business_opportunity": "房间改造话题带动灯具销售"}
+    ],
+    "instagram": [
+      {"keyword": "#LightingDesign", "count": "7.2M posts", "growth": 25, "business_opportunity": "灯光设计内容在IG传播效果好"},
+      {"keyword": "#IndoorGarden", "count": "5.8M posts", "growth": 42, "business_opportunity": "室内花园话题带动植物灯需求"}
+    ],
+    "x": [
+      {"keyword": "Matter protocol smart lighting", "count": "55K tweets", "growth": 48, "business_opportunity": "Matter协议统一推动智能灯具互联"},
+      {"keyword": "energy efficient lighting", "count": "72K tweets", "growth": 22, "business_opportunity": "节能照明政策讨论推动LED替换需求"}
+    ]
+  },
+  "汽车": {
+    "google": [
+      {"keyword": "EV charging station home", "volume": "480K", "growth": 52, "business_opportunity": "家用充电桩搜索激增"},
+      {"keyword": "car dashcam 4K", "volume": "350K", "growth": 38, "business_opportunity": "4K行车记录仪搜索稳定增长"},
+      {"keyword": "EV accessories", "volume": "280K", "growth": 62, "business_opportunity": "电动车配件需求快速上升"}
+    ],
+    "youtube": [
+      {"keyword": "best EV accessories 2025", "count": "14M views", "growth": 58, "business_opportunity": "电动车配件推荐视频播放量高"},
+      {"keyword": "car detailing products", "count": "22M views", "growth": 32, "business_opportunity": "汽车美容产品测评视频热度高"}
+    ],
+    "tiktok": [
+      {"keyword": "#CarTikTok", "count": "25B views", "growth": 28, "business_opportunity": "汽车话题在TikTok持续高流量"},
+      {"keyword": "#EVlife", "count": "3.2B views", "growth": 72, "business_opportunity": "电动车生活话题增长迅猛"}
+    ],
+    "instagram": [
+      {"keyword": "#CarAccessories", "count": "8.5M posts", "growth": 25, "business_opportunity": "汽车配件在IG传播效果好"},
+      {"keyword": "#ElectricVehicle", "count": "12M posts", "growth": 48, "business_opportunity": "电动车内容在IG持续受欢迎"}
+    ],
+    "x": [
+      {"keyword": "EV tariff policy", "count": "320K tweets", "growth": 68, "business_opportunity": "电动车关税政策讨论热度极高"},
+      {"keyword": "auto parts supply chain", "count": "145K tweets", "growth": 35, "business_opportunity": "汽配供应链讨论影响采购决策"}
+    ]
+  },
+  "化工": {
+    "google": [
+      {"keyword": "green chemicals", "volume": "180K", "growth": 38, "business_opportunity": "绿色化学品搜索增长，REACH合规是趋势"},
+      {"keyword": "water treatment chemicals", "volume": "220K", "growth": 25, "business_opportunity": "水处理化学品需求稳定"},
+      {"keyword": "bio-based plastics", "volume": "150K", "growth": 45, "business_opportunity": "生物基塑料搜索增速明显"}
+    ],
+    "youtube": [
+      {"keyword": "chemical industry trends 2025", "count": "2.5M views", "growth": 28, "business_opportunity": "化工行业趋势视频播放量稳定"},
+      {"keyword": "REACH compliance guide", "count": "800K views", "growth": 35, "business_opportunity": "REACH合规指南视频需求上升"}
+    ],
+    "tiktok": [
+      {"keyword": "#ChemTok", "count": "450M views", "growth": 32, "business_opportunity": "化工科普话题在TikTok有增长"},
+      {"keyword": "#SustainableMaterials", "count": "1.5B views", "growth": 48, "business_opportunity": "可持续材料话题带动绿色化工关注"}
+    ],
+    "instagram": [
+      {"keyword": "#GreenChemistry", "count": "420K posts", "growth": 35, "business_opportunity": "绿色化学在IG专业圈传播"},
+      {"keyword": "#SustainableManufacturing", "count": "1.2M posts", "growth": 28, "business_opportunity": "可持续制造内容在IG增长"}
+    ],
+    "x": [
+      {"keyword": "REACH SVHC update", "count": "45K tweets", "growth": 38, "business_opportunity": "REACH高关注物质更新影响出口"},
+      {"keyword": "PFAS regulation", "count": "180K tweets", "growth": 55, "business_opportunity": "PFAS限制法规讨论热度极高"}
+    ]
+  },
+  "陶瓷": {
+    "google": [
+      {"keyword": "bone china dinnerware set", "volume": "210K", "growth": 32, "business_opportunity": "骨瓷餐具套装搜索稳定，DTC品牌出海潜力大"},
+      {"keyword": "handmade ceramic tiles", "volume": "150K", "growth": 38, "business_opportunity": "手工陶瓷砖需求上升"},
+      {"keyword": "ceramic tableware export", "volume": "85K", "growth": 25, "business_opportunity": "陶瓷餐具出口搜索稳定"}
+    ],
+    "youtube": [
+      {"keyword": "ceramic dinnerware review", "count": "3M views", "growth": 28, "business_opportunity": "陶瓷餐具测评视频播放量稳定"},
+      {"keyword": "pottery making process", "count": "18M views", "growth": 35, "business_opportunity": "陶瓷制作工艺视频传播效果好"}
+    ],
+    "tiktok": [
+      {"keyword": "#PotteryTok", "count": "2.8B views", "growth": 42, "business_opportunity": "陶瓷手工话题在TikTok受欢迎"},
+      {"keyword": "#CeramicArt", "count": "1.5B views", "growth": 35, "business_opportunity": "陶瓷艺术话题带动品牌曝光"}
+    ],
+    "instagram": [
+      {"keyword": "#CeramicDesign", "count": "3.2M posts", "growth": 28, "business_opportunity": "陶瓷设计内容在IG传播好"},
+      {"keyword": "#TableSetting", "count": "5.5M posts", "growth": 32, "business_opportunity": "餐桌布置话题带动陶瓷餐具曝光"}
+    ],
+    "x": [
+      {"keyword": "ceramic tile tariff", "count": "35K tweets", "growth": 22, "business_opportunity": "陶瓷砖关税讨论影响出口定价"},
+      {"keyword": "Jingdezhen brand", "count": "28K tweets", "growth": 45, "business_opportunity": "景德镇品牌化出海讨论增多"}
+    ]
+  },
+  "机械": {
+    "google": [
+      {"keyword": "CNC machine tools", "volume": "320K", "growth": 28, "business_opportunity": "CNC机床搜索稳定增长"},
+      {"keyword": "industrial robot arm", "volume": "250K", "growth": 42, "business_opportunity": "工业机械臂需求上升"},
+      {"keyword": "packaging machine automatic", "volume": "180K", "growth": 35, "business_opportunity": "自动包装机械搜索增速明显"}
+    ],
+    "youtube": [
+      {"keyword": "factory automation 2025", "count": "8M views", "growth": 38, "business_opportunity": "工厂自动化视频播放量高"},
+      {"keyword": "CNC machining tutorial", "count": "12M views", "growth": 25, "business_opportunity": "CNC加工教程视频需求稳定"}
+    ],
+    "tiktok": [
+      {"keyword": "#ManufacturingTok", "count": "3.5B views", "growth": 32, "business_opportunity": "制造业话题在TikTok有增长"},
+      {"keyword": "#RobotArm", "count": "1.2B views", "growth": 45, "business_opportunity": "机器人话题带动工业机械关注"}
+    ],
+    "instagram": [
+      {"keyword": "#IndustrialDesign", "count": "4.8M posts", "growth": 22, "business_opportunity": "工业设计内容在IG传播好"},
+      {"keyword": "#Manufacturing", "count": "2.5M posts", "growth": 28, "business_opportunity": "制造业内容在IG增长"}
+    ],
+    "x": [
+      {"keyword": "machinery export controls", "count": "95K tweets", "growth": 42, "business_opportunity": "机械出口管制讨论影响贸易策略"},
+      {"keyword": "smart factory Industry 4.0", "count": "180K tweets", "growth": 35, "business_opportunity": "工业4.0讨论推动智能制造出口"}
+    ]
+  },
+  "船舶": {
+    "google": [
+      {"keyword": "marine engine parts", "volume": "120K", "growth": 22, "business_opportunity": "船舶发动机配件搜索稳定"},
+      {"keyword": "electric boat motor", "volume": "85K", "growth": 55, "business_opportunity": "电动船用电机搜索增速明显"},
+      {"keyword": "ship navigation equipment", "volume": "95K", "growth": 28, "business_opportunity": "船舶导航设备需求上升"}
+    ],
+    "youtube": [
+      {"keyword": "electric boat conversion", "count": "4M views", "growth": 48, "business_opportunity": "电动船改造视频热度上升"},
+      {"keyword": "marine electronics review", "count": "3M views", "growth": 25, "business_opportunity": "船舶电子设备测评视频稳定"}
+    ],
+    "tiktok": [
+      {"keyword": "#BoatLife", "count": "5.5B views", "growth": 32, "business_opportunity": "船生活话题在TikTok受欢迎"},
+      {"keyword": "#SailingGear", "count": "800M views", "growth": 28, "business_opportunity": "帆船装备话题带动配件销售"}
+    ],
+    "instagram": [
+      {"keyword": "#MarineLife", "count": "6.2M posts", "growth": 22, "business_opportunity": "海洋生活内容在IG传播好"},
+      {"keyword": "#YachtDesign", "count": "2.8M posts", "growth": 35, "business_opportunity": "游艇设计内容在IG受追捧"}
+    ],
+    "x": [
+      {"keyword": "IMO emissions regulation", "count": "75K tweets", "growth": 42, "business_opportunity": "IMO排放法规讨论影响船舶出口"},
+      {"keyword": "green shipping fuel", "count": "58K tweets", "growth": 48, "business_opportunity": "绿色航运燃料讨论推动技术升级"}
+    ]
+  },
+  "default": {
+    "google": [
+      {"keyword": "best products 2025", "volume": "1.5M", "growth": 28, "business_opportunity": "热门产品搜索持续上升"},
+      {"keyword": "trending products export", "volume": "380K", "growth": 35, "business_opportunity": "出口热门产品搜索增长"}
+    ],
+    "youtube": [
+      {"keyword": "product review 2025", "count": "25M views", "growth": 32, "business_opportunity": "产品测评视频播放量高"},
+      {"keyword": "unboxing trending", "count": "18M views", "growth": 28, "business_opportunity": "开箱视频持续带动产品曝光"}
+    ],
+    "tiktok": [
+      {"keyword": "#TikTokMadeMeBuyIt", "count": "5B views", "growth": 45, "business_opportunity": "TikTok种草话题播放量持续走高"},
+      {"keyword": "#AmazonFinds", "count": "47B views", "growth": 38, "business_opportunity": "Amazon好物话题带动跨境销售"}
+    ],
+    "instagram": [
+      {"keyword": "#Shopping", "count": "120M posts", "growth": 18, "business_opportunity": "购物内容在IG传播效果好"},
+      {"keyword": "#ProductReview", "count": "8.5M posts", "growth": 25, "business_opportunity": "产品测评内容在IG增长"}
+    ],
+    "x": [
+      {"keyword": "cross-border ecommerce", "count": "280K tweets", "growth": 42, "business_opportunity": "跨境电商讨论热度上升"},
+      {"keyword": "global trade policy 2025", "count": "195K tweets", "growth": 35, "business_opportunity": "全球贸易政策讨论影响出口决策"}
+    ]
+  }
+}
