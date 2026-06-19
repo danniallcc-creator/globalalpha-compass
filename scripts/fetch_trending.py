@@ -3724,6 +3724,20 @@ def main():
     except Exception as _e:
         print(f"[CHAIN] industry_trends_v2 fetch failed: {_e}")
 
+    # === Auto-chain build_industry_trends_v2.py (live, 生成 dynamic_insight) ===
+    # live 模式：尝试 Google News RSS 真实抓取，失败时回退确定性合成。
+    try:
+        import subprocess as _sp
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        build_script = os.path.join(script_dir, 'build_industry_trends_v2.py')
+        if os.path.exists(build_script):
+            print(f"\n[CHAIN] Invoking build_industry_trends_v2.py (live) ...")
+            _sp.run([sys.executable, build_script], check=False, timeout=900)
+        else:
+            print(f"[CHAIN] build_industry_trends_v2.py not found, skipped")
+    except Exception as _e:
+        print(f"[CHAIN] build_industry_trends_v2.py failed: {_e}")
+
     return 0
 
 
