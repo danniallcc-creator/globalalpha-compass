@@ -6865,6 +6865,146 @@ var COMPLIANCE_DB = {
     'EU':  { cert: ['REACH','CE(智能手表)','EN 1811(镍释放)'], std: ['EN 1811(镍释放)','EN 12472(人工汗液)','REACH附件XVII'], banned: ['镍释放>0.5μg/cm²/周','铅/镉超限','SVHC>0.1%'], label: ['REACH合规声明','金属成分','CE(智能手表)'], customs: ['贵金属成色申报','冲突矿物尽职调查'] },
     'JP':  { cert: ['PSE(智能手表)','家用品品质标示法'], std: ['JIS钟表/珠宝标准'], banned: ['镍过敏材质','特定有害染料'], label: ['日文说明','材质标识','PSE标志(智能)'], customs: ['贵金属海关申报'] },
     'AU':  { cert: ['RCM(智能手表)','ACCC消费品安全'], std: ['AS/NZS系列'], banned: ['铅超限(儿童)','镍(皮肤接触)'], label: ['RCM标志(智能)','安全警告'], customs: ['ACCC抽检'] }
+  },
+  '个人护理及家庭清洁': {
+    'US':  { cert: ['FDA OTC(含抗菌洗手液)','EPA FIFRA(消毒产品)','CPSC(清洁器具)'], std: ['21 CFR 700-740(化妆品)','FDA Monograph(OTC)'], banned: ['三氯生(洗手液限制)','甲醛释放剂','PFAS(部分州)'], label: ['FDA Drug Facts(OTC)','成分INCI','Prop 65(CA)'], customs: ['EPA进口许可(消毒产品)','FDA设施注册'] },
+    'EU':  { cert: ['BPR杀生物剂法规(EU 528/2012)','REACH','CPNP(化妆品类)'], std: ['EN 1276(消毒效力)','EC 648/2004(洗涤剂)'], banned: ['SVHC>0.1%','三氯生限制','1600+禁用成分'], label: ['CLP危险标签','UFI毒物中心代码','成分INCI'], customs: ['BPR授权是消毒产品进口前提'] },
+    'JP':  { cert: ['医薬部外品届出(消毒液)','化粧品届出','厚生劳动省'], std: ['日本薬事法','JIS消毒标准'], banned: ['特定防腐劑','禁用成分'], label: ['日文成分表','製造番号'], customs: ['医薬部外品须批准;化粧品须届出'] },
+    'AU':  { cert: ['TGA(消毒产品)','AICIS化学品登记','ACCC'], std: ['AS/NZS消毒标准','TGA ARTG'], banned: ['禁用成分参照EU','石棉'], label: ['TGA AUST L/AUST R号','成分表'], customs: ['TGA审批先于进口(消毒产品)'] },
+    'SA':  { cert: ['SFDA消毒产品注册','清真认证(建议)'], std: ['GCC化妆品/消毒法规'], banned: ['猪源成分','酒精超限'], label: ['阿文标签','SFDA注册号','Halal'], customs: ['SFDA先行注册'] }
+  },
+  '买家物流市场': {
+    'US':  { cert: ['DOT MC/DOT号(货运)','FMC NVOCC(海运)','IATA CASS(空运)'], std: ['49 CFR危险品运输','IMDG Code(海运)'], banned: ['未申报危险品','受制裁国货物中转'], label: ['危险品标签(UN编号)','提单/运单'], customs: ['CBP ISF 10+2提前申报','AMS Automated Manifest'] },
+    'EU':  { cert: ['AEO认证(加快清关)','EORI号(必须)','ICAO/IATA(空运)'], std: ['ICS2进口控制系统2024','EU MRV碳排放(海运)'], banned: ['受制裁实体货物','未申报双重用途物项'], label: ['EORI编号','AEO认证号'], customs: ['ICS2 Entry Summary Declaration强制'] },
+    'JP':  { cert: ['日本通运许可(貨物利用運送)','保税仓库许可'], std: ['物流综合效率化法','JIS物流标准'], banned: ['未申报危险品','特定受管制货物'], label: ['運送業者番号','保税区域标识'], customs: ['NACCS系统申报','保税物流须许可'] },
+    'AU':  { cert: ['ABF报关行执照','DAFF注册(生物安全)'], std: ['Customs Act 1901','ISPM 15(木质包装)'], banned: ['生物安全风险货物','未熏蒸木质包装'], label: ['ABF注册编号','ISPM 15熏蒸标识'], customs: ['ABF/DAFF联合查验','木质包装须ISPM 15'] }
+  },
+  '代理采购': {
+    'US':  { cert: ['进口商Importer of Record(IRS EIN)','FDA/CPSC/EPA进口商备案'], std: ['19 CFR报关法规','UFLPA供应链合规'], banned: ['强迫劳动产品(UFLPA)','受制裁实体产品'], label: ['进口商EIN号','COO原产地证'], customs: ['CBP进口商Bonded义务','UFLPA供应链尽职调查'] },
+    'EU':  { cert: ['EORI号','AR授权代表(部分品类)','AEO认证(推荐)'], std: ['EU海关法典(UCC)','CSDDD供应链尽职调查2024'], banned: ['受制裁国家/实体产品','冲突矿产未尽职调查'], label: ['EORI编号','AR信息'], customs: ['UCC Entry Summary Declaration','CBAM碳申报(特定品类)'] },
+    'JP':  { cert: ['輸入者届出','保税地域利用许可'], std: ['関税法','外為法輸出管理'], banned: ['经济制裁对象国产品'], label: ['輸入者番号','原産地証明'], customs: ['NACCS通关系统','外為法该当確認'] },
+    'AU':  { cert: ['ABF进口商注册','DAFF生物安全注册'], std: ['Customs Act 1901','Modern Slavery Act'], banned: ['生物安全禁止物品','强迫劳动产品'], label: ['ABF客户编号','ISPM 15'], customs: ['ABF/DAFF双重审查'] }
+  },
+  '传动': {
+    'US':  { cert: ['UL认证(电机驱动)','OSHA安全合规','ANSI/AGMA标准'], std: ['AGMA 2001/6006齿轮标准','ANSI B29.1链条'], banned: ['含石棉制动片','特定有害润滑剂'], label: ['UL标志','功率/转速铭牌'], customs: ['Section 232钢铁关税影响','Section 301加征'] },
+    'EU':  { cert: ['CE(机械指令2006/42/EC)','ATEX(防爆场合)'], std: ['EN ISO 12100','EN 60204-1','EN ISO 13849(安全控制)'], banned: ['石棉','特定危险化学品'], label: ['CE+DoP','危险区域标识'], customs: ['机械指令技术文档须EU保存'] },
+    'JP':  { cert: ['JIS传动标准','PSE(电机)','劳动安全卫生法'], std: ['JIS B系列(齿轮/轴承/链条)','JIS C 4000系列'], banned: ['石棉','特定有害物质'], label: ['JIS标识','日文铭牌'], customs: ['大型传动设备提前申报'] },
+    'IN':  { cert: ['BIS认证(轴承/齿轮)','PESO(压力容器关联)'], std: ['IS 13620/IS 3134系列'], banned: ['石棉'], label: ['BIS注册号','制造商信息'], customs: ['BIS先行取得'] }
+  },
+  '办公文教用品': {
+    'US':  { cert: ['CPSC(儿童文具)','ASTM D4236(美术材料慢性危害)','FCC(含电子设备)'], std: ['ASTM F963(儿童文具)','LHAMA慢性危害标签'], banned: ['铅>100ppm(儿童文具)','邻苯二甲酸酯','含毒美术材料未标注'], label: ['CPSC警告','Age Grading(儿童)','LHAMA标识(美术)'], customs: ['Section 301加征关税'] },
+    'EU':  { cert: ['CE(含电子)','REACH','EN 71(儿童文具)'], std: ['EN 71系列(儿童)','EC 1272/2008(CLP标签)'], banned: ['SVHC>0.1%','偶氮染料','特定溶剂'], label: ['CE标识','CLP危险标签(美术材料)'], customs: ['REACH合规声明'] },
+    'JP':  { cert: ['PSE(含电子设备)','ST标志(儿童文具自愿)'], std: ['JIS S系列(文具)'], banned: ['甲醛(纸张)','特定有害染料'], label: ['日文说明','年龄适合(儿童)'], customs: ['常规进口申报'] },
+    'AU':  { cert: ['RCM(含电子)','ACCC(儿童文具)'], std: ['AS/NZS 8124(儿童)','AS/NZS文具标准'], banned: ['铅涂料(儿童)','有毒美术材料'], label: ['RCM标志','安全警告(儿童)'], customs: ['ACCC抽检'] }
+  },
+  '商业设备及机械': {
+    'US':  { cert: ['UL认证(商用设备)','OSHA合规','NSF(食品相关设备)','EPA(含制冷)'], std: ['ANSI/NSF标准','NFPA 70(电气)'], banned: ['含石棉部件','CFC制冷剂','特定有害物质'], label: ['UL/NSF标识','OSHA警告','能效标签'], customs: ['Section 301加征关税','EPA先行(含制冷设备)'] },
+    'EU':  { cert: ['CE(机械指令/LVD/EMC)','ATEX(防爆)','PED(压力设备)'], std: ['EN ISO 12100','EN 60204-1','EN 1672(食品机械)'], banned: ['石棉','特定制冷剂(HFC限制)'], label: ['CE+DoP','危险标识'], customs: ['技术文档须在EU保存'] },
+    'JP':  { cert: ['PSE(电气部分)','JIS安全标准','食品卫生法(食品设备)'], std: ['JIS B系列','JIS C系列'], banned: ['石棉','特定化学物质'], label: ['PSE标志','JIS标识'], customs: ['食品设备须厚生劳动省确认'] },
+    'IN':  { cert: ['BIS(部分设备)','PESO(压力容器)'], std: ['IS系列标准'], banned: ['石棉'], label: ['BIS注册号','制造商信息'], customs: ['BIS先行'] }
+  },
+  '商务服务': {
+    'US':  { cert: ['服务贸易无特定产品认证','SOC 2/ISO 27001(数据服务)'], std: ['UCC统一商法典','SOX合规(审计服务)'], banned: ['受制裁实体交易','EAR管制技术出口'], label: ['服务合同条款','SLA'], customs: ['服务贸易无海关实物审查','技术转让须EAR许可'] },
+    'EU':  { cert: ['CE(涉及产品时)','GDPR合规(数据服务)','CE标记(硬件)'], std: ['EU服务指令2006/123','GDPR','NIS2网络安全'], banned: ['GDPR违规数据传输','受制裁实体'], label: ['GDPR隐私声明','DPO联系方式'], customs: ['数字服务法DSA合规(在线平台)'] },
+    'JP':  { cert: ['特定许可(如人材派遣/通訳)','ISMS认证(信息服务)'], std: ['JIS Q 27001','労働者派遣法'], banned: ['未经许可的人才派遣','未授权数据出境'], label: ['許可見番号','服务合同'], customs: ['服务贸易无海关审查'] },
+    'AU':  { cert: ['ABN/ARBN注册','Privacy Act合规'], std: ['Australian Consumer Law','Privacy Act 1988'], banned: ['未授权数据跨境传输'], label: ['ABN编号','隐私声明'], customs: ['服务贸易无海关审查'] }
+  },
+  '安全用品': {
+    'US':  { cert: ['NIOSH(呼吸防护)','OSHA 1910.132(PPE)','UL(防护设备)','ANSI/ISEA标准'], std: ['ANSI/ISEA Z87.1(护目)','ANSI/ISEA Z89.1(安全帽)','NFPA 70E(电弧)'], banned: ['含石棉防护服','不达标防护材料'], label: ['NIOSH认证号','ANSI等级','OSHA合规标识'], customs: ['NIOSH认证先行','Section 301关税'] },
+    'EU':  { cert: ['CE(PPE法规EU 2016/425)','NB公告机构(Cat II/III)'], std: ['EN ISO 20345(安全鞋)','EN 397(安全帽)','EN 166(护目)'], banned: ['不达标防护材料','SVHC>0.1%'], label: ['CE+NB编号','PPE类别(Cat I/II/III)'], customs: ['Cat III须NB型式检验'] },
+    'JP':  { cert: ['JIS安全标准','厚生劳动省检定(保護具)'], std: ['JIS T 8101(安全帽)','JIS T 8115(防护服)'], banned: ['石棉','不达标材料'], label: ['JIS标识','厚生検定番号'], customs: ['厚生労働省検査'] },
+    'AU':  { cert: ['SAI Global(安全设备)','RCM(含电子)'], std: ['AS/NZS 1801(安全帽)','AS/NZS 2210(安全鞋)'], banned: ['石棉'], label: ['SAI Global标志','AS/NZS标准号'], customs: ['安全设备抽检率高'] },
+    'IN':  { cert: ['BIS认证(PPE)','ISI标志'], std: ['IS 4151(安全帽)','IS 15298(安全鞋)'], banned: ['石棉'], label: ['BIS注册号','ISI标志'], customs: ['BIS先行'] }
+  },
+  '宠物用品及食品': {
+    'US':  { cert: ['FDA宠物食品注册','AAFCO标准','CPSC(宠物玩具/用品)'], std: ['AAFCO营养指南','21 CFR 507(宠物食品GMP)'], banned: ['三聚氰胺','特定防腐剂(乙氧基喹啉限制)','含铅涂料(宠物玩具)'], label: ['AAFCO营养声明','Net Weight','成分表','Guaranteed Analysis'], customs: ['FDA Prior Notice','USDA APHIS(含动物源成分)'] },
+    'EU':  { cert: ['FEDIAF标准','REACH(用品)','TRPR(烟草类宠物用品不适用)'], std: ['EC 767/2009(宠物食品标签)','EC 1831/2003(添加剂)'], banned: ['未批准添加剂','SVHC>0.1%(用品)','特定动物副产品'], label: ['成分表','营养分析','批号','EU制造商地址'], customs: ['CHED-P(动物源食品)','REACH声明(用品)'] },
+    'JP':  { cert: ['愛玩動物用飼料法届出','宠物用品SG标志(自愿)'], std: ['日本愛玩動物用飼料法','JIS宠物用品'], banned: ['特定添加剂','含铅涂料'], label: ['日文成分表','製造者情報'], customs: ['動物検疫(动物源成分)','飼料検査'] },
+    'AU':  { cert: ['APVMA(兽药/宠物保健)','DAFF检疫(含动物源)'], std: ['AS/NZS宠物食品标准'], banned: ['特定防腐剂','未检疫动物源成分'], label: ['成分表','APVMA号(保健类)'], customs: ['DAFF生物安全检查'] }
+  },
+  '工程及建材机械': {
+    'US':  { cert: ['OSHA 1926(建筑工地)','UL(电控)','EPA Tier 4(排放)'], std: ['SAE J标准(工程机械)','ANSI/ASME B30(起重)'], banned: ['含石棉部件','CFC制冷剂'], label: ['OSHA合规标识','EPA排放等级','UL标志'], customs: ['EPA排放认证先行','Section 232钢铁关税'] },
+    'EU':  { cert: ['CE(机械指令/排放指令2016/1628)','NRMM非道路机械排放'], std: ['EN ISO 12100','EN 474系列(土方机械)'], banned: ['石棉','Stage V排放超标'], label: ['CE+DoP','Stage V排放标识'], customs: ['Stage V排放认证必须'] },
+    'JP':  { cert: ['JIS工程机械标准','オフロード法(排放)','PSE(电气)'], std: ['JIS B系列','JIS D系列'], banned: ['石棉','特定排放超标'], label: ['JIS标识','排出ガス等級'], customs: ['大型机械提前申报'] },
+    'IN':  { cert: ['BIS(部分机械)','CPCB排放(工程机械)'], std: ['IS系列标准','CPCB Stage IV'], banned: ['石棉'], label: ['BIS注册号','排放等级'], customs: ['BIS先行'] }
+  },
+  '开发与技术服务': {
+    'US':  { cert: ['EAR出口管制合规(软件/技术)','ITAR(军民两用)','SOC 2/ISO 27001'], std: ['EAR Part 730-774','Wassenaar Arrangement'], banned: ['EAR管制技术出口至受限国家','ITAR管控国防技术'], label: ['ECCN分类号','EAR99(非管制)'], customs: ['技术转让视同出口(deemed export)','BIS许可'] },
+    'EU':  { cert: ['EU双重用途法规(EU 2021/821)','GDPR合规','CE(含硬件)'], std: ['EU Dual-Use Regulation','GDPR','NIS2'], banned: ['未经授权的监控技术出口','受制裁实体技术转移'], label: ['出口许可编号','GDPR声明'], customs: ['双重用途出口许可先行'] },
+    'JP':  { cert: ['外為法輸出管理(安全保障貿易)','METI許可'], std: ['外為法第25条','該非判定'], banned: ['清单管制技术(List Control)','全面管制(Catch-all)'], label: ['該非判定結果','輸出許可番号'], customs: ['METI输出许可先行'] },
+    'AU':  { cert: ['DEFENCE出口管制(DTIR)','Privacy Act合规'], std: ['Defence Trade Controls Act 1958','Privacy Act 1988'], banned: ['DSGP管制清单技术','未授权数据跨境'], label: ['出口许可编号','ABN'], customs: ['DTIR出口许可'] }
+  },
+  '整车及交通工具': {
+    'US':  { cert: ['EPA排放认证','DOT/NHTSA安全合规','FMVSS全系列','CARB(加州)'], std: ['FMVSS系列(200+条)','SAE J标准','40 CFR排放'], banned: ['排放超标车辆','Takata气囊(召回)','不合规自动驾驶'], label: ['VIN编号','EPA排放标签','DOT合规声明'], customs: ['EPA+DOT双审','Section 232(特定零部件)'] },
+    'EU':  { cert: ['WVTA整车型式认证(EU 2018/858)','Euro 6/7排放','ECE/UNECE法规'], std: ['Euro 7排放标准','UN Regulation系列','WLTP测试'], banned: ['排放作弊装置','Euro 6不达标'], label: ['CoC合格证书','Euro等级','VIN'], customs: ['WVTA是EU进口前提'] },
+    'JP':  { cert: ['型式指定(国交省)','自動車検査登録','排出ガス規制'], std: ['JIS D系列','安全基準'], banned: ['排放超标','不合规改装'], label: ['型式指定番号','車検証'], customs: ['型式指定先行'] },
+    'AU':  { cert: ['ADR澳大利亚设计规则','RAV注册','进口许可(DOT)'], std: ['ADR系列','Euro对标'], banned: ['石棉','特定排放超标'], label: ['ADR合规声明','VIN/Chassis号'], customs: ['RAV注册先行'] },
+    'SA':  { cert: ['SASO整车认证','GSO标准'], std: ['SASO标准','GCC统一法规'], banned: ['石棉','不合规排放'], label: ['SASO认证号','VIN'], customs: ['SABER预注册'] }
+  },
+  '检验检测与认证': {
+    'US':  { cert: ['A2LA/IAS实验室认可(ISO 17025)','NVLAP','NIST溯源'], std: ['ISO/IEC 17025(检测)','ISO 17021(认证机构)','ISO 17065(产品认证)'], banned: ['伪造检测报告','未经认可实验室出具'], label: ['认可编号','检测范围(Scope)'], customs: ['检测报告须A2LA/IAS认可实验室出具'] },
+    'EU':  { cert: ['EA认可(ISO 17025)','NB公告机构资格','DAkkS/UKAS认可'], std: ['ISO/IEC 17025','ISO 17065','EU 765/2008(认可与市场监督)'], banned: ['伪造CE证书','非NB签发的CoC'], label: ['认可编号','检测范围'], customs: ['EU市场监督机构可抽检'] },
+    'JP':  { cert: ['JAB/JCLA认可(ISO 17025)','NITE认定'], std: ['ISO/IEC 17025','JIS Q系列'], banned: ['伪造检测报告'], label: ['認定番号','試験範囲'], customs: ['检测报告须JAB认可实验室'] },
+    'AU':  { cert: ['NATA认可(ISO 17025)','JAS-ANZ认证机构认可'], std: ['ISO/IEC 17025','ISO 17065'], banned: ['伪造证书'], label: ['NATA认可号','检测范围'], customs: ['NATA或ILAC互认实验室出具'] }
+  },
+  '物料搬运': {
+    'US':  { cert: ['OSHA 1910.176/178(叉车)','ANSI/ITSDF B56系列','UL(电动设备)'], std: ['ANSI/ITSDF B56.1(叉车)','ASME B30(起重)'], banned: ['含石棉制动片','不安全改装'], label: ['OSHA合规标识','载荷铭牌','UL标志(电动)'], customs: ['Section 301加征关税','EPA排放(内燃叉车)'] },
+    'EU':  { cert: ['CE(机械指令)','EN标准','ATEX(防爆叉车)'], std: ['EN ISO 3691(叉车)','EN 81-31(货梯)'], banned: ['石棉','Stage V排放超标(内燃)'], label: ['CE+DoP','载荷标识'], customs: ['机械指令技术文档'] },
+    'JP':  { cert: ['JIS叉车标准','劳动安全卫生法','PSE(电动)'], std: ['JIS D 6201系列'], banned: ['石棉','不安全改装'], label: ['JIS标识','積載表示'], customs: ['大型搬运设备提前申报'] },
+    'AU':  { cert: ['RCM(电动)','ACCC','SafeWork(安全)'], std: ['AS 2359(叉车)','AS 1418(起重)'], banned: ['石棉'], label: ['RCM标志','载荷标识'], customs: ['安全设备抽检'] }
+  },
+  '电子元器件/配件及通讯': {
+    'US':  { cert: ['FCC Part 15(EMC)','UL 62368-1(安全)','IPC标准'], std: ['IPC-A-610(组装)','IPC J-STD-001(焊接)','IEEE标准'], banned: ['冲突矿产(DFAR 252.225-7009)','含铅焊料(RoHS参考)','PBB/PBDE'], label: ['FCC ID','IPC等级','UL标识'], customs: ['EAR出口管制(部分元器件)','冲突矿产申报'] },
+    'EU':  { cert: ['CE(RED/EMC/LVD)','RoHS II','REACH'], std: ['EN 55032','EN 62368-1','IEC 61340(ESD)'], banned: ['铅/汞/镉/六价铬/PBB/PBDE','SVHC>0.1%','冲突矿产(EU 2017/821)'], label: ['CE标识','RoHS声明','REACH合规'], customs: ['冲突矿产尽职调查(EU法规)'] },
+    'JP':  { cert: ['PSE(安全)','技適TELEC(无线)','VCCI(EMC自愿)'], std: ['JIS C系列','ARIB STD(无线)'], banned: ['J-MOSS有害物质','特定焊接材料'], label: ['PSE标志','技適番号'], customs: ['无线设备须TELEC认证'] },
+    'KR':  { cert: ['KC认证','RRA无线型式'], std: ['KS C IEC系列'], banned: ['K-RoHS 10种物质'], label: ['KC标识'], customs: ['KC先行'] },
+    'IN':  { cert: ['BIS CRS(强制)','WPC(无线)'], std: ['IS系列'], banned: ['BIS禁用物质'], label: ['BIS注册号'], customs: ['BIS先行'] }
+  },
+  '电气设备及用品': {
+    'US':  { cert: ['UL/ETL认证','FCC(含电子控制)','Energy Star(能效)','NEC合规'], std: ['UL 508A(工业控制)','NEC NFPA 70','IEEE标准'], banned: ['含石棉绝缘','PCB(变压器)','CFC制冷剂'], label: ['UL/ETL标志','Energy Star','电压/频率标注'], customs: ['Section 301加征关税','EPA(含制冷)'] },
+    'EU':  { cert: ['CE(LVD 2014/35/EU/EMC/ErP)','RoHS','WEEE注册'], std: ['EN 61010(测量/控制)','EN 60204(机械电气)','IEC 61439(配电)'], banned: ['铅/汞/镉/六价铬','SVHC>0.1%','石棉'], label: ['CE标识','能效等级','WEEE符号'], customs: ['ErP能效最低要求'] },
+    'JP':  { cert: ['PSE(特定电气用品强制)','JET认证','METI节能'], std: ['JIS C系列','电气用品安全法'], banned: ['石棉','特定有害物质'], label: ['PSE菱形/圆形','技適番号'], customs: ['PSE证书先行'] },
+    'AU':  { cert: ['RCM','MEPS能效','GEMS注册'], std: ['AS/NZS 3000(配线)','AS/NZS 61010'], banned: ['石棉'], label: ['RCM标志','GEMS能效标签'], customs: ['GEMS须提前注册'] },
+    'IN':  { cert: ['BIS CRS(强制)','BEE能效星级'], std: ['IS 13252','IS 616'], banned: ['BIS禁用物质'], label: ['BIS注册号','BEE Star Rating'], customs: ['BIS先行'] }
+  },
+  '礼品与工艺品': {
+    'US':  { cert: ['CPSC(含儿童产品)','ASTM F963(儿童礼品)','FDA(食品接触类礼品)'], std: ['ASTM F963(儿童)','16 CFR(消费品)'], banned: ['铅>100ppm(儿童)','含铅涂料','有毒颜料'], label: ['CPSC警告','Age Grading(儿童)','材料标识'], customs: ['Section 301关税','木制品Lacey Act来源申报'] },
+    'EU':  { cert: ['CE(含电子)','REACH','EN 71(儿童礼品)'], std: ['EN 71系列(儿童)','REACH附件XVII'], banned: ['SVHC>0.1%','偶氮染料','特定有害颜料'], label: ['CE标识(含电子)','REACH声明'], customs: ['木制品EUTR合法来源'] },
+    'JP':  { cert: ['食品衛生法(食品接触类)','ST(儿童礼品自愿)'], std: ['JIS工艺品标准'], banned: ['甲醛','有害颜料'], label: ['日文说明','材質标识'], customs: ['木制品植物防疫法'] },
+    'AU':  { cert: ['RCM(含电子)','ACCC(儿童礼品)'], std: ['AS/NZS 8124(儿童)'], banned: ['铅涂料','有毒颜料'], label: ['安全警告(儿童)','原产地'], customs: ['木制品检疫'] }
+  },
+  '箱包': {
+    'US':  { cert: ['CPSC(儿童箱包)','CA Prop 65','ASTM F963(儿童包)'], std: ['16 CFR纤维/皮革成分','ASTM F1816(儿童绳扣)'], banned: ['铅>100ppm(儿童)','PFAS防水整理(多州)','偶氮染料'], label: ['材质标识','Care Label','Made in','Prop 65'], customs: ['Section 301加征关税','纤维/皮革成分检测'] },
+    'EU':  { cert: ['REACH','EN 14682(儿童绳扣安全)'], std: ['REACH附件XVII','EN标准'], banned: ['偶氮染料','SVHC>0.1%','甲醛超限','镍(金属配件)'], label: ['材质标识','REACH声明','原产国'], customs: ['REACH合规声明'] },
+    'JP':  { cert: ['家用品品质标示法','PSE(含电子如智能锁)'], std: ['JIS箱包标准'], banned: ['偶氮染料','甲醛'], label: ['日文材质标识','护理标志'], customs: ['常规进口申报'] },
+    'AU':  { cert: ['ACCC(儿童)','Modern Slavery Act'], std: ['AS/NZS标准'], banned: ['偶氮染料','PFAS'], label: ['材质标识','Country of Origin'], customs: ['现代奴隶制声明'] }
+  },
+  '设计服务': {
+    'US':  { cert: ['知识产权(IP)保护','ITAR(军民设计)','EAR出口管制(技术出口)'], std: ['USPTO专利/商标','DMCA版权保护'], banned: ['受制裁实体设计服务','ITAR管控国防设计'], label: ['IP注册编号','服务合同'], customs: ['设计文件出口须EAR审查','deemed export规则'] },
+    'EU':  { cert: ['EUIPO商标/外观设计注册','GDPR(设计数据)','CE(含硬件原型)'], std: ['EU外观设计法规','GDPR','版权指令'], banned: ['受制裁实体设计服务','未授权数据跨境'], label: ['EUIPO注册号','GDPR声明'], customs: ['设计文件出口须双重用途审查'] },
+    'JP':  { cert: ['特許庁意匠登録','外為法(技术出口)'], std: ['意匠法','著作権法'], banned: ['外為法管制技术'], label: ['意匠登録番号'], customs: ['技术出口METI许可'] },
+    'AU':  { cert: ['IP Australia设计注册','Privacy Act'], std: ['Designs Act 2003','Copyright Act'], banned: ['DSGP管制清单'], label: ['设计注册号','ABN'], customs: ['DTIR出口许可(管制设计)'] }
+  },
+  '金属与合金': {
+    'US':  { cert: ['ASTM材料标准','Section 232关税(钢铁/铝)','EPA(冶炼排放)'], std: ['ASTM A/E/B系列','SAE AMS(航空)','ASME BPVC(压力容器)'], banned: ['冲突矿产(Dodd-Frank 1502)','含石棉','特定放射性金属'], label: ['MTC材质证书','ASTM标准号','炉号/批号'], customs: ['Section 232钢铁25%/铝10%','冲突矿产申报'] },
+    'EU':  { cert: ['CE(建材法规CPR 305/2011)','PED(压力设备用钢)','REACH'], std: ['EN 10025/10088/10204(钢)','Eurocode 3/4/9','EN 10210/10219'], banned: ['石棉','SVHC>0.1%','冲突矿产(EU 2017/821)'], label: ['CE+DoP','EN 10204 3.1/3.2检验证书'], customs: ['CBAM碳边界(钢铁/铝2026)','冲突矿产尽职调查'] },
+    'JP':  { cert: ['JIS材料标准','建築基準法(结构钢)'], std: ['JIS G系列(钢铁)','JIS H系列(有色)'], banned: ['石棉','特定有害金属'], label: ['JIS标识','ミルシート(检验证书)'], customs: ['大型钢材提前申报'] },
+    'IN':  { cert: ['BIS材料标准','Bureau of Indian Standards'], std: ['IS系列材料标准'], banned: ['石棉','放射性金属'], label: ['BIS注册号','检验证书'], customs: ['BIS先行','钢铁进口监控'] },
+    'SA':  { cert: ['SASO材料标准','SABER'], std: ['SASO/GSO标准'], banned: ['石棉'], label: ['SASO认证','检验证书'], customs: ['SABER预注册'] }
+  },
+  '面料及纺织原材料': {
+    'US':  { cert: ['CPSC纤维成分申报(Textile Act)','CA Prop 65','FTC标签规则'], std: ['16 CFR Part 303纤维成分','ASTM D纺织标准','AATCC测试'], banned: ['偶氮染料禁限芳香胺','PFAS防水整理(多州)','甲醛超限'], label: ['纤维成分%','RN号','Made in','Care Label'], customs: ['Section 301加征关税','UFLPA新疆棉禁令'] },
+    'EU':  { cert: ['REACH SVHC','Oeko-Tex 100(自愿加分)'], std: ['REACH附件XVII','EN ISO纺织测试标准'], banned: ['偶氮染料(24种芳香胺)','甲醛超限','SVHC>0.1%','镍(金属纤维)'], label: ['纤维成分','REACH声明','Oeko-Tex标签'], customs: ['REACH合规声明','原产地证明'] },
+    'JP':  { cert: ['家用品品質標示法','有機JAS(有机纤维)'], std: ['JIS L系列纺织标准'], banned: ['特定偶氮色素','甲醛(婴儿75ppm/成人300ppm)'], label: ['日文纤维成分','護理标志'], customs: ['常规申报'] },
+    'AU':  { cert: ['ACCC消费品安全','Modern Slavery Act'], std: ['AS/NZS纺织标准'], banned: ['偶氮染料','PFAS'], label: ['纤维成分','Country of Origin'], customs: ['现代奴隶制声明'] },
+    'IN':  { cert: ['BIS(部分纺织品)','GOTS(有机)'], std: ['IS纺织标准'], banned: ['偶氮染料AZO'], label: ['纤维成分','BIS注册号'], customs: ['BIS先行(部分)'] }
+  },
+  '鞋靴及配饰': {
+    'US':  { cert: ['CPSC(儿童鞋)','CA Prop 65','ASTM F2412(安全鞋)'], std: ['ASTM F2413(安全鞋头)','16 CFR标签规则'], banned: ['铅>100ppm(儿童)','PFAS防水','偶氮染料'], label: ['材质标识','Made in','Size','安全等级(安全鞋)'], customs: ['Section 301加征关税','纤维/皮革成分检测'] },
+    'EU':  { cert: ['REACH','CE(PPE安全鞋)','EN ISO 20345(安全鞋)'], std: ['EN ISO 20344-20347','REACH附件XVII'], banned: ['偶氮染料','SVHC>0.1%','六价铬(皮革)','镍(金属配件)'], label: ['材质标识','REACH声明','CE+NB编号(安全鞋)'], customs: ['REACH合规声明'] },
+    'JP':  { cert: ['家用品品質標示法','JIS安全鞋标准'], std: ['JIS S 5037(安全鞋)','JIS L系列'], banned: ['偶氮染料','甲醛'], label: ['日文材质/尺码','護理标志'], customs: ['常规进口申报'] },
+    'AU':  { cert: ['RCM(含电子如LED鞋)','ACCC(儿童)','AS/NZS 2210(安全鞋)'], std: ['AS/NZS 2210.3(安全鞋)'], banned: ['偶氮染料','PFAS'], label: ['材质标识','安全等级','Country of Origin'], customs: ['现代奴隶制声明'] },
+    'IN':  { cert: ['BIS(安全鞋强制)','ISI标志'], std: ['IS 15298(安全鞋)'], banned: ['偶氮染料'], label: ['BIS注册号','材质标识'], customs: ['BIS先行'] }
   }
 };
 
@@ -7154,6 +7294,266 @@ var TARIFF_DB = {
     'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
     'TR': { mfn:1.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
     'MX': { mfn:10,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '9405': { // 灯具照明
+    'US': { mfn:3.9,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%，LED灯总约29%' },
+    'EU': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'ErP能效+RoHS+WEEE' },
+    'UK': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'UKCA+RoHS' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'PSE强制(特定LED灯)' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'GEMS能效强制' },
+    'IN': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS强制注册' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SASO能效认证' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'Inmetro认证' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'KC认证' },
+    'TR': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'NOM能效' }
+  },
+  '8517': { // 通讯设备(手机/路由器/交换机)
+    'US': { mfn:0,    fta:0, antidumping:0,  special301:25, vat:0,  note:'ITA零关税+301税25%(部分品类豁免)' },
+    'EU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'ITA零关税，CE RED认证' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'ITA零关税' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'技適TELEC强制' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'RCM+IMDA认证' },
+    'IN': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS+WPC强制，PLI补贴' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'CITC型式认证' },
+    'BR': { mfn:14,   fta:0, antidumping:0,  special:0,     vat:12, note:'Anatel认证强制' },
+    'KR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'KC/RRA认证' },
+    'TR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'BTK型式认证' },
+    'MX': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:16, note:'IFT认证' }
+  },
+  '8541': { // 半导体器件(二极管/晶体管/IC)
+    'US': { mfn:0,    fta:0, antidumping:0,  special301:25, vat:0,  note:'ITA零关税+301税25%(IC)' },
+    'EU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'ITA零关税' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'ITA零关税' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ITA零关税' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ITA零关税' },
+    'IN': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:18, note:'ITA零关税+GST 18%' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'GCC 5%' },
+    'BR': { mfn:6,    fta:0, antidumping:0,  special:0,     vat:12, note:'Ex-Tarifário减免' },
+    'KR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ITA零关税' },
+    'TR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:16, note:'ITA零关税' }
+  },
+  '7208': { // 热轧钢铁板材
+    'US': { mfn:0,    fta:0, antidumping:0,  special:25,    vat:0,  note:'Section 232关税25%' },
+    'EU': { mfn:0,    fta:0, antidumping:30, special:0,     vat:20, note:'保障措施配额+反倾销' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'UK保障措施配额' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'零关税' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:12.5, fta:0, antidumping:15, special:0,     vat:18, note:'反倾销+MIP最低进口价' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'GCC 5%' },
+    'BR': { mfn:12,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'韩中FTA' },
+    'TR': { mfn:0,    fta:0, antidumping:25, special:0,     vat:20, note:'反倾销25%' },
+    'MX': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:16, note:'USMCA成员零关税' }
+  },
+  '8429': { // 工程机械(推土机/挖掘机/装载机)
+    'US': { mfn:0,    fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'CE机械指令+Stage V排放' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'オフロード法排放' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'IN': { mfn:7.5,  fta:0, antidumping:0,  special:0,     vat:18, note:'CPCB排放' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:14,   fta:0, antidumping:0,  special:0,     vat:12, note:'Ex-Tarifário减免' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:16, note:'USMCA' }
+  },
+  '4012': { // 轮胎(新/翻新)
+    'US': { mfn:4.0,  fta:0, antidumping:100,special301:25, vat:0,  note:'乘用车轮胎反倾销+301，卡车胎部分' },
+    'EU': { mfn:4.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'ECE R117/R30认证' },
+    'UK': { mfn:4.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'JIS轮胎标准' },
+    'AU': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:10, note:'ADR合规' },
+    'IN': { mfn:25,   fta:0, antidumping:20, special:0,     vat:18, note:'BIS强制+反倾销' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SASO+GCC标准' },
+    'BR': { mfn:35,   fta:0, antidumping:0,  special:0,     vat:12, note:'Inmetro强制' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'KS轮胎标准' },
+    'TR': { mfn:4.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'NOM标准' }
+  },
+  '8536': { // 电路开关/继电器/连接器(电气)
+    'US': { mfn:2.7,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:2.3,  fta:0, antidumping:0,  special:0,     vat:20, note:'CE LVD+RoHS' },
+    'UK': { mfn:2.3,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'PSE(特定)' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'RCM' },
+    'IN': { mfn:10,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS强制' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:14,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'KC' },
+    'TR': { mfn:2.3,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '7308': { // 钢结构(桥梁/塔架/框架)
+    'US': { mfn:0,    fta:0, antidumping:0,  special:25,    vat:0,  note:'Section 232关税25%' },
+    'EU': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'CE CPR+EN 1090(EXC等级)' },
+    'UK': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'UKCA+EN 1090' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'建築基準法' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'AS/NZS 5131' },
+    'IN': { mfn:10,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS IS 2062' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SASO标准' },
+    'BR': { mfn:14,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'KS标准' },
+    'TR': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '8528': { // 显示器/电视/投影仪
+    'US': { mfn:3.9,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:2,    fta:0, antidumping:0,  special:0,     vat:20, note:'CE+RoHS+ErP能效' },
+    'UK': { mfn:2,    fta:0, antidumping:0,  special:0,     vat:20, note:'UKCA' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'PSE+技適' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'RCM+GEMS能效' },
+    'IN': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS强制' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SASO能效' },
+    'BR': { mfn:16,   fta:0, antidumping:0,  special:0,     vat:12, note:'Anatel(含无线)' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'KC+能效' },
+    'TR': { mfn:2,    fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'NOM能效' }
+  },
+  '2106': { // 食品制剂(调味料/添加剂/保健品)
+    'US': { mfn:6.4,  fta:0, antidumping:0,  special301:0,  vat:0,  note:'FDA设施注册+FSVP' },
+    'EU': { mfn:12.8, fta:0, antidumping:0,  special:0,     vat:20, note:'EC食品安全法+Novel Food法规' },
+    'UK': { mfn:12,   fta:0, antidumping:0,  special:0,     vat:20, note:'FSA食品安全' },
+    'JP': { mfn:8.4,  fta:0, antidumping:0,  special:0,     vat:10, note:'食品衛生法+機能性表示' },
+    'AU': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:10, note:'FSANZ标准' },
+    'IN': { mfn:30,   fta:0, antidumping:0,  special:0,     vat:18, note:'FSSAI强制' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SFDA+Halal' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'ANVISA注册' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'MFDS' },
+    'TR': { mfn:12,   fta:0, antidumping:0,  special:0,     vat:20, note:'Tarım Bakanlığı' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'COFEPRIS' }
+  },
+  '7113': { // 珠宝首饰(贵金属)
+    'US': { mfn:6.5,  fta:0, antidumping:0,  special301:7.5,vat:0,  note:'301税7.5%，FTC珠宝指南' },
+    'EU': { mfn:2.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'REACH+EN 1811镍释放' },
+    'UK': { mfn:2.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'Hallmarking Act强制成色标记' },
+    'JP': { mfn:2.4,  fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:3,  note:'黄金进口限制，消费税3%' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:16,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:3,    fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '4819': { // 纸制品(纸箱/包装盒/标签)
+    'US': { mfn:0.5,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'PPWR包装法规+FSC/PEFC' },
+    'UK': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'塑料包装税+纸替代趋势' },
+    'JP': { mfn:3.0,  fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:18, note:'' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:14,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:3.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '3304': { // 美妆/护肤品
+    'US': { mfn:6.5,  fta:0, antidumping:0,  special301:0,  vat:0,  note:'FDA MoCRA注册，部分品类6.5%' },
+    'EU': { mfn:6.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU 1223/2009+CPNP通知' },
+    'UK': { mfn:6.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'UK CPNP等效' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'化粧品届出/医薬部外品批准' },
+    'AU': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:10, note:'AICIS化学品登记' },
+    'IN': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:18, note:'CDSCO许可' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SFDA注册+Halal' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'Anvisa注册' },
+    'KR': { mfn:6.5,  fta:0, antidumping:0,  special:0,     vat:10, note:'MFDS化妆品申报' },
+    'TR': { mfn:6.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'COFEPRIS' }
+  },
+  '0901': { // 咖啡(生豆/烘焙/速溶)
+    'US': { mfn:0,    fta:0, antidumping:0,  special301:0,  vat:0,  note:'生豆零关税，FDA注册' },
+    'EU': { mfn:7.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'烘焙豆7.5%，生豆零关税' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'DCTS零关税(发展中国家)' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'生豆零关税，烘焙8.5%→协定降税' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'零关税' },
+    'IN': { mfn:100,  fta:0, antidumping:0,  special:0,     vat:5,  note:'极高关税保护本土咖啡' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'GCC 5%' },
+    'BR': { mfn:16,   fta:0, antidumping:0,  special:0,     vat:12, note:'巴西是产咖大国' },
+    'KR': { mfn:2,    fta:0, antidumping:0,  special:0,     vat:10, note:'FTA降税' },
+    'TR': { mfn:9.3,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '2204': { // 葡萄酒
+    'US': { mfn:0.04, fta:0, antidumping:0,  special301:0,  vat:0,  note:'约0.04$/L，TTB进口许可' },
+    'EU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'EU内零关税，外部按L/酒精度' },
+    'UK': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'酒精税按纯酒精£31.64/L' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'EPA/FTA降税，酒税另计' },
+    'AU': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税，WET税29%' },
+    'IN': { mfn:150,  fta:0, antidumping:0,  special:0,     vat:18, note:'极高关税150%+各邦消费税' },
+    'SA': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:0,  note:'禁止进口(伊斯兰法)' },
+    'BR': { mfn:27,   fta:0, antidumping:0,  special:0,     vat:12, note:'IPI+ICMS总税负60%+' },
+    'KR': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:10, note:'FTA降税，酒税另计' },
+    'TR': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:20, note:'酒精税极高(ÖTV 63%+)' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'IEPS特殊消费税' }
+  },
+  '4016': { // 其他橡胶制品(垫片/密封件/减震器)
+    'US': { mfn:4.0,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'REACH+食品接触(部分)' },
+    'UK': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:2.5,  fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:18, note:'' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '8301': { // 锁具/铰链(五金)
+    'US': { mfn:3.5,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%' },
+    'EU': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'CE(部分)+REACH' },
+    'UK': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:2.5,  fta:0, antidumping:0,  special:0,     vat:10, note:'JIS锁具标准' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS(部分)' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:2.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '8708': { // 汽车零件
+    'US': { mfn:2.5,  fta:0, antidumping:0,  special301:25, vat:0,  note:'301加征25%，部分零部件Section 232' },
+    'EU': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'ECE认证+RoHS(电子部件)' },
+    'UK': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'JASO/PSE' },
+    'AU': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:10, note:'ADR合规' },
+    'IN': { mfn:15,   fta:0, antidumping:0,  special:0,     vat:28, note:'BIS+GST 28%' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SASO' },
+    'BR': { mfn:18,   fta:0, antidumping:0,  special:0,     vat:12, note:'Inmetro(特定)' },
+    'KR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:3.5,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:16, note:'USMCA成员零关税(满足ROO)' }
+  },
+  '4202': { // 箱包(手提箱/背包/手提袋)
+    'US': { mfn:20,   fta:0, antidumping:0,  special301:7.5,vat:0,  note:'基础20%+301税7.5%，总27.5%' },
+    'EU': { mfn:9.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'REACH+原产地' },
+    'UK': { mfn:9.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:8.0,  fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:25,   fta:0, antidumping:0,  special:0,     vat:18, note:'BIS+高关税保护' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SABER' },
+    'BR': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:12, note:'高税率保护本土皮革业' },
+    'KR': { mfn:13,   fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:9.7,  fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:20,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
+  },
+  '6403': { // 鞋靴(皮革面)
+    'US': { mfn:10,   fta:0, antidumping:0,  special301:7.5,vat:0,  note:'基础10%+301税7.5%，总17.5%' },
+    'EU': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:20, note:'REACH(六价铬限制)' },
+    'UK': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:20, note:'' },
+    'JP': { mfn:27,   fta:0, antidumping:0,  special:0,     vat:10, note:'皮革鞋高关税保护(27%或4300円/双)' },
+    'AU': { mfn:0,    fta:0, antidumping:0,  special:0,     vat:10, note:'ChAFTA零关税' },
+    'IN': { mfn:35,   fta:0, antidumping:0,  special:0,     vat:18, note:'超高关税保护' },
+    'SA': { mfn:5,    fta:0, antidumping:0,  special:0,     vat:15, note:'SABER' },
+    'BR': { mfn:35,   fta:0, antidumping:0,  special:0,     vat:12, note:'全球最高之一' },
+    'KR': { mfn:13,   fta:0, antidumping:0,  special:0,     vat:10, note:'' },
+    'TR': { mfn:8,    fta:0, antidumping:0,  special:0,     vat:20, note:'EU关税同盟' },
+    'MX': { mfn:30,   fta:0, antidumping:0,  special:0,     vat:16, note:'' }
   }
 };
 
@@ -7200,7 +7600,27 @@ var HS_QUICK = [
   { code:'8481', desc:'阀门/管道附件', category:'建材' },
   { code:'3926', desc:'其他塑料制品', category:'塑料' },
   { code:'7010', desc:'玻璃容器(瓶罐)', category:'包装' },
-  { code:'8544', desc:'绝缘电线电缆', category:'机电' }
+  { code:'8544', desc:'绝缘电线电缆', category:'机电' },
+  { code:'9405', desc:'灯具照明(LED/灯泡/灯具)', category:'照明' },
+  { code:'8517', desc:'通讯设备(手机/路由器/交换机)', category:'通讯' },
+  { code:'8541', desc:'半导体器件(二极管/IC/晶体管)', category:'电子' },
+  { code:'7208', desc:'热轧钢铁板材', category:'钢铁' },
+  { code:'8429', desc:'工程机械(推土机/挖掘机/装载机)', category:'工程' },
+  { code:'4012', desc:'轮胎(新/翻新)', category:'橡胶' },
+  { code:'8536', desc:'电路开关/继电器/连接器', category:'电气' },
+  { code:'7308', desc:'钢结构(桥梁/塔架/框架)', category:'钢铁' },
+  { code:'8528', desc:'显示器/电视/投影仪', category:'显示' },
+  { code:'2106', desc:'食品制剂(调味料/添加剂/保健品)', category:'食品' },
+  { code:'7113', desc:'珠宝首饰(贵金属)', category:'珠宝' },
+  { code:'4819', desc:'纸制品(纸箱/包装盒/标签)', category:'包装' },
+  { code:'3304', desc:'美妆/护肤品', category:'美妆' },
+  { code:'0901', desc:'咖啡(生豆/烘焙/速溶)', category:'饮料' },
+  { code:'2204', desc:'葡萄酒', category:'饮料' },
+  { code:'4016', desc:'橡胶制品(垫片/密封件/减震器)', category:'橡胶' },
+  { code:'8301', desc:'锁具/铰链(五金)', category:'五金' },
+  { code:'8708', desc:'汽车零件', category:'汽车' },
+  { code:'4202', desc:'箱包(手提箱/背包/手提袋)', category:'箱包' },
+  { code:'6403', desc:'鞋靴(皮革面)', category:'鞋靴' }
 ];
 
 
