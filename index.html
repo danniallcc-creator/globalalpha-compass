@@ -42,6 +42,28 @@ input[type=range]{accent-color:#60a5fa}
 .dark-popup .leaflet-popup-tip{background:rgba(15,23,42,.95)}
 .dark-popup .leaflet-popup-close-button{color:#94a3b8}
 .dark-popup .leaflet-popup-content{margin:12px 14px;line-height:1.4}
+.l2-card{border:1px solid rgba(255,255,255,0.08);border-radius:12px;margin-bottom:12px;overflow:hidden;background:rgba(30,41,59,.4)}
+.l2-header{padding:16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.l2-header:hover{background:rgba(255,255,255,0.03)}
+.l2-body{padding:0 16px 16px;display:none}
+.l2-body.expanded{display:block}
+.region-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:6px;font-size:.75rem;margin:2px}
+.region-high{background:rgba(34,197,94,0.2);color:#4ade80}
+.region-medium{background:rgba(251,191,36,0.2);color:#fbbf24}
+.region-low{background:rgba(100,116,139,0.2);color:#94a3b8}
+.region-none{background:rgba(51,65,85,0.3);color:#475569}
+.l2-toggle{transition:transform .2s;font-size:.75rem;color:#64748b}
+.l2-toggle.open{transform:rotate(90deg)}
+.l3-item{padding:6px 10px;border-left:2px solid rgba(96,165,250,.2);margin-bottom:4px;font-size:.8rem;color:#cbd5e1}
+.l3-item:hover{border-left-color:#60a5fa;background:rgba(96,165,250,.05)}
+.kw-tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;margin:2px;background:rgba(139,92,246,.12);color:#a78bfa}
+.export-bar{height:6px;border-radius:3px;background:linear-gradient(90deg,#3b82f6,#8b5cf6);transition:width .5s ease}
+.dm-summary-card{background:rgba(30,41,59,.5);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:16px;margin-top:16px}
+.suggest-chip{display:inline-block;padding:4px 14px;margin:3px;border-radius:20px;border:1px solid rgba(96,165,250,0.3);background:rgba(30,41,59,0.6);color:#94a3b8;cursor:pointer;font-size:.85rem;transition:all .2s}
+.suggest-chip:hover{background:rgba(59,130,246,0.2);color:#e2e8f0;border-color:#60a5fa}
+.suggest-chip .chip-type{font-size:.65rem;color:#64748b;margin-left:4px}
+.hidden{display:none}
+.suggest-msg{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
 </style>
 </head>
 <body>
@@ -87,6 +109,7 @@ input[type=range]{accent-color:#60a5fa}
       开启罗盘
     </button>
   </div>
+  <div id="search-suggestions" class="hidden mt-3 text-sm max-w-2xl mx-auto"></div>
 
   <!-- Loading -->
   <div id="el-loading" style="display:none" class="text-center py-16">
@@ -392,7 +415,7 @@ input[type=range]{accent-color:#60a5fa}
 
   <!-- Industry Trends Panel -->
   <div id="think-industry" class="think-sub hidden">
-    <div class="mb-4 flex flex-col md:flex-row gap-3">
+    <div class="mb-4 flex flex-col md:flex-row gap-3 items-end">
       <input id="industry-search" type="text" placeholder="&#128269; 搜索品类关键词..." oninput="filterIndustryList()" class="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-blue-400">
       <select id="industry-group" onchange="filterIndustryList()" class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-blue-400">
         <option value="">全部品类（48个）</option>
@@ -403,6 +426,7 @@ input[type=range]{accent-color:#60a5fa}
         <option value="服务">服务</option>
       </select>
       <span id="industry-count" class="text-gray-400 text-sm flex items-center">共 <b class="text-blue-300 mx-1">48</b> 个品类</span>
+      <span id="industry-update-time" class="text-gray-500 text-xs"></span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="industry-list"></div>
   </div>
@@ -2254,7 +2278,7 @@ function getCategoryHsGroup(cat) {
 // 聚合多个HS编码的出口数据（二级/三级→一级品类）
 function getAggregatedExportData(cat) {
   var group = getCategoryHsGroup(cat);
-  if(!group) return {type:'single', hs:'999999', data:CUSTOMS_EXPORT_DATA['999999']};
+  if(!group) return {type:'none'};
   // 服务类品类：无海关出口数据
   if(group.isService) return {type:'service', name:group.name};
 
@@ -2264,7 +2288,7 @@ function getAggregatedExportData(cat) {
     if(CUSTOMS_EXPORT_DATA[subs[si].hs]) validSubs.push(subs[si]);
   }
 
-  if(validSubs.length===0) return {type:'single', hs:'999999', data:CUSTOMS_EXPORT_DATA['999999']};
+  if(validSubs.length===0) return {type:'none'};
   if(validSubs.length===1) return {type:'single', hs:validSubs[0].hs, label:validSubs[0].label, data:CUSTOMS_EXPORT_DATA[validSubs[0].hs], group:group};
 
   // 多子类目聚合
@@ -3228,6 +3252,27 @@ function renderCompass(cat) {
   $el('mass-list').innerHTML   = compass.mass.map(function(c){return countryCard(c,cat);}).join('');
   $el('blue-list').innerHTML   = compass.blue.map(function(c){return countryCard(c,cat);}).join('');
 
+  // Show keyword suggestions when no standard category match
+  var _hsGroup = getCategoryHsGroup(cat);
+  if(!_hsGroup) {
+    loadCompassKeywords().then(function(kwData) {
+      if(!kwData || !kwData.keywords) return;
+      var q = cat.toLowerCase();
+      var matches = [];
+      for(var i=0;i<kwData.keywords.length && matches.length<8;i++){
+        var kw = kwData.keywords[i];
+        var t = kw.text.toLowerCase();
+        if(t.indexOf(q)!==-1 || q.indexOf(t)!==-1) matches.push(kw);
+      }
+      if(matches.length>0){
+        renderSuggestionChips(matches, '未找到与「'+cat+'」精确匹配的品类，以下为相似品类推荐，点击可直接查看：');
+      }
+    });
+  } else {
+    var suggestEl = document.getElementById('search-suggestions');
+    if(suggestEl) { suggestEl.classList.add('hidden'); suggestEl.innerHTML = ''; }
+  }
+
   // B5: Async fill social trend & policy tags on country cards
   (function(_cat, _allCountries) {
     loadSocialTrends().then(function(st) {
@@ -3423,7 +3468,16 @@ function renderCompass(cat) {
   var agg = getAggregatedExportData(cat);
   var us=compliance.tariff_us||'5-25%', eu=compliance.tariff_eu||'2.7-12%';
 
-  if(agg.type==='service'){
+  if(agg.type==='none'){
+    // ---- 无数据品类：显示暂无数据提示 ----
+    var noDataHtml =
+      '<div class="bg-white/5 rounded-xl p-8 border border-white/5 text-center">' +
+        '<div class="text-lg font-bold text-gray-400 mb-2">暂无海关出口数据</div>' +
+        '<p class="text-gray-500 text-sm leading-relaxed mb-4">该品类可能属于新兴类目或非常规出口品类，当前海关编码体系中暂无对应的出口贸易统计数据。</p>' +
+        '<p class="text-gray-500 text-xs">建议通过海关总署网站、中国贸易统计年鉴或行业报告查询最新数据。</p>' +
+      '</div>';
+    $el('customs-content').innerHTML = noDataHtml;
+  } else if(agg.type==='service'){
     // ---- 服务类品类：无海关出口数据 ----
     $el('customs-content').innerHTML =
       '<div class="bg-white/5 rounded-xl p-8 border border-white/5 text-center">' +
@@ -7665,216 +7719,283 @@ function filterIndustryList() {
       }
     });
   })(keys);
+
+  // Show data update timestamp from trending.json
+  fetch('data/trending.json?' + _dailyCacheKey()).then(function(r){ return r.ok ? r.json() : null; }).then(function(td){
+    var timeEl = document.getElementById('industry-update-time');
+    if(timeEl && td && td.meta && td.meta.updated_at) {
+      var upd = new Date(td.meta.updated_at);
+      timeEl.textContent = '数据更新: ' + upd.toLocaleString('zh-CN', {timeZone:'Asia/Shanghai'});
+    }
+  }).catch(function(){});
 }
 
 function initDemandSelect() {
   var sel = document.getElementById('demand-cat');
   if(!sel || sel.options.length > 1) return;
-  Object.keys(DEMAND_MATRIX).forEach(function(k){
-    var opt = document.createElement('option');
-    opt.value = k; opt.textContent = k;
-    sel.appendChild(opt);
+  // Populate from demand_matrix_v2.json categories (all 48 L1 names)
+  fetch('data/demand_matrix_v2.json').then(function(r){ return r.json(); }).then(function(data){
+    window._demandMatrixV2 = data;
+    var cats = Object.keys(data.categories || {});
+    cats.forEach(function(k){
+      var opt = document.createElement('option');
+      opt.value = k; opt.textContent = k;
+      sel.appendChild(opt);
+    });
+  }).catch(function(e){
+    console.warn('demand_matrix_v2.json load failed, fallback to DEMAND_MATRIX', e);
+    Object.keys(DEMAND_MATRIX).forEach(function(k){
+      var opt = document.createElement('option');
+      opt.value = k; opt.textContent = k;
+      sel.appendChild(opt);
+    });
   });
 }
 
 function runDemandAnalysis() {
   var cat = document.getElementById('demand-cat').value;
-  var d = DEMAND_MATRIX[cat] || DEMAND_MATRIX[_demandAlias(cat)];
-  if(!d) { document.getElementById('demand-result').innerHTML = '<p class="text-gray-500 text-sm">暂无该品类数据</p>'; return; }
-  var scenesHtml = d.scenes.map(function(s,i){
-    return '<div class="bg-slate-800/50 rounded-xl p-4">' +
-      '<div class="flex items-center gap-2 mb-2">' +
-        '<span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs flex items-center justify-center font-bold">'+(i+1)+'</span>' +
-        '<span class="font-semibold text-sm">'+s.scene+'</span>' +
-      '</div>' +
-      '<div class="text-xs space-y-1 pl-8">' +
-        '<div><span class="text-gray-400">目标人群：</span><span class="text-gray-200">'+s.crowd+'</span></div>' +
-        '<div><span class="text-gray-400">需求原因：</span><span class="text-gray-200">'+s.reason+'</span></div>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-  var certHtml = d.products.cert.map(function(c){ return '<span class="badge" style="background:rgba(99,102,241,.15);color:#818cf8">'+c+'</span>'; }).join(' ');
-  var paramHtml = d.products.params.map(function(p){ return '<span class="badge" style="background:rgba(20,184,166,.1);color:#2dd4bf">'+p+'</span>'; }).join(' ');
-  var featureHtml = d.products.features.map(function(f){ return '<li class="text-gray-300">'+f+'</li>'; }).join('');
-  var priceHtml = Object.keys(d.products.priceRange).map(function(k){ return '<div class="flex justify-between py-1 border-b border-white/5"><span class="text-gray-400">'+k+'</span><span class="text-green-400 font-medium">'+d.products.priceRange[k]+'</span></div>'; }).join('');
-  var trendRows = ['2020','2021','2022','2023','2024'].map(function(yr){
-    var t = d.exportTrend[yr];
-    if(!t) return '';
-    var up = t.yoy >= 0;
-    return '<tr class="border-t border-white/5 text-sm"><td class="py-2 text-gray-400">'+yr+'</td><td class="py-2">$'+t.scale+'亿</td>' +
-      '<td class="py-2 '+(up?'text-green-400':'text-red-400')+'">'+(up?'+':'')+t.yoy+'%</td></tr>';
-  }).join('');
-  var trendsList = d.exportTrend.trends.map(function(t){ return '<li class="text-gray-300 text-xs">'+t+'</li>'; }).join('');
-  var focusList = d.exportTrend.focus.map(function(f){ return '<li class="text-gray-300 text-xs">'+f+'</li>'; }).join('');
+  if(!cat) { document.getElementById('demand-result').innerHTML = '<p class="text-gray-500 text-sm">请先选择一个品类</p>'; return; }
 
-  // ===== 获取海关数据中的TOP5进口国 =====
-  var compInfo = getCompliance(cat);
-  var hs = compInfo.hs || '999999';
-  var cData = CUSTOMS_EXPORT_DATA[hs] || CUSTOMS_EXPORT_DATA['999999'];
-  var top5Html = '';
+  var resultEl = document.getElementById('demand-result');
+  resultEl.innerHTML = '<p class="text-gray-400 text-sm" style="padding:20px">正在加载需求矩阵数据...</p>';
 
-  // 建材品类: 聚合20个子品类HS编码的TOP5数据
-  var isBuildingCatDemand = (cat.indexOf('建材')!==-1 || cat.indexOf('建筑材料')!==-1);
-  if(isBuildingCatDemand) {
-    // 聚合各国总金额（复用全局BM_HS_LIST）
-    var countryAgg = {};
-    for(var bi=0;bi<BM_HS_LIST.length;bi++){
-      var bHS = CUSTOMS_EXPORT_DATA[BM_HS_LIST[bi].hs];
-      if(bHS && bHS.top5){
-        for(var bt=0;bt<bHS.top5.length;bt++){
-          var cc = bHS.top5[bt].c;
-          if(!countryAgg[cc]) countryAgg[cc] = {amt:0, details:[]};
-          countryAgg[cc].amt += bHS.top5[bt].amt;
-          countryAgg[cc].details.push({label:BM_HS_LIST[bi].label, amt:bHS.top5[bt].amt, yoy:bHS.top5[bt].yoy});
+  // Use cached data or fetch
+  var dataPromise = window._demandMatrixV2
+    ? Promise.resolve(window._demandMatrixV2)
+    : fetch('data/demand_matrix_v2.json').then(function(r){
+        if(!r.ok) throw new Error('HTTP '+r.status);
+        return r.json();
+      });
+
+  dataPromise.then(function(data){
+    window._demandMatrixV2 = data;
+    var catData = data.categories[cat];
+    if(!catData) {
+      resultEl.innerHTML = '<p class="text-gray-500 text-sm" style="padding:20px">暂无该品类的V2需求矩阵数据</p>';
+      return;
+    }
+
+    var l2List = catData.l2_list || [];
+    var l2Count = l2List.length;
+    var l1NameEn = catData.name_en || '';
+    var regions = ['北美','欧洲','东亚','东南亚','南亚','中东','南美','大洋洲','非洲'];
+
+    // Compute totals
+    var totalL3 = 0;
+    var regionDemandCount = {};
+    var allKeywords = {};
+    for(var i=0;i<l2List.length;i++){
+      var l2 = l2List[i];
+      totalL3 += (l2.l3_items || []).length;
+      // Aggregate regional demand
+      var rd = l2.regional_demand || {};
+      for(var ri=0;ri<regions.length;ri++){
+        var reg = regions[ri];
+        var regData = rd[reg];
+        if(regData && regData.demand_level !== 'none'){
+          if(!regionDemandCount[reg]) regionDemandCount[reg] = {high:0,medium:0,low:0};
+          regionDemandCount[reg][regData.demand_level] = (regionDemandCount[reg][regData.demand_level]||0) + 1;
         }
       }
+      // Collect keywords
+      var kws = l2.keywords || [];
+      for(var ki=0;ki<kws.length;ki++){
+        var kw = kws[ki];
+        if(kw.length < 30) allKeywords[kw] = (allKeywords[kw]||0) + 1;
+      }
     }
-    // 排序取TOP5
-    var aggList = [];
-    for(var ck in countryAgg){ aggList.push({c:ck, amt:countryAgg[ck].amt, details:countryAgg[ck].details}); }
-    aggList.sort(function(a,b){ return b.amt - a.amt; });
-    var aggTop5 = aggList.slice(0, 5);
 
-    if(aggTop5.length > 0) {
-      // 计算总金额
-      var bmTotalAll = 0;
-      for(var bti=0;bti<aggList.length;bti++) bmTotalAll += aggList[bti].amt;
-      top5Html = '<div class="mt-4 bg-slate-800/50 rounded-xl p-4">' +
-        '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (建材全品类20个HS编码聚合) <span class="text-gray-500 font-normal ml-1">数据周期: 2025年1-12月</span></div>' +
-        '<div class="text-xs text-gray-400 mb-3">建材全品类出口总额: <span class="text-green-400 font-bold">$'+bmTotalAll.toFixed(2)+'亿</span> (覆盖'+aggList.length+'个目的国)</div>' +
-        '<div class="space-y-3">';
-      for(var ai=0;ai<aggTop5.length;ai++){
-        var ag = aggTop5[ai];
-        var avgYoy = 0;
-        for(var di=0;di<ag.details.length;di++) avgYoy += ag.details[di].yoy;
-        avgYoy = Math.round(avgYoy / ag.details.length);
-        var aColor = avgYoy>=0 ? 'text-green-400' : 'text-red-400';
-        var aBarW = Math.min(Math.round(ag.amt / aggTop5[0].amt * 100), 100);
-        var detailStr = ag.details.map(function(dd){ return dd.label+'($'+dd.amt.toFixed(2)+'亿)'; }).join(' · ');
-        top5Html += '<div>' +
-          '<div class="flex justify-between text-xs mb-1">' +
-            '<span class="text-gray-300 font-medium">'+(ai+1)+'. '+ag.c+'</span>' +
-            '<span class="text-blue-300 font-bold">$'+ag.amt.toFixed(2)+'亿</span>' +
-            '<span class="'+aColor+' font-semibold">'+(avgYoy>=0?'+':'')+avgYoy+'%</span>' +
-          '</div>' +
-          '<div class="w-full bg-white/5 rounded-full h-1.5 mb-1"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+aBarW+'%"></div></div>' +
-          '<div class="text-xs text-gray-500">'+detailStr+'</div>' +
+    // ===== Build L2 Cards =====
+    var cardsHtml = '';
+    for(var i=0;i<l2List.length;i++){
+      var l2 = l2List[i];
+      var l3Items = l2.l3_items || [];
+      var l3Count = l3Items.length;
+      var hsCodes = (l2.hs_codes || []).join(', ') || '--';
+      var rd = l2.regional_demand || {};
+      var ce = l2.china_export || {};
+      var demandText = l2.demand_intersection || '';
+      var isExpanded = (i < 3);
+
+      // Region badges
+      var regionBadges = '';
+      for(var ri=0;ri<regions.length;ri++){
+        var reg = regions[ri];
+        var regData = rd[reg];
+        var level = (regData && regData.demand_level) ? regData.demand_level : 'none';
+        var levelLabel = {high:'high',medium:'medium',low:'low',none:'none'}[level];
+        regionBadges += '<span class="region-badge region-'+levelLabel+'">'+reg+'('+levelLabel+')</span>';
+      }
+
+      // China export summary
+      var exportTotal = ce.total_2024;
+      var exportGrowth = ce.growth_2024;
+      var exportHtml = '';
+      if(exportTotal !== undefined && exportTotal !== null){
+        var growthColor = (exportGrowth >= 0) ? '#4ade80' : '#f87171';
+        var growthSign = (exportGrowth >= 0) ? '+' : '';
+        exportHtml = '<div style="margin-top:10px;padding:8px 12px;background:rgba(255,255,255,0.03);border-radius:8px;font-size:.8rem">' +
+          '<span style="color:#94a3b8">中国出口: </span>' +
+          '<span style="color:#e2e8f0;font-weight:600">2024年 $'+exportTotal.toFixed(1)+'亿</span>' +
+          '<span style="margin-left:12px;color:'+growthColor+';font-weight:600">(同比'+growthSign+exportGrowth.toFixed(1)+'%)</span>' +
         '</div>';
       }
-      top5Html += '</div></div>';
-    }
-  } else if(cData && cData.top5) {
-    top5Html = '<div class="mt-4 bg-slate-800/50 rounded-xl p-4">' +
-      '<div class="text-xs text-purple-300 font-medium mb-3">&#127760; TOP5 进口国金额 &amp; 增速 (HS '+hs+' · '+cData.name+') <span class="text-gray-500 font-normal ml-1">数据周期: 2025年1-12月</span></div>' +
-      '<div class="space-y-2">';
-    for(var ti=0;ti<cData.top5.length;ti++){
-      var t=cData.top5[ti];
-      var tColor = t.yoy>=0 ? 'text-green-400' : 'text-red-400';
-      var barW = Math.min(Math.round(t.amt / cData.top5[0].amt * 100), 100);
-      top5Html += '<div><div class="flex justify-between text-xs mb-1"><span class="text-gray-300 font-medium">'+(ti+1)+'. '+t.c+'</span><span class="text-blue-300 font-bold">$'+t.amt.toFixed(2)+'亿</span><span class="'+tColor+' font-semibold">'+(t.yoy>=0?'+':'')+t.yoy+'%</span></div><div class="w-full bg-white/5 rounded-full h-1.5"><div class="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full" style="width:'+barW+'%"></div></div></div>';
-    }
-    top5Html += '</div></div>';
-  }
 
-  // ===== 国别需求动态聚合（从COUNTRY_CORE_DEMANDS中提取各国对该品类的具体需求） =====
-  var countryDemandsHtml = '';
-  var demandCountries = Object.keys(COUNTRY_CORE_DEMANDS);
-  var countryDemandItems = [];
-  for(var ci=0;ci<demandCountries.length;ci++){
-    var cName = demandCountries[ci];
-    var cDemands = COUNTRY_CORE_DEMANDS[cName];
-    var matchedDemand = '';
-    var dKeys = Object.keys(cDemands);
-    for(var di=0;di<dKeys.length;di++){
-      if(dKeys[di]!=='default' && (cat.indexOf(dKeys[di])!==-1 || dKeys[di].indexOf(cat)!==-1)){ matchedDemand=cDemands[dKeys[di]]; break; }
-    }
-    if(matchedDemand) {
-      countryDemandItems.push({name:cName, demand:matchedDemand});
-    }
-  }
-  if(countryDemandItems.length > 0) {
-    countryDemandsHtml = '<div class="card p-5 mt-6">' +
-      '<h3 class="font-semibold text-sm mb-4 text-teal-300">&#127758; 各国差异化需求（'+cat+'）· 动态聚合</h3>' +
-      '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">';
-    for(var cdi=0;cdi<countryDemandItems.length;cdi++){
-      var item = countryDemandItems[cdi];
-      countryDemandsHtml += '<div class="bg-slate-800/50 rounded-lg p-3">' +
-        '<div class="text-xs text-blue-300 font-medium mb-1">'+item.name+'</div>' +
-        '<div class="text-xs text-gray-300">'+item.demand+'</div>' +
-      '</div>';
-    }
-    countryDemandsHtml += '</div></div>';
-  }
-
-  document.getElementById('demand-result').innerHTML =
-    '<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">' +
-      '<div class="card p-5">' +
-        '<h3 class="font-semibold text-sm mb-4 text-blue-300">&#127919; 需求场景矩阵</h3>' +
-        '<div class="space-y-3">'+scenesHtml+'</div>' +
-      '</div>' +
-      '<div class="space-y-4">' +
-        '<div class="card p-5">' +
-          '<h3 class="font-semibold text-sm mb-3 text-purple-300">&#128203; 产品匹配要求</h3>' +
-          '<div class="text-xs space-y-2">' +
-            '<div><span class="text-gray-400 block mb-1">必备证书认证：</span>'+certHtml+'</div>' +
-            '<div class="mt-2"><span class="text-gray-400 block mb-1">关键参数要求：</span>'+paramHtml+'</div>' +
-            '<div class="mt-2"><span class="text-gray-400 block mb-1">核心功能卖点：</span><ul class="list-disc pl-4 space-y-0.5">'+featureHtml+'</ul></div>' +
-            '<div class="mt-2"><span class="text-gray-400 block mb-1">建议价格段：</span>'+priceHtml+'</div>' +
-          '</div>' +
-        '</div>' +
-        '<div class="card p-5">' +
-          '<h3 class="font-semibold text-sm mb-3 text-green-300">&#128200; 中国出口趋势(2020-2024) <span class="text-xs text-gray-500 font-normal ml-1">数据来源: 中国海关总署</span></h3>' +
-          '<table class="w-full text-xs"><thead><tr class="text-gray-400"><th class="pb-1 text-left">年份</th><th class="pb-1 text-left">中国出口规模</th><th class="pb-1 text-left">同比增速</th></tr></thead><tbody>'+trendRows+'</tbody></table>' +
-          top5Html +
-          '<div class="mt-3"><p class="text-xs text-gray-400 mb-1">最新趋势：</p><ul class="list-disc pl-4 space-y-0.5">'+trendsList+'</ul></div>' +
-          '<div class="mt-3 bg-yellow-400/5 border border-yellow-400/20 rounded-lg p-3"><p class="text-xs text-yellow-300 font-medium mb-1">&#127919; 重点关注方向</p><ul class="list-disc pl-4 space-y-0.5">'+focusList+'</ul></div>' +
-        '</div>' +
-      '</div>' +
-    '</div>' +
-    countryDemandsHtml +
-    // B2: Social trends cross-platform keywords placeholder
-    '<div class="card p-5 mt-6">' +
-      '<h3 class="font-semibold text-sm mb-4 text-pink-300">&#128241; \u8de8\u5e73\u53f0\u793e\u5a92\u70ed\u8bcd (' + cat + ')</h3>' +
-      '<div id="demand-social-trends" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
-    '</div>';
-  // B2: Async load social trends for demand analysis
-  (function(_cat) {
-    loadSocialTrends().then(function(st) {
-      var el = document.getElementById('demand-social-trends');
-      if (!el) return;
-      if (!st) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
-      var catData = st[_cat] || null;
-      if (!catData) {
-        var stKeys = Object.keys(st);
-        for (var si = 0; si < stKeys.length; si++) {
-          if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
-        }
-      }
-      if (!catData) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8be5\u54c1\u7c7b\u793e\u5a92\u8d8b\u52bf\u6570\u636e</span>'; return; }
-      var platforms = ['google','youtube','x','instagram','tiktok'];
-      var platformLabels = {google:'Google',youtube:'YouTube',x:'\ud835\udd4f',instagram:'Instagram',tiktok:'TikTok'};
-      var sh = '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">';
-      for (var pi = 0; pi < platforms.length; pi++) {
-        var pkws = catData[platforms[pi]] || [];
-        if (!pkws.length) continue;
-        sh += '<div class="bg-slate-800/50 rounded-lg p-3">';
-        sh += '<div class="text-xs font-medium text-blue-300 mb-2">' + platformLabels[platforms[pi]] + '</div>';
-        var slice = pkws.slice(0, 5);
-        for (var ki = 0; ki < slice.length; ki++) {
-          var kw = slice[ki];
-          var gColor = (kw.growth||0) > 0 ? 'text-green-400' : 'text-red-400';
-          var gSign = (kw.growth||0) > 0 ? '+' : '';
-          sh += '<div class="flex justify-between items-center py-0.5">' +
-            '<span class="text-gray-300">' + (kw.keyword||'') + '</span>' +
-            '<span class="' + gColor + ' font-semibold">' + gSign + (kw.growth||0).toFixed(0) + '%</span>' +
+      // TOP markets (shown when expanded)
+      var topMarkets = ce.top_markets || [];
+      var topMarketsHtml = '';
+      if(topMarkets.length > 0){
+        topMarketsHtml = '<div style="margin-top:12px"><div style="font-size:.75rem;color:#94a3b8;margin-bottom:6px">TOP出口市场:</div>';
+        var maxAmt = topMarkets[0] ? topMarkets[0].amount : 1;
+        for(var mi=0;mi<topMarkets.length && mi<5;mi++){
+          var m = topMarkets[mi];
+          var barW = Math.min(Math.round(m.amount / maxAmt * 100), 100);
+          var mGrowthColor = (m.growth >= 0) ? '#4ade80' : '#f87171';
+          var mGrowthSign = (m.growth >= 0) ? '+' : '';
+          topMarketsHtml += '<div style="margin-bottom:6px">' +
+            '<div style="display:flex;justify-content:space-between;font-size:.75rem;margin-bottom:2px">' +
+              '<span style="color:#cbd5e1">'+(mi+1)+'. '+m.country+'</span>' +
+              '<span style="color:#93c5fd;font-weight:600">$'+m.amount.toFixed(1)+'亿</span>' +
+              '<span style="color:'+mGrowthColor+';font-weight:600">'+mGrowthSign+m.growth.toFixed(1)+'%</span>' +
+            '</div>' +
+            '<div style="width:100%;background:rgba(255,255,255,0.05);border-radius:3px;height:6px">' +
+              '<div class="export-bar" style="width:'+barW+'%"></div>' +
+            '</div>' +
           '</div>';
         }
-        sh += '</div>';
+        topMarketsHtml += '</div>';
       }
-      sh += '</div>';
-      el.innerHTML = sh;
-    });
-  })(cat);
+
+      // L3 items list (shown when expanded)
+      var l3Html = '';
+      if(l3Items.length > 0){
+        l3Html = '<div style="margin-top:12px"><div style="font-size:.75rem;color:#94a3b8;margin-bottom:6px">三级品类 ('+l3Count+'):</div>';
+        for(var li=0;li<l3Items.length;li++){
+          l3Html += '<div class="l3-item">'+l3Items[li]+'</div>';
+        }
+        l3Html += '</div>';
+      }
+
+      // Regional products/insights (shown when expanded)
+      var regionalDetailHtml = '';
+      var hasAnyRegionDetail = false;
+      for(var ri=0;ri<regions.length;ri++){
+        var reg = regions[ri];
+        var regData = rd[reg];
+        if(!regData || regData.demand_level === 'none') continue;
+        var prods = regData.products || [];
+        var insight = regData.insight || '';
+        if(prods.length === 0 && !insight) continue;
+        hasAnyRegionDetail = true;
+        var levelColor = {high:'#4ade80',medium:'#fbbf24',low:'#94a3b8'}[regData.demand_level] || '#94a3b8';
+        regionalDetailHtml += '<div style="margin-bottom:8px;padding:8px 10px;background:rgba(255,255,255,0.02);border-radius:6px;border-left:3px solid '+levelColor+'">' +
+          '<div style="font-size:.75rem;color:'+levelColor+';font-weight:600;margin-bottom:4px">'+reg+'</div>';
+        if(prods.length > 0){
+          regionalDetailHtml += '<div style="font-size:.75rem;color:#cbd5e1;margin-bottom:2px">'+prods.join(', ')+'</div>';
+        }
+        if(insight){
+          regionalDetailHtml += '<div style="font-size:.7rem;color:#64748b;font-style:italic">'+insight+'</div>';
+        }
+        regionalDetailHtml += '</div>';
+      }
+      if(hasAnyRegionDetail){
+        regionalDetailHtml = '<div style="margin-top:12px"><div style="font-size:.75rem;color:#94a3b8;margin-bottom:6px">区域产品与洞察:</div>' + regionalDetailHtml + '</div>';
+      }
+
+      // Build the card
+      cardsHtml += '<div class="l2-card" id="l2-card-'+i+'">' +
+        '<div class="l2-header" onclick="toggleL2Card('+i+')">' +
+          '<div style="flex:1">' +
+            '<div style="display:flex;align-items:center;gap:8px">' +
+              '<span style="font-weight:600;font-size:.9rem;color:#e2e8f0">'+l2.name_cn+'</span>' +
+              '<span style="font-size:.75rem;color:#64748b">'+l2.name_en+'</span>' +
+              '<span class="badge" style="background:rgba(96,165,250,.15);color:#60a5fa;font-size:.65rem">'+l3Count+' L3</span>' +
+            '</div>' +
+            '<div style="margin-top:4px;font-size:.7rem;color:#64748b">HS: '+hsCodes+'</div>' +
+          '</div>' +
+          '<span class="l2-toggle'+(isExpanded?' open':'')+'" id="l2-toggle-'+i+'">&#9654;</span>' +
+        '</div>' +
+        // Always-visible summary (region badges + demand intersection + export)
+        '<div style="padding:0 16px 12px">' +
+          '<div style="margin-bottom:6px">'+regionBadges+'</div>' +
+          (demandText ? '<div style="font-size:.75rem;color:#94a3b8;margin-bottom:4px;line-height:1.5">需求交集: '+demandText+'</div>' : '') +
+          exportHtml +
+        '</div>' +
+        // Expandable body
+        '<div class="l2-body'+(isExpanded?' expanded':'')+'" id="l2-body-'+i+'">' +
+          l3Html +
+          regionalDetailHtml +
+          topMarketsHtml +
+        '</div>' +
+      '</div>';
+    }
+
+    // ===== Summary Section =====
+    // Regional demand heatmap
+    var heatmapHtml = '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">';
+    for(var ri=0;ri<regions.length;ri++){
+      var reg = regions[ri];
+      var rc = regionDemandCount[reg] || {high:0,medium:0,low:0};
+      var total = rc.high + rc.medium + rc.low;
+      var heatLevel = 'none';
+      if(rc.high > l2Count * 0.5) heatLevel = 'high';
+      else if(rc.high > l2Count * 0.25 || rc.medium > l2Count * 0.4) heatLevel = 'medium';
+      else if(total > 0) heatLevel = 'low';
+      heatmapHtml += '<span class="region-badge region-'+heatLevel+'" style="font-size:.8rem;padding:5px 12px">'+reg+' <span style="opacity:.7;font-size:.7rem">('+rc.high+'H/'+rc.medium+'M/'+rc.low+'L)</span></span>';
+    }
+    heatmapHtml += '</div>';
+
+    // Keywords cloud (top 20)
+    var kwEntries = [];
+    for(var k in allKeywords){ kwEntries.push({kw:k, count:allKeywords[k]}); }
+    kwEntries.sort(function(a,b){ return b.count - a.count; });
+    var kwCloudHtml = '';
+    if(kwEntries.length > 0){
+      kwCloudHtml = '<div style="margin-top:8px">';
+      var kwSlice = kwEntries.slice(0, 20);
+      for(var ki=0;ki<kwSlice.length;ki++){
+        kwCloudHtml += '<span class="kw-tag">'+kwSlice[ki].kw+'</span>';
+      }
+      kwCloudHtml += '</div>';
+    }
+
+    var summaryHtml = '<div class="dm-summary-card">' +
+      '<div style="font-size:.85rem;font-weight:600;color:#a78bfa;margin-bottom:12px">品类总览</div>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:12px">' +
+        '<div style="font-size:.8rem"><span style="color:#64748b">二级品类: </span><span style="color:#e2e8f0;font-weight:600">'+l2Count+'</span></div>' +
+        '<div style="font-size:.8rem"><span style="color:#64748b">三级品类: </span><span style="color:#e2e8f0;font-weight:600">'+totalL3+'</span></div>' +
+      '</div>' +
+      '<div style="font-size:.8rem;color:#94a3b8;margin-bottom:4px">区域需求热力图:</div>' +
+      heatmapHtml +
+      (kwCloudHtml ? '<div style="font-size:.8rem;color:#94a3b8;margin-top:12px;margin-bottom:4px">关键词云:</div>' + kwCloudHtml : '') +
+    '</div>';
+
+    // ===== Render =====
+    resultEl.innerHTML =
+      '<div class="card p-5">' +
+        '<h3 style="font-size:1rem;font-weight:700;color:#e2e8f0;margin-bottom:4px">需求场景矩阵</h3>' +
+        '<p style="font-size:.8rem;color:#64748b;margin-bottom:16px">'+cat+(l1NameEn?' - '+l1NameEn:'')+' · '+l2Count+' 个二级品类</p>' +
+        cardsHtml +
+        summaryHtml +
+      '</div>';
+
+  }).catch(function(err){
+    console.error('runDemandAnalysis error:', err);
+    resultEl.innerHTML = '<div class="card p-5"><p class="text-red-400 text-sm">数据加载失败: '+err.message+'</p><p class="text-gray-500 text-xs mt-2">请确认 data/demand_matrix_v2.json 文件存在且格式正确</p></div>';
+  });
+}
+
+function toggleL2Card(idx) {
+  var body = document.getElementById('l2-body-' + idx);
+  var toggle = document.getElementById('l2-toggle-' + idx);
+  if(!body) return;
+  if(body.classList.contains('expanded')){
+    body.classList.remove('expanded');
+    if(toggle) toggle.classList.remove('open');
+  } else {
+    body.classList.add('expanded');
+    if(toggle) toggle.classList.add('open');
+  }
 }
 
 function renderThinkTab() {
@@ -8449,6 +8570,120 @@ async function loadCustoms2025() {
   } catch(e) { return null; }
 }
 
+// ====== Compass Keywords & Customs V2 Lazy Loaders ======
+var _compassKeywordsLoaded = false;
+var _compassKeywords = null;
+var _customsV2Loaded = false;
+var _customsV2 = null;
+
+async function loadCompassKeywords() {
+  if (_compassKeywordsLoaded) return _compassKeywords;
+  try {
+    var r = await fetch('data/compass_keywords.json?' + _dailyCacheKey());
+    if (!r.ok) return null;
+    _compassKeywords = await r.json();
+    _compassKeywordsLoaded = true;
+    return _compassKeywords;
+  } catch(e) { return null; }
+}
+
+async function loadCustomsExportV2() {
+  if (_customsV2Loaded) return _customsV2;
+  try {
+    var r = await fetch('data/customs_export_v2.json?' + _dailyCacheKey());
+    if (!r.ok) return null;
+    _customsV2 = await r.json();
+    _customsV2Loaded = true;
+    return _customsV2;
+  } catch(e) { return null; }
+}
+
+// ====== Fuzzy Search Suggestions ======
+var _searchDebounceTimer = null;
+
+function searchSuggestions(query) {
+  if (!query || query.length < 1) {
+    var el = document.getElementById('search-suggestions');
+    if (el) { el.classList.add('hidden'); el.innerHTML = ''; }
+    return;
+  }
+  loadCompassKeywords().then(function(kwData) {
+    if (!kwData || !kwData.keywords) return;
+    var kws = kwData.keywords;
+    var q = query.toLowerCase();
+    var exact = [], contains = [], prefix = [];
+    for (var i = 0; i < kws.length; i++) {
+      var kw = kws[i];
+      var text = kw.text.toLowerCase();
+      if (text === q) {
+        exact.push(kw);
+      } else if (text.indexOf(q) !== -1 || q.indexOf(text) !== -1) {
+        contains.push(kw);
+      } else if (text.indexOf(q) === 0) {
+        prefix.push(kw);
+      }
+    }
+    var matches = exact.concat(contains).concat(prefix).slice(0, 8);
+    if (matches.length === 0) {
+      var el = document.getElementById('search-suggestions');
+      if (el) { el.classList.add('hidden'); el.innerHTML = ''; }
+      return;
+    }
+    renderSuggestionChips(matches);
+  });
+}
+
+function renderSuggestionChips(matches, message) {
+  var el = document.getElementById('search-suggestions');
+  if (!el) return;
+  var html = '';
+  if (message) {
+    html += '<div class="suggest-msg">' + message + '</div>';
+  }
+  for (var i = 0; i < matches.length; i++) {
+    var m = matches[i];
+    var typeLabel = m.type === 'l1' ? 'L1' : m.type === 'l2' ? 'L2' : m.type || '';
+    html += '<span class="suggest-chip" onclick="pickSuggestion(\'' + m.match_key.replace(/'/g, "\\'") + '\')">' +
+      m.text + '<span class="chip-type">' + typeLabel + '</span></span>';
+  }
+  el.innerHTML = html;
+  el.classList.remove('hidden');
+}
+
+function pickSuggestion(matchKey) {
+  var input = document.getElementById('search-input');
+  if (input) input.value = matchKey;
+  var el = document.getElementById('search-suggestions');
+  if (el) { el.classList.add('hidden'); el.innerHTML = ''; }
+  runCompass();
+}
+
+// Debounced input listener for search suggestions
+(function() {
+  var input = document.getElementById('search-input');
+  if (!input) return;
+  input.addEventListener('input', function() {
+    if (_searchDebounceTimer) clearTimeout(_searchDebounceTimer);
+    var val = input.value.trim();
+    _searchDebounceTimer = setTimeout(function() {
+      searchSuggestions(val);
+    }, 300);
+  });
+})();
+
+// ====== Update hero text with V2 data counts ======
+(function() {
+  loadCustomsExportV2().then(function(v2) {
+    if (!v2) return;
+    var hsCount = v2.meta ? v2.meta.total_hs_codes : Object.keys(v2.hs_data || {}).length;
+    var l1Count = Object.keys(v2.l1_aggregated || {}).length;
+    var heroP = document.querySelector('#tab-compass .text-center.mb-10 p.text-gray-400');
+    if (heroP) {
+      heroP.textContent = '\u8986\u76d6 ' + hsCount + ' \u4e2a\u6d77\u5173\u54c1\u7c7b \u00b7 ' + l1Count + ' \u4e2a\u4e00\u7ea7\u5206\u7c7b \u00b7 15 \u56fd\u5b9e\u65f6\u8bc4\u5206 \u00b7 AI \u5408\u89c4\u5339\u914d';
+    }
+  });
+})();
+
 // Social media platform switcher
 var _currentSocialPlatform = 'google';
 var _currentCatSocialData = null;
@@ -8741,7 +8976,7 @@ async function loadEnrichedData() {
         if (!data) return;
         if (f.target === 'INDUSTRY_TRENDS' && typeof INDUSTRY_TRENDS === 'object') {
           Object.keys(data).forEach(function(k) {
-            if (!INDUSTRY_TRENDS[k]) INDUSTRY_TRENDS[k] = data[k];
+            INDUSTRY_TRENDS[k] = data[k];
           });
         } else if (f.target === 'DEMAND_MATRIX' && typeof DEMAND_MATRIX === 'object') {
           Object.keys(data).forEach(function(k) {
