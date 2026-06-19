@@ -31,13 +31,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          git add data/trending.json
-          git add data/update_state.json
-          git add data/_comtrade_cache.json
-          git add "data/categories/"
-          git add data/social_trends.json
-          git add data/policy_updates.json
-          git add data/customs_2025_l1.json
+                    git add -A data/
           if git diff --cached --quiet; then
             echo "No changes"
           else
