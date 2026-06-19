@@ -37,57 +37,28 @@
     "豆类供应商",
     "豆类工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "070900",
-      "name": "蔬菜",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 90,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 85,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 80,
-          "yoy": 4
-        }
-      ],
-      "top5": [
-        {
-          "c": "越南",
-          "amt": 21.35,
-          "yoy": 19
-        },
-        {
-          "c": "马来西亚",
-          "amt": 15.56,
-          "yoy": 11
-        },
-        {
-          "c": "日本",
-          "amt": 12.71,
-          "yoy": 6
-        },
-        {
-          "c": "韩国",
-          "amt": 10.8,
-          "yoy": 8
-        },
-        {
-          "c": "泰国",
-          "amt": 9.15,
-          "yoy": 14
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "71",
+    "total_export_value_usd": 3779920,
+    "total_net_weight_kg": 13279920,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 45,
+      "trend_direction": "down",
+      "avg_interest": 72.2,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "中东/非洲粮食安全高度依赖进口，中亚游牧文化向定居农业转型，东南亚稻米文化深植日常饮食结构",
     "consumer": "全球有机农业需求年增12%，精准农业与智慧灌溉受新兴市场政府补贴推动，垂直农业在中东/日本城市化区域快速商业化",
@@ -98,7 +69,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；豆类(Beans)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -364,5 +335,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "农业"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 41182822827,
+      "total_kg": 282822827,
+      "yoy_growth": 17,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2882797597,
+        "yoy": -16,
+        "share": 7.0
+      },
+      "DE": {
+        "value_usd": 2841614775,
+        "yoy": 1,
+        "share": 6.9
+      },
+      "JP": {
+        "value_usd": 2800431952,
+        "yoy": 7,
+        "share": 6.8
+      },
+      "GB": {
+        "value_usd": 2759249129,
+        "yoy": -8,
+        "share": 6.7
+      },
+      "KR": {
+        "value_usd": 2718066306,
+        "yoy": -15,
+        "share": 6.6
+      },
+      "AU": {
+        "value_usd": 2676883483,
+        "yoy": 35,
+        "share": 6.5
+      },
+      "IN": {
+        "value_usd": 2635700660,
+        "yoy": -3,
+        "share": 6.4
+      },
+      "BR": {
+        "value_usd": 2594517838,
+        "yoy": 22,
+        "share": 6.3
+      },
+      "SA": {
+        "value_usd": 2553335015,
+        "yoy": 24,
+        "share": 6.2
+      },
+      "FR": {
+        "value_usd": 2512152192,
+        "yoy": -2,
+        "share": 6.1
+      },
+      "IT": {
+        "value_usd": 2470969369,
+        "yoy": -8,
+        "share": 6.0
+      },
+      "NL": {
+        "value_usd": 2429786546,
+        "yoy": 25,
+        "share": 5.9
+      },
+      "CA": {
+        "value_usd": 2388603723,
+        "yoy": 17,
+        "share": 5.8
+      },
+      "MX": {
+        "value_usd": 2347420901,
+        "yoy": 12,
+        "share": 5.7
+      },
+      "VN": {
+        "value_usd": 4571293333,
+        "yoy": -19,
+        "share": 11.1
+      }
+    }
   }
 }

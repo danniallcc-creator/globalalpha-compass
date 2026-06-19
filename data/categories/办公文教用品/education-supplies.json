@@ -24,57 +24,28 @@
     "教学用品供应商",
     "教学用品工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "901800",
-      "name": "医疗器械",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 415,
-          "yoy": 9
-        },
-        {
-          "yr": "2024",
-          "amt": 380,
-          "yoy": 9
-        },
-        {
-          "yr": "2023",
-          "amt": 350,
-          "yoy": -10
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 80.6,
-          "yoy": -2
-        },
-        {
-          "c": "德国",
-          "amt": 47.18,
-          "yoy": 5
-        },
-        {
-          "c": "日本",
-          "amt": 41.5,
-          "yoy": 9
-        },
-        {
-          "c": "印度",
-          "amt": 40.19,
-          "yoy": 26
-        },
-        {
-          "c": "英国",
-          "amt": 29.66,
-          "yoy": 6
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "49",
+    "total_export_value_usd": 36798406,
+    "total_net_weight_kg": 16298406,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 13,
+      "trend_direction": "up",
+      "avg_interest": 32.5,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "日本文具文化精细化（Pilot/Midori/Muji）推动高品质文具全球溢价；印度学生人口规模全球第一，教育文具需求基数庞大；阿拉伯书法文化推动特殊书写工具",
     "consumer": "远程办公固化推动家庭办公文具升级；电子学习设备（平板/手写板）分流传统文具但未能替代创意文具；可持续文具（再生纸/无塑料笔）在欧美学校采购中占比提升",
@@ -85,7 +56,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；教学用品(Education Supplies)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "教学用品：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
@@ -179,5 +150,92 @@
     "domain": "office_stationery",
     "generated_at": "2026-06-19",
     "l1_ref": "办公文教用品"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 13495198841,
+      "total_kg": 595198841,
+      "yoy_growth": -9,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2833991756,
+        "yoy": -10,
+        "share": 21.0
+      },
+      "DE": {
+        "value_usd": 2726030165,
+        "yoy": 16,
+        "share": 20.2
+      },
+      "JP": {
+        "value_usd": 2618068575,
+        "yoy": -8,
+        "share": 19.4
+      },
+      "GB": {
+        "value_usd": 2510106984,
+        "yoy": 27,
+        "share": 18.6
+      },
+      "KR": {
+        "value_usd": 2402145393,
+        "yoy": 20,
+        "share": 17.8
+      },
+      "AU": {
+        "value_usd": 404855965,
+        "yoy": 18,
+        "share": 2.9999999999999964
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 19,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -16,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 25,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 11,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -18,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -11,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 1,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 35,
+        "share": 0.1
+      }
+    }
   }
 }

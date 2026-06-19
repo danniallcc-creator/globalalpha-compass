@@ -22,160 +22,26 @@
     "农用设备供应商",
     "农用设备工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "847100",
-      "name": "计算机",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 1535,
-          "yoy": 1
-        },
-        {
-          "yr": "2024",
-          "amt": 1520,
-          "yoy": 3
-        },
-        {
-          "yr": "2023",
-          "amt": 1475,
-          "yoy": -5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 345.38,
-          "yoy": -9
-        },
-        {
-          "c": "荷兰",
-          "amt": 218.43,
-          "yoy": 4
-        },
-        {
-          "c": "日本",
-          "amt": 146.43,
-          "yoy": 1
-        },
-        {
-          "c": "德国",
-          "amt": 116.34,
-          "yoy": -3
-        },
-        {
-          "c": "韩国",
-          "amt": 97.86,
-          "yoy": 3
-        }
-      ]
-    },
-    {
-      "hs_code": "848180",
-      "name": "阀门/水龙头(8481系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 115,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 108,
-          "yoy": 5
-        },
-        {
-          "yr": "2023",
-          "amt": 103,
-          "yoy": 3
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 23.96,
-          "yoy": -4
-        },
-        {
-          "c": "日本",
-          "amt": 12.78,
-          "yoy": 6
-        },
-        {
-          "c": "德国",
-          "amt": 10.22,
-          "yoy": 2
-        },
-        {
-          "c": "韩国",
-          "amt": 8.69,
-          "yoy": 9
-        },
-        {
-          "c": "英国",
-          "amt": 7.23,
-          "yoy": 3
-        },
-        {
-          "c": "法国",
-          "amt": 6.72,
-          "yoy": 4
-        },
-        {
-          "c": "印度",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "沙特阿拉伯",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 5.05,
-          "yoy": 10
-        },
-        {
-          "c": "加拿大",
-          "amt": 4.65,
-          "yoy": 1
-        },
-        {
-          "c": "阿联酋",
-          "amt": 5.39,
-          "yoy": 17
-        },
-        {
-          "c": "巴西",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "越南",
-          "amt": 4.39,
-          "yoy": 19
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 4.31,
-          "yoy": 17
-        },
-        {
-          "c": "墨西哥",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "新加坡",
-          "amt": 1.88,
-          "yoy": 12
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "87",
+    "total_export_value_usd": 41766688,
+    "total_net_weight_kg": 11266688,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 75,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "中东/非洲粮食安全高度依赖进口，中亚游牧文化向定居农业转型，东南亚稻米文化深植日常饮食结构",
     "consumer": "全球有机农业需求年增12%，精准农业与智慧灌溉受新兴市场政府补贴推动，垂直农业在中东/日本城市化区域快速商业化",
@@ -186,7 +52,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；农用设备(Agricultural Equipment)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -452,5 +318,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "农业"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 39932359866,
+      "total_kg": 1032359866,
+      "yoy_growth": 16,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 8385795571,
+        "yoy": 20,
+        "share": 21.0
+      },
+      "DE": {
+        "value_usd": 8066336692,
+        "yoy": -7,
+        "share": 20.2
+      },
+      "JP": {
+        "value_usd": 7746877814,
+        "yoy": 3,
+        "share": 19.4
+      },
+      "GB": {
+        "value_usd": 7427418935,
+        "yoy": 3,
+        "share": 18.6
+      },
+      "KR": {
+        "value_usd": 7107960056,
+        "yoy": -2,
+        "share": 17.8
+      },
+      "AU": {
+        "value_usd": 1197970795,
+        "yoy": 17,
+        "share": 2.9999999999999964
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 14,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 30,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 17,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -11,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -14,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -3,
+        "share": 0.1
+      }
+    }
   }
 }

@@ -25,208 +25,26 @@
     "动力工具供应商",
     "动力工具工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "841300",
-      "name": "机械",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 520,
-          "yoy": 8
-        },
-        {
-          "yr": "2024",
-          "amt": 480,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 453,
-          "yoy": 3
-        }
-      ],
-      "top5": [
-        {
-          "c": "越南",
-          "amt": 72,
-          "yoy": 18
-        },
-        {
-          "c": "印度",
-          "amt": 62,
-          "yoy": 22
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 48,
-          "yoy": 15
-        },
-        {
-          "c": "俄罗斯",
-          "amt": 45,
-          "yoy": 10
-        },
-        {
-          "c": "墨西哥",
-          "amt": 35,
-          "yoy": 12
-        }
-      ]
-    },
-    {
-      "hs_code": "847100",
-      "name": "计算机",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 1535,
-          "yoy": 1
-        },
-        {
-          "yr": "2024",
-          "amt": 1520,
-          "yoy": 3
-        },
-        {
-          "yr": "2023",
-          "amt": 1475,
-          "yoy": -5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 345.38,
-          "yoy": -9
-        },
-        {
-          "c": "荷兰",
-          "amt": 218.43,
-          "yoy": 4
-        },
-        {
-          "c": "日本",
-          "amt": 146.43,
-          "yoy": 1
-        },
-        {
-          "c": "德国",
-          "amt": 116.34,
-          "yoy": -3
-        },
-        {
-          "c": "韩国",
-          "amt": 97.86,
-          "yoy": 3
-        }
-      ]
-    },
-    {
-      "hs_code": "848180",
-      "name": "阀门/水龙头(8481系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 115,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 108,
-          "yoy": 5
-        },
-        {
-          "yr": "2023",
-          "amt": 103,
-          "yoy": 3
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 23.96,
-          "yoy": -4
-        },
-        {
-          "c": "日本",
-          "amt": 12.78,
-          "yoy": 6
-        },
-        {
-          "c": "德国",
-          "amt": 10.22,
-          "yoy": 2
-        },
-        {
-          "c": "韩国",
-          "amt": 8.69,
-          "yoy": 9
-        },
-        {
-          "c": "英国",
-          "amt": 7.23,
-          "yoy": 3
-        },
-        {
-          "c": "法国",
-          "amt": 6.72,
-          "yoy": 4
-        },
-        {
-          "c": "印度",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "沙特阿拉伯",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 5.05,
-          "yoy": 10
-        },
-        {
-          "c": "加拿大",
-          "amt": 4.65,
-          "yoy": 1
-        },
-        {
-          "c": "阿联酋",
-          "amt": 5.39,
-          "yoy": 17
-        },
-        {
-          "c": "巴西",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "越南",
-          "amt": 4.39,
-          "yoy": 19
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 4.31,
-          "yoy": 17
-        },
-        {
-          "c": "墨西哥",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "新加坡",
-          "amt": 1.88,
-          "yoy": 12
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "84",
+    "total_export_value_usd": 9636125,
+    "total_net_weight_kg": 9136125,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 81,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "欧美市场DIY文化浓厚，带动高品质手工具需求。专业技工重视工具耐用性和品牌信誉。不同地区对工具类型、尺寸规格和度量体系（公制与英制）存在偏好差异。",
     "consumer": "专业用户需要高品质、耐用且附带保修的工具。DIY爱好者追求多功能工具的性价比。专业领域品牌忠诚度较高。在线评价和YouTube演示视频对采购决策影响显著。",
@@ -237,7 +55,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -413,5 +231,407 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "五金工具"
+  },
+  "news_sentiment": {
+    "article_count": 5,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 20.0,
+      "negative_pct": 20.0,
+      "neutral_pct": 60.0,
+      "articles_analyzed": 5
+    },
+    "top_headlines": [
+      "Percussion Drills Market Forecast 2026-2035: Growth Driven by Infrastructure and Cordless Tech - New",
+      "EU's 20th Sanctions Package Forces Kyrgyzstan's Hand on Russia Trade - Crude Oil Prices Today | OilP",
+      "UK Industry Fast Facts - IBISWorld",
+      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala",
+      "Rechargeable Orbital Sander Market Forecast Points Higher Toward 2035, Driven by Cordless Ecosystem "
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYXQ5REE3Z096N1diTnhlT1NtZFY4bXZwZDVnNTNYR3lsTERITFI2WmxfUU1iQWNhVVNwTXZDQW5vYVlGODlNSjBpUjFNNm5fUkVfdWxvanZLazRud0hYUmF2ZnJQekNVLWl1REV2RVhBS2VoWTJXczRPbGtZcGV1WVZYRy1BUVoxVENyUkNoSU1YVWYzR3JUQ3hDeVVxc2Z3cmdLUVdyQnc2NlREaW1ValY3RV9jWmUzd0Q4MnN3d25PY0tWTlFDa1lfckk4T3RRVENRYTdSQTlwTnZKY0E4?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2JNRHlSR3A1cnJIUmhnSlBUZG9UMVhWNXhWbHBNSlllRjBsc1FrWEJXV29ESXllVHZTVzczM0RWVE05Y0wtYlBNdUgwSmthN09MaUV4MnpWUFBkaFFMZnV3bmRCRzUxRU5IZkJHYlVSbGNnV3ZkbzA3cG5hRmlWbmQ0V0RqVUlNX0E1VVlxNU1RM1dNZXRsb2l6NzZuRXdpeGwyNjd1SHhaODF1X1RyUVNqLWLSAboBQVVfeXFMT1FkRnRNdDdsNkVPZ042Uk5FNFVIbHNrVzE2b18xYVBYOVdvNGlKVU1rdW02ZmJ6S0kxSmVhLXhlRE5hcGFKeGFmYkJQUGE1WVZGY0VoNUhfM2p0YzNqRzlDRmNPU3B2c3RjdERYMHoyNUl3WTRIWldPdFB6UmZVazJSWGI1eG9idkd1Vkk3RzJhaExxZng1aHctQ1p3OWJVdnY2eFlQd2FPVkRTMkZNbUl6NS1TbUpQcFdB?oc=5",
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JX3QxTWJmQ3dURmk5eFktQTN5NHpMNjBmYWlTaC1wWHhJMHlRUmppVU5wdjhhMEYxNl91MmNTeXlqX0ZHeXEwUWJGZERWUE1OclNuRUxzNXkxNzlKaTBRR0M3NFg?oc=5"
+    ],
+    "fetched_at": "2026-06-19"
+  },
+  "social_media_trends": {
+    "google": [
+      {
+        "platform": "Google",
+        "trending_keywords": [
+          {
+            "keyword": "Power Tools",
+            "volume": "50K+",
+            "growth": 129
+          }
+        ],
+        "business_opportunity": "Google平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "youtube": [
+      {
+        "platform": "YouTube",
+        "trending_keywords": [
+          {
+            "keyword": "juneteenth celebrations near me",
+            "volume": "100+",
+            "growth": 45.7
+          },
+          {
+            "keyword": "matt dunlap",
+            "volume": "100+",
+            "growth": 45.2
+          },
+          {
+            "keyword": "norman reedus",
+            "volume": "200+",
+            "growth": 60.4
+          },
+          {
+            "keyword": "zohran mamdani democratic party critique",
+            "volume": "200+",
+            "growth": 57.2
+          },
+          {
+            "keyword": "darren raddysh",
+            "volume": "100+",
+            "growth": -20.0
+          },
+          {
+            "keyword": "maris nichols",
+            "volume": "100+",
+            "growth": 122.5
+          },
+          {
+            "keyword": "elisha cuthbert",
+            "volume": "100+",
+            "growth": 66.1
+          },
+          {
+            "keyword": "fox news",
+            "volume": "5000+",
+            "growth": 112.2
+          },
+          {
+            "keyword": "tartan army",
+            "volume": "200+",
+            "growth": 126.2
+          },
+          {
+            "keyword": "quarterback",
+            "volume": "200+",
+            "growth": 79.0
+          }
+        ],
+        "business_opportunity": "YouTube平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "x": [
+      {
+        "platform": "X",
+        "trending_keywords": [
+          {
+            "keyword": "#PowerTools",
+            "volume": "65K posts",
+            "growth": -15
+          },
+          {
+            "keyword": "#TrendingPowerTools",
+            "volume": "45K posts",
+            "growth": 85
+          }
+        ],
+        "business_opportunity": "X平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "instagram": [
+      {
+        "platform": "Instagram",
+        "trending_keywords": [
+          {
+            "keyword": "#powertools",
+            "volume": "200K+",
+            "growth": -19
+          },
+          {
+            "keyword": "#shop#powertools",
+            "volume": "10K+",
+            "growth": 90
+          }
+        ],
+        "business_opportunity": "Instagram平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "tiktok": [
+      {
+        "platform": "TikTok",
+        "trending_keywords": [
+          {
+            "keyword": "#ToolTok",
+            "volume": "36B views",
+            "growth": 84.7
+          },
+          {
+            "keyword": "#DIYProjects",
+            "volume": "10B views",
+            "growth": 103.9
+          },
+          {
+            "keyword": "#WorkshopSetup",
+            "volume": "58B views",
+            "growth": 78.1
+          }
+        ],
+        "business_opportunity": "TikTok平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ]
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "The New Carbon Order: China’s Response to Europe’s CBAM - CSIS | Center for Strategic and International Studies",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5\" target=\"_blank\">The New Carbon Order: China’s Response to Europe’s CB",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "positive",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5",
+        "published": "Mon, 15 Jun 2026",
+        "source": "CSIS | Center for Strategic and International Studies"
+      },
+      {
+        "title": "The art of the swarm: Systemic rivalry with China on European terms - European Council on Foreign Relations",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNN3JleDRUdXR3dmIxMHlDdlpUdGppUDhhWUMtQ3JwaERUNUdKY29yNjl1TXdReGJPSFBtdno4Qlc5RGlpT0ZQVGt3WDlKVk1EU3U3VVZWMmZwZTJVXzlYd2JzbjhYb1JpQ3JfRXoxY3NDblA2SUxHVm9FcjJ5T3REakpMUXBYVTYyZGNBVFFxTmtnN1U0ZnA0dU5VY9IBoAFBVV95cUxONEVKUzZrd2p5QjZrVm1QeXlzMX",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN3JleDRUdXR3dmIxMHlDdlpUdGppUDhhWUMtQ3JwaERUNUdKY29yNjl1TXdReGJPSFBtdno4Qlc5RGlpT0ZQVGt3WDlKVk1EU3U3VVZWMmZwZTJVXzlYd2JzbjhYb1JpQ3JfRXoxY3NDblA2SUxHVm9FcjJ5T3REakpMUXBYVTYyZGNBVFFxTmtnN1U0ZnA0dU5VY9IBoAFBVV95cUxONEVKUzZrd2p5QjZrVm1QeXlzMXZfZWNReG9nZFhIVVNWaF9Qa3o4UGxzVnUwRzkwRnhNX1ZoZU5GV0p4MjJlUlBmSGVjcVhvWGw2MGhYaEpicDZ3OFNtR1ExQ09OY0tfM191R0E5MkRadlZIQ19pbGVWRTJoTVlBTzEtV0ozTXN0SjM4S3Jac1otQnV5QkxFaHRsZnhXSmQ4?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "European Council on Foreign Relations"
+      },
+      {
+        "title": "Strengthening EU Trade Policy: Moving Towards a Trustworthy Partnership - aju press",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQdIBV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQQ?oc=5\" targe",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQdIBV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQQ?oc=5",
+        "published": "Sun, 14 Jun 2026",
+        "source": "aju press"
+      },
+      {
+        "title": "Daily: What tighter US frontier model rules could mean for the AI trade - UBS",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlpfcXRGUUJiUW82aGpkNzR3OWZwSkFCZ2ZOQVF6NWZ1dndlcUpMd2NlR0k2M3VmalBXWjhBaXd5b0ExY05OMlllUGd6UFFLLVhXVVVVV0duTGNVVko2Nk1HOTNCMzFZY0JtRTgxRG1SUE04dk1vVjRoWUVDclpOaWxuRjg3V2JfTFpXdUJVbVpwUWViOHgyN3Vpa2tqZDNzdU5xWHktNjdTTkxXX0ZoelMwRWdGaUdrOG",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlpfcXRGUUJiUW82aGpkNzR3OWZwSkFCZ2ZOQVF6NWZ1dndlcUpMd2NlR0k2M3VmalBXWjhBaXd5b0ExY05OMlllUGd6UFFLLVhXVVVVV0duTGNVVko2Nk1HOTNCMzFZY0JtRTgxRG1SUE04dk1vVjRoWUVDclpOaWxuRjg3V2JfTFpXdUJVbVpwUWViOHgyN3Vpa2tqZDNzdU5xWHktNjdTTkxXX0ZoelMwRWdGaUdrOGt6bmhOOA?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "UBS"
+      },
+      {
+        "title": "The flaws in the European Union’s proposed Industrial Accelerator Act and how to fix them - Bruegel",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPdEE3LU00T0lOWDN3YlRTX05XNHdyZjVNd3ZsRG9WV3g0RjJMc201LTBZZ1hTczVhQWtGTzZsNjNLeEd1UUI1anl1YmdmRmJ3bDAtelFCeEZCZmlBa1laanZ6eEVTaWE1cFo1aTdWd0lfeEpudzdvU1dpQzhDTzhlclBDQjN1Wlp6a25HVkFTMlctVUhUaUEybjBBV2xZYl9HOGl5bkZpblR5WHpxX3JHeg?oc=5\" targe",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdEE3LU00T0lOWDN3YlRTX05XNHdyZjVNd3ZsRG9WV3g0RjJMc201LTBZZ1hTczVhQWtGTzZsNjNLeEd1UUI1anl1YmdmRmJ3bDAtelFCeEZCZmlBa1laanZ6eEVTaWE1cFo1aTdWd0lfeEpudzdvU1dpQzhDTzhlclBDQjN1Wlp6a25HVkFTMlctVUhUaUEybjBBV2xZYl9HOGl5bkZpblR5WHpxX3JHeg?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "Bruegel"
+      },
+      {
+        "title": "Brady Stock And Two Quiet Winners From The AI Regulation Boom - simplywall.st",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQlNHWmNxdFY1QWY2WjdTS0hmMllycXJ4ckR1eWFKR2ZsSXVzY0pjYWVRRmRWaWhCRkpFWFZ4d0ZvTGRQQTdOeHFKUUU3aXVGLU5lalJHNkJlUkl4V2RCMU1WRkJKS1dlTnd5NlNZeHhoWDBrbFJSZTUwSHZGVWFnUmMxWk5Ialc0Um44SVhmRzNVaGUzVVo4ZjdNMUpWbWdqN1hjOG1WdGxmWmRmZ0g1UDZZRXJvXy1RWm",
+        "country": "GB",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQlNHWmNxdFY1QWY2WjdTS0hmMllycXJ4ckR1eWFKR2ZsSXVzY0pjYWVRRmRWaWhCRkpFWFZ4d0ZvTGRQQTdOeHFKUUU3aXVGLU5lalJHNkJlUkl4V2RCMU1WRkJKS1dlTnd5NlNZeHhoWDBrbFJSZTUwSHZGVWFnUmMxWk5Ialc0Um44SVhmRzNVaGUzVVo4ZjdNMUpWbWdqN1hjOG1WdGxmWmRmZ0g1UDZZRXJvXy1RWmx4aE1fbmRtNDNmVm1xQndvUjXSAdIBQVVfeXFMT0ZWODhCdHU5UFpMZDdwcXFESkhVS2hiX0VWMHdEVldtem1KclBKS2sxMHRRN0VZeWt6dWp1RkJhdW8yeENiclBiRkhDcTFIdk43NG9yNW1UemlrVEhMUzA5alJzVmR6bW9iQ2JGSmlicWRaYUt0RG53WjBjQUJYMVNtZjVFTkJLNUYtekpEcld2bkpNZjEzMlFNMVQyeldJa3ZIUUpUdGpUalE4WnBNakdYT0JHQW9nV2MzS0hnNGY1WjFYeVFuV1IyMXptZEp2TzlR?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "simplywall.st"
+      },
+      {
+        "title": "The real barriers to trade are no longer tariffs - The Hindu",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGhIOGhfUHpNMXhLTlhXbmIxWjQ1Z2R5dnd6ZG9CZGQ1UGpQSVN2aU9wSGsxOGd3cTJwbHZxV0dld2l6RTFGWm9pME5mdlUteF9RSDhtR2NDOVhqeWZFNjJmU0VqZ096TDBubjU0RXp4Z2FmTW5rQlM0TlhKcTJsVC1NRW5NYWxORjlXd3FkTDJxa2htLWN4SERkdk1UUXo2SEJKYmpRWllJZS1USDk0OHZ30gGyAUFVX3",
+        "country": "US",
+        "policy_type": "tariff",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGhIOGhfUHpNMXhLTlhXbmIxWjQ1Z2R5dnd6ZG9CZGQ1UGpQSVN2aU9wSGsxOGd3cTJwbHZxV0dld2l6RTFGWm9pME5mdlUteF9RSDhtR2NDOVhqeWZFNjJmU0VqZ096TDBubjU0RXp4Z2FmTW5rQlM0TlhKcTJsVC1NRW5NYWxORjlXd3FkTDJxa2htLWN4SERkdk1UUXo2SEJKYmpRWllJZS1USDk0OHZ30gGyAUFVX3lxTE90aEg4aF9Qek0xeEtOWFduYjFaNDVnZHl2d3pkb0JkZDVQalBJU3ZpT3BIazE4Z3dxMnBsdnFXR2V3aXpFMUZab2kwTmZ2VS14X1FIOG1HY0M5WGp5ZkU2MmZTRWpnT3pMMG5uNTRFenhnYWZNbmtCUzROWEpxMmxULU1Fbk1hbE5GOVd3cWRMMnFraG0tY3hIRGR2TVRRejZIQkpialFaWUllLVRIOTQ4dnc?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "The Hindu"
+      },
+      {
+        "title": "World Oxide-Impregnated Separator - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPT01VQU45cVhpV3JJUEFYaFJGeXNfZFBBTUxEa2F2Zjhmdm1oanBKRUVvUEJOQ3RQcUZmYnVuelJnN0trWVI1MmtyMkhnZGUzck9RWlBPUGdfd0ZiYWJXQmY4c0g2a05mNUlJMTBubWlnVzdoTWFuN2JCQjI5aHpadUk0S21TVnVYd2RGZnRYVTBoaER0cnlSNmV2WnN0ejNfdmtrZVIwZjBiZXZFZ191UUtkUXdCSDdjdk",
+        "country": "GB",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT01VQU45cVhpV3JJUEFYaFJGeXNfZFBBTUxEa2F2Zjhmdm1oanBKRUVvUEJOQ3RQcUZmYnVuelJnN0trWVI1MmtyMkhnZGUzck9RWlBPUGdfd0ZiYWJXQmY4c0g2a05mNUlJMTBubWlnVzdoTWFuN2JCQjI5aHpadUk0S21TVnVYd2RGZnRYVTBoaER0cnlSNmV2WnN0ejNfdmtrZVIwZjBiZXZFZ191UUtkUXdCSDdjdktmZ0lXSG9NTHF6VlE?oc=5",
+        "published": "Fri, 12 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "The Ultimate Guide to Understanding Carbon Credits - CarbonCredits.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5\" target=\"_blank\">The Ultimate Guide to Understanding Carbon Credit",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "CarbonCredits.com"
+      },
+      {
+        "title": "World Medical Power Supplies - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEdjMkY4OTBVNGxBVjR1bGpCMEpPS0RObldUOVRFeTJQblZNNUpGNndPV25CUU9Ccm5meF9DVEJCRFFqZmxJZ1JNYV9QYjhoWDd3Q29tNEpGNkMyNy1pRllXR0VrTl8tbmRaQ3AyeGtxS2JjcG9kbzl3Tm9uVU1OMjdnMWt6emRqYUtDaENhcjVvdm9keVZ6cDdBbVZQZURUNlhxRjY3QXNneHlMTUk5d09ybXpQVGt3MV",
+        "country": "GB",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEdjMkY4OTBVNGxBVjR1bGpCMEpPS0RObldUOVRFeTJQblZNNUpGNndPV25CUU9Ccm5meF9DVEJCRFFqZmxJZ1JNYV9QYjhoWDd3Q29tNEpGNkMyNy1pRllXR0VrTl8tbmRaQ3AyeGtxS2JjcG9kbzl3Tm9uVU1OMjdnMWt6emRqYUtDaENhcjVvdm9keVZ6cDdBbVZQZURUNlhxRjY3QXNneHlMTUk5d09ybXpQVGt3MVNFVWxkU1BDTWgyT25NRklTOGViYURrRWtBVnl2c3JaNnhRX21scllR?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "IndexBox"
+      }
+    ],
+    "country_summary": {
+      "EU": {
+        "trend": "opening",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "positive"
+      },
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance",
+          "tariff"
+        ],
+        "impact": "neutral"
+      },
+      "GB": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 28068442924,
+      "total_kg": 1168442924,
+      "yoy_growth": -6,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 8139848447,
+        "yoy": 4,
+        "share": 29.0
+      },
+      "DE": {
+        "value_usd": 7803027132,
+        "yoy": 20,
+        "share": 27.8
+      },
+      "JP": {
+        "value_usd": 7466205817,
+        "yoy": 20,
+        "share": 26.6
+      },
+      "GB": {
+        "value_usd": 4659361525,
+        "yoy": -9,
+        "share": 16.6
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 0,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 9,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 1,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      }
+    }
   }
 }

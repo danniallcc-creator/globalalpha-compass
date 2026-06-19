@@ -25,57 +25,28 @@
     "口腔护理供应商",
     "口腔护理工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "330490",
-      "name": "化妆品",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 62,
-          "yoy": 8
-        },
-        {
-          "yr": "2024",
-          "amt": 57,
-          "yoy": 10
-        },
-        {
-          "yr": "2023",
-          "amt": 52,
-          "yoy": 5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 12.4,
-          "yoy": 6
-        },
-        {
-          "c": "日本",
-          "amt": 8.7,
-          "yoy": 12
-        },
-        {
-          "c": "韩国",
-          "amt": 6.2,
-          "yoy": 15
-        },
-        {
-          "c": "英国",
-          "amt": 4.3,
-          "yoy": 9
-        },
-        {
-          "c": "德国",
-          "amt": 3.7,
-          "yoy": 7
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "33",
+    "total_export_value_usd": 43232517,
+    "total_net_weight_kg": 12732517,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 20,
+      "trend_direction": "down",
+      "avg_interest": 61.9,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "各地区美容标准和个人护理习惯差异较大。韩妆和日系护肤趋势对全球市场有显著影响。天然有机成分在全球范围内日益受到青睐。传统草本成分在亚洲市场重新获得关注。",
     "consumer": "消费升级趋势明显，消费者愿意为高品质产品支付溢价。经皮肤科医生测试的低敏产品需求旺盛。订阅模式在可补充类产品中逐步普及。多功能产品深受时间紧迫型消费者欢迎。",
@@ -86,7 +57,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "口腔护理：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」，出口 YoY +15%，主要流向 美国 / 日本 / 韩国。",
@@ -180,5 +151,208 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "个人护理及家庭清洁"
+  },
+  "news_sentiment": {
+    "article_count": 1,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 0.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 100.0,
+      "articles_analyzed": 1
+    },
+    "top_headlines": [
+      "A Look At Costco Wholesale (COST) Valuation As Shares Trade Near Recent Highs - Yahoo Finance"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU0xGWHVwSGF1cUNzaG1QQTF4bzBfR3piUzN1UjVQZ3E3ZXpwMHVQRWhXSmhPMm10T19jYWZnQThuUm5sVjc2VTFtRkNPb0lrWEJNWWwtdEIxVXRBcE1STzNpS0l0Z1YwMUluZFJPUHY5Sm1aV3NPR3J0NFFMTVFrRUpfQ2Vkb3NpSHNsdl9EbUUtT1AxcVljeklzcVlobWxuakdn?oc=5"
+    ],
+    "fetched_at": "2026-06-19"
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "World Beta-Lactam Oral Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVBQYjBBTExKSmhJWWw5ZHZBWnpqa1lWVDZxb1hFRGl5cG41djdleUktR2V4SF93LTlmNU1jUm5rMjB0TU5SVGZuUFZaS0RRRVlGT1hCUUxRR1NjLUNmaGk1M1ItR1gtakUxSWRZSzNPZ3FITXl3dVRLSmp5eTFTc3pkQ0hWTEJyRzVFU3Z0bFpyZDZfTUpqY3ZiNDhXa2hPRG8wcFBGVFVuTnRVay1V?oc=5\" target=",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVBQYjBBTExKSmhJWWw5ZHZBWnpqa1lWVDZxb1hFRGl5cG41djdleUktR2V4SF93LTlmNU1jUm5rMjB0TU5SVGZuUFZaS0RRRVlGT1hCUUxRR1NjLUNmaGk1M1ItR1gtakUxSWRZSzNPZ3FITXl3dVRLSmp5eTFTc3pkQ0hWTEJyRzVFU3Z0bFpyZDZfTUpqY3ZiNDhXa2hPRG8wcFBGVFVuTnRVay1V?oc=5",
+        "published": "Sun, 14 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Customized Titanium Abutments - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQakd4ano4R3M5d090QUhFaGZseE5QQnZCOVNZMllWd2tURDdWYVlWSllaczhqclhtS2NlT0hPWVlKdzdlX0l4aTNjMnR6akd3UVhLYTVOSkg1UU1qdHJ6eWU3dkFtWTRVQkRYQzYyWlltN2JuaVdCd3RDYWFFTFdnSF9EU0RyYmpBd1pYbDVWWDM4TExpMGo5MzVVcUNQWk84S2RZMWptZEljYjRNOE54UXowbDVKbUU?oc",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQakd4ano4R3M5d090QUhFaGZseE5QQnZCOVNZMllWd2tURDdWYVlWSllaczhqclhtS2NlT0hPWVlKdzdlX0l4aTNjMnR6akd3UVhLYTVOSkg1UU1qdHJ6eWU3dkFtWTRVQkRYQzYyWlltN2JuaVdCd3RDYWFFTFdnSF9EU0RyYmpBd1pYbDVWWDM4TExpMGo5MzVVcUNQWk84S2RZMWptZEljYjRNOE54UXowbDVKbUU?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Zinc Phosphate Dental Cements - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdUl1R04xdk1qelptam9aY3hYdjJMRUR3YW1Ubk80aVQwalZPQjhYSDBHZWZNVXBSUDNBcW1rQ0lTSFlmNC1Xbm95T1c0anlUQmZIeE9Qb2t1NGdtODlJd0czT3ZpSmcyN1VLd0Y3alNzM3Z2cE92ak4zd0h5Wnltb0ZSM1BtRm1ZSlhhWU42b21BYkNUQzdaeGFhbEsweHU3Zm5zVkZHUEhpT2J0ajQtanpzclpjRTJ2VF",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdUl1R04xdk1qelptam9aY3hYdjJMRUR3YW1Ubk80aVQwalZPQjhYSDBHZWZNVXBSUDNBcW1rQ0lTSFlmNC1Xbm95T1c0anlUQmZIeE9Qb2t1NGdtODlJd0czT3ZpSmcyN1VLd0Y3alNzM3Z2cE92ak4zd0h5Wnltb0ZSM1BtRm1ZSlhhWU42b21BYkNUQzdaeGFhbEsweHU3Zm5zVkZHUEhpT2J0ajQtanpzclpjRTJ2VFBGems3YjFqYy0ySVZCMktLWExBMUxrbjFDb3lLay1Rb1IxSEZ2YzBXdm1yMmdZanVJQ0VLY210QkZDT0E?oc=5",
+        "published": "Sun, 14 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Northern America Phosphoric Acid Etching Gels - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNWXZqM3hzWXF2QV8wVVdsTGtoWURIaUpfLWtxY2JrWXVpcGN0UTAxRlhQRWRUS0ZzTWZESVZkZjdYc1VydGpNOUNHcmktMXI4V0gwZXZwNFcyOWJHajliUjBGNERVT2FrVVR0UjZTem1oQUhaWjZXeEVoUVJnNFc5RElKS0ZLYU5VRTdKOFZnYnhTZC1waFk4ZGdSUFBPUkhhU2x3a1lmM1FMbXJYZWIzaU9hUjFXVm1MNk",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWXZqM3hzWXF2QV8wVVdsTGtoWURIaUpfLWtxY2JrWXVpcGN0UTAxRlhQRWRUS0ZzTWZESVZkZjdYc1VydGpNOUNHcmktMXI4V0gwZXZwNFcyOWJHajliUjBGNERVT2FrVVR0UjZTem1oQUhaWjZXeEVoUVJnNFc5RElKS0ZLYU5VRTdKOFZnYnhTZC1waFk4ZGdSUFBPUkhhU2x3a1lmM1FMbXJYZWIzaU9hUjFXVm1MNkl3U1JrdWU1YndS?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Northern America Moisture Barrier Polymer Films - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWY1aTRudDNxRm1yOUFoak4yUU12RnEtbmwtZ1hkLWZrclRVWHVvaF8tcXR3RjRWYTlkbTJxbGNrOVhaTnpic214TTFUcmdNcW1jdFpSLWI3czFydGtsRVk5aDI2Y2RFUXpQb2pGazAyakVVd3VmOUEwVGt2dVNXWXllbTJVM3diZ0pOWkItSVVKSHVQbmVBUTFjZ1lZakpIemp2X201Nm5fdjQxNTVRQkJJTXpOemtPaD",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWY1aTRudDNxRm1yOUFoak4yUU12RnEtbmwtZ1hkLWZrclRVWHVvaF8tcXR3RjRWYTlkbTJxbGNrOVhaTnpic214TTFUcmdNcW1jdFpSLWI3czFydGtsRVk5aDI2Y2RFUXpQb2pGazAyakVVd3VmOUEwVGt2dVNXWXllbTJVM3diZ0pOWkItSVVKSHVQbmVBUTFjZ1lZakpIemp2X201Nm5fdjQxNTVRQkJJTXpOemtPaDBnUVVpLWhGd3NPZ3pB?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "European Union Dental Operating Unit Consoles - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQV1RtaDloTnh2TkcwdmJDVW92cXZpa3h3MVJtYUk0bFA5VG9FLTU0SDZNb21PNnh5c1BKYWtHWjhWSGQ3Z2M2Y2tOek9PUi1VRENvckd4S1FtUzExOWRJVmhKeXN1THJHeTh3OVc3aHNMZ3FPQjNqSmQwVFRqUU83X2VSTUFPaEdYNmRraEJIZy1JbnBJbElwTHU3WEJueHFteHVxNnBlZzdHSHhuazBobTExeWJOcERYNz",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV1RtaDloTnh2TkcwdmJDVW92cXZpa3h3MVJtYUk0bFA5VG9FLTU0SDZNb21PNnh5c1BKYWtHWjhWSGQ3Z2M2Y2tOek9PUi1VRENvckd4S1FtUzExOWRJVmhKeXN1THJHeTh3OVc3aHNMZ3FPQjNqSmQwVFRqUU83X2VSTUFPaEdYNmRraEJIZy1JbnBJbElwTHU3WEJueHFteHVxNnBlZzdHSHhuazBobTExeWJOcERYNzRqME95aUVhZW1j?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      }
+    ],
+    "country_summary": {
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 5317833960,
+      "total_kg": 417833960,
+      "yoy_growth": -10,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 797675094,
+        "yoy": -4,
+        "share": 15.0
+      },
+      "DE": {
+        "value_usd": 771085924,
+        "yoy": 21,
+        "share": 14.5
+      },
+      "JP": {
+        "value_usd": 744496754,
+        "yoy": 12,
+        "share": 14.0
+      },
+      "GB": {
+        "value_usd": 717907584,
+        "yoy": 20,
+        "share": 13.5
+      },
+      "KR": {
+        "value_usd": 691318414,
+        "yoy": 19,
+        "share": 13.0
+      },
+      "AU": {
+        "value_usd": 664729245,
+        "yoy": -13,
+        "share": 12.5
+      },
+      "IN": {
+        "value_usd": 638140075,
+        "yoy": 14,
+        "share": 12.0
+      },
+      "BR": {
+        "value_usd": 292480867,
+        "yoy": 19,
+        "share": 5.5
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 24,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -18,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 36,
+        "share": 0.1
+      }
+    }
   }
 }

@@ -46,8 +46,26 @@
     "钻头供应商",
     "钻头工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "82",
+    "total_export_value_usd": 45266653,
+    "total_net_weight_kg": 14766653,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 79,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "欧美市场DIY文化浓厚，带动高品质手工具需求。专业技工重视工具耐用性和品牌信誉。不同地区对工具类型、尺寸规格和度量体系（公制与英制）存在偏好差异。",
     "consumer": "专业用户需要高品质、耐用且附带保修的工具。DIY爱好者追求多功能工具的性价比。专业领域品牌忠诚度较高。在线评价和YouTube演示视频对采购决策影响显著。",
@@ -58,7 +76,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -233,5 +251,136 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "五金工具"
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "World Drill Sleeve Guides - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalNmaXRfTUpBVnhQV3FHUmI3cS1EZ0d6ZTJ4ZDNvNGZMNFFhYnNWMlVmSld3eWtzQmh0a0NrTm9fOHZqSmtzR3Z0YTFVM3pGV29meHhvRU5jUXc0Z3liLVBKbDVlU2FiNk9PSEhZN2lTbW5MdnZ3NUJkNjRlRTBZS0laWGVva19JUk5KZkotbktKMDZhWXZ0VzM0b2NvUHk0S2VUWm14ODVSQQ?oc=5\" target=\"_blan",
+        "country": "GB",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalNmaXRfTUpBVnhQV3FHUmI3cS1EZ0d6ZTJ4ZDNvNGZMNFFhYnNWMlVmSld3eWtzQmh0a0NrTm9fOHZqSmtzR3Z0YTFVM3pGV29meHhvRU5jUXc0Z3liLVBKbDVlU2FiNk9PSEhZN2lTbW5MdnZ3NUJkNjRlRTBZS0laWGVva19JUk5KZkotbktKMDZhWXZ0VzM0b2NvUHk0S2VUWm14ODVSQQ?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Orthopedic Burr Bits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWURtcksyLXJ2bWE3SV9aS0wxa1RQdS05TndQNVpwaEI0RzJlb2NZaTdxQlNpdUoxYjFIZTYzNDZYeWV6b1dSaDFPN1lGbDV4b3pQdjVLOUJJNGU1V3NyQW41U1BoR2doZ1ROVkttMGFRQ3lKXzZKX3MwQzJZamYweVhzTnBaZGlrSGxjbUJaRk4tTXdNbUpoS2diNkR3QVkwNnZYdEctbkhuQlE?oc=5\" target=\"_bla",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWURtcksyLXJ2bWE3SV9aS0wxa1RQdS05TndQNVpwaEI0RzJlb2NZaTdxQlNpdUoxYjFIZTYzNDZYeWV6b1dSaDFPN1lGbDV4b3pQdjVLOUJJNGU1V3NyQW41U1BoR2doZ1ROVkttMGFRQ3lKXzZKX3MwQzJZamYweVhzTnBaZGlrSGxjbUJaRk4tTXdNbUpoS2diNkR3QVkwNnZYdEctbkhuQlE?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      }
+    ],
+    "country_summary": {
+      "GB": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 29998629734,
+      "total_kg": 1098629734,
+      "yoy_growth": 4,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 4199808162,
+        "yoy": 1,
+        "share": 14.0
+      },
+      "DE": {
+        "value_usd": 4049815014,
+        "yoy": 24,
+        "share": 13.5
+      },
+      "JP": {
+        "value_usd": 3929820495,
+        "yoy": 34,
+        "share": 13.1
+      },
+      "GB": {
+        "value_usd": 3779827346,
+        "yoy": 36,
+        "share": 12.6
+      },
+      "KR": {
+        "value_usd": 3659832827,
+        "yoy": 16,
+        "share": 12.2
+      },
+      "AU": {
+        "value_usd": 3539838308,
+        "yoy": 8,
+        "share": 11.8
+      },
+      "IN": {
+        "value_usd": 3389845159,
+        "yoy": -19,
+        "share": 11.3
+      },
+      "BR": {
+        "value_usd": 3239852011,
+        "yoy": 39,
+        "share": 10.8
+      },
+      "SA": {
+        "value_usd": 209990408,
+        "yoy": -3,
+        "share": 0.6999999999999922
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -9,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -14,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 3,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -12,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      }
+    }
   }
 }

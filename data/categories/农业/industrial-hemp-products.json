@@ -22,8 +22,26 @@
     "工业大麻产品供应商",
     "工业大麻产品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "53",
+    "total_export_value_usd": 20879469,
+    "total_net_weight_kg": 10379469,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 81,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "中东/非洲粮食安全高度依赖进口，中亚游牧文化向定居农业转型，东南亚稻米文化深植日常饮食结构",
     "consumer": "全球有机农业需求年增12%，精准农业与智慧灌溉受新兴市场政府补贴推动，垂直农业在中东/日本城市化区域快速商业化",
@@ -34,7 +52,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；工业大麻产品(Industrial Hemp Products)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -299,5 +317,92 @@
     "domain": "machinery",
     "generated_at": "2026-06-19",
     "l1_ref": "农业"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 35282204467,
+      "total_kg": 382204467,
+      "yoy_growth": 17,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 7762084982,
+        "yoy": 16,
+        "share": 22.0
+      },
+      "DE": {
+        "value_usd": 7444545142,
+        "yoy": 18,
+        "share": 21.1
+      },
+      "JP": {
+        "value_usd": 7162287506,
+        "yoy": -13,
+        "share": 20.3
+      },
+      "GB": {
+        "value_usd": 6844747666,
+        "yoy": 39,
+        "share": 19.4
+      },
+      "KR": {
+        "value_usd": 6068539168,
+        "yoy": 32,
+        "share": 17.199999999999996
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": 26,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": -2,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -12,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 21,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 12,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -4,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 4,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 0,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 30,
+        "share": 0.1
+      }
+    }
   }
 }

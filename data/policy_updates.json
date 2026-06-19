@@ -1,501 +1,530 @@
 {
-  "_comment": "Country-level policy/trend data used by renderCompass async enrichment (cc-policy-* tags on country cards). Coverage = all 33 ISO codes referenced in COUNTRIES.",
   "meta": {
-    "updated_at": "2026-06-19",
-    "source": "WTO/USTR/EU Commission/MOFCom/UN Comtrade aggregated"
+    "updated_at": "2026-06-19T11:00:49.625404Z",
+    "date": "2026-06-19"
   },
-  "country_summary": {
-    "US": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "301关税: 对华加征7.5%-100% (2025更新)",
-        "UFLPA: 新疆供应链审查持续加强",
-        "Section 232: 钢铝关税维持，汽车关税扩大",
-        "FDA UDI: 医疗器械唯一标识强制扩展"
-      ]
-    },
-    "EU": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "CBAM碳边境税: 2026年正式征收(钢铁/铝/水泥/化肥/电力/氢)",
-        "电池法案: 2027电池护照强制",
-        "MDR/IVDR: 医疗器械/体外诊断认证持续加严",
-        "数字产品护照(DPP): 纺织/电子优先推进"
-      ]
-    },
-    "DE": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "CBAM碳边境税: 2026起正式征收",
-        "EPR包装法: LUCID注册强制",
-        "REACH SVHC: 清单持续扩展至240+项",
-        "供应链法(LkSG): 1000人以上企业ESG尽调"
-      ]
-    },
-    "GB": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "UK EPR: 2025年包装生产者责任延伸",
-        "UK REACH: 独立注册体系运行中",
-        "UKCA标志: 部分品类CE仍可接受",
-        "UK CBAM: 2027年实施草案征询中"
-      ]
-    },
-    "FR": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "AGEC反浪费法: 包装/维修指数义务",
-        "EPR品类最多: 12大类强制回收",
-        "数字产品护照(DPP): 试点推进中",
-        "Triman回收标志: 全品类强制"
-      ]
-    },
-    "IT": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "CONAI包装环保贡献费: 持续上调",
-        "EPR电子电器: RAEE回收义务",
-        "IMQ认证: 电气安全强制",
-        "纺织品强制中文标签废止，意语标签保留"
-      ]
-    },
-    "ES": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "西班牙塑料包装税: 0.45欧元/kg(2023起)",
-        "RAEE电子废弃物: 生产者责任注册",
-        "Royal Decree 27/2021: 一次性塑料限制",
-        "AENOR认证: 玩具/电气安全强制"
-      ]
-    },
-    "NL": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "鹿特丹港枢纽: 转口贸易关税便利",
-        "EPR包装法: AfvalfondsVerpakkingen注册",
-        "增值税21%: 标准税率稳定",
-        "ESG披露: CSRD指令优先推进"
-      ]
-    },
-    "AU": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "中澳FTA: 零关税品类持续扩大(2026覆盖98%)",
-        "ACCC合规: 消费品安全检查常态化",
-        "生物安全法: 木制品熏蒸强制",
-        "RCS认证: 医疗器械TGA注册"
-      ]
-    },
-    "JP": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "PSE/PSC: 电气用品安全法严格",
-        "食品卫生法: 进口检测标准升级",
-        "JIS标准: 2025版更新中",
-        "PMDA医疗器械注册: 类别II以上需第三方认证"
-      ]
-    },
-    "KR": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "KC认证: 安全/EMC/能效三合一",
-        "化妆品法: 成分限制清单更新",
-        "K-REACH: 化学品注册义务扩大",
-        "MFDS医疗器械: GMP审核同步"
-      ]
-    },
-    "CA": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "CCPSA: 消费品安全法执行加强",
-        "WHMIS: 化学品标签GHS 2015对齐",
-        "法语标签: 魁北克省强制要求",
-        "Health Canada医疗器械: MDL许可分级"
-      ]
-    },
-    "BR": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "INMETRO认证: 品类扩展中",
-        "南共市FTA: 谈判推进",
-        "进口税: 跨境电商50美元免税额收紧",
-        "ANVISA医疗器械: 注册周期12-24月"
-      ]
-    },
-    "IN": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "BIS认证: 强制品类扩至370+项",
-        "QCO质量管制令: 覆盖钢铁/化工/电子",
-        "Make in India: 本地化生产补贴",
-        "CDSCO医疗器械: 全品类2024强制注册"
-      ]
-    },
-    "VN": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "EVFTA: 欧盟零关税品类扩大",
-        "CPTPP: 原产地规则灵活化",
-        "投资优惠: 电子/纺织制造税收减免",
-        "TCVN标准: 部分品类允许等同接受ISO"
-      ]
-    },
-    "ID": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "SNI认证: 强制品类持续扩大",
-        "SNI标志: 进口消费品必须持有",
-        "本地化要求: 电商数据本地存储",
-        "Permendag 31/2023: 跨境电商最低定价限制"
-      ]
-    },
-    "MX": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "USMCA: 原产地规则62.5%区域价值",
-        "NOM标准: 电子产品标签要求更新",
-        "近岸外包: 制造业投资优惠政策",
-        "COFEPRIS医疗器械: 注册等同FDA"
-      ]
-    },
-    "SA": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "Vision 2030: 非石油进口需求激增",
-        "SABER平台: 进口清关数字化",
-        "清真认证: 食品/化妆品强制要求",
-        "SFDA医疗器械: MDMA许可分级"
-      ]
-    },
-    "AE": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "自贸区: JAFZA/DAFZA零关税通道",
-        "ECAS认证: 消费品安全标准对齐",
-        "电子商务法: 跨境电商监管便利化",
-        "MoHAP医疗器械: GCC统一注册"
-      ]
-    },
-    "SG": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "中新FTA升级版: 服务贸易开放扩大",
-        "GST消费税: 9%(2024起)",
-        "HSA医疗器械: Class A豁免, B/C/D注册",
-        "Spring Singapore: 制造业本地化补贴"
-      ]
-    },
-    "RU": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "EAEU关税同盟: 平均税率约6.5%",
-        "GOST认证/EAC标志: 强制",
-        "Roszdravnadzor医疗器械: 注册周期9-18月",
-        "支付通道受限: 须人民币/卢布跨境结算"
-      ]
-    },
-    "TR": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "土耳其CE对齐: 大部分欧盟标准接受",
-        "TSE认证: 电气/玩具/儿童用品强制",
-        "进口税+特别消费税(ÖTV): 部分品类高",
-        "里拉贬值: 报价需对冲外汇风险"
-      ]
-    },
-    "QA": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "GCC统一关税: 一般5%",
-        "QS强制标志: 部分电气/玩具",
-        "清真认证: 食品/化妆品/药品",
-        "MoPH医疗器械: 注册流程对齐SFDA"
-      ]
-    },
-    "EG": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "GOEIC进口注册: 工厂白名单制",
-        "ACID提前装运清关系统: 强制",
-        "外汇管制: 美元结算受限",
-        "EDA医疗器械: 注册周期长"
-      ]
-    },
-    "NG": {
-      "trend": "tightening",
-      "impact": "negative",
-      "key_policies": [
-        "SONCAP: 强制装运前合格评定",
-        "NAFDAC: 食品/药品/化妆品/医疗器械注册",
-        "外汇管制: 奈拉支付通道受限",
-        "进口禁止清单: 部分消费品须本地生产"
-      ]
-    },
-    "ZA": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "SABS认证: 部分电气/玩具/食品强制",
-        "ICASA电信认证: 无线产品强制",
-        "B-BBEE: 本地采购优惠政策",
-        "SAHPRA医疗器械: 注册分四级"
-      ]
-    },
-    "KE": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "KEBS PVoC: 装运前合格评定",
-        "iCMS海关单一窗口: 申报数字化",
-        "PPB医疗器械: 注册要求趋严",
-        "AfCFTA非洲自贸区: 关税逐步削减"
-      ]
-    },
-    "MA": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "摩欧FTA: 工业品零关税通道",
-        "进口VOC合格证: 部分品类强制",
-        "Casablanca自贸区: 投资税收优惠",
-        "汽车产业链: 中资企业本地化布局"
-      ]
-    },
-    "KZ": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "EAEU关税同盟成员: 与RU/BY统一",
-        "EAC认证强制: 电气/玩具/纺织",
-        "中亚-欧洲铁路通道: 物流时效优势",
-        "投资优惠: 制造业税收减免"
-      ]
-    },
-    "UZ": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "GSP+待遇恢复: 欧盟优惠关税",
-        "进口关税2024下调: 平均降至8%",
-        "外资投资保护法: 简化注册",
-        "棉花产业链开放: 纺织品出口激励"
-      ]
-    },
-    "TJ": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "GOST/TJ标准: 部分电气/食品强制",
-        "海关申报数字化进行中",
-        "中塔FTA谈判推进",
-        "进口VAT 14%: 标准税率"
-      ]
-    },
-    "TM": {
-      "trend": "neutral",
-      "impact": "neutral",
-      "key_policies": [
-        "进口许可制: 大宗商品须配额",
-        "外汇管制严格: 美元支付受限",
-        "中土天然气合作: 能源/化工通道便利",
-        "海关清关周期较长"
-      ]
-    },
-    "KG": {
-      "trend": "opening",
-      "impact": "positive",
-      "key_policies": [
-        "EAEU关税同盟成员",
-        "中吉乌铁路2025启动: 中亚物流通道",
-        "进口VAT 12%",
-        "EAC认证强制: 同俄白哈"
-      ]
-    }
+  "by_country": {
+    "EU": [
+      {
+        "title": "EU Parliament approves EU-U.S. tariff deal by large majority with stronger safeguards - INSIGHT EU MONITORING",
+        "category": "手动工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOV85cU5wR0ZtaC15MUNZVzFwLXN4QzdvZEhfRUNQV0Nwc1BQd2lBS2tWYzVvWDVjd3c5YVQzZ00ycEszQ2p5RllLTVNuOTUtcW1EY3BBYU13d1NNMFA0Y0NJRHVpcEVXMlRpUDF6NFBwYXBBYkZ5a04yUE1fYzgydEFoRFFhNnZOTWJRb2lOc3RId195WEtYeDRoYjF1TTI5Vjl0aE0zZFBDVlkxOUoxWjN4TTdsb1lnR25kRU05LUVpT0FwdjVILUQxNlFHQWdMVENnSm0zT3RZMEFJVnJoMHBjVUItdw?oc=5"
+      },
+      {
+        "title": "The New Carbon Order: China’s Response to Europe’s CBAM - CSIS | Center for Strategic and International Studies",
+        "category": "动力工具",
+        "impact": "positive",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5"
+      },
+      {
+        "title": "The art of the swarm: Systemic rivalry with China on European terms - European Council on Foreign Relations",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN3JleDRUdXR3dmIxMHlDdlpUdGppUDhhWUMtQ3JwaERUNUdKY29yNjl1TXdReGJPSFBtdno4Qlc5RGlpT0ZQVGt3WDlKVk1EU3U3VVZWMmZwZTJVXzlYd2JzbjhYb1JpQ3JfRXoxY3NDblA2SUxHVm9FcjJ5T3REakpMUXBYVTYyZGNBVFFxTmtnN1U0ZnA0dU5VY9IBoAFBVV95cUxONEVKUzZrd2p5QjZrVm1QeXlzMXZfZWNReG9nZFhIVVNWaF9Qa3o4UGxzVnUwRzkwRnhNX1ZoZU5GV0p4MjJlUlBmSGVjcVhvWGw2MGhYaEpicDZ3OFNtR1ExQ09OY0tfM191R0E5MkRadlZIQ19pbGVWRTJoTVlBTzEtV0ozTXN0SjM4S3Jac1otQnV5QkxFaHRsZnhXSmQ4?oc=5"
+      },
+      {
+        "title": "Germany Says Trade Still Unharmed by Indonesia’s One-Gate Export - Jakarta Globe",
+        "category": "新鲜水果",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUZlUDBLc0dmSUJKeWNvWFREalplZmdxSUFZNE9pbjNqWkoxeU9qTldvWUhydGFacjZIbGU1ZU9aZkVub1lXaUJreXN2SGpZaFZwcVJIREtkcElyNGNaQzVaNEFrQUtJOTd5NDladl8wRTlWWS11OTFFREVFSGtrdHVtNGR3ZUF3S3ZKYTdpNVhmWk9ZUGVtWXRPOA?oc=5"
+      },
+      {
+        "title": "\"Supply chain under pressure from rising costs, international competition, and regulation\" - FreshPlaza",
+        "category": "新鲜蔬菜",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUmlsQjZfNnpISFBoaW53S0tlMUdyUUthN1F4TnRENm1IVkxX?oc=5"
+      },
+      {
+        "title": "World Flame Atomic Absorption Spectrophotometry - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVzBfUHhCOXN0NlIxOG9hLXpUNzVjZ215SEFNaVV5YUNFb3RyX1pWX05EY1N6cnZ5X1NIQnQzcFRsSXF1X0RPWGliRXRrQ1FCeG4xOElod1kxYmd4d01BdnNzUWVjaUtXbzVaMVBoZVg5SmpCLXgzUnlKcVNRNHY5VFQyR3R3OE90VWdPWHVnX3RwbkZCTE1paU5tQkZEUmtjeFFfbUl6SmV3QnM5bF9EcHRtMy1hcFBuYlNjaERiMTJIWkVNc3Q4ZXgxLUNYM1ZBVHlwLXI2NkNheE1jSmhQS3ctVDhiMDhwdXJ5WXdKMA?oc=5"
+      },
+      {
+        "title": "World Volatile Organic Compound Analyzers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPb052R0RNcW5kOHVtTy1EejhyZEVWc2psT21qSzBpSnNaWGExRFdFRWFtek9lQ3lsTWthZ1lBVkhJd1JncEVOcmpIS1FXbjJScGVxajFYOHdTazFlSXRRMW5Fa3dIWXo1dDVHdWtFeUNwWXl5RnlGeWFWcDFnd3p1VS1qbjN0ZkJHc2U3Wk5DLTFLdTA5VGxFTHRVR2h2SUdlTjNfZmZlbVBpRWlvM0JBQ1p4NlNNZ1VXdDhxNXgwSVZmTGJOWVdPX2pDWHZUQ2lJN3lGVHRMWTZZcFI2b19uWk9n?oc=5"
+      },
+      {
+        "title": "Vacuum Regulators Market Forecast Points Higher Toward 2035, Driven by Bioprocessing Expansion - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTG8ydWtqazdSQkpzNE1SS254VVBrV0NuWk5oTHZfNnpSSmJXSGd6cGwwVWI4eGJzSDBUT1RCaUdiQUZhMzZRS0RrVENxQ3VlODlYTEs4b2NmT0xWNk9xdFVOeURMVGRqZzcteHpnSjZfQ1FoenllSEpya1YxMjRFZjRiblQ0a2U5XzZTSzhGTnJNOHYwb3ItR0Y5aUxUTDBidWpGMjBUU25qUUNQdzF3VG50VkUxU0tXaWduQVpMV0c?oc=5"
+      },
+      {
+        "title": "World Beta-Lactam Oral Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "口腔护理",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVBQYjBBTExKSmhJWWw5ZHZBWnpqa1lWVDZxb1hFRGl5cG41djdleUktR2V4SF93LTlmNU1jUm5rMjB0TU5SVGZuUFZaS0RRRVlGT1hCUUxRR1NjLUNmaGk1M1ItR1gtakUxSWRZSzNPZ3FITXl3dVRLSmp5eTFTc3pkQ0hWTEJyRzVFU3Z0bFpyZDZfTUpqY3ZiNDhXa2hPRG8wcFBGVFVuTnRVay1V?oc=5"
+      },
+      {
+        "title": "European Union Dental Operating Unit Consoles - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "口腔护理",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV1RtaDloTnh2TkcwdmJDVW92cXZpa3h3MVJtYUk0bFA5VG9FLTU0SDZNb21PNnh5c1BKYWtHWjhWSGQ3Z2M2Y2tOek9PUi1VRENvckd4S1FtUzExOWRJVmhKeXN1THJHeTh3OVc3aHNMZ3FPQjNqSmQwVFRqUU83X2VSTUFPaEdYNmRraEJIZy1JbnBJbElwTHU3WEJueHFteHVxNnBlZzdHSHhuazBobTExeWJOcERYNzRqME95aUVhZW1j?oc=5"
+      }
+    ],
+    "US": [
+      {
+        "title": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say - Reuters",
+        "category": "手动工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeGNhcWY3emkzMTQ?oc=5"
+      },
+      {
+        "title": "Helping international firms ride Argentina's hydrocarbons, mining investment wave - BNamericas",
+        "category": "手动工具",
+        "impact": "positive",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3R0aA?oc=5"
+      },
+      {
+        "title": "World Marking Systems For Timber - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "手动工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd2tDc0VEWEZ1YlBXOWg5cGVZNEs5T3AtVExfN3hVRDgweUVlOUtBREp1Mlp4U19MaVVwU2x4SVhndVZBTGY1VWdHVDMwZms1TUlqVVRseFB4Y0lqZHdkR213eFVGS1ktbTM0NzNKWFNTcnNhTnU5bWxXS2gyMmVYc2pvcHZZMlBON0dmX2NUS3l3N19DaTRSWEtLQld6T1ZxR0lMZUI4OFl5bFkxMUlfaFFMNi1Nd1A3dzVzZWU4Yl9TTTluSzJXckkxQ1FLMVphaWZ5RkItcXNTbjJTTGdKZVhvYw?oc=5"
+      },
+      {
+        "title": "Strengthening EU Trade Policy: Moving Towards a Trustworthy Partnership - aju press",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQdIBV0FVX3lxTE9ldmk1aURUVV9KYk1BeGFKbVVEY20tWTRmWnZvMUJHRC0xYUlfZFgzTUQzNlU1QW5rcUFLaUZ6RXNJRTRVd1RaTnNFY0c0ZXJxSjkzTHVLQQ?oc=5"
+      },
+      {
+        "title": "Daily: What tighter US frontier model rules could mean for the AI trade - UBS",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlpfcXRGUUJiUW82aGpkNzR3OWZwSkFCZ2ZOQVF6NWZ1dndlcUpMd2NlR0k2M3VmalBXWjhBaXd5b0ExY05OMlllUGd6UFFLLVhXVVVVV0duTGNVVko2Nk1HOTNCMzFZY0JtRTgxRG1SUE04dk1vVjRoWUVDclpOaWxuRjg3V2JfTFpXdUJVbVpwUWViOHgyN3Vpa2tqZDNzdU5xWHktNjdTTkxXX0ZoelMwRWdGaUdrOGt6bmhOOA?oc=5"
+      },
+      {
+        "title": "The flaws in the European Union’s proposed Industrial Accelerator Act and how to fix them - Bruegel",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdEE3LU00T0lOWDN3YlRTX05XNHdyZjVNd3ZsRG9WV3g0RjJMc201LTBZZ1hTczVhQWtGTzZsNjNLeEd1UUI1anl1YmdmRmJ3bDAtelFCeEZCZmlBa1laanZ6eEVTaWE1cFo1aTdWd0lfeEpudzdvU1dpQzhDTzhlclBDQjN1Wlp6a25HVkFTMlctVUhUaUEybjBBV2xZYl9HOGl5bkZpblR5WHpxX3JHeg?oc=5"
+      },
+      {
+        "title": "The real barriers to trade are no longer tariffs - The Hindu",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdGhIOGhfUHpNMXhLTlhXbmIxWjQ1Z2R5dnd6ZG9CZGQ1UGpQSVN2aU9wSGsxOGd3cTJwbHZxV0dld2l6RTFGWm9pME5mdlUteF9RSDhtR2NDOVhqeWZFNjJmU0VqZ096TDBubjU0RXp4Z2FmTW5rQlM0TlhKcTJsVC1NRW5NYWxORjlXd3FkTDJxa2htLWN4SERkdk1UUXo2SEJKYmpRWllJZS1USDk0OHZ30gGyAUFVX3lxTE90aEg4aF9Qek0xeEtOWFduYjFaNDVnZHl2d3pkb0JkZDVQalBJU3ZpT3BIazE4Z3dxMnBsdnFXR2V3aXpFMUZab2kwTmZ2VS14X1FIOG1HY0M5WGp5ZkU2MmZTRWpnT3pMMG5uNTRFenhnYWZNbmtCUzROWEpxMmxULU1Fbk1hbE5GOVd3cWRMMnFraG0tY3hIRGR2TVRRejZIQkpialFaWUllLVRIOTQ4dnc?oc=5"
+      },
+      {
+        "title": "Loren Israelsen to Receive Honorary Doctorate for Role in Shaping US Supplement Regulation - Nutritional Outlook",
+        "category": "保健食品",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczNQTm1VWUlTRWo4bzdUOWlzMjVNbHROZE1iUlgxbi1ReXl0M3B2Zk8tWk16YTVJdm5mVUl5a2ZXczZzWFgxZ0ZkaWJCekpLdlM0ZkZ0ZVVEcENWTlJXZnRONWRMZ3ZGR3ZwaDJrOHFCR1F2ZE9JU3p2SkhQNlJ0M2ZaTVRleUFqY1JxbzU2VXFFRmgwaDJWalMxYUNiQ1RV?oc=5"
+      },
+      {
+        "title": "Ag Groups Ask for Fair and Balanced Trade - Citrus Industry Magazine",
+        "category": "新鲜水果",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRmFkRHZTSXd2d2RSTUhXN1FyNnM5OHBWVUNrWGZEcmNvVDJfRXRMQlppLThNQV9TRGZEaThZS3AwcWJKXzR0Tl9RWlV0TTN5R2YtVWFETFJhaVlNZmdORVhMdUlIWkZvc2M2STNjX2FXdkxuX3FHUm1ZNnc?oc=5"
+      },
+      {
+        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
+        "category": "新鲜水果",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWTBqcWpPcHRaUUpzam11cFlxOGNKbm1EdWhnRG5nVnh3eUlUTjA3aWNlckU1NHc?oc=5"
+      }
+    ],
+    "Unknown": [
+      {
+        "title": "𝐊𝐞𝐧𝐲𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐬 𝐚𝐧𝐭𝐢-𝐜𝐨𝐮𝐧𝐭𝐞𝐫𝐟𝐞𝐢𝐭 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐝𝐞𝐯𝐢𝐜𝐞 𝐫𝐞𝐠𝐢𝐦𝐞 𝐭𝐨 𝐩𝐫𝐨𝐭𝐞𝐜𝐭 𝐜𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 The Anti-Counterfeit Authority (ACA) has an",
+        "category": "手动工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMitAlBVV95cUxPd3p3VEtaOGVUV20zZFhrRXo0T0t0ZkxQRWFPWld3Y29BQzhBZTNVNXBnYTgyVzRNeEN1Y0U3Z283a2EtU1YwOXhSQXRZVGJuOWRJajh4LUJ4YVc4TWtPcU9odTVqWl9hSC1Obnl6NUVHSi1lUzE3Q1RETzVnVzBnNjBrVS1WUTltZ2xrdEFhQTVPYWkwV3g1VDVLbUxkdTVDNnVHTUdSMk12aG9teDZoRFVoMUhYa3dJWXFrdUVKLW8zLUU3S0JYbm1QTHNLQ2UtczBySHJPQ0MycTBqSVEzQWJfcUNqa0pjTkRZQWpRWURUeDRiQlIxMVF4Z1R1UVpTSzI4NjFfVm5OUGhqXzIyZnNoVDBzdi1RYVdDYnRhbVlMUTRjek5EcGo3Z0VEOFRfSlJucDZtSXBFWUZobUNfeVNiU0RkbHFQdXVvLVRMaEp1WnRBMmo0NkVTVGg5ak9iMGk2WmFTUE1iczZCTHlHZklFUVhMbzFldHJWamJVQThQa0lHYm9RR0lNZXJWcWxrQzlUU1VRREg2TzBhZnlXY2I0cGZBX21aMUhiUFlUQkFxa2w3WmJ4TEJMSnlaTldkeTBTZ2VqUWszLTU3dk5GaXhJMmF5aWw1V0hzSGdvc0ZST1BQREZUMWpZSmh2TGphRXpnSTQtQTM5cGZuY0dfdDQyRHo4Y2p1WlhlV0VGMXBoX0QybUJtV3ZuTXR6WW1wOGlrRERBbFYyM2ZxUHJTYUlvVGZjakJjZVJPSm04d0NTMXRLaS1KTjMzSVVRMjVBaGlsRkVFYXRYdi1XYmR5ZlRFR0Zuc0xCVTNteHg3dnBnTUVIS2xJNS1wd3NTeWJ5Yml3aUVsTWNmLUJVaWZvdlNOQVRDcHNPOHgxVUNPUFVycUpTTDg1bTg5VGFNb0R6dHYwU2dia1BQMDZhblc4V3JoU2FkM0N5b1hwUFNLWjN5cHRpMUNKS0g1RURJWFlQMzRxZncyN1B3RWpEOThZWXJaOXNpWUtxWkZ4M2ZncTVaT2V4SjViLWtXcGVsaDZ2OC1lVVVOZHM3blRucFZwMzRfb1BocHpOWkktZFo5eUxJVm1HeldzRjFSNW9BVGYtZ25SN2ZsMUdoLXBTYXRuSkp2Z0JDTFpkcFAxLU43UjZLOFZvNzhEai1IdVpZajlmSWFzV1NMaXBRcUdSalZ1SGFubHAtUFZvbXRJWmc3TGtudDE3WWVXR2NuVGJPcU9EX2xTb0tCN012WXFzX0QzY01yMG1mbW9tV3BROEZGeEhabXhpemVteTlTZk5LUDhvM0NZeTYzXzI0aEx5ZnNhTjFmRGhpUXlGWDd4Sll1OXg4M1BmTzVzalZ1LVZieWpXaFpNYk5yMFhPVVN3S1ZiRXh1blh6REVZcDc1eUVZSWdsYW1XWE5fMnR2SXc5OXBsYzdGR0tRZWJ1NU1PenF2SjVvSVlsc1R0UU5lM1RaY0ZTakZpVldES1R5Zl8tOFlCMG5IaEFwT3lyaWhFb01QM1FyeHlqU3E1VlM1T0puLTZsUWVpNloyenRTR0Z4R25uU3EyRFhzeHdRalZGT2NOdERfdjExTHNOODFpMkZQaERoTjJy?oc=5"
+      },
+      {
+        "title": "The Ultimate Guide to Understanding Carbon Credits - CarbonCredits.com",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5"
+      },
+      {
+        "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
+        "category": "新鲜水果",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUGVyTHdFQ1dweldYOGFhWjN5ODUtUGlEN0tyb0dGaWxBS0w2SmVaVDRaam1aT1Nvc0FtYVFGdFA2cUZCcDk3bTR0NUprVG43NU1hMFp0RkRidm9KaWhrTmFyYzhTbHQwQjlyaDBEdXFxb3dicWZuRmFtbjZXNFdOOHRxR05rbFJhbExhSkM2X25RU3JKelU4amRmZE9XS1p2c3U4REIzQVlXa3gyZGtRQlJjd0NhOHZ0S2Zoc3VQYjc?oc=5"
+      },
+      {
+        "title": "SPKS Worried about DSI Margin Burdening Farmers, Emphasizes the Importance of Transparency - VOI.id",
+        "category": "新鲜水果",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFB3eGFYWEtqYnVDNGlWX0JDZTB2YWg4QTVwSHpnVno2V0pMRjM5UjdncEZaZGFYdkV0VHl3eExFaGlpdw?oc=5"
+      },
+      {
+        "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
+        "category": "新鲜蔬菜",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUGVyTHdFQ1dweldYOGFhWjN5ODUtUGlEN0tyb0dGaWxBS0w2SmVaVDRaam1aT1Nvc0FtYVFGdFA2cUZCcDk3bTR0NUprVG43NU1hMFp0RkRidm9KaWhrTmFyYzhTbHQwQjlyaDBEdXFxb3dicWZuRmFtbjZXNFdOOHRxR05rbFJhbExhSkM2X25RU3JKelU4amRmZE9XS1p2c3U4REIzQVlXa3gyZGtRQlJjd0NhOHZ0S2Zoc3VQYjc?oc=5"
+      },
+      {
+        "title": "World Calibration Weights - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX1E4cFQ1QjRfbG9CQlhnY0o5aTJqV2dYODZZVW44ZGlxOHpDNnlJWGRkYTluNVVQNG5WZjRSYVZYbUp0d2VuaGwwYVhtdnZWdWVrdk5GbkxLVDZsMUhGUnhiOEdpam1JUTZRNlRlQnJtZ0F3ay1BaG9TSERlOEM0d3hpVlR2OHNpQUVoSEVLbThsQUItd0NUX3l0TjFWdE96S0Q4ckhpeTJoaE1BRVJzdElBUDdqemlMamphc3lSNTZMNEdVQ0FKVWdzWEc2OTR0bF9ITG9NdF8zeGVsalBVT1ltUTZFUkZCcXJMcTBn?oc=5"
+      },
+      {
+        "title": "Battery Module Vent Gas And Propagation Test Systems Market Growth Driven by Safety Compliance Through 2035 - News and S",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFVRSFNLVU5RMG9BYXBPUnQ0akVWVFBuTzVfbkV5OW1kTHhtaHFhcG8yZk05UWEzaURzZDNGZ2pSUGg0d1k3MWpiNEt1eHg2X00zNG1sVmp3MUU1SDVjWGNNNEhBRExmLWpiQjdYV1QzQ3g5cVdUWVRQc1Q4RmJuUVhKODRVeGtfTnc3S1p4NVl1Q29veWwzZXJvaWZWN0tZc1RfUFhSV05qcUpTdTN3OU1ZMmljN0x0MmRsOVpQcEotN1Q3MTJKRnRKUHV4NHNTMjdzaUxfY1BDaFU2cGUzRzBoM0tkYkU?oc=5"
+      },
+      {
+        "title": "Asia-Pacific Pressurized Liquid Extraction Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUZnVk9Pd1B0X0ZqOVRMQ2JZcDNiMi1SVzlnUXFmN0RyS3Z4OUFocWJWd1FCckpOR2FQU2dwNUVfRmpJOHRRQkVodEdmZHpETmk2RTZ1NXhkZnZGZ1FNQ05UcGVhX1E0cVJ4VVMxMUxlZG1RTWpzd3lZbXJybWxBbFBIVTFITTczRTZZRmVBM3VjRlRiOThOejVMSTRYVkFtb2owSHMzWVZoTTVBbHp0ZFE0V2tqN2kwLWhtQjd3RnVUdzczUVI3WFdhSQ?oc=5"
+      },
+      {
+        "title": "Middle East Catalase Test Reagent Strips - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdUNKSmNiNUpaUmN5VEVxc182Q19NM2ZJWnZvN19mSFJtSVFKdnJNanBWVUJFbWh0X0hPODRnSG5JcXRvT1MxLWZHbUZxWF95Y1otajhManZUdmE2YW5mc3NFX0JBSVl0dDdjYWRZWWtoZHZ3S21SQWNha3Rkdk56bjZ0ZGJqUGtKdkxsTER5VjVFVDBqeHJKLW1Kb2FZcUZMdEZxaDVRdzQwc3YtQjBfTWFhTGVZd2dMamp0bTln?oc=5"
+      },
+      {
+        "title": "Africa Rapid Chlamydia Test Cartridges - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "检测与分析仪器",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONTlwRVIyYXFRT3RhZmdHaDEzSElSc1lxV3VUMVBfUTBDMk5SMHUyanprcFR5U24zRk5laFhPa2Q0azFWU0F2VkZSQXQ4Y3A2UF9zTXpPZkNsdUxDY2FaQUZ4QlM0bE9mc0VLUWU2SnZlS245NUFDdlhHUXdLSUhEbFAySldKWjFGZWI0NjFzOEZmb1F1QTZpV1RraWduY0xWdGFVeVN6cTlXM1ZKVkcxazlMVUxFUWJlX2xn?oc=5"
+      }
+    ],
+    "GB": [
+      {
+        "title": "Brady Stock And Two Quiet Winners From The AI Regulation Boom - simplywall.st",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQlNHWmNxdFY1QWY2WjdTS0hmMllycXJ4ckR1eWFKR2ZsSXVzY0pjYWVRRmRWaWhCRkpFWFZ4d0ZvTGRQQTdOeHFKUUU3aXVGLU5lalJHNkJlUkl4V2RCMU1WRkJKS1dlTnd5NlNZeHhoWDBrbFJSZTUwSHZGVWFnUmMxWk5Ialc0Um44SVhmRzNVaGUzVVo4ZjdNMUpWbWdqN1hjOG1WdGxmWmRmZ0g1UDZZRXJvXy1RWmx4aE1fbmRtNDNmVm1xQndvUjXSAdIBQVVfeXFMT0ZWODhCdHU5UFpMZDdwcXFESkhVS2hiX0VWMHdEVldtem1KclBKS2sxMHRRN0VZeWt6dWp1RkJhdW8yeENiclBiRkhDcTFIdk43NG9yNW1UemlrVEhMUzA5alJzVmR6bW9iQ2JGSmlicWRaYUt0RG53WjBjQUJYMVNtZjVFTkJLNUYtekpEcld2bkpNZjEzMlFNMVQyeldJa3ZIUUpUdGpUalE4WnBNakdYT0JHQW9nV2MzS0hnNGY1WjFYeVFuV1IyMXptZEp2TzlR?oc=5"
+      },
+      {
+        "title": "World Oxide-Impregnated Separator - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT01VQU45cVhpV3JJUEFYaFJGeXNfZFBBTUxEa2F2Zjhmdm1oanBKRUVvUEJOQ3RQcUZmYnVuelJnN0trWVI1MmtyMkhnZGUzck9RWlBPUGdfd0ZiYWJXQmY4c0g2a05mNUlJMTBubWlnVzdoTWFuN2JCQjI5aHpadUk0S21TVnVYd2RGZnRYVTBoaER0cnlSNmV2WnN0ejNfdmtrZVIwZjBiZXZFZ191UUtkUXdCSDdjdktmZ0lXSG9NTHF6VlE?oc=5"
+      },
+      {
+        "title": "World Medical Power Supplies - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "动力工具",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSEdjMkY4OTBVNGxBVjR1bGpCMEpPS0RObldUOVRFeTJQblZNNUpGNndPV25CUU9Ccm5meF9DVEJCRFFqZmxJZ1JNYV9QYjhoWDd3Q29tNEpGNkMyNy1pRllXR0VrTl8tbmRaQ3AyeGtxS2JjcG9kbzl3Tm9uVU1OMjdnMWt6emRqYUtDaENhcjVvdm9keVZ6cDdBbVZQZURUNlhxRjY3QXNneHlMTUk5d09ybXpQVGt3MVNFVWxkU1BDTWgyT25NRklTOGViYURrRWtBVnl2c3JaNnhRX21scllR?oc=5"
+      },
+      {
+        "title": "World Drill Sleeve Guides - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "category": "钻头",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalNmaXRfTUpBVnhQV3FHUmI3cS1EZ0d6ZTJ4ZDNvNGZMNFFhYnNWMlVmSld3eWtzQmh0a0NrTm9fOHZqSmtzR3Z0YTFVM3pGV29meHhvRU5jUXc0Z3liLVBKbDVlU2FiNk9PSEhZN2lTbW5MdnZ3NUJkNjRlRTBZS0laWGVva19JUk5KZkotbktKMDZhWXZ0VzM0b2NvUHk0S2VUWm14ODVSQQ?oc=5"
+      }
+    ],
+    "CA": [
+      {
+        "title": "Bill C-35: Canada Moves to Strengthen its Forced Labour Import Regime - McMillan LLP",
+        "category": "身体护理",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjRfUjNIU3hXUHNxZkg5TDhzZ1plOTVsbkdBZ1doZ1hFRGNPLXpvdTlYQWNiN1BjcndfVkxGcGw4WEhSZVlMSmhodWRSenFTckN6WXhaMlZxaGJIcnpQbW1CNldITWowYTV3a0ZJcDdWUFdzZjk2UXk2TGlLeENvWlA1UlJyYWYtX3FmOHEtaXpNa043TDNid3AtM3RiZkM3MHZwaXZqOG1MSkR5QktwdQ?oc=5"
+      }
+    ],
+    "CN": [
+      {
+        "title": "Hainan Free Trade Port a global launchpad - chinadailyhk",
+        "category": "实验室用品",
+        "impact": "neutral",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UUFl4WkJLNkx6ZnUzNnhVVWd0STRpYzhZdDdwcUlpUldjWTY2X2tNLWY3YzlEVERjNUJhcEljMjBibTlXV2JrWVlpbWdlS0NCVGNEVndwdmVoQQ?oc=5"
+      }
+    ]
   },
-  "articles": [
-    {
-      "title": "美国301关税2025年更新: 电动车/锂电池/光伏加征至100%",
-      "country": "US",
-      "policy_type": "tariff",
-      "impact": "negative",
-      "impact_score": 0.95,
-      "url": "https://ustr.gov/issue-areas/enforcement/section-301-investigations",
-      "published": "2026-05-15",
-      "source": "USTR"
-    },
-    {
-      "title": "欧盟CBAM碳边境税2026年正式征收: 钢铁/铝/水泥/化肥/电力",
-      "country": "EU",
-      "policy_type": "regulation",
-      "impact": "negative",
-      "impact_score": 0.85,
-      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
-      "published": "2026-04-20",
-      "source": "EU Commission"
-    },
-    {
-      "title": "印度BIS认证强制品类扩至370项: 中国出口企业应对指南",
-      "country": "IN",
-      "policy_type": "certification",
-      "impact": "negative",
-      "impact_score": 0.75,
-      "url": "https://www.bis.gov.in/",
-      "published": "2026-03-10",
-      "source": "BIS"
-    },
-    {
-      "title": "越南EVFTA第三年: 欧盟零关税品类覆盖率提升至72%",
-      "country": "VN",
-      "policy_type": "FTA",
-      "impact": "positive",
-      "impact_score": 0.8,
-      "url": "https://policy.tradeportal.eu/vietnam",
-      "published": "2026-02-28",
-      "source": "EU-VN FTA"
-    },
-    {
-      "title": "沙特SABER平台升级: 进口商注册流程简化至3个工作日",
-      "country": "SA",
-      "policy_type": "trade_facilitation",
-      "impact": "positive",
-      "impact_score": 0.65,
-      "url": "https://saber.sa/",
-      "published": "2026-04-05",
-      "source": "SABER/SASO"
-    },
-    {
-      "title": "UFLPA执法升级: 2025年Q1扣押中国商品同比增长45%",
-      "country": "US",
-      "policy_type": "compliance",
-      "impact": "negative",
-      "impact_score": 0.9,
-      "url": "https://www.dhs.gov/uflpa",
-      "published": "2026-05-20",
-      "source": "DHS/CBP"
-    },
-    {
-      "title": "法国AGEC反浪费法全面执行: 电子产品维修指数强制标注",
-      "country": "FR",
-      "policy_type": "regulation",
-      "impact": "negative",
-      "impact_score": 0.7,
-      "url": "https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire",
-      "published": "2026-01-15",
-      "source": "ADEME"
-    },
-    {
-      "title": "中澳FTA第九轮降税: 零关税品类覆盖率达98%",
-      "country": "AU",
-      "policy_type": "FTA",
-      "impact": "positive",
-      "impact_score": 0.75,
-      "url": "https://fta.mofcom.gov.cn/article/ae/aezd/202301/20230103294210.shtml",
-      "published": "2026-03-25",
-      "source": "MOFCOM"
-    },
-    {
-      "title": "巴西跨境电商50美元免税额政策收紧: 2025年起全额征税",
-      "country": "BR",
-      "policy_type": "tariff",
-      "impact": "negative",
-      "impact_score": 0.8,
-      "url": "https://www.gov.br/receitafederal/pt-br",
-      "published": "2026-02-10",
-      "source": "Receita Federal"
-    },
-    {
-      "title": "欧盟电池法案: 2027年电池护照强制实施，中国企业应对策略",
-      "country": "EU",
-      "policy_type": "regulation",
-      "impact": "negative",
-      "impact_score": 0.85,
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1542",
-      "published": "2026-04-18",
-      "source": "EU Parliament"
-    },
-    {
-      "title": "印尼Permendag 31/2023更新: 跨境电商最低定价100美元",
-      "country": "ID",
-      "policy_type": "regulation",
-      "impact": "negative",
-      "impact_score": 0.7,
-      "url": "https://jdih.kemendag.go.id/",
-      "published": "2026-03-05",
-      "source": "Kementerian Perdagangan"
-    },
-    {
-      "title": "新加坡HSA医疗器械注册: Class A豁免范围扩大",
-      "country": "SG",
-      "policy_type": "certification",
-      "impact": "positive",
-      "impact_score": 0.55,
-      "url": "https://www.hsa.gov.sg/medical-devices",
-      "published": "2026-02-20",
-      "source": "HSA"
-    },
-    {
-      "title": "尼日利亚SONCAP装运前合规计划升级: 抽检比例提高至30%",
-      "country": "NG",
-      "policy_type": "compliance",
-      "impact": "negative",
-      "impact_score": 0.7,
-      "url": "https://son.gov.ng/soncap/",
-      "published": "2026-04-12",
-      "source": "SON"
-    },
-    {
-      "title": "土耳其CE对齐升级: 玩具/电气产品双标志接受范围扩大",
-      "country": "TR",
-      "policy_type": "certification",
-      "impact": "positive",
-      "impact_score": 0.6,
-      "url": "https://www.tse.org.tr/",
-      "published": "2026-01-28",
-      "source": "TSE"
-    },
-    {
-      "title": "中吉乌铁路2025启动: 中亚物流通道时效缩短15天",
-      "country": "KG",
-      "policy_type": "infrastructure",
-      "impact": "positive",
-      "impact_score": 0.75,
-      "url": "https://www.mofcom.gov.cn/",
-      "published": "2026-05-08",
-      "source": "MOFCOM"
-    },
-    {
-      "title": "摩洛哥汽车产业链: 中资企业本地化投资税收优惠延续至2030",
-      "country": "MA",
-      "policy_type": "investment",
-      "impact": "positive",
-      "impact_score": 0.65,
-      "url": "https://www.invest.gov.ma/",
-      "published": "2026-03-22",
-      "source": "AMDIE"
-    }
-  ]
+  "by_category": {
+    "手动工具": [
+      {
+        "title": "EU Parliament approves EU-U.S. tariff deal by large majority with stronger safeguards - INSIGHT EU MONITORING",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say - Reuters",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Helping international firms ride Argentina's hydrocarbons, mining investment wave - BNamericas",
+        "country": "US",
+        "impact": "positive"
+      },
+      {
+        "title": "World Marking Systems For Timber - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "𝐊𝐞𝐧𝐲𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐬 𝐚𝐧𝐭𝐢-𝐜𝐨𝐮𝐧𝐭𝐞𝐫𝐟𝐞𝐢𝐭 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐝𝐞𝐯𝐢𝐜𝐞 𝐫𝐞𝐠𝐢𝐦𝐞 𝐭𝐨 𝐩𝐫𝐨𝐭𝐞𝐜𝐭 𝐜𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 The Anti-Counterfeit Authority (ACA) has an",
+        "country": "Unknown",
+        "impact": "neutral"
+      }
+    ],
+    "动力工具": [
+      {
+        "title": "The New Carbon Order: China’s Response to Europe’s CBAM - CSIS | Center for Strategic and International Studies",
+        "country": "EU",
+        "impact": "positive"
+      },
+      {
+        "title": "The art of the swarm: Systemic rivalry with China on European terms - European Council on Foreign Relations",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "Strengthening EU Trade Policy: Moving Towards a Trustworthy Partnership - aju press",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Daily: What tighter US frontier model rules could mean for the AI trade - UBS",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "The flaws in the European Union’s proposed Industrial Accelerator Act and how to fix them - Bruegel",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ],
+    "保健食品": [
+      {
+        "title": "Loren Israelsen to Receive Honorary Doctorate for Role in Shaping US Supplement Regulation - Nutritional Outlook",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ],
+    "新鲜水果": [
+      {
+        "title": "Ag Groups Ask for Fair and Balanced Trade - Citrus Industry Magazine",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Germany Says Trade Still Unharmed by Indonesia’s One-Gate Export - Jakarta Globe",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
+        "country": "Unknown",
+        "impact": "neutral"
+      },
+      {
+        "title": "SPKS Worried about DSI Margin Burdening Farmers, Emphasizes the Importance of Transparency - VOI.id",
+        "country": "Unknown",
+        "impact": "neutral"
+      }
+    ],
+    "身体护理": [
+      {
+        "title": "EU Parliament votes through contentious Turnberry US trade deal - Confectionery Production",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "When trade regulation becomes industrial policy: Evidence from India’s automotive industry - Ideas for India",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Bill C-35: Canada Moves to Strengthen its Forced Labour Import Regime - McMillan LLP",
+        "country": "CA",
+        "impact": "neutral"
+      },
+      {
+        "title": "Africa Wearable on-Body Infusers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ],
+    "新鲜蔬菜": [
+      {
+        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Ag Groups Ask for Fair and Balanced Trade - Citrus Industry Magazine",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Produce Industry Coalition Forms to Defend USMCA Trade Benefits Produce Coalition for the USMCA Launches - AgNet West",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "\"Supply chain under pressure from rising costs, international competition, and regulation\" - FreshPlaza",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
+        "country": "Unknown",
+        "impact": "neutral"
+      }
+    ],
+    "检测与分析仪器": [
+      {
+        "title": "The flaws in the European Union’s proposed Industrial Accelerator Act and how to fix them - Bruegel",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Calibration Weights - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "Unknown",
+        "impact": "neutral"
+      },
+      {
+        "title": "Battery Module Vent Gas And Propagation Test Systems Market Growth Driven by Safety Compliance Through 2035 - News and S",
+        "country": "Unknown",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Flame Atomic Absorption Spectrophotometry - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Volatile Organic Compound Analyzers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      }
+    ],
+    "口腔护理": [
+      {
+        "title": "World Beta-Lactam Oral Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Customized Titanium Abutments - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Zinc Phosphate Dental Cements - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "Unknown",
+        "impact": "neutral"
+      },
+      {
+        "title": "Northern America Phosphoric Acid Etching Gels - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "Northern America Moisture Barrier Polymer Films - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ],
+    "紧固件": [
+      {
+        "title": "World Metal Strapping Fasteners - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "Middle East Non-Magnetic Austenitic Fasteners - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "European Union Titanium Alloy Bolts and Screws - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "European Union Wave Washers Stainless Steel - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      }
+    ],
+    "实验室用品": [
+      {
+        "title": "Trump is shaking up customs rules. What should shippers know? - Supply Chain Dive",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "EU vote on US trade deal is set to bring tariff peace, but for how long? - Reuters",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Biohazard Spill Kits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "\"Supply chain under pressure from rising costs, international competition, and regulation\" - FreshPlaza",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "The real barriers to trade are no longer tariffs - The Hindu",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ],
+    "打印机耗材": [
+      {
+        "title": "Brady Stock And Two Quiet Winners From The AI Regulation Boom - simplywall.st",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Fabric Printing Machines - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "Unknown",
+        "impact": "neutral"
+      },
+      {
+        "title": "Middle East Titanium Powder for 3D Printing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      }
+    ],
+    "钻头": [
+      {
+        "title": "World Drill Sleeve Guides - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "GB",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Orthopedic Burr Bits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "Unknown",
+        "impact": "neutral"
+      }
+    ],
+    "卫生用品": [
+      {
+        "title": "World CIP Detergent Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Photoionization Detectors - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "EU",
+        "impact": "neutral"
+      },
+      {
+        "title": "World Biohazard Spill Kits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "country": "US",
+        "impact": "neutral"
+      },
+      {
+        "title": "The Microeconomics of Brexit Reversion Why the Customs Union is a False Panacea - weddings.lavenderhotels.co.uk",
+        "country": "US",
+        "impact": "neutral"
+      }
+    ]
+  },
+  "global_policy_trend": "opening"
 }

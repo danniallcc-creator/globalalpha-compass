@@ -38,112 +38,26 @@
     "塑料包装供应商",
     "塑料包装工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "391722",
-      "name": "塑料管材/塑料建材(3917/3918/3925系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 70,
-          "yoy": -3
-        },
-        {
-          "yr": "2024",
-          "amt": 72,
-          "yoy": 10
-        },
-        {
-          "yr": "2023",
-          "amt": 65,
-          "yoy": 8
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 10.5,
-          "yoy": -12
-        },
-        {
-          "c": "沙特阿拉伯",
-          "amt": 10.06,
-          "yoy": 12
-        },
-        {
-          "c": "越南",
-          "amt": 8.71,
-          "yoy": 9
-        },
-        {
-          "c": "印度",
-          "amt": 7.83,
-          "yoy": 12
-        },
-        {
-          "c": "阿联酋",
-          "amt": 5.35,
-          "yoy": 7
-        },
-        {
-          "c": "日本",
-          "amt": 4.6,
-          "yoy": -3
-        },
-        {
-          "c": "德国",
-          "amt": 3.92,
-          "yoy": -7
-        },
-        {
-          "c": "英国",
-          "amt": 3.47,
-          "yoy": -6
-        },
-        {
-          "c": "法国",
-          "amt": 3.51,
-          "yoy": -5
-        },
-        {
-          "c": "韩国",
-          "amt": 3.12,
-          "yoy": -1
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 2.63,
-          "yoy": 0
-        },
-        {
-          "c": "加拿大",
-          "amt": 2.43,
-          "yoy": -8
-        },
-        {
-          "c": "巴西",
-          "amt": 2.14,
-          "yoy": 2
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 2.25,
-          "yoy": 7
-        },
-        {
-          "c": "墨西哥",
-          "amt": 2.14,
-          "yoy": 2
-        },
-        {
-          "c": "新加坡",
-          "amt": 0.9,
-          "yoy": 2
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "39",
+    "total_export_value_usd": 29867616,
+    "total_net_weight_kg": 19367616,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 61,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "日本过度包装文化（三层包装）与欧洲减包装立法形成两极；中东礼品包装高端化需求（烫金/特种纸）；东南亚电商爆发推动纸箱/气泡袋需求激增",
     "consumer": "可持续包装（生物可降解/可堆肥/再生材料）年增18%，品牌商ESG压力传导至包装采购；个性化小批量包装（数字印刷按需生产）成品牌营销工具；活性/智能包装（抗氧化/防伪NFC）渗透高端食品",
@@ -154,7 +68,7 @@
     "opportunity": "东南亚电商配套瓦楞纸箱及填充物；中东高端礼品包装（特种纸/烫金印刷）；欧洲可堆肥食品包装（PLA/纸基覆膜）；非洲电商包装基础设施建设机遇；塑料包装(Plastic Packaging)细分领域机会值得关注"
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "塑料包装：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」，出口 YoY +12%，主要流向 美国 / 沙特阿拉伯 / 越南。",
@@ -248,5 +162,67 @@
     "domain": "packaging_printing",
     "generated_at": "2026-06-19",
     "l1_ref": "包装印刷"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 202988133154,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 28837537238,
+        "yoy": -20.8,
+        "share": 16.2
+      },
+      "DE": {
+        "value_usd": 43962513909.79903,
+        "yoy": 105.9,
+        "share": 24.7
+      },
+      "JP": {
+        "value_usd": 14833867635.568,
+        "yoy": 4.7,
+        "share": 8.3
+      },
+      "GB": {
+        "value_usd": 27048956256.170986,
+        "yoy": 3.7,
+        "share": 15.2
+      },
+      "KR": {
+        "value_usd": 13999106147,
+        "yoy": null,
+        "share": 7.9
+      },
+      "AU": {
+        "value_usd": 6388454836.046999,
+        "yoy": 0.6,
+        "share": 3.6
+      },
+      "BR": {
+        "value_usd": 5389287666,
+        "yoy": -1.4,
+        "share": 3.0
+      },
+      "NL": {
+        "value_usd": 2408710358.766,
+        "yoy": 5.0,
+        "share": 1.4
+      },
+      "CA": {
+        "value_usd": 26017999001.96608,
+        "yoy": 12.4,
+        "share": 14.6
+      },
+      "MX": {
+        "value_usd": 9015535530,
+        "yoy": 4.0,
+        "share": 5.1
+      }
+    }
   }
 }

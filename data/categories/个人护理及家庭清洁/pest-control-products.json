@@ -22,8 +22,26 @@
     "防蚊、防蛀、灭鼠杀虫用品供应商",
     "防蚊、防蛀、灭鼠杀虫用品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "38",
+    "total_export_value_usd": 44593797,
+    "total_net_weight_kg": 14093797,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 92,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "各地区美容标准和个人护理习惯差异较大。韩妆和日系护肤趋势对全球市场有显著影响。天然有机成分在全球范围内日益受到青睐。传统草本成分在亚洲市场重新获得关注。",
     "consumer": "消费升级趋势明显，消费者愿意为高品质产品支付溢价。经皮肤科医生测试的低敏产品需求旺盛。订阅模式在可补充类产品中逐步普及。多功能产品深受时间紧迫型消费者欢迎。",
@@ -34,7 +52,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "防蚊、防蛀、灭鼠杀虫用品：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」。",
@@ -127,5 +145,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "个人护理及家庭清洁"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 22332193821,
+      "total_kg": 1432193821,
+      "yoy_growth": 11,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 5806370393,
+        "yoy": 10,
+        "share": 26.0
+      },
+      "DE": {
+        "value_usd": 5560716261,
+        "yoy": -18,
+        "share": 24.9
+      },
+      "JP": {
+        "value_usd": 5337394323,
+        "yoy": 4,
+        "share": 23.9
+      },
+      "GB": {
+        "value_usd": 5091740191,
+        "yoy": 25,
+        "share": 22.8
+      },
+      "KR": {
+        "value_usd": 535972651,
+        "yoy": -15,
+        "share": 2.400000000000002
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -20,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 37,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -9,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 24,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -9,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 16,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -18,
+        "share": 0.1
+      }
+    }
   }
 }

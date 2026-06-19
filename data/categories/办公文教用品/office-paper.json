@@ -28,8 +28,28 @@
     "办公用纸供应商",
     "办公用纸工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "48",
+    "total_export_value_usd": 48140144,
+    "total_net_weight_kg": 17640144,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 16,
+      "trend_direction": "down",
+      "avg_interest": 64.3,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "日本文具文化精细化（Pilot/Midori/Muji）推动高品质文具全球溢价；印度学生人口规模全球第一，教育文具需求基数庞大；阿拉伯书法文化推动特殊书写工具",
     "consumer": "远程办公固化推动家庭办公文具升级；电子学习设备（平板/手写板）分流传统文具但未能替代创意文具；可持续文具（再生纸/无塑料笔）在欧美学校采购中占比提升",
@@ -40,7 +60,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；办公用纸(Office Paper)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "办公用纸：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
@@ -133,5 +153,25 @@
     "domain": "office_stationery",
     "generated_at": "2026-06-19",
     "l1_ref": "办公文教用品"
+  },
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2625942598,
+        "yoy": -37.5,
+        "share": 25.0
+      },
+      "DE": {
+        "value_usd": 5979681644.225004,
+        "yoy": 98.5,
+        "share": 56.9
+      },
+      "JP": {
+        "value_usd": 1904358895.6330001,
+        "yoy": null,
+        "share": 18.1
+      }
+    }
   }
 }

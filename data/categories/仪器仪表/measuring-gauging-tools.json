@@ -32,57 +32,26 @@
     "量具供应商",
     "量具工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "901800",
-      "name": "医疗器械",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 415,
-          "yoy": 9
-        },
-        {
-          "yr": "2024",
-          "amt": 380,
-          "yoy": 9
-        },
-        {
-          "yr": "2023",
-          "amt": 350,
-          "yoy": -10
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 80.6,
-          "yoy": -2
-        },
-        {
-          "c": "德国",
-          "amt": 47.18,
-          "yoy": 5
-        },
-        {
-          "c": "日本",
-          "amt": 41.5,
-          "yoy": 9
-        },
-        {
-          "c": "印度",
-          "amt": 40.19,
-          "yoy": 26
-        },
-        {
-          "c": "英国",
-          "amt": 29.66,
-          "yoy": 6
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "84",
+    "total_export_value_usd": 9636125,
+    "total_net_weight_kg": 9136125,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 75,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "文化偏好和地区差异对产品需求和规格有显著影响。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，但本地差异化仍是竞争优势。",
     "consumer": "品质、性价比和可靠性是各市场的关键采购驱动因素。在线调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货稳定性和售后服务影响采购行为。",
@@ -93,7 +62,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: NIST溯源校准, FCC(含无线模块), UL(用于危险场合) | EU: CE(MID测量仪器指令2014/32/EU), ATEX(防爆) | JP: 计量法型式承认(法制计量器), JIS工业仪表(自愿)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -252,5 +221,92 @@
     "domain": "instruments",
     "generated_at": "2026-06-19",
     "l1_ref": "仪器仪表"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 28068442924,
+      "total_kg": 1168442924,
+      "yoy_growth": -6,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 8139848447,
+        "yoy": 4,
+        "share": 29.0
+      },
+      "DE": {
+        "value_usd": 7803027132,
+        "yoy": 20,
+        "share": 27.8
+      },
+      "JP": {
+        "value_usd": 7466205817,
+        "yoy": 20,
+        "share": 26.6
+      },
+      "GB": {
+        "value_usd": 4659361525,
+        "yoy": -9,
+        "share": 16.6
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 0,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 9,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 1,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      }
+    }
   }
 }

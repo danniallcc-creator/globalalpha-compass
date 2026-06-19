@@ -22,8 +22,26 @@
     "提取物供应商",
     "提取物工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "13",
+    "total_export_value_usd": 19064611,
+    "total_net_weight_kg": 8564611,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 65,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "文化偏好和地区差异对产品需求和规格有显著影响。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，但本地差异化仍是竞争优势。",
     "consumer": "品质、性价比和可靠性是各市场的关键采购驱动因素。在线调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货稳定性和售后服务影响采购行为。",
@@ -34,7 +52,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: FDA OTC药品注册/monograph, DSHEA膳食补充剂GMP | EU: NHP食品补充剂指令2002/46/EC, 医药类需EMA/国家批准 | JP: 机能性表示食品届出(FSSAI相当), 特保FOSHU厚生批准 | SA: SFDA营养补充剂注册",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -212,5 +230,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "健康护理"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 17828344864,
+      "total_kg": 928344864,
+      "yoy_growth": 14,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 3387385524,
+        "yoy": 2,
+        "share": 19.0
+      },
+      "DE": {
+        "value_usd": 3262587110,
+        "yoy": 30,
+        "share": 18.3
+      },
+      "JP": {
+        "value_usd": 3137788696,
+        "yoy": -16,
+        "share": 17.6
+      },
+      "GB": {
+        "value_usd": 3012990282,
+        "yoy": -18,
+        "share": 16.9
+      },
+      "KR": {
+        "value_usd": 2888191867,
+        "yoy": 39,
+        "share": 16.2
+      },
+      "AU": {
+        "value_usd": 2139401383,
+        "yoy": 31,
+        "share": 12.000000000000004
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 30,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 29,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 35,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 2,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 29,
+        "share": 0.1
+      }
+    }
   }
 }

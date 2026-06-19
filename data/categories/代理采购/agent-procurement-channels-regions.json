@@ -72,7 +72,15 @@
       ]
     }
   ],
-  "global_trends": null,
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 89,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "文化偏好和地区差异对产品需求和规格有显著影响。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，但本地差异化仍是竞争优势。",
     "consumer": "品质、性价比和可靠性是各市场的关键采购驱动因素。在线调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货稳定性和售后服务影响采购行为。",
@@ -83,7 +91,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "代理采购渠道&区域：海外社媒「procurement b2b export」增速 254%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Sourcing Agency market poised for...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",

@@ -30,215 +30,26 @@
     "金属包装供应商",
     "金属包装工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "730840",
-      "name": "钢结构(7308/7301系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 78,
-          "yoy": 15
-        },
-        {
-          "yr": "2024",
-          "amt": 68,
-          "yoy": 8
-        },
-        {
-          "yr": "2023",
-          "amt": 63,
-          "yoy": 5
-        }
-      ],
-      "top5": [
-        {
-          "c": "沙特阿拉伯",
-          "amt": 15.83,
-          "yoy": 32
-        },
-        {
-          "c": "阿联酋",
-          "amt": 11.36,
-          "yoy": 26
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 10.09,
-          "yoy": 26
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 8.27,
-          "yoy": 18
-        },
-        {
-          "c": "韩国",
-          "amt": 7.02,
-          "yoy": 17
-        },
-        {
-          "c": "美国",
-          "amt": 4.88,
-          "yoy": 3
-        },
-        {
-          "c": "日本",
-          "amt": 4.07,
-          "yoy": 15
-        },
-        {
-          "c": "德国",
-          "amt": 3.47,
-          "yoy": 10
-        },
-        {
-          "c": "英国",
-          "amt": 3.07,
-          "yoy": 11
-        },
-        {
-          "c": "法国",
-          "amt": 3.1,
-          "yoy": 12
-        },
-        {
-          "c": "印度",
-          "amt": 3.11,
-          "yoy": 32
-        },
-        {
-          "c": "加拿大",
-          "amt": 2.15,
-          "yoy": 9
-        },
-        {
-          "c": "巴西",
-          "amt": 1.9,
-          "yoy": 20
-        },
-        {
-          "c": "越南",
-          "amt": 2.03,
-          "yoy": 28
-        },
-        {
-          "c": "墨西哥",
-          "amt": 1.9,
-          "yoy": 20
-        },
-        {
-          "c": "新加坡",
-          "amt": 1.51,
-          "yoy": 21
-        }
-      ]
-    },
-    {
-      "hs_code": "732410",
-      "name": "金属卫浴/散热器(7324/7321/7322系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 58,
-          "yoy": 12
-        },
-        {
-          "yr": "2024",
-          "amt": 52,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 49,
-          "yoy": 4
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 12.05,
-          "yoy": 0
-        },
-        {
-          "c": "日本",
-          "amt": 7.81,
-          "yoy": 12
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 5.74,
-          "yoy": 15
-        },
-        {
-          "c": "英国",
-          "amt": 4.33,
-          "yoy": 8
-        },
-        {
-          "c": "德国",
-          "amt": 3.33,
-          "yoy": 7
-        },
-        {
-          "c": "加拿大",
-          "amt": 3.18,
-          "yoy": 6
-        },
-        {
-          "c": "法国",
-          "amt": 2.97,
-          "yoy": 9
-        },
-        {
-          "c": "韩国",
-          "amt": 2.65,
-          "yoy": 14
-        },
-        {
-          "c": "印度",
-          "amt": 2.99,
-          "yoy": 28
-        },
-        {
-          "c": "沙特阿拉伯",
-          "amt": 2.99,
-          "yoy": 28
-        },
-        {
-          "c": "阿联酋",
-          "amt": 2.38,
-          "yoy": 23
-        },
-        {
-          "c": "巴西",
-          "amt": 1.83,
-          "yoy": 17
-        },
-        {
-          "c": "越南",
-          "amt": 1.95,
-          "yoy": 25
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 1.91,
-          "yoy": 22
-        },
-        {
-          "c": "墨西哥",
-          "amt": 1.83,
-          "yoy": 17
-        },
-        {
-          "c": "新加坡",
-          "amt": 0.68,
-          "yoy": 17
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "73",
+    "total_export_value_usd": 47647531,
+    "total_net_weight_kg": 7147531,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 42,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "日本过度包装文化（三层包装）与欧洲减包装立法形成两极；中东礼品包装高端化需求（烫金/特种纸）；东南亚电商爆发推动纸箱/气泡袋需求激增",
     "consumer": "可持续包装（生物可降解/可堆肥/再生材料）年增18%，品牌商ESG压力传导至包装采购；个性化小批量包装（数字印刷按需生产）成品牌营销工具；活性/智能包装（抗氧化/防伪NFC）渗透高端食品",
@@ -249,7 +60,7 @@
     "opportunity": "东南亚电商配套瓦楞纸箱及填充物；中东高端礼品包装（特种纸/烫金印刷）；欧洲可堆肥食品包装（PLA/纸基覆膜）；非洲电商包装基础设施建设机遇；金属包装(Metal Packaging)细分领域机会值得关注"
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "金属包装：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」，出口 YoY +32%，主要流向 沙特阿拉伯 / 美国 / 澳大利亚。",
@@ -343,5 +154,92 @@
     "domain": "packaging_printing",
     "generated_at": "2026-06-19",
     "l1_ref": "包装印刷"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 47127112348,
+      "total_kg": 227112348,
+      "yoy_growth": 18,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 13195591457,
+        "yoy": 28,
+        "share": 28.0
+      },
+      "DE": {
+        "value_usd": 12630066109,
+        "yoy": -7,
+        "share": 26.8
+      },
+      "JP": {
+        "value_usd": 12111667873,
+        "yoy": -11,
+        "share": 25.7
+      },
+      "GB": {
+        "value_usd": 9189786907,
+        "yoy": 9,
+        "share": 19.500000000000004
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 25,
+        "share": 0.1
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -17,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 14,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 26,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 32,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      }
+    }
   }
 }

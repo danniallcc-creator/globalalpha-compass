@@ -27,160 +27,26 @@
     "阀门供应商",
     "阀门工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "847100",
-      "name": "计算机",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 1535,
-          "yoy": 1
-        },
-        {
-          "yr": "2024",
-          "amt": 1520,
-          "yoy": 3
-        },
-        {
-          "yr": "2023",
-          "amt": 1475,
-          "yoy": -5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 345.38,
-          "yoy": -9
-        },
-        {
-          "c": "荷兰",
-          "amt": 218.43,
-          "yoy": 4
-        },
-        {
-          "c": "日本",
-          "amt": 146.43,
-          "yoy": 1
-        },
-        {
-          "c": "德国",
-          "amt": 116.34,
-          "yoy": -3
-        },
-        {
-          "c": "韩国",
-          "amt": 97.86,
-          "yoy": 3
-        }
-      ]
-    },
-    {
-      "hs_code": "848180",
-      "name": "阀门/水龙头(8481系列)",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 115,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 108,
-          "yoy": 5
-        },
-        {
-          "yr": "2023",
-          "amt": 103,
-          "yoy": 3
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 23.96,
-          "yoy": -4
-        },
-        {
-          "c": "日本",
-          "amt": 12.78,
-          "yoy": 6
-        },
-        {
-          "c": "德国",
-          "amt": 10.22,
-          "yoy": 2
-        },
-        {
-          "c": "韩国",
-          "amt": 8.69,
-          "yoy": 9
-        },
-        {
-          "c": "英国",
-          "amt": 7.23,
-          "yoy": 3
-        },
-        {
-          "c": "法国",
-          "amt": 6.72,
-          "yoy": 4
-        },
-        {
-          "c": "印度",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "沙特阿拉伯",
-          "amt": 6.76,
-          "yoy": 22
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 5.05,
-          "yoy": 10
-        },
-        {
-          "c": "加拿大",
-          "amt": 4.65,
-          "yoy": 1
-        },
-        {
-          "c": "阿联酋",
-          "amt": 5.39,
-          "yoy": 17
-        },
-        {
-          "c": "巴西",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "越南",
-          "amt": 4.39,
-          "yoy": 19
-        },
-        {
-          "c": "印度尼西亚",
-          "amt": 4.31,
-          "yoy": 17
-        },
-        {
-          "c": "墨西哥",
-          "amt": 4.11,
-          "yoy": 12
-        },
-        {
-          "c": "新加坡",
-          "amt": 1.88,
-          "yoy": 12
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "84",
+    "total_export_value_usd": 9636125,
+    "total_net_weight_kg": 9136125,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 69,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "欧美市场DIY文化浓厚，带动高品质手工具需求。专业技工重视工具耐用性和品牌信誉。不同地区对工具类型、尺寸规格和度量体系（公制与英制）存在偏好差异。",
     "consumer": "专业用户需要高品质、耐用且附带保修的工具。DIY爱好者追求多功能工具的性价比。专业领域品牌忠诚度较高。在线评价和YouTube演示视频对采购决策影响显著。",
@@ -191,7 +57,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -367,5 +233,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "五金工具"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 28068442924,
+      "total_kg": 1168442924,
+      "yoy_growth": -6,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 8139848447,
+        "yoy": 4,
+        "share": 29.0
+      },
+      "DE": {
+        "value_usd": 7803027132,
+        "yoy": 20,
+        "share": 27.8
+      },
+      "JP": {
+        "value_usd": 7466205817,
+        "yoy": 20,
+        "share": 26.6
+      },
+      "GB": {
+        "value_usd": 4659361525,
+        "yoy": -9,
+        "share": 16.6
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 0,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 9,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 1,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      }
+    }
   }
 }

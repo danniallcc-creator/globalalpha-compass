@@ -25,57 +25,28 @@
     "头发护理及造型供应商",
     "头发护理及造型工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "330490",
-      "name": "化妆品",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 62,
-          "yoy": 8
-        },
-        {
-          "yr": "2024",
-          "amt": 57,
-          "yoy": 10
-        },
-        {
-          "yr": "2023",
-          "amt": 52,
-          "yoy": 5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 12.4,
-          "yoy": 6
-        },
-        {
-          "c": "日本",
-          "amt": 8.7,
-          "yoy": 12
-        },
-        {
-          "c": "韩国",
-          "amt": 6.2,
-          "yoy": 15
-        },
-        {
-          "c": "英国",
-          "amt": 4.3,
-          "yoy": 9
-        },
-        {
-          "c": "德国",
-          "amt": 3.7,
-          "yoy": 7
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "33",
+    "total_export_value_usd": 43232517,
+    "total_net_weight_kg": 12732517,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 16,
+      "trend_direction": "stable",
+      "avg_interest": 28.5,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "各地区美容标准和个人护理习惯差异较大。韩妆和日系护肤趋势对全球市场有显著影响。天然有机成分在全球范围内日益受到青睐。传统草本成分在亚洲市场重新获得关注。",
     "consumer": "消费升级趋势明显，消费者愿意为高品质产品支付溢价。经皮肤科医生测试的低敏产品需求旺盛。订阅模式在可补充类产品中逐步普及。多功能产品深受时间紧迫型消费者欢迎。",
@@ -86,7 +57,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "头发护理及造型：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」，出口 YoY +15%，主要流向 美国 / 日本 / 韩国。",
@@ -180,5 +151,92 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "个人护理及家庭清洁"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 5317833960,
+      "total_kg": 417833960,
+      "yoy_growth": -10,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 797675094,
+        "yoy": -4,
+        "share": 15.0
+      },
+      "DE": {
+        "value_usd": 771085924,
+        "yoy": 21,
+        "share": 14.5
+      },
+      "JP": {
+        "value_usd": 744496754,
+        "yoy": 12,
+        "share": 14.0
+      },
+      "GB": {
+        "value_usd": 717907584,
+        "yoy": 20,
+        "share": 13.5
+      },
+      "KR": {
+        "value_usd": 691318414,
+        "yoy": 19,
+        "share": 13.0
+      },
+      "AU": {
+        "value_usd": 664729245,
+        "yoy": -13,
+        "share": 12.5
+      },
+      "IN": {
+        "value_usd": 638140075,
+        "yoy": 14,
+        "share": 12.0
+      },
+      "BR": {
+        "value_usd": 292480867,
+        "yoy": 19,
+        "share": 5.5
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 24,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -18,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 36,
+        "share": 0.1
+      }
+    }
   }
 }

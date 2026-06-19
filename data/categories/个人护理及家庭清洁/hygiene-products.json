@@ -27,8 +27,28 @@
     "卫生用品供应商",
     "卫生用品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "48",
+    "total_export_value_usd": 48140144,
+    "total_net_weight_kg": 17640144,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 30,
+      "trend_direction": "down",
+      "avg_interest": 63.8,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "各地区美容标准和个人护理习惯差异较大。韩妆和日系护肤趋势对全球市场有显著影响。天然有机成分在全球范围内日益受到青睐。传统草本成分在亚洲市场重新获得关注。",
     "consumer": "消费升级趋势明显，消费者愿意为高品质产品支付溢价。经皮肤科医生测试的低敏产品需求旺盛。订阅模式在可补充类产品中逐步普及。多功能产品深受时间紧迫型消费者欢迎。",
@@ -39,7 +59,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "卫生用品：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」。",
@@ -132,5 +152,114 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "个人护理及家庭清洁"
+  },
+  "news_sentiment": {
+    "article_count": 3,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 33.3,
+      "negative_pct": 0.0,
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
+    },
+    "top_headlines": [
+      "Investigation Nebula: EPPO arrests leaders of organised criminal group in €78 million VAT fraud prob",
+      "Bulk Cargo Ship Arrives in Cuba Carrying Aid from China - The Maritime Executive",
+      "Flexitanks Market Size, Share, Growth, Analysis, Report, 2034 - Straits Research"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEdKLVYwc3JUUFdvT0x3eUZpb3VzT1pxVFlVNUFHUnQwMURuVU5VdHh1Z3RiaU9MMTJVbHZ4MncycWQ3TTJHQXZwcnA4LWp3V29Xak1jOFJ1dmFWbUhZWElIOFpROG96YnRoNzY0SDFGWTV2WVpWd2JjTnNXUFRyQl9zNkR5NmpPRkhGR2dQRTR1c0J4QWdVVjZwdFFXbkNiVHQwTU9IQlpkbnRCM2I5YmltclpEVFJHaUVkLVRpeEpEZw?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWjJXUFdsNGh2LXVuRHo3U1JxRXc2ancwQ3h6MGlLWXpQVE9PY01nMTVkVk80R3BQSl9HY3IxNHl5OThiaXZSYUtfNmhyOENHZXdTaFBXUFp3dGxILTZhQ0EzbmxLUkFRRkJwSG04TkdtMjBrcElOcGxhdWJvVUFHdWlhODZKZ0ZISU9uRWlIblZfQ3Q0bnhWbEtn?oc=5",
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TbEdNOFFhNXZnc0p3ZGliLUdfcUd0QzBBbERTblJvSlY5UHExQ1ZaM1RzeERZaVV3M1UwV2piUVk1cHZwc2ZKUmNYbEtNWU1tYW92Nlc3aC1OR3V0TXdTbGNn?oc=5"
+    ],
+    "fetched_at": "2026-06-19"
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "World CIP Detergent Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWR5SGd6d3F2a0VwWXlrMUw3SDF0cFVqc0ExZUdMOGlTM0p3UFpKbXcxWjZDR2tVb0tHaGlsbV93MUo2dWpQZ2czMUR0RVF5VnViTWxOM3ZoUVRCNXFIOGtfNEJjOG4ySnIzLVZ0QTRSZG9iaEd5UTFMYW9hUHBZVENVV3Q2TE9UVEU5dnhFQm9BTFJsbjN6dGxuWERKVzdMTmZiVE1sci1YMEU?oc=5\" target=\"_bla",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWR5SGd6d3F2a0VwWXlrMUw3SDF0cFVqc0ExZUdMOGlTM0p3UFpKbXcxWjZDR2tVb0tHaGlsbV93MUo2dWpQZ2czMUR0RVF5VnViTWxOM3ZoUVRCNXFIOGtfNEJjOG4ySnIzLVZ0QTRSZG9iaEd5UTFMYW9hUHBZVENVV3Q2TE9UVEU5dnhFQm9BTFJsbjN6dGxuWERKVzdMTmZiVE1sci1YMEU?oc=5",
+        "published": "Sat, 13 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Photoionization Detectors - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeHFSYjZGMV9vWjkxUHd1YndsazlsOFBZLU5veDgxSFVGeGx2VXo0ZTRQODNsZHFhcnpCanoxNUZWbFhheW5fc1FhdUNmWWU4eXQ0c0hVc3V3cmFXR2pleGdpdzNTYUZoMEJTdjF6S1lJM2tEc3lHRHNRN1F2bmFnLTlxa3hvUmtZUWc1eEZIQ2VuWl9NSEI1eUF6UFdUcUNyY25nWmx1X1QtTEUzYzc3MG1iZzVjSjdlR0",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeHFSYjZGMV9vWjkxUHd1YndsazlsOFBZLU5veDgxSFVGeGx2VXo0ZTRQODNsZHFhcnpCanoxNUZWbFhheW5fc1FhdUNmWWU4eXQ0c0hVc3V3cmFXR2pleGdpdzNTYUZoMEJTdjF6S1lJM2tEc3lHRHNRN1F2bmFnLTlxa3hvUmtZUWc1eEZIQ2VuWl9NSEI1eUF6UFdUcUNyY25nWmx1X1QtTEUzYzc3MG1iZzVjSjdlR0l6ZHZ2dzhpY1JSektobzEyUG52ZkZkQm1FUDZKR2lHYjdu?oc=5",
+        "published": "Sat, 13 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Biohazard Spill Kits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWVqQ2NhTU9MVWNucXlvWEFNUUxyTE90VklETGRLVG1GSkJreVNIVXhvLWpIRFNLaHViUmdYalFTMFl2OXkzQmhMM3FkN0xCWVdHRG9rVjhUS0w4Q2RSUjlseEFuZGVaVUhUcm9mT1g0bUVZRkUtSTM0RjBPYjE4YXR4cko4UUpNV1FfYU1YMWJBN2ZocF9lSGlfeTNkNm1YaDd1TGk0bUZWNEo2a1FsaXY2VG0ydFJnQz",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWVqQ2NhTU9MVWNucXlvWEFNUUxyTE90VklETGRLVG1GSkJreVNIVXhvLWpIRFNLaHViUmdYalFTMFl2OXkzQmhMM3FkN0xCWVdHRG9rVjhUS0w4Q2RSUjlseEFuZGVaVUhUcm9mT1g0bUVZRkUtSTM0RjBPYjE4YXR4cko4UUpNV1FfYU1YMWJBN2ZocF9lSGlfeTNkNm1YaDd1TGk0bUZWNEo2a1FsaXY2VG0ydFJnQzBDZVQxNUx5UHVyWmZ0Ug?oc=5",
+        "published": "Sun, 14 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "The Microeconomics of Brexit Reversion Why the Customs Union is a False Panacea - weddings.lavenderhotels.co.uk",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQakF1LUdwNkE4Z2p2R29XYS0tbjFla1NqVnI0NTdZSms3dVo5UWM5dGZnZmwxNE1SSnl1cUdnNFNkNURnNl9nLVZRaU1RTDJjRkJlcExrc3RPVHVqdTNVUE5WUXlZQVFmd3JSckpoVmJDZVhUSmZRQTRBWU1TQ3pwMmRkemhuZjFmZ0RzejNfMmVGXzB0aHF3eG82QkhTUQ?oc=5\" target=\"_blank\">The Microecon",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQakF1LUdwNkE4Z2p2R29XYS0tbjFla1NqVnI0NTdZSms3dVo5UWM5dGZnZmwxNE1SSnl1cUdnNFNkNURnNl9nLVZRaU1RTDJjRkJlcExrc3RPVHVqdTNVUE5WUXlZQVFmd3JSckpoVmJDZVhUSmZRQTRBWU1TQ3pwMmRkemhuZjFmZ0RzejNfMmVGXzB0aHF3eG82QkhTUQ?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "weddings.lavenderhotels.co.uk"
+      }
+    ],
+    "country_summary": {
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2625942598,
+        "yoy": -37.5,
+        "share": 25.0
+      },
+      "DE": {
+        "value_usd": 5979681644.225004,
+        "yoy": 98.5,
+        "share": 56.9
+      },
+      "JP": {
+        "value_usd": 1904358895.6330001,
+        "yoy": null,
+        "share": 18.1
+      }
+    }
   }
 }

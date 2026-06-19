@@ -22,57 +22,28 @@
     "新鲜蔬菜供应商",
     "新鲜蔬菜工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "070900",
-      "name": "蔬菜",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 90,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 85,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 80,
-          "yoy": 4
-        }
-      ],
-      "top5": [
-        {
-          "c": "越南",
-          "amt": 21.35,
-          "yoy": 19
-        },
-        {
-          "c": "马来西亚",
-          "amt": 15.56,
-          "yoy": 11
-        },
-        {
-          "c": "日本",
-          "amt": 12.71,
-          "yoy": 6
-        },
-        {
-          "c": "韩国",
-          "amt": 10.8,
-          "yoy": 8
-        },
-        {
-          "c": "泰国",
-          "amt": 9.15,
-          "yoy": 14
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "70",
+    "total_export_value_usd": 13187568,
+    "total_net_weight_kg": 12687568,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 23,
+      "trend_direction": "down",
+      "avg_interest": 52.9,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "中东/非洲粮食安全高度依赖进口，中亚游牧文化向定居农业转型，东南亚稻米文化深植日常饮食结构",
     "consumer": "全球有机农业需求年增12%，精准农业与智慧灌溉受新兴市场政府补贴推动，垂直农业在中东/日本城市化区域快速商业化",
@@ -83,7 +54,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；新鲜蔬菜(Fresh Vegetables)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -349,5 +320,339 @@
     "domain": "generic",
     "generated_at": "2026-06-19",
     "l1_ref": "农业"
+  },
+  "news_sentiment": {
+    "article_count": 5,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 0.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 100.0,
+      "articles_analyzed": 5
+    },
+    "top_headlines": [
+      "A wind of change in Italy's wholesale produce markets - FreshPlaza",
+      "New Canadian Food Blueprint Aims to Break Reliance on American Agriculture - The Packer",
+      "A vibrant fresh produce hub in the geographical heart of Europe - Hortidaily",
+      "FMA pushes for practical Horticulture Code reform - Fruitnet",
+      "Tomatoes Become Latest Symbol of America’s Affordability Squeeze - WKTV"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3JnOGRsSm8xeVBocWdxazQxRVZLNU5KWjFRLTBuN2lTd2pOd3NBa2xJaHpQLXFtQlpTMjBXVVFmUkNzNUJoWnotaXRaR1VmX0l0QkoySVJwaWU0Njl3QnhtbVNEMkloR25aSXd5X0VQbnVSS09YRldDZWJfOXdiaGJYcG05SW5kWTZsU0xjajRPREg3QXNPY0tRT3dBUTNtWG4wM25kN3BhWHhfWERCaw?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeE5yRFVpSWl6S08tMU91aFlPZE5vVUlJMXNYbUY3emlGczdjSDI1bXpHZEF2MmlGOHdMZVgtSHdZVWVGY1REMS0tQmtGNGdXaEQxRy1uc3hBR1hSMEN3djNVdHVJLWx0SnJTVDZoeERneFdXMW5mQlU2NTI5Z1dXa3g5UDBkOVJWc1Y1azB4S3gtUjVhd1B1bXZlaHZuSGds?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjd0ZFd3Y0xjdG5zSU1WSnVibjR3d254YVp3Tk41cXk5YkZhWlJ0TDIxYlNjemQxZGRLZmFrVG1DVHRmZ2VBT1VXR3dybWlVUWRNSFdlMElYZnZ5M2h5dGF1cVN3RjNyS3pvSVR3WjRyenpiOTlGM2dLUEpfei1ITERQYUc2R0pVZDZOV1BrNnhwcDBxVzJobWdpcU1zU25QYU01cXA5enFJbmc?oc=5"
+    ],
+    "fetched_at": "2026-06-19"
+  },
+  "social_media_trends": {
+    "google": [
+      {
+        "platform": "Google",
+        "trending_keywords": [
+          {
+            "keyword": "Fresh Vegetables",
+            "volume": "20K+",
+            "growth": 66
+          }
+        ],
+        "business_opportunity": "Google平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "youtube": [
+      {
+        "platform": "YouTube",
+        "trending_keywords": [
+          {
+            "keyword": "juneteenth celebrations near me",
+            "volume": "100+",
+            "growth": 45.7
+          },
+          {
+            "keyword": "matt dunlap",
+            "volume": "100+",
+            "growth": 45.2
+          },
+          {
+            "keyword": "norman reedus",
+            "volume": "200+",
+            "growth": 60.4
+          },
+          {
+            "keyword": "zohran mamdani democratic party critique",
+            "volume": "200+",
+            "growth": 57.2
+          },
+          {
+            "keyword": "darren raddysh",
+            "volume": "100+",
+            "growth": -20.0
+          },
+          {
+            "keyword": "maris nichols",
+            "volume": "100+",
+            "growth": 122.5
+          },
+          {
+            "keyword": "elisha cuthbert",
+            "volume": "100+",
+            "growth": 66.1
+          },
+          {
+            "keyword": "fox news",
+            "volume": "5000+",
+            "growth": 112.2
+          },
+          {
+            "keyword": "tartan army",
+            "volume": "200+",
+            "growth": 126.2
+          },
+          {
+            "keyword": "quarterback",
+            "volume": "200+",
+            "growth": 79.0
+          }
+        ],
+        "business_opportunity": "YouTube平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "x": [
+      {
+        "platform": "X",
+        "trending_keywords": [
+          {
+            "keyword": "#FreshVegetables",
+            "volume": "93K posts",
+            "growth": 13
+          },
+          {
+            "keyword": "#TrendingFreshVegetables",
+            "volume": "73K posts",
+            "growth": -11
+          }
+        ],
+        "business_opportunity": "X平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "instagram": [
+      {
+        "platform": "Instagram",
+        "trending_keywords": [
+          {
+            "keyword": "#freshvegetables",
+            "volume": "100K+",
+            "growth": 88
+          },
+          {
+            "keyword": "#shop#freshvegetables",
+            "volume": "50K+",
+            "growth": 105
+          }
+        ],
+        "business_opportunity": "Instagram平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ],
+    "tiktok": [
+      {
+        "platform": "TikTok",
+        "trending_keywords": [
+          {
+            "keyword": "#TikTokMadeMeBuyIt",
+            "volume": "20B views",
+            "growth": 7.4
+          },
+          {
+            "keyword": "#AmazonFinds",
+            "volume": "51B views",
+            "growth": 59.4
+          },
+          {
+            "keyword": "#Trending",
+            "volume": "23B views",
+            "growth": 25.0
+          }
+        ],
+        "business_opportunity": "TikTok平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
+        "data_date": "2026-06-19"
+      }
+    ]
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWT",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWTBqcWpPcHRaUUpzam11cFlxOGNKbm1EdWhnRG5nVnh3eUlUTjA3aWNlckU1NHc?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "Agroberichten Buitenland"
+      },
+      {
+        "title": "Ag Groups Ask for Fair and Balanced Trade - Citrus Industry Magazine",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRmFkRHZTSXd2d2RSTUhXN1FyNnM5OHBWVUNrWGZEcmNvVDJfRXRMQlppLThNQV9TRGZEaThZS3AwcWJKXzR0Tl9RWlV0TTN5R2YtVWFETFJhaVlNZmdORVhMdUlIWkZvc2M2STNjX2FXdkxuX3FHUm1ZNnc?oc=5\" target=\"_blank\">Ag Groups Ask for Fair and Balanced Trade</a>&nbsp;&nbsp;<fo",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRmFkRHZTSXd2d2RSTUhXN1FyNnM5OHBWVUNrWGZEcmNvVDJfRXRMQlppLThNQV9TRGZEaThZS3AwcWJKXzR0Tl9RWlV0TTN5R2YtVWFETFJhaVlNZmdORVhMdUlIWkZvc2M2STNjX2FXdkxuX3FHUm1ZNnc?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "Citrus Industry Magazine"
+      },
+      {
+        "title": "Produce Industry Coalition Forms to Defend USMCA Trade Benefits Produce Coalition for the USMCA Launches - AgNet West",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE11UVNkSFE2SjFRN2hTRURfZXhmQnk0c3RjbHY1LW1MX3VqSm5zV1Foclp2aDhUdVB1TWpTVE5JQllGczZJRWwtRGI1UE5TeUdZNWVkSW94eTR4cUFsdU94ZG42YkZHZw?oc=5\" target=\"_blank\">Produce Industry Coalition Forms to Defend USMCA Trade Benefits Produce Coalition for the",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11UVNkSFE2SjFRN2hTRURfZXhmQnk0c3RjbHY1LW1MX3VqSm5zV1Foclp2aDhUdVB1TWpTVE5JQllGczZJRWwtRGI1UE5TeUdZNWVkSW94eTR4cUFsdU94ZG42YkZHZw?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "AgNet West"
+      },
+      {
+        "title": "\"Supply chain under pressure from rising costs, international competition, and regulation\" - FreshPlaza",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUm",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUmlsQjZfNnpISFBoaW53S0tlMUdyUUthN1F4TnRENm1IVkxX?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "FreshPlaza"
+      },
+      {
+        "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUGVyTHdFQ1dweldYOGFhWjN5ODUtUGlEN0tyb0dGaWxBS0w2SmVaVDRaam1aT1Nvc0FtYVFGdFA2cUZCcDk3bTR0NUprVG43NU1hMFp0RkRidm9KaWhrTmFyYzhTbHQwQjlyaDBEdXFxb3dicWZuRmFtbjZXNFdOOHRxR05rbFJhbExhSkM2X25RU3JKelU4amRmZE9XS1p2c3U4REIzQVlXa3gyZGtRQlJjd0NhOHZ0S2",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUGVyTHdFQ1dweldYOGFhWjN5ODUtUGlEN0tyb0dGaWxBS0w2SmVaVDRaam1aT1Nvc0FtYVFGdFA2cUZCcDk3bTR0NUprVG43NU1hMFp0RkRidm9KaWhrTmFyYzhTbHQwQjlyaDBEdXFxb3dicWZuRmFtbjZXNFdOOHRxR05rbFJhbExhSkM2X25RU3JKelU4amRmZE9XS1p2c3U4REIzQVlXa3gyZGtRQlJjd0NhOHZ0S2Zoc3VQYjc?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "logos-pres.md"
+      }
+    ],
+    "country_summary": {
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 13331443967,
+      "total_kg": 431443967,
+      "yoy_growth": -3,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2932917672,
+        "yoy": -5,
+        "share": 22.0
+      },
+      "DE": {
+        "value_usd": 2812934677,
+        "yoy": -10,
+        "share": 21.1
+      },
+      "JP": {
+        "value_usd": 2706283125,
+        "yoy": -13,
+        "share": 20.3
+      },
+      "GB": {
+        "value_usd": 2586300129,
+        "yoy": 16,
+        "share": 19.4
+      },
+      "KR": {
+        "value_usd": 2293008362,
+        "yoy": 26,
+        "share": 17.199999999999996
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": 9,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 11,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 19,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -9,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -4,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -16,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 29,
+        "share": 0.1
+      }
+    }
   }
 }

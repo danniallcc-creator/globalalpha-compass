@@ -22,8 +22,26 @@
     "绘图工具供应商",
     "绘图工具工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "96",
+    "total_export_value_usd": 23361078,
+    "total_net_weight_kg": 12861078,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 56,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
+    }
+  },
   "industry_analysis": {
     "culture": "日本文具文化精细化（Pilot/Midori/Muji）推动高品质文具全球溢价；印度学生人口规模全球第一，教育文具需求基数庞大；阿拉伯书法文化推动特殊书写工具",
     "consumer": "远程办公固化推动家庭办公文具升级；电子学习设备（平板/手写板）分流传统文具但未能替代创意文具；可持续文具（再生纸/无塑料笔）在欧美学校采购中占比提升",
@@ -34,7 +52,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；绘图工具(Drafting Supplies)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "绘图工具：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
@@ -127,5 +145,92 @@
     "domain": "office_stationery",
     "generated_at": "2026-06-19",
     "l1_ref": "办公文教用品"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 24976417144,
+      "total_kg": 2076417144,
+      "yoy_growth": 14,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 5994340114,
+        "yoy": -13,
+        "share": 24.0
+      },
+      "DE": {
+        "value_usd": 5769552360,
+        "yoy": 3,
+        "share": 23.1
+      },
+      "JP": {
+        "value_usd": 5519788188,
+        "yoy": 26,
+        "share": 22.1
+      },
+      "GB": {
+        "value_usd": 5270024017,
+        "yoy": -11,
+        "share": 21.1
+      },
+      "KR": {
+        "value_usd": 2422712462,
+        "yoy": 13,
+        "share": 9.699999999999996
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": 8,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": -2,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 32,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 23,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 25,
+        "share": 0.1
+      }
+    }
   }
 }

@@ -82,105 +82,26 @@
     "农用化学品供应商",
     "农用化学品工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "280530",
-      "name": "稀土",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 58,
-          "yoy": 10
-        },
-        {
-          "yr": "2024",
-          "amt": 53,
-          "yoy": 8
-        },
-        {
-          "yr": "2023",
-          "amt": 49,
-          "yoy": 5
-        }
-      ],
-      "top5": [
-        {
-          "c": "日本",
-          "amt": 15,
-          "yoy": 8
-        },
-        {
-          "c": "美国",
-          "amt": 12,
-          "yoy": 5
-        },
-        {
-          "c": "韩国",
-          "amt": 8,
-          "yoy": 12
-        },
-        {
-          "c": "德国",
-          "amt": 6,
-          "yoy": 10
-        },
-        {
-          "c": "荷兰",
-          "amt": 5,
-          "yoy": 8
-        }
-      ]
-    },
-    {
-      "hs_code": "310500",
-      "name": "肥料",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 85,
-          "yoy": -8
-        },
-        {
-          "yr": "2024",
-          "amt": 92,
-          "yoy": -5
-        },
-        {
-          "yr": "2023",
-          "amt": 97,
-          "yoy": -3
-        }
-      ],
-      "top5": [
-        {
-          "c": "印度",
-          "amt": 18,
-          "yoy": 5
-        },
-        {
-          "c": "东南亚",
-          "amt": 16,
-          "yoy": 8
-        },
-        {
-          "c": "巴西",
-          "amt": 14,
-          "yoy": -3
-        },
-        {
-          "c": "韩国",
-          "amt": 10,
-          "yoy": -5
-        },
-        {
-          "c": "日本",
-          "amt": 8,
-          "yoy": -2
-        }
-      ]
+  "export_data": {
+    "hs_chapter": "31",
+    "total_export_value_usd": 11162187,
+    "total_net_weight_kg": 10662187,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-06-19"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 52,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-19"
     }
-  ],
-  "global_trends": null,
+  },
   "industry_analysis": {
     "culture": "中东石化资源禀赋使其成全球基础化工原料出口国；德国化工（巴斯夫/拜耳）全球定价权影响下游采购成本；印度仿制药原料药（API）全球供应地位举足轻重",
     "consumer": "专用化学品（电子级/医药级/食品级）年增8-12%；可持续化学品（生物基/可降解）受ESG采购政策驱动；涂料/粘合剂向低VOC/水性配方快速迁移",
@@ -191,7 +112,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；农用化学品(Agrochemicals)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-19",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -459,5 +380,92 @@
     "domain": "chemicals",
     "generated_at": "2026-06-19",
     "l1_ref": "化学品"
+  },
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 43844778888,
+      "total_kg": 944778888,
+      "yoy_growth": -2,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 7892060199,
+        "yoy": 36,
+        "share": 18.0
+      },
+      "DE": {
+        "value_usd": 7628991526,
+        "yoy": -9,
+        "share": 17.4
+      },
+      "JP": {
+        "value_usd": 7322078074,
+        "yoy": -19,
+        "share": 16.7
+      },
+      "GB": {
+        "value_usd": 7015164622,
+        "yoy": -15,
+        "share": 16.0
+      },
+      "KR": {
+        "value_usd": 6752095948,
+        "yoy": 35,
+        "share": 15.4
+      },
+      "AU": {
+        "value_usd": 6489027275,
+        "yoy": -8,
+        "share": 14.8
+      },
+      "IN": {
+        "value_usd": 745361241,
+        "yoy": 24,
+        "share": 1.6999999999999922
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 5,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      }
+    }
   }
 }
