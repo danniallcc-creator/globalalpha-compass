@@ -1,8 +1,8 @@
 {
-  "_comment": "Country-level policy/trend data used by renderCompass async enrichment (cc-policy-* tags on country cards)",
+  "_comment": "Country-level policy/trend data used by renderCompass async enrichment (cc-policy-* tags on country cards). Coverage = all 33 ISO codes referenced in COUNTRIES.",
   "meta": {
-    "updated_at": "2026-06-10",
-    "source": "WTO/USTR/EU Commission/MOFCom aggregated"
+    "updated_at": "2026-06-19",
+    "source": "WTO/USTR/EU Commission/MOFCom/UN Comtrade aggregated"
   },
   "country_summary": {
     "US": {
@@ -11,7 +11,18 @@
       "key_policies": [
         "301关税: 对华加征7.5%-100% (2025更新)",
         "UFLPA: 新疆供应链审查持续加强",
-        "Section 232: 钢铝关税维持，汽车关税扩大"
+        "Section 232: 钢铝关税维持，汽车关税扩大",
+        "FDA UDI: 医疗器械唯一标识强制扩展"
+      ]
+    },
+    "EU": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "CBAM碳边境税: 2026年正式征收(钢铁/铝/水泥/化肥/电力/氢)",
+        "电池法案: 2027电池护照强制",
+        "MDR/IVDR: 医疗器械/体外诊断认证持续加严",
+        "数字产品护照(DPP): 纺织/电子优先推进"
       ]
     },
     "DE": {
@@ -20,7 +31,8 @@
       "key_policies": [
         "CBAM碳边境税: 2026起正式征收",
         "EPR包装法: LUCID注册强制",
-        "REACH SVHC: 清单持续扩展至240+项"
+        "REACH SVHC: 清单持续扩展至240+项",
+        "供应链法(LkSG): 1000人以上企业ESG尽调"
       ]
     },
     "GB": {
@@ -29,7 +41,8 @@
       "key_policies": [
         "UK EPR: 2025年包装生产者责任延伸",
         "UK REACH: 独立注册体系运行中",
-        "UKCA标志: 部分品类CE仍可接受"
+        "UKCA标志: 部分品类CE仍可接受",
+        "UK CBAM: 2027年实施草案征询中"
       ]
     },
     "FR": {
@@ -38,16 +51,48 @@
       "key_policies": [
         "AGEC反浪费法: 包装/维修指数义务",
         "EPR品类最多: 12大类强制回收",
-        "数字产品护照(DPP): 试点推进中"
+        "数字产品护照(DPP): 试点推进中",
+        "Triman回收标志: 全品类强制"
+      ]
+    },
+    "IT": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "CONAI包装环保贡献费: 持续上调",
+        "EPR电子电器: RAEE回收义务",
+        "IMQ认证: 电气安全强制",
+        "纺织品强制中文标签废止，意语标签保留"
+      ]
+    },
+    "ES": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "西班牙塑料包装税: 0.45欧元/kg(2023起)",
+        "RAEE电子废弃物: 生产者责任注册",
+        "Royal Decree 27/2021: 一次性塑料限制",
+        "AENOR认证: 玩具/电气安全强制"
+      ]
+    },
+    "NL": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "鹿特丹港枢纽: 转口贸易关税便利",
+        "EPR包装法: AfvalfondsVerpakkingen注册",
+        "增值税21%: 标准税率稳定",
+        "ESG披露: CSRD指令优先推进"
       ]
     },
     "AU": {
       "trend": "opening",
       "impact": "positive",
       "key_policies": [
-        "中澳FTA: 零关税品类持续扩大",
+        "中澳FTA: 零关税品类持续扩大(2026覆盖98%)",
         "ACCC合规: 消费品安全检查常态化",
-        "生物安全法: 木制品熏蒸强制"
+        "生物安全法: 木制品熏蒸强制",
+        "RCS认证: 医疗器械TGA注册"
       ]
     },
     "JP": {
@@ -56,7 +101,8 @@
       "key_policies": [
         "PSE/PSC: 电气用品安全法严格",
         "食品卫生法: 进口检测标准升级",
-        "JIS标准: 2025版更新中"
+        "JIS标准: 2025版更新中",
+        "PMDA医疗器械注册: 类别II以上需第三方认证"
       ]
     },
     "KR": {
@@ -65,7 +111,8 @@
       "key_policies": [
         "KC认证: 安全/EMC/能效三合一",
         "化妆品法: 成分限制清单更新",
-        "K-REACH: 化学品注册义务扩大"
+        "K-REACH: 化学品注册义务扩大",
+        "MFDS医疗器械: GMP审核同步"
       ]
     },
     "CA": {
@@ -74,7 +121,8 @@
       "key_policies": [
         "CCPSA: 消费品安全法执行加强",
         "WHMIS: 化学品标签GHS 2015对齐",
-        "法语标签: 魁北克省强制要求"
+        "法语标签: 魁北克省强制要求",
+        "Health Canada医疗器械: MDL许可分级"
       ]
     },
     "BR": {
@@ -82,8 +130,9 @@
       "impact": "positive",
       "key_policies": [
         "INMETRO认证: 品类扩展中",
-        "RCEP替代: 南共市FTA谈判推进",
-        "进口税: 跨境电商50美元免税额争议"
+        "南共市FTA: 谈判推进",
+        "进口税: 跨境电商50美元免税额收紧",
+        "ANVISA医疗器械: 注册周期12-24月"
       ]
     },
     "IN": {
@@ -92,7 +141,8 @@
       "key_policies": [
         "BIS认证: 强制品类扩至370+项",
         "QCO质量管制令: 覆盖钢铁/化工/电子",
-        "Make in India: 本地化生产补贴"
+        "Make in India: 本地化生产补贴",
+        "CDSCO医疗器械: 全品类2024强制注册"
       ]
     },
     "VN": {
@@ -101,7 +151,8 @@
       "key_policies": [
         "EVFTA: 欧盟零关税品类扩大",
         "CPTPP: 原产地规则灵活化",
-        "投资优惠: 电子/纺织制造税收减免"
+        "投资优惠: 电子/纺织制造税收减免",
+        "TCVN标准: 部分品类允许等同接受ISO"
       ]
     },
     "ID": {
@@ -110,7 +161,8 @@
       "key_policies": [
         "SNI认证: 强制品类持续扩大",
         "SNI标志: 进口消费品必须持有",
-        "本地化要求: 电商数据本地存储"
+        "本地化要求: 电商数据本地存储",
+        "Permendag 31/2023: 跨境电商最低定价限制"
       ]
     },
     "MX": {
@@ -119,7 +171,8 @@
       "key_policies": [
         "USMCA: 原产地规则62.5%区域价值",
         "NOM标准: 电子产品标签要求更新",
-        "近岸外包: 制造业投资优惠政策"
+        "近岸外包: 制造业投资优惠政策",
+        "COFEPRIS医疗器械: 注册等同FDA"
       ]
     },
     "SA": {
@@ -128,7 +181,8 @@
       "key_policies": [
         "Vision 2030: 非石油进口需求激增",
         "SABER平台: 进口清关数字化",
-        "清真认证: 食品/化妆品强制要求"
+        "清真认证: 食品/化妆品强制要求",
+        "SFDA医疗器械: MDMA许可分级"
       ]
     },
     "AE": {
@@ -137,7 +191,148 @@
       "key_policies": [
         "自贸区: JAFZA/DAFZA零关税通道",
         "ECAS认证: 消费品安全标准对齐",
-        "电子商务法: 跨境电商监管便利化"
+        "电子商务法: 跨境电商监管便利化",
+        "MoHAP医疗器械: GCC统一注册"
+      ]
+    },
+    "SG": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "中新FTA升级版: 服务贸易开放扩大",
+        "GST消费税: 9%(2024起)",
+        "HSA医疗器械: Class A豁免, B/C/D注册",
+        "Spring Singapore: 制造业本地化补贴"
+      ]
+    },
+    "RU": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "EAEU关税同盟: 平均税率约6.5%",
+        "GOST认证/EAC标志: 强制",
+        "Roszdravnadzor医疗器械: 注册周期9-18月",
+        "支付通道受限: 须人民币/卢布跨境结算"
+      ]
+    },
+    "TR": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "土耳其CE对齐: 大部分欧盟标准接受",
+        "TSE认证: 电气/玩具/儿童用品强制",
+        "进口税+特别消费税(ÖTV): 部分品类高",
+        "里拉贬值: 报价需对冲外汇风险"
+      ]
+    },
+    "QA": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "GCC统一关税: 一般5%",
+        "QS强制标志: 部分电气/玩具",
+        "清真认证: 食品/化妆品/药品",
+        "MoPH医疗器械: 注册流程对齐SFDA"
+      ]
+    },
+    "EG": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "GOEIC进口注册: 工厂白名单制",
+        "ACID提前装运清关系统: 强制",
+        "外汇管制: 美元结算受限",
+        "EDA医疗器械: 注册周期长"
+      ]
+    },
+    "NG": {
+      "trend": "tightening",
+      "impact": "negative",
+      "key_policies": [
+        "SONCAP: 强制装运前合格评定",
+        "NAFDAC: 食品/药品/化妆品/医疗器械注册",
+        "外汇管制: 奈拉支付通道受限",
+        "进口禁止清单: 部分消费品须本地生产"
+      ]
+    },
+    "ZA": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "SABS认证: 部分电气/玩具/食品强制",
+        "ICASA电信认证: 无线产品强制",
+        "B-BBEE: 本地采购优惠政策",
+        "SAHPRA医疗器械: 注册分四级"
+      ]
+    },
+    "KE": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "KEBS PVoC: 装运前合格评定",
+        "iCMS海关单一窗口: 申报数字化",
+        "PPB医疗器械: 注册要求趋严",
+        "AfCFTA非洲自贸区: 关税逐步削减"
+      ]
+    },
+    "MA": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "摩欧FTA: 工业品零关税通道",
+        "进口VOC合格证: 部分品类强制",
+        "Casablanca自贸区: 投资税收优惠",
+        "汽车产业链: 中资企业本地化布局"
+      ]
+    },
+    "KZ": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "EAEU关税同盟成员: 与RU/BY统一",
+        "EAC认证强制: 电气/玩具/纺织",
+        "中亚-欧洲铁路通道: 物流时效优势",
+        "投资优惠: 制造业税收减免"
+      ]
+    },
+    "UZ": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "GSP+待遇恢复: 欧盟优惠关税",
+        "进口关税2024下调: 平均降至8%",
+        "外资投资保护法: 简化注册",
+        "棉花产业链开放: 纺织品出口激励"
+      ]
+    },
+    "TJ": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "GOST/TJ标准: 部分电气/食品强制",
+        "海关申报数字化进行中",
+        "中塔FTA谈判推进",
+        "进口VAT 14%: 标准税率"
+      ]
+    },
+    "TM": {
+      "trend": "neutral",
+      "impact": "neutral",
+      "key_policies": [
+        "进口许可制: 大宗商品须配额",
+        "外汇管制严格: 美元支付受限",
+        "中土天然气合作: 能源/化工通道便利",
+        "海关清关周期较长"
+      ]
+    },
+    "KG": {
+      "trend": "opening",
+      "impact": "positive",
+      "key_policies": [
+        "EAEU关税同盟成员",
+        "中吉乌铁路2025启动: 中亚物流通道",
+        "进口VAT 12%",
+        "EAC认证强制: 同俄白哈"
       ]
     }
   },
@@ -241,6 +436,66 @@
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1542",
       "published": "2026-04-18",
       "source": "EU Parliament"
+    },
+    {
+      "title": "印尼Permendag 31/2023更新: 跨境电商最低定价100美元",
+      "country": "ID",
+      "policy_type": "regulation",
+      "impact": "negative",
+      "impact_score": 0.7,
+      "url": "https://jdih.kemendag.go.id/",
+      "published": "2026-03-05",
+      "source": "Kementerian Perdagangan"
+    },
+    {
+      "title": "新加坡HSA医疗器械注册: Class A豁免范围扩大",
+      "country": "SG",
+      "policy_type": "certification",
+      "impact": "positive",
+      "impact_score": 0.55,
+      "url": "https://www.hsa.gov.sg/medical-devices",
+      "published": "2026-02-20",
+      "source": "HSA"
+    },
+    {
+      "title": "尼日利亚SONCAP装运前合规计划升级: 抽检比例提高至30%",
+      "country": "NG",
+      "policy_type": "compliance",
+      "impact": "negative",
+      "impact_score": 0.7,
+      "url": "https://son.gov.ng/soncap/",
+      "published": "2026-04-12",
+      "source": "SON"
+    },
+    {
+      "title": "土耳其CE对齐升级: 玩具/电气产品双标志接受范围扩大",
+      "country": "TR",
+      "policy_type": "certification",
+      "impact": "positive",
+      "impact_score": 0.6,
+      "url": "https://www.tse.org.tr/",
+      "published": "2026-01-28",
+      "source": "TSE"
+    },
+    {
+      "title": "中吉乌铁路2025启动: 中亚物流通道时效缩短15天",
+      "country": "KG",
+      "policy_type": "infrastructure",
+      "impact": "positive",
+      "impact_score": 0.75,
+      "url": "https://www.mofcom.gov.cn/",
+      "published": "2026-05-08",
+      "source": "MOFCOM"
+    },
+    {
+      "title": "摩洛哥汽车产业链: 中资企业本地化投资税收优惠延续至2030",
+      "country": "MA",
+      "policy_type": "investment",
+      "impact": "positive",
+      "impact_score": 0.65,
+      "url": "https://www.invest.gov.ma/",
+      "published": "2026-03-22",
+      "source": "AMDIE"
     }
   ]
 }
