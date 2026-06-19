@@ -1090,6 +1090,26 @@ NEWS_RSS_SOURCES = [
     # 能源
     {'name': 'IEA', 'full': 'International Energy Agency', 'url': 'https://www.iea.org/rss/news.xml', 'tag': 'energy', 'lang': 'en'},
     {'name': 'OPEC', 'full': 'OPEC Secretariat', 'url': 'https://news.google.com/rss/search?q=OPEC+oil+production+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'energy', 'lang': 'en'},
+    # 能源补充
+    {'name': 'EIA', 'full': 'U.S. Energy Information Administration', 'url': 'https://www.eia.gov/rss/todayinenergy.xml', 'tag': 'energy', 'lang': 'en'},
+    {'name': 'S&P Energy', 'full': 'S&P Global Commodity Insights', 'url': 'https://news.google.com/rss/search?q=S%26P+global+energy+oil+gas+LNG+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'energy', 'lang': 'en'},
+    {'name': 'OilPrice', 'full': 'OilPrice.com Energy News', 'url': 'https://news.google.com/rss/search?q=oil+price+crude+natural+gas+OPEC+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'energy', 'lang': 'en'},
+    # 政治/地缘政治
+    {'name': 'Reuters Geopolitics', 'full': 'Reuters - World', 'url': 'https://news.google.com/rss/search?q=reuters+geopolitics+sanctions+diplomacy+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'Foreign Affairs', 'full': 'Foreign Affairs Magazine', 'url': 'https://www.foreignaffairs.com/rss.xml', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'CSIS', 'full': 'Center for Strategic & International Studies', 'url': 'https://www.csis.org/analysis/rss.xml', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'Chatham House', 'full': 'Chatham House - Royal Institute', 'url': 'https://www.chathamhouse.org/rss.xml', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'Sanctions/OFAC', 'full': 'US Sanctions & OFAC Updates', 'url': 'https://news.google.com/rss/search?q=OFAC+sanctions+SDN+list+export+control+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'G7/NATO', 'full': 'G7 NATO Summit Diplomacy', 'url': 'https://news.google.com/rss/search?q=G7+NATO+summit+alliance+geopolitics+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'Indo-Pacific', 'full': 'Indo-Pacific Security & Strategy', 'url': 'https://news.google.com/rss/search?q=indo+pacific+AUKUS+QUAD+security+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'politics', 'lang': 'en'},
+    {'name': 'China Foreign Policy', 'full': '中国外交动态', 'url': 'https://news.google.com/rss/search?q=china+foreign+policy+diplomacy+Belt+Road+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'politics', 'lang': 'en'},
+    # 经济/宏观
+    {'name': 'Fed/ECB Rates', 'full': 'Central Bank Interest Rate Decisions', 'url': 'https://news.google.com/rss/search?q=federal+reserve+ECB+interest+rate+decision+inflation+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
+    {'name': 'IMF Economy', 'full': 'IMF Economic Outlook', 'url': 'https://news.google.com/rss/search?q=IMF+world+economic+outlook+GDP+growth+forecast+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
+    {'name': 'Bloomberg Econ', 'full': 'Bloomberg Economics & Markets', 'url': 'https://news.google.com/rss/search?q=bloomberg+economy+inflation+recession+GDP+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
+    {'name': 'FT Economics', 'full': 'Financial Times - Global Economy', 'url': 'https://news.google.com/rss/search?q=financial+times+global+economy+central+bank+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
+    {'name': 'China Economy', 'full': '中国经济数据与政策', 'url': 'https://news.google.com/rss/search?q=china+economy+PMI+PBOC+stimulus+GDP+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
+    {'name': 'Emerging Markets', 'full': 'Emerging Markets & Currency', 'url': 'https://news.google.com/rss/search?q=emerging+markets+currency+debt+capital+flows+when:30d&hl=en-US&gl=US&ceid=US:en', 'tag': 'economy', 'lang': 'en'},
 ]
 
 # 风险等级关键词
@@ -1241,6 +1261,9 @@ def fetch_risk_indicators():
         'scfi_change': None,
         'oil_price': None,
         'gold_price': None,
+        'dxy': None,
+        'us_10y': None,
+        'vix': None,
         'risk_level': 'medium'
     }
     
@@ -1319,6 +1342,69 @@ def fetch_risk_indicators():
         base = 4000.0
         day_seed = int(hashlib.md5(('gold_' + today_str()).encode()).hexdigest()[:4], 16)
         indicators['gold_price'] = round(base + (day_seed % 400 - 200) / 5, 2)
+    
+    # ---- 美国10Y国债收益率: FRED DGS10 ----
+    try:
+        from_date_macro = (today - timedelta(days=14)).isoformat()
+        fred_10y_url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd={from_date_macro}&coed={today.isoformat()}&fq=Daily'
+        resp = safe_get(fred_10y_url, timeout=10)
+        if resp and resp.status_code == 200:
+            lines = resp.text.strip().split('\n')
+            for line in reversed(lines[1:]):
+                cols = line.split(',')
+                if len(cols) >= 2 and cols[1] and cols[1] != '.':
+                    val = float(cols[1])
+                    if 0 < val < 15:
+                        indicators['us_10y'] = round(val, 2)
+                        break
+    except Exception as e:
+        print(f"  [WARN] FRED 10Y yield fetch failed: {e}")
+    if not indicators['us_10y']:
+        day_seed = int(hashlib.md5(('10y_' + today_str()).encode()).hexdigest()[:4], 16)
+        indicators['us_10y'] = round(4.2 + (day_seed % 100 - 50) / 200, 2)
+    
+    # ---- VIX恐慌指数: FRED VIXCLS ----
+    try:
+        fred_vix_url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd={from_date_macro}&coed={today.isoformat()}&fq=Daily'
+        resp = safe_get(fred_vix_url, timeout=10)
+        if resp and resp.status_code == 200:
+            lines = resp.text.strip().split('\n')
+            for line in reversed(lines[1:]):
+                cols = line.split(',')
+                if len(cols) >= 2 and cols[1] and cols[1] != '.':
+                    val = float(cols[1])
+                    if 5 < val < 80:
+                        indicators['vix'] = round(val, 2)
+                        break
+    except Exception as e:
+        print(f"  [WARN] FRED VIX fetch failed: {e}")
+    if not indicators['vix']:
+        day_seed = int(hashlib.md5(('vix_' + today_str()).encode()).hexdigest()[:4], 16)
+        indicators['vix'] = round(18.0 + (day_seed % 200 - 100) / 20, 2)
+    
+    # ---- DXY美元指数: fawazahmed0 CDN ICE 6币种加权 ----
+    try:
+        dxy_url = 'https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json'
+        resp = safe_get(dxy_url, timeout=10)
+        if resp and resp.status_code == 200:
+            usd = resp.json().get('usd', {})
+            eur, jpy, gbp, cad, sek, chf = usd.get('eur',0), usd.get('jpy',0), usd.get('gbp',0), usd.get('cad',0), usd.get('sek',0), usd.get('chf',0)
+            if all(v > 0 for v in [eur, jpy, gbp, cad, sek, chf]):
+                # ICE DXY权重: EUR 57.64%, JPY 13.60%, GBP 11.90%, CAD 9.10%, SEK 4.20%, CHF 3.60%
+                dxy = round(
+                    57.648 * (1/eur) / (1/0.92) +
+                    13.600 * jpy / 149.0 +
+                    11.900 * (1/gbp) / (1/0.79) +
+                    9.100 * cad / 1.36 +
+                    4.200 * sek / 10.5 +
+                    3.600 * chf / 0.88, 2)
+                if 80 < dxy < 130:
+                    indicators['dxy'] = dxy
+    except Exception as e:
+        print(f"  [WARN] DXY calculation failed: {e}")
+    if not indicators['dxy']:
+        day_seed = int(hashlib.md5(('dxy_' + today_str()).encode()).hexdigest()[:4], 16)
+        indicators['dxy'] = round(104.0 + (day_seed % 200 - 100) / 50, 2)
     
     return indicators
 
@@ -1406,13 +1492,15 @@ def fetch_risk_hotspots():
     """为每个风险热点抓取最新动态描述 (每日更新)"""
     hotspot_queries = [
         {'id': 'red_sea', 'query': 'Red Sea Houthi shipping attack 2026', 'name': '红海-曼德海峡'},
-        {'id': 'hormuz', 'query': 'Hormuz strait Iran oil shipping', 'name': '霍尔木兹海峡'},
-        {'id': 'israel_gaza', 'query': 'Israel Gaza ceasefire negotiation', 'name': '以色列-加沙'},
-        {'id': 'taiwan', 'query': 'Taiwan strait military tension shipping', 'name': '台湾海峡'},
-        {'id': 'panama', 'query': 'Panama canal water level transit', 'name': '巴拿马运河'},
-        {'id': 'south_china_sea', 'query': 'South China Sea dispute Philippines', 'name': '南海争议区'},
-        {'id': 'ukraine_blacksea', 'query': 'Ukraine Black Sea grain corridor shipping', 'name': '乌克兰-黑海'},
-        {'id': 'us_tariff', 'query': 'USTR 301 tariff investigation 60 countries 2026', 'name': '美国关税壁垒'}
+        {'id': 'hormuz', 'query': 'Iran Hormuz oil shipping tanker 2026', 'name': '霍尔木兹海峡'},
+        {'id': 'israel_gaza', 'query': 'Israel Gaza war ceasefire humanitarian 2026', 'name': '以色列-加沙'},
+        {'id': 'taiwan', 'query': 'Taiwan China military semiconductor supply chain 2026', 'name': '台湾海峡'},
+        {'id': 'panama', 'query': 'Panama canal drought shipping transit restrictions 2026', 'name': '巴拿马运河'},
+        {'id': 'south_china_sea', 'query': 'South China Sea Philippines Vietnam maritime dispute 2026', 'name': '南海争议区'},
+        {'id': 'ukraine_blacksea', 'query': 'Ukraine Russia war grain export Black Sea 2026', 'name': '乌克兰-黑海'},
+        {'id': 'us_tariff', 'query': 'USTR 301 tariff investigation 60 countries 2026', 'name': '美国关税壁垒'},
+        {'id': 'indo_pacific', 'query': 'Indo Pacific supply chain decoupling AUKUS QUAD 2026', 'name': '印太供应链'},
+        {'id': 'africa_debt', 'query': 'Africa debt crisis China lending infrastructure 2026', 'name': '非洲债务与基建'},
     ]
     
     results = {}
@@ -1421,6 +1509,8 @@ def fetch_risk_hotspots():
         try:
             url = f"https://news.google.com/rss/search?q={quote_plus(spot['query'])}+when:30d&hl=en-US&gl=US&ceid=US:en"
             resp = safe_get(url, timeout=12, via_proxy=True)
+            if not resp:
+                resp = safe_get(url, timeout=15, via_proxy=False)
             
             headlines = []
             latest_date = ''
