@@ -3718,7 +3718,7 @@ def main():
         v2_script = os.path.join(script_dir, 'fetch_industry_trends.py')
         if os.path.exists(v2_script):
             print(f"\n[CHAIN] Invoking fetch_industry_trends.py ...")
-            _sp.run([sys.executable, v2_script], check=False, timeout=900)
+            _sp.run([sys.executable, v2_script], check=False, timeout=300)
         else:
             print(f"[CHAIN] fetch_industry_trends.py not found, skipped")
     except Exception as _e:
@@ -3732,7 +3732,7 @@ def main():
         build_script = os.path.join(script_dir, 'build_industry_trends_v2.py')
         if os.path.exists(build_script):
             print(f"\n[CHAIN] Invoking build_industry_trends_v2.py (live) ...")
-            _sp.run([sys.executable, build_script], check=False, timeout=900)
+            _sp.run([sys.executable, build_script], check=False, timeout=300)
         else:
             print(f"[CHAIN] build_industry_trends_v2.py not found, skipped")
     except Exception as _e:
