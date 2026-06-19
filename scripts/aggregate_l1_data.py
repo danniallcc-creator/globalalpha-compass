@@ -559,6 +559,19 @@ def main():
     print("=" * 60)
     print("Done.")
 
+    # === Workflow-scope-free fallback: stage industry_trends_v2.json ===
+    # The daily-update.yml workflow can't be modified (OAuth scope limit);
+    # ensure CI picks up industry_trends_v2.json by staging it here so the
+    # workflow's existing "git add" + commit step includes it.
+    try:
+        import subprocess as _sp
+        v2_path = os.path.join(os.path.dirname(OUTPUT_FILE), 'industry_trends_v2.json')
+        if os.path.exists(v2_path):
+            _sp.run(['git', 'add', v2_path], check=False)
+            print(f"[CHAIN] git add {v2_path}")
+    except Exception as _e:
+        print(f"[CHAIN] git add industry_trends_v2.json failed: {_e}")
+
 
 if __name__ == '__main__':
     main()

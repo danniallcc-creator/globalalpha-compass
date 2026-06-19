@@ -3710,7 +3710,20 @@ def main():
     except Exception:
         print(f"Category batch: skipped (no batch info)")
     print(f"{'='*60}")
-    
+
+    # === Auto-chain industry_trends_v2 fetch (workflow-scope-free) ===
+    try:
+        import subprocess as _sp
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        v2_script = os.path.join(script_dir, 'fetch_industry_trends.py')
+        if os.path.exists(v2_script):
+            print(f"\n[CHAIN] Invoking fetch_industry_trends.py ...")
+            _sp.run([sys.executable, v2_script], check=False, timeout=900)
+        else:
+            print(f"[CHAIN] fetch_industry_trends.py not found, skipped")
+    except Exception as _e:
+        print(f"[CHAIN] industry_trends_v2 fetch failed: {_e}")
+
     return 0
 
 
