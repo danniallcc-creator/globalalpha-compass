@@ -35,9 +35,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 10,
+      "interest_score": 0,
       "trend_direction": "down",
-      "avg_interest": 4.2,
+      "avg_interest": 9.2,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -168,54 +168,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台清洁家电关注度高，洗地机和扫地机器人市场竞争激烈但仍有空间",
@@ -266,17 +266,17 @@
         "trending_keywords": [
           {
             "keyword": "#CleanTok",
-            "volume": "42B views",
+            "volume": "49B views",
             "growth": 24.2
           },
           {
             "keyword": "#CleaningHacks",
-            "volume": "32B views",
+            "volume": "29B views",
             "growth": 40.3
           },
           {
             "keyword": "#HomeClean",
-            "volume": "57B views",
+            "volume": "40B views",
             "growth": -6.2
           }
         ],
@@ -286,52 +286,64 @@
     ]
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 13700058808,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 1667357613,
         "yoy": -12.1,
-        "share": 13.2
+        "share": 11.4
       },
       "DE": {
         "value_usd": 4167886467.4719954,
         "yoy": -2.7,
-        "share": 33.0
+        "share": 28.4
       },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": null,
-        "share": 13.3
+        "yoy": 2.8,
+        "share": 11.5
       },
       "GB": {
         "value_usd": 3374211388.828002,
         "yoy": 26.2,
-        "share": 26.7
+        "share": 23.0
       },
       "KR": {
         "value_usd": 769804434,
-        "yoy": 6.1,
-        "share": 6.1
-      },
-      "BR": {
-        "value_usd": 217194518,
         "yoy": null,
-        "share": 1.7
+        "share": 5.3
+      },
+      "AU": {
+        "value_usd": 783918988.0309999,
+        "yoy": 16.4,
+        "share": 5.3
       },
       "IT": {
         "value_usd": 267330441.736,
         "yoy": null,
-        "share": 2.1
+        "share": 1.8
       },
       "NL": {
         "value_usd": 195184675.40499997,
-        "yoy": null,
-        "share": 1.5
+        "yoy": 3.6,
+        "share": 1.3
+      },
+      "CA": {
+        "value_usd": 1458850337.3139987,
+        "yoy": 23.6,
+        "share": 9.9
       },
       "MX": {
         "value_usd": 294081804,
         "yoy": null,
-        "share": 2.3
+        "share": 2.0
       }
     }
   }

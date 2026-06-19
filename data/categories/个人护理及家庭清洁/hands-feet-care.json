@@ -36,8 +36,8 @@
   "global_trends": {
     "google_trends": {
       "interest_score": 0,
-      "trend_direction": "stable",
-      "avg_interest": 2.1,
+      "trend_direction": "down",
+      "avg_interest": 4.9,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -150,89 +150,12 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 5317833960,
-      "total_kg": 417833960,
-      "yoy_growth": -10,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 797675094,
-        "yoy": -4,
-        "share": 15.0
-      },
-      "DE": {
-        "value_usd": 771085924,
-        "yoy": 21,
-        "share": 14.5
-      },
-      "JP": {
-        "value_usd": 744496754,
-        "yoy": 12,
-        "share": 14.0
-      },
-      "GB": {
-        "value_usd": 717907584,
-        "yoy": 20,
-        "share": 13.5
-      },
-      "KR": {
-        "value_usd": 691318414,
-        "yoy": 19,
-        "share": 13.0
-      },
-      "AU": {
-        "value_usd": 664729245,
-        "yoy": -13,
-        "share": 12.5
-      },
-      "IN": {
-        "value_usd": 638140075,
-        "yoy": 14,
-        "share": 12.0
-      },
-      "BR": {
-        "value_usd": 292480867,
-        "yoy": 19,
-        "share": 5.5
-      },
-      "SA": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
-      },
-      "FR": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
-      },
-      "IT": {
-        "value_usd": 0,
-        "yoy": -7,
-        "share": 0.1
-      },
-      "NL": {
-        "value_usd": 0,
-        "yoy": 24,
-        "share": 0.1
-      },
-      "CA": {
-        "value_usd": 0,
-        "yoy": 6,
-        "share": 0.1
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -18,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": 36,
-        "share": 0.1
+        "value_usd": 2452391804,
+        "yoy": -21.5,
+        "share": 100.0
       }
     }
   }

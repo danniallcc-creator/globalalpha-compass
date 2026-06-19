@@ -35,12 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 23,
-      "trend_direction": "down",
-      "avg_interest": 52.9,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 70,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-19"
     }
   },
@@ -325,22 +323,22 @@
     "article_count": 5,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 0.0,
+      "positive_pct": 20.0,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 80.0,
       "articles_analyzed": 5
     },
     "top_headlines": [
       "A wind of change in Italy's wholesale produce markets - FreshPlaza",
       "New Canadian Food Blueprint Aims to Break Reliance on American Agriculture - The Packer",
-      "A vibrant fresh produce hub in the geographical heart of Europe - Hortidaily",
       "FMA pushes for practical Horticulture Code reform - Fruitnet",
-      "Tomatoes Become Latest Symbol of America’s Affordability Squeeze - WKTV"
+      "Tomatoes Become Latest Symbol of America’s Affordability Squeeze - WKTV",
+      "Asia Fruit Logistica expands China Study Tour Program for 2026 - FreshFruitPortal.com"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3JnOGRsSm8xeVBocWdxazQxRVZLNU5KWjFRLTBuN2lTd2pOd3NBa2xJaHpQLXFtQlpTMjBXVVFmUkNzNUJoWnotaXRaR1VmX0l0QkoySVJwaWU0Njl3QnhtbVNEMkloR25aSXd5X0VQbnVSS09YRldDZWJfOXdiaGJYcG05SW5kWTZsU0xjajRPREg3QXNPY0tRT3dBUTNtWG4wM25kN3BhWHhfWERCaw?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeE5yRFVpSWl6S08tMU91aFlPZE5vVUlJMXNYbUY3emlGczdjSDI1bXpHZEF2MmlGOHdMZVgtSHdZVWVGY1REMS0tQmtGNGdXaEQxRy1uc3hBR1hSMEN3djNVdHVJLWx0SnJTVDZoeERneFdXMW5mQlU2NTI5Z1dXa3g5UDBkOVJWc1Y1azB4S3gtUjVhd1B1bXZlaHZuSGds?oc=5",
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjd0ZFd3Y0xjdG5zSU1WSnVibjR3d254YVp3Tk41cXk5YkZhWlJ0TDIxYlNjemQxZGRLZmFrVG1DVHRmZ2VBT1VXR3dybWlVUWRNSFdlMElYZnZ5M2h5dGF1cVN3RjNyS3pvSVR3WjRyenpiOTlGM2dLUEpfei1ITERQYUc2R0pVZDZOV1BrNnhwcDBxVzJobWdpcU1zU25QYU01cXA5enFJbmc?oc=5"
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVFmVUVSUGhIN1ludURCRU5MUEhKZDk1M0ViZFBMcFRsZzVaVGNia094RS1hNFZWTzE4WlI0cEVvT0JqdkdxUEFzbWlGUWVaeEdOS0tiYm4ySkR4d251bkJxc1dRbkNwMEFEX1NhSkZLZGlwMjdQSklsMlY4YmF5S21CQl9ia2lyV09tRmtucXhrd1NuQUtuRmExYTdDd0tBUWdZRw?oc=5"
     ],
     "fetched_at": "2026-06-19"
   },
@@ -364,54 +362,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台\"Fresh Vegetables\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -462,17 +460,17 @@
         "trending_keywords": [
           {
             "keyword": "#TikTokMadeMeBuyIt",
-            "volume": "20B views",
+            "volume": "17B views",
             "growth": 7.4
           },
           {
             "keyword": "#AmazonFinds",
-            "volume": "51B views",
+            "volume": "40B views",
             "growth": 59.4
           },
           {
             "keyword": "#Trending",
-            "volume": "23B views",
+            "volume": "28B views",
             "growth": 25.0
           }
         ],
@@ -530,6 +528,18 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUmlsQjZfNnpISFBoaW53S0tlMUdyUUthN1F4TnRENm1IVkxX?oc=5",
         "published": "Thu, 18 Jun 2026",
         "source": "FreshPlaza"
+      },
+      {
+        "title": "The Ultimate Guide to Understanding Carbon Credits - CarbonCredits.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5\" target=\"_blank\">The Ultimate Guide to Understanding Carbon Credit",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbzVtQXdadERidmFhRS1WWHV6Q0xwQ0JBXy1uQ1FUOWI1Y0Y3eDdlRmlvdm9FNWlxMGRQTzYyQjN3QlhhM0lJaGNobEpjSjROTjNlVlRReGNPM0p1bzhJMVVyeWt6eV9IVFJjWFhqcXZpSkJsZklJNktzSDFKLXpkdmpXWQ?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "CarbonCredits.com"
       },
       {
         "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",

@@ -35,12 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 23,
-      "trend_direction": "up",
-      "avg_interest": 41.2,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 83,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-19"
     }
   },
@@ -149,52 +147,64 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 13700058808,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 1667357613,
         "yoy": -12.1,
-        "share": 13.2
+        "share": 11.4
       },
       "DE": {
         "value_usd": 4167886467.4719954,
         "yoy": -2.7,
-        "share": 33.0
+        "share": 28.4
       },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": null,
-        "share": 13.3
+        "yoy": 2.8,
+        "share": 11.5
       },
       "GB": {
         "value_usd": 3374211388.828002,
         "yoy": 26.2,
-        "share": 26.7
+        "share": 23.0
       },
       "KR": {
         "value_usd": 769804434,
-        "yoy": 6.1,
-        "share": 6.1
-      },
-      "BR": {
-        "value_usd": 217194518,
         "yoy": null,
-        "share": 1.7
+        "share": 5.3
+      },
+      "AU": {
+        "value_usd": 783918988.0309999,
+        "yoy": 16.4,
+        "share": 5.3
       },
       "IT": {
         "value_usd": 267330441.736,
         "yoy": null,
-        "share": 2.1
+        "share": 1.8
       },
       "NL": {
         "value_usd": 195184675.40499997,
-        "yoy": null,
-        "share": 1.5
+        "yoy": 3.6,
+        "share": 1.3
+      },
+      "CA": {
+        "value_usd": 1458850337.3139987,
+        "yoy": 23.6,
+        "share": 9.9
       },
       "MX": {
         "value_usd": 294081804,
         "yoy": null,
-        "share": 2.3
+        "share": 2.0
       }
     }
   }

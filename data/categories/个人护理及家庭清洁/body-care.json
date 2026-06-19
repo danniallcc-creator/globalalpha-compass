@@ -35,10 +35,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 61,
+      "interest_score": 30,
       "trend_direction": "up",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "avg_interest": 69.9,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },
@@ -148,19 +150,18 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 4,
+    "article_count": 3,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 25.0,
+      "positive_pct": 0.0,
       "negative_pct": 0.0,
-      "neutral_pct": 75.0,
-      "articles_analyzed": 4
+      "neutral_pct": 100.0,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "How amika Built a Hair Care Community That Stylists Actually Want to Be Part Of - ClickZ",
       "From Montessori Show & Tell To Suttons Bay's Newest Retail Store: The Story Of Freshwater Trading Co",
-      "World Body Serums & Oils - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-      "High Profit Margin Products: What To Sell in 2026 - Shopify"
+      "World Body Serums & Oils - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdng2WmpNNktXZHhHYUZ3OVdrbUxidjRVYUloM2x4VERUYTlPYjJCU2loeGNjYXdJaHMyeWtpVE52cVNacG9YOVp3UDVTaWxMYkpjU0IyM1JDN2NpR0VaUVJTT0lFdUt2ZDVkZDZjeWxIMEVDQXVQLTcwMzhfWWhKc1JJU3NyRkc0azdQdGZtNmxRb3dneS1KV25sd3ltTFVxZHhQN056WUJ1UQ?oc=5",
@@ -189,54 +190,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台\"Body Care\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -287,17 +288,17 @@
         "trending_keywords": [
           {
             "keyword": "#CarTok",
-            "volume": "6B views",
+            "volume": "41B views",
             "growth": 109.2
           },
           {
             "keyword": "#CarAccessories",
-            "volume": "55B views",
+            "volume": "11B views",
             "growth": 35.2
           },
           {
             "keyword": "#AutoDetail",
-            "volume": "5B views",
+            "volume": "51B views",
             "growth": 85.1
           }
         ],
@@ -309,6 +310,18 @@
   "policy_updates": {
     "articles": [
       {
+        "title": "World Trade Organization | International Trade Rules & Regulations - Britannica",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xZkswdF9WZ1puMjg1clpibjc2dC1kX1k5RUpLbXg2TkRBbnlIUElOcHJCYmtsN2NhUnRENjhYelctR0U0bDlKVnFTZVl3X19BYkdINFJkRGpZR0U4dHdpek1fRFJmY0dv?oc=5\" target=\"_blank\">World Trade Organization | International Trade Rules & Regulations</a>&nbsp;&nbsp;<font",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xZkswdF9WZ1puMjg1clpibjc2dC1kX1k5RUpLbXg2TkRBbnlIUElOcHJCYmtsN2NhUnRENjhYelctR0U0bDlKVnFTZVl3X19BYkdINFJkRGpZR0U4dHdpek1fRFJmY0dv?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "Britannica"
+      },
+      {
         "title": "EU Parliament votes through contentious Turnberry US trade deal - Confectionery Production",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNelVKODd3R3NpT2RMTVMtZGhUdGtkdnR1ZDVKOGFPa2QtOERENHJWTFZjSVVmNlJBb19qbTBzb2hleUNmd0UtOWlGVDJka0pOcDMwcG9MR2o1c1hsMFV3b0J0Wnd4Sng2aTlkWk9uVExiZVJrbDlmV2FMa04tWUtjTUN2amFVR0dVdTJLUGZKTGNva2hUQ2lxdUFPdkdfYzlwUy1JVmpNT3AxbHVYRm0wbDBDb0M3QQ?oc=",
         "country": "US",
@@ -319,6 +332,18 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNelVKODd3R3NpT2RMTVMtZGhUdGtkdnR1ZDVKOGFPa2QtOERENHJWTFZjSVVmNlJBb19qbTBzb2hleUNmd0UtOWlGVDJka0pOcDMwcG9MR2o1c1hsMFV3b0J0Wnd4Sng2aTlkWk9uVExiZVJrbDlmV2FMa04tWUtjTUN2amFVR0dVdTJLUGZKTGNva2hUQ2lxdUFPdkdfYzlwUy1JVmpNT3AxbHVYRm0wbDBDb0M3QQ?oc=5",
         "published": "Tue, 16 Jun 2026",
         "source": "Confectionery Production"
+      },
+      {
+        "title": "Northern America Incise Surgical Drapes Adhesive - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnFMUDJmZHZ0T0ctMk1BRDFaZ1FWSmJIaERZNXYyX0xNcUNsZTlIbFdkMlR4WGM0ZVQzUDFZaV9RSkp4TFFucVA5SG5QZFh2TUkteC1xSjBGV0ppUHh5eGh6Z2lqQWZPOVlWX0NwTWF0WXoyVzN0RVVadXVaS0dnTXU5b0Nmenl0NGlEcFJ6akkxUDRjOVpSUnpTVW53NHF1bkpMQXJVTXpIcHk0OUhlbExKYUxESW9RV0",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnFMUDJmZHZ0T0ctMk1BRDFaZ1FWSmJIaERZNXYyX0xNcUNsZTlIbFdkMlR4WGM0ZVQzUDFZaV9RSkp4TFFucVA5SG5QZFh2TUkteC1xSjBGV0ppUHh5eGh6Z2lqQWZPOVlWX0NwTWF0WXoyVzN0RVVadXVaS0dnTXU5b0Nmenl0NGlEcFJ6akkxUDRjOVpSUnpTVW53NHF1bkpMQXJVTXpIcHk0OUhlbExKYUxESW9RV0wzWEstS25aeXdkbU8yQw?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
       },
       {
         "title": "When trade regulation becomes industrial policy: Evidence from India’s automotive industry - Ideas for India",
@@ -345,6 +370,54 @@
         "source": "McMillan LLP"
       },
       {
+        "title": "World Cosmetic and Personal Care Emulsifier Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcVF4Z0Vkd3oyY0pmZmxTVmQzeUhHR05oNVliUGgtVkxaZVhScjRIaWlTcHRhdzRIVGtreHZFYW44T0NvcUxaMHpvc2lVRHlWS0JNd2Y1YVlpSk5sZm53QUhSeXpjS1hNR1lTM0ktXy1PX01uaGtwdGdtd2Ric2FvOTg3MmlyV2hlT0VkSy15c0NHRko3dkxwbVI0RVJEckp1WTB2Wm96YmF0ajAxVzNFejZ5N1M2OU85RH",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcVF4Z0Vkd3oyY0pmZmxTVmQzeUhHR05oNVliUGgtVkxaZVhScjRIaWlTcHRhdzRIVGtreHZFYW44T0NvcUxaMHpvc2lVRHlWS0JNd2Y1YVlpSk5sZm53QUhSeXpjS1hNR1lTM0ktXy1PX01uaGtwdGdtd2Ric2FvOTg3MmlyV2hlT0VkSy15c0NHRko3dkxwbVI0RVJEckp1WTB2Wm96YmF0ajAxVzNFejZ5N1M2OU85RHFFelFOTTNjNkVUcXVaVlE5VkFGYnlrdngyb1VISi0zbk1TSWQycExmUGRKTGZj?oc=5",
+        "published": "Mon, 15 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Global Supply Chains: A Foresight report on risk and resilience - GOV.UK",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYmYweUFFa1k5anVqSGdrMVR6WnREcHoxa09PNmlwbFJ4RHZ3cG9CODBWY1N0MW80UU9mSTI4U1N3R2trQlUyWGZnQWhnV3FhS0E1ZTUxcnZxYUVwSE5sMkFWbnpJTTExb0dZX3owMS1qYndvaUJSRjF6c0YyU2hQOTlsaTlqT0lqUUFwOUwzX3pMRmNFdTREN2JOeGFQVzRiWldPZjlUeGV5X1liN2x2QTdvRTdRUHVlaH",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYmYweUFFa1k5anVqSGdrMVR6WnREcHoxa09PNmlwbFJ4RHZ3cG9CODBWY1N0MW80UU9mSTI4U1N3R2trQlUyWGZnQWhnV3FhS0E1ZTUxcnZxYUVwSE5sMkFWbnpJTTExb0dZX3owMS1qYndvaUJSRjF6c0YyU2hQOTlsaTlqT0lqUUFwOUwzX3pMRmNFdTREN2JOeGFQVzRiWldPZjlUeGV5X1liN2x2QTdvRTdRUHVlaHhzRmk5WmNsTDJ0czJPemxraUJ6a28wRFNVNDMycUUwc29jVURxYklUWVV1TDRJMDJINTdBZTNaUno4eWRuc0gtX0M?oc=5",
+        "published": "Mon, 15 Jun 2026",
+        "source": "GOV.UK"
+      },
+      {
+        "title": "Northern America Protective Leg Covers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaU0wM0hCWnpRNVJfbVJZZkQxcTRXeHF4N3VyMjFicmE0UkNkcjNqSHZMT2tXbC15SlNZclZZcEZIWW9yZVJOZ1ZkMFlZcUJheDgwYV95VWdnT2pBQXQzVDg2NDZTamhHamFWWFNoeEtCUXVBVjlNV0U3VXlPa0phd2R0elFvUUI0NGlVdVl5OFNoZElJcFVJYlozQWVIaGVWdDU3TG1IWFgtdkJ6RDdCRjF6YmVFRGNDVF",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaU0wM0hCWnpRNVJfbVJZZkQxcTRXeHF4N3VyMjFicmE0UkNkcjNqSHZMT2tXbC15SlNZclZZcEZIWW9yZVJOZ1ZkMFlZcUJheDgwYV95VWdnT2pBQXQzVDg2NDZTamhHamFWWFNoeEtCUXVBVjlNV0U3VXlPa0phd2R0elFvUUI0NGlVdVl5OFNoZElJcFVJYlozQWVIaGVWdDU3TG1IWFgtdkJ6RDdCRjF6YmVFRGNDVF9v?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "European Union Body Condition Scoring Camera Sensors - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPbGtxNXhVelh4UlctUlhGTjl4TUVxa3ZsYVc2NGU2UURNVkpRTlk1VFRKMW51RHZ6aW1GaFFDSVRPWE5KOUVSVkJiTWJySFdVelZ3T0E3aDFROUh4R3BJUzRSa2F6RUpTZ1ROb0lReVowalRVaUtzUW52cjZJZVltQ0hQMzlpeW02N2ZPRGw5dnJVNUlSYUhSUFp5TzdHb3RxMng3ZUxxOEVCampsbFB4Nnp2RTF0Q0JzWU",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbGtxNXhVelh4UlctUlhGTjl4TUVxa3ZsYVc2NGU2UURNVkpRTlk1VFRKMW51RHZ6aW1GaFFDSVRPWE5KOUVSVkJiTWJySFdVelZ3T0E3aDFROUh4R3BJUzRSa2F6RUpTZ1ROb0lReVowalRVaUtzUW52cjZJZVltQ0hQMzlpeW02N2ZPRGw5dnJVNUlSYUhSUFp5TzdHb3RxMng3ZUxxOEVCampsbFB4Nnp2RTF0Q0JzWUVKQVhHcnV3R1dCYnIzSXlRU3R1QQ?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
         "title": "Africa Wearable on-Body Infusers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcWM3d3lHOUJpSDdkQ09vQldhTmlNMGJVcDQwSXFob0lEbnhHWjkxSUxuYmxNX3BXSEJ2Z1RoX2dwNHFZamsyRmdWVy1HQTUwcVJhQVVRdUd1X3hPMHM1ZGk3a3loN2RRTjVWcGNCVU41SFBOWGRKWDlaQlowRlh0U19JcTdiWDN5TS1hNVJyTjF2MzRLSXNpYzY0X0piYmtsRzBUbl94SHUtUkZFQUdRYVpzOA?oc=5\" t",
         "country": "US",
@@ -358,6 +431,13 @@
       }
     ],
     "country_summary": {
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
       "US": {
         "trend": "neutral",
         "key_policies": [
@@ -366,6 +446,13 @@
         "impact": "neutral"
       },
       "CA": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "EU": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
@@ -375,89 +462,12 @@
     }
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 5317833960,
-      "total_kg": 417833960,
-      "yoy_growth": -10,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 797675094,
-        "yoy": -4,
-        "share": 15.0
-      },
-      "DE": {
-        "value_usd": 771085924,
-        "yoy": 21,
-        "share": 14.5
-      },
-      "JP": {
-        "value_usd": 744496754,
-        "yoy": 12,
-        "share": 14.0
-      },
-      "GB": {
-        "value_usd": 717907584,
-        "yoy": 20,
-        "share": 13.5
-      },
-      "KR": {
-        "value_usd": 691318414,
-        "yoy": 19,
-        "share": 13.0
-      },
-      "AU": {
-        "value_usd": 664729245,
-        "yoy": -13,
-        "share": 12.5
-      },
-      "IN": {
-        "value_usd": 638140075,
-        "yoy": 14,
-        "share": 12.0
-      },
-      "BR": {
-        "value_usd": 292480867,
-        "yoy": 19,
-        "share": 5.5
-      },
-      "SA": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
-      },
-      "FR": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
-      },
-      "IT": {
-        "value_usd": 0,
-        "yoy": -7,
-        "share": 0.1
-      },
-      "NL": {
-        "value_usd": 0,
-        "yoy": 24,
-        "share": 0.1
-      },
-      "CA": {
-        "value_usd": 0,
-        "yoy": 6,
-        "share": 0.1
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -18,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": 36,
-        "share": 0.1
+        "value_usd": 2452391804,
+        "yoy": -21.5,
+        "share": 100.0
       }
     }
   }

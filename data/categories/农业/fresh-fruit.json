@@ -35,10 +35,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 56,
-      "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "interest_score": 45,
+      "trend_direction": "down",
+      "avg_interest": 73.5,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },
@@ -322,21 +324,21 @@
     "article_count": 5,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 80.0,
+      "positive_pct": 60.0,
       "negative_pct": 0.0,
-      "neutral_pct": 20.0,
+      "neutral_pct": 40.0,
       "articles_analyzed": 5
     },
     "top_headlines": [
       "Asia Fruit Logistica expands China Study Tour Program for 2026 - FreshFruitPortal.com",
-      "Expanded China tour to focus on retail and supply chain operations - FreshPlaza",
+      "\"I look back fondly on my years on Marconistraat\" - FreshPlaza",
       "Taiwan ships first major fruit consignment to Europe - Fruitnet",
       "Vietnam’s early-season fresh lychees win over the US market - moit.gov.vn",
       "Vietnamese lychee expands US market presence - vietnamnews.vn"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TeTctYjJNVEhjUUEtRUVSRGdoOURfUHNIRDkzWE5INkxVTjROZzZMWUdjV2x2NDg5X0JFU2ZHTWgybEEzejEtdVlkRW9Xc3hQQlNuTW5KWGk1amZlMnd3Njg4MkZuaWVDaVdoU1I2SXh3d3ls?oc=5",
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdUo0NXBlRUhnMmpVWEpCUV81b010cV9RbGttUHRKZVUteGtHNWJ5V1F6ZHdBRGQtRXNrYi1CeUVCMGswUG04UU44SVBjWUlEektfTHBHUHY3bk1CUzhHNERzdUozUEtNSXJCeG5CTXQ3cXlxSzRmalVGYzh1Q0l6ZVpGVXAxUmtuaGQ4X0p6eHZVMjhWLWhDdzQ0WUhIREMyOHlPNlpYdF82MVNZLWlOMy1pX0Nvc2pwRVR6UmEydmVxdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObi1JR1VmaHVZekM4RVJnNEh6UDRJdU9hbTZDcmoyNk5vNE92U0ZyVmNyU1Rqb1RtOTZCaWtaTmwybnZ0YTUwZTBUb1B2alQ5NUxYaDNwVzVsV2xSTlVOU0g5eFU4RHRablAtWFprcWg0dWdLbWYtNXZhZ09UaHNKbEQxaXlkOVhUOEx4Q0VwdkdHN19tUV9iT0RPY1RQYTg2WGN3c2tNZkU?oc=5",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSTZwbGhfLXgxZmJuMXhmbW5DbUxEb29uSmIwVUFyclR6bDFLMk0wLUpOeHk4b21VWUl4ZVdqMFQ4UGk1aDlhVkVqQndnT2NiZm51NlhXdlRZX3NXOWlRS0JLQlNEd3h4aWp0M3hHckpXNksxRGJmLWdJYnhMcHlvRE1uZ0NjV2RIWGtEbEJXRGxkbVBDc0pLbnY4eVFkMXY4T3VLSA?oc=5"
     ],
     "fetched_at": "2026-06-19"
@@ -361,54 +363,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台\"Fresh Fruit\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -459,17 +461,17 @@
         "trending_keywords": [
           {
             "keyword": "#TikTokMadeMeBuyIt",
-            "volume": "7B views",
+            "volume": "20B views",
             "growth": 7.4
           },
           {
             "keyword": "#AmazonFinds",
-            "volume": "45B views",
+            "volume": "22B views",
             "growth": 59.4
           },
           {
             "keyword": "#Trending",
-            "volume": "10B views",
+            "volume": "27B views",
             "growth": 25.0
           }
         ],
@@ -491,18 +493,6 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRmFkRHZTSXd2d2RSTUhXN1FyNnM5OHBWVUNrWGZEcmNvVDJfRXRMQlppLThNQV9TRGZEaThZS3AwcWJKXzR0Tl9RWlV0TTN5R2YtVWFETFJhaVlNZmdORVhMdUlIWkZvc2M2STNjX2FXdkxuX3FHUm1ZNnc?oc=5",
         "published": "Thu, 18 Jun 2026",
         "source": "Citrus Industry Magazine"
-      },
-      {
-        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWT",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWTBqcWpPcHRaUUpzam11cFlxOGNKbm1EdWhnRG5nVnh3eUlUTjA3aWNlckU1NHc?oc=5",
-        "published": "Tue, 16 Jun 2026",
-        "source": "Agroberichten Buitenland"
       },
       {
         "title": "Germany Says Trade Still Unharmed by Indonesia’s One-Gate Export - Jakarta Globe",

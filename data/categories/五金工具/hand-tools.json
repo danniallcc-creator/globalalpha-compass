@@ -63,10 +63,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 74,
+      "interest_score": 25,
       "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "avg_interest": 58.4,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },
@@ -257,21 +259,24 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 4,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
-      "negative_pct": 0.0,
-      "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "negative_pct": 25.0,
+      "neutral_pct": 75.0,
+      "articles_analyzed": 4
     },
     "top_headlines": [
       "Users Say This Popular Hand Tool Brand's Quality Is On The Decline - SlashGear",
+      "EU's 20th Sanctions Package Forces Kyrgyzstan's Hand on Russia Trade - Crude Oil Prices Today | OilP",
+      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala",
       "Data, dealers, and speed - how OPENLANE Gate Trade moves wholesale cars - AD HOC NEWS"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWprcVVTLVg0WkhJRzRGTk43LTAzMEVZSVpWOHZJMU9PLUpLQ1FNaEJYSTF4elp6V0dyRUtsM3RkTVJuLWZic0JMYXRYVUFKaXkxWDNEU2N6dU9mV3pYQlB4WXhzNDA4bUFTcTZSMWtYVEsyTFVXRlZ3cVFBUFI1eWVZaw?oc=5",
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1Z6QXA4MnltQjZtV0RyQkZ5MXpzMnhzVG1naWtyR3JiTm84dHM3NGlNeTN6aFJSbDlUcEpRbm9nem5LTENJSFZpT0NJY1NTOWJzM2lkanU1VEFsNXJzZWhCN3pXc1hvMHZfSy16SWdSMlFiZUthMFVqX1Z2b1J0TlhCOG1vbVVVOU55ZFNJLW5RMFlBN1l3aW1WbUdxWDR6dTluQjh3VnVKdlZNaHZwdWx5VmdmRDBhcEtnOXdKTzJPYzZI?oc=5"
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2JNRHlSR3A1cnJIUmhnSlBUZG9UMVhWNXhWbHBNSlllRjBsc1FrWEJXV29ESXllVHZTVzczM0RWVE05Y0wtYlBNdUgwSmthN09MaUV4MnpWUFBkaFFMZnV3bmRCRzUxRU5IZkJHYlVSbGNnV3ZkbzA3cG5hRmlWbmQ0V0RqVUlNX0E1VVlxNU1RM1dNZXRsb2l6NzZuRXdpeGwyNjd1SHhaODF1X1RyUVNqLWLSAboBQVVfeXFMT1FkRnRNdDdsNkVPZ042Uk5FNFVIbHNrVzE2b18xYVBYOVdvNGlKVU1rdW02ZmJ6S0kxSmVhLXhlRE5hcGFKeGFmYkJQUGE1WVZGY0VoNUhfM2p0YzNqRzlDRmNPU3B2c3RjdERYMHoyNUl3WTRIWldPdFB6UmZVazJSWGI1eG9idkd1Vkk3RzJhaExxZng1aHctQ1p3OWJVdnY2eFlQd2FPVkRTMkZNbUl6NS1TbUpQcFdB?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUlacldwUVB6djRJN0tleWpKQTFDOVk4c1NyWURhNEhXd3YxNks1c0JCYVhXd29iQ1pRTWxnNW54WWlGbFNVQlhweGVoRFNaNjJtOHBSS0hkUXBfMGlYaEVCNUJ1QWpQRFFxZ28ydjdrSFNvYzN0T3YzdWRKSjBoVVpwaS1QaWRIc1RCU1dqbEU0MWhlcU1zXzgtX1RaNjdkMjFHZlN0S0RfOFRXSWpuajVIVWgzQWJaTDk5VVU3UG1BeXZ2b2N1d2VLTXM?oc=5"
     ],
     "fetched_at": "2026-06-19"
   },
@@ -295,54 +300,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -393,17 +398,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "46B views",
+            "volume": "25B views",
             "growth": 84.7
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "51B views",
+            "volume": "34B views",
             "growth": 103.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "22B views",
+            "volume": "21B views",
             "growth": 78.1
           }
         ],
@@ -461,18 +466,6 @@
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd2tDc0VEWEZ1YlBXOWg5cGVZNEs5T3AtVExfN3hVRDgweUVlOUtBREp1Mlp4U19MaVVwU2x4SVhndVZBTGY1VWdHVDMwZms1TUlqVVRseFB4Y0lqZHdkR213eFVGS1ktbTM0NzNKWFNTcnNhTnU5bWxXS2gyMmVYc2pvcHZZMlBON0dmX2NUS3l3N19DaTRSWEtLQld6T1ZxR0lMZUI4OFl5bFkxMUlfaFFMNi1Nd1A3dzVzZWU4Yl9TTTluSzJXckkxQ1FLMVphaWZ5RkItcXNTbjJTTGdKZVhvYw?oc=5",
         "published": "Sun, 14 Jun 2026",
         "source": "IndexBox"
-      },
-      {
-        "title": "𝐊𝐞𝐧𝐲𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐬 𝐚𝐧𝐭𝐢-𝐜𝐨𝐮𝐧𝐭𝐞𝐫𝐟𝐞𝐢𝐭 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐝𝐞𝐯𝐢𝐜𝐞 𝐫𝐞𝐠𝐢𝐦𝐞 𝐭𝐨 𝐩𝐫𝐨𝐭𝐞𝐜𝐭 𝐜𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 The Anti-Counterfeit Authority (ACA) has an",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAlBVV95cUxPd3p3VEtaOGVUV20zZFhrRXo0T0t0ZkxQRWFPWld3Y29BQzhBZTNVNXBnYTgyVzRNeEN1Y0U3Z283a2EtU1YwOXhSQXRZVGJuOWRJajh4LUJ4YVc4TWtPcU9odTVqWl9hSC1Obnl6NUVHSi1lUzE3Q1RETzVnVzBnNjBrVS1WUTltZ2xrdEFhQTVPYWkwV3g1VDVLbUxkdTVDNnVHTUdSMk12aG9teDZoRFVoMUhYa3dJWX",
-        "country": "Unknown",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitAlBVV95cUxPd3p3VEtaOGVUV20zZFhrRXo0T0t0ZkxQRWFPWld3Y29BQzhBZTNVNXBnYTgyVzRNeEN1Y0U3Z283a2EtU1YwOXhSQXRZVGJuOWRJajh4LUJ4YVc4TWtPcU9odTVqWl9hSC1Obnl6NUVHSi1lUzE3Q1RETzVnVzBnNjBrVS1WUTltZ2xrdEFhQTVPYWkwV3g1VDVLbUxkdTVDNnVHTUdSMk12aG9teDZoRFVoMUhYa3dJWXFrdUVKLW8zLUU3S0JYbm1QTHNLQ2UtczBySHJPQ0MycTBqSVEzQWJfcUNqa0pjTkRZQWpRWURUeDRiQlIxMVF4Z1R1UVpTSzI4NjFfVm5OUGhqXzIyZnNoVDBzdi1RYVdDYnRhbVlMUTRjek5EcGo3Z0VEOFRfSlJucDZtSXBFWUZobUNfeVNiU0RkbHFQdXVvLVRMaEp1WnRBMmo0NkVTVGg5ak9iMGk2WmFTUE1iczZCTHlHZklFUVhMbzFldHJWamJVQThQa0lHYm9RR0lNZXJWcWxrQzlUU1VRREg2TzBhZnlXY2I0cGZBX21aMUhiUFlUQkFxa2w3WmJ4TEJMSnlaTldkeTBTZ2VqUWszLTU3dk5GaXhJMmF5aWw1V0hzSGdvc0ZST1BQREZUMWpZSmh2TGphRXpnSTQtQTM5cGZuY0dfdDQyRHo4Y2p1WlhlV0VGMXBoX0QybUJtV3ZuTXR6WW1wOGlrRERBbFYyM2ZxUHJTYUlvVGZjakJjZVJPSm04d0NTMXRLaS1KTjMzSVVRMjVBaGlsRkVFYXRYdi1XYmR5ZlRFR0Zuc0xCVTNteHg3dnBnTUVIS2xJNS1wd3NTeWJ5Yml3aUVsTWNmLUJVaWZvdlNOQVRDcHNPOHgxVUNPUFVycUpTTDg1bTg5VGFNb0R6dHYwU2dia1BQMDZhblc4V3JoU2FkM0N5b1hwUFNLWjN5cHRpMUNKS0g1RURJWFlQMzRxZncyN1B3RWpEOThZWXJaOXNpWUtxWkZ4M2ZncTVaT2V4SjViLWtXcGVsaDZ2OC1lVVVOZHM3blRucFZwMzRfb1BocHpOWkktZFo5eUxJVm1HeldzRjFSNW9BVGYtZ25SN2ZsMUdoLXBTYXRuSkp2Z0JDTFpkcFAxLU43UjZLOFZvNzhEai1IdVpZajlmSWFzV1NMaXBRcUdSalZ1SGFubHAtUFZvbXRJWmc3TGtudDE3WWVXR2NuVGJPcU9EX2xTb0tCN012WXFzX0QzY01yMG1mbW9tV3BROEZGeEhabXhpemVteTlTZk5LUDhvM0NZeTYzXzI0aEx5ZnNhTjFmRGhpUXlGWDd4Sll1OXg4M1BmTzVzalZ1LVZieWpXaFpNYk5yMFhPVVN3S1ZiRXh1blh6REVZcDc1eUVZSWdsYW1XWE5fMnR2SXc5OXBsYzdGR0tRZWJ1NU1PenF2SjVvSVlsc1R0UU5lM1RaY0ZTakZpVldES1R5Zl8tOFlCMG5IaEFwT3lyaWhFb01QM1FyeHlqU3E1VlM1T0puLTZsUWVpNloyenRTR0Z4R25uU3EyRFhzeHdRalZGT2NOdERfdjExTHNOODFpMkZQaERoTjJy?oc=5",
-        "published": "Thu, 18 Jun 2026",
-        "source": "facebook.com"
       }
     ],
     "country_summary": {
@@ -489,13 +482,6 @@
           "compliance"
         ],
         "impact": "positive"
-      },
-      "Unknown": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
       }
     }
   },

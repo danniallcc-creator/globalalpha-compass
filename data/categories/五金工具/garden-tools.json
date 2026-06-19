@@ -39,10 +39,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 42,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "interest_score": 30,
+      "trend_direction": "stable",
+      "avg_interest": 60.4,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },
@@ -234,18 +236,22 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 3,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 0.0,
+      "positive_pct": 33.3,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
-      "articles_analyzed": 1
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
     },
     "top_headlines": [
+      "Why a Harvest Basket Is the Garden Tool I Didn't Know I Needed - HGTV",
+      "AI chip demand drives 6% growth for Singapore in first quarter - France 24",
       "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWlRxdUw0Z0l0Y3VrM2gtZlYyY1RBOU15a09LYWlRTHVzZnVwRkozLXdyR1RmWmpIVmxRY3BPQjhrdW9wcTFYMHJydnZDR0Juclg1eE15cXNiem9Ya2RwOHYwWEFmNjZGc2ZLWWo5bVNaNE5sWXlMMWNHZ3M2cU0wZ0NzRzFEUjN2OGg1Yg?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTdxWEJLVV9SZkhXeU5tYmxWanI4UDQ5NWFJUUEzS1pTMThjR18yejl0REhrWGVDSDZlcHBTMVdreUxtVUpuczl5aThRMm5qVUZ5OGswUmVuVDlRNW1wa1RjeWpDQjVXWjRacmxqZjFkMlJaUGsydGh5M1ZyalQ4NXMyd0RzcEFyaU5XNWFLajdGblpBRV9xM0JLWTlsRHN3TlRGN2xGZW83UDBn?oc=5",
       "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUlacldwUVB6djRJN0tleWpKQTFDOVk4c1NyWURhNEhXd3YxNks1c0JCYVhXd29iQ1pRTWxnNW54WWlGbFNVQlhweGVoRFNaNjJtOHBSS0hkUXBfMGlYaEVCNUJ1QWpQRFFxZ28ydjdrSFNvYzN0T3YzdWRKSjBoVVpwaS1QaWRIc1RCU1dqbEU0MWhlcU1zXzgtX1RaNjdkMjFHZlN0S0RfOFRXSWpuajVIVWgzQWJaTDk5VVU3UG1BeXZ2b2N1d2VLTXM?oc=5"
     ],
     "fetched_at": "2026-06-19"
@@ -270,54 +276,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "juneteenth celebrations near me",
-            "volume": "100+",
-            "growth": 45.7
+            "keyword": "raphael collignon",
+            "volume": "500+",
+            "growth": 1.6
           },
           {
-            "keyword": "matt dunlap",
-            "volume": "100+",
-            "growth": 45.2
+            "keyword": "flash flood warning",
+            "volume": "20000+",
+            "growth": -9.8
           },
           {
-            "keyword": "norman reedus",
+            "keyword": "ugo humbert",
+            "volume": "500+",
+            "growth": 83.2
+          },
+          {
+            "keyword": "giorgia meloni",
+            "volume": "1000+",
+            "growth": 87.7
+          },
+          {
+            "keyword": "jjk season 4",
             "volume": "200+",
-            "growth": 60.4
+            "growth": -7.2
           },
           {
-            "keyword": "zohran mamdani democratic party critique",
+            "keyword": "jo frost",
             "volume": "200+",
-            "growth": 57.2
+            "growth": 55.3
           },
           {
-            "keyword": "darren raddysh",
-            "volume": "100+",
-            "growth": -20.0
+            "keyword": "jeanine pirro",
+            "volume": "500+",
+            "growth": 67.6
           },
           {
-            "keyword": "maris nichols",
-            "volume": "100+",
-            "growth": 122.5
-          },
-          {
-            "keyword": "elisha cuthbert",
-            "volume": "100+",
-            "growth": 66.1
-          },
-          {
-            "keyword": "fox news",
-            "volume": "5000+",
-            "growth": 112.2
-          },
-          {
-            "keyword": "tartan army",
+            "keyword": "keith richards",
             "volume": "200+",
-            "growth": 126.2
+            "growth": -18.1
           },
           {
-            "keyword": "quarterback",
-            "volume": "200+",
-            "growth": 79.0
+            "keyword": "gta vi",
+            "volume": "50000+",
+            "growth": 101.7
+          },
+          {
+            "keyword": "is spotify down",
+            "volume": "2000+",
+            "growth": 110.1
           }
         ],
         "business_opportunity": "YouTube平台\"Garden Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -368,17 +374,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "60B views",
+            "volume": "50B views",
             "growth": 84.7
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "5B views",
+            "volume": "7B views",
             "growth": 103.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "49B views",
+            "volume": "51B views",
             "growth": 78.1
           }
         ],
