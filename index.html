@@ -9,77 +9,274 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
+/* ===== BASE & BACKGROUND ===== */
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:linear-gradient(135deg,#0a0f1e 0%,#0d1b2e 50%,#0a0f1e 100%);font-family:'PingFang SC','Microsoft YaHei',sans-serif;color:#e2e8f0;min-height:100vh}
-.card{background:rgba(30,41,59,0.6);border:1px solid rgba(255,255,255,0.08);backdrop-filter:blur(12px);border-radius:16px}
-.card:hover{border-color:rgba(96,165,250,0.3);transform:translateY(-2px);transition:all .3s}
+body{
+  background:#06091a;font-family:'PingFang SC','Microsoft YaHei',sans-serif;color:#e2e8f0;min-height:100vh;
+  position:relative;overflow-x:hidden;
+}
+/* Animated grid overlay */
+body::before{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(59,130,246,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(59,130,246,.04) 1px,transparent 1px);
+  background-size:60px 60px;
+  animation:gridDrift 20s linear infinite;
+}
+@keyframes gridDrift{0%{background-position:0 0}100%{background-position:60px 60px}}
+/* Radial glow spots */
+body::after{
+  content:'';position:fixed;top:-30%;left:-10%;width:60vw;height:60vw;z-index:0;pointer-events:none;
+  background:radial-gradient(circle,rgba(59,130,246,.08) 0%,transparent 70%);
+  animation:glowFloat 15s ease-in-out infinite alternate;
+}
+@keyframes glowFloat{0%{transform:translate(0,0)}100%{transform:translate(15vw,10vh)}}
+/* Secondary glow */
+#glow-orb{
+  position:fixed;bottom:-20%;right:-10%;width:50vw;height:50vw;z-index:0;pointer-events:none;
+  background:radial-gradient(circle,rgba(139,92,246,.06) 0%,transparent 70%);
+  animation:glowFloat2 18s ease-in-out infinite alternate;
+}
+@keyframes glowFloat2{0%{transform:translate(0,0)}100%{transform:translate(-10vw,-8vh)}}
+
+/* Ensure all content is above the background effects */
+nav,.max-w-7xl,.tab-content{position:relative;z-index:1}
+
+/* ===== GLASSMORPHIC CARDS ===== */
+.card{
+  background:rgba(15,23,42,.65);
+  border:1px solid rgba(59,130,246,.12);
+  backdrop-filter:blur(16px) saturate(1.3);
+  border-radius:14px;
+  position:relative;
+  transition:all .35s cubic-bezier(.4,0,.2,1);
+}
+.card::before{
+  content:'';position:absolute;inset:-1px;border-radius:15px;padding:1px;
+  background:linear-gradient(135deg,rgba(59,130,246,.25),transparent 40%,transparent 60%,rgba(139,92,246,.2));
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:0;transition:opacity .35s;pointer-events:none;
+}
+.card:hover{
+  border-color:rgba(59,130,246,.3);
+  transform:translateY(-3px);
+  box-shadow:0 8px 32px rgba(59,130,246,.12),0 0 0 1px rgba(59,130,246,.1);
+}
+.card:hover::before{opacity:1}
+
+/* Corner accents for cards */
+.card-accent::after{
+  content:'';position:absolute;top:0;right:0;width:24px;height:24px;
+  border-top:2px solid rgba(59,130,246,.5);border-right:2px solid rgba(59,130,246,.5);
+  border-radius:0 14px 0 0;opacity:.5;transition:opacity .3s;
+}
+.card-accent:hover::after{opacity:1}
+
+/* ===== TAB SYSTEM ===== */
 .tab-content{display:none}
-.tab-content.active{display:block;animation:fadeIn .35s ease}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.tab-content.active{display:block;animation:tabReveal .5s cubic-bezier(.4,0,.2,1)}
+@keyframes tabReveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+/* ===== NAV PILLS ===== */
+.nav-pill{
+  padding:10px 22px;border-radius:10px;
+  border:1px solid rgba(59,130,246,.15);
+  background:rgba(15,23,42,.5);
+  backdrop-filter:blur(8px);
+  color:#94a3b8;cursor:pointer;font-size:.9rem;
+  transition:all .3s cubic-bezier(.4,0,.2,1);
+  position:relative;overflow:hidden;
+}
+.nav-pill::before{
+  content:'';position:absolute;bottom:0;left:50%;width:0;height:2px;
+  background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+  transition:all .3s;transform:translateX(-50%);
+}
+.nav-pill.active{
+  background:linear-gradient(135deg,rgba(59,130,246,.18),rgba(139,92,246,.15));
+  border-color:rgba(59,130,246,.4);
+  color:#e2e8f0;font-weight:600;
+  box-shadow:0 0 20px rgba(59,130,246,.15);
+}
+.nav-pill.active::before{width:60%}
+.nav-pill:hover:not(.active){
+  background:rgba(15,23,42,.8);color:#e2e8f0;
+  border-color:rgba(59,130,246,.25);
+  box-shadow:0 4px 12px rgba(59,130,246,.08);
+}
+
+/* ===== BADGES ===== */
+.badge{font-size:.7rem;padding:2px 8px;border-radius:99px;font-weight:600}
+.badge-up{background:rgba(34,197,94,.12);color:#4ade80;border:1px solid rgba(34,197,94,.2)}
+.badge-warn{background:rgba(251,191,36,.12);color:#fbbf24;border:1px solid rgba(251,191,36,.2)}
+.badge-down{background:rgba(239,68,68,.12);color:#f87171;border:1px solid rgba(239,68,68,.2)}
+
+/* ===== PROGRESS / RISK BARS ===== */
+.risk-bar{height:6px;border-radius:3px;background:rgba(255,255,255,.06)}
+.risk-fill{height:100%;border-radius:3px;transition:width 1s cubic-bezier(.4,0,.2,1);position:relative;overflow:hidden}
+.risk-fill::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+  animation:shimmer 2s infinite;
+}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+
+/* ===== INPUTS ===== */
+input[type=range]{accent-color:#60a5fa}
+.tech-input{
+  background:rgba(15,23,42,.6);
+  border:1px solid rgba(59,130,246,.2);
+  border-radius:50px;
+  transition:all .3s;
+  backdrop-filter:blur(8px);
+}
+.tech-input:focus{
+  border-color:rgba(59,130,246,.5);
+  box-shadow:0 0 0 3px rgba(59,130,246,.1),0 0 20px rgba(59,130,246,.1);
+}
+.tech-btn{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  position:relative;overflow:hidden;
+  transition:all .3s;border:none;
+}
+.tech-btn::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.1),transparent);
+  opacity:0;transition:opacity .3s;
+}
+.tech-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 4px 20px rgba(37,99,235,.35),0 0 40px rgba(124,58,237,.15);
+}
+.tech-btn:hover::before{opacity:1}
+
+/* ===== HERO SECTION ===== */
+.hero-title{
+  font-size:2.5rem;font-weight:800;letter-spacing:-.02em;
+  background:linear-gradient(135deg,#60a5fa,#a78bfa,#60a5fa);
+  background-size:200% 200%;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+  animation:gradientShift 4s ease-in-out infinite;
+}
+@keyframes gradientShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.hero-sub{color:rgba(148,163,184,.8);font-size:.95rem;letter-spacing:.05em}
+
+/* ===== SPIN / LOADING ===== */
 .spin{animation:spin 1s linear infinite}
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
-#world-map{height:480px;border-radius:12px}
-.badge{font-size:.7rem;padding:2px 8px;border-radius:99px;font-weight:600}
-.badge-up{background:rgba(34,197,94,.15);color:#4ade80}
-.badge-warn{background:rgba(251,191,36,.15);color:#fbbf24}
-.badge-down{background:rgba(239,68,68,.15);color:#f87171}
-.nav-pill{padding:10px 22px;border-radius:10px;border:1px solid rgba(96,165,250,.2);background:rgba(30,41,59,.5);color:#94a3b8;cursor:pointer;font-size:.9rem;transition:all .25s}
-.nav-pill.active{background:linear-gradient(135deg,rgba(59,130,246,.25),rgba(147,51,234,.25));border-color:#60a5fa;color:#e2e8f0;font-weight:600}
-.nav-pill:hover:not(.active){background:rgba(30,41,59,.8);color:#e2e8f0}
-.risk-bar{height:6px;border-radius:3px;background:rgba(255,255,255,.1)}
-.risk-fill{height:100%;border-radius:3px;transition:width .8s ease}
-input[type=range]{accent-color:#60a5fa}
-.leaflet-container{background:#0a0f1e}
-/* 风险热点脉冲动画 */
-.risk-pulse-wrapper{pointer-events:none !important}
-.risk-pulse{width:30px;height:30px;border-radius:50%;background:var(--pulse-color);opacity:.4;animation:riskPulse 2s infinite ease-out;pointer-events:none}
-@keyframes riskPulse{0%{transform:scale(.5);opacity:.7}70%{transform:scale(2.2);opacity:0}100%{transform:scale(.5);opacity:0}}
-/* 点击弹跳效果 */
-@keyframes markerBounce{0%{transform:scale(1)}30%{transform:scale(1.8)}50%{transform:scale(0.7)}70%{transform:scale(1.3)}100%{transform:scale(1)}}
-.marker-bounce{animation:markerBounce .6s ease}
-/* Leaflet popup暗色主题 */
-.dark-popup .leaflet-popup-content-wrapper{background:rgba(15,23,42,.95);color:#e2e8f0;border-radius:12px;border:1px solid rgba(96,165,250,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* ===== PULSE ANIMATIONS ===== */
+@keyframes techPulse{0%,100%{opacity:.6}50%{opacity:1}}
+.tech-pulse{animation:techPulse 2s ease-in-out infinite}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:rgba(15,23,42,.5)}
+::-webkit-scrollbar-thumb{background:rgba(59,130,246,.3);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:rgba(59,130,246,.5)}
+
+/* ===== WORLD MAP ===== */
+#world-map{height:480px;border-radius:14px;border:1px solid rgba(59,130,246,.1)}
+.leaflet-container{background:#06091a}
+.dark-popup .leaflet-popup-content-wrapper{background:rgba(15,23,42,.95);color:#e2e8f0;border-radius:12px;border:1px solid rgba(59,130,246,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
 .dark-popup .leaflet-popup-tip{background:rgba(15,23,42,.95)}
 .dark-popup .leaflet-popup-close-button{color:#94a3b8}
 .dark-popup .leaflet-popup-content{margin:12px 14px;line-height:1.4}
-.l2-card{border:1px solid rgba(255,255,255,0.08);border-radius:12px;margin-bottom:12px;overflow:hidden;background:rgba(30,41,59,.4)}
+
+/* ===== RISK PULSE ===== */
+.risk-pulse-wrapper{pointer-events:none !important}
+.risk-pulse{width:30px;height:30px;border-radius:50%;background:var(--pulse-color);opacity:.4;animation:riskPulse 2s infinite ease-out;pointer-events:none}
+@keyframes riskPulse{0%{transform:scale(.5);opacity:.7}70%{transform:scale(2.2);opacity:0}100%{transform:scale(.5);opacity:0}}
+@keyframes markerBounce{0%{transform:scale(1)}30%{transform:scale(1.8)}50%{transform:scale(0.7)}70%{transform:scale(1.3)}100%{transform:scale(1)}}
+.marker-bounce{animation:markerBounce .6s ease}
+
+/* ===== DEMAND MATRIX V2 ===== */
+.l2-card{border:1px solid rgba(59,130,246,.1);border-radius:12px;margin-bottom:12px;overflow:hidden;background:rgba(15,23,42,.5);backdrop-filter:blur(8px);transition:all .3s}
+.l2-card:hover{border-color:rgba(59,130,246,.25);box-shadow:0 4px 20px rgba(59,130,246,.08)}
 .l2-header{padding:16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
-.l2-header:hover{background:rgba(255,255,255,0.03)}
+.l2-header:hover{background:rgba(59,130,246,.03)}
 .l2-body{padding:0 16px 16px;display:none}
 .l2-body.expanded{display:block}
 .region-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:6px;font-size:.75rem;margin:2px}
-.region-high{background:rgba(34,197,94,0.2);color:#4ade80}
-.region-medium{background:rgba(251,191,36,0.2);color:#fbbf24}
-.region-low{background:rgba(100,116,139,0.2);color:#94a3b8}
-.region-none{background:rgba(51,65,85,0.3);color:#475569}
+.region-high{background:rgba(34,197,94,.15);color:#4ade80;border:1px solid rgba(34,197,94,.2)}
+.region-medium{background:rgba(251,191,36,.15);color:#fbbf24;border:1px solid rgba(251,191,36,.2)}
+.region-low{background:rgba(100,116,139,.15);color:#94a3b8;border:1px solid rgba(100,116,139,.2)}
+.region-none{background:rgba(51,65,85,.2);color:#475569;border:1px solid rgba(51,65,85,.3)}
 .l2-toggle{transition:transform .2s;font-size:.75rem;color:#64748b}
 .l2-toggle.open{transform:rotate(90deg)}
-.l3-item{padding:6px 10px;border-left:2px solid rgba(96,165,250,.2);margin-bottom:4px;font-size:.8rem;color:#cbd5e1}
-.l3-item:hover{border-left-color:#60a5fa;background:rgba(96,165,250,.05)}
-.kw-tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;margin:2px;background:rgba(139,92,246,.12);color:#a78bfa}
-.export-bar{height:6px;border-radius:3px;background:linear-gradient(90deg,#3b82f6,#8b5cf6);transition:width .5s ease}
-.dm-summary-card{background:rgba(30,41,59,.5);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:16px;margin-top:16px}
-.suggest-chip{display:inline-block;padding:4px 14px;margin:3px;border-radius:20px;border:1px solid rgba(96,165,250,0.3);background:rgba(30,41,59,0.6);color:#94a3b8;cursor:pointer;font-size:.85rem;transition:all .2s}
-.suggest-chip:hover{background:rgba(59,130,246,0.2);color:#e2e8f0;border-color:#60a5fa}
+.l3-item{padding:6px 10px;border-left:2px solid rgba(59,130,246,.2);margin-bottom:4px;font-size:.8rem;color:#cbd5e1;transition:all .2s}
+.l3-item:hover{border-left-color:#60a5fa;background:rgba(59,130,246,.05)}
+.kw-tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;margin:2px;background:rgba(139,92,246,.1);color:#a78bfa;border:1px solid rgba(139,92,246,.15)}
+.export-bar{height:6px;border-radius:3px;background:linear-gradient(90deg,#3b82f6,#8b5cf6);transition:width .6s cubic-bezier(.4,0,.2,1);position:relative;overflow:hidden}
+.export-bar::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent);animation:shimmer 2.5s infinite}
+.dm-summary-card{background:rgba(15,23,42,.5);border:1px solid rgba(59,130,246,.08);border-radius:14px;padding:16px;margin-top:16px;backdrop-filter:blur(8px)}
+.suggest-chip{display:inline-block;padding:4px 14px;margin:3px;border-radius:20px;border:1px solid rgba(59,130,246,.25);background:rgba(15,23,42,.6);color:#94a3b8;cursor:pointer;font-size:.85rem;transition:all .25s;backdrop-filter:blur(4px)}
+.suggest-chip:hover{background:rgba(59,130,246,.15);color:#e2e8f0;border-color:#60a5fa;box-shadow:0 0 12px rgba(59,130,246,.15)}
 .suggest-chip .chip-type{font-size:.65rem;color:#64748b;margin-left:4px}
 .hidden{display:none}
 .suggest-msg{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+
+/* ===== STAGGER ANIMATION FOR LISTS ===== */
+.stagger-in > *{opacity:0;animation:staggerFade .4s ease forwards}
+.stagger-in > *:nth-child(1){animation-delay:.05s}
+.stagger-in > *:nth-child(2){animation-delay:.1s}
+.stagger-in > *:nth-child(3){animation-delay:.15s}
+.stagger-in > *:nth-child(4){animation-delay:.2s}
+.stagger-in > *:nth-child(5){animation-delay:.25s}
+@keyframes staggerFade{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+
+/* ===== COUNTRY SCORE RING GLOW ===== */
+.score-ring{filter:drop-shadow(0 0 6px rgba(59,130,246,.3))}
+
+/* ===== SECTION DIVIDER ===== */
+.section-line{
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(59,130,246,.3),transparent);
+  margin:2rem 0;
+}
+
+/* ===== NAV BAR GLOW LINE ===== */
+.nav-glow{
+  position:relative;
+}
+.nav-glow::after{
+  content:'';position:absolute;bottom:0;left:10%;right:10%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(59,130,246,.4),rgba(139,92,246,.3),transparent);
+}
+
+/* ===== TABLE STYLES ===== */
+.tech-table{width:100%;border-collapse:separate;border-spacing:0}
+.tech-table th{
+  padding:8px 12px;font-size:.75rem;color:#64748b;font-weight:500;
+  text-align:left;border-bottom:1px solid rgba(59,130,246,.1);
+  text-transform:uppercase;letter-spacing:.05em;
+}
+.tech-table td{
+  padding:8px 12px;font-size:.85rem;color:#cbd5e1;
+  border-bottom:1px solid rgba(255,255,255,.04);
+}
+.tech-table tr:hover td{background:rgba(59,130,246,.03)}
 </style>
 </head>
 <body>
+<div id="glow-orb"></div>
 
 <!-- ===== NAV ===== -->
-<nav class="sticky top-0 z-50 bg-black/30 backdrop-blur-lg border-b border-white/5 px-8 py-4 flex justify-between items-center">
-  <div class="flex items-center gap-2">
+<nav class="nav-glow sticky top-0 z-50 bg-black/40 backdrop-blur-xl px-8 py-4 flex justify-between items-center">
+  <div class="flex items-center gap-3">
     <img src="https://sc01.alicdn.com/kf/H3859a09df1744790885e33482ab9a9bej.png"
          alt="globe"
-         style="width:2em;height:2em;object-fit:cover;border-radius:50%;mix-blend-mode:screen;background:transparent;">
+         style="width:2.2em;height:2.2em;object-fit:cover;border-radius:50%;mix-blend-mode:screen;background:transparent;filter:drop-shadow(0 0 8px rgba(59,130,246,.3))">
     <div>
-      <div class="font-bold text-lg">载堉视界 <span class="text-blue-400">Zaiyu's</span> Horizon</div>
-      <div class="text-xs text-gray-500">全球跨境情报平台 · 实时驱动</div>
+      <div class="font-bold text-lg tracking-tight">载堉视界 <span class="text-blue-400">Zaiyu's</span> Horizon</div>
+      <div class="text-xs text-gray-500 tracking-wider">全球跨境情报平台 · 实时驱动</div>
     </div>
   </div>
-  <div id="clock" class="text-xs text-gray-400"></div>
+  <div id="clock" class="text-xs text-gray-400 font-mono tracking-wider"></div>
 </nav>
 
 <!-- ===== MAIN NAV TABS ===== -->
@@ -98,16 +295,18 @@ input[type=range]{accent-color:#60a5fa}
 <div id="tab-compass" class="tab-content">
 
   <!-- Hero search -->
-  <div class="text-center mb-10">
-    <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">全球 80% 消费地图罗盘</h1>
-    <p class="text-gray-400">覆盖 32 个海关品类 · 15 国实时评分 · AI 合规匹配</p>
+  <div class="text-center mb-12 pt-6">
+    <h1 class="hero-title mb-4">全球 80% 消费地图罗盘</h1>
+    <p class="hero-sub">覆盖 55 个海关品类 · 48 个一级分类 · 15 国实时评分 · AI 合规匹配</p>
   </div>
   <div class="max-w-2xl mx-auto mb-10 relative">
-    <input id="search-input" type="text" placeholder="输入产品类目，如：户外储能、陶瓷产品、玩具..."
-      class="w-full bg-white/5 border border-white/15 rounded-full py-4 px-8 text-base outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-    <button onclick="runCompass()" class="absolute right-2 top-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 text-white font-semibold rounded-full px-8 py-2 transition-all">
-      开启罗盘
-    </button>
+    <div class="relative">
+      <input id="search-input" type="text" placeholder="输入产品类目，如：户外储能、陶瓷产品、玩具..."
+        class="tech-input w-full py-4 px-8 text-base outline-none text-white placeholder-gray-500">
+      <button onclick="runCompass()" class="tech-btn absolute right-2 top-2 text-white font-semibold rounded-full px-8 py-2 cursor-pointer">
+        开启罗盘
+      </button>
+    </div>
   </div>
   <div id="search-suggestions" class="hidden mt-3 text-sm max-w-2xl mx-auto"></div>
 
