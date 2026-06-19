@@ -715,7 +715,10 @@ input[type=range]{accent-color:var(--c-cyan)}
     <button class="nav-pill text-sm py-2 px-4" onclick="filterNews('energy',this)">能源</button>
     <button class="nav-pill text-sm py-2 px-4" onclick="filterNews('shipping',this)">航运</button>
     <button class="nav-pill text-sm py-2 px-4" onclick="filterNews('policy',this)">政策</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="filterNews('politics',this)">政治</button>
+    <button class="nav-pill text-sm py-2 px-4" onclick="filterNews('economy',this)">经济</button>
   </div>
+  <div id="macro-dashboard" class="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6"></div>
   <div id="news-loading" class="text-center py-10 text-gray-500">
     <div class="spin inline-block w-6 h-6 border-2 border-blue-400 border-t-transparent rounded-full mb-3"></div>
     <p>正在加载实时情报...</p>
@@ -3452,11 +3455,42 @@ var NEWS_STATIC = [
   {tag:'policy',risk:'med',title:'美国CPSC强化中国产品检测要求：认证成本增40%',summary:'美国《产品安全现代化法案》新规要求中国制造消费品须通过CPSC认可的美国/欧盟第三方实验室检测(不含中国境内实验室)，玩具、儿童用品、小家电Q3起强制执行，认证周期延长2-3个月。',time:'12天前',src:'CPSC',src_full:'U.S. Consumer Product Safety Commission',url:'https://www.cpsc.gov/Newsroom'},
   {tag:'energy',risk:'low',title:'欧洲天然气TTF价格稳定：制造业竞争力持续改善',summary:'欧洲LNG进口基础设施扩容完成后天然气供应充足，TTF价格稳定在EUR 26-30/MWh，较2022年高峰下降92%。能源成本正常化为中欧贸易中化工、铝、玻璃等能源密集型产品提供竞争力支撑。',time:'15天前',src:'ENTSO-G',src_full:'European Network of TSOs for Gas',url:'https://www.entsog.eu/'},
   {tag:'trade',risk:'low',title:'沙特MISA新政：中国制造企业享15年免税+本地优先',summary:'沙特投资部更新制造业FDI优惠政策，对在沙特设立工厂的中国企业提供15年企业所得税豁免、2%政府采购加分、工业用地7折优惠。利雅得/吉达工业区中国企业已突破240家。',time:'18天前',src:'MISA Saudi',src_full:'Saudi Ministry of Investment',url:'https://www.misa.gov.sa/en/'},
-  {tag:'shipping',risk:'med',title:'全球港口拥堵指数回升：亚洲主要枢纽港等待时间增加',summary:'受红海绕行导致船舶调配失衡影响，新加坡、上海、宁波港等待时间增至3-5天，集装箱周转率下降12%。空箱回流问题突出，旺季前订舱建议提前35-45天。',time:'20天前',src:'Drewry',src_full:'Drewry Maritime Research',url:'https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry'}
+  {tag:'shipping',risk:'med',title:'全球港口拥堵指数回升：亚洲主要枢纽港等待时间增加',summary:'受红海绕行导致船舶调配失衡影响，新加坡、上海、宁波港等待时间增至3-5天，集装箱周转率下降12%。空箱回流问题突出，旺季前订舱建议提前35-45天。',time:'20天前',src:'Drewry',src_full:'Drewry Maritime Research',url:'https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry'},
+  // 政治/地缘政治情报
+  {tag:'politics',risk:'high',title:'北约华盛顿峰会：成员国承诺GDP 5%国防开支+印太扩展',summary:'北约32个成员国在华盛顿峰会上达成历史性协议，将国防开支目标从GDP 2%提升至5%，并首次将印太安全纳入核心议程。日本、韩国、澳大利亚、新西兰领导人出席，QUAD机制与北约对接深化。俄罗斯和中国发表联合声明谴责"集团对抗"。',time:'1天前',src:'Reuters',src_full:'Reuters Geopolitics',url:'https://www.reuters.com/world/'},
+  {tag:'politics',risk:'high',title:'美国OFAC扩大二级制裁范围：中资银行合规压力骤增',summary:'美国财政部OFAC更新SDN清单，新增47个实体(含3家中资银行海外分支机构)，针对涉俄/涉伊交易实施二级制裁。中资银行在美清算通道面临合规审查加严，部分银行已暂停特定SWIFT报文类型。',time:'3天前',src:'OFAC',src_full:'U.S. Treasury OFAC',url:'https://ofac.treasury.gov/'},
+  {tag:'politics',risk:'high',title:'台海军事演习频率翻倍：半导体供应链"去风险"加速',summary:'2026上半年解放军台海周边军演频次同比翻倍，美日韩联合巡航常态化。台积电、三星加速在美国/日本/欧洲设厂，全球半导体供应链"友岸外包"(friendshoring)趋势不可逆。出口管制实体清单新增89家中国企业。',time:'5天前',src:'CSIS',src_full:'Center for Strategic & International Studies',url:'https://www.csis.org/'},
+  {tag:'politics',risk:'med',title:'G7广岛进程：关键矿产供应链"去中国化"路线图发布',summary:'G7领导人发布《广岛关键矿产安全宣言》，计划在2030年前建立替代中国的关键矿产供应链(锂/钴/稀土/镍)。澳大利亚、加拿大、刚果(金)、智利被确定为优先合作伙伴。中国商务部回应称"反对泛安全化"。',time:'7天前',src:'Chatham House',src_full:'Chatham House',url:'https://www.chathamhouse.org/'},
+  {tag:'politics',risk:'med',title:'非洲之角地缘重组：埃塞俄比亚-索马里兰协议引发连锁反应',summary:'埃塞俄比亚与索马里兰签署港口准入备忘录引发索马里强烈抗议，土耳其、埃及、Eritrea介入博弈。红海-亚丁湾-印度洋航运安全格局面临新一轮地缘重组，吉布提美军基地地位受质疑。',time:'10天前',src:'Foreign Affairs',src_full:'Foreign Affairs',url:'https://www.foreignaffairs.com/'},
+  // 经济/宏观情报
+  {tag:'economy',risk:'high',title:'美联储6月议息：维持利率5.25-5.50%不变，点阵图暗示年内降息1次',summary:'美联储FOMC 6月会议维持联邦基金利率5.25-5.50%不变，最新点阵图中位数暗示2026年内仅降息1次(25bp)。鲍威尔强调"通胀粘性超预期，不急于降息"。市场定价9月降息概率降至42%，美元指数DXY反弹至105.2。',time:'2天前',src:'Fed',src_full:'Federal Reserve',url:'https://www.federalreserve.gov/monetarypolicy.htm'},
+  {tag:'economy',risk:'high',title:'中国5月经济数据不及预期：PMI连续3月在荣枯线下方',summary:'中国5月制造业PMI为49.2(预期49.8)，连续3个月位于50荣枯线下方。工业增加值同比增3.8%(预期4.3%)，社会消费品零售增2.7%(预期3.5%)。央行MLF利率维持2.50%不变，市场押注Q3降准50bp。',time:'4天前',src:'Bloomberg',src_full:'Bloomberg Economics',url:'https://www.bloomberg.com/economics'},
+  {tag:'economy',risk:'med',title:'欧央行6月降息25bp至4.25%：欧元区经济温和复苏',summary:'欧洲央行(ECB)6月议息会议降息25个基点至4.25%(主要再融资利率)，符合市场预期。拉加德表示"通胀下行趋势确立但尚未胜利"。欧元区Q1 GDP终值确认为环比+0.3%，制造业PMI回升至47.3但仍处收缩区间。',time:'6天前',src:'ECB',src_full:'European Central Bank',url:'https://www.ecb.europa.eu/press/pr/date/'},
+  {tag:'economy',risk:'med',title:'新兴市场资本外流加速：印度卢比创新低，土耳其里拉再崩',summary:'美联储鹰派立场推动美元走强，新兴市场面临资本外流压力。印度卢比兑美元跌至84.2历史新低，土耳其里拉单日贬值3.7%。外资连续第4周净卖出新兴市场债券(累计流出$28B)。VIX升至19.8，风险偏好回落。',time:'8天前',src:'FT',src_full:'Financial Times',url:'https://www.ft.com/global-economy'}
 ];
 
 var allNews = NEWS_STATIC.slice();
 var currentNewsFilter = 'all';
+
+// 宏观指标仪表盘
+function renderMacroDashboard(ri) {
+  var el = $el('macro-dashboard');
+  if(!el || !ri) return;
+  var items = [
+    {label:'DXY 美元指数', val:ri.dxy, unit:'', fmt:function(v){return v ? v.toFixed(1) : '--';}, color:ri.dxy>106?'#f87171':ri.dxy<100?'#4ade80':'#fbbf24'},
+    {label:'US 10Y 国债', val:ri.us_10y, unit:'%', fmt:function(v){return v ? v.toFixed(2)+'%' : '--';}, color:ri.us_10y>5?'#f87171':'#fbbf24'},
+    {label:'VIX 恐慌指数', val:ri.vix, unit:'', fmt:function(v){return v ? v.toFixed(1) : '--';}, color:ri.vix>25?'#f87171':ri.vix>18?'#fbbf24':'#4ade80'},
+    {label:'SCFI 运价', val:ri.scfi_index, unit:'', fmt:function(v){return v ? v.toLocaleString() : '--';}, color:ri.scfi_index>2500?'#f87171':'#fbbf24'},
+    {label:'Brent 原油', val:ri.oil_price, unit:'$', fmt:function(v){return v ? '$'+v.toFixed(1) : '--';}, color:ri.oil_price>100?'#f87171':ri.oil_price<80?'#4ade80':'#fbbf24'},
+    {label:'Gold 黄金', val:ri.gold_price, unit:'$', fmt:function(v){return v ? '$'+v.toFixed(0) : '--';}, color:'#fbbf24'}
+  ];
+  el.innerHTML = items.map(function(it){
+    return '<div class="card p-3 text-center">' +
+      '<div class="text-[10px] text-gray-500 mb-1">' + it.label + '</div>' +
+      '<div class="text-lg font-bold" style="color:' + (it.val ? it.color : '#475569') + '">' + it.fmt(it.val) + '</div>' +
+    '</div>';
+  }).join('');
+}
 
 // ============================================================
 // 工具函数
@@ -3522,6 +3556,7 @@ function fetchNews() {
       if(d.risk_indicators && d.risk_indicators.scfi_index) {
         var scfiMap = $el('m-shipping-idx');
         if(scfiMap) scfiMap.textContent = d.risk_indicators.scfi_index.toLocaleString();
+        renderMacroDashboard(d.risk_indicators);
       }
       // 缓存运价数据供地图Tab使用
       if(d.freight_pricing && d.freight_pricing.rates) {
