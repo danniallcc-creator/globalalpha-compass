@@ -7970,8 +7970,42 @@ function runDemandAnalysis() {
     window._demandMatrixV2 = data;
     var catData = data.categories[cat];
     if(!catData) {
-      resultEl.innerHTML = '<p class="text-gray-500 text-sm" style="padding:20px">暂无该品类的V2需求矩阵数据</p>';
-      return;
+      // Defensive alias resolution for common short names
+      var aliasMap = {
+        '建材':'建材与房地产','水泥':'建材与房地产','陶瓷':'建材与房地产','门窗':'建材与房地产',
+        '玩具':'母婴&玩具','母婴':'母婴&玩具',
+        '汽车用品':'汽车用品、电子及工具设备','汽配':'汽车零配件',
+        '电子元器件':'电子元器件、配件及通讯','电子':'电子元器件、配件及通讯','通讯':'电子元器件、配件及通讯',
+        '服装':'服装及配饰','鞋':'鞋靴及配饰','箱包':'箱包',
+        '家电':'家用电器','灯具':'灯具照明','照明':'灯具照明',
+        '运动':'运动及娱乐','娱乐':'运动及娱乐',
+        '食品':'食品及饮料','饮料':'食品及饮料',
+        '美妆':'美妆','化妆品':'美妆',
+        '面料':'面料及纺织原材料','纺织':'面料及纺织原材料',
+        '金属':'金属与合金','合金':'金属与合金',
+        '橡胶':'橡胶与塑料制品','塑料':'橡胶与塑料制品',
+        '医疗':'医疗器械和用品','医疗器械':'医疗器械和用品',
+        '宠物':'宠物用品及食品','环保':'环保','农业':'农业'
+      };
+      var resolved = aliasMap[cat];
+      if(resolved && data.categories[resolved]) {
+        catData = data.categories[resolved];
+        cat = resolved;
+      } else {
+        // Fuzzy substring match on L1 keys
+        var keys = Object.keys(data.categories);
+        for(var ki=0;ki<keys.length;ki++){
+          if(keys[ki].indexOf(cat) >= 0 || cat.indexOf(keys[ki]) >= 0) {
+            catData = data.categories[keys[ki]];
+            cat = keys[ki];
+            break;
+          }
+        }
+      }
+      if(!catData) {
+        resultEl.innerHTML = '<p class="text-gray-500 text-sm" style="padding:20px">暂无该品类的V2需求矩阵数据</p>';
+        return;
+      }
     }
 
     var l2List = catData.l2_list || [];

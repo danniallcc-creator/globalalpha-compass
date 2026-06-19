@@ -61,6 +61,28 @@ def load_json(path):
         return None
 
 
+def sanitize_l1_dir(l1_cn):
+    """Resolve L1 Chinese name to its on-disk directory name.
+
+    Three L1 names contain '&' or '、' characters that were replaced with '-'
+    when the per-category JSON files were written (e.g. '母婴&玩具' -> '母婴-玩具',
+    '电子元器件、配件及通讯' -> '电子元器件-配件及通讯').
+    Probe a few candidates and return the first that exists, falling back to the
+    literal name if nothing matches.
+    """
+    if not l1_cn:
+        return l1_cn
+    candidates = [
+        l1_cn,
+        l1_cn.replace("&", "-").replace("、", "-"),
+        l1_cn.replace("&", "_").replace("、", "_"),
+    ]
+    for c in candidates:
+        if os.path.isdir(os.path.join(CATEGORIES_DIR, c)):
+            return c
+    return l1_cn
+
+
 def build_l1_en_map(category_index):
     """Build L1 Chinese -> English name map from category_index."""
     m = {}
@@ -311,6 +333,22 @@ def main():
         l1_en = l1_en_map.get(l1_cn, "")
         l2_list = []
 
+        # First pass: aggregate L1-level regional profile from all sibling L2s
+        l1_region_amounts = defaultdict(float)
+        l1_region_products = defaultdict(set)
+        l1_dir = sanitize_l1_dir(l1_cn)
+        for l2_cat in l1_cat.get("l2_categories", []):
+            l2_slug = l2_cat.get("slug", "")
+            detail_path = os.path.join(CATEGORIES_DIR, l1_dir, f"{l2_slug}.json")
+            detail_data = load_json(detail_path)
+            export_data = detail_data.get("export_data") if detail_data else None
+            sib_exports = aggregate_regional_exports(export_data)
+            for r, info in sib_exports.items():
+                l1_region_amounts[r] += info.get("amount", 0)
+                for p in info.get("products", set()):
+                    l1_region_products[r].add(p)
+        l1_levels = compute_demand_levels(dict(l1_region_amounts))
+
         for l2_cat in l1_cat.get("l2_categories", []):
             l2_cn = l2_cat.get("cn", "")
             l2_en = l2_cat.get("en", "")
@@ -320,8 +358,8 @@ def main():
             # L3 items
             l3_items = [item.get("cn", "") for item in l2_cat.get("l3_items", []) if item.get("cn")]
 
-            # Try to load detail file
-            detail_path = os.path.join(CATEGORIES_DIR, l1_cn, f"{l2_slug}.json")
+            # Try to load detail file (some L1 dirs sanitize '&'/'、' to '-')
+            detail_path = os.path.join(CATEGORIES_DIR, l1_dir, f"{l2_slug}.json")
             detail_data = load_json(detail_path)
 
             # HS codes
@@ -339,15 +377,39 @@ def main():
             region_amounts = {r: info["amount"] for r, info in region_exports.items()}
             levels = compute_demand_levels(region_amounts)
 
+            # Fallback: if this L2 has no demand signal at all but the L1 does,
+            # inherit a downscaled version of the L1 profile so the user still
+            # sees regional priorities derived from sibling categories.
+            l2_has_signal = any(lv != "none" for lv in levels.values())
+            inherited_from_l1 = False
+            if not l2_has_signal and any(lv != "none" for lv in l1_levels.values()):
+                levels = dict(l1_levels)
+                # Demote one tier (high->medium, medium->low) to reflect the
+                # inference is indirect rather than measured.
+                demote = {"high": "medium", "medium": "low", "low": "low", "none": "none"}
+                levels = {r: demote[v] for r, v in levels.items()}
+                inherited_from_l1 = True
+
             regional_demand = {}
+            l3_fallback_products = [s for s in l3_items[:3]] or get_l2_products(detail_data, l2_cat)[:3]
             for region in REGIONS:
                 level = levels.get(region, "none")
                 info = region_exports.get(region, {})
                 prods = sorted(info.get("products", set()))[:5] if info.get("products") else []
-                # If no products from export data, use L3 names
                 if not prods and level != "none":
-                    prods = get_l2_products(detail_data, l2_cat)[:3]
-                insight = generate_insight(region, info, levels)
+                    if inherited_from_l1:
+                        # Prefer L2's own L3 names; sibling products often contain
+                        # unrelated HS-code labels that read as noise.
+                        prods = l3_fallback_products[:3]
+                        if not prods:
+                            sib_prods = sorted(l1_region_products.get(region, set()))[:3]
+                            prods = sib_prods
+                    else:
+                        prods = get_l2_products(detail_data, l2_cat)[:3] or l3_fallback_products
+                if inherited_from_l1 and level != "none":
+                    insight = f"参考{l1_cn}板块同类需求，{region}存在潜在采购机会（基于行业整体出口结构推断）"
+                else:
+                    insight = generate_insight(region, info, levels)
                 regional_demand[region] = {
                     "demand_level": level,
                     "products": prods,
@@ -355,7 +417,17 @@ def main():
                 }
 
             # Demand intersection
-            demand_intersection = build_demand_intersection(levels, region_exports)
+            if inherited_from_l1:
+                active_regions = [r for r, lv in levels.items() if lv in ("high", "medium")]
+                if active_regions:
+                    demand_intersection = (
+                        f"{', '.join(active_regions)}等地区在{l1_cn}板块整体表现活跃，"
+                        f"该子品类可参考板块整体节奏布局"
+                    )
+                else:
+                    demand_intersection = "暂无显著跨区域需求交叉"
+            else:
+                demand_intersection = build_demand_intersection(levels, region_exports)
 
             # China export
             china_export = compute_china_export(export_data)
