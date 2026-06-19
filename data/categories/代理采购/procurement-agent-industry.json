@@ -74,10 +74,12 @@
   ],
   "global_trends": {
     "google_trends": {
-      "interest_score": 58,
+      "interest_score": 13,
       "trend_direction": "up",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "avg_interest": 2.4,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },

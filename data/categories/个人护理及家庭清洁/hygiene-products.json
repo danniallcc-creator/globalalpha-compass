@@ -40,10 +40,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 71,
-      "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "interest_score": 33,
+      "trend_direction": "down",
+      "avg_interest": 63.9,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-19"
     }
   },
@@ -152,25 +154,23 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 3,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 20.0,
+      "positive_pct": 33.3,
       "negative_pct": 0.0,
-      "neutral_pct": 80.0,
-      "articles_analyzed": 5
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "Investigation Nebula: EPPO arrests leaders of organised criminal group in €78 million VAT fraud prob",
-      "Bulk Cargo Ship Arrives in Cuba Carrying Aid from China - The Maritime Executive",
       "Flexitanks Market Size, Share, Growth, Analysis, Report, 2034 - Straits Research",
-      "Singapore keeps 2026 economic growth forecast at 2-4%, citing higher downside risks from Iran war - ",
       "Cairo Oils & Soap stock (EGS30581C010): Egypt’s edible oil player in focus after recent trading ac -"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEdKLVYwc3JUUFdvT0x3eUZpb3VzT1pxVFlVNUFHUnQwMURuVU5VdHh1Z3RiaU9MMTJVbHZ4MncycWQ3TTJHQXZwcnA4LWp3V29Xak1jOFJ1dmFWbUhZWElIOFpROG96YnRoNzY0SDFGWTV2WVpWd2JjTnNXUFRyQl9zNkR5NmpPRkhGR2dQRTR1c0J4QWdVVjZwdFFXbkNiVHQwTU9IQlpkbnRCM2I5YmltclpEVFJHaUVkLVRpeEpEZw?oc=5",
-      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWjJXUFdsNGh2LXVuRHo3U1JxRXc2ancwQ3h6MGlLWXpQVE9PY01nMTVkVk80R3BQSl9HY3IxNHl5OThiaXZSYUtfNmhyOENHZXdTaFBXUFp3dGxILTZhQ0EzbmxLUkFRRkJwSG04TkdtMjBrcElOcGxhdWJvVUFHdWlhODZKZ0ZISU9uRWlIblZfQ3Q0bnhWbEtn?oc=5",
-      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TbEdNOFFhNXZnc0p3ZGliLUdfcUd0QzBBbERTblJvSlY5UHExQ1ZaM1RzeERZaVV3M1UwV2piUVk1cHZwc2ZKUmNYbEtNWU1tYW92Nlc3aC1OR3V0TXdTbGNn?oc=5"
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TbEdNOFFhNXZnc0p3ZGliLUdfcUd0QzBBbERTblJvSlY5UHExQ1ZaM1RzeERZaVV3M1UwV2piUVk1cHZwc2ZKUmNYbEtNWU1tYW92Nlc3aC1OR3V0TXdTbGNn?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3hCdTN6dkYtQmhrOTQ4eDRxT1ByU1RfZ05BcUJsMDhFWmxIQkRMTGZNblRxMWxSajZfT3dlTnZnb3hNcU1UOTlUNVk2ZDV3b0d4OVh3WWNsTzQ0dGk5cWRJV0FKUlpPS3lDOXVYRXhZbGpsazhJY2NJdE5TWkZOZ1pQV2JOaXhwdzBLSWFkNWhTeGkxazNtM0VBeU1WU3p0U3lFOUM0a1lhbS1UUW9FT0tzZU94bXFVVkNrTXAzamZZOTZa?oc=5"
     ],
     "fetched_at": "2026-06-19"
   },
@@ -247,7 +247,7 @@
     "imports_from_china": {
       "US": {
         "value_usd": 2625942598,
-        "yoy": null,
+        "yoy": -37.5,
         "share": 7.8
       },
       "DE": {
@@ -257,12 +257,12 @@
       },
       "JP": {
         "value_usd": 1904358895.6330001,
-        "yoy": null,
+        "yoy": 3.1,
         "share": 5.7
       },
       "GB": {
         "value_usd": 9288800680.807993,
-        "yoy": null,
+        "yoy": 2.5,
         "share": 27.7
       },
       "KR": {
@@ -272,7 +272,7 @@
       },
       "AU": {
         "value_usd": 2629154042.566,
-        "yoy": null,
+        "yoy": 3.5,
         "share": 7.8
       },
       "BR": {
