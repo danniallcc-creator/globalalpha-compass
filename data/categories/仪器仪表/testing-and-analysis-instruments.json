@@ -212,5 +212,98 @@
         "法制计量器须型式承认"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "检测与分析仪器：海外社媒「meter factory tour」增速 251%，搜索端「instrument wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Instruments Meters market poised for...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "product_profile": {
+      "外观": "手持便携 / 台式精密 / IP67 工业级",
+      "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
+      "工艺": "校准溯源 / 无尘装配 / ISO 17025",
+      "色彩": "工业黑 / 警示黄 / 仪器灰",
+      "包装": "防震铝合金箱 / 防静电 / 校准证书",
+      "技术趋势": "物联网在线监测 / AI 预测校准 / 微型化"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 检测与分析仪器 出口需通过合规认证",
+      "美国 FCC 电磁兼容认证 → 电子类 检测与分析仪器 合规刚需",
+      "欧盟 ATEX 防爆认证 → 工业 检测与分析仪器 进入危险环境必备",
+      "印度市场 YoY +26% 领跑 医疗器械 出口 → 检测与分析仪器需求强劲",
+      "海外社媒「meter factory tour」增速 251% 领跑 → 检测与分析仪器社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "meter factory tour",
+        "growth": 251.0,
+        "vol": "783K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "instrument wholesale supplier",
+        "growth": 246.5,
+        "vol": "799K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "instrument breaking",
+        "growth": 244.5,
+        "vol": "131K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "instrument wholesale supplier",
+        "growth": 243.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "meter b2b export",
+        "growth": 190.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Instruments Meters market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/instruments-meters-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: instruments meters sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/instruments-meters-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Testing and Analysis Instruments - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Testing and Analysis Instruments Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "instruments",
+    "generated_at": "2026-06-19",
+    "l1_ref": "仪器仪表"
   }
 }

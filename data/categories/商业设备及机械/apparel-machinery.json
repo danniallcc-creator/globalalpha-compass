@@ -278,5 +278,96 @@
         "电商小单快反柔性供应链"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "服装机械：海外社媒「commercial equipment price trend」增速 251%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Commercial Equipment market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
+      "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
+      "工艺": "数码直喷印花 / 热切割无缝 / 3D 立体剪裁",
+      "色彩": "大地色系 / 多巴胺色 / 年度流行色（WGSN）",
+      "包装": "可降解玉米淀粉袋 / 再生纸吊牌 / 无塑料衣架",
+      "技术趋势": "AI 虚拟试衣 / 数字产品护照 DPP / 按需生产（On-Demand）"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 服装机械 出口需通过合规认证",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 服装机械需求强劲",
+      "海外社媒「commercial equipment price trend」增速 251% 领跑 → 服装机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "commercial equipment price trend",
+        "growth": 251.0,
+        "vol": "325K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "commercial equipment industry report",
+        "growth": 249.5,
+        "vol": "398K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "commercial equipment supply chain",
+        "growth": 249.5,
+        "vol": "96K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment b2b export",
+        "growth": 206.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment wholesale supplier",
+        "growth": 189.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Commercial Equipment market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/commercial-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: commercial equipment sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/commercial-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Apparel Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Apparel Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "apparel_fashion",
+    "generated_at": "2026-06-19",
+    "l1_ref": "商业设备及机械"
   }
 }

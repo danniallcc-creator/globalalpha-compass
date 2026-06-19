@@ -437,5 +437,98 @@
         "可持续认证面料溢价销售"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "面料：海外社媒「fabric b2b export」增速 223%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-46，CNBC关注「Textile Fabric market poised for growth...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "product_profile": {
+      "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
+      "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
+      "工艺": "数码印花 / 无缝针织 / 环保染整（Oeko-Tex）",
+      "色彩": "Pantone 年度色 / 植物染 / 数码渐变",
+      "包装": "卷筒装 / 真空压缩 / 再生纸管",
+      "技术趋势": "数字产品护照 DPP / 无水染色 / 3D 织造零废料"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
+      "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
+      "海外社媒「fabric b2b export」增速 223% 领跑 → 面料社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "fabric b2b export",
+        "growth": 223.0,
+        "vol": "7K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 193.0,
+        "vol": "252K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "fabric aesthetic",
+        "growth": 186.0,
+        "vol": "383K",
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fabric b2b export",
+        "growth": 220.0,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 58,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Textile Fabric market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/textile-fabric-2026",
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: textile fabric sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/textile-fabric-2026",
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "JP",
+        "rank": 46,
+        "title": "Top textile - Eco Edition",
+        "price": "$102.4",
+        "rating": 4.5,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 41,
+        "title": "Top fabric - Heavy-Duty Edition",
+        "price": "$31.5",
+        "rating": 4.0,
+        "hits": 2
+      }
+    ],
+    "domain": "textiles",
+    "generated_at": "2026-06-19",
+    "l1_ref": "面料及纺织原材料"
   }
 }

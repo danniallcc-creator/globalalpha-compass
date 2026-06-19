@@ -40,5 +40,97 @@
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "艺术用品：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
+    "product_profile": {
+      "外观": "极简北欧 / 日系手帐 / 商务黑",
+      "成分": "再生纸 FSC / 大豆油墨 / 无酸纸",
+      "工艺": "胶装 / 锁线装 / 烫金",
+      "色彩": "莫兰迪色 / 马卡龙 / 经典黑",
+      "包装": "收缩膜 / 开窗纸盒",
+      "技术趋势": "智能笔（数码同步）/ 可擦写笔记本 / 订阅制"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 艺术用品 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 艺术用品 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 艺术用品 通关",
+      "海外社媒「office supplies price trend」增速 239% 领跑 → 艺术用品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "office supplies price trend",
+        "growth": 239.0,
+        "vol": "353K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "stationery review 2026",
+        "growth": 236.5,
+        "vol": "359K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "stationery analyst",
+        "growth": 236.5,
+        "vol": "221K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "office supplies b2b export",
+        "growth": 179.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "stationery wholesale supplier",
+        "growth": 159.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Office Stationery market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/office-stationery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: office stationery sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/office-stationery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Art Supplies - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Art Supplies Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "office_stationery",
+    "generated_at": "2026-06-19",
+    "l1_ref": "办公文教用品"
+  }
 }

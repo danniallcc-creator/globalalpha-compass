@@ -284,5 +284,98 @@
         "BIS先行，Part 3机械重点检查"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "食品饮料机械：海外社媒「industrial machinery aesthetic」增速 255%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Industrial Machinery market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "透明可视包装 / 极简日系 / 国风插画",
+      "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
+      "工艺": "低温冻干 / HPP 超高压杀菌 / 氮气锁鲜",
+      "色彩": "高饱和多巴胺 / 天然色系（抹茶绿/可可棕）",
+      "包装": "可降解 PLA / 铝箔自立袋 / FSC 纸盒",
+      "技术趋势": "功能性食品（NMN/胶原蛋白）/ 个性化订阅 / 碳足迹标签"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 食品饮料机械 出口需通过合规认证",
+      "英国 UKCA 后脱欧认证 → 食品饮料机械 出口英国独立要求",
+      "印度 BIS 强制注册 → 14 亿人口市场 食品饮料机械 准入",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 食品饮料机械需求强劲",
+      "海外社媒「industrial machinery aesthetic」增速 255% 领跑 → 食品饮料机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery aesthetic",
+        "growth": 255.0,
+        "vol": "641K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery b2b export",
+        "growth": 243.0,
+        "vol": "620K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "industrial machinery top 10",
+        "growth": 231.5,
+        "vol": "590K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 240.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 91.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Industrial Machinery market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/industrial-machinery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: industrial machinery sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/industrial-machinery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Food & Beverage Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Food & Beverage Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "food_beverage",
+    "generated_at": "2026-06-19",
+    "l1_ref": "工业机械"
   }
 }

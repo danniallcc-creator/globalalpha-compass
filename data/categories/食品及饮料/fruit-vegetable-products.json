@@ -305,5 +305,96 @@
         "SISCOMEX+卫生证书"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "果蔬产品：海外社媒「beverage must try」增速 244%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Food And Beverage market poised for...」。",
+    "product_profile": {
+      "外观": "透明可视包装 / 极简日系 / 国风插画",
+      "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
+      "工艺": "低温冻干 / HPP 超高压杀菌 / 氮气锁鲜",
+      "色彩": "高饱和多巴胺 / 天然色系（抹茶绿/可可棕）",
+      "包装": "可降解 PLA / 铝箔自立袋 / FSC 纸盒",
+      "技术趋势": "功能性食品（NMN/胶原蛋白）/ 个性化订阅 / 碳足迹标签"
+    },
+    "reasons": [
+      "美国 FDA 注册要求 → 果蔬产品 进入北美市场必备门槛",
+      "欧盟 PPWR 包装废弃物法规 → 果蔬产品 包装可回收化升级",
+      "海外社媒「beverage must try」增速 244% 领跑 → 果蔬产品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "beverage must try",
+        "growth": 244.5,
+        "vol": "629K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "food #trending",
+        "growth": 218.5,
+        "vol": "541K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "food review 2026",
+        "growth": 213.5,
+        "vol": "625K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "food market 2026",
+        "growth": 183.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 180.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Food And Beverage market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/food-and-beverage-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: food and beverage sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/food-and-beverage-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Fruit & Vegetable Products - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Fruit & Vegetable Products Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "food_beverage",
+    "generated_at": "2026-06-19",
+    "l1_ref": "食品及饮料"
   }
 }

@@ -259,5 +259,98 @@
         "食品接触须厚生省确认"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "橡胶原料：海外社媒「rubber top 10」增速 248%，搜索端「rubber market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Rubber Plastic market poised for growth...」，出口 YoY +18%，主要流向 美国 / 日本 / 越南。",
+    "product_profile": {
+      "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
+      "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
+      "工艺": "连续流反应 / 膜分离 / GMP 车间",
+      "色彩": "标识色（UN 危规标签）",
+      "包装": "HDPE 桶 / IBC 吨桶 / UN 认证危包",
+      "技术趋势": "生物基替代 / 碳捕捉 CCU 原料 / 数字化 SDS"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 橡胶原料 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 橡胶原料 出口需通过合规认证",
+      "美国 FDA 注册要求 → 橡胶原料 进入北美市场必备门槛",
+      "印度市场 YoY +18% 领跑 塑料制品 出口 → 橡胶原料需求强劲",
+      "海外社媒「rubber top 10」增速 248% 领跑 → 橡胶原料社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "rubber top 10",
+        "growth": 247.5,
+        "vol": "178K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "plastic unboxing",
+        "growth": 237.0,
+        "vol": "289K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "rubber supply chain",
+        "growth": 234.5,
+        "vol": "131K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "rubber market 2026",
+        "growth": 172.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "rubber wholesale supplier",
+        "growth": 128.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Rubber Plastic market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/rubber-plastic-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: rubber plastic sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/rubber-plastic-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Rubber Raw Materials - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Rubber Raw Materials Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "chemicals",
+    "generated_at": "2026-06-19",
+    "l1_ref": "橡胶与塑料制品"
   }
 }

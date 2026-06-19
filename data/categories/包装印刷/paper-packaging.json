@@ -117,5 +117,97 @@
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "纸质包装：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」。",
+    "product_profile": {
+      "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
+      "成分": "再生纸浆 / 大豆油墨 / 水性光油",
+      "工艺": "数码短版印刷 / 烫金 UV / 模切压痕",
+      "色彩": "四色 CMYK / Pantone 专色 / 金属色",
+      "包装": "托盘 + 缠绕膜 / 平装发货",
+      "技术趋势": "可降解材料 / 智能标签（NFC/RFID）/ 按需印刷 / 可持续设计"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 纸质包装 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 纸质包装 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 纸质包装 通关",
+      "海外社媒「printing trending now」增速 248% 领跑 → 纸质包装社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "printing trending now",
+        "growth": 248.0,
+        "vol": "234K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "printing unboxing",
+        "growth": 239.0,
+        "vol": "454K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "packaging tiktok made me buy",
+        "growth": 228.5,
+        "vol": "50K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "packaging market 2026",
+        "growth": 214.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "printing b2b export",
+        "growth": 114.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Packaging Printing market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/packaging-printing-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: packaging printing sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/packaging-printing-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Paper Packaging - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Paper Packaging Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "packaging_printing",
+    "generated_at": "2026-06-19",
+    "l1_ref": "包装印刷"
+  }
 }

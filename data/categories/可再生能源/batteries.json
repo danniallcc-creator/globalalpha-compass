@@ -481,5 +481,98 @@
         "ALMM外产品加征关税"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "电池：海外社媒「energy storage viral」增速 254%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Renewable Energy market poised for...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "product_profile": {
+      "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
+      "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
+      "工艺": "CTP/CTC 一体化封装 / 半片多主栅 / 双面双玻",
+      "色彩": "哑光白 / 石墨灰 / 黑色全黑组件（BIPV 建筑一体化）",
+      "包装": "瓦楞纸 + 可降解 EPS / 符合欧盟 PPWR 包装法规",
+      "技术趋势": "AI EMS 能量管理 / 阳台储能即插即用 / V2G 双向逆变 / 钙钛矿叠层"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 电池 出口需通过合规认证",
+      "印度 BIS 强制注册 → 14 亿人口市场 电池 准入",
+      "日本 PSE 电气安全认证 → 电池 进入日本必备",
+      "越南市场 YoY +28% 领跑 集成电路 出口 → 电池需求强劲",
+      "海外社媒「energy storage viral」增速 254% 领跑 → 电池社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "energy storage viral",
+        "growth": 253.5,
+        "vol": "585K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "battery factory tour",
+        "growth": 248.0,
+        "vol": "720K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "photovoltaic market alert",
+        "growth": 248.0,
+        "vol": "566K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "photovoltaic b2b export",
+        "growth": 244.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 176.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Renewable Energy market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/renewable-energy-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: renewable energy sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/renewable-energy-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Batteries - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Batteries Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "renewable_energy",
+    "generated_at": "2026-06-19",
+    "l1_ref": "可再生能源"
   }
 }

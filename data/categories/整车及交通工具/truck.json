@@ -136,5 +136,96 @@
   },
   "compliance_summary": "ECE/EEC type approval, DOT/EPA compliance (US), CCC certification (China), emissions standards (Euro 6/China 6), crash safety testing (NCAP).",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "卡车：海外社媒「ev must have」增速 251%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Vehicles Ev market poised for growth...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "product_profile": {
+      "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
+      "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
+      "工艺": "一体化压铸 / 激光焊接 / 800V 高压平台",
+      "色彩": "哑光灰 / 冰川蓝 / 定制双色车身",
+      "包装": "滚装船 RoRo / 集装箱框架 / 电池 UN3480 危包",
+      "技术趋势": "固态电池 / 800V 4C 超充 / 端到端自动驾驶"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 卡车 出口需通过合规认证",
+      "卡车主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
+      "海外社媒「ev must have」增速 251% 领跑 → 卡车社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "ev must have",
+        "growth": 251.0,
+        "vol": "84K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "electric vehicle tiktok made me buy",
+        "growth": 245.5,
+        "vol": "158K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electric vehicle market 2026",
+        "growth": 243.5,
+        "vol": "476K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle market 2026",
+        "growth": 240.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 197.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Vehicles Ev market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/vehicles-ev-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: vehicles ev sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/vehicles-ev-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Truck - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Truck Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "vehicles_ev",
+    "generated_at": "2026-06-19",
+    "l1_ref": "整车及交通工具"
+  }
 }

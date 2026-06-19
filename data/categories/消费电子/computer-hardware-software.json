@@ -481,5 +481,98 @@
         "南非SABS进口审查"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "计算机软硬件：海外社媒「consumer electronics industry news」增速 242%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Consumer Electronics market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 计算机软硬件 成主流",
+      "欧盟 CE 标志强制准入 → 计算机软硬件 出口需通过合规认证",
+      "美国 FCC 电磁兼容认证 → 电子类 计算机软硬件 合规刚需",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 计算机软硬件需求强劲",
+      "海外社媒「consumer electronics industry news」增速 242% 领跑 → 计算机软硬件社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "consumer electronics industry news",
+        "growth": 242.0,
+        "vol": "346K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "consumer electronics market 2026",
+        "growth": 234.5,
+        "vol": "122K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "smartphone unboxing",
+        "growth": 215.0,
+        "vol": "666K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "consumer electronics market 2026",
+        "growth": 231.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "smartphone b2b export",
+        "growth": 113.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Consumer Electronics market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/consumer-electronics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: consumer electronics sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/consumer-electronics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Computer Hardware & Software - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Computer Hardware & Software Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "消费电子"
   }
 }

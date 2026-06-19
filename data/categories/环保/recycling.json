@@ -187,5 +187,96 @@
   },
   "compliance_summary": "Environmental management systems (ISO 14001), waste handling permits, emissions monitoring and reporting, recycling certifications, hazardous material handling.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "回收：海外社媒「green tech unboxing」增速 245%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Environmental Green market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "工业设备 / 模块化集装箱式 / 撬装",
+      "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
+      "工艺": "MBR 膜生物反应 / RO 反渗透 / 催化氧化",
+      "色彩": "工业灰 / 环保绿",
+      "包装": "集装箱式整机 / 海运框架箱",
+      "技术趋势": "CCUS 碳捕集 / 绿氢 / 数字化水务运营"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
+      "海外社媒「green tech unboxing」增速 245% 领跑 → 回收社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "green tech unboxing",
+        "growth": 245.0,
+        "vol": "441K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "environmental viral",
+        "growth": 232.5,
+        "vol": "105K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "environmental must try",
+        "growth": 224.5,
+        "vol": "115K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental market 2026",
+        "growth": 168.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "green tech b2b export",
+        "growth": 159.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Environmental Green market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/environmental-green-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: environmental green sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/environmental-green-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Recycling - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Recycling Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "environmental",
+    "generated_at": "2026-06-19",
+    "l1_ref": "环保"
+  }
 }

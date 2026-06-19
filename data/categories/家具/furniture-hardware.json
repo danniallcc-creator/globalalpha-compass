@@ -357,5 +357,98 @@
         "Ibama木材合法证明强制"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "家具五金：海外社媒「desk viral」增速 252%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Furniture market poised for growth amid...」，出口 YoY +9%，主要流向 美国 / 日本 / 德国。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 家具五金 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 家具五金 出口需通过合规认证",
+      "沙特 SASO / SABER 注册 → 中东市场 家具五金 准入门槛",
+      "印度市场 YoY +9% 领跑 建筑五金(8302系列) 出口 → 家具五金需求强劲",
+      "海外社媒「desk viral」增速 252% 领跑 → 家具五金社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "desk viral",
+        "growth": 251.5,
+        "vol": "171K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "furniture factory tour",
+        "growth": 241.0,
+        "vol": "47K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "sofa top 10",
+        "growth": 239.5,
+        "vol": "97K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "furniture market 2026",
+        "growth": 205.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "desk wholesale supplier",
+        "growth": 198.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Furniture market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/furniture-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: furniture sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/furniture-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Furniture Hardware - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Furniture Hardware Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "家具"
   }
 }

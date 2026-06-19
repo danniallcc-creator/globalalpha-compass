@@ -457,5 +457,98 @@
         "EAC证书随货"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "热水器：海外社媒「appliance #trending」增速 234%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Home Appliance market poised for growth...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 热水器 成主流",
+      "欧盟 CE 标志强制准入 → 热水器 出口需通过合规认证",
+      "美国 FCC 电磁兼容认证 → 电子类 热水器 合规刚需",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 热水器需求强劲",
+      "海外社媒「appliance #trending」增速 234% 领跑 → 热水器社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "appliance #trending",
+        "growth": 233.5,
+        "vol": "712K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance price trend",
+        "growth": 226.0,
+        "vol": "14K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "appliance viral hack",
+        "growth": 221.0,
+        "vol": "416K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance b2b export",
+        "growth": 195.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 115.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Home Appliance market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/home-appliance-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: home appliance sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/home-appliance-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Water Heaters - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Water Heaters Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "家用电器"
   }
 }

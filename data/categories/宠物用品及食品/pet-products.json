@@ -508,5 +508,97 @@
   },
   "compliance_summary": "AAFCO standards (pet food), FDA compliance, CE marking for pet products, safety testing, ingredient and nutritional labeling.",
   "last_updated": "2026-06-10",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "宠物用品：海外社媒「pet supply chain」增速 242%，搜索端「pet products digital transformation」热度上行，US Amazon BSR Top-47，CNBC关注「Pet Products market poised for growth...」，出口 YoY +87%，主要流向 美国 / 日本 / 德国。",
+    "product_profile": {
+      "外观": "可爱萌系 / 人宠同款 / 模块化",
+      "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
+      "工艺": "注塑一体 / 食品级灌装 / 防泼水设计",
+      "色彩": "马卡龙粉 / 薄荷绿 / 奶茶色",
+      "包装": "自立铝箔袋 / 可重复封口 / 再生纸盒",
+      "技术趋势": "智能喂食器 / 宠物健康项圈 / 冻干主粮"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
+      "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
+      "印度市场 YoY +87% 领跑 水泥(2523系列) 出口 → 宠物用品需求强劲",
+      "海外社媒「pet supply chain」增速 242% 领跑 → 宠物用品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet supply chain",
+        "growth": 242.5,
+        "vol": "635K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet tiktok made me buy",
+        "growth": 204.5,
+        "vol": "663K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 190.0,
+        "vol": "752K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products digital transformation",
+        "growth": 89,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 82,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Pet Products market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/pet-products-2026",
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: pet products sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/pet-products-2026",
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 47,
+        "title": "Top pet - Premium Edition",
+        "price": "$120.0",
+        "rating": 4.4,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 30,
+        "title": "Top pet food - Smart Edition",
+        "price": "$128.1",
+        "rating": 4.4,
+        "hits": 2
+      }
+    ],
+    "domain": "pet_products",
+    "generated_at": "2026-06-19",
+    "l1_ref": "宠物用品及食品"
+  }
 }

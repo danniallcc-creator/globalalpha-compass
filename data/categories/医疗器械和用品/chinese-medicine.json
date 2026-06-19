@@ -334,5 +334,98 @@
         "Anvisa证书随货"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "中医：海外社媒「medical device #fyp」增速 254%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Medical Devices market poised for...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "product_profile": {
+      "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
+      "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
+      "工艺": "洁净室装配 / EO 灭菌 / ISO 13485 体系",
+      "色彩": "医疗白 / 淡蓝 / 浅绿（手术室专用）",
+      "包装": "灭菌 Tyvek 袋 / 双层无菌包 / UDI 追溯标签",
+      "技术趋势": "AI 辅助诊断 / 可穿戴监测 / 3D 打印植入物 / 远程医疗"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 中医 出口需通过合规认证",
+      "美国 FDA 注册要求 → 中医 进入北美市场必备门槛",
+      "印度 BIS 强制注册 → 14 亿人口市场 中医 准入",
+      "印度市场 YoY +26% 领跑 医疗器械 出口 → 中医需求强劲",
+      "海外社媒「medical device #fyp」增速 254% 领跑 → 中医社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "medical device #fyp",
+        "growth": 254.5,
+        "vol": "234K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "medical device wholesale supplier",
+        "growth": 230.5,
+        "vol": "721K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "healthcare equipment market alert",
+        "growth": 230.0,
+        "vol": "378K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device wholesale supplier",
+        "growth": 227.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "medical devices digital transformation",
+        "growth": 88,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Medical Devices market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/medical-devices-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: medical devices sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/medical-devices-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Chinese Medicine - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Chinese Medicine Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "medical_devices",
+    "generated_at": "2026-06-19",
+    "l1_ref": "医疗器械和用品"
   }
 }

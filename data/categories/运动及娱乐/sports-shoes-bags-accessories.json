@@ -84,5 +84,96 @@
   },
   "compliance_summary": "CPSC safety standards (US), EN standards (EU), sport-specific certifications, product liability insurance, age grading requirements.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "运动鞋、箱包及配件：海外社媒「fitness tutorial」增速 246%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Sports Outdoor market poised for growth...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "product_profile": {
+      "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
+      "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
+      "工艺": "3D 打印中底 / 冷粘合无溶剂 / 注塑一体",
+      "色彩": "熊猫配色 / 大地色 / 年度流行色",
+      "包装": "再生纸盒 / 可降解替代泡沫 / 无塑料绑带",
+      "技术趋势": "AI 足型扫描定制 / 碳板跑鞋 / 3D 针织零废料"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 运动鞋、箱包及配件 出口需通过合规认证",
+      "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 运动鞋、箱包及配件需求强劲",
+      "海外社媒「fitness tutorial」增速 246% 领跑 → 运动鞋、箱包及配件社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fitness tutorial",
+        "growth": 246.5,
+        "vol": "753K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "outdoor analyst",
+        "growth": 245.5,
+        "vol": "328K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "outdoor industry report",
+        "growth": 231.5,
+        "vol": "792K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sports market 2026",
+        "growth": 224.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fitness wholesale supplier",
+        "growth": 76.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Sports Outdoor market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/sports-outdoor-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: sports outdoor sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/sports-outdoor-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Sports Shoes, Bags & Accessories - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Sports Shoes, Bags & Accessories Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "footwear",
+    "generated_at": "2026-06-19",
+    "l1_ref": "运动及娱乐"
+  }
 }

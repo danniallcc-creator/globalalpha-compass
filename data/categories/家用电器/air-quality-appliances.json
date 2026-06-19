@@ -543,5 +543,98 @@
         "EAC证书随货"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "空气质量电器：海外社媒「appliance #trending」增速 234%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Home Appliance market poised for growth...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "product_profile": {
+      "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
+      "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
+      "工艺": "IMD 模内装饰 / 一体注塑 / IPX 防水 / 能效 A+++",
+      "色彩": "莫兰迪灰 / 奶油白 / 复古绿（Retro）",
+      "包装": "蜂窝纸护角 + 瓦楞箱 / EPE 珍珠棉 / 欧盟 WEEE 标识",
+      "技术趋势": "Matter 智能家居互联 / AI 场景识别 / 热泵烘干 / R290 环保冷媒"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 空气质量电器 成主流",
+      "欧盟 CE 标志强制准入 → 空气质量电器 出口需通过合规认证",
+      "美国 FCC 电磁兼容认证 → 电子类 空气质量电器 合规刚需",
+      "越南市场 YoY +28% 领跑 集成电路 出口 → 空气质量电器需求强劲",
+      "海外社媒「appliance #trending」增速 234% 领跑 → 空气质量电器社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "appliance #trending",
+        "growth": 233.5,
+        "vol": "712K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance price trend",
+        "growth": 226.0,
+        "vol": "14K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "appliance viral hack",
+        "growth": 221.0,
+        "vol": "416K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance b2b export",
+        "growth": 195.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 115.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Home Appliance market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/home-appliance-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: home appliance sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/home-appliance-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Air Quality Appliances - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Air Quality Appliances Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "home_appliance",
+    "generated_at": "2026-06-19",
+    "l1_ref": "家用电器"
   }
 }

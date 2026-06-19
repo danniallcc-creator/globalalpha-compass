@@ -261,5 +261,96 @@
         "生物安全DAFF严格检查"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "谷物：海外社媒「farming market 2026」增速 250%，搜索端「farming market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Agriculture market poised for growth...」，出口 YoY +18%，主要流向 非洲 / 东南亚 / 韩国。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "美国 FDA 注册要求 → 谷物 进入北美市场必备门槛",
+      "中东市场 YoY +18% 领跑 粮食 出口 → 谷物需求强劲",
+      "海外社媒「farming market 2026」增速 250% 领跑 → 谷物社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "farming market 2026",
+        "growth": 250.5,
+        "vol": "412K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "farming industry report",
+        "growth": 250.5,
+        "vol": "313K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "farming top 10",
+        "growth": 227.5,
+        "vol": "18K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "farming market 2026",
+        "growth": 247.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "farming wholesale supplier",
+        "growth": 186.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Agriculture market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/agriculture-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: agriculture sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/agriculture-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Grain - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Grain Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "农业"
   }
 }

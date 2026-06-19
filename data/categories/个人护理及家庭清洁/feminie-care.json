@@ -35,5 +35,97 @@
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
   "last_updated": "2026-06-10",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "女性护理：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 女性护理 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 女性护理 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 女性护理 通关",
+      "海外社媒「cleaning industry news」增速 249% 领跑 → 女性护理社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "cleaning industry news",
+        "growth": 249.0,
+        "vol": "696K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "personal care industry report",
+        "growth": 241.5,
+        "vol": "310K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "personal care review 2026",
+        "growth": 211.5,
+        "vol": "411K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "personal care wholesale supplier",
+        "growth": 160.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "personal care market 2026",
+        "growth": 141.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Personal Care Cleaning market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/personal-care-cleaning-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: personal care cleaning sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/personal-care-cleaning-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Feminie Care - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Feminie Care Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "个人护理及家庭清洁"
+  }
 }

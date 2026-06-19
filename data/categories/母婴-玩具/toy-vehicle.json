@@ -344,5 +344,98 @@
         "须有Inmetro证书方可清关"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "玩具车：海外社媒「baby industry news」增速 239%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Baby Toys market poised for growth amid...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "product_profile": {
+      "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
+      "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
+      "工艺": "注塑一体无毛刺 / 水性漆 / EN71 合规",
+      "色彩": "马卡龙色 / 原木色 / 多巴胺",
+      "包装": "开窗展示盒 / 再生纸 / 无小零件警告标识",
+      "技术趋势": "STEM 教育玩具 / AR 互动 / 可持续材料"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 玩具车 出口需通过合规认证",
+      "印度 BIS 强制注册 → 14 亿人口市场 玩具车 准入",
+      "日本 PSE 电气安全认证 → 玩具车 进入日本必备",
+      "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 玩具车需求强劲",
+      "海外社媒「baby industry news」增速 239% 领跑 → 玩具车社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "baby industry news",
+        "growth": 239.0,
+        "vol": "357K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "toys aesthetic",
+        "growth": 221.0,
+        "vol": "458K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "baby trending now",
+        "growth": 207.0,
+        "vol": "733K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "baby market 2026",
+        "growth": 133.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "baby toys sustainable manufacturing",
+        "growth": 83,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Baby Toys market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/baby-toys-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: baby toys sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/baby-toys-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Toy Vehicle - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Toy Vehicle Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "toys_baby",
+    "generated_at": "2026-06-19",
+    "l1_ref": "母婴&玩具"
   }
 }

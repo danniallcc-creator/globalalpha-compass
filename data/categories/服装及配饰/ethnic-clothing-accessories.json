@@ -364,5 +364,98 @@
         "须提供纤维成分测试报告"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "民族服装及配饰：海外社媒「fashion unboxing」增速 254%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Apparel Fashion market poised for...」，出口 YoY +2%，主要流向 美国 / 日本 / 德国。",
+    "product_profile": {
+      "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
+      "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
+      "工艺": "数码直喷印花 / 热切割无缝 / 3D 立体剪裁",
+      "色彩": "大地色系 / 多巴胺色 / 年度流行色（WGSN）",
+      "包装": "可降解玉米淀粉袋 / 再生纸吊牌 / 无塑料衣架",
+      "技术趋势": "AI 虚拟试衣 / 数字产品护照 DPP / 按需生产（On-Demand）"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 民族服装及配饰 供应链合规升级",
+      "印度 BIS 强制注册 → 14 亿人口市场 民族服装及配饰 准入",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 民族服装及配饰 通关",
+      "民族服装及配饰主要流向 美国 / 日本 / 德国，出口集中度较高",
+      "海外社媒「fashion unboxing」增速 254% 领跑 → 民族服装及配饰社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fashion unboxing",
+        "growth": 254.0,
+        "vol": "210K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fashion top 10",
+        "growth": 249.5,
+        "vol": "662K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "apparel trending now",
+        "growth": 248.0,
+        "vol": "534K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fashion b2b export",
+        "growth": 225.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "clothing wholesale supplier",
+        "growth": 170.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Apparel Fashion market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/apparel-fashion-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: apparel fashion sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/apparel-fashion-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Ethnic Clothing & Accessories - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Ethnic Clothing & Accessories Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "apparel_fashion",
+    "generated_at": "2026-06-19",
+    "l1_ref": "服装及配饰"
   }
 }

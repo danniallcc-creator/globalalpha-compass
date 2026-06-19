@@ -95,5 +95,96 @@
   },
   "compliance_summary": "CPSC safety standards (US), EN standards (EU), sport-specific certifications, product liability insurance, age grading requirements.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "室内娱乐运动：海外社媒「fitness tutorial」增速 246%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Sports Outdoor market poised for growth...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 室内娱乐运动 出口需通过合规认证",
+      "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 室内娱乐运动需求强劲",
+      "海外社媒「fitness tutorial」增速 246% 领跑 → 室内娱乐运动社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fitness tutorial",
+        "growth": 246.5,
+        "vol": "753K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "outdoor analyst",
+        "growth": 245.5,
+        "vol": "328K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "outdoor industry report",
+        "growth": 231.5,
+        "vol": "792K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sports market 2026",
+        "growth": 224.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fitness wholesale supplier",
+        "growth": 76.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Sports Outdoor market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/sports-outdoor-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: sports outdoor sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/sports-outdoor-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Indoor Recreational Sports - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Indoor Recreational Sports Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-06-19",
+    "l1_ref": "运动及娱乐"
+  }
 }

@@ -191,5 +191,97 @@
   },
   "compliance_summary": "ISO standards for mechanical power transmission, CE marking, bearing quality standards (ABMA/ISO), motor efficiency classes (IE1-IE4), ATEX for hazardous areas.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "轴承：海外社媒「gear aesthetic」增速 248%，搜索端「transmission wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Power Transmission market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
+      "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
+      "工艺": "PVD 真空镀 / 3D 打印蜡模 / 精密 CNC",
+      "色彩": "玫瑰金 / 哑光银 / 黄金色 / 搪瓷彩色",
+      "包装": "丝绒礼盒 / FSC 纸盒 / 可重复使用收纳袋",
+      "技术趋势": "培育钻石主流化 / 智能戒指健康监测 / AR 虚拟试戴"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 轴承 出口需通过合规认证",
+      "欧盟 ATEX 防爆认证 → 工业 轴承 进入危险环境必备",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 轴承需求强劲",
+      "海外社媒「gear aesthetic」增速 248% 领跑 → 轴承社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "gear aesthetic",
+        "growth": 248.0,
+        "vol": "773K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "transmission top 10",
+        "growth": 241.5,
+        "vol": "352K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "transmission must try",
+        "growth": 233.5,
+        "vol": "430K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "transmission wholesale supplier",
+        "growth": 200.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "power transmission market trend 2026",
+        "growth": 88,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Power Transmission market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/power-transmission-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: power transmission sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/power-transmission-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Bearings - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Bearings Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "jewelry_watches",
+    "generated_at": "2026-06-19",
+    "l1_ref": "传动"
+  }
 }

@@ -361,5 +361,98 @@
         "中东大型项目成套供货"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "电气用品：海外社媒「electrical viral hack」增速 253%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Electrical Equipment market poised for...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 电气用品 成主流",
+      "欧盟 CE 标志强制准入 → 电气用品 出口需通过合规认证",
+      "美国 IRA 通胀削减法案补贴 → 电气用品 北美本地化制造红利",
+      "越南市场 YoY +28% 领跑 集成电路 出口 → 电气用品需求强劲",
+      "海外社媒「electrical viral hack」增速 253% 领跑 → 电气用品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "electrical viral hack",
+        "growth": 253.0,
+        "vol": "437K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical must have",
+        "growth": 244.0,
+        "vol": "84K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electrical wholesale supplier",
+        "growth": 240.5,
+        "vol": "268K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 237.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical b2b export",
+        "growth": 130.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Electrical Equipment market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/electrical-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: electrical equipment sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/electrical-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Electrical Supplies - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Electrical Supplies Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "电气设备及用品"
   }
 }

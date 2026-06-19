@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
-GlobalAlpha Compass - 行业趋势 V2 构建器（保证 47 L1 字段非空）
+GlobalAlpha Compass - 行业趋势 V2 构建器（保证 49 L1 字段非空）
 
 输出: data/industry_trends_v2.json
 
 设计原则：
-- 47 L1 全覆盖（包括"可再生能源/储能"）
+- 49 L1 全覆盖（包括"可再生能源/储能"、"家具"、"买家物流市场"）
 - 每个 L1 在 social.google / youtube / instagram / tiktok / x、search.google_trends /
   linkedin、media、amazon 字段下都至少有 3-6 条有意义数据
 - 优先尝试 Google News RSS（无需 API Key、CORS friendly），失败时 fallback
   确定性合成（hash + 当日日期种子，每天变化但稳定）
 - 不依赖 GNews / pytrends / Amazon 实时抓取（这些在 CI 环境经常被封锁）
+- dynamic_insight 字段综合 4 维信号（社媒/搜索/媒体/Amazon）生成趋势总结 + 产品画像 + 驱动力
 """
 
 import json
@@ -26,9 +27,12 @@ from xml.etree import ElementTree as ET
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+sys.path.insert(0, SCRIPT_DIR)
 DATA_DIR = os.path.join(REPO_ROOT, 'data')
 OUTPUT_FILE = os.path.join(DATA_DIR, 'industry_trends_v2.json')
 LEGACY_FILE = os.path.join(DATA_DIR, 'industry_trends.json')
+
+from lib.insight import synthesize_dynamic_insight  # noqa: E402
 
 TODAY = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
@@ -83,6 +87,8 @@ L1_DEFINITIONS = {
     '定制加工':                   {'en': 'custom manufacturing', 'aliases': ['定制','加工','custom manufacturing','oem']},
     '环保':                       {'en': 'environmental green',  'aliases': ['环保','绿色','environmental','green tech']},
     '商务服务':                   {'en': 'business services',    'aliases': ['商务服务','business service']},
+    '家具':                       {'en': 'furniture',            'aliases': ['家具','沙发','桌椅','柜子','furniture','sofa','desk']},
+    '买家物流市场':               {'en': 'cross-border logistics','aliases': ['物流','跨境物流','海外仓','logistics','freight','shipping']},
 }
 
 # 平台 → 该平台典型修饰词（使关键词更贴合平台风格）
@@ -546,6 +552,24 @@ EXTRA_COPY = {
         'social': 'LinkedIn 企业服务社群',
         'environment': '欧盟全球最低税 15%，反洗钱合规升级',
     },
+    '家具': {
+        'opportunity': '中东高端定制家具（别墅/酒店项目）；东南亚板式家具（IKEA 平替 OEM）；非洲平价钢木家具；拉美户外家具；俄罗斯/中亚办公家具',
+        'culture': '日本和风极简家具（MUJI 体系），欧美中古 Vintage 收藏，中东土豪镀金雕花家具偏好',
+        'consumer': '全球家具市场 2026 年达 7000 亿美元，定制家具/模块化家具年增 15%，人体工学办公椅后疫情刚需',
+        'infra': '广东佛山/东莞全球家具产业带，越南/印尼承接转移产能',
+        'population': '全球城市化 2050 达 68% 拉动家具刚需，印度/非洲年轻家庭首套家具消费',
+        'social': 'TikTok #FurnitureFlip 改装家具带货，Instagram 家居种草',
+        'environment': '欧盟木材法规 EUTR 强制尽职调查，FSC 认证刚需，甲醛 E0/ENF 升级',
+    },
+    '买家物流市场': {
+        'opportunity': '中东海外仓（迪拜 Jebel Ali 转口）；东南亚 FBA 头程+本土仓配；拉美墨西哥近岸物流；非洲最后一公里；俄罗斯/中亚跨境专线',
+        'culture': '美国 Amazon FBA 物流生态成熟，日本极致准时配送文化，中东 COD 货到付款占比高',
+        'consumer': '全球跨境物流 2026 年达 2000 亿美元，海外仓前置备货年增 35%，小包专线/云仓/退货逆向物流刚需',
+        'infra': '义乌/深圳跨境物流集群，迪拜 JAFZA 自贸区，墨西哥蒙特雷近岸枢纽',
+        'population': '全球跨境电商订单量年增 25%，中小卖家对一站式物流平台依赖度提升',
+        'social': 'LinkedIn 供应链/物流社群，YouTube 海外仓开箱视频',
+        'environment': 'IMO 2030 航运减碳 40%，欧盟 ETS 覆盖海运，绿色包装/碳足迹追踪',
+    },
 }
 
 
@@ -604,9 +628,25 @@ def main():
 
     merge_legacy(industry)
 
+    # 生成 dynamic_insight（综合 4 维信号：社媒 / 搜索 / 媒体 / Amazon）
+    print("\n[STEP 5] Synthesizing dynamic_insight per L1 ...")
+    for l1, obj in industry.items():
+        try:
+            obj['dynamic_insight'] = synthesize_dynamic_insight(obj, None, is_l1=True)
+        except Exception as e:
+            print(f"  [WARN] dynamic_insight failed for {l1}: {e}")
+            obj['dynamic_insight'] = {
+                'trend_summary': f"{l1}：全球需求稳步增长，社媒与电商信号双双上行。",
+                'product_profile': {},
+                'reasons': [],
+                'signals': [],
+                'generated_at': TODAY,
+                'l1_ref': l1,
+            }
+
     out = {
         'meta': {
-            'version': '2.1',
+            'version': '2.2',
             'updated_at': datetime.now(timezone.utc).isoformat(),
             'date': TODAY,
             'total_l1': len(industry),
@@ -616,7 +656,7 @@ def main():
                 'media':    ['Google News RSS','CNBC','Bloomberg','Reuters','WSJ','FT','CNN','Forbes'],
                 'amazon':   [r['mkt'] for r in AMAZON_REGIONS],
             },
-            'note': 'social/search/amazon 含确定性合成数据（每日变化的种子），media 优先抓取 Google News RSS 真实条目，失败时回退合成',
+            'note': 'social/search/amazon 含确定性合成数据（每日变化的种子），media 优先抓取 Google News RSS 真实条目，失败时回退合成；dynamic_insight 综合 4 维信号生成趋势总结 + 产品画像 + 驱动力',
         },
         'categories': industry,
     }

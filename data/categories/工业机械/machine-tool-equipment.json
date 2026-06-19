@@ -299,5 +299,98 @@
         "BIS先行，Part 3机械重点检查"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "机床设备：海外社媒「industrial machinery aesthetic」增速 255%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Industrial Machinery market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "product_profile": {
+      "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
+      "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
+      "工艺": "CNC 精密加工 / 热处理 / 动平衡校准",
+      "色彩": "品牌主色（卡特黄/三一红/小松蓝）",
+      "包装": "海运木箱（熏蒸 ISPM-15）/ 托盘 + 缠绕膜",
+      "技术趋势": "工业物联网 IIoT / 数字孪生 / 远程预测性维护"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 机床设备 出口需通过合规认证",
+      "英国 UKCA 后脱欧认证 → 机床设备 出口英国独立要求",
+      "印度 BIS 强制注册 → 14 亿人口市场 机床设备 准入",
+      "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 机床设备需求强劲",
+      "海外社媒「industrial machinery aesthetic」增速 255% 领跑 → 机床设备社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery aesthetic",
+        "growth": 255.0,
+        "vol": "641K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery b2b export",
+        "growth": 243.0,
+        "vol": "620K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "industrial machinery top 10",
+        "growth": 231.5,
+        "vol": "590K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 240.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 91.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Industrial Machinery market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/industrial-machinery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: industrial machinery sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/industrial-machinery-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Machine Tool Equipment - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Machine Tool Equipment Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "machinery",
+    "generated_at": "2026-06-19",
+    "l1_ref": "工业机械"
   }
 }

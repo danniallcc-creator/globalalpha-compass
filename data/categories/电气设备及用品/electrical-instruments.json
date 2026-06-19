@@ -363,5 +363,98 @@
         "中东大型项目成套供货"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "电工仪表：海外社媒「electrical viral hack」增速 253%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Electrical Equipment market poised for...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "product_profile": {
+      "外观": "手持便携 / 台式精密 / IP67 工业级",
+      "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
+      "工艺": "校准溯源 / 无尘装配 / ISO 17025",
+      "色彩": "工业黑 / 警示黄 / 仪器灰",
+      "包装": "防震铝合金箱 / 防静电 / 校准证书",
+      "技术趋势": "物联网在线监测 / AI 预测校准 / 微型化"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 电工仪表 成主流",
+      "欧盟 CE 标志强制准入 → 电工仪表 出口需通过合规认证",
+      "美国 IRA 通胀削减法案补贴 → 电工仪表 北美本地化制造红利",
+      "越南市场 YoY +28% 领跑 集成电路 出口 → 电工仪表需求强劲",
+      "海外社媒「electrical viral hack」增速 253% 领跑 → 电工仪表社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "electrical viral hack",
+        "growth": 253.0,
+        "vol": "437K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical must have",
+        "growth": 244.0,
+        "vol": "84K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electrical wholesale supplier",
+        "growth": 240.5,
+        "vol": "268K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 237.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical b2b export",
+        "growth": 130.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Electrical Equipment market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/electrical-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: electrical equipment sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/electrical-equipment-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Electrical Instruments - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Electrical Instruments Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "instruments",
+    "generated_at": "2026-06-19",
+    "l1_ref": "电气设备及用品"
   }
 }

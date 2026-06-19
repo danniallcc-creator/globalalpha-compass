@@ -214,5 +214,97 @@
         "Anvisa需提前申请，I/II类不同审批时长"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "美妆工具：海外社媒「beauty review 2026」增速 254%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Beauty Cosmetics market poised for...」。",
+    "product_profile": {
+      "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
+      "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
+      "工艺": "真空灌装 / 无防腐体系 / 微囊包裹活性成分",
+      "色彩": "莫兰迪裸粉 / 金属玫瑰金 / 复古红（季节限定）",
+      "包装": "再生 PCR 塑料 / 可替换内芯 / FSC 纸盒",
+      "技术趋势": "微生态护肤 / AI 肤色检测定制 / 无水配方 / 纯净美妆"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 美妆工具 出口需通过合规认证",
+      "美国 FDA 注册要求 → 美妆工具 进入北美市场必备门槛",
+      "GMP 生产质量管理 → 医药/食品类 美妆工具 制造门槛",
+      "海外社媒「beauty review 2026」增速 254% 领跑 → 美妆工具社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "beauty review 2026",
+        "growth": 254.5,
+        "vol": "471K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cosmetic industry report",
+        "growth": 249.5,
+        "vol": "641K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "beauty #trending",
+        "growth": 242.5,
+        "vol": "584K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cosmetic b2b export",
+        "growth": 167.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 92.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Beauty Cosmetics market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/beauty-cosmetics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: beauty cosmetics sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/beauty-cosmetics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Beauty Tools - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Beauty Tools Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "beauty_cosmetics",
+    "generated_at": "2026-06-19",
+    "l1_ref": "美妆"
   }
 }

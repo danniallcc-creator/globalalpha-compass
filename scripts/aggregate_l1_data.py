@@ -572,6 +572,32 @@ def main():
     except Exception as _e:
         print(f"[CHAIN] git add industry_trends_v2.json failed: {_e}")
 
+    # === Chain: enrich L2 dynamic_insight (depends on industry_trends_v2.json) ===
+    # 给 466 个 L2 JSON 增量添加 dynamic_insight 字段（社媒/搜索/媒体/Amazon 综合洞察）
+    try:
+        import subprocess as _sp
+        scripts_dir = os.path.dirname(os.path.abspath(__file__))
+        enrich_script = os.path.join(scripts_dir, 'enrich_l2_dynamic_insight.py')
+        if os.path.exists(enrich_script):
+            result = _sp.run(
+                [sys.executable, enrich_script],
+                cwd=REPO_ROOT,
+                capture_output=True,
+                text=True,
+                timeout=120,
+            )
+            if result.returncode == 0:
+                print(f"[CHAIN] enrich_l2_dynamic_insight OK: {result.stdout.strip().splitlines()[-1] if result.stdout else ''}")
+            else:
+                print(f"[CHAIN] enrich_l2 failed rc={result.returncode}: {result.stderr[:200]}")
+            # stage 所有 L2 文件变更
+            categories_dir = os.path.join(DATA_DIR, 'categories')
+            if os.path.isdir(categories_dir):
+                _sp.run(['git', 'add', categories_dir], check=False)
+                print(f"[CHAIN] git add {categories_dir}")
+    except Exception as _e:
+        print(f"[CHAIN] L2 enrichment chain failed: {_e}")
+
 
 if __name__ == '__main__':
     main()

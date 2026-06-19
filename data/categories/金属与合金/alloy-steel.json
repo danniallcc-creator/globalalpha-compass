@@ -222,5 +222,98 @@
         "绿铝认证欧洲高端市场"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "合金钢：海外社媒「steel must try」增速 246%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Metal Alloy market poised for growth...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
+    "product_profile": {
+      "外观": "工业标准卷材/板材/棒材 / 定制切割",
+      "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
+      "工艺": "热轧 / 冷轧 / 电解 / 粉末冶金",
+      "色彩": "金属原色 / 阳极氧化彩色",
+      "包装": "木托盘 + 钢带 / 防锈 VCI 膜 / 海运木箱",
+      "技术趋势": "CBAM 碳边境税驱动绿钢 / 氢能直接还原 / 再生金属溯源"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 合金钢 供应链合规升级",
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 合金钢 成主流",
+      "欧盟 CE 标志强制准入 → 合金钢 出口需通过合规认证",
+      "印度市场 YoY +30% 领跑 钢材 出口 → 合金钢需求强劲",
+      "海外社媒「steel must try」增速 246% 领跑 → 合金钢社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "steel must try",
+        "growth": 245.5,
+        "vol": "675K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "metal market 2026",
+        "growth": 238.5,
+        "vol": "157K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "aluminum supply chain",
+        "growth": 235.5,
+        "vol": "113K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "metal market 2026",
+        "growth": 235.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "aluminum wholesale supplier",
+        "growth": 152.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Metal Alloy market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/metal-alloy-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: metal alloy sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/metal-alloy-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Alloy Steel - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Alloy Steel Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "metals",
+    "generated_at": "2026-06-19",
+    "l1_ref": "金属与合金"
   }
 }

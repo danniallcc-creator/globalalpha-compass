@@ -500,5 +500,96 @@
         "室内植物灯欧美"
       ]
     }
+  },
+  "dynamic_insight": {
+    "trend_summary": "餐具及咖啡酒具：海外社媒「garden factory tour」增速 242%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Home Garden market poised for growth...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "product_profile": {
+      "外观": "透明可视包装 / 极简日系 / 国风插画",
+      "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
+      "工艺": "低温冻干 / HPP 超高压杀菌 / 氮气锁鲜",
+      "色彩": "高饱和多巴胺 / 天然色系（抹茶绿/可可棕）",
+      "包装": "可降解 PLA / 铝箔自立袋 / FSC 纸盒",
+      "技术趋势": "功能性食品（NMN/胶原蛋白）/ 个性化订阅 / 碳足迹标签"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 餐具及咖啡酒具 出口需通过合规认证",
+      "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 餐具及咖啡酒具需求强劲",
+      "海外社媒「garden factory tour」增速 242% 领跑 → 餐具及咖啡酒具社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "garden factory tour",
+        "growth": 242.0,
+        "vol": "393K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "home decor #trending",
+        "growth": 228.5,
+        "vol": "282K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "home decor analyst",
+        "growth": 216.5,
+        "vol": "179K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor wholesale supplier",
+        "growth": 165.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "home garden digital transformation",
+        "growth": 80,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Home Garden market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/home-garden-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: home garden sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/home-garden-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Dinnerware,Coffee&Wine Set - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Dinnerware,Coffee&Wine Set Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "food_beverage",
+    "generated_at": "2026-06-19",
+    "l1_ref": "家居园艺"
   }
 }

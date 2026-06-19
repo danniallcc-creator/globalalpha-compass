@@ -84,5 +84,96 @@
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "多式联运：海外社媒「logistics trending now」增速 252%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Cross-Border Logistics market poised...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
+      "东南亚市场 YoY +12% 领跑 通用商品 出口 → 多式联运需求强劲",
+      "海外社媒「logistics trending now」增速 252% 领跑 → 多式联运社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "logistics trending now",
+        "growth": 252.0,
+        "vol": "429K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "freight aesthetic",
+        "growth": 248.0,
+        "vol": "634K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "shipping tiktok made me buy",
+        "growth": 235.5,
+        "vol": "424K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "freight b2b export",
+        "growth": 225.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "logistics market 2026",
+        "growth": 181.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Cross-Border Logistics market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/cross-border-logistics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: cross-border logistics sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/cross-border-logistics-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Multi Transport - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Multi Transport Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-06-19",
+    "l1_ref": "买家物流市场"
+  }
 }

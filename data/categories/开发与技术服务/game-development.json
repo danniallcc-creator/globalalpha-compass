@@ -84,5 +84,96 @@
   },
   "compliance_summary": "Software development standards (ISO 12207), data protection regulations (GDPR), intellectual property protection, industry-specific compliance (HIPAA, PCI-DSS).",
   "last_updated": "2026-06-10",
-  "data_source": "merged_existing"
+  "data_source": "merged_existing",
+  "dynamic_insight": {
+    "trend_summary": "游戏开发：海外社媒「tech service viral」增速 254%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Tech Services market poised for growth...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 游戏开发 出口需通过合规认证",
+      "东南亚市场 YoY +12% 领跑 通用商品 出口 → 游戏开发需求强劲",
+      "海外社媒「tech service viral」增速 254% 领跑 → 游戏开发社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "tech service viral",
+        "growth": 253.5,
+        "vol": "11K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "tech service wholesale supplier",
+        "growth": 248.5,
+        "vol": "88K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "tech service breaking",
+        "growth": 235.5,
+        "vol": "415K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "tech service wholesale supplier",
+        "growth": 245.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "tech service market 2026",
+        "growth": 115.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Tech Services market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/tech-services-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: tech services sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/tech-services-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Game Development - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Game Development Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-06-19",
+    "l1_ref": "开发与技术服务"
+  }
 }

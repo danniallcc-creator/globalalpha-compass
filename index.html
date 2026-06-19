@@ -8377,6 +8377,10 @@ function renderIndustryDetailV2(l1, data) {
         '<div class="text-sm text-gray-200 leading-relaxed">' + opp + '</div>' +
       '</div>'
     : '';
+  // ---- 动态聚焦（综合 4 维信号：社媒/搜索/媒体/Amazon）----
+  var dynamicInsightHTML = (typeof _renderDynamicInsightCard === 'function')
+    ? _renderDynamicInsightCard(data.dynamic_insight)
+    : '';
   // 文化/消费/基建/人口/社会/自然 (来自 legacy)
   var dimsHTML = '';
   var dims = [
@@ -8416,6 +8420,7 @@ function renderIndustryDetailV2(l1, data) {
       oppHTML +
       dimsHTML +
     '</div>' +
+    dynamicInsightHTML +
     '<div class="card p-5 mb-5">' +
       '<div class="panel-title mb-4">&#128241; 海外社媒高增速关键词 <span class="panel-title-en">SOCIAL MEDIA TRENDS</span></div>' +
       '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">' + socialHTML + '</div>' +
@@ -8432,6 +8437,114 @@ function renderIndustryDetailV2(l1, data) {
       '<div class="panel-title mb-4">&#128722; Amazon BSR 验证 <span class="panel-title-en">AMAZON BEST-SELLER VALIDATION</span></div>' +
       amazonHTML +
     '</div>';
+}
+
+// ============================================================
+// 共用 helper：渲染 dynamic_insight（L1 与 L2 复用）
+//   insight = { trend_summary, product_profile, reasons, signals, domain, generated_at }
+// ============================================================
+function _renderDynamicInsightCard(insight, opts) {
+  if (!insight) return '';
+  opts = opts || {};
+  var title = opts.title || '&#128161; 动态聚焦 · 新趋势与产品画像';
+  var titleEn = opts.titleEn || 'DYNAMIC INSIGHT';
+
+  // 1) trend_summary
+  var summary = (insight.trend_summary || '').replace(/[<>&]/g, function(c){
+    return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c];
+  });
+  var summaryHTML = summary
+    ? '<div class="rounded-lg p-4 mb-3 border border-cyan-400/30" style="background:linear-gradient(135deg,rgba(0,229,255,.06),rgba(124,92,255,.04))">' +
+        '<div class="text-xs text-cyan-200 mb-1 tracking-wider">&#127919; 趋势聚焦</div>' +
+        '<div class="text-sm text-gray-100 leading-relaxed">' + summary + '</div>' +
+      '</div>'
+    : '';
+
+  // 2) product_profile
+  var pp = insight.product_profile || {};
+  var ppFields = [
+    {k:'外观',  color:'#ff9c54', icon:'&#127912;'},
+    {k:'成分',  color:'#5cf2bd', icon:'&#9883;'},
+    {k:'工艺',  color:'#ffd97a', icon:'&#128736;'},
+    {k:'色彩',  color:'#a78bff', icon:'&#127752;'},
+    {k:'包装',  color:'#7fdcff', icon:'&#128230;'},
+    {k:'技术趋势', color:'#3eecae', icon:'&#9889;'},
+  ];
+  var ppItems = ppFields.filter(function(f){ return pp[f.k]; });
+  var profileHTML = ppItems.length
+    ? '<div class="grid grid-cols-2 md:grid-cols-3 gap-2 mb-3">' +
+        ppItems.map(function(f){
+          var v = (pp[f.k] || '').replace(/[<>&]/g, '');
+          return '<div class="rounded-lg p-2.5 border border-white/10 bg-white/[0.02] hover:border-cyan-400/30 transition-colors">' +
+            '<div class="text-xs mb-1 font-semibold" style="color:' + f.color + '">' + f.icon + ' ' + f.k + '</div>' +
+            '<div class="text-xs text-gray-300 leading-relaxed">' + v + '</div>' +
+          '</div>';
+        }).join('') +
+      '</div>'
+    : '';
+
+  // 3) reasons
+  var reasons = insight.reasons || [];
+  var reasonsHTML = reasons.length
+    ? '<div class="mb-3">' +
+        '<div class="text-xs text-amber-200 mb-1.5 tracking-wider">&#128293; 驱动力</div>' +
+        '<ul class="space-y-1">' +
+          reasons.map(function(r){
+            var safe = (r || '').replace(/[<>&]/g, '');
+            return '<li class="text-xs text-gray-300 leading-relaxed pl-4 relative">' +
+              '<span class="absolute left-0 top-1.5 w-1.5 h-1.5 rounded-full bg-amber-400/70"></span>' +
+              safe +
+            '</li>';
+          }).join('') +
+        '</ul>' +
+      '</div>'
+    : '';
+
+  // 4) signals（胶囊）
+  var signals = insight.signals || [];
+  var dimColor = {
+    '海外社媒': '#ff5e8a',
+    '搜索':     '#5cf2bd',
+    '媒体':     '#7fdcff',
+    'Amazon':   '#ffd97a'
+  };
+  var signalsHTML = signals.length
+    ? '<div class="flex flex-wrap gap-1.5 mb-1">' +
+        signals.slice(0, 10).map(function(s){
+          var c = dimColor[s.dim] || '#a78bff';
+          var label = (s.dim || '').replace(/[<>&]/g, '');
+          var body = '';
+          if (s.dim === '媒体') {
+            var src = (s.source || '').replace(/[<>&]/g, '');
+            var t = (s.title || '').replace(/[<>&]/g, '').slice(0, 40);
+            body = src + (t ? '：' + t : '');
+          } else if (s.dim === 'Amazon') {
+            body = (s.market || '') + ' #' + (s.rank || '') + ' ' + ((s.title||'').replace(/[<>&]/g,'').slice(0,28));
+          } else {
+            var kw = (s.kw || '').replace(/[<>&]/g, '');
+            var g = s.growth;
+            body = kw + (typeof g === 'number' ? ' <span style="font-family:var(--font-tech);font-weight:600">+' + g.toFixed(0) + '%</span>' : '');
+          }
+          var href = s.url || '#';
+          var tag = s.url ? 'a' : 'span';
+          var linkAttr = s.url ? ' href="' + href + '" target="_blank" rel="noopener"' : '';
+          return '<' + tag + linkAttr + ' class="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full border transition-colors hover:opacity-90" style="color:' + c + ';border-color:' + c + '33;background:' + c + '10">' +
+            '<span class="font-semibold">' + label + '</span>' +
+            '<span class="text-gray-300">' + body + '</span>' +
+          '</' + tag + '>';
+        }).join('') +
+      '</div>'
+    : '';
+
+  var dateStr = insight.generated_at
+    ? '<div class="text-[10px] text-gray-600 mt-2 mono">insight @ ' + insight.generated_at + '</div>'
+    : '';
+
+  return '<section class="card p-5 mb-5 deco-corners">' +
+    '<span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>' +
+    '<div class="panel-title mb-3">' + title + ' <span class="panel-title-en">' + titleEn + '</span></div>' +
+    summaryHTML + profileHTML + reasonsHTML + signalsHTML + dateStr +
+  '</section>';
 }
 
 function _renderLegacyIndustryCard(ind, d) {
@@ -9997,6 +10110,14 @@ function renderCategoryDetail(d) {
       }
     });
     html += '</div>';
+  }
+
+  // Dynamic Insight（综合 4 维：社媒/搜索/媒体/Amazon → 趋势 + 产品画像 + 驱动力）
+  if (d.dynamic_insight && typeof _renderDynamicInsightCard === 'function') {
+    html += _renderDynamicInsightCard(d.dynamic_insight, {
+      title: '&#128161; 机会洞察 · 新趋势与产品画像',
+      titleEn: 'L2 DYNAMIC INSIGHT'
+    });
   }
 
   // Compliance
