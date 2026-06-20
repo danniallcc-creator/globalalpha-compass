@@ -33,24 +33,24 @@
   ],
   "export_data": {
     "hs_chapter": "20",
-    "total_export_value_usd": 37235492,
-    "total_net_weight_kg": 6735492,
+    "total_export_value_usd": 27546147,
+    "total_net_weight_kg": 7046147,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-19"
+    "fetched_at": "2026-06-20"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 21,
-      "trend_direction": "stable",
-      "avg_interest": 54.4,
+      "interest_score": 27,
+      "trend_direction": "up",
+      "avg_interest": 55.0,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
-      "fetched_at": "2026-06-19"
+      "fetched_at": "2026-06-20"
     }
   },
   "industry_analysis": {
@@ -63,7 +63,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；冷冻产品(Frozen Products)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-19",
+  "last_updated": "2026-06-20",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -332,87 +332,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 44679252019,
-      "total_kg": 1779252019,
-      "yoy_growth": 9,
+      "total_usd": 29710382605,
+      "total_kg": 810382605,
+      "yoy_growth": -5,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 10723020484,
-        "yoy": -6,
-        "share": 24.0
+        "value_usd": 2971038260,
+        "yoy": 27,
+        "share": 10.0
       },
       "DE": {
-        "value_usd": 10320907216,
-        "yoy": -12,
-        "share": 23.1
+        "value_usd": 2911617495,
+        "yoy": -8,
+        "share": 9.8
       },
       "JP": {
-        "value_usd": 9874114696,
-        "yoy": -4,
-        "share": 22.1
+        "value_usd": 2822486347,
+        "yoy": 39,
+        "share": 9.5
       },
       "GB": {
-        "value_usd": 9427322176,
-        "yoy": 17,
-        "share": 21.1
+        "value_usd": 2733355199,
+        "yoy": 20,
+        "share": 9.2
       },
       "KR": {
-        "value_usd": 4333887445,
-        "yoy": -6,
-        "share": 9.699999999999996
+        "value_usd": 2673934434,
+        "yoy": -14,
+        "share": 9.0
       },
       "AU": {
-        "value_usd": 0,
-        "yoy": 17,
-        "share": 0.1
+        "value_usd": 2614513669,
+        "yoy": 16,
+        "share": 8.8
       },
       "IN": {
-        "value_usd": 0,
-        "yoy": -14,
-        "share": 0.1
+        "value_usd": 2525382521,
+        "yoy": 39,
+        "share": 8.5
       },
       "BR": {
-        "value_usd": 0,
-        "yoy": -9,
-        "share": 0.1
+        "value_usd": 2436251373,
+        "yoy": -5,
+        "share": 8.2
       },
       "SA": {
-        "value_usd": 0,
-        "yoy": 36,
-        "share": 0.1
+        "value_usd": 2376830608,
+        "yoy": -9,
+        "share": 8.0
       },
       "FR": {
-        "value_usd": 0,
-        "yoy": -8,
-        "share": 0.1
+        "value_usd": 2317409843,
+        "yoy": 16,
+        "share": 7.8
       },
       "IT": {
-        "value_usd": 0,
-        "yoy": 8,
-        "share": 0.1
+        "value_usd": 2228278695,
+        "yoy": 7,
+        "share": 7.5
       },
       "NL": {
-        "value_usd": 0,
-        "yoy": -12,
-        "share": 0.1
+        "value_usd": 1099284156,
+        "yoy": -10,
+        "share": 3.700000000000003
       },
       "CA": {
         "value_usd": 0,
-        "yoy": 21,
+        "yoy": 9,
         "share": 0.1
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 24,
+        "yoy": 38,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": 29,
+        "yoy": 26,
         "share": 0.1
       }
     }

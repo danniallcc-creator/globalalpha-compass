@@ -25,22 +25,24 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 9636125,
-    "total_net_weight_kg": 9136125,
+    "total_export_value_usd": 11819371,
+    "total_net_weight_kg": 11319371,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-19"
+    "fetched_at": "2026-06-20"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 83,
-      "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-19"
+      "interest_score": 0,
+      "trend_direction": "down",
+      "avg_interest": 35.6,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-20"
     }
   },
   "industry_analysis": {
@@ -53,7 +55,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "ISO standards for mechanical power transmission, CE marking, bearing quality standards (ABMA/ISO), motor efficiency classes (IE1-IE4), ATEX for hazardous areas.",
-  "last_updated": "2026-06-19",
+  "last_updated": "2026-06-20",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "轴承附件：海外社媒「gear aesthetic」增速 248%，搜索端「transmission wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Power Transmission market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
@@ -149,87 +151,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 28068442924,
-      "total_kg": 1168442924,
-      "yoy_growth": -6,
+      "total_usd": 34233004814,
+      "total_kg": 1333004814,
+      "yoy_growth": 4,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 8139848447,
-        "yoy": 4,
-        "share": 29.0
+        "value_usd": 6504270914,
+        "yoy": -14,
+        "share": 19.0
       },
       "DE": {
-        "value_usd": 7803027132,
-        "yoy": 20,
-        "share": 27.8
+        "value_usd": 6264639880,
+        "yoy": -17,
+        "share": 18.3
       },
       "JP": {
-        "value_usd": 7466205817,
-        "yoy": 20,
-        "share": 26.6
+        "value_usd": 6025008847,
+        "yoy": 15,
+        "share": 17.6
       },
       "GB": {
-        "value_usd": 4659361525,
-        "yoy": -9,
-        "share": 16.6
+        "value_usd": 5785377813,
+        "yoy": 1,
+        "share": 16.9
       },
       "KR": {
-        "value_usd": 0,
-        "yoy": 10,
-        "share": 0.1
+        "value_usd": 5545746779,
+        "yoy": 32,
+        "share": 16.2
       },
       "AU": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
+        "value_usd": 4107960577,
+        "yoy": 34,
+        "share": 12.000000000000004
       },
       "IN": {
         "value_usd": 0,
-        "yoy": 10,
+        "yoy": 14,
         "share": 0.1
       },
       "BR": {
         "value_usd": 0,
-        "yoy": 13,
+        "yoy": 31,
         "share": 0.1
       },
       "SA": {
         "value_usd": 0,
-        "yoy": 18,
+        "yoy": 31,
         "share": 0.1
       },
       "FR": {
         "value_usd": 0,
-        "yoy": 34,
+        "yoy": 35,
         "share": 0.1
       },
       "IT": {
         "value_usd": 0,
-        "yoy": 0,
+        "yoy": 9,
         "share": 0.1
       },
       "NL": {
         "value_usd": 0,
-        "yoy": 9,
+        "yoy": 2,
         "share": 0.1
       },
       "CA": {
         "value_usd": 0,
-        "yoy": 1,
+        "yoy": 6,
         "share": 0.1
       },
       "MX": {
         "value_usd": 0,
-        "yoy": -5,
+        "yoy": -3,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": 28,
+        "yoy": -16,
         "share": 0.1
       }
     }
