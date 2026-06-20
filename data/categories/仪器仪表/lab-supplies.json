@@ -37,9 +37,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 27,
-      "trend_direction": "up",
-      "avg_interest": 45.7,
+      "interest_score": 17,
+      "trend_direction": "down",
+      "avg_interest": 46.6,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -217,41 +217,30 @@
     "l1_ref": "仪器仪表"
   },
   "news_sentiment": {
-    "article_count": 4,
+    "article_count": 5,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 0.0,
+      "positive_pct": 20.0,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
-      "articles_analyzed": 4
+      "neutral_pct": 80.0,
+      "articles_analyzed": 5
     },
     "top_headlines": [
-      "World Pasteur Transfer Pipettes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+      "World Laboratory Sieves - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
       "If You Can’t Buy SpaceX IPO, Is Rocket Lab the Next Best Thing? - WEEX",
-      "European Union Urinary Specimen Collection Tubes - Market Analysis, Forecast, Size, Trends and Insig",
-      "Ghana touted as a dynamic healthcare & pharmaceutical market in West Africa - MyJoyOnline"
+      "World Pasteur Transfer Pipettes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax",
+      "European Union Urinary Specimen Collection Tubes - Market Analysis, Forecast, Size, Trends and Insig"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkxlYWJhZFdYRGVGMkhVZmxHME5GZ0VwV2RfR0xYd3ItaFY1ZTBYSGMzemNkM2ZlQ1lHZ0NMdW9GWVNscXllRmcyNzJnRVNmbnJZMk11TUJGb0VEcHM0azFSUFg2YW9UNE1acEw1b1Rqc0wyTm9uLU9lbWZRSmZacklWMGlTOTUwZDRrQ1RXR09QVlBocFZ6dmIxU3BWazlGek5qUXFNRm1mMjQtRjRtdHdIYnF2NHcwSDFtX2lDWXNVb0g3R2NMT1U1WkVINE1lWHNQekpfaEhnRzdZT0JaaDlJVkM?oc=5",
+      "https://news.google.com/rss/articles/CBMigAJBVV95cUxQLUY3a1VGcHRPbEw5anNFdWpPbXJKMGdyNzVrQUJtaDZOM2VtbHpURlFnRlJGdl9NclFrbWhWMXA3MjQzM1NfSFQxekwxTlM0WVlFYVRGeHdBc0xjbVNlbW9zMFRIc3FzOFN2aUNjeWZlSms5aEI2ZXFlNUpFRVZRbXgtNUZIYVQ0RWJQRVIwY2pYWjhNWkM1TnlWWnNDeGVtQkJuS0Z2RXlYdjhfR2NoT3Q1VkRSZ2JPd3NSakN4VDJkbmswOEZ4bWYwaU9fNGZ6RldsOUxTaV9ObE1JOTlpYzE0UXVGbnc4R2VkekdJNnp3X2Q2eW44ZnQyUEZOcnls?oc=5",
       "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTG44WkFybXRMTjAtb2FwbjlaTmp0SXhsT2xfcGdacU95djhsTFoxZ0Q4ak9YMWtFc3dFOFZ0ajFUSFN6WDFmenBhdUJMTVRtdW1KanFjcmtMdWluZVd5a2ZlX2RLN1dPT3ZaZFFVaTF6WGt1OG9xSmQ4MWRidzFCYktoOTFkaUJSLUtNY0dzcFBHLU1UTzhJT3hzWTRPNklBUFZGbGQyRUZ0MjBuN0pNS1Fwd2pDM0sydjFn?oc=5",
-      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTh5VFRPZmpCdXN6UXlZVFp1ZElsMHh2S0gzbVBpb0lRNldMQk1nTG1NUjhoT2RyZG1oZTZROE5rU3NXbzNxLWtFNGxpNXpRdnVEZXNXTFJhSGwyZVA2NHVPR3NMT2V1TXNEa2hrME15RDdoUjUwLVBULU00SUhXekkzOXRyWmlCd3YtQ1AzOUYtdDlReFZWSXZFdzJWMTRIQ3JLWUtkaFp1czF5T25mWFljZUoteWxRaF9UVWtsWnhYaGVONFRVWA?oc=5"
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkxlYWJhZFdYRGVGMkhVZmxHME5GZ0VwV2RfR0xYd3ItaFY1ZTBYSGMzemNkM2ZlQ1lHZ0NMdW9GWVNscXllRmcyNzJnRVNmbnJZMk11TUJGb0VEcHM0azFSUFg2YW9UNE1acEw1b1Rqc0wyTm9uLU9lbWZRSmZacklWMGlTOTUwZDRrQ1RXR09QVlBocFZ6dmIxU3BWazlGek5qUXFNRm1mMjQtRjRtdHdIYnF2NHcwSDFtX2lDWXNVb0g3R2NMT1U1WkVINE1lWHNQekpfaEhnRzdZT0JaaDlJVkM?oc=5"
     ],
     "fetched_at": "2026-06-20"
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "Trump is shaking up customs rules. What should shippers know? - Supply Chain Dive",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNcG1MREk5ZzkzRno5b2ZmQTlpaXlXa2ppRDNVQnE3Q2R5ampfa0x4WlpFTE5odHVPUG42c2FnNjVmRFRMOTh2aXRkcldHUjVEQWpDSl9NZlRsUHBabmNNVHZNOXo3dXFCdnJoYlFKLTN4UnlNYmRqbE0yaFdzMTZaNEFCZnpqWjNoUzlyV1QyQlY3VU1fejlPLVgxbGJJbExMZ2RjbnZxRQ?oc=5\" target=\"_blank\">T",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcG1MREk5ZzkzRno5b2ZmQTlpaXlXa2ppRDNVQnE3Q2R5ampfa0x4WlpFTE5odHVPUG42c2FnNjVmRFRMOTh2aXRkcldHUjVEQWpDSl9NZlRsUHBabmNNVHZNOXo3dXFCdnJoYlFKLTN4UnlNYmRqbE0yaFdzMTZaNEFCZnpqWjNoUzlyV1QyQlY3VU1fejlPLVgxbGJJbExMZ2RjbnZxRQ?oc=5",
-        "published": "Tue, 16 Jun 2026",
-        "source": "Supply Chain Dive"
-      },
       {
         "title": "World Biohazard Spill Kits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWVqQ2NhTU9MVWNucXlvWEFNUUxyTE90VklETGRLVG1GSkJreVNIVXhvLWpIRFNLaHViUmdYalFTMFl2OXkzQmhMM3FkN0xCWVdHRG9rVjhUS0w4Q2RSUjlseEFuZGVaVUhUcm9mT1g0bUVZRkUtSTM0RjBPYjE4YXR4cko4UUpNV1FfYU1YMWJBN2ZocF9lSGlfeTNkNm1YaDd1TGk0bUZWNEo2a1FsaXY2VG0ydFJnQz",
@@ -265,14 +254,14 @@
         "source": "IndexBox"
       },
       {
-        "title": "Global drugmakers invest billions to boost US presence - Reuters",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQUllCaWtENE1wTDFWOEpYeU13OHJjdzNHY2xmVWZ4M1hOM3RBU2t1Q2d4cWR1WFlFcEx5VkdzRThfcmFJM0FuLXJRZXdKeWR1VWU2akpveGhjRERHREdJUjlGUTVJcFFmdURSTmVYcWNNc1ZoY0VZSVdQWjRibWtCZTlsSXZqeV9ybEp2V0hvbWR2OGQ0OEVJMkxPRm1nbzhSQXg1ajZJMTl6X0ljUHJ5R3Z4UXZxdUNWU0",
+        "title": "Trump's critical minerals pricing plan faces skeptical G7, divided industry - Reuters",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUUJoZ2owWVMteUg4ZWhBTU1EMHdoUDlLUW5pZUFCMHAzS2pzakVrTHZienFFaFFycEFZY0k3Vm91cXRJRjNfWHZvNlM4TGVjSUNLbmhDT1phRjJ2YVlKNU5ab0dUNzlZSDZ1SkN3UGFEczdpNHNWVHg1QzZPOWp2SEppU1BwMFBJSXpYY3ZqN1FqWWlMMTZ4QW05eG1FZ245UG5HbnI1MEpna0J3X1cwSWRsaDJfVnpDUm",
         "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUllCaWtENE1wTDFWOEpYeU13OHJjdzNHY2xmVWZ4M1hOM3RBU2t1Q2d4cWR1WFlFcEx5VkdzRThfcmFJM0FuLXJRZXdKeWR1VWU2akpveGhjRERHREdJUjlGUTVJcFFmdURSTmVYcWNNc1ZoY0VZSVdQWjRibWtCZTlsSXZqeV9ybEp2V0hvbWR2OGQ0OEVJMkxPRm1nbzhSQXg1ajZJMTl6X0ljUHJ5R3Z4UXZxdUNWU0c2eW92blUzblV6MnFyQ1lWTE4?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUUJoZ2owWVMteUg4ZWhBTU1EMHdoUDlLUW5pZUFCMHAzS2pzakVrTHZienFFaFFycEFZY0k3Vm91cXRJRjNfWHZvNlM4TGVjSUNLbmhDT1phRjJ2YVlKNU5ab0dUNzlZSDZ1SkN3UGFEczdpNHNWVHg1QzZPOWp2SEppU1BwMFBJSXpYY3ZqN1FqWWlMMTZ4QW05eG1FZ245UG5HbnI1MEpna0J3X1cwSWRsaDJfVnpDUmFXV3MyT29Ydw?oc=5",
         "published": "Mon, 15 Jun 2026",
         "source": "Reuters"
       },
@@ -289,27 +278,15 @@
         "source": "FreshPlaza"
       },
       {
-        "title": "Trump's critical minerals pricing plan faces skeptical G7, divided industry - Reuters",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUUJoZ2owWVMteUg4ZWhBTU1EMHdoUDlLUW5pZUFCMHAzS2pzakVrTHZienFFaFFycEFZY0k3Vm91cXRJRjNfWHZvNlM4TGVjSUNLbmhDT1phRjJ2YVlKNU5ab0dUNzlZSDZ1SkN3UGFEczdpNHNWVHg1QzZPOWp2SEppU1BwMFBJSXpYY3ZqN1FqWWlMMTZ4QW05eG1FZ245UG5HbnI1MEpna0J3X1cwSWRsaDJfVnpDUm",
+        "title": "Northern America Mass Spectrometry Electrospray Emitters - Market Analysis, Forecast, Size, Trends and Insights - IndexB",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNvQndoWDBEM3hacjRhUVpPbWFoTENib2VFM3lmMXFjdXQ5MjlxdEJnSXU3VkdoeDJiLWJLY1ZpMG52SFhldDV3a05lYjdEXzY4UnAyOVlBeGJ0dXk3Q2NpZVBPazl2eHBUYmJHWkU0OVZSNXo1NEc0SWRFeW9kYXI0TE4tWnd2d2hZU0Q3eFh1cnlqbmx4c3hvWmJRTTNMdDNyOWhDZy1qVkE1UGU3TVBNQzAwNWVtaj",
         "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUUJoZ2owWVMteUg4ZWhBTU1EMHdoUDlLUW5pZUFCMHAzS2pzakVrTHZienFFaFFycEFZY0k3Vm91cXRJRjNfWHZvNlM4TGVjSUNLbmhDT1phRjJ2YVlKNU5ab0dUNzlZSDZ1SkN3UGFEczdpNHNWVHg1QzZPOWp2SEppU1BwMFBJSXpYY3ZqN1FqWWlMMTZ4QW05eG1FZ245UG5HbnI1MEpna0J3X1cwSWRsaDJfVnpDUmFXV3MyT29Ydw?oc=5",
-        "published": "Mon, 15 Jun 2026",
-        "source": "Reuters"
-      },
-      {
-        "title": "Northern America Stuart Transport Medium - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOMVQ5ZzJEYnRadm0ydjhKTmN2TUlhUGNiaEJCcTlzMF9iSWFzNk55eXJYejg4TTF0Q1lsQUxNclR4bjdxRDFsWVR2bVpra2hzblVBMEFiWWw3MFJxNUFNR2psdGVuRDJ2RThrdnFOcEI5b0NBRWdia2NTTXRLSE5KbVVRa2Y0N19IRkxNWnVIYnBqc0NMbHdFRXVBeWJVTi1uRVFVRHA4VTljc1hvT055Z1FEWDRTdVZCcG",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMVQ5ZzJEYnRadm0ydjhKTmN2TUlhUGNiaEJCcTlzMF9iSWFzNk55eXJYejg4TTF0Q1lsQUxNclR4bjdxRDFsWVR2bVpra2hzblVBMEFiWWw3MFJxNUFNR2psdGVuRDJ2RThrdnFOcEI5b0NBRWdia2NTTXRLSE5KbVVRa2Y0N19IRkxNWnVIYnBqc0NMbHdFRXVBeWJVTi1uRVFVRHA4VTljc1hvT055Z1FEWDRTdVZCcGxPOEl3?oc=5",
-        "published": "Fri, 19 Jun 2026",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNvQndoWDBEM3hacjRhUVpPbWFoTENib2VFM3lmMXFjdXQ5MjlxdEJnSXU3VkdoeDJiLWJLY1ZpMG52SFhldDV3a05lYjdEXzY4UnAyOVlBeGJ0dXk3Q2NpZVBPazl2eHBUYmJHWkU0OVZSNXo1NEc0SWRFeW9kYXI0TE4tWnd2d2hZU0Q3eFh1cnlqbmx4c3hvWmJRTTNMdDNyOWhDZy1qVkE1UGU3TVBNQzAwNWVtajA1WnFLT1ByVjV2TWZsMWU0eFlOUHdTcVZF?oc=5",
+        "published": "Sat, 20 Jun 2026",
         "source": "IndexBox"
       },
       {
@@ -349,14 +326,38 @@
         "source": "IndexBox"
       },
       {
-        "title": "Northern America Incise Surgical Drapes Adhesive - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnFMUDJmZHZ0T0ctMk1BRDFaZ1FWSmJIaERZNXYyX0xNcUNsZTlIbFdkMlR4WGM0ZVQzUDFZaV9RSkp4TFFucVA5SG5QZFh2TUkteC1xSjBGV0ppUHh5eGh6Z2lqQWZPOVlWX0NwTWF0WXoyVzN0RVVadXVaS0dnTXU5b0Nmenl0NGlEcFJ6akkxUDRjOVpSUnpTVW53NHF1bkpMQXJVTXpIcHk0OUhlbExKYUxESW9RV0",
+        "title": "Africa Catalase Test Reagent Strips - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQRGh1Vk1GVnBJai00UUthakE2X3IyaHFhVXRvczFGVHlTN3Q5dXNrSndsU2pScWV6eGF1WHFHT0pjUExRa2VQQU9ocWt6UW1heU9CX0pmMWszeDFfb0V4alB6aVV6Tk9xbkRXeURya2k3M3NjVVVLTzloOTJjUjc5YlhxNU1zSjVBU1p6ZlF4YnljTkdfRVQ3U0xoblFSS2hNZFhYakVIUUtmTlowMHZSWE9IWlRuaUk?oc",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRGh1Vk1GVnBJai00UUthakE2X3IyaHFhVXRvczFGVHlTN3Q5dXNrSndsU2pScWV6eGF1WHFHT0pjUExRa2VQQU9ocWt6UW1heU9CX0pmMWszeDFfb0V4alB6aVV6Tk9xbkRXeURya2k3M3NjVVVLTzloOTJjUjc5YlhxNU1zSjVBU1p6ZlF4YnljTkdfRVQ3U0xoblFSS2hNZFhYakVIUUtmTlowMHZSWE9IWlRuaUk?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "European Union Urinary Specimen Collection Tubes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTh5VFRPZmpCdXN6UXlZVFp1ZElsMHh2S0gzbVBpb0lRNldMQk1nTG1NUjhoT2RyZG1oZTZROE5rU3NXbzNxLWtFNGxpNXpRdnVEZXNXTFJhSGwyZVA2NHVPR3NMT2V1TXNEa2hrME15RDdoUjUwLVBULU00SUhXekkzOXRyWmlCd3YtQ1AzOUYtdDlReFZWSXZFdzJWMTRIQ3JLWUtkaFp1czF5T25mWFljZUoteWxRaF",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTh5VFRPZmpCdXN6UXlZVFp1ZElsMHh2S0gzbVBpb0lRNldMQk1nTG1NUjhoT2RyZG1oZTZROE5rU3NXbzNxLWtFNGxpNXpRdnVEZXNXTFJhSGwyZVA2NHVPR3NMT2V1TXNEa2hrME15RDdoUjUwLVBULU00SUhXekkzOXRyWmlCd3YtQ1AzOUYtdDlReFZWSXZFdzJWMTRIQ3JLWUtkaFp1czF5T25mWFljZUoteWxRaF9UVWtsWnhYaGVONFRVWA?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Middle East Phase Contrast Optical Microscopy - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOQUpDYjJvWDFJdVQ5TDdfN1A5WDYwd19PZDVxUkplREE5N3pKVlo1V3hUV2hON0w4dVFBWWVOLUVGakRqMGYwdjlLTHBfWVM0dGFRNXNyTkxXNkZTZXZsaGswZTBGY0xoZnV3ejBCSTlyNzc4eERZSTJoT0xpSzBIcUs3aXNJZXBSZ0pnRkFPYnAzVHNmaUd2aEpIQjMyQ1B5U3RkUGxCSUVzMTBiWF9qbk9FQjQ1emFvbV",
         "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnFMUDJmZHZ0T0ctMk1BRDFaZ1FWSmJIaERZNXYyX0xNcUNsZTlIbFdkMlR4WGM0ZVQzUDFZaV9RSkp4TFFucVA5SG5QZFh2TUkteC1xSjBGV0ppUHh5eGh6Z2lqQWZPOVlWX0NwTWF0WXoyVzN0RVVadXVaS0dnTXU5b0Nmenl0NGlEcFJ6akkxUDRjOVpSUnpTVW53NHF1bkpMQXJVTXpIcHk0OUhlbExKYUxESW9RV0wzWEstS25aeXdkbU8yQw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQUpDYjJvWDFJdVQ5TDdfN1A5WDYwd19PZDVxUkplREE5N3pKVlo1V3hUV2hON0w4dVFBWWVOLUVGakRqMGYwdjlLTHBfWVM0dGFRNXNyTkxXNkZTZXZsaGswZTBGY0xoZnV3ejBCSTlyNzc4eERZSTJoT0xpSzBIcUs3aXNJZXBSZ0pnRkFPYnAzVHNmaUd2aEpIQjMyQ1B5U3RkUGxCSUVzMTBiWF9qbk9FQjQ1emFvbVZjYUFXc01SMmVY?oc=5",
         "published": "Fri, 19 Jun 2026",
         "source": "IndexBox"
       }

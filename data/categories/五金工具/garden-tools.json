@@ -39,12 +39,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 31,
-      "trend_direction": "up",
-      "avg_interest": 59.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 89,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-20"
     }
   },
@@ -238,19 +236,19 @@
   "news_sentiment": {
     "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 0.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 0.0,
       "articles_analyzed": 1
     },
     "top_headlines": [
-      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala"
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUlacldwUVB6djRJN0tleWpKQTFDOVk4c1NyWURhNEhXd3YxNks1c0JCYVhXd29iQ1pRTWxnNW54WWlGbFNVQlhweGVoRFNaNjJtOHBSS0hkUXBfMGlYaEVCNUJ1QWpQRFFxZ28ydjdrSFNvYzN0T3YzdWRKSjBoVVpwaS1QaWRIc1RCU1dqbEU0MWhlcU1zXzgtX1RaNjdkMjFHZlN0S0RfOFRXSWpuajVIVWgzQWJaTDk5VVU3UG1BeXZ2b2N1d2VLTXM?oc=5"
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
-    "fetched_at": "2026-06-19"
+    "fetched_at": "2026-06-20"
   },
   "social_media_trends": {
     "google": [
@@ -272,54 +270,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "turquía - paraguay",
-            "volume": "2000+",
-            "growth": 73.6
-          },
-          {
-            "keyword": "sam levinson",
+            "keyword": "taylor fritz",
             "volume": "1000+",
-            "growth": -8.4
+            "growth": 10.5
           },
           {
-            "keyword": "ohtani",
+            "keyword": "pge outage",
+            "volume": "200+",
+            "growth": 13.6
+          },
+          {
+            "keyword": "katie hopkins",
+            "volume": "200+",
+            "growth": 8.8
+          },
+          {
+            "keyword": "call of duty: black ops ii",
+            "volume": "200+",
+            "growth": 16.0
+          },
+          {
+            "keyword": "u.s. open",
             "volume": "500+",
-            "growth": 29.2
+            "growth": 102.8
           },
           {
-            "keyword": "minnesota lynx",
-            "volume": "500+",
-            "growth": 59.4
+            "keyword": "the white lotus",
+            "volume": "200+",
+            "growth": 86.6
           },
           {
-            "keyword": "weston wilson",
-            "volume": "500+",
-            "growth": 48.4
+            "keyword": "politics",
+            "volume": "1000+",
+            "growth": 109.4
           },
           {
-            "keyword": "concacaf",
-            "volume": "500+",
-            "growth": 42.5
-          },
-          {
-            "keyword": "night of champions 2026",
-            "volume": "500+",
-            "growth": 12.7
-          },
-          {
-            "keyword": "gabriel martinelli",
+            "keyword": "callum turner",
             "volume": "2000+",
-            "growth": 27.7
+            "growth": 83.6
           },
           {
-            "keyword": "michael king",
-            "volume": "500+",
-            "growth": 28.1
+            "keyword": "health care fraud",
+            "volume": "200+",
+            "growth": 18.1
           },
           {
-            "keyword": "when is casa amor season 8",
-            "volume": "500+",
-            "growth": 23.0
+            "keyword": "lgbtq",
+            "volume": "200+",
+            "growth": 60.1
           }
         ],
         "business_opportunity": "YouTube平台\"Garden Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -370,17 +368,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "45B views",
+            "volume": "17B views",
             "growth": 0.7
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "38B views",
+            "volume": "42B views",
             "growth": 41.6
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "29B views",
+            "volume": "47B views",
             "growth": -7.0
           }
         ],

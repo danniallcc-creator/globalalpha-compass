@@ -35,12 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 25,
-      "trend_direction": "up",
-      "avg_interest": 55.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 63,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-20"
     }
   },
@@ -320,5 +318,22 @@
         "share": 11.1
       }
     }
+  },
+  "news_sentiment": {
+    "article_count": 1,
+    "sentiment": {
+      "overall": "positive",
+      "positive_pct": 100.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
+    },
+    "top_headlines": [
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
+    ],
+    "fetched_at": "2026-06-20"
   }
 }

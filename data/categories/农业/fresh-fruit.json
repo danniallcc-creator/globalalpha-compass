@@ -35,12 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 62,
+      "interest_score": 85,
       "trend_direction": "up",
-      "avg_interest": 72.6,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-20"
     }
   },
@@ -323,22 +321,22 @@
   "news_sentiment": {
     "article_count": 5,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 40.0,
+      "overall": "positive",
+      "positive_pct": 60.0,
       "negative_pct": 0.0,
-      "neutral_pct": 60.0,
+      "neutral_pct": 40.0,
       "articles_analyzed": 5
     },
     "top_headlines": [
       "Asia Fruit Logistica expands China Study Tour Program for 2026 - FreshFruitPortal.com",
-      "A wind of change in Italy's wholesale produce markets - FreshPlaza",
+      "Expanded China tour to focus on retail and supply chain operations - FreshPlaza",
       "Taiwan ships first major fruit consignment to Europe - Fruitnet",
       "A vibrant fresh produce hub in the geographical heart of Europe - Hortidaily",
       "Vietnam’s early-season fresh lychees win over the US market - moit.gov.vn"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TeTctYjJNVEhjUUEtRUVSRGdoOURfUHNIRDkzWE5INkxVTjROZzZMWUdjV2x2NDg5X0JFU2ZHTWgybEEzejEtdVlkRW9Xc3hQQlNuTW5KWGk1amZlMnd3Njg4MkZuaWVDaVdoU1I2SXh3d3ls?oc=5",
-      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3JnOGRsSm8xeVBocWdxazQxRVZLNU5KWjFRLTBuN2lTd2pOd3NBa2xJaHpQLXFtQlpTMjBXVVFmUkNzNUJoWnotaXRaR1VmX0l0QkoySVJwaWU0Njl3QnhtbVNEMkloR25aSXd5X0VQbnVSS09YRldDZWJfOXdiaGJYcG05SW5kWTZsU0xjajRPREg3QXNPY0tRT3dBUTNtWG4wM25kN3BhWHhfWERCaw?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdUo0NXBlRUhnMmpVWEpCUV81b010cV9RbGttUHRKZVUteGtHNWJ5V1F6ZHdBRGQtRXNrYi1CeUVCMGswUG04UU44SVBjWUlEektfTHBHUHY3bk1CUzhHNERzdUozUEtNSXJCeG5CTXQ3cXlxSzRmalVGYzh1Q0l6ZVpGVXAxUmtuaGQ4X0p6eHZVMjhWLWhDdzQ0WUhIREMyOHlPNlpYdF82MVNZLWlOMy1pX0Nvc2pwRVR6UmEydmVxdw?oc=5",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSTZwbGhfLXgxZmJuMXhmbW5DbUxEb29uSmIwVUFyclR6bDFLMk0wLUpOeHk4b21VWUl4ZVdqMFQ4UGk1aDlhVkVqQndnT2NiZm51NlhXdlRZX3NXOWlRS0JLQlNEd3h4aWp0M3hHckpXNksxRGJmLWdJYnhMcHlvRE1uZ0NjV2RIWGtEbEJXRGxkbVBDc0pLbnY4eVFkMXY4T3VLSA?oc=5"
     ],
     "fetched_at": "2026-06-20"
@@ -363,54 +361,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "turquía - paraguay",
-            "volume": "2000+",
-            "growth": 73.6
-          },
-          {
-            "keyword": "sam levinson",
+            "keyword": "taylor fritz",
             "volume": "1000+",
-            "growth": -8.4
+            "growth": 10.5
           },
           {
-            "keyword": "ohtani",
+            "keyword": "pge outage",
+            "volume": "200+",
+            "growth": 13.6
+          },
+          {
+            "keyword": "katie hopkins",
+            "volume": "200+",
+            "growth": 8.8
+          },
+          {
+            "keyword": "call of duty: black ops ii",
+            "volume": "200+",
+            "growth": 16.0
+          },
+          {
+            "keyword": "u.s. open",
             "volume": "500+",
-            "growth": 29.2
+            "growth": 102.8
           },
           {
-            "keyword": "minnesota lynx",
-            "volume": "500+",
-            "growth": 59.4
+            "keyword": "the white lotus",
+            "volume": "200+",
+            "growth": 86.6
           },
           {
-            "keyword": "weston wilson",
-            "volume": "500+",
-            "growth": 48.4
+            "keyword": "politics",
+            "volume": "1000+",
+            "growth": 109.4
           },
           {
-            "keyword": "concacaf",
-            "volume": "500+",
-            "growth": 42.5
-          },
-          {
-            "keyword": "night of champions 2026",
-            "volume": "500+",
-            "growth": 12.7
-          },
-          {
-            "keyword": "gabriel martinelli",
+            "keyword": "callum turner",
             "volume": "2000+",
-            "growth": 27.7
+            "growth": 83.6
           },
           {
-            "keyword": "michael king",
-            "volume": "500+",
-            "growth": 28.1
+            "keyword": "health care fraud",
+            "volume": "200+",
+            "growth": 18.1
           },
           {
-            "keyword": "when is casa amor season 8",
-            "volume": "500+",
-            "growth": 23.0
+            "keyword": "lgbtq",
+            "volume": "200+",
+            "growth": 60.1
           }
         ],
         "business_opportunity": "YouTube平台\"Fresh Fruit\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -461,17 +459,17 @@
         "trending_keywords": [
           {
             "keyword": "#TikTokMadeMeBuyIt",
-            "volume": "8B views",
+            "volume": "58B views",
             "growth": 104.8
           },
           {
             "keyword": "#AmazonFinds",
-            "volume": "43B views",
+            "volume": "46B views",
             "growth": 125.9
           },
           {
             "keyword": "#Trending",
-            "volume": "31B views",
+            "volume": "5B views",
             "growth": 33.7
           }
         ],
@@ -493,6 +491,30 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRmFkRHZTSXd2d2RSTUhXN1FyNnM5OHBWVUNrWGZEcmNvVDJfRXRMQlppLThNQV9TRGZEaThZS3AwcWJKXzR0Tl9RWlV0TTN5R2YtVWFETFJhaVlNZmdORVhMdUlIWkZvc2M2STNjX2FXdkxuX3FHUm1ZNnc?oc=5",
         "published": "Thu, 18 Jun 2026",
         "source": "Citrus Industry Magazine"
+      },
+      {
+        "title": "US: Produce and floral industry discusses MAHA and agriculture policies in Washington, DC - Agroberichten Buitenland",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWT",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaENkSG1Vc3p2Skd5VG50ZU9kdWtPN0xzVVR0TmVMNnhUUGFwTzZtTEF5TlAtUGJvaC01Z0hQalFfR3dlOTJnVFpLWFp3eUlvNF9CeWV6UzhtRGFocm43d2RBLWV6ZWh5T21zVy02OTVFQVBYTG94Y3g3LURteTNrWm1aUVUwcjNJdlZ0MXRzUzRidlczZDVFOVVFZDJnUGtUYUlBRGo1QmU1Zzk5cklnSVVJX1BLcVlYWTBqcWpPcHRaUUpzam11cFlxOGNKbm1EdWhnRG5nVnh3eUlUTjA3aWNlckU1NHc?oc=5",
+        "published": "Tue, 16 Jun 2026",
+        "source": "Agroberichten Buitenland"
+      },
+      {
+        "title": "The Sweet Poison: Unmasking the Hidden Dangers of Calcium Carbide-Ripened Fruits in Ghana - Modern Ghana",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNa21DM2NRTl9iR2I5U1JRb0U5SzJXdXh1d1NDQ1VzS2NZMVNJb2ppa3ktTnhnZk9OQW9VdVoyc29rQmF2MjJVb1VORElkOVIzNlJpZXFtaGVyQWlZVWM4QUNKSlFwamJXbXByRWFwcnRXV0pGb25DVFdPNU9wM1g3Zk9FbUV2N1MtOUpZc2NFYzhVdXp30gGUAUFVX3lxTE1rbUMzY1FOX2JHYjlTUlFvRTlLMld1eHV3U0",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "positive",
+        "impact_score": 0.2,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa21DM2NRTl9iR2I5U1JRb0U5SzJXdXh1d1NDQ1VzS2NZMVNJb2ppa3ktTnhnZk9OQW9VdVoyc29rQmF2MjJVb1VORElkOVIzNlJpZXFtaGVyQWlZVWM4QUNKSlFwamJXbXByRWFwcnRXV0pGb25DVFdPNU9wM1g3Zk9FbUV2N1MtOUpZc2NFYzhVdXp30gGUAUFVX3lxTE1rbUMzY1FOX2JHYjlTUlFvRTlLMld1eHV3U0NDVXNLY1kxU0lvamlreS1OeGdmT05Bb1V1WjJzb2tCYXYyMlVvVU5ESWQ5UjM2UmllcW1oZXJBaVlVYzhBQ0pKUXBqYldtcHJFYXBydFdXSkZvbkNUV081T3AzWDdmT0VtRXY3Uy05SllzY0VjOFV1enc?oc=5",
+        "published": "Sat, 20 Jun 2026",
+        "source": "Modern Ghana"
       },
       {
         "title": "The ANSA news agency prevented 45 metric tons of contaminated potatoes from entering Moldova - logos-pres.md",
@@ -528,11 +550,11 @@
         "impact": "neutral"
       },
       "Unknown": {
-        "trend": "neutral",
+        "trend": "opening",
         "key_policies": [
           "compliance"
         ],
-        "impact": "neutral"
+        "impact": "positive"
       }
     }
   },

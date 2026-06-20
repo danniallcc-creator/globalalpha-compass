@@ -41,12 +41,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 18,
-      "trend_direction": "down",
-      "avg_interest": 68.7,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 62,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-20"
     }
   },
@@ -160,42 +158,42 @@
       "US": {
         "value_usd": 2625942598,
         "yoy": -37.5,
-        "share": 12.7
+        "share": 11.5
       },
       "DE": {
         "value_usd": 5979681644.225004,
         "yoy": 98.5,
-        "share": 29.0
+        "share": 26.2
       },
       "JP": {
         "value_usd": 1904358895.6330001,
         "yoy": 3.1,
-        "share": 9.2
+        "share": 8.3
       },
       "KR": {
         "value_usd": 1389603670,
         "yoy": null,
-        "share": 6.7
+        "share": 6.1
+      },
+      "AU": {
+        "value_usd": 2629154042.566,
+        "yoy": 3.5,
+        "share": 11.5
       },
       "IT": {
         "value_usd": 476942806.87799996,
-        "yoy": null,
-        "share": 2.3
-      },
-      "NL": {
-        "value_usd": 382829954.208,
-        "yoy": -3.2,
-        "share": 1.9
+        "yoy": -1.2,
+        "share": 2.1
       },
       "CA": {
         "value_usd": 6412939290.411981,
         "yoy": 8.2,
-        "share": 31.1
+        "share": 28.0
       },
       "MX": {
         "value_usd": 1445158288,
         "yoy": null,
-        "share": 7.0
+        "share": 6.3
       }
     }
   }
