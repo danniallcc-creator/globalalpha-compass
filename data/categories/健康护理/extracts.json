@@ -24,22 +24,24 @@
   ],
   "export_data": {
     "hs_chapter": "13",
-    "total_export_value_usd": 8851011,
-    "total_net_weight_kg": 18351011,
+    "total_export_value_usd": 37195655,
+    "total_net_weight_kg": 16695655,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-20"
+    "fetched_at": "2026-06-21"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 96,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-20"
+      "interest_score": 56,
+      "trend_direction": "up",
+      "avg_interest": 68.0,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-21"
     }
   },
   "industry_analysis": {
@@ -52,7 +54,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: FDA OTC药品注册/monograph, DSHEA膳食补充剂GMP | EU: NHP食品补充剂指令2002/46/EC, 医药类需EMA/国家批准 | JP: 机能性表示食品届出(FSSAI相当), 特保FOSHU厚生批准 | SA: SFDA营养补充剂注册",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-21",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -233,87 +235,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 10588461307,
-      "total_kg": 1688461307,
-      "yoy_growth": 17,
+      "total_usd": 40199007210,
+      "total_kg": 1299007210,
+      "yoy_growth": 0,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 1270615356,
-        "yoy": -9,
-        "share": 12.0
+        "value_usd": 6029851081,
+        "yoy": 29,
+        "share": 15.0
       },
       "DE": {
-        "value_usd": 1228261511,
+        "value_usd": 5828856045,
         "yoy": -14,
-        "share": 11.6
+        "share": 14.5
       },
       "JP": {
-        "value_usd": 1196496127,
-        "yoy": 32,
-        "share": 11.3
+        "value_usd": 5627861009,
+        "yoy": 5,
+        "share": 14.0
       },
       "GB": {
-        "value_usd": 1154142282,
-        "yoy": -1,
-        "share": 10.9
+        "value_usd": 5426865973,
+        "yoy": 26,
+        "share": 13.5
       },
       "KR": {
-        "value_usd": 1122376898,
-        "yoy": -3,
-        "share": 10.6
+        "value_usd": 5225870937,
+        "yoy": -10,
+        "share": 13.0
       },
       "AU": {
-        "value_usd": 1080023053,
-        "yoy": -10,
-        "share": 10.2
+        "value_usd": 5024875901,
+        "yoy": -4,
+        "share": 12.5
       },
       "IN": {
-        "value_usd": 1048257669,
-        "yoy": 11,
-        "share": 9.9
+        "value_usd": 4823880865,
+        "yoy": 38,
+        "share": 12.0
       },
       "BR": {
-        "value_usd": 1005903824,
-        "yoy": -12,
-        "share": 9.5
+        "value_usd": 2210945396,
+        "yoy": 27,
+        "share": 5.5
       },
       "SA": {
-        "value_usd": 974138440,
-        "yoy": 19,
-        "share": 9.2
+        "value_usd": 0,
+        "yoy": -20,
+        "share": 0.1
       },
       "FR": {
-        "value_usd": 508246142,
-        "yoy": 8,
-        "share": 4.800000000000008
+        "value_usd": 0,
+        "yoy": 38,
+        "share": 0.1
       },
       "IT": {
         "value_usd": 0,
-        "yoy": 0,
+        "yoy": 10,
         "share": 0.1
       },
       "NL": {
         "value_usd": 0,
-        "yoy": -15,
+        "yoy": -11,
         "share": 0.1
       },
       "CA": {
         "value_usd": 0,
-        "yoy": -9,
+        "yoy": -4,
         "share": 0.1
       },
       "MX": {
         "value_usd": 0,
-        "yoy": -19,
+        "yoy": -1,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": -6,
+        "yoy": 19,
         "share": 0.1
       }
     }

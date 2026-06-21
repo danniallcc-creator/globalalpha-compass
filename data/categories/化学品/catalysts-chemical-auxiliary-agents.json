@@ -41,22 +41,22 @@
   ],
   "export_data": {
     "hs_chapter": "38",
-    "total_export_value_usd": 48586620,
-    "total_net_weight_kg": 18086620,
+    "total_export_value_usd": 6985660,
+    "total_net_weight_kg": 6485660,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-20"
+    "fetched_at": "2026-06-21"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 64,
+      "interest_score": 76,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-20"
+      "fetched_at": "2026-06-21"
     }
   },
   "industry_analysis": {
@@ -69,7 +69,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；催化剂及化学助剂(Catalysts & Chemical Auxiliary Agents)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-21",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -343,27 +343,17 @@
       "US": {
         "value_usd": 6455936445,
         "yoy": null,
-        "share": 27.5
+        "share": 26.5
+      },
+      "DE": {
+        "value_usd": 13466603251.74002,
+        "yoy": -34.1,
+        "share": 55.3
       },
       "JP": {
         "value_usd": 4433126723.367,
-        "yoy": 1.2,
-        "share": 18.9
-      },
-      "GB": {
-        "value_usd": 4887893510.015998,
-        "yoy": -38.9,
-        "share": 20.8
-      },
-      "KR": {
-        "value_usd": 5937708743,
-        "yoy": 42.8,
-        "share": 25.3
-      },
-      "AU": {
-        "value_usd": 1729334327.494,
         "yoy": null,
-        "share": 7.4
+        "share": 18.2
       }
     }
   }

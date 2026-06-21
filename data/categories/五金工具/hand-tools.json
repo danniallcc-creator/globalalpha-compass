@@ -52,22 +52,24 @@
   ],
   "export_data": {
     "hs_chapter": "82",
-    "total_export_value_usd": 13435922,
-    "total_net_weight_kg": 12935922,
+    "total_export_value_usd": 50640637,
+    "total_net_weight_kg": 20140637,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-20"
+    "fetched_at": "2026-06-21"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 69,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-20"
+      "interest_score": 30,
+      "trend_direction": "up",
+      "avg_interest": 59.3,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-21"
     }
   },
   "industry_analysis": {
@@ -80,7 +82,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-21",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -257,25 +259,27 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 3,
+    "article_count": 5,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 33.3,
+      "positive_pct": 40.0,
       "negative_pct": 0.0,
-      "neutral_pct": 66.7,
-      "articles_analyzed": 3
+      "neutral_pct": 60.0,
+      "articles_analyzed": 5
     },
     "top_headlines": [
       "Users Say This Popular Hand Tool Brand's Quality Is On The Decline - SlashGear",
       "Bring Back the Trades and Milwaukee Tool Award First Tool Grant to Manchester School of Technology -",
+      "Metal Feeler Gauge Market Growth Outlook to 2035: Precision Tooling Demand Accelerates - News and St",
+      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala",
       "Data, dealers, and speed - how OPENLANE Gate Trade moves wholesale cars - AD HOC NEWS"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWprcVVTLVg0WkhJRzRGTk43LTAzMEVZSVpWOHZJMU9PLUpLQ1FNaEJYSTF4elp6V0dyRUtsM3RkTVJuLWZic0JMYXRYVUFKaXkxWDNEU2N6dU9mV3pYQlB4WXhzNDA4bUFTcTZSMWtYVEsyTFVXRlZ3cVFBUFI1eWVZaw?oc=5",
       "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGxyZ3V2eElRU0ZTSjlZWmN0cG9LVXZWc3pPc1BsdzF1ZXpMU3FGUUhSbWRmT2hWRWVWQ0lOdnBydmxXdzhIOGpjdVVTN004c0VvUFQwTEpINXBtR3l0bzU3SHBpYURQYVdUY1BHTkNqMmFvRWZENVUyVDBkSlJWQS1nUDlDUE5JSjBWSllSTG1zd2dNcFVvMHBZai1OM3ljazAta2pheU1Lb2o3bjhuNGRnN1JIZzd0UG5Ga0tPLWo0ZURqYUpKUVNhNG5PQi1sazlPRg?oc=5",
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1Z6QXA4MnltQjZtV0RyQkZ5MXpzMnhzVG1naWtyR3JiTm84dHM3NGlNeTN6aFJSbDlUcEpRbm9nem5LTENJSFZpT0NJY1NTOWJzM2lkanU1VEFsNXJzZWhCN3pXc1hvMHZfSy16SWdSMlFiZUthMFVqX1Z2b1J0TlhCOG1vbVVVOU55ZFNJLW5RMFlBN1l3aW1WbUdxWDR6dTluQjh3VnVKdlZNaHZwdWx5VmdmRDBhcEtnOXdKTzJPYzZI?oc=5"
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRERMbGZiSE9DaEItc1Vhb1NrNGhvNU1ud052OHNxdWlLZkdNN3MtU3JIWUdOSHdPSUk2blJRaHFEbFJzeWJ5cnNHRGNWRG5pOTlqOEdOZ0JldTJIMGptNkJXd0VqSDZDS1EybFg1Mnk3eVBGUjJHS1d2M1h3alROdWdORWttb2xmWFBzNkdwT0FJZ3IwNFVKOWVfOTMwQ1dEVzdEQTl5d1ZrVG9NQnd2NWpvTThhTXlEcjZzWjR6LUhxSDM0SEFGOG42d0Y?oc=5"
     ],
-    "fetched_at": "2026-06-20"
+    "fetched_at": "2026-06-21"
   },
   "social_media_trends": {
     "google": [
@@ -284,12 +288,12 @@
         "trending_keywords": [
           {
             "keyword": "Hand Tools",
-            "volume": "200K+",
-            "growth": -7
+            "volume": "100K+",
+            "growth": 103
           }
         ],
         "business_opportunity": "Google平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-20"
+        "data_date": "2026-06-21"
       }
     ],
     "youtube": [
@@ -297,58 +301,58 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "taylor fritz",
+            "keyword": "eureka utah",
+            "volume": "5000+",
+            "growth": 72.7
+          },
+          {
+            "keyword": "solo leveling",
             "volume": "1000+",
-            "growth": 10.5
+            "growth": 128.1
           },
           {
-            "keyword": "pge outage",
-            "volume": "200+",
-            "growth": 13.6
-          },
-          {
-            "keyword": "katie hopkins",
-            "volume": "200+",
-            "growth": 8.8
-          },
-          {
-            "keyword": "call of duty: black ops ii",
-            "volume": "200+",
-            "growth": 16.0
-          },
-          {
-            "keyword": "u.s. open",
+            "keyword": "red sox - mariners",
             "volume": "500+",
-            "growth": 102.8
+            "growth": 43.9
           },
           {
-            "keyword": "the white lotus",
-            "volume": "200+",
-            "growth": 86.6
+            "keyword": "azzi fudd",
+            "volume": "500+",
+            "growth": -12.1
           },
           {
-            "keyword": "politics",
+            "keyword": "japon vs tunez",
             "volume": "1000+",
-            "growth": 109.4
+            "growth": 7.1
           },
           {
-            "keyword": "callum turner",
+            "keyword": "orioles - dodgers",
             "volume": "2000+",
-            "growth": 83.6
+            "growth": 86.0
           },
           {
-            "keyword": "health care fraud",
-            "volume": "200+",
-            "growth": 18.1
+            "keyword": "jessica shepard",
+            "volume": "500+",
+            "growth": 30.2
           },
           {
-            "keyword": "lgbtq",
-            "volume": "200+",
-            "growth": 60.1
+            "keyword": "zack short",
+            "volume": "500+",
+            "growth": 62.7
+          },
+          {
+            "keyword": "meredith scheffler",
+            "volume": "500+",
+            "growth": 40.9
+          },
+          {
+            "keyword": "michael b jordan",
+            "volume": "1000+",
+            "growth": 19.9
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-20"
+        "data_date": "2026-06-21"
       }
     ],
     "x": [
@@ -357,17 +361,17 @@
         "trending_keywords": [
           {
             "keyword": "#HandTools",
-            "volume": "165K posts",
-            "growth": 85
+            "volume": "357K posts",
+            "growth": 77
           },
           {
             "keyword": "#TrendingHandTools",
-            "volume": "145K posts",
-            "growth": 25
+            "volume": "137K posts",
+            "growth": 61
           }
         ],
         "business_opportunity": "X平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-20"
+        "data_date": "2026-06-21"
       }
     ],
     "instagram": [
@@ -377,16 +381,16 @@
           {
             "keyword": "#handtools",
             "volume": "100K+",
-            "growth": -11
+            "growth": 0
           },
           {
             "keyword": "#shop#handtools",
             "volume": "20K+",
-            "growth": 30
+            "growth": 85
           }
         ],
         "business_opportunity": "Instagram平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-20"
+        "data_date": "2026-06-21"
       }
     ],
     "tiktok": [
@@ -395,22 +399,22 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "9B views",
-            "growth": 0.7
+            "volume": "15B views",
+            "growth": 101.5
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "5B views",
-            "growth": 41.6
+            "volume": "52B views",
+            "growth": 121.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "55B views",
-            "growth": -7.0
+            "volume": "21B views",
+            "growth": 98.2
           }
         ],
         "business_opportunity": "TikTok平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-20"
+        "data_date": "2026-06-21"
       }
     ]
   },
@@ -463,13 +467,26 @@
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd2tDc0VEWEZ1YlBXOWg5cGVZNEs5T3AtVExfN3hVRDgweUVlOUtBREp1Mlp4U19MaVVwU2x4SVhndVZBTGY1VWdHVDMwZms1TUlqVVRseFB4Y0lqZHdkR213eFVGS1ktbTM0NzNKWFNTcnNhTnU5bWxXS2gyMmVYc2pvcHZZMlBON0dmX2NUS3l3N19DaTRSWEtLQld6T1ZxR0lMZUI4OFl5bFkxMUlfaFFMNi1Nd1A3dzVzZWU4Yl9TTTluSzJXckkxQ1FLMVphaWZ5RkItcXNTbjJTTGdKZVhvYw?oc=5",
         "published": "Sun, 14 Jun 2026",
         "source": "IndexBox"
+      },
+      {
+        "title": "European Union Carbide Finishing Burs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1E?oc=5",
+        "published": "Sat, 20 Jun 2026",
+        "source": "IndexBox"
       }
     ],
     "country_summary": {
       "EU": {
         "trend": "neutral",
         "key_policies": [
-          "tariff"
+          "tariff",
+          "compliance"
         ],
         "impact": "neutral"
       },
@@ -484,87 +501,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 11785568779,
-      "total_kg": 885568779,
-      "yoy_growth": 9,
+      "total_usd": 8604632729,
+      "total_kg": 1704632729,
+      "yoy_growth": -1,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 1060701190,
-        "yoy": 23,
+        "value_usd": 774416945,
+        "yoy": -13,
         "share": 9.0
       },
       "DE": {
-        "value_usd": 1037130052,
-        "yoy": -8,
+        "value_usd": 757207680,
+        "yoy": -1,
         "share": 8.8
       },
       "JP": {
-        "value_usd": 1013558914,
-        "yoy": 35,
+        "value_usd": 739998414,
+        "yoy": -11,
         "share": 8.6
       },
       "GB": {
-        "value_usd": 989987777,
-        "yoy": 33,
+        "value_usd": 722789149,
+        "yoy": -1,
         "share": 8.4
       },
       "KR": {
-        "value_usd": 966416639,
-        "yoy": 4,
+        "value_usd": 705579883,
+        "yoy": -6,
         "share": 8.2
       },
       "AU": {
-        "value_usd": 942845502,
-        "yoy": -19,
+        "value_usd": 688370618,
+        "yoy": 32,
         "share": 8.0
       },
       "IN": {
-        "value_usd": 919274364,
-        "yoy": 12,
+        "value_usd": 671161352,
+        "yoy": 23,
         "share": 7.8
       },
       "BR": {
-        "value_usd": 895703227,
-        "yoy": 1,
+        "value_usd": 653952087,
+        "yoy": -1,
         "share": 7.6
       },
       "SA": {
-        "value_usd": 872132089,
-        "yoy": 4,
+        "value_usd": 636742821,
+        "yoy": -16,
         "share": 7.4
       },
       "FR": {
-        "value_usd": 848560952,
-        "yoy": -20,
+        "value_usd": 619533556,
+        "yoy": -14,
         "share": 7.2
       },
       "IT": {
-        "value_usd": 824989814,
-        "yoy": 36,
+        "value_usd": 602324291,
+        "yoy": 33,
         "share": 7.0
       },
       "NL": {
-        "value_usd": 801418676,
-        "yoy": -5,
+        "value_usd": 585115025,
+        "yoy": -4,
         "share": 6.8
       },
       "CA": {
-        "value_usd": 612849576,
-        "yoy": 38,
+        "value_usd": 447440901,
+        "yoy": 28,
         "share": 5.200000000000004
       },
       "MX": {
         "value_usd": 0,
-        "yoy": -14,
+        "yoy": -7,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": 20,
+        "yoy": -9,
         "share": 0.1
       }
     }
