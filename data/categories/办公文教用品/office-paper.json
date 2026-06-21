@@ -41,12 +41,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 17,
-      "trend_direction": "down",
-      "avg_interest": 62.8,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 74,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-21"
     }
   },
@@ -155,7 +153,14 @@
     "l1_ref": "办公文教用品"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 36512944115,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 2625942598,
@@ -174,17 +179,17 @@
       },
       "GB": {
         "value_usd": 9288800680.807993,
-        "yoy": 2.5,
+        "yoy": null,
         "share": 28.5
       },
       "KR": {
         "value_usd": 1389603670,
-        "yoy": null,
+        "yoy": 8.5,
         "share": 4.3
       },
       "AU": {
         "value_usd": 2629154042.566,
-        "yoy": 3.5,
+        "yoy": null,
         "share": 8.1
       },
       "IT": {
@@ -194,7 +199,7 @@
       },
       "NL": {
         "value_usd": 382829954.208,
-        "yoy": null,
+        "yoy": -3.2,
         "share": 1.2
       },
       "CA": {

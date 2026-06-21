@@ -38,12 +38,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 23,
-      "trend_direction": "down",
-      "avg_interest": 62.6,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 80,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-21"
     }
   },
@@ -153,26 +151,36 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
       "negative_pct": 0.0,
       "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "A Look At Costco Wholesale (COST) Valuation As Shares Trade Near Recent Highs - Yahoo Finance",
       "Vegetable Price Hikes Spark Debate Between Farmers and Trade Officials - جو 24"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU0xGWHVwSGF1cUNzaG1QQTF4bzBfR3piUzN1UjVQZ3E3ZXpwMHVQRWhXSmhPMm10T19jYWZnQThuUm5sVjc2VTFtRkNPb0lrWEJNWWwtdEIxVXRBcE1STzNpS0l0Z1YwMUluZFJPUHY5Sm1aV3NPR3J0NFFMTVFrRUpfQ2Vkb3NpSHNsdl9EbUUtT1AxcVljeklzcVlobWxuakdn?oc=5",
       "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBybG01dUtFN0x2T0Y2SUhncnczNEZjM3pldWlCOEtic2Z2MV9TOE5CTmNTRnUxRURKeXlDM29IaFlhaVo1UFFKYTVR?oc=5"
     ],
     "fetched_at": "2026-06-21"
   },
   "policy_updates": {
     "articles": [
+      {
+        "title": "Middle East Spreaders Cold Lateral Compaction - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTJmZGpZSWtaWjJqaHl5UjU3WWhvWWJBYkFOTkotbUtjdVBIRU5FM3BITlV4TXVWY05WMm8weUVrbG5CR2QweFhfdHJETHUzZEZBa0NJa3BCRllsTUxKUGtCdEpPZlV0dlBHRV9seTBnVmFLLW5oajZEeDZGZFhRTkpqa3hqc2pwTmROWFlOQmxIRG9MYjJsX1VHUzMxQzR6MUpQcDM1VFpnS0hxTW8xcWNlUTJpZkFKTE",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTJmZGpZSWtaWjJqaHl5UjU3WWhvWWJBYkFOTkotbUtjdVBIRU5FM3BITlV4TXVWY05WMm8weUVrbG5CR2QweFhfdHJETHUzZEZBa0NJa3BCRllsTUxKUGtCdEpPZlV0dlBHRV9seTBnVmFLLW5oajZEeDZGZFhRTkpqa3hqc2pwTmROWFlOQmxIRG9MYjJsX1VHUzMxQzR6MUpQcDM1VFpnS0hxTW8xcWNlUTJpZkFKTEVXaXVZSkQxS1Z3?oc=5",
+        "published": "Sun, 21 Jun 2026",
+        "source": "IndexBox"
+      },
       {
         "title": "Northern America Phosphoric Acid Etching Gels - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNWXZqM3hzWXF2QV8wVVdsTGtoWURIaUpfLWtxY2JrWXVpcGN0UTAxRlhQRWRUS0ZzTWZESVZkZjdYc1VydGpNOUNHcmktMXI4V0gwZXZwNFcyOWJHajliUjBGNERVT2FrVVR0UjZTem1oQUhaWjZXeEVoUVJnNFc5RElKS0ZLYU5VRTdKOFZnYnhTZC1waFk4ZGdSUFBPUkhhU2x3a1lmM1FMbXJYZWIzaU9hUjFXVm1MNk",
@@ -196,29 +204,17 @@
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMVBHcldkOHExYk44amFLVWU3V1ZXTmV6Sng3NzREVzhNbE9zeUtLb3E5ZnhTdERzV2pwNDF6SWFFT3lFb0lQRVowUW9DaWdSakZFSlNtV2JpSU85RGoyWmQ3Q3ptbkV4WUQ1QjhPeDFObGFfb2kwd1EzNE1oVi1JRkVwRUduSk5GY0tMd0x2cWdsd2sxWHJsSXhCb2xabk9tenN0a3FQVEpfeDNsZzdGQU90NlNkMEt4bEkzSVcxeTdZcmR2V3NsMnNSOThZTTg?oc=5",
         "published": "Sat, 20 Jun 2026",
         "source": "IndexBox"
-      },
-      {
-        "title": "European Union Carbide Finishing Burs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1E?oc=5",
-        "published": "Sat, 20 Jun 2026",
-        "source": "IndexBox"
       }
     ],
     "country_summary": {
-      "US": {
+      "EU": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
         "impact": "neutral"
       },
-      "EU": {
+      "US": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
