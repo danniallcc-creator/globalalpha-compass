@@ -189,7 +189,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech unboxing」增速 245%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Environmental Green market poised for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "回收：海外社媒「green tech must have」增速 245%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Global Witness关注「Can China’s Green Mineral Initiative...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -201,59 +201,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
-      "海外社媒「green tech unboxing」增速 245% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech must have」增速 245% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "green tech unboxing",
-        "growth": 245.0,
-        "vol": "441K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "environmental viral",
-        "growth": 232.5,
-        "vol": "105K",
+        "kw": "green tech must have",
+        "growth": 245.0,
+        "vol": "577K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental must try",
-        "growth": 224.5,
-        "vol": "115K",
+        "platform": "x",
+        "kw": "environmental breaking",
+        "growth": 228.5,
+        "vol": "232K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "green tech price trend",
+        "growth": 223.0,
+        "vol": "515K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental market 2026",
-        "growth": 168.5,
+        "growth": 141.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "green tech b2b export",
-        "growth": 159.0,
+        "source": "Linkedin",
+        "kw": "environmental green supply chain resilience",
+        "growth": 86,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Environmental Green market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/environmental-green-2026",
+        "title": "Can China’s Green Mineral Initiative connect its transition minerals policy with global climate goals? - Global Witness",
+        "source": "Global Witness",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcVc1VlZXT2x3cE1VazhETzRLNGFLUlBoM0xVVV9FVlc1cV9iYWtmbm9XMV9pbjNCLWJ0YUFTZTJjX2w2djRHNVhabHZlZUpROFFNemh1enU5a1hXc1R6S1YtN0l3d2RFWFh0ZUZRZFVSTWJzYVQzQjNzZjVBRlFheHl6YVN3alIzYXRUYUlhZUFsMHhtREF1dDJiX2lLU3l4X3ljS0ROTDE2REJLY0hGS1Z4MDV6anhQM3pIMTRyTWtpNWF4QjFENjA1b2R0aXNsNVZmajRzSGp1RGYtemRhckRwSGV2VkVRcXJGdlNwbGlUUQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: environmental green sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/environmental-green-2026",
+        "title": "Free Trade to Strategic Partnership: How the EU-Chile Relationship Evolved - Agroberichten Buitenland",
+        "source": "Agroberichten Buitenland",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOVAzOVZSUHZVNTRkVDRDVy0tZGVZU1JiRXBGWDZkYjZ6amtiaFptaWt3MzIxcmF0N3dPa21lZFBrMlFBQkU4Sm9zbFMyVlRRUWlCeEtPUUhuZlRScjlPaEZSZjVDOXlUSmdoYm94Qkc0ektOZk9XdkZFT1NleTd3S1h1YlF2d0F2LXdrREd5RHptRWloUHFDS2N6RVdXa2N5Z2V0Tlk5clB6VTl0RVZKamVrV2ZHODRiZ3VYU0ZyX0lQQURfQkxTQTB3STBqdmZVX3hYWA?oc=5",
         "hits": 0
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "环保"
   }
 }

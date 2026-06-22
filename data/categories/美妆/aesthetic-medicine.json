@@ -608,7 +608,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "医学美容：海外社媒「beauty review 2026」增速 254%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Beauty Cosmetics market poised for...」，出口 YoY +35%，主要流向 中国香港 / 美国 / 日本。",
+    "trend_summary": "医学美容：海外社媒「skincare supply chain」增速 240%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，koreabiomed.com关注「Korea overtakes US to become world’s...」，出口 YoY +35%，主要流向 中国香港 / 美国 / 日本。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -622,59 +622,59 @@
       "美国 FDA 注册要求 → 医学美容 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 医学美容 制造门槛",
       "医学美容主要流向 中国香港 / 美国 / 日本，出口集中度较高",
-      "海外社媒「beauty review 2026」增速 254% 领跑 → 医学美容社媒种草热度爆发"
+      "海外社媒「skincare supply chain」增速 240% 领跑 → 医学美容社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "beauty review 2026",
-        "growth": 254.5,
-        "vol": "471K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cosmetic industry report",
-        "growth": 249.5,
-        "vol": "641K",
+        "platform": "x",
+        "kw": "skincare supply chain",
+        "growth": 239.5,
+        "vol": "251K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "beauty #trending",
-        "growth": 242.5,
-        "vol": "584K",
+        "kw": "beauty must have",
+        "growth": 233.0,
+        "vol": "694K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "cosmetic new arrival",
+        "growth": 215.5,
+        "vol": "619K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "skincare wholesale supplier",
+        "growth": 193.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 167.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 92.5,
+        "growth": 128.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Beauty Cosmetics market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/beauty-cosmetics-2026",
+        "title": "Korea overtakes US to become world’s No. 2 cosmetics exporter - koreabiomed.com",
+        "source": "koreabiomed.com",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a1IzWkJ4c1JtM3BxMVJkZzdJaVhMak41M2lIU0xmUmxtWlBVNWxobTBrNWZTVFlwVGZ0dFRrUkRoTGhtMnZOSzZacHZ1ejlmbVJzUjg2UjZNMjlLdXRWR3ktS21KaGJXWUliZ3RB0gFyQVVfeXFMT2NnellPM2QwNzhJMjl3R1ZRbDVqb1ZUQkdvTHZGZ0RleldHQ3JuNjBNRFdmdWZYNjF3aWNKMEJDRGo4VUx5NG56ZHk4UExJaUl1RmMxLTlmWW9WN0VxSUd4ckpHYUVObWhWaXQtemxCU3J3?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: beauty cosmetics sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/beauty-cosmetics-2026",
+        "title": "French beauty industry urges EU to remove US tariffs on cosmetics exports - Global Cosmetics News",
+        "source": "Global Cosmetics News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BRU0lKbEpaNTlIX1E5WHFEdzRxckJkZ1BTMDh6S1cyWmpuRzdXbmFWcnZnVEpMcVBlUjBpeUtaMlRLUFhoSzVuS3F6RmItTWQ1ZzlUcko1aWRxN0tnTWVzUm5LRWMyVXo1dEItNjNjVlV0eTlyb3ZuR2xYZWxDMGNYaGh4djB5NUdqZC0xckN5SUp4RUhDOVdFSHpQYzFWX1I0WEhpcm1ieFN6T1RR?oc=5",
         "hits": 0
       },
       {
@@ -697,7 +697,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "美妆"
   }
 }

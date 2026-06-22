@@ -508,7 +508,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 168%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-44，CNBC关注「Home Garden market poised for growth...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 94%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-39，IndexBox关注「World Perlite Horticultural Medium -...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -520,82 +520,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家居装饰需求强劲",
-      "海外社媒「home decor wholesale supplier」增速 168% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 94% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 168.5,
-        "vol": "716K",
+        "growth": 94.5,
+        "vol": "641K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "home decor #trending",
-        "growth": 228.5,
-        "vol": "282K",
+        "growth": 252.5,
+        "vol": "315K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor analyst",
-        "growth": 216.5,
-        "vol": "179K",
+        "platform": "youtube",
+        "kw": "home decor tutorial",
+        "growth": 238.5,
+        "vol": "290K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 165.5,
+        "growth": 91.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 62.5,
+        "growth": 55.5,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Home Garden market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/home-garden-2026",
+        "title": "World Perlite Horticultural Medium - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSFFnb3c4S1BTYVRvbnRLa1RydjlmUmRHLU9oeUxtckVzeFRfRUkyV1pZa0o0Nllrd2NFVUEyLV9mM3E1ZlFPVjBSVDNWR25ydnVFNF81S0RJOW5GX2hDcEl6X25Tdk5ldnpkZjlzSnB6aUtyNGItX1RTVTR2b2s5N0V3bmNsamtVc3hCT0pvT0xPQldWd2V3cDlFZ05vU3ZKdFFTNVpEWTZibGUxUTF6U3J0Mm1pRVVmQUJrdDNpRXU0RTVHNzZ2X0tSeWdYN1VFNXBGM2tYZ2c?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: home garden sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/home-garden-2026",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 44,
-        "title": "Top garden - Pro Edition",
-        "price": "$68.7",
-        "rating": 3.8,
+        "title": "Watering Can Market Forecast Points Higher Toward 2035, Driven by Premiumization and Home Gardening Trends - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMTdOQnRrUlZFVUgzdGVSSHE1S0lfLXA5QmFvY0hvalVhbFZnYl9NODM0bHRQVDlpNGNSVGFuaUxIQmRqMHE3UU5NOFlNeE4zTG9saC1XOEd2SHA4eTFMN2FBVjVvd1Y4aThlUXcxWXlzLWFLV2N6YmVnMGtJcHQzSlp5X255RktOWVFKXzIzdzVtUGxjbkVDZFJYaWFwQUptenFCVFVHdmJhUnVzYmpxSk9UV1ozWmxiS3c0RXhKZW1MM3o4MFVoVTZQTTZpenVp?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 23,
+        "rank": 39,
         "title": "Top garden - Smart Edition",
-        "price": "$183.1",
-        "rating": 4.7,
+        "price": "$48.1",
+        "rating": 4.2,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 9,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$182.5",
+        "rating": 4.6,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "家居园艺"
   }
 }

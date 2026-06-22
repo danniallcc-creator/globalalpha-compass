@@ -74,12 +74,10 @@
   ],
   "global_trends": {
     "google_trends": {
-      "interest_score": 22,
-      "trend_direction": "up",
-      "avg_interest": 67.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 69,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-22"
     }
   },
@@ -96,7 +94,7 @@
   "last_updated": "2026-06-22",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「logistics trending now」增速 252%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Cross-Border Logistics market poised...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "多式联运：海外社媒「shipping wholesale supplier」增速 250%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，36 Kr关注「2026 China Cross - border E - commerce...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -108,59 +106,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 多式联运需求强劲",
-      "海外社媒「logistics trending now」增速 252% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「shipping wholesale supplier」增速 250% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics trending now",
-        "growth": 252.0,
-        "vol": "429K",
+        "platform": "google",
+        "kw": "shipping wholesale supplier",
+        "growth": 250.5,
+        "vol": "177K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 248.0,
-        "vol": "634K",
+        "kw": "freight new arrival",
+        "growth": 250.5,
+        "vol": "670K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "shipping tiktok made me buy",
-        "growth": 235.5,
-        "vol": "424K",
+        "platform": "x",
+        "kw": "logistics breaking",
+        "growth": 241.5,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "freight b2b export",
-        "growth": 225.0,
+        "kw": "shipping wholesale supplier",
+        "growth": 247.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "logistics market 2026",
-        "growth": 181.5,
+        "growth": 160.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Cross-Border Logistics market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/cross-border-logistics-2026",
+        "title": "2026 China Cross - border E - commerce SaaS Market: An In - depth Industry Report - 36 Kr",
+        "source": "36 Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90Q2RjbFFTQ0dSRGZXZ3diZk00TVhSZlFxRVBuNEcwTE1FY0V3WElUR0MzdElMUlp0Z3JlcDBMMV8xSU1OdU1ZaEFVRHIwY1lfanE0?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: cross-border logistics sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/cross-border-logistics-2026",
+        "title": "How Smarter Cross-Border Trade is Driving Jobs, Resilience and Opportunity - World Bank Group",
+        "source": "World Bank Group",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMWpSZ2x2R1pzUHdySGU0dDJqQ3RNTG0zcEdUdy16aldCU1VUeHlPcFhVRDBROUlwelozcFMwWGxGRGZScFpGbzFSTk5BYnBUMTNfc3FINmZtY0x0bzN1SWZiQ2htb3ZvMXNsUnhBYUVwai16Wnp3cjNwS3ozTFFXZkZsajdkUTlSYXFDXzI0ME1ETTZLWlNFODVZVDhfeGtiYzNoQ19rMTZLUnlwX1RqNmZTN3pkUUREbndaQm9WZWJxT002?oc=5",
         "hits": 0
       },
       {
@@ -183,7 +181,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "买家物流市场"
   }
 }

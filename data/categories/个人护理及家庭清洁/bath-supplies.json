@@ -39,12 +39,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 37,
-      "trend_direction": "up",
-      "avg_interest": 55.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 57,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-22"
     }
   },
@@ -154,21 +152,19 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
       "negative_pct": 0.0,
       "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "From Montessori Show & Tell To Suttons Bay's Newest Retail Store: The Story Of Freshwater Trading Co",
-      "World Toilet Paper Holder Set - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
+      "From Montessori Show & Tell To Suttons Bay's Newest Retail Store: The Story Of Freshwater Trading Co"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNblplNnRPVHl1d25HOW5BTFZORmQ3V3ItVWpCSFlJRndwNDJ1bXZmZlJtZ0ZXTzJvbzJDRGo5bXNJRjR2VFBPeGhiSUlBYnJFQlppM1plSm50QWhIVnZjeWNkalhtUnZNUUFieEE5RWN3ZGl3S0FlSnB0THBHRU5BYlNVRUMxdTRDS2Rmcndydks0czZqWGNBbVRxU0s1NVNmQXJBX0tIaXY3VnZjYU1pY1NfVXRUVG40NFZXajR5N0l3SE1RV05kWDQ2aDZIQU5MYUZsMQ?oc=5",
-      "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNDhYUGJ1OXJVN3ZMR0xCQkE0dXpXTW9SM2NNUk5rTDFRSXV5dFBaWjBMOFdhWkRIUXVqZDgzMk82YkNZU0RlVjF2OWVqdnhZbmZud2p1VlBtSkFtSDc2eHdUVktXUEpTUGloWkFaaG1MMFNETnJNc3dXSnNyUlVkMmNtTTBHWWxaT2FPbGxqS0RTbkV5TDJJRzQ4QkVud0F5WmdSOVJPNEh4dmp1d0trMTgzN1p4RU1oRE13WHR6WWIwQkRfVFljSkd1UWsyZEpOa3IwWTNkbmFnVl9ZRkxqWjMyZDlPOG1LeTkwVVIxOA?oc=5"
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNblplNnRPVHl1d25HOW5BTFZORmQ3V3ItVWpCSFlJRndwNDJ1bXZmZlJtZ0ZXTzJvbzJDRGo5bXNJRjR2VFBPeGhiSUlBYnJFQlppM1plSm50QWhIVnZjeWNkalhtUnZNUUFieEE5RWN3ZGl3S0FlSnB0THBHRU5BYlNVRUMxdTRDS2Rmcndydks0czZqWGNBbVRxU0s1NVNmQXJBX0tIaXY3VnZjYU1pY1NfVXRUVG40NFZXajR5N0l3SE1RV05kWDQ2aDZIQU5MYUZsMQ?oc=5"
     ],
     "fetched_at": "2026-06-22"
   },

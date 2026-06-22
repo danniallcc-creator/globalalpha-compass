@@ -459,7 +459,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "热水器：海外社媒「appliance #trending」增速 234%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Home Appliance market poised for growth...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "热水器：海外社媒「appliance must have」增速 205%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Home Appliances Glass Market Forecast...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -473,59 +473,59 @@
       "欧盟 CE 标志强制准入 → 热水器 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 热水器 合规刚需",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 热水器需求强劲",
-      "海外社媒「appliance #trending」增速 234% 领跑 → 热水器社媒种草热度爆发"
+      "海外社媒「appliance must have」增速 205% 领跑 → 热水器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
+        "kw": "appliance must have",
+        "growth": 205.0,
+        "vol": "724K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
         "kw": "appliance #trending",
-        "growth": 233.5,
-        "vol": "712K",
+        "growth": 189.5,
+        "vol": "100K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance price trend",
-        "growth": 226.0,
-        "vol": "14K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "appliance viral hack",
-        "growth": 221.0,
-        "vol": "416K",
+        "platform": "instagram",
+        "kw": "appliance new arrival",
+        "growth": 181.5,
+        "vol": "358K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance b2b export",
-        "growth": 195.0,
+        "kw": "appliance wholesale supplier",
+        "growth": 109.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance market 2026",
-        "growth": 115.5,
+        "growth": 100.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Home Appliance market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/home-appliance-2026",
+        "title": "Home Appliances Glass Market Forecast 2026-2035: Growth Driven by Smart Appliance Trends and Energy Efficiency - News and Statistics - Index",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR3p4azNlZWRHX1AyQ1V3MmxDak5JWnk4M0xYNnRkSTB6eWYzTXJYam12TEprMmRVYTR2cXpyRmZWXzFBOGZTWXI5djFHazVPelJ0NzcxWWVBTnZlcUxsbU1MOGVEWVhROTFTZVhycGgzUmRybU1nMnVhYmxVcHUtNU44N2JXMXM1eVBINVh1Und6akdzUmNCc2VwLU16Z1ctZEd2Q1pCR2RxT3R5b3Uwc2pObU92QnVOa0dLWGdiLXFQN0JVT2NqZ2FQMm5ORnpyUXdLOHR4emxmWjkxVVMzck52T1ZsUjgydEp5bXFR?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: home appliance sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/home-appliance-2026",
+        "title": "Smart Home Appliance Market Size, Share | Industry [2034] - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnB4S25wb3VRakRnYzQ2UU1yTDVyempJY1dIc3p2UmMwNmljUjhzeVM5TEp5eHFSVERBN0YwNVpodFV2V3pUZFNNYWVzcy1QNmpMaERqdm1oa1p4bWVRenQwWFVVamJpTUcyLUpxdzNfOVVYaGhjTXlPdGFvdGZFZg?oc=5",
         "hits": 0
       },
       {
@@ -548,7 +548,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "家用电器"
   }
 }

@@ -41,12 +41,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 0,
-      "trend_direction": "down",
-      "avg_interest": 4.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 95,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-22"
     }
   },
@@ -155,25 +153,21 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 2,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 80.0,
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 20.0,
-      "articles_analyzed": 5
+      "neutral_pct": 0.0,
+      "articles_analyzed": 2
     },
     "top_headlines": [
-      "Services PMI® at 54.5%; May 2026 ISM® Services PMI® Report - PR Newswire",
-      "Cleaning Supplies Market Forecast Points Higher Toward 2035, Driven by Premiumization and Hygiene Aw",
-      "Top 10 One-Stop Home Appliance Suppliers in China: RAF for 7-Day Stock Delivery, European Standards,",
       "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS1NEOG9KU3pVZTdOTE96RTdYX2huZjNtSlh0ZDctNHczcnRzLTlqNkVIb3hCbDVPT2hhODhxaHQwXzJYSG9rN2N0SndlcDZyeXR1eVdfakR4X01acFdJeE9SN1Q5dU1lN3FCcUNmbHNrcUNEdUlyd1lmakdrMHZ4S09ZMDhvM0NIaUFyYlpXNEh0U0c0VXdwR2FhVEpHRzlfbWNuMk42Wnk0S1dwd1E?oc=5",
-      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUjcwMUFvWWMwZzFCVHdCWHV6c05laUh5RGx6a0hfamgzR0VybUhDdU9Jd0h0YWZodzM3OHI3VXlnRUZjUWRyZUE2NGZpQUtFZ3hQX2lEZVdXeWcxQ1NSNGk2YXotLXZDNGFIN3czME5GVF8zejNBN3czempDMkdFVFFHYTRJTzY1cEhvR3IyLW52aF8xNlVDcXR4YkIzNDFXZHpOUm1hd1NGa3pla0NZYjVucDZSVWdNcWJHZ3ZzSW44XzVPWDNLSVVzc3ROaXg4UVE?oc=5",
-      "https://news.google.com/rss/articles/CBMihgJBVV95cUxNUnRHb1F5WHR4Snk0QXRoRmx3M2x2VHdRUmtIcGpXaGZqTEJSaWdzbHRLRUxWVENNZERnY09wWE1TSWUwSFpLY3Y3M0VXa29IVWdiOXIzY2ZXUmlLc3ltOVBYOHFLOU54MG5NdnE1UDVMV3RucGdVSHZlTm1rbjJrTXZBUnhYV0pQa01nZFV4ZWJIZWRzMGFZd3gzUmNvRjdYWUd5WUJSZUwwWlBablR2dE1tTjJQNW90NW9kVUR4UEZfRGFKVjNTNHlGUmhCNHZkWjZoa2NEWFZISVVfZHFSSWt0NG55NlMwVEhBZWNiQlJTMnQwYTVFOTZOdl8zSnd4Q2JER193?oc=5"
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
     "fetched_at": "2026-06-22"
   },
@@ -241,18 +235,6 @@
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "World Dry Sorbent Capture Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajZTbnNiUDB0SWxlTGJCTmJJdGJvaFpkYXpjVk5YRkFtZDA4WGtydFZYWUlid3l0RlBld3E1Ti16amF4Vmh5bVptOW81SUwxQlRrY2VybWxnYlBBTGRRT3BpaFMxMG53VkNlaWhzTllaemkxeUFrbXBGSFdoRXBQVzBqY0d1Tzc2TVBoWTNSQ3FXWXA3Rzk3UUg3UU9LTXliN2ZiZ2RodFVVM0RYY2JZd2Z2dk84bzVEcj",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNajZTbnNiUDB0SWxlTGJCTmJJdGJvaFpkYXpjVk5YRkFtZDA4WGtydFZYWUlid3l0RlBld3E1Ti16amF4Vmh5bVptOW81SUwxQlRrY2VybWxnYlBBTGRRT3BpaFMxMG53VkNlaWhzTllaemkxeUFrbXBGSFdoRXBQVzBqY0d1Tzc2TVBoWTNSQ3FXWXA3Rzk3UUg3UU9LTXliN2ZiZ2RodFVVM0RYY2JZd2Z2dk84bzVEcjRidVlBbTJMb0hnZzdoZA?oc=5",
-        "published": "Sat, 20 Jun 2026",
-        "source": "IndexBox"
-      },
       {
         "title": "European Union Methane Dry Reforming Units - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMjhxbmYzVWVkMG52S2JFdW9PTlFrNGxJU1pSU3F0SU0xdUFMeXE3MTZveU43ekZSSUM0TEd1UzgzTVN4a0VzeVlpMmd2YXRyNkhjZTV3RkdnNUZoUlo1T1ZiWHhra0QtTXcwVmR5bzJHSkh5M2dOU0NMVUVYd0xYa2RRRjhDaXlLSmdpNndZQXFlSVdsMkRGbV9JMzdQU3R3bVpUMlF0blFIb1ltQTh2c09TaU5YdFFZUl",

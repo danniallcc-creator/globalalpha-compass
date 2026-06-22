@@ -489,7 +489,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "日用百货：海外社媒「garden factory tour」增速 242%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Home Garden market poised for growth...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "日用百货：海外社媒「home decor #trending」增速 252%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「World Perlite Horticultural Medium -...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -501,59 +501,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 日用百货 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 日用百货需求强劲",
-      "海外社媒「garden factory tour」增速 242% 领跑 → 日用百货社媒种草热度爆发"
+      "海外社媒「home decor #trending」增速 252% 领跑 → 日用百货社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "garden factory tour",
-        "growth": 242.0,
-        "vol": "393K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "home decor #trending",
-        "growth": 228.5,
-        "vol": "282K",
+        "growth": 252.5,
+        "vol": "315K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor analyst",
-        "growth": 216.5,
-        "vol": "179K",
+        "platform": "youtube",
+        "kw": "home decor tutorial",
+        "growth": 238.5,
+        "vol": "290K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "home decor review 2026",
+        "growth": 237.5,
+        "vol": "5K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "garden b2b export",
+        "growth": 134.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 165.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "home garden digital transformation",
-        "growth": 80,
+        "growth": 91.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Home Garden market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/home-garden-2026",
+        "title": "World Perlite Horticultural Medium - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSFFnb3c4S1BTYVRvbnRLa1RydjlmUmRHLU9oeUxtckVzeFRfRUkyV1pZa0o0Nllrd2NFVUEyLV9mM3E1ZlFPVjBSVDNWR25ydnVFNF81S0RJOW5GX2hDcEl6X25Tdk5ldnpkZjlzSnB6aUtyNGItX1RTVTR2b2s5N0V3bmNsamtVc3hCT0pvT0xPQldWd2V3cDlFZ05vU3ZKdFFTNVpEWTZibGUxUTF6U3J0Mm1pRVVmQUJrdDNpRXU0RTVHNzZ2X0tSeWdYN1VFNXBGM2tYZ2c?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: home garden sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/home-garden-2026",
+        "title": "Watering Can Market Forecast Points Higher Toward 2035, Driven by Premiumization and Home Gardening Trends - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMTdOQnRrUlZFVUgzdGVSSHE1S0lfLXA5QmFvY0hvalVhbFZnYl9NODM0bHRQVDlpNGNSVGFuaUxIQmRqMHE3UU5NOFlNeE4zTG9saC1XOEd2SHA4eTFMN2FBVjVvd1Y4aThlUXcxWXlzLWFLV2N6YmVnMGtJcHQzSlp5X255RktOWVFKXzIzdzVtUGxjbkVDZFJYaWFwQUptenFCVFVHdmJhUnVzYmpxSk9UV1ozWmxiS3c0RXhKZW1MM3o4MFVoVTZQTTZpenVp?oc=5",
         "hits": 0
       },
       {
@@ -576,7 +576,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "家居园艺"
   }
 }

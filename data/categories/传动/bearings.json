@@ -39,9 +39,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 65,
-      "trend_direction": "up",
-      "avg_interest": 73.3,
+      "interest_score": 51,
+      "trend_direction": "down",
+      "avg_interest": 74.3,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -153,89 +153,27 @@
     "l1_ref": "传动"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 11603106801,
-      "total_kg": 703106801,
-      "yoy_growth": -9,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 696186408,
-        "yoy": -19,
-        "share": 6.0
+        "value_usd": 73293716681,
+        "yoy": -33.9,
+        "share": 11.7
       },
       "DE": {
-        "value_usd": 696186408,
-        "yoy": -17,
-        "share": 6.0
+        "value_usd": 325952473332.29596,
+        "yoy": 146.8,
+        "share": 51.8
       },
       "JP": {
-        "value_usd": 684583301,
-        "yoy": -3,
-        "share": 5.9
+        "value_usd": 63987310107.757,
+        "yoy": null,
+        "share": 10.2
       },
       "GB": {
-        "value_usd": 672980194,
-        "yoy": 39,
-        "share": 5.8
-      },
-      "KR": {
-        "value_usd": 672980194,
-        "yoy": 32,
-        "share": 5.8
-      },
-      "AU": {
-        "value_usd": 672980194,
-        "yoy": 32,
-        "share": 5.8
-      },
-      "IN": {
-        "value_usd": 661377087,
-        "yoy": 28,
-        "share": 5.7
-      },
-      "BR": {
-        "value_usd": 661377087,
-        "yoy": -16,
-        "share": 5.7
-      },
-      "SA": {
-        "value_usd": 649773980,
-        "yoy": 21,
-        "share": 5.6
-      },
-      "FR": {
-        "value_usd": 638170874,
-        "yoy": 9,
-        "share": 5.5
-      },
-      "IT": {
-        "value_usd": 638170874,
-        "yoy": 28,
-        "share": 5.5
-      },
-      "NL": {
-        "value_usd": 638170874,
-        "yoy": 5,
-        "share": 5.5
-      },
-      "CA": {
-        "value_usd": 626567767,
-        "yoy": 29,
-        "share": 5.4
-      },
-      "MX": {
-        "value_usd": 614964660,
-        "yoy": -18,
-        "share": 5.3
-      },
-      "VN": {
-        "value_usd": 2378636894,
-        "yoy": 7,
-        "share": 20.5
+        "value_usd": 165583393715.99716,
+        "yoy": 8.9,
+        "share": 26.3
       }
     }
   }

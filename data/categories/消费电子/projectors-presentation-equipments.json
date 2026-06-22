@@ -561,7 +561,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "投影及展示设备：海外社媒「consumer electronics industry news」增速 242%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Consumer Electronics market poised for...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "投影及展示设备：海外社媒「consumer electronics market 2026」增速 254%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Consumer Electronics Market Size,...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -575,59 +575,59 @@
       "欧盟 CE 标志强制准入 → 投影及展示设备 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 投影及展示设备 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 投影及展示设备需求强劲",
-      "海外社媒「consumer electronics industry news」增速 242% 领跑 → 投影及展示设备社媒种草热度爆发"
+      "海外社媒「consumer electronics market 2026」增速 254% 领跑 → 投影及展示设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "consumer electronics industry news",
-        "growth": 242.0,
-        "vol": "346K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
         "kw": "consumer electronics market 2026",
-        "growth": 234.5,
-        "vol": "122K",
+        "growth": 253.5,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "smartphone unboxing",
-        "growth": 215.0,
-        "vol": "666K",
+        "kw": "consumer electronics factory tour",
+        "growth": 249.0,
+        "vol": "59K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "earbuds supply chain",
+        "growth": 242.5,
+        "vol": "6K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 231.5,
+        "growth": 250.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "smartphone b2b export",
-        "growth": 113.0,
+        "kw": "earbuds wholesale supplier",
+        "growth": 110.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Consumer Electronics market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/consumer-electronics-2026",
+        "title": "Consumer Electronics Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaDZfREVEenJCbTFEY05KVEVYVDduUW02WFpSSDhmbVJKSUlsUnp6d2lvelcyVU5VQVIzSzFHU3hQOUZrSGtPVVU2QXN4NkdBSUNSeWpfWTRBY3NQcktfNlZ0SFV2dE91TlVGb1NxXzNic0lpclIwanppMEFJOEk?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: consumer electronics sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/consumer-electronics-2026",
+        "title": "India’s Electronics Export Boom: Rs 35,000 Crore Worth of Components Shipped to China in a Major Trade Shift - Spherical Insights",
+        "source": "Spherical Insights",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUmhiaHp0V1VIdmVmUlg2ZEstdHNsTjRWSHpBRUowNXNKazNISGt4MGx2WnBDc2pROC05SVh4dFNVZzJQZEN1Nk02ZVVXdzlMNnZ5Xzd4QU5CWVFfM3NhVFVMd1o5LUNZWUh3VExXYlZ4Y05MaEM5NXNEbDBIZFBGbVhiTXJXOEN6MVh5SEswWGozV0xHRWFXZXZYV0I1MzUydlJWUGhMQWxIR3FiNl9DQjZybGhDR2FkQ25LMlZ2SVNCUE5Lb19YQTkzQnBpWTd3LS05VjNIeXZEVWhSWnE4NA?oc=5",
         "hits": 0
       },
       {
@@ -650,7 +650,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "消费电子"
   }
 }

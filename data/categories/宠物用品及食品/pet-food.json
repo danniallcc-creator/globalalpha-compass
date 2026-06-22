@@ -39,7 +39,7 @@
   "last_updated": "2026-06-10",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food aesthetic」增速 190%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-47，CNBC关注「Pet Products market poised for growth...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 249%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-49，czapp.com关注「China PET Expansion Pressures Global...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -51,82 +51,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food aesthetic」增速 190% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food industry news」增速 249% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food aesthetic",
-        "growth": 190.0,
-        "vol": "752K",
+        "platform": "x",
+        "kw": "pet food industry news",
+        "growth": 249.0,
+        "vol": "155K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "pet food price trend",
+        "growth": 191.0,
+        "vol": "470K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 185.0,
-        "vol": "795K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 184.0,
-        "vol": "262K",
+        "kw": "pet food factory tour",
+        "growth": 178.0,
+        "vol": "74K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 119.0,
+        "growth": 99.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet wholesale supplier",
-        "growth": 160.5,
+        "growth": 171.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Pet Products market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/pet-products-2026",
+        "title": "China PET Expansion Pressures Global Producers - czapp.com",
+        "source": "czapp.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZYWkhBeDR3NFFuelE5NVQzTlNrRTBSNktBTmJ3VkpZWnVqQWQzUmM4a0xtLTkzREg5NDktcjZ1STVsVmlra3ljRnhnZXpXNjdZTW9tdjZpcjc1aFl3UGp6S1ROdGVhYl8tc0p6NWJRV091dHRvbzJJSm44Sk9nenEzcEg2cDFTSnBtaFFRYw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: pet products sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/pet-products-2026",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 47,
-        "title": "Top pet - Premium Edition",
-        "price": "$120.0",
-        "rating": 4.4,
+        "title": "Ghana – September 2026 - USDA Foreign Agricultural Service (.gov)",
+        "source": "USDA Foreign Agricultural Service (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ELTN1NXV2SThmMWVkVENFRk15OFFTWlJ1QkYtQ09xdHJybmxoYjI3bmtrM3V0MUstakNtN0wzVTlpLXNHeUlrMXU0eGcybE5mNUpvWGlUU2cwWDc4bG5DMkM3QVppeF9iWlFEdzJEMHFTYmNieEE?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 30,
+        "rank": 49,
         "title": "Top pet - Compact Edition",
-        "price": "$123.8",
-        "rating": 4.4,
+        "price": "$218.8",
+        "rating": 4.1,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 48,
+        "title": "Top pet - Premium Edition",
+        "price": "$271.0",
+        "rating": 4.5,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "宠物用品及食品"
   }
 }

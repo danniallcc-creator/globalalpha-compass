@@ -352,7 +352,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "有色金属：海外社媒「steel must try」增速 246%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Metal Alloy market poised for growth...」，出口 YoY +8%，主要流向 美国 / 澳大利亚 / 日本。",
+    "trend_summary": "有色金属：海外社媒「aluminum wholesale supplier」增速 252%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +8%，主要流向 美国 / 澳大利亚 / 日本。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -366,59 +366,59 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 有色金属 成主流",
       "欧盟 CE 标志强制准入 → 有色金属 出口需通过合规认证",
       "有色金属主要流向 美国 / 澳大利亚 / 日本，出口集中度较高",
-      "海外社媒「steel must try」增速 246% 领跑 → 有色金属社媒种草热度爆发"
+      "海外社媒「aluminum wholesale supplier」增速 252% 领跑 → 有色金属社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel must try",
-        "growth": 245.5,
-        "vol": "675K",
+        "platform": "google",
+        "kw": "aluminum wholesale supplier",
+        "growth": 251.5,
+        "vol": "389K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "metal market 2026",
-        "growth": 238.5,
-        "vol": "157K",
+        "platform": "youtube",
+        "kw": "steel unboxing",
+        "growth": 251.0,
+        "vol": "194K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "aluminum supply chain",
-        "growth": 235.5,
-        "vol": "113K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "metal market 2026",
-        "growth": 235.5,
+        "kw": "steel market alert",
+        "growth": 244.0,
+        "vol": "159K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "aluminum wholesale supplier",
+        "growth": 248.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "metal market 2026",
         "growth": 152.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Metal Alloy market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/metal-alloy-2026",
+        "title": "Global trends affecting steel trade and recycling - Recycling Product News",
+        "source": "Recycling Product News",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE1DT2lYOUZhMnhpRDJGdV9ReFVqYlItcFRwYXNiMkF4bTU1QTVGbzJWSnlmT3dhWU5WZ3RpZF9RazRoRGhGaVR0akZFQXA0dU9kbjdab09PMDJRdlRTcUhvc1VPeW5TUGp3OHVZREJ5UGd5WVFTaHFEcnpQcHZyeXFoeHZfVzFSOFB2NmhEYlRocmJOZE03OWpjM2FRMU9OS3VMYklyZXQ2UUxVaHlDVE1Xc0JJM01qM19uLWZyRl93b3JjeG1Z?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: metal alloy sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/metal-alloy-2026",
+        "title": "Canada turns from US to Europe as Iran war propels aluminium higher - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkZrQ0NqN3JkQ0gzX3pEYmE3T3Y5Nlh6d1Fwd2xIRjJZOE9ZN3B5MWstSzZ5SzliRVVpN2RjS2VxS0lBRHVVMzh2WEh1azFIbEotaTBzOGFKMTZHbmpQTFlEenFOaTJvdHc1ZzlZUDVSX2NhLXljaHRuTHBMRk5PY2FWVHBNYS1EUS1YaTRmM0ZwQzhpMGNWRnVqUTI2MUFhS1Zr?oc=5",
         "hits": 0
       },
       {
@@ -441,7 +441,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "金属与合金"
   }
 }

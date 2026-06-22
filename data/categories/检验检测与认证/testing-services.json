@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "检测服务：海外社媒「certification must have」增速 250%，搜索端「certification b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Testing Certification market poised for...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "检测服务：海外社媒「certification unboxing」增速 249%，搜索端「certification b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「World Heavy Metals Testing - Market...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -99,59 +99,59 @@
       "欧盟碳边境税 CBAM 2026 起覆盖 检测服务 → 低碳替代品需求激增",
       "欧盟 CE 标志强制准入 → 检测服务 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 检测服务需求强劲",
-      "海外社媒「certification must have」增速 250% 领跑 → 检测服务社媒种草热度爆发"
+      "海外社媒「certification unboxing」增速 249% 领跑 → 检测服务社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "certification unboxing",
+        "growth": 249.0,
+        "vol": "599K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "testing top 10",
+        "growth": 231.5,
+        "vol": "691K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "certification must have",
-        "growth": 250.0,
-        "vol": "754K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "certification industry news",
-        "growth": 244.0,
-        "vol": "464K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "testing supply chain",
-        "growth": 238.5,
-        "vol": "41K",
+        "kw": "testing viral",
+        "growth": 224.5,
+        "vol": "258K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "certification b2b export",
-        "growth": 220.0,
+        "growth": 150.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "testing market 2026",
-        "growth": 207.5,
+        "growth": 140.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Testing Certification market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/testing-certification-2026",
+        "title": "World Heavy Metals Testing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTzBhdzJ5aTVGVlNuWlNUaUk2Rk13MmpQbWVWVG5wSTBVZUtDYUQxRkxqLWplZW5ETXRla0FqMy1TbGgyUEJ2UXJHcHEzQzIwaF91WTFqQjdQRWlrNlpxeFF6YnpiUkdZTHI4RkxfT3U2QnhFUlVzeWQ4SXk1YmNidmF4SUQzZldOTE1fR1NpdkMtaFhjZnZqVG1laXlXZjRMQ3dHMm8yTDlYS3hqQUg2WGpBVm83Z24wdU53VnJzcml5dHhrZG1aQg?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: testing certification sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/testing-certification-2026",
+        "title": "Importing Live Equines and Equine Germplasm into the United States - aphis.usda.gov",
+        "source": "aphis.usda.gov",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43V3FaWGUyVng4djNsOE9sdVEtX0VPWUlDckdVeFpFMkctVHR6U1BVYUlvYVZiREZxYVlvU2p3SmhuNzZNT3R2X0FkRzdrdmQtOVpLZUlKZENXbzVfNlkyQVR3?oc=5",
         "hits": 0
       },
       {
@@ -174,7 +174,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "检验检测与认证"
   }
 }

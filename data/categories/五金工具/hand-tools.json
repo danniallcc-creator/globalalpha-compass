@@ -63,12 +63,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 30,
-      "trend_direction": "up",
-      "avg_interest": 58.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 92,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-22"
     }
   },
@@ -259,25 +257,24 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 4,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 40.0,
-      "negative_pct": 20.0,
-      "neutral_pct": 40.0,
-      "articles_analyzed": 5
+      "positive_pct": 50.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 50.0,
+      "articles_analyzed": 4
     },
     "top_headlines": [
       "Users Say This Popular Hand Tool Brand's Quality Is On The Decline - SlashGear",
-      "EU's 20th Sanctions Package Forces Kyrgyzstan's Hand on Russia Trade - Crude Oil Prices Today | OilP",
       "Bring Back the Trades and Milwaukee Tool Award First Tool Grant to Manchester School of Technology -",
       "Metal Feeler Gauge Market Growth Outlook to 2035: Precision Tooling Demand Accelerates - News and St",
-      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala"
+      "Data, dealers, and speed - how OPENLANE Gate Trade moves wholesale cars - AD HOC NEWS"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWprcVVTLVg0WkhJRzRGTk43LTAzMEVZSVpWOHZJMU9PLUpLQ1FNaEJYSTF4elp6V0dyRUtsM3RkTVJuLWZic0JMYXRYVUFKaXkxWDNEU2N6dU9mV3pYQlB4WXhzNDA4bUFTcTZSMWtYVEsyTFVXRlZ3cVFBUFI1eWVZaw?oc=5",
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2JNRHlSR3A1cnJIUmhnSlBUZG9UMVhWNXhWbHBNSlllRjBsc1FrWEJXV29ESXllVHZTVzczM0RWVE05Y0wtYlBNdUgwSmthN09MaUV4MnpWUFBkaFFMZnV3bmRCRzUxRU5IZkJHYlVSbGNnV3ZkbzA3cG5hRmlWbmQ0V0RqVUlNX0E1VVlxNU1RM1dNZXRsb2l6NzZuRXdpeGwyNjd1SHhaODF1X1RyUVNqLWLSAboBQVVfeXFMT1FkRnRNdDdsNkVPZ042Uk5FNFVIbHNrVzE2b18xYVBYOVdvNGlKVU1rdW02ZmJ6S0kxSmVhLXhlRE5hcGFKeGFmYkJQUGE1WVZGY0VoNUhfM2p0YzNqRzlDRmNPU3B2c3RjdERYMHoyNUl3WTRIWldPdFB6UmZVazJSWGI1eG9idkd1Vkk3RzJhaExxZng1aHctQ1p3OWJVdnY2eFlQd2FPVkRTMkZNbUl6NS1TbUpQcFdB?oc=5",
-      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGxyZ3V2eElRU0ZTSjlZWmN0cG9LVXZWc3pPc1BsdzF1ZXpMU3FGUUhSbWRmT2hWRWVWQ0lOdnBydmxXdzhIOGpjdVVTN004c0VvUFQwTEpINXBtR3l0bzU3SHBpYURQYVdUY1BHTkNqMmFvRWZENVUyVDBkSlJWQS1nUDlDUE5JSjBWSllSTG1zd2dNcFVvMHBZai1OM3ljazAta2pheU1Lb2o3bjhuNGRnN1JIZzd0UG5Ga0tPLWo0ZURqYUpKUVNhNG5PQi1sazlPRg?oc=5"
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGxyZ3V2eElRU0ZTSjlZWmN0cG9LVXZWc3pPc1BsdzF1ZXpMU3FGUUhSbWRmT2hWRWVWQ0lOdnBydmxXdzhIOGpjdVVTN004c0VvUFQwTEpINXBtR3l0bzU3SHBpYURQYVdUY1BHTkNqMmFvRWZENVUyVDBkSlJWQS1nUDlDUE5JSjBWSllSTG1zd2dNcFVvMHBZai1OM3ljazAta2pheU1Lb2o3bjhuNGRnN1JIZzd0UG5Ga0tPLWo0ZURqYUpKUVNhNG5PQi1sazlPRg?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRERMbGZiSE9DaEItc1Vhb1NrNGhvNU1ud052OHNxdWlLZkdNN3MtU3JIWUdOSHdPSUk2blJRaHFEbFJzeWJ5cnNHRGNWRG5pOTlqOEdOZ0JldTJIMGptNkJXd0VqSDZDS1EybFg1Mnk3eVBGUjJHS1d2M1h3alROdWdORWttb2xmWFBzNkdwT0FJZ3IwNFVKOWVfOTMwQ1dEVzdEQTl5d1ZrVG9NQnd2NWpvTThhTXlEcjZzWjR6LUhxSDM0SEFGOG42d0Y?oc=5"
     ],
     "fetched_at": "2026-06-22"
   },
@@ -301,54 +298,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "austria world cup",
+            "keyword": "jake rosmarin hantavirus quarantine",
             "volume": "500+",
-            "growth": 57.4
+            "growth": 52.0
           },
           {
-            "keyword": "evansville weather",
-            "volume": "1000+",
-            "growth": -15.5
+            "keyword": "hugo gonzalez",
+            "volume": "200+",
+            "growth": 117.1
           },
           {
-            "keyword": "andrew wiggins",
-            "volume": "500+",
-            "growth": 4.9
+            "keyword": "nuclear program of iran",
+            "volume": "200+",
+            "growth": 50.2
           },
           {
-            "keyword": "trezeguet egypt",
+            "keyword": "diego maradona",
             "volume": "2000+",
-            "growth": -8.9
+            "growth": 101.7
           },
           {
-            "keyword": "hamza abdelkarim",
+            "keyword": "twitter outage",
+            "volume": "20000+",
+            "growth": 23.3
+          },
+          {
+            "keyword": "michael gregoritsch",
             "volume": "1000+",
-            "growth": -11.6
+            "growth": 64.3
           },
           {
-            "keyword": "m salah",
+            "keyword": "ivcm colorado river lawsuit",
             "volume": "1000+",
-            "growth": -11.8
+            "growth": 6.5
           },
           {
-            "keyword": "nba trades",
+            "keyword": "argentine – autriche",
             "volume": "500+",
-            "growth": 30.7
+            "growth": 43.9
           },
           {
-            "keyword": "kostyantynivka",
+            "keyword": "carly rae jepsen",
             "volume": "500+",
-            "growth": 3.1
+            "growth": 18.0
           },
           {
-            "keyword": "aaron wiggins",
-            "volume": "10000+",
-            "growth": 120.2
-          },
-          {
-            "keyword": "vancouver canada",
-            "volume": "1000+",
-            "growth": 88.5
+            "keyword": "lausd superintendent alberto carvalho",
+            "volume": "500+",
+            "growth": 43.1
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -399,17 +396,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "30B views",
+            "volume": "60B views",
             "growth": 13.0
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "47B views",
+            "volume": "21B views",
             "growth": 73.5
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "49B views",
+            "volume": "7B views",
             "growth": 79.5
           }
         ],
@@ -420,18 +417,6 @@
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say - Reuters",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeG",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeGNhcWY3emkzMTQ?oc=5",
-        "published": "Wed, 17 Jun 2026",
-        "source": "Reuters"
-      },
       {
         "title": "J. D. Vance Articulates America-First AI Doctrine - Let's Data Science",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5\" target=\"_blank\">J. D. Vance Articulates Amer",
@@ -445,25 +430,51 @@
         "source": "Let's Data Science"
       },
       {
-        "title": "Helping international firms ride Argentina's hydrocarbons, mining investment wave - BNamericas",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3",
-        "country": "US",
+        "title": "European Union Carbide Finishing Burs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1",
+        "country": "EU",
         "policy_type": "compliance",
-        "impact": "positive",
-        "impact_score": 0.2,
+        "impact": "neutral",
+        "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3R0aA?oc=5",
-        "published": "Fri, 19 Jun 2026",
-        "source": "BNamericas"
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzZMSDNXdnFfcFBpZ1dBb3FsZ0N6dF8tNEw5WXZRd1BDQzl4dnZ4RzNfSXBGMWRkT2F6bHdpNGdtWkNaeEJibUNLNll4MzlMYkpqUzIzd3YyYlVmTEl6WVFlRHBXcUVUWFgwMk1NVDNEUjc1RlREYWtJOGZGNlBjUW9peGlyakZFdzFPWlNhZnREcG55Y1JfSHczWE5FXzJtMHlkTDFJeFJRLWlDNV9oY1VOdG5sbkxTQ1E?oc=5",
+        "published": "Sat, 20 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "𝐊𝐞𝐧𝐲𝐚 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐬 𝐚𝐧𝐭𝐢-𝐜𝐨𝐮𝐧𝐭𝐞𝐫𝐟𝐞𝐢𝐭 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐝𝐞𝐯𝐢𝐜𝐞 𝐫𝐞𝐠𝐢𝐦𝐞 𝐭𝐨 𝐩𝐫𝐨𝐭𝐞𝐜𝐭 𝐜𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 The Anti-Counterfeit Authority (ACA) has an",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAlBVV95cUxPd3p3VEtaOGVUV20zZFhrRXo0T0t0ZkxQRWFPWld3Y29BQzhBZTNVNXBnYTgyVzRNeEN1Y0U3Z283a2EtU1YwOXhSQXRZVGJuOWRJajh4LUJ4YVc4TWtPcU9odTVqWl9hSC1Obnl6NUVHSi1lUzE3Q1RETzVnVzBnNjBrVS1WUTltZ2xrdEFhQTVPYWkwV3g1VDVLbUxkdTVDNnVHTUdSMk12aG9teDZoRFVoMUhYa3dJWX",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMitAlBVV95cUxPd3p3VEtaOGVUV20zZFhrRXo0T0t0ZkxQRWFPWld3Y29BQzhBZTNVNXBnYTgyVzRNeEN1Y0U3Z283a2EtU1YwOXhSQXRZVGJuOWRJajh4LUJ4YVc4TWtPcU9odTVqWl9hSC1Obnl6NUVHSi1lUzE3Q1RETzVnVzBnNjBrVS1WUTltZ2xrdEFhQTVPYWkwV3g1VDVLbUxkdTVDNnVHTUdSMk12aG9teDZoRFVoMUhYa3dJWXFrdUVKLW8zLUU3S0JYbm1QTHNLQ2UtczBySHJPQ0MycTBqSVEzQWJfcUNqa0pjTkRZQWpRWURUeDRiQlIxMVF4Z1R1UVpTSzI4NjFfVm5OUGhqXzIyZnNoVDBzdi1RYVdDYnRhbVlMUTRjek5EcGo3Z0VEOFRfSlJucDZtSXBFWUZobUNfeVNiU0RkbHFQdXVvLVRMaEp1WnRBMmo0NkVTVGg5ak9iMGk2WmFTUE1iczZCTHlHZklFUVhMbzFldHJWamJVQThQa0lHYm9RR0lNZXJWcWxrQzlUU1VRREg2TzBhZnlXY2I0cGZBX21aMUhiUFlUQkFxa2w3WmJ4TEJMSnlaTldkeTBTZ2VqUWszLTU3dk5GaXhJMmF5aWw1V0hzSGdvc0ZST1BQREZUMWpZSmh2TGphRXpnSTQtQTM5cGZuY0dfdDQyRHo4Y2p1WlhlV0VGMXBoX0QybUJtV3ZuTXR6WW1wOGlrRERBbFYyM2ZxUHJTYUlvVGZjakJjZVJPSm04d0NTMXRLaS1KTjMzSVVRMjVBaGlsRkVFYXRYdi1XYmR5ZlRFR0Zuc0xCVTNteHg3dnBnTUVIS2xJNS1wd3NTeWJ5Yml3aUVsTWNmLUJVaWZvdlNOQVRDcHNPOHgxVUNPUFVycUpTTDg1bTg5VGFNb0R6dHYwU2dia1BQMDZhblc4V3JoU2FkM0N5b1hwUFNLWjN5cHRpMUNKS0g1RURJWFlQMzRxZncyN1B3RWpEOThZWXJaOXNpWUtxWkZ4M2ZncTVaT2V4SjViLWtXcGVsaDZ2OC1lVVVOZHM3blRucFZwMzRfb1BocHpOWkktZFo5eUxJVm1HeldzRjFSNW9BVGYtZ25SN2ZsMUdoLXBTYXRuSkp2Z0JDTFpkcFAxLU43UjZLOFZvNzhEai1IdVpZajlmSWFzV1NMaXBRcUdSalZ1SGFubHAtUFZvbXRJWmc3TGtudDE3WWVXR2NuVGJPcU9EX2xTb0tCN012WXFzX0QzY01yMG1mbW9tV3BROEZGeEhabXhpemVteTlTZk5LUDhvM0NZeTYzXzI0aEx5ZnNhTjFmRGhpUXlGWDd4Sll1OXg4M1BmTzVzalZ1LVZieWpXaFpNYk5yMFhPVVN3S1ZiRXh1blh6REVZcDc1eUVZSWdsYW1XWE5fMnR2SXc5OXBsYzdGR0tRZWJ1NU1PenF2SjVvSVlsc1R0UU5lM1RaY0ZTakZpVldES1R5Zl8tOFlCMG5IaEFwT3lyaWhFb01QM1FyeHlqU3E1VlM1T0puLTZsUWVpNloyenRTR0Z4R25uU3EyRFhzeHdRalZGT2NOdERfdjExTHNOODFpMkZQaERoTjJy?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "facebook.com"
       }
     ],
     "country_summary": {
       "US": {
-        "trend": "opening",
+        "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
-        "impact": "positive"
+        "impact": "neutral"
+      },
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
       }
     }
   },

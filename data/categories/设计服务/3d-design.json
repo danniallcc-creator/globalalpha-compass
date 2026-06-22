@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "3D 设计：海外社媒「industrial design breaking」增速 252%，搜索端「industrial design b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Design Services market poised for...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "3D 设计：海外社媒「industrial design analyst」增速 226%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，Crowell & Moring LLP关注「UK and GCC Free Trade Agreement -...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -98,59 +98,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 3D 设计 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 3D 设计需求强劲",
-      "海外社媒「industrial design breaking」增速 252% 领跑 → 3D 设计社媒种草热度爆发"
+      "海外社媒「industrial design analyst」增速 226% 领跑 → 3D 设计社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "industrial design breaking",
-        "growth": 251.5,
-        "vol": "498K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "industrial design viral hack",
-        "growth": 249.0,
-        "vol": "680K",
+        "kw": "industrial design analyst",
+        "growth": 225.5,
+        "vol": "502K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "industrial design must have",
-        "growth": 238.0,
-        "vol": "379K",
+        "growth": 216.0,
+        "vol": "411K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 164.0,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "industrial design viral hack",
+        "growth": 201.0,
+        "vol": "483K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design wholesale supplier",
-        "growth": 141.5,
+        "growth": 156.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "design services sustainable manufacturing",
+        "growth": 90,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Design Services market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/design-services-2026",
+        "title": "UK and GCC Free Trade Agreement - Crowell & Moring LLP",
+        "source": "Crowell & Moring LLP",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdTk5d3hYZlNqRm15TWxjMTJDbVRRLW1iS2pjQ2wtcWE0VXpkR1pfVndOZGJyX3BWTV80UFl4Q2gxMzBrRXJsSEUyRWZ5Uk1uZmN1REVnN1pOQjhfT3ozODZKemZ6QVMtTk5iRFEyZ0ZKWXcxT3BiWngwUTQ3MlpVVWRxY0VPU0No?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: design services sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/design-services-2026",
+        "title": "China’s Export in January-April 2026: Supply-Chain Implications for Foreign Companies - China Briefing",
+        "source": "China Briefing",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcV9rNzROMnVJeXZIeEp2TGV3YnZMdWFTTlNIdkZGQUJTZmpoQllLeldHUkh4NDUxd09GR1pmOXk1R1NCdlJNeXhtYU12ZTRPZWNRU3NUNGJNUlcwMHZKYmZKUzJ5eFRWNnZtVFpMTndmUDktTjZoOWl5cEpOX3ZzSmg2ejBhbjlJcWpHWXBNbjNXYi1fVzhaMXVHR0VXaGs?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "设计服务"
   }
 }

@@ -134,7 +134,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "ATV 与 UTV：海外社媒「ev must have」增速 251%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Vehicles Ev market poised for growth...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "ATV 与 UTV：海外社媒「ev market alert」增速 255%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -146,59 +146,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → ATV 与 UTV 出口需通过合规认证",
       "ATV 与 UTV主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「ev must have」增速 251% 领跑 → ATV 与 UTV社媒种草热度爆发"
+      "海外社媒「ev market alert」增速 255% 领跑 → ATV 与 UTV社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "ev must have",
-        "growth": 251.0,
-        "vol": "84K",
+        "platform": "x",
+        "kw": "ev market alert",
+        "growth": 255.0,
+        "vol": "424K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "electric vehicle tiktok made me buy",
-        "growth": 245.5,
-        "vol": "158K",
+        "kw": "electric vehicle #fyp",
+        "growth": 254.5,
+        "vol": "217K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle market 2026",
-        "growth": 243.5,
-        "vol": "476K",
+        "platform": "instagram",
+        "kw": "electric vehicle #trending",
+        "growth": 212.5,
+        "vol": "348K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 240.5,
+        "growth": 207.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 197.0,
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 170.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Vehicles Ev market poised for growth amid global supply chain shifts",
+        "title": "Chinese EVs may hit U.S. within a few years, one way or another - CNBC",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/vehicles-ev-2026",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWlmOFlfVXdrY3F3aEwwaHBadUdsQ25BZVdVek1MTGZlTUFNUUZrU1NJSUtjazVEYzl2aWxDT3NNb3FFMG02bUpUaUZWMGpRWkIwMHBaZWI4MjJnNi1xRG12RThjLXZYdmVsV2UydGpMeW1LRkJ0cmZVUHM2MXRXMjd30gGHAUFVX3lxTE1VWWxFSW0welZvbWhRU09xQVlnbU1LSGsyX2haTlgyaVRPWGg4ZEpVVGxpM0VXMFZNWkIyN3JfaEJrcFJuOUwtOUxJbzdJYTd2c0lOcjk5MkNWQ0d6dm9meDJtcGp4NzZDY0RtaEp2OGtOWTE1Qk9MWFJPWGFkS0xPNURvV3Racw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: vehicles ev sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/vehicles-ev-2026",
+        "title": "Europe has had enough of China’s export surge - Atlantic Council",
+        "source": "Atlantic Council",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeDZGUmZjekZGOF9sOEJJUm9aX0k3SXZINVZna0x3dU5TTVpmUzdQV2VzQm45d1hqcElMZjQ2a2Z0WVZFZGhrY2s2WjR0Qm05Q29hUG1RWVhETndMUFZsVzJfRFVETldRY0V2R2IxakhnMXE4Yk5nVVdXUHcxTS0zVm1SUzloMGhBcEk0XzZjaWh0UQ?oc=5",
         "hits": 0
       },
       {
@@ -221,7 +221,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-06-19",
+    "generated_at": "2026-06-22",
     "l1_ref": "整车及交通工具"
   }
 }

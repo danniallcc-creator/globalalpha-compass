@@ -39,12 +39,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 36,
+      "interest_score": 73,
       "trend_direction": "up",
-      "avg_interest": 60.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-22"
     }
   },
@@ -272,54 +270,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "austria world cup",
+            "keyword": "jake rosmarin hantavirus quarantine",
             "volume": "500+",
-            "growth": 57.4
+            "growth": 52.0
           },
           {
-            "keyword": "evansville weather",
-            "volume": "1000+",
-            "growth": -15.5
+            "keyword": "hugo gonzalez",
+            "volume": "200+",
+            "growth": 117.1
           },
           {
-            "keyword": "andrew wiggins",
-            "volume": "500+",
-            "growth": 4.9
+            "keyword": "nuclear program of iran",
+            "volume": "200+",
+            "growth": 50.2
           },
           {
-            "keyword": "trezeguet egypt",
+            "keyword": "diego maradona",
             "volume": "2000+",
-            "growth": -8.9
+            "growth": 101.7
           },
           {
-            "keyword": "hamza abdelkarim",
+            "keyword": "twitter outage",
+            "volume": "20000+",
+            "growth": 23.3
+          },
+          {
+            "keyword": "michael gregoritsch",
             "volume": "1000+",
-            "growth": -11.6
+            "growth": 64.3
           },
           {
-            "keyword": "m salah",
+            "keyword": "ivcm colorado river lawsuit",
             "volume": "1000+",
-            "growth": -11.8
+            "growth": 6.5
           },
           {
-            "keyword": "nba trades",
+            "keyword": "argentine – autriche",
             "volume": "500+",
-            "growth": 30.7
+            "growth": 43.9
           },
           {
-            "keyword": "kostyantynivka",
+            "keyword": "carly rae jepsen",
             "volume": "500+",
-            "growth": 3.1
+            "growth": 18.0
           },
           {
-            "keyword": "aaron wiggins",
-            "volume": "10000+",
-            "growth": 120.2
-          },
-          {
-            "keyword": "vancouver canada",
-            "volume": "1000+",
-            "growth": 88.5
+            "keyword": "lausd superintendent alberto carvalho",
+            "volume": "500+",
+            "growth": 43.1
           }
         ],
         "business_opportunity": "YouTube平台\"Garden Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -370,17 +368,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "5B views",
+            "volume": "27B views",
             "growth": 13.0
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "8B views",
+            "volume": "54B views",
             "growth": 73.5
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "53B views",
+            "volume": "54B views",
             "growth": 79.5
           }
         ],
@@ -390,89 +388,27 @@
     ]
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 11603106801,
-      "total_kg": 703106801,
-      "yoy_growth": -9,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 696186408,
-        "yoy": -19,
-        "share": 6.0
+        "value_usd": 73293716681,
+        "yoy": -33.9,
+        "share": 11.7
       },
       "DE": {
-        "value_usd": 696186408,
-        "yoy": -17,
-        "share": 6.0
+        "value_usd": 325952473332.29596,
+        "yoy": 146.8,
+        "share": 51.8
       },
       "JP": {
-        "value_usd": 684583301,
-        "yoy": -3,
-        "share": 5.9
+        "value_usd": 63987310107.757,
+        "yoy": null,
+        "share": 10.2
       },
       "GB": {
-        "value_usd": 672980194,
-        "yoy": 39,
-        "share": 5.8
-      },
-      "KR": {
-        "value_usd": 672980194,
-        "yoy": 32,
-        "share": 5.8
-      },
-      "AU": {
-        "value_usd": 672980194,
-        "yoy": 32,
-        "share": 5.8
-      },
-      "IN": {
-        "value_usd": 661377087,
-        "yoy": 28,
-        "share": 5.7
-      },
-      "BR": {
-        "value_usd": 661377087,
-        "yoy": -16,
-        "share": 5.7
-      },
-      "SA": {
-        "value_usd": 649773980,
-        "yoy": 21,
-        "share": 5.6
-      },
-      "FR": {
-        "value_usd": 638170874,
-        "yoy": 9,
-        "share": 5.5
-      },
-      "IT": {
-        "value_usd": 638170874,
-        "yoy": 28,
-        "share": 5.5
-      },
-      "NL": {
-        "value_usd": 638170874,
-        "yoy": 5,
-        "share": 5.5
-      },
-      "CA": {
-        "value_usd": 626567767,
-        "yoy": 29,
-        "share": 5.4
-      },
-      "MX": {
-        "value_usd": 614964660,
-        "yoy": -18,
-        "share": 5.3
-      },
-      "VN": {
-        "value_usd": 2378636894,
-        "yoy": 7,
-        "share": 20.5
+        "value_usd": 165583393715.99716,
+        "yoy": 8.9,
+        "share": 26.3
       }
     }
   }
