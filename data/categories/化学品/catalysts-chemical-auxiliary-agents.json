@@ -41,24 +41,22 @@
   ],
   "export_data": {
     "hs_chapter": "38",
-    "total_export_value_usd": 6985660,
-    "total_net_weight_kg": 6485660,
+    "total_export_value_usd": 11665075,
+    "total_net_weight_kg": 1165075,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-21"
+    "fetched_at": "2026-06-22"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 0,
-      "trend_direction": "stable",
-      "avg_interest": 1.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
-      "fetched_at": "2026-06-21"
+      "interest_score": 85,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-22"
     }
   },
   "industry_analysis": {
@@ -71,7 +69,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；催化剂及化学助剂(Catalysts & Chemical Auxiliary Agents)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -344,23 +342,53 @@
     "imports_from_china": {
       "US": {
         "value_usd": 6455936445,
-        "yoy": null,
-        "share": 21.3
+        "yoy": -22.5,
+        "share": 15.1
       },
       "DE": {
         "value_usd": 13466603251.74002,
         "yoy": -34.1,
-        "share": 44.5
+        "share": 31.4
       },
       "JP": {
         "value_usd": 4433126723.367,
-        "yoy": null,
-        "share": 14.6
+        "yoy": 1.2,
+        "share": 10.3
+      },
+      "GB": {
+        "value_usd": 4887893510.015998,
+        "yoy": -38.9,
+        "share": 11.4
       },
       "KR": {
         "value_usd": 5937708743,
+        "yoy": 42.8,
+        "share": 13.9
+      },
+      "AU": {
+        "value_usd": 1729334327.494,
         "yoy": null,
-        "share": 19.6
+        "share": 4.0
+      },
+      "IT": {
+        "value_usd": 596139295.358,
+        "yoy": -10.9,
+        "share": 1.4
+      },
+      "NL": {
+        "value_usd": 364515578.611,
+        "yoy": null,
+        "share": 0.9
+      },
+      "CA": {
+        "value_usd": 3617252745.5419984,
+        "yoy": 28.8,
+        "share": 8.4
+      },
+      "MX": {
+        "value_usd": 1357426542,
+        "yoy": null,
+        "share": 3.2
       }
     }
   }

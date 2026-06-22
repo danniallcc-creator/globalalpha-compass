@@ -41,24 +41,22 @@
   ],
   "export_data": {
     "hs_chapter": "35",
-    "total_export_value_usd": 15405428,
-    "total_net_weight_kg": 14905428,
+    "total_export_value_usd": 39988874,
+    "total_net_weight_kg": 9488874,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-21"
+    "fetched_at": "2026-06-22"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 11,
-      "trend_direction": "down",
-      "avg_interest": 52.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
-      "fetched_at": "2026-06-21"
+      "interest_score": 71,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-06-22"
     }
   },
   "industry_analysis": {
@@ -71,7 +69,7 @@
     "opportunity": "东南亚电商配套瓦楞纸箱及填充物；中东高端礼品包装（特种纸/烫金印刷）；欧洲可堆肥食品包装（PLA/纸基覆膜）；非洲电商包装基础设施建设机遇；运输包装(Logistics Packaging)细分领域机会值得关注"
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "运输包装：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」，出口 YoY +32%，主要流向 美国 / 日本 / 德国。",
@@ -168,87 +166,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 47072475324,
-      "total_kg": 172475324,
-      "yoy_growth": -6,
+      "total_usd": 41833584532,
+      "total_kg": 933584532,
+      "yoy_growth": 2,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 13651017843,
-        "yoy": -11,
-        "share": 29.0
+        "value_usd": 5020030143,
+        "yoy": 36,
+        "share": 12.0
       },
       "DE": {
-        "value_usd": 13086148140,
-        "yoy": 19,
-        "share": 27.8
+        "value_usd": 4852695805,
+        "yoy": 9,
+        "share": 11.6
       },
       "JP": {
-        "value_usd": 12521278436,
-        "yoy": -16,
-        "share": 26.6
+        "value_usd": 4727195052,
+        "yoy": 14,
+        "share": 11.3
       },
       "GB": {
-        "value_usd": 7814030903,
-        "yoy": 26,
-        "share": 16.6
+        "value_usd": 4559860713,
+        "yoy": -13,
+        "share": 10.9
       },
       "KR": {
-        "value_usd": 0,
-        "yoy": 0,
-        "share": 0.1
+        "value_usd": 4434359960,
+        "yoy": -17,
+        "share": 10.6
       },
       "AU": {
-        "value_usd": 0,
-        "yoy": 31,
-        "share": 0.1
+        "value_usd": 4267025622,
+        "yoy": -1,
+        "share": 10.2
       },
       "IN": {
-        "value_usd": 0,
-        "yoy": -8,
-        "share": 0.1
+        "value_usd": 4141524868,
+        "yoy": -3,
+        "share": 9.9
       },
       "BR": {
-        "value_usd": 0,
-        "yoy": 38,
-        "share": 0.1
+        "value_usd": 3974190530,
+        "yoy": 7,
+        "share": 9.5
       },
       "SA": {
-        "value_usd": 0,
+        "value_usd": 3848689776,
         "yoy": -20,
-        "share": 0.1
+        "share": 9.2
       },
       "FR": {
-        "value_usd": 0,
-        "yoy": 8,
-        "share": 0.1
+        "value_usd": 2008012057,
+        "yoy": 4,
+        "share": 4.800000000000008
       },
       "IT": {
         "value_usd": 0,
-        "yoy": 36,
+        "yoy": 32,
         "share": 0.1
       },
       "NL": {
         "value_usd": 0,
-        "yoy": 3,
+        "yoy": 12,
         "share": 0.1
       },
       "CA": {
         "value_usd": 0,
-        "yoy": -8,
+        "yoy": 9,
         "share": 0.1
       },
       "MX": {
         "value_usd": 0,
-        "yoy": -12,
+        "yoy": 6,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": -17,
+        "yoy": 23,
         "share": 0.1
       }
     }
