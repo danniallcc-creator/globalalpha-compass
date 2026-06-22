@@ -12,6 +12,7 @@ GlobalAlpha Compass - 每日趋势数据抓取脚本
 - X (Twitter): 趋势话题
 """
 
+import sys
 import json
 import os
 import re
@@ -63,6 +64,11 @@ HEADERS = {
 }
 
 ALLORIGINS = 'https://api.allorigins.win/raw?url='
+CORS_PROXIES = [
+    'https://api.allorigins.win/raw?url=',
+    'https://corsproxy.io/?',
+    'https://api.codetabs.com/v1/proxy?quest=',
+]
 
 MARKETS = {
     'US': {'amazon_domain': 'amazon.com', 'trends_geo': 'US', 'lang': 'en'},
@@ -100,16 +106,34 @@ SESSION.headers.update(HEADERS)
 # 工具函数
 # ============================================================
 def safe_get(url, timeout=15, retries=2, via_proxy=False):
-    """安全HTTP GET，支持allorigins代理"""
-    for attempt in range(retries):
+    """安全HTTP GET，支持多CORS代理自动降级"""
+    if via_proxy:
+        for proxy in CORS_PROXIES:
+            try:
+                target = proxy + quote_plus(url)
+                resp = SESSION.get(target, timeout=timeout)
+                if resp.status_code == 200 and len(resp.text) > 50:
+                    return resp
+            except Exception as e:
+                print(f"  [WARN] Proxy {proxy[:30]}... for {url[:60]}... failed: {e}")
+                continue
+        # Last resort: try direct
         try:
-            target = ALLORIGINS + quote_plus(url) if via_proxy else url
-            resp = SESSION.get(target, timeout=timeout)
+            resp = SESSION.get(url, timeout=timeout)
             if resp.status_code == 200 and len(resp.text) > 50:
                 return resp
-        except Exception as e:
-            print(f"  [WARN] GET {url[:80]}... attempt {attempt+1} failed: {e}")
-            time.sleep(2 * (attempt + 1))
+        except Exception:
+            pass
+        return None
+    else:
+        for attempt in range(retries):
+            try:
+                resp = SESSION.get(url, timeout=timeout)
+                if resp.status_code == 200 and len(resp.text) > 50:
+                    return resp
+            except Exception as e:
+                print(f"  [WARN] GET {url[:80]}... attempt {attempt+1} failed: {e}")
+                time.sleep(2 * (attempt + 1))
     return None
 
 
