@@ -63,9 +63,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 30,
-      "trend_direction": "up",
-      "avg_interest": 59.2,
+      "interest_score": 22,
+      "trend_direction": "stable",
+      "avg_interest": 58.1,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -259,18 +259,19 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 4,
+    "article_count": 5,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 50.0,
+      "positive_pct": 40.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 4
+      "neutral_pct": 60.0,
+      "articles_analyzed": 5
     },
     "top_headlines": [
       "Users Say This Popular Hand Tool Brand's Quality Is On The Decline - SlashGear",
       "Bring Back the Trades and Milwaukee Tool Award First Tool Grant to Manchester School of Technology -",
       "Metal Feeler Gauge Market Growth Outlook to 2035: Precision Tooling Demand Accelerates - News and St",
+      "Top 6 Screwdriver Manufacturers to Watch in 2026 - Tycoonstory Media",
       "Data, dealers, and speed - how OPENLANE Gate Trade moves wholesale cars - AD HOC NEWS"
     ],
     "source_urls": [
@@ -300,54 +301,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "lainey wilson",
+            "keyword": "cholesterol",
+            "volume": "100+",
+            "growth": 99.2
+          },
+          {
+            "keyword": "qqq",
+            "volume": "500+",
+            "growth": 34.9
+          },
+          {
+            "keyword": "sandisk stock",
             "volume": "1000+",
-            "growth": 30.7
+            "growth": 23.3
           },
           {
-            "keyword": "ibrahim mbaye",
+            "keyword": "jesse eisenberg",
+            "volume": "200+",
+            "growth": 55.3
+          },
+          {
+            "keyword": "naomi osaka",
             "volume": "1000+",
-            "growth": 0.2
+            "growth": 29.1
           },
           {
-            "keyword": "foster griffin",
+            "keyword": "scotusblog",
             "volume": "500+",
-            "growth": 100.6
+            "growth": 14.8
           },
           {
-            "keyword": "taylor ward",
-            "volume": "500+",
-            "growth": 89.5
-          },
-          {
-            "keyword": "zach love island",
-            "volume": "500+",
-            "growth": 13.1
-          },
-          {
-            "keyword": "bobby flay",
+            "keyword": "amc stock offering 200 million",
             "volume": "1000+",
-            "growth": 45.8
+            "growth": 126.4
           },
           {
-            "keyword": "sophie cunningham",
-            "volume": "2000+",
-            "growth": 28.9
-          },
-          {
-            "keyword": "charlie kirk",
+            "keyword": "micron stock",
             "volume": "1000+",
-            "growth": 106.9
+            "growth": 68.3
           },
           {
-            "keyword": "miles teller",
+            "keyword": "voters rights act",
             "volume": "500+",
-            "growth": 65.0
+            "growth": 93.5
           },
           {
-            "keyword": "dewanna bonner",
+            "keyword": "spurs trade",
             "volume": "500+",
-            "growth": 3.4
+            "growth": 2.9
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -398,17 +399,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "57B views",
+            "volume": "38B views",
             "growth": -11.3
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "28B views",
+            "volume": "40B views",
             "growth": 124.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "44B views",
+            "volume": "57B views",
             "growth": 59.7
           }
         ],
@@ -420,16 +421,28 @@
   "policy_updates": {
     "articles": [
       {
-        "title": "J. D. Vance Articulates America-First AI Doctrine - Let's Data Science",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5\" target=\"_blank\">J. D. Vance Articulates Amer",
-        "country": "US",
+        "title": "From double standards to fairness: A turning point for EU food trade policy - EUobserver",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOdU9UaExCY2IxUTlqRTd3blhGTWExeWdXWFM3ZmlmWjBtcTI5a044bWtzRVFOQ25EMUYzZ2MxSDM1bE9mVUFXNWhqTFNGeWp6MTRYOC1zVk1NODM4aXd0c01MdmZiWlhiWVZNSGhMeldhS00tV0Z2YU1icklSd29XRlFVWjlCQXRKUHhvaUZDQVNucDNHdGxMRFdiZmh2bmpmeFVrMENB?oc=5\" target=\"_blank\">Fro",
+        "country": "EU",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5",
-        "published": "Sun, 21 Jun 2026",
-        "source": "Let's Data Science"
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdU9UaExCY2IxUTlqRTd3blhGTWExeWdXWFM3ZmlmWjBtcTI5a044bWtzRVFOQ25EMUYzZ2MxSDM1bE9mVUFXNWhqTFNGeWp6MTRYOC1zVk1NODM4aXd0c01MdmZiWlhiWVZNSGhMeldhS00tV0Z2YU1icklSd29XRlFVWjlCQXRKUHhvaUZDQVNucDNHdGxMRFdiZmh2bmpmeFVrMENB?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "EUobserver"
+      },
+      {
+        "title": "Helping international firms ride Argentina's hydrocarbons, mining investment wave - BNamericas",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "positive",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3R0aA?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "BNamericas"
       },
       {
         "title": "European Union Carbide Finishing Burs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -457,19 +470,19 @@
       }
     ],
     "country_summary": {
-      "US": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
       "EU": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
         "impact": "neutral"
+      },
+      "US": {
+        "trend": "opening",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "positive"
       },
       "Unknown": {
         "trend": "neutral",
@@ -481,89 +494,17 @@
     }
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 17539405929,
-      "total_kg": 639405929,
-      "yoy_growth": -1,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 1578546533,
-        "yoy": 5,
-        "share": 9.0
+        "value_usd": 3159617282,
+        "yoy": -12.1,
+        "share": 17.1
       },
       "DE": {
-        "value_usd": 1543467721,
-        "yoy": 38,
-        "share": 8.8
-      },
-      "JP": {
-        "value_usd": 1508388909,
-        "yoy": 36,
-        "share": 8.6
-      },
-      "GB": {
-        "value_usd": 1473310098,
-        "yoy": 23,
-        "share": 8.4
-      },
-      "KR": {
-        "value_usd": 1438231286,
-        "yoy": 2,
-        "share": 8.2
-      },
-      "AU": {
-        "value_usd": 1403152474,
-        "yoy": 9,
-        "share": 8.0
-      },
-      "IN": {
-        "value_usd": 1368073662,
-        "yoy": 25,
-        "share": 7.8
-      },
-      "BR": {
-        "value_usd": 1332994850,
-        "yoy": -5,
-        "share": 7.6
-      },
-      "SA": {
-        "value_usd": 1297916038,
-        "yoy": 29,
-        "share": 7.4
-      },
-      "FR": {
-        "value_usd": 1262837226,
-        "yoy": 6,
-        "share": 7.2
-      },
-      "IT": {
-        "value_usd": 1227758415,
-        "yoy": 26,
-        "share": 7.0
-      },
-      "NL": {
-        "value_usd": 1192679603,
-        "yoy": 12,
-        "share": 6.8
-      },
-      "CA": {
-        "value_usd": 912049108,
-        "yoy": 25,
-        "share": 5.200000000000004
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -17,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": 34,
-        "share": 0.1
+        "value_usd": 15268423409.555004,
+        "yoy": 58.6,
+        "share": 82.9
       }
     }
   }

@@ -37,10 +37,12 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 63,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "interest_score": 20,
+      "trend_direction": "up",
+      "avg_interest": 46.9,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
       "fetched_at": "2026-06-23"
     }
   },
@@ -228,14 +230,14 @@
       "World Pasteur Transfer Pipettes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
       "World Single Vision Spectacle Lenses - Market Analysis, Forecast, Size, Trends and Insights - IndexB",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax",
-      "European Union Urinary Specimen Collection Tubes - Market Analysis, Forecast, Size, Trends and Insig"
+      "World PCR Tubes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMigAJBVV95cUxQLUY3a1VGcHRPbEw5anNFdWpPbXJKMGdyNzVrQUJtaDZOM2VtbHpURlFnRlJGdl9NclFrbWhWMXA3MjQzM1NfSFQxekwxTlM0WVlFYVRGeHdBc0xjbVNlbW9zMFRIc3FzOFN2aUNjeWZlSms5aEI2ZXFlNUpFRVZRbXgtNUZIYVQ0RWJQRVIwY2pYWjhNWkM1TnlWWnNDeGVtQkJuS0Z2RXlYdjhfR2NoT3Q1VkRSZ2JPd3NSakN4VDJkbmswOEZ4bWYwaU9fNGZ6RldsOUxTaV9ObE1JOTlpYzE0UXVGbnc4R2VkekdJNnp3X2Q2eW44ZnQyUEZOcnls?oc=5",
       "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkxlYWJhZFdYRGVGMkhVZmxHME5GZ0VwV2RfR0xYd3ItaFY1ZTBYSGMzemNkM2ZlQ1lHZ0NMdW9GWVNscXllRmcyNzJnRVNmbnJZMk11TUJGb0VEcHM0azFSUFg2YW9UNE1acEw1b1Rqc0wyTm9uLU9lbWZRSmZacklWMGlTOTUwZDRrQ1RXR09QVlBocFZ6dmIxU3BWazlGek5qUXFNRm1mMjQtRjRtdHdIYnF2NHcwSDFtX2lDWXNVb0g3R2NMT1U1WkVINE1lWHNQekpfaEhnRzdZT0JaaDlJVkM?oc=5",
       "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTGVLdTRXVWFyR1NhRjdiN0FzaGRLQklmUVBtVmtQaFBnQm14S3BYbUhCVnduandKVjJkZmtpSVFld3FzZmd5aWhydlNtRWY0RlFENTFBanQ4YklVQmtleUNZWnp0Vi1xNGV4cGJtdGE1VWNuTERNT1VsRjVUeG9mU3dpdFN1RGtqU1JBand3RmxmWWxKYV9QVXBCSms1RlM1YjA5cmVEVWdxQU16N1J0ZkJJV1dEc3lfMjBocHE2SmZsbkpqUDBGQ28xdHJ0bEVCUkhWN0E5ZFRoYjJMOFEycQ?oc=5"
     ],
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "policy_updates": {
     "articles": [
@@ -264,28 +266,16 @@
         "source": "IndexBox"
       },
       {
-        "title": "\"Supply chain under pressure from rising costs, international competition, and regulation\" - FreshPlaza",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUm",
-        "country": "EU",
+        "title": "Senate passes a bipartisan housing bill aimed at increasing supply and lowering prices - Times West Virginian",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxNWWMtVmZYajg5QzJrWDZkc3I2aHRBckhNeE1ELWJIS1BfYmVJZG1aMF81RkFEcHMzbXRwRnA1RnplbWxtNGNhWTNuSkNZOHFLeXBQYldaR0o1d1djWmE0MU5XZlRKdjdwb2lRQ2U5U2RsM2tnN1hscUVBUnB2UEJuY2xHa2E2NDd3V3Y1bXBNazd1ci1HeUprbHE2bnZtOVplUi1tVXNCbENpcjBrdVBSdG5VRUdfNkNXQW",
+        "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTF95NzNtdnZJVkJ1R3BEUW41Nzl2NkVJdVQ3dzAzN1lTT0JSMUpON0JaSFFGTHhrRGpUQThXckdKRzhKVjNsTzE3dkNWU2Zzc1BONGhXOU8yU2s2Tm94MUJBTlN4RXBibEZnY1NnSXBSeGN4Y2lGdnc0c0RLMDYxZENLZUk2UFpma2pDOFBhRDFXeVNqUVdIaXFQS0JwbTRlc1Q5TDJFTjh2LXlweWRyd3ltQUZCaExzUmlsQjZfNnpISFBoaW53S0tlMUdyUUthN1F4TnRENm1IVkxX?oc=5",
-        "published": "Thu, 18 Jun 2026",
-        "source": "FreshPlaza"
-      },
-      {
-        "title": "European Union Familial Combined Hyperlipidemia Marker Assays - Market Analysis, Forecast, Size, Trends and Insights - I",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMXZjT1pYVVZjNGFNSFRRTFp0akttZTFLV0MxM0NDTVZoNGt2TDVTVVh6SkdrOGtGMnlTRTI2ZTB0NHRMU3ZOMUM4T21udnRaUzJMX2hDeEt1S2tNdVQ1dEM5MHVSeUl2LV9FRHVQV3VSWUM5NjMyNlhiRW1wTVpxTWRlQ2ZqeTl3QXh5NWNta2RPT29pd2EtRWFaaWZnckJqZ3hNNlNHblQzQ01rRHM3SDNObXNOY0xpZG",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMXZjT1pYVVZjNGFNSFRRTFp0akttZTFLV0MxM0NDTVZoNGt2TDVTVVh6SkdrOGtGMnlTRTI2ZTB0NHRMU3ZOMUM4T21udnRaUzJMX2hDeEt1S2tNdVQ1dEM5MHVSeUl2LV9FRHVQV3VSWUM5NjMyNlhiRW1wTVpxTWRlQ2ZqeTl3QXh5NWNta2RPT29pd2EtRWFaaWZnckJqZ3hNNlNHblQzQ01rRHM3SDNObXNOY0xpZGJJYzNjZWdLT1FidURkeExwbTRmSE1NRkJhRjYyb1FkQQ?oc=5",
-        "published": "Fri, 19 Jun 2026",
-        "source": "IndexBox"
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWWMtVmZYajg5QzJrWDZkc3I2aHRBckhNeE1ELWJIS1BfYmVJZG1aMF81RkFEcHMzbXRwRnA1RnplbWxtNGNhWTNuSkNZOHFLeXBQYldaR0o1d1djWmE0MU5XZlRKdjdwb2lRQ2U5U2RsM2tnN1hscUVBUnB2UEJuY2xHa2E2NDd3V3Y1bXBNazd1ci1HeUprbHE2bnZtOVplUi1tVXNCbENpcjBrdVBSdG5VRUdfNkNXQW1Kc1U2WGpveEtFdTd3ZWhLdUJwMS1rSFVUS3Z4NFJMY3VHV3QzMUZwdnltY3VhR2pCWWZKaHFmRndDSjZYYjRLcEY1Wms5eERZeg?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "Times West Virginian"
       },
       {
         "title": "World Lyophilized Control Sera Sets - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -297,6 +287,30 @@
         "category_relevance": "indirect",
         "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWG5vWnhUc2tJR0VSajNQeW1OQVZ1NUpZTDJwaXUyS0s1RHVzaEt0RkJ1aGFfT1Y1TEhNNXJSZWpzQ2oxQy1oQ1FQUmZ3bWI1Q01NRTY2R2pVQ0x4VWxGVTl5dzVHanNBUElNN2hxejJmSGt3QjVkV0kyU2hNSUlIV25WMlMtOERnZE5LU1d3Uy1VcC1taDItRm16eVRudjVUQ25ZTDQ0RG9xbk5VZC1UTHduWFAwWDhFU19HandCcU52aVQwWHFCX1UxdnlxNHo1NmNpbFhhZHpac3NkQjl5eHJFUTdxdEUyZjFZaHNja0o?oc=5",
         "published": "Wed, 17 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "European Union Agarose Gel Molding Combs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNcl92cjV5SzhISDlOYTFnM3gtcmJOQWRZQ0pTbGM0RExnNmVDeUlfOUdGMHp5UURHUGNCWTNwVS02UllmTkhrNmhkbU9haDFld0VOcE9RMzNNdEZKcDVhRDhlTzVUbTV6QkFZZzlGMTh4eTF3Nnc1UGZFTTdiUUFvUTNVN0h3clAtUF95ZTNFUFp5X2ZEYnQ2cWdYX1loS0lta2ZjY2FLcHdlRm1RcklIUTRGbFc2VjdYel",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcl92cjV5SzhISDlOYTFnM3gtcmJOQWRZQ0pTbGM0RExnNmVDeUlfOUdGMHp5UURHUGNCWTNwVS02UllmTkhrNmhkbU9haDFld0VOcE9RMzNNdEZKcDVhRDhlTzVUbTV6QkFZZzlGMTh4eTF3Nnc1UGZFTTdiUUFvUTNVN0h3clAtUF95ZTNFUFp5X2ZEYnQ2cWdYX1loS0lta2ZjY2FLcHdlRm1RcklIUTRGbFc2VjdYelY0dGd3?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Respiratory Mucus Collection Swabs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU9CWjNPbl9LaFNZaGF3c1pUd3JzdW52b2V6UWFBM0hpVlNPUVdDZG1tcVNiRzhiSU9GMllnLUdDR2tRVFhFRWw4SDFnWmtpczlLU3NRVkVWMVllcVJUTy1aOVQ3cnV3aXJKcDM3cUpTVGl2NG1YbGlvWF95bWgxbWJ4SktiRmdyT01ub3p2alRZTXpZRUpqUzJfVUlZdEtUQ2t5RlhhbjVTNVAxVmVsemVnV2F1VXlSck",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU9CWjNPbl9LaFNZaGF3c1pUd3JzdW52b2V6UWFBM0hpVlNPUVdDZG1tcVNiRzhiSU9GMllnLUdDR2tRVFhFRWw4SDFnWmtpczlLU3NRVkVWMVllcVJUTy1aOVQ3cnV3aXJKcDM3cUpTVGl2NG1YbGlvWF95bWgxbWJ4SktiRmdyT01ub3p2alRZTXpZRUpqUzJfVUlZdEtUQ2t5RlhhbjVTNVAxVmVsemVnV2F1VXlSck15alRR?oc=5",
+        "published": "Tue, 23 Jun 2026",
         "source": "IndexBox"
       },
       {
@@ -346,18 +360,6 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXJ3bGRoZVE5eXNwbTN5ZmFTd095LUNHRWZ6eF96VlUybGxvb0NjQWc3ZThXaFJ1ODJYVTgwQk9wWWpGR2Fac2U3NnZkQTRHbzFXUGNhWEVFTFNXLVlzMkJMVG1EcmVNVGU4SWpjWkI4b3podGExUFJlNzNhMldlSV9KTTE0UlNrYkZjd2VrWjZWeEltSFNnTjVlS20tTWhPVUxvOVlvM2QyUXJHNUlsVTVn?oc=5",
         "published": "Sat, 20 Jun 2026",
         "source": "IndexBox"
-      },
-      {
-        "title": "European Union Urinary Specimen Collection Tubes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTh5VFRPZmpCdXN6UXlZVFp1ZElsMHh2S0gzbVBpb0lRNldMQk1nTG1NUjhoT2RyZG1oZTZROE5rU3NXbzNxLWtFNGxpNXpRdnVEZXNXTFJhSGwyZVA2NHVPR3NMT2V1TXNEa2hrME15RDdoUjUwLVBULU00SUhXekkzOXRyWmlCd3YtQ1AzOUYtdDlReFZWSXZFdzJWMTRIQ3JLWUtkaFp1czF5T25mWFljZUoteWxRaF",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTh5VFRPZmpCdXN6UXlZVFp1ZElsMHh2S0gzbVBpb0lRNldMQk1nTG1NUjhoT2RyZG1oZTZROE5rU3NXbzNxLWtFNGxpNXpRdnVEZXNXTFJhSGwyZVA2NHVPR3NMT2V1TXNEa2hrME15RDdoUjUwLVBULU00SUhXekkzOXRyWmlCd3YtQ1AzOUYtdDlReFZWSXZFdzJWMTRIQ3JLWUtkaFp1czF5T25mWFljZUoteWxRaF9UVWtsWnhYaGVONFRVWA?oc=5",
-        "published": "Wed, 17 Jun 2026",
-        "source": "IndexBox"
       }
     ],
     "country_summary": {
@@ -368,14 +370,14 @@
         ],
         "impact": "neutral"
       },
-      "EU": {
+      "Unknown": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
         "impact": "neutral"
       },
-      "Unknown": {
+      "EU": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

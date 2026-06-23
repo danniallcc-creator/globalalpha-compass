@@ -100,7 +100,7 @@
     "google_trends": {
       "interest_score": 0,
       "trend_direction": "stable",
-      "avg_interest": 3.2,
+      "avg_interest": 1.1,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -297,54 +297,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "lainey wilson",
+            "keyword": "cholesterol",
+            "volume": "100+",
+            "growth": 99.2
+          },
+          {
+            "keyword": "qqq",
+            "volume": "500+",
+            "growth": 34.9
+          },
+          {
+            "keyword": "sandisk stock",
             "volume": "1000+",
-            "growth": 30.7
+            "growth": 23.3
           },
           {
-            "keyword": "ibrahim mbaye",
+            "keyword": "jesse eisenberg",
+            "volume": "200+",
+            "growth": 55.3
+          },
+          {
+            "keyword": "naomi osaka",
             "volume": "1000+",
-            "growth": 0.2
+            "growth": 29.1
           },
           {
-            "keyword": "foster griffin",
+            "keyword": "scotusblog",
             "volume": "500+",
-            "growth": 100.6
+            "growth": 14.8
           },
           {
-            "keyword": "taylor ward",
-            "volume": "500+",
-            "growth": 89.5
-          },
-          {
-            "keyword": "zach love island",
-            "volume": "500+",
-            "growth": 13.1
-          },
-          {
-            "keyword": "bobby flay",
+            "keyword": "amc stock offering 200 million",
             "volume": "1000+",
-            "growth": 45.8
+            "growth": 126.4
           },
           {
-            "keyword": "sophie cunningham",
-            "volume": "2000+",
-            "growth": 28.9
-          },
-          {
-            "keyword": "charlie kirk",
+            "keyword": "micron stock",
             "volume": "1000+",
-            "growth": 106.9
+            "growth": 68.3
           },
           {
-            "keyword": "miles teller",
+            "keyword": "voters rights act",
             "volume": "500+",
-            "growth": 65.0
+            "growth": 93.5
           },
           {
-            "keyword": "dewanna bonner",
+            "keyword": "spurs trade",
             "volume": "500+",
-            "growth": 3.4
+            "growth": 2.9
           }
         ],
         "business_opportunity": "YouTube平台\"Testing and Analysis Instruments\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -395,17 +395,17 @@
         "trending_keywords": [
           {
             "keyword": "#TikTokMadeMeBuyIt",
-            "volume": "12B views",
+            "volume": "17B views",
             "growth": -8.6
           },
           {
             "keyword": "#AmazonFinds",
-            "volume": "29B views",
+            "volume": "16B views",
             "growth": 81.2
           },
           {
             "keyword": "#Trending",
-            "volume": "18B views",
+            "volume": "26B views",
             "growth": 45.8
           }
         ],
@@ -649,18 +649,22 @@
     }
   },
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 3,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 100.0,
+      "overall": "neutral",
+      "positive_pct": 33.3,
       "negative_pct": 0.0,
-      "neutral_pct": 0.0,
-      "articles_analyzed": 1
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
     },
     "top_headlines": [
+      "Middle East Bulk Density Determination Apparatus - Market Analysis, Forecast, Size, Trends and Insig",
+      "European Union Bulk Density Determination Apparatus - Market Analysis, Forecast, Size, Trends and In",
       "World Mastitis Detection Test Cassettes - Market Analysis, Forecast, Size, Trends and Insights - Ind"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONjFHM0JzV184UFg1cWxwQXdTMkcwSGVxM0V1aUtNTjlTV3RUVFpOeVNwRXVHblh4QjVKNVpjSjRuY3MzRXYyMzhHazN4ei1TdmZxY08xcm1waGxqZHdRaFVVVDdxbE1BMWtIMjZNT2RKSEF1WEhMZ3dsaklXUU5IZFQ2TmVuWURmYTNvd0FaekJsNzV6YW55MWVVQmEwb2VVbHdXVUk4bFE3TFdxUlp5c3Zmb0EtUF9IQktZMXBqNGl3b2ZhRDFBbA?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU29mNlk5RjV1UmpDUHZ3R0JrSHVOWkpTUHVxanBSaGxqOW9lVGJxOXZrNHRUSHhpT0RJRmhIYVNNTVYxMzhPcHZrOXdJWmg5RnBwSFlhemh2ekVybHBpZ2tWdHkzbkV1MkhEa05QVnZqNXZfNENTLVpkZU1GZzB4V3dVX1lia3ZIX2o0THhCQnFJaGQwbUVOQl9iOHgxbnhEQ0hPSzh6dG5RZWJXNHdmQ2JWZEE1QUdnZ0JtM1QyQUJQRVZ5bWNjRExYS3c?oc=5",
       "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYTQ1UVk2WGxGRWFPVXBVZ3g0THFhUEtzSGxhZ1R5cUNYbHNWVzg5S204X2pSZVpEODRKWnNlQ1VvWExKYTFlOVFReUhvTGczV0J3Tll6YnRaelN1SlRzaUpvRjRmSVpuS3dneUFibHhaMXNOaHRld00xcmJZbWd6Qm53VE9lcXQ5X2tKY2FBam43aHV3UmduSnZLYXpXd2ZhSG5jY1FhajBzemRrbU5la0FZZ0JjbFlLT0pEOQ?oc=5"
     ],
     "fetched_at": "2026-06-23"

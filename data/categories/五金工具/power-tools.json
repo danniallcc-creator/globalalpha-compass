@@ -38,12 +38,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 26,
-      "trend_direction": "up",
-      "avg_interest": 59.7,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 54,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-23"
     }
   },
@@ -235,24 +233,23 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 4,
+    "article_count": 3,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 66.7,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 4
+      "neutral_pct": 33.3,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "Home Depot Stock Displays Valuation Premium: Overvalued or Justified? - TradingView",
-      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala",
       "AI chip demand drives 6.0pct growth for Singapore in Q1 - KLSE Screener",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdlMyNDY5VXFrZEtrWTQzTVZfUlZzQ20zTkdBQnBRXzN3T053YS1qUnVfRzNYZkhMV0RGMW52aHFsQkxCRUJseThxdW94MTNrTkVuNXd0QWhWXzEtZFEzQkRBUW1POEpQaXhKSWVreDdSN3hJNVVsTnNoeW9VUmVpNW42aEZidlhTd3Y2TXlteHM0eUR6V1ZmaWlzeXZUQmtwbDUtczFzakVfLTV4TDl5OUFfeXJvNmI0cnhLZkZhSEg?oc=5",
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUlacldwUVB6djRJN0tleWpKQTFDOVk4c1NyWURhNEhXd3YxNks1c0JCYVhXd29iQ1pRTWxnNW54WWlGbFNVQlhweGVoRFNaNjJtOHBSS0hkUXBfMGlYaEVCNUJ1QWpQRFFxZ28ydjdrSFNvYzN0T3YzdWRKSjBoVVpwaS1QaWRIc1RCU1dqbEU0MWhlcU1zXzgtX1RaNjdkMjFHZlN0S0RfOFRXSWpuajVIVWgzQWJaTDk5VVU3UG1BeXZ2b2N1d2VLTXM?oc=5",
-      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMXBQbzB0MXJ5b2FJUHFBbllHZjBjc18tVkgydnF1b0VQdE5jWGI2TWtKTXIzRlhSQ3dDWDc4TkJjQWJSWm1oTlRpSFhNeEpXWGtHc09YZVU3RUM5OXdZeHBHX01WclZPb1BJbEVGNnJuX05VZjR4aHNocXhYYlpEbi1hbVBpMzUyemNZcVRDMVJob2MyOHlvQ3QwYlZIWGpNT3hQTU55VFU?oc=5"
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMXBQbzB0MXJ5b2FJUHFBbllHZjBjc18tVkgydnF1b0VQdE5jWGI2TWtKTXIzRlhSQ3dDWDc4TkJjQWJSWm1oTlRpSFhNeEpXWGtHc09YZVU3RUM5OXdZeHBHX01WclZPb1BJbEVGNnJuX05VZjR4aHNocXhYYlpEbi1hbVBpMzUyemNZcVRDMVJob2MyOHlvQ3QwYlZIWGpNT3hQTU55VFU?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
     "fetched_at": "2026-06-23"
   },
@@ -276,54 +273,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "lainey wilson",
+            "keyword": "cholesterol",
+            "volume": "100+",
+            "growth": 99.2
+          },
+          {
+            "keyword": "qqq",
+            "volume": "500+",
+            "growth": 34.9
+          },
+          {
+            "keyword": "sandisk stock",
             "volume": "1000+",
-            "growth": 30.7
+            "growth": 23.3
           },
           {
-            "keyword": "ibrahim mbaye",
+            "keyword": "jesse eisenberg",
+            "volume": "200+",
+            "growth": 55.3
+          },
+          {
+            "keyword": "naomi osaka",
             "volume": "1000+",
-            "growth": 0.2
+            "growth": 29.1
           },
           {
-            "keyword": "foster griffin",
+            "keyword": "scotusblog",
             "volume": "500+",
-            "growth": 100.6
+            "growth": 14.8
           },
           {
-            "keyword": "taylor ward",
-            "volume": "500+",
-            "growth": 89.5
-          },
-          {
-            "keyword": "zach love island",
-            "volume": "500+",
-            "growth": 13.1
-          },
-          {
-            "keyword": "bobby flay",
+            "keyword": "amc stock offering 200 million",
             "volume": "1000+",
-            "growth": 45.8
+            "growth": 126.4
           },
           {
-            "keyword": "sophie cunningham",
-            "volume": "2000+",
-            "growth": 28.9
-          },
-          {
-            "keyword": "charlie kirk",
+            "keyword": "micron stock",
             "volume": "1000+",
-            "growth": 106.9
+            "growth": 68.3
           },
           {
-            "keyword": "miles teller",
+            "keyword": "voters rights act",
             "volume": "500+",
-            "growth": 65.0
+            "growth": 93.5
           },
           {
-            "keyword": "dewanna bonner",
+            "keyword": "spurs trade",
             "volume": "500+",
-            "growth": 3.4
+            "growth": 2.9
           }
         ],
         "business_opportunity": "YouTube平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -374,17 +371,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "18B views",
+            "volume": "17B views",
             "growth": -11.3
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "6B views",
+            "volume": "15B views",
             "growth": 124.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "20B views",
+            "volume": "35B views",
             "growth": 59.7
           }
         ],
@@ -444,30 +441,6 @@
         "source": "simplywall.st"
       },
       {
-        "title": "J. D. Vance Articulates America-First AI Doctrine - Let's Data Science",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5\" target=\"_blank\">J. D. Vance Articulates Amer",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5",
-        "published": "Sun, 21 Jun 2026",
-        "source": "Let's Data Science"
-      },
-      {
-        "title": "The real barriers to trade are no longer tariffs - The Hindu",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVjJRSmhmSk1yemZsN0FSQjRnWEtRbnVMLVFrbHZINVB2djFsZWtfWU9FQ0puMnlQY2JOczl1U1AyR21ybmNrMS1ST29iaVNwV011SVJ0WHJTRkJLaG1FeWhhYnBNVmlhbDVLTHhyTGZfcVBrTzd0TG9lOS1SdVV0d2dFOF80Ri1wZlM1SFQyZXNBWklsckp5SWJQaEVRYU5COU82UTl5LVcyTk3SAbIBQVVfeXFMT3RoSD",
-        "country": "Unknown",
-        "policy_type": "tariff",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVjJRSmhmSk1yemZsN0FSQjRnWEtRbnVMLVFrbHZINVB2djFsZWtfWU9FQ0puMnlQY2JOczl1U1AyR21ybmNrMS1ST29iaVNwV011SVJ0WHJTRkJLaG1FeWhhYnBNVmlhbDVLTHhyTGZfcVBrTzd0TG9lOS1SdVV0d2dFOF80Ri1wZlM1SFQyZXNBWklsckp5SWJQaEVRYU5COU82UTl5LVcyTk3SAbIBQVVfeXFMT3RoSDhoX1B6TTF4S05YV25iMVo0NWdkeXZ3emRvQmRkNVBqUElTdmlPcEhrMThnd3EycGx2cVdHZXdpekUxRlpvaTBOZnZVLXhfUUg4bUdjQzlYanlmRTYyZlNFamdPekwwbm41NEV6eGdhZk1ua0JTNE5YSnEybFQtTUVuTWFsTkY5V3dxZEwycWtobS1jeEhEZHZNVFF6NkhCSmJqUVpZSWUtVEg5NDh2dw?oc=5",
-        "published": "Thu, 18 Jun 2026",
-        "source": "The Hindu"
-      },
-      {
         "title": "Oil-Filled Transformer Tank Market Forecast Points Higher Toward 2035 Driven by Global Grid Modernization - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNmhXWmdYcnBxbENiUmFzRVd6MFpvU18xazB0M1lUR1FNTzRpRUZURjBHUzZQa3AwcWRpS3V6cThvVld3ZWZ2Sl9IVVczbVJLMnlwWS1mZWc3SkxiVUF2S1k2NnE4MnhtOE9nanBhTjFrSFJZeExuZ1NpTUpsUFVhaVpzZ0tIdnVEZGR1VG8zY1BmUklZVEE1V2pLUUVNUXVDbFhPTnN6S1JtMXBld05HTjZ3ZTBzR0VNV1",
         "country": "GB",
@@ -480,30 +453,6 @@
         "source": "IndexBox"
       },
       {
-        "title": "Anthropic CEO Proposes AI Policy Framework Amid Rapid Technological Growth - KuCoin",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxORnFrNTZ3c05XdDRINTBXR2pybUJWOEZ0NGg1SFI5SHAzLUVBQ25UUnhXMDRsM3lBSGg0M2hhajNqSUJMak9RbHRlamVzZmdLUzJ3OHhPbktJWUU0dkd3WHV1X2hCQVNtaHdoSkU5a3NseUZHemNLTTdWbG03LW14cE0xS0xMdnNXZm05Q0dMRnExWjZFQU9qUGU0RDZKWEd0d2tQMFYza2U2cS1C?oc=5\" target=\"_bl",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORnFrNTZ3c05XdDRINTBXR2pybUJWOEZ0NGg1SFI5SHAzLUVBQ25UUnhXMDRsM3lBSGg0M2hhajNqSUJMak9RbHRlamVzZmdLUzJ3OHhPbktJWUU0dkd3WHV1X2hCQVNtaHdoSkU5a3NseUZHemNLTTdWbG03LW14cE0xS0xMdnNXZm05Q0dMRnExWjZFQU9qUGU0RDZKWEd0d2tQMFYza2U2cS1C?oc=5",
-        "published": "Tue, 16 Jun 2026",
-        "source": "KuCoin"
-      },
-      {
-        "title": "The Constitutional Allocation of Economic Power: Disciplining Executive Authority over Tariffs in the United States and ",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDdwc0tWeWtOOFc5VWZ5YW5lel95TFRZQV90NldqWGpPLXFqVmhBV3ZETzFuTFZOVmFiQTF3bTIyNHM3N0lRV0ZDRndzU2ZsY0VEV3E0SHpqNERqWER3ZTJiaEJjQlQ4elJkZFNDYUdLZlMtUFFEYTVhcHMySVpHczl2ZVhUR1d4UWNLaG9yR0NOeTVkeVZmMk9NellNSkFMNGVmNWhPNjRvRXlRcS0wSGx2OV9QZE9iVm",
-        "country": "US",
-        "policy_type": "tariff",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "direct",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDdwc0tWeWtOOFc5VWZ5YW5lel95TFRZQV90NldqWGpPLXFqVmhBV3ZETzFuTFZOVmFiQTF3bTIyNHM3N0lRV0ZDRndzU2ZsY0VEV3E0SHpqNERqWER3ZTJiaEJjQlQ4elJkZFNDYUdLZlMtUFFEYTVhcHMySVpHczl2ZVhUR1d4UWNLaG9yR0NOeTVkeVZmMk9NellNSkFMNGVmNWhPNjRvRXlRcS0wSGx2OV9QZE9iVmRkd2xfbk1ycTRoOEowaUF3?oc=5",
-        "published": "Sat, 20 Jun 2026",
-        "source": "SCC Online"
-      },
-      {
         "title": "Transformation de la politique industrielle japonaise - lediplomate.media",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBfQ0V5SktMazZlSV9LX3VkTk9OSm55R3d6dlBkZU5UQVZxUUVSU29fWnJyV29IV0FkMEZuNUtfUmpJZ0dxX1Z4OGxUNDRkSmJGWWhFbnFha3Rvd083bXVFMlRXMTJGM3ozc09JZWZINVJPTlc0Q3Ew?oc=5\" target=\"_blank\">Transformation de la politique industrielle japonaise</a>&nbsp;&nbs",
         "country": "US",
@@ -514,21 +463,68 @@
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfQ0V5SktMazZlSV9LX3VkTk9OSm55R3d6dlBkZU5UQVZxUUVSU29fWnJyV29IV0FkMEZuNUtfUmpJZ0dxX1Z4OGxUNDRkSmJGWWhFbnFha3Rvd083bXVFMlRXMTJGM3ozc09JZWZINVJPTlc0Q3Ew?oc=5",
         "published": "Thu, 18 Jun 2026",
         "source": "lediplomate.media"
+      },
+      {
+        "title": "Middle East Cross-Cut Surgical Fissure Burs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWXBrSUtYcGd2aTJSQmhYemFRSnNIS2lRY2NMOUtDMnFXOHdDY29PTkwzN2MyWGVPcEY5dlh5ZnNLaDBObUZ3R3NUc3ZOTWlZMTMwY0hCTzZubkYydVM2YVo2SmZzSGU3QnJzeWZrVkh1QmtjemF0Qk9DSjdHd0l0ck9YUWxXNWhNaURUOGNvaHFTa0k4X2tka0MzdWVDZkJjV05nS2ZpcEkwTWNXWXBueUdEWFJ2ZGd6NX",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "positive",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWXBrSUtYcGd2aTJSQmhYemFRSnNIS2lRY2NMOUtDMnFXOHdDY29PTkwzN2MyWGVPcEY5dlh5ZnNLaDBObUZ3R3NUc3ZOTWlZMTMwY0hCTzZubkYydVM2YVo2SmZzSGU3QnJzeWZrVkh1QmtjemF0Qk9DSjdHd0l0ck9YUWxXNWhNaURUOGNvaHFTa0k4X2tka0MzdWVDZkJjV05nS2ZpcEkwTWNXWXBueUdEWFJ2ZGd6NXo0SnYzV2xBZw?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Vedanta Power adopts Insider Trading Prohibition Code under SEBI PIT Regulations - scanx.trade",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOWRHOVRTbmQ0cnhUcWpXM3c5WENwT3psNGlsOTV5eS11TEdPdzZJU0VwRDlrS25CcVlZOTVqN0RlYUU1VVI5ajd1WGNfRkp1UXRRa2hndWx4OFA5b2o3dHpvRzkxOV9IWE5XU2h2WjB5dk4yTXNkZjJrQ3MwTmdIbXVRc3hocWFNbWdzalNVcGdyWXl6dGFhX0FJMk1JOWh6Ym8tY3JoX0pCZ0FOcFdRclI0M0ViTmpNV0",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOWRHOVRTbmQ0cnhUcWpXM3c5WENwT3psNGlsOTV5eS11TEdPdzZJU0VwRDlrS25CcVlZOTVqN0RlYUU1VVI5ajd1WGNfRkp1UXRRa2hndWx4OFA5b2o3dHpvRzkxOV9IWE5XU2h2WjB5dk4yTXNkZjJrQ3MwTmdIbXVRc3hocWFNbWdzalNVcGdyWXl6dGFhX0FJMk1JOWh6Ym8tY3JoX0pCZ0FOcFdRclI0M0ViTmpNV0tsd2NxV01iX0tTYnlYRUJscEpmbzlGQncw?oc=5",
+        "published": "Wed, 17 Jun 2026",
+        "source": "scanx.trade"
+      },
+      {
+        "title": "Daily Editorial Analysis 19 June 2026 - Vajiram & Ravi",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcS1TMlRkdXRnZHdJV0ZDU0t6dFNEN25pUVNqWHJYTFgzRVVrSF9xMUJqQ3FfRHlNRGRWa1B5eXg3SE9OLWJNSG5IendYbVBKMU1SOGhDcDZsSzJ2ZE10THJCb2RiWEZYOEtPazhOMjhKZllqZlR2d3RWUHM1WFktQkN4TG85MktV?oc=5\" target=\"_blank\">Daily Editorial Analysis 19 June 2026</a>&n",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcS1TMlRkdXRnZHdJV0ZDU0t6dFNEN25pUVNqWHJYTFgzRVVrSF9xMUJqQ3FfRHlNRGRWa1B5eXg3SE9OLWJNSG5IendYbVBKMU1SOGhDcDZsSzJ2ZE10THJCb2RiWEZYOEtPazhOMjhKZllqZlR2d3RWUHM1WFktQkN4TG85MktV?oc=5",
+        "published": "Fri, 19 Jun 2026",
+        "source": "Vajiram & Ravi"
+      },
+      {
+        "title": "European Union Impeller Rotor Assemblies - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQOVhUSnNkOWpfRnVMMmU0RzNZSWR2Q3NqaU1Mc2hIbDAyQmRRbTFCOVllbm1ybE5YWkl2TTRwckU4Z3A2THBoMWdid3ZvUTFmUmthNjFKTzlxemZmQi1xZ20xOHVkb2ZUazN5d0E1VjUtNmpTVTMzWXotNEVlcGtJQTR4dTZHcnhFM09HSUhfd3paTFdDTFhQWG5hMzFDMnlpbzBTdi1kU0hRRTRXcTYwSUJFakhKX2N4Uj",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOVhUSnNkOWpfRnVMMmU0RzNZSWR2Q3NqaU1Mc2hIbDAyQmRRbTFCOVllbm1ybE5YWkl2TTRwckU4Z3A2THBoMWdid3ZvUTFmUmthNjFKTzlxemZmQi1xZ20xOHVkb2ZUazN5d0E1VjUtNmpTVTMzWXotNEVlcGtJQTR4dTZHcnhFM09HSUhfd3paTFdDTFhQWG5hMzFDMnlpbzBTdi1kU0hRRTRXcTYwSUJFakhKX2N4UjhwQVln?oc=5",
+        "published": "Mon, 22 Jun 2026",
+        "source": "IndexBox"
       }
     ],
     "country_summary": {
       "EU": {
-        "trend": "neutral",
+        "trend": "opening",
         "key_policies": [
           "compliance"
         ],
-        "impact": "neutral"
+        "impact": "positive"
       },
       "US": {
         "trend": "neutral",
         "key_policies": [
-          "compliance",
-          "tariff"
+          "compliance"
         ],
         "impact": "neutral"
       },
@@ -542,7 +538,7 @@
       "Unknown": {
         "trend": "neutral",
         "key_policies": [
-          "tariff"
+          "compliance"
         ],
         "impact": "neutral"
       }
@@ -553,28 +549,58 @@
     "imports_from_china": {
       "US": {
         "value_usd": 73293716681,
-        "yoy": null,
-        "share": 11.1
+        "yoy": -33.9,
+        "share": 8.3
       },
       "DE": {
         "value_usd": 325952473332.29596,
-        "yoy": null,
-        "share": 49.4
+        "yoy": 146.8,
+        "share": 36.9
       },
       "JP": {
         "value_usd": 63987310107.757,
-        "yoy": null,
-        "share": 9.7
+        "yoy": 4.7,
+        "share": 7.2
       },
       "GB": {
         "value_usd": 165583393715.99716,
-        "yoy": 8.9,
-        "share": 25.1
+        "yoy": null,
+        "share": 18.8
       },
       "KR": {
         "value_usd": 31615068920,
+        "yoy": 1.3,
+        "share": 3.6
+      },
+      "AU": {
+        "value_usd": 27620441419.892002,
+        "yoy": 6.9,
+        "share": 3.1
+      },
+      "BR": {
+        "value_usd": 26928852124,
+        "yoy": 11.7,
+        "share": 3.1
+      },
+      "IT": {
+        "value_usd": 13644383972.626999,
+        "yoy": 6.8,
+        "share": 1.5
+      },
+      "NL": {
+        "value_usd": 20295595204.725,
+        "yoy": -4.5,
+        "share": 2.3
+      },
+      "CA": {
+        "value_usd": 79618225153.66306,
+        "yoy": -0.2,
+        "share": 9.0
+      },
+      "MX": {
+        "value_usd": 54195282418,
         "yoy": null,
-        "share": 4.8
+        "share": 6.1
       }
     }
   }

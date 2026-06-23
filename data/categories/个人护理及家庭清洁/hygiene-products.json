@@ -40,12 +40,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 32,
+      "interest_score": 73,
       "trend_direction": "up",
-      "avg_interest": 65.4,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-23"
     }
   },
@@ -154,21 +152,19 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
       "negative_pct": 0.0,
       "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Investigation Nebula: EPPO arrests leaders of organised criminal group in €78 million VAT fraud prob",
-      "Cairo Oils & Soap stock (EGS30581C010): Egypt’s edible oil player in focus after recent trading ac -"
+      "Investigation Nebula: EPPO arrests leaders of organised criminal group in €78 million VAT fraud prob"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEdKLVYwc3JUUFdvT0x3eUZpb3VzT1pxVFlVNUFHUnQwMURuVU5VdHh1Z3RiaU9MMTJVbHZ4MncycWQ3TTJHQXZwcnA4LWp3V29Xak1jOFJ1dmFWbUhZWElIOFpROG96YnRoNzY0SDFGWTV2WVpWd2JjTnNXUFRyQl9zNkR5NmpPRkhGR2dQRTR1c0J4QWdVVjZwdFFXbkNiVHQwTU9IQlpkbnRCM2I5YmltclpEVFJHaUVkLVRpeEpEZw?oc=5",
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3hCdTN6dkYtQmhrOTQ4eDRxT1ByU1RfZ05BcUJsMDhFWmxIQkRMTGZNblRxMWxSajZfT3dlTnZnb3hNcU1UOTlUNVk2ZDV3b0d4OVh3WWNsTzQ0dGk5cWRJV0FKUlpPS3lDOXVYRXhZbGpsazhJY2NJdE5TWkZOZ1pQV2JOaXhwdzBLSWFkNWhTeGkxazNtM0VBeU1WU3p0U3lFOUM0a1lhbS1UUW9FT0tzZU94bXFVVkNrTXAzamZZOTZa?oc=5"
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEdKLVYwc3JUUFdvT0x3eUZpb3VzT1pxVFlVNUFHUnQwMURuVU5VdHh1Z3RiaU9MMTJVbHZ4MncycWQ3TTJHQXZwcnA4LWp3V29Xak1jOFJ1dmFWbUhZWElIOFpROG96YnRoNzY0SDFGWTV2WVpWd2JjTnNXUFRyQl9zNkR5NmpPRkhGR2dQRTR1c0J4QWdVVjZwdFFXbkNiVHQwTU9IQlpkbnRCM2I5YmltclpEVFJHaUVkLVRpeEpEZw?oc=5"
     ],
     "fetched_at": "2026-06-23"
   },
@@ -256,6 +252,18 @@
         "category_relevance": "indirect",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX0NNR2lhOHBoUXpvQ3hveGpuYmhfYWJhQ1VmZlhuTGV4bE5RS3NRN2l5RmxNS1Z3djc0N3VjaHNzbDM3M1NhOVdwR3NUaDktdkNzWUQ4YlRNTHU0RWNkMi1BcWZiekNmUFp1U01RZEl0TXRmRkJJSGxfQ2x2VXJQS1Q5QnBuTmhmMFNzR3pLVS1idWNrM3R5dmh2V050Vkgyc3RmM2FZYjRtVlotZkFHMmk4VVc2UXVZLTJJZVdGdlo?oc=5",
         "published": "Sat, 20 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Automatic Teat Cleaning Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQeUlCbnprTEhQUkZ0RmRaU0h6UHZjZ29rbzEzbWVBVmFFaXdKSFJvR2dBaTNOX2V2YzRjN1huMkdzM1pmNUg3RUx5NGxWZEhFNTJ5WExIRWJnS2hnNUpUUjJXZFhSTHI4LTBhSFE4TUUydEt1VUtUVzdCU1B2M2Q3akZUUmswVldaa2dQdkRabTR1NzhTTVFibXdZc2JpY203LTVMT3lUQzlycThjMXRobWk1ejQ5SUp0Vl",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeUlCbnprTEhQUkZ0RmRaU0h6UHZjZ29rbzEzbWVBVmFFaXdKSFJvR2dBaTNOX2V2YzRjN1huMkdzM1pmNUg3RUx5NGxWZEhFNTJ5WExIRWJnS2hnNUpUUjJXZFhSTHI4LTBhSFE4TUUydEt1VUtUVzdCU1B2M2Q3akZUUmswVldaa2dQdkRabTR1NzhTTVFibXdZc2JpY203LTVMT3lUQzlycThjMXRobWk1ejQ5SUp0VlE?oc=5",
+        "published": "Mon, 22 Jun 2026",
         "source": "IndexBox"
       },
       {

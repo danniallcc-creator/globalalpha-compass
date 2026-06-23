@@ -36,9 +36,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 42,
+      "interest_score": 35,
       "trend_direction": "up",
-      "avg_interest": 60.8,
+      "avg_interest": 61.2,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -232,89 +232,17 @@
     "l1_ref": "五金工具"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 17539405929,
-      "total_kg": 639405929,
-      "yoy_growth": -1,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 1578546533,
-        "yoy": 5,
-        "share": 9.0
+        "value_usd": 3159617282,
+        "yoy": -12.1,
+        "share": 17.1
       },
       "DE": {
-        "value_usd": 1543467721,
-        "yoy": 38,
-        "share": 8.8
-      },
-      "JP": {
-        "value_usd": 1508388909,
-        "yoy": 36,
-        "share": 8.6
-      },
-      "GB": {
-        "value_usd": 1473310098,
-        "yoy": 23,
-        "share": 8.4
-      },
-      "KR": {
-        "value_usd": 1438231286,
-        "yoy": 2,
-        "share": 8.2
-      },
-      "AU": {
-        "value_usd": 1403152474,
-        "yoy": 9,
-        "share": 8.0
-      },
-      "IN": {
-        "value_usd": 1368073662,
-        "yoy": 25,
-        "share": 7.8
-      },
-      "BR": {
-        "value_usd": 1332994850,
-        "yoy": -5,
-        "share": 7.6
-      },
-      "SA": {
-        "value_usd": 1297916038,
-        "yoy": 29,
-        "share": 7.4
-      },
-      "FR": {
-        "value_usd": 1262837226,
-        "yoy": 6,
-        "share": 7.2
-      },
-      "IT": {
-        "value_usd": 1227758415,
-        "yoy": 26,
-        "share": 7.0
-      },
-      "NL": {
-        "value_usd": 1192679603,
-        "yoy": 12,
-        "share": 6.8
-      },
-      "CA": {
-        "value_usd": 912049108,
-        "yoy": 25,
-        "share": 5.200000000000004
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -17,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": 34,
-        "share": 0.1
+        "value_usd": 15268423409.555004,
+        "yoy": 58.6,
+        "share": 82.9
       }
     }
   }
