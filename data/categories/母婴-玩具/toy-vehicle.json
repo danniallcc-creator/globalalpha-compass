@@ -346,7 +346,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "玩具车：海外社媒「baby must have」增速 242%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，Vietnam+ (VietnamPlus)关注「International toy, children's products...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "玩具车：海外社媒「baby breaking」增速 256%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Stuffed Animal and Plush Toys Market...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -360,52 +360,52 @@
       "印度 BIS 强制注册 → 14 亿人口市场 玩具车 准入",
       "日本 PSE 电气安全认证 → 玩具车 进入日本必备",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 玩具车需求强劲",
-      "海外社媒「baby must have」增速 242% 领跑 → 玩具车社媒种草热度爆发"
+      "海外社媒「baby breaking」增速 256% 领跑 → 玩具车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby must have",
-        "growth": 242.0,
-        "vol": "73K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "toys analyst",
-        "growth": 239.5,
-        "vol": "591K",
+        "kw": "baby breaking",
+        "growth": 255.5,
+        "vol": "216K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "baby #fyp",
-        "growth": 234.5,
-        "vol": "338K",
+        "platform": "instagram",
+        "kw": "infant viral",
+        "growth": 249.5,
+        "vol": "281K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "infant wholesale supplier",
+        "growth": 223.5,
+        "vol": "696K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "toys b2b export",
-        "growth": 198.0,
+        "kw": "infant wholesale supplier",
+        "growth": 220.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "baby market 2026",
-        "growth": 82.5,
+        "growth": 84.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "International toy, children's products exhibition opens in Hanoi - Vietnam+ (VietnamPlus)",
-        "source": "Vietnam+ (VietnamPlus)",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaU1wRFpVQmRtazU5REtNVXU5d3BSVmRBOVhDamN1VDFtN2VGZHhQNVY2WTJqZ0pEaHhjXzFnMjk0RHp1WUU3Rzg4VzJqend1LWlaeE1jaGJqcG5jZ0JoQjd2THVTc0hmeEZlR0V2SWJreWlNcGd0TVg3alZpTnNvZUN6MmNCc0dCLTZWQ3p4WVllZy1PZzNWdUVYMGVYNHB0MGNENHpB?oc=5",
+        "title": "Stuffed Animal and Plush Toys Market Size, Share, Report, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanpuZ0dJQTFWVnh3NnVUa2lEMHprMFJxTlpwVG5pbW5zNDV6QzJQd2ZGQ29xTEd5UmpITmZoVXdObVFsSkY4bUFZS1FvZDhMQThJcmgyQUp4b0NRdkZMaGJNbkJ2U3MtbWJhTHJqUGhnZHg5SmcyTWtxV3hWbjU0M1Z3ajYxN29QX3lZ?oc=5",
         "hits": 0
       },
       {
@@ -435,7 +435,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "母婴&玩具"
   }
 }

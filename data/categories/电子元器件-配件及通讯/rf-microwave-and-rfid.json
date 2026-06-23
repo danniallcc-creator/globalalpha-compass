@@ -279,7 +279,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "射频，微波和 RFID：海外社媒「semiconductor factory tour」增速 248%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "射频，微波和 RFID：海外社媒「semiconductor factory tour」增速 245%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -293,45 +293,52 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 射频，微波和 RFID 成主流",
       "欧盟 CE 标志强制准入 → 射频，微波和 RFID 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 射频，微波和 RFID需求强劲",
-      "海外社媒「semiconductor factory tour」增速 248% 领跑 → 射频，微波和 RFID社媒种草热度爆发"
+      "海外社媒「semiconductor factory tour」增速 245% 领跑 → 射频，微波和 RFID社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "semiconductor factory tour",
-        "growth": 248.0,
-        "vol": "370K",
+        "growth": 245.0,
+        "vol": "385K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "5g new arrival",
-        "growth": 244.5,
-        "vol": "505K",
+        "platform": "google",
+        "kw": "electronic component b2b export",
+        "growth": 228.0,
+        "vol": "161K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chip viral",
-        "growth": 242.5,
-        "vol": "297K",
+        "platform": "tiktok",
+        "kw": "electronic component viral hack",
+        "growth": 200.0,
+        "vol": "764K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 212.0,
+        "growth": 225.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chip wholesale supplier",
-        "growth": 186.5,
+        "growth": 146.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Resilient Demand Drives Hong Kong Exports Amid Headwinds - NewMediaWire",
+        "source": "NewMediaWire",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZWpMeWsya196Nml4VWk2TXZYWEl1dmw1eHpzWDB5UFRfNDJua0ZoS0ZMZl9CSUV1eEFMeUdXZWJDUU52ckFYa0Y3VFlRTzFGZ3o0bW5mLVd3a05YVWNQclpFSU1PX3ZHMGptbUQ2eGI4eW9XV0dXTTU4VEpUQ1FTejVLa1BjN2ViOWUtZ0ZwTDk5S2xZRFdOMEhFZHczbWc?oc=5",
         "hits": 0
       },
       {
@@ -339,13 +346,6 @@
         "title": "Japan's exports rise on weak yen, AI boom, but price-led gains mask weak volumes - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcXpmVjJKS19UNWRRbHotWEQ5VXdJMEVpT3ZObUtsMTU0NlEwdUljdVFmNWJ3cThzcFRyZEN6R01IbXdmZnd3ZzRKMDVkaFZwdk1lN3RTY0x3dkNvVVJJTlh0VkNHcmtGaXRXS3FmelcyZTlyWG82aHVrYWY5c0ZIZ0dDZFluaFQzYUNhYUZBcExrUV9ja2NRaXZVcUx2TUd2TGxHUmdxTmdYUQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "India’s Electronics Export Boom: Rs 35,000 Crore Worth of Components Shipped to China in a Major Trade Shift - Spherical Insights",
-        "source": "Spherical Insights",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUmhiaHp0V1VIdmVmUlg2ZEstdHNsTjRWSHpBRUowNXNKazNISGt4MGx2WnBDc2pROC05SVh4dFNVZzJQZEN1Nk02ZVVXdzlMNnZ5Xzd4QU5CWVFfM3NhVFVMd1o5LUNZWUh3VExXYlZ4Y05MaEM5NXNEbDBIZFBGbVhiTXJXOEN6MVh5SEswWGozV0xHRWFXZXZYV0I1MzUydlJWUGhMQWxIR3FiNl9DQjZybGhDR2FkQ25LMlZ2SVNCUE5Lb19YQTkzQnBpWTd3LS05VjNIeXZEVWhSWnE4NA?oc=5",
         "hits": 0
       },
       {
@@ -368,7 +368,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

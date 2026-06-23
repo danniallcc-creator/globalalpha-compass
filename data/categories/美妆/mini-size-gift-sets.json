@@ -265,7 +265,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "小样及套装：海外社媒「skincare supply chain」增速 240%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，koreabiomed.com关注「Korea overtakes US to become world’s...」，出口 YoY +15%，主要流向 美国 / 日本 / 韩国。",
+    "trend_summary": "小样及套装：海外社媒「skincare tutorial」增速 250%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，koreabiomed.com关注「Korea overtakes US to become world’s...」，出口 YoY +15%，主要流向 美国 / 日本 / 韩国。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -279,45 +279,45 @@
       "美国 FDA 注册要求 → 小样及套装 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 小样及套装 制造门槛",
       "韩国市场 YoY +15% 领跑 化妆品 出口 → 小样及套装需求强劲",
-      "海外社媒「skincare supply chain」增速 240% 领跑 → 小样及套装社媒种草热度爆发"
+      "海外社媒「skincare tutorial」增速 250% 领跑 → 小样及套装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "skincare tutorial",
+        "growth": 250.5,
+        "vol": "303K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "skincare supply chain",
-        "growth": 239.5,
-        "vol": "251K",
+        "growth": 224.5,
+        "vol": "347K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty must have",
-        "growth": 233.0,
-        "vol": "694K",
+        "platform": "youtube",
+        "kw": "cosmetic unboxing",
+        "growth": 223.0,
+        "vol": "536K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cosmetic new arrival",
-        "growth": 215.5,
-        "vol": "619K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 161.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "skincare wholesale supplier",
-        "growth": 193.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cosmetic b2b export",
-        "growth": 128.0,
+        "growth": 114.5,
         "hits": 0
       },
       {
@@ -354,7 +354,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "美妆"
   }
 }

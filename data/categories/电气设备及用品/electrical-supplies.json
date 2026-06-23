@@ -363,7 +363,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "电气用品：海外社媒「electrical #fyp」增速 256%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Netherlands (NLD) Exports, Imports, and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "电气用品：海外社媒「electrical viral hack」增速 233%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -377,52 +377,45 @@
       "欧盟 CE 标志强制准入 → 电气用品 出口需通过合规认证",
       "美国 IRA 通胀削减法案补贴 → 电气用品 北美本地化制造红利",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 电气用品需求强劲",
-      "海外社媒「electrical #fyp」增速 256% 领跑 → 电气用品社媒种草热度爆发"
+      "海外社媒「electrical viral hack」增速 233% 领跑 → 电气用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "electrical #fyp",
-        "growth": 255.5,
-        "vol": "445K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
         "kw": "electrical viral hack",
-        "growth": 250.0,
+        "growth": 233.0,
         "vol": "65K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical review 2026",
-        "growth": 248.5,
-        "vol": "387K",
+        "platform": "google",
+        "kw": "electrical b2b export",
+        "growth": 227.0,
+        "vol": "85K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electrical market alert",
+        "growth": 226.0,
+        "vol": "7K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical b2b export",
+        "growth": 224.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
-        "growth": 226.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 196.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Netherlands (NLD) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSZ0wya1BIdlM1a1dMcDJRMjdyU044b2szNW9qSUk4eWpDYnNIM2N3MkR4V0FIcWw1UmtkM0tfUjlxWk5teGl6eUdvRHFtUGtnSFE?oc=5",
+        "growth": 194.5,
         "hits": 0
       },
       {
@@ -430,6 +423,13 @@
         "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
         "source": "European Parliament",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Netherlands (NLD) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSZ0wya1BIdlM1a1dMcDJRMjdyU044b2szNW9qSUk4eWpDYnNIM2N3MkR4V0FIcWw1UmtkM0tfUjlxWk5teGl6eUdvRHFtUGtnSFE?oc=5",
         "hits": 0
       },
       {
@@ -452,7 +452,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "电气设备及用品"
   }
 }

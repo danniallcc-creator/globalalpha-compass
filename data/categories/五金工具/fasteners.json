@@ -41,22 +41,24 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 1511615,
-    "total_net_weight_kg": 1011615,
+    "total_export_value_usd": 38888431,
+    "total_net_weight_kg": 18388431,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 66,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-22"
+      "interest_score": 54,
+      "trend_direction": "up",
+      "avg_interest": 70.8,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-23"
     }
   },
   "industry_analysis": {
@@ -69,7 +71,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -247,23 +249,25 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 3,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 0.0,
+      "positive_pct": 33.3,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "World Aircraft-Grade Titanium Fasteners - Market Analysis, Forecast, Size, Trends and Insights - Ind",
-      "Asia-Pacific Zinc-Nickel Plated Fasteners - Market Analysis, Forecast, Size, Trends and Insights - I"
+      "Asia-Pacific Zinc-Nickel Plated Fasteners - Market Analysis, Forecast, Size, Trends and Insights - I",
+      "Northern America Blind Aluminum Rivet Fastener - Market Analysis, Forecast, Size, Trends and Insight"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMivAFBVV95cUxONlJlVkJ2YmhHMnV2bFg4SlZieDZ2clRqdERmOHJVaDg1cEt5TGZWX3hGOV9YT2x6c1lGcDVXMU5zelhhTjJoRkR3SWMzRl9WM3ZMSXV6NHZ5VkRuc2MxQmtwUURtbW1fR3Jzb2l6MUg0eWN0R3lKUWtQLVROSlJXeXQwel9UanYxTngtUm5ua1pxamFCVlJJQmY1eGhFdXV0Q0Z6S1gwMmdOOWpxTkNvMU9YNVF3T0ZDdjY0WA?oc=5",
-      "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWG9sWjhEbFd6Q0tlMm9FYWFGLWZxSVlBQ0huOTAwTVBTdGtqVDZ1cWdjNHBPdGlTOFNjOVNwdERGcHZJM2pld3FKN2h4bVhmLWkyYldNLXNmWWJZdHJOaDA4aWR0ak1WZ05mMThrNktwUTA5VWYxN19KQ2FqanVPQmRSb0RyenhqQzBFb1diXzJCd3NjaFY4WDJfakFEYUxRWV94UDlFTXNxcE1jY3FrSzg5OXZ0cHdCZi10X2Vmdw?oc=5"
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWG9sWjhEbFd6Q0tlMm9FYWFGLWZxSVlBQ0huOTAwTVBTdGtqVDZ1cWdjNHBPdGlTOFNjOVNwdERGcHZJM2pld3FKN2h4bVhmLWkyYldNLXNmWWJZdHJOaDA4aWR0ak1WZ05mMThrNktwUTA5VWYxN19KQ2FqanVPQmRSb0RyenhqQzBFb1diXzJCd3NjaFY4WDJfakFEYUxRWV94UDlFTXNxcE1jY3FrSzg5OXZ0cHdCZi10X2Vmdw?oc=5",
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYVFIV2hweHp6QUxEYW5zZ1pSdHZwOTRSYXNSNDJFQXZqSGM1bGhfSUp6OWsyS0RVaUtaMlBQbnNlZ3FqcTF0NlNBNlZwX0tBQlB0WC1tbS1qaHRsQ1NFM3JDZV9kSW5qMXFZMGdtNDN2MFRFTzJRVGF5MklfNkFYbWdwVFhZdF9WOG5oQWhOQzd1YXlUUmV3WVJzbGVzaEVydk1XTFRPdjNfX1U0R19YcWprUmVoREYzWTVUTm9JWS1LNW1NOEE?oc=5"
     ],
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "policy_updates": {
     "articles": [
@@ -277,6 +281,18 @@
         "category_relevance": "indirect",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR1I0dVI0blBVcko0R2xEVlFDOGNzandIM0MxNWREZmdoOHlvcDU4VVNsUjExQ21VaFFiZUQ1UnNQeU56Nzl1OVhoTUplWC1NVmg1clJtdG8wTlVTV21NYTV4QlZ1MkhTMWV0cTlHR3NpSkE1MjFVMjNpam1Wb3dMeHVuc3NISmFEY3ZWOTh5RmxKNWhtQkZOLUN3R3oyRTB5SDY5ZTFKN2U4Q2xXWEZMQXREZUhER1FmeGU4OEZDaVFoejcwVWc?oc=5",
         "published": "Thu, 18 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "World Mechanical Coupling Bolts - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOWDhQZXhxTzhISFNGTVcwOGRjckVUVWtOWHJaN0RTbmhBVGo4ZjhDQmtHM3hkX0ZKRlBSekJ5ZmJvVFgzeFZ2dVVNRC1kUVBFU0p4aWdDZDNUN1E2NklJN2lQZEZUUDVZU1JFVlRIektYZnhHU0VTRFFzSm5OQ2x3YXBPYnVVTFVVbEVuYlgySkl2dHNpTURMSDU3WVNiMWVDUlAxNWxSamczMDF4bDNGWTVB?oc=5\" tar",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWDhQZXhxTzhISFNGTVcwOGRjckVUVWtOWHJaN0RTbmhBVGo4ZjhDQmtHM3hkX0ZKRlBSekJ5ZmJvVFgzeFZ2dVVNRC1kUVBFU0p4aWdDZDNUN1E2NklJN2lQZEZUUDVZU1JFVlRIektYZnhHU0VTRFFzSm5OQ2x3YXBPYnVVTFVVbEVuYlgySkl2dHNpTURMSDU3WVNiMWVDUlAxNWxSamczMDF4bDNGWTVB?oc=5",
+        "published": "Tue, 23 Jun 2026",
         "source": "IndexBox"
       },
       {
@@ -327,47 +343,42 @@
       "US": {
         "value_usd": 10631911382,
         "yoy": null,
-        "share": 9.4
+        "share": 9.6
       },
       "DE": {
         "value_usd": 37197415721.436035,
         "yoy": 68.4,
-        "share": 33.0
+        "share": 33.7
       },
       "JP": {
         "value_usd": 5527161124.805,
-        "yoy": null,
-        "share": 4.9
+        "yoy": -2.7,
+        "share": 5.0
       },
       "GB": {
         "value_usd": 24126938051.51105,
         "yoy": 19.9,
-        "share": 21.4
+        "share": 21.8
       },
       "KR": {
         "value_usd": 6196586926,
         "yoy": null,
-        "share": 5.5
-      },
-      "IT": {
-        "value_usd": 2076646788.1780002,
-        "yoy": 9.1,
-        "share": 1.8
+        "share": 5.6
       },
       "NL": {
         "value_usd": 1322060499.825,
-        "yoy": 10.5,
+        "yoy": null,
         "share": 1.2
       },
       "CA": {
         "value_usd": 21409548001.47401,
-        "yoy": null,
-        "share": 19.0
+        "yoy": 9.8,
+        "share": 19.4
       },
       "MX": {
         "value_usd": 4076210536,
-        "yoy": null,
-        "share": 3.6
+        "yoy": 0.7,
+        "share": 3.7
       }
     }
   }

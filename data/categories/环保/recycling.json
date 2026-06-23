@@ -189,7 +189,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech must have」增速 245%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Global Witness关注「Can China’s Green Mineral Initiative...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "回收：海外社媒「green tech b2b export」增速 240%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Global Witness关注「Can China’s Green Mineral Initiative...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -201,45 +201,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
-      "海外社媒「green tech must have」增速 245% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech b2b export」增速 240% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "green tech must have",
-        "growth": 245.0,
-        "vol": "577K",
+        "platform": "google",
+        "kw": "green tech b2b export",
+        "growth": 240.0,
+        "vol": "24K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental breaking",
-        "growth": 228.5,
-        "vol": "232K",
+        "kw": "environmental analyst",
+        "growth": 236.5,
+        "vol": "255K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "green tech price trend",
-        "growth": 223.0,
-        "vol": "515K",
+        "platform": "youtube",
+        "kw": "environmental review 2026",
+        "growth": 234.5,
+        "vol": "740K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "green tech b2b export",
+        "growth": 237.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental market 2026",
-        "growth": 141.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "environmental green supply chain resilience",
-        "growth": 86,
+        "growth": 222.5,
         "hits": 0
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "环保"
   }
 }

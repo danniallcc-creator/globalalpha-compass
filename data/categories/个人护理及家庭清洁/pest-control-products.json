@@ -24,22 +24,24 @@
   ],
   "export_data": {
     "hs_chapter": "38",
-    "total_export_value_usd": 11665075,
-    "total_net_weight_kg": 1165075,
+    "total_export_value_usd": 10001918,
+    "total_net_weight_kg": 19501918,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 73,
-      "trend_direction": "up",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-22"
+      "interest_score": 0,
+      "trend_direction": "stable",
+      "avg_interest": 1.1,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-23"
     }
   },
   "industry_analysis": {
@@ -52,7 +54,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "防蚊、防蛀、灭鼠杀虫用品：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」。",
@@ -147,7 +149,14 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 54046723047,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 6455936445,
@@ -171,17 +180,17 @@
       },
       "KR": {
         "value_usd": 5937708743,
-        "yoy": null,
+        "yoy": 42.8,
         "share": 14.4
       },
       "IT": {
         "value_usd": 596139295.358,
-        "yoy": null,
+        "yoy": -10.9,
         "share": 1.4
       },
       "NL": {
         "value_usd": 364515578.611,
-        "yoy": -58.6,
+        "yoy": null,
         "share": 0.9
       },
       "CA": {

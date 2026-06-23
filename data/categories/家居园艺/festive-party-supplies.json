@@ -484,7 +484,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "庆典派对用品：海外社媒「home decor #trending」增速 252%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「World Perlite Horticultural Medium -...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "庆典派对用品：海外社媒「garden price trend」增速 252%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Market Research Future关注「Home Decor Market Share, Growth,...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -496,45 +496,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 庆典派对用品 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 庆典派对用品需求强劲",
-      "海外社媒「home decor #trending」增速 252% 领跑 → 庆典派对用品社媒种草热度爆发"
+      "海外社媒「garden price trend」增速 252% 领跑 → 庆典派对用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "garden price trend",
+        "growth": 252.0,
+        "vol": "202K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "home decor top 10",
+        "growth": 219.5,
+        "vol": "682K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "home decor #trending",
-        "growth": 252.5,
-        "vol": "315K",
+        "kw": "garden must have",
+        "growth": 204.0,
+        "vol": "301K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor tutorial",
-        "growth": 238.5,
-        "vol": "290K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor review 2026",
-        "growth": 237.5,
-        "vol": "5K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 196.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "garden b2b export",
-        "growth": 134.0,
+        "growth": 143.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "home decor wholesale supplier",
-        "growth": 91.5,
+        "dim": "媒体",
+        "title": "Home Decor Market Share, Growth, Analysis, Forecast - 2035 - Market Research Future",
+        "source": "Market Research Future",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NNnZuN3pQNm13YnFlbWNqSzVwdlhNRlNaMjFnbUdDWDlXYktORjVXbVhEUVFrRmxHUkExc1ZXZVBrN1hjYnhwaGdqS09NeU1CWElQSnBPemFteHc1cFozVWZOblVwclFWVFd1Z2hoRUpTMHNoZm5J?oc=5",
         "hits": 0
       },
       {
@@ -542,13 +549,6 @@
         "title": "World Perlite Horticultural Medium - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSFFnb3c4S1BTYVRvbnRLa1RydjlmUmRHLU9oeUxtckVzeFRfRUkyV1pZa0o0Nllrd2NFVUEyLV9mM3E1ZlFPVjBSVDNWR25ydnVFNF81S0RJOW5GX2hDcEl6X25Tdk5ldnpkZjlzSnB6aUtyNGItX1RTVTR2b2s5N0V3bmNsamtVc3hCT0pvT0xPQldWd2V3cDlFZ05vU3ZKdFFTNVpEWTZibGUxUTF6U3J0Mm1pRVVmQUJrdDNpRXU0RTVHNzZ2X0tSeWdYN1VFNXBGM2tYZ2c?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Watering Can Market Forecast Points Higher Toward 2035, Driven by Premiumization and Home Gardening Trends - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMTdOQnRrUlZFVUgzdGVSSHE1S0lfLXA5QmFvY0hvalVhbFZnYl9NODM0bHRQVDlpNGNSVGFuaUxIQmRqMHE3UU5NOFlNeE4zTG9saC1XOEd2SHA4eTFMN2FBVjVvd1Y4aThlUXcxWXlzLWFLV2N6YmVnMGtJcHQzSlp5X255RktOWVFKXzIzdzVtUGxjbkVDZFJYaWFwQUptenFCVFVHdmJhUnVzYmpxSk9UV1ozWmxiS3c0RXhKZW1MM3o4MFVoVTZQTTZpenVp?oc=5",
         "hits": 0
       },
       {
@@ -571,7 +571,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "家居园艺"
   }
 }

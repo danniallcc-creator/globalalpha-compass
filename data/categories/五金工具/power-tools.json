@@ -27,22 +27,24 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 36298514,
-    "total_net_weight_kg": 15798514,
+    "total_export_value_usd": 20025868,
+    "total_net_weight_kg": 19525868,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 97,
+      "interest_score": 26,
       "trend_direction": "up",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-22"
+      "avg_interest": 59.7,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-23"
     }
   },
   "industry_analysis": {
@@ -55,7 +57,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -235,24 +237,24 @@
   "news_sentiment": {
     "article_count": 4,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 75.0,
+      "overall": "neutral",
+      "positive_pct": 50.0,
       "negative_pct": 0.0,
-      "neutral_pct": 25.0,
+      "neutral_pct": 50.0,
       "articles_analyzed": 4
     },
     "top_headlines": [
-      "Construction Portable Inverter Generator Market Forecast to 2035: Growth Driven by Jobsite Electrifi",
       "Home Depot Stock Displays Valuation Premium: Overvalued or Justified? - TradingView",
-      "AI chip demand drives 6% growth for Singapore in Q1 - daily-sun.com",
+      "Asia's Leading Hardware Sourcing Fair CIHS 2026 Set to Connect Global Markets in Shanghai - The Mala",
+      "AI chip demand drives 6.0pct growth for Singapore in Q1 - KLSE Screener",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV0F5Wnctd1N0aF9ya2JJR0k5ZFoxU2pHeTI5alp4Wi1DWkhiM01SdmNxM0R6LUtRT1NkWFA4azZHR2ppZzZnRFc0Z3VyWk9RT3k4WjdiSXFMbjlDenh4OU9MNTMzRnloWXg3a1dzQ21EOERkTy1MR0xpMmhNcWtqWXZNMWJ4OEM0elY5OUZHWUE3a3NiNTVuQXVaaG5IM1BrdVc3ZzQ1OXlxNEdMVllEaVV6YmNtakR6WW1Qd05ZOVYzZmFTU0dZNnRlam1QYXB3ZTNhc1l0SlZ2YlJaN3VBdTRZYnhHT2JMZm9fUkxEMA?oc=5",
       "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdlMyNDY5VXFrZEtrWTQzTVZfUlZzQ20zTkdBQnBRXzN3T053YS1qUnVfRzNYZkhMV0RGMW52aHFsQkxCRUJseThxdW94MTNrTkVuNXd0QWhWXzEtZFEzQkRBUW1POEpQaXhKSWVreDdSN3hJNVVsTnNoeW9VUmVpNW42aEZidlhTd3Y2TXlteHM0eUR6V1ZmaWlzeXZUQmtwbDUtczFzakVfLTV4TDl5OUFfeXJvNmI0cnhLZkZhSEg?oc=5",
-      "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAwV3FVc3g5Z1VKVjRkYXJwdFY2MzJXa09vSmFFNXhGQkl6X2s2eVRDTlB2MFRWckFMRXQwbUl2RzhwTGZET3JQVDFB?oc=5"
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLUlacldwUVB6djRJN0tleWpKQTFDOVk4c1NyWURhNEhXd3YxNks1c0JCYVhXd29iQ1pRTWxnNW54WWlGbFNVQlhweGVoRFNaNjJtOHBSS0hkUXBfMGlYaEVCNUJ1QWpQRFFxZ28ydjdrSFNvYzN0T3YzdWRKSjBoVVpwaS1QaWRIc1RCU1dqbEU0MWhlcU1zXzgtX1RaNjdkMjFHZlN0S0RfOFRXSWpuajVIVWgzQWJaTDk5VVU3UG1BeXZ2b2N1d2VLTXM?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMXBQbzB0MXJ5b2FJUHFBbllHZjBjc18tVkgydnF1b0VQdE5jWGI2TWtKTXIzRlhSQ3dDWDc4TkJjQWJSWm1oTlRpSFhNeEpXWGtHc09YZVU3RUM5OXdZeHBHX01WclZPb1BJbEVGNnJuX05VZjR4aHNocXhYYlpEbi1hbVBpMzUyemNZcVRDMVJob2MyOHlvQ3QwYlZIWGpNT3hQTU55VFU?oc=5"
     ],
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "social_media_trends": {
     "google": [
@@ -262,11 +264,11 @@
           {
             "keyword": "Power Tools",
             "volume": "100K+",
-            "growth": 67
+            "growth": 135
           }
         ],
         "business_opportunity": "Google平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-22"
+        "data_date": "2026-06-23"
       }
     ],
     "youtube": [
@@ -274,58 +276,58 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "jake rosmarin hantavirus quarantine",
+            "keyword": "lainey wilson",
+            "volume": "1000+",
+            "growth": 30.7
+          },
+          {
+            "keyword": "ibrahim mbaye",
+            "volume": "1000+",
+            "growth": 0.2
+          },
+          {
+            "keyword": "foster griffin",
             "volume": "500+",
-            "growth": 52.0
+            "growth": 100.6
           },
           {
-            "keyword": "hugo gonzalez",
-            "volume": "200+",
-            "growth": 117.1
+            "keyword": "taylor ward",
+            "volume": "500+",
+            "growth": 89.5
           },
           {
-            "keyword": "nuclear program of iran",
-            "volume": "200+",
-            "growth": 50.2
+            "keyword": "zach love island",
+            "volume": "500+",
+            "growth": 13.1
           },
           {
-            "keyword": "diego maradona",
+            "keyword": "bobby flay",
+            "volume": "1000+",
+            "growth": 45.8
+          },
+          {
+            "keyword": "sophie cunningham",
             "volume": "2000+",
-            "growth": 101.7
+            "growth": 28.9
           },
           {
-            "keyword": "twitter outage",
-            "volume": "20000+",
-            "growth": 23.3
-          },
-          {
-            "keyword": "michael gregoritsch",
+            "keyword": "charlie kirk",
             "volume": "1000+",
-            "growth": 64.3
+            "growth": 106.9
           },
           {
-            "keyword": "ivcm colorado river lawsuit",
-            "volume": "1000+",
-            "growth": 6.5
-          },
-          {
-            "keyword": "argentine – autriche",
+            "keyword": "miles teller",
             "volume": "500+",
-            "growth": 43.9
+            "growth": 65.0
           },
           {
-            "keyword": "carly rae jepsen",
+            "keyword": "dewanna bonner",
             "volume": "500+",
-            "growth": 18.0
-          },
-          {
-            "keyword": "lausd superintendent alberto carvalho",
-            "volume": "500+",
-            "growth": 43.1
+            "growth": 3.4
           }
         ],
         "business_opportunity": "YouTube平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-22"
+        "data_date": "2026-06-23"
       }
     ],
     "x": [
@@ -334,17 +336,17 @@
         "trending_keywords": [
           {
             "keyword": "#PowerTools",
-            "volume": "296K posts",
-            "growth": 16
+            "volume": "404K posts",
+            "growth": 124
           },
           {
             "keyword": "#TrendingPowerTools",
-            "volume": "76K posts",
-            "growth": 58
+            "volume": "184K posts",
+            "growth": 22
           }
         ],
         "business_opportunity": "X平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-22"
+        "data_date": "2026-06-23"
       }
     ],
     "instagram": [
@@ -354,16 +356,16 @@
           {
             "keyword": "#powertools",
             "volume": "100K+",
-            "growth": 58
+            "growth": 87
           },
           {
             "keyword": "#shop#powertools",
             "volume": "50K+",
-            "growth": 15
+            "growth": 120
           }
         ],
         "business_opportunity": "Instagram平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-22"
+        "data_date": "2026-06-23"
       }
     ],
     "tiktok": [
@@ -372,39 +374,27 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "17B views",
-            "growth": 13.0
+            "volume": "18B views",
+            "growth": -11.3
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "16B views",
-            "growth": 73.5
+            "volume": "6B views",
+            "growth": 124.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "14B views",
-            "growth": 79.5
+            "volume": "20B views",
+            "growth": 59.7
           }
         ],
         "business_opportunity": "TikTok平台\"Power Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
-        "data_date": "2026-06-22"
+        "data_date": "2026-06-23"
       }
     ]
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "The New Carbon Order: China’s Response to Europe’s CBAM - CSIS | Center for Strategic and International Studies",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5\" target=\"_blank\">The New Carbon Order: China’s Response to Europe’s CB",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "positive",
-        "impact_score": 0.2,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5",
-        "published": "Mon, 15 Jun 2026",
-        "source": "CSIS | Center for Strategic and International Studies"
-      },
       {
         "title": "The art of the swarm: Systemic rivalry with China on European terms - European Council on Foreign Relations",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNN3JleDRUdXR3dmIxMHlDdlpUdGppUDhhWUMtQ3JwaERUNUdKY29yNjl1TXdReGJPSFBtdno4Qlc5RGlpT0ZQVGt3WDlKVk1EU3U3VVZWMmZwZTJVXzlYd2JzbjhYb1JpQ3JfRXoxY3NDblA2SUxHVm9FcjJ5T3REakpMUXBYVTYyZGNBVFFxTmtnN1U0ZnA0dU5VY9IBoAFBVV95cUxONEVKUzZrd2p5QjZrVm1QeXlzMX",
@@ -438,7 +428,7 @@
         "impact_score": 0.3,
         "category_relevance": "indirect",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lellRX0NWb1htTzdJLXlCNnlZRGNkTEZBR0YzNDUtbnpuYXdOUGpNOGhMWHhSRm5QYW5UUkQyMUptN1JBWThHd1ZWclZqMUZfU0lMTGFoSQ?oc=5",
-        "published": "Thu, 18 Jun 2026",
+        "published": "Fri, 19 Jun 2026",
         "source": "economy.ac"
       },
       {
@@ -512,21 +502,33 @@
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDdwc0tWeWtOOFc5VWZ5YW5lel95TFRZQV90NldqWGpPLXFqVmhBV3ZETzFuTFZOVmFiQTF3bTIyNHM3N0lRV0ZDRndzU2ZsY0VEV3E0SHpqNERqWER3ZTJiaEJjQlQ4elJkZFNDYUdLZlMtUFFEYTVhcHMySVpHczl2ZVhUR1d4UWNLaG9yR0NOeTVkeVZmMk9NellNSkFMNGVmNWhPNjRvRXlRcS0wSGx2OV9QZE9iVmRkd2xfbk1ycTRoOEowaUF3?oc=5",
         "published": "Sat, 20 Jun 2026",
         "source": "SCC Online"
+      },
+      {
+        "title": "Transformation de la politique industrielle japonaise - lediplomate.media",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBfQ0V5SktMazZlSV9LX3VkTk9OSm55R3d6dlBkZU5UQVZxUUVSU29fWnJyV29IV0FkMEZuNUtfUmpJZ0dxX1Z4OGxUNDRkSmJGWWhFbnFha3Rvd083bXVFMlRXMTJGM3ozc09JZWZINVJPTlc0Q3Ew?oc=5\" target=\"_blank\">Transformation de la politique industrielle japonaise</a>&nbsp;&nbs",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfQ0V5SktMazZlSV9LX3VkTk9OSm55R3d6dlBkZU5UQVZxUUVSU29fWnJyV29IV0FkMEZuNUtfUmpJZ0dxX1Z4OGxUNDRkSmJGWWhFbnFha3Rvd083bXVFMlRXMTJGM3ozc09JZWZINVJPTlc0Q3Ew?oc=5",
+        "published": "Thu, 18 Jun 2026",
+        "source": "lediplomate.media"
       }
     ],
     "country_summary": {
       "EU": {
-        "trend": "opening",
+        "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
-        "impact": "positive"
+        "impact": "neutral"
       },
       "US": {
         "trend": "neutral",
         "key_policies": [
-          "tariff",
-          "compliance"
+          "compliance",
+          "tariff"
         ],
         "impact": "neutral"
       },
@@ -551,23 +553,28 @@
     "imports_from_china": {
       "US": {
         "value_usd": 73293716681,
-        "yoy": -33.9,
-        "share": 11.7
+        "yoy": null,
+        "share": 11.1
       },
       "DE": {
         "value_usd": 325952473332.29596,
-        "yoy": 146.8,
-        "share": 51.8
+        "yoy": null,
+        "share": 49.4
       },
       "JP": {
         "value_usd": 63987310107.757,
         "yoy": null,
-        "share": 10.2
+        "share": 9.7
       },
       "GB": {
         "value_usd": 165583393715.99716,
         "yoy": 8.9,
-        "share": 26.3
+        "share": 25.1
+      },
+      "KR": {
+        "value_usd": 31615068920,
+        "yoy": null,
+        "share": 4.8
       }
     }
   }

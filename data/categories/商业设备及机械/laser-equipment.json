@@ -192,7 +192,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "激光设备：海外社媒「commercial equipment review 2026」增速 256%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Trading Economics关注「United States Balance of Trade -...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "激光设备：海外社媒「commercial equipment viral hack」增速 255%，搜索端「commercial equipment market 2026」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China Shock 2.0: Surging Chinese...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -204,52 +204,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 激光设备 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 激光设备需求强劲",
-      "海外社媒「commercial equipment review 2026」增速 256% 领跑 → 激光设备社媒种草热度爆发"
+      "海外社媒「commercial equipment viral hack」增速 255% 领跑 → 激光设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "commercial equipment review 2026",
-        "growth": 256.5,
-        "vol": "271K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "commercial equipment trending now",
-        "growth": 250.0,
-        "vol": "602K",
+        "kw": "commercial equipment viral hack",
+        "growth": 255.0,
+        "vol": "541K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "commercial equipment breaking",
+        "kw": "commercial equipment supply chain",
+        "growth": 251.5,
+        "vol": "726K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "commercial equipment market 2026",
         "growth": 248.5,
-        "vol": "34K",
+        "vol": "530K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "commercial equipment b2b export",
-        "growth": 160.0,
+        "kw": "commercial equipment market 2026",
+        "growth": 245.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "commercial equipment supply chain resilience",
-        "growth": 94,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "United States Balance of Trade - Trading Economics",
-        "source": "Trading Economics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sUEt3NVRJdXZMLTRuQVkwcE1sOS1jMjNVdnJnbDNPOHpjODJ0UDF5b3J2RUphSFl5WUNkZVZCakdmbXlfT3VCU2pvb3R2RTVqVVJnUVRRUzdQT19QX2hpTEVNSUpoUHFfVVJZ?oc=5",
+        "kw": "commercial equipment export opportunity emerging markets",
+        "growth": 80,
         "hits": 0
       },
       {
@@ -257,6 +250,13 @@
         "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
         "source": "ABC News - Breaking News, Latest News and Videos",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Record petroleum exports help to shrink US trade deficit in April - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY1g2SG5GWE5iSjlzS1YyVmRIeUFVc09CQUR1SW9Lb1pHV0N3YWRYLWVtNExJZW5ZdlV4akt2bjE0Q1pKSlBHbkJlVGhETWxOQXdTcldhNXB3S216YV95MW5EdTN6aUxpSWZ5bHUxQjBxd0ZKbkxjMXpuMXpmLTRJZkhCYUFlVGhvc3NIQ2tVd2FoREF1czFBUTZJckJ2NjQ?oc=5",
         "hits": 0
       },
       {
@@ -279,7 +279,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "商业设备及机械"
   }
 }

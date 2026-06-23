@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "特殊用途箱包：海外社媒「bag wholesale supplier」增速 244%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Latin America and the Caribbean Exhaust...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "特殊用途箱包：海外社媒「bag supply chain」增速 252%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「Latin America and the Caribbean Exhaust...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,45 +100,45 @@
       "欧盟 CE 标志强制准入 → 特殊用途箱包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 特殊用途箱包 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 特殊用途箱包需求强劲",
-      "海外社媒「bag wholesale supplier」增速 244% 领跑 → 特殊用途箱包社媒种草热度爆发"
+      "海外社媒「bag supply chain」增速 252% 领跑 → 特殊用途箱包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "bag wholesale supplier",
-        "growth": 244.5,
-        "vol": "338K",
+        "platform": "x",
+        "kw": "bag supply chain",
+        "growth": 252.5,
+        "vol": "362K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "backpack unboxing",
+        "growth": 252.0,
+        "vol": "63K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "luggage price trend",
-        "growth": 244.0,
-        "vol": "347K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "bag supply chain",
-        "growth": 238.5,
-        "vol": "42K",
+        "growth": 250.0,
+        "vol": "351K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "bag wholesale supplier",
-        "growth": 241.5,
+        "kw": "luggage market 2026",
+        "growth": 229.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 143.0,
+        "growth": 156.0,
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "箱包"
   }
 }

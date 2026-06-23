@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service #fyp」增速 228%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，Trading Economics关注「United States Balance of Trade -...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service top 10」增速 250%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Record petroleum exports help to shrink...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -98,52 +98,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 认证、检验与信用管理需求强劲",
-      "海外社媒「business service #fyp」增速 228% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service top 10」增速 250% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "business service top 10",
+        "growth": 249.5,
+        "vol": "14K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "business service factory tour",
+        "growth": 240.0,
+        "vol": "270K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "business service #fyp",
-        "growth": 227.5,
-        "vol": "789K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "business service b2b export",
-        "growth": 201.0,
-        "vol": "550K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "business service industry report",
-        "growth": 199.5,
-        "vol": "747K",
+        "kw": "business service must try",
+        "growth": 234.5,
+        "vol": "501K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service b2b export",
-        "growth": 198.0,
+        "growth": 225.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 102.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "United States Balance of Trade - Trading Economics",
-        "source": "Trading Economics",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sUEt3NVRJdXZMLTRuQVkwcE1sOS1jMjNVdnJnbDNPOHpjODJ0UDF5b3J2RUphSFl5WUNkZVZCakdmbXlfT3VCU2pvb3R2RTVqVVJnUVRRUzdQT19QX2hpTEVNSUpoUHFfVVJZ?oc=5",
+        "growth": 211.5,
         "hits": 0
       },
       {
@@ -151,6 +144,13 @@
         "title": "Record petroleum exports help to shrink US trade deficit in April - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY1g2SG5GWE5iSjlzS1YyVmRIeUFVc09CQUR1SW9Lb1pHV0N3YWRYLWVtNExJZW5ZdlV4akt2bjE0Q1pKSlBHbkJlVGhETWxOQXdTcldhNXB3S216YV95MW5EdTN6aUxpSWZ5bHUxQjBxd0ZKbkxjMXpuMXpmLTRJZkhCYUFlVGhvc3NIQ2tVd2FoREF1czFBUTZJckJ2NjQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "UK and GCC Free Trade Agreement - Crowell & Moring LLP",
+        "source": "Crowell & Moring LLP",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdTk5d3hYZlNqRm15TWxjMTJDbVRRLW1iS2pjQ2wtcWE0VXpkR1pfVndOZGJyX3BWTV80UFl4Q2gxMzBrRXJsSEUyRWZ5Uk1uZmN1REVnN1pOQjhfT3ozODZKemZ6QVMtTk5iRFEyZ0ZKWXcxT3BiWngwUTQ3MlpVVWRxY0VPU0No?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "商务服务"
   }
 }

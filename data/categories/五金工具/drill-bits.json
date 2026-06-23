@@ -48,22 +48,24 @@
   ],
   "export_data": {
     "hs_chapter": "82",
-    "total_export_value_usd": 37436880,
-    "total_net_weight_kg": 16936880,
+    "total_export_value_usd": 46786576,
+    "total_net_weight_kg": 6286576,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 64,
+      "interest_score": 48,
       "trend_direction": "up",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-22"
+      "avg_interest": 65.8,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-23"
     }
   },
   "industry_analysis": {
@@ -76,7 +78,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -279,87 +281,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 46663939807,
-      "total_kg": 1763939807,
-      "yoy_growth": -3,
+      "total_usd": 17539405929,
+      "total_kg": 639405929,
+      "yoy_growth": -1,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 5599672776,
-        "yoy": 32,
-        "share": 12.0
+        "value_usd": 1578546533,
+        "yoy": 5,
+        "share": 9.0
       },
       "DE": {
-        "value_usd": 5413017017,
-        "yoy": 32,
-        "share": 11.6
+        "value_usd": 1543467721,
+        "yoy": 38,
+        "share": 8.8
       },
       "JP": {
-        "value_usd": 5273025198,
-        "yoy": 28,
-        "share": 11.3
+        "value_usd": 1508388909,
+        "yoy": 36,
+        "share": 8.6
       },
       "GB": {
-        "value_usd": 5086369438,
+        "value_usd": 1473310098,
         "yoy": 23,
-        "share": 10.9
+        "share": 8.4
       },
       "KR": {
-        "value_usd": 4946377619,
-        "yoy": 31,
-        "share": 10.6
+        "value_usd": 1438231286,
+        "yoy": 2,
+        "share": 8.2
       },
       "AU": {
-        "value_usd": 4759721860,
-        "yoy": -18,
-        "share": 10.2
+        "value_usd": 1403152474,
+        "yoy": 9,
+        "share": 8.0
       },
       "IN": {
-        "value_usd": 4619730040,
-        "yoy": -19,
-        "share": 9.9
+        "value_usd": 1368073662,
+        "yoy": 25,
+        "share": 7.8
       },
       "BR": {
-        "value_usd": 4433074281,
-        "yoy": 19,
-        "share": 9.5
+        "value_usd": 1332994850,
+        "yoy": -5,
+        "share": 7.6
       },
       "SA": {
-        "value_usd": 4293082462,
-        "yoy": 14,
-        "share": 9.2
+        "value_usd": 1297916038,
+        "yoy": 29,
+        "share": 7.4
       },
       "FR": {
-        "value_usd": 2239869110,
-        "yoy": -12,
-        "share": 4.800000000000008
+        "value_usd": 1262837226,
+        "yoy": 6,
+        "share": 7.2
       },
       "IT": {
-        "value_usd": 0,
-        "yoy": 25,
-        "share": 0.1
+        "value_usd": 1227758415,
+        "yoy": 26,
+        "share": 7.0
       },
       "NL": {
-        "value_usd": 0,
-        "yoy": -4,
-        "share": 0.1
+        "value_usd": 1192679603,
+        "yoy": 12,
+        "share": 6.8
       },
       "CA": {
-        "value_usd": 0,
-        "yoy": 36,
-        "share": 0.1
+        "value_usd": 912049108,
+        "yoy": 25,
+        "share": 5.200000000000004
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 30,
+        "yoy": -17,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": -8,
+        "yoy": 34,
         "share": 0.1
       }
     }

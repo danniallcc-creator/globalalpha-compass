@@ -25,22 +25,24 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 36298514,
-    "total_net_weight_kg": 15798514,
+    "total_export_value_usd": 20025868,
+    "total_net_weight_kg": 19525868,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-22"
+    "fetched_at": "2026-06-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 44,
-      "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-06-22"
+      "interest_score": 32,
+      "trend_direction": "up",
+      "avg_interest": 60.6,
+      "peak_interest": 100,
+      "data_points": 93,
+      "source": "pytrends",
+      "fetched_at": "2026-06-23"
     }
   },
   "industry_analysis": {
@@ -53,7 +55,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -235,23 +237,28 @@
     "imports_from_china": {
       "US": {
         "value_usd": 73293716681,
-        "yoy": -33.9,
-        "share": 11.7
+        "yoy": null,
+        "share": 11.1
       },
       "DE": {
         "value_usd": 325952473332.29596,
-        "yoy": 146.8,
-        "share": 51.8
+        "yoy": null,
+        "share": 49.4
       },
       "JP": {
         "value_usd": 63987310107.757,
         "yoy": null,
-        "share": 10.2
+        "share": 9.7
       },
       "GB": {
         "value_usd": 165583393715.99716,
         "yoy": 8.9,
-        "share": 26.3
+        "share": 25.1
+      },
+      "KR": {
+        "value_usd": 31615068920,
+        "yoy": null,
+        "share": 4.8
       }
     }
   }

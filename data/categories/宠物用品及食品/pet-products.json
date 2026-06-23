@@ -510,7 +510,7 @@
   "last_updated": "2026-06-10",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet food industry news」增速 249%，搜索端「pet products digital transformation」热度上行，SA Amazon BSR Top-49，czapp.com关注「China PET Expansion Pressures Global...」，出口 YoY +87%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "宠物用品：海外社媒「pet food industry news」增速 245%，搜索端「pet products market trend 2026」热度上行，US Amazon BSR Top-38，czapp.com关注「China PET Expansion Pressures Global...」，出口 YoY +87%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -523,45 +523,45 @@
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
       "印度市场 YoY +87% 领跑 水泥(2523系列) 出口 → 宠物用品需求强劲",
-      "海外社媒「pet food industry news」增速 249% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet food industry news」增速 245% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "pet food industry news",
-        "growth": 249.0,
-        "vol": "155K",
+        "growth": 245.0,
+        "vol": "775K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet tutorial",
-        "growth": 245.5,
-        "vol": "573K",
+        "platform": "tiktok",
+        "kw": "pet must try",
+        "growth": 237.5,
+        "vol": "717K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet top 10",
-        "growth": 235.5,
-        "vol": "748K",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 215.0,
+        "vol": "516K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products digital transformation",
-        "growth": 94,
+        "kw": "pet products market trend 2026",
+        "growth": 91,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products sustainable manufacturing",
-        "growth": 88,
+        "growth": 55,
         "hits": 2
       },
       {
@@ -580,25 +580,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 49,
-        "title": "Top pet - Compact Edition",
-        "price": "$218.8",
+        "market": "US",
+        "rank": 38,
+        "title": "Top pet - Premium Edition",
+        "price": "$157.0",
         "rating": 4.1,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 48,
-        "title": "Top pet - Premium Edition",
-        "price": "$271.0",
-        "rating": 4.5,
+        "market": "UK",
+        "rank": 37,
+        "title": "Top pet food - Smart Edition",
+        "price": "$45.1",
+        "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-06-22",
+    "generated_at": "2026-06-23",
     "l1_ref": "宠物用品及食品"
   }
 }
