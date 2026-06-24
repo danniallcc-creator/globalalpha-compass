@@ -38,12 +38,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 31,
-      "trend_direction": "up",
-      "avg_interest": 63.2,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 69,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-24"
     }
   },
@@ -167,33 +165,21 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBybG01dUtFN0x2T0Y2SUhncnczNEZjM3pldWlCOEtic2Z2MV9TOE5CTmNTRnUxRURKeXlDM29IaFlhaVo1UFFKYTVR?oc=5"
     ],
-    "fetched_at": "2026-06-23"
+    "fetched_at": "2026-06-24"
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "Middle East Absorbent Paper Points - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXdsU3BPajlhekRZYkpmWEFoVXNrMll3QjMtcE5kemYxQlk2R3JIbkRBTTNRdFZKS0t2YXpJQ0lOYy01RXNjTS12Zlg5WE43VkVlVUEwUDB1a0pFVFFURXZ1WjBrZWlaVDJLWEpRMVhLTkFEMl90aHpoaUF1cnBPVVJKWVBSUkJJRDNCRTRJQ2U0cmdGem9pXzVxVGtXYWVPa1ZTSjQtQmEzbjFoTDRYWVp1Zm1EQQ?oc=",
-        "country": "GB",
+        "title": "Podcast - Clinical Independence in the Age of AI and Private Capital - Holland & Knight",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNVnJIR2JlX1JBUFI1Tm1NdG8tUG1WeHZuVWJFSzF0QTFtQVVKNksxNUVCZ2ViaEN4NHVNdUp5RXlYSDlFY0Q3ZDQ0RTB6Wk10ckhiMWEwcUxYeHBIWW5CYkRFbER5cFA2a3kxaTFkYU9NcFU3VWh5UmtxVHRZNnotYm9HSG1wMEg4SlAwOUI4WUhOMGtUQ0lmMmxGbU42MUo4eHJjdnVSWFZKRU1fMWZoSVdncGxyczZlaS",
+        "country": "Unknown",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXdsU3BPajlhekRZYkpmWEFoVXNrMll3QjMtcE5kemYxQlk2R3JIbkRBTTNRdFZKS0t2YXpJQ0lOYy01RXNjTS12Zlg5WE43VkVlVUEwUDB1a0pFVFFURXZ1WjBrZWlaVDJLWEpRMVhLTkFEMl90aHpoaUF1cnBPVVJKWVBSUkJJRDNCRTRJQ2U0cmdGem9pXzVxVGtXYWVPa1ZTSjQtQmEzbjFoTDRYWVp1Zm1EQQ?oc=5",
-        "published": "Sun, 21 Jun 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "PMI's President of Oral Products: \"When there are no rules, the market shifts to the illegal segment\" - logos-pres.md",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1",
-        "country": "GB",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "direct",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1RyT1dlekhzTy1Ga3c?oc=5",
-        "published": "Tue, 23 Jun 2026",
-        "source": "logos-pres.md"
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVnJIR2JlX1JBUFI1Tm1NdG8tUG1WeHZuVWJFSzF0QTFtQVVKNksxNUVCZ2ViaEN4NHVNdUp5RXlYSDlFY0Q3ZDQ0RTB6Wk10ckhiMWEwcUxYeHBIWW5CYkRFbER5cFA2a3kxaTFkYU9NcFU3VWh5UmtxVHRZNnotYm9HSG1wMEg4SlAwOUI4WUhOMGtUQ0lmMmxGbU42MUo4eHJjdnVSWFZKRU1fMWZoSVdncGxyczZlaS1ldWZyaHVzVWEw?oc=5",
+        "published": "Wed, 24 Jun 2026",
+        "source": "Holland & Knight"
       },
       {
         "title": "Middle East Digital Shade-Matching Spectrophotometers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -208,20 +194,20 @@
         "source": "IndexBox"
       },
       {
-        "title": "World Baseplate Construction Waxes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPRnNRdGdlVGU0dXFyeHpvVFE4UVA0WkVpdkprVzhUbU5GOGhpT1U4Z2NuSXYxOXNRbW4yMjM0b1V2SFN5ZTFMVG9xT3g2VXpHWWpuT29abUZJSWFmdHkyalo2N1k3WnBlckJPNTN6NnB5R0FZNnhMM0J3ZU51YVdwNzh6Sm03cUdCSUU4V1YyUTNkWlRYUnlQSFllNkd1bVktU1RCazJ6Q0d4dTB2WldObnNWVVY4UQ?oc=",
-        "country": "US",
+        "title": "PMI's President of Oral Products: \"When there are no rules, the market shifts to the illegal segment\" - logos-pres.md",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1",
+        "country": "GB",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRnNRdGdlVGU0dXFyeHpvVFE4UVA0WkVpdkprVzhUbU5GOGhpT1U4Z2NuSXYxOXNRbW4yMjM0b1V2SFN5ZTFMVG9xT3g2VXpHWWpuT29abUZJSWFmdHkyalo2N1k3WnBlckJPNTN6NnB5R0FZNnhMM0J3ZU51YVdwNzh6Sm03cUdCSUU4V1YyUTNkWlRYUnlQSFllNkd1bVktU1RCazJ6Q0d4dTB2WldObnNWVVY4UQ?oc=5",
-        "published": "Mon, 22 Jun 2026",
-        "source": "IndexBox"
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1RyT1dlekhzTy1Ga3c?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "logos-pres.md"
       }
     ],
     "country_summary": {
-      "GB": {
+      "Unknown": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
@@ -229,6 +215,13 @@
         "impact": "neutral"
       },
       "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "GB": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

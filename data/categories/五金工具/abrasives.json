@@ -42,12 +42,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 40,
-      "trend_direction": "up",
-      "avg_interest": 53.1,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 54,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-24"
     }
   },
@@ -244,7 +242,17 @@
       "US": {
         "value_usd": 1304356137,
         "yoy": -18.3,
-        "share": 100.0
+        "share": 19.4
+      },
+      "DE": {
+        "value_usd": 4362982812.740002,
+        "yoy": null,
+        "share": 64.8
+      },
+      "JP": {
+        "value_usd": 1063613936.767,
+        "yoy": null,
+        "share": 15.8
       }
     }
   }

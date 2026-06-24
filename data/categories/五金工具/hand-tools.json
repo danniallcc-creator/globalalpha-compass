@@ -63,9 +63,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 30,
-      "trend_direction": "up",
-      "avg_interest": 58.6,
+      "interest_score": 25,
+      "trend_direction": "down",
+      "avg_interest": 57.7,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
@@ -259,25 +259,23 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 3,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 40.0,
+      "positive_pct": 33.3,
       "negative_pct": 0.0,
-      "neutral_pct": 60.0,
-      "articles_analyzed": 5
+      "neutral_pct": 66.7,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "Users Say This Popular Hand Tool Brand's Quality Is On The Decline - SlashGear",
-      "Bring Back the Trades and Milwaukee Tool Award First Tool Grant to Manchester School of Technology -",
-      "Metal Feeler Gauge Market Growth Outlook to 2035: Precision Tooling Demand Accelerates - News and St",
       "Top 6 Screwdriver Manufacturers to Watch in 2026 - Tycoonstory Media",
-      "Data, dealers, and speed - how OPENLANE Gate Trade moves wholesale cars - Ad-hoc-news.de"
+      "First-Mover Advantage in Central Asia's Booming Hardware Market: CAIHE 2026 Opens Exhibition Registr"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbWprcVVTLVg0WkhJRzRGTk43LTAzMEVZSVpWOHZJMU9PLUpLQ1FNaEJYSTF4elp6V0dyRUtsM3RkTVJuLWZic0JMYXRYVUFKaXkxWDNEU2N6dU9mV3pYQlB4WXhzNDA4bUFTcTZSMWtYVEsyTFVXRlZ3cVFBUFI1eWVZaw?oc=5",
-      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGxyZ3V2eElRU0ZTSjlZWmN0cG9LVXZWc3pPc1BsdzF1ZXpMU3FGUUhSbWRmT2hWRWVWQ0lOdnBydmxXdzhIOGpjdVVTN004c0VvUFQwTEpINXBtR3l0bzU3SHBpYURQYVdUY1BHTkNqMmFvRWZENVUyVDBkSlJWQS1nUDlDUE5JSjBWSllSTG1zd2dNcFVvMHBZai1OM3ljazAta2pheU1Lb2o3bjhuNGRnN1JIZzd0UG5Ga0tPLWo0ZURqYUpKUVNhNG5PQi1sazlPRg?oc=5",
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRERMbGZiSE9DaEItc1Vhb1NrNGhvNU1ud052OHNxdWlLZkdNN3MtU3JIWUdOSHdPSUk2blJRaHFEbFJzeWJ5cnNHRGNWRG5pOTlqOEdOZ0JldTJIMGptNkJXd0VqSDZDS1EybFg1Mnk3eVBGUjJHS1d2M1h3alROdWdORWttb2xmWFBzNkdwT0FJZ3IwNFVKOWVfOTMwQ1dEVzdEQTl5d1ZrVG9NQnd2NWpvTThhTXlEcjZzWjR6LUhxSDM0SEFGOG42d0Y?oc=5"
+      "https://news.google.com/rss/articles/CBMifkFVX3lxTE5URm9sT2JKb0Vnc29hTGRkdDUyZ0RKUWdPMHd6WHVyd09BOTVncXhyTlJaM3M4YVlIQXJTVndCOXFYNlJvV2xuelk2QnJoSHA4U2RDYXVsQ2ZrdjN1QXl3ZUZ4cVpKYTRfOF82dF9kQ3dLNl9wdFFzbTdrRjQ5Z9IBfkFVX3lxTE5URm9sT2JKb0Vnc29hTGRkdDUyZ0RKUWdPMHd6WHVyd09BOTVncXhyTlJaM3M4YVlIQXJTVndCOXFYNlJvV2xuelk2QnJoSHA4U2RDYXVsQ2ZrdjN1QXl3ZUZ4cVpKYTRfOF82dF9kQ3dLNl9wdFFzbTdrRjQ5Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaVZyWEpPX2lCa1BLcm0wLTRIWlNJLWtYVU9GeW1ZUWwtZE5hbmFUbUt2aWpmT3NuLTlINjE4cnN1VnIyOEN2Um9zUG5hSW41QzVFaGlZYU4zZkxPcWFLcy1GNi1ZbXNmdEpIcWRHaXlwM2tycE41cDROYXg2RTJObWZoUzZwc2o2eUZieklCNFRkMjMweVBJMEZ0ZDVsVUQySkxMcEF0WFl0bUhOSVNmYy1LYzhfWDQwSHJsVDZDMGZDbUU4T0NmUlZVNW1yME95bERLTEFyMkR5QzdnYmg3WHd0TDhCUktQYnJ6S2Z5S1A0WGQ5MmVNaE43WlJLSUhXejdyMTF30gGLAkFVX3lxTE8xLUNSQnFmR0xLZm1MbXlMZ3RKdHc3bHZLWlNJQzZ2S2tPS052OS1rOFctb1FNQ203a0tldXlkWVRxREV1SUlObzEyb0EtM1NDN3Y1b3ZjeldWQTBadkNaZDZXNDRzTWxVd0hjaXZyOGJaVjMzOFAyZExUODE1bVRmUlRPS0dUX1FPZnV4NGszRkZ5bHJUakVhc1BvU0J6cHktam4yb01ydnBZZlZ3QmxkeDE4cGcwWlVlUGVaM2tPelliRzBGYVBOVTlzTVBBRE1qcVA4SEpTX0hYdnd6ZTc3OFU2X1VIcGk0M1M2Z1V0LVcxRUNaMWZuOUNNZWhXN2FqTUcyVHVadF9YQQ?oc=5"
     ],
     "fetched_at": "2026-06-24"
   },
@@ -301,54 +299,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "pistons",
-            "volume": "2000+",
-            "growth": 106.6
-          },
-          {
-            "keyword": "the miz",
+            "keyword": "silver price",
             "volume": "1000+",
-            "growth": 123.5
+            "growth": -18.4
           },
           {
-            "keyword": "florida",
-            "volume": "500+",
-            "growth": 51.1
+            "keyword": "mstr stock",
+            "volume": "200+",
+            "growth": 124.0
           },
           {
-            "keyword": "sixers",
-            "volume": "500+",
-            "growth": 108.4
-          },
-          {
-            "keyword": "bennett stirtz",
+            "keyword": "paris weather",
             "volume": "10000+",
-            "growth": 11.8
+            "growth": 105.1
           },
           {
-            "keyword": "ebuka okorie",
-            "volume": "10000+",
-            "growth": 28.9
+            "keyword": "mu stock",
+            "volume": "5000+",
+            "growth": 13.6
           },
           {
-            "keyword": "ice courthouse enforcement blocked",
-            "volume": "2000+",
-            "growth": 37.3
+            "keyword": "dram stock",
+            "volume": "500+",
+            "growth": 27.9
           },
           {
-            "keyword": "okc thunder",
-            "volume": "2000+",
-            "growth": 101.2
-          },
-          {
-            "keyword": "chuckie robinson",
-            "volume": "2000+",
-            "growth": 118.5
-          },
-          {
-            "keyword": "edward cabrera",
+            "keyword": "world cup 2026 qualifying groups",
             "volume": "1000+",
-            "growth": 27.4
+            "growth": 22.0
+          },
+          {
+            "keyword": "iga świątek",
+            "volume": "500+",
+            "growth": 67.0
+          },
+          {
+            "keyword": "alexandra daddario",
+            "volume": "500+",
+            "growth": 124.4
+          },
+          {
+            "keyword": "june diane raphael",
+            "volume": "1000+",
+            "growth": 77.8
+          },
+          {
+            "keyword": "gold price",
+            "volume": "2000+",
+            "growth": 50.6
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -399,17 +397,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "26B views",
+            "volume": "18B views",
             "growth": 125.5
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "35B views",
+            "volume": "8B views",
             "growth": 84.8
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "15B views",
+            "volume": "36B views",
             "growth": 104.9
           }
         ],
@@ -433,6 +431,30 @@
         "source": "EUobserver"
       },
       {
+        "title": "J. D. Vance Articulates America-First AI Doctrine - Let's Data Science",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5\" target=\"_blank\">J. D. Vance Articulates Amer",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVJGN21BR3NsV1BwQi1jenhUWmFTWTJxN0IyVUlwLTBVeWtPN1hjNlpaTkR5WHp4czdMR2FLdHlCMHB0Yi1WR2hNdXpmdnlDaVlwSE9VWEhLQ0JPMHl0T0x2eDZXTTJsQXRTSEtsakNfVjBRNjhyQXFwT1NReDg2Y2JTSllRWlk1dTYwc3hmLXZwbTQ?oc=5",
+        "published": "Sun, 21 Jun 2026",
+        "source": "Let's Data Science"
+      },
+      {
+        "title": "The Structural Limits of the EU’s China Policy - The Diplomat – Asia-Pacific",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0hLYlFSaUtLcjBDem9velpyYzd1SGhUWWlta3pWeFhZWVRsZ29HUzRFcmEwbmhZeEh4aE95VEtuRV9jd0p5TWtIZUJMVDFPN2xzRmpJVldZUV82Z2JPNG5ONF9aMFhmRl9GRE1LQzByRkhtQXdEVkR6Nmp5ajE0TE1fZXQ?oc=5\" target=\"_blank\">The Structural Limits of the EU’s China Policy</",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS0hLYlFSaUtLcjBDem9velpyYzd1SGhUWWlta3pWeFhZWVRsZ29HUzRFcmEwbmhZeEh4aE95VEtuRV9jd0p5TWtIZUJMVDFPN2xzRmpJVldZUV82Z2JPNG5ONF9aMFhmRl9GRE1LQzByRkhtQXdEVkR6Nmp5ajE0TE1fZXQ?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "The Diplomat – Asia-Pacific"
+      },
+      {
         "title": "Helping international firms ride Argentina's hydrocarbons, mining investment wave - BNamericas",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3",
         "country": "US",
@@ -443,6 +465,18 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN1M5RG1LZlB1bEp4SVZYWXNSU05JLUFJb25wWW0zbjRzYThPVWh6b285M1JEbGdJSHhQd1ZGNTJESXU1YmhNVjh1OG82TlkwUW5WRmVGRzFWaTBDc2FWN3ZFekd4czIzbHFtaDkxX0hyVW1UZUp2MkVPWWpfT0dpclIwNDh2ZURoLVo3d2ozM3MtN21QVk1oWEs0RmQ5Q3ZhdG5ROFBYaHYxeTh4RHEwamUtWlVWT3VUc3R0aA?oc=5",
         "published": "Fri, 19 Jun 2026",
         "source": "BNamericas"
+      },
+      {
+        "title": "Can Europe, Asia, and Africa Keep Global Trade Together? - Jakarta Globe",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQM3JSTGg1cW83WmR6WE1CS04zckRqWVpPeGxUaUw2NmhhenJ0RXFtc1F0TVJKQ19lUFMyS2Jidi01ck81VTFrNFY5QkJiNmNlOVUyRk5vbTRRTE1SMW5ydTIyQ2FTYlZuUEpTY0paNFhXZlY0VXhMbENQamhRV3E4MlgzRkpBZU1NQlNDZUln?oc=5\" target=\"_blank\">Can Europe, Asia, and Africa Keep G",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM3JSTGg1cW83WmR6WE1CS04zckRqWVpPeGxUaUw2NmhhenJ0RXFtc1F0TVJKQ19lUFMyS2Jidi01ck81VTFrNFY5QkJiNmNlOVUyRk5vbTRRTE1SMW5ydTIyQ2FTYlZuUEpTY0paNFhXZlY0VXhMbENQamhRV3E4MlgzRkpBZU1NQlNDZUln?oc=5",
+        "published": "Wed, 24 Jun 2026",
+        "source": "Jakarta Globe"
       }
     ],
     "country_summary": {
@@ -467,38 +501,33 @@
     "imports_from_china": {
       "US": {
         "value_usd": 3159617282,
-        "yoy": null,
-        "share": 8.7
+        "yoy": -12.1,
+        "share": 8.9
       },
       "DE": {
         "value_usd": 15268423409.555004,
         "yoy": 58.6,
-        "share": 42.0
+        "share": 43.2
       },
       "JP": {
         "value_usd": 1206550334.803,
-        "yoy": 8.7,
-        "share": 3.3
+        "yoy": null,
+        "share": 3.4
       },
       "GB": {
         "value_usd": 6422621255.686015,
-        "yoy": 7.0,
-        "share": 17.7
+        "yoy": null,
+        "share": 18.2
       },
       "KR": {
         "value_usd": 662948129,
         "yoy": null,
-        "share": 1.8
+        "share": 1.9
       },
       "AU": {
         "value_usd": 978442771.1880001,
         "yoy": -0.8,
-        "share": 2.7
-      },
-      "BR": {
-        "value_usd": 962172946,
-        "yoy": null,
-        "share": 2.6
+        "share": 2.8
       },
       "IT": {
         "value_usd": 366877504.237,
@@ -507,18 +536,18 @@
       },
       "NL": {
         "value_usd": 434004252.785,
-        "yoy": 2.4,
+        "yoy": null,
         "share": 1.2
       },
       "CA": {
         "value_usd": 5365297537.955008,
         "yoy": 25.4,
-        "share": 14.8
+        "share": 15.2
       },
       "MX": {
         "value_usd": 1498056628,
         "yoy": -3.5,
-        "share": 4.1
+        "share": 4.2
       }
     }
   }

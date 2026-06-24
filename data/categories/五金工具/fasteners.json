@@ -52,12 +52,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 56,
+      "interest_score": 67,
       "trend_direction": "up",
-      "avg_interest": 71.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-24"
     }
   },
@@ -249,21 +247,19 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 3,
+    "article_count": 2,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 33.3,
+      "positive_pct": 50.0,
       "negative_pct": 0.0,
-      "neutral_pct": 66.7,
-      "articles_analyzed": 3
+      "neutral_pct": 50.0,
+      "articles_analyzed": 2
     },
     "top_headlines": [
-      "World Aircraft-Grade Titanium Fasteners - Market Analysis, Forecast, Size, Trends and Insights - Ind",
       "Asia-Pacific Zinc-Nickel Plated Fasteners - Market Analysis, Forecast, Size, Trends and Insights - I",
       "Northern America Blind Aluminum Rivet Fastener - Market Analysis, Forecast, Size, Trends and Insight"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxONlJlVkJ2YmhHMnV2bFg4SlZieDZ2clRqdERmOHJVaDg1cEt5TGZWX3hGOV9YT2x6c1lGcDVXMU5zelhhTjJoRkR3SWMzRl9WM3ZMSXV6NHZ5VkRuc2MxQmtwUURtbW1fR3Jzb2l6MUg0eWN0R3lKUWtQLVROSlJXeXQwel9UanYxTngtUm5ua1pxamFCVlJJQmY1eGhFdXV0Q0Z6S1gwMmdOOWpxTkNvMU9YNVF3T0ZDdjY0WA?oc=5",
       "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWG9sWjhEbFd6Q0tlMm9FYWFGLWZxSVlBQ0huOTAwTVBTdGtqVDZ1cWdjNHBPdGlTOFNjOVNwdERGcHZJM2pld3FKN2h4bVhmLWkyYldNLXNmWWJZdHJOaDA4aWR0ak1WZ05mMThrNktwUTA5VWYxN19KQ2FqanVPQmRSb0RyenhqQzBFb1diXzJCd3NjaFY4WDJfakFEYUxRWV94UDlFTXNxcE1jY3FrSzg5OXZ0cHdCZi10X2Vmdw?oc=5",
       "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYVFIV2hweHp6QUxEYW5zZ1pSdHZwOTRSYXNSNDJFQXZqSGM1bGhfSUp6OWsyS0RVaUtaMlBQbnNlZ3FqcTF0NlNBNlZwX0tBQlB0WC1tbS1qaHRsQ1NFM3JDZV9kSW5qMXFZMGdtNDN2MFRFTzJRVGF5MklfNkFYbWdwVFhZdF9WOG5oQWhOQzd1YXlUUmV3WVJzbGVzaEVydk1XTFRPdjNfX1U0R19YcWprUmVoREYzWTVUTm9JWS1LNW1NOEE?oc=5"
     ],

@@ -39,12 +39,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 30,
+      "interest_score": 84,
       "trend_direction": "down",
-      "avg_interest": 60.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-24"
     }
   },
@@ -236,18 +234,20 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 2,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 100.0,
+      "overall": "neutral",
+      "positive_pct": 50.0,
       "negative_pct": 0.0,
-      "neutral_pct": 0.0,
-      "articles_analyzed": 1
+      "neutral_pct": 50.0,
+      "articles_analyzed": 2
     },
     "top_headlines": [
+      "EU to extend carbon border levy on metal products to prevent evasion - Financial Times",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1k3Uzhrbkp1VEhWRU5xUThVaG4zdDBEVFFSc3IzVFZoUVJDc1BzOGtIMDJ4U3E2WExyWVRYRkh2V0Y3djAxSnNzN2JBQlU3UkJGVGh4WnoxbkpvNGRkNjFXcFpvblMtOVlzUDNpQUxfZFRlNW1wS3kzejVWM053eGE1WXk?oc=5",
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
     "fetched_at": "2026-06-24"
@@ -272,54 +272,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "pistons",
-            "volume": "2000+",
-            "growth": 106.6
-          },
-          {
-            "keyword": "the miz",
+            "keyword": "silver price",
             "volume": "1000+",
-            "growth": 123.5
+            "growth": -18.4
           },
           {
-            "keyword": "florida",
-            "volume": "500+",
-            "growth": 51.1
+            "keyword": "mstr stock",
+            "volume": "200+",
+            "growth": 124.0
           },
           {
-            "keyword": "sixers",
-            "volume": "500+",
-            "growth": 108.4
-          },
-          {
-            "keyword": "bennett stirtz",
+            "keyword": "paris weather",
             "volume": "10000+",
-            "growth": 11.8
+            "growth": 105.1
           },
           {
-            "keyword": "ebuka okorie",
-            "volume": "10000+",
-            "growth": 28.9
+            "keyword": "mu stock",
+            "volume": "5000+",
+            "growth": 13.6
           },
           {
-            "keyword": "ice courthouse enforcement blocked",
-            "volume": "2000+",
-            "growth": 37.3
+            "keyword": "dram stock",
+            "volume": "500+",
+            "growth": 27.9
           },
           {
-            "keyword": "okc thunder",
-            "volume": "2000+",
-            "growth": 101.2
-          },
-          {
-            "keyword": "chuckie robinson",
-            "volume": "2000+",
-            "growth": 118.5
-          },
-          {
-            "keyword": "edward cabrera",
+            "keyword": "world cup 2026 qualifying groups",
             "volume": "1000+",
-            "growth": 27.4
+            "growth": 22.0
+          },
+          {
+            "keyword": "iga świątek",
+            "volume": "500+",
+            "growth": 67.0
+          },
+          {
+            "keyword": "alexandra daddario",
+            "volume": "500+",
+            "growth": 124.4
+          },
+          {
+            "keyword": "june diane raphael",
+            "volume": "1000+",
+            "growth": 77.8
+          },
+          {
+            "keyword": "gold price",
+            "volume": "2000+",
+            "growth": 50.6
           }
         ],
         "business_opportunity": "YouTube平台\"Garden Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -370,17 +370,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "40B views",
+            "volume": "5B views",
             "growth": 125.5
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "26B views",
+            "volume": "56B views",
             "growth": 84.8
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "47B views",
+            "volume": "31B views",
             "growth": 104.9
           }
         ],
@@ -395,32 +395,27 @@
       "US": {
         "value_usd": 73293716681,
         "yoy": -33.9,
-        "share": 8.6
+        "share": 8.8
       },
       "DE": {
         "value_usd": 325952473332.29596,
         "yoy": 146.8,
-        "share": 38.1
+        "share": 39.4
       },
       "JP": {
         "value_usd": 63987310107.757,
         "yoy": 4.7,
-        "share": 7.5
+        "share": 7.7
       },
       "GB": {
         "value_usd": 165583393715.99716,
         "yoy": 8.9,
-        "share": 19.3
+        "share": 20.0
       },
       "KR": {
         "value_usd": 31615068920,
         "yoy": null,
-        "share": 3.7
-      },
-      "AU": {
-        "value_usd": 27620441419.892002,
-        "yoy": null,
-        "share": 3.2
+        "share": 3.8
       },
       "IT": {
         "value_usd": 13644383972.626999,
@@ -430,17 +425,17 @@
       "NL": {
         "value_usd": 20295595204.725,
         "yoy": -4.5,
-        "share": 2.4
+        "share": 2.5
       },
       "CA": {
         "value_usd": 79618225153.66306,
         "yoy": -0.2,
-        "share": 9.3
+        "share": 9.6
       },
       "MX": {
         "value_usd": 54195282418,
-        "yoy": 4.8,
-        "share": 6.3
+        "yoy": null,
+        "share": 6.5
       }
     }
   }

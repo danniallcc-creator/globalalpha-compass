@@ -41,12 +41,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 0,
-      "trend_direction": "down",
-      "avg_interest": 4.3,
-      "peak_interest": 100,
-      "data_points": 93,
-      "source": "pytrends",
+      "interest_score": 91,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-06-24"
     }
   },
@@ -155,21 +153,23 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 3,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 100.0,
+      "positive_pct": 66.7,
       "negative_pct": 0.0,
-      "neutral_pct": 0.0,
-      "articles_analyzed": 2
+      "neutral_pct": 33.3,
+      "articles_analyzed": 3
     },
     "top_headlines": [
       "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
-      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax",
+      "Pan Ocean Co Ltd stock (KR7028670009): South Korean dry-bulk carrier under pressure after share pric"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5",
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN2otR3hyMEI2Zm5oWDY2RmE1d2RiWTZVOEExQ3lJbU40Zzlnd2JqUDg0akphckVhSUhjYnoxamxXOGdCVVFIWWs0eHludnNERll6WFJaeVNPOEtZRzh6a1pMV2EwTTJSQkNFejJPc21hT3ROcFUxZ0FoM2NxZmhoUVFSN1prc2JodXR3aDlDeENyZ0VKWEozbWlkN3p1WDB2QnZMZmRMRk94SzhYQ3EzeWpaLTZwbzg3aTk0a2lJR1FtUFBsbHd1R0p3?oc=5"
     ],
     "fetched_at": "2026-06-24"
   },
