@@ -88,7 +88,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "高尔夫：海外社媒「sports market 2026」增速 250%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，Quiver Quantitative关注「ACADEMY SPORTS AND OUTDOORS ($ASO)...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "高尔夫：海外社媒「fitness tutorial」增速 240%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，PA Media关注「Xinhua Silk Road: SE China city opens...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -100,52 +100,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 高尔夫 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 高尔夫需求强劲",
-      "海外社媒「sports market 2026」增速 250% 领跑 → 高尔夫社媒种草热度爆发"
+      "海外社媒「fitness tutorial」增速 240% 领跑 → 高尔夫社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sports market 2026",
-        "growth": 249.5,
-        "vol": "477K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "sports factory tour",
-        "growth": 247.0,
-        "vol": "251K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "fitness tutorial",
-        "growth": 245.5,
-        "vol": "169K",
+        "growth": 239.5,
+        "vol": "469K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "sports price trend",
+        "growth": 233.0,
+        "vol": "394K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "outdoor viral hack",
+        "growth": 225.0,
+        "vol": "220K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sports market 2026",
-        "growth": 246.5,
+        "growth": 149.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "outdoor b2b export",
-        "growth": 192.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "ACADEMY SPORTS AND OUTDOORS ($ASO) Releases Q1 2026 Earnings - Quiver Quantitative",
-        "source": "Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmNXX19QLTlkY0llNVpPeUZJMjRDdE9hazQtWVlDQTA5YnhGekpabm5XS2hpWlhpZzVYU1EtNFQta1Z4M0EySDdfX1phanlWdnlGRjZ4a0lqdkJITnhjOEFpb0hKVjQtNGcxYXRJaFVCUG5sdW9BN21xYmdFQnFMLXltMGV6cy01aEdfUnpxcWRaWkZ4M0FtSEc4NXhvMlp2?oc=5",
+        "growth": 129.0,
         "hits": 0
       },
       {
@@ -153,6 +146,13 @@
         "title": "Xinhua Silk Road: SE China city opens up new space for garments, footwear trade via fashion, culture boosters - PA Media",
         "source": "PA Media",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWWNhV05YZjhndjB4dmxSWUxnQk1MVjRfMkZ1bjJ3emVJQzdoVnJWMFdkbVNEdEppS3ZUeWZ0VUg0Mm4zdlp0SzFpYVpKTWZpT3ZybmZVLW1DRENKOGhYU2ZvWUlrRjJuVEl4LVFxckxkakxRMlBFRmYzYWtPNjZqSjRCRjNObWxRZlFfTFhuRkRmRWpWY1VjSUJ2R0ZOUjJDcFBHdmRGQ05ENnpaOER2NF9IY3Zia1EtUFpXRzBvbE1VS1lVVlltR0k3ZGpGOC1SQms4XzVhajBuX09ETXFJOTZJclJXeFFsZDlvOHMwZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Director at Academy Sports (ASO) receives 3,384 restricted stock units grant - Stock Titan",
+        "source": "Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdjRXREtITklmMUxtVkRZLVJ0dlljT2dSRFZ4MWk1TlZVeHY4MXAyRHBEWDQzckM0ajI0QUJFalJoSjZMYWk5enU0RVl5elRsUFlPS1VlVWJwZXhBWWJCVFZzTVdka3hnUHlaN2xYOG1LUnp6bHBUbUgyT0pYeXloVGxnNEY1UmRUVy1SRWVXNW82c2d5QjN0RndlUGpxMUxuUTRzN1RkU3pjQ0hNb0ZqcTFQcE13eDlvMS1OYg?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "运动及娱乐"
   }
 }

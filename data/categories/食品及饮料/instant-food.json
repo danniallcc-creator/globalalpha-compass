@@ -307,7 +307,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "即食食品：海外社媒「food review 2026」增速 234%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Brewers Association关注「Q2 2026 Export Development Program News...」。",
+    "trend_summary": "即食食品：海外社媒「beverage must try」增速 240%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Brewers Association关注「Q2 2026 Export Development Program News...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -319,45 +319,45 @@
     "reasons": [
       "美国 FDA 注册要求 → 即食食品 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 即食食品 包装可回收化升级",
-      "海外社媒「food review 2026」增速 234% 领跑 → 即食食品社媒种草热度爆发"
+      "海外社媒「beverage must try」增速 240% 领跑 → 即食食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "food review 2026",
-        "growth": 233.5,
-        "vol": "343K",
+        "platform": "tiktok",
+        "kw": "beverage must try",
+        "growth": 240.5,
+        "vol": "648K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "food price trend",
-        "growth": 218.0,
-        "vol": "310K",
+        "kw": "beverage industry report",
+        "growth": 237.5,
+        "vol": "203K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "snack supply chain",
-        "growth": 212.5,
-        "vol": "578K",
+        "platform": "google",
+        "kw": "food market 2026",
+        "growth": 235.5,
+        "vol": "783K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 191.5,
+        "kw": "food market 2026",
+        "growth": 232.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "food and beverage supply chain resilience",
-        "growth": 90,
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 93.0,
         "hits": 0
       },
       {
@@ -394,7 +394,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "食品及饮料"
   }
 }

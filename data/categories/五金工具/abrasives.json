@@ -31,24 +31,24 @@
   ],
   "export_data": {
     "hs_chapter": "68",
-    "total_export_value_usd": 19977576,
-    "total_net_weight_kg": 9477576,
+    "total_export_value_usd": 12256124,
+    "total_net_weight_kg": 1756124,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-23"
+    "fetched_at": "2026-06-24"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 35,
+      "interest_score": 40,
       "trend_direction": "up",
-      "avg_interest": 52.5,
+      "avg_interest": 53.1,
       "peak_interest": 100,
       "data_points": 93,
       "source": "pytrends",
-      "fetched_at": "2026-06-23"
+      "fetched_at": "2026-06-24"
     }
   },
   "industry_analysis": {
@@ -61,7 +61,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -239,89 +239,12 @@
     "l1_ref": "五金工具"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 15729807698,
-      "total_kg": 829807698,
-      "yoy_growth": 8,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 4404346155,
-        "yoy": 31,
-        "share": 28.0
-      },
-      "DE": {
-        "value_usd": 4215588463,
-        "yoy": 20,
-        "share": 26.8
-      },
-      "JP": {
-        "value_usd": 4042560578,
-        "yoy": 23,
-        "share": 25.7
-      },
-      "GB": {
-        "value_usd": 3067312501,
-        "yoy": -3,
-        "share": 19.500000000000004
-      },
-      "KR": {
-        "value_usd": 0,
-        "yoy": 28,
-        "share": 0.1
-      },
-      "AU": {
-        "value_usd": 0,
-        "yoy": 16,
-        "share": 0.1
-      },
-      "IN": {
-        "value_usd": 0,
-        "yoy": 39,
-        "share": 0.1
-      },
-      "BR": {
-        "value_usd": 0,
-        "yoy": 29,
-        "share": 0.1
-      },
-      "SA": {
-        "value_usd": 0,
-        "yoy": 12,
-        "share": 0.1
-      },
-      "FR": {
-        "value_usd": 0,
-        "yoy": 13,
-        "share": 0.1
-      },
-      "IT": {
-        "value_usd": 0,
-        "yoy": 29,
-        "share": 0.1
-      },
-      "NL": {
-        "value_usd": 0,
-        "yoy": -16,
-        "share": 0.1
-      },
-      "CA": {
-        "value_usd": 0,
-        "yoy": 16,
-        "share": 0.1
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -3,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": -1,
-        "share": 0.1
+        "value_usd": 1304356137,
+        "yoy": -18.3,
+        "share": 100.0
       }
     }
   }

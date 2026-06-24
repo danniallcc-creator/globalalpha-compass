@@ -278,7 +278,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "传感器：海外社媒「semiconductor factory tour」增速 245%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "传感器：海外社媒「5g breaking」增速 254%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "手持便携 / 台式精密 / IP67 工业级",
       "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
@@ -292,45 +292,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 传感器 成主流",
       "欧盟 CE 标志强制准入 → 传感器 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 传感器需求强劲",
-      "海外社媒「semiconductor factory tour」增速 245% 领跑 → 传感器社媒种草热度爆发"
+      "海外社媒「5g breaking」增速 254% 领跑 → 传感器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "semiconductor factory tour",
-        "growth": 245.0,
-        "vol": "385K",
+        "platform": "x",
+        "kw": "5g breaking",
+        "growth": 254.5,
+        "vol": "750K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "electronic component b2b export",
-        "growth": 228.0,
-        "vol": "161K",
+        "kw": "5g industry report",
+        "growth": 238.5,
+        "vol": "664K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "electronic component viral hack",
-        "growth": 200.0,
-        "vol": "764K",
+        "growth": 228.0,
+        "vol": "679K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electronic component b2b export",
-        "growth": 225.0,
+        "kw": "5g market 2026",
+        "growth": 216.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chip wholesale supplier",
-        "growth": 146.5,
+        "source": "Linkedin",
+        "kw": "electronic components digital transformation",
+        "growth": 94,
         "hits": 0
       },
       {
@@ -367,7 +367,7 @@
       }
     ],
     "domain": "instruments",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

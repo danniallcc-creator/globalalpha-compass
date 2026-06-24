@@ -358,7 +358,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "警报器：海外社媒「cctv viral hack」增速 240%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「World Facial Recognition Cameras...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "警报器：海外社媒「security camera #fyp」增速 252%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Gulf Business关注「Dubai issues rules governing use of...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -372,45 +372,52 @@
       "美国 FCC 电磁兼容认证 → 电子类 警报器 合规刚需",
       "印度 BIS 强制注册 → 14 亿人口市场 警报器 准入",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 警报器需求强劲",
-      "海外社媒「cctv viral hack」增速 240% 领跑 → 警报器社媒种草热度爆发"
+      "海外社媒「security camera #fyp」增速 252% 领跑 → 警报器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "cctv viral hack",
-        "growth": 240.0,
-        "vol": "716K",
+        "kw": "security camera #fyp",
+        "growth": 251.5,
+        "vol": "636K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cctv b2b export",
+        "growth": 238.0,
+        "vol": "779K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "cctv unboxing",
-        "growth": 232.0,
-        "vol": "613K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "security camera review 2026",
-        "growth": 226.5,
-        "vol": "221K",
+        "kw": "security camera top 10",
+        "growth": 229.5,
+        "vol": "519K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cctv b2b export",
-        "growth": 120.0,
+        "growth": 235.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "security camera market 2026",
-        "growth": 116.5,
+        "source": "Linkedin",
+        "kw": "security cctv supply chain resilience",
+        "growth": 90,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Dubai issues rules governing use of cameras in enforcement, judicial procedures - Gulf Business",
+        "source": "Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkFtOFhFMy1mcW9GQVhhUkwzcW41czAzc3FEMnRCT05QSDlZTy1COWNoVXdlUnVmNlhWR3Nkb0l2WGFKVjhSU1NzY0R4YXlkRG15bEctOXdDdk9DQkp2emJXVVRUZHBkLTNkM2VwYzctV2k4OEdDZzE2TUx4ZFlRakdETlR3VmNGU2piN3hGVXlRUGc2cGRDbHdVbGxXdU12SUMxXy1ZdDI2OU1ydExBTDc2SzE5dw?oc=5",
         "hits": 0
       },
       {
@@ -418,13 +425,6 @@
         "title": "World Facial Recognition Cameras Livestock - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWGpBb3pLODJuVWc5aTZSbTRtZ211MnJieXpDQ1RSdGxRTGs4UWd6aVR0WXBNR1JsOUNyMmpLQXRHNVEySFQ5dHZDdFFoRkRTQllIcG5IVzNOYnZCby1uV0dSazZ6U09oQXdvclVfamFSR3NFSi1PX05aMDhQVzUzOG5oSzFfbHdpN3N0T3hJS0NPcTJGRERSSVp0bDlPcVRtSDdndmw4OEw5SHp1ZGhqanByUzRITzduS0dIUUpiVWE?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "World popularity of 3D printers shows how innovation fuels China’s trade growth - Global Times",
-        "source": "Global Times",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBNaFdKbS1hcXFWTFRVT1dpTUZQUzVqNk1aTUVzdUw1V0ZxU2lOVkVWN2VOa1lGenRmVXExNTAxVzN2bGk4Y3h0bldhQllmNkdYTXJUZWtZcC1xbUNWeERrdW1B?oc=5",
         "hits": 0
       },
       {
@@ -447,7 +447,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "安防"
   }
 }

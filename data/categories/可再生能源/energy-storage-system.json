@@ -476,7 +476,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "储能系统：海外社媒「battery trending now」增速 248%，搜索端「renewable energy sustainable manufacturing」热度上行，US Amazon BSR Top-12，BloombergNEF关注「Global Clean-Energy Trade Rebounds to...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "储能系统：海外社媒「solar breaking」增速 250%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，BloombergNEF关注「Global Clean-Energy Trade Rebounds to...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -490,45 +490,45 @@
       "印度 BIS 强制注册 → 14 亿人口市场 储能系统 准入",
       "日本 PSE 电气安全认证 → 储能系统 进入日本必备",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 储能系统需求强劲",
-      "海外社媒「battery trending now」增速 248% 领跑 → 储能系统社媒种草热度爆发"
+      "海外社媒「solar breaking」增速 250% 领跑 → 储能系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "solar breaking",
+        "growth": 250.5,
+        "vol": "669K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "energy storage tiktok made me buy",
+        "growth": 246.5,
+        "vol": "342K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "battery trending now",
-        "growth": 248.0,
-        "vol": "638K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "battery industry news",
-        "growth": 242.0,
-        "vol": "796K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "solar must try",
-        "growth": 233.5,
-        "vol": "577K",
+        "growth": 217.0,
+        "vol": "541K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy sustainable manufacturing",
-        "growth": 85,
+        "source": "Google Trends",
+        "kw": "energy storage wholesale supplier",
+        "growth": 157.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy market trend 2026",
-        "growth": 83,
+        "source": "Google Trends",
+        "kw": "photovoltaic b2b export",
+        "growth": 98.0,
         "hits": 0
       },
       {
@@ -565,7 +565,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "可再生能源"
   }
 }

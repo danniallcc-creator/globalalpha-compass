@@ -528,7 +528,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "墙纸/墙板：海外社媒「building new arrival」增速 244%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China Shock 2.0: Surging Chinese...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
+    "trend_summary": "墙纸/墙板：海外社媒「building must try」增速 230%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China Shock 2.0: Surging Chinese...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
     "product_profile": {
       "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
       "成分": "再生纸浆 / 大豆油墨 / 水性光油",
@@ -540,45 +540,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 墙纸/墙板 出口需通过合规认证",
       "沙特阿拉伯市场 YoY +28% 领跑 保温隔热材料(6806/3816/6807系列) 出口 → 墙纸/墙板需求强劲",
-      "海外社媒「building new arrival」增速 244% 领跑 → 墙纸/墙板社媒种草热度爆发"
+      "海外社媒「building must try」增速 230% 领跑 → 墙纸/墙板社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "building new arrival",
-        "growth": 244.5,
-        "vol": "448K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "building top 10",
+        "platform": "tiktok",
+        "kw": "building must try",
         "growth": 229.5,
-        "vol": "331K",
+        "vol": "760K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "cement trending now",
-        "growth": 224.0,
-        "vol": "342K",
+        "kw": "building #fyp",
+        "growth": 209.5,
+        "vol": "646K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "building new arrival",
+        "growth": 203.5,
+        "vol": "313K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "building wholesale supplier",
-        "growth": 204.5,
+        "kw": "building market 2026",
+        "growth": 199.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 120.0,
+        "growth": 168.0,
         "hits": 0
       },
       {
@@ -615,7 +615,7 @@
       }
     ],
     "domain": "packaging_printing",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "建材与房地产"
   }
 }

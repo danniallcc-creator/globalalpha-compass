@@ -49,7 +49,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry review 2026」增速 250%，搜索端「jewelry watches market trend 2026」热度上行，DE Amazon BSR Top-33，PR Newswire关注「Informa Markets & MCH Group join forces...」。",
+    "trend_summary": "手表：海外社媒「jewelry tiktok made me buy」增速 250%，搜索端「jewelry watches digital transformation」热度上行，DE Amazon BSR Top-34，PR Newswire关注「Informa Markets & MCH Group join forces...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -60,45 +60,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry review 2026」增速 250% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「jewelry tiktok made me buy」增速 250% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "jewelry review 2026",
+        "platform": "tiktok",
+        "kw": "jewelry tiktok made me buy",
         "growth": 250.5,
-        "vol": "507K",
+        "vol": "595K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "jewelry tutorial",
+        "growth": 226.5,
+        "vol": "188K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "jewelry viral",
-        "growth": 237.5,
-        "vol": "582K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry industry report",
-        "growth": 222.5,
-        "vol": "793K",
+        "growth": 197.5,
+        "vol": "73K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches market trend 2026",
-        "growth": 88,
+        "kw": "jewelry watches digital transformation",
+        "growth": 68,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches supply chain resilience",
-        "growth": 48,
+        "kw": "jewelry watches sustainable manufacturing",
+        "growth": 66,
         "hits": 2
       },
       {
@@ -118,24 +118,24 @@
       {
         "dim": "Amazon",
         "market": "DE",
-        "rank": 33,
+        "rank": 34,
         "title": "Top watch - Pro Edition",
-        "price": "$19.7",
-        "rating": 4.7,
+        "price": "$184.7",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 23,
-        "title": "Top watch - Smart Edition",
-        "price": "$63.1",
-        "rating": 4.7,
+        "market": "US",
+        "rank": 33,
+        "title": "Top jewelry - Premium Edition",
+        "price": "$242.0",
+        "rating": 4.0,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-06-23",
+    "generated_at": "2026-06-24",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }
