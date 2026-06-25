@@ -865,6 +865,53 @@ def fetch_local_ecom():
                 {'cat':'家电','title':'LG变频空调9000BTU','price':'KZT320000','insight':'气候变化推动空调普及'},
                 {'cat':'家居','title':'实木餐桌6人位套装','price':'KZT180000','insight':'城镇化加速新房装修'}
             ]
+        },
+        # ---- 美国扩展 (Wayfair / SHEIN / Etsy) ----
+        {
+            'key': 'Wayfair（美国家居）', 'platform': 'Wayfair', 'country': 'US',
+            'urls': ['https://www.wayfair.com/keyword.php?keyword=bestseller',
+                     'https://www.wayfair.com/'],
+            'selectors': '[data-enzyme-id*=ProductCard], [class*=ProductCard]',
+            'title_sel': '[data-enzyme-id*=Title], [class*=ProductCard-title], h3',
+            'price_sel': '[data-enzyme-id*=PriceBlock], [class*=BasePriceBlock]',
+            'cat': 'Bestseller',
+            'seed': [
+                {'cat':'家具','title':'L型布艺转角沙发(可拆洗)','price':'$899','insight':'家具品类GMV占60%'},
+                {'cat':'户外家具','title':'庭院藤编餐桌椅7件套','price':'$649','insight':'Patio品类年增18%'},
+                {'cat':'家纺','title':'奢华全棉床品7件套King','price':'$129','insight':'自营Mercury Row品牌'},
+                {'cat':'灯饰','title':'美式工业风餐厅吊灯6头','price':'$199','insight':'差异化避开Amazon'}
+            ]
+        },
+        {
+            'key': 'SHEIN（美国快时尚）', 'platform': 'SHEIN', 'country': 'US',
+            'urls': ['https://us.shein.com/Trends-vc-12345.html',
+                     'https://us.shein.com/daily-new.html'],
+            'selectors': '[class*=product-card], [class*=S-product-item]',
+            'title_sel': '[class*=goods-title-link], [class*=goods-name]',
+            'price_sel': '[class*=salePrice], [class*=goods-price]',
+            'cat': 'Trends',
+            'seed': [
+                {'cat':'女装','title':'夏季印花连衣裙Bohemian风','price':'$12.99','insight':'美国月活9000万连衣裙日销过万'},
+                {'cat':'童装','title':'女童公主裙3件套礼盒','price':'$15.99','insight':'SHEIN Kids年增120%'},
+                {'cat':'家居饰品','title':'INS风波西米亚挂毯墙饰','price':'$8.99','insight':'SHEIN Home TikTok爆款'},
+                {'cat':'美妆','title':'SHEGLAM哑光雾面口红12色','price':'$3.99','insight':'自有美妆Z世代首选'},
+                {'cat':'男装','title':'男士休闲短袖T恤3件套','price':'$19.99','insight':'SHEIN MEN对标H&M下沉'}
+            ]
+        },
+        {
+            'key': 'Etsy（美国手工/复古）', 'platform': 'Etsy', 'country': 'US',
+            'urls': ['https://www.etsy.com/featured/bestsellers',
+                     'https://www.etsy.com/trending'],
+            'selectors': '[data-listing-id], [class*=listing-link]',
+            'title_sel': '[class*=listing-title], h3',
+            'price_sel': '[class*=currency-value], [class*=listing-price]',
+            'cat': 'Bestseller',
+            'seed': [
+                {'cat':'手工首饰','title':'925银定制名字项链(刻字)','price':'$28-45','insight':'个性化定制溢价60%+'},
+                {'cat':'家居装饰','title':'手工陶瓷花瓶哑光釉款','price':'$45-89','insight':'手工陶艺差异化优势'},
+                {'cat':'婚庆','title':'婚礼请柬定制套装(50份)','price':'$120-250','insight':'婚庆类目年GMV超20亿美元'},
+                {'cat':'数字商品','title':'Canva模板包+Procreate笔刷','price':'$5-25','insight':'数字下载零物流创作者经济'}
+            ]
         }
     ]
 
@@ -1119,6 +1166,30 @@ def fetch_local_keywords():
              {'keyword': 'pool float', 'cat': '户外', 'volume': '180K/月', 'insight': '泳池浮排夏季'},
              {'keyword': 'baby formula', 'cat': '母婴', 'volume': '210K/月', 'insight': '婴幼儿奶粉刚需'},
          ]},
+        {'key': 'wayfair', 'platform': 'Wayfair', 'country': '美国', 'geo': 'US', 'cat': '家居',
+         'seed': [
+             {'keyword': 'sectional sofa', 'cat': '家具', 'volume': '480K/月', 'insight': '转角沙发Wayfair自营单品全美第一'},
+             {'keyword': 'patio furniture set', 'cat': '户外家具', 'volume': '320K/月', 'insight': '夏季户外家具搜索量同比+42%'},
+             {'keyword': 'bedroom set', 'cat': '家具', 'volume': '210K/月', 'insight': '卧室家具套装中端市场主力'},
+             {'keyword': 'farmhouse decor', 'cat': '家居装饰', 'volume': '180K/月', 'insight': '乡村风家居装饰持续走红'},
+             {'keyword': 'area rug', 'cat': '家纺', 'volume': '160K/月', 'insight': '地毯Wayfair核心SKU'},
+         ]},
+        {'key': 'shein_us', 'platform': 'SHEIN', 'country': '美国', 'geo': 'US', 'cat': '快时尚',
+         'seed': [
+             {'keyword': 'shein dress', 'cat': '女装', 'volume': '1.2M/月', 'insight': 'SHEIN连衣裙搜索量百万级'},
+             {'keyword': 'shein curve plus size', 'cat': '大码女装', 'volume': '320K/月', 'insight': '大码女装SHEIN细分赛道暴增'},
+             {'keyword': 'sheglam makeup', 'cat': '美妆', 'volume': '180K/月', 'insight': '自有美妆SHEGLAM Z世代爆发'},
+             {'keyword': 'shein home decor', 'cat': '家居', 'volume': '140K/月', 'insight': 'SHEIN Home延伸品类年增88%'},
+             {'keyword': 'y2k aesthetic', 'cat': '风格词', 'volume': '260K/月', 'insight': 'Y2K千禧美学TikTok热度持续'},
+         ]},
+        {'key': 'etsy', 'platform': 'Etsy', 'country': '美国', 'geo': 'US', 'cat': '手工/复古',
+         'seed': [
+             {'keyword': 'personalized gifts', 'cat': '定制礼品', 'volume': '650K/月', 'insight': '个性化礼品Etsy核心品类'},
+             {'keyword': 'custom name necklace', 'cat': '手工首饰', 'volume': '380K/月', 'insight': '刻字项链Etsy长青爆款'},
+             {'keyword': 'wedding invitations', 'cat': '婚庆', 'volume': '220K/月', 'insight': '婚礼请柬定制Etsy垄断手工细分'},
+             {'keyword': 'digital downloads', 'cat': '数字商品', 'volume': '170K/月', 'insight': '数字下载零物流模式快速增长'},
+             {'keyword': 'vintage clothing', 'cat': '复古服饰', 'volume': '140K/月', 'insight': 'Etsy复古服饰对标GenZ可持续消费'},
+         ]},
         # ---------- 俄罗斯 ----------
         {'key': 'wildberries', 'platform': 'Wildberries', 'country': '俄罗斯', 'geo': 'RU', 'cat': '综合',
          'seed': [
@@ -1195,7 +1266,42 @@ def fetch_local_keywords():
             tag = 'LIVE' if live_growth else 'SEED'
             print(f"  [{tag}] keywords/{cfg['key']}: {len(items)} terms")
 
-    return results
+    # 将 slug 映射为前端 TRENDING_DB.local_keywords 使用的中文标签
+    SLUG_TO_LABEL = {
+        'coupang': 'Coupang（韩国）',
+        'naver_shopping': 'Naver Shopping（韩国）',
+        'rakuten': 'Rakuten（日本）',
+        'yahoo_shopping_jp': 'Yahoo! Shopping（日本）',
+        'mercadolibre': 'Mercado Libre（南美）',
+        'magazine_luiza': 'Magazine Luiza（巴西）',
+        'shopee': 'Shopee（东南亚）',
+        'lazada': 'Lazada（东南亚2）',
+        'daraz': 'Daraz（南亚）',
+        'flipkart': 'Flipkart（印度）',
+        'noon': 'Noon（中东）',
+        'namshi': 'Namshi（中东）',
+        'allegro': 'Allegro（东欧）',
+        'bol_com': 'Bol.com（欧洲）',
+        'catch_au': 'Catch（澳洲）',
+        'themarket_nz': 'The Market（新西兰）',
+        'jumia': 'Jumia（非洲）',
+        'takealot': 'Takealot（南非）',
+        'ebay_us': 'eBay US（美国本土）',
+        'temu': 'Temu（美国/全球）',
+        'tiktok_shop': 'TikTok Shop（美国/英国）',
+        'walmart_online': 'Walmart Online（美国）',
+        'wayfair': 'Wayfair（美国家居）',
+        'shein_us': 'SHEIN（美国快时尚）',
+        'etsy': 'Etsy（美国手工/复古）',
+        'wildberries': 'Wildberries（俄罗斯）',
+        'ozon': 'Ozon（俄罗斯）',
+        'kaspi': 'Kaspi.kz（中亚）',
+    }
+    relabeled = {}
+    for slug, items in results.items():
+        label = SLUG_TO_LABEL.get(slug, slug)
+        relabeled[label] = items
+    return relabeled
 
 
 # ============================================================

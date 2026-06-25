@@ -7892,6 +7892,25 @@ var TRENDING_DB = {
       { platform:'eBay US', country:'US', cat:'数码二手', title:'iPhone 14 Pro 128GB(认证翻新)', price:'$599', gmv_rank:1, insight:'eBay Refurbished认证计划带动美国本土二手数码信任度' },
       { platform:'eBay US', country:'US', cat:'汽车', title:'Tesla Model 3配件中央扶手箱', price:'$89', gmv_rank:2, insight:'eBay Motors美国最大汽配平台，特斯拉售后市场爆发' },
       { platform:'eBay US', country:'US', cat:'收藏', title:'NBA球星卡限量版礼盒', price:'$149-799', gmv_rank:3, insight:'美国体育收藏卡牌eBay全球最大流通市场' }
+    ],
+    'Wayfair（美国家居）': [
+      { platform:'Wayfair', country:'US', cat:'家具', title:'L型布艺转角沙发(可拆洗)', price:'$899', gmv_rank:1, insight:'Wayfair家具品类GMV占60%，转角沙发为单品销冠' },
+      { platform:'Wayfair', country:'US', cat:'户外家具', title:'庭院藤编餐桌椅7件套', price:'$649', gmv_rank:2, insight:'户外家居夏季峰值，Wayfair Patio品类年增18%' },
+      { platform:'Wayfair', country:'US', cat:'家纺', title:'奢华全棉床品7件套King', price:'$129', gmv_rank:3, insight:'家纺Wayfair自营Mercury Row品牌占据中端市场' },
+      { platform:'Wayfair', country:'US', cat:'灯饰', title:'美式工业风餐厅吊灯6头', price:'$199', gmv_rank:4, insight:'Wayfair灯饰差异化避开Amazon同质化竞争' }
+    ],
+    'SHEIN（美国快时尚）': [
+      { platform:'SHEIN', country:'US', cat:'女装', title:'夏季印花连衣裙Bohemian风', price:'$12.99', gmv_rank:1, insight:'SHEIN美国月活超9000万，连衣裙单SKU日订单过万' },
+      { platform:'SHEIN', country:'US', cat:'童装', title:'女童公主裙3件套礼盒', price:'$15.99', gmv_rank:2, insight:'SHEIN Kids童装年增120%，颜值套装契合社交分享' },
+      { platform:'SHEIN', country:'US/CA', cat:'家居饰品', title:'INS风波西米亚挂毯墙饰', price:'$8.99', gmv_rank:3, insight:'SHEIN Home拓展品类，颜值家饰TikTok带货爆款' },
+      { platform:'SHEIN', country:'US', cat:'美妆', title:'SHEGLAM哑光雾面口红12色', price:'$3.99', gmv_rank:4, insight:'SHEIN自有美妆品牌SHEGLAM价格屠夫，年轻Z世代首选' },
+      { platform:'SHEIN', country:'US', cat:'男装', title:'男士休闲短袖T恤3件套', price:'$19.99', gmv_rank:5, insight:'SHEIN MEN男装快速崛起，性价比对标H&M下沉' }
+    ],
+    'Etsy（美国手工/复古）': [
+      { platform:'Etsy', country:'US', cat:'手工首饰', title:'925银定制名字项链(刻字)', price:'$28-45', gmv_rank:1, insight:'Etsy个性化首饰为核心品类，定制服务溢价60%+' },
+      { platform:'Etsy', country:'US', cat:'家居装饰', title:'手工陶瓷花瓶哑光釉款', price:'$45-89', gmv_rank:2, insight:'手工陶艺Etsy差异化竞争优势，避开工业化电商' },
+      { platform:'Etsy', country:'US', cat:'婚庆', title:'婚礼请柬定制套装(50份)', price:'$120-250', gmv_rank:3, insight:'Etsy婚庆定制类目年GMV超20亿美元，刚需+高客单' },
+      { platform:'Etsy', country:'US', cat:'数字商品', title:'Canva模板包+Procreate笔刷', price:'$5-25', gmv_rank:4, insight:'Etsy数字下载品类零物流成本，创作者经济新增长' }
     ]
   },
 
@@ -8009,6 +8028,26 @@ var TRENDING_DB = {
       { keyword:'refurbished iphone', volume:'350K/月', growth:32, cat:'数码二手', insight:'认证翻新iPhone美国本土信任度提升' },
       { keyword:'tesla model 3 accessories', volume:'220K/月', growth:48, cat:'汽车', insight:'特斯拉售后市场爆发eBay Motors主导' },
       { keyword:'pokemon trading cards', volume:'420K/月', growth:25, cat:'收藏', insight:'NBA/Pokemon卡牌全球最大流通市场' }
+    ],
+    'Wayfair（美国家居）': [
+      { keyword:'sectional sofa', volume:'480K/月', growth:18, cat:'家具', insight:'转角沙发Wayfair自营单品全美第一' },
+      { keyword:'patio furniture set', volume:'320K/月', growth:42, cat:'户外家具', insight:'夏季户外家具搜索量同比+42%' },
+      { keyword:'bedroom set', volume:'210K/月', growth:15, cat:'家具', insight:'卧室家具套装Wayfair中端市场主力' },
+      { keyword:'farmhouse decor', volume:'180K/月', growth:28, cat:'家居装饰', insight:'乡村风家居装饰持续走红，Pinterest导流强' }
+    ],
+    'SHEIN（美国快时尚）': [
+      { keyword:'shein dress', volume:'1.2M/月', growth:35, cat:'女装', insight:'SHEIN连衣裙搜索量百万级，转化率高' },
+      { keyword:'shein curve plus size', volume:'320K/月', growth:58, cat:'大码女装', insight:'大码女装SHEIN细分赛道暴增' },
+      { keyword:'sheglam makeup', volume:'180K/月', growth:72, cat:'美妆', insight:'SHEIN自有美妆SHEGLAM Z世代爆发' },
+      { keyword:'shein home decor', volume:'140K/月', growth:88, cat:'家居', insight:'SHEIN Home延伸品类年增88%' },
+      { keyword:'y2k aesthetic', volume:'260K/月', growth:38, cat:'风格词', insight:'Y2K千禧美学SHEIN主打风格，TikTok热度持续' }
+    ],
+    'Etsy（美国手工/复古）': [
+      { keyword:'personalized gifts', volume:'650K/月', growth:22, cat:'定制礼品', insight:'个性化礼品Etsy核心品类，节日峰值显著' },
+      { keyword:'custom name necklace', volume:'380K/月', growth:30, cat:'手工首饰', insight:'刻字项链Etsy长青爆款' },
+      { keyword:'wedding invitations', volume:'220K/月', growth:18, cat:'婚庆', insight:'婚礼请柬定制Etsy垄断手工细分市场' },
+      { keyword:'digital downloads', volume:'170K/月', growth:55, cat:'数字商品', insight:'数字下载零物流模式快速增长' },
+      { keyword:'vintage clothing', volume:'140K/月', growth:25, cat:'复古服饰', insight:'Etsy复古服饰对标GenZ可持续消费' }
     ]
   },
 
@@ -9872,6 +9911,9 @@ var LOCAL_PLATFORM_REGIONS = {
   'Temu（美国/全球）': '美国',
   'TikTok Shop（美国/英国）': '美国',
   'Walmart Online（美国）': '美国',
+  'Wayfair（美国家居）': '美国',
+  'SHEIN（美国快时尚）': '美国',
+  'Etsy（美国手工/复古）': '美国',
   'Catch（澳洲）': '大洋洲',
   'The Market（新西兰）': '大洋洲',
   'Jumia（非洲）': '非洲',
