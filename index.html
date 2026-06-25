@@ -3695,20 +3695,13 @@ function renderCompass(cat) {
   (function(_cat, _allCountries) {
     loadSocialTrends().then(function(st) {
       if (!st) return;
+      var catData = _findSocialDataForCat(st, _cat);
+      if (!catData) return;
       for (var i = 0; i < _allCountries.length; i++) {
         var cName = _allCountries[i];
         var safeId = cName.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '_');
         var el = document.getElementById('cc-social-' + safeId);
         if (!el) continue;
-        // Find matching social data
-        var catData = st[_cat] || null;
-        if (!catData) {
-          var stKeys = Object.keys(st);
-          for (var si = 0; si < stKeys.length; si++) {
-            if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
-          }
-        }
-        if (!catData) continue;
         // Find top keyword for this country (use google platform as default)
         var topKw = null;
         var platforms = ['google','youtube','tiktok','instagram','x'];
@@ -8431,39 +8424,92 @@ function showCountryDetail(iso) {
       var el = document.getElementById('country-social-trends');
       if (!el) return;
       if (!st) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
-      // Find matching category data
-      var catData = st[_cat] || null;
-      if (!catData) {
-        var stKeys = Object.keys(st);
-        for (var si = 0; si < stKeys.length; si++) {
-          if (_cat.indexOf(stKeys[si]) !== -1 || stKeys[si].indexOf(_cat) !== -1) { catData = st[stKeys[si]]; break; }
-        }
+      var updatedAt = (st.meta && st.meta.date) ? st.meta.date : '';
+      var catData = _findSocialDataForCat(st, _cat);
+      var fallbackHint = '';
+      if (catData && catData._fallbackFrom) {
+        fallbackHint = '<div class="text-xs text-amber-300 mb-2">\u8be5\u54c1\u7c7b\u672a\u76f4\u63a5\u91c7\u6837\uff0c\u4ee5\u76f8\u8fd1\u54c1\u7c7b\u300c' + catData._fallbackFrom + '\u300d\u8d8b\u52bf\u4f5c\u53c2\u8003</div>';
       }
-      if (!catData) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8be5\u54c1\u7c7b\u793e\u5a92\u8d8b\u52bf\u6570\u636e</span>'; return; }
-      // Show top trending keywords across platforms
-      var allKws = [];
       var platforms = ['google','youtube','x','instagram','tiktok'];
-      for (var pi = 0; pi < platforms.length; pi++) {
-        var pkws = catData[platforms[pi]] || [];
-        for (var ki = 0; ki < Math.min(pkws.length, 3); ki++) {
-          allKws.push({keyword: pkws[ki].keyword, growth: pkws[ki].growth || 0, platform: platforms[pi]});
+      var pIcon = {google:'\u641c', youtube:'\u89c6', x:'X', instagram:'IG', tiktok:'TT'};
+
+      // 主数据：按品类的5平台聚合
+      var topKws = [];
+      if (catData) {
+        var allKws = [];
+        for (var pi = 0; pi < platforms.length; pi++) {
+          var pkws = catData[platforms[pi]] || [];
+          for (var ki = 0; ki < pkws.length; ki++) {
+            allKws.push({keyword: pkws[ki].keyword, growth: pkws[ki].growth || 0, volume: pkws[ki].volume || '', platform: platforms[pi]});
+          }
         }
+        // 同关键词跨平台合并（共振信号优先）
+        var byKw = {};
+        for (var ai = 0; ai < allKws.length; ai++) {
+          var k = allKws[ai].keyword;
+          if (!k) continue;
+          if (!byKw[k]) byKw[k] = {keyword:k, growth:0, count:0, platforms:[], volume:allKws[ai].volume};
+          byKw[k].growth = Math.max(byKw[k].growth, allKws[ai].growth);
+          byKw[k].count += 1;
+          if (byKw[k].platforms.indexOf(allKws[ai].platform) === -1) byKw[k].platforms.push(allKws[ai].platform);
+        }
+        topKws = Object.values(byKw).sort(function(a,b){
+          if (b.platforms.length !== a.platforms.length) return b.platforms.length - a.platforms.length;
+          return (b.growth||0) - (a.growth||0);
+        }).slice(0, 10);
       }
-      allKws.sort(function(a, b) { return (b.growth || 0) - (a.growth || 0); });
-      var topKws = allKws.slice(0, 8);
-      if (!topKws.length) { el.innerHTML = '<span class="text-gray-500">\u6682\u65e0\u8d8b\u52bf\u6570\u636e</span>'; return; }
-      var kh = '<div class="flex flex-wrap gap-2">';
-      for (var ti = 0; ti < topKws.length; ti++) {
-        var gColor = topKws[ti].growth > 0 ? 'text-green-400' : 'text-red-400';
-        var gSign = topKws[ti].growth > 0 ? '+' : '';
-        kh += '<span class="bg-white/5 rounded-lg px-2 py-1 text-xs">' +
-          '<span class="text-gray-300">' + topKws[ti].keyword + '</span> ' +
-          '<span class="text-gray-500">(' + topKws[ti].platform + ')</span> ' +
-          '<span class="' + gColor + ' font-semibold">' + gSign + topKws[ti].growth.toFixed(0) + '%</span>' +
-        '</span>';
+
+      var headerLine = '<div class="flex items-center justify-between mb-2"><span class="text-gray-400 text-xs">\u4e2d\u56fd\u51fa\u53e3\u5546\u5bf9\u300c' + _cat + '\u300d\u7684 5 \u5e73\u53f0\u8d8b\u52bf\u91c7\u6837\uff08\u5168\u7403\u4fe1\u53f7\uff0c\u672a\u4f5c\u56fd\u522b\u5207\u7247\uff09</span>' +
+        (updatedAt ? '<span class="text-xs text-gray-500">\u66f4\u65b0\uff1a' + updatedAt + '</span>' : '') +
+        '</div>';
+
+      if (topKws.length) {
+        var kh = headerLine + fallbackHint + '<div class="flex flex-wrap gap-2 mb-3">';
+        for (var ti = 0; ti < topKws.length; ti++) {
+          var t = topKws[ti];
+          var gColor = t.growth > 0 ? 'text-green-400' : t.growth < 0 ? 'text-red-400' : 'text-gray-400';
+          var gSign = t.growth > 0 ? '+' : '';
+          var pfTag = t.platforms.map(function(p){ return pIcon[p] || p; }).join('/');
+          var resonance = t.platforms.length >= 2 ? '<span class="text-pink-400 ml-1">\u00d7' + t.platforms.length + '</span>' : '';
+          kh += '<span class="bg-white/5 rounded-lg px-2 py-1 text-xs">' +
+            '<span class="text-gray-200">' + t.keyword + '</span>' + resonance + ' ' +
+            '<span class="text-gray-500">(' + pfTag + (t.volume ? ' '+t.volume : '') + ')</span> ' +
+            '<span class="' + gColor + ' font-semibold">' + gSign + (t.growth||0).toFixed(0) + '%</span>' +
+          '</span>';
+        }
+        kh += '</div>';
+        // 跨平台共振信号（同品类）
+        var cps = (st.cross_platform_signals || []).filter(function(s){ return s.category === _cat || (catData && catData._fallbackFrom && s.category === catData._fallbackFrom); });
+        if (cps.length) {
+          kh += '<div class="text-xs text-gray-400 mb-1">\u591a\u5e73\u53f0\u5171\u632f\u4fe1\u53f7</div>';
+          kh += '<div class="flex flex-wrap gap-2">';
+          for (var ci = 0; ci < Math.min(cps.length, 6); ci++) {
+            kh += '<span class="bg-pink-500/10 border border-pink-400/30 rounded-lg px-2 py-1 text-xs text-pink-200">' + cps[ci].keyword + ' <span class="text-gray-500">(' + (cps[ci].platforms||[]).join('+') + ')</span></span>';
+          }
+          kh += '</div>';
+        }
+        kh += '<div class="text-xs text-gray-500 mt-2">\u6570\u636e\u6765\u6e90\uff1aGoogle Trends / YouTube / X / Instagram / TikTok\u300240\u54c1\u7c7b\u8f6e\u8c03\u91c7\u6837\uff0c\u9075\u5faa\u793e\u5a92API\u9650\u9891\uff0c\u591a\u5e73\u53f0\u5171\u632f\u4fe1\u53f7\u53ef\u4f5c\u9009\u54c1\u53c2\u8003\u3002</div>';
+        el.innerHTML = kh;
+      } else {
+        // 无品类匹配：fallback 到 cross_platform_signals 全局热点 + 提示数据局限
+        var cpsAll = (st.cross_platform_signals || []).slice(0, 8);
+        var fh = headerLine;
+        fh += '<div class="text-xs text-gray-400 mb-2">\u8be5\u54c1\u7c7b\u672c\u8f6e\u672a\u91c7\u6837\u3002\u91c7\u6837\u54c1\u7c7b\uff1a' + (st._categories || []).join('\u3001') + '\u3002\u4ee5\u4e0b\u4e3a\u5168\u7403\u8de8\u5e73\u53f0\u70ed\u70b9\u4ec5\u4f9b\u53c2\u8003\uff1a</div>';
+        if (cpsAll.length) {
+          fh += '<div class="flex flex-wrap gap-2">';
+          for (var fi = 0; fi < cpsAll.length; fi++) {
+            fh += '<span class="bg-white/5 rounded-lg px-2 py-1 text-xs">' +
+              '<span class="text-gray-300">' + cpsAll[fi].keyword + '</span> ' +
+              '<span class="text-gray-500">(' + cpsAll[fi].category + ' \u00b7 ' + (cpsAll[fi].platforms||[]).join('+') + ')</span>' +
+            '</span>';
+          }
+          fh += '</div>';
+        } else {
+          fh += '<span class="text-gray-500">\u6682\u65e0\u793e\u5a92\u8d8b\u52bf\u6570\u636e</span>';
+        }
+        fh += '<div class="text-xs text-gray-500 mt-2">\u63d0\u793a\uff1a\u5168\u7403\u54c1\u7c7b\u8f6e\u8c03\u91c7\u6837\uff0c\u8be5\u54c1\u7c7b\u9884\u8ba1\u5728\u540e\u7eed\u8f6e\u6b21\u8986\u76d6\uff1b\u53ef\u53c2\u8003\u201c\u52a8\u6001\u805a\u7126\u201d\u9875\u9762\u67e5\u770b\u540c\u54c1\u7c7b\u5168\u7403\u8d8b\u52bf\u3002</div>';
+        el.innerHTML = fh;
       }
-      kh += '</div>';
-      el.innerHTML = kh;
     });
     loadPolicyUpdates().then(function(pu) {
       var el = document.getElementById('country-policy-trends');
@@ -9861,10 +9907,101 @@ async function loadSocialTrends() {
   try {
     var r = await fetch('data/social_trends.json?' + _dailyCacheKey());
     if (!r.ok) return null;
-    _socialTrends = await r.json();
+    var raw = await r.json();
+    // social_trends.json 当前结构：{meta, platform_trends:{google:[{category,trending_keywords:[],...}],...}, cross_platform_signals:[]}
+    // 旧消费代码期望 st[品类] 直接得到 {google:[...],youtube:[...]}，这里在加载时归一化重建索引。
+    var byCategory = {};
+    var allItems = [];
+    if (raw && raw.platform_trends && typeof raw.platform_trends === 'object') {
+      var platforms = Object.keys(raw.platform_trends);
+      for (var pi = 0; pi < platforms.length; pi++) {
+        var platform = platforms[pi];
+        var items = raw.platform_trends[platform] || [];
+        for (var ii = 0; ii < items.length; ii++) {
+          var it = items[ii];
+          var cat = it.category || '';
+          var kws = it.trending_keywords || [];
+          for (var ki = 0; ki < kws.length; ki++) {
+            var kw = kws[ki];
+            var entry = {
+              keyword: kw.keyword || '',
+              growth: typeof kw.growth === 'number' ? kw.growth : 0,
+              volume: kw.volume || '',
+              platform: platform,
+              category: cat,
+              business_opportunity: it.business_opportunity || ''
+            };
+            allItems.push(entry);
+            if (cat) {
+              if (!byCategory[cat]) byCategory[cat] = { google:[], youtube:[], x:[], instagram:[], tiktok:[], _all:[] };
+              if (byCategory[cat][platform]) byCategory[cat][platform].push(entry);
+              byCategory[cat]._all.push(entry);
+            }
+          }
+        }
+      }
+    }
+    raw = raw || {};
+    raw._byCategory = byCategory;
+    raw._allItems = allItems;
+    raw._categories = Object.keys(byCategory);
+    // 把每个品类作为顶层 key 暴露，让旧消费代码 st[catName] 直接命中
+    for (var cn = 0; cn < raw._categories.length; cn++) {
+      var cnk = raw._categories[cn];
+      if (!raw[cnk]) raw[cnk] = byCategory[cnk];
+    }
+    _socialTrends = raw;
     _socialTrendsLoaded = true;
     return _socialTrends;
   } catch(e) { console.warn('loadSocialTrends failed:', e); return null; }
+}
+
+// 工具：在社媒数据中为指定品类查找匹配数据 → 精确/包含/同义词字典/null
+function _findSocialDataForCat(st, catName) {
+  if (!st || !catName) return null;
+  if (st._byCategory && st._byCategory[catName]) return st._byCategory[catName];
+  if (st[catName] && typeof st[catName] === 'object' && !Array.isArray(st[catName])) return st[catName];
+  var cats = st._categories || Object.keys(st._byCategory || {});
+  // 子串/包含匹配
+  for (var i = 0; i < cats.length; i++) {
+    if (catName.indexOf(cats[i]) !== -1 || cats[i].indexOf(catName) !== -1) {
+      var dInc = st._byCategory[cats[i]];
+      if (dInc) { dInc._fallbackFrom = cats[i]; return dInc; }
+    }
+  }
+  // 同义词字典：DEMAND_MATRIX 品类 → 社媒采集品类
+  var SYN = {
+    '家电':['厨卫清洁护理','身体护理'],
+    '储能':['动力工具'],
+    '服装':['身体护理','女性护理'],
+    '服装及配饰':['身体护理','女性护理'],
+    '美妆':['身体护理','女性护理'],
+    '健康护理':['保健食品','女性护理','身体护理'],
+    '消费电子':['检测与分析仪器'],
+    '五金工具':['手动工具','动力工具','园林工具'],
+    '家居园艺':['园林工具'],
+    '运动及娱乐':['身体护理'],
+    '食品及饮料':['新鲜蔬菜','新鲜水果','保健食品'],
+    '农业':['新鲜蔬菜','新鲜水果'],
+    '工业机械':['手动工具','动力工具','检测与分析仪器'],
+    '电气设备及用品':['检测与分析仪器','动力工具'],
+    '环保':['新鲜蔬菜'],
+    '可再生能源':['动力工具'],
+    '汽车零配件':['动力工具'],
+    '宠物用品及食品':['新鲜蔬菜','身体护理'],
+    '建材':['手动工具','动力工具'],
+    '灯具':['动力工具'],
+    '灯具照明':['动力工具']
+  };
+  var synList = SYN[catName] || [];
+  for (var s = 0; s < synList.length; s++) {
+    if (st._byCategory && st._byCategory[synList[s]]) {
+      var d = st._byCategory[synList[s]];
+      d._fallbackFrom = synList[s];
+      return d;
+    }
+  }
+  return null;
 }
 
 async function loadPolicyUpdates() {
