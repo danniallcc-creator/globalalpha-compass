@@ -9793,17 +9793,17 @@ async function fetchTrendingJSON() {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     var data = await resp.json();
     
-    // 合并 BSR 数据
+    // 合并 BSR 数据（按 key merge，保留静态 fallback）
     if (data.amazon_bsr && Object.keys(data.amazon_bsr).length > 0) {
-      TRENDING_DB.amazon_bsr = data.amazon_bsr;
+      TRENDING_DB.amazon_bsr = Object.assign({}, TRENDING_DB.amazon_bsr || {}, data.amazon_bsr);
     }
-    // 合并本土电商数据
+    // 合并本土电商数据（按 key merge，避免 ETL 抓到的少数平台覆盖掉 37 个静态平台）
     if (data.local_ecom && Object.keys(data.local_ecom).length > 0) {
-      TRENDING_DB.local_ecom = data.local_ecom;
+      TRENDING_DB.local_ecom = Object.assign({}, TRENDING_DB.local_ecom || {}, data.local_ecom);
     }
-    // 合并本土电商搜索热词
+    // 合并本土电商搜索热词（按 key merge）
     if (data.local_keywords && Object.keys(data.local_keywords).length > 0) {
-      TRENDING_DB.local_keywords = data.local_keywords;
+      TRENDING_DB.local_keywords = Object.assign({}, TRENDING_DB.local_keywords || {}, data.local_keywords);
     }
     // 合并社交热词数据（含X平台）
     if (data.social_hotwords && Object.keys(data.social_hotwords).length > 0) {
