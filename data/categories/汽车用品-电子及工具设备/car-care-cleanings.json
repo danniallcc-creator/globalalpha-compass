@@ -136,7 +136,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "汽车养护和清洁：海外社媒「auto accessory #trending」增速 248%，搜索端「auto accessory market 2026」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "汽车养护和清洁：海外社媒「auto accessory #trending」增速 256%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -150,45 +150,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 汽车养护和清洁 成主流",
       "欧盟 CE 标志强制准入 → 汽车养护和清洁 出口需通过合规认证",
       "汽车养护和清洁主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「auto accessory #trending」增速 248% 领跑 → 汽车养护和清洁社媒种草热度爆发"
+      "海外社媒「auto accessory #trending」增速 256% 领跑 → 汽车养护和清洁社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "auto accessory #trending",
-        "growth": 247.5,
-        "vol": "734K",
+        "growth": 255.5,
+        "vol": "100K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "auto accessory viral",
+        "growth": 253.5,
+        "vol": "365K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "auto accessory review 2026",
-        "growth": 237.5,
-        "vol": "540K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto accessory #fyp",
-        "growth": 236.5,
-        "vol": "390K",
+        "kw": "auto accessory top 10",
+        "growth": 232.5,
+        "vol": "454K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto accessory market 2026",
-        "growth": 169.5,
+        "kw": "auto accessory wholesale supplier",
+        "growth": 203.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "car gadget b2b export",
-        "growth": 161.0,
+        "growth": 127.0,
         "hits": 0
       },
       {
@@ -200,9 +200,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
+        "title": "Auto exports down nearly 6% on auto parts supply disruptions - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52bnR6VDh0dEpWRDFTWHpWcEpOclBaVlByWmIzdF80V1JtU2xFdVJyclhwbGNmV0dteFJsYWpqUHMzMm12aXgxbTRCX05IeE8zQVJhR3JMQQ?oc=5",
         "hits": 0
       },
       {
@@ -225,7 +225,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

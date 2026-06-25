@@ -143,7 +143,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "道路安全设施：海外社媒「safety gear analyst」增速 248%，搜索端「safety gear wholesale supplier」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China Shock 2.0: Surging Chinese...」，出口 YoY +9%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "道路安全设施：海外社媒「ppe aesthetic」增速 243%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +9%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -155,52 +155,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 道路安全设施 出口需通过合规认证",
       "印度市场 YoY +9% 领跑 建筑五金(8302系列) 出口 → 道路安全设施需求强劲",
-      "海外社媒「safety gear analyst」增速 248% 领跑 → 道路安全设施社媒种草热度爆发"
+      "海外社媒「ppe aesthetic」增速 243% 领跑 → 道路安全设施社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "safety gear analyst",
-        "growth": 247.5,
-        "vol": "799K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "safety gear review 2026",
-        "growth": 240.5,
-        "vol": "742K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "ppe must have",
-        "growth": 218.0,
-        "vol": "370K",
+        "kw": "ppe aesthetic",
+        "growth": 243.0,
+        "vol": "575K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "safety gear wholesale supplier",
-        "growth": 190.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "ppe trending now",
+        "growth": 242.0,
+        "vol": "238K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "ppe market alert",
+        "growth": 239.0,
+        "vol": "469K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ppe b2b export",
-        "growth": 185.0,
+        "growth": 197.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "safety gear wholesale supplier",
+        "growth": 97.5,
         "hits": 0
       },
       {
@@ -208,6 +201,13 @@
         "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
         "source": "European Parliament",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
         "hits": 0
       },
       {
@@ -230,7 +230,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "安全用品"
   }
 }

@@ -439,7 +439,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric price trend」增速 220%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-42，The Observatory of Economic Complexity关注「Polyamide Fabric (HS: 5902) Product...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "面料：海外社媒「fabric must have」增速 226%，搜索端「fabric b2b export」热度上行，SA Amazon BSR Top-37，The Observatory of Economic Complexity关注「Polyamide Fabric (HS: 5902) Product...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -453,45 +453,45 @@
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
-      "海外社媒「fabric price trend」增速 220% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric must have」增速 226% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric price trend",
-        "growth": 220.0,
-        "vol": "116K",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 226.0,
+        "vol": "46K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 213.0,
-        "vol": "480K",
+        "platform": "youtube",
+        "kw": "fabric unboxing",
+        "growth": 198.0,
+        "vol": "759K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "fabric must have",
-        "growth": 210.0,
-        "vol": "82K",
+        "kw": "fabric aesthetic",
+        "growth": 193.0,
+        "vol": "491K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 210.0,
+        "growth": 185.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric sustainable manufacturing",
-        "growth": 84,
+        "kw": "textile fabric supply chain resilience",
+        "growth": 90,
         "hits": 2
       },
       {
@@ -510,25 +510,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 42,
-        "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$290.5",
-        "rating": 4.0,
+        "market": "SA",
+        "rank": 37,
+        "title": "Top textile - Compact Edition",
+        "price": "$247.8",
+        "rating": 4.5,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 41,
-        "title": "Top textile - Premium Edition",
-        "price": "$55.0",
-        "rating": 3.8,
+        "market": "DE",
+        "rank": 30,
+        "title": "Top fabric - Pro Edition",
+        "price": "$243.7",
+        "rating": 4.3,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "面料及纺织原材料"
   }
 }

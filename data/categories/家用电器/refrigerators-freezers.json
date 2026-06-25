@@ -460,7 +460,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "冰箱冰柜：海外社媒「appliance b2b export」增速 251%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WSJ关注「China Is Exporting Its Factories Across...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "冰箱冰柜：海外社媒「appliance must have」增速 245%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「China Is Exporting Its Factories Across...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -474,45 +474,45 @@
       "欧盟 CE 标志强制准入 → 冰箱冰柜 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 冰箱冰柜 合规刚需",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 冰箱冰柜需求强劲",
-      "海外社媒「appliance b2b export」增速 251% 领跑 → 冰箱冰柜社媒种草热度爆发"
+      "海外社媒「appliance must have」增速 245% 领跑 → 冰箱冰柜社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance b2b export",
-        "growth": 251.0,
-        "vol": "681K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "appliance must try",
-        "growth": 229.5,
-        "vol": "90K",
+        "platform": "instagram",
+        "kw": "appliance must have",
+        "growth": 245.0,
+        "vol": "719K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "appliance industry report",
-        "growth": 224.5,
-        "vol": "636K",
+        "growth": 235.5,
+        "vol": "109K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "appliance unboxing",
+        "growth": 218.0,
+        "vol": "107K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance b2b export",
-        "growth": 248.0,
+        "kw": "appliance market 2026",
+        "growth": 173.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "home appliance digital transformation",
-        "growth": 94,
+        "source": "Google Trends",
+        "kw": "appliance wholesale supplier",
+        "growth": 122.5,
         "hits": 0
       },
       {
@@ -549,7 +549,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "家用电器"
   }
 }

@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "运动鞋、箱包及配件：海外社媒「fitness tutorial」增速 240%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，PA Media关注「Xinhua Silk Road: SE China city opens...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "运动鞋、箱包及配件：海外社媒「sports review 2026」增速 254%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，markets.businessinsider.com关注「2026 China (Jinhua Mountain)...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -98,45 +98,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 运动鞋、箱包及配件 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 运动鞋、箱包及配件需求强劲",
-      "海外社媒「fitness tutorial」增速 240% 领跑 → 运动鞋、箱包及配件社媒种草热度爆发"
+      "海外社媒「sports review 2026」增速 254% 领跑 → 运动鞋、箱包及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "fitness tutorial",
-        "growth": 239.5,
-        "vol": "469K",
+        "kw": "sports review 2026",
+        "growth": 253.5,
+        "vol": "102K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "outdoor unboxing",
+        "growth": 250.0,
+        "vol": "149K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "sports price trend",
-        "growth": 233.0,
-        "vol": "394K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "outdoor viral hack",
-        "growth": 225.0,
-        "vol": "220K",
+        "kw": "outdoor industry report",
+        "growth": 228.5,
+        "vol": "349K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sports market 2026",
-        "growth": 149.5,
+        "growth": 170.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "outdoor b2b export",
-        "growth": 129.0,
+        "growth": 155.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "2026 China (Jinhua Mountain) International Camping Congress Held - markets.businessinsider.com",
+        "source": "markets.businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOFlQdDcwRWF6NTJyMllJRENaQ2tPS2hXVXZDSG9Hei1uNVoyQXZ5Z2VQM2xzZm5EcXRSSmRGc05FQjJjSC04M0NjT094MUQ1TThORXNrN0J4Nm9fSW5BNEZ5SWJoLXZibE1pNEF1N0RxNXBIWWpEeUxXWVFYeXhXZ3NDX0dHbFYyR01HTGRUbkJzbHN2QTl4YjJoRGx4d2RyU3dGNFVHR2NCMFBURGt4anlZanhoZTA4MUZ6MlhR?oc=5",
         "hits": 0
       },
       {
@@ -144,13 +151,6 @@
         "title": "Xinhua Silk Road: SE China city opens up new space for garments, footwear trade via fashion, culture boosters - PA Media",
         "source": "PA Media",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWWNhV05YZjhndjB4dmxSWUxnQk1MVjRfMkZ1bjJ3emVJQzdoVnJWMFdkbVNEdEppS3ZUeWZ0VUg0Mm4zdlp0SzFpYVpKTWZpT3ZybmZVLW1DRENKOGhYU2ZvWUlrRjJuVEl4LVFxckxkakxRMlBFRmYzYWtPNjZqSjRCRjNObWxRZlFfTFhuRkRmRWpWY1VjSUJ2R0ZOUjJDcFBHdmRGQ05ENnpaOER2NF9IY3Zia1EtUFpXRzBvbE1VS1lVVlltR0k3ZGpGOC1SQms4XzVhajBuX09ETXFJOTZJclJXeFFsZDlvOHMwZw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Director at Academy Sports (ASO) receives 3,384 restricted stock units grant - Stock Titan",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdjRXREtITklmMUxtVkRZLVJ0dlljT2dSRFZ4MWk1TlZVeHY4MXAyRHBEWDQzckM0ajI0QUJFalJoSjZMYWk5enU0RVl5elRsUFlPS1VlVWJwZXhBWWJCVFZzTVdka3hnUHlaN2xYOG1LUnp6bHBUbUgyT0pYeXloVGxnNEY1UmRUVy1SRWVXNW82c2d5QjN0RndlUGpxMUxuUTRzN1RkU3pjQ0hNb0ZqcTFQcE13eDlvMS1OYg?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "运动及娱乐"
   }
 }

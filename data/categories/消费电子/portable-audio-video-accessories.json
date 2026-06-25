@@ -569,7 +569,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "便携式音视频与配件：海外社媒「consumer electronics trending now」增速 246%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「China imposes trade curbs on dozens of...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "便携式音视频与配件：海外社媒「consumer electronics market 2026」增速 256%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「China imposes trade curbs on dozens of...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -583,45 +583,45 @@
       "欧盟 CE 标志强制准入 → 便携式音视频与配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 便携式音视频与配件 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 便携式音视频与配件需求强劲",
-      "海外社媒「consumer electronics trending now」增速 246% 领跑 → 便携式音视频与配件社媒种草热度爆发"
+      "海外社媒「consumer electronics market 2026」增速 256% 领跑 → 便携式音视频与配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "consumer electronics trending now",
-        "growth": 246.0,
-        "vol": "18K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "earbuds tiktok made me buy",
-        "growth": 243.5,
-        "vol": "23K",
+        "platform": "google",
+        "kw": "consumer electronics market 2026",
+        "growth": 256.5,
+        "vol": "165K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "smartphone unboxing",
-        "growth": 241.0,
-        "vol": "284K",
+        "growth": 253.0,
+        "vol": "34K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "smartphone must try",
+        "growth": 243.5,
+        "vol": "184K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 200.5,
+        "growth": 253.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "smartphone b2b export",
-        "growth": 200.0,
+        "growth": 225.0,
         "hits": 0
       },
       {
@@ -658,7 +658,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "消费电子"
   }
 }

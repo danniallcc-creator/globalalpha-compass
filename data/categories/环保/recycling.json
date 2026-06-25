@@ -189,7 +189,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech must have」增速 247%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Global Witness关注「Can China’s Green Mineral Initiative...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "回收：海外社媒「environmental wholesale supplier」增速 242%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Global Witness关注「Can China’s Green Mineral Initiative...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -201,45 +201,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
-      "海外社媒「green tech must have」增速 247% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental wholesale supplier」增速 242% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "green tech must have",
-        "growth": 247.0,
-        "vol": "466K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "environmental top 10",
-        "growth": 239.5,
-        "vol": "24K",
+        "platform": "google",
+        "kw": "environmental wholesale supplier",
+        "growth": 242.5,
+        "vol": "339K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental analyst",
-        "growth": 220.5,
-        "vol": "601K",
+        "kw": "environmental breaking",
+        "growth": 227.5,
+        "vol": "494K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 202.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "green tech must have",
+        "growth": 208.0,
+        "vol": "230K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 168.5,
+        "growth": 239.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "green tech b2b export",
+        "growth": 134.0,
         "hits": 0
       },
       {
@@ -251,9 +251,9 @@
       },
       {
         "dim": "媒体",
-        "title": "The New Carbon Order: China’s Response to Europe’s CBAM - CSIS | Center for Strategic and International Studies",
-        "source": "CSIS | Center for Strategic and International Studies",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3NVTUo5SFhrRFYycmM2MEx0b3JYZThMellUTXhqbm5FdFJFTko1clNPZHpHTnNaclVMdklFelA3VnJFNVZ0dkJZM3dsTkhCUHM2NnFta3RfS05RU3A1MVhOTmFuZklZUXZFZ2J4eVpwYktJQXBOdmNsMno2T0l1WA?oc=5",
+        "title": "How the EU-Chile relationship evolved - Agroberichten Buitenland",
+        "source": "Agroberichten Buitenland",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOVAzOVZSUHZVNTRkVDRDVy0tZGVZU1JiRXBGWDZkYjZ6amtiaFptaWt3MzIxcmF0N3dPa21lZFBrMlFBQkU4Sm9zbFMyVlRRUWlCeEtPUUhuZlRScjlPaEZSZjVDOXlUSmdoYm94Qkc0ektOZk9XdkZFT1NleTd3S1h1YlF2d0F2LXdrREd5RHptRWloUHFDS2N6RVdXa2N5Z2V0Tlk5clB6VTl0RVZKamVrV2ZHODRiZ3VYU0ZyX0lQQURfQkxTQTB3STBqdmZVX3hYWA?oc=5",
         "hits": 0
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "环保"
   }
 }

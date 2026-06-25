@@ -225,7 +225,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "塑料原材料：海外社媒「plastic market alert」增速 245%，搜索端「rubber market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「World Butyl Rubber Closure Seals -...」，出口 YoY +12%，主要流向 美国 / 沙特阿拉伯 / 越南。",
+    "trend_summary": "塑料原材料：海外社媒「rubber market 2026」增速 234%，搜索端「rubber market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「World Butyl Rubber Closure Seals -...」，出口 YoY +12%，主要流向 美国 / 沙特阿拉伯 / 越南。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -239,45 +239,45 @@
       "欧盟 CE 标志强制准入 → 塑料原材料 出口需通过合规认证",
       "美国 FDA 注册要求 → 塑料原材料 进入北美市场必备门槛",
       "沙特阿拉伯市场 YoY +12% 领跑 塑料管材/塑料建材(3917/3918/3925系列) 出口 → 塑料原材料需求强劲",
-      "海外社媒「plastic market alert」增速 245% 领跑 → 塑料原材料社媒种草热度爆发"
+      "海外社媒「rubber market 2026」增速 234% 领跑 → 塑料原材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "plastic market alert",
-        "growth": 245.0,
-        "vol": "362K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "plastic trending now",
-        "growth": 224.0,
-        "vol": "490K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
         "kw": "rubber market 2026",
-        "growth": 220.5,
-        "vol": "727K",
+        "growth": 233.5,
+        "vol": "525K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "rubber review 2026",
+        "growth": 226.5,
+        "vol": "268K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "rubber #trending",
+        "growth": 221.5,
+        "vol": "444K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "rubber market 2026",
-        "growth": 217.5,
+        "growth": 230.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "rubber plastic supply chain resilience",
-        "growth": 90,
+        "source": "Google Trends",
+        "kw": "rubber wholesale supplier",
+        "growth": 94.5,
         "hits": 0
       },
       {
@@ -314,7 +314,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "橡胶与塑料制品"
   }
 }

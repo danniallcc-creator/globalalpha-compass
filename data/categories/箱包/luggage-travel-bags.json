@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "行李箱及旅行包：海外社媒「luggage review 2026」增速 248%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "行李箱及旅行包：海外社媒「luggage review 2026」增速 256%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「Coffee Prices Show Divergent Trends in...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,45 +100,52 @@
       "欧盟 CE 标志强制准入 → 行李箱及旅行包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 行李箱及旅行包 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 行李箱及旅行包需求强劲",
-      "海外社媒「luggage review 2026」增速 248% 领跑 → 行李箱及旅行包社媒种草热度爆发"
+      "海外社媒「luggage review 2026」增速 256% 领跑 → 行李箱及旅行包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "luggage review 2026",
-        "growth": 247.5,
-        "vol": "697K",
+        "growth": 256.5,
+        "vol": "262K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "backpack industry report",
-        "growth": 237.5,
-        "vol": "254K",
+        "kw": "luggage price trend",
+        "growth": 245.0,
+        "vol": "360K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "bag wholesale supplier",
-        "growth": 224.5,
-        "vol": "733K",
+        "platform": "tiktok",
+        "kw": "bag tiktok made me buy",
+        "growth": 242.5,
+        "vol": "102K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "bag wholesale supplier",
-        "growth": 221.5,
+        "kw": "luggage market 2026",
+        "growth": 148.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 218.0,
+        "growth": 132.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Coffee Prices Show Divergent Trends in Domestic and International Markets – Conab Report June 2026 - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlRvWjdkUldhNUtoWDV0bEttQ2RoODA0SHJmOEJVQ0FrWDJkTnFTMmxTbnQtM0JVS3NqMzRVdV83VnBzU3lNenctUmVwalJiRl9kcUR4aV9ydXRFTFVXOGdPTmRZY2duemVWdjlEY200WFpWUk5yS3NxcGVVd1YyLTNnMnRrWm5FZ1NwUXpYeUUtSk5PT3B0UDE4cTNiZnA4TU1QNXUtNUZhNS1JNHZONkI4eEVEbWdNaFI4QngyQTByc1RJ?oc=5",
         "hits": 0
       },
       {
@@ -146,13 +153,6 @@
         "title": "CarryMen: India start-up offering shopping bag carriers sparks debate on entitlement - BBC",
         "source": "BBC",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1anEtMTZidzJQbmx1X2R4VG1Ma3FEa0U5SURmNlhPV21wdWJkOWtfNzZYYVp2dDV2aUUyOWpncE96eVdYZl9DZGM0a1JEOG41bnVZcjUyc3c2Zw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "World Sterile Bag-to-Bottle Connectors - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa216dE1EaENMUHJqeDI3QTVLeHVRQnJDaHJpNWt5ZHJ1alRNU1RudUZsMnJ4Y3BZVTN2VW1hdFNnazg0WXJNUEI2STVXZ2ROWXRGTmhPZWppYWgxd1NXa3JraEVBcWtjSXlBN1dJRlhOQmtuUkQzb2VETzd0dTFYSDg5ZWFuV2c4UjJjMDR4aFBYLXo1cVR1dUdWNHQ4eGhhZzlTQS1ueVFyLXByRnNUdDZ6bW5Oc3poS2NiY01MRUNVeDFHZHMyR2pDSHY2NGtFdHJJTks2MXlxLXc?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "箱包"
   }
 }

@@ -568,7 +568,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "掺合剂及添加剂：海外社媒「chemical review 2026」增速 254%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "掺合剂及添加剂：海外社媒「chemical market 2026」增速 254%，搜索端「chemical market 2026」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -582,45 +582,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 掺合剂及添加剂 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 掺合剂及添加剂 通关",
       "印度市场 YoY +18% 领跑 调味品(2103/2104系列) 出口 → 掺合剂及添加剂需求强劲",
-      "海外社媒「chemical review 2026」增速 254% 领跑 → 掺合剂及添加剂社媒种草热度爆发"
+      "海外社媒「chemical market 2026」增速 254% 领跑 → 掺合剂及添加剂社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "chemical review 2026",
+        "platform": "google",
+        "kw": "chemical market 2026",
         "growth": 254.5,
-        "vol": "173K",
+        "vol": "195K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "chemical b2b export",
-        "growth": 249.0,
-        "vol": "562K",
+        "growth": 248.0,
+        "vol": "339K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical industry news",
-        "growth": 246.0,
-        "vol": "596K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
-        "growth": 246.0,
+        "platform": "youtube",
+        "kw": "chemical unboxing",
+        "growth": 248.0,
+        "vol": "688K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical market 2026",
-        "growth": 149.5,
+        "growth": 251.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 245.0,
         "hits": 0
       },
       {
@@ -632,9 +632,9 @@
       },
       {
         "dim": "媒体",
-        "title": "UK and GCC Free Trade Agreement - Crowell & Moring LLP",
-        "source": "Crowell & Moring LLP",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdTk5d3hYZlNqRm15TWxjMTJDbVRRLW1iS2pjQ2wtcWE0VXpkR1pfVndOZGJyX3BWTV80UFl4Q2gxMzBrRXJsSEUyRWZ5Uk1uZmN1REVnN1pOQjhfT3ozODZKemZ6QVMtTk5iRFEyZ0ZKWXcxT3BiWngwUTQ3MlpVVWRxY0VPU0No?oc=5",
+        "title": "Radioactive Chemicals (HS: 2844) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WODE0TGZLM0ltY094V2JKTDhDcnE3aEkzWkpjdENpMVJ3UjNxZi1nNmZpQlpERTROakZRLWhHaTc4YUk0M253b1dwNlRBQTMwMVd3SV9KV3cwRmNmWlprRVlESQ?oc=5",
         "hits": 0
       },
       {
@@ -657,7 +657,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "化学品"
   }
 }

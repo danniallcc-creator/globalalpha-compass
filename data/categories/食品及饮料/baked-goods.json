@@ -307,7 +307,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "焙烤食品：海外社媒「beverage must try」增速 240%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Brewers Association关注「Q2 2026 Export Development Program News...」。",
+    "trend_summary": "焙烤食品：海外社媒「food breaking」增速 256%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Precedence Research关注「Trade Credit Insurance Market Size to...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -319,52 +319,45 @@
     "reasons": [
       "美国 FDA 注册要求 → 焙烤食品 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 焙烤食品 包装可回收化升级",
-      "海外社媒「beverage must try」增速 240% 领跑 → 焙烤食品社媒种草热度爆发"
+      "海外社媒「food breaking」增速 256% 领跑 → 焙烤食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "beverage must try",
-        "growth": 240.5,
-        "vol": "648K",
+        "platform": "x",
+        "kw": "food breaking",
+        "growth": 255.5,
+        "vol": "52K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage industry report",
-        "growth": 237.5,
-        "vol": "203K",
+        "platform": "x",
+        "kw": "snack supply chain",
+        "growth": 252.5,
+        "vol": "779K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "food market 2026",
-        "growth": 235.5,
-        "vol": "783K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
+        "platform": "instagram",
+        "kw": "beverage new arrival",
         "growth": 232.5,
+        "vol": "408K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 93.0,
+        "growth": 225.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Q2 2026 Export Development Program News - Brewers Association",
-        "source": "Brewers Association",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjBmbjM4RjVMdlhMZERmbHhmd3drNHByZlBWdEVMcUFtZk9tNHotaWhXY3NZZUNwMnZBMmRUeEZnNVg3QW15T2JGUUtMREYtcEppQS1zVU5MT1pldHlUb3FNNzJCQks4VU0yMzhWSWdiZmhucm9LdHc3THJId2lGYTJyal90ZlBQSlBZUGFObzZON01QWG1CangzVjdBNEtsdG10Sw?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "food market 2026",
+        "growth": 162.5,
         "hits": 0
       },
       {
@@ -372,6 +365,13 @@
         "title": "Trade Credit Insurance Market Size to Hit USD 38.24 Billion by 2035 - Precedence Research",
         "source": "Precedence Research",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0a3ZDa0NkM0RpRkpUS3BEZ0dycjhsclN2Z3pTT0diQ2l0Y1pzakhPOGxkUHVTQUlJckRDUTUxdUZJcUpYcjAwaWNXYWc4UHdrbm0xWEt1VkloT3JKRWZ4cmQ1aWJ0dEdnazhHSUFtVzZ6dw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chile Turns Food Exports Into Soft Power at Bangkok Business Summit 2026 - Khaosod English",
+        "source": "Khaosod English",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTE9NSTVvcldFMUU1Sk50TzVVN1V4elRKcVAyNFlGdWl5UzJqWnVSQ21PMngzbXYtaVpsQko0QWVCWEFlYjFfLTFrd2lGWEdWRjlNaUMxalFtaEFEMzZ5Yk5mclk0UDlOUlJnWXhrYVBZSmNZNTFfNmpMMlU5ZEx1RkZrX2hTOVFoMTRPZzEyd205YXJ1VnRCUS1id1RCdkNzaUVTYWhSMW1DbjJnWE9iNG15cTBReFM5YWpKRtIBwgFBVV95cUxPZXhrZjRrVmFJQjU0VmNMQkh0ZU0xZERmMjg4LTFaRlVLSndtT1JhSnF4U0k2SDU4dE41X1Z4dzlnZl9WdGZpNk4wN2tpSi1oTVVSVF9td1hFczBScm50bXJNc2Jnb1VQdExQYjQ2TS1xNFRpeHFDLVBsaXROQ2FUX2xCN2FoUnF5WGROSXQ4a21SUkVEcVdLU0xmTXFmbzlrQlRSSmp6VjlGT1BzdDYwNzJpV0RYT19mVkI3M0VjcGFmdw?oc=5",
         "hits": 0
       },
       {
@@ -394,7 +394,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "l1_ref": "食品及饮料"
   }
 }
