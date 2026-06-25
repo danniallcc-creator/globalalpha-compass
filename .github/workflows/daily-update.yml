@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * *'    # UTC 00:00 = 北京 08:00
     - cron: '0 12 * * *'   # UTC 12:00 = 北京 20:00
+    - cron: '0 16 * * *'   # UTC 16:00 = Beijing 00:00 force daily refresh
   workflow_dispatch:
 
 permissions:
