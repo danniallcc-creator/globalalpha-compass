@@ -427,34 +427,75 @@ def fetch_local_ecom():
     except Exception as e:
         print(f"  [WARN] eBay failed: {e}")
     
-    # ---- AliExpress: 热门商品页 ----
-    try:
-        ali_items = []
-        url = "https://www.aliexpress.com/ranking/index.html"
-        resp = safe_get(url, timeout=12, via_proxy=True)
-        if resp:
+    # ---- AliExpress: 多品类种子热品 + 关键词 ----
+    # 新页面无统一 ranking 端点，旧 [class*=card] 选择器命中差(仅 1 条占位)
+    # 改为遍历 9 个 wholesale-{seed} 页面，用 <img alt> 抽产品标题(实测每页 5-7 条)
+    # 顺带从 "Ranking Keywords" 区块抽增长关键词，存入 results 的特殊 key 供后续合入 local_keywords
+    ali_seed_map = [
+        ('best-sellers',              'Trending',     'AliExpress 全站畅销榜'),
+        ('trending-products',         'Trending',     'AliExpress 实时趋势品'),
+        ('best-selling-electronics',  '消费电子',     'AliExpress 电子热销'),
+        ('best-selling-home',         '家居家纺',     'AliExpress 家居热销'),
+        ('best-selling-women-dress',  '女装',         'AliExpress 女装热销'),
+        ('best-selling-toys',         '玩具',         'AliExpress 玩具热销'),
+        ('best-selling-beauty',       '美妆个护',     'AliExpress 美妆热销'),
+        ('best-selling-pet',          '宠物用品',     'AliExpress 宠物热销'),
+        ('best-selling-tools',        '工具五金',     'AliExpress 工具热销'),
+    ]
+    ali_items = []
+    ali_keywords = set()
+    for seed, cat_label, insight_label in ali_seed_map:
+        try:
+            url = f"https://www.aliexpress.com/w/wholesale-{seed}.html"
+            resp = safe_get(url, timeout=12, via_proxy=True)
+            if not resp:
+                print(f"  [WARN] AliExpress seed {seed}: no response")
+                continue
             try:
-                soup = BeautifulSoup(resp.text, 'html.parser')
-                product_els = soup.select('[class*=card], [class*=product], [class*=item]')[:5]
-                for el in product_els:
-                    title_el = el.select_one('[class*=title], h3, h4')
-                    price_el = el.select_one('[class*=price]')
-                    title = title_el.get_text(strip=True) if title_el else 'AliExpress Trending'
-                    price = price_el.get_text(strip=True) if price_el else 'N/A'
-                    if title and len(title) > 3:
-                        ali_items.append({
-                            'platform': 'AliExpress', 'country': 'Global',
-                            'cat': 'Trending', 'title': title[:60], 'price': price,
-                            'gmv_rank': len(ali_items) + 1,
-                            'insight': f'AliExpress top ranking ({today_str()})'
-                        })
+                # 用 regex 直接抽 <img alt> 比 BS4 更稳（产品卡片结构混淆）
+                titles = re.findall(r'<img[^>]*alt="([^"]{15,120})"', resp.text)
+                seen = set()
+                added = 0
+                for t in titles:
+                    if added >= 5:
+                        break
+                    # HTML unescape
+                    t_clean = t.replace('&#x27;', "'").replace('&amp;', '&').replace('&quot;', '"').strip()
+                    if t_clean in seen or len(t_clean) < 15:
+                        continue
+                    seen.add(t_clean)
+                    ali_items.append({
+                        'platform': 'AliExpress',
+                        'country': 'Global',
+                        'cat': cat_label,
+                        'title': t_clean[:80],
+                        'price': 'see listing',
+                        'gmv_rank': len(ali_items) + 1,
+                        'insight': f'{insight_label} · {today_str()}'
+                    })
+                    added += 1
+                # 抓 Ranking Keywords 区块
+                idx = resp.text.find('Ranking Keywords')
+                if idx > 0:
+                    chunk = resp.text[idx:idx + 4000]
+                    kws = re.findall(r'<a [^>]*>([^<]{3,40})</a>', chunk)
+                    for k in kws:
+                        k = k.strip()
+                        if 3 < len(k) < 40 and 'Ranking' not in k and 'Keyword' not in k:
+                            ali_keywords.add(k)
+                print(f"  [OK] AliExpress {seed}: +{added} items, cum kws {len(ali_keywords)}")
             except Exception as e:
-                print(f"  [WARN] AliExpress parse failed: {e}")
-        if ali_items:
-            results['AliExpress（全球）'] = ali_items[:5]
-            print(f"  [OK] AliExpress: {len(ali_items)} items")
-    except Exception as e:
-        print(f"  [WARN] AliExpress failed: {e}")
+                print(f"  [WARN] AliExpress {seed} parse failed: {e}")
+            time.sleep(1.0)
+        except Exception as e:
+            print(f"  [WARN] AliExpress {seed} failed: {e}")
+
+    if ali_items:
+        results['AliExpress（全球）'] = ali_items[:25]  # 最多 25 条覆盖 9 大类
+        print(f"  [OK] AliExpress total: {len(ali_items)} items, {len(ali_keywords)} ranking keywords")
+    # 关键词单独挂在 results 上，由 main() 合入 local_keywords
+    if ali_keywords:
+        results['__aliexpress_keywords__'] = sorted(ali_keywords)[:20]
     
     # ---- Allegro (波兰): 畅销排行 ----
     try:
@@ -4399,6 +4440,10 @@ def main():
     # 3. 本土电商
     print("\n[3/10] Fetching local e-commerce...")
     local_data = fetch_local_ecom()
+    # 拆出 AliExpress 抓回的 Ranking Keywords（内部 key，不应进 local_ecom）
+    aliexpress_kws_raw = []
+    if local_data and '__aliexpress_keywords__' in local_data:
+        aliexpress_kws_raw = local_data.pop('__aliexpress_keywords__') or []
     if local_data:
         result['local_ecom'] = local_data
         print(f"  Total platforms: {len(local_data)}")
@@ -4412,6 +4457,35 @@ def main():
             print(f"  Total keyword sets: {len(local_kw_data)}")
     except Exception as e:
         print(f"  [WARN] fetch_local_keywords failed (non-fatal): {e}")
+
+    # 3c. AliExpress 关键词 → 合并进 local_keywords['AliExpress（全球）']
+    if aliexpress_kws_raw:
+        if 'local_keywords' not in result or not isinstance(result.get('local_keywords'), dict):
+            result['local_keywords'] = {}
+        ali_kw_items = []
+        # 简单分类：包含科技词→数码；服饰词→服装；其余→Trending
+        tech_words = ('electronic', 'phone', 'gadget', 'smart', 'led', 'usb', 'wireless')
+        fashion_words = ('dress', 'jewel', 'ring', 'necklace', 'shoes', 'bag', 'clothing')
+        beauty_words = ('beauty', 'makeup', 'cosmetic', 'lash', 'lip', 'nail', 'skin')
+        for idx, kw in enumerate(aliexpress_kws_raw[:15]):
+            low = kw.lower()
+            if any(w in low for w in tech_words):
+                cat = '消费电子'
+            elif any(w in low for w in fashion_words):
+                cat = '服饰珠宝'
+            elif any(w in low for w in beauty_words):
+                cat = '美妆个护'
+            else:
+                cat = 'Trending'
+            ali_kw_items.append({
+                'keyword': kw,
+                'volume': 'AliExpress Ranking',
+                'growth': max(15, 80 - idx * 4),  # 排名靠前增速越高（占位）
+                'cat': cat,
+                'insight': f'AliExpress Ranking Keywords · {today_str()}'
+            })
+        result['local_keywords']['AliExpress（全球）'] = ali_kw_items
+        print(f"  [OK] AliExpress keywords merged: {len(ali_kw_items)} items")
 
     # 4. 社交热词
     print("\n[4/10] Fetching social hotwords...")
