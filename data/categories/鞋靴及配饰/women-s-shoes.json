@@ -94,7 +94,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "女鞋：海外社媒「footwear market alert」增速 222%，搜索端「footwear b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Rubber Footwear (HS: 6402) Product...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
+    "trend_summary": "女鞋：海外社媒「shoe trending now」增速 241%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Rubber Footwear (HS: 6402) Product...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -108,45 +108,45 @@
       "欧盟 CE 标志强制准入 → 女鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 女鞋 通关",
       "俄罗斯市场 YoY +14% 领跑 鞋类 出口 → 女鞋需求强劲",
-      "海外社媒「footwear market alert」增速 222% 领跑 → 女鞋社媒种草热度爆发"
+      "海外社媒「shoe trending now」增速 241% 领跑 → 女鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "shoe trending now",
+        "growth": 241.0,
+        "vol": "698K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "footwear market alert",
-        "growth": 222.0,
-        "vol": "292K",
+        "growth": 232.0,
+        "vol": "137K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "footwear new arrival",
-        "growth": 217.5,
-        "vol": "578K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sneaker tiktok made me buy",
-        "growth": 207.5,
-        "vol": "598K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "footwear b2b export",
-        "growth": 135.0,
+        "platform": "x",
+        "kw": "shoe breaking",
+        "growth": 222.5,
+        "vol": "617K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 130.5,
+        "growth": 153.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "footwear b2b export",
+        "growth": 142.0,
         "hits": 0
       },
       {
@@ -183,7 +183,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "鞋靴及配饰"
   }
 }

@@ -418,7 +418,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "指甲用品：海外社媒「beauty must have」增速 250%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，koreabiomed.com关注「Korea overtakes US to become world’s...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "指甲用品：海外社媒「cosmetic must try」增速 250%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，koreabiomed.com关注「Korea overtakes US to become world’s...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -432,45 +432,45 @@
       "美国 FDA 注册要求 → 指甲用品 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 指甲用品 制造门槛",
       "印度市场 YoY +18% 领跑 塑料制品 出口 → 指甲用品需求强劲",
-      "海外社媒「beauty must have」增速 250% 领跑 → 指甲用品社媒种草热度爆发"
+      "海外社媒「cosmetic must try」增速 250% 领跑 → 指甲用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty must have",
-        "growth": 250.0,
-        "vol": "57K",
+        "platform": "tiktok",
+        "kw": "cosmetic must try",
+        "growth": 249.5,
+        "vol": "743K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "beauty market 2026",
-        "growth": 249.5,
-        "vol": "687K",
+        "kw": "cosmetic b2b export",
+        "growth": 219.0,
+        "vol": "685K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "beauty industry news",
-        "growth": 243.0,
-        "vol": "58K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 246.5,
+        "kw": "cosmetic analyst",
+        "growth": 218.5,
+        "vol": "776K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 207.0,
+        "growth": 216.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 210.5,
         "hits": 0
       },
       {
@@ -507,7 +507,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "美妆"
   }
 }

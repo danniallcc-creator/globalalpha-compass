@@ -88,7 +88,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "高尔夫：海外社媒「sports review 2026」增速 254%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，Stock Titan关注「Academy Sports & Outdoors (ASO)...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "高尔夫：海外社媒「outdoor unboxing」增速 255%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，The Dispatch关注「The World Cup Is Putting American...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -100,59 +100,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 高尔夫 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 高尔夫需求强劲",
-      "海外社媒「sports review 2026」增速 254% 领跑 → 高尔夫社媒种草热度爆发"
+      "海外社媒「outdoor unboxing」增速 255% 领跑 → 高尔夫社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "sports review 2026",
-        "growth": 253.5,
-        "vol": "102K",
+        "kw": "outdoor unboxing",
+        "growth": 255.0,
+        "vol": "244K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "outdoor aesthetic",
+        "growth": 255.0,
+        "vol": "308K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "outdoor unboxing",
-        "growth": 250.0,
-        "vol": "149K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "outdoor industry report",
-        "growth": 228.5,
-        "vol": "349K",
+        "kw": "sports review 2026",
+        "growth": 250.5,
+        "vol": "572K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sports market 2026",
-        "growth": 170.5,
+        "growth": 208.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "outdoor b2b export",
-        "growth": 155.0,
+        "growth": 194.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Academy Sports & Outdoors (ASO) director’s 3,932 RSUs vest and convert to shares - Stock Titan",
+        "title": "The World Cup Is Putting American Abundance on Display - The Dispatch",
+        "source": "The Dispatch",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVEZ2SEU4THNxSFBPdFAzbW1fcE02T3NLelBVU3pMMEhLbnJpSnluM0lMem5EQkpkaTJsSlBoTVZFRE5WZ0lUaGs4S1pPZUN2RHpha2dmQ0FhYk1zMG0wZ1oxdWhEam9TX3JkVVJOUUhJUHhvWlhsY0I0a0ktOFczN3pTV2xaYlZISWFUbmROdW52THE1NjFfMHJB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Director at Academy Sports (ASO) receives 3,384 restricted stock units grant - Stock Titan",
         "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONVhfTG8xLWVURTNGak82ZHhQbTF3SkdoQl9idmN3NVJqZW85RHc0dkV5VzQ5Q3lNNmRkQlRzMU1mdWd6aWVsa1ptal9yNDcwcWRDTkgtQzF2RlZ1VGZySjFuN2kyTzVaSDRibkJsWi1TLVdRdEh3TzJBcDNIWEN5NFZTQ0Z3ejNwNnlLZzVhdjJDU0RQOVhLNklLRm9yMXpoUkNpWGU5TFFBR3FDbDBzZ2FtZ2ZXT3IybF9iNg?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Global Retailer JD Sports Fashion plc Begins Trading on OTCQX Best Market - The Manila Times",
-        "source": "The Manila Times",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYkJDNzlUX2RyTlRmdVBGWFRveHNmaWxMLXktSDRQOXFQNGY4ZmRuRkZ4MXNpci1BdnM2STFQUm9aUWtjNG5UYW9uRnFtWW9JcFVQeGhQSWhGeDZvckJnUW03MWZOU0VYSi1waWdQdkU1QTVyNC1QT3NPQi05cS1PcnNwZ3RDc3FzR0tOY3o0MGpKNV9mOWtxTm1wcDZieUlhTHduYWRBYVBFQmlVRGhMUEdGODRNNlhPRUw3a2lUMkFReW1nUTN4eGpwbmpFUGhmeTJNX0FsMmtCY0E3WWQ4dNIB5gFBVV95cUxNdHRtbkUzc1pvRm1EeFppM2I3WHcxRTdoLXJqaTNSbHdjLUMyR3ZXaHE1eHFnWWstNExLaTh1YWxvSi14d3NjelBjWWd4YkJoX2VuaXkzSHdORk5SanlMN1BUSlc5SldDcFhzXzJ3RndILVJfUzNoOEtScTB5dWljaDh6OHRrSkR3SG8yNGZQOEpYTlJCZy1NZGxMWXBiV2dHdDc4V3doZEptcHhmUW04U3dFYUtxTXF3UDk2eGJUaGJPbTJfZXpDdDZjd0haMUZqdDJGRVFSSUdoNG1HcEdubVBSa1VFZw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdjRXREtITklmMUxtVkRZLVJ0dlljT2dSRFZ4MWk1TlZVeHY4MXAyRHBEWDQzckM0ajI0QUJFalJoSjZMYWk5enU0RVl5elRsUFlPS1VlVWJwZXhBWWJCVFZzTVdka3hnUHlaN2xYOG1LUnp6bHBUbUgyT0pYeXloVGxnNEY1UmRUVy1SRWVXNW82c2d5QjN0RndlUGpxMUxuUTRzN1RkU3pjQ0hNb0ZqcTFQcE13eDlvMS1OYg?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "运动及娱乐"
   }
 }

@@ -508,7 +508,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 194%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-26，Market Research Future关注「Home Decor Market Share, Growth,...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 146%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-37，Fox News关注「Trump will welcome farmers and ranchers...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -520,82 +520,75 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家居装饰需求强劲",
-      "海外社媒「home decor wholesale supplier」增速 194% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 146% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 193.5,
-        "vol": "718K",
+        "growth": 145.5,
+        "vol": "799K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor new arrival",
-        "growth": 240.5,
-        "vol": "335K",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 248.5,
+        "vol": "358K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor market 2026",
-        "growth": 238.5,
-        "vol": "685K",
+        "growth": 243.5,
+        "vol": "204K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 190.5,
+        "growth": 142.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 235.5,
+        "growth": 240.5,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Home Decor Market Share, Growth, Analysis, Forecast - 2035 - Market Research Future",
-        "source": "Market Research Future",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NNnZuN3pQNm13YnFlbWNqSzVwdlhNRlNaMjFnbUdDWDlXYktORjVXbVhEUVFrRmxHUkExc1ZXZVBrN1hjYnhwaGdqS09NeU1CWElQSnBPemFteHc1cFozVWZOblVwclFWVFd1Z2hoRUpTMHNoZm5J?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "EPA’s HFC delay tests Trump’s made in America agenda - E&E News by POLITICO",
-        "source": "E&E News by POLITICO",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTDIwM0gzTU51QlI3Z0ZNQ1ctVkVzbFk4ZVlxUGhINXJrUVl1bGVVVWVVZGNtcnpFbnpFMzJvem94MXZlcFNDNXBtVjlJaGZkNjM3ZDVVTXdfMldRV2EzVGhxaEI4RVJPbUppMTJSNkp2Z1Z1U25nLTZrbTBVTG9GWHNnR2xCNDlndE1j?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "UK",
-        "rank": 26,
-        "title": "Top garden - Smart Edition",
-        "price": "$38.1",
-        "rating": 4.1,
+        "title": "Trump will welcome farmers and ranchers to White House dinner to celebrate trade, tax wins - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUdGOWlEYUpTTmxCd0laMmtaTC1lczBtcWRtOUJMaGlTTE94Unh1dzZubnNaNXJPRHNmeU1JTkp3N1p3MlJyOGRVVlRKWlVocjIxU1RrVjk2NDJNSXJGX2hkSHpYUHBBMFdOR2hST2pFbm1YVmd4RXFhdUg4Zm1jY21ncF81YTZrSTA0cnk5WFBWUktvbVhfUUR3OFFocEpjU1Z3UFctbXhUTUFoYUJHONIBsAFBVV95cUxOUUdGOWlEYUpTTmxCd0laMmtaTC1lczBtcWRtOUJMaGlTTE94Unh1dzZubnNaNXJPRHNmeU1JTkp3N1p3MlJyOGRVVlRKWlVocjIxU1RrVjk2NDJNSXJGX2hkSHpYUHBBMFdOR2hST2pFbm1YVmd4RXFhdUg4Zm1jY21ncF81YTZrSTA0cnk5WFBWUktvbVhfUUR3OFFocEpjU1Z3UFctbXhUTUFoYUJHOA?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "DE",
-        "rank": 21,
+        "rank": 37,
         "title": "Top garden - Pro Edition",
-        "price": "$184.7",
-        "rating": 4.1,
+        "price": "$171.7",
+        "rating": 4.2,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 30,
+        "title": "Top garden - Smart Edition",
+        "price": "$161.1",
+        "rating": 3.9,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "家居园艺"
   }
 }

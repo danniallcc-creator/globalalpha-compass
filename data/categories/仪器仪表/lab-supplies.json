@@ -26,22 +26,22 @@
   ],
   "export_data": {
     "hs_chapter": "70",
-    "total_export_value_usd": 31258377,
-    "total_net_weight_kg": 758377,
+    "total_export_value_usd": 2725887,
+    "total_net_weight_kg": 12225887,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-25"
+    "fetched_at": "2026-06-26"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 53,
-      "trend_direction": "stable",
+      "interest_score": 67,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-25"
+      "fetched_at": "2026-06-26"
     }
   },
   "industry_analysis": {
@@ -54,7 +54,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: NIST溯源校准, FCC(含无线模块), UL(用于危险场合) | EU: CE(MID测量仪器指令2014/32/EU), ATEX(防爆) | JP: 计量法型式承认(法制计量器), JIS工业仪表(自愿)",
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-26",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -219,38 +219,26 @@
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 20.0,
-      "negative_pct": 40.0,
-      "neutral_pct": 40.0,
+      "negative_pct": 20.0,
+      "neutral_pct": 60.0,
       "articles_analyzed": 5
     },
     "top_headlines": [
-      "Duluth Trading taps Amazon for fulfillment on e-commerce giant’s site - Supply Chain Dive",
       "World Laboratory Sieves - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-      "Lab Grown Diamond Wholesale Prices Have Fallen 74% Since 2020. The Margin Is Migrating. - StreetInsi",
       "World Single Vision Spectacle Lenses - Market Analysis, Forecast, Size, Trends and Insights - IndexB",
-      "World Pasteur Transfer Pipettes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
+      "World Pasteur Transfer Pipettes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax",
+      "World PCR Tubes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUURhMGExVVBRM1lIMUlvdlpDM2ViaFdJS0YxbEFnMnpSSW9vZWJzOTRJYUdMQ2pYWFNRZll0VjFLZjlqNmdiSUl3RlRWX3JIU0x2WTVmMDdkWVJfMXlHR0tKdk41bk5WeEFXZFdpMi1kdTVwOGhtQUVuLU8tQUZMVFk3TmhIeDh1YndKOFRrbHN5czNUWV9JTDNWMDdpY2tVb1RzVzdVWEIxazVqSjJpSEZvbw?oc=5",
       "https://news.google.com/rss/articles/CBMigAJBVV95cUxQLUY3a1VGcHRPbEw5anNFdWpPbXJKMGdyNzVrQUJtaDZOM2VtbHpURlFnRlJGdl9NclFrbWhWMXA3MjQzM1NfSFQxekwxTlM0WVlFYVRGeHdBc0xjbVNlbW9zMFRIc3FzOFN2aUNjeWZlSms5aEI2ZXFlNUpFRVZRbXgtNUZIYVQ0RWJQRVIwY2pYWjhNWkM1TnlWWnNDeGVtQkJuS0Z2RXlYdjhfR2NoT3Q1VkRSZ2JPd3NSakN4VDJkbmswOEZ4bWYwaU9fNGZ6RldsOUxTaV9ObE1JOTlpYzE0UXVGbnc4R2VkekdJNnp3X2Q2eW44ZnQyUEZOcnls?oc=5",
-      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTGRrc0xtOTN2dTJUcEpzMFYxSFF4V0c0aGY0b3BMZWpmMEpDMlpaMFY3RDVPVzR2LVpkcWdhYzRTRFYyUlFLRFd5ZDlkWldzLVpHTlUzN2ZIYl9VTjhuTjYwMW1sUV85RGRuY0hxM215bTVyNUVjOTh4VVVXVy15YTVENmRxSHpjdm84Y09GUUtrZ1lrQ09yNnVpT0I4bVo5RFlKT3JFLWRlT0ZUNzZxNU1UeDVET2ttYnJnM3M4SGVYRHgtY05ldGsxYXcyWHJPblh1SWVWSUlLLXhrX2VsWC12VQ?oc=5"
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTGVLdTRXVWFyR1NhRjdiN0FzaGRLQklmUVBtVmtQaFBnQm14S3BYbUhCVnduandKVjJkZmtpSVFld3FzZmd5aWhydlNtRWY0RlFENTFBanQ4YklVQmtleUNZWnp0Vi1xNGV4cGJtdGE1VWNuTERNT1VsRjVUeG9mU3dpdFN1RGtqU1JBand3RmxmWWxKYV9QVXBCSms1RlM1YjA5cmVEVWdxQU16N1J0ZkJJV1dEc3lfMjBocHE2SmZsbkpqUDBGQ28xdHJ0bEVCUkhWN0E5ZFRoYjJMOFEycQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWkxlYWJhZFdYRGVGMkhVZmxHME5GZ0VwV2RfR0xYd3ItaFY1ZTBYSGMzemNkM2ZlQ1lHZ0NMdW9GWVNscXllRmcyNzJnRVNmbnJZMk11TUJGb0VEcHM0azFSUFg2YW9UNE1acEw1b1Rqc0wyTm9uLU9lbWZRSmZacklWMGlTOTUwZDRrQ1RXR09QVlBocFZ6dmIxU3BWazlGek5qUXFNRm1mMjQtRjRtdHdIYnF2NHcwSDFtX2lDWXNVb0g3R2NMT1U1WkVINE1lWHNQekpfaEhnRzdZT0JaaDlJVkM?oc=5"
     ],
-    "fetched_at": "2026-06-25"
+    "fetched_at": "2026-06-26"
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "Steel, aluminum makers face records gauntlet for new US tariff exemptions - Supply Chain Dive",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ1M5aEJMYjItcnVldkF5cmJBNG1MNmVybjVHWldvdF90Q2VzLUViR0owdG1FRlpyS1YtVFZKRHotSjhqRW1OLVpjNFRJNjRGV19Kd0tYNGgtTDdXd3NNQWJoQkpGcjhPa24zdVhjUnoyaFVZLWFiTnFpV3hic3B2MTF2OG05LTI3QXlPQlpSNjhGRi1SbVBxV01jNzQ5bmV1MUF1NGZHbGtIMW9neDMtczBEUWEwRWsz?o",
-        "country": "US",
-        "policy_type": "tariff",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ1M5aEJMYjItcnVldkF5cmJBNG1MNmVybjVHWldvdF90Q2VzLUViR0owdG1FRlpyS1YtVFZKRHotSjhqRW1OLVpjNFRJNjRGV19Kd0tYNGgtTDdXd3NNQWJoQkpGcjhPa24zdVhjUnoyaFVZLWFiTnFpV3hic3B2MTF2OG05LTI3QXlPQlpSNjhGRi1SbVBxV01jNzQ5bmV1MUF1NGZHbGtIMW9neDMtczBEUWEwRWsz?oc=5",
-        "published": "Tue, 23 Jun 2026",
-        "source": "Supply Chain Dive"
-      },
       {
         "title": "Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalates - economy",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rdmdDdHFiZEplWnlhdmRISllKM3Y1eDBiUXJrOHVyOGVsanNvSXdXeGJxRFE1Vnc2MV9mT2JjbTNuam5tWDUzanJYaFdXeW1taGJNR0FFRQ?oc=5\" target=\"_blank\">Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalate",
@@ -264,6 +252,18 @@
         "source": "economy.ac"
       },
       {
+        "title": "South Dakota pauses lab-grown meat sales as U.S. debate over cultivated protein intensifies - Agrolatam",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTjZZajNDc2tNNXRYOUlXZXBhUFkyV1dUbENXZzNJcGdST3RzcGRodTMybDVtQnEtS1dmYVZEYm9ERVFzc2Zwc002OWRFZHphVU1nQ0hwU1ZsT3VYT1R0bjEwUE91VGJVcHdDQTZTZ1pEMHJ2Uy0xRmpiakluaWdVQU56UldaU2dO?oc=5\" target=\"_blank\">South Dakota pauses lab-grown meat sales as",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTjZZajNDc2tNNXRYOUlXZXBhUFkyV1dUbENXZzNJcGdST3RzcGRodTMybDVtQnEtS1dmYVZEYm9ERVFzc2Zwc002OWRFZHphVU1nQ0hwU1ZsT3VYT1R0bjEwUE91VGJVcHdDQTZTZ1pEMHJ2Uy0xRmpiakluaWdVQU56UldaU2dO?oc=5",
+        "published": "Thu, 25 Jun 2026",
+        "source": "Agrolatam"
+      },
+      {
         "title": "Northern America Mass Spectrometry Electrospray Emitters - Market Analysis, Forecast, Size, Trends and Insights - IndexB",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNvQndoWDBEM3hacjRhUVpPbWFoTENib2VFM3lmMXFjdXQ5MjlxdEJnSXU3VkdoeDJiLWJLY1ZpMG52SFhldDV3a05lYjdEXzY4UnAyOVlBeGJ0dXk3Q2NpZVBPazl2eHBUYmJHWkU0OVZSNXo1NEc0SWRFeW9kYXI0TE4tWnd2d2hZU0Q3eFh1cnlqbmx4c3hvWmJRTTNMdDNyOWhDZy1qVkE1UGU3TVBNQzAwNWVtaj",
         "country": "US",
@@ -273,30 +273,6 @@
         "category_relevance": "indirect",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNvQndoWDBEM3hacjRhUVpPbWFoTENib2VFM3lmMXFjdXQ5MjlxdEJnSXU3VkdoeDJiLWJLY1ZpMG52SFhldDV3a05lYjdEXzY4UnAyOVlBeGJ0dXk3Q2NpZVBPazl2eHBUYmJHWkU0OVZSNXo1NEc0SWRFeW9kYXI0TE4tWnd2d2hZU0Q3eFh1cnlqbmx4c3hvWmJRTTNMdDNyOWhDZy1qVkE1UGU3TVBNQzAwNWVtajA1WnFLT1ByVjV2TWZsMWU0eFlOUHdTcVZF?oc=5",
         "published": "Sat, 20 Jun 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Diagnostic Tube Rubber Plugs Market Forecast Points Higher Toward 2035 on Laboratory Automation Expansion - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMHhzcVBRVUhDRFJCNE8ybU42cVdOVzgxY0V2TnJySDFGZ0VFbXZWbGdTRDdaVkZVa2FCMEsteXlwTDFrWE5jcWpDX1laczU1Z1ZjanpYNE8teklxdHI3MFlBNUZmNzZadXZUY3JXaVBzaVp1OE5CeUdzcEpNa3YxbjN3ak8wd0RicDJIUERzRkR6TnhiOU1GYkpVSC11dXdONGdxdk9Id1JFZmhnOE5qMl9Yb2tHU01sQX",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMHhzcVBRVUhDRFJCNE8ybU42cVdOVzgxY0V2TnJySDFGZ0VFbXZWbGdTRDdaVkZVa2FCMEsteXlwTDFrWE5jcWpDX1laczU1Z1ZjanpYNE8teklxdHI3MFlBNUZmNzZadXZUY3JXaVBzaVp1OE5CeUdzcEpNa3YxbjN3ak8wd0RicDJIUERzRkR6TnhiOU1GYkpVSC11dXdONGdxdk9Id1JFZmhnOE5qMl9Yb2tHU01sQXVUYkJzamhuNnE5ZTBzYmR2dUlqZmoy?oc=5",
-        "published": "Wed, 24 Jun 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Africa Sterile Microcentrifuge Tube Sets - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXpFQlZsMmF4OF9acTROaTZYQTBmemVLOVhnX3BJOTFGMmIxZHRhSk5DTU95Y0tzdGhBcTE0SGFfNmdCTWdTSDlvVVRqU0FVeUtFZzJDNFZ0RDVBcUZlUjNESlZrekJUVFRGRURNakJpdkNLTTdGdUF3QXhId2ZXSXVSTXVKck16azJMakFWWFRJSTNPTTlfNHltQVNwQ2FFQnhKT2FHRjJaX2RodFUxU08wY3BWR01tNm",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXpFQlZsMmF4OF9acTROaTZYQTBmemVLOVhnX3BJOTFGMmIxZHRhSk5DTU95Y0tzdGhBcTE0SGFfNmdCTWdTSDlvVVRqU0FVeUtFZzJDNFZ0RDVBcUZlUjNESlZrekJUVFRGRURNakJpdkNLTTdGdUF3QXhId2ZXSXVSTXVKck16azJMakFWWFRJSTNPTTlfNHltQVNwQ2FFQnhKT2FHRjJaX2RodFUxU08wY3BWR01tNm9kRTRn?oc=5",
-        "published": "Tue, 23 Jun 2026",
         "source": "IndexBox"
       },
       {
@@ -324,6 +300,18 @@
         "source": "IndexBox"
       },
       {
+        "title": "World Protective Eyewear Disposable - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMnE4RWg5cXdqZnhkSHJLdVlIZkVPV1cxNUdxb0lwMnpsdEZoYW9uRDY4dENpaXU2ZHQ0NF8tVW9VdUdjOXFQNlB1bjlUZXcxUkhscS00WDZXdG1jV3FsVzRqdTBQbHpqclgwaEUtaHh5WUlMcldBSHZ1Z3ZlQjE2b3FVYXF2ZTVqV01TVnItS2pDSmp2YnZaTFB4eGxQejA4akZtdkx4QzQwSlhudXVGMVdxXzN6emJJUW",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMnE4RWg5cXdqZnhkSHJLdVlIZkVPV1cxNUdxb0lwMnpsdEZoYW9uRDY4dENpaXU2ZHQ0NF8tVW9VdUdjOXFQNlB1bjlUZXcxUkhscS00WDZXdG1jV3FsVzRqdTBQbHpqclgwaEUtaHh5WUlMcldBSHZ1Z3ZlQjE2b3FVYXF2ZTVqV01TVnItS2pDSmp2YnZaTFB4eGxQejA4akZtdkx4QzQwSlhudXVGMVdxXzN6emJJUWZIaklMX0VUQXZ4eUlaNmtkdEg3OFhNZl9zQzBYVXpkQzFtQkpIUDVaT0hiVzgwak51a3FTaVBvUnU4NjBudA?oc=5",
+        "published": "Thu, 25 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
         "title": "World Biocompatibility Assessment Test Materials - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd3I3N3NKU1JxZnVKZGhRUlAwN0ZBU1NhRV9SMUVaSWhNc1JCNzk0QjJBUmxBd0JXTEdRTDl1Z0FVOGtLaXBQbnhaX3B4Ql9VREdreGZ6QzdCdWMxSk9wdzRNVEl4QWZ3c09ycVBaY0FNanhUR3JmN1pBR1U3NEJtTnBMX280Y0VmMm1LR093dUhSVHcwVnFpX3lUS0phVVlTRnhGVy1SVS02bDNZdWFfR0t5Nm1XT2U2bV",
         "country": "US",
@@ -348,28 +336,39 @@
         "source": "IndexBox"
       },
       {
-        "title": "World Temperature Monitoring Adapters - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVE3MkJLVnhQM0F3dGJBeF9YTzczLWpTXzA5VHhQVWxaaDUzamZSeU1QSmJkZ1NuQ3VrcVBBc01oNkVuQUV4OG0zQV9xWWNmQU92TzFGbzVOVzdmQkU5V0ZTQnRLeUhsNjJMRldla3g1SllBSkJhQy1CNEJXWUl6clhCeGdMMmxpelgxbDdRVGVDZTRmWHFoSjRERkIwQkF6QTVabVZrd0VLQS1RSmpfV1dySjhHM3M1dU",
-        "country": "EU",
+        "title": "World Respiratory Mucus Collection Swabs - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU9CWjNPbl9LaFNZaGF3c1pUd3JzdW52b2V6UWFBM0hpVlNPUVdDZG1tcVNiRzhiSU9GMllnLUdDR2tRVFhFRWw4SDFnWmtpczlLU3NRVkVWMVllcVJUTy1aOVQ3cnV3aXJKcDM3cUpTVGl2NG1YbGlvWF95bWgxbWJ4SktiRmdyT01ub3p2alRZTXpZRUpqUzJfVUlZdEtUQ2t5RlhhbjVTNVAxVmVsemVnV2F1VXlSck",
+        "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVE3MkJLVnhQM0F3dGJBeF9YTzczLWpTXzA5VHhQVWxaaDUzamZSeU1QSmJkZ1NuQ3VrcVBBc01oNkVuQUV4OG0zQV9xWWNmQU92TzFGbzVOVzdmQkU5V0ZTQnRLeUhsNjJMRldla3g1SllBSkJhQy1CNEJXWUl6clhCeGdMMmxpelgxbDdRVGVDZTRmWHFoSjRERkIwQkF6QTVabVZrd0VLQS1RSmpfV1dySjhHM3M1dUE?oc=5",
-        "published": "Thu, 25 Jun 2026",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU9CWjNPbl9LaFNZaGF3c1pUd3JzdW52b2V6UWFBM0hpVlNPUVdDZG1tcVNiRzhiSU9GMllnLUdDR2tRVFhFRWw4SDFnWmtpczlLU3NRVkVWMVllcVJUTy1aOVQ3cnV3aXJKcDM3cUpTVGl2NG1YbGlvWF95bWgxbWJ4SktiRmdyT01ub3p2alRZTXpZRUpqUzJfVUlZdEtUQ2t5RlhhbjVTNVAxVmVsemVnV2F1VXlSck15alRR?oc=5",
+        "published": "Tue, 23 Jun 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "European Union Refrigerated Bench Centrifuges - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPdTRBRTg3Z0NDclY5ZnlVNHYzYjlfcnNMV2I2NS1fNl9PZk8tV3dCeXV6Z2k3cWxwSENLWDFXdVRIRlppamV3UHBSMGlxT19ERHdnclc4SGdaeWFIM2tJRHUtSDdJYmRmbklEYmhhZTc4c3BmRWNuS2FTSXYtV05RaThNb1U5c2RzZUl4ZGlTV1JVQjhTbF8teDUzLWU4bTl5enZhTlV5bzVHaUVaZ2h5Z2hqR1VDT1l0b3",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdTRBRTg3Z0NDclY5ZnlVNHYzYjlfcnNMV2I2NS1fNl9PZk8tV3dCeXV6Z2k3cWxwSENLWDFXdVRIRlppamV3UHBSMGlxT19ERHdnclc4SGdaeWFIM2tJRHUtSDdJYmRmbklEYmhhZTc4c3BmRWNuS2FTSXYtV05RaThNb1U5c2RzZUl4ZGlTV1JVQjhTbF8teDUzLWU4bTl5enZhTlV5bzVHaUVaZ2h5Z2hqR1VDT1l0b3pfV1lHUHBEYVkx?oc=5",
+        "published": "Sat, 20 Jun 2026",
         "source": "IndexBox"
       }
     ],
     "country_summary": {
-      "US": {
+      "EU": {
         "trend": "neutral",
         "key_policies": [
-          "compliance",
-          "tariff"
+          "compliance"
         ],
         "impact": "neutral"
       },
-      "EU": {
+      "US": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
@@ -391,27 +390,7 @@
       "US": {
         "value_usd": 3205910138,
         "yoy": null,
-        "share": 19.4
-      },
-      "DE": {
-        "value_usd": 8267212323.771993,
-        "yoy": 72.9,
-        "share": 50.1
-      },
-      "JP": {
-        "value_usd": 1639411666.834,
-        "yoy": null,
-        "share": 9.9
-      },
-      "KR": {
-        "value_usd": 2164174289,
-        "yoy": null,
-        "share": 13.1
-      },
-      "AU": {
-        "value_usd": 1224344289.8310003,
-        "yoy": null,
-        "share": 7.4
+        "share": 100.0
       }
     }
   }

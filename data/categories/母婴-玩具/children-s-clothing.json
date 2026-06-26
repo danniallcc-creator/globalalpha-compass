@@ -346,7 +346,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "儿童服装：海外社媒「baby trending now」增速 246%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Stuffed Animal and Plush Toys Market...」，出口 YoY +2%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "儿童服装：海外社媒「baby market 2026」增速 254%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，daily-sun.com关注「All export-oriented sectors to get bond...」，出口 YoY +2%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -360,45 +360,52 @@
       "印度 BIS 强制注册 → 14 亿人口市场 儿童服装 准入",
       "日本 PSE 电气安全认证 → 儿童服装 进入日本必备",
       "儿童服装主要流向 美国 / 日本 / 德国，出口集中度较高",
-      "海外社媒「baby trending now」增速 246% 领跑 → 儿童服装社媒种草热度爆发"
+      "海外社媒「baby market 2026」增速 254% 领跑 → 儿童服装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "baby trending now",
-        "growth": 246.0,
-        "vol": "763K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "toys viral hack",
-        "growth": 234.0,
-        "vol": "561K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "baby price trend",
-        "growth": 217.0,
-        "vol": "518K",
+        "kw": "baby market 2026",
+        "growth": 254.5,
+        "vol": "607K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "toys new arrival",
+        "growth": 246.5,
+        "vol": "262K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "infant viral",
+        "growth": 239.5,
+        "vol": "7K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "baby market 2026",
+        "growth": 251.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "toys b2b export",
-        "growth": 134.0,
+        "growth": 207.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "infant wholesale supplier",
-        "growth": 81.5,
+        "dim": "媒体",
+        "title": "All export-oriented sectors to get bond facility like RMG - daily-sun.com",
+        "source": "daily-sun.com",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Jd0NvV1hkZlNqSWxWN3daemY1MFNra01KQk1TVEVRVWVHR3lRYzJfTEJpY2tqUV82YmdKdThra21GWXpJQjkyUHN3WVE5SU5OZkE?oc=5",
         "hits": 0
       },
       {
@@ -406,13 +413,6 @@
         "title": "Stuffed Animal and Plush Toys Market Size, Share, Report, 2034 - Fortune Business Insights",
         "source": "Fortune Business Insights",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanpuZ0dJQTFWVnh3NnVUa2lEMHprMFJxTlpwVG5pbW5zNDV6QzJQd2ZGQ29xTEd5UmpITmZoVXdObVFsSkY4bUFZS1FvZDhMQThJcmgyQUp4b0NRdkZMaGJNbkJ2U3MtbWJhTHJqUGhnZHg5SmcyTWtxV3hWbjU0M1Z3ajYxN29QX3lZ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Temu Hit With Fine in E.U. Over Sales of Unsafe Goods - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SR1p4UTdncS1iRWNIU2llSEtCV3ZrZFVOVVJrZ2NOckhhRjJHUXM5eGJmY3lhNExRSHQ5ckVhX1lDaUxxd01oWHdWbkJjOG5zeHZvY3ZfVkFIX2RlQTBMdlBwajNIb1Z2d3h1TUZKNFNab0pQZjBtSVdVS0ZxUQ?oc=5",
         "hits": 0
       },
       {
@@ -435,7 +435,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "母婴&玩具"
   }
 }

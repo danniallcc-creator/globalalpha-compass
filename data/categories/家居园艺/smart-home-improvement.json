@@ -484,7 +484,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "智能家居改造：海外社媒「garden unboxing」增速 244%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Market Research Future关注「Home Decor Market Share, Growth,...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "智能家居改造：海外社媒「home decor breaking」增速 248%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Fox News关注「Trump will welcome farmers and ranchers...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -496,59 +496,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 智能家居改造 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 智能家居改造需求强劲",
-      "海外社媒「garden unboxing」增速 244% 领跑 → 智能家居改造社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 248% 领跑 → 智能家居改造社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "garden unboxing",
-        "growth": 244.0,
-        "vol": "415K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor new arrival",
-        "growth": 240.5,
-        "vol": "335K",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 248.5,
+        "vol": "358K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor market 2026",
-        "growth": 238.5,
-        "vol": "685K",
+        "growth": 243.5,
+        "vol": "204K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "home decor #trending",
+        "growth": 242.5,
+        "vol": "516K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 235.5,
+        "growth": 240.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "home decor wholesale supplier",
-        "growth": 190.5,
+        "kw": "garden b2b export",
+        "growth": 194.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Home Decor Market Share, Growth, Analysis, Forecast - 2035 - Market Research Future",
-        "source": "Market Research Future",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NNnZuN3pQNm13YnFlbWNqSzVwdlhNRlNaMjFnbUdDWDlXYktORjVXbVhEUVFrRmxHUkExc1ZXZVBrN1hjYnhwaGdqS09NeU1CWElQSnBPemFteHc1cFozVWZOblVwclFWVFd1Z2hoRUpTMHNoZm5J?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "EPA’s HFC delay tests Trump’s made in America agenda - E&E News by POLITICO",
-        "source": "E&E News by POLITICO",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTDIwM0gzTU51QlI3Z0ZNQ1ctVkVzbFk4ZVlxUGhINXJrUVl1bGVVVWVVZGNtcnpFbnpFMzJvem94MXZlcFNDNXBtVjlJaGZkNjM3ZDVVTXdfMldRV2EzVGhxaEI4RVJPbUppMTJSNkp2Z1Z1U25nLTZrbTBVTG9GWHNnR2xCNDlndE1j?oc=5",
+        "title": "Trump will welcome farmers and ranchers to White House dinner to celebrate trade, tax wins - Fox News",
+        "source": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUdGOWlEYUpTTmxCd0laMmtaTC1lczBtcWRtOUJMaGlTTE94Unh1dzZubnNaNXJPRHNmeU1JTkp3N1p3MlJyOGRVVlRKWlVocjIxU1RrVjk2NDJNSXJGX2hkSHpYUHBBMFdOR2hST2pFbm1YVmd4RXFhdUg4Zm1jY21ncF81YTZrSTA0cnk5WFBWUktvbVhfUUR3OFFocEpjU1Z3UFctbXhUTUFoYUJHONIBsAFBVV95cUxOUUdGOWlEYUpTTmxCd0laMmtaTC1lczBtcWRtOUJMaGlTTE94Unh1dzZubnNaNXJPRHNmeU1JTkp3N1p3MlJyOGRVVlRKWlVocjIxU1RrVjk2NDJNSXJGX2hkSHpYUHBBMFdOR2hST2pFbm1YVmd4RXFhdUg4Zm1jY21ncF81YTZrSTA0cnk5WFBWUktvbVhfUUR3OFFocEpjU1Z3UFctbXhUTUFoYUJHOA?oc=5",
         "hits": 0
       },
       {
@@ -571,7 +564,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "家居园艺"
   }
 }

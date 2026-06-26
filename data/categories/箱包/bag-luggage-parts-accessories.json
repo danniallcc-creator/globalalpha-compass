@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "箱包配件：海外社媒「luggage review 2026」增速 256%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，EIN News关注「Monolayer Polypropylene (Mono-PP) Quad...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "箱包配件：海外社媒「backpack market alert」增速 254%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，EIN News关注「Monolayer Polypropylene (Mono-PP) Quad...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,59 +100,59 @@
       "欧盟 CE 标志强制准入 → 箱包配件 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 箱包配件 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 箱包配件需求强劲",
-      "海外社媒「luggage review 2026」增速 256% 领跑 → 箱包配件社媒种草热度爆发"
+      "海外社媒「backpack market alert」增速 254% 领跑 → 箱包配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "luggage review 2026",
-        "growth": 256.5,
-        "vol": "262K",
+        "platform": "x",
+        "kw": "backpack market alert",
+        "growth": 254.0,
+        "vol": "597K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "luggage price trend",
-        "growth": 245.0,
-        "vol": "360K",
+        "growth": 251.0,
+        "vol": "453K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "bag tiktok made me buy",
+        "platform": "youtube",
+        "kw": "luggage review 2026",
         "growth": 242.5,
-        "vol": "102K",
+        "vol": "447K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "bag wholesale supplier",
+        "growth": 215.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "luggage market 2026",
-        "growth": 148.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 132.0,
+        "growth": 172.5,
         "hits": 0
       },
       {
         "dim": "媒体",
         "title": "Monolayer Polypropylene (Mono-PP) Quad Seal Bag Market Trends And Forecast Analysis Reveal Strong Long-Term - EIN News",
         "source": "EIN News",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcE16MWx5WEdhM0UxX3V4cXlnczVVV2NMdWdmM2FQYVB2MVV0TXpDSkI4OTQ5eHdLMkxNSkozUm93Q2pWRmUyOU95anM3Nmp3MkFwSDN3TFRZYnJBeGFUQWo5dUtXOUY5VTl2UHBvaTNnRzA5ck1xbFE4azFtTmtROGpuWVU0R3RvbWZDeS05YWxNS3Npby1rVG10em00c2RlaEpVUUVSTTE3WUFyZFFIZl9IbFczUk9VcEdydXBra21hcFhhRkRpWjRrQ05CQ1IzOGxlWGNDc1BwWmE0Yk9QaUxndURPN2pqMlNXVG11Z9IB9AFBVV95cUxPN0JjSEFqVXJ2YktJLWVDdVJCQUN0WXpCWmtZLTh4SGExOC1qOXRtZ1JzWGQ4YnpOd2pMTUZRYUlWbkNidVRGdVotcTU2SG5TVjdPSlJSNHVqcjFOV0tSNjVSUkxuYVd1WUtnWFgzSUJGN0pfSHNWRWk1TXNrQjJTdjNubHlxa2JvT0xiMjEtSVhpUjZNOVpxdlRRYS03OUUzWUVSRmxqNzVrQU1FcWZaMFdRLVI3Vk9hU3Rqc2xDaGhOVDJ0ZXVvMTQ5cG1ZMnY0VExIOTNDN2FSTktQQkxBME5fVUJWU0JjcVY4ejd0Y3NzZE5s?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN0JjSEFqVXJ2YktJLWVDdVJCQUN0WXpCWmtZLTh4SGExOC1qOXRtZ1JzWGQ4YnpOd2pMTUZRYUlWbkNidVRGdVotcTU2SG5TVjdPSlJSNHVqcjFOV0tSNjVSUkxuYVd1WUtnWFgzSUJGN0pfSHNWRWk1TXNrQjJTdjNubHlxa2JvT0xiMjEtSVhpUjZNOVpxdlRRYS03OUUzWUVSRmxqNzVrQU1FcWZaMFdRLVI3Vk9hU3Rqc2xDaGhOVDJ0ZXVvMTQ5cG1ZMnY0VExIOTNDN2FSTktQQkxBME5fVUJWU0JjcVY4ejd0Y3NzZE5s0gH0AUFVX3lxTE83QmNIQWpVcnZiS0ktZUN1UkJBQ3RZekJaa1ktOHhIYTE4LWo5dG1nUnNYZDhiek53akxNRlFhSVZuQ2J1VEZ1Wi1xNTZIblNWN09KUlI0dWpyMU5XS1I2NVJSTG5hV3VZS2dYWDNJQkY3Sl9Ic1ZFaTVNc2tCMlN2M25seXFrYm9PTGIyMS1JWGlSNk05WnF2VFFhLTc5RTNZRVJGbGo3NWtBTUVxZlowV1EtUjdWT2FTdGpzbENoaE5UMnRldW8xNDlwbVkydjRUTEg5M0M3YVJOS1BCTEEwTl9VQlZTQmNxVjh6N3Rjc3NkTmw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How fertilizer policies could exacerbate Hormuz price shocks - IFPRI",
-        "source": "IFPRI",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDBsTFNOQ091ZkdDWnJBd3ExWDZvN2JfTnFsVUV3RDNweFV2Y1FJY1luQUtuMmFlanRsOG44dFZFMFVJa3Y1bHZhZFRiRTlrUFhqNWVYR1RlWUtTbm1PSzhvS2hkcXdOLTFPeFhuY2ItX3Q4c2t1QWFHMU1HSGFlVGdqTzNBSEZsbkpFd1FDV3dadw?oc=5",
+        "title": "Northern America Dust Collection Filter Bag Polyester - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOU5XcklITi1Ya1hjbEFMT2hjZDA1aTYxR1NJQTBXRmhFWm02bDlfR0tmUWpNLUJqY0RYNWNTQXZnNFV1dHpQSWdsMVQxQnlmU2dxVDJSNmVqMDFRNUJKeHVPZmYtcklKMEJRcjNoUE1BTXVVZEtsMVd5TkpfV2lSLXZwZDdGeGo0R1VtVE5JTWFYM2Jfck9zT2xNX0UtNkJNTmtmTlBFQ1BVMEhaclE1bmNIQmNHeDVQWDZFVWlDU0k3amFVUGtwSG9HUDdsQ3c?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "箱包"
   }
 }

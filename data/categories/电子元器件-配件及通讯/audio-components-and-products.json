@@ -278,7 +278,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "电声器件与产品：海外社媒「electronic component unboxing」增速 248%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "电声器件与产品：海外社媒「electronic component b2b export」增速 227%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -292,45 +292,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电声器件与产品 成主流",
       "欧盟 CE 标志强制准入 → 电声器件与产品 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 电声器件与产品需求强劲",
-      "海外社媒「electronic component unboxing」增速 248% 领跑 → 电声器件与产品社媒种草热度爆发"
+      "海外社媒「electronic component b2b export」增速 227% 领跑 → 电声器件与产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electronic component unboxing",
-        "growth": 248.0,
-        "vol": "711K",
+        "platform": "google",
+        "kw": "electronic component b2b export",
+        "growth": 227.0,
+        "vol": "440K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "5g #trending",
-        "growth": 240.5,
-        "vol": "618K",
+        "platform": "x",
+        "kw": "semiconductor industry news",
+        "growth": 225.0,
+        "vol": "322K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chip tiktok made me buy",
-        "growth": 234.5,
-        "vol": "629K",
+        "platform": "google",
+        "kw": "5g industry report",
+        "growth": 220.5,
+        "vol": "428K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 127.0,
+        "growth": 224.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electronic components sustainable manufacturing",
-        "growth": 88,
+        "source": "Google Trends",
+        "kw": "chip wholesale supplier",
+        "growth": 142.5,
         "hits": 0
       },
       {
@@ -367,7 +367,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

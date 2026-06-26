@@ -191,7 +191,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "消防用品：海外社媒「ppe aesthetic」增速 243%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "消防用品：海外社媒「ppe unboxing」增速 221%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -203,45 +203,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 消防用品 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 消防用品需求强劲",
-      "海外社媒「ppe aesthetic」增速 243% 领跑 → 消防用品社媒种草热度爆发"
+      "海外社媒「ppe unboxing」增速 221% 领跑 → 消防用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "ppe aesthetic",
-        "growth": 243.0,
-        "vol": "575K",
+        "platform": "youtube",
+        "kw": "ppe unboxing",
+        "growth": 221.0,
+        "vol": "662K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "ppe trending now",
-        "growth": 242.0,
-        "vol": "238K",
+        "kw": "safety gear tiktok made me buy",
+        "growth": 216.5,
+        "vol": "290K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "ppe market alert",
-        "growth": 239.0,
-        "vol": "469K",
+        "platform": "youtube",
+        "kw": "safety gear tutorial",
+        "growth": 213.5,
+        "vol": "745K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ppe b2b export",
-        "growth": 197.0,
+        "growth": 118.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "safety gear wholesale supplier",
-        "growth": 97.5,
+        "growth": 114.5,
         "hits": 0
       },
       {
@@ -278,7 +278,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "安全用品"
   }
 }

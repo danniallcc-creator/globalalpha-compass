@@ -140,7 +140,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "车辆工具：海外社媒「auto accessory #trending」增速 256%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "车辆工具：海外社媒「auto accessory tutorial」增速 246%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -154,45 +154,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 车辆工具 成主流",
       "欧盟 CE 标志强制准入 → 车辆工具 出口需通过合规认证",
       "车辆工具主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「auto accessory #trending」增速 256% 领跑 → 车辆工具社媒种草热度爆发"
+      "海外社媒「auto accessory tutorial」增速 246% 领跑 → 车辆工具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto accessory #trending",
-        "growth": 255.5,
-        "vol": "100K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto accessory viral",
-        "growth": 253.5,
-        "vol": "365K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "auto accessory top 10",
-        "growth": 232.5,
-        "vol": "454K",
+        "kw": "auto accessory tutorial",
+        "growth": 246.5,
+        "vol": "271K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto accessory tiktok made me buy",
+        "growth": 245.5,
+        "vol": "444K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "car gadget viral hack",
+        "growth": 242.0,
+        "vol": "217K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory wholesale supplier",
-        "growth": 203.5,
+        "growth": 232.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "car gadget b2b export",
-        "growth": 127.0,
+        "growth": 188.0,
         "hits": 0
       },
       {
@@ -204,9 +204,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China Is Exporting Its Factories Across the World and Spooking the Competition - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMkJrR3ZwUG5uYVhkRW5ZZ2FieFFXUERQTUZJWnNGNDB5SURXSW5BU1VBaWVZODA4aXZ1Q2gtWV9nTEJFajJPVTgzbk9rMkJ5dkYyaGVwZDJTTEFseFJpb19FV2hmSTNJVEVLelRzUm5FNTdXamE4TVVmaXdtcmcwREFLYUgxS1RVQmpGN3YwaHQ2dWNoSUdiaC1QUlVMNmxVcHZubzJYNzg1WC1zZElaWlJLa3o3TEpWVTVaaENTdw?oc=5",
+        "title": "Auto exports down nearly 6% on auto parts supply disruptions - The Korea Herald",
+        "source": "The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52bnR6VDh0dEpWRDFTWHpWcEpOclBaVlByWmIzdF80V1JtU2xFdVJyclhwbGNmV0dteFJsYWpqUHMzMm12aXgxbTRCX05IeE8zQVJhR3JMQQ?oc=5",
         "hits": 0
       },
       {
@@ -229,7 +229,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

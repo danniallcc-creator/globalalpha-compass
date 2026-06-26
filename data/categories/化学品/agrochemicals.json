@@ -84,22 +84,22 @@
   ],
   "export_data": {
     "hs_chapter": "31",
-    "total_export_value_usd": 50436853,
-    "total_net_weight_kg": 19936853,
+    "total_export_value_usd": 20609560,
+    "total_net_weight_kg": 10109560,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-25"
+    "fetched_at": "2026-06-26"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 70,
-      "trend_direction": "up",
+      "interest_score": 42,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-25"
+      "fetched_at": "2026-06-26"
     }
   },
   "industry_analysis": {
@@ -112,7 +112,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；农用化学品(Agrochemicals)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-26",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -383,87 +383,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 26763320038,
-      "total_kg": 1863320038,
-      "yoy_growth": 28,
+      "total_usd": 14479154759,
+      "total_kg": 1579154759,
+      "yoy_growth": 29,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 4817397606,
-        "yoy": -10,
-        "share": 18.0
+        "value_usd": 2027081666,
+        "yoy": 16,
+        "share": 14.0
       },
       "DE": {
-        "value_usd": 4656817686,
-        "yoy": 25,
-        "share": 17.4
+        "value_usd": 1954685892,
+        "yoy": -7,
+        "share": 13.5
       },
       "JP": {
-        "value_usd": 4469474446,
-        "yoy": 16,
-        "share": 16.7
+        "value_usd": 1896769273,
+        "yoy": 26,
+        "share": 13.1
       },
       "GB": {
-        "value_usd": 4282131206,
-        "yoy": 27,
-        "share": 16.0
+        "value_usd": 1824373499,
+        "yoy": -6,
+        "share": 12.6
       },
       "KR": {
-        "value_usd": 4121551285,
-        "yoy": -19,
-        "share": 15.4
+        "value_usd": 1766456880,
+        "yoy": -10,
+        "share": 12.2
       },
       "AU": {
-        "value_usd": 3960971365,
-        "yoy": 35,
-        "share": 14.8
+        "value_usd": 1708540261,
+        "yoy": -11,
+        "share": 11.8
       },
       "IN": {
-        "value_usd": 454976440,
-        "yoy": -20,
-        "share": 1.6999999999999922
+        "value_usd": 1636144487,
+        "yoy": 29,
+        "share": 11.3
       },
       "BR": {
-        "value_usd": 0,
-        "yoy": 19,
-        "share": 0.1
+        "value_usd": 1563748713,
+        "yoy": 21,
+        "share": 10.8
       },
       "SA": {
-        "value_usd": 0,
-        "yoy": 13,
-        "share": 0.1
+        "value_usd": 101354083,
+        "yoy": -9,
+        "share": 0.6999999999999922
       },
       "FR": {
         "value_usd": 0,
-        "yoy": 7,
+        "yoy": -3,
         "share": 0.1
       },
       "IT": {
         "value_usd": 0,
-        "yoy": -7,
+        "yoy": 16,
         "share": 0.1
       },
       "NL": {
         "value_usd": 0,
-        "yoy": 29,
+        "yoy": 5,
         "share": 0.1
       },
       "CA": {
         "value_usd": 0,
-        "yoy": -5,
+        "yoy": 26,
         "share": 0.1
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 9,
+        "yoy": 6,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": 39,
+        "yoy": 10,
         "share": 0.1
       }
     }

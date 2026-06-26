@@ -343,7 +343,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "汽车引擎：海外社媒「auto parts viral」增速 252%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "汽车引擎：海外社媒「auto parts industry report」增速 246%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "OEM 原厂规格 / 改装升级款 / 赛车竞技款",
       "成分": "高强度钢 / 锻造铝合金 / 碳纤维 / 陶瓷",
@@ -357,45 +357,45 @@
       "欧盟 CE 标志强制准入 → 汽车引擎 出口需通过合规认证",
       "沙特 SASO / SABER 注册 → 中东市场 汽车引擎 准入门槛",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 汽车引擎需求强劲",
-      "海外社媒「auto parts viral」增速 252% 领跑 → 汽车引擎社媒种草热度爆发"
+      "海外社媒「auto parts industry report」增速 246% 领跑 → 汽车引擎社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto parts viral",
-        "growth": 252.5,
-        "vol": "479K",
+        "platform": "google",
+        "kw": "auto parts industry report",
+        "growth": 245.5,
+        "vol": "629K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto parts new arrival",
-        "growth": 221.5,
-        "vol": "492K",
+        "platform": "google",
+        "kw": "auto parts wholesale supplier",
+        "growth": 232.5,
+        "vol": "180K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts trending now",
-        "growth": 219.0,
-        "vol": "656K",
+        "platform": "youtube",
+        "kw": "auto parts unboxing",
+        "growth": 231.0,
+        "vol": "179K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts b2b export",
-        "growth": 195.0,
+        "kw": "auto parts wholesale supplier",
+        "growth": 229.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 134.5,
+        "growth": 210.5,
         "hits": 0
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "domain": "auto_parts",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "汽车零配件"
   }
 }

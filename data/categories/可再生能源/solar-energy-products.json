@@ -392,7 +392,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「battery trending now」增速 234%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「China's May shipments to U.S. clock...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "太阳能产品：海外社媒「energy storage tiktok made me buy」增速 242%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，BloombergNEF关注「Global Clean-Energy Trade Rebounds to...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -406,45 +406,52 @@
       "印度 BIS 强制注册 → 14 亿人口市场 太阳能产品 准入",
       "日本 PSE 电气安全认证 → 太阳能产品 进入日本必备",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 太阳能产品需求强劲",
-      "海外社媒「battery trending now」增速 234% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「energy storage tiktok made me buy」增速 242% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "battery trending now",
-        "growth": 234.0,
-        "vol": "558K",
+        "kw": "energy storage tiktok made me buy",
+        "growth": 242.5,
+        "vol": "367K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "energy storage tiktok made me buy",
-        "growth": 232.5,
-        "vol": "20K",
+        "platform": "x",
+        "kw": "solar analyst",
+        "growth": 242.5,
+        "vol": "461K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "solar #trending",
-        "growth": 229.5,
-        "vol": "593K",
+        "kw": "energy storage viral",
+        "growth": 228.5,
+        "vol": "553K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "energy storage wholesale supplier",
-        "growth": 139.5,
+        "kw": "photovoltaic b2b export",
+        "growth": 197.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy supply chain resilience",
-        "growth": 89,
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 171.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Global Clean-Energy Trade Rebounds to $479 Billion in 2025 Despite Tariffs and Geopolitical Turmoil: BloombergNEF - BloombergNEF",
+        "source": "BloombergNEF",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOT2R1UHNUbm1SWU13Q09uVm8tUjc2aEZkaDFuclhyeGJTTUZNUkVSRzY0ZDFvLXZLTGlLWXMwbTVteHNwbjdPY0lpTlVDZFhkbERRdDlucnpRZXZmNFY4b1BMY3Rqd25TbGVvclRjNG5TRHo0OW8xQ1M5RENGREsxUzFCLVkxa3ZSX1N5eEo3a09ET1lhaTFKa0U0WDhXU3VpQWpudEFRWjJVbEVrbmJuTHVjNGFqdi1WNUtiV3dkQ1FfamFSRlNqMmRWUFVHQ0FEdlNQbENQNXBNSDZXdjhYU1lIeWMtYjFsMnc0MjVR?oc=5",
         "hits": 0
       },
       {
@@ -452,13 +459,6 @@
         "title": "China's May shipments to U.S. clock 5-year high growth at 35% as overall exports jump on tech boost - CNBC",
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KX2VUbS1UaWJkMmM0M2xMLUt2OGNmZTFKRVl2R2ttLVI4cm5kaGJlR0ZKTjZxWWJqX0VlMDRaTlZYYWRUd05rQzM0Sm9GMnZJb1VvSVRIbk9ySGFRS0c5M0NzUnFWSXZZU1RKU01kYllfMkVobmQ3X1pnOUtxQdIBgwFBVV95cUxNY2pmR0Zma20ycmxjb0ZGZkRDeWNBbVl2S2N2TWItOUdKMGc3M1BFa1c3OV9feXplYUo5LTVJWEdsaGJzYUwwX0VaRHYwMDhURnlSYmtHbnRaeUdtVk4ySlpxM25vM0R0Uy1wWWdTdG5LT2FUcmdrU0J1NmhsQ2RQdDBGbw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The Importance of Clear and Consistent Climate Policy - The Regulatory Review",
-        "source": "The Regulatory Review",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb2RwRWZQeXNzeTZmSUVsbWJ1RlRCcy1TV1FaOTBxcHk4aGIzVHBnRlV1Rmp4TDF5MlNqcjgzbE1DRUJJM1RaN0RkOXJrNW8wd3JpQlQyekhJZEtEQjMzeV9hbmg2RERPNHF3dm9pSG9xdktnNTNKTDIxVzJUVWxmM1NRLU8wbGwydVNPaXo0ZVgyUTJiRTlwZlpWRDZxV2pXVXJj?oc=5",
         "hits": 0
       },
       {
@@ -481,7 +481,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "可再生能源"
   }
 }

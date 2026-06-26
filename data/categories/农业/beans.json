@@ -39,22 +39,22 @@
   ],
   "export_data": {
     "hs_chapter": "71",
-    "total_export_value_usd": 45951582,
-    "total_net_weight_kg": 15451582,
+    "total_export_value_usd": 38488516,
+    "total_net_weight_kg": 7988516,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-25"
+    "fetched_at": "2026-06-26"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 86,
-      "trend_direction": "stable",
+      "interest_score": 82,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-25"
+      "fetched_at": "2026-06-26"
     }
   },
   "industry_analysis": {
@@ -67,7 +67,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；豆类(Beans)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-26",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -336,88 +336,88 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 9806972800,
-      "total_kg": 906972800,
-      "yoy_growth": -10,
+      "total_usd": 29791752484,
+      "total_kg": 891752484,
+      "yoy_growth": -6,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 490348640,
-        "yoy": 13,
-        "share": 5.0
+        "value_usd": 4170845347,
+        "yoy": -6,
+        "share": 14.0
       },
       "DE": {
-        "value_usd": 490348640,
-        "yoy": 28,
-        "share": 5.0
+        "value_usd": 4021886585,
+        "yoy": 8,
+        "share": 13.5
       },
       "JP": {
-        "value_usd": 490348640,
-        "yoy": -2,
-        "share": 5.0
+        "value_usd": 3902719575,
+        "yoy": 21,
+        "share": 13.1
       },
       "GB": {
-        "value_usd": 490348640,
-        "yoy": 8,
-        "share": 5.0
+        "value_usd": 3753760812,
+        "yoy": 14,
+        "share": 12.6
       },
       "KR": {
-        "value_usd": 490348640,
-        "yoy": 11,
-        "share": 5.0
+        "value_usd": 3634593803,
+        "yoy": 31,
+        "share": 12.2
       },
       "AU": {
-        "value_usd": 490348640,
-        "yoy": 25,
-        "share": 5.0
+        "value_usd": 3515426793,
+        "yoy": 8,
+        "share": 11.8
       },
       "IN": {
-        "value_usd": 490348640,
-        "yoy": 8,
-        "share": 5.0
+        "value_usd": 3366468030,
+        "yoy": 19,
+        "share": 11.3
       },
       "BR": {
-        "value_usd": 490348640,
-        "yoy": 11,
-        "share": 5.0
+        "value_usd": 3217509268,
+        "yoy": 12,
+        "share": 10.8
       },
       "SA": {
-        "value_usd": 490348640,
-        "yoy": 4,
-        "share": 5.0
+        "value_usd": 208542267,
+        "yoy": -5,
+        "share": 0.6999999999999922
       },
       "FR": {
-        "value_usd": 490348640,
-        "yoy": 14,
-        "share": 5.0
+        "value_usd": 0,
+        "yoy": -6,
+        "share": 0.1
       },
       "IT": {
-        "value_usd": 490348640,
-        "yoy": -11,
-        "share": 5.0
+        "value_usd": 0,
+        "yoy": 21,
+        "share": 0.1
       },
       "NL": {
-        "value_usd": 490348640,
-        "yoy": 26,
-        "share": 5.0
+        "value_usd": 0,
+        "yoy": 8,
+        "share": 0.1
       },
       "CA": {
-        "value_usd": 490348640,
-        "yoy": 11,
-        "share": 5.0
+        "value_usd": 0,
+        "yoy": -10,
+        "share": 0.1
       },
       "MX": {
-        "value_usd": 490348640,
-        "yoy": -8,
-        "share": 5.0
+        "value_usd": 0,
+        "yoy": -15,
+        "share": 0.1
       },
       "VN": {
-        "value_usd": 2942091840,
-        "yoy": -7,
-        "share": 30.0
+        "value_usd": 0,
+        "yoy": 16,
+        "share": 0.1
       }
     }
   }

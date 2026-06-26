@@ -303,7 +303,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "碳钢：海外社媒「metal market 2026」增速 256%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
+    "trend_summary": "碳钢：海外社媒「metal trending now」增速 245%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -317,45 +317,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 碳钢 成主流",
       "欧盟 CE 标志强制准入 → 碳钢 出口需通过合规认证",
       "印度市场 YoY +30% 领跑 钢材 出口 → 碳钢需求强劲",
-      "海外社媒「metal market 2026」增速 256% 领跑 → 碳钢社媒种草热度爆发"
+      "海外社媒「metal trending now」增速 245% 领跑 → 碳钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "metal market 2026",
-        "growth": 255.5,
-        "vol": "439K",
+        "platform": "tiktok",
+        "kw": "metal trending now",
+        "growth": 245.0,
+        "vol": "334K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "metal review 2026",
-        "growth": 249.5,
-        "vol": "7K",
+        "kw": "steel unboxing",
+        "growth": 231.0,
+        "vol": "542K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "metal breaking",
-        "growth": 229.5,
-        "vol": "227K",
+        "platform": "instagram",
+        "kw": "aluminum viral",
+        "growth": 228.5,
+        "vol": "386K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "steel b2b export",
+        "growth": 210.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 252.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "aluminum wholesale supplier",
-        "growth": 188.5,
+        "growth": 168.5,
         "hits": 0
       },
       {
@@ -392,7 +392,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "金属与合金"
   }
 }

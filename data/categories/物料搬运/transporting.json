@@ -193,7 +193,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "运输：海外社媒「conveyor market alert」增速 254%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Industrial Bulk Packaging Market Size,...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "运输：海外社媒「forklift market 2026」增速 242%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Industrial Bulk Packaging Market Size,...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -205,45 +205,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 运输 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 运输需求强劲",
-      "海外社媒「conveyor market alert」增速 254% 领跑 → 运输社媒种草热度爆发"
+      "海外社媒「forklift market 2026」增速 242% 领跑 → 运输社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "conveyor market alert",
-        "growth": 254.0,
-        "vol": "390K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "forklift industry report",
-        "growth": 245.5,
-        "vol": "207K",
+        "kw": "forklift market 2026",
+        "growth": 242.5,
+        "vol": "330K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "forklift viral",
-        "growth": 231.5,
-        "vol": "774K",
+        "platform": "x",
+        "kw": "conveyor industry news",
+        "growth": 234.0,
+        "vol": "150K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "forklift tutorial",
+        "growth": 227.5,
+        "vol": "72K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift market 2026",
-        "growth": 167.5,
+        "growth": 239.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "conveyor b2b export",
-        "growth": 151.0,
+        "growth": 221.0,
         "hits": 0
       },
       {
@@ -255,9 +255,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Global trends affecting steel trade and recycling - Recycling Product News",
-        "source": "Recycling Product News",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE1DT2lYOUZhMnhpRDJGdV9ReFVqYlItcFRwYXNiMkF4bTU1QTVGbzJWSnlmT3dhWU5WZ3RpZF9RazRoRGhGaVR0akZFQXA0dU9kbjdab09PMDJRdlRTcUhvc1VPeW5TUGp3OHVZREJ5UGd5WVFTaHFEcnpQcHZyeXFoeHZfVzFSOFB2NmhEYlRocmJOZE03OWpjM2FRMU9OS3VMYklyZXQ2UUxVaHlDVE1Xc0JJM01qM19uLWZyRl93b3JjeG1Z?oc=5",
+        "title": "India, Vietnam eye deeper seafood ties to leverage production, processing strengths - SeafoodSource",
+        "source": "SeafoodSource",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdzJ0SE94eGo4Q2NwZFRiejBfV2tZSE5NVXNSdUZGdlROWlN3QS16LU5QYkZlNEdNVHMzUFVmZzRtNHdYdnVub05aUGNPSDFJMHNqQU42ejlIQjJCRnA5VEpKclRqdUwwSk0wemFPVHBqWk54eVRZVjg0cWUzTHJ4MnJUZjJyR283aktmeldoWUFPbUQ2RnRqZGNEeXBOUTZhajE3blA2dzZuenVKVERRTXZtUmFyazlKeU5melBubzB0bUxsY3liQw?oc=5",
         "hits": 0
       },
       {
@@ -280,7 +280,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "物料搬运"
   }
 }

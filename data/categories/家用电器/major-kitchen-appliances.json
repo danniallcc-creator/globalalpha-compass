@@ -550,7 +550,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "厨房大家电：海外社媒「appliance must have」增速 245%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「China Is Exporting Its Factories Across...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "厨房大家电：海外社媒「appliance breaking」增速 244%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，WSJ关注「China Is Exporting Its Factories Across...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -564,45 +564,45 @@
       "欧盟 CE 标志强制准入 → 厨房大家电 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 厨房大家电 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 厨房大家电需求强劲",
-      "海外社媒「appliance must have」增速 245% 领跑 → 厨房大家电社媒种草热度爆发"
+      "海外社媒「appliance breaking」增速 244% 领跑 → 厨房大家电社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "appliance must have",
-        "growth": 245.0,
-        "vol": "719K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance industry report",
-        "growth": 235.5,
-        "vol": "109K",
+        "platform": "x",
+        "kw": "appliance breaking",
+        "growth": 243.5,
+        "vol": "87K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "appliance unboxing",
-        "growth": 218.0,
-        "vol": "107K",
+        "kw": "appliance factory tour",
+        "growth": 228.0,
+        "vol": "34K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance market 2026",
-        "growth": 173.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "appliance analyst",
+        "growth": 211.5,
+        "vol": "474K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance wholesale supplier",
-        "growth": 122.5,
+        "growth": 123.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 120.5,
         "hits": 0
       },
       {
@@ -639,7 +639,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-06-25",
+    "generated_at": "2026-06-26",
     "l1_ref": "家用电器"
   }
 }
