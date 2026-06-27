@@ -233,52 +233,64 @@
     "l1_ref": "健康护理"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 202988133154,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 28837537238,
         "yoy": -20.8,
-        "share": 19.5
+        "share": 16.5
       },
       "DE": {
         "value_usd": 43962513909.79903,
         "yoy": 105.9,
-        "share": 29.7
+        "share": 25.1
       },
       "JP": {
         "value_usd": 14833867635.568,
         "yoy": 4.7,
-        "share": 10.0
+        "share": 8.5
+      },
+      "GB": {
+        "value_usd": 27048956256.170986,
+        "yoy": null,
+        "share": 15.4
       },
       "KR": {
         "value_usd": 13999106147,
-        "yoy": null,
-        "share": 9.5
+        "yoy": -5.8,
+        "share": 8.0
       },
       "AU": {
         "value_usd": 6388454836.046999,
-        "yoy": null,
-        "share": 4.3
+        "yoy": 0.6,
+        "share": 3.6
       },
       "IT": {
         "value_usd": 2629018549.415,
         "yoy": -3.4,
-        "share": 1.8
+        "share": 1.5
       },
       "NL": {
         "value_usd": 2408710358.766,
         "yoy": 5.0,
-        "share": 1.6
+        "share": 1.4
       },
       "CA": {
         "value_usd": 26017999001.96608,
         "yoy": 12.4,
-        "share": 17.6
+        "share": 14.9
       },
       "MX": {
         "value_usd": 9015535530,
         "yoy": null,
-        "share": 6.1
+        "share": 5.1
       }
     }
   }
