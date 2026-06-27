@@ -278,7 +278,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "电路板及组装：海外社媒「electronic component b2b export」增速 227%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "电路板及组装：海外社媒「chip supply chain」增速 252%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，NewMediaWire关注「Resilient Demand Drives Hong Kong...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -292,31 +292,31 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电路板及组装 成主流",
       "欧盟 CE 标志强制准入 → 电路板及组装 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 电路板及组装需求强劲",
-      "海外社媒「electronic component b2b export」增速 227% 领跑 → 电路板及组装社媒种草热度爆发"
+      "海外社媒「chip supply chain」增速 252% 领跑 → 电路板及组装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electronic component b2b export",
-        "growth": 227.0,
-        "vol": "440K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "semiconductor industry news",
-        "growth": 225.0,
-        "vol": "322K",
+        "kw": "chip supply chain",
+        "growth": 251.5,
+        "vol": "228K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "5g industry report",
-        "growth": 220.5,
-        "vol": "428K",
+        "platform": "youtube",
+        "kw": "chip tutorial",
+        "growth": 247.5,
+        "vol": "651K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "5g new arrival",
+        "growth": 234.5,
+        "vol": "411K",
         "hits": 0
       },
       {
@@ -330,7 +330,7 @@
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chip wholesale supplier",
-        "growth": 142.5,
+        "growth": 98.5,
         "hits": 0
       },
       {
@@ -342,9 +342,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Japan's exports rise on weak yen, AI boom, but price-led gains mask weak volumes - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcXpmVjJKS19UNWRRbHotWEQ5VXdJMEVpT3ZObUtsMTU0NlEwdUljdVFmNWJ3cThzcFRyZEN6R01IbXdmZnd3ZzRKMDVkaFZwdk1lN3RTY0x3dkNvVVJJTlh0VkNHcmtGaXRXS3FmelcyZTlyWG82aHVrYWY5c0ZIZ0dDZFluaFQzYUNhYUZBcExrUV9ja2NRaXZVcUx2TUd2TGxHUmdxTmdYUQ?oc=5",
+        "title": "India’s Electronics Export Boom: Rs 35,000 Crore Worth of Components Shipped to China in a Major Trade Shift - Spherical Insights",
+        "source": "Spherical Insights",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUmhiaHp0V1VIdmVmUlg2ZEstdHNsTjRWSHpBRUowNXNKazNISGt4MGx2WnBDc2pROC05SVh4dFNVZzJQZEN1Nk02ZVVXdzlMNnZ5Xzd4QU5CWVFfM3NhVFVMd1o5LUNZWUh3VExXYlZ4Y05MaEM5NXNEbDBIZFBGbVhiTXJXOEN6MVh5SEswWGozV0xHRWFXZXZYV0I1MzUydlJWUGhMQWxIR3FiNl9DQjZybGhDR2FkQ25LMlZ2SVNCUE5Lb19YQTkzQnBpWTd3LS05VjNIeXZEVWhSWnE4NA?oc=5",
         "hits": 0
       },
       {
@@ -367,7 +367,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

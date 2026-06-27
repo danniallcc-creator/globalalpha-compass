@@ -367,7 +367,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "制服与表演服：海外社媒「clothing tiktok made me buy」增速 254%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」，出口 YoY +2%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "制服与表演服：海外社媒「apparel #fyp」增速 246%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」，出口 YoY +2%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -381,45 +381,45 @@
       "印度 BIS 强制注册 → 14 亿人口市场 制服与表演服 准入",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 制服与表演服 通关",
       "制服与表演服主要流向 美国 / 日本 / 德国，出口集中度较高",
-      "海外社媒「clothing tiktok made me buy」增速 254% 领跑 → 制服与表演服社媒种草热度爆发"
+      "海外社媒「apparel #fyp」增速 246% 领跑 → 制服与表演服社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "clothing tiktok made me buy",
-        "growth": 253.5,
-        "vol": "614K",
+        "kw": "apparel #fyp",
+        "growth": 246.5,
+        "vol": "787K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "apparel price trend",
-        "growth": 247.0,
-        "vol": "564K",
+        "platform": "tiktok",
+        "kw": "clothing tiktok made me buy",
+        "growth": 243.5,
+        "vol": "651K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "fashion aesthetic",
-        "growth": 246.0,
-        "vol": "336K",
+        "growth": 229.0,
+        "vol": "777K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "apparel market 2026",
-        "growth": 227.5,
+        "kw": "fashion b2b export",
+        "growth": 175.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "clothing wholesale supplier",
-        "growth": 212.5,
+        "growth": 134.5,
         "hits": 0
       },
       {
@@ -431,9 +431,9 @@
       },
       {
         "dim": "媒体",
-        "title": "India-UK FTA to remove apparel tariffs, boosting exports - MSN",
-        "source": "MSN",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWDBtSDdaNGcxdXFRQ25pMjVOdHdHazZIaFAzUXJ4Qmk2SVNkQzVBTjVlTENaVjBXYlBIcy1WY0FvaXRiblY4Q0NCWmRueC1LcTZyRmtEQ0pGcHBwbFJIdDMxaHFyVktlcjRQR2s3WHZ2Wnk4VzNxTUlmcjh4enF5aE44Q2c3cXd1eDNYV2JONDNOVWxSd3pidV9WTEJCaUpOM3VfT0ktZ3JEUGgtSFZSbjU3S3dmVGE5X3FMbTZGVy0zUk5waDk4cmlrTDBIdkd5VGhCZEZHZ3FjY2NZS1JYNnU3Y2M1NnVhbXJOazdGMA?oc=5",
+        "title": "Eastern Europe emerges as rising market for Turkish apparel sector - Hürriyet Daily News",
+        "source": "Hürriyet Daily News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzJlSmQzTUU5eWhWaEJBQ0VyMFlXc1NUcVBNZ2tNeElJQ3JZSXY1akItLVVpZWpHXzhDb1N2V2ozdzBOUk9JSER3RFFXZURpYTI2NWNOUENnVGtTbHhwY2lRVXFNSF9ya2wxa1R6U3lyWEJka1VpLWNwcTRDNlpva1lqWTdISDdUNmNLaW1MckU1OHFiNTV1YzJXNGlnNlpSUVVPRmJCUHRoZXc?oc=5",
         "hits": 0
       },
       {
@@ -456,7 +456,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "服装及配饰"
   }
 }

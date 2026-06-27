@@ -568,7 +568,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "掺合剂及添加剂：海外社媒「chemical must have」增速 247%，搜索端「chemical market 2026」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "掺合剂及添加剂：海外社媒「chemical trending now」增速 250%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +18%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -582,45 +582,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 掺合剂及添加剂 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 掺合剂及添加剂 通关",
       "印度市场 YoY +18% 领跑 调味品(2103/2104系列) 出口 → 掺合剂及添加剂需求强劲",
-      "海外社媒「chemical must have」增速 247% 领跑 → 掺合剂及添加剂社媒种草热度爆发"
+      "海外社媒「chemical trending now」增速 250% 领跑 → 掺合剂及添加剂社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical must have",
-        "growth": 247.0,
-        "vol": "684K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical aesthetic",
-        "growth": 197.0,
-        "vol": "33K",
+        "platform": "tiktok",
+        "kw": "chemical trending now",
+        "growth": 250.0,
+        "vol": "576K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "chemical #fyp",
-        "growth": 193.5,
-        "vol": "721K",
+        "kw": "chemical viral hack",
+        "growth": 249.0,
+        "vol": "672K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical market 2026",
-        "growth": 183.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "chemical #trending",
+        "growth": 230.5,
+        "vol": "754K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 96.0,
+        "growth": 142.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical wholesale supplier",
+        "growth": 100.5,
         "hits": 0
       },
       {
@@ -657,7 +657,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "化学品"
   }
 }

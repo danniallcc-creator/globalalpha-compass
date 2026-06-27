@@ -431,7 +431,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "户外照明：海外社媒「led #fyp」增速 246%，搜索端「led wholesale supplier」热度上行，US Amazon BSR Top-12，Market Data Forecast关注「Middle East And Africa Hydroponics...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "户外照明：海外社媒「led market 2026」增速 248%，搜索端「led market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Automotive LED Lights Market Size,...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "极简线条 / 无主灯设计 / 磁吸轨道",
       "成分": "铝散热外壳 / COB 光源 / PMMA 导光板",
@@ -445,52 +445,45 @@
       "欧盟 CE 标志强制准入 → 户外照明 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 户外照明 合规刚需",
       "户外照明主要流向 美国 / 英国 / 德国，出口集中度较高",
-      "海外社媒「led #fyp」增速 246% 领跑 → 户外照明社媒种草热度爆发"
+      "海外社媒「led market 2026」增速 248% 领跑 → 户外照明社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "led #fyp",
-        "growth": 246.5,
-        "vol": "259K",
+        "platform": "google",
+        "kw": "led market 2026",
+        "growth": 247.5,
+        "vol": "271K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "led viral",
+        "growth": 236.5,
+        "vol": "65K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "lighting industry news",
-        "growth": 246.0,
-        "vol": "12K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "led tutorial",
-        "growth": 242.5,
-        "vol": "465K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "led wholesale supplier",
-        "growth": 223.5,
+        "kw": "led breaking",
+        "growth": 231.5,
+        "vol": "683K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "led market 2026",
-        "growth": 206.5,
+        "growth": 244.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Middle East And Africa Hydroponics Market Size & Share 2034 - Market Data Forecast",
-        "source": "Market Data Forecast",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcGZodjdKOXJDbTVKVTZNS0NhU0J3QTJTZU1WaDRmTDVuUnhubkpzZXBFTWdpZFg5N0ZfUHVOb3pLcGhaMWNZdjE0d3IwR3hoMmVRa0NGb1RWS19IczFNUmQtQW1KZU0wWWtiRDcwUFRITTNFY2VnNlg0MHBJNE5ZNG80N25MUlFUQWNtSUFpV1YxZmk5Q1E?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "led wholesale supplier",
+        "growth": 211.5,
         "hits": 0
       },
       {
@@ -498,6 +491,13 @@
         "title": "Automotive LED Lights Market Size, Share | Growth [2026-2034] - Fortune Business Insights",
         "source": "Fortune Business Insights",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pbEhsMGhZblJvV3pBM2NtdkpZRGY4TTZiaExXd2M2RTNoSUhIVVRPUmZSMFp6Ylh1aG1vUzVfaVk1UnZNUS1RVlp5Z1dxVVdwQ2N5SWNpRXB0N2NER25QVVJsb0N6QlRJS2lQRUs3TFV0U2dWSUU0RzlDN0c0Zw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Semiconductor Devices (HS: 8541) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwS0QtSnRnLXVKdHdnRlVCS1p3UU5ZT1lpWFhiWWxpZE5SMjNJTWJReWxzSEZBUGZaS1hvSm5kUGJoNl8zdmN3cWM2UzhiNFhCdUJRR01zS0hmd3NHenB5OWdEWQ?oc=5",
         "hits": 0
       },
       {
@@ -520,7 +520,7 @@
       }
     ],
     "domain": "lighting",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "灯具照明"
   }
 }

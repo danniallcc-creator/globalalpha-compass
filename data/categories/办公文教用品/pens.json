@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "96",
-    "total_export_value_usd": 24232944,
-    "total_net_weight_kg": 13732944,
+    "total_export_value_usd": 22186945,
+    "total_net_weight_kg": 11686945,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-26"
+    "fetched_at": "2026-06-27"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 57,
-      "trend_direction": "down",
+      "interest_score": 83,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-26"
+      "fetched_at": "2026-06-27"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；笔(Pens)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "笔：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
@@ -147,24 +147,22 @@
     "l1_ref": "办公文教用品"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 30400539967,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
         "value_usd": 4209665072,
         "yoy": -19.5,
-        "share": 31.4
+        "share": 28.5
       },
       "DE": {
         "value_usd": 9180087561.226028,
-        "yoy": 81.6,
-        "share": 68.6
+        "yoy": null,
+        "share": 62.2
+      },
+      "JP": {
+        "value_usd": 1367316189.131,
+        "yoy": null,
+        "share": 9.3
       }
     }
   }

@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "39",
-    "total_export_value_usd": 28879907,
-    "total_net_weight_kg": 8379907,
+    "total_export_value_usd": 16986140,
+    "total_net_weight_kg": 6486140,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-26"
+    "fetched_at": "2026-06-27"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 92,
-      "trend_direction": "stable",
+      "interest_score": 43,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-26"
+      "fetched_at": "2026-06-27"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: FDA OTC药品注册/monograph, DSHEA膳食补充剂GMP | EU: NHP食品补充剂指令2002/46/EC, 医药类需EMA/国家批准 | JP: 机能性表示食品届出(FSSAI相当), 特保FOSHU厚生批准 | SA: SFDA营养补充剂注册",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -233,64 +233,52 @@
     "l1_ref": "健康护理"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 202988133154,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
         "value_usd": 28837537238,
         "yoy": -20.8,
-        "share": 16.2
+        "share": 19.5
       },
       "DE": {
         "value_usd": 43962513909.79903,
         "yoy": 105.9,
-        "share": 24.7
+        "share": 29.7
       },
       "JP": {
         "value_usd": 14833867635.568,
         "yoy": 4.7,
-        "share": 8.3
-      },
-      "GB": {
-        "value_usd": 27048956256.170986,
-        "yoy": 3.7,
-        "share": 15.2
+        "share": 10.0
       },
       "KR": {
         "value_usd": 13999106147,
         "yoy": null,
-        "share": 7.9
+        "share": 9.5
       },
       "AU": {
         "value_usd": 6388454836.046999,
-        "yoy": 0.6,
-        "share": 3.6
+        "yoy": null,
+        "share": 4.3
       },
-      "BR": {
-        "value_usd": 5389287666,
-        "yoy": -1.4,
-        "share": 3.0
+      "IT": {
+        "value_usd": 2629018549.415,
+        "yoy": -3.4,
+        "share": 1.8
       },
       "NL": {
         "value_usd": 2408710358.766,
         "yoy": 5.0,
-        "share": 1.4
+        "share": 1.6
       },
       "CA": {
         "value_usd": 26017999001.96608,
         "yoy": 12.4,
-        "share": 14.6
+        "share": 17.6
       },
       "MX": {
         "value_usd": 9015535530,
-        "yoy": 4.0,
-        "share": 5.1
+        "yoy": null,
+        "share": 6.1
       }
     }
   }

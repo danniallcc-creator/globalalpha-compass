@@ -92,7 +92,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "垂钓：海外社媒「outdoor unboxing」增速 255%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，MarketBeat关注「Academy Sports and Outdoors...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "垂钓：海外社媒「outdoor market alert」增速 253%，搜索端「fitness wholesale supplier」热度上行，US Amazon BSR Top-12，The Dispatch关注「The World Cup Is Putting American...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -104,52 +104,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 垂钓 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 垂钓需求强劲",
-      "海外社媒「outdoor unboxing」增速 255% 领跑 → 垂钓社媒种草热度爆发"
+      "海外社媒「outdoor market alert」增速 253% 领跑 → 垂钓社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "outdoor unboxing",
-        "growth": 255.0,
-        "vol": "244K",
+        "platform": "x",
+        "kw": "outdoor market alert",
+        "growth": 253.0,
+        "vol": "160K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "outdoor aesthetic",
-        "growth": 255.0,
-        "vol": "308K",
+        "platform": "tiktok",
+        "kw": "fitness tiktok made me buy",
+        "growth": 250.5,
+        "vol": "384K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "sports review 2026",
-        "growth": 250.5,
-        "vol": "572K",
+        "growth": 245.5,
+        "vol": "749K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sports market 2026",
-        "growth": 208.5,
+        "kw": "fitness wholesale supplier",
+        "growth": 205.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "outdoor b2b export",
-        "growth": 194.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Academy Sports and Outdoors (NASDAQ:ASO) Shares Up 10.1% on Better-Than-Expected Earnings - MarketBeat",
-        "source": "MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHNCVXpXM1JxcDlOTXVvZUl0bnNQb1ZKdnVzV09VUjVPWVpJeFp3enY2eFhDeTVUSmF3OUFxb3VUdVVwZ3lrV2k4LTBkckhqVTFsdjhuSWFHRTBXRXFrZmw0RFlKRi1QNVpsRXJiUzVmclpfQkhvdTB0MGh4THo1eUUtV3VCOE4ya092ZHFSRGtxVWVFU2M2a1c3NzVqODhaVFJLTjA0VzFsZTBianNieVdqc1NvcUM3VUsweTd6VmNjcFdqWjFvSjNfTlZvZU9zcGxXQg?oc=5",
+        "growth": 123.0,
         "hits": 0
       },
       {
@@ -157,6 +150,13 @@
         "title": "The World Cup Is Putting American Abundance on Display - The Dispatch",
         "source": "The Dispatch",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVEZ2SEU4THNxSFBPdFAzbW1fcE02T3NLelBVU3pMMEhLbnJpSnluM0lMem5EQkpkaTJsSlBoTVZFRE5WZ0lUaGs4S1pPZUN2RHpha2dmQ0FhYk1zMG0wZ1oxdWhEam9TX3JkVVJOUUhJUHhvWlhsY0I0a0ktOFczN3pTV2xaYlZISWFUbmROdW52THE1NjFfMHJB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Director at Academy Sports (ASO) receives 3,384 restricted stock units grant - Stock Titan",
+        "source": "Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdjRXREtITklmMUxtVkRZLVJ0dlljT2dSRFZ4MWk1TlZVeHY4MXAyRHBEWDQzckM0ajI0QUJFalJoSjZMYWk5enU0RVl5elRsUFlPS1VlVWJwZXhBWWJCVFZzTVdka3hnUHlaN2xYOG1LUnp6bHBUbUgyT0pYeXloVGxnNEY1UmRUVy1SRWVXNW82c2d5QjN0RndlUGpxMUxuUTRzN1RkU3pjQ0hNb0ZqcTFQcE13eDlvMS1OYg?oc=5",
         "hits": 0
       },
       {
@@ -179,7 +179,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "运动及娱乐"
   }
 }

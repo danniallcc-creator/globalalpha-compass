@@ -361,7 +361,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "监控器材：海外社媒「cctv market alert」增速 246%，搜索端「security camera wholesale supplier」热度上行，US Amazon BSR Top-12，Gulf Business关注「Dubai issues rules governing use of...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "监控器材：海外社媒「cctv trending now」增速 234%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Gulf Business关注「Dubai issues rules governing use of...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -375,45 +375,45 @@
       "美国 FCC 电磁兼容认证 → 电子类 监控器材 合规刚需",
       "印度 BIS 强制注册 → 14 亿人口市场 监控器材 准入",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 监控器材需求强劲",
-      "海外社媒「cctv market alert」增速 246% 领跑 → 监控器材社媒种草热度爆发"
+      "海外社媒「cctv trending now」增速 234% 领跑 → 监控器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "cctv market alert",
-        "growth": 246.0,
-        "vol": "91K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "security camera must try",
-        "growth": 236.5,
-        "vol": "40K",
+        "kw": "cctv trending now",
+        "growth": 234.0,
+        "vol": "292K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "security camera #trending",
-        "growth": 193.5,
-        "vol": "644K",
+        "platform": "google",
+        "kw": "cctv b2b export",
+        "growth": 212.0,
+        "vol": "662K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "security camera wholesale supplier",
-        "growth": 156.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "security camera supply chain",
+        "growth": 209.5,
+        "vol": "48K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cctv b2b export",
-        "growth": 101.0,
+        "growth": 209.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "security camera market 2026",
+        "growth": 205.5,
         "hits": 0
       },
       {
@@ -450,7 +450,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "安防"
   }
 }

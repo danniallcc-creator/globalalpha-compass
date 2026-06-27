@@ -39,7 +39,7 @@
   "last_updated": "2026-06-10",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food market alert」增速 234%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-42，IndexBox关注「World Frozen Pet Food - Market...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food aesthetic」增速 233%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-16，PetfoodIndustry关注「Cotecnica, Hermos Pet expand pet food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -51,52 +51,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food market alert」增速 234% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food aesthetic」增速 233% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food market alert",
-        "growth": 234.0,
-        "vol": "44K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 223.0,
-        "vol": "653K",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 233.0,
+        "vol": "666K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 178.0,
-        "vol": "677K",
+        "kw": "pet food factory tour",
+        "growth": 232.0,
+        "vol": "374K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "pet food price trend",
+        "growth": 183.0,
+        "vol": "360K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 172.0,
+        "growth": 89.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "pet wholesale supplier",
-        "growth": 98.5,
+        "kw": "pet market 2026",
+        "growth": 143.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "World Frozen Pet Food - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbWh0dnM2Nk9CbmtIQ00tZzJaQ3ItLVpHOUxFaktrU1FfT09EcUlubzg5Njd5TDl6cGdWeDRMYkdDbkEzV3ltLUZUQ0tzdXZHc3NUZmlraTF6Rll4WXV2V2Jhdjl2aUh5Q0gycllTc1FkSnVCR3ItNEtpRHZmU3FyRmlBN2JjOUtnYmNLWUJMYjRDWEttaUZuMmpWaHRvakd6RGQ5WWN4QWlnek53M2JmNXRfN2JfYjdYWm5RMUhGUmRQVl9HYVcxUkhR?oc=5",
+        "title": "Cotecnica, Hermos Pet expand pet food exports - PetfoodIndustry",
+        "source": "PetfoodIndustry",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0haWEVOelo1UHBieGJSYUxSS1pENThzZlUxRmpoZWpfZUdMUWJ4TWt6NUM0ZEJSNVlQTzZyYXpUUVpkR3U2X0V4OG1ud081a2tCbGJzeHdKSTg3UURDNWJzZ2tLQ1pLOWQwdWNZRE1sbmRSNzRNb0RTNERVUjZGTVd1OHl3SElPcTBFOTN0NGRvUWU3eUxTNmYtZDU2YzNoNEd3azYtbzE?oc=5",
         "hits": 2
       },
       {
@@ -108,25 +108,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 42,
-        "title": "Top pet - Eco Edition",
-        "price": "$145.4",
-        "rating": 3.8,
+        "market": "US",
+        "rank": 16,
+        "title": "Top pet - Premium Edition",
+        "price": "$267.0",
+        "rating": 4.0,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 21,
-        "title": "Top pet - Compact Edition",
-        "price": "$123.8",
-        "rating": 4.2,
+        "market": "JP",
+        "rank": 13,
+        "title": "Top pet - Eco Edition",
+        "price": "$187.4",
+        "rating": 4.1,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "宠物用品及食品"
   }
 }

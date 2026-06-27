@@ -345,7 +345,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "金属丝网：海外社媒「metal trending now」增速 245%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +32%，主要流向 沙特阿拉伯 / 美国 / 澳大利亚。",
+    "trend_summary": "金属丝网：海外社媒「steel b2b export」增速 255%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +32%，主要流向 沙特阿拉伯 / 美国 / 澳大利亚。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -359,45 +359,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 金属丝网 成主流",
       "欧盟 CE 标志强制准入 → 金属丝网 出口需通过合规认证",
       "沙特阿拉伯市场 YoY +32% 领跑 钢结构(7308/7301系列) 出口 → 金属丝网需求强劲",
-      "海外社媒「metal trending now」增速 245% 领跑 → 金属丝网社媒种草热度爆发"
+      "海外社媒「steel b2b export」增速 255% 领跑 → 金属丝网社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "metal trending now",
-        "growth": 245.0,
-        "vol": "334K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "steel unboxing",
-        "growth": 231.0,
-        "vol": "542K",
+        "platform": "google",
+        "kw": "steel b2b export",
+        "growth": 255.0,
+        "vol": "39K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "aluminum viral",
-        "growth": 228.5,
-        "vol": "386K",
+        "kw": "steel new arrival",
+        "growth": 247.5,
+        "vol": "413K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "aluminum supply chain",
+        "growth": 245.5,
+        "vol": "79K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 210.0,
+        "growth": 252.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "metal market 2026",
-        "growth": 168.5,
+        "kw": "aluminum wholesale supplier",
+        "growth": 175.5,
         "hits": 0
       },
       {
@@ -409,9 +409,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Unwrought Aluminum Alloy Imports Tank to 5-Year Low, While Exports Hit Record High in May [SMM Analysis] - Shanghai Metals Market",
-        "source": "Shanghai Metals Market",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMFN4cVlVcUN1VEE0VmFvVVA4N0hJZ09IUUs4QjA0c0kxN0t5T09aTlpFMWwyQ09jajBJSnhhTS0wVEtvX3J1SkhTdGI2aV9wVnhFTUlQT0hGY0VrTmJDN1NmbnRSWTFuc29zeFdaOXY5R1E4dzB2SndvTjVVMWxpSUkxYVM5Q2kxWTFZQlkxZmRLZ2FzT3ZEOURxeko5cE9vcGVRV0xhY0VjQnE1dnNfTktGQ1VZQ0ZMcV9GY1FwMEJpOE5RV29ZbXE4S0tRVzhDYWhkdXhsTGdEZWJuX1VGZG03Zw?oc=5",
+        "title": "Iron Cloth (HS: 7314) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yLWhySE9hSVhyT0NyTFhYQzc5cEd6Vjl5M1pVUHZJRVMxSzlEZi1URHpVMjVrcjdKU1Y3WjdjcDVLRkdxZXo4VVBVcUhwTDZEbVhjaw?oc=5",
         "hits": 0
       },
       {
@@ -434,7 +434,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "金属与合金"
   }
 }

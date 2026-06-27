@@ -508,7 +508,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 146%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-37，IndexBox关注「World Perlite Horticultural Medium -...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 230%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-15，IndexBox关注「World Perlite Horticultural Medium -...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -520,45 +520,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家居装饰需求强劲",
-      "海外社媒「home decor wholesale supplier」增速 146% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 230% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 145.5,
-        "vol": "799K",
+        "growth": 229.5,
+        "vol": "145K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor breaking",
-        "growth": 248.5,
-        "vol": "358K",
+        "platform": "instagram",
+        "kw": "home decor #trending",
+        "growth": 250.5,
+        "vol": "131K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "home decor market 2026",
+        "platform": "x",
+        "kw": "home decor supply chain",
         "growth": 243.5,
-        "vol": "204K",
+        "vol": "451K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 142.5,
+        "growth": 226.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 240.5,
+        "growth": 221.5,
         "hits": 2
       },
       {
@@ -577,25 +577,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 37,
-        "title": "Top garden - Pro Edition",
-        "price": "$171.7",
-        "rating": 4.2,
+        "market": "UK",
+        "rank": 15,
+        "title": "Top garden - Smart Edition",
+        "price": "$93.1",
+        "rating": 4.3,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 30,
-        "title": "Top garden - Smart Edition",
-        "price": "$161.1",
-        "rating": 3.9,
+        "market": "DE",
+        "rank": 7,
+        "title": "Top garden - Pro Edition",
+        "price": "$139.7",
+        "rating": 4.7,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "家居园艺"
   }
 }

@@ -439,7 +439,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric b2b export」增速 254%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-39，The Observatory of Economic Complexity关注「Pile Fabric (HS: 6001) Product Trade,...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "面料：海外社媒「fabric b2b export」增速 216%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-24，The Observatory of Economic Complexity关注「Polyamide Fabric (HS: 5902) Product...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -453,52 +453,45 @@
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
-      "海外社媒「fabric b2b export」增速 254% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric b2b export」增速 216% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "fabric b2b export",
-        "growth": 254.0,
-        "vol": "230K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "fabric trending now",
-        "growth": 251.0,
-        "vol": "160K",
+        "growth": 216.0,
+        "vol": "17K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "fabric industry news",
-        "growth": 222.0,
-        "vol": "583K",
+        "growth": 123.0,
+        "vol": "790K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 108.0,
+        "vol": "203K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 251.0,
+        "growth": 213.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric market trend 2026",
-        "growth": 88,
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Pile Fabric (HS: 6001) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vWXlLTTV3UmptbFVkN1JzVUpkWjh6Qll5RTJkRHpUMzJVeFdnbXB0cjlnMHRYdFhobklmU1pJeDZEbEY3cnB5Q2REd3Y5Q2VyUVA3Tll3?oc=5",
+        "kw": "textile fabric supply chain resilience",
+        "growth": 75,
         "hits": 2
       },
       {
@@ -509,26 +502,33 @@
         "hits": 2
       },
       {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 39,
-        "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$286.5",
-        "rating": 4.7,
-        "hits": 2
+        "dim": "媒体",
+        "title": "Apparel Export Shift Could Affect Cotton Trade Demand - RFD-TV",
+        "source": "RFD-TV",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcEdWbExSNTJWS2ZxRXFqbFRKVnZfLVl6NXFta0t3dzFuNUxsOGE2WG5wTTJsdzI2STlYSllZMGxsckU1cF9TekV5Y3BjLTRHWXRtSGllZlNtREliNU4tVDk2UUw5YTZqZmJ2ZVZGTl9tTEtPcVdSRFZ1Ukl6SlZ5WQ?oc=5",
+        "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "JP",
-        "rank": 25,
+        "rank": 24,
         "title": "Top textile - Eco Edition",
-        "price": "$171.4",
-        "rating": 4.4,
+        "price": "$32.4",
+        "rating": 3.9,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 21,
+        "title": "Top fabric - Smart Edition",
+        "price": "$185.1",
+        "rating": 4.9,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-06-26",
+    "generated_at": "2026-06-27",
     "l1_ref": "面料及纺织原材料"
   }
 }
