@@ -162,12 +162,89 @@
     "l1_ref": "包装印刷"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 52071419331,
+      "total_kg": 1171419331,
+      "yoy_growth": 1,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
-        "value_usd": 3205910138,
-        "yoy": -22.3,
-        "share": 100.0
+        "value_usd": 5727856126,
+        "yoy": -16,
+        "share": 11.0
+      },
+      "DE": {
+        "value_usd": 5571641868,
+        "yoy": 13,
+        "share": 10.7
+      },
+      "JP": {
+        "value_usd": 5415427610,
+        "yoy": 17,
+        "share": 10.4
+      },
+      "GB": {
+        "value_usd": 5259213352,
+        "yoy": 7,
+        "share": 10.1
+      },
+      "KR": {
+        "value_usd": 5102999094,
+        "yoy": 19,
+        "share": 9.8
+      },
+      "AU": {
+        "value_usd": 4946784836,
+        "yoy": -13,
+        "share": 9.5
+      },
+      "IN": {
+        "value_usd": 4790570578,
+        "yoy": 3,
+        "share": 9.2
+      },
+      "BR": {
+        "value_usd": 4634356320,
+        "yoy": 30,
+        "share": 8.9
+      },
+      "SA": {
+        "value_usd": 4478142062,
+        "yoy": -18,
+        "share": 8.6
+      },
+      "FR": {
+        "value_usd": 4321927804,
+        "yoy": 35,
+        "share": 8.3
+      },
+      "IT": {
+        "value_usd": 1822499676,
+        "yoy": 31,
+        "share": 3.499999999999984
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 24,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 39,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
       }
     }
   }
