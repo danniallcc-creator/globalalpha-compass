@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service tiktok made me buy」增速 248%，搜索端「business services supply chain resilience」热度上行，US Amazon BSR Top-12，Reuters关注「Record petroleum exports help to shrink...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service industry news」增速 242%，搜索端「business service market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Record petroleum exports help to shrink...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -98,45 +98,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 认证、检验与信用管理需求强劲",
-      "海外社媒「business service tiktok made me buy」增速 248% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service industry news」增速 242% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "business service tiktok made me buy",
-        "growth": 248.5,
-        "vol": "680K",
+        "platform": "x",
+        "kw": "business service industry news",
+        "growth": 242.0,
+        "vol": "632K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "business service must try",
-        "growth": 239.5,
-        "vol": "735K",
+        "platform": "youtube",
+        "kw": "business service unboxing",
+        "growth": 236.0,
+        "vol": "202K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "business service breaking",
-        "growth": 234.5,
-        "vol": "59K",
+        "kw": "business service supply chain",
+        "growth": 227.5,
+        "vol": "308K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "business services supply chain resilience",
-        "growth": 92,
+        "source": "Google Trends",
+        "kw": "business service market 2026",
+        "growth": 217.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 67.5,
+        "growth": 217.5,
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "商务服务"
   }
 }

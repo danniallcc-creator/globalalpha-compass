@@ -666,7 +666,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "无机化学品：海外社媒「chemical trending now」增速 250%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +87%，主要流向 日本 / 韩国 / 印度。",
+    "trend_summary": "无机化学品：海外社媒「chemical supply chain」增速 246%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」，出口 YoY +87%，主要流向 日本 / 韩国 / 印度。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -680,45 +680,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 无机化学品 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 无机化学品 通关",
       "印度市场 YoY +87% 领跑 水泥(2523系列) 出口 → 无机化学品需求强劲",
-      "海外社媒「chemical trending now」增速 250% 领跑 → 无机化学品社媒种草热度爆发"
+      "海外社媒「chemical supply chain」增速 246% 领跑 → 无机化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical trending now",
-        "growth": 250.0,
-        "vol": "576K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical viral hack",
-        "growth": 249.0,
-        "vol": "672K",
+        "platform": "x",
+        "kw": "chemical supply chain",
+        "growth": 246.5,
+        "vol": "764K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "chemical #trending",
-        "growth": 230.5,
-        "vol": "754K",
+        "kw": "chemical must have",
+        "growth": 233.0,
+        "vol": "697K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "chemical new arrival",
+        "growth": 226.5,
+        "vol": "494K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 142.0,
+        "growth": 175.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical wholesale supplier",
-        "growth": 100.5,
+        "source": "Linkedin",
+        "kw": "chemicals export opportunity emerging markets",
+        "growth": 83,
         "hits": 0
       },
       {
@@ -755,7 +755,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "化学品"
   }
 }

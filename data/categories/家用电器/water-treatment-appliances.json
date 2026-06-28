@@ -456,7 +456,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "水处理设备：海外社媒「appliance market 2026」增速 254%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「China Threatens to Launch Trade Probes...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "水处理设备：海外社媒「appliance tiktok made me buy」增速 246%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WSJ关注「China Threatens to Launch Trade Probes...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -470,45 +470,45 @@
       "欧盟 CE 标志强制准入 → 水处理设备 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 水处理设备 合规刚需",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 水处理设备需求强劲",
-      "海外社媒「appliance market 2026」增速 254% 领跑 → 水处理设备社媒种草热度爆发"
+      "海外社媒「appliance tiktok made me buy」增速 246% 领跑 → 水处理设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance market 2026",
-        "growth": 254.5,
-        "vol": "739K",
+        "platform": "tiktok",
+        "kw": "appliance tiktok made me buy",
+        "growth": 246.5,
+        "vol": "358K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "appliance factory tour",
+        "growth": 244.0,
+        "vol": "402K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "appliance new arrival",
-        "growth": 247.5,
-        "vol": "295K",
+        "kw": "appliance viral",
+        "growth": 235.5,
+        "vol": "640K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
+        "dim": "搜索",
+        "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 234.0,
-        "vol": "167K",
+        "growth": 146.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance market 2026",
-        "growth": 251.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance b2b export",
-        "growth": 231.0,
+        "growth": 132.5,
         "hits": 0
       },
       {
@@ -545,7 +545,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "家用电器"
   }
 }

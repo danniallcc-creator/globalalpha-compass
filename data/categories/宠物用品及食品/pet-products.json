@@ -510,7 +510,7 @@
   "last_updated": "2026-06-10",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet #fyp」增速 252%，搜索端「pet products supply chain resilience」热度上行，US Amazon BSR Top-25，czapp.com关注「China PET Expansion Pressures Global...」，出口 YoY +87%，主要流向 美国 / 日本 / 德国。",
+    "trend_summary": "宠物用品：海外社媒「pet viral」增速 254%，搜索端「pet products digital transformation」热度上行，UK Amazon BSR Top-40，czapp.com关注「China PET Expansion Pressures Global...」，出口 YoY +87%，主要流向 美国 / 日本 / 德国。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -523,45 +523,45 @@
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
       "印度市场 YoY +87% 领跑 水泥(2523系列) 出口 → 宠物用品需求强劲",
-      "海外社媒「pet #fyp」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet viral」增速 254% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet #fyp",
-        "growth": 252.5,
-        "vol": "328K",
+        "platform": "instagram",
+        "kw": "pet viral",
+        "growth": 253.5,
+        "vol": "716K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "pet new arrival",
-        "growth": 233.5,
-        "vol": "769K",
+        "kw": "pet food must have",
+        "growth": 244.0,
+        "vol": "57K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food aesthetic",
-        "growth": 233.0,
-        "vol": "666K",
+        "platform": "google",
+        "kw": "pet wholesale supplier",
+        "growth": 227.5,
+        "vol": "44K",
         "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 92,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 91,
+        "growth": 75,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 63,
         "hits": 2
       },
       {
@@ -573,32 +573,32 @@
       },
       {
         "dim": "媒体",
-        "title": "World Frozen Pet Food - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbWh0dnM2Nk9CbmtIQ00tZzJaQ3ItLVpHOUxFaktrU1FfT09EcUlubzg5Njd5TDl6cGdWeDRMYkdDbkEzV3ltLUZUQ0tzdXZHc3NUZmlraTF6Rll4WXV2V2Jhdjl2aUh5Q0gycllTc1FkSnVCR3ItNEtpRHZmU3FyRmlBN2JjOUtnYmNLWUJMYjRDWEttaUZuMmpWaHRvakd6RGQ5WWN4QWlnek53M2JmNXRfN2JfYjdYWm5RMUhGUmRQVl9HYVcxUkhR?oc=5",
+        "title": "India's $500 billion trade deal opens export doors - Farm Progress",
+        "source": "Farm Progress",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR3ladVNlNjFmdGFwdEs5bWZ0ZDc5c0NQMWhjRkZmeGQzNnNLQ1JJSEM4cndOVlRZeG5LdnJrRkNXUENWbU5BZGhGMDdQUG56UmcyYUUteVRsaGF5djhzSHNNWUVCTFRSTG1ENHJtYk9FTENtaEhoM1FFTElxelo5U0NMUGowUXVpVFEyWWJWVFM0QQ?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 25,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$162.5",
-        "rating": 4.2,
+        "market": "UK",
+        "rank": 40,
+        "title": "Top pet food - Smart Edition",
+        "price": "$99.1",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 22,
-        "title": "Top pet food - Pro Edition",
-        "price": "$155.7",
+        "market": "US",
+        "rank": 38,
+        "title": "Top pet food - Heavy-Duty Edition",
+        "price": "$47.5",
         "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "宠物用品及食品"
   }
 }

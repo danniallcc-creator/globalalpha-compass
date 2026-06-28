@@ -507,7 +507,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "肉类及家禽：海外社媒「beverage b2b export」增速 252%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Precedence Research关注「Trade Credit Insurance Market Size to...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "肉类及家禽：海外社媒「food #trending」增速 254%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Precedence Research关注「Trade Credit Insurance Market Size to...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -520,45 +520,45 @@
       "美国 FDA 注册要求 → 肉类及家禽 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 肉类及家禽 包装可回收化升级",
       "印度市场 YoY +22% 领跑 机械 出口 → 肉类及家禽需求强劲",
-      "海外社媒「beverage b2b export」增速 252% 领跑 → 肉类及家禽社媒种草热度爆发"
+      "海外社媒「food #trending」增速 254% 领跑 → 肉类及家禽社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage b2b export",
-        "growth": 252.0,
-        "vol": "744K",
+        "platform": "instagram",
+        "kw": "food #trending",
+        "growth": 254.5,
+        "vol": "459K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "food industry news",
-        "growth": 244.0,
-        "vol": "344K",
+        "platform": "instagram",
+        "kw": "food must have",
+        "growth": 251.0,
+        "vol": "22K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beverage analyst",
+        "platform": "tiktok",
+        "kw": "snack tiktok made me buy",
+        "growth": 238.5,
+        "vol": "488K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
         "growth": 230.5,
-        "vol": "614K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 249.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
-        "growth": 217.5,
+        "growth": 196.0,
         "hits": 0
       },
       {
@@ -570,9 +570,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Libyan companies target new markets via Nigeria's West Africa Food & Beverage Expo - Libya Herald",
-        "source": "Libya Herald",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQai12YTdnTHlSTDFiVTl5UnV1MTBxZl9FTUpidHBUSFNrYmU3UGpTR1NjZk9id1J4RF9MM19DUEdBd2FsXzB3T2ZGaUg1OUVOR0JUUWRVVFlLdmJSckdZYk4tZUI2eWw2TF9yTm1SXzM5clhFdVpBNWZfbmI2YjF5RUZGNXo1dnNkMXUyYV9iV2tKNDlWNG8zQ084SWlISDJ5OWN3YWpRMW9vNGtLSnhEQQ?oc=5",
+        "title": "Food and Beverage Processing Antifoams Market Growth Forecast to 2035: Clean-Label Trends and Biofuel Fermentation Drive Demand - News and S",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOVGdzNmxSdVNPVDkxMk00UHRKZWdDcmswaklDLWVnZ3Zic3ZOSDVuS3J5N1BJRG5kSkx2Xzc1RFBNYmdYRjc4THpvRm83bjlwaFphTFByVGl4SXpXN2RPdWJubVZXa1hHcTZtZjNTU0FkNUdLaHJ2N3FLZHhacFNESjNsR0w3c3FQNE53aVpNLWpUWUkya3Y0b1VPaUJaRFNfNzZHdDlKalNZT01oVlc0b3hSZFJEOHhQVXA3dTh1THhrMzBsUEk4V2UyOWowVGFBZk9ONHVRcmRVOHFBVnd3V0VjM3V6ZGdfbTBreDlSbzBFb2V4SDJ3UUtRME9DeDI4dm90bg?oc=5",
         "hits": 0
       },
       {
@@ -595,7 +595,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "食品及饮料"
   }
 }

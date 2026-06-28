@@ -439,7 +439,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric b2b export」增速 216%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-24，The Observatory of Economic Complexity关注「Silk Fabrics (HS: 5007) Product Trade,...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "面料：海外社媒「fabric industry news」增速 214%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-49，IndexBox关注「Asia-Pacific Polyester Reinforcement...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -453,53 +453,53 @@
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
-      "海外社媒「fabric b2b export」增速 216% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric industry news」增速 214% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 216.0,
-        "vol": "17K",
+        "platform": "x",
+        "kw": "fabric industry news",
+        "growth": 214.0,
+        "vol": "443K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 123.0,
-        "vol": "790K",
+        "platform": "youtube",
+        "kw": "fabric factory tour",
+        "growth": 207.0,
+        "vol": "794K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "fabric must have",
-        "growth": 108.0,
-        "vol": "203K",
+        "growth": 202.0,
+        "vol": "380K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 213.0,
+        "growth": 187.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric supply chain resilience",
-        "growth": 75,
+        "kw": "textile fabric sustainable manufacturing",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Silk Fabrics (HS: 5007) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE05RWFpWGdRUXRSanZPN05oY1lodDZFLUNfZzNIazJabkllSmpjTkJVTTlLcHdYbC1HRGNQS3dSSkFIdWwxd1V3bkNmVkVaM0JRUlZ1Q1NuMA?oc=5",
-        "hits": 5
+        "title": "Asia-Pacific Polyester Reinforcement Fabrics - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMENxYVFvWnVMeHBuc1h3aUVKeXdKQVU1VDZjUDI5QjEtdE1tdHNuQ3FBdTI3TU93aE1wVGp1bmUxT0R6YktBLUJfazBIUEl3dmhnT3F1dmNSMmZXNElBdjUxNE1wQUExcloyVEdUT3Vpd3ZfYWZCZ19ObUJwN2pkM0RPMEw0ZDNQT2lvcmpIT0NPTHBuc1ZfTzA1XzAzZ1JjcE1yS09aUXlDdGFEODFpaDR6enRqNHlkRjVaNVBtVEtKRGM?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -510,25 +510,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 24,
-        "title": "Top textile - Eco Edition",
-        "price": "$32.4",
-        "rating": 3.9,
+        "market": "US",
+        "rank": 49,
+        "title": "Top textile - Premium Edition",
+        "price": "$23.0",
+        "rating": 4.3,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 21,
+        "rank": 49,
         "title": "Top fabric - Smart Edition",
-        "price": "$185.1",
-        "rating": 4.9,
+        "price": "$15.1",
+        "rating": 4.4,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "面料及纺织原材料"
   }
 }

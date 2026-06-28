@@ -49,7 +49,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「watch industry news」增速 251%，搜索端「jewelry watches sustainable manufacturing」热度上行，US Amazon BSR Top-49，PR Newswire关注「Informa Markets & MCH Group join forces...」。",
+    "trend_summary": "手表：海外社媒「watch market alert」增速 247%，搜索端「jewelry watches sustainable manufacturing」热度上行，US Amazon BSR Top-49，Statista关注「Leading watch exporting countries...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -60,46 +60,53 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「watch industry news」增速 251% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch market alert」增速 247% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "watch industry news",
-        "growth": 251.0,
-        "vol": "782K",
+        "kw": "watch market alert",
+        "growth": 247.0,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "jewelry #fyp",
-        "growth": 219.5,
-        "vol": "445K",
+        "platform": "youtube",
+        "kw": "watch factory tour",
+        "growth": 235.0,
+        "vol": "109K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "jewelry tiktok made me buy",
-        "growth": 212.5,
-        "vol": "680K",
+        "platform": "instagram",
+        "kw": "jewelry new arrival",
+        "growth": 213.5,
+        "vol": "179K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches sustainable manufacturing",
-        "growth": 76,
+        "growth": 63,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches supply chain resilience",
-        "growth": 46,
+        "kw": "jewelry watches digital transformation",
+        "growth": 60,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Leading watch exporting countries worldwide 2025 - Statista",
+        "source": "Statista",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeTVxNEhScDFBcVdRQVBvZmRmSXp5WGhLcnpwTVpWbU1CUkhOSlZBVzhhSUl3Sm02bkxCZF91R3k1TFQ5ZUpmWktGa1VLMy1Rdm1TelkwM09zamZsaDB5S3BiaGRiVkxFMzNoQzIzUXRfenRnZ3pzbFBIcHlmeGR2bnlYRVFTOWxlSFJBMlNHOGFPd1RUeG1oUFY3ajJsa2VYSUc1cA?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -109,33 +116,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "April Swiss Watch Exports to U.S. Fall by 56% Against Last Year’s Tariff-beating Shipments - WWD",
-        "source": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGt2MW9iOG15a1UzRkFMXzctUmNWZjJYeVU4OEVvTFlqbkg0M1lleUtNUDZBY1FPRVhLenRYRDFUZHE0SG0zQ3VFZWd2VWtRdEpLekFiR0staEtsX0ZpTzFwUXN4UkpqLWZacHNBVExLYloxRFB5UFIwT3NnbVd5aE94ZDBWMmFYRGtxVU53Y09xVGJITG9mMzM3azJmZWdMMlE?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
         "market": "US",
         "rank": 49,
         "title": "Top jewelry - Premium Edition",
-        "price": "$208.0",
-        "rating": 4.5,
+        "price": "$192.0",
+        "rating": 3.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 42,
-        "title": "Top jewelry - Compact Edition",
-        "price": "$17.8",
-        "rating": 4.4,
+        "market": "US",
+        "rank": 40,
+        "title": "Top watch - Heavy-Duty Edition",
+        "price": "$248.5",
+        "rating": 4.9,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-06-27",
+    "generated_at": "2026-06-28",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }
