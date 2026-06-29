@@ -149,42 +149,44 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 24719127088,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 2452391804,
         "yoy": -21.5,
-        "share": 10.6
+        "share": 10.7
       },
       "DE": {
         "value_usd": 4000055336.512993,
-        "yoy": null,
-        "share": 17.2
+        "yoy": 20.7,
+        "share": 17.5
       },
       "JP": {
         "value_usd": 2641783465.7609997,
         "yoy": 16.2,
-        "share": 11.4
+        "share": 11.5
       },
       "GB": {
         "value_usd": 7625401697.666003,
         "yoy": 9.7,
-        "share": 32.9
+        "share": 33.3
       },
       "KR": {
         "value_usd": 2122928538,
         "yoy": -17.0,
-        "share": 9.1
+        "share": 9.3
       },
       "AU": {
         "value_usd": 746380633.632,
         "yoy": 1.1,
-        "share": 3.2
-      },
-      "IT": {
-        "value_usd": 288213496.298,
-        "yoy": 25.4,
-        "share": 1.2
+        "share": 3.3
       },
       "NL": {
         "value_usd": 412449339.81799996,
@@ -193,8 +195,8 @@
       },
       "CA": {
         "value_usd": 2529560059.264001,
-        "yoy": null,
-        "share": 10.9
+        "yoy": 30.2,
+        "share": 11.0
       },
       "MX": {
         "value_usd": 385818292,
