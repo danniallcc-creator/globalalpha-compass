@@ -3714,20 +3714,33 @@ function runCompass() {
   if(!cat){alert('请输入产品类目');return;}
   // 1) 立刻显示 loading，避免感知卡顿
   show('el-loading'); hide('el-results');
-  // 2) 先尝试解析路由（拿到规范 L1/L2 上下文），随后渲染罗盘并显示路由提示
+  // 2) 先尝试解析路由（拿到规范 L1/L2 上下文）
+  //    - 若解析到叶子/三级级别（level='l' 或 'L'）：仅显示蓝色路由提示卡，等待用户点击 L2 chip 后再跳转
+  //    - 若解析到二级级别（level='2'）或未匹配：直接渲染罗盘
   function _afterResolve(resolved){
+    var el = document.getElementById('search-suggestions');
+    var hasLeafOrL3 = false;
+    if (resolved && resolved.matches && resolved.matches.length>0) {
+      var topLevel = resolved.matches[0].level;
+      hasLeafOrL3 = (topLevel === 'l' || topLevel === 'L');
+    }
+    if (hasLeafOrL3) {
+      // 仅展示路由提示卡，等待用户点击聚合二级类目
+      hide('el-loading');
+      hide('el-results');
+      renderL2RouteHint(resolved);
+      // 滚动到提示卡，确保用户能看到
+      if (el && el.scrollIntoView) { try { el.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e){} }
+      return;
+    }
+    // 二级或未匹配：正常渲染罗盘
     var ctx = null;
     if (resolved && resolved.matches && resolved.matches.length>0) {
       var m0 = resolved.matches[0];
       ctx = { l1: m0.l1, l2: m0.l2, level: m0.level };
     }
     _runCompassActual(cat, ctx);
-    var el = document.getElementById('search-suggestions');
-    if (resolved && resolved.hint && resolved.matches.length>0) {
-      renderL2RouteHint(resolved);
-    } else if (el) {
-      el.classList.add('hidden'); el.innerHTML='';
-    }
+    if (el) { el.classList.add('hidden'); el.innerHTML=''; }
   }
   if (typeof resolveKeywordToL2 === 'function') {
     resolveKeywordToL2(cat).then(_afterResolve).catch(function(){ _runCompassActual(cat, null); });
@@ -11332,9 +11345,10 @@ function renderL2RouteHint(resolved) {
   if (!el || !resolved) return;
   var html = '';
   if (resolved.hint) {
-    html += '<div style="background:linear-gradient(90deg,#1a1f3a,#0f1428);border:1px solid #38bdf8;border-radius:12px;padding:14px 18px;margin-bottom:10px;">';
-    html += '<div style="color:#38bdf8;font-size:13px;font-weight:600;margin-bottom:6px;">&#128172; 智能路由提示</div>';
-    html += '<div style="color:#cbd5e1;font-size:13px;line-height:1.6;">您搜索的「<span style="color:#facc15;font-weight:600;">'+escapeHtml(resolved.query)+'</span>」属于三级或叶子级分类。<br>'+escapeHtml(resolved.hint)+'</div>';
+    html += '<div style="background:linear-gradient(90deg,#0c1a3a,#0f1428);border:1.5px solid #38bdf8;border-radius:14px;padding:18px 22px;margin-bottom:14px;box-shadow:0 4px 20px rgba(56,189,248,0.15);">';
+    html += '<div style="color:#38bdf8;font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px;">&#128172; 智能路由提示 <span style="background:#38bdf8;color:#0c1a3a;font-size:10px;padding:2px 8px;border-radius:8px;font-weight:600;">需要选择</span></div>';
+    html += '<div style="color:#e2e8f0;font-size:13px;line-height:1.7;">您搜索的「<span style="color:#facc15;font-weight:700;">'+escapeHtml(resolved.query)+'</span>」属于<span style="color:#a855f7;font-weight:600;">三级或叶子级分类</span>。<br>'+escapeHtml(resolved.hint)+'</div>';
+    html += '<div style="color:#38bdf8;font-size:12px;margin-top:10px;padding-top:10px;border-top:1px dashed rgba(56,189,248,0.3);">&#128072; 请点击下方推荐的二级类目，跳转后将展开对应的罗盘分析、海关出口、合规与定价信息</div>';
     html += '</div>';
   } else {
     html += '<div style="color:#94a3b8;font-size:13px;margin-bottom:8px;">为您推荐以下二级分类：</div>';
