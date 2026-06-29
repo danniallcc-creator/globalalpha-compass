@@ -3683,19 +3683,17 @@ function countryCard(c, cat) {
 function runCompass() {
   var cat = ($el('search-input').value||'').trim();
   if(!cat){alert('请输入产品类目');return;}
-  // 先做叶子/L3关键词路由：若匹配到叶子或三级，先弹出二级分类建议而不直接渲染
+  // 总是先跑罗盘，路由提示仅作为补充信息显示在搜索框下方
+  _runCompassActual(cat);
   if (typeof resolveKeywordToL2 === 'function') {
     resolveKeywordToL2(cat).then(function(resolved){
-      if (resolved && resolved.hint && resolved.matches.length > 0) {
-        // 叶子/三级 → 显示提示并阻止本次罗盘渲染
+      var el = document.getElementById('search-suggestions');
+      if (resolved && resolved.hint && resolved.matches.length>0) {
         renderL2RouteHint(resolved);
-        hide('el-loading');
-        return;
+      } else if (el) {
+        el.classList.add('hidden'); el.innerHTML='';
       }
-      _runCompassActual(cat);
-    }).catch(function(){ _runCompassActual(cat); });
-  } else {
-    _runCompassActual(cat);
+    }).catch(function(){});
   }
 }
 
@@ -11236,12 +11234,12 @@ async function resolveKeywordToL2(query) {
     }
   }
   if (matches.length === 0) return null;
-  // 决定提示语
-  var levels = matches.map(function(x){return x.level;});
-  var isLeaf = levels.indexOf('l') !== -1 || levels.indexOf('L') !== -1;
-  var hint = isLeaf
-    ? '当前海关出口HS编码仅能抓取到二级分类，无法抓取到三级到叶子分类，请点击以下二级分类进行查看'
-    : null;
+  // 决定提示语：仅当首条精确匹配是叶子或三级时显示
+  var hint = null;
+  var primary = matches[0];
+  if (primary.exact && (primary.level === 'l' || primary.level === 'L')) {
+    hint = '当前海关出口HS编码仅能抓取到二级分类，无法抓取到三级到叶子分类，请点击以下二级分类进行查看';
+  }
   return { query: query, matches: matches, hint: hint };
 }
 
