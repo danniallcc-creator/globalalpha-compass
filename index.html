@@ -11247,6 +11247,7 @@ async function resolveKeywordToL2(query) {
   var q = String(query).trim().toLowerCase();
   if (!q) return null;
   var routes = kw.routes;
+  var gramsMap = kw.grams || {};
   var table = kw.l2_table;
   var matches = [];
   var seenSlug = {};
@@ -11259,11 +11260,11 @@ async function resolveKeywordToL2(query) {
       matches.push({l1:t2.l1, l2:t2.l2, slug:t2.slug, level:routeArr[j][1], exact:!!exact});
     }
   }
-  // 1) 精确命中
+  // 1) 精确命中（tier 1: exact + alias）
   if (routes[q]) pushMatch(routes[q], true);
 
-  // 2) 字符级n-gram召回：用 q 的所有 2-4 字符子串去匹配精确叶子
-  //    （主要解决"空调窗机"≈"窗式空调"这类口语化查询）
+  // 2) 字符级n-gram召回：用 q 的所有 2-4 字符子串去匹配
+  //    tier 1 (routes) 优先于 tier 2 (gramsMap)，避免 "空调"→"空调清洁剂" 之类的污染
   var hasLeafHit = false;
   if (matches.length === 0 || (matches.length>0 && matches[0].level==='2')) {
     var grams = [];
@@ -11275,19 +11276,22 @@ async function resolveKeywordToL2(query) {
     // 去重
     var seen = {}; grams = grams.filter(function(g){if(seen[g])return false;seen[g]=true;return true;});
     var leafBucket = [], l3Bucket = [], l2Bucket = [];
+    function _drainGramArr(arr, viaGram){
+      for (var ai=0; ai<arr.length; ai++){
+        var t = table[arr[ai][0]]; if (!t) continue;
+        var lv = arr[ai][1];
+        var item = {l1:t.l1, l2:t.l2, slug:t.slug, level:lv, exact:false, viaGram:viaGram};
+        if (lv==='l') leafBucket.push(item);
+        else if (lv==='L') l3Bucket.push(item);
+        else if (lv==='2') l2Bucket.push(item);
+      }
+    }
     for (var gi=0; gi<grams.length && (leafBucket.length+l3Bucket.length)<10; gi++){
       var g = grams[gi];
-      if (routes[g]) {
-        var arr = routes[g];
-        for (var ai=0; ai<arr.length; ai++){
-          var t = table[arr[ai][0]]; if (!t) continue;
-          var lv = arr[ai][1];
-          var item = {l1:t.l1, l2:t.l2, slug:t.slug, level:lv, exact:false, viaGram:g};
-          if (lv==='l') leafBucket.push(item);
-          else if (lv==='L') l3Bucket.push(item);
-          else if (lv==='2') l2Bucket.push(item);
-        }
-      }
+      // tier 1 优先
+      if (routes[g]) _drainGramArr(routes[g], g);
+      // tier 2 兜底（仅当 tier 1 未覆盖该 gram）
+      else if (gramsMap[g]) _drainGramArr(gramsMap[g], g);
     }
     // 优先级：叶子 > 三级 > 二级
     var ordered = leafBucket.concat(l3Bucket).concat(l2Bucket);
@@ -11301,7 +11305,7 @@ async function resolveKeywordToL2(query) {
     }
   }
 
-  // 3) 兜底子串模糊
+  // 3) 兜底子串模糊（仅在 tier 1 routes 内查找，避免 tier 2 gram 污染）
   if (matches.length === 0) {
     var keys = Object.keys(routes);
     for (var ki=0; ki<keys.length && matches.length<6; ki++){
