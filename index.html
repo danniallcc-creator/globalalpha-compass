@@ -3715,25 +3715,30 @@ function runCompass() {
   // 1) 立刻显示 loading，避免感知卡顿
   show('el-loading'); hide('el-results');
   // 2) 先尝试解析路由（拿到规范 L1/L2 上下文）
-  //    - 若解析到叶子/三级级别（level='l' 或 'L'）：仅显示蓝色路由提示卡，等待用户点击 L2 chip 后再跳转
-  //    - 若解析到二级级别（level='2'）或未匹配：直接渲染罗盘
+  //    - 若用户输入 == 匹配到的 L1/L2 规范名（不区分大小写）：直接渲染罗盘
+  //    - 否则（叶子/三级/口语化别名/n-gram/子串）：仅显示蓝色路由提示卡
   function _afterResolve(resolved){
     var el = document.getElementById('search-suggestions');
-    var hasLeafOrL3 = false;
+    var needsL2Pick = false;
     if (resolved && resolved.matches && resolved.matches.length>0) {
-      var topLevel = resolved.matches[0].level;
-      hasLeafOrL3 = (topLevel === 'l' || topLevel === 'L');
+      var topMatch = resolved.matches[0];
+      var topLevel = topMatch.level;
+      var qLower = String(cat||'').trim().toLowerCase();
+      var isDirectL1 = (topLevel === '1' && (topMatch.l1||'').toLowerCase() === qLower);
+      var isDirectL2 = (topLevel === '2' && (topMatch.l2||'').toLowerCase() === qLower);
+      // 别名等价于 L2 规范名也算直命中（如 '男装'/'女装' 既是 L2 名也是 alias）
+      var isAliasAsL2 = (topLevel === 'a' && (topMatch.l2||'').toLowerCase() === qLower);
+      needsL2Pick = !(isDirectL1 || isDirectL2 || isAliasAsL2);
     }
-    if (hasLeafOrL3) {
+    if (needsL2Pick) {
       // 仅展示路由提示卡，等待用户点击聚合二级类目
       hide('el-loading');
       hide('el-results');
       renderL2RouteHint(resolved);
-      // 滚动到提示卡，确保用户能看到
       if (el && el.scrollIntoView) { try { el.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e){} }
       return;
     }
-    // 二级或未匹配：正常渲染罗盘
+    // 直命中 L1/L2 或未匹配：正常渲染罗盘
     var ctx = null;
     if (resolved && resolved.matches && resolved.matches.length>0) {
       var m0 = resolved.matches[0];
@@ -11333,7 +11338,8 @@ async function resolveKeywordToL2(query) {
   // 决定提示语
   var primary = matches[0];
   var hint = null;
-  if (primary.level === 'l' || primary.level === 'L' || hasLeafHit) {
+  // 凡是输入本身不是规范的一级/二级名（包含叶子、三级、别名、n-gram兜底、子串模糊）都要提示
+  if (primary.level === 'l' || primary.level === 'L' || primary.level === 'a' || hasLeafHit || primary.exact === false) {
     hint = '当前海关出口HS编码仅能抓取到二级分类，无法抓取到三级到叶子分类，请点击以下二级分类进行查看';
   }
   return { query: query, matches: matches, hint: hint };
