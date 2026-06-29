@@ -339,12 +339,13 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 54046723047,
+      "total_usd": 52479368079,
       "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "yoy_growth": -2.9,
+      "period": "2025",
+      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
+      "data_quality": "official_proxy_2025",
+      "total_usd_2024": 54046723047
     },
     "imports_from_china": {
       "US": {

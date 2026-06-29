@@ -175,12 +175,13 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 30400539967,
+      "total_usd": 30643744287,
       "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "yoy_growth": 0.8,
+      "period": "2025",
+      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
+      "data_quality": "official_proxy_2025",
+      "total_usd_2024": 30400539967
     },
     "imports_from_china": {
       "US": {
@@ -250,11 +251,11 @@
       "articles_analyzed": 1
     },
     "top_headlines": [
-      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
+      "PrintXpand Connect Strengthens Its Multi-Supplier Ecosystem with 4over, Giving Printers More Sourcin"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRDA5czNqU09feGtGMXZ3VGpyMHJqOUFQWjdxcHA5TVZSWTRsVmlhb0VQdzdtZzdxNU9zVmc0OFhzMmZKMVJ6QnlpY2N5UHdVTDJsQU5RM1p5RjNPaG9ORkFwSFlUbmE1OTFfRVRnVGRGb2FmSi1FOVU4dmZDMVNYd1BmUjYzSFlVQjBWSVpmZWdoUlBteFdLcjFfeXdfQWMwckxOLVdRZ1ZRUk9EZVdpVFdWX0otYUNUdnBxQ0YwMDA0M0s0TFhYYVRnX0xnUW83Ui1OQVZLMk45eFkxUTZGSVRDYUVMVHc1Qkk4?oc=5"
     ],
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   }
 }

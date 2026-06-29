@@ -266,18 +266,6 @@
   "policy_updates": {
     "articles": [
       {
-        "title": "European Union High-Tensile Fasteners - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPRWE4cV8yczBNZm82anF3bnhLOTFSeXZ1eXZndXdrSU9lU0Q2QlUtLUE5N251WGpSR0RpWXJCUmZaTEdCN0Z6anpPTzYyQzJxemhHb1NDUnFTa2R3aVVNNXM3U05CalBsMjNJQWZHbVRIMTFRMWtRbUItSjVXUl91WTB1MVpFNDVLaVYwMXlDV3V5Zm5qN01UMVVQaWFDTm14MmNOeTVmWEJhZXFvT0liNXFOUF9wZ0o5OE",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "positive",
-        "impact_score": 0.2,
-        "category_relevance": "direct",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRWE4cV8yczBNZm82anF3bnhLOTFSeXZ1eXZndXdrSU9lU0Q2QlUtLUE5N251WGpSR0RpWXJCUmZaTEdCN0Z6anpPTzYyQzJxemhHb1NDUnFTa2R3aVVNNXM3U05CalBsMjNJQWZHbVRIMTFRMWtRbUItSjVXUl91WTB1MVpFNDVLaVYwMXlDV3V5Zm5qN01UMVVQaWFDTm14MmNOeTVmWEJhZXFvT0liNXFOUF9wZ0o5OEE?oc=5",
-        "published": "Tue, 23 Jun 2026",
-        "source": "IndexBox"
-      },
-      {
         "title": "European Union Cable Management Routing Clips - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNWDVmMm15Q05KUk45UG9tSDZyeW90MkRvYnIxQy1mWU90QVc5eHZlTUNRTmhNNjdLOGlDZWNyNlp2bzBDUURVWXphaG5qdHZyWTZuWE53b1dWWU5vRGZ2MUU4N1NpTVpCQlBLZTFRZV9sdGl1S294VXBUNW1pdjNDQ0JGeTFzRUVZb1hnN3ZFemJ2S3N5NVFnb3NvMm9jbUpYcml4VkJQVVhhS3Z5SWVjYUF0MGdYSXZTT1",
         "country": "EU",
@@ -292,22 +280,23 @@
     ],
     "country_summary": {
       "EU": {
-        "trend": "opening",
+        "trend": "neutral",
         "key_policies": [
           "compliance"
         ],
-        "impact": "positive"
+        "impact": "neutral"
       }
     }
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 109333652380,
+      "total_usd": 107256312985,
       "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "yoy_growth": -1.9,
+      "period": "2025",
+      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
+      "data_quality": "official_proxy_2025",
+      "total_usd_2024": 109333652380
     },
     "imports_from_china": {
       "US": {

@@ -152,32 +152,31 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Wholesale food distributor What Chefs Want continuing to build on success of tailored distribution s",
-      "How To Start a Wholesale Business in 2026 - Shopify"
+      "Wholesale food distributor What Chefs Want continuing to build on success of tailored distribution s"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdmZXcFFQdHBHb01fbGROeWZVVFo4X0dfYkRyb2dZYXcyakk1V1lyQW1rWWJsNE9ydHhZa05xYmpMQ1BWMXl2bHpmZjBPcFhDSzZfU1VOakZLSEgtWmhzY3JSVEFPLVNXQTFzSUdNOXh4WHM4Q3k2dl9uQi1aYlJXTFQ5QWdtYjhDTTl1aF9CYXVuRmc5ZlkzeVJpYnpoOXIyNzlhdGlza2VlZjdXR19pWm41b1hGTWszUTUySmEwS2ZDU1Nvd0JyUUFicmlqbkdMWXB5WDZPUDlnekRwMFE2dWhvc0tsM3BRNXhScg?oc=5",
-      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KV1haZzVQZ2hmVXFENkg1dVBvTENFOFh1X1ZrVGpTX1h2MnRWT0xBYVlZVlBfaElfQVpHS2ZLb2tEZzhhazNLWGwwYVd0bXJXejdQbXM4SlhHTWtVX0E?oc=5"
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdmZXcFFQdHBHb01fbGROeWZVVFo4X0dfYkRyb2dZYXcyakk1V1lyQW1rWWJsNE9ydHhZa05xYmpMQ1BWMXl2bHpmZjBPcFhDSzZfU1VOakZLSEgtWmhzY3JSVEFPLVNXQTFzSUdNOXh4WHM4Q3k2dl9uQi1aYlJXTFQ5QWdtYjhDTTl1aF9CYXVuRmc5ZlkzeVJpYnpoOXIyNzlhdGlza2VlZjdXR19pWm41b1hGTWszUTUySmEwS2ZDU1Nvd0JyUUFicmlqbkdMWXB5WDZPUDlnekRwMFE2dWhvc0tsM3BRNXhScg?oc=5"
     ],
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 13700058808,
+      "total_usd": 14111060572,
       "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "yoy_growth": 3.0,
+      "period": "2025",
+      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
+      "data_quality": "official_proxy_2025",
+      "total_usd_2024": 13700058808
     },
     "imports_from_china": {
       "US": {

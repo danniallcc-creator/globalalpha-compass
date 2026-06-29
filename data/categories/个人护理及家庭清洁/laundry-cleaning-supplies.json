@@ -153,34 +153,36 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 3,
+    "article_count": 4,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 66.7,
+      "overall": "neutral",
+      "positive_pct": 50.0,
       "negative_pct": 0.0,
-      "neutral_pct": 33.3,
-      "articles_analyzed": 3
+      "neutral_pct": 50.0,
+      "articles_analyzed": 4
     },
     "top_headlines": [
       "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
       "Shipping Interrupted: Tracking the Impact of Disruptions in the Strait of Hormuz - Hellenic Shipping",
+      "Black Sea Wheat Exports and Dry Bulk Shipping: Freight Market Uncertainty in 2026 - News and Statist",
       "Corn Shipments and Their Growing Role in Dry Bulk Freight Markets | Hellenic Shipping News - News an"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
       "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQelBiNG9GZWV3eDVvU2Ntd0lPX21MZXFEUkdkQ3lkT3hiUkxETDg3TmwyYjl5cnJfQmJnUVlwMFc0ZnFTcGxtOFlWOFhLcnlxWVRSWkdiYU1oZU0xVDZIVGc0OWJkbWZtRFI3WDBaRHlvMnF1bG9EckN6ZlNZMU5RRlVPTDZWbTRDUjY4SC1URG9DTWJ4bnJ3TVpWdTRCMm1wVURNb05ON2l3dDVXUW1QU0EybEVVR0YzN01J?oc=5",
-      "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZnBFd3pUYjNneVBzSTJwanhOTl9keHVGenhsamwwYjkzT1p3VjQtdVk4cjlmaWFRQXpsVEVIbG0wWWhiUmhuYXhCeGFPLVZZZFNrZzE2T0lkNHpNNmp6cmhYc3lhUDZLRzVrTExzZnVBXzgwWW9aT21uU3M4eU5yeDhZMzlnT2tydmxGTEhmSnk?oc=5"
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMnhES3BVMVhKcmhrblN0eGxUQzJ0b2N0N1p5TjJCOVJjMjRSV25Sd2twUXF0QUI4cjY1ak9rWnlHdzAzdWZZbTVzRzc4Z3FkMVlKa2ZzanpHbVFkNWZQaHFuQ3g0dDFzdllRVGJZczhpTExjMEtQNzY1d3lKU0V0TmFHRDZCby0wVjlYbzhqaFFIdk0xWHRTYw?oc=5"
     ],
     "fetched_at": "2026-06-29"
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 13700058808,
+      "total_usd": 14111060572,
       "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "yoy_growth": 3.0,
+      "period": "2025",
+      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
+      "data_quality": "official_proxy_2025",
+      "total_usd_2024": 13700058808
     },
     "imports_from_china": {
       "US": {

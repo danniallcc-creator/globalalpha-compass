@@ -153,52 +153,59 @@
     "l1_ref": "办公文教用品"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 36512944115,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 2625942598,
         "yoy": -37.5,
-        "share": 11.3
+        "share": 8.2
       },
       "DE": {
         "value_usd": 5979681644.225004,
         "yoy": 98.5,
-        "share": 25.7
+        "share": 18.7
       },
       "JP": {
         "value_usd": 1904358895.6330001,
         "yoy": 3.1,
-        "share": 8.2
+        "share": 5.9
+      },
+      "GB": {
+        "value_usd": 9288800680.807993,
+        "yoy": null,
+        "share": 29.0
       },
       "KR": {
         "value_usd": 1389603670,
-        "yoy": null,
-        "share": 6.0
+        "yoy": 8.5,
+        "share": 4.3
       },
       "AU": {
         "value_usd": 2629154042.566,
         "yoy": 3.5,
-        "share": 11.3
-      },
-      "IT": {
-        "value_usd": 476942806.87799996,
-        "yoy": -1.2,
-        "share": 2.1
+        "share": 8.2
       },
       "NL": {
         "value_usd": 382829954.208,
         "yoy": -3.2,
-        "share": 1.6
+        "share": 1.2
       },
       "CA": {
         "value_usd": 6412939290.411981,
         "yoy": 8.2,
-        "share": 27.6
+        "share": 20.0
       },
       "MX": {
         "value_usd": 1445158288,
         "yoy": -5.7,
-        "share": 6.2
+        "share": 4.5
       }
     }
   }

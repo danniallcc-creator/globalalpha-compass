@@ -276,24 +276,23 @@
   "2025_HS48": {
     "data": {
       "china_export": {
-        "total_usd": 38192539544,
+        "total_usd": 36512944115,
         "total_kg": 0,
-        "yoy_growth": 4.6,
-        "period": "2025",
-        "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-        "data_quality": "official_proxy_2025",
-        "total_usd_2024": 36512944115
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
       },
       "imports_from_china": {
         "US": {
           "value_usd": 2625942598,
           "yoy": -37.5,
-          "share": 8.1
+          "share": 8.2
         },
         "DE": {
           "value_usd": 5979681644.225004,
           "yoy": 98.5,
-          "share": 18.4
+          "share": 18.7
         },
         "JP": {
           "value_usd": 1904358895.6330001,
@@ -303,7 +302,7 @@
         "GB": {
           "value_usd": 9288800680.807993,
           "yoy": null,
-          "share": 28.5
+          "share": 29.0
         },
         "KR": {
           "value_usd": 1389603670,
@@ -312,13 +311,8 @@
         },
         "AU": {
           "value_usd": 2629154042.566,
-          "yoy": null,
-          "share": 8.1
-        },
-        "IT": {
-          "value_usd": 476942806.87799996,
-          "yoy": -1.2,
-          "share": 1.5
+          "yoy": 3.5,
+          "share": 8.2
         },
         "NL": {
           "value_usd": 382829954.208,
@@ -328,16 +322,16 @@
         "CA": {
           "value_usd": 6412939290.411981,
           "yoy": 8.2,
-          "share": 19.7
+          "share": 20.0
         },
         "MX": {
           "value_usd": 1445158288,
-          "yoy": null,
-          "share": 4.4
+          "yoy": -5.7,
+          "share": 4.5
         }
       }
     },
-    "fetched_at": "2026-06-21"
+    "fetched_at": "2026-06-29"
   },
   "2025_HS63": {
     "data": {
