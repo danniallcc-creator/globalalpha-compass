@@ -3839,16 +3839,70 @@ function renderCompass(cat) {
       '<div id="compliance-policy-updates" class="text-xs text-gray-500">\u52a0\u8f7d\u4e2d...</div>' +
     '</div>';
 
-  // B6: Async load policy updates for compliance section
+  // B6: Async load policy updates for compliance section (filtered by industry)
   (function(_cat) {
     loadPolicyUpdates().then(function(pu) {
       var el = document.getElementById('compliance-policy-updates');
       if (!el) return;
       if (!pu) { el.innerHTML = '<span class="text-gray-500">\u6570\u636e\u5c06\u5728\u4e0b\u6b21\u66f4\u65b0\u540e\u751f\u6210</span>'; return; }
       var ph = '';
-      // Show articles related to compliance
-      if (pu.articles && pu.articles.length) {
-        var articles = pu.articles.slice(0, 6);
+      // Filter articles relevant to this industry
+      var relevantArticles = [];
+      var seenTitles = {};
+      function _pushArt(a) { if (a && a.title && !seenTitles[a.title]) { seenTitles[a.title] = 1; relevantArticles.push(a); } }
+      // 1) Direct L1 index lookup (most reliable, built in loadPolicyUpdates)
+      if (pu.l1_articles && pu.l1_articles[_cat]) {
+        var l1Arts = pu.l1_articles[_cat];
+        for (var bai = 0; bai < l1Arts.length; bai++) _pushArt(l1Arts[bai]);
+      }
+      // 2) Match articles whose category/l1 field matches or title contains keywords
+      var catLower = (_cat || '').toLowerCase();
+      var catTokens = catLower.split(/[\s&,，、\/]+/).filter(function(t){ return t.length >= 2; });
+      if (relevantArticles.length < 6 && pu.articles && pu.articles.length) {
+        for (var mi = 0; mi < pu.articles.length; mi++) {
+          var ma = pu.articles[mi];
+          if (!ma) continue;
+          var artCat = (ma.category || '').toLowerCase();
+          var artTitle = (ma.title || '').toLowerCase();
+          var artL1 = (ma.l1 || '').toLowerCase();
+          // Direct L1 match
+          if (artL1 && artL1 === catLower) { _pushArt(ma); continue; }
+          // Check if article's category is an L2 under this L1
+          if (artCat && catLower && artCat.indexOf(catLower) !== -1) { _pushArt(ma); continue; }
+          if (catLower && artTitle.indexOf(catLower) !== -1) { _pushArt(ma); continue; }
+          // Check keyword overlap
+          for (var ti = 0; ti < catTokens.length; ti++) {
+            if (artCat.indexOf(catTokens[ti]) !== -1 || artTitle.indexOf(catTokens[ti]) !== -1) {
+              _pushArt(ma); break;
+            }
+          }
+        }
+      }
+      // 3) Pull from trending.json trade_news if still need more
+      if (window._trendingJSON && Array.isArray(window._trendingJSON.trade_news) && relevantArticles.length < 6) {
+        var tNews = window._trendingJSON.trade_news;
+        for (var tn = 0; tn < tNews.length && relevantArticles.length < 8; tn++) {
+          var ni = tNews[tn];
+          if (!ni || !ni.title) continue;
+          var hay = ((ni.title || '') + ' ' + (ni.summary || '')).toLowerCase();
+          var hit = false;
+          for (var tk = 0; tk < catTokens.length; tk++) {
+            if (hay.indexOf(catTokens[tk]) !== -1) { hit = true; break; }
+          }
+          if (hit) {
+            _pushArt({ title: ni.title, impact: ni.risk === 'high' ? 'negative' : ni.risk === 'low' ? 'positive' : 'neutral',
+              url: ni.url || '', source: ni.src || '', published: (ni.pub_time || '').substring(0, 10) });
+          }
+        }
+      }
+      // 4) Fallback: if still no relevant articles, show general global articles
+      if (relevantArticles.length === 0 && pu.articles && pu.articles.length) {
+        var fallback = pu.articles.slice(0, 6);
+        for (var fi = 0; fi < fallback.length; fi++) _pushArt(fallback[fi]);
+      }
+      // Render articles
+      if (relevantArticles.length) {
+        var articles = relevantArticles.slice(0, 6);
         ph += '<div class="space-y-2">';
         for (var ai = 0; ai < articles.length; ai++) {
           var a = articles[ai];
@@ -10912,7 +10966,139 @@ async function loadPolicyUpdates() {
   try {
     var r = await fetch('data/policy_updates.json?' + _dailyCacheKey());
     if (!r.ok) return null;
-    _policyUpdates = await r.json();
+    var raw = await r.json();
+    // Transform raw structure {by_country, by_category, global_policy_trend}
+    // into expected format {articles, country_summary, by_category}
+    var articles = [];
+    var seen = {};
+    var countryCounts = {};
+    // Flatten by_country into articles array
+    if (raw.by_country) {
+      var countries = Object.keys(raw.by_country);
+      for (var ci = 0; ci < countries.length; ci++) {
+        var cCode = countries[ci];
+        var cArts = raw.by_country[cCode];
+        if (!countryCounts[cCode]) countryCounts[cCode] = { pos: 0, neg: 0, neu: 0, total: 0 };
+        for (var ai = 0; ai < cArts.length; ai++) {
+          var a = cArts[ai];
+          if (!a || !a.title) continue;
+          if (seen[a.title]) continue;
+          seen[a.title] = 1;
+          var art = {
+            title: a.title,
+            country: cCode,
+            category: a.category || '',
+            impact: a.impact || 'neutral',
+            url: a.url || '',
+            source: a.source || '',
+            published: a.published || (raw.meta && raw.meta.date) || ''
+          };
+          articles.push(art);
+          countryCounts[cCode].total++;
+          if (art.impact === 'positive') countryCounts[cCode].pos++;
+          else if (art.impact === 'negative') countryCounts[cCode].neg++;
+          else countryCounts[cCode].neu++;
+        }
+      }
+    }
+    // Build country_summary with trend/impact/key_policies
+    var globalTrend = raw.global_policy_trend || 'neutral';
+    var country_summary = {};
+    var cKeys = Object.keys(countryCounts);
+    for (var k = 0; k < cKeys.length; k++) {
+      var code = cKeys[k];
+      if (code === 'Unknown') continue;
+      var cnt = countryCounts[code];
+      var trend = globalTrend;
+      if (cnt.neg > cnt.pos + 1) trend = 'tightening';
+      else if (cnt.pos > cnt.neg + 1) trend = 'opening';
+      var impact = trend === 'tightening' ? 'negative' : trend === 'opening' ? 'positive' : 'neutral';
+      // Extract key policy topics from article titles for this country
+      var keyPols = [];
+      for (var pi = 0; pi < articles.length && keyPols.length < 4; pi++) {
+        if (articles[pi].country === code && articles[pi].title) {
+          var shortTitle = articles[pi].title.length > 60 ? articles[pi].title.substring(0, 57) + '...' : articles[pi].title;
+          keyPols.push(shortTitle);
+        }
+      }
+      country_summary[code] = { trend: trend, impact: impact, key_policies: keyPols };
+    }
+    // Add default entries for major markets not in data
+    var defaultMarkets = ['US','EU','GB','JP','KR','IN','AU','DE','FR'];
+    var defaultTrends = {US:'tightening',EU:'tightening',GB:'neutral',JP:'neutral',KR:'neutral',IN:'tightening',AU:'opening',DE:'tightening',FR:'tightening'};
+    var defaultPolicies = {
+      US:['301关税持续','UFLPA供应链审查','CPSC安全标准升级','FCC认证要求'],
+      EU:['CBAM碳边境税','CE/MDR/RoHS合规','EPR包装回收义务','数字产品护照(DPP)'],
+      GB:['UKCA认证过渡','碳排放交易体系','产品安全法规更新'],
+      JP:['PSE/PSC认证','食品卫生法修订','化学品管控强化'],
+      KR:['KC认证扩围','电商平台责任法','绿色产品标准'],
+      IN:['BIS强制认证扩围','PLI制造激励','进口限制措施'],
+      AU:['中澳FTA零关税','SAA认证','ACCC消费品安全'],
+      DE:['包装法VerpackG','供应链尽职调查法','电池法规'],
+      FR:['反浪费法AGEC','EPR纺织品义务','碳足迹标签']
+    };
+    for (var di = 0; di < defaultMarkets.length; di++) {
+      var dm = defaultMarkets[di];
+      if (!country_summary[dm]) {
+        country_summary[dm] = {
+          trend: defaultTrends[dm] || 'neutral',
+          impact: defaultTrends[dm] === 'tightening' ? 'negative' : defaultTrends[dm] === 'opening' ? 'positive' : 'neutral',
+          key_policies: defaultPolicies[dm] || []
+        };
+      } else if (!country_summary[dm].key_policies || country_summary[dm].key_policies.length === 0) {
+        country_summary[dm].key_policies = defaultPolicies[dm] || [];
+      }
+    }
+    // Build L2→L1 mapping and l1_articles index
+    var l2ToL1 = {};
+    var l1Articles = {};
+    try {
+      var catIdx = CATEGORY_INDEX || (await (await fetch('data/category_index.json?' + _dailyCacheKey())).json());
+      if (catIdx && catIdx.categories) {
+        for (var xi = 0; xi < catIdx.categories.length; xi++) {
+          var xc = catIdx.categories[xi];
+          if (xc.name_cn && xc.l1_cn) l2ToL1[xc.name_cn] = xc.l1_cn;
+          if (xc.name_en && xc.l1_cn) l2ToL1[xc.name_en.toLowerCase()] = xc.l1_cn;
+        }
+      }
+    } catch(e2) { /* category_index load optional */ }
+    // Tag each article with l1 and build l1_articles index
+    for (var li = 0; li < articles.length; li++) {
+      var artL1 = l2ToL1[articles[li].category] || articles[li].category || '';
+      articles[li].l1 = artL1;
+      if (artL1) {
+        if (!l1Articles[artL1]) l1Articles[artL1] = [];
+        l1Articles[artL1].push(articles[li]);
+      }
+    }
+    // Also index by_category articles by L1
+    if (raw.by_category) {
+      var bcKeys = Object.keys(raw.by_category);
+      for (var bk = 0; bk < bcKeys.length; bk++) {
+        var l2Name = bcKeys[bk];
+        var parentL1 = l2ToL1[l2Name] || l2Name;
+        if (!l1Articles[parentL1]) l1Articles[parentL1] = [];
+        var bcList = raw.by_category[l2Name];
+        if (Array.isArray(bcList)) {
+          for (var bl = 0; bl < bcList.length; bl++) {
+            var bcItem = bcList[bl];
+            if (bcItem && bcItem.title && !seen[bcItem.title]) {
+              seen[bcItem.title] = 1;
+              bcItem.l1 = parentL1;
+              bcItem.category = bcItem.category || l2Name;
+              l1Articles[parentL1].push(bcItem);
+            }
+          }
+        }
+      }
+    }
+    _policyUpdates = {
+      articles: articles,
+      country_summary: country_summary,
+      by_category: raw.by_category || {},
+      l1_articles: l1Articles,
+      global_policy_trend: globalTrend
+    };
     _policyUpdatesLoaded = true;
     return _policyUpdates;
   } catch(e) { console.warn('loadPolicyUpdates failed:', e); return null; }
