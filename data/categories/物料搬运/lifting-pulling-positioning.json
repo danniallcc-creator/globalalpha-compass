@@ -222,7 +222,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "起重升降：海外社媒「conveyor price trend」增速 242%，搜索端「forklift wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Industrial Bulk Packaging Market Size,...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "起重升降：海外社媒「forklift viral」增速 246%，搜索端「forklift wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Industrial Bulk Packaging Market Size,...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -234,45 +234,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 起重升降 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 起重升降需求强劲",
-      "海外社媒「conveyor price trend」增速 242% 领跑 → 起重升降社媒种草热度爆发"
+      "海外社媒「forklift viral」增速 246% 领跑 → 起重升降社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "conveyor price trend",
-        "growth": 242.0,
-        "vol": "182K",
+        "platform": "instagram",
+        "kw": "forklift viral",
+        "growth": 246.5,
+        "vol": "37K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "forklift tutorial",
-        "growth": 241.5,
-        "vol": "282K",
+        "kw": "conveyor unboxing",
+        "growth": 234.0,
+        "vol": "675K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "forklift industry report",
-        "growth": 227.5,
-        "vol": "639K",
+        "platform": "x",
+        "kw": "conveyor market alert",
+        "growth": 226.0,
+        "vol": "551K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift wholesale supplier",
-        "growth": 94.5,
+        "growth": 210.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "material handling supply chain resilience",
-        "growth": 78,
+        "source": "Google Trends",
+        "kw": "forklift market 2026",
+        "growth": 130.5,
         "hits": 0
       },
       {
@@ -309,7 +309,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "物料搬运"
   }
 }

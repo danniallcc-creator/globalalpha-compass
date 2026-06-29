@@ -84,22 +84,22 @@
   ],
   "export_data": {
     "hs_chapter": "31",
-    "total_export_value_usd": 34583257,
-    "total_net_weight_kg": 4083257,
+    "total_export_value_usd": 22824973,
+    "total_net_weight_kg": 2324973,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 73,
-      "trend_direction": "up",
+      "interest_score": 95,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-28"
+      "fetched_at": "2026-06-29"
     }
   },
   "industry_analysis": {
@@ -112,7 +112,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；农用化学品(Agrochemicals)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -383,87 +383,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 42311995286,
-      "total_kg": 1411995286,
-      "yoy_growth": -4,
+      "total_usd": 49688577604,
+      "total_kg": 788577604,
+      "yoy_growth": -6,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 6769919245,
-        "yoy": 37,
-        "share": 16.0
+        "value_usd": 4471971984,
+        "yoy": 29,
+        "share": 9.0
       },
       "DE": {
-        "value_usd": 6516047274,
-        "yoy": 28,
-        "share": 15.4
+        "value_usd": 4372594829,
+        "yoy": 6,
+        "share": 8.8
       },
       "JP": {
-        "value_usd": 6304487297,
-        "yoy": 27,
-        "share": 14.9
+        "value_usd": 4273217673,
+        "yoy": -19,
+        "share": 8.6
       },
       "GB": {
-        "value_usd": 6050615325,
-        "yoy": 15,
-        "share": 14.3
+        "value_usd": 4173840518,
+        "yoy": 18,
+        "share": 8.4
       },
       "KR": {
-        "value_usd": 5839055349,
-        "yoy": 22,
-        "share": 13.8
+        "value_usd": 4074463363,
+        "yoy": 12,
+        "share": 8.2
       },
       "AU": {
-        "value_usd": 5585183377,
-        "yoy": -7,
-        "share": 13.2
+        "value_usd": 3975086208,
+        "yoy": 19,
+        "share": 8.0
       },
       "IN": {
-        "value_usd": 5246687415,
-        "yoy": 20,
-        "share": 12.399999999999991
+        "value_usd": 3875709053,
+        "yoy": 11,
+        "share": 7.8
       },
       "BR": {
-        "value_usd": 0,
+        "value_usd": 3776331897,
         "yoy": 29,
-        "share": 0.1
+        "share": 7.6
       },
       "SA": {
-        "value_usd": 0,
-        "yoy": 25,
-        "share": 0.1
+        "value_usd": 3676954742,
+        "yoy": -5,
+        "share": 7.4
       },
       "FR": {
-        "value_usd": 0,
-        "yoy": 33,
-        "share": 0.1
+        "value_usd": 3577577587,
+        "yoy": 23,
+        "share": 7.2
       },
       "IT": {
-        "value_usd": 0,
-        "yoy": -2,
-        "share": 0.1
+        "value_usd": 3478200432,
+        "yoy": 24,
+        "share": 7.0
       },
       "NL": {
-        "value_usd": 0,
-        "yoy": 38,
-        "share": 0.1
+        "value_usd": 3378823277,
+        "yoy": 0,
+        "share": 6.8
       },
       "CA": {
-        "value_usd": 0,
-        "yoy": 6,
-        "share": 0.1
+        "value_usd": 2583806035,
+        "yoy": -2,
+        "share": 5.200000000000004
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 6,
+        "yoy": 13,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": -13,
+        "yoy": 26,
         "share": 0.1
       }
     }

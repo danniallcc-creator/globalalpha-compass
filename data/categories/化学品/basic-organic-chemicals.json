@@ -107,22 +107,22 @@
   ],
   "export_data": {
     "hs_chapter": "29",
-    "total_export_value_usd": 4359846,
-    "total_net_weight_kg": 3859846,
+    "total_export_value_usd": 22972864,
+    "total_net_weight_kg": 12472864,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 42,
+      "interest_score": 93,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-28"
+      "fetched_at": "2026-06-29"
     }
   },
   "industry_analysis": {
@@ -135,7 +135,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；基本有机原料(Basic Organic Chemicals)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -406,88 +406,88 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 9284060477,
-      "total_kg": 384060477,
-      "yoy_growth": 27,
+      "total_usd": 5634865726,
+      "total_kg": 734865726,
+      "yoy_growth": -4,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 649884233,
-        "yoy": 9,
-        "share": 7.0
-      },
-      "DE": {
-        "value_usd": 640600172,
-        "yoy": -17,
-        "share": 6.9
-      },
-      "JP": {
-        "value_usd": 631316112,
-        "yoy": 24,
-        "share": 6.8
-      },
-      "GB": {
-        "value_usd": 622032051,
-        "yoy": 15,
-        "share": 6.7
-      },
-      "KR": {
-        "value_usd": 612747991,
-        "yoy": 37,
-        "share": 6.6
-      },
-      "AU": {
-        "value_usd": 603463931,
-        "yoy": -16,
-        "share": 6.5
-      },
-      "IN": {
-        "value_usd": 594179870,
-        "yoy": -1,
-        "share": 6.4
-      },
-      "BR": {
-        "value_usd": 584895810,
-        "yoy": 15,
-        "share": 6.3
-      },
-      "SA": {
-        "value_usd": 575611749,
-        "yoy": 21,
-        "share": 6.2
-      },
-      "FR": {
-        "value_usd": 566327689,
-        "yoy": 26,
-        "share": 6.1
-      },
-      "IT": {
-        "value_usd": 557043628,
-        "yoy": -10,
+        "value_usd": 338091943,
+        "yoy": -3,
         "share": 6.0
       },
-      "NL": {
-        "value_usd": 547759568,
-        "yoy": 39,
+      "DE": {
+        "value_usd": 338091943,
+        "yoy": -8,
+        "share": 6.0
+      },
+      "JP": {
+        "value_usd": 332457077,
+        "yoy": -7,
         "share": 5.9
       },
-      "CA": {
-        "value_usd": 538475507,
-        "yoy": 22,
+      "GB": {
+        "value_usd": 326822212,
+        "yoy": 30,
         "share": 5.8
       },
-      "MX": {
-        "value_usd": 529191447,
-        "yoy": -19,
+      "KR": {
+        "value_usd": 326822212,
+        "yoy": 31,
+        "share": 5.8
+      },
+      "AU": {
+        "value_usd": 326822212,
+        "yoy": 7,
+        "share": 5.8
+      },
+      "IN": {
+        "value_usd": 321187346,
+        "yoy": 12,
         "share": 5.7
       },
+      "BR": {
+        "value_usd": 321187346,
+        "yoy": -18,
+        "share": 5.7
+      },
+      "SA": {
+        "value_usd": 315552480,
+        "yoy": 28,
+        "share": 5.6
+      },
+      "FR": {
+        "value_usd": 309917614,
+        "yoy": 3,
+        "share": 5.5
+      },
+      "IT": {
+        "value_usd": 309917614,
+        "yoy": -7,
+        "share": 5.5
+      },
+      "NL": {
+        "value_usd": 309917614,
+        "yoy": 16,
+        "share": 5.5
+      },
+      "CA": {
+        "value_usd": 304282749,
+        "yoy": -10,
+        "share": 5.4
+      },
+      "MX": {
+        "value_usd": 298647883,
+        "yoy": -16,
+        "share": 5.3
+      },
       "VN": {
-        "value_usd": 1030530712,
-        "yoy": -11,
-        "share": 11.1
+        "value_usd": 1155147473,
+        "yoy": -5,
+        "share": 20.5
       }
     }
   }

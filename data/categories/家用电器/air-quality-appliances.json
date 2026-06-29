@@ -545,7 +545,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "空气质量电器：海外社媒「appliance tiktok made me buy」增速 246%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，China Daily - Global Edition关注「Sino-Russian bilateral economic, trade...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "空气质量电器：海外社媒「appliance viral hack」增速 250%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Smart Home Appliance Market Size, Share...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -559,52 +559,45 @@
       "欧盟 CE 标志强制准入 → 空气质量电器 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 空气质量电器 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 空气质量电器需求强劲",
-      "海外社媒「appliance tiktok made me buy」增速 246% 领跑 → 空气质量电器社媒种草热度爆发"
+      "海外社媒「appliance viral hack」增速 250% 领跑 → 空气质量电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "appliance tiktok made me buy",
-        "growth": 246.5,
-        "vol": "358K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "appliance factory tour",
-        "growth": 244.0,
-        "vol": "402K",
+        "kw": "appliance viral hack",
+        "growth": 250.0,
+        "vol": "318K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "appliance viral",
-        "growth": 235.5,
-        "vol": "640K",
+        "kw": "appliance new arrival",
+        "growth": 245.5,
+        "vol": "116K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance wholesale supplier",
+        "growth": 243.5,
+        "vol": "795K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance b2b export",
-        "growth": 146.0,
+        "kw": "appliance wholesale supplier",
+        "growth": 240.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance market 2026",
-        "growth": 132.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Sino-Russian bilateral economic, trade ties gaining momentum - China Daily - Global Edition",
-        "source": "China Daily - Global Edition",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT3hYWEU5UzVDZkJpeGJRODh6NkZGZF9HTDAxM3A3bWFrNGtwR2xPbFBBb3R2SFcySjNzcWRxVi1STXBQYTBKdm1kVXAtdUtZMGJ0aU42OHoxT19sVXBMaHY4V3RCWVhseUxHdEVyenFuejRRTkNVemFFTHlNVjBUeFdn?oc=5",
+        "growth": 209.5,
         "hits": 0
       },
       {
@@ -612,6 +605,13 @@
         "title": "Smart Home Appliance Market Size, Share | Industry [2034] - Fortune Business Insights",
         "source": "Fortune Business Insights",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnB4S25wb3VRakRnYzQ2UU1yTDVyempJY1dIc3p2UmMwNmljUjhzeVM5TEp5eHFSVERBN0YwNVpodFV2V3pUZFNNYWVzcy1QNmpMaERqdm1oa1p4bWVRenQwWFVVamJpTUcyLUpxdzNfOVVYaGhjTXlPdGFvdGZFZg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "What’s happening this week in economics? - Deloitte",
+        "source": "Deloitte",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
@@ -634,7 +634,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "家用电器"
   }
 }

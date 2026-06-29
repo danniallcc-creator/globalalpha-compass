@@ -74,11 +74,11 @@
   ],
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 67,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-28"
+      "fetched_at": "2026-06-29"
     }
   },
   "industry_analysis": {
@@ -91,10 +91,10 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「procurement viral hack」增速 247%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，South China Morning Post关注「China adds 10 US firms to export...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing #fyp」增速 252%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，South China Morning Post关注「China adds 10 US firms to export...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -106,45 +106,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 代理采购渠道&区域需求强劲",
-      "海外社媒「procurement viral hack」增速 247% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing #fyp」增速 252% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "procurement viral hack",
-        "growth": 247.0,
-        "vol": "583K",
+        "kw": "sourcing #fyp",
+        "growth": 251.5,
+        "vol": "254K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "procurement unboxing",
-        "growth": 245.0,
-        "vol": "637K",
+        "platform": "x",
+        "kw": "sourcing analyst",
+        "growth": 249.5,
+        "vol": "160K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "procurement factory tour",
-        "growth": 230.0,
-        "vol": "355K",
+        "platform": "x",
+        "kw": "procurement market alert",
+        "growth": 244.0,
+        "vol": "658K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing wholesale supplier",
-        "growth": 197.5,
+        "kw": "procurement b2b export",
+        "growth": 125.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing market 2026",
-        "growth": 176.5,
+        "growth": 122.5,
         "hits": 0
       },
       {
@@ -181,7 +181,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "代理采购"
   }
 }

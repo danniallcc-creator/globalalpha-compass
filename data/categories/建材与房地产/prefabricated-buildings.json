@@ -530,7 +530,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "活动房屋与钢结构：海外社媒「cement price trend」增速 249%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Atlantic Council关注「US-Caribbean maritime cooperation: Why...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
+    "trend_summary": "活动房屋与钢结构：海外社媒「building breaking」增速 254%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Atlantic Council关注「US-Caribbean maritime cooperation: Why...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -542,45 +542,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 活动房屋与钢结构 出口需通过合规认证",
       "沙特阿拉伯市场 YoY +28% 领跑 保温隔热材料(6806/3816/6807系列) 出口 → 活动房屋与钢结构需求强劲",
-      "海外社媒「cement price trend」增速 249% 领跑 → 活动房屋与钢结构社媒种草热度爆发"
+      "海外社媒「building breaking」增速 254% 领跑 → 活动房屋与钢结构社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cement price trend",
-        "growth": 249.0,
-        "vol": "92K",
+        "platform": "x",
+        "kw": "building breaking",
+        "growth": 253.5,
+        "vol": "204K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cement b2b export",
-        "growth": 247.0,
-        "vol": "518K",
+        "platform": "instagram",
+        "kw": "cement must have",
+        "growth": 248.0,
+        "vol": "702K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "cement unboxing",
-        "growth": 247.0,
-        "vol": "376K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 244.0,
+        "kw": "building tutorial",
+        "growth": 241.5,
+        "vol": "553K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 189.5,
+        "growth": 202.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 130.5,
         "hits": 0
       },
       {
@@ -617,7 +617,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "建材与房地产"
   }
 }

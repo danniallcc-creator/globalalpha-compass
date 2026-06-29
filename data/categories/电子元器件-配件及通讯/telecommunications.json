@@ -293,7 +293,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "通讯：海外社媒「electronic component aesthetic」增速 254%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "通讯：海外社媒「5g review 2026」增速 250%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -307,45 +307,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 通讯 成主流",
       "欧盟 CE 标志强制准入 → 通讯 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 通讯需求强劲",
-      "海外社媒「electronic component aesthetic」增速 254% 领跑 → 通讯社媒种草热度爆发"
+      "海外社媒「5g review 2026」增速 250% 领跑 → 通讯社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electronic component aesthetic",
-        "growth": 254.0,
-        "vol": "108K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "chip tutorial",
-        "growth": 245.5,
-        "vol": "168K",
+        "kw": "5g review 2026",
+        "growth": 249.5,
+        "vol": "728K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "5g #fyp",
-        "growth": 243.5,
-        "vol": "697K",
+        "platform": "x",
+        "kw": "chip supply chain",
+        "growth": 225.5,
+        "vol": "735K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electronic component b2b export",
+        "growth": 223.0,
+        "vol": "749K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "5g market 2026",
-        "growth": 221.5,
+        "kw": "electronic component b2b export",
+        "growth": 220.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chip wholesale supplier",
-        "growth": 137.5,
+        "growth": 198.5,
         "hits": 0
       },
       {
@@ -382,7 +382,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

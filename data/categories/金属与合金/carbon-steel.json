@@ -303,7 +303,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "碳钢：海外社媒「aluminum supply chain」增速 244%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
+    "trend_summary": "碳钢：海外社媒「steel new arrival」增速 250%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -317,45 +317,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 碳钢 成主流",
       "欧盟 CE 标志强制准入 → 碳钢 出口需通过合规认证",
       "印度市场 YoY +30% 领跑 钢材 出口 → 碳钢需求强劲",
-      "海外社媒「aluminum supply chain」增速 244% 领跑 → 碳钢社媒种草热度爆发"
+      "海外社媒「steel new arrival」增速 250% 领跑 → 碳钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "aluminum supply chain",
-        "growth": 243.5,
-        "vol": "413K",
+        "platform": "instagram",
+        "kw": "steel new arrival",
+        "growth": 250.5,
+        "vol": "584K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "aluminum wholesale supplier",
+        "growth": 240.5,
+        "vol": "89K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "steel market alert",
-        "growth": 242.0,
-        "vol": "216K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel viral hack",
-        "growth": 235.0,
-        "vol": "747K",
+        "kw": "metal industry news",
+        "growth": 236.0,
+        "vol": "267K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "aluminum wholesale supplier",
-        "growth": 205.5,
+        "growth": 237.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 151.0,
+        "growth": 206.0,
         "hits": 0
       },
       {
@@ -392,7 +392,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "金属与合金"
   }
 }

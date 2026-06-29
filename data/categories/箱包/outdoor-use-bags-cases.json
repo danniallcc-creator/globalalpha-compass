@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "户外用箱包：海外社媒「luggage #trending」增速 242%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "户外用箱包：海外社媒「luggage market 2026」增速 252%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -100,45 +100,45 @@
       "欧盟 CE 标志强制准入 → 户外用箱包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 户外用箱包 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 户外用箱包需求强劲",
-      "海外社媒「luggage #trending」增速 242% 领跑 → 户外用箱包社媒种草热度爆发"
+      "海外社媒「luggage market 2026」增速 252% 领跑 → 户外用箱包社媒种草热度爆发"
     ],
     "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "luggage market 2026",
+        "growth": 251.5,
+        "vol": "528K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "backpack aesthetic",
+        "growth": 245.0,
+        "vol": "447K",
+        "hits": 0
+      },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "luggage #trending",
         "growth": 241.5,
-        "vol": "223K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "backpack top 10",
-        "growth": 232.5,
-        "vol": "390K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "luggage #fyp",
-        "growth": 226.5,
-        "vol": "471K",
+        "vol": "442K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "bag wholesale supplier",
-        "growth": 117.5,
+        "kw": "luggage market 2026",
+        "growth": 248.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "luggage bags digital transformation",
-        "growth": 84,
+        "kw": "luggage bags export opportunity emerging markets",
+        "growth": 76,
         "hits": 0
       },
       {
@@ -150,9 +150,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Single-Use Bioreactor Bag Market Forecast Points Higher Toward 2035, Driven by Biopharma Capacity Expansion - IndexBox",
+        "title": "World Greaseproof Kraft Paper Bag - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVFJiZm1tSXV1eno4ZW9pQWhwN3k3YkJ1QjFaVllweDd2QWJPUkY4ZHVZT3QtUVVfZXB1aU01T2pXV2l5NXlndi01UDRrZjJBNDdKSEkzM0hTRjhVM2VBZjFJSklxTU0zcFFxc3B4NFF3NThQN1plVWRaZGM2cFllWTdUUU1qTjBtQzFhOFh2VmpLVXRTTXFJMmpwSEdzb1Zoc2JyN01rdjB0TjA3anl2TVlzUGs2dGhzMndoaThBRWdqZkd3MUgtNk5langtbDN0Tmc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3M0MDcyY2JGVVl2OXhmbU0xSWlOT2RSWHhiU3VxaEp0bENDOVZ5ajJEOW81S0JtQzc1Y3ZidFBKYjJLN3pabUhQTTRJQW1BUVAwUHd5anFaVUxTeHJBX0szTGRpVkE2OERmbEI1U3dIUzR2SzYwQldOT3I1bC1RLUU0WkkyOFdYRW5tMTg3SHdQMG1aQlJNQ1dxTnFyQ0NHY3VDRjJGMWc1UWxieTR2OW5UVl8yakY0eE9meWEwcEQ?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "箱包"
   }
 }

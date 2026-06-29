@@ -307,7 +307,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "坚果及干果：海外社媒「food #trending」增速 254%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Precedence Research关注「Trade Credit Insurance Market Size to...」。",
+    "trend_summary": "坚果及干果：海外社媒「food market 2026」增速 252%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Brewers Association关注「Q2 2026 Export Development Program News...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -319,45 +319,52 @@
     "reasons": [
       "美国 FDA 注册要求 → 坚果及干果 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 坚果及干果 包装可回收化升级",
-      "海外社媒「food #trending」增速 254% 领跑 → 坚果及干果社媒种草热度爆发"
+      "海外社媒「food market 2026」增速 252% 领跑 → 坚果及干果社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "food #trending",
-        "growth": 254.5,
-        "vol": "459K",
+        "platform": "google",
+        "kw": "food market 2026",
+        "growth": 252.5,
+        "vol": "564K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "food must have",
-        "growth": 251.0,
-        "vol": "22K",
+        "platform": "x",
+        "kw": "food breaking",
+        "growth": 244.5,
+        "vol": "712K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "snack tiktok made me buy",
+        "platform": "youtube",
+        "kw": "beverage top 10",
         "growth": 238.5,
-        "vol": "488K",
+        "vol": "682K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 230.5,
+        "kw": "food market 2026",
+        "growth": 249.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 196.0,
+        "growth": 166.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Q2 2026 Export Development Program News - Brewers Association",
+        "source": "Brewers Association",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjBmbjM4RjVMdlhMZERmbHhmd3drNHByZlBWdEVMcUFtZk9tNHotaWhXY3NZZUNwMnZBMmRUeEZnNVg3QW15T2JGUUtMREYtcEppQS1zVU5MT1pldHlUb3FNNzJCQks4VU0yMzhWSWdiZmhucm9LdHc3THJId2lGYTJyal90ZlBQSlBZUGFObzZON01QWG1CangzVjdBNEtsdG10Sw?oc=5",
         "hits": 0
       },
       {
@@ -365,13 +372,6 @@
         "title": "Trade Credit Insurance Market Size to Hit USD 38.24 Billion by 2035 - Precedence Research",
         "source": "Precedence Research",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0a3ZDa0NkM0RpRkpUS3BEZ0dycjhsclN2Z3pTT0diQ2l0Y1pzakhPOGxkUHVTQUlJckRDUTUxdUZJcUpYcjAwaWNXYWc4UHdrbm0xWEt1VkloT3JKRWZ4cmQ1aWJ0dEdnazhHSUFtVzZ6dw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Food and Beverage Processing Antifoams Market Growth Forecast to 2035: Clean-Label Trends and Biofuel Fermentation Drive Demand - News and S",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOVGdzNmxSdVNPVDkxMk00UHRKZWdDcmswaklDLWVnZ3Zic3ZOSDVuS3J5N1BJRG5kSkx2Xzc1RFBNYmdYRjc4THpvRm83bjlwaFphTFByVGl4SXpXN2RPdWJubVZXa1hHcTZtZjNTU0FkNUdLaHJ2N3FLZHhacFNESjNsR0w3c3FQNE53aVpNLWpUWUkya3Y0b1VPaUJaRFNfNzZHdDlKalNZT01oVlc0b3hSZFJEOHhQVXA3dTh1THhrMzBsUEk4V2UyOWowVGFBZk9ONHVRcmRVOHFBVnd3V0VjM3V6ZGdfbTBreDlSbzBFb2V4SDJ3UUtRME9DeDI4dm90bg?oc=5",
         "hits": 0
       },
       {
@@ -394,7 +394,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "食品及饮料"
   }
 }

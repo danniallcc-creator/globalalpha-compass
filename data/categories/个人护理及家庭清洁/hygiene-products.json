@@ -29,22 +29,22 @@
   ],
   "export_data": {
     "hs_chapter": "48",
-    "total_export_value_usd": 29668478,
-    "total_net_weight_kg": 19168478,
+    "total_export_value_usd": 4879095,
+    "total_net_weight_kg": 14379095,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 99,
-      "trend_direction": "down",
+      "interest_score": 92,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-28"
+      "fetched_at": "2026-06-29"
     }
   },
   "industry_analysis": {
@@ -57,7 +57,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "卫生用品：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」。",
@@ -268,64 +268,52 @@
     }
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 36512944115,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
         "value_usd": 2625942598,
         "yoy": -37.5,
-        "share": 8.1
+        "share": 11.3
       },
       "DE": {
         "value_usd": 5979681644.225004,
         "yoy": 98.5,
-        "share": 18.4
+        "share": 25.7
       },
       "JP": {
         "value_usd": 1904358895.6330001,
         "yoy": 3.1,
-        "share": 5.9
-      },
-      "GB": {
-        "value_usd": 9288800680.807993,
-        "yoy": null,
-        "share": 28.5
+        "share": 8.2
       },
       "KR": {
         "value_usd": 1389603670,
-        "yoy": 8.5,
-        "share": 4.3
+        "yoy": null,
+        "share": 6.0
       },
       "AU": {
         "value_usd": 2629154042.566,
-        "yoy": null,
-        "share": 8.1
+        "yoy": 3.5,
+        "share": 11.3
       },
       "IT": {
         "value_usd": 476942806.87799996,
         "yoy": -1.2,
-        "share": 1.5
+        "share": 2.1
       },
       "NL": {
         "value_usd": 382829954.208,
         "yoy": -3.2,
-        "share": 1.2
+        "share": 1.6
       },
       "CA": {
         "value_usd": 6412939290.411981,
         "yoy": 8.2,
-        "share": 19.7
+        "share": 27.6
       },
       "MX": {
         "value_usd": 1445158288,
-        "yoy": null,
-        "share": 4.4
+        "yoy": -5.7,
+        "share": 6.2
       }
     }
   }

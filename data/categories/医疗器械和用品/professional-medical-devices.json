@@ -338,7 +338,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "商用医疗器械：海外社媒「medical device #trending」增速 252%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「High Performance Medical Plastics...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "trend_summary": "商用医疗器械：海外社媒「medical device market 2026」增速 222%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「High Performance Medical Plastics...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -352,45 +352,45 @@
       "美国 FDA 注册要求 → 商用医疗器械 进入北美市场必备门槛",
       "印度 BIS 强制注册 → 14 亿人口市场 商用医疗器械 准入",
       "印度市场 YoY +26% 领跑 医疗器械 出口 → 商用医疗器械需求强劲",
-      "海外社媒「medical device #trending」增速 252% 领跑 → 商用医疗器械社媒种草热度爆发"
+      "海外社媒「medical device market 2026」增速 222% 领跑 → 商用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "medical device market 2026",
+        "growth": 222.5,
+        "vol": "682K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "medical device #trending",
-        "growth": 252.5,
-        "vol": "132K",
+        "kw": "medical device new arrival",
+        "growth": 219.5,
+        "vol": "566K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "medical device market 2026",
-        "growth": 241.5,
-        "vol": "231K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "healthcare equipment viral hack",
-        "growth": 217.0,
-        "vol": "774K",
+        "kw": "healthcare equipment price trend",
+        "growth": 219.0,
+        "vol": "769K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "medical device market 2026",
-        "growth": 238.5,
+        "growth": 219.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "medical device wholesale supplier",
-        "growth": 169.5,
+        "kw": "healthcare equipment b2b export",
+        "growth": 119.0,
         "hits": 0
       },
       {
@@ -427,7 +427,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "医疗器械和用品"
   }
 }

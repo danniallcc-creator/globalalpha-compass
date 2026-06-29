@@ -643,7 +643,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "充电器，电池和电源：海外社媒「smartphone market alert」增速 255%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「China's May shipments to U.S. clock...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "充电器，电池和电源：海外社媒「consumer electronics market 2026」增速 244%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「China's May shipments to U.S. clock...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -657,45 +657,45 @@
       "欧盟 CE 标志强制准入 → 充电器，电池和电源 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 充电器，电池和电源 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 充电器，电池和电源需求强劲",
-      "海外社媒「smartphone market alert」增速 255% 领跑 → 充电器，电池和电源社媒种草热度爆发"
+      "海外社媒「consumer electronics market 2026」增速 244% 领跑 → 充电器，电池和电源社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "smartphone market alert",
-        "growth": 255.0,
-        "vol": "533K",
+        "platform": "google",
+        "kw": "consumer electronics market 2026",
+        "growth": 244.5,
+        "vol": "393K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "consumer electronics must have",
-        "growth": 210.0,
-        "vol": "731K",
+        "kw": "consumer electronics #trending",
+        "growth": 244.5,
+        "vol": "758K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "consumer electronics industry news",
-        "growth": 184.0,
-        "vol": "473K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "smartphone b2b export",
-        "growth": 167.0,
+        "platform": "instagram",
+        "kw": "smartphone aesthetic",
+        "growth": 227.0,
+        "vol": "161K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 162.5,
+        "growth": 241.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "smartphone b2b export",
+        "growth": 151.0,
         "hits": 0
       },
       {
@@ -732,7 +732,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-06-28",
+    "generated_at": "2026-06-29",
     "l1_ref": "消费电子"
   }
 }

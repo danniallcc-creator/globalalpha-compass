@@ -32,22 +32,22 @@
   ],
   "export_data": {
     "hs_chapter": "48",
-    "total_export_value_usd": 29668478,
-    "total_net_weight_kg": 19168478,
+    "total_export_value_usd": 4879095,
+    "total_net_weight_kg": 14379095,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-28"
+    "fetched_at": "2026-06-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 44,
-      "trend_direction": "stable",
+      "interest_score": 55,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-28"
+      "fetched_at": "2026-06-29"
     }
   },
   "industry_analysis": {
@@ -60,7 +60,7 @@
     "opportunity": "东南亚电商配套瓦楞纸箱及填充物；中东高端礼品包装（特种纸/烫金印刷）；欧洲可堆肥食品包装（PLA/纸基覆膜）；非洲电商包装基础设施建设机遇；包装原材料(Packaging Raw Materials)细分领域机会值得关注"
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "包装原材料：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」。",
@@ -155,64 +155,52 @@
     "l1_ref": "包装印刷"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 36512944115,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
         "value_usd": 2625942598,
         "yoy": -37.5,
-        "share": 8.1
+        "share": 11.3
       },
       "DE": {
         "value_usd": 5979681644.225004,
         "yoy": 98.5,
-        "share": 18.4
+        "share": 25.7
       },
       "JP": {
         "value_usd": 1904358895.6330001,
         "yoy": 3.1,
-        "share": 5.9
-      },
-      "GB": {
-        "value_usd": 9288800680.807993,
-        "yoy": null,
-        "share": 28.5
+        "share": 8.2
       },
       "KR": {
         "value_usd": 1389603670,
-        "yoy": 8.5,
-        "share": 4.3
+        "yoy": null,
+        "share": 6.0
       },
       "AU": {
         "value_usd": 2629154042.566,
-        "yoy": null,
-        "share": 8.1
+        "yoy": 3.5,
+        "share": 11.3
       },
       "IT": {
         "value_usd": 476942806.87799996,
         "yoy": -1.2,
-        "share": 1.5
+        "share": 2.1
       },
       "NL": {
         "value_usd": 382829954.208,
         "yoy": -3.2,
-        "share": 1.2
+        "share": 1.6
       },
       "CA": {
         "value_usd": 6412939290.411981,
         "yoy": 8.2,
-        "share": 19.7
+        "share": 27.6
       },
       "MX": {
         "value_usd": 1445158288,
-        "yoy": null,
-        "share": 4.4
+        "yoy": -5.7,
+        "share": 6.2
       }
     }
   }
