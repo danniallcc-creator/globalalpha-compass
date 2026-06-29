@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.2",
-    "updated_at": "2026-06-29T02:42:16.061506+00:00",
+    "updated_at": "2026-06-29T05:57:26.253380Z",
     "date": "2026-06-29",
     "total_l1": 49,
     "sources": {
@@ -34,7 +34,8 @@
         "SA"
       ]
     },
-    "note": "social/search/amazon 含确定性合成数据（每日变化的种子），media 优先抓取 Google News RSS 真实条目，失败时回退合成；dynamic_insight 综合 4 维信号生成趋势总结 + 产品画像 + 驱动力"
+    "note": "social/search/amazon 含确定性合成数据（每日变化的种子），media 优先抓取 Google News RSS 真实条目，失败时回退合成；dynamic_insight 综合 4 维信号生成趋势总结 + 产品画像 + 驱动力",
+    "period": "2025 (full year)"
   },
   "categories": {
     "农业": {
@@ -506,7 +507,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "农业"
-      }
+      },
+      "data_year": 2025
     },
     "食品及饮料": {
       "l1": "食品及饮料",
@@ -979,7 +981,8 @@
         "domain": "food_beverage",
         "generated_at": "2026-06-29",
         "l1_ref": "食品及饮料"
-      }
+      },
+      "data_year": 2025
     },
     "服装及配饰": {
       "l1": "服装及配饰",
@@ -1451,7 +1454,8 @@
         "domain": "apparel_fashion",
         "generated_at": "2026-06-29",
         "l1_ref": "服装及配饰"
-      }
+      },
+      "data_year": 2025
     },
     "面料及纺织原材料": {
       "l1": "面料及纺织原材料",
@@ -1922,7 +1926,8 @@
         "domain": "textiles",
         "generated_at": "2026-06-29",
         "l1_ref": "面料及纺织原材料"
-      }
+      },
+      "data_year": 2025
     },
     "电气设备及用品": {
       "l1": "电气设备及用品",
@@ -2391,7 +2396,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "电气设备及用品"
-      }
+      },
+      "data_year": 2025
     },
     "家用电器": {
       "l1": "家用电器",
@@ -2861,7 +2867,8 @@
         "domain": "home_appliance",
         "generated_at": "2026-06-29",
         "l1_ref": "家用电器"
-      }
+      },
+      "data_year": 2025
     },
     "化学品": {
       "l1": "化学品",
@@ -3331,7 +3338,8 @@
         "domain": "chemicals",
         "generated_at": "2026-06-29",
         "l1_ref": "化学品"
-      }
+      },
+      "data_year": 2025
     },
     "金属与合金": {
       "l1": "金属与合金",
@@ -3803,7 +3811,8 @@
         "domain": "metals",
         "generated_at": "2026-06-29",
         "l1_ref": "金属与合金"
-      }
+      },
+      "data_year": 2025
     },
     "建材与房地产": {
       "l1": "建材与房地产",
@@ -4274,7 +4283,8 @@
         "domain": "building_materials",
         "generated_at": "2026-06-29",
         "l1_ref": "建材与房地产"
-      }
+      },
+      "data_year": 2025
     },
     "家居园艺": {
       "l1": "家居园艺",
@@ -4712,7 +4722,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "家居园艺"
-      }
+      },
+      "data_year": 2025
     },
     "礼品与工艺品": {
       "l1": "礼品与工艺品",
@@ -5176,7 +5187,8 @@
         "domain": "gifts_crafts",
         "generated_at": "2026-06-29",
         "l1_ref": "礼品与工艺品"
-      }
+      },
+      "data_year": 2025
     },
     "运动及娱乐": {
       "l1": "运动及娱乐",
@@ -5648,7 +5660,8 @@
         "domain": "sports_outdoor",
         "generated_at": "2026-06-29",
         "l1_ref": "运动及娱乐"
-      }
+      },
+      "data_year": 2025
     },
     "母婴&玩具": {
       "l1": "母婴&玩具",
@@ -6087,7 +6100,8 @@
         "domain": "toys_baby",
         "generated_at": "2026-06-29",
         "l1_ref": "母婴&玩具"
-      }
+      },
+      "data_year": 2025
     },
     "珠宝眼镜手表及配饰": {
       "l1": "珠宝眼镜手表及配饰",
@@ -6557,7 +6571,8 @@
         "domain": "jewelry_watches",
         "generated_at": "2026-06-29",
         "l1_ref": "珠宝眼镜手表及配饰"
-      }
+      },
+      "data_year": 2025
     },
     "美妆": {
       "l1": "美妆",
@@ -7028,7 +7043,8 @@
         "domain": "beauty_cosmetics",
         "generated_at": "2026-06-29",
         "l1_ref": "美妆"
-      }
+      },
+      "data_year": 2025
     },
     "鞋靴及配饰": {
       "l1": "鞋靴及配饰",
@@ -7498,7 +7514,8 @@
         "domain": "footwear",
         "generated_at": "2026-06-29",
         "l1_ref": "鞋靴及配饰"
-      }
+      },
+      "data_year": 2025
     },
     "箱包": {
       "l1": "箱包",
@@ -7966,7 +7983,8 @@
         "domain": "bags_luggage",
         "generated_at": "2026-06-29",
         "l1_ref": "箱包"
-      }
+      },
+      "data_year": 2025
     },
     "汽车用品、电子及工具设备": {
       "l1": "汽车用品、电子及工具设备",
@@ -8433,7 +8451,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "汽车用品、电子及工具设备"
-      }
+      },
+      "data_year": 2025
     },
     "宠物用品及食品": {
       "l1": "宠物用品及食品",
@@ -8903,7 +8922,8 @@
         "domain": "pet_products",
         "generated_at": "2026-06-29",
         "l1_ref": "宠物用品及食品"
-      }
+      },
+      "data_year": 2025
     },
     "个人护理及家庭清洁": {
       "l1": "个人护理及家庭清洁",
@@ -9372,7 +9392,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "个人护理及家庭清洁"
-      }
+      },
+      "data_year": 2025
     },
     "健康护理": {
       "l1": "健康护理",
@@ -9842,7 +9863,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "健康护理"
-      }
+      },
+      "data_year": 2025
     },
     "工业机械": {
       "l1": "工业机械",
@@ -10311,7 +10333,8 @@
         "domain": "machinery",
         "generated_at": "2026-06-29",
         "l1_ref": "工业机械"
-      }
+      },
+      "data_year": 2025
     },
     "工程及建材机械": {
       "l1": "工程及建材机械",
@@ -10776,7 +10799,8 @@
         "domain": "machinery",
         "generated_at": "2026-06-29",
         "l1_ref": "工程及建材机械"
-      }
+      },
+      "data_year": 2025
     },
     "五金工具": {
       "l1": "五金工具",
@@ -11243,7 +11267,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "五金工具"
-      }
+      },
+      "data_year": 2025
     },
     "橡胶与塑料制品": {
       "l1": "橡胶与塑料制品",
@@ -11712,7 +11737,8 @@
         "domain": "chemicals",
         "generated_at": "2026-06-29",
         "l1_ref": "橡胶与塑料制品"
-      }
+      },
+      "data_year": 2025
     },
     "传动": {
       "l1": "传动",
@@ -12177,7 +12203,8 @@
         "domain": "auto_parts",
         "generated_at": "2026-06-29",
         "l1_ref": "传动"
-      }
+      },
+      "data_year": 2025
     },
     "物料搬运": {
       "l1": "物料搬运",
@@ -12645,7 +12672,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "物料搬运"
-      }
+      },
+      "data_year": 2025
     },
     "安防": {
       "l1": "安防",
@@ -13099,7 +13127,8 @@
         "domain": "security_safety",
         "generated_at": "2026-06-29",
         "l1_ref": "安防"
-      }
+      },
+      "data_year": 2025
     },
     "安全用品": {
       "l1": "安全用品",
@@ -13568,7 +13597,8 @@
         "domain": "security_safety",
         "generated_at": "2026-06-29",
         "l1_ref": "安全用品"
-      }
+      },
+      "data_year": 2025
     },
     "包装印刷": {
       "l1": "包装印刷",
@@ -14037,7 +14067,8 @@
         "domain": "packaging_printing",
         "generated_at": "2026-06-29",
         "l1_ref": "包装印刷"
-      }
+      },
+      "data_year": 2025
     },
     "仪器仪表": {
       "l1": "仪器仪表",
@@ -14489,7 +14520,8 @@
         "domain": "instruments",
         "generated_at": "2026-06-29",
         "l1_ref": "仪器仪表"
-      }
+      },
+      "data_year": 2025
     },
     "消费电子": {
       "l1": "消费电子",
@@ -14960,7 +14992,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "消费电子"
-      }
+      },
+      "data_year": 2025
     },
     "电子元器件、配件及通讯": {
       "l1": "电子元器件、配件及通讯",
@@ -15429,7 +15462,8 @@
         "domain": "electronics_components",
         "generated_at": "2026-06-29",
         "l1_ref": "电子元器件、配件及通讯"
-      }
+      },
+      "data_year": 2025
     },
     "灯具照明": {
       "l1": "灯具照明",
@@ -15898,7 +15932,8 @@
         "domain": "lighting",
         "generated_at": "2026-06-29",
         "l1_ref": "灯具照明"
-      }
+      },
+      "data_year": 2025
     },
     "汽车零配件": {
       "l1": "汽车零配件",
@@ -16366,7 +16401,8 @@
         "domain": "auto_parts",
         "generated_at": "2026-06-29",
         "l1_ref": "汽车零配件"
-      }
+      },
+      "data_year": 2025
     },
     "整车及交通工具": {
       "l1": "整车及交通工具",
@@ -16834,7 +16870,8 @@
         "domain": "vehicles_ev",
         "generated_at": "2026-06-29",
         "l1_ref": "整车及交通工具"
-      }
+      },
+      "data_year": 2025
     },
     "可再生能源": {
       "l1": "可再生能源",
@@ -17307,7 +17344,8 @@
         "domain": "renewable_energy",
         "generated_at": "2026-06-29",
         "l1_ref": "可再生能源"
-      }
+      },
+      "data_year": 2025
     },
     "医疗器械和用品": {
       "l1": "医疗器械和用品",
@@ -17776,7 +17814,8 @@
         "domain": "medical_devices",
         "generated_at": "2026-06-29",
         "l1_ref": "医疗器械和用品"
-      }
+      },
+      "data_year": 2025
     },
     "办公文教用品": {
       "l1": "办公文教用品",
@@ -18246,7 +18285,8 @@
         "domain": "office_stationery",
         "generated_at": "2026-06-29",
         "l1_ref": "办公文教用品"
-      }
+      },
+      "data_year": 2025
     },
     "商业设备及机械": {
       "l1": "商业设备及机械",
@@ -18711,7 +18751,8 @@
         "domain": "machinery",
         "generated_at": "2026-06-29",
         "l1_ref": "商业设备及机械"
-      }
+      },
+      "data_year": 2025
     },
     "设计服务": {
       "l1": "设计服务",
@@ -19178,7 +19219,8 @@
         "domain": "business_services",
         "generated_at": "2026-06-29",
         "l1_ref": "设计服务"
-      }
+      },
+      "data_year": 2025
     },
     "代理采购": {
       "l1": "代理采购",
@@ -19643,7 +19685,8 @@
         "domain": "business_services",
         "generated_at": "2026-06-29",
         "l1_ref": "代理采购"
-      }
+      },
+      "data_year": 2025
     },
     "开发与技术服务": {
       "l1": "开发与技术服务",
@@ -20110,7 +20153,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "开发与技术服务"
-      }
+      },
+      "data_year": 2025
     },
     "检验检测与认证": {
       "l1": "检验检测与认证",
@@ -20579,7 +20623,8 @@
         "domain": "business_services",
         "generated_at": "2026-06-29",
         "l1_ref": "检验检测与认证"
-      }
+      },
+      "data_year": 2025
     },
     "定制加工": {
       "l1": "定制加工",
@@ -21046,7 +21091,8 @@
         "domain": "jewelry_watches",
         "generated_at": "2026-06-29",
         "l1_ref": "定制加工"
-      }
+      },
+      "data_year": 2025
     },
     "环保": {
       "l1": "环保",
@@ -21514,7 +21560,8 @@
         "domain": "environmental",
         "generated_at": "2026-06-29",
         "l1_ref": "环保"
-      }
+      },
+      "data_year": 2025
     },
     "商务服务": {
       "l1": "商务服务",
@@ -21979,7 +22026,8 @@
         "domain": "vehicles_ev",
         "generated_at": "2026-06-29",
         "l1_ref": "商务服务"
-      }
+      },
+      "data_year": 2025
     },
     "家具": {
       "l1": "家具",
@@ -22450,7 +22498,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "家具"
-      }
+      },
+      "data_year": 2025
     },
     "买家物流市场": {
       "l1": "买家物流市场",
@@ -22919,7 +22968,8 @@
         "domain": "generic",
         "generated_at": "2026-06-29",
         "l1_ref": "买家物流市场"
-      }
+      },
+      "data_year": 2025
     }
   }
 }
