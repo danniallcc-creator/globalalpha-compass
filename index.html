@@ -3605,10 +3605,22 @@ function formatNewsTime(iso) {
 // ============================================================
 // 罗盘算法
 // ============================================================
-function computeCompass(cat) {
-  var isElec = ['储能','电池','手机','芯片','集成电路','家电'].some(function(k){return cat.indexOf(k)!==-1;});
-  var isFood = ['食品','农产品','水产','粮食'].some(function(k){return cat.indexOf(k)!==-1;});
-  var isIndu = ['钢材','机电','铝','机械','船舶'].some(function(k){return cat.indexOf(k)!==-1;});
+// ctx = {l1, l2} 由 resolveKeywordToL2 解析得到的规范品类，可为空
+function _effectiveCat(cat, ctx){
+  // 用于关键词标志匹配/字典查找时，把规范 L1/L2 一起纳入字符串
+  var bag = [cat||''];
+  if (ctx) {
+    if (ctx.l1) bag.push(ctx.l1);
+    if (ctx.l2) bag.push(ctx.l2);
+  }
+  return bag.join('|');
+}
+
+function computeCompass(cat, ctx) {
+  var eff = _effectiveCat(cat, ctx);
+  var isElec = ['储能','电池','手机','芯片','集成电路','家电','家用电器','消费电子','电气','电子元器件','照明','灯具','制冷','空调'].some(function(k){return eff.indexOf(k)!==-1;});
+  var isFood = ['食品','农产品','水产','粮食','饮料','农业'].some(function(k){return eff.indexOf(k)!==-1;});
+  var isIndu = ['钢材','机电','铝','机械','船舶','工业','金属','合金','建材','工程','化学','化工'].some(function(k){return eff.indexOf(k)!==-1;});
   var scored = COUNTRIES.map(function(c){
     var gdpW = isElec?1.3:isIndu?1.5:1.0;
     var popW = isFood?2.0:1.0;
@@ -3622,11 +3634,12 @@ function computeCompass(cat) {
   return {profit:byGdp.slice(0,3), mass:byPop.slice(0,2), blue:emerging.slice(0,3)};
 }
 
-function getCompliance(cat) {
+function getCompliance(cat, ctx) {
+  var eff = _effectiveCat(cat, ctx);
   for(var i=0;i<COMPLIANCE.length;i++){
     var item=COMPLIANCE[i];
     for(var j=0;j<item.kw.length;j++){
-      if(cat.indexOf(item.kw[j])!==-1) return item;
+      if(eff.indexOf(item.kw[j])!==-1) return item;
     }
   }
   return {hs:'999999',tariff_us:'5-25%',tariff_eu:'2.7-12%',
@@ -3635,10 +3648,16 @@ function getCompliance(cat) {
     breakthrough:'积极寻找当地代理商，结合本地化需求调整产品定位，快速切入细分市场。'};
 }
 
-function getPricing(cat) {
+function getPricing(cat, ctx) {
+  var eff = _effectiveCat(cat, ctx);
   var keys = Object.keys(PRICING);
+  // 优先精确等于 L1/L2
+  if (ctx) {
+    if (ctx.l1 && PRICING[ctx.l1]) return PRICING[ctx.l1];
+    if (ctx.l2 && PRICING[ctx.l2]) return PRICING[ctx.l2];
+  }
   for(var i=0;i<keys.length;i++){
-    if(keys[i]!=='default' && cat.indexOf(keys[i])!==-1) return PRICING[keys[i]];
+    if(keys[i]!=='default' && eff.indexOf(keys[i])!==-1) return PRICING[keys[i]];
   }
   return PRICING['default'];
 }
@@ -3646,14 +3665,24 @@ function getPricing(cat) {
 // ============================================================
 // 罗盘渲染
 // ============================================================
-function countryCard(c, cat) {
+function countryCard(c, cat, ctx) {
   var riskColor = c.risk > 60 ? '#f87171' : c.risk > 40 ? '#fbbf24' : '#4ade80';
   var demands = COUNTRY_CORE_DEMANDS[c.name] || {};
   var coreDemand = '';
-  // 匹配品类关键词
-  var demandKeys = Object.keys(demands);
-  for(var i=0;i<demandKeys.length;i++){
-    if(demandKeys[i]!=='default' && (cat.indexOf(demandKeys[i])!==-1 || demandKeys[i].indexOf(cat)!==-1)){ coreDemand=demands[demandKeys[i]]; break; }
+  // 1) 优先用解析出的 L1/L2 直接命中字典 key
+  if (ctx) {
+    if (ctx.l1 && demands[ctx.l1]) { coreDemand = demands[ctx.l1]; }
+    else if (ctx.l2 && demands[ctx.l2]) { coreDemand = demands[ctx.l2]; }
+  }
+  // 2) 字符串子串模糊（含 cat / l1 / l2）
+  if (!coreDemand) {
+    var eff = _effectiveCat(cat, ctx);
+    var demandKeys = Object.keys(demands);
+    for(var i=0;i<demandKeys.length;i++){
+      var dk = demandKeys[i];
+      if(dk==='default') continue;
+      if(eff.indexOf(dk)!==-1 || dk.indexOf(cat)!==-1){ coreDemand=demands[dk]; break; }
+    }
   }
   if(!coreDemand) coreDemand = demands['default'] || '\u7efc\u5408\u6d88\u8d39\u54c1';
   // B5: unique IDs for async social/policy tags
@@ -3683,36 +3712,46 @@ function countryCard(c, cat) {
 function runCompass() {
   var cat = ($el('search-input').value||'').trim();
   if(!cat){alert('请输入产品类目');return;}
-  // 总是先跑罗盘，路由提示仅作为补充信息显示在搜索框下方
-  _runCompassActual(cat);
+  // 1) 立刻显示 loading，避免感知卡顿
+  show('el-loading'); hide('el-results');
+  // 2) 先尝试解析路由（拿到规范 L1/L2 上下文），随后渲染罗盘并显示路由提示
+  function _afterResolve(resolved){
+    var ctx = null;
+    if (resolved && resolved.matches && resolved.matches.length>0) {
+      var m0 = resolved.matches[0];
+      ctx = { l1: m0.l1, l2: m0.l2, level: m0.level };
+    }
+    _runCompassActual(cat, ctx);
+    var el = document.getElementById('search-suggestions');
+    if (resolved && resolved.hint && resolved.matches.length>0) {
+      renderL2RouteHint(resolved);
+    } else if (el) {
+      el.classList.add('hidden'); el.innerHTML='';
+    }
+  }
   if (typeof resolveKeywordToL2 === 'function') {
-    resolveKeywordToL2(cat).then(function(resolved){
-      var el = document.getElementById('search-suggestions');
-      if (resolved && resolved.hint && resolved.matches.length>0) {
-        renderL2RouteHint(resolved);
-      } else if (el) {
-        el.classList.add('hidden'); el.innerHTML='';
-      }
-    }).catch(function(){});
+    resolveKeywordToL2(cat).then(_afterResolve).catch(function(){ _runCompassActual(cat, null); });
+  } else {
+    _runCompassActual(cat, null);
   }
 }
 
-function _runCompassActual(cat) {
+function _runCompassActual(cat, ctx) {
   show('el-loading'); hide('el-results');
   setTimeout(function(){
-    try { renderCompass(cat); }
+    try { renderCompass(cat, ctx); }
     catch(e){ hide('el-loading'); alert('分析出错：'+e.message); }
   }, 250);
 }
 
-function renderCompass(cat) {
-  var compass    = computeCompass(cat);
-  var compliance = getCompliance(cat);
-  var pricing    = getPricing(cat);
+function renderCompass(cat, ctx) {
+  var compass    = computeCompass(cat, ctx);
+  var compliance = getCompliance(cat, ctx);
+  var pricing    = getPricing(cat, ctx);
 
-  $el('profit-list').innerHTML = compass.profit.map(function(c){return countryCard(c,cat);}).join('');
-  $el('mass-list').innerHTML   = compass.mass.map(function(c){return countryCard(c,cat);}).join('');
-  $el('blue-list').innerHTML   = compass.blue.map(function(c){return countryCard(c,cat);}).join('');
+  $el('profit-list').innerHTML = compass.profit.map(function(c){return countryCard(c,cat,ctx);}).join('');
+  $el('mass-list').innerHTML   = compass.mass.map(function(c){return countryCard(c,cat,ctx);}).join('');
+  $el('blue-list').innerHTML   = compass.blue.map(function(c){return countryCard(c,cat,ctx);}).join('');
 
   // Show keyword suggestions when no standard category match
   var _hsGroup = getCategoryHsGroup(cat);
@@ -11210,34 +11249,74 @@ async function resolveKeywordToL2(query) {
   var routes = kw.routes;
   var table = kw.l2_table;
   var matches = [];
-  // 1) exact match
-  if (routes[q]) {
-    routes[q].forEach(function(r){
-      var t = table[r[0]];
-      matches.push({l1:t.l1, l2:t.l2, slug:t.slug, level:r[1], exact:true});
-    });
+  var seenSlug = {};
+  function pushMatch(routeArr, exact){
+    for (var j=0; j<routeArr.length; j++) {
+      var t2 = table[routeArr[j][0]];
+      if (!t2) continue;
+      if (seenSlug[t2.slug]) continue;
+      seenSlug[t2.slug] = true;
+      matches.push({l1:t2.l1, l2:t2.l2, slug:t2.slug, level:routeArr[j][1], exact:!!exact});
+    }
   }
-  // 2) substring match (fall back) - cap to 6 candidates
+  // 1) 精确命中
+  if (routes[q]) pushMatch(routes[q], true);
+
+  // 2) 字符级n-gram召回：用 q 的所有 2-4 字符子串去匹配精确叶子
+  //    （主要解决"空调窗机"≈"窗式空调"这类口语化查询）
+  var hasLeafHit = false;
+  if (matches.length === 0 || (matches.length>0 && matches[0].level==='2')) {
+    var grams = [];
+    for (var L=Math.min(4,q.length); L>=2; L--){
+      for (var i=0; i+L<=q.length; i++) {
+        grams.push(q.substr(i,L));
+      }
+    }
+    // 去重
+    var seen = {}; grams = grams.filter(function(g){if(seen[g])return false;seen[g]=true;return true;});
+    var leafBucket = [], l3Bucket = [], l2Bucket = [];
+    for (var gi=0; gi<grams.length && (leafBucket.length+l3Bucket.length)<10; gi++){
+      var g = grams[gi];
+      if (routes[g]) {
+        var arr = routes[g];
+        for (var ai=0; ai<arr.length; ai++){
+          var t = table[arr[ai][0]]; if (!t) continue;
+          var lv = arr[ai][1];
+          var item = {l1:t.l1, l2:t.l2, slug:t.slug, level:lv, exact:false, viaGram:g};
+          if (lv==='l') leafBucket.push(item);
+          else if (lv==='L') l3Bucket.push(item);
+          else if (lv==='2') l2Bucket.push(item);
+        }
+      }
+    }
+    // 优先级：叶子 > 三级 > 二级
+    var ordered = leafBucket.concat(l3Bucket).concat(l2Bucket);
+    for (var oi=0; oi<ordered.length; oi++){
+      var x = ordered[oi];
+      if (seenSlug[x.slug]) continue;
+      seenSlug[x.slug] = true;
+      matches.push(x);
+      if (x.level==='l' || x.level==='L') hasLeafHit = true;
+      if (matches.length >= 6) break;
+    }
+  }
+
+  // 3) 兜底子串模糊
   if (matches.length === 0) {
     var keys = Object.keys(routes);
-    for (var i=0; i<keys.length && matches.length<6; i++){
-      var k = keys[i];
+    for (var ki=0; ki<keys.length && matches.length<6; ki++){
+      var k = keys[ki];
       if (k.indexOf(q)!==-1 || q.indexOf(k)!==-1) {
-        var arr = routes[k];
-        for (var j=0; j<arr.length; j++) {
-          var t2 = table[arr[j][0]];
-          var dup = false;
-          for (var m=0;m<matches.length;m++){ if(matches[m].slug===t2.slug){dup=true;break;}}
-          if (!dup) matches.push({l1:t2.l1, l2:t2.l2, slug:t2.slug, level:arr[j][1], exact:false});
-        }
+        pushMatch(routes[k], false);
       }
     }
   }
   if (matches.length === 0) return null;
-  // 决定提示语：仅当首条精确匹配是叶子或三级时显示
-  var hint = null;
+
+  // 决定提示语
   var primary = matches[0];
-  if (primary.exact && (primary.level === 'l' || primary.level === 'L')) {
+  var hint = null;
+  if (primary.level === 'l' || primary.level === 'L' || hasLeafHit) {
     hint = '当前海关出口HS编码仅能抓取到二级分类，无法抓取到三级到叶子分类，请点击以下二级分类进行查看';
   }
   return { query: query, matches: matches, hint: hint };
