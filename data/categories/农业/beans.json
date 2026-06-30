@@ -39,22 +39,22 @@
   ],
   "export_data": {
     "hs_chapter": "71",
-    "total_export_value_usd": 26684668,
-    "total_net_weight_kg": 6184668,
+    "total_export_value_usd": 42436282,
+    "total_net_weight_kg": 11936282,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-29"
+    "fetched_at": "2026-06-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 80,
+      "interest_score": 62,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -67,7 +67,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；豆类(Beans)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -336,72 +336,72 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 36550515434,
-      "total_kg": 1650515434,
-      "yoy_growth": 24,
+      "total_usd": 26181359522,
+      "total_kg": 1281359522,
+      "yoy_growth": -8,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 5117072160,
-        "yoy": -1,
-        "share": 14.0
+        "value_usd": 7068967070,
+        "yoy": -17,
+        "share": 27.0
       },
       "DE": {
-        "value_usd": 4934319583,
-        "yoy": -14,
-        "share": 13.5
+        "value_usd": 6780972116,
+        "yoy": -6,
+        "share": 25.9
       },
       "JP": {
-        "value_usd": 4788117521,
-        "yoy": -7,
-        "share": 13.1
+        "value_usd": 6492977161,
+        "yoy": 30,
+        "share": 24.8
       },
       "GB": {
-        "value_usd": 4605364944,
-        "yoy": -16,
-        "share": 12.6
+        "value_usd": 5838443173,
+        "yoy": 0,
+        "share": 22.3
       },
       "KR": {
-        "value_usd": 4459162882,
-        "yoy": -10,
-        "share": 12.2
+        "value_usd": 0,
+        "yoy": 33,
+        "share": 0.1
       },
       "AU": {
-        "value_usd": 4312960821,
-        "yoy": -8,
-        "share": 11.8
+        "value_usd": 0,
+        "yoy": 2,
+        "share": 0.1
       },
       "IN": {
-        "value_usd": 4130208244,
-        "yoy": 33,
-        "share": 11.3
+        "value_usd": 0,
+        "yoy": 21,
+        "share": 0.1
       },
       "BR": {
-        "value_usd": 3947455666,
-        "yoy": -7,
-        "share": 10.8
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
       },
       "SA": {
-        "value_usd": 255853608,
-        "yoy": 16,
-        "share": 0.6999999999999922
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
       },
       "FR": {
         "value_usd": 0,
-        "yoy": 25,
+        "yoy": 13,
         "share": 0.1
       },
       "IT": {
         "value_usd": 0,
-        "yoy": -15,
+        "yoy": 9,
         "share": 0.1
       },
       "NL": {
         "value_usd": 0,
-        "yoy": -14,
+        "yoy": 22,
         "share": 0.1
       },
       "CA": {
@@ -411,12 +411,12 @@
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 14,
+        "yoy": 34,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": -11,
+        "yoy": -16,
         "share": 0.1
       }
     }

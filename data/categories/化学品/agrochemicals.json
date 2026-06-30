@@ -84,22 +84,22 @@
   ],
   "export_data": {
     "hs_chapter": "31",
-    "total_export_value_usd": 22824973,
-    "total_net_weight_kg": 2324973,
+    "total_export_value_usd": 38110641,
+    "total_net_weight_kg": 7610641,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-29"
+    "fetched_at": "2026-06-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 95,
-      "trend_direction": "stable",
+      "interest_score": 82,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -112,7 +112,7 @@
     "opportunity": "农药中间体出口（印度/东南亚农业市场）；水性涂料原料（欧盟VOC法规推动）；中东石化下游精细化工合作；电子级化学品（半导体清洗液/光刻胶辅助化学品）；农用化学品(Agrochemicals)细分领域机会值得关注"
   },
   "compliance_summary": "US: TSCA新化学物质申报(PMN), EPA FIFRA(农药), OSHA SDS | EU: REACH注册(>1吨/年须注册), CLP分类标识, ECHA授权 | JP: 化审法第一类监控化学物质申报, 毒物及剧毒物取缔法 | AU: AICIS工业化学品申报, APVMA(农药/兽药)",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -383,87 +383,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 49688577604,
-      "total_kg": 788577604,
-      "yoy_growth": -6,
+      "total_usd": 38938352245,
+      "total_kg": 2038352245,
+      "yoy_growth": -5,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 4471971984,
-        "yoy": 29,
-        "share": 9.0
+        "value_usd": 9734588061,
+        "yoy": 24,
+        "share": 25.0
       },
       "DE": {
-        "value_usd": 4372594829,
-        "yoy": 6,
-        "share": 8.8
+        "value_usd": 9345204538,
+        "yoy": -14,
+        "share": 24.0
       },
       "JP": {
-        "value_usd": 4273217673,
-        "yoy": -19,
-        "share": 8.6
+        "value_usd": 8955821016,
+        "yoy": 22,
+        "share": 23.0
       },
       "GB": {
-        "value_usd": 4173840518,
-        "yoy": 18,
-        "share": 8.4
+        "value_usd": 8566437493,
+        "yoy": 26,
+        "share": 22.0
       },
       "KR": {
-        "value_usd": 4074463363,
-        "yoy": 12,
-        "share": 8.2
+        "value_usd": 2336301134,
+        "yoy": 24,
+        "share": 6.0
       },
       "AU": {
-        "value_usd": 3975086208,
-        "yoy": 19,
-        "share": 8.0
+        "value_usd": 0,
+        "yoy": 14,
+        "share": 0.1
       },
       "IN": {
-        "value_usd": 3875709053,
-        "yoy": 11,
-        "share": 7.8
+        "value_usd": 0,
+        "yoy": -4,
+        "share": 0.1
       },
       "BR": {
-        "value_usd": 3776331897,
-        "yoy": 29,
-        "share": 7.6
+        "value_usd": 0,
+        "yoy": 37,
+        "share": 0.1
       },
       "SA": {
-        "value_usd": 3676954742,
-        "yoy": -5,
-        "share": 7.4
-      },
-      "FR": {
-        "value_usd": 3577577587,
-        "yoy": 23,
-        "share": 7.2
-      },
-      "IT": {
-        "value_usd": 3478200432,
-        "yoy": 24,
-        "share": 7.0
-      },
-      "NL": {
-        "value_usd": 3378823277,
-        "yoy": 0,
-        "share": 6.8
-      },
-      "CA": {
-        "value_usd": 2583806035,
-        "yoy": -2,
-        "share": 5.200000000000004
-      },
-      "MX": {
         "value_usd": 0,
         "yoy": 13,
         "share": 0.1
       },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 8,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 39,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 22,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 29,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 2,
+        "share": 0.1
+      },
       "VN": {
         "value_usd": 0,
-        "yoy": 26,
+        "yoy": 11,
         "share": 0.1
       }
     }

@@ -459,7 +459,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "户外家具：海外社媒「sofa viral hack」增速 250%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China rides AI wave as exports surge...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "户外家具：海外社媒「furniture review 2026」增速 250%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China rides AI wave as exports surge...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -473,45 +473,45 @@
       "欧盟 CE 标志强制准入 → 户外家具 出口需通过合规认证",
       "沙特 SASO / SABER 注册 → 中东市场 户外家具 准入门槛",
       "户外家具主要流向 美国 / 英国 / 德国，出口集中度较高",
-      "海外社媒「sofa viral hack」增速 250% 领跑 → 户外家具社媒种草热度爆发"
+      "海外社媒「furniture review 2026」增速 250% 领跑 → 户外家具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "furniture review 2026",
+        "growth": 249.5,
+        "vol": "683K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "sofa viral hack",
-        "growth": 250.0,
-        "vol": "356K",
+        "growth": 249.0,
+        "vol": "291K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sofa new arrival",
-        "growth": 247.5,
-        "vol": "512K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "sofa top 10",
-        "growth": 245.5,
-        "vol": "568K",
+        "platform": "x",
+        "kw": "desk supply chain",
+        "growth": 243.5,
+        "vol": "137K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "desk wholesale supplier",
-        "growth": 198.5,
+        "growth": 238.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sofa b2b export",
-        "growth": 176.0,
+        "growth": 223.0,
         "hits": 0
       },
       {
@@ -548,7 +548,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "家具"
   }
 }

@@ -508,7 +508,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 76%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-29，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 250%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-37，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -520,45 +520,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家居装饰需求强劲",
-      "海外社媒「home decor wholesale supplier」增速 76% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 250% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 75.5,
-        "vol": "506K",
+        "growth": 249.5,
+        "vol": "98K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor viral",
-        "growth": 250.5,
-        "vol": "95K",
+        "platform": "google",
+        "kw": "home decor market 2026",
+        "growth": 256.5,
+        "vol": "586K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "home decor tiktok made me buy",
-        "growth": 219.5,
-        "vol": "528K",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 249.5,
+        "vol": "746K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 72.5,
+        "growth": 246.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 197.5,
+        "growth": 253.5,
         "hits": 2
       },
       {
@@ -569,26 +569,33 @@
         "hits": 0
       },
       {
-        "dim": "Amazon",
-        "market": "UK",
-        "rank": 29,
-        "title": "Top garden - Smart Edition",
-        "price": "$88.1",
-        "rating": 4.0,
+        "dim": "媒体",
+        "title": "EPA’s HFC delay tests Trump’s made in America agenda - E&E News by POLITICO",
+        "source": "E&E News by POLITICO",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTDIwM0gzTU51QlI3Z0ZNQ1ctVkVzbFk4ZVlxUGhINXJrUVl1bGVVVWVVZGNtcnpFbnpFMzJvem94MXZlcFNDNXBtVjlJaGZkNjM3ZDVVTXdfMldRV2EzVGhxaEI4RVJPbUppMTJSNkp2Z1Z1U25nLTZrbTBVTG9GWHNnR2xCNDlndE1j?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 27,
-        "title": "Top garden - Pro Edition",
-        "price": "$118.7",
-        "rating": 4.6,
+        "market": "UK",
+        "rank": 37,
+        "title": "Top garden - Smart Edition",
+        "price": "$144.1",
+        "rating": 4.5,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 34,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$134.5",
+        "rating": 4.0,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "家居园艺"
   }
 }

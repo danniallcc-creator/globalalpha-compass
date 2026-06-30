@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "LOGO与品牌设计：海外社媒「industrial design supply chain」增速 254%，搜索端「industrial design b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "LOGO与品牌设计：海外社媒「industrial design #fyp」增速 244%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -98,45 +98,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → LOGO与品牌设计 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → LOGO与品牌设计需求强劲",
-      "海外社媒「industrial design supply chain」增速 254% 领跑 → LOGO与品牌设计社媒种草热度爆发"
+      "海外社媒「industrial design #fyp」增速 244% 领跑 → LOGO与品牌设计社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "industrial design supply chain",
-        "growth": 253.5,
-        "vol": "30K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial design aesthetic",
-        "growth": 200.0,
-        "vol": "114K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "industrial design #fyp",
-        "growth": 179.5,
-        "vol": "46K",
+        "growth": 244.5,
+        "vol": "141K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 118.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "industrial design top 10",
+        "growth": 243.5,
+        "vol": "661K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial design market 2026",
+        "growth": 219.5,
+        "vol": "179K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design market 2026",
-        "growth": 106.5,
+        "growth": 216.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial design b2b export",
+        "growth": 71.0,
         "hits": 0
       },
       {
@@ -148,9 +148,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China’s Export in January-April 2026: Supply-Chain Implications for Foreign Companies - China Briefing",
-        "source": "China Briefing",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcV9rNzROMnVJeXZIeEp2TGV3YnZMdWFTTlNIdkZGQUJTZmpoQllLeldHUkh4NDUxd09GR1pmOXk1R1NCdlJNeXhtYU12ZTRPZWNRU3NUNGJNUlcwMHZKYmZKUzJ5eFRWNnZtVFpMTndmUDktTjZoOWl5cEpOX3ZzSmg2ejBhbjlJcWpHWXBNbjNXYi1fVzhaMXVHR0VXaGs?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "设计服务"
   }
 }

@@ -279,7 +279,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "电源管理及电路保护：海外社媒「5g review 2026」增速 250%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "电源管理及电路保护：海外社媒「electronic component market alert」增速 250%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -293,45 +293,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电源管理及电路保护 成主流",
       "欧盟 CE 标志强制准入 → 电源管理及电路保护 出口需通过合规认证",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 电源管理及电路保护需求强劲",
-      "海外社媒「5g review 2026」增速 250% 领跑 → 电源管理及电路保护社媒种草热度爆发"
+      "海外社媒「electronic component market alert」增速 250% 领跑 → 电源管理及电路保护社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "5g review 2026",
-        "growth": 249.5,
-        "vol": "728K",
+        "platform": "x",
+        "kw": "electronic component market alert",
+        "growth": 250.0,
+        "vol": "292K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chip supply chain",
-        "growth": 225.5,
-        "vol": "735K",
+        "platform": "instagram",
+        "kw": "semiconductor must have",
+        "growth": 239.0,
+        "vol": "40K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "electronic component b2b export",
-        "growth": 223.0,
-        "vol": "749K",
+        "growth": 228.0,
+        "vol": "340K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 220.0,
+        "growth": 225.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chip wholesale supplier",
-        "growth": 198.5,
+        "growth": 159.5,
         "hits": 0
       },
       {
@@ -343,9 +343,9 @@
       },
       {
         "dim": "媒体",
-        "title": "India’s Electronics Export Boom: Rs 35,000 Crore Worth of Components Shipped to China in a Major Trade Shift - Spherical Insights",
-        "source": "Spherical Insights",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUmhiaHp0V1VIdmVmUlg2ZEstdHNsTjRWSHpBRUowNXNKazNISGt4MGx2WnBDc2pROC05SVh4dFNVZzJQZEN1Nk02ZVVXdzlMNnZ5Xzd4QU5CWVFfM3NhVFVMd1o5LUNZWUh3VExXYlZ4Y05MaEM5NXNEbDBIZFBGbVhiTXJXOEN6MVh5SEswWGozV0xHRWFXZXZYV0I1MzUydlJWUGhMQWxIR3FiNl9DQjZybGhDR2FkQ25LMlZ2SVNCUE5Lb19YQTkzQnBpWTd3LS05VjNIeXZEVWhSWnE4NA?oc=5",
+        "title": "Washington’s $70 Billion in Lost Protection: Liberation Day, One Year Later - Coalition For A Prosperous America",
+        "source": "Coalition For A Prosperous America",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTUdDMGxkVTF2UE92VmdtX0E2MFAzSnk0bFpkSDE2VEh4Q0I4Q1ZtZ3lHTEpqRnlzNWxheUZkR0FZYVM5YVJxUWk0ODNRSmtkX2VKalVMS1lMZjVwNUJydVpvT0h1SDRMcnN1STRVcU1qbzQzclhnN0Z1YWhsdFJLZlJLc1VEbE9XVEM1Qks1ZlptSWpob01xUVd6Ni0tcVZBRnE5MQ?oc=5",
         "hits": 0
       },
       {
@@ -368,7 +368,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

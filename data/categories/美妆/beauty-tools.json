@@ -216,7 +216,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "美妆工具：海外社媒「skincare wholesale supplier」增速 242%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，upi.com关注「K-beauty drives record South Korean SME...」。",
+    "trend_summary": "美妆工具：海外社媒「cosmetic market alert」增速 254%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，upi.com关注「K-beauty drives record South Korean SME...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -229,45 +229,45 @@
       "欧盟 CE 标志强制准入 → 美妆工具 出口需通过合规认证",
       "美国 FDA 注册要求 → 美妆工具 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 美妆工具 制造门槛",
-      "海外社媒「skincare wholesale supplier」增速 242% 领跑 → 美妆工具社媒种草热度爆发"
+      "海外社媒「cosmetic market alert」增速 254% 领跑 → 美妆工具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "cosmetic market alert",
+        "growth": 254.0,
+        "vol": "394K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "skincare wholesale supplier",
-        "growth": 242.5,
-        "vol": "557K",
+        "growth": 253.5,
+        "vol": "798K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cosmetic aesthetic",
-        "growth": 233.0,
-        "vol": "382K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "skincare viral",
-        "growth": 214.5,
-        "vol": "92K",
+        "platform": "x",
+        "kw": "skincare supply chain",
+        "growth": 243.5,
+        "vol": "36K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "skincare wholesale supplier",
-        "growth": 239.5,
+        "growth": 250.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cosmetic b2b export",
-        "growth": 133.0,
+        "source": "Linkedin",
+        "kw": "beauty cosmetics market trend 2026",
+        "growth": 64,
         "hits": 0
       },
       {
@@ -304,7 +304,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "美妆"
   }
 }

@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "女士包袋：海外社媒「luggage market 2026」增速 252%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "女士包袋：海外社媒「backpack top 10」增速 250%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,45 +100,45 @@
       "欧盟 CE 标志强制准入 → 女士包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 女士包袋 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 女士包袋需求强劲",
-      "海外社媒「luggage market 2026」增速 252% 领跑 → 女士包袋社媒种草热度爆发"
+      "海外社媒「backpack top 10」增速 250% 领跑 → 女士包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "luggage market 2026",
-        "growth": 251.5,
-        "vol": "528K",
+        "platform": "youtube",
+        "kw": "backpack top 10",
+        "growth": 250.5,
+        "vol": "210K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "backpack aesthetic",
-        "growth": 245.0,
-        "vol": "447K",
+        "platform": "x",
+        "kw": "luggage industry news",
+        "growth": 248.0,
+        "vol": "637K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "luggage #trending",
-        "growth": 241.5,
-        "vol": "442K",
+        "platform": "youtube",
+        "kw": "luggage review 2026",
+        "growth": 234.5,
+        "vol": "128K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "luggage market 2026",
-        "growth": 248.5,
+        "growth": 224.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "luggage bags export opportunity emerging markets",
-        "growth": 76,
+        "source": "Google Trends",
+        "kw": "backpack b2b export",
+        "growth": 179.0,
         "hits": 0
       },
       {
@@ -150,9 +150,9 @@
       },
       {
         "dim": "媒体",
-        "title": "World Greaseproof Kraft Paper Bag - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "title": "Middle East Bag Connector (flexible) - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3M0MDcyY2JGVVl2OXhmbU0xSWlOT2RSWHhiU3VxaEp0bENDOVZ5ajJEOW81S0JtQzc1Y3ZidFBKYjJLN3pabUhQTTRJQW1BUVAwUHd5anFaVUxTeHJBX0szTGRpVkE2OERmbEI1U3dIUzR2SzYwQldOT3I1bC1RLUU0WkkyOFdYRW5tMTg3SHdQMG1aQlJNQ1dxTnFyQ0NHY3VDRjJGMWc1UWxieTR2OW5UVl8yakY0eE9meWEwcEQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY29Xa3g3RGxtUUtVbWhOckNVMWJXbk1OM18wY0hEWHNienYxRHhnY2VTMGZMaFI0MlNqSmJMbVhWcFRPd0FSb1hMQzZFRjZvbTJSQk9KRlJrX3BZaThGQm9OVzVDNzJXR0hRYkdrNG1NTW00MkJ3N1BSdGZuSFZyYVlLRmEzbmtWeWE5UllNbmRqSlRwN2VvYVVSMlNHOXZQVjQ3UTRYZTdGbTVwZjcyZkszbjRJUQ?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "箱包"
   }
 }

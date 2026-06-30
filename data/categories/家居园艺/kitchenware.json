@@ -496,7 +496,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "厨具：海外社媒「home decor viral」增速 250%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "厨具：海外社媒「home decor market 2026」增速 256%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -508,45 +508,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 厨具 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 厨具需求强劲",
-      "海外社媒「home decor viral」增速 250% 领跑 → 厨具社媒种草热度爆发"
+      "海外社媒「home decor market 2026」增速 256% 领跑 → 厨具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor viral",
-        "growth": 250.5,
-        "vol": "95K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "garden viral hack",
-        "growth": 238.0,
-        "vol": "441K",
+        "platform": "google",
+        "kw": "home decor market 2026",
+        "growth": 256.5,
+        "vol": "586K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "garden b2b export",
-        "growth": 227.0,
-        "vol": "518K",
+        "kw": "home decor wholesale supplier",
+        "growth": 249.5,
+        "vol": "98K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "garden b2b export",
-        "growth": 224.0,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 249.5,
+        "vol": "746K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 197.5,
+        "growth": 253.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor wholesale supplier",
+        "growth": 246.5,
         "hits": 0
       },
       {
@@ -554,6 +554,13 @@
         "title": "Growing Hope: Community Gardens for Displaced Communities - BORGEN Magazine",
         "source": "BORGEN Magazine",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWVQyR1FJbnQ2dDdkazFZUUZNQXJ3QzRVZGw0YlhwMjZMX2NHY3piemFXUEMwTmczbUpqX1ZqTGRqeDFkdVBpWVdCSzZOOWlHSlVhRHFoSlE3WHFtNld1UVNBRGtPUHVUXzl1cExMSGN2WXhqM0c4bjBjYkJlNEhwczNJTVB5REtTRjlOcmhyVmN4UQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EPA’s HFC delay tests Trump’s made in America agenda - E&E News by POLITICO",
+        "source": "E&E News by POLITICO",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTDIwM0gzTU51QlI3Z0ZNQ1ctVkVzbFk4ZVlxUGhINXJrUVl1bGVVVWVVZGNtcnpFbnpFMzJvem94MXZlcFNDNXBtVjlJaGZkNjM3ZDVVTXdfMldRV2EzVGhxaEI4RVJPbUppMTJSNkp2Z1Z1U25nLTZrbTBVTG9GWHNnR2xCNDlndE1j?oc=5",
         "hits": 0
       },
       {
@@ -576,7 +583,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "家居园艺"
   }
 }

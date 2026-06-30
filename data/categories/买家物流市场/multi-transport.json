@@ -74,11 +74,11 @@
   ],
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
+      "interest_score": 93,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -91,10 +91,10 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight aesthetic」增速 250%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，36Kr关注「2026 China Cross - border E - commerce...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "多式联运：海外社媒「shipping viral」增速 252%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，36Kr关注「2026 China Cross - border E - commerce...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -106,45 +106,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 多式联运需求强劲",
-      "海外社媒「freight aesthetic」增速 250% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「shipping viral」增速 252% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 250.0,
-        "vol": "631K",
+        "kw": "shipping viral",
+        "growth": 252.5,
+        "vol": "649K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "logistics price trend",
+        "growth": 252.0,
+        "vol": "397K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "freight unboxing",
-        "growth": 249.0,
-        "vol": "294K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "shipping viral",
-        "growth": 247.5,
-        "vol": "444K",
+        "growth": 252.0,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "logistics market 2026",
-        "growth": 242.5,
+        "kw": "shipping wholesale supplier",
+        "growth": 106.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "freight b2b export",
-        "growth": 146.0,
+        "growth": 94.0,
         "hits": 0
       },
       {
@@ -156,9 +156,9 @@
       },
       {
         "dim": "媒体",
-        "title": "How Smarter Cross-Border Trade is Driving Jobs, Resilience and Opportunity - World Bank Group",
-        "source": "World Bank Group",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMWpSZ2x2R1pzUHdySGU0dDJqQ3RNTG0zcEdUdy16aldCU1VUeHlPcFhVRDBROUlwelozcFMwWGxGRGZScFpGbzFSTk5BYnBUMTNfc3FINmZtY0x0bzN1SWZiQ2htb3ZvMXNsUnhBYUVwai16Wnp3cjNwS3ozTFFXZkZsajdkUTlSYXFDXzI0ME1ETTZLWlNFODVZVDhfeGtiYzNoQ19rMTZLUnlwX1RqNmZTN3pkUUREbndaQm9WZWJxT002?oc=5",
+        "title": "Freight Forwarding Market Forecast: US$ 284.8 Bn Opportunity by 2030 at 4.8% CAGR | Wissen Research - PR Newswire UK",
+        "source": "PR Newswire UK",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQVZXZk5YUW8wbkpFV1l4T29aSGhSa09sclJQRFBaS09CYmhST1RUYlRVV1JaVUtObjhYNVY3cW9nZk8ydTY4eXdkOHdnNFV1VnN2akZhNTk1QkpZOUd5M3FYTF9wLWdmV1gxeHpkRHpJMjZlTnpuejh5OGZydjVUY24wQkw1Vk0tbzBTTlk1Q0JheUhMUzk4dHVLWFNiSXBOX05kZV9sUFZoQ2NsSXFvSjJtcmZHT2Exb1VsQ1FtNF9heW1fLThjLUV4aDRhVDhIRHU4TEotUHItSkJ6Y29vNjdySC1jNHc3?oc=5",
         "hits": 0
       },
       {
@@ -181,7 +181,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "买家物流市场"
   }
 }

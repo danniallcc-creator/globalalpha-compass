@@ -27,22 +27,22 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 34304777,
-    "total_net_weight_kg": 13804777,
+    "total_export_value_usd": 43363674,
+    "total_net_weight_kg": 12863674,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-29"
+    "fetched_at": "2026-06-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 61,
-      "trend_direction": "up",
+      "interest_score": 95,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -55,7 +55,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -237,12 +237,12 @@
     "imports_from_china": {
       "US": {
         "value_usd": 73293716681,
-        "yoy": null,
+        "yoy": -33.9,
         "share": 8.3
       },
       "DE": {
         "value_usd": 325952473332.29596,
-        "yoy": 146.8,
+        "yoy": null,
         "share": 36.9
       },
       "JP": {
@@ -267,7 +267,7 @@
       },
       "BR": {
         "value_usd": 26928852124,
-        "yoy": 11.7,
+        "yoy": null,
         "share": 3.1
       },
       "IT": {
@@ -277,17 +277,17 @@
       },
       "NL": {
         "value_usd": 20295595204.725,
-        "yoy": -4.5,
+        "yoy": null,
         "share": 2.3
       },
       "CA": {
         "value_usd": 79618225153.66306,
-        "yoy": -0.2,
+        "yoy": null,
         "share": 9.0
       },
       "MX": {
         "value_usd": 54195282418,
-        "yoy": 4.8,
+        "yoy": null,
         "share": 6.1
       }
     }

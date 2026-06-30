@@ -363,7 +363,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "配线器材：海外社媒「electrical analyst」增速 250%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "配线器材：海外社媒「electrical market alert」增速 255%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -377,45 +377,45 @@
       "欧盟 CE 标志强制准入 → 配线器材 出口需通过合规认证",
       "美国 IRA 通胀削减法案补贴 → 配线器材 北美本地化制造红利",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 配线器材需求强劲",
-      "海外社媒「electrical analyst」增速 250% 领跑 → 配线器材社媒种草热度爆发"
+      "海外社媒「electrical market alert」增速 255% 领跑 → 配线器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electrical analyst",
+        "kw": "electrical market alert",
+        "growth": 255.0,
+        "vol": "765K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical aesthetic",
+        "growth": 254.0,
+        "vol": "515K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical #trending",
         "growth": 250.5,
-        "vol": "489K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical industry news",
-        "growth": 249.0,
-        "vol": "332K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical review 2026",
-        "growth": 241.5,
-        "vol": "468K",
+        "vol": "589K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical b2b export",
-        "growth": 219.0,
+        "growth": 182.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 206.5,
+        "kw": "electrical wholesale supplier",
+        "growth": 164.5,
         "hits": 0
       },
       {
@@ -427,9 +427,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
+        "title": "China's May shipments to U.S. clock 5-year high growth at 35% as overall exports jump on tech boost - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KX2VUbS1UaWJkMmM0M2xMLUt2OGNmZTFKRVl2R2ttLVI4cm5kaGJlR0ZKTjZxWWJqX0VlMDRaTlZYYWRUd05rQzM0Sm9GMnZJb1VvSVRIbk9ySGFRS0c5M0NzUnFWSXZZU1RKU01kYllfMkVobmQ3X1pnOUtxQdIBgwFBVV95cUxNY2pmR0Zma20ycmxjb0ZGZkRDeWNBbVl2S2N2TWItOUdKMGc3M1BFa1c3OV9feXplYUo5LTVJWEdsaGJzYUwwX0VaRHYwMDhURnlSYmtHbnRaeUdtVk4ySlpxM25vM0R0Uy1wWWdTdG5LT2FUcmdrU0J1NmhsQ2RQdDBGbw?oc=5",
         "hits": 0
       },
       {
@@ -452,7 +452,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "电气设备及用品"
   }
 }

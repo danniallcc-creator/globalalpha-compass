@@ -74,11 +74,11 @@
   ],
   "global_trends": {
     "google_trends": {
-      "interest_score": 67,
-      "trend_direction": "up",
+      "interest_score": 42,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -91,10 +91,10 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing #fyp」增速 252%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，AgWeb关注「Grains Rally as as Soybean Export...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing supply chain」增速 250%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「China imposes trade curbs on dozens of...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -106,45 +106,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 代理采购渠道&区域需求强劲",
-      "海外社媒「sourcing #fyp」增速 252% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing supply chain」增速 250% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing #fyp",
-        "growth": 251.5,
-        "vol": "254K",
+        "platform": "x",
+        "kw": "sourcing supply chain",
+        "growth": 249.5,
+        "vol": "709K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "sourcing analyst",
-        "growth": 249.5,
-        "vol": "160K",
+        "platform": "youtube",
+        "kw": "procurement factory tour",
+        "growth": 244.0,
+        "vol": "165K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "procurement market alert",
-        "growth": 244.0,
-        "vol": "658K",
+        "growth": 233.0,
+        "vol": "210K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "procurement b2b export",
-        "growth": 125.0,
+        "kw": "sourcing wholesale supplier",
+        "growth": 110.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing market 2026",
-        "growth": 122.5,
+        "growth": 94.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China imposes trade curbs on dozens of U.S. firms in retaliation for Pentagon blacklist - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXo1RzZsUk1PSnJ4V2hJWEZmZG51bmZrRW5Na183b0I5TUlWbGpFR3lVTFVoQ0pBUkNoQlcyUm9QQW1oSTdWLTdvaHRoZUdVVnJFalNQOWRjSC1fVHFIOVJnZjliSTdxTXhWYkNqQVU2dlRmYlRJMW9vLWpwY3hiLVBFNk10alBTLW1ud1FtOF9iaDRtRURMNEQ2ZHpIcmtkN2M1VEl0b1doX3dBckptVEppZXlzVi1xMUx5ZtIBwgFBVV95cUxPNUNPb1BmUzVUdm1pZVFfcC1jUGVwaUVyV1NvSjZVM1lEdnF1MnpsSzNRTnBXbFY2cHIxb1EwQ29peXZmNHFxUE9tUTg3ZlVuenZYeVVNZ1JwLVhkVktMdVlNWGtYVjNsWWR1Zk5fa2hKZHRZeDJadElPXzQwY1g0MUJhUTdzOFU0THNJSVhJSUR0NXFVUjdyNlZtUXdGRjNlbDRMWXJVbzdNVDFWSEZ5Q0RkT0ZvekJLMVI2aFAxZ3FRZw?oc=5",
         "hits": 0
       },
       {
@@ -152,13 +159,6 @@
         "title": "Grains Rally as as Soybean Export Business Confirmed: Is it China and Will it Spur Fund Buying? - AgWeb",
         "source": "AgWeb",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVkhXZXoyS2w2Vk5MNktHUzJxbUdZdXVFc2NxUnVKd3lCZXMzelBETkhzMFdGVWJ1SVozZ3BWVG5sWUJSZ0Nhc0hSV2FVb3VpaE94N3RWN05PdHdyUjBRY1RMd29CYkoyaFplOEpBcDJhSkZUSURtZFpGV1Z4OTlkT0tTT0o2YWNuakZYZ2plQlhhamVlalhsWmROTzBYb09MSzRCZ2FOOTBxUU5DY0dfdWhCdjllODQtR3k4?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Why Europe should put up trade barriers against Chinese goods - Noahpinion",
-        "source": "Noahpinion",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VamlSc2FWM2hPOVltN05MQXE4N1BySmYwM01CNU9PeVU0LUtaQW93Z0NNRWNSbmZTcmg4M01WeG5xQXFBbkJ5VHNiZzhYd2dXZGsxOUExbUotT2FQX1lVRms3dDVGQ0kxTEhUNmkxRzI5SkVpT1hRag?oc=5",
         "hits": 0
       },
       {
@@ -181,7 +181,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "代理采购"
   }
 }

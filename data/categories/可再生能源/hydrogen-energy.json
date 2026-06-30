@@ -387,7 +387,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "氢能：海外社媒「solar #fyp」增速 250%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「China's May shipments to U.S. clock...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "氢能：海外社媒「photovoltaic market alert」增速 234%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「China's May shipments to U.S. clock...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -401,45 +401,45 @@
       "印度 BIS 强制注册 → 14 亿人口市场 氢能 准入",
       "日本 PSE 电气安全认证 → 氢能 进入日本必备",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 氢能需求强劲",
-      "海外社媒「solar #fyp」增速 250% 领跑 → 氢能社媒种草热度爆发"
+      "海外社媒「photovoltaic market alert」增速 234% 领跑 → 氢能社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "photovoltaic market alert",
+        "growth": 234.0,
+        "vol": "691K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "solar #fyp",
-        "growth": 250.5,
-        "vol": "702K",
+        "kw": "energy storage tiktok made me buy",
+        "growth": 232.5,
+        "vol": "651K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "solar top 10",
-        "growth": 243.5,
-        "vol": "638K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "photovoltaic b2b export",
-        "growth": 239.0,
-        "vol": "203K",
+        "platform": "instagram",
+        "kw": "battery must have",
+        "growth": 228.0,
+        "vol": "634K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 236.0,
+        "growth": 187.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "solar market 2026",
-        "growth": 133.5,
+        "growth": 92.5,
         "hits": 0
       },
       {
@@ -476,7 +476,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-06-29",
+    "generated_at": "2026-06-30",
     "l1_ref": "可再生能源"
   }
 }

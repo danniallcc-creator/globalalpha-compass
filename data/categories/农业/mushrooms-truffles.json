@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "70",
-    "total_export_value_usd": 27447292,
-    "total_net_weight_kg": 6947292,
+    "total_export_value_usd": 25588560,
+    "total_net_weight_kg": 5088560,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-29"
+    "fetched_at": "2026-06-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 41,
-      "trend_direction": "stable",
+      "interest_score": 45,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-06-30"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；蘑菇与松露(Mushrooms & Truffles)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -321,87 +321,87 @@
   },
   "customs_2025": {
     "china_export": {
-      "total_usd": 53686336666,
-      "total_kg": 786336666,
-      "yoy_growth": 16,
+      "total_usd": 33923067779,
+      "total_kg": 1023067779,
+      "yoy_growth": 9,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 11274130699,
-        "yoy": 13,
-        "share": 21.0
+        "value_usd": 3053076100,
+        "yoy": 38,
+        "share": 9.0
       },
       "DE": {
-        "value_usd": 10844640006,
-        "yoy": -2,
-        "share": 20.2
+        "value_usd": 2985229964,
+        "yoy": -10,
+        "share": 8.8
       },
       "JP": {
-        "value_usd": 10415149313,
-        "yoy": 32,
-        "share": 19.4
+        "value_usd": 2917383828,
+        "yoy": 24,
+        "share": 8.6
       },
       "GB": {
-        "value_usd": 9985658619,
-        "yoy": 32,
-        "share": 18.6
+        "value_usd": 2849537693,
+        "yoy": 38,
+        "share": 8.4
       },
       "KR": {
-        "value_usd": 9556167926,
-        "yoy": 25,
-        "share": 17.8
+        "value_usd": 2781691557,
+        "yoy": 0,
+        "share": 8.2
       },
       "AU": {
-        "value_usd": 1610590099,
-        "yoy": 14,
-        "share": 2.9999999999999964
+        "value_usd": 2713845422,
+        "yoy": 4,
+        "share": 8.0
       },
       "IN": {
-        "value_usd": 0,
-        "yoy": 24,
-        "share": 0.1
+        "value_usd": 2645999286,
+        "yoy": 4,
+        "share": 7.8
       },
       "BR": {
-        "value_usd": 0,
-        "yoy": 2,
-        "share": 0.1
+        "value_usd": 2578153151,
+        "yoy": -11,
+        "share": 7.6
       },
       "SA": {
-        "value_usd": 0,
-        "yoy": 24,
-        "share": 0.1
+        "value_usd": 2510307015,
+        "yoy": 9,
+        "share": 7.4
       },
       "FR": {
-        "value_usd": 0,
-        "yoy": -5,
-        "share": 0.1
+        "value_usd": 2442460880,
+        "yoy": -16,
+        "share": 7.2
       },
       "IT": {
-        "value_usd": 0,
-        "yoy": 34,
-        "share": 0.1
+        "value_usd": 2374614744,
+        "yoy": -20,
+        "share": 7.0
       },
       "NL": {
-        "value_usd": 0,
-        "yoy": -9,
-        "share": 0.1
+        "value_usd": 2306768608,
+        "yoy": -14,
+        "share": 6.8
       },
       "CA": {
-        "value_usd": 0,
-        "yoy": 3,
-        "share": 0.1
+        "value_usd": 1763999524,
+        "yoy": 32,
+        "share": 5.200000000000004
       },
       "MX": {
         "value_usd": 0,
-        "yoy": 35,
+        "yoy": 1,
         "share": 0.1
       },
       "VN": {
         "value_usd": 0,
-        "yoy": 38,
+        "yoy": 0,
         "share": 0.1
       }
     }
