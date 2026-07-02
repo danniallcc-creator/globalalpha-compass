@@ -147,32 +147,29 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 54046723047.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
-      "US": {
-        "value_usd": 6455936445.0,
+      "DE": {
+        "value_usd": 13466603251.74002,
         "yoy": null,
-        "share": 24.2
+        "share": 61.3
       },
-      "JP": {
-        "value_usd": 4433126723.367,
-        "yoy": null,
-        "share": 16.6
-      },
-      "KR": {
-        "value_usd": 5937708743.0,
+      "GB": {
+        "value_usd": 4887893510.015998,
         "yoy": null,
         "share": 22.2
-      },
-      "BR": {
-        "value_usd": 6271813282.0,
-        "yoy": null,
-        "share": 23.5
       },
       "CA": {
         "value_usd": 3617252745.5420012,
         "yoy": null,
-        "share": 13.5
+        "share": 16.5
       }
     }
   }
