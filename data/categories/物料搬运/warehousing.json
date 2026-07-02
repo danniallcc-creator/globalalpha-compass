@@ -202,7 +202,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "仓储：海外社媒「forklift tutorial」增速 238%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Industrial Bulk Packaging Market Size,...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "仓储：海外社媒「forklift tutorial」增速 246%，搜索端「conveyor b2b export」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Wood Pallets Market Size, Industry...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -214,59 +214,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 仓储 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 仓储需求强劲",
-      "海外社媒「forklift tutorial」增速 238% 领跑 → 仓储社媒种草热度爆发"
+      "海外社媒「forklift tutorial」增速 246% 领跑 → 仓储社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "forklift tutorial",
-        "growth": 237.5,
-        "vol": "490K",
+        "growth": 245.5,
+        "vol": "689K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "forklift supply chain",
+        "growth": 228.5,
+        "vol": "492K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "forklift review 2026",
-        "growth": 230.5,
-        "vol": "92K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "forklift tiktok made me buy",
-        "growth": 230.5,
-        "vol": "614K",
+        "kw": "forklift top 10",
+        "growth": 226.5,
+        "vol": "225K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "forklift market 2026",
-        "growth": 155.5,
+        "kw": "conveyor b2b export",
+        "growth": 188.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift wholesale supplier",
-        "growth": 119.5,
+        "growth": 172.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Industrial Bulk Packaging Market Size, Share, Forecast, 2034 - Fortune Business Insights",
+        "title": "Wood Pallets Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
         "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVFctMzFDQnhOVGp1Zzhld0lzbDVPR01zS0d2TTJBaGRjOUs1MDZTeXhQU1ZzRjVNMHdmY21tcTNoZzlKYUhXTDdkTUVKMnJZLU91b1lrTWZfTVJFSHFwREFnWFNRYTJkQzYtX2I5amNpdjQ3SDhTcDlhWFBFSUFIRXgybHRMZw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzeVhiTHVnMHRfbl9lbmEzOGFGdlMyZ0JfMGc5THFtWXQ5bEduSHlETl9FMFRLcnlfYk5YZ09rMDI4MmVuWlpndm5yT1p1R0ptUmdwYng1eHlITW5teEUyY3p5andMRUdJcFE2Wlo4bWZxM2xL?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Material Handling Conveyors Market by 2035, Automation in Electronics and E-Commerce Drives Sustained Expansion - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYU16aXVFQ3RkcENQd1hFMVpCbHZEVno1TlE4Y2VxM1lqT2ltcy01YWhFdzNKMVczamhzV0V5dzE0TGphaE42WjZIVXNtTWZfZXhrZHFybG9RU0tmd0RaX05wSE5qUnVBc0pKcXozV0wtNUR2Sml4QWNpZTVNRkNUN0RreEIwOUpoZnNvRF9XWExmQVhzOHdqVkk5V0YySEQzdmp5b3ZEVms2b0FOell3elpBZnpRWWxfWHNDQXJTN09kaXp6bzZrUFAtNk56Tm1KcGpla0RiZw?oc=5",
+        "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
         "hits": 0
       },
       {
@@ -289,7 +289,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "物料搬运"
   }
 }

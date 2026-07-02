@@ -221,7 +221,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "表面处理化学品：海外社媒「chemical industry news」增速 252%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Chemistry World关注「EU looks to boost protective trade...」。",
+    "trend_summary": "表面处理化学品：海外社媒「chemical unboxing」增速 249%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -234,59 +234,59 @@
       "欧盟碳边境税 CBAM 2026 起覆盖 表面处理化学品 → 低碳替代品需求激增",
       "欧盟 REACH 法规限制有害化学物 → 驱动 表面处理化学品 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 表面处理化学品 通关",
-      "海外社媒「chemical industry news」增速 252% 领跑 → 表面处理化学品社媒种草热度爆发"
+      "海外社媒「chemical unboxing」增速 249% 领跑 → 表面处理化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "chemical unboxing",
+        "growth": 249.0,
+        "vol": "149K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "chemical industry news",
-        "growth": 252.0,
-        "vol": "710K",
+        "growth": 245.0,
+        "vol": "140K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical trending now",
-        "growth": 248.0,
-        "vol": "470K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical must have",
-        "growth": 221.0,
-        "vol": "434K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
-        "growth": 138.0,
+        "platform": "youtube",
+        "kw": "chemical tutorial",
+        "growth": 236.5,
+        "vol": "653K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical wholesale supplier",
-        "growth": 121.5,
+        "growth": 214.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 211.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU looks to boost protective trade policy against Chinese imports - Chemistry World",
-        "source": "Chemistry World",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORmNya0pDMmVzalhpMjQ0MzBmdGJuNVQzRzlZNU05cG9ZWERPdl9Oa1VTQXdvNW5XV19HdEJ6OTMyY0t6aG5JRXljX25MbnFiWkl1c0tINVhfTE96Ylk2ZjZuZGNLYVpLb09LMEY4eW1jRTByWDZlSDN1Zno5M1E1MDJkMFpfNncwaTVxUmgyVjFpanpCY3ZuRWVUZElybUFUcWgyVUZiamVtajExeVdWLTJMVmtyVEtH?oc=5",
+        "title": "Radioactive Chemicals (HS: 2844) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WODE0TGZLM0ltY094V2JKTDhDcnE3aEkzWkpjdENpMVJ3UjNxZi1nNmZpQlpERTROakZRLWhHaTc4YUk0M253b1dwNlRBQTMwMVd3SV9KV3cwRmNmWlprRVlESQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Asia-Pacific Lithography Process Aid Chemicals - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3JBNG00aDY5UWdzS0tDalJqZlJlZFhRbVZscUo4VGoyQ0tvYkVyTWRaM1dPYjlNUzk5d0N4ZjZleDJqcy11cFNOdFpXM0l6V0dVUGt3cDN2S2MyVEVtYUdWWDA5Z0FoQnVISXl3d1R3RjAwTkZtV3F2a2Z3MXNsVkYxaUFfTVBUano3dC10UnlFcE1PREVtajNLNmw4VzdyaFBhTVkzWm5zQ29rWWxtUEZURHYtUGYyUkhpVm45MHpqNjg3d3c?oc=5",
+        "title": "Alabama exports reach $23.7 billion in 2025, with shipments to 190 countries - Yellowhammer News",
+        "source": "Yellowhammer News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQck9LdTREYmg5TDFHa21Cc3hZdkpsVU4waXlUM1dYVnpwaEpQUlpsOS13a1ptOURBN2c2Z19yN1hmSV8wUk9fME5aLTJqVG96U0F4S1VMVF9MTUlYYlhTTEZKbEJVVnVUZHJGbkFpTkg3cl9lc1pmNDlyR0RxTndLRFdLLXl1a3lpbmpmN0hFUHJENDZ3WjNwb1VDZ1JBdWNhREVveDl0QQ?oc=5",
         "hits": 0
       },
       {
@@ -309,7 +309,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "化学品"
   }
 }

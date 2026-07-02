@@ -49,7 +49,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「watch factory tour」增速 243%，搜索端「jewelry watches supply chain resilience」热度上行，SA Amazon BSR Top-36，Statista关注「Leading watch exporting countries...」。",
+    "trend_summary": "手表：海外社媒「watch trending now」增速 239%，搜索端「jewelry watches market trend 2026」热度上行，DE Amazon BSR Top-41，Centurion Jewelry Show关注「The Retail Smiths: There’s More Than...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -60,45 +60,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「watch factory tour」增速 243% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch trending now」增速 239% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "watch factory tour",
-        "growth": 243.0,
-        "vol": "565K",
+        "platform": "tiktok",
+        "kw": "watch trending now",
+        "growth": 239.0,
+        "vol": "119K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "jewelry market 2026",
-        "growth": 242.5,
-        "vol": "97K",
+        "growth": 235.5,
+        "vol": "507K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry wholesale supplier",
-        "growth": 233.5,
-        "vol": "262K",
+        "platform": "instagram",
+        "kw": "watch must have",
+        "growth": 223.0,
+        "vol": "647K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches supply chain resilience",
-        "growth": 47,
+        "kw": "jewelry watches market trend 2026",
+        "growth": 73,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches digital transformation",
-        "growth": 40,
+        "kw": "jewelry watches export opportunity emerging markets",
+        "growth": 72,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "The Retail Smiths: There’s More Than One Way to Win in Watches - Centurion Jewelry Show",
+        "source": "Centurion Jewelry Show",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeW5nN2N3NG53cmllWUdvcEdTV3hmQ19GWXJKNWQ2emd6TU5KYnZ3ZXcwZHRPdkgxUGZOUXdXLV9tTXB0ZldmZ1JlcHVDcUV4anBVemRoZk85SlZZbGFlQmU5N2VHQUFQMllodDEtbzdxN2g0Q3c0LWVaLU5keEoyUGtZcHlodDRKSmNGZWNOeHdpeFNEcENVZktoamRMcW0wSXlaTktJc0dvRTRkdkFj?oc=5",
         "hits": 2
       },
       {
@@ -109,33 +116,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Basilia Jewellery and Watch Fair: The MCH Group is set to launch a new international trade show in Basel - Luxus Plus",
-        "source": "Luxus Plus",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb0NiVVB3bXdGMUQwY3d0U2ctVEdmYW1EQ21FTW5qU0wxTThUMVdsX1otNkFFSWx5YURvQkNtbUZWRTRLdU85MEV4dzZHZFF4d2xOVDYtNUF1TlZvMGc2WHNYUWZCdjBtYmhYLUNCMGgxRWxIbWpYdm9OaW5ZVDFQRTNBcjJ4QldRSWp3dl9rX3dIdW9qZjg3UERIbUNlS0g1M0dwN1NocHZIM0F2N3hvTzdZNTM5elp6aWttRUd1UU9ESVFhY1BiN2NB?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 36,
-        "title": "Top jewelry - Compact Edition",
-        "price": "$267.8",
-        "rating": 3.9,
+        "market": "DE",
+        "rank": 41,
+        "title": "Top watch - Pro Edition",
+        "price": "$18.7",
+        "rating": 4.7,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 29,
-        "title": "Top jewelry - Eco Edition",
-        "price": "$195.4",
-        "rating": 4.6,
+        "market": "US",
+        "rank": 31,
+        "title": "Top watch - Heavy-Duty Edition",
+        "price": "$154.5",
+        "rating": 4.1,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

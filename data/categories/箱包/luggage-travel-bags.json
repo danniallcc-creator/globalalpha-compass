@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "行李箱及旅行包：海外社媒「backpack top 10」增速 250%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，BBC关注「CarryMen: India start-up offering...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "行李箱及旅行包：海外社媒「backpack new arrival」增速 250%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Middle East Bag Connector (flexible) -...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,52 +100,45 @@
       "欧盟 CE 标志强制准入 → 行李箱及旅行包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 行李箱及旅行包 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 行李箱及旅行包需求强劲",
-      "海外社媒「backpack top 10」增速 250% 领跑 → 行李箱及旅行包社媒种草热度爆发"
+      "海外社媒「backpack new arrival」增速 250% 领跑 → 行李箱及旅行包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "backpack new arrival",
+        "growth": 249.5,
+        "vol": "548K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "backpack top 10",
-        "growth": 250.5,
-        "vol": "210K",
+        "kw": "bag tutorial",
+        "growth": 243.5,
+        "vol": "79K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "luggage industry news",
-        "growth": 248.0,
-        "vol": "637K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "luggage review 2026",
-        "growth": 234.5,
-        "vol": "128K",
+        "kw": "backpack analyst",
+        "growth": 235.5,
+        "vol": "338K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 224.5,
+        "kw": "bag wholesale supplier",
+        "growth": 159.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 179.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "CarryMen: India start-up offering shopping bag carriers sparks debate on entitlement - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1anEtMTZidzJQbmx1X2R4VG1Ma3FEa0U5SURmNlhPV21wdWJkOWtfNzZYYVp2dDV2aUUyOWpncE96eVdYZl9DZGM0a1JEOG41bnVZcjUyc3c2Zw?oc=5",
+        "source": "Linkedin",
+        "kw": "luggage bags market trend 2026",
+        "growth": 90,
         "hits": 0
       },
       {
@@ -153,6 +146,13 @@
         "title": "Middle East Bag Connector (flexible) - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY29Xa3g3RGxtUUtVbWhOckNVMWJXbk1OM18wY0hEWHNienYxRHhnY2VTMGZMaFI0MlNqSmJMbVhWcFRPd0FSb1hMQzZFRjZvbTJSQk9KRlJrX3BZaThGQm9OVzVDNzJXR0hRYkdrNG1NTW00MkJ3N1BSdGZuSFZyYVlLRmEzbmtWeWE5UllNbmRqSlRwN2VvYVVSMlNHOXZQVjQ3UTRYZTdGbTVwZjcyZkszbjRJUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US markets see ‘mixed bag’ of results following trading session - Sky News Australia",
+        "source": "Sky News Australia",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOUdsU2ZYMTBLWkFVRDltTEZseGxTN3lDaFVBd1dzV2x1ejIwNlhNN28tZS0wQXNFUzAtcmR3VTBtalVwM0J6VVJnbXhLSzVGSTNCNkxKMlYzOFlZV1B5OTMtWGhOT1JUQzJzZkFLQXNTMC1UUVc5blBGQkhaMk9aekI4SFY1amk3WC1Ra2pMYllBc09WUlAxSUt6S3lxMmlLZ2syS096ZFRYbl9td042alR2LVZreG9wN01XYjV4eHZJdWcwRklPamsyTzNGempjdmlMNEZ5UGhEZ0tR0gHiAUFVX3lxTE53MTdsTzhscUt4enNfSDF0TThCRWRiVkJHekJoZnY4eEk0VEJRY05sbFNuMzY2elM3c3V6bEJES3cwcUVhdW9FbHNkQXZtdXVScVlnTXhyZ2llVm5kYnc1S0pOZDdMZUFKZlUxVjlMMnJveWtpUWNMZDhHMS1VMFdHUE5tcVdvTTRuOFVyUkRkM0FyczlBRDlQYU5oQjlyMHpTWm5zN2NidHJJTGFmSU0zNTYxc2dTM3JEa1pXbDM4Um8xUGJTaW9RbENaRi1PTFp3cExxZ05GUWZ4LUNiWnRwbnc?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "箱包"
   }
 }

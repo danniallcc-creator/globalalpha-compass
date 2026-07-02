@@ -90,7 +90,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "功能鞋：海外社媒「footwear unboxing」增速 255%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Leather Footwear (HS: 6403) Product...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
+    "trend_summary": "功能鞋：海外社媒「shoe price trend」增速 249%，搜索端「shoe market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Rubber Footwear (HS: 6402) Product...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -104,53 +104,46 @@
       "欧盟 CE 标志强制准入 → 功能鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 功能鞋 通关",
       "俄罗斯市场 YoY +14% 领跑 鞋类 出口 → 功能鞋需求强劲",
-      "海外社媒「footwear unboxing」增速 255% 领跑 → 功能鞋社媒种草热度爆发"
+      "海外社媒「shoe price trend」增速 249% 领跑 → 功能鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "footwear unboxing",
-        "growth": 255.0,
-        "vol": "370K",
+        "platform": "google",
+        "kw": "shoe price trend",
+        "growth": 249.0,
+        "vol": "90K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "footwear market alert",
-        "growth": 254.0,
-        "vol": "780K",
+        "platform": "tiktok",
+        "kw": "shoe trending now",
+        "growth": 248.0,
+        "vol": "177K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "shoe must have",
-        "growth": 251.0,
-        "vol": "264K",
+        "platform": "google",
+        "kw": "footwear industry report",
+        "growth": 245.5,
+        "vol": "452K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "shoe market 2026",
+        "growth": 209.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 196.5,
+        "growth": 172.5,
         "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "footwear b2b export",
-        "growth": 112.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Leather Footwear (HS: 6403) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00U3ltRjdYMW1jUlZlOVhhTWlUeUJ6Q0RNSDNhSUx1eDNkbnJZUTZxNDJZVDV1MVBSNkYzU1dvNzFRN1M4OW94ZjNlWW56TjJlNDlvMy1iUmg0LVdL?oc=5",
-        "hits": 1
       },
       {
         "dim": "媒体",
@@ -158,6 +151,13 @@
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NLWg0cmlFU0ZRbFhsdFMtYkJYSDlLTTBGWGE1OHNXWF83RkFaYTBodDNrOHJYTUhJc2hMU2hkTjRsa2N2X3NNTTJYem5OdGpQaXF1MmNLLTlFbGM?oc=5",
         "hits": 1
+      },
+      {
+        "dim": "媒体",
+        "title": "US proposes 25% tariff on Brazilian goods, raising concerns in footwear sector - World Footwear",
+        "source": "World Footwear",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaGJXd3pCWXF3UjlSSDFxSTNZSHRObmZvdVdTNzQ5Z1pzcmFOYlZwdnA5di03bV9sRC1rNHdZV1ZnbHdSMHhpN01CMFd3WTNMZnBsT1R4S0hIM29KajRyQm5Vd3RBQWtEMm5wUEhrWkRuR3g5TTRCMXBfYjkyZmotOHVvSTRUWlpqZVp4b3BXZGhEM0VMQ0haQXEtWERXVHlXY0ZpWnhnVzl5NzYzVmg2UHZFTDlnTTkwTG0zT2dCSQ?oc=5",
+        "hits": 0
       },
       {
         "dim": "Amazon",
@@ -179,7 +179,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "鞋靴及配饰"
   }
 }

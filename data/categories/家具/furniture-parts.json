@@ -455,7 +455,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家具零配件：海外社媒「furniture review 2026」增速 250%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Other Furniture (HS: 9403) Product...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "家具零配件：海外社媒「desk viral」增速 232%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Other Furniture (HS: 9403) Product...」，出口 YoY +20%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -469,45 +469,45 @@
       "欧盟 CE 标志强制准入 → 家具零配件 出口需通过合规认证",
       "沙特 SASO / SABER 注册 → 中东市场 家具零配件 准入门槛",
       "家具零配件主要流向 美国 / 英国 / 德国，出口集中度较高",
-      "海外社媒「furniture review 2026」增速 250% 领跑 → 家具零配件社媒种草热度爆发"
+      "海外社媒「desk viral」增速 232% 领跑 → 家具零配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "furniture review 2026",
-        "growth": 249.5,
-        "vol": "683K",
+        "platform": "instagram",
+        "kw": "desk viral",
+        "growth": 232.5,
+        "vol": "45K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "furniture #trending",
+        "growth": 227.5,
+        "vol": "83K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "sofa viral hack",
-        "growth": 249.0,
-        "vol": "291K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "desk supply chain",
-        "growth": 243.5,
-        "vol": "137K",
+        "growth": 227.0,
+        "vol": "6K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "desk wholesale supplier",
-        "growth": 238.5,
+        "kw": "furniture market 2026",
+        "growth": 149.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sofa b2b export",
-        "growth": 223.0,
+        "source": "Linkedin",
+        "kw": "furniture digital transformation",
+        "growth": 86,
         "hits": 0
       },
       {
@@ -519,10 +519,10 @@
       },
       {
         "dim": "媒体",
-        "title": "Medical Furniture (HS: 9402) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sZkFWUVBENVRHWGZQXzlmSlNmSmIxbXdCeWczVmVyWkt6djM4Qy1IY2pxUW15OGwzX2w3UFZjY1NQb1BYVlhlWFdRclZFQ3ZvNHotYmJPc1VsSTNUQ2c?oc=5",
-        "hits": 1
+        "title": "China rides AI wave as exports surge past forecast - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2o3a2p0QWozaW1DOTdQX2ZhTmp6UTdSaktSZEVnckVDUmhXVnA2R1RwMHRqV2tZc2ZBc3lNUFRQM2dxeUU2bEZuOGxlSnRmYXlNUnM5ckJoYVZzQ0poOXZYT1dCRVlfSmlnRnZXYVdvLVlkY2VUX3RZS0FMM0s0eWhaeHNtMmUzdGtBUzZvUWxCWGJPbDBnSEVHVThYVGdSTE9PZjREX2RhRGVfTzRtbjNUNGJpVGxkcFAw?oc=5",
+        "hits": 0
       },
       {
         "dim": "Amazon",
@@ -544,7 +544,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "家具"
   }
 }

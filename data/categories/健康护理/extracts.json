@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "13",
-    "total_export_value_usd": 47195272,
-    "total_net_weight_kg": 16695272,
+    "total_export_value_usd": 45769907,
+    "total_net_weight_kg": 15269907,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-30"
+    "fetched_at": "2026-07-02"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 85,
-      "trend_direction": "up",
+      "interest_score": 98,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-30"
+      "fetched_at": "2026-07-02"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: FDA OTC药品注册/monograph, DSHEA膳食补充剂GMP | EU: NHP食品补充剂指令2002/46/EC, 医药类需EMA/国家批准 | JP: 机能性表示食品届出(FSSAI相当), 特保FOSHU厚生批准 | SA: SFDA营养补充剂注册",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-02",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -232,90 +232,7 @@
     "l1_ref": "健康护理"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 37822676453,
-      "total_kg": 922676453,
-      "yoy_growth": 3,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
-    "imports_from_china": {
-      "US": {
-        "value_usd": 3025814116,
-        "yoy": 7,
-        "share": 8.0
-      },
-      "DE": {
-        "value_usd": 2950168763,
-        "yoy": -19,
-        "share": 7.8
-      },
-      "JP": {
-        "value_usd": 2912346086,
-        "yoy": 36,
-        "share": 7.7
-      },
-      "GB": {
-        "value_usd": 2836700733,
-        "yoy": 26,
-        "share": 7.5
-      },
-      "KR": {
-        "value_usd": 2798878057,
-        "yoy": 1,
-        "share": 7.4
-      },
-      "AU": {
-        "value_usd": 2723232704,
-        "yoy": 16,
-        "share": 7.2
-      },
-      "IN": {
-        "value_usd": 2685410028,
-        "yoy": 17,
-        "share": 7.1
-      },
-      "BR": {
-        "value_usd": 2609764675,
-        "yoy": 2,
-        "share": 6.9
-      },
-      "SA": {
-        "value_usd": 2571941998,
-        "yoy": 5,
-        "share": 6.8
-      },
-      "FR": {
-        "value_usd": 2534119322,
-        "yoy": -19,
-        "share": 6.7
-      },
-      "IT": {
-        "value_usd": 2458473969,
-        "yoy": 23,
-        "share": 6.5
-      },
-      "NL": {
-        "value_usd": 2382828616,
-        "yoy": 18,
-        "share": 6.3
-      },
-      "CA": {
-        "value_usd": 2345005940,
-        "yoy": 10,
-        "share": 6.2
-      },
-      "MX": {
-        "value_usd": 2269360587,
-        "yoy": -2,
-        "share": 6.0
-      },
-      "VN": {
-        "value_usd": 718630852,
-        "yoy": 29,
-        "share": 1.9
-      }
-    }
+    "china_export": null,
+    "imports_from_china": {}
   }
 }

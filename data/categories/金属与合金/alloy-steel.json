@@ -224,7 +224,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "合金钢：海外社媒「steel top 10」增速 238%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
+    "trend_summary": "合金钢：海外社媒「aluminum tiktok made me buy」增速 252%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +30%，主要流向 越南 / 韩国 / 泰国。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -238,45 +238,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 合金钢 成主流",
       "欧盟 CE 标志强制准入 → 合金钢 出口需通过合规认证",
       "印度市场 YoY +30% 领跑 钢材 出口 → 合金钢需求强劲",
-      "海外社媒「steel top 10」增速 238% 领跑 → 合金钢社媒种草热度爆发"
+      "海外社媒「aluminum tiktok made me buy」增速 252% 领跑 → 合金钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "aluminum tiktok made me buy",
+        "growth": 251.5,
+        "vol": "623K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "metal trending now",
+        "growth": 248.0,
+        "vol": "346K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "steel top 10",
-        "growth": 238.5,
-        "vol": "795K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "metal industry news",
-        "growth": 236.0,
-        "vol": "652K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "metal must have",
-        "growth": 235.0,
-        "vol": "114K",
+        "growth": 243.5,
+        "vol": "462K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "metal market 2026",
-        "growth": 188.5,
+        "kw": "aluminum wholesale supplier",
+        "growth": 170.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "steel b2b export",
-        "growth": 171.0,
+        "source": "Linkedin",
+        "kw": "metal alloy export opportunity emerging markets",
+        "growth": 65,
         "hits": 0
       },
       {
@@ -288,9 +288,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China, tungsten and a supply shock in metal critical for war that will last far beyond Iran conflict - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWFJQTNRaHBlRHB0MHA0U21PRjUwdVlmcy11TE0zSF9SRlRFYjhDbTdIZ2NCT0J2Y2xBUVVMamV2eS15Rm13YVpyVUNNZE1INjJyZU5rRGloWS1MQmxsMFJPLU9GZG9KR2tJaTNqTENVaFB3cmtSQkdkMUxJM044Rkt4cTY4eDZENnJubkVsblBrTlZTRXhHQWdzdUh5NWFa0gGmAUFVX3lxTE5zUlNHMFE5b3lEM2FPU2VfMXlUQUZSaklITExHc25jS0w2LWFraWo4Ynd2aG90QmpBWEFNVHRjcHhsYkNka0NJa0xxb0ZnLUhqNERKXzhKU2F4MWxqNVFiaHBiWDNEZ01Sc2NCMUw2ZmpRQWhvZDFNT05ZTGkzYllnV1FXTjh4SXZzUXZtX0IyMXJTZVNhcG5PQndvOURFekw1RE9WdGc?oc=5",
+        "title": "India opens steel dumping probe into China, Japan, Russia - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkdUSzY3RWpENURtT2l1RWlZS0swcWxxX3U0M1hsNVRpVlZCVVFTR2xlZnlObDdMNlZZcGQzc1cxT2ZtQzZVQVFDUTdNVExfX3h4dU9CRmYyRlk4alA1eG9BOEhpTHlpdEI1SUdUT1M4ZUJrZkVXU0FCQ0RtV1hDRTE5NldpcmdZcmZ3SUp2TXZXWjZ6WmJ0b0JpMVpKbU04TklQTTFR?oc=5",
         "hits": 0
       },
       {
@@ -313,7 +313,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "金属与合金"
   }
 }

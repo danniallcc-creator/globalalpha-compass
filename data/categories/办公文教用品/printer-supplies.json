@@ -26,22 +26,22 @@
   ],
   "export_data": {
     "hs_chapter": "96",
-    "total_export_value_usd": 3767404,
-    "total_net_weight_kg": 3267404,
+    "total_export_value_usd": 12627829,
+    "total_net_weight_kg": 12127829,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-30"
+    "fetched_at": "2026-07-02"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 92,
+      "interest_score": 50,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-30"
+      "fetched_at": "2026-07-02"
     }
   },
   "industry_analysis": {
@@ -54,7 +54,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；打印机耗材(Printer Supplies)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-02",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "打印机耗材：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
@@ -151,25 +151,25 @@
   "policy_updates": {
     "articles": [
       {
-        "title": "European Union UV-Curable Flexographic Inks - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1Q2cWNwM2plTlJvbng2X3U4RGkzUjFQenFfcHEwSkZUNGVTVjg1RnZDby1ZaENlbmloaTlJTzlsS0JURU1tR3ZoQXg3T0U2WDZPSzJwV2NEdFBCUl9PNG1pSEdoSElPVW9pM2dSN253bUl5QjJkTnBxaTlNS2hiYkRoM3paYTBpQjE5UTBpeEZTRzVwcE5IMnV0QTBaNkM3QldqYUtNdVhVTU54YW5GTllpQnk0OFQyX1",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
+        "title": "UK, EU and US sanctions on Russia - Fieldfisher",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5\" t",
+        "country": "US",
+        "policy_type": "sanction",
+        "impact": "negative",
+        "impact_score": 0.2,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1Q2cWNwM2plTlJvbng2X3U4RGkzUjFQenFfcHEwSkZUNGVTVjg1RnZDby1ZaENlbmloaTlJTzlsS0JURU1tR3ZoQXg3T0U2WDZPSzJwV2NEdFBCUl9PNG1pSEdoSElPVW9pM2dSN253bUl5QjJkTnBxaTlNS2hiYkRoM3paYTBpQjE5UTBpeEZTRzVwcE5IMnV0QTBaNkM3QldqYUtNdVhVTU54YW5GTllpQnk0OFQyX1dvN216RDg4Zw?oc=5",
-        "published": "Fri, 26 Jun 2026",
-        "source": "IndexBox"
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
+        "published": "Mon, 29 Jun 2026",
+        "source": "Fieldfisher"
       }
     ],
     "country_summary": {
-      "EU": {
-        "trend": "neutral",
+      "US": {
+        "trend": "tightening",
         "key_policies": [
-          "compliance"
+          "sanction"
         ],
-        "impact": "neutral"
+        "impact": "negative"
       }
     }
   },
@@ -242,20 +242,22 @@
     }
   },
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 2,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 100.0,
+      "overall": "neutral",
+      "positive_pct": 50.0,
       "negative_pct": 0.0,
-      "neutral_pct": 0.0,
-      "articles_analyzed": 1
+      "neutral_pct": 50.0,
+      "articles_analyzed": 2
     },
     "top_headlines": [
+      "Latin America and the Caribbean Resin for Printer Toner - Market Analysis, Forecast, Size, Trends an",
       "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQkRvQmJXZXk1OUhrQnNmeXZudzRabWhpc1lGTFRyNnRQUHlFRWdoSkprUnFNTkZHeWV2YV9nOWx5UnA1cklVcE9HMWhId2VST1hDOWx5a2gwbU1QUmJJbFFUTU9RUmtrcHRLQTRKWndvblRyaXBPZFhKcmswQ0U0V014QjRLWC00cjdDN1lYRnk0TXlIRWJBRHJNaWxPWk1yWVJxaEVPOFgyZmFlZnJJUVQtRkxRSWVrTUhwVkp2ZFFIS3EwNk1QSUd6d3NxWVFUc1E?oc=5",
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
-    "fetched_at": "2026-06-30"
+    "fetched_at": "2026-07-02"
   }
 }

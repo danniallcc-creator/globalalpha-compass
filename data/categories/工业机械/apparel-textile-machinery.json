@@ -400,7 +400,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "服装及纺织机械：海外社媒「industrial machinery unboxing」增速 255%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，WSJ关注「Chinese Export Flood Tests Europe’s...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "服装及纺织机械：海外社媒「industrial machinery #trending」增速 248%，搜索端「industrial machinery market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「Chinese Export Flood Tests Europe’s...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -414,45 +414,45 @@
       "英国 UKCA 后脱欧认证 → 服装及纺织机械 出口英国独立要求",
       "印度 BIS 强制注册 → 14 亿人口市场 服装及纺织机械 准入",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 服装及纺织机械需求强劲",
-      "海外社媒「industrial machinery unboxing」增速 255% 领跑 → 服装及纺织机械社媒种草热度爆发"
+      "海外社媒「industrial machinery #trending」增速 248% 领跑 → 服装及纺织机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery #trending",
+        "growth": 248.5,
+        "vol": "505K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "industrial machinery unboxing",
-        "growth": 255.0,
-        "vol": "547K",
+        "kw": "industrial machinery tutorial",
+        "growth": 240.5,
+        "vol": "767K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "industrial machinery factory tour",
-        "growth": 250.0,
-        "vol": "201K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "industrial machinery b2b export",
-        "growth": 244.0,
-        "vol": "385K",
+        "growth": 226.0,
+        "vol": "452K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "industrial machinery b2b export",
-        "growth": 241.0,
+        "kw": "industrial machinery market 2026",
+        "growth": 125.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial machinery wholesale supplier",
-        "growth": 221.5,
+        "growth": 122.5,
         "hits": 0
       },
       {
@@ -464,9 +464,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
+        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
         "hits": 0
       },
       {
@@ -489,7 +489,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "工业机械"
   }
 }

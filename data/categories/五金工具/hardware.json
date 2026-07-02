@@ -56,14 +56,14 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 22447166,
-    "total_net_weight_kg": 1947166,
+    "total_export_value_usd": 37669412,
+    "total_net_weight_kg": 17169412,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-06-30"
+    "fetched_at": "2026-07-02"
   },
   "global_trends": {
     "google_trends": {
@@ -71,7 +71,7 @@
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-06-30"
+      "fetched_at": "2026-07-02"
     }
   },
   "industry_analysis": {
@@ -84,7 +84,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-02",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -345,60 +345,22 @@
     "l1_ref": "五金工具"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 107256312985,
-      "total_kg": 0,
-      "yoy_growth": -1.9,
-      "period": "2025",
-      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-      "data_quality": "official_proxy_2025",
-      "total_usd_2024": 109333652380
-    },
+    "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 10631911382,
-        "yoy": -27.0,
-        "share": 9.4
-      },
       "DE": {
         "value_usd": 37197415721.436035,
-        "yoy": 68.4,
-        "share": 33.0
+        "yoy": null,
+        "share": 79.5
       },
       "JP": {
         "value_usd": 5527161124.805,
-        "yoy": -2.7,
-        "share": 4.9
-      },
-      "GB": {
-        "value_usd": 24126938051.51105,
-        "yoy": 19.9,
-        "share": 21.4
-      },
-      "KR": {
-        "value_usd": 6196586926,
         "yoy": null,
-        "share": 5.5
-      },
-      "IT": {
-        "value_usd": 2076646788.1780002,
-        "yoy": null,
-        "share": 1.8
-      },
-      "NL": {
-        "value_usd": 1322060499.825,
-        "yoy": 10.5,
-        "share": 1.2
-      },
-      "CA": {
-        "value_usd": 21409548001.47401,
-        "yoy": 9.8,
-        "share": 19.0
+        "share": 11.8
       },
       "MX": {
-        "value_usd": 4076210536,
+        "value_usd": 4076210536.0,
         "yoy": null,
-        "share": 3.6
+        "share": 8.7
       }
     }
   }

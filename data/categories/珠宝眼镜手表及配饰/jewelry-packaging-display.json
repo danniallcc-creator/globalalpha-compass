@@ -661,7 +661,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "珠宝包装及展示：海外社媒「watch factory tour」增速 243%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Statista关注「Leading watch exporting countries...」，出口 YoY +29%，主要流向 美国 / 日本 / 韩国。",
+    "trend_summary": "珠宝包装及展示：海外社媒「watch trending now」增速 239%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Statista关注「Leading watch exporting countries...」，出口 YoY +29%，主要流向 美国 / 日本 / 韩国。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -673,45 +673,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 珠宝包装及展示 出口需通过合规认证",
       "印度市场 YoY +29% 领跑 刨花板/碎料板(4410系列) 出口 → 珠宝包装及展示需求强劲",
-      "海外社媒「watch factory tour」增速 243% 领跑 → 珠宝包装及展示社媒种草热度爆发"
+      "海外社媒「watch trending now」增速 239% 领跑 → 珠宝包装及展示社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "watch factory tour",
-        "growth": 243.0,
-        "vol": "565K",
+        "platform": "tiktok",
+        "kw": "watch trending now",
+        "growth": 239.0,
+        "vol": "119K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "jewelry market 2026",
-        "growth": 242.5,
-        "vol": "97K",
+        "growth": 235.5,
+        "vol": "507K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry wholesale supplier",
-        "growth": 233.5,
-        "vol": "262K",
+        "platform": "instagram",
+        "kw": "watch must have",
+        "growth": 223.0,
+        "vol": "647K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 239.5,
+        "growth": 232.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "jewelry wholesale supplier",
-        "growth": 230.5,
+        "kw": "watch b2b export",
+        "growth": 195.0,
         "hits": 0
       },
       {
@@ -748,7 +748,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

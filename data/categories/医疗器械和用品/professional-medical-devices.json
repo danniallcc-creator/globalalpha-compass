@@ -338,7 +338,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "商用医疗器械：海外社媒「healthcare equipment industry news」增速 251%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「High Performance Medical Plastics...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "trend_summary": "商用医疗器械：海外社媒「medical device market 2026」增速 238%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「World Medical Device Filters - Market...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -352,52 +352,52 @@
       "美国 FDA 注册要求 → 商用医疗器械 进入北美市场必备门槛",
       "印度 BIS 强制注册 → 14 亿人口市场 商用医疗器械 准入",
       "印度市场 YoY +26% 领跑 医疗器械 出口 → 商用医疗器械需求强劲",
-      "海外社媒「healthcare equipment industry news」增速 251% 领跑 → 商用医疗器械社媒种草热度爆发"
+      "海外社媒「medical device market 2026」增速 238% 领跑 → 商用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "healthcare equipment industry news",
-        "growth": 251.0,
-        "vol": "269K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "medical device review 2026",
-        "growth": 249.5,
-        "vol": "555K",
+        "platform": "google",
+        "kw": "medical device market 2026",
+        "growth": 238.5,
+        "vol": "173K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "healthcare equipment viral hack",
-        "growth": 234.0,
-        "vol": "349K",
+        "kw": "medical device #fyp",
+        "growth": 236.5,
+        "vol": "41K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "medical device industry report",
+        "growth": 228.5,
+        "vol": "75K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "medical device wholesale supplier",
-        "growth": 145.5,
+        "kw": "medical device market 2026",
+        "growth": 235.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 145.0,
+        "growth": 169.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "High Performance Medical Plastics Market Size & Report 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObVh4eHNnSk81N0VZWUM0bDVTWEdLRlpJTEJyRXhsTU5rajd6YmxrMU44SUhhWlNrdkd2bUh6VE9lTmJkdThqajRHalhNVDEyd2VZMTA5YkE5TnloTUI1Y3RwTXJPWVFzUXVuc1dTM0xUU1JsUnFlNE1SblEwVjMtcTJfUTVJTzFtVFg4MW1JMUI?oc=5",
+        "title": "World Medical Device Filters - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcklHSjdVbGtrV2o4aEt4T2FueF9lRXF5NHotdjU5VlJ1RWlwQjFFaHBjaEotRmtGWTQxSU5vWDR1MHVKUVNCN0p4WXd6LWVxRGFTV29uVFMwTjZGelp0SGpHcFRhdkN1V3VNQmcyZ3R4VTY0eUx2cjlTYmVmZFVDUnFIcTZNcngtQmtvRmJQN1R0NGUwNmhYRmJqRHotR2xpNEswUDMzTnZHQ204ZmdZM0tySWxjZk54ZmtPTTJUOGFkZVRQS3VwZDRoaEhlX3M?oc=5",
         "hits": 0
       },
       {
@@ -427,7 +427,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "医疗器械和用品"
   }
 }

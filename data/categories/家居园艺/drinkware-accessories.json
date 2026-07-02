@@ -497,7 +497,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "饮具及配件：海外社媒「home decor market 2026」增速 256%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "饮具及配件：海外社媒「garden price trend」增速 241%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
       "成分": "再生纸浆 / 大豆油墨 / 水性光油",
@@ -509,45 +509,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 饮具及配件 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 饮具及配件需求强劲",
-      "海外社媒「home decor market 2026」增速 256% 领跑 → 饮具及配件社媒种草热度爆发"
+      "海外社媒「garden price trend」增速 241% 领跑 → 饮具及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "home decor market 2026",
-        "growth": 256.5,
-        "vol": "586K",
+        "kw": "garden price trend",
+        "growth": 241.0,
+        "vol": "646K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "garden factory tour",
+        "growth": 235.0,
+        "vol": "489K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 249.5,
-        "vol": "98K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor breaking",
-        "growth": 249.5,
-        "vol": "746K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "home decor market 2026",
-        "growth": 253.5,
+        "growth": 226.5,
+        "vol": "195K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 246.5,
+        "growth": 223.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 160.5,
         "hits": 0
       },
       {
@@ -559,9 +559,9 @@
       },
       {
         "dim": "媒体",
-        "title": "EPA’s HFC delay tests Trump’s made in America agenda - E&E News by POLITICO",
-        "source": "E&E News by POLITICO",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTDIwM0gzTU51QlI3Z0ZNQ1ctVkVzbFk4ZVlxUGhINXJrUVl1bGVVVWVVZGNtcnpFbnpFMzJvem94MXZlcFNDNXBtVjlJaGZkNjM3ZDVVTXdfMldRV2EzVGhxaEI4RVJPbUppMTJSNkp2Z1Z1U25nLTZrbTBVTG9GWHNnR2xCNDlndE1j?oc=5",
+        "title": "Uttar Pradesh trade show may generate ₹25,000 crore boost for MSMEs - Business Standard",
+        "source": "Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSTlnX1pGVlRQZDRIMVpyUkEzNFMtaFMwbTJ3OGpQTWwzcHZfN0F0SlU1MmlBbjFSNGRYUUc4S3Z0SWZUUlFrUDdXOEFiOUgxeTFnZFpXQXRYaVAwUi02R21lTW9iUlVSLXVadWpmSmVxd25yQzkwVW1DRUxXb3FiWFdqYmp5SU1hLVJlVVBYTEZ1TE9JMkc5cVJ5Q1k4OG56enh0cFRKS2RNUHdVbDRGOVRzYXlIXzNKd2ZWLW9MZHJEWXdmS0MzUmE5QnphS0RsWmRR0gHTAUFVX3lxTE1JOWdfWkZWVFBkNEgxWnJSQTM0Uy1oUzBtMnc4alBNbDNwdl83QXRKVTUyaUFuMVI0ZFhRRzhLdnRJZlRSUWtQN1c4QWI5SDF5MWdkWldBdFhpUDBSLTZHbWVNb2JSVVItdVp1amZKZXF3bnJDOTBVbUNFTFdvcWJYV2pianlJTWEtUmVVUFhMRnVMT0kyRzlxUnlDWTg4bnp6eHRwVEpLZE1Qd1VsNEY5VHNheUhfM0p3ZlYtb0xkckRZd2ZLQzNSYTlCemFLRGxaZFE?oc=5",
         "hits": 0
       },
       {
@@ -584,7 +584,7 @@
       }
     ],
     "domain": "packaging_printing",
-    "generated_at": "2026-06-30",
+    "generated_at": "2026-07-02",
     "l1_ref": "家居园艺"
   }
 }
