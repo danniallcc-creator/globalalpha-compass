@@ -195,7 +195,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "金融设备：海外社媒「commercial equipment price trend」增速 252%，搜索端「commercial equipment market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "金融设备：海外社媒「commercial equipment #fyp」增速 256%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -207,45 +207,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 金融设备 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 金融设备需求强劲",
-      "海外社媒「commercial equipment price trend」增速 252% 领跑 → 金融设备社媒种草热度爆发"
+      "海外社媒「commercial equipment #fyp」增速 256% 领跑 → 金融设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "commercial equipment #fyp",
+        "growth": 255.5,
+        "vol": "211K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "commercial equipment price trend",
-        "growth": 252.0,
-        "vol": "125K",
+        "kw": "commercial equipment b2b export",
+        "growth": 236.0,
+        "vol": "705K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "commercial equipment tutorial",
-        "growth": 247.5,
-        "vol": "67K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "commercial equipment industry news",
-        "growth": 247.0,
-        "vol": "792K",
+        "kw": "commercial equipment top 10",
+        "growth": 231.5,
+        "vol": "145K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "commercial equipment market 2026",
-        "growth": 121.5,
+        "kw": "commercial equipment b2b export",
+        "growth": 233.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment wholesale supplier",
-        "growth": 85.5,
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -257,9 +257,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China Shock 2.0: Surging Chinese exports threaten Europe's economy, raising concern at G7 summit - ABC News - Breaking News, Latest News and",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHpyYm15R0hOd3FxdF9uUXJUWnZuQURELTVPRmNCY21aakkwNHd3a3dPSlp3Qk5GX21NWFE1bnpTSGZBUS1SSW01UFdsNGdOLXdDVFgzT3JBelFaMzRaenV6aHVQRHFsS1pyZWFlSXhNZ0FzdFlTNkZBcThZeEdVQUhaUFphcTZJRzM5REpxOUV0X3FOUE5lN3h3OGllNkNXd3c4bl82b9IBrAFBVV95cUxNcE1oYjRCM3k1RGZDemE5WGJOTnpSeEdWYkpUZkJNMmJlUHlHWVFhYndVWnVTMlVrM25penQxa1NEMzFhcXBabHltdF9CWUo3WDNRalJGcVlrN2U5R1M3cGFOTnNaUmVVNFQzSHQzRDdpZjF6VzN6bFFtYnhuSmdZWXJyWmNCTnJ5Ymw2TjZ5YUI3Nk9fQXFvTHIyQlktZ01qMUtCcHZkbXQ2aWlw?oc=5",
+        "title": "Open for Business: Supporting Ukraine's Small Businesses In Wartime - World Bank Group",
+        "source": "World Bank Group",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWVRWWW9tQmV6LV9TQ05DVEtRY0hoUWkxTld1VldpZ1JsT3U4YzNIekhraWotQ3ZjU0w5Vy10WVdaX1NCcmc5WmFtLTl0T1ZqdUVSb3FfYmdJSE5tLWFkWGVHSEtsb1BDUVNZNEZ2eHhzRWZQVmFSMVdfZ0lWVmYwYlB0QzRyS1pDdVlVYmZfX3lydUNKLUVCQVdPYjVxcllqdE8tZ3dPaXJxYm5Nd1htMU1YbXlsczJH?oc=5",
         "hits": 0
       },
       {
@@ -282,7 +282,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "商业设备及机械"
   }
 }

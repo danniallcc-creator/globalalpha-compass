@@ -49,7 +49,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「watch trending now」增速 239%，搜索端「jewelry watches market trend 2026」热度上行，DE Amazon BSR Top-41，Centurion Jewelry Show关注「The Retail Smiths: There’s More Than...」。",
+    "trend_summary": "手表：海外社媒「watch viral hack」增速 250%，搜索端「jewelry watches export opportunity emerging markets」热度上行，US Amazon BSR Top-48，Centurion Jewelry Show关注「The Retail Smiths: There’s More Than...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -60,45 +60,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「watch trending now」增速 239% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch viral hack」增速 250% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
+        "kw": "watch viral hack",
+        "growth": 250.0,
+        "vol": "679K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
         "kw": "watch trending now",
-        "growth": 239.0,
-        "vol": "119K",
+        "growth": 249.0,
+        "vol": "540K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 235.5,
-        "vol": "507K",
+        "platform": "x",
+        "kw": "jewelry breaking",
+        "growth": 240.5,
+        "vol": "258K",
         "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "watch must have",
-        "growth": 223.0,
-        "vol": "647K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "jewelry watches market trend 2026",
-        "growth": 73,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches export opportunity emerging markets",
-        "growth": 72,
+        "growth": 93,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "jewelry watches market trend 2026",
+        "growth": 45,
         "hits": 2
       },
       {
@@ -117,25 +117,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 41,
-        "title": "Top watch - Pro Edition",
-        "price": "$18.7",
-        "rating": 4.7,
+        "market": "US",
+        "rank": 48,
+        "title": "Top jewelry - Premium Edition",
+        "price": "$249.0",
+        "rating": 4.5,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 31,
-        "title": "Top watch - Heavy-Duty Edition",
-        "price": "$154.5",
-        "rating": 4.1,
+        "market": "DE",
+        "rank": 42,
+        "title": "Top watch - Pro Edition",
+        "price": "$158.7",
+        "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

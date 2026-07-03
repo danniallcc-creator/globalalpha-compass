@@ -439,7 +439,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric unboxing」增速 240%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-47，IndexBox关注「Asia-Pacific Polyester Reinforcement...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "面料：海外社媒「fabric industry news」增速 217%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-48，IndexBox关注「Asia-Pacific Polyester Reinforcement...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -453,45 +453,45 @@
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
-      "海外社媒「fabric unboxing」增速 240% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric industry news」增速 217% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric unboxing",
-        "growth": 240.0,
-        "vol": "381K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric aesthetic",
-        "growth": 221.0,
-        "vol": "389K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "fabric market alert",
-        "growth": 185.0,
-        "vol": "403K",
+        "kw": "fabric industry news",
+        "growth": 217.0,
+        "vol": "511K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "fabric b2b export",
+        "growth": 212.0,
+        "vol": "330K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "fabric trending now",
+        "growth": 205.0,
+        "vol": "596K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 73.0,
+        "growth": 209.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric market trend 2026",
-        "growth": 61,
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 69,
         "hits": 2
       },
       {
@@ -510,11 +510,11 @@
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 47,
-        "title": "Top textile - Eco Edition",
-        "price": "$24.4",
-        "rating": 4.6,
+        "market": "US",
+        "rank": 48,
+        "title": "Top fabric - Heavy-Duty Edition",
+        "price": "$187.5",
+        "rating": 4.3,
         "hits": 2
       },
       {
@@ -522,13 +522,13 @@
         "market": "DE",
         "rank": 46,
         "title": "Top fabric - Pro Edition",
-        "price": "$203.7",
-        "rating": 4.6,
+        "price": "$239.7",
+        "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "面料及纺织原材料"
   }
 }

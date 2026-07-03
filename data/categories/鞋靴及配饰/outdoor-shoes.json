@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "户外用鞋：海外社媒「shoe price trend」增速 249%，搜索端「shoe market 2026」热度上行，US Amazon BSR Top-12，World Footwear关注「US proposes 25% tariff on Brazilian...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
+    "trend_summary": "户外用鞋：海外社媒「footwear top 10」增速 242%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，World Footwear关注「US proposes 25% tariff on Brazilian...」，出口 YoY +14%，主要流向 美国 / 俄罗斯 / 英国。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -100,45 +100,45 @@
       "欧盟 CE 标志强制准入 → 户外用鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 户外用鞋 通关",
       "俄罗斯市场 YoY +14% 领跑 鞋类 出口 → 户外用鞋需求强劲",
-      "海外社媒「shoe price trend」增速 249% 领跑 → 户外用鞋社媒种草热度爆发"
+      "海外社媒「footwear top 10」增速 242% 领跑 → 户外用鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "shoe price trend",
-        "growth": 249.0,
-        "vol": "90K",
+        "platform": "youtube",
+        "kw": "footwear top 10",
+        "growth": 241.5,
+        "vol": "788K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "sneaker viral",
+        "growth": 232.5,
+        "vol": "31K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "shoe trending now",
-        "growth": 248.0,
-        "vol": "177K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "footwear industry report",
-        "growth": 245.5,
-        "vol": "452K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "shoe market 2026",
-        "growth": 209.5,
+        "kw": "footwear viral hack",
+        "growth": 232.0,
+        "vol": "652K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 172.5,
+        "growth": 143.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "shoe market 2026",
+        "growth": 136.5,
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "鞋靴及配饰"
   }
 }

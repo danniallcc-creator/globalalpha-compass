@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "30",
-    "total_export_value_usd": 32134987,
-    "total_net_weight_kg": 1634987,
+    "total_export_value_usd": 21884434,
+    "total_net_weight_kg": 1384434,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-02"
+    "fetched_at": "2026-07-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 49,
+      "interest_score": 43,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-02"
+      "fetched_at": "2026-07-03"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "东南亚电商配套瓦楞纸箱及填充物；中东高端礼品包装（特种纸/烫金印刷）；欧洲可堆肥食品包装（PLA/纸基覆膜）；非洲电商包装基础设施建设机遇；药物包装(Pharmaceutical Packaging)细分领域机会值得关注"
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "药物包装：海外社媒「printing trending now」增速 248%，搜索端「packaging market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Packaging Printing market poised for...」。",
@@ -147,12 +147,89 @@
     "l1_ref": "包装印刷"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 15187315949,
+      "total_kg": 287315949,
+      "yoy_growth": 19,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
+      "US": {
+        "value_usd": 4404321625,
+        "yoy": -17,
+        "share": 29.0
+      },
       "DE": {
-        "value_usd": 25215832281.240925,
-        "yoy": null,
-        "share": 100.0
+        "value_usd": 4222073833,
+        "yoy": 31,
+        "share": 27.8
+      },
+      "JP": {
+        "value_usd": 4039826042,
+        "yoy": -1,
+        "share": 26.6
+      },
+      "GB": {
+        "value_usd": 2521094447,
+        "yoy": 12,
+        "share": 16.6
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 3,
+        "share": 0.1
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -3,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 26,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -6,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -17,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -20,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -15,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 8,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -12,
+        "share": 0.1
       }
     }
   }

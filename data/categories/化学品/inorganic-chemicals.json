@@ -666,7 +666,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "无机化学品：海外社媒「chemical unboxing」增速 249%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」，出口 YoY +87%，主要流向 日本 / 韩国 / 印度。",
+    "trend_summary": "无机化学品：海外社媒「chemical industry report」增速 232%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」，出口 YoY +87%，主要流向 日本 / 韩国 / 印度。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -680,45 +680,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 无机化学品 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 无机化学品 通关",
       "印度市场 YoY +87% 领跑 水泥(2523系列) 出口 → 无机化学品需求强劲",
-      "海外社媒「chemical unboxing」增速 249% 领跑 → 无机化学品社媒种草热度爆发"
+      "海外社媒「chemical industry report」增速 232% 领跑 → 无机化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "chemical industry report",
+        "growth": 231.5,
+        "vol": "401K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "chemical review 2026",
+        "growth": 219.5,
+        "vol": "333K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "chemical unboxing",
-        "growth": 249.0,
-        "vol": "149K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical industry news",
-        "growth": 245.0,
-        "vol": "140K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "chemical tutorial",
-        "growth": 236.5,
-        "vol": "653K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical wholesale supplier",
-        "growth": 214.5,
+        "growth": 212.0,
+        "vol": "625K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 211.0,
+        "growth": 167.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical wholesale supplier",
+        "growth": 149.5,
         "hits": 0
       },
       {
@@ -755,7 +755,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "化学品"
   }
 }

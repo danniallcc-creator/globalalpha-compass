@@ -134,7 +134,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "应急车辆：海外社媒「ev industry news」增速 237%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "应急车辆：海外社媒「ev unboxing」增速 239%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -146,45 +146,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 应急车辆 出口需通过合规认证",
       "应急车辆主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「ev industry news」增速 237% 领跑 → 应急车辆社媒种草热度爆发"
+      "海外社媒「ev unboxing」增速 239% 领跑 → 应急车辆社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "ev industry news",
-        "growth": 237.0,
-        "vol": "21K",
+        "platform": "youtube",
+        "kw": "ev unboxing",
+        "growth": 239.0,
+        "vol": "293K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electric vehicle new arrival",
+        "growth": 238.5,
+        "vol": "375K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "ev price trend",
-        "growth": 217.0,
-        "vol": "467K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "ev trending now",
-        "growth": 197.0,
-        "vol": "748K",
+        "kw": "electric vehicle industry report",
+        "growth": 236.5,
+        "vol": "235K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 141.5,
+        "growth": 180.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "vehicles ev market trend 2026",
-        "growth": 84,
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 152.5,
         "hits": 0
       },
       {
@@ -221,7 +221,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "整车及交通工具"
   }
 }

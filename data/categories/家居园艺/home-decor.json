@@ -508,7 +508,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 226%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-44，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 42%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-42，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -520,45 +520,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家居装饰需求强劲",
-      "海外社媒「home decor wholesale supplier」增速 226% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 42% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 226.5,
-        "vol": "195K",
+        "growth": 42.5,
+        "vol": "408K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 209.5,
-        "vol": "327K",
+        "platform": "youtube",
+        "kw": "home decor top 10",
+        "growth": 241.5,
+        "vol": "728K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "home decor tiktok made me buy",
-        "growth": 207.5,
-        "vol": "54K",
+        "platform": "google",
+        "kw": "home decor industry report",
+        "growth": 239.5,
+        "vol": "242K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 223.5,
+        "growth": 39.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 160.5,
+        "growth": 128.5,
         "hits": 2
       },
       {
@@ -577,25 +577,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 44,
-        "title": "Top garden - Smart Edition",
-        "price": "$63.1",
+        "market": "DE",
+        "rank": 42,
+        "title": "Top garden - Pro Edition",
+        "price": "$61.7",
         "rating": 4.9,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 34,
-        "title": "Top garden - Pro Edition",
-        "price": "$63.7",
-        "rating": 4.6,
+        "market": "US",
+        "rank": 17,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$46.5",
+        "rating": 4.8,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "家居园艺"
   }
 }

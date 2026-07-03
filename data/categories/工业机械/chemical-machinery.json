@@ -286,7 +286,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "化工机械：海外社媒「industrial machinery #trending」增速 248%，搜索端「industrial machinery market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「Chinese Export Flood Tests Europe’s...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "化工机械：海外社媒「industrial machinery market alert」增速 236%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -300,52 +300,45 @@
       "英国 UKCA 后脱欧认证 → 化工机械 出口英国独立要求",
       "印度 BIS 强制注册 → 14 亿人口市场 化工机械 准入",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 化工机械需求强劲",
-      "海外社媒「industrial machinery #trending」增速 248% 领跑 → 化工机械社媒种草热度爆发"
+      "海外社媒「industrial machinery market alert」增速 236% 领跑 → 化工机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "industrial machinery market alert",
+        "growth": 236.0,
+        "vol": "532K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "industrial machinery #fyp",
+        "growth": 231.5,
+        "vol": "161K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "industrial machinery #trending",
-        "growth": 248.5,
-        "vol": "505K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "industrial machinery tutorial",
-        "growth": 240.5,
-        "vol": "767K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "industrial machinery factory tour",
-        "growth": 226.0,
-        "vol": "452K",
+        "kw": "industrial machinery must have",
+        "growth": 229.0,
+        "vol": "24K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "industrial machinery market 2026",
-        "growth": 125.5,
+        "kw": "industrial machinery b2b export",
+        "growth": 192.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial machinery wholesale supplier",
-        "growth": 122.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Chinese Export Flood Tests Europe’s Stomach for Trade War With Beijing - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnZyV0cwd05MejRzNDRKX3FpYVc4eTFLODhzNE1uZGY3aEhrXzFEc21EcVRHTEEwTTN0Z0hJamlvMnZCNXFzajRPTUpSbFVVYkc2ZXBvS3VuQ29mSklYZldncTR5V0dGVTJkaVo2VFd3MnNLUzhqNGZDU3daMzdFZzZhMVV3SG1KXzVXemxhZjJPT1RmcnJsb3NTRGU4NFpJMVdPNHlhSGt6T2dGYWdIV0tB?oc=5",
+        "growth": 181.5,
         "hits": 0
       },
       {
@@ -353,6 +346,13 @@
         "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese Export Flood Tests Europe’s Stomach for Trade War With Beijing - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnZyV0cwd05MejRzNDRKX3FpYVc4eTFLODhzNE1uZGY3aEhrXzFEc21EcVRHTEEwTTN0Z0hJamlvMnZCNXFzajRPTUpSbFVVYkc2ZXBvS3VuQ29mSklYZldncTR5V0dGVTJkaVo2VFd3MnNLUzhqNGZDU3daMzdFZzZhMVV3SG1KXzVXemxhZjJPT1RmcnJsb3NTRGU4NFpJMVdPNHlhSGt6T2dGYWdIV0tB?oc=5",
         "hits": 0
       },
       {
@@ -375,7 +375,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "工业机械"
   }
 }

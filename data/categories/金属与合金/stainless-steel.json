@@ -370,7 +370,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "不锈钢：海外社媒「aluminum tiktok made me buy」增速 252%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +32%，主要流向 沙特阿拉伯 / 美国 / 澳大利亚。",
+    "trend_summary": "不锈钢：海外社媒「steel industry report」增速 250%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」，出口 YoY +32%，主要流向 沙特阿拉伯 / 美国 / 澳大利亚。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -384,45 +384,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 不锈钢 成主流",
       "欧盟 CE 标志强制准入 → 不锈钢 出口需通过合规认证",
       "沙特阿拉伯市场 YoY +32% 领跑 钢结构(7308/7301系列) 出口 → 不锈钢需求强劲",
-      "海外社媒「aluminum tiktok made me buy」增速 252% 领跑 → 不锈钢社媒种草热度爆发"
+      "海外社媒「steel industry report」增速 250% 领跑 → 不锈钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "aluminum tiktok made me buy",
-        "growth": 251.5,
-        "vol": "623K",
+        "platform": "google",
+        "kw": "steel industry report",
+        "growth": 250.5,
+        "vol": "301K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "metal trending now",
-        "growth": 248.0,
-        "vol": "346K",
+        "platform": "x",
+        "kw": "metal industry news",
+        "growth": 236.0,
+        "vol": "73K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "steel top 10",
-        "growth": 243.5,
-        "vol": "462K",
+        "platform": "google",
+        "kw": "steel b2b export",
+        "growth": 234.0,
+        "vol": "597K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "aluminum wholesale supplier",
-        "growth": 170.5,
+        "kw": "steel b2b export",
+        "growth": 231.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "metal alloy export opportunity emerging markets",
-        "growth": 65,
+        "source": "Google Trends",
+        "kw": "metal market 2026",
+        "growth": 161.5,
         "hits": 0
       },
       {
@@ -459,7 +459,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "金属与合金"
   }
 }

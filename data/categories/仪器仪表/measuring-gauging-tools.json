@@ -34,22 +34,22 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 28300358,
-    "total_net_weight_kg": 17800358,
+    "total_export_value_usd": 38856166,
+    "total_net_weight_kg": 8356166,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-02"
+    "fetched_at": "2026-07-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 60,
+      "interest_score": 96,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-02"
+      "fetched_at": "2026-07-03"
     }
   },
   "industry_analysis": {
@@ -62,7 +62,7 @@
     "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
   },
   "compliance_summary": "US: NIST溯源校准, FCC(含无线模块), UL(用于危险场合) | EU: CE(MID测量仪器指令2014/32/EU), ATEX(防爆) | JP: 计量法型式承认(法制计量器), JIS工业仪表(自愿)",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -225,15 +225,35 @@
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
-      "JP": {
-        "value_usd": 63987310107.757,
-        "yoy": null,
-        "share": 69.8
+      "DE": {
+        "value_usd": 325952473332.29596,
+        "yoy": 146.8,
+        "share": 52.7
       },
-      "AU": {
-        "value_usd": 27620441419.892002,
+      "GB": {
+        "value_usd": 165583393715.99716,
+        "yoy": 8.9,
+        "share": 26.8
+      },
+      "KR": {
+        "value_usd": 31615068920.0,
         "yoy": null,
-        "share": 30.2
+        "share": 5.1
+      },
+      "BR": {
+        "value_usd": 26928852124.0,
+        "yoy": null,
+        "share": 4.4
+      },
+      "IT": {
+        "value_usd": 13644383972.626999,
+        "yoy": null,
+        "share": 2.2
+      },
+      "MX": {
+        "value_usd": 54195282418.0,
+        "yoy": null,
+        "share": 8.8
       }
     }
   }

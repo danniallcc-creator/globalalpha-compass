@@ -307,7 +307,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "坚果及干果：海外社媒「beverage market alert」增速 254%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Rediff MoneyWiz关注「Indian Food Products Showcase at New...」。",
+    "trend_summary": "坚果及干果：海外社媒「beverage industry report」增速 246%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Rediff MoneyWiz关注「Indian Food Products Showcase at New...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -319,45 +319,45 @@
     "reasons": [
       "美国 FDA 注册要求 → 坚果及干果 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 坚果及干果 包装可回收化升级",
-      "海外社媒「beverage market alert」增速 254% 领跑 → 坚果及干果社媒种草热度爆发"
+      "海外社媒「beverage industry report」增速 246% 领跑 → 坚果及干果社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "beverage industry report",
+        "growth": 246.5,
+        "vol": "419K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "beverage market alert",
-        "growth": 254.0,
-        "vol": "496K",
+        "growth": 242.0,
+        "vol": "694K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beverage analyst",
-        "growth": 241.5,
-        "vol": "773K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "snack tutorial",
-        "growth": 238.5,
-        "vol": "481K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
-        "growth": 116.5,
+        "platform": "instagram",
+        "kw": "beverage new arrival",
+        "growth": 229.5,
+        "vol": "75K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "snack wholesale supplier",
-        "growth": 90.5,
+        "growth": 203.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "food and beverage sustainable manufacturing",
+        "growth": 94,
         "hits": 0
       },
       {
@@ -369,9 +369,9 @@
       },
       {
         "dim": "媒体",
-        "title": "World Food and Beverage Clarification Membranes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVVEwMTNOV09jZ3RocXBZelhfY2JhTkV5WkR6NXFpVUtKN1dBTVh4ajVVbnc1WkdnX0RnZll4RGZQNUNoeWpMQnZPOG5FemxlN19lb3hEbzBocl9vNHhNdUJoN1dmcEZoSV9xc2MwbXcyZnJFLUhkdkh1QXJQZnU2T1Uxclk5eENxdWk0cTBPekQyQUJhazhIQjhUM2hwWGxmSWNzMm11Q193RlVsV21KMkRmWFRvZlNHbnVxbWQzRDZlU0tYYzBiTk15QWdnSzVxSFRxbndOZ0dqLTAwamltQ3EzVjVxdw?oc=5",
+        "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - Economic Research Service (.gov)",
+        "source": "Economic Research Service (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
         "hits": 0
       },
       {
@@ -394,7 +394,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "食品及饮料"
   }
 }

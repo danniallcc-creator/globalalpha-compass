@@ -29,22 +29,22 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 28300358,
-    "total_net_weight_kg": 17800358,
+    "total_export_value_usd": 38856166,
+    "total_net_weight_kg": 8356166,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-02"
+    "fetched_at": "2026-07-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 94,
+      "interest_score": 70,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-02"
+      "fetched_at": "2026-07-03"
     }
   },
   "industry_analysis": {
@@ -57,7 +57,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -237,15 +237,35 @@
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
-      "JP": {
-        "value_usd": 63987310107.757,
-        "yoy": null,
-        "share": 69.8
+      "DE": {
+        "value_usd": 325952473332.29596,
+        "yoy": 146.8,
+        "share": 52.7
       },
-      "AU": {
-        "value_usd": 27620441419.892002,
+      "GB": {
+        "value_usd": 165583393715.99716,
+        "yoy": 8.9,
+        "share": 26.8
+      },
+      "KR": {
+        "value_usd": 31615068920.0,
         "yoy": null,
-        "share": 30.2
+        "share": 5.1
+      },
+      "BR": {
+        "value_usd": 26928852124.0,
+        "yoy": null,
+        "share": 4.4
+      },
+      "IT": {
+        "value_usd": 13644383972.626999,
+        "yoy": null,
+        "share": 2.2
+      },
+      "MX": {
+        "value_usd": 54195282418.0,
+        "yoy": null,
+        "share": 8.8
       }
     }
   }

@@ -189,7 +189,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental tiktok made me buy」增速 252%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Bundesministerium für Wirtschaft und Energie关注「Export initiatives: finding new markets...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "回收：海外社媒「environmental #trending」增速 242%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Bundesministerium für Wirtschaft und Energie关注「Export initiatives: finding new markets...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -201,45 +201,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
-      "海外社媒「environmental tiktok made me buy」增速 252% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental #trending」增速 242% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental tiktok made me buy",
-        "growth": 252.5,
-        "vol": "712K",
+        "platform": "instagram",
+        "kw": "environmental #trending",
+        "growth": 241.5,
+        "vol": "786K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental analyst",
-        "growth": 242.5,
-        "vol": "222K",
+        "kw": "environmental supply chain",
+        "growth": 227.5,
+        "vol": "731K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "green tech must have",
-        "growth": 240.0,
-        "vol": "367K",
+        "platform": "tiktok",
+        "kw": "environmental tiktok made me buy",
+        "growth": 226.5,
+        "vol": "270K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 195.5,
+        "growth": 212.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 124.5,
+        "kw": "green tech b2b export",
+        "growth": 172.0,
         "hits": 0
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "环保"
   }
 }

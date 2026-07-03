@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "运动鞋、箱包及配件：海外社媒「fitness supply chain」增速 252%，搜索端「fitness wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China rides AI wave as exports surge...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "运动鞋、箱包及配件：海外社媒「sports trending now」增速 240%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，MarketBeat关注「Academy Sports and Outdoors...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -98,52 +98,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 运动鞋、箱包及配件 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 运动鞋、箱包及配件需求强劲",
-      "海外社媒「fitness supply chain」增速 252% 领跑 → 运动鞋、箱包及配件社媒种草热度爆发"
+      "海外社媒「sports trending now」增速 240% 领跑 → 运动鞋、箱包及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fitness supply chain",
-        "growth": 252.5,
-        "vol": "725K",
+        "platform": "tiktok",
+        "kw": "sports trending now",
+        "growth": 240.0,
+        "vol": "542K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fitness wholesale supplier",
-        "growth": 250.5,
-        "vol": "495K",
+        "platform": "tiktok",
+        "kw": "sports #fyp",
+        "growth": 230.5,
+        "vol": "295K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "outdoor aesthetic",
-        "growth": 236.0,
-        "vol": "621K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "fitness wholesale supplier",
-        "growth": 247.5,
+        "growth": 216.0,
+        "vol": "384K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sports market 2026",
-        "growth": 124.5,
+        "growth": 184.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "outdoor b2b export",
+        "growth": 169.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China rides AI wave as exports surge past forecast - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2o3a2p0QWozaW1DOTdQX2ZhTmp6UTdSaktSZEVnckVDUmhXVnA2R1RwMHRqV2tZc2ZBc3lNUFRQM2dxeUU2bEZuOGxlSnRmYXlNUnM5ckJoYVZzQ0poOXZYT1dCRVlfSmlnRnZXYVdvLVlkY2VUX3RZS0FMM0s0eWhaeHNtMmUzdGtBUzZvUWxCWGJPbDBnSEVHVThYVGdSTE9PZjREX2RhRGVfTzRtbjNUNGJpVGxkcFAw?oc=5",
+        "title": "Academy Sports and Outdoors (NASDAQ:ASO) Shares Up 10.1% on Better-Than-Expected Earnings - MarketBeat",
+        "source": "MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHNCVXpXM1JxcDlOTXVvZUl0bnNQb1ZKdnVzV09VUjVPWVpJeFp3enY2eFhDeTVUSmF3OUFxb3VUdVVwZ3lrV2k4LTBkckhqVTFsdjhuSWFHRTBXRXFrZmw0RFlKRi1QNVpsRXJiUzVmclpfQkhvdTB0MGh4THo1eUUtV3VCOE4ya092ZHFSRGtxVWVFU2M2a1c3NzVqODhaVFJLTjA0VzFsZTBianNieVdqc1NvcUM3VUsweTd6VmNjcFdqWjFvSjNfTlZvZU9zcGxXQg?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "运动及娱乐"
   }
 }

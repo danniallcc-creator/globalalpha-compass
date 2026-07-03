@@ -376,7 +376,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "中高压配电产品：海外社媒「electrical must try」增速 238%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "中高压配电产品：海外社媒「electrical industry news」增速 248%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -390,45 +390,45 @@
       "欧盟 CE 标志强制准入 → 中高压配电产品 出口需通过合规认证",
       "美国 IRA 通胀削减法案补贴 → 中高压配电产品 北美本地化制造红利",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 中高压配电产品需求强劲",
-      "海外社媒「electrical must try」增速 238% 领跑 → 中高压配电产品社媒种草热度爆发"
+      "海外社媒「electrical industry news」增速 248% 领跑 → 中高压配电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical must try",
-        "growth": 237.5,
-        "vol": "403K",
+        "platform": "x",
+        "kw": "electrical industry news",
+        "growth": 248.0,
+        "vol": "470K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical tiktok made me buy",
-        "growth": 211.5,
-        "vol": "442K",
+        "platform": "x",
+        "kw": "electrical market alert",
+        "growth": 241.0,
+        "vol": "398K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical top 10",
-        "growth": 204.5,
-        "vol": "514K",
+        "platform": "google",
+        "kw": "electrical wholesale supplier",
+        "growth": 235.5,
+        "vol": "672K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 232.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical market 2026",
-        "growth": 181.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electrical equipment supply chain resilience",
-        "growth": 90,
+        "growth": 178.5,
         "hits": 0
       },
       {
@@ -440,9 +440,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Export initiatives: finding new markets - Bundesministerium für Wirtschaft und Energie",
-        "source": "Bundesministerium für Wirtschaft und Energie",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1piNHJKamdoYi1rYlJBZmRJcV9vZThQc2Ewa0g0ZkVjZUl2ZGtXajJ2OWItQUFHeDhyX2YwMEFIRHgzano4aUhERG42QzZuWEprNlBfWkRob016UFdlRHVmU293ajZ4Sy15S3B5Ukh5Q2hoaHhYLWhvdHgtbTlNRkgtbkVHUEY4V3BQYzJzRGFXaXRxMjdIWXhOaUlTQ1VRbFNGSmg4VE9uLVo5MlU0RTQtTnU?oc=5",
+        "title": "China's May shipments to U.S. clock 5-year high growth at 35% as overall exports jump on tech boost - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KX2VUbS1UaWJkMmM0M2xMLUt2OGNmZTFKRVl2R2ttLVI4cm5kaGJlR0ZKTjZxWWJqX0VlMDRaTlZYYWRUd05rQzM0Sm9GMnZJb1VvSVRIbk9ySGFRS0c5M0NzUnFWSXZZU1RKU01kYllfMkVobmQ3X1pnOUtxQdIBgwFBVV95cUxNY2pmR0Zma20ycmxjb0ZGZkRDeWNBbVl2S2N2TWItOUdKMGc3M1BFa1c3OV9feXplYUo5LTVJWEdsaGJzYUwwX0VaRHYwMDhURnlSYmtHbnRaeUdtVk4ySlpxM25vM0R0Uy1wWWdTdG5LT2FUcmdrU0J1NmhsQ2RQdDBGbw?oc=5",
         "hits": 0
       },
       {
@@ -465,7 +465,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-02",
+    "generated_at": "2026-07-03",
     "l1_ref": "电气设备及用品"
   }
 }
