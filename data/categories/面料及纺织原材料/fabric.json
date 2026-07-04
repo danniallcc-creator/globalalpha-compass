@@ -439,7 +439,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric industry news」增速 217%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-48，IndexBox关注「Asia-Pacific Polyester Reinforcement...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 240%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-45，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -453,52 +453,45 @@
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 面料需求强劲",
-      "海外社媒「fabric industry news」增速 217% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 240% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 217.0,
-        "vol": "511K",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 240.0,
+        "vol": "765K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 212.0,
-        "vol": "330K",
+        "platform": "tiktok",
+        "kw": "fabric viral hack",
+        "growth": 234.0,
+        "vol": "104K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "fabric trending now",
-        "growth": 205.0,
-        "vol": "596K",
+        "growth": 208.0,
+        "vol": "16K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 209.0,
+        "growth": 94.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric export opportunity emerging markets",
-        "growth": 69,
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Asia-Pacific Polyester Reinforcement Fabrics - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMENxYVFvWnVMeHBuc1h3aUVKeXdKQVU1VDZjUDI5QjEtdE1tdHNuQ3FBdTI3TU93aE1wVGp1bmUxT0R6YktBLUJfazBIUEl3dmhnT3F1dmNSMmZXNElBdjUxNE1wQUExcloyVEdUT3Vpd3ZfYWZCZ19ObUJwN2pkM0RPMEw0ZDNQT2lvcmpIT0NPTHBuc1ZfTzA1XzAzZ1JjcE1yS09aUXlDdGFEODFpaDR6enRqNHlkRjVaNVBtVEtKRGM?oc=5",
+        "kw": "textile fabric supply chain resilience",
+        "growth": 93,
         "hits": 2
       },
       {
@@ -509,26 +502,33 @@
         "hits": 2
       },
       {
+        "dim": "媒体",
+        "title": "Fabric Winders Market Forecast to 2035: Automation and Technical Textiles Drive Demand - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYndIalBXSFhFQkhEOFk1S3pidFozaG5xX1I5SHBfdE9tRi15ZXNzQ1pKd1VrWF9JOS1LSm1VTzU0czJKOVdFcURISWNCdHc4S2d1TFl1Y0ZvdXlhU3htZTc0cENyV2tfczExN1YwNmQ1R08ybkc2U294a3JaRm83T2F4bUh5TnNXdWZUdGNhMTJXVVYtMXhPdzlPcWtLOUFlQmk3MG5QYjFNVjViMUVYQ1oxeGt2ZlVXZU54TUtzT0thMjNTQlZIQTA2NHBuVUNzam44?oc=5",
+        "hits": 2
+      },
+      {
         "dim": "Amazon",
         "market": "US",
-        "rank": 48,
-        "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$187.5",
+        "rank": 45,
+        "title": "Top textile - Premium Edition",
+        "price": "$289.0",
         "rating": 4.3,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 46,
-        "title": "Top fabric - Pro Edition",
-        "price": "$239.7",
-        "rating": 4.7,
+        "market": "UK",
+        "rank": 45,
+        "title": "Top fabric - Smart Edition",
+        "price": "$183.1",
+        "rating": 4.8,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "面料及纺织原材料"
   }
 }

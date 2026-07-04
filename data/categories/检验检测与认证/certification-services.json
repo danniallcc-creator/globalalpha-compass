@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "认证服务：海外社媒「certification viral hack」增速 254%，搜索端「testing wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Bovine Tuberculosis Screening Tests...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "认证服务：海外社媒「certification b2b export」增速 244%，搜索端「certification b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Bovine Tuberculosis Screening Tests...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -99,45 +99,45 @@
       "欧盟碳边境税 CBAM 2026 起覆盖 认证服务 → 低碳替代品需求激增",
       "欧盟 CE 标志强制准入 → 认证服务 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 认证服务需求强劲",
-      "海外社媒「certification viral hack」增速 254% 领跑 → 认证服务社媒种草热度爆发"
+      "海外社媒「certification b2b export」增速 244% 领跑 → 认证服务社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "certification viral hack",
-        "growth": 254.0,
-        "vol": "221K",
+        "platform": "google",
+        "kw": "certification b2b export",
+        "growth": 244.0,
+        "vol": "180K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "testing wholesale supplier",
-        "growth": 248.5,
-        "vol": "73K",
+        "kw": "certification price trend",
+        "growth": 240.0,
+        "vol": "69K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "certification factory tour",
-        "growth": 229.0,
-        "vol": "153K",
+        "platform": "instagram",
+        "kw": "certification aesthetic",
+        "growth": 239.0,
+        "vol": "787K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "certification b2b export",
+        "growth": 241.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "testing wholesale supplier",
-        "growth": 245.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "testing market 2026",
-        "growth": 180.5,
+        "growth": 173.5,
         "hits": 0
       },
       {
@@ -149,9 +149,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Indiana-built Subaru Ascent headed to Japan as allowed by new trade certification - Automotive News",
-        "source": "Automotive News",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XOUJiWVQwTjZkZE8xVlN0b09hYUQxbS0zRWR3M0oyb05aOERVeUVQWHhBdEJQWjBmMFRXTkt6WGhsTVpCSlMwZzdCUlVjM1YxaTJEQmdhOEZRaWdaaUJkU04wSkpxeUFqN2Q2SHQ5ZVFOZ251TVl4SFBYWQ?oc=5",
+        "title": "Testing, Inspection, and Certification Market by Service Type, Source, Application - Global Forecast to 2031 - GlobeNewswire",
+        "source": "GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPNHNDMHRiWlpVTmwyMEpmdkwteVF5WHRoQ2pIbDFwMjVQbG9tb0JESzU3cUhtUGt5RExrRVdreG56ejF0TUJ2OHdXbEMyYWNFOER4QWVjMmFJeHBzR0tzWDJwR2xTOWdGS2x6a2g0LTRYZzMzS3doTm5qNy15SHdNTFlYcmljajJLQWJBZmRIcGNtTG1kd1pKQWN3S1BpY25RdFRwdU91ZzNiZm82dUZDd1dhck1rUHRGbFNPYlUwb0RhSWpjeWlCZXpCWno0YVJXaVFUM0o0SDZjS3h0bUMycG43Vmw2V2J4VkVNZ1pFSXBJZzd4Y2U3SVRoWDJTYVdObFBaZQ?oc=5",
         "hits": 0
       },
       {
@@ -174,7 +174,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "检验检测与认证"
   }
 }

@@ -307,7 +307,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "果蔬产品：海外社媒「beverage industry report」增速 246%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Rediff MoneyWiz关注「Indian Food Products Showcase at New...」。",
+    "trend_summary": "果蔬产品：海外社媒「food trending now」增速 250%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Grocery Trade News关注「Top 10 Food Safety Certifications for...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -319,52 +319,52 @@
     "reasons": [
       "美国 FDA 注册要求 → 果蔬产品 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 果蔬产品 包装可回收化升级",
-      "海外社媒「beverage industry report」增速 246% 领跑 → 果蔬产品社媒种草热度爆发"
+      "海外社媒「food trending now」增速 250% 领跑 → 果蔬产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage industry report",
-        "growth": 246.5,
-        "vol": "419K",
+        "platform": "tiktok",
+        "kw": "food trending now",
+        "growth": 250.0,
+        "vol": "603K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beverage market alert",
-        "growth": 242.0,
-        "vol": "694K",
+        "platform": "youtube",
+        "kw": "food factory tour",
+        "growth": 240.0,
+        "vol": "9K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beverage new arrival",
-        "growth": 229.5,
-        "vol": "75K",
+        "platform": "youtube",
+        "kw": "food review 2026",
+        "growth": 227.5,
+        "vol": "610K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "snack wholesale supplier",
-        "growth": 203.5,
+        "growth": 202.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "food and beverage sustainable manufacturing",
-        "growth": 94,
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 172.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Indian Food Products Showcase at New York Trade Show - Rediff MoneyWiz",
-        "source": "Rediff MoneyWiz",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRlUyQVNhM2Z0c0hMZ2w1SE9UWEdOMFB0eXhqekc5TVpkV0tMcUh5V0NSMF9VU1NGdnBoTjVZOHluNGk5NGRqMjUxYW9yTTBuTjJUTk1FanFMdHBBMTJnOW41UmhuQnZIOGxzaVo3N1daWTBoaFAyWExlMFZXRDRJdXdHTGFjUTJZZ3JPRFpKS0tzenF1bGV2MjFocVE1ZlZPOUx3LWFTSdIBrAFBVV95cUxNNmE1LUNQc0VVYVlHV2Nhck1UeTBuSmxDY29rTDV4aUUyTS1ic19KeWlZTm9LWlRBb2lUQk1YaGlGQ0h1em1pTkthUV9qeGpieVJKMlRGLWRwUWdPaGtrVXFzcEhfYTlOOEFtSkJRSUV2bzJuX0tnZ3dlUm5tYXptNWdQYllPNFNJVDJGVUx0c1p0OWpaTTBGU0VkclYzMGRkMEtpekU3emZ4OWNn?oc=5",
+        "title": "Top 10 Food Safety Certifications for Belgian Supermarkets - Grocery Trade News",
+        "source": "Grocery Trade News",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUDM5OFU5NWpwd0FlUGVHcm0wNDdPZDZaNmZ3eE1adERKWm9Nd2hnV1AxeG9kZ0pFT1oyWS1XTFJ4eFBjV1lKWHpLRUFEZTVSdXR6SE5yamc3MXVBVUJqTXlJdUZIb1E4VHl2R0hFR2wxSVJ1U1BiM2tTWjJuZXJyWQ?oc=5",
         "hits": 0
       },
       {
@@ -394,7 +394,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "食品及饮料"
   }
 }

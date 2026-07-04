@@ -580,5 +580,30 @@
       }
     },
     "fetched_at": "2026-06-30"
+  },
+  "2025_HS70": {
+    "data": {
+      "china_export": {
+        "total_usd": 32116417664.0,
+        "total_kg": 0,
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
+      },
+      "imports_from_china": {
+        "DE": {
+          "value_usd": 8267212323.771993,
+          "yoy": null,
+          "share": 79.3
+        },
+        "KR": {
+          "value_usd": 2164174289.0,
+          "yoy": null,
+          "share": 20.7
+        }
+      }
+    },
+    "fetched_at": "2026-07-04"
   }
 }

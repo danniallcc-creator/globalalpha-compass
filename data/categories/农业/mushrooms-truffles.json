@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "70",
-    "total_export_value_usd": 28619652,
-    "total_net_weight_kg": 8119652,
+    "total_export_value_usd": 50480699,
+    "total_net_weight_kg": 9980699,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-03"
+    "fetched_at": "2026-07-04"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 57,
-      "trend_direction": "down",
+      "interest_score": 46,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-03"
+      "fetched_at": "2026-07-04"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "中东沙漠温室农业整体解决方案；非洲粮食深加工设备；东南亚智慧水产养殖系统；中亚棉花现代化种植机械；蘑菇与松露(Mushrooms & Truffles)细分领域机会值得关注"
   },
   "compliance_summary": "US: EPA FIFRA农药注册, USDA有机认证(可选), FDA GAP备案 | EU: 欧盟植物检疫证书, 有机EU认证(834/2007) | JP: 植物防疫法检疫证书, 有机JAS认证(可选) | AU: DAFF检疫进口许可, AQIS植检证书, 有机ACO认证(可选)",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-04",
   "data_source": "merged_existing",
   "demand_scenarios": {
     "scenes": [
@@ -320,22 +320,24 @@
     "l1_ref": "农业"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 32116417664.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
-      "US": {
-        "value_usd": 3205910138.0,
+      "DE": {
+        "value_usd": 8267212323.771993,
         "yoy": null,
-        "share": 52.8
+        "share": 79.3
       },
-      "JP": {
-        "value_usd": 1639411666.834,
+      "KR": {
+        "value_usd": 2164174289.0,
         "yoy": null,
-        "share": 27.0
-      },
-      "AU": {
-        "value_usd": 1224344289.8310003,
-        "yoy": null,
-        "share": 20.2
+        "share": 20.7
       }
     }
   }

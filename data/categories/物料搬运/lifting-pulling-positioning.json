@@ -222,7 +222,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "起重升降：海外社媒「conveyor unboxing」增速 254%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Wood Pallets Market Size, Industry...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "起重升降：海外社媒「conveyor price trend」增速 251%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China's control over indium phosphide...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -234,52 +234,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 起重升降 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 起重升降需求强劲",
-      "海外社媒「conveyor unboxing」增速 254% 领跑 → 起重升降社媒种草热度爆发"
+      "海外社媒「conveyor price trend」增速 251% 领跑 → 起重升降社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "conveyor unboxing",
-        "growth": 254.0,
-        "vol": "126K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "conveyor market alert",
-        "growth": 239.0,
-        "vol": "372K",
+        "platform": "google",
+        "kw": "conveyor price trend",
+        "growth": 251.0,
+        "vol": "254K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "forklift market 2026",
-        "growth": 234.5,
-        "vol": "620K",
+        "growth": 245.5,
+        "vol": "764K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "forklift must try",
+        "growth": 242.5,
+        "vol": "240K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift market 2026",
-        "growth": 231.5,
+        "growth": 242.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift wholesale supplier",
-        "growth": 179.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Wood Pallets Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzeVhiTHVnMHRfbl9lbmEzOGFGdlMyZ0JfMGc5THFtWXQ5bEduSHlETl9FMFRLcnlfYk5YZ09rMDI4MmVuWlpndm5yT1p1R0ptUmdwYng1eHlITW5teEUyY3p5andMRUdJcFE2Wlo4bWZxM2xL?oc=5",
+        "growth": 170.5,
         "hits": 0
       },
       {
@@ -287,6 +280,13 @@
         "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Wood Pallets Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzeVhiTHVnMHRfbl9lbmEzOGFGdlMyZ0JfMGc5THFtWXQ5bEduSHlETl9FMFRLcnlfYk5YZ09rMDI4MmVuWlpndm5yT1p1R0ptUmdwYng1eHlITW5teEUyY3p5andMRUdJcFE2Wlo4bWZxM2xL?oc=5",
         "hits": 0
       },
       {
@@ -309,7 +309,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "物料搬运"
   }
 }

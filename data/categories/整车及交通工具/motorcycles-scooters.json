@@ -134,7 +134,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "摩托车及脚踏车：海外社媒「ev unboxing」增速 239%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "摩托车及脚踏车：海外社媒「electric vehicle viral」增速 244%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -146,45 +146,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 摩托车及脚踏车 出口需通过合规认证",
       "摩托车及脚踏车主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「ev unboxing」增速 239% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
+      "海外社媒「electric vehicle viral」增速 244% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electric vehicle viral",
+        "growth": 243.5,
+        "vol": "200K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "ev unboxing",
-        "growth": 239.0,
-        "vol": "293K",
+        "growth": 235.0,
+        "vol": "228K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electric vehicle new arrival",
-        "growth": 238.5,
-        "vol": "375K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle industry report",
-        "growth": 236.5,
-        "vol": "235K",
+        "platform": "youtube",
+        "kw": "ev factory tour",
+        "growth": 234.0,
+        "vol": "271K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
-        "growth": 180.5,
+        "kw": "ev b2b export",
+        "growth": 177.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 152.5,
+        "growth": 98.5,
         "hits": 0
       },
       {
@@ -196,9 +196,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China sets 2030 heavy truck EV target as exports boom - MSN",
-        "source": "MSN",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOElobjZoYllSOFJFTk1mMXJHLU5ONFFvTVJiLVB0b3o1czhzTEJES3FvNXRTV3V6bmszcVR6QmhsTXhjb3BSNEF2azAxUFBsZTZ2aklqUzJtZUNZc3lBWXFDRnNhdmctTXRuakhZNzl5UnlOSWFucTcxOVQ5V281a1l6T0M3UG9FaHljeHRXelNhT3pQRUlsazdPMFhiVGg2ZUtFYW1Td0k1VlNWTGZtSG93cVVzUTl0NW50RDMzeHZiUE1hMTI4VlB5S2V6WEViWHQzME9fSldFWDZJRlE1TTYyOHhDZWpsQlJN?oc=5",
+        "title": "Why foreign marques are struggling to keep pace with Chinese EV demand - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ0xkYUJucnNVOHpuWi1mdnFNRDI4QjdPMGxmSjVONWczRl9FTHZ0OE5Ba0s3TTJCQU9jd2czQ0FvTlNMTUlzREJreDlzTFZfZVRDU3BsRzFSRHlhTlFPN0RBZ3ItV0JRMHBpTS1CTEJYQkxHUE9aWUlsaWdla0JTVXNPc2tuN2tFMmRSUXNBTzV4R3ROX3NjNWtJaWsxSDZXYzhfcVpEOEhSMm1HcTdJQklrVENTSjI1bHFrUGRiUVJ1YzJPaHBQQ195QjBfN1dkMWtHbTFB0gHWAUFVX3lxTE1EaXZSMmUxYm1BS1VfUEt2RkNwbUotZFZ2SHdrTEZRQzdrQU1QZkRiV0E0QWFaeEJjMEw3U1U1SUhwWTYtSzBJam9PdjU4THNhemp4NlBjd2Y4cWZwTTRnanNsNmI0MWM5Y1JQa0FaZjJuNS1RbGQ5ZGxHOW5TWmFHT3pmNXdVODY4ckpYNDg1WVJmbGxYNU5HcFlaTGl2TTZqYlFQQkR1M01OV3JjTEVMSEo5UzBONnlFNDh3QnV3eWl0ZElEYXZKS1ppRWN1ZXNtWnRoclE?oc=5",
         "hits": 0
       },
       {
@@ -221,7 +221,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "整车及交通工具"
   }
 }

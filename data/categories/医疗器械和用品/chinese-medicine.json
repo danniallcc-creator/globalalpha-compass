@@ -336,7 +336,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "中医：海外社媒「healthcare equipment market alert」增速 254%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，economy.ac关注「\"Protecting Domestic Industry vs...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "trend_summary": "中医：海外社媒「healthcare equipment factory tour」增速 245%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Dominican Republic (DOM) Exports,...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -350,31 +350,31 @@
       "美国 FDA 注册要求 → 中医 进入北美市场必备门槛",
       "印度 BIS 强制注册 → 14 亿人口市场 中医 准入",
       "印度市场 YoY +26% 领跑 医疗器械 出口 → 中医需求强劲",
-      "海外社媒「healthcare equipment market alert」增速 254% 领跑 → 中医社媒种草热度爆发"
+      "海外社媒「healthcare equipment factory tour」增速 245% 领跑 → 中医社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "healthcare equipment market alert",
-        "growth": 254.0,
-        "vol": "170K",
+        "platform": "youtube",
+        "kw": "healthcare equipment factory tour",
+        "growth": 245.0,
+        "vol": "199K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "medical device supply chain",
-        "growth": 239.5,
-        "vol": "293K",
+        "platform": "google",
+        "kw": "healthcare equipment b2b export",
+        "growth": 228.0,
+        "vol": "121K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "healthcare equipment trending now",
-        "growth": 229.0,
-        "vol": "507K",
+        "platform": "instagram",
+        "kw": "healthcare equipment must have",
+        "growth": 225.0,
+        "vol": "34K",
         "hits": 0
       },
       {
@@ -388,14 +388,7 @@
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "medical device wholesale supplier",
-        "growth": 164.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "\"Protecting Domestic Industry vs Securing a Core Market\" EU and China Enter High-Level Trade Talks as Disputes Intensify - economy.ac",
-        "source": "economy.ac",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lellRX0NWb1htTzdJLXlCNnlZRGNkTEZBR0YzNDUtbnpuYXdOUGpNOGhMWHhSRm5QYW5UUkQyMUptN1JBWThHd1ZWclZqMUZfU0lMTGFoSQ?oc=5",
+        "growth": 214.5,
         "hits": 0
       },
       {
@@ -403,6 +396,13 @@
         "title": "Dominican Republic (DOM) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZZUpQVnN4NnQ1b25GUnQ4aGRraTdwb0NjZnE0OWhuWDVKZHV0bS02QkJvOFdXZWRjMVp3endjMU5XYnV0bktjM0hId1M0VW5PRXc?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "An Overview of U.S.-China Life Sciences Competition and Cooperation - Asia Society",
+        "source": "Asia Society",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbG9GTGVRbFpFb2VESy1hbzBuMVRVVjR5RExLWUhTaUl3QkxJdXpkdERUTEExMVdQbkJ6dnJQYlZFRkFkR3RrY2JCcVpTS21aWS1zSjU2U0pQTHhJM1RQRUt4aGhpazl1X0NZVG1XNXkzc0RzQ2RFSklWYWhUVUdMNlpBcnV4U1JvOTlQNHF4SDlYeUNZZ0FvLTZ0RGFUNEhfemc?oc=5",
         "hits": 0
       },
       {
@@ -425,7 +425,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "医疗器械和用品"
   }
 }

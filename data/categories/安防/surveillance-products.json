@@ -361,7 +361,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "监控器材：海外社媒「security camera analyst」增速 250%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China targets US rare earth and other...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "监控器材：海外社媒「cctv viral hack」增速 245%，搜索端「security camera wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China targets US rare earth and other...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -375,45 +375,45 @@
       "美国 FCC 电磁兼容认证 → 电子类 监控器材 合规刚需",
       "印度 BIS 强制注册 → 14 亿人口市场 监控器材 准入",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 监控器材需求强劲",
-      "海外社媒「security camera analyst」增速 250% 领跑 → 监控器材社媒种草热度爆发"
+      "海外社媒「cctv viral hack」增速 245% 领跑 → 监控器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "security camera analyst",
-        "growth": 249.5,
-        "vol": "479K",
+        "platform": "tiktok",
+        "kw": "cctv viral hack",
+        "growth": 245.0,
+        "vol": "282K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "security camera #trending",
+        "growth": 238.5,
+        "vol": "198K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "security camera viral",
-        "growth": 227.5,
-        "vol": "777K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cctv b2b export",
-        "growth": 215.0,
-        "vol": "723K",
+        "growth": 229.5,
+        "vol": "61K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "cctv b2b export",
-        "growth": 212.0,
+        "kw": "security camera wholesale supplier",
+        "growth": 168.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "security camera market 2026",
-        "growth": 206.5,
+        "growth": 162.5,
         "hits": 0
       },
       {
@@ -425,9 +425,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Big Relief For FPIs: RBI Opens Long-Term Bonds As Govt Prepares Major Capital Gains Tax Exemption - Republic World",
-        "source": "Republic World",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSk4xOFQ1TEZTcHAwMmYxQVU4TVREV0l1dHJMUWRuWklXbUx0V2psbTlTaEEyZFhadGxvOVAzZnNWSVZQOTA3RjEybG5yRkxHNGZwMFIzWGRxanJEUnRBeVhsNmNNTGQ3ei1aQ2tzSmRxOHdPTWRRZGFoU2FIQ0RTZ2lvTlIzUUwtMlVHMVlldUxPazBhcHFSRWVEb0Zxc09EejI3NHFTVzNYNF9OcGdhaWRoY3Z3dzFvYWVBX0NzdWxjaE1TNkFhNkJBdEZYOTI5enfSAdcBQVVfeXFMT2ljdEM5ejg4aU9Qd2VIZHJKeFpHQVVqZjBwemRzZEtZZ1p2RVJ0M09CeU5EdlNLSG9nZzhDMVM4R1BMajEzYXJieDNTOV8tNG5oX1FhTklKVldDT2ZiSjJDbzEzTXZmdnY4dHNacVA3MGE5bVlyc2hzM0NjSS1HV3Q4YlJTSmJsQWlLVklCQi1hd1NJTEJ2dmVHVXJjNThzdFZXb2hLY21jVlp1SVV3d24zRXI5WTJEbUsweDA2LTlYUWcta1VXUEk0ajlnZ2lwQmJwb01PYXc?oc=5",
+        "title": "From trade talks to seafarers' security in the Middle East: Foreign Secretary Misri details PM Modi's Fra - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMmE2VWFaQnV6NjlCWkRSeGlwWEM4ZXNReGxLc1lqTEJOeXN1ZXRTMi1KRzlsX3Z2bmpsUFNOMjFLVjI3alBIdUtxVkRyWWdjQWE0bzRBeTZZb2hwNEtub0d2c2xKVnh4VmVFNjAwWURscV85WVpvTnpldTNUYkdtMVpwclBGS0h0X29MaXBTSkJ5V0xtVW1PUVRRQVdPV2swZmJsNHc4VWdsbUJBcWpVa1dPVllqUWxmNXBlampFT201UGN3RHJxYVF4WGdCNU9TeGZ6UHhMR205UkdJODZuZHNnejVVTkUyQlNZbFhfVmtEeDdrd195eTIyc2N1TE16alNfZHVJUUkxQ2vSAZACQVVfeXFMUC1Bc2l3M1RYdXhHay1lR0xtVWlLUGlnRzJEVEhKaEdVQzdrRVNlMGwxbXVCbmc4dmkyajhFM0IwVGdseEU5YUFKZVE1bDNXeGdhMi1pLVAtQjQxREF1SzllWloycDl3OExzLVFMQTY3VW12QWk0bUJWdjhoMm0zeWxiazh1b29BUnhZU1U2dkRCTnp3bTBIUFJOTGxqbi1jT3p0cjZBb2o0QmxoTmxGMEs5ZzdqWFNzOEJKa29LZFhBajhtNDQzQ25kd1VmVWNyX2tGZDQ2dXZOTEpEU2VCR1lkazdQTzNpRVVfcFVmRzFCSW1FSmJhc1RsY1pTSVFQNzBfTlVrSEZpQWpFSGxTYVI?oc=5",
         "hits": 0
       },
       {
@@ -450,7 +450,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "安防"
   }
 }

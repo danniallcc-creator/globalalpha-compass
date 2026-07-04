@@ -406,7 +406,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "纱：海外社媒「textile new arrival」增速 244%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
+    "trend_summary": "纱：海外社媒「textile #trending」增速 250%，搜索端「textile market 2026」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」，出口 YoY +18%，主要流向 越南 / 孟加拉国 / 印度。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -420,45 +420,45 @@
       "欧盟 CE 标志强制准入 → 纱 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 纱 通关",
       "印度市场 YoY +18% 领跑 纺织面料 出口 → 纱需求强劲",
-      "海外社媒「textile new arrival」增速 244% 领跑 → 纱社媒种草热度爆发"
+      "海外社媒「textile #trending」增速 250% 领跑 → 纱社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "textile new arrival",
-        "growth": 244.5,
-        "vol": "175K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 217.0,
-        "vol": "511K",
+        "kw": "textile #trending",
+        "growth": 250.5,
+        "vol": "135K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 212.0,
-        "vol": "330K",
+        "kw": "fabric price trend",
+        "growth": 240.0,
+        "vol": "765K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "fabric b2b export",
-        "growth": 209.0,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "textile must try",
+        "growth": 238.5,
+        "vol": "636K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "textile market 2026",
-        "growth": 108.5,
+        "growth": 142.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "textile wholesale supplier",
+        "growth": 133.5,
         "hits": 0
       },
       {
@@ -470,9 +470,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Asia-Pacific Polyester Reinforcement Fabrics - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMENxYVFvWnVMeHBuc1h3aUVKeXdKQVU1VDZjUDI5QjEtdE1tdHNuQ3FBdTI3TU93aE1wVGp1bmUxT0R6YktBLUJfazBIUEl3dmhnT3F1dmNSMmZXNElBdjUxNE1wQUExcloyVEdUT3Vpd3ZfYWZCZ19ObUJwN2pkM0RPMEw0ZDNQT2lvcmpIT0NPTHBuc1ZfTzA1XzAzZ1JjcE1yS09aUXlDdGFEODFpaDR6enRqNHlkRjVaNVBtVEtKRGM?oc=5",
+        "title": "Plastic Coated Textile Fabric (HS: 5903) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82UUpjOThMZF8ybUs0NGYyY1RNdXFxZTgzdzRmTkFPVnNBY211VmgzdlBFNGVEVDdyR0puX1hiVFdUQVlPSHdmSmRHTjBBOGFJeUwxRjNuendDMVZNYUFRTUFaelloanRtQVk5akJn?oc=5",
         "hits": 0
       },
       {
@@ -495,7 +495,7 @@
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-03",
+    "generated_at": "2026-07-04",
     "l1_ref": "面料及纺织原材料"
   }
 }
