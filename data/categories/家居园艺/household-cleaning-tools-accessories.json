@@ -487,7 +487,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家用清洁工具与配件：海外社媒「home decor must try」增速 250%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
+    "trend_summary": "家用清洁工具与配件：海外社媒「home decor breaking」增速 254%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」，出口 YoY +31%，主要流向 沙特阿拉伯 / 美国 / 阿联酋。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -499,45 +499,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家用清洁工具与配件 出口需通过合规认证",
       "印度市场 YoY +31% 领跑 耐火陶瓷(6903系列) 出口 → 家用清洁工具与配件需求强劲",
-      "海外社媒「home decor must try」增速 250% 领跑 → 家用清洁工具与配件社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 254% 领跑 → 家用清洁工具与配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 254.5,
+        "vol": "510K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "home decor must try",
-        "growth": 250.5,
-        "vol": "76K",
+        "kw": "garden viral hack",
+        "growth": 254.0,
+        "vol": "28K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "garden factory tour",
-        "growth": 239.0,
-        "vol": "711K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor new arrival",
-        "growth": 214.5,
-        "vol": "102K",
+        "platform": "tiktok",
+        "kw": "garden trending now",
+        "growth": 251.0,
+        "vol": "601K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "garden b2b export",
-        "growth": 136.0,
+        "growth": 242.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 127.5,
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -551,7 +551,7 @@
         "dim": "媒体",
         "title": "How this second-generation Noida SME is building a global edge in home improvement exports - The Economic Times",
         "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMThyN1E3eGtCNHN0MlVudjBJVTFLY2g4bEwwX2dVOXFzelJsS3Q1WGx1MG0wb1Zxclg3cUE3RDdFRllhV3l1bGNJMFR4WFVuUDRLNDNjZGhtZjlDcExyUEZEbnR4V3pvbGZWNWhrcHYxRWpzekxZUjU1Ni1Xc1FDSWthS2tNeXJYbmpOdlF1WWtnQ2U1eDQ1dlJtTFVOQVRfd3paX3pwMGZOenMxeFgxT2dBRWwxSFEzYVhISUluTVJ6ckxJdXRHOWZ1U2Y3XzlnLWs4c0NyeDJhcWZDMUZJRzQ0ZnBpVVpaaGNnRWh6R1RyUHRqMkY40gH-AUFVX3lxTFBWYS1JNG5JdVktc1NONDdkZEJMNGtobWZQRXNfVzZVb2dTVEdtSXF6d0IyWlVOSVZONHhuVTk1NjVhazRXakZSenZaNmk0U3JkbHBFSVkxeHMxLXFKUW9nREZmcXlwT0ZBcjB3RmpaYXptQmU1SllmTy1wbDd3dHRPR0FIN2ZZLVhIWGFDUS1LTXQ0THRlb1ZYcE1CUUVkakYwVFhrLUhFTm1LQ1FPYWJISjRxSjhZUlJsOElJb0JVaWl2dHRkaVdBaHdKVldlTjFIWHlVWmlQRXFnSk1fcDktM050azhDMHd4UFV6LUVjTUM2aDZMLTFTNmVzVTZB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMThyN1E3eGtCNHN0MlVudjBJVTFLY2g4bEwwX2dVOXFzelJsS3Q1WGx1MG0wb1Zxclg3cUE3RDdFRllhV3l1bGNJMFR4WFVuUDRLNDNjZGhtZjlDcExyUEZEbnR4V3pvbGZWNWhrcHYxRWpzekxZUjU1Ni1Xc1FDSWthS2tNeXJYbmpOdlF1WWtnQ2U1eDQ1dlJtTFVOQVRfd3paX3pwMGZOenMxeFgxT2dBRWwxSFEzYVhISUluTVJ6ckxJdXRHOWZ1U2Y3XzlnLWs4c0NyeDJhcWZDMUZJRzQ0ZnBpVVpaaGNnRWh6R1RyUHRqMkY40gH8AUFVX3lxTE9yNHFmTzR4d3FOMWNLUDRCdzIzTGd6SHhuNlN0VUxBOFJjR0lIUHNtMkNUUnJaUkRCcXBCeUYtUEVQTjJhUEJoMW8tYjdxZGhBck1PaWUwTnRuZ1oxQVJ0Q1ZoTGc1YjllcWdONF83WGh3ZG0zbGJJNXh0MlF5Nkh0TEROMFAxbEM3NXlaTXNZRW11NkEtLXlvSU80SW44UmNiUDJDVU9LbUJ6VWJHQ3lscmFycU9SdFFuQlc0X3RUeDFBQXlxNlpDZUNZbWR2ZjJkcnpScmVWVkI0bV9ybmtlUDQ2aW1hc1F4aGd3RksweFNNR2JCdS1HTEpMZg?oc=5",
         "hits": 0
       },
       {
@@ -574,7 +574,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "家居园艺"
   }
 }

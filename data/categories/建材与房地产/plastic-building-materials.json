@@ -528,7 +528,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "塑料建材：海外社媒「building #fyp」增速 254%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China targets US rare earth and other...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
+    "trend_summary": "塑料建材：海外社媒「building review 2026」增速 232%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Time Magazine关注「U.S. Declines to Renew Trade Pact With...」，出口 YoY +28%，主要流向 日本 / 韩国 / 沙特阿拉伯。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -540,52 +540,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 塑料建材 出口需通过合规认证",
       "沙特阿拉伯市场 YoY +28% 领跑 保温隔热材料(6806/3816/6807系列) 出口 → 塑料建材需求强劲",
-      "海外社媒「building #fyp」增速 254% 领跑 → 塑料建材社媒种草热度爆发"
+      "海外社媒「building review 2026」增速 232% 领跑 → 塑料建材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building #fyp",
-        "growth": 254.5,
-        "vol": "749K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building supply chain",
-        "growth": 243.5,
-        "vol": "255K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "cement factory tour",
-        "growth": 229.0,
-        "vol": "605K",
+        "kw": "building review 2026",
+        "growth": 232.5,
+        "vol": "399K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 170.0,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 222.5,
+        "vol": "45K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building wholesale supplier",
+        "growth": 220.5,
+        "vol": "457K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 132.5,
+        "growth": 217.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "China targets US rare earth and other firms with export controls - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 147.5,
         "hits": 0
       },
       {
@@ -593,6 +586,13 @@
         "title": "U.S. Declines to Renew Trade Pact With Mexico And Canada. Here's What It Means for Each Country - Time Magazine",
         "source": "Time Magazine",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbkpIREo4NF9PaDgtNTI2am1yQUJ3TF9BXzI5aUdqVXRyMkYyZ1FoNTJXWTZCcEV0ZllSWUx6SklnRXJSWGtFbkNLY3RmM3NYZmZoeVVlRzNaUWNySTVhY3Jyb3F6UmZsLUZDWl9kUUtKNTNzVl8yQk1CMjVUXzljbVRFTHN0VERJSEIyUmxheGtNUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China targets US rare earth and other firms with export controls - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
         "hits": 0
       },
       {
@@ -615,7 +615,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "建材与房地产"
   }
 }

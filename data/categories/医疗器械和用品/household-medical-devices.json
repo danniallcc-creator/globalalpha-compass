@@ -336,7 +336,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "家用医疗器械：海外社媒「healthcare equipment factory tour」增速 245%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Dominican Republic (DOM) Exports,...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "trend_summary": "家用医疗器械：海外社媒「healthcare equipment trending now」增速 252%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，economy.ac关注「\"Protecting Domestic Industry vs...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -350,45 +350,52 @@
       "美国 FDA 注册要求 → 家用医疗器械 进入北美市场必备门槛",
       "印度 BIS 强制注册 → 14 亿人口市场 家用医疗器械 准入",
       "印度市场 YoY +26% 领跑 医疗器械 出口 → 家用医疗器械需求强劲",
-      "海外社媒「healthcare equipment factory tour」增速 245% 领跑 → 家用医疗器械社媒种草热度爆发"
+      "海外社媒「healthcare equipment trending now」增速 252% 领跑 → 家用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "healthcare equipment factory tour",
-        "growth": 245.0,
-        "vol": "199K",
+        "platform": "tiktok",
+        "kw": "healthcare equipment trending now",
+        "growth": 252.0,
+        "vol": "629K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "healthcare equipment b2b export",
-        "growth": 228.0,
-        "vol": "121K",
+        "kw": "medical device market 2026",
+        "growth": 249.5,
+        "vol": "583K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "healthcare equipment must have",
-        "growth": 225.0,
-        "vol": "34K",
+        "platform": "x",
+        "kw": "healthcare equipment industry news",
+        "growth": 244.0,
+        "vol": "451K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device market 2026",
+        "growth": 246.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 225.0,
+        "growth": 121.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "medical device wholesale supplier",
-        "growth": 214.5,
+        "dim": "媒体",
+        "title": "\"Protecting Domestic Industry vs Securing a Core Market\" EU and China Enter High-Level Trade Talks as Disputes Intensify - economy.ac",
+        "source": "economy.ac",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lellRX0NWb1htTzdJLXlCNnlZRGNkTEZBR0YzNDUtbnpuYXdOUGpNOGhMWHhSRm5QYW5UUkQyMUptN1JBWThHd1ZWclZqMUZfU0lMTGFoSQ?oc=5",
         "hits": 0
       },
       {
@@ -396,13 +403,6 @@
         "title": "Dominican Republic (DOM) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZZUpQVnN4NnQ1b25GUnQ4aGRraTdwb0NjZnE0OWhuWDVKZHV0bS02QkJvOFdXZWRjMVp3endjMU5XYnV0bktjM0hId1M0VW5PRXc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "An Overview of U.S.-China Life Sciences Competition and Cooperation - Asia Society",
-        "source": "Asia Society",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbG9GTGVRbFpFb2VESy1hbzBuMVRVVjR5RExLWUhTaUl3QkxJdXpkdERUTEExMVdQbkJ6dnJQYlZFRkFkR3RrY2JCcVpTS21aWS1zSjU2U0pQTHhJM1RQRUt4aGhpazl1X0NZVG1XNXkzc0RzQ2RFSklWYWhUVUdMNlpBcnV4U1JvOTlQNHF4SDlYeUNZZ0FvLTZ0RGFUNEhfemc?oc=5",
         "hits": 0
       },
       {
@@ -425,7 +425,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "医疗器械和用品"
   }
 }

@@ -202,7 +202,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "仓储：海外社媒「conveyor price trend」增速 251%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China's control over indium phosphide...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "仓储：海外社媒「forklift tiktok made me buy」增速 232%，搜索端「forklift wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Wood Pallets Market Size, Industry...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -214,52 +214,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 仓储 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 仓储需求强劲",
-      "海外社媒「conveyor price trend」增速 251% 领跑 → 仓储社媒种草热度爆发"
+      "海外社媒「forklift tiktok made me buy」增速 232% 领跑 → 仓储社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "conveyor price trend",
-        "growth": 251.0,
-        "vol": "254K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "forklift market 2026",
-        "growth": 245.5,
-        "vol": "764K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "forklift must try",
-        "growth": 242.5,
-        "vol": "240K",
+        "kw": "forklift tiktok made me buy",
+        "growth": 232.5,
+        "vol": "351K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "forklift market 2026",
-        "growth": 242.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "forklift #trending",
+        "growth": 223.5,
+        "vol": "532K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "conveyor unboxing",
+        "growth": 219.0,
+        "vol": "784K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift wholesale supplier",
-        "growth": 170.5,
+        "growth": 213.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "conveyor b2b export",
+        "growth": 202.0,
         "hits": 0
       },
       {
@@ -267,6 +260,13 @@
         "title": "Wood Pallets Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
         "source": "Fortune Business Insights",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzeVhiTHVnMHRfbl9lbmEzOGFGdlMyZ0JfMGc5THFtWXQ5bEduSHlETl9FMFRLcnlfYk5YZ09rMDI4MmVuWlpndm5yT1p1R0ptUmdwYng1eHlITW5teEUyY3p5andMRUdJcFE2Wlo4bWZxM2xL?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Pivdennyi Port Confirms Readiness to Expand Ore Cargo Handling Capacity - Odessa Journal",
+        "source": "Odessa Journal",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDlMWlh4ZnE2QVgtT2ZGdGZXNUIyOGRuR2t1UWhvRlVZVi1PYi1FdlBaWGJvRHlPc2daLXFsV2JWdFExMy1lTDJvVlhsYl9VR1dFek5zMjVIQXliOEdJOUVwRk1ISHNRNzhFTE1fNThWTXQ2a3dXRE1JY04xOTY3dl9nc2ZGMTZZUld5UGx6MnFSVmlvdVRUeHVSWWFLYXJHZWgtUmVjSjlUUQ?oc=5",
         "hits": 0
       },
       {
@@ -289,7 +289,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "物料搬运"
   }
 }

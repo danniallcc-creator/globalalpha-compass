@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "生活类包袋：海外社媒「bag viral」增速 254%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，The Times of India关注「India sets $1 trillion export goal for...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "生活类包袋：海外社媒「backpack must try」增速 224%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，The Times of India关注「India sets $1 trillion export goal for...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,45 +100,45 @@
       "欧盟 CE 标志强制准入 → 生活类包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生活类包袋 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 生活类包袋需求强劲",
-      "海外社媒「bag viral」增速 254% 领跑 → 生活类包袋社媒种草热度爆发"
+      "海外社媒「backpack must try」增速 224% 领跑 → 生活类包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "bag viral",
-        "growth": 253.5,
-        "vol": "754K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "bag supply chain",
-        "growth": 249.5,
-        "vol": "69K",
+        "platform": "tiktok",
+        "kw": "backpack must try",
+        "growth": 224.5,
+        "vol": "33K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "backpack b2b export",
-        "growth": 239.0,
-        "vol": "461K",
+        "kw": "luggage price trend",
+        "growth": 220.0,
+        "vol": "598K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 236.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "luggage factory tour",
+        "growth": 211.0,
+        "vol": "8K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 90.5,
+        "growth": 96.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "backpack b2b export",
+        "growth": 88.0,
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "箱包"
   }
 }

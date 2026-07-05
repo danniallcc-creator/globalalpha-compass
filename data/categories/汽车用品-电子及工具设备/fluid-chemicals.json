@@ -218,7 +218,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "液体及化学品：海外社媒「car gadget industry news」增速 218%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "液体及化学品：海外社媒「car gadget unboxing」增速 234%，搜索端「auto accessory market 2026」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -232,45 +232,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 液体及化学品 成主流",
       "欧盟 CE 标志强制准入 → 液体及化学品 出口需通过合规认证",
       "液体及化学品主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「car gadget industry news」增速 218% 领跑 → 液体及化学品社媒种草热度爆发"
+      "海外社媒「car gadget unboxing」增速 234% 领跑 → 液体及化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "car gadget industry news",
-        "growth": 218.0,
-        "vol": "441K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "car gadget b2b export",
-        "growth": 216.0,
-        "vol": "554K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "car gadget factory tour",
-        "growth": 203.0,
-        "vol": "675K",
+        "kw": "car gadget unboxing",
+        "growth": 234.0,
+        "vol": "748K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "auto accessory breaking",
+        "growth": 226.5,
+        "vol": "486K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "auto accessory viral",
+        "growth": 223.5,
+        "vol": "394K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto accessory market 2026",
+        "growth": 205.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "car gadget b2b export",
-        "growth": 213.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto accessory wholesale supplier",
-        "growth": 179.5,
+        "growth": 188.0,
         "hits": 0
       },
       {
@@ -282,9 +282,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Canada defends North American auto trade as Trump signals opposition to USMCA renewal - Car Dealership Guy News",
-        "source": "Car Dealership Guy News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORlk4Q1BZTkdtLW1uZzVWX3FMUlprc3lTamdKd3YzQllaSDJFTWJZT3FGS1RkMWJwTWxyYURsdGFLU2RNR0RyYzVaeElPQjNvOFBkbnpwSUFkWEFpcDhfZklnVlU1cjNtOXZYNl8wWVNOdHUxNklEOWlwdmIzMHBkUlhBTmYxOHdjaEtuZ2t0VG1sVEFMTlpJTkZMeTZTX0tpNFlUNFNMTWVlTHFqOFlyNWlwZ0RtNk9aMGc?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -307,7 +307,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

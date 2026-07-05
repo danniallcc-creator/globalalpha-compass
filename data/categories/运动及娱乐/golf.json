@@ -88,7 +88,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "高尔夫：海外社媒「outdoor market alert」增速 252%，搜索端「fitness wholesale supplier」热度上行，US Amazon BSR Top-12，Stock Titan关注「American Outdoor Brands (AOUT) 2026...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "高尔夫：海外社媒「sports breaking」增速 254%，搜索端「outdoor b2b export」热度上行，US Amazon BSR Top-12，Stock Titan关注「American Outdoor Brands (AOUT) 2026...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -100,45 +100,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 高尔夫 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 高尔夫需求强劲",
-      "海外社媒「outdoor market alert」增速 252% 领跑 → 高尔夫社媒种草热度爆发"
+      "海外社媒「sports breaking」增速 254% 领跑 → 高尔夫社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "outdoor market alert",
-        "growth": 252.0,
-        "vol": "732K",
+        "kw": "sports breaking",
+        "growth": 254.5,
+        "vol": "619K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fitness supply chain",
-        "growth": 251.5,
-        "vol": "148K",
+        "platform": "google",
+        "kw": "sports price trend",
+        "growth": 246.0,
+        "vol": "449K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "outdoor top 10",
-        "growth": 241.5,
-        "vol": "725K",
+        "platform": "google",
+        "kw": "outdoor b2b export",
+        "growth": 234.0,
+        "vol": "122K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "outdoor b2b export",
+        "growth": 231.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fitness wholesale supplier",
-        "growth": 226.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sports market 2026",
-        "growth": 176.5,
+        "growth": 150.5,
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "运动及娱乐"
   }
 }

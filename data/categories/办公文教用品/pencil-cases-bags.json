@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "96",
-    "total_export_value_usd": 50357073,
-    "total_net_weight_kg": 19857073,
+    "total_export_value_usd": 25180780,
+    "total_net_weight_kg": 14680780,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-04"
+    "fetched_at": "2026-07-05"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 78,
+      "interest_score": 54,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-04"
+      "fetched_at": "2026-07-05"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "非洲学校统一文具批量供应；中东豪华定制礼品文具（皮革笔记本/镀金笔）；印度校园文具品牌直接合作；欧美可持续文具品牌OEM（竹制/再生料）；笔盒笔袋(Pencil Cases & Bags)细分领域机会值得关注"
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "data_source": "merged_existing",
   "dynamic_insight": {
     "trend_summary": "笔盒笔袋：海外社媒「office supplies price trend」增速 239%，搜索端「office supplies b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Office Stationery market poised for...」。",
@@ -147,70 +147,27 @@
     "l1_ref": "办公文教用品"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 30643744287,
-      "total_kg": 0,
-      "yoy_growth": 0.8,
-      "period": "2025",
-      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-      "data_quality": "official_proxy_2025",
-      "total_usd_2024": 30400539967
-    },
+    "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 4209665072,
-        "yoy": -19.5,
-        "share": 12.8
-      },
-      "DE": {
-        "value_usd": 9180087561.226028,
-        "yoy": 81.6,
-        "share": 27.8
-      },
       "JP": {
         "value_usd": 1367316189.131,
-        "yoy": 7.0,
-        "share": 4.1
-      },
-      "GB": {
-        "value_usd": 7326857974.630002,
-        "yoy": 4.9,
-        "share": 22.2
+        "yoy": null,
+        "share": 31.7
       },
       "KR": {
-        "value_usd": 762593248,
-        "yoy": 2.0,
-        "share": 2.3
-      },
-      "AU": {
-        "value_usd": 1327719521.404,
-        "yoy": -0.7,
-        "share": 4.0
+        "value_usd": 762593248.0,
+        "yoy": null,
+        "share": 17.7
       },
       "BR": {
-        "value_usd": 1094384782,
-        "yoy": 31.7,
-        "share": 3.3
-      },
-      "IT": {
-        "value_usd": 387925728.434,
-        "yoy": 1.6,
-        "share": 1.2
-      },
-      "NL": {
-        "value_usd": 491387114.852,
-        "yoy": 3.9,
-        "share": 1.5
-      },
-      "CA": {
-        "value_usd": 5756544153.927985,
+        "value_usd": 1094384782.0,
         "yoy": null,
-        "share": 17.4
+        "share": 25.4
       },
       "MX": {
-        "value_usd": 1089106396,
+        "value_usd": 1089106396.0,
         "yoy": null,
-        "share": 3.3
+        "share": 25.2
       }
     }
   }

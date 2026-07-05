@@ -28,22 +28,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 13945418,
-    "total_net_weight_kg": 13445418,
+    "total_export_value_usd": 27454000,
+    "total_net_weight_kg": 16954000,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-04"
+    "fetched_at": "2026-07-05"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 77,
+      "interest_score": 44,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-04"
+      "fetched_at": "2026-07-05"
     }
   },
   "industry_analysis": {
@@ -56,7 +56,7 @@
     "opportunity": "新兴市场展现强劲增长潜力。自有品牌和贴牌代工机会丰富。跨境电商渠道快速扩张。益生菌和发酵成分在全球范围内成为热门趋势。"
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "data_source": "base_generated",
   "dynamic_insight": {
     "trend_summary": "沐浴用品：海外社媒「cleaning industry news」增速 249%，搜索端「personal care wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Personal Care Cleaning market poised...」，出口 YoY +15%，主要流向 美国 / 日本 / 韩国。",
@@ -152,84 +152,49 @@
     "l1_ref": "个人护理及家庭清洁"
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "How To Start a Wholesale Business in 2026 - Shopify",
       "EasyGroup’s difficulties with ‘family of marks’ claim continue - World IP Review"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KV1haZzVQZ2hmVXFENkg1dVBvTENFOFh1X1ZrVGpTX1h2MnRWT0xBYVlZVlBfaElfQVpHS2ZLb2tEZzhhazNLWGwwYVd0bXJXejdQbXM4SlhHTWtVX0E?oc=5",
       "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3NnTUxXelpMRl9xcGtqQXBtRmVNS3dkQUxLeVhKMFVhUUJEZnhlZjYwRDYwZGZCcmViSVJnM042UURGYjJxdC1HT2ZoT1Q4eDhFNG9wcWo3ak9XdlBkSWk2Y09FV21RZHQwMEFMYjNuRmVfVXV5MVpVWWJDTUkyWmJpSmlFQXI4cmxFeUhUT0pUR0VESHg1T1c1VkMwMUx4?oc=5"
     ],
-    "fetched_at": "2026-07-04"
+    "fetched_at": "2026-07-05"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 14111060572,
-      "total_kg": 0,
-      "yoy_growth": 3.0,
-      "period": "2025",
-      "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-      "data_quality": "official_proxy_2025",
-      "total_usd_2024": 13700058808
-    },
+    "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 1667357613,
-        "yoy": -12.1,
-        "share": 11.4
-      },
-      "DE": {
-        "value_usd": 4167886467.4719954,
-        "yoy": -2.7,
-        "share": 28.4
-      },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": 2.8,
-        "share": 11.5
-      },
-      "GB": {
-        "value_usd": 3374211388.828002,
-        "yoy": 26.2,
-        "share": 23.0
-      },
-      "KR": {
-        "value_usd": 769804434,
         "yoy": null,
-        "share": 5.3
+        "share": 51.9
       },
       "AU": {
         "value_usd": 783918988.0309999,
-        "yoy": 16.4,
-        "share": 5.3
+        "yoy": null,
+        "share": 24.2
+      },
+      "BR": {
+        "value_usd": 217194518.0,
+        "yoy": null,
+        "share": 6.7
       },
       "IT": {
         "value_usd": 267330441.736,
         "yoy": null,
-        "share": 1.8
-      },
-      "NL": {
-        "value_usd": 195184675.40499997,
-        "yoy": 3.6,
-        "share": 1.3
-      },
-      "CA": {
-        "value_usd": 1458850337.3139987,
-        "yoy": 23.6,
-        "share": 9.9
+        "share": 8.2
       },
       "MX": {
-        "value_usd": 294081804,
-        "yoy": 23.6,
-        "share": 2.0
+        "value_usd": 294081804.0,
+        "yoy": null,
+        "share": 9.1
       }
     }
   },

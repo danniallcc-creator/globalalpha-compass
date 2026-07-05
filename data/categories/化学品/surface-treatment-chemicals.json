@@ -221,7 +221,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "表面处理化学品：海外社媒「chemical must have」增速 249%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
+    "trend_summary": "表面处理化学品：海外社媒「chemical #trending」增速 246%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -234,45 +234,45 @@
       "欧盟碳边境税 CBAM 2026 起覆盖 表面处理化学品 → 低碳替代品需求激增",
       "欧盟 REACH 法规限制有害化学物 → 驱动 表面处理化学品 供应链合规升级",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 表面处理化学品 通关",
-      "海外社媒「chemical must have」增速 249% 领跑 → 表面处理化学品社媒种草热度爆发"
+      "海外社媒「chemical #trending」增速 246% 领跑 → 表面处理化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "chemical must have",
-        "growth": 249.0,
-        "vol": "252K",
+        "kw": "chemical #trending",
+        "growth": 245.5,
+        "vol": "210K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical industry news",
-        "growth": 248.0,
-        "vol": "627K",
+        "platform": "tiktok",
+        "kw": "chemical #fyp",
+        "growth": 245.5,
+        "vol": "641K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical analyst",
-        "growth": 243.5,
-        "vol": "678K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
-        "growth": 138.0,
+        "platform": "tiktok",
+        "kw": "chemical viral hack",
+        "growth": 212.0,
+        "vol": "769K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical wholesale supplier",
-        "growth": 111.5,
+        "growth": 197.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 163.0,
         "hits": 0
       },
       {
@@ -309,7 +309,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "化学品"
   }
 }

@@ -545,7 +545,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "空气质量电器：海外社媒「appliance industry news」增速 252%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Europe wants to rebalance trade with...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "空气质量电器：海外社媒「appliance breaking」增速 234%，搜索端「home appliance sustainable manufacturing」热度上行，US Amazon BSR Top-12，CNBC关注「Europe wants to rebalance trade with...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -559,45 +559,45 @@
       "欧盟 CE 标志强制准入 → 空气质量电器 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 空气质量电器 合规刚需",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 空气质量电器需求强劲",
-      "海外社媒「appliance industry news」增速 252% 领跑 → 空气质量电器社媒种草热度爆发"
+      "海外社媒「appliance breaking」增速 234% 领跑 → 空气质量电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "appliance industry news",
-        "growth": 252.0,
-        "vol": "245K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "appliance supply chain",
-        "growth": 242.5,
-        "vol": "635K",
+        "kw": "appliance breaking",
+        "growth": 234.5,
+        "vol": "339K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "appliance unboxing",
-        "growth": 230.0,
-        "vol": "103K",
+        "growth": 220.0,
+        "vol": "213K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance wholesale supplier",
-        "growth": 179.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "appliance aesthetic",
+        "growth": 217.0,
+        "vol": "625K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "home appliance market trend 2026",
-        "growth": 58,
+        "kw": "home appliance sustainable manufacturing",
+        "growth": 81,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "home appliance digital transformation",
+        "growth": 80,
         "hits": 0
       },
       {
@@ -609,9 +609,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Smart Home Appliance Market Size, Share | Industry [2034] - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnB4S25wb3VRakRnYzQ2UU1yTDVyempJY1dIc3p2UmMwNmljUjhzeVM5TEp5eHFSVERBN0YwNVpodFV2V3pUZFNNYWVzcy1QNmpMaERqdm1oa1p4bWVRenQwWFVVamJpTUcyLUpxdzNfOVVYaGhjTXlPdGFvdGZFZg?oc=5",
+        "title": "The Merger Guidelines Overlook Trade-Policy Incentives in a Globalized World - promarket.org",
+        "source": "promarket.org",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmw1dHJWNTN3NEJRMGh1WnFzZWJCdmVRZzBNM0NqLWZ2azdQQ0dyS1RhTF81OTZLWWNPYWxIbnpFUmJfYzk0aVdnSVZpZElBR3RBSnhDMWNrc3pNLVkxdnd4c3N0dW1YMGVXUGNYajQzcXZrcFJ4SDdaRXozME5Eb2hrU1Q5QWlQX21GZUF1NVh4aXY4b3k4XzBTbEVHUkZCYTNpbHFQN09maXd1WEpDVGVjY3Q?oc=5",
         "hits": 0
       },
       {
@@ -634,7 +634,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "家用电器"
   }
 }

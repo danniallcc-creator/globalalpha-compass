@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "3D 设计：海外社媒「industrial design #trending」增速 252%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，South China Morning Post关注「UK trade secretary hosts Chinese...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
+    "trend_summary": "3D 设计：海外社媒「industrial design must try」增速 250%，搜索端「industrial design b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -98,59 +98,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 3D 设计 出口需通过合规认证",
       "东南亚市场 YoY +12% 领跑 通用商品 出口 → 3D 设计需求强劲",
-      "海外社媒「industrial design #trending」增速 252% 领跑 → 3D 设计社媒种草热度爆发"
+      "海外社媒「industrial design must try」增速 250% 领跑 → 3D 设计社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial design #trending",
-        "growth": 251.5,
-        "vol": "268K",
+        "platform": "tiktok",
+        "kw": "industrial design must try",
+        "growth": 249.5,
+        "vol": "288K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial design industry report",
+        "growth": 245.5,
+        "vol": "762K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "industrial design new arrival",
-        "growth": 248.5,
-        "vol": "304K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial design must have",
-        "growth": 248.0,
-        "vol": "230K",
+        "growth": 243.5,
+        "vol": "477K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "industrial design market 2026",
-        "growth": 225.5,
+        "kw": "industrial design b2b export",
+        "growth": 140.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design wholesale supplier",
-        "growth": 153.5,
+        "growth": 128.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "UK trade secretary hosts Chinese delegation in bid to boost services - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeVpXa0lLSTRBLVRLNGFmdDJ3TEsySHR2ckhfbkc5UkhTWW9fWWhYSkZJd1VfbUQ2MlBhMXZNVWY3bHRyVC1DOUppZEhwcGF1OFpJZkJaTXIyZVhTamR6cy1UZGVTa21aOEswNWhWRFBpZ1RDTnBWZ0NlYnJkYmQ4dWtqUnRjUUIxU016ejNsMFVFaUl4Zk1VUVVodkczYS16dUNveUZhUXU1YTBLR1RzSnQzM2Z3bEhNUkxrYtIBvAFBVV95cUxQVng5OW12SXprckZnUkQzSGJfa1dYbzlVcnJkcnkybS1VRVlPbVlhRzJuZXJBdm9rb21aTmhNR19RNUtwLWI5bnRvVThUcm42UWdhM19vNXBmbWMxYzdFUmpUSjVSN3YtLVlVZFhmZExZRFhHQ0FXemdQemoyYkpuR2FYb0ZPR3VMcWI0dk4yUlpTT2F6TTJLclNGMzRvTE8zMDc5Yl9fZTFtTWpRLVU4U1luUUYzbFJxc0I0aA?oc=5",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s Export in January-April 2026: Supply-Chain Implications for Foreign Companies - China Briefing",
-        "source": "China Briefing",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcV9rNzROMnVJeXZIeEp2TGV3YnZMdWFTTlNIdkZGQUJTZmpoQllLeldHUkh4NDUxd09GR1pmOXk1R1NCdlJNeXhtYU12ZTRPZWNRU3NUNGJNUlcwMHZKYmZKUzJ5eFRWNnZtVFpMTndmUDktTjZoOWl5cEpOX3ZzSmg2ejBhbjlJcWpHWXBNbjNXYi1fVzhaMXVHR0VXaGs?oc=5",
+        "title": "NC District Export Council Partners with UNCW’s Cameron School of Business by Robert Burrus | Sponsored Insights - WilmingtonBiz",
+        "source": "WilmingtonBiz",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMlF5MnpCa1dDeENwY0pTRk91QlpudmEtVHljMDgxQUQybmZYY1M2RkZYN3BUSFJ6V0NHNXo5bEF0Vy1GSU5nSllja3Y3c3JYOEd6b09NTmhOY2RaVnVOcEhOa1ZFMWxzUE5RRHZuZHA3c1RoVm11aEVGREhaV0JQZHF2YllQMXJoMUU1TkhuVkdzRE9NZjJ4VzJ5ZjBLSnlMT2hBZ2lqZ3pNYnl5am94S1RHbm1Sbi10VnBaNnNsZ0NNaHp1OWtOODJPV3BNVDFKR25Tb3VicDNsekY1eHk4?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-04",
+    "generated_at": "2026-07-05",
     "l1_ref": "设计服务"
   }
 }
