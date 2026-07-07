@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "运动护具和康复用品：海外社媒「sports breaking」增速 254%，搜索端「outdoor b2b export」热度上行，US Amazon BSR Top-12，Stock Titan关注「American Outdoor Brands (AOUT) 2026...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
+    "trend_summary": "运动护具和康复用品：海外社媒「fitness tutorial」增速 250%，搜索端「outdoor b2b export」热度上行，US Amazon BSR Top-12，MarketBeat关注「Academy Sports and Outdoors...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -98,52 +98,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 运动护具和康复用品 出口需通过合规认证",
       "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 运动护具和康复用品需求强劲",
-      "海外社媒「sports breaking」增速 254% 领跑 → 运动护具和康复用品社媒种草热度爆发"
+      "海外社媒「fitness tutorial」增速 250% 领跑 → 运动护具和康复用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "sports breaking",
-        "growth": 254.5,
-        "vol": "619K",
+        "platform": "youtube",
+        "kw": "fitness tutorial",
+        "growth": 250.5,
+        "vol": "686K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sports price trend",
-        "growth": 246.0,
-        "vol": "449K",
+        "platform": "tiktok",
+        "kw": "sports #fyp",
+        "growth": 235.5,
+        "vol": "609K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "outdoor b2b export",
-        "growth": 234.0,
-        "vol": "122K",
+        "platform": "tiktok",
+        "kw": "outdoor must try",
+        "growth": 231.5,
+        "vol": "771K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "outdoor b2b export",
-        "growth": 231.0,
+        "growth": 134.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fitness wholesale supplier",
-        "growth": 150.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "American Outdoor Brands (AOUT) 2026 report shows $190.5M sales and innovation push - Stock Titan",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVG9XTXYxUDdfcUJ6d2hJQ0xlVTQ1WVJKSjNweVV5ZTItOU1fQWZUa1RzYWkwLW1lQTZyNzl2T3JDQnFrbS1zWHFlaS0ycl9IaDdidmQ4OEpMU3l6WkxNd0dNV05hNDBaNFU4X1BxOTBlTDJCb0ZQTWxOWFVtai1GSUxhNXJmeFJHQ21YLWljUlVBN21VMHE3bDdfblpfTkE4RHd2ZTVLUnRiQ3hIUnhWMlIxM3k?oc=5",
+        "growth": 83.5,
         "hits": 0
       },
       {
@@ -151,6 +144,13 @@
         "title": "Academy Sports and Outdoors (NASDAQ:ASO) Shares Up 10.1% on Better-Than-Expected Earnings - MarketBeat",
         "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHNCVXpXM1JxcDlOTXVvZUl0bnNQb1ZKdnVzV09VUjVPWVpJeFp3enY2eFhDeTVUSmF3OUFxb3VUdVVwZ3lrV2k4LTBkckhqVTFsdjhuSWFHRTBXRXFrZmw0RFlKRi1QNVpsRXJiUzVmclpfQkhvdTB0MGh4THo1eUUtV3VCOE4ya092ZHFSRGtxVWVFU2M2a1c3NzVqODhaVFJLTjA0VzFsZTBianNieVdqc1NvcUM3VUsweTd6VmNjcFdqWjFvSjNfTlZvZU9zcGxXQg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Best Trading Platforms For UK Investors In 2026 - Forbes",
+        "source": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9La2NONjR5N2VPSVA1V0xqVG51YWpwYnViQUIwdGx5OU5vQThoT3dONURsM05tOW5JQmt4RVcweGNISkh3SkxDR3lVNXl3VU4xYXlCMUx1bWZSRGl6TVM4UnhMLWVjLU5pM1VqSEFmekJkcDh4aEE?oc=5",
         "hits": 0
       },
       {
@@ -173,7 +173,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "运动及娱乐"
   }
 }

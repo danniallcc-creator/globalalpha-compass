@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-07-05T02:30:16",
-    "date": "2026-07-05",
+    "updated_at": "2026-07-07T02:36:38",
+    "date": "2026-07-07",
     "l1_count": 46,
     "building_materials_excluded": true,
     "excluded_l1s": [
@@ -18,7 +18,7 @@
       "l3_count": 142,
       "customs_2025": {
         "china_export": {
-          "total_usd": 238874429690.0,
+          "total_usd": 54046723047.0,
           "total_kg": 0,
           "yoy_growth": 0.0,
           "data_quality": "estimated",
@@ -27,49 +27,7 @@
               "name_cn": "防蚊、防蛀、灭鼠杀虫用品",
               "name_en": "Pest Control Products",
               "total_usd": 54046723047.0,
-              "share_pct": 22.6
-            },
-            {
-              "name_cn": "卫生用品",
-              "name_en": "Hygiene Products",
-              "total_usd": 36512944115.0,
-              "share_pct": 15.3
-            },
-            {
-              "name_cn": "口腔护理",
-              "name_en": "Oral Care",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
-            },
-            {
-              "name_cn": "头发护理及造型",
-              "name_en": "Hair Care & Styling",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
-            },
-            {
-              "name_cn": "室内除臭用品",
-              "name_en": "Room Deodorizers",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
-            },
-            {
-              "name_cn": "手足护理",
-              "name_en": "Hands & Feet Care",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
-            },
-            {
-              "name_cn": "男士护理",
-              "name_en": "Men's Grooming",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
-            },
-            {
-              "name_cn": "身体护理",
-              "name_en": "Body Care",
-              "total_usd": 24719127088.0,
-              "share_pct": 10.3
+              "share_pct": 100.0
             },
             {
               "name_cn": "便携装及礼盒套装",
@@ -84,8 +42,20 @@
               "share_pct": 0.0
             },
             {
+              "name_cn": "卫生用品",
+              "name_en": "Hygiene Products",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
               "name_cn": "厨卫清洁护理",
               "name_en": "Kitchen & Bathroom Cleaning",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "口腔护理",
+              "name_en": "Oral Care",
               "total_usd": 0.0,
               "share_pct": 0.0
             },
@@ -96,8 +66,26 @@
               "share_pct": 0.0
             },
             {
+              "name_cn": "头发护理及造型",
+              "name_en": "Hair Care & Styling",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
               "name_cn": "女性护理",
               "name_en": "Feminie Care",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "室内除臭用品",
+              "name_en": "Room Deodorizers",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "手足护理",
+              "name_en": "Hands & Feet Care",
               "total_usd": 0.0,
               "share_pct": 0.0
             },
@@ -114,8 +102,20 @@
               "share_pct": 0.0
             },
             {
+              "name_cn": "男士护理",
+              "name_en": "Men's Grooming",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
               "name_cn": "衣物清洁护理",
               "name_en": "Laundry Cleaning Supplies",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "身体护理",
+              "name_en": "Body Care",
               "total_usd": 0.0,
               "share_pct": 0.0
             },
@@ -129,34 +129,34 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 17340293422.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 6.1
+            "share": 0.0
           },
           "DE": {
-            "value_usd": 43446616915.04,
+            "value_usd": 19446284895.97,
             "yoy": 0,
-            "share": 15.3
+            "share": 14.8
           },
           "GB": {
-            "value_usd": 59929104376.82,
+            "value_usd": 14176694190.82,
             "yoy": 0,
-            "share": 21.1
+            "share": 10.8
           },
           "JP": {
-            "value_usd": 46722811925.15,
+            "value_usd": 42151705927.98,
             "yoy": 0,
-            "share": 16.5
+            "share": 32.1
           },
           "AU": {
-            "value_usd": 14054476580.62,
+            "value_usd": 9181797729.98,
             "yoy": 0,
-            "share": 4.9
+            "share": 7.0
           },
           "KR": {
-            "value_usd": 28888874293.0,
+            "value_usd": 15388709817.0,
             "yoy": 0,
-            "share": 10.2
+            "share": 11.7
           },
           "IN": {
             "value_usd": 0,
@@ -169,9 +169,9 @@
             "share": 0.0
           },
           "MX": {
-            "value_usd": 15629200790.0,
+            "value_usd": 12225184642.0,
             "yoy": 0,
-            "share": 5.5
+            "share": 9.3
           },
           "AE": {
             "value_usd": 0,
@@ -179,9 +179,9 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 50186349966.43,
+            "value_usd": 12370354769.43,
             "yoy": 0,
-            "share": 17.7
+            "share": 9.4
           },
           "SA": {
             "value_usd": 0,
@@ -194,9 +194,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 7786839556.0,
+            "value_usd": 6420138736.0,
             "yoy": 0,
-            "share": 2.7
+            "share": 4.9
           },
           "ID": {
             "value_usd": 0,
@@ -229,15 +229,15 @@
             "l2_source": "卫生用品"
           },
           {
-            "title": "Lamination Adhesives for Flexible Packaging Market Demand to Accelerate by 2035, Driven by Rigid-to-Flexible Substitutio",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQV0g2dE02WUVrZzNadlpPbVM1Uk1sNlk5UXh6Q25kRGZodkxMMUtVT2s3cmRyTjBId28yOE1uM1ZDNDlOUjljY1M0WFRPYVd2ZGNOLVJVSmZVczJEclpqQ0RxNEkyWV9WbmhjV2luZW1vU0dvSU5lcHZreTdGZ1F3eFcxaE9mSHpXUFFQTlBPcW5jbHNsV1VDLUdQMzRLTGlmZVBkc19UVDdDTWotNkZNR1RYOVQ3MUhIWj",
+            "title": "World Super Tackifier Resin - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQXVkR0M4aVRlQUZnWDBvcy01Z1liVGFiWklhbEpyM05ZVDR2NmUwcEdiWG9VNGlFZnlBOHdKWEhhY3pHTTdwYmdoUk9QaDBZNV84TmdHTFdOYnZQSlUtcTlGbWkwSHNtclFISHUyZVVWek1ZWktFWVVLT21xM1hEaHkybUJVNW1rRE1nOWk3cm1WbGJrd2Itc09uejJPWHpPWlBMNnI4OVdYUVBZSmdZcVdhb2ZkUlZ3OG",
             "country": "GB",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQV0g2dE02WUVrZzNadlpPbVM1Uk1sNlk5UXh6Q25kRGZodkxMMUtVT2s3cmRyTjBId28yOE1uM1ZDNDlOUjljY1M0WFRPYVd2ZGNOLVJVSmZVczJEclpqQ0RxNEkyWV9WbmhjV2luZW1vU0dvSU5lcHZreTdGZ1F3eFcxaE9mSHpXUFFQTlBPcW5jbHNsV1VDLUdQMzRLTGlmZVBkc19UVDdDTWotNkZNR1RYOVQ3MUhIWjNoTzJQQm5mODVwaVpNa0U4WGJHVDNjVlp3cTc5WlpzdXU0b3loWWNrdmQtZE9xYjVLQzI0QjVmdUE2U3ZVUjRGcEc4aHJHTmc?oc=5",
-            "published": "Tue, 30 Jun 2026",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQXVkR0M4aVRlQUZnWDBvcy01Z1liVGFiWklhbEpyM05ZVDR2NmUwcEdiWG9VNGlFZnlBOHdKWEhhY3pHTTdwYmdoUk9QaDBZNV84TmdHTFdOYnZQSlUtcTlGbWkwSHNtclFISHUyZVVWek1ZWktFWVVLT21xM1hEaHkybUJVNW1rRE1nOWk3cm1WbGJrd2Itc09uejJPWHpPWlBMNnI4OVdYUVBZSmdZcVdhb2ZkUlZ3OGVJRzVRcEJpY0ZNMEhISFF1ZlBtdUdsZ1E?oc=5",
+            "published": "Thu, 02 Jul 2026",
             "source": "IndexBox",
             "l2_source": "卫生用品"
           },
@@ -255,28 +255,15 @@
             "l2_source": "卫生用品"
           },
           {
-            "title": "Park Ha Biological Technology Co., Ltd. Announces Membership Application to Personal Care Products Council (PCPC), Align",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgNBVV95cUxQWE9qVkxoMlF1QVpQT1hBbUwwU0lDN2hTbDZ4MXNnclh6WE9JNm0xa1ktLTNKUUVyM2pmNEZiV3Frd2Rpcy1ramtjUkF3YjZ2TXJLeGhQa2dwaldORWdobEduMzB6UmNPZEUwcHJ2ZUpJaUFzdFFmVjVDeXNVeHppU1JMeWxmMDFnZnZaa1U0OVN2NmdTXzVvSklWQnNvQjBDVXEtd3BselZYb19OaXdNOGxXZlRLRl9Uak",
-            "country": "EU",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "direct",
-            "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxQWE9qVkxoMlF1QVpQT1hBbUwwU0lDN2hTbDZ4MXNnclh6WE9JNm0xa1ktLTNKUUVyM2pmNEZiV3Frd2Rpcy1ramtjUkF3YjZ2TXJLeGhQa2dwaldORWdobEduMzB6UmNPZEUwcHJ2ZUpJaUFzdFFmVjVDeXNVeHppU1JMeWxmMDFnZnZaa1U0OVN2NmdTXzVvSklWQnNvQjBDVXEtd3BselZYb19OaXdNOGxXZlRLRl9UakVfdEFKbVVMNHlUWUpzOXhWVzh0SjJpM2VnTGlLZDRFbGVMemtWSmYwUktVNFBJSHVCYTJmaGxHYXR4Wkx5bENqX1N2NFE3Q2libVRab0VaV0NYWm5XSzFwRlhaNFQ5dDNSZWI3ZmdoMk1sV2VuZGx6NFNtTnU2aF9ud243eE1fcXBoSWg5dlk0UVlQeDBJMVpjS1dsLTJKOFNiU0xnSXNLZ0RnMGFDRTVPWmNRQUFhX3BGb3pOc0dKMFM3OWRDVWhkVXhhNnRZMENQY2g0OWg0c3QwckhnUVdlczhwb2dlWDlkREx2d0IyOVV5c01xNVpSMkJBWmhrUW1PSlHSAbsDQVVfeXFMUHpBN0NwLTh0YlBET19fQ2l6NkNoblRhaGRXdm9XRk5hZFJaSjduSzB2Qk9BV0dxam56NVpkUlM4dk5HdFVfdUwzU3Rid19aQ01qYWFaRlcwRFVYbmxVbm5uYWJMc2lublR0Z0otX3JWdDB1QS1uZ0M2YzEzSUlBMDlTQnc5RTdOdHVBTlZ6QktoUXdFamJyWlBHb2tURS03ZDdIRDZGejlLZjc0QkEwRXB2ZndwLWJBMVNHYWlZZk9yaWhDTENsd2FLd3RhYnBKZUdfMnNOWFJ0UElORTE4V2NOZV9kMzdxNjNIWE9jd3VLWUtwc0t0dkFCazFRUl9Jc0UzWmI3ZFU5OHlzY0pnYTJqck15aUFlc0RyU1JKcEhMT3dyQ0pEZTBEbDBhMjRQN01rSUdFM0hqLVFLRFFVeFA5X1I2WHkwemsyVmU5cExDUjFJTi1JZHNDdXNHYlNzOHV0YU51YUFjZHJGNDl5TkFPLXVqZmpJeHhyMXFSaGVjc21vX1Y5UEE0djhoLXQxUDFSMVUyTmtDQ2lTQ3FUbGhlRGpBZVgydTNIYjZsNjdHX1BTckZkR2psY2c?oc=5",
-            "published": "Wed, 01 Jul 2026",
-            "source": "The Manila Times",
-            "l2_source": "卫生用品"
-          },
-          {
-            "title": "Textile Coatings Global Market Forecast Points Higher Toward 2035 on Technical Textile Demand - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmZQQ0RkR0VHTmU2eWlKSFk1VnRvYjc2ODlERXBzLU81MmJLaUFZdnJ3RGE0N1ZnZXc1OEN2TmV3Y0pYQllDeU1YZ1ZNVGRHVXFpNGFfSHVMYWVVMnBaQ2dYaHo1aWFYTmwwUktpRUdOLUpWQUF6c1M4MzVUSURKYTF2eXQ5c3lSbk93bURSTko2OTdIYi1NdzlfTGd0bm9pYjRFcE9pb3d1TWZHNTFCVmxOYVc5Rjd0aT",
+            "title": "World Mucous Membrane Decontamination - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQczN6MXRpc2x0QVdkcnBXeFhVSkpRdUZOQklHX2VFa1kzOFQwN3V2RXQ3ckxKVG9lLXhmYmRSS1loUUZzTkhYMlQ0SkhnbUpmdDZILUdvWnlyTTFUUkZwdm5mNU1kcmd4TXRpbjc5TUpTbDR4NlVncWJKc3R2MEdhZE50aGJIY3lMY0xBZ25LUmNCcVo2anpPMXhjTU5BS0tzOEpxaVBrTWVaT21xbVpQdmd3UlllMy1XOV",
             "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTmZQQ0RkR0VHTmU2eWlKSFk1VnRvYjc2ODlERXBzLU81MmJLaUFZdnJ3RGE0N1ZnZXc1OEN2TmV3Y0pYQllDeU1YZ1ZNVGRHVXFpNGFfSHVMYWVVMnBaQ2dYaHo1aWFYTmwwUktpRUdOLUpWQUF6c1M4MzVUSURKYTF2eXQ5c3lSbk93bURSTko2OTdIYi1NdzlfTGd0bm9pYjRFcE9pb3d1TWZHNTFCVmxOYVc5Rjd0aTR5ZVBZcXY?oc=5",
-            "published": "Wed, 01 Jul 2026",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQczN6MXRpc2x0QVdkcnBXeFhVSkpRdUZOQklHX2VFa1kzOFQwN3V2RXQ3ckxKVG9lLXhmYmRSS1loUUZzTkhYMlQ0SkhnbUpmdDZILUdvWnlyTTFUUkZwdm5mNU1kcmd4TXRpbjc5TUpTbDR4NlVncWJKc3R2MEdhZE50aGJIY3lMY0xBZ25LUmNCcVo2anpPMXhjTU5BS0tzOEpxaVBrTWVaT21xbVpQdmd3UlllMy1XOVhBWndXZ2E3QlZQN3lnLWYydERiemJSSDlUT0xEUmk5QQ?oc=5",
+            "published": "Tue, 30 Jun 2026",
             "source": "IndexBox",
             "l2_source": "卫生用品"
           },
@@ -294,19 +281,6 @@
             "l2_source": "卫生用品"
           },
           {
-            "title": "World Mucous Membrane Decontamination - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQczN6MXRpc2x0QVdkcnBXeFhVSkpRdUZOQklHX2VFa1kzOFQwN3V2RXQ3ckxKVG9lLXhmYmRSS1loUUZzTkhYMlQ0SkhnbUpmdDZILUdvWnlyTTFUUkZwdm5mNU1kcmd4TXRpbjc5TUpTbDR4NlVncWJKc3R2MEdhZE50aGJIY3lMY0xBZ25LUmNCcVo2anpPMXhjTU5BS0tzOEpxaVBrTWVaT21xbVpQdmd3UlllMy1XOV",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQczN6MXRpc2x0QVdkcnBXeFhVSkpRdUZOQklHX2VFa1kzOFQwN3V2RXQ3ckxKVG9lLXhmYmRSS1loUUZzTkhYMlQ0SkhnbUpmdDZILUdvWnlyTTFUUkZwdm5mNU1kcmd4TXRpbjc5TUpTbDR4NlVncWJKc3R2MEdhZE50aGJIY3lMY0xBZ25LUmNCcVo2anpPMXhjTU5BS0tzOEpxaVBrTWVaT21xbVpQdmd3UlllMy1XOVhBWndXZ2E3QlZQN3lnLWYydERiemJSSDlUT0xEUmk5QQ?oc=5",
-            "published": "Tue, 30 Jun 2026",
-            "source": "IndexBox",
-            "l2_source": "卫生用品"
-          },
-          {
             "title": "World Fatty Acids Global - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOd1h3dWNvdjRHV3RpU0x6NGVIR3NBM0k4SUJFSzU1Y3FEZUtBOGwwUFFMNWhKZ3BEUHF1ZlJ4TmNiMXVzbUJvWklOM0E0NXhhOHhUVmdUcGNGSmRRU2pVdTdHUnpTZFdvY0xLVm40NktVUXNYMllPSFVnMTJLVGRxTG9idEVLNUhrdUFudXl6c0oyazk2NFJib1lJTGJCX1gxQXNMcVpQbXkyV3ZodTN4NjRqQmtuY3FCST",
             "country": "EU",
@@ -316,19 +290,6 @@
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd1h3dWNvdjRHV3RpU0x6NGVIR3NBM0k4SUJFSzU1Y3FEZUtBOGwwUFFMNWhKZ3BEUHF1ZlJ4TmNiMXVzbUJvWklOM0E0NXhhOHhUVmdUcGNGSmRRU2pVdTdHUnpTZFdvY0xLVm40NktVUXNYMllPSFVnMTJLVGRxTG9idEVLNUhrdUFudXl6c0oyazk2NFJib1lJTGJCX1gxQXNMcVpQbXkyV3ZodTN4NjRqQmtuY3FCSTBkOFdqc1BlWmtVSUhR?oc=5",
             "published": "Wed, 01 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "卫生用品"
-          },
-          {
-            "title": "United States Water Absorbent Polymer - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPMHhjTFV3WFhwam9rWElfeTg5ZGR2aGZCd2RUZGc0MW51bUFwWm9xNVotZXhERnVZcmRud3dPa1F2cTQxT1ZsOEdVdzdDRldSMTRtMzFiLVQySGZLZ0xYSnRXSnZNNjJIa3RqWHBaMkc4QklPVUdJbHNPS1NvbTQwRjNHQjBLMDh5TXNVS0hSRm1XOU52bUtQVXJiUmNzU3ZMeVRLQWVwNEJuYkRaUUt6YS1XeU1Fd3EyQ0",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMHhjTFV3WFhwam9rWElfeTg5ZGR2aGZCd2RUZGc0MW51bUFwWm9xNVotZXhERnVZcmRud3dPa1F2cTQxT1ZsOEdVdzdDRldSMTRtMzFiLVQySGZLZ0xYSnRXSnZNNjJIa3RqWHBaMkc4QklPVUdJbHNPS1NvbTQwRjNHQjBLMDh5TXNVS0hSRm1XOU52bUtQVXJiUmNzU3ZMeVRLQWVwNEJuYkRaUUt6YS1XeU1Fd3EyQ0E?oc=5",
-            "published": "Fri, 03 Jul 2026",
             "source": "IndexBox",
             "l2_source": "卫生用品"
           },
@@ -346,6 +307,58 @@
             "l2_source": "卫生用品"
           },
           {
+            "title": "Germany Coconut Shell Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQQmtCdW92RmdjWHFLTlpRYWlHSDhONmdBSlZTZENDcnczcGNwQ3RHODhNVzkyam1zd1RrTFp5bWR2elR3NjBSRVl5Si1xRnI5MldZLXlMLU9ZbEU0NDUxd0tkUzMwSUdhS3hkOWE2dnl5SC1HQWVZczd0cDN0MGhIbGozeEpnS1RwcGs0NHdoeUItX3RNSFVReU1DaEJ6Yk1lSnZWY1k2TnpMQTNQVWc?oc=5\" target=\"",
+            "country": "EU",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQmtCdW92RmdjWHFLTlpRYWlHSDhONmdBSlZTZENDcnczcGNwQ3RHODhNVzkyam1zd1RrTFp5bWR2elR3NjBSRVl5Si1xRnI5MldZLXlMLU9ZbEU0NDUxd0tkUzMwSUdhS3hkOWE2dnl5SC1HQWVZczd0cDN0MGhIbGozeEpnS1RwcGs0NHdoeUItX3RNSFVReU1DaEJ6Yk1lSnZWY1k2TnpMQTNQVWc?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "卫生用品"
+          },
+          {
+            "title": "France Washdown Sensor - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNaXVMUHp4NUVzYlhLUE1ZOS0tVGs1MGZjYW1aTU53eHlyYjh6SFZ0MkdrUmVTNzFJX3ZtR1d4UHZrSDY3cGFmeUJNblJ4LXZXTFRuTEFMMTl3dGNWbFhRSjJua1hvOXROMUJqMjZfRUdMbmtISmJTNVlYRlA3QlFRVFRMNXBFYXRNMWxqZFI1S3BiMUZVQnJzZkVmbmZtTWNUMndlMHd3?oc=5\" target=\"_blank\">Fra",
+            "country": "EU",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaXVMUHp4NUVzYlhLUE1ZOS0tVGs1MGZjYW1aTU53eHlyYjh6SFZ0MkdrUmVTNzFJX3ZtR1d4UHZrSDY3cGFmeUJNblJ4LXZXTFRuTEFMMTl3dGNWbFhRSjJua1hvOXROMUJqMjZfRUdMbmtISmJTNVlYRlA3QlFRVFRMNXBFYXRNMWxqZFI1S3BiMUZVQnJzZkVmbmZtTWNUMndlMHd3?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "卫生用品"
+          },
+          {
+            "title": "United Kingdom Washdown Sensor - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOS3pEYktPUFJaM0F0aXR3dGVSdlMzeXRtR0tfYkZNZzAxVDY5d2taMUVNbW1nVlFxNnVrSnBOaklONTBFM01BeDM5NFltUndBZGVKWEdPbHB2dmJJRmNCdDNvUW9VX183WkNVREQ1T241MUVtNmRKcnhpZmlwSHFIaE1XdUpIMFNGLUVLUHFDRlBSOTF5SUJKMjZJYmROOU1VOEZmUU5IRko5dWpMcC0wbA?oc=5\" targe",
+            "country": "Unknown",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS3pEYktPUFJaM0F0aXR3dGVSdlMzeXRtR0tfYkZNZzAxVDY5d2taMUVNbW1nVlFxNnVrSnBOaklONTBFM01BeDM5NFltUndBZGVKWEdPbHB2dmJJRmNCdDNvUW9VX183WkNVREQ1T241MUVtNmRKcnhpZmlwSHFIaE1XdUpIMFNGLUVLUHFDRlBSOTF5SUJKMjZJYmROOU1VOEZmUU5IRko5dWpMcC0wbA?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "卫生用品"
+          },
+          {
+            "title": "PMI Oral Products Chief Says Lack of Rules May Push Nicotine Pouch Market Into Illicit Trade - 2Firsts",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTZaVldKS1NHTENoa1IwQlBoeklTLVVXLWxuT241N1BPMGtFbk41YkxsU0o0RFZXZWpnRXhWUDdfX3NNMnFpa0VOTFl5SktuTHZSSG1IZ0Q3aDZrRENCM0VKWTBJbDgzbkE5d1EwdTZYc2M0MlVoOGIyaGtuaEZ1S0RtMERHMkNyMk5IQ1JqU0hOOVVNbFBDblIzQTRkLXlhVXBqZ0dNOWtyYVZYYmE3ZG9KUHZoWHF0WF",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTZaVldKS1NHTENoa1IwQlBoeklTLVVXLWxuT241N1BPMGtFbk41YkxsU0o0RFZXZWpnRXhWUDdfX3NNMnFpa0VOTFl5SktuTHZSSG1IZ0Q3aDZrRENCM0VKWTBJbDgzbkE5d1EwdTZYc2M0MlVoOGIyaGtuaEZ1S0RtMERHMkNyMk5IQ1JqU0hOOVVNbFBDblIzQTRkLXlhVXBqZ0dNOWtyYVZYYmE3ZG9KUHZoWHF0WFRDbHRB?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "2Firsts",
+            "l2_source": "口腔护理"
+          },
+          {
             "title": "PMI's President of Oral Products: \"When there are no rules, the market shifts to the illegal segment\" - logos-pres.md",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1",
             "country": "GB",
@@ -354,20 +367,33 @@
             "impact_score": 0.3,
             "category_relevance": "direct",
             "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRk13UUxBMl9fNWJRWjUteHdLTi1kVmRKbEliV29HemJmelliNWhyd0RCOE5nXzc0bVRUUTVWa0VNSXBtQ29xTkJvTXllNDZxNTRCRUI1N002TGZpT0Z1aXRzOGgzX25LXzlaSzRYN0lIUkQ2bWk4N0lqcjdrbzVfWDAwQmRPUzhiZWNnejFYa2VDVUh6UUZEQmNhY1o1blNKa0UtMWx4Qngtcy1fUFBrNDVtaVBGMDROb1RyT1dlekhzTy1Ga3c?oc=5",
-            "published": "Wed, 01 Jul 2026",
+            "published": "Sat, 04 Jul 2026",
             "source": "logos-pres.md",
             "l2_source": "口腔护理"
           },
           {
-            "title": "World Therapeutic Dental Equipment Global - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFZQUmFncTgzV1ZqZ0c3YkQwMUlaOXRKbmRKM0c1eDhvWXFnZEhfX1U5RC16UVk4MzJseGtEWDktWEE0TXQ4ay0waTRYS19KWVJ2Vmg3dWlGUVRUbDFwR0h3MXFiWkxkbWRtVzNkeDJwLWhpM2dnY0Y0QXNMRnY0WU5LdTU5OXhlVDBfNmFwajZOTmotUFB4aGdlOU9BcHc2aEdxUjlQNU8xVnd4YjM2WExjclFpN3BWYj",
-            "country": "EU",
+            "title": "World Dental Biological Barrier Membrane - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVnRQU01qbUJybFNIT0ZSaXNXeHhLZmZkZ3h5SVVUS1dZRTIzWjVJTGtyd0ZlX2tIbmE3NE9aOXZwUENmRlB2dnhlQjdzU3MyXzJST2stcnZjb3ZDV0lQNkZQU0xBMnpOWmZnY1AySnVOZTNBTlhjNnNQNkhVMURIeFBJNFVkRXN6Z0hyX2hkMGdVLVhycUZ0VFduZ19Hd29tNVctbXdKYlRuV3RPUmx3TnpHMzVoblhYM2",
+            "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFZQUmFncTgzV1ZqZ0c3YkQwMUlaOXRKbmRKM0c1eDhvWXFnZEhfX1U5RC16UVk4MzJseGtEWDktWEE0TXQ4ay0waTRYS19KWVJ2Vmg3dWlGUVRUbDFwR0h3MXFiWkxkbWRtVzNkeDJwLWhpM2dnY0Y0QXNMRnY0WU5LdTU5OXhlVDBfNmFwajZOTmotUFB4aGdlOU9BcHc2aEdxUjlQNU8xVnd4YjM2WExjclFpN3BWYjJ6anpzSQ?oc=5",
-            "published": "Sat, 04 Jul 2026",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVnRQU01qbUJybFNIT0ZSaXNXeHhLZmZkZ3h5SVVUS1dZRTIzWjVJTGtyd0ZlX2tIbmE3NE9aOXZwUENmRlB2dnhlQjdzU3MyXzJST2stcnZjb3ZDV0lQNkZQU0xBMnpOWmZnY1AySnVOZTNBTlhjNnNQNkhVMURIeFBJNFVkRXN6Z0hyX2hkMGdVLVhycUZ0VFduZ19Hd29tNVctbXdKYlRuV3RPUmx3TnpHMzVoblhYM2xsY1VlR0IydDdFMlhMWE1yck1FeFBtQnBySjZxMVpCMUZCeF9XWA?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "口腔护理"
+          },
+          {
+            "title": "World Tropisetron Hydrochloride - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeTdJUjFOZkRLVGVyM09MSVVnTVVCSU1NNVFuMjJJM2ZMV2dKN3FiT0JjaTFkNDNWLU1IVFBucnloczN1T2FBc0dNWjFIdWNzYUY0Tm42Y1JfNjFsTVFBRXRrUVdrb2tNdlBEX0RkZlVURWY0QUVqM0NwRndWS0lTdk9PTkhtYUVSbkswUTQ3Q3VFb1U4MTNpWWw1Q2ZZVkFHSk1zbTJqM1g0NlB4YkJNVDRhc1BONE5pNV",
+            "country": "Unknown",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeTdJUjFOZkRLVGVyM09MSVVnTVVCSU1NNVFuMjJJM2ZMV2dKN3FiT0JjaTFkNDNWLU1IVFBucnloczN1T2FBc0dNWjFIdWNzYUY0Tm42Y1JfNjFsTVFBRXRrUVdrb2tNdlBEX0RkZlVURWY0QUVqM0NwRndWS0lTdk9PTkhtYUVSbkswUTQ3Q3VFb1U4MTNpWWw1Q2ZZVkFHSk1zbTJqM1g0NlB4YkJNVDRhc1BONE5pNVhhV3ZRMk5vQnBaMllZWHdHaHd6bWNyQWhmNjVBay1Qdw?oc=5",
+            "published": "Mon, 06 Jul 2026",
             "source": "IndexBox",
             "l2_source": "口腔护理"
           },
@@ -381,6 +407,32 @@
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS25Kak5OWG9nYl9DWnRHazhaRy12SmRDOEdnV0N1MUdPLUxNQTdILTdidjhfazBwRy1oeElYVnNLWGcyeTlZSTRCVnhsVFF2NWhNbEdqRDl0TEZ1YWRhVW5vS0NQQXNKS1Fsa1FYeFM1cmQzTjN5eFJ3elYyZzVCa0E3aHZQOHpaaUZDTzVQdGExbE1MM29YNkxWeUJQcDhwWTlHdG0xMVFkcEM2cVRDV1p6MzZNOUw4YlhqYmdoaGUxVHFEWVVsZVVoWmY5ODZfZ2Zacw?oc=5",
             "published": "Tue, 30 Jun 2026",
+            "source": "IndexBox",
+            "l2_source": "口腔护理"
+          },
+          {
+            "title": "Saudi Arabia Dental Surgical Lasers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVpFRVlZdk12LUVPZ0RXMHRHUDNqZWlWMmFLZDVXYURwMnl3TFVWMUo0aWVWLWdkalhZa0MxYjZEc2ZOYjBObG5hYkdvZE5UOXg1S2RJNkQ0U1lVaHRtaUVHZnJnM0RCXzI2LVZOYVVRZUMzZVgySm9sTTcxTDlpVE53SUlhWUtuU0cyX25Ucld6alYweWVua01aOVNHQjctRlkxVl8wTzB5cm1hSC1xOEpfQnBhakE?oc",
+            "country": "SA",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVpFRVlZdk12LUVPZ0RXMHRHUDNqZWlWMmFLZDVXYURwMnl3TFVWMUo0aWVWLWdkalhZa0MxYjZEc2ZOYjBObG5hYkdvZE5UOXg1S2RJNkQ0U1lVaHRtaUVHZnJnM0RCXzI2LVZOYVVRZUMzZVgySm9sTTcxTDlpVE53SUlhWUtuU0cyX25Ucld6alYweWVua01aOVNHQjctRlkxVl8wTzB5cm1hSC1xOEpfQnBhakE?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "口腔护理"
+          },
+          {
+            "title": "United Kingdom Dental Surgical Lasers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxONGhPSDd1TlVDTEtONnczczU0NWlXcXctb2RoUEpheWhpVlY0ZjZSUG4ycDg0bm5oREhmNjdSd1JkeDlDZTJKNUMyNThGR2dBRGpCRWdORG42Zk16djFUZ3hYbDB0aG9laGZ4S1RnZlJuVVRad09zRnR6cFMwX1k3dl9jbXQyOFdHNXktVVpuMjBodnVza3MzNW8xNnRwZzU2UUs5bDJxbld0c1ZxbFZ6cTRPa01ZZHJ4QV",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONGhPSDd1TlVDTEtONnczczU0NWlXcXctb2RoUEpheWhpVlY0ZjZSUG4ycDg0bm5oREhmNjdSd1JkeDlDZTJKNUMyNThGR2dBRGpCRWdORG42Zk16djFUZ3hYbDB0aG9laGZ4S1RnZlJuVVRad09zRnR6cFMwX1k3dl9jbXQyOFdHNXktVVpuMjBodnVza3MzNW8xNnRwZzU2UUs5bDJxbld0c1ZxbFZ6cTRPa01ZZHJ4QVE?oc=5",
+            "published": "Sun, 05 Jul 2026",
             "source": "IndexBox",
             "l2_source": "口腔护理"
           },
@@ -463,19 +515,6 @@
             "l2_source": "身体护理"
           },
           {
-            "title": "Mali creates state body to regulate gold trade - africanews.com",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQZXN2elp5ejdEODM1NkJIc1JvWEZlWVhOMl8xV2pjMnN6UnRESTRkTFVINXBJaFl2SVA5UV9vMEtkMmFlVjlFNnU0NGd2THhlc3J1eEdWc0VWMHYteHNZdDhaUUM0QVhGa19oZ3p5OVI4T0E5TDFnME1WOTBFNVJsMUpiQWFiUDlTTHUwN2RB0gGTAUFVX3lxTFBzYkRXcDRhVlZXOXk3WndXNzZTLXdNWFhxaUR6LXFISG",
-            "country": "Unknown",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "direct",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZXN2elp5ejdEODM1NkJIc1JvWEZlWVhOMl8xV2pjMnN6UnRESTRkTFVINXBJaFl2SVA5UV9vMEtkMmFlVjlFNnU0NGd2THhlc3J1eEdWc0VWMHYteHNZdDhaUUM0QVhGa19oZ3p5OVI4T0E5TDFnME1WOTBFNVJsMUpiQWFiUDlTTHUwN2RB0gGTAUFVX3lxTFBzYkRXcDRhVlZXOXk3WndXNzZTLXdNWFhxaUR6LXFISGkySVA4Y1NuYjFGUmpsSnRjNGZJZnVOdzZKaDU2TXRHWWdpWUVpZ0FEOHd1cHh1M3lzYkY5bDB4dVRjQllVWXV5UXg3ODMzTmFDX09QQldiRl9DVE8yMlNBSkhNV1dzLW5MRU8taUZmTkFDQQ?oc=5",
-            "published": "Fri, 03 Jul 2026",
-            "source": "africanews.com",
-            "l2_source": "身体护理"
-          },
-          {
             "title": "Trade body launched to foster self-regulation in UK prize draw sector - igamingbusiness.com",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxObGlHZGE1Q2RMdTNJYkluNlJWdDZxQ05aRF9FV1Vna1NZMi1VUWdEZVowb1hVWEdYMG1mX1JyRFg2eU9ZZzByV0FsbG1FRjM1Q3JWaFNNUzZiQnRKR0wyeXRWd192bno5TkVxSlRtZEFTYkdfSGNSSE9EcUs4Yk5vN1J3STRoTm4zZEpOTm5ESWNlTldNOWhHU3RsVkRpNXRYNzhxVGJtUGhIbVlqd3NFa3dJQzdPa2c3QX",
             "country": "US",
@@ -489,16 +528,16 @@
             "l2_source": "身体护理"
           },
           {
-            "title": "What’s in the Employment Rights Act? - Lewis Silkin",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3RPbzU0ZFhGTzJ6eWRkLXpQS1hWVHRrdTNqNzZrRUhuSEJQVW94Q1FkcWhkZE5GVXlvVFA4Zm82aTFSMnVXS19MMkFfS0xTc09OMzRkSG0zMkZiRDUyOU5UV1NCSWZWNEJuZjN5SE5ZeXpBSUNocF9KX05HT2J4dlZ2ZTdPeXlsb2c?oc=5\" target=\"_blank\">What’s in the Employment Rights Act?</a>",
-            "country": "US",
+            "title": "India - Aviation Laws and Regulations 2026 - ICLG",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5CdV9tcmRKTHV6Zkl3UlJuaEpMWjRLcHltN3hnQ19DMXNZUDItNzhwbnA0azV5MWkzNl9NNHBUR2RNeHh2ck9lS1EyeTZqVjQ2aFBPS1YyT0VUNk42blBSQXNVSE1OT3JoZ1QzUGgxOEVEQjEyOXVv?oc=5\" target=\"_blank\">India - Aviation Laws and Regulations 2026</a>&nbsp;&nbsp;<font col",
+            "country": "IN",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ3RPbzU0ZFhGTzJ6eWRkLXpQS1hWVHRrdTNqNzZrRUhuSEJQVW94Q1FkcWhkZE5GVXlvVFA4Zm82aTFSMnVXS19MMkFfS0xTc09OMzRkSG0zMkZiRDUyOU5UV1NCSWZWNEJuZjN5SE5ZeXpBSUNocF9KX05HT2J4dlZ2ZTdPeXlsb2c?oc=5",
-            "published": "Tue, 30 Jun 2026",
-            "source": "Lewis Silkin",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CdV9tcmRKTHV6Zkl3UlJuaEpMWjRLcHltN3hnQ19DMXNZUDItNzhwbnA0azV5MWkzNl9NNHBUR2RNeHh2ck9lS1EyeTZqVjQ2aFBPS1YyT0VUNk42blBSQXNVSE1OT3JoZ1QzUGgxOEVEQjEyOXVv?oc=5",
+            "published": "Fri, 03 Jul 2026",
+            "source": "ICLG",
             "l2_source": "身体护理"
           },
           {
@@ -515,29 +554,29 @@
             "l2_source": "身体护理"
           },
           {
-            "title": "World Soft Skin Adhesives - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1Y0Nzk0MlpJcVBmNVBXM0xmd25SOEhlZTZ3Yks2TmNYeGF2cG5Fd1J0eFZ3LS1VWGEwSmlIR1YxNFVQSlVuSzlINnFkdzVuamJBcTFjZW81Tk5VYW8zWk9UdGY0MjA0WVNvaUNBVW02cjJsRjZnNmh5aUxsejJMY043NE5tODc5Y3dweW1VcWxBZVZJT2hfWU52cE9JdDQxTjRSdndoc3lSUQ?oc=5\" target=\"_blan",
-            "country": "US",
+            "title": "Germany Proactive Instrument Monitoring - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjJpM29rZmxIZF9mRGhidi1IR29wQmhMT2VYYm1xNzNZOWx5X3g0VmhzdlYydmtpeG1BQkVBX1NFdzFmRzk0NGJqMDJLTHR0Q00xV3hUaThORTdobmNpakwwWFBQMkY2NlU4ZkdQMGxDVjgwWFhTUHVIZzE3YTZ6XzgtUjQ2R1E1VU5tNWh2cE4zOGdzb01PTzM0cklkYjZuY1RQbW41aWdZMEVCblZGUzQ0bjNCb3pDX0",
+            "country": "DE",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd1Y0Nzk0MlpJcVBmNVBXM0xmd25SOEhlZTZ3Yks2TmNYeGF2cG5Fd1J0eFZ3LS1VWGEwSmlIR1YxNFVQSlVuSzlINnFkdzVuamJBcTFjZW81Tk5VYW8zWk9UdGY0MjA0WVNvaUNBVW02cjJsRjZnNmh5aUxsejJMY043NE5tODc5Y3dweW1VcWxBZVZJT2hfWU52cE9JdDQxTjRSdndoc3lSUQ?oc=5",
-            "published": "Wed, 01 Jul 2026",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjJpM29rZmxIZF9mRGhidi1IR29wQmhMT2VYYm1xNzNZOWx5X3g0VmhzdlYydmtpeG1BQkVBX1NFdzFmRzk0NGJqMDJLTHR0Q00xV3hUaThORTdobmNpakwwWFBQMkY2NlU4ZkdQMGxDVjgwWFhTUHVIZzE3YTZ6XzgtUjQ2R1E1VU5tNWh2cE4zOGdzb01PTzM0cklkYjZuY1RQbW41aWdZMEVCblZGUzQ0bjNCb3pDX0wzcg?oc=5",
+            "published": "Sat, 04 Jul 2026",
             "source": "IndexBox",
             "l2_source": "身体护理"
           },
           {
-            "title": "World Trade Organisation (WTO), Member Country, Headquarter - Vajiram & Ravi",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1GemlzV2JOaEl0TENaX0ViOS1fMzFZYWpNX0VvMFk1WkNTQ3VnVDg3dDJDNEJ3SDhwQkpxUTRUZ2FfNkhKS1ZMUVZhRUN5WW5paHYtczNYUy1YM2d4NlV2UjJlcUxLQ2l4bTdkdFo5bGg4bTdfa3RJ?oc=5\" target=\"_blank\">World Trade Organisation (WTO), Member Country, Headquarter</a>&nbs",
+            "title": "Poland Commercial Vehicle Sensors - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkNBRHA0aHhrTmp3TDFGUmVjMEJKRzl5amNYOGlPd2kzMzBkUl8xcHVxLWxnY0NXSlhPd2p2WUZ6a042cFBLTmZhX0sxX3F6SjUtakNhSVpuWUJNN2k3T0tpYnBpWHZKR3hxWThrZ2I4aUREWUNZeGpiaXhjMm5oRWJLNzRjTnV5YktLOWxBMXppcm9jTE9UR19TTkVMRnpCWFZmd0NKTjVSdUQ2SUN5cGZGRnI?oc=5\" ",
             "country": "Unknown",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GemlzV2JOaEl0TENaX0ViOS1fMzFZYWpNX0VvMFk1WkNTQ3VnVDg3dDJDNEJ3SDhwQkpxUTRUZ2FfNkhKS1ZMUVZhRUN5WW5paHYtczNYUy1YM2d4NlV2UjJlcUxLQ2l4bTdkdFo5bGg4bTdfa3RJ?oc=5",
-            "published": "Mon, 29 Jun 2026",
-            "source": "Vajiram & Ravi",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkNBRHA0aHhrTmp3TDFGUmVjMEJKRzl5amNYOGlPd2kzMzBkUl8xcHVxLWxnY0NXSlhPd2p2WUZ6a042cFBLTmZhX0sxX3F6SjUtakNhSVpuWUJNN2k3T0tpYnBpWHZKR3hxWThrZ2I4aUREWUNZeGpiaXhjMm5oRWJLNzRjTnV5YktLOWxBMXppcm9jTE9UR19TTkVMRnpCWFZmd0NKTjVSdUQ2SUN5cGZGRnI?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
             "l2_source": "身体护理"
           }
         ],
@@ -568,6 +607,16 @@
               "身体护理"
             ]
           },
+          "JP": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "卫生用品"
+            ]
+          },
           "EU": {
             "trend": "neutral",
             "key_policies": [
@@ -581,16 +630,6 @@
               "身体护理"
             ]
           },
-          "JP": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "卫生用品"
-            ]
-          },
           "Unknown": {
             "trend": "neutral",
             "key_policies": [
@@ -598,7 +637,38 @@
             ],
             "impact": "neutral",
             "affected_l2s": [
+              "卫生用品",
               "口腔护理",
+              "身体护理"
+            ]
+          },
+          "SA": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "口腔护理"
+            ]
+          },
+          "IN": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "身体护理"
+            ]
+          },
+          "DE": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
               "身体护理"
             ]
           }
@@ -623,9 +693,9 @@
       "l3_count": 167,
       "customs_2025": {
         "china_export": {
-          "total_usd": 6620335416579.0,
-          "total_kg": 1370075482.0,
-          "yoy_growth": -0.0,
+          "total_usd": 6652321318629.0,
+          "total_kg": 1355977532.0,
+          "yoy_growth": 0.0,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
@@ -677,6 +747,12 @@
               "share_pct": 12.3
             },
             {
+              "name_cn": "研磨材料",
+              "name_en": "Abrasives",
+              "total_usd": 48255977532.0,
+              "share_pct": 0.7
+            },
+            {
               "name_cn": "手动工具",
               "name_en": "Hand Tools",
               "total_usd": 27703148003.0,
@@ -693,12 +769,6 @@
               "name_en": "Drill Bits",
               "total_usd": 27703148003.0,
               "share_pct": 0.4
-            },
-            {
-              "name_cn": "研磨材料",
-              "name_en": "Abrasives",
-              "total_usd": 16270075482.0,
-              "share_pct": 0.2
             },
             {
               "name_cn": "五金",
@@ -722,39 +792,39 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 11431260903.0,
+            "value_usd": 15269569149.0,
             "yoy": 0,
-            "share": 0.4
+            "share": 0.6
           },
           "DE": {
-            "value_usd": 2655312385642.03,
+            "value_usd": 2659022750280.03,
             "yoy": 0,
-            "share": 97.6
+            "share": 97.9
           },
           "GB": {
-            "value_usd": 1773438227.0,
+            "value_usd": 5259901550.0,
             "yoy": 0,
-            "share": 0.1
+            "share": 0.2
           },
           "JP": {
-            "value_usd": 22039652907.82,
+            "value_usd": 9072576465.41,
             "yoy": 0,
-            "share": 0.8
+            "share": 0.3
           },
           "AU": {
-            "value_usd": 22377996693.82,
+            "value_usd": 4922109708.0,
             "yoy": 0,
-            "share": 0.8
+            "share": 0.2
           },
           "KR": {
-            "value_usd": 1724628001.0,
+            "value_usd": 5115133618.0,
             "yoy": 0,
-            "share": 0.1
+            "share": 0.2
           },
           "IN": {
-            "value_usd": 1610737472.0,
+            "value_usd": 4777341775.0,
             "yoy": 0,
-            "share": 0.1
+            "share": 0.2
           },
           "VN": {
             "value_usd": 0.0,
@@ -777,19 +847,19 @@
             "share": 0.0
           },
           "SA": {
-            "value_usd": 1496846944.0,
+            "value_usd": 4439549932.0,
             "yoy": 0,
-            "share": 0.1
+            "share": 0.2
           },
           "FR": {
-            "value_usd": 780963623.0,
-            "yoy": 0,
-            "share": 0.0
-          },
-          "BR": {
-            "value_usd": 1545657170.0,
+            "value_usd": 2316286921.0,
             "yoy": 0,
             "share": 0.1
+          },
+          "BR": {
+            "value_usd": 4584317865.0,
+            "yoy": 0,
+            "share": 0.2
           },
           "ID": {
             "value_usd": 0,
@@ -809,32 +879,6 @@
       "policy_updates": {
         "articles": [
           {
-            "title": "EU issues new steel and e-commerce regulations to reduce trade imbalance with China - ABC News - Breaking News, Latest N",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNW4zY3FuR3RGMUlKMWhlMjJsMk1rZEtEZGZJb2hLTEdLUjl3UzFGaGVJVEhjcGpBSHBGRTctRW5ZX1FTcFBoNDB5elB4ZzJxSVYwNl9OQkRrSzNwUGdEX2ExYlI4UndYTXVOdFdheFVDWkRvZEVLQVJ2X1pqWXhQU05PRDh1TWtBY1BVT180UzlIVXctRk5CbW45ekU5VmNMdmxULWhfVnYwWTTSAbABQVVfeXFMTnJyWn",
-            "country": "EU",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNW4zY3FuR3RGMUlKMWhlMjJsMk1rZEtEZGZJb2hLTEdLUjl3UzFGaGVJVEhjcGpBSHBGRTctRW5ZX1FTcFBoNDB5elB4ZzJxSVYwNl9OQkRrSzNwUGdEX2ExYlI4UndYTXVOdFdheFVDWkRvZEVLQVJ2X1pqWXhQU05PRDh1TWtBY1BVT180UzlIVXctRk5CbW45ekU5VmNMdmxULWhfVnYwWTTSAbABQVVfeXFMTnJyWnRLWG1SS0RaOU1PdmlPa1ZQSlU4V28wdU5lb2xXUmxTUnZIb1lvZmFqaGlFTy10TkhIQWQwZ2JKN1dVcXhLMjh3c0w1UHhXdkN6RnlSVUxwT0pmb3NMS3UxYlJkek9QR2w0RGl1TE83ck9YX2pRcFVjblE2eUVEaFlBa241a2dsazNMOHVrTmNFTjJ1ZE5wYzRfM0NMNVAtSWcxV1FXc2w4R04tQkw?oc=5",
-            "published": "Wed, 01 Jul 2026",
-            "source": "ABC News - Breaking News, Latest News and Videos",
-            "l2_source": "动力工具"
-          },
-          {
-            "title": "What Is a Trade War? History, Tariffs, & Impact - Encyclopedia Britannica",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOQm1yN1o4dXBKdWVGdE1IeG9xN3NTaUdJQUFDOXR3NDZlZmVhYTVhSjdPMFllWHA5SXduczlPMTNoU3FmNEIybl80SEZjYnBPYVpZeHFQekFaVVAtNG9N?oc=5\" target=\"_blank\">What Is a Trade War? History, Tariffs, & Impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Encyclopedia B",
-            "country": "Unknown",
-            "policy_type": "tariff",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOQm1yN1o4dXBKdWVGdE1IeG9xN3NTaUdJQUFDOXR3NDZlZmVhYTVhSjdPMFllWHA5SXduczlPMTNoU3FmNEIybl80SEZjYnBPYVpZeHFQekFaVVAtNG9N?oc=5",
-            "published": "Tue, 30 Jun 2026",
-            "source": "Encyclopedia Britannica",
-            "l2_source": "动力工具"
-          },
-          {
             "title": "AI Watch: Global regulatory tracker - United States - White & Case LLP",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPbnFCYmQ4ZElvUk9tUFQ0Z210S2hrNmtMaGhid3IxZmozUnVDUm8tZ0FrY05nNlR5bXZLOUk5WWJkcHVjMzhvazJ6M3I2bGtCUlZFWlBBT2l1MGdGbExWY09kWXZZNlQxTW16VjJzSC1McDZ2N21oTjdqclZnVHZTN1VpbmRacC10NjZNYVNIWnBOUGRpblNsRURZbw?oc=5\" target=\"_blank\">AI Watch: Global ",
             "country": "US",
@@ -848,28 +892,28 @@
             "l2_source": "动力工具"
           },
           {
-            "title": "Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalates - economy",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rdmdDdHFiZEplWnlhdmRISllKM3Y1eDBiUXJrOHVyOGVsanNvSXdXeGJxRFE1Vnc2MV9mT2JjbTNuam5tWDUzanJYaFdXeW1taGJNR0FFRQ?oc=5\" target=\"_blank\">Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalate",
+            "title": "Steel is the test case for dealing with China’s overcapacity - Euractiv",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxON0dUbDBnUUxRdHI3X1ZhU3E4QjRGWkZVT0UyTnRHNkhqcHpydHFiRDNMQlRZT1VZeUc1dGhienVoWEc3NzZ5Z3daMlNJNmZ4T0FGaVVlcHpzaXdCajVRbUxCbFB2anctMmNZbzZ6NjY4aDNMZUo0enNzQkJfX2FHc3JEV3huX1F5Wk9SaFJjcllUWXZyU3pEeQ?oc=5\" target=\"_blank\">Steel is the test cas",
             "country": "EU",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rdmdDdHFiZEplWnlhdmRISllKM3Y1eDBiUXJrOHVyOGVsanNvSXdXeGJxRFE1Vnc2MV9mT2JjbTNuam5tWDUzanJYaFdXeW1taGJNR0FFRQ?oc=5",
-            "published": "Sun, 28 Jun 2026",
-            "source": "economy.ac",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON0dUbDBnUUxRdHI3X1ZhU3E4QjRGWkZVT0UyTnRHNkhqcHpydHFiRDNMQlRZT1VZeUc1dGhienVoWEc3NzZ5Z3daMlNJNmZ4T0FGaVVlcHpzaXdCajVRbUxCbFB2anctMmNZbzZ6NjY4aDNMZUo0enNzQkJfX2FHc3JEV3huX1F5Wk9SaFJjcllUWXZyU3pEeQ?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "Euractiv",
             "l2_source": "动力工具"
           },
           {
-            "title": "World Inorganic Fluorine Compounds - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWkNWTnJLRE4xd2lCQ1RqTHJHMEQ0ZVBHMDgweXd0OEotTGVnS05ycUNDc0lranZjcll1ZkhNOVBTYmhkNURjMDFoT2NfVXloQi1TUTNYelJKdl9iN0VyUnJMeE9TbENBM1h4RGJSSkgxakJVc1FQVHJ2TDhHeDRUWjZjRjFhN3hVcFNMSGZjOTNCNjF6S0ROX3lrZnVWdkJzcVZQQXhIb3hoWUI0TTdNSkZrWjJRelVFR3",
-            "country": "Unknown",
+            "title": "World Turf and Lawn Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVpkNEFKWmFsR0hhb1JhdTYyb0lGbHpyaTZPc3E3TVVIUndhdDBxVlZEMkZ6UGFxSk1vQkJLbDdMTjZ2ei00WmctdHg0cDJYdTgtcmNLOUFCT2t3TmxSOGRrMXhYd2FpNW5aUmI3WEt4RG12MDVySG4zenpJbm9lUks3R3ZzYWZPQk1rN3pEcnhQb1lzcks4eEJLNndlTzRhNW44UWN1bmh5Rll3QjFj?oc=5\" target=",
+            "country": "GB",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWkNWTnJLRE4xd2lCQ1RqTHJHMEQ0ZVBHMDgweXd0OEotTGVnS05ycUNDc0lranZjcll1ZkhNOVBTYmhkNURjMDFoT2NfVXloQi1TUTNYelJKdl9iN0VyUnJMeE9TbENBM1h4RGJSSkgxakJVc1FQVHJ2TDhHeDRUWjZjRjFhN3hVcFNMSGZjOTNCNjF6S0ROX3lrZnVWdkJzcVZQQXhIb3hoWUI0TTdNSkZrWjJRelVFR3F1M01tRHROVGg1a1lBUENiX0IzclJiaEc4SA?oc=5",
-            "published": "Fri, 03 Jul 2026",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVpkNEFKWmFsR0hhb1JhdTYyb0lGbHpyaTZPc3E3TVVIUndhdDBxVlZEMkZ6UGFxSk1vQkJLbDdMTjZ2ei00WmctdHg0cDJYdTgtcmNLOUFCT2t3TmxSOGRrMXhYd2FpNW5aUmI3WEt4RG12MDVySG4zenpJbm9lUks3R3ZzYWZPQk1rN3pEcnhQb1lzcks4eEJLNndlTzRhNW44UWN1bmh5Rll3QjFj?oc=5",
+            "published": "Sat, 04 Jul 2026",
             "source": "IndexBox",
             "l2_source": "动力工具"
           },
@@ -887,6 +931,19 @@
             "l2_source": "动力工具"
           },
           {
+            "title": "Trade and tariffs - KPMG",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qNjZfUE9EWE1JTWlXRXVDRlVSWEFMNTNpWmFlZEI5UzdSOHlINTk1ZXcteEhJQzgtYVIwR1FSUkZVOXRQZ1Z6ajRQN0h5bFQ2SUpTcVBsN1BaUUstNWFQWWJOU1c?oc=5\" target=\"_blank\">Trade and tariffs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KPMG</font>",
+            "country": "US",
+            "policy_type": "tariff",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qNjZfUE9EWE1JTWlXRXVDRlVSWEFMNTNpWmFlZEI5UzdSOHlINTk1ZXcteEhJQzgtYVIwR1FSUkZVOXRQZ1Z6ajRQN0h5bFQ2SUpTcVBsN1BaUUstNWFQWWJOU1c?oc=5",
+            "published": "Sat, 04 Jul 2026",
+            "source": "KPMG",
+            "l2_source": "动力工具"
+          },
+          {
             "title": "Top Five Policy Issues report 2026 - Standard Chartered",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yLWNGczJjN21Eb3Iza2xnUTlDYWR3dHdyc0JnNldGWXFQV1lsN0RrTzBMNTRfM181alY1LXlzZWNEdFoySU1sZWhKSzNfSC0wUHBrTll3dXMtRVFGQ1BLaEdiMjhoUQ?oc=5\" target=\"_blank\">Top Five Policy Issues report 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Standard Chartere",
             "country": "Unknown",
@@ -895,21 +952,8 @@
             "impact_score": 0.3,
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yLWNGczJjN21Eb3Iza2xnUTlDYWR3dHdyc0JnNldGWXFQV1lsN0RrTzBMNTRfM181alY1LXlzZWNEdFoySU1sZWhKSzNfSC0wUHBrTll3dXMtRVFGQ1BLaEdiMjhoUQ?oc=5",
-            "published": "Thu, 02 Jul 2026",
+            "published": "Sun, 05 Jul 2026",
             "source": "Standard Chartered",
-            "l2_source": "动力工具"
-          },
-          {
-            "title": "\"Protecting Domestic Industry vs Securing a Core Market\" EU and China Enter High-Level Trade Talks as Disputes Intensify",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lellRX0NWb1htTzdJLXlCNnlZRGNkTEZBR0YzNDUtbnpuYXdOUGpNOGhMWHhSRm5QYW5UUkQyMUptN1JBWThHd1ZWclZqMUZfU0lMTGFoSQ?oc=5\" target=\"_blank\">\"Protecting Domestic Industry vs Securing a Core Market\" EU and China Enter High-Level Trade Talks as Dispute",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lellRX0NWb1htTzdJLXlCNnlZRGNkTEZBR0YzNDUtbnpuYXdOUGpNOGhMWHhSRm5QYW5UUkQyMUptN1JBWThHd1ZWclZqMUZfU0lMTGFoSQ?oc=5",
-            "published": "Sun, 28 Jun 2026",
-            "source": "economy.ac",
             "l2_source": "动力工具"
           },
           {
@@ -926,30 +970,30 @@
             "l2_source": "动力工具"
           },
           {
-            "title": "World Turf and Lawn Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVpkNEFKWmFsR0hhb1JhdTYyb0lGbHpyaTZPc3E3TVVIUndhdDBxVlZEMkZ6UGFxSk1vQkJLbDdMTjZ2ei00WmctdHg0cDJYdTgtcmNLOUFCT2t3TmxSOGRrMXhYd2FpNW5aUmI3WEt4RG12MDVySG4zenpJbm9lUks3R3ZzYWZPQk1rN3pEcnhQb1lzcks4eEJLNndlTzRhNW44UWN1bmh5Rll3QjFj?oc=5\" target=",
+            "title": "The Payments Association Appoints Renuka Rawlins as Director of Policy to Drive Regulatory Strategy - FF News",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxORjlPMlFEYjA2RFJnNThHOFR4bzdpZFlob1d2TW9rcmMtNGp2d1dJS3FmZzRiV3BLX2Jpa0JjV3ZyckF3b2JFcWJsOHIwZjZwemtqcDhTU1lYR1dIZG1FcHhjd0oxMmRlTDBFU2gyZkhSd1RKTFdiMFBGVTJ1VU5lQWl5NjhCMjBla0lyLUo4SFNBcWp2LWJUdVdVbkQ1MlRrbm1MOVNVcENvekxoVUVnRG5GdU9ySWFKU0",
             "country": "GB",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSVpkNEFKWmFsR0hhb1JhdTYyb0lGbHpyaTZPc3E3TVVIUndhdDBxVlZEMkZ6UGFxSk1vQkJLbDdMTjZ2ei00WmctdHg0cDJYdTgtcmNLOUFCT2t3TmxSOGRrMXhYd2FpNW5aUmI3WEt4RG12MDVySG4zenpJbm9lUks3R3ZzYWZPQk1rN3pEcnhQb1lzcks4eEJLNndlTzRhNW44UWN1bmh5Rll3QjFj?oc=5",
-            "published": "Sat, 04 Jul 2026",
-            "source": "IndexBox",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORjlPMlFEYjA2RFJnNThHOFR4bzdpZFlob1d2TW9rcmMtNGp2d1dJS3FmZzRiV3BLX2Jpa0JjV3ZyckF3b2JFcWJsOHIwZjZwemtqcDhTU1lYR1dIZG1FcHhjd0oxMmRlTDBFU2gyZkhSd1RKTFdiMFBGVTJ1VU5lQWl5NjhCMjBla0lyLUo4SFNBcWp2LWJUdVdVbkQ1MlRrbm1MOVNVcENvekxoVUVnRG5GdU9ySWFKU01IRXc5cHY?oc=5",
+            "published": "Wed, 01 Jul 2026",
+            "source": "FF News",
             "l2_source": "动力工具"
           },
           {
-            "title": "World Brushless Lithium Battery Impact Wrench - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNVWZVQTFKV29uTm1IaHpUUEVjMGJYSlFuc2FHa3JUb3R3ZWZ3ZExhcVdnMXhCakxkMmttTzV4ZUNYWE5MN3Z1N2pnVnhmdGo2NnR4RXZaYTRneXQxSWp6S1NpRU9KUXQyTTE0T1FrTVEtamhqZ3d4YUl3MUpCVHBIY0J0YXZKTDVOSHVTdFk5Z0pUQW9FaElZczZXZkRBUURucENwcEhqZGdkTlNwWGdhNjQxd3VEWVIxc0",
+            "title": "Kenya Power weighs tariff changes as demand and financing needs grow - AD HOC NEWS",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNUzRvYVlWUFR5NzRVQ25aN25ySUdEWC02Q0laQm5OY1BTOGNFSzVuSGFnWGtKMTByZ3ZMNGNJVGllb3R2VVZtRkcyT2VubFZKbG00UVVqdTF5dkdFb3BKLUFkNmQxMGJzcmttWGRDMVlqQ29SVU1UTGhBcWhXWUJOZEZYQWdPVks4XzdJWHUxa1RTZVhmdUFrSFl6UnZkQzZSakk3ZnZ4OEcxQTJCY1NjOGEtYnpPaFRZZ3",
             "country": "US",
-            "policy_type": "compliance",
+            "policy_type": "tariff",
             "impact": "neutral",
             "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVWZVQTFKV29uTm1IaHpUUEVjMGJYSlFuc2FHa3JUb3R3ZWZ3ZExhcVdnMXhCakxkMmttTzV4ZUNYWE5MN3Z1N2pnVnhmdGo2NnR4RXZaYTRneXQxSWp6S1NpRU9KUXQyTTE0T1FrTVEtamhqZ3d4YUl3MUpCVHBIY0J0YXZKTDVOSHVTdFk5Z0pUQW9FaElZczZXZkRBUURucENwcEhqZGdkTlNwWGdhNjQxd3VEWVIxc0ZJSC1ha3dxRkVB?oc=5",
-            "published": "Tue, 30 Jun 2026",
-            "source": "IndexBox",
-            "l2_source": "手动工具"
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUzRvYVlWUFR5NzRVQ25aN25ySUdEWC02Q0laQm5OY1BTOGNFSzVuSGFnWGtKMTByZ3ZMNGNJVGllb3R2VVZtRkcyT2VubFZKbG00UVVqdTF5dkdFb3BKLUFkNmQxMGJzcmttWGRDMVlqQ29SVU1UTGhBcWhXWUJOZEZYQWdPVks4XzdJWHUxa1RTZVhmdUFrSFl6UnZkQzZSakk3ZnZ4OEcxQTJCY1NjOGEtYnpPaFRZZ3hYNTZuWGF5aHUwR2c?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "AD HOC NEWS",
+            "l2_source": "动力工具"
           },
           {
             "title": "Canada Electrical Distribution Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
@@ -962,7 +1006,59 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLVRfcElGTG1qLU5kOFpvckhYeFpBMUgyXzBFUnRYeWV0bjJacXQ2OEZSckNaTXRHSzVSc3paYXVrVHd4S1BWTDVHYldzZmFrSy1LSzN0UHlsdzJ4YlEwaWV5QnZxc3VvVmk4cEZ4V1dETlQ0d2wzS05kb2IxaWJhX2dZS0tFLU5HNDBmOVFybGlpOXZ1UERBaktpdkNFV0ZJc1pXang5SUJLOGpRWE85cS1qZUFxc253Q2VMMUln?oc=5",
             "published": "Fri, 03 Jul 2026",
             "source": "IndexBox",
+            "l2_source": "动力工具"
+          },
+          {
+            "title": "United States Pedestal Boom System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkV4TzBuanBOU0JCZThCWDJTSXZ5RU1UVGZTaUFIaUFrdUlPckZOQ1ZMTER5SmRqSHBxNnJOZ2FtSkZLQkI4SWlFeEcyOGozYTN0Q1ZtYXgyZ3MxQ1RBUU83TWhaSUhjNFVPNFdndFVjbWJYcjlqLWVXNmI5U01fQ2Y2WWZhbzg1c1hyc2trOFV4ZGFsZkVyNFNGT0E1ZU9pWjNVMzlNXzR0bWJ6UG9VU2xoN3B5QQ?oc=",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSkV4TzBuanBOU0JCZThCWDJTSXZ5RU1UVGZTaUFIaUFrdUlPckZOQ1ZMTER5SmRqSHBxNnJOZ2FtSkZLQkI4SWlFeEcyOGozYTN0Q1ZtYXgyZ3MxQ1RBUU83TWhaSUhjNFVPNFdndFVjbWJYcjlqLWVXNmI5U01fQ2Y2WWZhbzg1c1hyc2trOFV4ZGFsZkVyNFNGT0E1ZU9pWjNVMzlNXzR0bWJ6UG9VU2xoN3B5QQ?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
             "l2_source": "手动工具"
+          },
+          {
+            "title": "United States Arthroscopic Hand Instruments - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeExnUlBFRWEwdGFxZ3Y5YWE1U2J5RUIyVFNXOThiTWFEeFZ4Z0NHU21IdXRwRElZLVJMUDNMaGdoR0tiNlY0N0VORDJha0xfcG44NnVrVVR6MFZaalo3RFVLbHhka3pfbWRpSXZLTWVjdzFBc05wN3lHZUUyRExDRC1WazFmZ21vUkRJcHl6ODRfTXdoQUdkOEo0bjhFbGtMQ0hiU0R3bXU1TkNYcXJEd3BUSkdOVnBEaG",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeExnUlBFRWEwdGFxZ3Y5YWE1U2J5RUIyVFNXOThiTWFEeFZ4Z0NHU21IdXRwRElZLVJMUDNMaGdoR0tiNlY0N0VORDJha0xfcG44NnVrVVR6MFZaalo3RFVLbHhka3pfbWRpSXZLTWVjdzFBc05wN3lHZUUyRExDRC1WazFmZ21vUkRJcHl6ODRfTXdoQUdkOEo0bjhFbGtMQ0hiU0R3bXU1TkNYcXJEd3BUSkdOVnBEaGNlXy0wRDV5Zw?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "手动工具"
+          },
+          {
+            "title": "Turkey Industrial Welding Machines - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXA5N2ZIQ0ZuNDM1ZFhvQmhIV01UZzRfeHJBc0hhZGwwU1Via3IxNXkwOVRjem51TkNWUXE0RUwwbmNjbGlaQ2JhNWZzVXdXMkRWR1duZTZzLWluUTF6UEdZN0stWk1ScWRXMmQ5dE5JcWRKUHhTYVBsVWFjLVV6WUo2bVVIdVlDQTg2NWl6RU4xcWtUY0doOV9qZmZWdlBjYnRwaWRPY2RsVUZjQlRBMGl4RkJvZw?oc=",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXA5N2ZIQ0ZuNDM1ZFhvQmhIV01UZzRfeHJBc0hhZGwwU1Via3IxNXkwOVRjem51TkNWUXE0RUwwbmNjbGlaQ2JhNWZzVXdXMkRWR1duZTZzLWluUTF6UEdZN0stWk1ScWRXMmQ5dE5JcWRKUHhTYVBsVWFjLVV6WUo2bVVIdVlDQTg2NWl6RU4xcWtUY0doOV9qZmZWdlBjYnRwaWRPY2RsVUZjQlRBMGl4RkJvZw?oc=5",
+            "published": "Sun, 05 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "焊接配套用品"
+          },
+          {
+            "title": "Saudi Arabia Industrial Welding Machines - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnludjB4RDQ5bE1tcmlyRVVWZFVCOF9oSjBYeEtKZTBaTXlGLVphWUs3c3pSWWNTNjR2Q3p6NG03U0NMYWR5THRoYnFzMjU0YjAteEQ4UHJsZGMyM05MUVpHa1FVOHVkU1RaYzhJdDZVanMtcXlwYVZGZUhoR1hiTVFObHJ5YjdRWnhBeE9KaG9xT0dXb091ZTR0bjQ0X1lqVUNNa01Nc2h4aFBjN0hLbS01dlBZRFBHUH",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnludjB4RDQ5bE1tcmlyRVVWZFVCOF9oSjBYeEtKZTBaTXlGLVphWUs3c3pSWWNTNjR2Q3p6NG03U0NMYWR5THRoYnFzMjU0YjAteEQ4UHJsZGMyM05MUVpHa1FVOHVkU1RaYzhJdDZVanMtcXlwYVZGZUhoR1hiTVFObHJ5YjdRWnhBeE9KaG9xT0dXb091ZTR0bjQ0X1lqVUNNa01Nc2h4aFBjN0hLbS01dlBZRFBHUHhfQXFR?oc=5",
+            "published": "Sun, 05 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "焊接配套用品"
           },
           {
             "title": "Call for closer trading ties at major European fastener manufacturer’s assembly - Greater Birmingham Chambers of Commerc",
@@ -992,19 +1088,7 @@
           }
         ],
         "country_summary": {
-          "EU": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "动力工具",
-              "手动工具",
-              "紧固件"
-            ]
-          },
-          "Unknown": {
+          "US": {
             "trend": "neutral",
             "key_policies": [
               "tariff",
@@ -1013,10 +1097,11 @@
             "impact": "neutral",
             "affected_l2s": [
               "动力工具",
-              "手动工具"
+              "手动工具",
+              "焊接配套用品"
             ]
           },
-          "US": {
+          "EU": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
@@ -1024,7 +1109,7 @@
             "impact": "neutral",
             "affected_l2s": [
               "动力工具",
-              "手动工具"
+              "紧固件"
             ]
           },
           "GB": {
@@ -1036,8 +1121,17 @@
             "affected_l2s": [
               "动力工具",
               "园林工具",
-              "手动工具",
               "钻头"
+            ]
+          },
+          "Unknown": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "动力工具"
             ]
           },
           "CA": {
@@ -1047,6 +1141,7 @@
             ],
             "impact": "neutral",
             "affected_l2s": [
+              "动力工具",
               "手动工具"
             ]
           }
@@ -1071,66 +1166,66 @@
       "l3_count": 32,
       "customs_2025": {
         "china_export": {
-          "total_usd": 892109278913.0,
-          "total_kg": 1973374113.0,
-          "yoy_growth": 1.2,
+          "total_usd": 852310951121.0,
+          "total_kg": 175046321.0,
+          "yoy_growth": -0.1,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "量具",
               "name_en": "Measuring & Gauging Tools",
               "total_usd": 815119487136.0,
-              "share_pct": 91.4
-            },
-            {
-              "name_cn": "检测与分析仪器",
-              "name_en": "Testing and Analysis Instruments",
-              "total_usd": 44873374113.0,
-              "share_pct": 5.0
+              "share_pct": 95.6
             },
             {
               "name_cn": "实验室用品",
               "name_en": "Lab Supplies",
               "total_usd": 32116417664.0,
-              "share_pct": 3.6
+              "share_pct": 3.8
+            },
+            {
+              "name_cn": "检测与分析仪器",
+              "name_en": "Testing and Analysis Instruments",
+              "total_usd": 5075046321.0,
+              "share_pct": 0.6
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 8077207340.0,
+            "value_usd": 1319512043.0,
             "yoy": 0,
-            "share": 2.1
+            "share": 0.4
           },
           "DE": {
-            "value_usd": 342027652751.07,
+            "value_usd": 335483372189.07,
             "yoy": 0,
-            "share": 89.7
+            "share": 98.2
           },
           "GB": {
-            "value_usd": 7179739858.0,
+            "value_usd": 1157110561.0,
             "yoy": 0,
-            "share": 1.9
+            "share": 0.3
           },
           "JP": {
-            "value_usd": 7493853476.0,
+            "value_usd": 1212936070.0,
             "yoy": 0,
-            "share": 2.0
+            "share": 0.4
           },
           "AU": {
-            "value_usd": 6641259368.0,
+            "value_usd": 0.0,
             "yoy": 0,
-            "share": 1.7
+            "share": 0.0
           },
           "KR": {
-            "value_usd": 9074673902.0,
+            "value_usd": 2285975400.0,
             "yoy": 0,
-            "share": 2.4
+            "share": 0.7
           },
           "IN": {
-            "value_usd": 762847359.0,
+            "value_usd": 0.0,
             "yoy": 0,
-            "share": 0.2
+            "share": 0.0
           },
           "VN": {
             "value_usd": 0.0,
@@ -1185,29 +1280,42 @@
       "policy_updates": {
         "articles": [
           {
-            "title": "Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalates - economy",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rdmdDdHFiZEplWnlhdmRISllKM3Y1eDBiUXJrOHVyOGVsanNvSXdXeGJxRFE1Vnc2MV9mT2JjbTNuam5tWDUzanJYaFdXeW1taGJNR0FFRQ?oc=5\" target=\"_blank\">Europe Follows the U.S. in Closing the Gates on China’s Low-Cost Export Surge, as EU-China Trade War Escalate",
-            "country": "EU",
+            "title": "Caught between a rock and a hard place: Mapping your supply chain - Supply Chain Management Review",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1SLUVCMFZmVWpyRWJqOGxXWEgtZ2tfdUdvUGlfMDAtOGpCamtZS003WkE4bVJIc1N2MGdmN1liUmY2WHp2Nk42bmZJLXk0N0RSeEE3TXNjeXNEbmdWYnRrVVlKSnhBSjJCa0FDcmZoN3FuLTR0UEtHN2cwZjJsUQ?oc=5\" target=\"_blank\">Caught between a rock and a hard place: Mapping your supp",
+            "country": "Unknown",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rdmdDdHFiZEplWnlhdmRISllKM3Y1eDBiUXJrOHVyOGVsanNvSXdXeGJxRFE1Vnc2MV9mT2JjbTNuam5tWDUzanJYaFdXeW1taGJNR0FFRQ?oc=5",
-            "published": "Sun, 28 Jun 2026",
-            "source": "economy.ac",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SLUVCMFZmVWpyRWJqOGxXWEgtZ2tfdUdvUGlfMDAtOGpCamtZS003WkE4bVJIc1N2MGdmN1liUmY2WHp2Nk42bmZJLXk0N0RSeEE3TXNjeXNEbmdWYnRrVVlKSnhBSjJCa0FDcmZoN3FuLTR0UEtHN2cwZjJsUQ?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "Supply Chain Management Review",
             "l2_source": "实验室用品"
           },
           {
-            "title": "Animal welfare and wildlife protection: EU laws explained - European Parliament",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ2ZvdEFTWTVyZWl2OXFQTnBMN1U2bFlZNWN0YS1qR09VZmY0WnRra1ZzRWo4MzZ5LVlDbFcwRW1Xc1ZhaVpwRkVDTXFMcmhyeWgzemJGVUJrd0ltYUEyYUNHXzdWOHBwRFhqQ1ZEeEZrREljMVRsd1k0TjdHbDRKY251X29RSGJkdjJnazRFR1NiYmRGbEw5RUEtOThpdVJNNWQ1emtxOFZTMFFISmVjN1Zld2R3VnFDYk",
-            "country": "EU",
+            "title": "World Ion Selective Clinical Lab Analyzers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNWNHcm5BZzhXbzN6RXU0NnJEbW9IZlZFeVFjbGx4TlloV0pJTFJKaU1mU1NISnhiaXNMR21XOXdqNkY0d2lxV3hMMEVhSjJwbWZMcWJuTDlkODhBQmpfRi1OMzd5Yk1RdkMwSHBWWGxDSjh3X1pqSFNtTVN1dnFvMGtLdDNhSlhTeHF0M2hmc0ZLZGNFMUpvS2s3VUFSUHJ1OHlieS1CSUFFN2V3M0p5R0hiRGtXRjR6Z2",
+            "country": "Unknown",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ2ZvdEFTWTVyZWl2OXFQTnBMN1U2bFlZNWN0YS1qR09VZmY0WnRra1ZzRWo4MzZ5LVlDbFcwRW1Xc1ZhaVpwRkVDTXFMcmhyeWgzemJGVUJrd0ltYUEyYUNHXzdWOHBwRFhqQ1ZEeEZrREljMVRsd1k0TjdHbDRKY251X29RSGJkdjJnazRFR1NiYmRGbEw5RUEtOThpdVJNNWQ1emtxOFZTMFFISmVjN1Zld2R3VnFDYkFRZVRlaw?oc=5",
-            "published": "Mon, 29 Jun 2026",
-            "source": "European Parliament",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNWNHcm5BZzhXbzN6RXU0NnJEbW9IZlZFeVFjbGx4TlloV0pJTFJKaU1mU1NISnhiaXNMR21XOXdqNkY0d2lxV3hMMEVhSjJwbWZMcWJuTDlkODhBQmpfRi1OMzd5Yk1RdkMwSHBWWGxDSjh3X1pqSFNtTVN1dnFvMGtLdDNhSlhTeHF0M2hmc0ZLZGNFMUpvS2s3VUFSUHJ1OHlieS1CSUFFN2V3M0p5R0hiRGtXRjR6Z25NRVQ1VS1SOHEyZXZwOU1WYlB2U21YMkI1NDRmbDR3cllFYUJVd1BHVEdvZTlQajRQN0VzTHRqLXM?oc=5",
+            "published": "Tue, 30 Jun 2026",
+            "source": "IndexBox",
+            "l2_source": "实验室用品"
+          },
+          {
+            "title": "ICSCE Delhi 2026 Concludes on a High Note, Bringing Together 1,500+ Global Delegates to Shape the Future of Sustainable ",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxOV2k5R01QTm1JcnJnN1ZHWjVyNGd1b2lxbXFmS3dheEdfREg2S0RuNVQ4d29NdS10T2dRbHRWT3hHaTFialVpQ0FOR3FJRzVidTFhek5FazlvbTBYQ1hVbVNhbnMybUR4ajc1VTFpNlRLMnY0XzJWZXZxNlIwU3ZNS1VMZlB3aWtwT3dHQzdpMFFCRXZ5Mm11aVVEVnV4OGdubWwxZUEwdUJkeWlhY0xDdVdrNUpJSG5iSm",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOV2k5R01QTm1JcnJnN1ZHWjVyNGd1b2lxbXFmS3dheEdfREg2S0RuNVQ4d29NdS10T2dRbHRWT3hHaTFialVpQ0FOR3FJRzVidTFhek5FazlvbTBYQ1hVbVNhbnMybUR4ajc1VTFpNlRLMnY0XzJWZXZxNlIwU3ZNS1VMZlB3aWtwT3dHQzdpMFFCRXZ5Mm11aVVEVnV4OGdubWwxZUEwdUJkeWlhY0xDdVdrNUpJSG5iSmFlaEdnOGpJOTdlcWFpcGhIdXIzbFlPR0JYT2J0SGtjbzR4dU5OZGpCQnZMNTBuMDB1Z052Z18yb0dvUE1ncmNrSkVhRGNpTzNEcGVqTWc2Z9IBjwJBVV95cUxNQlpnZDVlY3ZheUVSLWtlZ2t1S1pUQjlTdkw3VEpvVVpwZWZGUlN3VVA3Nnd1MnUybjhUdkVNd3d1Rmk1N2p5b2lPMW9UU0gydU9ONWNDM3c4REp3UWI4THZ1dnJSbGJmWllZZUswdUotd1c5MHppS1JUWDlLMG0waW1TdFpqNElLdTY0QWpGdzVzM1hoWmdSY1NranR1TjBSVU80Q2dZZEhQTjNjdzVmbW5zRGp1VTVLZ0JtcTFsQTdlXzAwM0FBZ2xfY3BYenhkQTVMcDJGZ0lBc3g5TzdHang1N0VRUVE4VGZPRDVfbXVQazdvcEpIRlFWbnpZUjJheVU2N1ktSHVfR0lqb2Fv?oc=5",
+            "published": "Tue, 30 Jun 2026",
+            "source": "AgriBusiness Global",
             "l2_source": "实验室用品"
           },
           {
@@ -1219,32 +1327,6 @@
             "impact_score": 0.3,
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbW40QzgtTl94cDlxMnZ6QldocF9Rb0ZSai15UEh3TFloc2VnOXZ0ZGw1VkVfMVlQQldLRkpPSjFWeV9weXl0UEZpM3ljVUQ2SmxDbndVUkI0ZW1yS0NsOWNKTkl4VTZHVlRYRGppS0c0azgxOV9jaGF1LWVaU0E1d3VGeUVGVmJIRmpwdFRqWWE4V0tDcHhsSkhYbUw3UHpjTFZPeWJFUjhkbUE?oc=5",
-            "published": "Thu, 02 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "World Strontium Aluminate Powder - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYm1HTzFNR2tadVJFTWNVTVRtTHFSZkhvckxxeHFWaFVSTnc4MUdzazV1Q05DamRRem00S1lpNTJrOFh0Z0p3ODVFU09ZaEgzX0ZXRzJmUEZkMEdwQmZhdzc5eWZJaDhLRGhnQXY0ZElpNl80Q0tDQ2dFUnYyd0dyVVNsY1JGQlB4SUdiVXZNbDBaTnB0cjVuUUNxZ1REaEF4LVBKUXZUaGs3Q29oYzZwemIzUUFZWlBxem",
-            "country": "Unknown",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYm1HTzFNR2tadVJFTWNVTVRtTHFSZkhvckxxeHFWaFVSTnc4MUdzazV1Q05DamRRem00S1lpNTJrOFh0Z0p3ODVFU09ZaEgzX0ZXRzJmUEZkMEdwQmZhdzc5eWZJaDhLRGhnQXY0ZElpNl80Q0tDQ2dFUnYyd0dyVVNsY1JGQlB4SUdiVXZNbDBaTnB0cjVuUUNxZ1REaEF4LVBKUXZUaGs3Q29oYzZwemIzUUFZWlBxem5PTncyRU1nQ28?oc=5",
-            "published": "Mon, 29 Jun 2026",
-            "source": "IndexBox",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "World Food Microbiology Rapid Detection Reagent - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNFIzRXE1dUxvSnhoWEMzREhvNmplQXJzZ19hcVNOMnhQZG9vRnVVVnRFU0lSTXdLQmE5UG1mVHZta3lYSUJoVXRxUEE5ZG5md1hxN011UXZxcUNhUWFxb1hhZmNNNzhlYjZXaVdXcXltTmV3RXhKb2EydExPdEV6ZktsM0RfSGlmQlRkQ3BlU0lrYXNPQXY4UUhOVHNKVFU5SGZGR0l2QzF1RzMzTGdZUDVSMVpSaElIdj",
-            "country": "Unknown",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNFIzRXE1dUxvSnhoWEMzREhvNmplQXJzZ19hcVNOMnhQZG9vRnVVVnRFU0lSTXdLQmE5UG1mVHZta3lYSUJoVXRxUEE5ZG5md1hxN011UXZxcUNhUWFxb1hhZmNNNzhlYjZXaVdXcXltTmV3RXhKb2EydExPdEV6ZktsM0RfSGlmQlRkQ3BlU0lrYXNPQXY4UUhOVHNKVFU5SGZGR0l2QzF1RzMzTGdZUDVSMVpSaElIdjBSZ2FCQWVRQVJtYUpEMTRlNGx6blgxVkZFSUwxMTk4SnJKYVZudGF0RWRYZThfN2FR?oc=5",
             "published": "Thu, 02 Jul 2026",
             "source": "IndexBox",
             "l2_source": "实验室用品"
@@ -1263,53 +1345,66 @@
             "l2_source": "实验室用品"
           },
           {
-            "title": "European Union Cylindrical Lithium Ion Battery - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOT3FRdEpyTjVobmMyN1JmS1AtOFZORjhNZTFkNlp1c1JLSkM0Z21vUk03TElla1V2Vi1BZkpTS0xIdWQwQWJUdzJXUE1Ub1BOeHdZcHZJMEpHc1dPQkRVTlhqZ2pMUTJQSkxqV0UxTm9lT0lOYnJGb0I2X3ZCbmhFQmtBOU1UNkFKeEFmRzdQUXVWYVJCVTdEQTZmLUxVcTBXQjNsSWVYV2hEcXktSm9IelFnT1VTR185QX",
+            "title": "Monomaterial Packaging Market Forecast Points Higher Toward 2035, Driven by Pharma Sustainability Mandates - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaUNKMERnZVdoRFNEWFVHTVl6NUlRM3BUb1RIek0tYVNfdDZHN1ljb29ObE5BTXJGNVdJRkR0Wm5OaC1WUGdXOWtHdW83c1hfbWx5YklGMjNjMXNQV185NWk3UW1EMkRJUFBSZEdfeE5YcHd6eWNWQTN3UVZGZTdDOFdUZjZjc1ZOamNEM0Nhd3cyeWlFS2Z3REdLcWlfR3AxVXg4QVM3N1FyUEQwbVlmeHpwbnNYRG9oV0",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaUNKMERnZVdoRFNEWFVHTVl6NUlRM3BUb1RIek0tYVNfdDZHN1ljb29ObE5BTXJGNVdJRkR0Wm5OaC1WUGdXOWtHdW83c1hfbWx5YklGMjNjMXNQV185NWk3UW1EMkRJUFBSZEdfeE5YcHd6eWNWQTN3UVZGZTdDOFdUZjZjc1ZOamNEM0Nhd3cyeWlFS2Z3REdLcWlfR3AxVXg4QVM3N1FyUEQwbVlmeHpwbnNYRG9oV0FYMkd1QkZLWFZXdDg1MnVQWmxTMzEw?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "实验室用品"
+          },
+          {
+            "title": "Germany Proactive Instrument Monitoring - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjJpM29rZmxIZF9mRGhidi1IR29wQmhMT2VYYm1xNzNZOWx5X3g0VmhzdlYydmtpeG1BQkVBX1NFdzFmRzk0NGJqMDJLTHR0Q00xV3hUaThORTdobmNpakwwWFBQMkY2NlU4ZkdQMGxDVjgwWFhTUHVIZzE3YTZ6XzgtUjQ2R1E1VU5tNWh2cE4zOGdzb01PTzM0cklkYjZuY1RQbW41aWdZMEVCblZGUzQ0bjNCb3pDX0",
+            "country": "DE",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSjJpM29rZmxIZF9mRGhidi1IR29wQmhMT2VYYm1xNzNZOWx5X3g0VmhzdlYydmtpeG1BQkVBX1NFdzFmRzk0NGJqMDJLTHR0Q00xV3hUaThORTdobmNpakwwWFBQMkY2NlU4ZkdQMGxDVjgwWFhTUHVIZzE3YTZ6XzgtUjQ2R1E1VU5tNWh2cE4zOGdzb01PTzM0cklkYjZuY1RQbW41aWdZMEVCblZGUzQ0bjNCb3pDX0wzcg?oc=5",
+            "published": "Sat, 04 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "实验室用品"
+          },
+          {
+            "title": "Germany Ethyl Acetoacetate - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2hzMnFrbE1pQmt2S1RnRzcyNExPWGdtRmRaVUgyTWctRzZJOEdZMUlCV1hXQjR1ak5BRFA3Vk45Q0xPaTNrZExiTWwxZjY5US1qUk93TlNUdm4yRFItbVhMZHJwN1FjdUdWYmxvX1NySkI1QWc0Qkw0dDVlT3o0TTBhblNKVnVPNzV3SzJwcDZ5YUZsdzR4cnBSQVpMLXVMazJQcU9GVTQ4ems?oc=5\" target=\"_bla",
+            "country": "US",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2hzMnFrbE1pQmt2S1RnRzcyNExPWGdtRmRaVUgyTWctRzZJOEdZMUlCV1hXQjR1ak5BRFA3Vk45Q0xPaTNrZExiTWwxZjY5US1qUk93TlNUdm4yRFItbVhMZHJwN1FjdUdWYmxvX1NySkI1QWc0Qkw0dDVlT3o0TTBhblNKVnVPNzV3SzJwcDZ5YUZsdzR4cnBSQVpMLXVMazJQcU9GVTQ4ems?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "实验室用品"
+          },
+          {
+            "title": "Argentina MALDI Floor Standing Instruments - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFNvcm1WX1FXVXFwRHdrOFFVZlFLRHU0cTdibUw1RGRVSGI4MjlLTU9tbERiS0xvV3BPT2w3Yjl2TlEtaGtxTjBWN1dXR3ZDaV9aeU9VWnQySHFmeWttLWVCQVNpOGpKelFPYW5EelBBSlFBanR3clBwT2NjR3ROVks0SjdOQTEyenE3bXF6SUNEWlNlQzg4UjFWcVJUaERKQk5ISDY5dzVzclZEWndLbUdRdS1CeXlYSE",
             "country": "EU",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT3FRdEpyTjVobmMyN1JmS1AtOFZORjhNZTFkNlp1c1JLSkM0Z21vUk03TElla1V2Vi1BZkpTS0xIdWQwQWJUdzJXUE1Ub1BOeHdZcHZJMEpHc1dPQkRVTlhqZ2pMUTJQSkxqV0UxTm9lT0lOYnJGb0I2X3ZCbmhFQmtBOU1UNkFKeEFmRzdQUXVWYVJCVTdEQTZmLUxVcTBXQjNsSWVYV2hEcXktSm9IelFnT1VTR185QXR4S1l0d1U1WHBqclE?oc=5",
-            "published": "Mon, 29 Jun 2026",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFNvcm1WX1FXVXFwRHdrOFFVZlFLRHU0cTdibUw1RGRVSGI4MjlLTU9tbERiS0xvV3BPT2w3Yjl2TlEtaGtxTjBWN1dXR3ZDaV9aeU9VWnQySHFmeWttLWVCQVNpOGpKelFPYW5EelBBSlFBanR3clBwT2NjR3ROVks0SjdOQTEyenE3bXF6SUNEWlNlQzg4UjFWcVJUaERKQk5ISDY5dzVzclZEWndLbUdRdS1CeXlYSE8tSUNtWms?oc=5",
+            "published": "Sun, 05 Jul 2026",
             "source": "IndexBox",
             "l2_source": "实验室用品"
           },
           {
-            "title": "Italy Sodium Bisulfate - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOSm91OVdSb1k5dGZLeUNCX0NuSC1NbVZoTjgzeGtUbEFWZTNyb3B2SF9yN1BxS016dERKcUI0dlJwcS1VUEUtbHN1TFVfLTVpVjUwdUY1eWtVZjJSQmYxa09DSllBOHJxTlhmYXRJNU5zSGQyU016NFhaOXZ0TjhxZ01Pa2VLRlRvMFZMUV9VLV9LLTNpWVpWdmFlbGVWV3BrLWg0OEl3?oc=5\" target=\"_blank\">Ita",
-            "country": "US",
+            "title": "South Korea Dicaprylyl Ether - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxONHlTVGt3NFQ2NlRId1gtaE1LOVB2QldndlFuNDVSbGFvaVhaRy05dXBsS0hKbGZaYWFCakNSZVppOXl5c19nLUctYnBOSUFEVnM2SmE0YnozaV9XUTVnb3dJNmpON2ZuUkdKcmhnTkEwTU1pbUpSMzlYUTg1T0NkR3FwNFJfNWZqVmZBUVhZVDcwQmNreWxneENxZ1g1alFTT3dFYW1RdWJVdmRHTEE?oc=5\" target=\"",
+            "country": "GB",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSm91OVdSb1k5dGZLeUNCX0NuSC1NbVZoTjgzeGtUbEFWZTNyb3B2SF9yN1BxS016dERKcUI0dlJwcS1VUEUtbHN1TFVfLTVpVjUwdUY1eWtVZjJSQmYxa09DSllBOHJxTlhmYXRJNU5zSGQyU016NFhaOXZ0TjhxZ01Pa2VLRlRvMFZMUV9VLV9LLTNpWVpWdmFlbGVWV3BrLWg0OEl3?oc=5",
-            "published": "Fri, 03 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "Northern America Flyback Transformer - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRXJGOWt3NXBrZVlZV0wzS0tvWmw1Z1kwRGxaWHVIOUtrQzl2Z3JHeHQ5ZmxhT3RKMHZkZjBwaVlKZ2tpRzN1enllWGlKMHdFTUJlbDl4OUs4MmVnR3JfbEtEUXlrSXlzRDItcklVZHNtYU5jTTRQU3VVYk1RUFRSUjkzZUFKY1NzeW1RemlXQ1FWb0NrN1NuZGo4NkwyLVBXU2ZkaFpWQ2N3SkdicDAzaEd0M05LOWJp?o",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRXJGOWt3NXBrZVlZV0wzS0tvWmw1Z1kwRGxaWHVIOUtrQzl2Z3JHeHQ5ZmxhT3RKMHZkZjBwaVlKZ2tpRzN1enllWGlKMHdFTUJlbDl4OUs4MmVnR3JfbEtEUXlrSXlzRDItcklVZHNtYU5jTTRQU3VVYk1RUFRSUjkzZUFKY1NzeW1RemlXQ1FWb0NrN1NuZGo4NkwyLVBXU2ZkaFpWQ2N3SkdicDAzaEd0M05LOWJp?oc=5",
-            "published": "Mon, 29 Jun 2026",
-            "source": "IndexBox",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "Russia Biolayer Interferometry (BLI) Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclY3OTcwUGEwQ2Q2Zkd4WmtHMGhJM2ZGUlI5bng5N1hJOTROa09WTWlOWkZQMkNrcGNCaTRrZUJlRl9QdWJfSXdQa05CYXhpS2dRb2VTRUs2eU9KMGVFYUZGd0UxZTN5QmZwc3kzQzRDdHQ5MHZWMXR6eGtXWlhPQzBIUkN6RDdtZ2JheE01d3FqRGdtaThGbDFUZWF3bzhxYTl0TWNQTk00V3ZiN3N6UTdQNTBoZjh1RF",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclY3OTcwUGEwQ2Q2Zkd4WmtHMGhJM2ZGUlI5bng5N1hJOTROa09WTWlOWkZQMkNrcGNCaTRrZUJlRl9QdWJfSXdQa05CYXhpS2dRb2VTRUs2eU9KMGVFYUZGd0UxZTN5QmZwc3kzQzRDdHQ5MHZWMXR6eGtXWlhPQzBIUkN6RDdtZ2JheE01d3FqRGdtaThGbDFUZWF3bzhxYTl0TWNQTk00V3ZiN3N6UTdQNTBoZjh1RFBnS1ZkenA?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONHlTVGt3NFQ2NlRId1gtaE1LOVB2QldndlFuNDVSbGFvaVhaRy05dXBsS0hKbGZaYWFCakNSZVppOXl5c19nLUctYnBOSUFEVnM2SmE0YnozaV9XUTVnb3dJNmpON2ZuUkdKcmhnTkEwTU1pbUpSMzlYUTg1T0NkR3FwNFJfNWZqVmZBUVhZVDcwQmNreWxneENxZ1g1alFTT3dFYW1RdWJVdmRHTEE?oc=5",
             "published": "Sat, 04 Jul 2026",
             "source": "IndexBox",
             "l2_source": "实验室用品"
@@ -1367,15 +1462,15 @@
             "l2_source": "检测与分析仪器"
           },
           {
-            "title": "World Hydrogen Breath Test Analyzer - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXM1LWlWVjBiNHRMb2Mwa2Y2UFBfUW91QU9tUXJfaVFYYUdTY1hOckpVYThpUW5jclZzZ1JDck1hQWtVX3lhNzdqYVY0X0t4Nmx6OXdyV0ZuVzMzSC12eHppeV9JWEd1bEpxTjlsb1pMaXM0M1g5M1FLYm1ya0VHM01oRWh2ZTZ2eV9ZdTNjU1JuNmNuUEtzNWRFY2o1R01tdU5qNUFhR3hsaGtCWnBsQXZNQW55QU0?oc",
-            "country": "Unknown",
+            "title": "World PCR Food Testing Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnpPNDhKRUZVUEwwQXcyQnJGUnh3NjlrRGtvN200YXIxNmZsOThSOGlpNmxQWHlJSU1KcDhPUERtRkhIR2lqX194M0w3MlV0VkszTlZYZEE5UUlwdURFeUlua18tOU1LZ2U0YVBkT0NNT05aVnV1eVJBWlNXM0VKeXh4OURjMEo4akRNd0JUZlJFa2VXck1oY0JIczEyUk5LeUpYMVdzcERCRjFSam8weQ?oc=5\" targe",
+            "country": "EU",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "direct",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXM1LWlWVjBiNHRMb2Mwa2Y2UFBfUW91QU9tUXJfaVFYYUdTY1hOckpVYThpUW5jclZzZ1JDck1hQWtVX3lhNzdqYVY0X0t4Nmx6OXdyV0ZuVzMzSC12eHppeV9JWEd1bEpxTjlsb1pMaXM0M1g5M1FLYm1ya0VHM01oRWh2ZTZ2eV9ZdTNjU1JuNmNuUEtzNWRFY2o1R01tdU5qNUFhR3hsaGtCWnBsQXZNQW55QU0?oc=5",
-            "published": "Sun, 28 Jun 2026",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnpPNDhKRUZVUEwwQXcyQnJGUnh3NjlrRGtvN200YXIxNmZsOThSOGlpNmxQWHlJSU1KcDhPUERtRkhIR2lqX194M0w3MlV0VkszTlZYZEE5UUlwdURFeUlua18tOU1LZ2U0YVBkT0NNT05aVnV1eVJBWlNXM0VKeXh4OURjMEo4akRNd0JUZlJFa2VXck1oY0JIczEyUk5LeUpYMVdzcERCRjFSam8weQ?oc=5",
+            "published": "Sun, 05 Jul 2026",
             "source": "IndexBox",
             "l2_source": "检测与分析仪器"
           },
@@ -1393,14 +1488,14 @@
             "l2_source": "检测与分析仪器"
           },
           {
-            "title": "Turkey Bench Instruments - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2otNG8tZ2VXbmZxUm52TExzcVZPLW5XWGJMYUVsZE90aXR4OUlrOWMyc3dtVURDMDMwYWJIcU92SGphaHVCTEJKT3NHMV8zdlJnYjk0MUlnN0NtMzdFWUFJbV9oajFHNS1LeDhWOFNKOTRwalJoZFJrWHhqT3pfbmRmUWV5MEx4Vk5McWhNSlhMUTFCdE1VbGpJNnU0SnRlWFJfdGFXZ1I?oc=5\" target=\"_blank\">",
-            "country": "Unknown",
+            "title": "Russia Biolayer Interferometry (BLI) Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclY3OTcwUGEwQ2Q2Zkd4WmtHMGhJM2ZGUlI5bng5N1hJOTROa09WTWlOWkZQMkNrcGNCaTRrZUJlRl9QdWJfSXdQa05CYXhpS2dRb2VTRUs2eU9KMGVFYUZGd0UxZTN5QmZwc3kzQzRDdHQ5MHZWMXR6eGtXWlhPQzBIUkN6RDdtZ2JheE01d3FqRGdtaThGbDFUZWF3bzhxYTl0TWNQTk00V3ZiN3N6UTdQNTBoZjh1RF",
+            "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "direct",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2otNG8tZ2VXbmZxUm52TExzcVZPLW5XWGJMYUVsZE90aXR4OUlrOWMyc3dtVURDMDMwYWJIcU92SGphaHVCTEJKT3NHMV8zdlJnYjk0MUlnN0NtMzdFWUFJbV9oajFHNS1LeDhWOFNKOTRwalJoZFJrWHhqT3pfbmRmUWV5MEx4Vk5McWhNSlhMUTFCdE1VbGpJNnU0SnRlWFJfdGFXZ1I?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNclY3OTcwUGEwQ2Q2Zkd4WmtHMGhJM2ZGUlI5bng5N1hJOTROa09WTWlOWkZQMkNrcGNCaTRrZUJlRl9QdWJfSXdQa05CYXhpS2dRb2VTRUs2eU9KMGVFYUZGd0UxZTN5QmZwc3kzQzRDdHQ5MHZWMXR6eGtXWlhPQzBIUkN6RDdtZ2JheE01d3FqRGdtaThGbDFUZWF3bzhxYTl0TWNQTk00V3ZiN3N6UTdQNTBoZjh1RFBnS1ZkenA?oc=5",
             "published": "Sat, 04 Jul 2026",
             "source": "IndexBox",
             "l2_source": "检测与分析仪器"
@@ -1430,20 +1525,45 @@
             "published": "Fri, 03 Jul 2026",
             "source": "IndexBox",
             "l2_source": "检测与分析仪器"
+          },
+          {
+            "title": "World Surgical Instrument Lubricant Spray - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNbXdtaWFhYTRPNXlmdHlMLUw1VklJdE9DaWw3bFR1Y29HWGd3UDdHNzN3SDU0Wm04bW9sXzlKZFNycjdCU3NZTlAyN0ZfOGhTeFVWREN0YVZBQVZ0aV9WVWh3YXFfQ2c1VURvZkt3cVJ1WWhodklBbi1UaDhwM1VRR3JOZHp5aV9JeUdSNFNhX1FmVDlsLVN3X3ZWdy00VHlyc2VUVG1pUnVmRlR0MVk0QUhaQ0ZnOXloOF",
+            "country": "EU",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbXdtaWFhYTRPNXlmdHlMLUw1VklJdE9DaWw3bFR1Y29HWGd3UDdHNzN3SDU0Wm04bW9sXzlKZFNycjdCU3NZTlAyN0ZfOGhTeFVWREN0YVZBQVZ0aV9WVWh3YXFfQ2c1VURvZkt3cVJ1WWhodklBbi1UaDhwM1VRR3JOZHp5aV9JeUdSNFNhX1FmVDlsLVN3X3ZWdy00VHlyc2VUVG1pUnVmRlR0MVk0QUhaQ0ZnOXloOFI5b1ZlVlFVc3RmdlZ2RWhqekJMb1RCOHl2THcyUGdpTXV2NWp0TGhqNHpyemdqMzFYZmM0cWtRY0dEazFlWWNRMmRWRjhsZGc?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "检测与分析仪器"
           }
         ],
         "country_summary": {
-          "EU": {
+          "Unknown": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
             ],
             "impact": "neutral",
             "affected_l2s": [
-              "实验室用品"
+              "实验室用品",
+              "检测与分析仪器"
             ]
           },
-          "Unknown": {
+          "US": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "实验室用品",
+              "检测与分析仪器"
+            ]
+          },
+          "EU": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
@@ -1464,17 +1584,6 @@
               "实验室用品"
             ]
           },
-          "US": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "实验室用品",
-              "检测与分析仪器"
-            ]
-          },
           "GB": {
             "trend": "neutral",
             "key_policies": [
@@ -1482,6 +1591,7 @@
             ],
             "impact": "neutral",
             "affected_l2s": [
+              "实验室用品",
               "检测与分析仪器"
             ]
           },
@@ -1516,9 +1626,9 @@
       "l3_count": 25,
       "customs_2025": {
         "china_export": {
-          "total_usd": 2488199730447.0,
-          "total_kg": 1941269039.0,
-          "yoy_growth": 0.5,
+          "total_usd": 2485370049491.0,
+          "total_kg": 1111588083.0,
+          "yoy_growth": -0.1,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
@@ -1542,46 +1652,46 @@
             {
               "name_cn": "电机",
               "name_en": "Motors",
-              "total_usd": 42841269039.0,
-              "share_pct": 1.7
+              "total_usd": 40011588083.0,
+              "share_pct": 1.6
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 8139841117.0,
+            "value_usd": 5201506450.0,
             "yoy": 0,
-            "share": 0.8
+            "share": 0.5
           },
           "DE": {
-            "value_usd": 985697372230.89,
+            "value_usd": 982898880094.89,
             "yoy": 0,
             "share": 96.6
           },
           "GB": {
-            "value_usd": 7240174467.0,
-            "yoy": 0,
-            "share": 0.7
-          },
-          "JP": {
-            "value_usd": 7540063350.0,
-            "yoy": 0,
-            "share": 0.7
-          },
-          "AU": {
-            "value_usd": 5140952284.0,
+            "value_usd": 4721367393.0,
             "yoy": 0,
             "share": 0.5
           },
-          "KR": {
-            "value_usd": 6940285584.0,
+          "JP": {
+            "value_usd": 4881413746.0,
             "yoy": 0,
-            "share": 0.7
+            "share": 0.5
+          },
+          "AU": {
+            "value_usd": 4401274689.0,
+            "yoy": 0,
+            "share": 0.4
+          },
+          "KR": {
+            "value_usd": 4561321041.0,
+            "yoy": 0,
+            "share": 0.4
           },
           "IN": {
-            "value_usd": 0.0,
+            "value_usd": 4241228336.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.4
           },
           "VN": {
             "value_usd": 0.0,
@@ -1604,9 +1714,9 @@
             "share": 0.0
           },
           "SA": {
-            "value_usd": 0.0,
+            "value_usd": 2880834341.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.3
           },
           "FR": {
             "value_usd": 0.0,
@@ -1614,9 +1724,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 0.0,
+            "value_usd": 4081181984.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.4
           },
           "ID": {
             "value_usd": 0,
@@ -1636,34 +1746,34 @@
       "l3_count": 47,
       "customs_2025": {
         "china_export": {
-          "total_usd": 146319929041.0,
-          "total_kg": 4719929041.0,
-          "yoy_growth": 22.6,
+          "total_usd": 73121613237.0,
+          "total_kg": 3521613237.0,
+          "yoy_growth": 11.7,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
-              "name_cn": "保健设备",
-              "name_en": "Health Care Equipment",
-              "total_usd": 44873374113.0,
-              "share_pct": 30.7
-            },
-            {
-              "name_cn": "按摩用品",
-              "name_en": "Massage Products",
-              "total_usd": 44873374113.0,
-              "share_pct": 30.7
-            },
-            {
               "name_cn": "保健食品",
               "name_en": "Healthcare Supplements",
-              "total_usd": 39410075479.0,
-              "share_pct": 26.9
+              "total_usd": 50401412070.0,
+              "share_pct": 68.9
             },
             {
               "name_cn": "提取物",
               "name_en": "Extracts",
-              "total_usd": 17163105336.0,
-              "share_pct": 11.7
+              "total_usd": 12570108525.0,
+              "share_pct": 17.2
+            },
+            {
+              "name_cn": "保健设备",
+              "name_en": "Health Care Equipment",
+              "total_usd": 5075046321.0,
+              "share_pct": 6.9
+            },
+            {
+              "name_cn": "按摩用品",
+              "name_en": "Massage Products",
+              "total_usd": 5075046321.0,
+              "share_pct": 6.9
             },
             {
               "name_cn": "成人产品",
@@ -1675,49 +1785,49 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 22447418326.0,
+            "value_usd": 15867882529.0,
             "yoy": 0,
-            "share": 10.7
+            "share": 13.8
           },
           "DE": {
-            "value_usd": 21727139053.0,
+            "value_usd": 15252217388.0,
             "yoy": 0,
-            "share": 10.4
+            "share": 13.3
           },
           "GB": {
-            "value_usd": 20124250119.0,
+            "value_usd": 14031037203.0,
             "yoy": 0,
-            "share": 9.6
+            "share": 12.2
           },
           "JP": {
-            "value_usd": 35768143773.57,
+            "value_usd": 29480569977.57,
             "yoy": 0,
-            "share": 17.1
+            "share": 25.6
           },
           "AU": {
-            "value_usd": 18700854678.0,
+            "value_usd": 628505426.0,
             "yoy": 0,
-            "share": 8.9
+            "share": 0.5
           },
           "KR": {
-            "value_usd": 33420240098.0,
+            "value_usd": 17895298519.0,
             "yoy": 0,
-            "share": 16.0
+            "share": 15.5
           },
           "IN": {
-            "value_usd": 6727905666.0,
+            "value_usd": 628505426.0,
             "yoy": 0,
-            "share": 3.2
+            "share": 0.5
           },
           "VN": {
-            "value_usd": 0.0,
+            "value_usd": 3771032557.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 3.3
           },
           "MX": {
-            "value_usd": 9015535530.0,
+            "value_usd": 9644040956.0,
             "yoy": 0,
-            "share": 4.3
+            "share": 8.4
           },
           "AE": {
             "value_usd": 0,
@@ -1725,24 +1835,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 27028121498.89,
+            "value_usd": 628505426.0,
             "yoy": 0,
-            "share": 12.9
+            "share": 0.5
           },
           "SA": {
-            "value_usd": 2916345585.0,
+            "value_usd": 628505426.0,
             "yoy": 0,
-            "share": 1.4
+            "share": 0.5
           },
           "FR": {
-            "value_usd": 2837525434.0,
+            "value_usd": 628505426.0,
             "yoy": 0,
-            "share": 1.4
+            "share": 0.5
           },
           "BR": {
-            "value_usd": 8384453402.0,
+            "value_usd": 6017793092.0,
             "yoy": 0,
-            "share": 4.0
+            "share": 5.2
           },
           "ID": {
             "value_usd": 0,
@@ -1797,124 +1907,124 @@
       "l3_count": 66,
       "customs_2025": {
         "china_export": {
-          "total_usd": 333932450753.0,
-          "total_kg": 11599615425.0,
-          "yoy_growth": 11.8,
+          "total_usd": 303900447174.0,
+          "total_kg": 5567611846.0,
+          "yoy_growth": 4.0,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
-              "name_cn": "工业大麻产品",
-              "name_en": "Industrial Hemp Products",
-              "total_usd": 48983185655.0,
-              "share_pct": 14.7
+              "name_cn": "农用设备",
+              "name_en": "Agricultural Equipment",
+              "total_usd": 53811194274.0,
+              "share_pct": 17.7
             },
             {
-              "name_cn": "冷冻产品",
-              "name_en": "Frozen Products",
-              "total_usd": 42445156993.0,
-              "share_pct": 12.7
-            },
-            {
-              "name_cn": "新鲜水果",
-              "name_en": "Fresh Fruit",
-              "total_usd": 41425037230.0,
-              "share_pct": 12.4
-            },
-            {
-              "name_cn": "观赏植物",
-              "name_en": "Ornamental Plants",
-              "total_usd": 41425037230.0,
-              "share_pct": 12.4
+              "name_cn": "谷物",
+              "name_en": "Grain",
+              "total_usd": 51105266571.0,
+              "share_pct": 16.8
             },
             {
               "name_cn": "动物制品",
               "name_en": "Animal Products",
-              "total_usd": 36866075973.0,
-              "share_pct": 11.0
+              "total_usd": 36199817616.0,
+              "share_pct": 11.9
             },
             {
               "name_cn": "新鲜蔬菜",
               "name_en": "Fresh Vegetables",
               "total_usd": 32116417664.0,
-              "share_pct": 9.6
+              "share_pct": 10.6
             },
             {
               "name_cn": "蘑菇与松露",
               "name_en": "Mushrooms & Truffles",
               "total_usd": 32116417664.0,
-              "share_pct": 9.6
+              "share_pct": 10.6
             },
             {
               "name_cn": "木材原料",
               "name_en": "Timber Raw Materials",
-              "total_usd": 23806442506.0,
-              "share_pct": 7.1
+              "total_usd": 31763824002.0,
+              "share_pct": 10.5
             },
             {
-              "name_cn": "谷物",
-              "name_en": "Grain",
-              "total_usd": 14975552661.0,
-              "share_pct": 4.5
+              "name_cn": "工业大麻产品",
+              "name_en": "Industrial Hemp Products",
+              "total_usd": 27414455161.0,
+              "share_pct": 9.0
+            },
+            {
+              "name_cn": "冷冻产品",
+              "name_en": "Frozen Products",
+              "total_usd": 13168414250.0,
+              "share_pct": 4.3
+            },
+            {
+              "name_cn": "新鲜水果",
+              "name_en": "Fresh Fruit",
+              "total_usd": 9244092768.0,
+              "share_pct": 3.0
+            },
+            {
+              "name_cn": "观赏植物",
+              "name_en": "Ornamental Plants",
+              "total_usd": 9244092768.0,
+              "share_pct": 3.0
             },
             {
               "name_cn": "豆类",
               "name_en": "Beans",
-              "total_usd": 14283306272.0,
-              "share_pct": 4.3
-            },
-            {
-              "name_cn": "农用设备",
-              "name_en": "Agricultural Equipment",
-              "total_usd": 5489820905.0,
-              "share_pct": 1.6
+              "total_usd": 7716454436.0,
+              "share_pct": 2.5
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 42688485274.0,
+            "value_usd": 49249693944.0,
             "yoy": 0,
-            "share": 15.6
+            "share": 19.3
           },
           "DE": {
-            "value_usd": 57805475421.54,
+            "value_usd": 63877684836.54,
             "yoy": 0,
-            "share": 21.1
+            "share": 25.0
           },
           "GB": {
-            "value_usd": 36170107157.0,
+            "value_usd": 38881243757.0,
             "yoy": 0,
-            "share": 13.2
+            "share": 15.2
           },
           "JP": {
-            "value_usd": 39768134822.0,
+            "value_usd": 45523062607.0,
             "yoy": 0,
-            "share": 14.5
+            "share": 17.8
           },
           "AU": {
-            "value_usd": 16322816117.0,
+            "value_usd": 8446343866.0,
             "yoy": 0,
-            "share": 5.9
+            "share": 3.3
           },
           "KR": {
-            "value_usd": 26774734536.0,
+            "value_usd": 22078757990.0,
             "yoy": 0,
-            "share": 9.8
+            "share": 8.6
           },
           "IN": {
-            "value_usd": 15719623123.0,
+            "value_usd": 7047538237.0,
             "yoy": 0,
-            "share": 5.7
+            "share": 2.8
           },
           "VN": {
-            "value_usd": 0.0,
+            "value_usd": 7476308739.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 2.9
           },
           "MX": {
-            "value_usd": 0.0,
+            "value_usd": 2468958680.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 1.0
           },
           "AE": {
             "value_usd": 0,
@@ -1922,24 +2032,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 0.0,
+            "value_usd": 2500722504.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 1.0
           },
           "SA": {
-            "value_usd": 13033200535.0,
+            "value_usd": 2627777800.0,
             "yoy": 0,
-            "share": 4.8
+            "share": 1.0
           },
           "FR": {
-            "value_usd": 12687135044.0,
+            "value_usd": 2596013976.0,
             "yoy": 0,
-            "share": 4.6
+            "share": 1.0
           },
           "BR": {
-            "value_usd": 13379266024.0,
+            "value_usd": 2659541624.0,
             "yoy": 0,
-            "share": 4.9
+            "share": 1.0
           },
           "ID": {
             "value_usd": 0,
@@ -1959,16 +2069,16 @@
       "policy_updates": {
         "articles": [
           {
-            "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - Economic Research Service (.gov)",
+            "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - USDA (.gov)",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5\" target=\"_blank\">Ag ",
-            "country": "Unknown",
+            "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
             "published": "Tue, 30 Jun 2026",
-            "source": "Economic Research Service (.gov)",
+            "source": "USDA (.gov)",
             "l2_source": "新鲜水果"
           },
           {
@@ -1985,6 +2095,19 @@
             "l2_source": "新鲜水果"
           },
           {
+            "title": "The US-EU Trade Agreement Goes Live July 1: What Importers Need to Know - Flexport",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3V5Q0lUcnRqUjdHNEdOTXV3bGpWaU5EZ1hIdW5zSGtLU1NhY1JQN1E0UXNoY1Jpa3pVX2t6MHNYMktsTkhHYjV1N2tJX1FGZUlybkd2ZzByaFptQkJiZTdCZkh3WmtMTEhVaHBWZXZoNEo3eFFpZzA2ejlyck1FS2dtQi1QTVJLQnF1Zm1vbGdwb2NJaEJ5WWpDTmtrUnVkZmpkSUxNQ20?oc=5\" target=\"_blank\">",
+            "country": "US",
+            "policy_type": "FTA",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM3V5Q0lUcnRqUjdHNEdOTXV3bGpWaU5EZ1hIdW5zSGtLU1NhY1JQN1E0UXNoY1Jpa3pVX2t6MHNYMktsTkhHYjV1N2tJX1FGZUlybkd2ZzByaFptQkJiZTdCZkh3WmtMTEhVaHBWZXZoNEo3eFFpZzA2ejlyck1FS2dtQi1QTVJLQnF1Zm1vbGdwb2NJaEJ5WWpDTmtrUnVkZmpkSUxNQ20?oc=5",
+            "published": "Tue, 30 Jun 2026",
+            "source": "Flexport",
+            "l2_source": "新鲜水果"
+          },
+          {
             "title": "Sharp rise in Vietnamese produce imports - Fruitnet",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPem5ld2o1QUxpUElteDZLM0gxdW1Fc1pzMVExb0VzYk5YRDB4ek0za3U1SVdvUUlhdW5zR0F5NUdheGNDSFFYNUk5X1VfcWM1MURlNEh1UnZxTVc0MElnamtvNVNvUFlSOEFLc1VNa284c2sxaFg3YlhCZGZGUnlmYV9NcDhoeDQxdnkzYjFGSVF2dTda?oc=5\" target=\"_blank\">Sharp rise in Vietnamese pr",
             "country": "GB",
@@ -1998,16 +2121,29 @@
             "l2_source": "新鲜水果"
           },
           {
-            "title": "Africa Resins for Fruit and Vegetable Juices - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY2xYM2VyRFMtbnpFT0dZS1lKNERFQ1FwU3Vvb2NIWW1nREVjS1k3YllhX1B4STU1WVpUT2FuazV3YzZ0TXI2eFhHV0w0VnZOY1BmSWs4YmszZUlIaFAtX1l2eDFpb2hRaG5lR0xId1ZfVi1CWnduZUtwZWVldWtiUUotYVFnMl8yVEpQZmRfajJIOEs1Q0R2VDU1dFkyYWNZZ280ci1FaXBFc1d1RHRhU3RBSGdXc1BmeW",
-            "country": "Unknown",
+            "title": "International Fresh Produce Association's Mission - AG INFORMATION NETWORK OF THE WEST",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnMtSU44czhWNHNCX2hDQlhqZEM4dUtrbzVqTHJDMWZfU1VpT2UtXzc5ekY3OS1YRnZ1U2VlaUYyWEluLXdweG5oWU1YaHF3aTJGRkc2ZnRJT2ZZVmhFRThSVjFmNmNTbzQtYWo0YjRKcXN6VFFCb0g2dmU4YWxGdEpZMHFoOHlWbElsSHN0OUk5ZWxNVi1XQ0xMVGY2akNOUFdrQkRPOFE?oc=5\" target=\"_blank\">",
+            "country": "GB",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "direct",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY2xYM2VyRFMtbnpFT0dZS1lKNERFQ1FwU3Vvb2NIWW1nREVjS1k3YllhX1B4STU1WVpUT2FuazV3YzZ0TXI2eFhHV0w0VnZOY1BmSWs4YmszZUlIaFAtX1l2eDFpb2hRaG5lR0xId1ZfVi1CWnduZUtwZWVldWtiUUotYVFnMl8yVEpQZmRfajJIOEs1Q0R2VDU1dFkyYWNZZ280ci1FaXBFc1d1RHRhU3RBSGdXc1BmeW9hd2xqYjNVTTQ?oc=5",
-            "published": "Fri, 03 Jul 2026",
-            "source": "IndexBox",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnMtSU44czhWNHNCX2hDQlhqZEM4dUtrbzVqTHJDMWZfU1VpT2UtXzc5ekY3OS1YRnZ1U2VlaUYyWEluLXdweG5oWU1YaHF3aTJGRkc2ZnRJT2ZZVmhFRThSVjFmNmNTbzQtYWo0YjRKcXN6VFFCb0g2dmU4YWxGdEpZMHFoOHlWbElsSHN0OUk5ZWxNVi1XQ0xMVGY2akNOUFdrQkRPOFE?oc=5",
+            "published": "Thu, 02 Jul 2026",
+            "source": "AG INFORMATION NETWORK OF THE WEST",
+            "l2_source": "新鲜水果"
+          },
+          {
+            "title": "Nuts and dried fruit: new EU tariffs a clever move? - Mundus Agri",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhFU21ETzJpbVNheHJ0elhTcFotRldmRGRmOVVGTGk1Z1B4c2o5NEd3NG1ETHFVcS10cFRJUlVwR2hUOVd5WTJha2I5SFVqN25JbURMb3d4RDZFWXVFUHFpLVhxejBJUjdRaVlESGxsQmp0anFOMjFRWWFVWXZPZDhoRGlLUmhGV2g4?oc=5\" target=\"_blank\">Nuts and dried fruit: new EU tariffs a ",
+            "country": "US",
+            "policy_type": "tariff",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhFU21ETzJpbVNheHJ0elhTcFotRldmRGRmOVVGTGk1Z1B4c2o5NEd3NG1ETHFVcS10cFRJUlVwR2hUOVd5WTJha2I5SFVqN25JbURMb3d4RDZFWXVFUHFpLVhxejBJUjdRaVlESGxsQmp0anFOMjFRWWFVWXZPZDhoRGlLUmhGV2g4?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "Mundus Agri",
             "l2_source": "新鲜水果"
           },
           {
@@ -2037,6 +2173,19 @@
             "l2_source": "新鲜水果"
           },
           {
+            "title": "Green lane sought for Vietnam's fruit, vegetable exports to China - Báo VietNamNet",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPeFIyTEgxYzNmMC1zVmh0WmZVd3pkQ1NLTkw2Wkl6ZmllT2I1ckMtUjNKVlBwOVN6WDJ3MnV3aTlDSkZ1eHZqakhZd0Y0ay01VWg1Z2cybkVmX3Qtd01yMHIxUnNCekE3bFdVRzh0NWlZTHZxWWpmQ3pvTnJHc0dsUE9oOUFEanpBTzZLWTBsUlV6M0Myc016ZWlIdExvejg1YkFMUg?oc=5\" target=\"_blank\">Green",
+            "country": "CN",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "direct",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeFIyTEgxYzNmMC1zVmh0WmZVd3pkQ1NLTkw2Wkl6ZmllT2I1ckMtUjNKVlBwOVN6WDJ3MnV3aTlDSkZ1eHZqakhZd0Y0ay01VWg1Z2cybkVmX3Qtd01yMHIxUnNCekE3bFdVRzh0NWlZTHZxWWpmQ3pvTnJHc0dsUE9oOUFEanpBTzZLWTBsUlV6M0Myc016ZWlIdExvejg1YkFMUg?oc=5",
+            "published": "Sun, 05 Jul 2026",
+            "source": "Báo VietNamNet",
+            "l2_source": "新鲜水果"
+          },
+          {
             "title": "Industry Ag News 7/3 - AgWired",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE8wZWRtWW1qQm9odkhnd2RMY0pPdy1aZkNEajNJMjZWbGRpZkdQMHJESFctU1YxZlVId184dFRJdVF2VVBLNFFTYmdKbjdVcVY1aExLSFRpQmhLcWZsWEFiU3NLcmM?oc=5\" target=\"_blank\">Industry Ag News 7/3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AgWired</font>",
             "country": "US",
@@ -2050,23 +2199,38 @@
             "l2_source": "新鲜蔬菜"
           },
           {
-            "title": "NZVeg manifesto puts resource reform at the top of agenda - farmersweekly.co.nz",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPTnFIckFocl8wRi1EazB3VTVwTTBzMzU2d0VjVzNPNDBFSmZyeVRuWHRXcmVTcjZqUzhCRUZtMTlwY0VTU2l3U2llYl9xaWFMTDE2cGtBcExDbEZZdHVZU0t4aTk3MDNRS3VRWnBpQjUwUDlZMUloeDJjTUROMGE3bVlaeldiMDl0ZWp1M3dmOHItZUxUTGVRc0xicWxxZmdJ?oc=5\" target=\"_blank\">NZVeg manif",
+            "title": "Norway Vegetable Sorting Machine - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQcG5pLTQ1cXc4TWU2eDB2QmhndGRoTEx2MllDZmxNak51UG11eFc4eU1LakwzUFJqYmtFYmc5eUVWR3JTeFZFMlpDV2ViQUFHLWhkd2JyVG5XMXd5SUlZMGdtMXoxZ0swMHhCbVBNUkVOUE5iZ2c1YUxjQ2RBOGpKLW85MzVqQW1Bc08yYk8zZDNsMXZDTXFabHBfMnlwdHNKZVVIZml0MFdPZVY1Z1podzNhQQ?oc=5\" t",
+            "country": "EU",
+            "policy_type": "compliance",
+            "impact": "neutral",
+            "impact_score": 0.3,
+            "category_relevance": "indirect",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcG5pLTQ1cXc4TWU2eDB2QmhndGRoTEx2MllDZmxNak51UG11eFc4eU1LakwzUFJqYmtFYmc5eUVWR3JTeFZFMlpDV2ViQUFHLWhkd2JyVG5XMXd5SUlZMGdtMXoxZ0swMHhCbVBNUkVOUE5iZ2c1YUxjQ2RBOGpKLW85MzVqQW1Bc08yYk8zZDNsMXZDTXFabHBfMnlwdHNKZVVIZml0MFdPZVY1Z1podzNhQQ?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
+            "l2_source": "新鲜蔬菜"
+          },
+          {
+            "title": "United Kingdom Vegetable Sorting Machine - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNdFV3cDhWb0ZpOHR6c1loc2ZnZWtmMlROdGhaUDVoMU91OHk3SHByV0NnbkI2Rko3VFV1cVNxdFphVVJ2ekRDa3hnYTVzZEoxbWR6eEZPT1RhSWhLUzJrQlRwaTNRN1dFUlJ3T2MzbW00b0NSY1hXSnFtMF91VUpiMjNMZElQa1RWNTI2MmRCdTAwTk93Q2NGNHZVdWw2cmZmTFVtSmhHdzl6M1pXSDcxbWZLRDZCMEg0aT",
             "country": "Unknown",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTnFIckFocl8wRi1EazB3VTVwTTBzMzU2d0VjVzNPNDBFSmZyeVRuWHRXcmVTcjZqUzhCRUZtMTlwY0VTU2l3U2llYl9xaWFMTDE2cGtBcExDbEZZdHVZU0t4aTk3MDNRS3VRWnBpQjUwUDlZMUloeDJjTUROMGE3bVlaeldiMDl0ZWp1M3dmOHItZUxUTGVRc0xicWxxZmdJ?oc=5",
-            "published": "Fri, 03 Jul 2026",
-            "source": "farmersweekly.co.nz",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdFV3cDhWb0ZpOHR6c1loc2ZnZWtmMlROdGhaUDVoMU91OHk3SHByV0NnbkI2Rko3VFV1cVNxdFphVVJ2ekRDa3hnYTVzZEoxbWR6eEZPT1RhSWhLUzJrQlRwaTNRN1dFUlJ3T2MzbW00b0NSY1hXSnFtMF91VUpiMjNMZElQa1RWNTI2MmRCdTAwTk93Q2NGNHZVdWw2cmZmTFVtSmhHdzl6M1pXSDcxbWZLRDZCMEg0aTlfUGhB?oc=5",
+            "published": "Mon, 06 Jul 2026",
+            "source": "IndexBox",
             "l2_source": "新鲜蔬菜"
           }
         ],
         "country_summary": {
-          "Unknown": {
+          "US": {
             "trend": "neutral",
             "key_policies": [
+              "tariff",
+              "FTA",
               "compliance"
             ],
             "impact": "neutral",
@@ -2104,16 +2268,29 @@
             ],
             "impact": "neutral",
             "affected_l2s": [
-              "新鲜水果"
+              "新鲜水果",
+              "新鲜蔬菜"
             ]
           },
-          "US": {
+          "Unknown": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
             ],
             "impact": "neutral",
             "affected_l2s": [
+              "新鲜水果",
+              "新鲜蔬菜"
+            ]
+          },
+          "CN": {
+            "trend": "neutral",
+            "key_policies": [
+              "compliance"
+            ],
+            "impact": "neutral",
+            "affected_l2s": [
+              "新鲜水果",
               "新鲜蔬菜"
             ]
           }
@@ -2128,44 +2305,38 @@
       "l3_count": 78,
       "customs_2025": {
         "china_export": {
-          "total_usd": 172113273583.0,
-          "total_kg": 4387385353.0,
-          "yoy_growth": 7.2,
+          "total_usd": 134151549851.0,
+          "total_kg": 3451549851.0,
+          "yoy_growth": 3.1,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "书籍与配件",
               "name_en": "Books & Book Accessories",
-              "total_usd": 42310944421.0,
-              "share_pct": 24.6
+              "total_usd": 54284940768.0,
+              "share_pct": 40.5
             },
             {
               "name_cn": "教学用品",
               "name_en": "Education Supplies",
-              "total_usd": 42310944421.0,
-              "share_pct": 24.6
-            },
-            {
-              "name_cn": "办公用纸",
-              "name_en": "Office Paper",
-              "total_usd": 36512944115.0,
-              "share_pct": 21.2
-            },
-            {
-              "name_cn": "笔记本和写字板",
-              "name_en": "Notebooks & Writing Pads",
-              "total_usd": 36512944115.0,
-              "share_pct": 21.2
+              "total_usd": 54284940768.0,
+              "share_pct": 40.5
             },
             {
               "name_cn": "艺术用品",
               "name_en": "Art Supplies",
-              "total_usd": 14465496511.0,
-              "share_pct": 8.4
+              "total_usd": 25581668315.0,
+              "share_pct": 19.1
             },
             {
               "name_cn": "书写用品（新）",
               "name_en": "Writing Accessories",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "办公用纸",
+              "name_en": "Office Paper",
               "total_usd": 0.0,
               "share_pct": 0.0
             },
@@ -2236,6 +2407,12 @@
               "share_pct": 0.0
             },
             {
+              "name_cn": "笔记本和写字板",
+              "name_en": "Notebooks & Writing Pads",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
               "name_cn": "绘图工具",
               "name_en": "Drafting Supplies",
               "total_usd": 0.0,
@@ -2257,39 +2434,39 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 29568055735.0,
+            "value_usd": 30087406415.0,
             "yoy": 0,
-            "share": 10.2
+            "share": 12.8
           },
           "DE": {
-            "value_usd": 35257900070.45,
+            "value_usd": 40864987422.45,
             "yoy": 0,
-            "share": 12.1
+            "share": 17.4
           },
           "GB": {
-            "value_usd": 39939958016.62,
+            "value_usd": 45170824271.62,
             "yoy": 0,
-            "share": 13.7
+            "share": 19.2
           },
           "JP": {
-            "value_usd": 60165002486.67,
+            "value_usd": 61725717805.4,
             "yoy": 0,
-            "share": 20.7
+            "share": 26.3
           },
           "AU": {
-            "value_usd": 7167753624.13,
+            "value_usd": 1918625123.0,
             "yoy": 0,
-            "share": 2.5
+            "share": 0.8
           },
           "KR": {
-            "value_usd": 31481782809.0,
+            "value_usd": 35675561224.0,
             "yoy": 0,
-            "share": 10.8
+            "share": 15.2
           },
           "IN": {
-            "value_usd": 1793721567.0,
+            "value_usd": 0.0,
             "yoy": 0,
-            "share": 0.6
+            "share": 0.0
           },
           "VN": {
             "value_usd": 0.0,
@@ -2297,9 +2474,9 @@
             "share": 0.0
           },
           "MX": {
-            "value_usd": 27153341650.0,
+            "value_usd": 11905852106.0,
             "yoy": 0,
-            "share": 9.3
+            "share": 5.1
           },
           "AE": {
             "value_usd": 0,
@@ -2307,9 +2484,9 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 37804676155.71,
+            "value_usd": 0.0,
             "yoy": 0,
-            "share": 13.0
+            "share": 0.0
           },
           "SA": {
             "value_usd": 0.0,
@@ -2322,9 +2499,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 20710674614.0,
+            "value_usd": 7450989806.0,
             "yoy": 0,
-            "share": 7.1
+            "share": 3.2
           },
           "ID": {
             "value_usd": 0,
@@ -2337,93 +2514,21 @@
       "policy_updates": {
         "articles": [
           {
-            "title": "Mexico Loyalty and Access Card Printing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXM0dUEwSEtKdUp1T0JNczduWFpLTnRMNy1VZko3T01ZTTBqejktbnJ0cFRUMTR3Tl85WFQ2am5TcUt6RzV6WXNzblU3UDU5M2kwTWxDRFhSVnNVN0J1SFBxeTAySWluWlQ5YXBQX29ZRFlRSnczdGlRTW5OSDJDQUNRMm5jeWlTWlhxRF8wbmxGdXBEOGZKcjU4ZFNFbnFPc0tza09odkVHaW1DRkoySDFGaXFnYXpXOG",
-            "country": "MX",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXM0dUEwSEtKdUp1T0JNczduWFpLTnRMNy1VZko3T01ZTTBqejktbnJ0cFRUMTR3Tl85WFQ2am5TcUt6RzV6WXNzblU3UDU5M2kwTWxDRFhSVnNVN0J1SFBxeTAySWluWlQ5YXBQX29ZRFlRSnczdGlRTW5OSDJDQUNRMm5jeWlTWlhxRF8wbmxGdXBEOGZKcjU4ZFNFbnFPc0tza09odkVHaW1DRkoySDFGaXFnYXpXOGhZcw?oc=5",
-            "published": "Sat, 04 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "打印机耗材"
-          },
-          {
-            "title": "World Sublimation Printing Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVU9vLUE2eF83WkR5NmdIX3RuaWFZZWpjTVhVREhUOURhSkQ5VEs3T0hSbXFuS0ZLdlRuS0VPeWJweTUySHkzWTFGRGdIWjRnMFJ6STlBWUJoa0stXzVUT0xDWl9pVnhmR3YxWUY4Zk1Zc3RWU3BJd1I5Q1RHRXNIRUszVWdCOWtvaDhoNDdNSzl1VElIQkU0RFE2WUtKV3NJTUVEN0VNSWhwaGthTXA1SHlkaEZFaF9Q?o",
+            "title": "United States UV Curing Resins - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGtKc0o1Vk5xUW03OV9EWDRuVUwzNnJkNmp5eUJ6eTg4UmFSeWxIMlBPWUpHT2NDYWtBaFl0UHAtQlR5Wk9rTXdSTjc3WkltWTV3TEFOeEZNamFTQ1o5TXdqc1FPMkNSbHU4U3dCWHB4UkIyRHpGbXFsQUVtaVU4aFhpMTltd2tNNGM4Yk5hU3ZrbXFxVXNyclA5dlBvYjRGczFnQVNXM3FXNl90RWMxRw?oc=5\" targe",
             "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVU9vLUE2eF83WkR5NmdIX3RuaWFZZWpjTVhVREhUOURhSkQ5VEs3T0hSbXFuS0ZLdlRuS0VPeWJweTUySHkzWTFGRGdIWjRnMFJ6STlBWUJoa0stXzVUT0xDWl9pVnhmR3YxWUY4Zk1Zc3RWU3BJd1I5Q1RHRXNIRUszVWdCOWtvaDhoNDdNSzl1VElIQkU0RFE2WUtKV3NJTUVEN0VNSWhwaGthTXA1SHlkaEZFaF9Q?oc=5",
-            "published": "Sat, 04 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "打印机耗材"
-          },
-          {
-            "title": "United States UV Curable Resin for 3D Printing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPa1VBbHpvWk5FUGl5Um1kQ0t4c3Y2cVhfb2xhTFUtOVRrSWxncEFCWVVlSU9QSGV5OEQ3SWdPd0NjU2xuUGtKQ2twOWtMQ2FjQmU0dzVkT0ZRcWpydzlZeU1FSjZtUmNXVW4xMG1hWExnZG9LcVBzaFo5Uldsb2NreS1adXQ1VWd2NGdmcDdjbjYtblVIU05pYThfYktuQ0ZjV3lnQUFUcFhUTlZLdkI5dHBSbVZseFM2Vk",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa1VBbHpvWk5FUGl5Um1kQ0t4c3Y2cVhfb2xhTFUtOVRrSWxncEFCWVVlSU9QSGV5OEQ3SWdPd0NjU2xuUGtKQ2twOWtMQ2FjQmU0dzVkT0ZRcWpydzlZeU1FSjZtUmNXVW4xMG1hWExnZG9LcVBzaFo5Uldsb2NreS1adXQ1VWd2NGdmcDdjbjYtblVIU05pYThfYktuQ0ZjV3lnQUFUcFhUTlZLdkI5dHBSbVZseFM2VktXZkE0RlNNU3FtR0E?oc=5",
-            "published": "Sat, 04 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "打印机耗材"
-          },
-          {
-            "title": "Germany Loyalty and Access Card Printing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQMEVoclZEUHhJcElkOGV6N0NBbE9YLWVkX2ZPaUJKTVlxRjRQanJXOXZRV3Jsd3RuSldMcWJyVTNxWWVxX0tkTjY3cjNSOE5qb0VaYnhqRHlPMlhrc0dkWElNb2xtN1hzUlJWQlB4SDBiRE5XbWVxTldyQWp2SGtuQm1vWFFZY0J2NTlMWXYtcE55NUN1Ykd3ekljZ2JPRUU5emlGN1lhenE1RUVrX1J3U19lSnBXUTFmQW",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMEVoclZEUHhJcElkOGV6N0NBbE9YLWVkX2ZPaUJKTVlxRjRQanJXOXZRV3Jsd3RuSldMcWJyVTNxWWVxX0tkTjY3cjNSOE5qb0VaYnhqRHlPMlhrc0dkWElNb2xtN1hzUlJWQlB4SDBiRE5XbWVxTldyQWp2SGtuQm1vWFFZY0J2NTlMWXYtcE55NUN1Ykd3ekljZ2JPRUU5emlGN1lhenE1RUVrX1J3U19lSnBXUTFmQWM2UnBn?oc=5",
-            "published": "Sat, 04 Jul 2026",
-            "source": "IndexBox",
-            "l2_source": "打印机耗材"
-          },
-          {
-            "title": "Italy Loyalty and Access Card Printing - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYVJkdllvekc1a2RxUnZuVlY3c1NEdGg0ZXhTZFVfOVozSFlGT1NaM1c0MXZFblNZa3Q2bW9KVzdBcnlhMlI4enQ2bHJqRnpUbmJOTkVwSG1IdnIyX29Xd3cxcmdPV0h0Snp5R3F0YndLQ01lbkhJT3RBZXBpdEZrQ004eEtqNDYzTGYteUFlOE13MkVmbFFSN3pZeVU0bVZxQWxWYWJLVWJ0M0o4LXVWT0QyVzRBTWRBSE",
-            "country": "EU",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYVJkdllvekc1a2RxUnZuVlY3c1NEdGg0ZXhTZFVfOVozSFlGT1NaM1c0MXZFblNZa3Q2bW9KVzdBcnlhMlI4enQ2bHJqRnpUbmJOTkVwSG1IdnIyX29Xd3cxcmdPV0h0Snp5R3F0YndLQ01lbkhJT3RBZXBpdEZrQ004eEtqNDYzTGYteUFlOE13MkVmbFFSN3pZeVU0bVZxQWxWYWJLVWJ0M0o4LXVWT0QyVzRBTWRBSE9V?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOGtKc0o1Vk5xUW03OV9EWDRuVUwzNnJkNmp5eUJ6eTg4UmFSeWxIMlBPWUpHT2NDYWtBaFl0UHAtQlR5Wk9rTXdSTjc3WkltWTV3TEFOeEZNamFTQ1o5TXdqc1FPMkNSbHU4U3dCWHB4UkIyRHpGbXFsQUVtaVU4aFhpMTltd2tNNGM4Yk5hU3ZrbXFxVXNyclA5dlBvYjRGczFnQVNXM3FXNl90RWMxRw?oc=5",
             "published": "Sat, 04 Jul 2026",
             "source": "IndexBox",
             "l2_source": "打印机耗材"
           }
         ],
         "country_summary": {
-          "MX": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "打印机耗材"
-            ]
-          },
           "US": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "打印机耗材"
-            ]
-          },
-          "EU": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
@@ -2444,68 +2549,68 @@
       "l3_count": 51,
       "customs_2025": {
         "china_export": {
-          "total_usd": 263627483909.0,
-          "total_kg": 7085178015.0,
-          "yoy_growth": 7.9,
+          "total_usd": 253020710420.0,
+          "total_kg": 7504292756.0,
+          "yoy_growth": 8.2,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "印刷服务",
               "name_en": "Packaging & Printing Services",
-              "total_usd": 42310944421.0,
-              "share_pct": 16.0
+              "total_usd": 54284940768.0,
+              "share_pct": 21.5
             },
             {
               "name_cn": "药物包装",
               "name_en": "Pharmaceutical Packaging",
-              "total_usd": 39410075479.0,
-              "share_pct": 14.9
+              "total_usd": 50401412070.0,
+              "share_pct": 19.9
             },
             {
-              "name_cn": "包装原材料",
-              "name_en": "Packaging Raw Materials",
-              "total_usd": 36512944115.0,
-              "share_pct": 13.9
-            },
-            {
-              "name_cn": "纸质包装",
-              "name_en": "Paper Packaging",
-              "total_usd": 36512944115.0,
-              "share_pct": 13.9
+              "name_cn": "运输包装",
+              "name_en": "Logistics Packaging",
+              "total_usd": 38362247950.0,
+              "share_pct": 15.2
             },
             {
               "name_cn": "玻璃包装",
               "name_en": "Glass Packaging",
               "total_usd": 32116417664.0,
-              "share_pct": 12.2
-            },
-            {
-              "name_cn": "包装辅助材料",
-              "name_en": "Packaging Auxiliary Materials",
-              "total_usd": 29808741641.0,
-              "share_pct": 11.3
+              "share_pct": 12.7
             },
             {
               "name_cn": "木、竹包装",
               "name_en": "Wooden & Bamboo Packaging",
-              "total_usd": 23806442506.0,
-              "share_pct": 9.0
+              "total_usd": 31763824002.0,
+              "share_pct": 12.6
             },
             {
               "name_cn": "印刷材料",
               "name_en": "Printing Materials",
-              "total_usd": 14465496511.0,
-              "share_pct": 5.5
+              "total_usd": 25581668315.0,
+              "share_pct": 10.1
             },
             {
-              "name_cn": "运输包装",
-              "name_en": "Logistics Packaging",
-              "total_usd": 8683477457.0,
-              "share_pct": 3.3
+              "name_cn": "包装辅助材料",
+              "name_en": "Packaging Auxiliary Materials",
+              "total_usd": 20510199651.0,
+              "share_pct": 8.1
+            },
+            {
+              "name_cn": "包装原材料",
+              "name_en": "Packaging Raw Materials",
+              "total_usd": 0.0,
+              "share_pct": 0.0
             },
             {
               "name_cn": "塑料包装",
               "name_en": "Plastic Packaging",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "纸质包装",
+              "name_en": "Paper Packaging",
               "total_usd": 0.0,
               "share_pct": 0.0
             },
@@ -2525,49 +2630,49 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 32034678692.0,
+            "value_usd": 35574415112.0,
             "yoy": 0,
-            "share": 10.3
+            "share": 11.7
           },
           "DE": {
-            "value_usd": 46033712420.22,
+            "value_usd": 54571994965.22,
             "yoy": 0,
-            "share": 14.8
+            "share": 18.0
           },
           "GB": {
-            "value_usd": 42498884709.62,
+            "value_usd": 50475172135.62,
             "yoy": 0,
-            "share": 13.6
+            "share": 16.7
           },
           "JP": {
-            "value_usd": 51733433690.17,
+            "value_usd": 47955362699.57,
             "yoy": 0,
-            "share": 16.6
+            "share": 15.8
           },
           "AU": {
-            "value_usd": 23511823122.15,
+            "value_usd": 7090977659.0,
             "yoy": 0,
-            "share": 7.5
+            "share": 2.3
           },
           "KR": {
-            "value_usd": 33745251136.0,
+            "value_usd": 38793754535.0,
             "yoy": 0,
-            "share": 10.8
+            "share": 12.8
           },
           "IN": {
-            "value_usd": 7917564432.0,
+            "value_usd": 5120078513.0,
             "yoy": 0,
-            "share": 2.5
+            "share": 1.7
           },
           "VN": {
-            "value_usd": 0.0,
+            "value_usd": 19239049777.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 6.4
           },
           "MX": {
-            "value_usd": 11905852106.0,
+            "value_usd": 16721543052.0,
             "yoy": 0,
-            "share": 3.8
+            "share": 5.5
           },
           "AE": {
             "value_usd": 0,
@@ -2575,24 +2680,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 39854000079.71,
+            "value_usd": 4867964970.0,
             "yoy": 0,
-            "share": 12.8
+            "share": 1.6
           },
           "SA": {
-            "value_usd": 5762579566.0,
-            "yoy": 0,
-            "share": 1.8
-          },
-          "FR": {
-            "value_usd": 5230267078.0,
+            "value_usd": 5036040665.0,
             "yoy": 0,
             "share": 1.7
           },
-          "BR": {
-            "value_usd": 11328157143.0,
+          "FR": {
+            "value_usd": 4983766641.0,
             "yoy": 0,
-            "share": 3.6
+            "share": 1.6
+          },
+          "BR": {
+            "value_usd": 12539304495.0,
+            "yoy": 0,
+            "share": 4.1
           },
           "ID": {
             "value_usd": 0,
@@ -2612,28 +2717,28 @@
       "l3_count": 43,
       "customs_2025": {
         "china_export": {
-          "total_usd": 140046932000.0,
-          "total_kg": 2200206932.0,
-          "yoy_growth": 8.8,
+          "total_usd": 79871227212.0,
+          "total_kg": 2024502144.0,
+          "yoy_growth": 1.2,
           "data_quality": "estimated",
           "l2_breakdown": [
-            {
-              "name_cn": "基本有机原料",
-              "name_en": "Basic Organic Chemicals",
-              "total_usd": 54863885900.0,
-              "share_pct": 39.2
-            },
             {
               "name_cn": "催化剂及化学助剂",
               "name_en": "Catalysts & Chemical Auxiliary Agents",
               "total_usd": 54046723047.0,
-              "share_pct": 38.6
+              "share_pct": 67.7
+            },
+            {
+              "name_cn": "基本有机原料",
+              "name_en": "Basic Organic Chemicals",
+              "total_usd": 20464441375.0,
+              "share_pct": 25.6
             },
             {
               "name_cn": "农用化学品",
               "name_en": "Agrochemicals",
-              "total_usd": 31136321032.0,
-              "share_pct": 22.2
+              "total_usd": 5360060769.0,
+              "share_pct": 6.7
             },
             {
               "name_cn": "掺合剂及添加剂",
@@ -2663,49 +2768,49 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 6479553072.55,
+            "value_usd": 2309636906.55,
             "yoy": 0,
-            "share": 6.3
+            "share": 5.0
           },
           "DE": {
-            "value_usd": 19821610868.53,
+            "value_usd": 15727999439.53,
             "yoy": 0,
-            "share": 19.3
+            "share": 34.4
           },
           "GB": {
-            "value_usd": 11024946804.53,
+            "value_usd": 7042088407.53,
             "yoy": 0,
-            "share": 10.8
+            "share": 15.4
           },
           "JP": {
-            "value_usd": 6261598812.41,
+            "value_usd": 2207795738.41,
             "yoy": 0,
-            "share": 6.1
+            "share": 4.8
           },
           "AU": {
-            "value_usd": 5919099075.74,
+            "value_usd": 1023222103.74,
             "yoy": 0,
-            "share": 5.8
+            "share": 2.2
           },
           "KR": {
-            "value_usd": 6043644446.61,
+            "value_usd": 1543148084.61,
             "yoy": 0,
-            "share": 5.9
+            "share": 3.4
           },
           "IN": {
-            "value_usd": 5825690156.73,
+            "value_usd": 1023222147.73,
             "yoy": 0,
-            "share": 5.7
+            "share": 2.2
           },
           "VN": {
-            "value_usd": 16459165848.13,
+            "value_usd": 6139332490.13,
             "yoy": 0,
-            "share": 16.1
+            "share": 13.4
           },
           "MX": {
-            "value_usd": 2743194298.96,
+            "value_usd": 1023222071.96,
             "yoy": 0,
-            "share": 2.7
+            "share": 2.2
           },
           "AE": {
             "value_usd": 7.69,
@@ -2713,24 +2818,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 6360447045.53,
+            "value_usd": 4640474818.53,
             "yoy": 0,
-            "share": 6.2
+            "share": 10.1
           },
           "SA": {
-            "value_usd": 5607735842.81,
+            "value_usd": 1023222081.81,
             "yoy": 0,
-            "share": 5.5
+            "share": 2.2
           },
           "FR": {
-            "value_usd": 4237737710.68,
+            "value_usd": 1023222074.68,
             "yoy": 0,
-            "share": 4.1
+            "share": 2.2
           },
           "BR": {
-            "value_usd": 5701144810.71,
+            "value_usd": 1023222085.71,
             "yoy": 0,
-            "share": 5.6
+            "share": 2.2
           },
           "ID": {
             "value_usd": 10.25,

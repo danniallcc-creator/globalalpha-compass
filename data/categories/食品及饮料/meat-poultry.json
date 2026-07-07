@@ -507,7 +507,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "肉类及家禽：海外社媒「snack wholesale supplier」增速 244%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Grocery Trade News关注「Top 10 Food Safety Certifications for...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "肉类及家禽：海外社媒「food factory tour」增速 245%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Rediff MoneyWiz关注「Indian Food Products Showcase at New...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -520,45 +520,52 @@
       "美国 FDA 注册要求 → 肉类及家禽 进入北美市场必备门槛",
       "欧盟 PPWR 包装废弃物法规 → 肉类及家禽 包装可回收化升级",
       "印度市场 YoY +22% 领跑 机械 出口 → 肉类及家禽需求强劲",
-      "海外社媒「snack wholesale supplier」增速 244% 领跑 → 肉类及家禽社媒种草热度爆发"
+      "海外社媒「food factory tour」增速 245% 领跑 → 肉类及家禽社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "snack wholesale supplier",
-        "growth": 243.5,
-        "vol": "130K",
+        "platform": "youtube",
+        "kw": "food factory tour",
+        "growth": 245.0,
+        "vol": "19K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "food breaking",
+        "growth": 244.5,
+        "vol": "152K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "beverage aesthetic",
-        "growth": 227.0,
-        "vol": "114K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage industry report",
-        "growth": 198.5,
-        "vol": "103K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 240.5,
+        "kw": "beverage new arrival",
+        "growth": 227.5,
+        "vol": "574K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 171.0,
+        "growth": 224.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 167.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Indian Food Products Showcase at New York Trade Show - Rediff MoneyWiz",
+        "source": "Rediff MoneyWiz",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRlUyQVNhM2Z0c0hMZ2w1SE9UWEdOMFB0eXhqekc5TVpkV0tMcUh5V0NSMF9VU1NGdnBoTjVZOHluNGk5NGRqMjUxYW9yTTBuTjJUTk1FanFMdHBBMTJnOW41UmhuQnZIOGxzaVo3N1daWTBoaFAyWExlMFZXRDRJdXdHTGFjUTJZZ3JPRFpKS0tzenF1bGV2MjFocVE1ZlZPOUx3LWFTSdIBrAFBVV95cUxNNmE1LUNQc0VVYVlHV2Nhck1UeTBuSmxDY29rTDV4aUUyTS1ic19KeWlZTm9LWlRBb2lUQk1YaGlGQ0h1em1pTkthUV9qeGpieVJKMlRGLWRwUWdPaGtrVXFzcEhfYTlOOEFtSkJRSUV2bzJuX0tnZ3dlUm5tYXptNWdQYllPNFNJVDJGVUx0c1p0OWpaTTBGU0VkclYzMGRkMEtpekU3emZ4OWNn?oc=5",
         "hits": 0
       },
       {
@@ -566,13 +573,6 @@
         "title": "Top 10 Food Safety Certifications for Belgian Supermarkets - Grocery Trade News",
         "source": "Grocery Trade News",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUDM5OFU5NWpwd0FlUGVHcm0wNDdPZDZaNmZ3eE1adERKWm9Nd2hnV1AxeG9kZ0pFT1oyWS1XTFJ4eFBjV1lKWHpLRUFEZTVSdXR6SE5yamc3MXVBVUJqTXlJdUZIb1E4VHl2R0hFR2wxSVJ1U1BiM2tTWjJuZXJyWQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - Economic Research Service (.gov)",
-        "source": "Economic Research Service (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
         "hits": 0
       },
       {
@@ -595,7 +595,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "食品及饮料"
   }
 }

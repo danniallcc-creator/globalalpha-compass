@@ -93,7 +93,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "眼镜：海外社媒「jewelry breaking」增速 252%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Statista关注「Leading watch exporting countries...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
+    "trend_summary": "眼镜：海外社媒「jewelry breaking」增速 246%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，Statista关注「Leading watch exporting countries...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -105,45 +105,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 眼镜 出口需通过合规认证",
       "印度市场 YoY +26% 领跑 医疗器械 出口 → 眼镜需求强劲",
-      "海外社媒「jewelry breaking」增速 252% 领跑 → 眼镜社媒种草热度爆发"
+      "海外社媒「jewelry breaking」增速 246% 领跑 → 眼镜社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "jewelry breaking",
-        "growth": 252.5,
-        "vol": "323K",
+        "growth": 245.5,
+        "vol": "141K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 248.5,
-        "vol": "125K",
+        "platform": "tiktok",
+        "kw": "jewelry #fyp",
+        "growth": 240.5,
+        "vol": "332K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "jewelry tutorial",
-        "growth": 241.5,
-        "vol": "754K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "jewelry market 2026",
-        "growth": 245.5,
+        "kw": "watch factory tour",
+        "growth": 230.0,
+        "vol": "751K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "watch b2b export",
-        "growth": 235.0,
+        "growth": 223.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "jewelry wholesale supplier",
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -155,9 +155,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Basilia Jewellery and Watch Fair: The MCH Group is set to launch a new international trade show in Basel - Luxus Plus",
-        "source": "Luxus Plus",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb0NiVVB3bXdGMUQwY3d0U2ctVEdmYW1EQ21FTW5qU0wxTThUMVdsX1otNkFFSWx5YURvQkNtbUZWRTRLdU85MEV4dzZHZFF4d2xOVDYtNUF1TlZvMGc2WHNYUWZCdjBtYmhYLUNCMGgxRWxIbWpYdm9OaW5ZVDFQRTNBcjJ4QldRSWp3dl9rX3dIdW9qZjg3UERIbUNlS0g1M0dwN1NocHZIM0F2N3hvTzdZNTM5elp6aWttRUd1UU9ESVFhY1BiN2NB?oc=5",
+        "title": "A Belgian diamond group is gifting Trump a lavish ring after that industry won tariff relief - PBS",
+        "source": "PBS",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVmVoZkwtd19iR01Cb05NY2RIblVqSVVOVnlqZWZadk1BWEVvVlBnc2E3c0x3US1ULTQwNWxlRTFjcGN3SjJONnplbmlYeEFKMVF0T00xQUx1OHJhT3p0UldSdUZMTTN5NE5KMzdwaUE5bTFiczJ2eldBdFNOT29BVEktdk1Fd0JxZFVOUnQ0cXM3VVcwSEdZMDB0dXc0M282aGRUX3d3dlRJZWZPTDR2ek5nZnVjc0UybDlGbWdGb3dtMGJwTEHSAcsBQVVfeXFMTzQxeG50VWZ4YkJ1NjJnd2pxMHh3M2NfTUtRSXJyR1d2LTdTNEoxRWd6cFVGSXZMcGphWnhocmExRXFDakxXTUpFUGZIbTBYMmRnM3B2M2hYMGdTYzNvTU9nbGxsVUpXQUtwQ1ZyVUMyejh3b2NRVzFsRG5pSm5WajZsb2huZjZ0bUNUVnhZeVgtY3FhVi0wVGttRlBBVkJXNVRsdnJPdlVNNXhDQlVRYVhjV1NYX2s4eTlVdGtWMmRRNlBaX1hlMVA1Zm8?oc=5",
         "hits": 0
       },
       {
@@ -180,7 +180,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

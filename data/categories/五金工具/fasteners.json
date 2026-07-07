@@ -41,22 +41,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 33824426,
-    "total_net_weight_kg": 13324426,
+    "total_export_value_usd": 48780705,
+    "total_net_weight_kg": 8280705,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-05"
+    "fetched_at": "2026-07-07"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 80,
-      "trend_direction": "stable",
+      "interest_score": 43,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-05"
+      "fetched_at": "2026-07-07"
     }
   },
   "industry_analysis": {
@@ -69,7 +69,7 @@
     "opportunity": "物联网智能工具和数字化测量技术成为趋势。新兴市场的基建开发带动工具需求。电商DTC直营渠道降低分销成本。无绳电池平台生态系统形成品牌锁定效应。"
   },
   "compliance_summary": "US: UL认证(电动工具), OSHA合规, ANSI/ASME工具标准 | EU: CE(机械指令/LVD/EMC), EN标准 | JP: PSE(电动工具), JISA工具标准 | AU: RCM(电动), ACCC消费品安全",
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-07",
   "data_source": "merged_existing",
   "compliance_detail": {
     "US": {
@@ -247,21 +247,23 @@
     "l1_ref": "五金工具"
   },
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 2,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
       "negative_pct": 0.0,
       "neutral_pct": 100.0,
-      "articles_analyzed": 1
+      "articles_analyzed": 2
     },
     "top_headlines": [
-      "NFDA Elects 2026-2027 Leadership - Modern Distribution Management"
+      "NFDA Elects 2026-2027 Leadership - Modern Distribution Management",
+      "World Wedge Locking Fastener Washers - Market Analysis, Forecast, Size, Trends and Insights - IndexB"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbHA0N2J5alRldXEzU0p2QW5GQTdjNG5BM25xTDV4d2hQcGJsZ1dMN0pDT3ZRa0lBYml4aWRjU1ZfR0psbDFYSk5maTdxZnpkaC1LdFU4enp5V0k5SjE1Vko1Z0JXT3pFZ0NPb2RleHRfd19kcFFUa2hCWGVFam9YSzF3VEd6M3ZQbEFiMWs0cFdEMTlVS0JWMVpGWDR0N1pUQU9UdmZGV3NWYm10ZkV2Y25Qel8teGJMRUNSTGtUSFoyU0VTLUU0?oc=5"
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbHA0N2J5alRldXEzU0p2QW5GQTdjNG5BM25xTDV4d2hQcGJsZ1dMN0pDT3ZRa0lBYml4aWRjU1ZfR0psbDFYSk5maTdxZnpkaC1LdFU4enp5V0k5SjE1Vko1Z0JXT3pFZ0NPb2RleHRfd19kcFFUa2hCWGVFam9YSzF3VEd6M3ZQbEFiMWs0cFdEMTlVS0JWMVpGWDR0N1pUQU9UdmZGV3NWYm10ZkV2Y25Qel8teGJMRUNSTGtUSFoyU0VTLUU0?oc=5",
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNUhWNTUzR1R0eHE4MmJiQ3lXQXFLeGRYRU43RlR1cWhtOEwzdVZuT2x4VHF1V3p0cC1VN0tKaE5pRXZzTFRubTNUM2hOVUJ0dy0tR09rZU80MVFNUXRzb3JJZ1ZkbGlxM0l2T1M5NUp3TzVaQ3h6blBiZENnb3BZMXFfX3NOOUR2eng1TTFhdnZPOVdzQ3A3WFpaQ1BST2FucnNmMjRPVzY5ZUJBYzJuOVJhSXhPbjU0T2lZODlsTkNSM0tkaFZFY0RDdXVheE15blEtOVdBb29FWm5EbEE?oc=5"
     ],
-    "fetched_at": "2026-07-05"
+    "fetched_at": "2026-07-07"
   },
   "policy_updates": {
     "articles": [
@@ -290,17 +292,6 @@
   },
   "customs_2025": {
     "china_export": null,
-    "imports_from_china": {
-      "JP": {
-        "value_usd": 5527161124.805,
-        "yoy": null,
-        "share": 44.5
-      },
-      "AU": {
-        "value_usd": 6906149664.940001,
-        "yoy": null,
-        "share": 55.5
-      }
-    }
+    "imports_from_china": {}
   }
 }

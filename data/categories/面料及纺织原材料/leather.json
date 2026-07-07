@@ -161,7 +161,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "皮革：海外社媒「textile #trending」增速 250%，搜索端「textile market 2026」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」。",
+    "trend_summary": "皮革：海外社媒「fabric price trend」增速 232%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -174,45 +174,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 皮革 供应链合规升级",
       "欧盟 CE 标志强制准入 → 皮革 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 皮革 通关",
-      "海外社媒「textile #trending」增速 250% 领跑 → 皮革社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 232% 领跑 → 皮革社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "textile #trending",
-        "growth": 249.5,
-        "vol": "787K",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 232.0,
+        "vol": "320K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric price trend",
-        "growth": 249.0,
-        "vol": "116K",
+        "platform": "tiktok",
+        "kw": "textile tiktok made me buy",
+        "growth": 218.5,
+        "vol": "77K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 249.0,
-        "vol": "609K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "textile market 2026",
-        "growth": 209.5,
+        "kw": "textile breaking",
+        "growth": 217.5,
+        "vol": "570K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 179.0,
+        "growth": 200.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "textile market 2026",
+        "growth": 149.5,
         "hits": 0
       },
       {
@@ -224,9 +224,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Plastic Coated Textile Fabric (HS: 5903) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82UUpjOThMZF8ybUs0NGYyY1RNdXFxZTgzdzRmTkFPVnNBY211VmgzdlBFNGVEVDdyR0puX1hiVFdUQVlPSHdmSmRHTjBBOGFJeUwxRjNuendDMVZNYUFRTUFaelloanRtQVk5akJn?oc=5",
+        "title": "Impressive growth of Vietnam's merchandise foreign trade in Jan-May - Fibre2Fashion",
+        "source": "Fibre2Fashion",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaUdaYzQ5UUM3MnN2cGcya0s5WG1NSzNDU2FHY0J3TU0xOVZBVXJxamFVQm5hWnVnTzJQY29wb2hnR2tFYkRkMFU4TVA1NFFMMk55X0p0QUpHODRiR3FtZVNmMm1aLVFfZ29OSHBpYnRxLS1pcy1SZW52RHJSQ3hwV0VXNGNTSk12YlA1M3RQYmhnNHNkamtMUklHQWJaUU80NGlhNmVlMHJlanpuYUZhd1V2ejA2aUd0SGdWLWV6aWlSakxwNDJzRHc0M0RCTWstRE84aw?oc=5",
         "hits": 0
       },
       {
@@ -249,7 +249,7 @@
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "面料及纺织原材料"
   }
 }

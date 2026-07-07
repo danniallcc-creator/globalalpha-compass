@@ -216,7 +216,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "美妆工具：海外社媒「skincare tiktok made me buy」增速 250%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，The Worldfolio关注「Maple International Expands Japanese...」。",
+    "trend_summary": "美妆工具：海外社媒「cosmetic analyst」增速 246%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，upi.com关注「K-beauty drives record South Korean SME...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -229,52 +229,52 @@
       "欧盟 CE 标志强制准入 → 美妆工具 出口需通过合规认证",
       "美国 FDA 注册要求 → 美妆工具 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 美妆工具 制造门槛",
-      "海外社媒「skincare tiktok made me buy」增速 250% 领跑 → 美妆工具社媒种草热度爆发"
+      "海外社媒「cosmetic analyst」增速 246% 领跑 → 美妆工具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "skincare tiktok made me buy",
-        "growth": 250.5,
-        "vol": "584K",
+        "platform": "x",
+        "kw": "cosmetic analyst",
+        "growth": 246.5,
+        "vol": "16K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "skincare supply chain",
-        "growth": 244.5,
-        "vol": "224K",
+        "platform": "youtube",
+        "kw": "skincare tutorial",
+        "growth": 235.5,
+        "vol": "318K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "cosmetic aesthetic",
+        "kw": "beauty must have",
         "growth": 235.0,
-        "vol": "174K",
+        "vol": "647K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "skincare wholesale supplier",
+        "growth": 177.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beauty market 2026",
-        "growth": 206.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cosmetic b2b export",
-        "growth": 174.0,
+        "growth": 91.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Maple International Expands Japanese Beauty Brands Worldwide Through Cross-Border Growth and Market Strategy - The Worldfolio",
-        "source": "The Worldfolio",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZHF0d2Foa3gxSmRGWmtkUE5EaEVTdnAwX0cxR2FadW14MGFqZDJJMEU4ck8wazlVT2dCR3FqQk9lQzVINVZtbk5QM2dpcnVUMkhFT080RUZlZTJWMG5JQjAwbUlrbDdfRVB0SzZVb015Ty1DWkpmUXB4UTNVT3RSTVNqV2xtVWhucXJtUTJpc3FaTlhBdDQ1eXRkTTh4Z3lhalZJOTRUMFNta2kyMlBERkNjZWVWWnF0MHZLUUk3Nk9RZndKSi1ONWJCZXhsRktCRHBsRzBJeFJxZWxfVmRsMXRzT013bjJxenc?oc=5",
+        "title": "K-beauty drives record South Korean SME consumer exports - upi.com",
+        "source": "upi.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVWZfaFRlTFpuSWVEb2QwTFZqSWNYS0tnM1Q0aXdKbnAxNjZCajh4SFU2T0g3TURsS3FEcWc1NXlrbUJYQXFUSWFtUEx5cC1zVUR3ZnZYdnJrclE5REhjNXhJRnBwdXBiNHBCNko1SVBka05IS3FRVElBX1h6NEZtanpRc282XzBBeG9JZ19nQnZYeWljMU1wR0sxb9IBoAFBVV95cUxQSTZZYU5QU0ZLLTYtSk1nN25vZkM0Ym8zT0pNQ2JId1VJRWZ1ZDlleW1qODVDVXh0ZHlZWC10T09yV1ZrYms1WkI5V3gzRVFDdFB0LVB5TjBXbV9vR1FJODJ4dnJRdjBQazYtV2VsNzd5VEJ0MW9lQkxlTzEzTDYtRE45U0IycFN3VDBNZk1xQUNkdFhtVjZrQWo5QmV2T2h6?oc=5",
         "hits": 0
       },
       {
@@ -304,7 +304,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "美妆"
   }
 }

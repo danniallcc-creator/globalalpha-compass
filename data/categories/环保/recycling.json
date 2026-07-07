@@ -189,7 +189,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental viral」增速 216%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Bundesministerium für Wirtschaft und Energie关注「Export initiatives: finding new markets...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
+    "trend_summary": "回收：海外社媒「environmental tutorial」增速 232%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Deloitte关注「What’s happening this week in...」，出口 YoY +22%，主要流向 美国 / 荷兰 / 日本。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -201,59 +201,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
       "印度市场 YoY +22% 领跑 阀门/水龙头(8481系列) 出口 → 回收需求强劲",
-      "海外社媒「environmental viral」增速 216% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental tutorial」增速 232% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "environmental viral",
-        "growth": 216.5,
-        "vol": "31K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "green tech viral hack",
-        "growth": 213.0,
-        "vol": "135K",
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 232.5,
+        "vol": "340K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "green tech industry news",
-        "growth": 195.0,
-        "vol": "173K",
+        "kw": "environmental supply chain",
+        "growth": 225.5,
+        "vol": "50K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "environmental must try",
+        "growth": 216.5,
+        "vol": "659K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 184.5,
+        "kw": "green tech b2b export",
+        "growth": 103.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 137.5,
+        "growth": 81.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Export initiatives: finding new markets - Bundesministerium für Wirtschaft und Energie",
-        "source": "Bundesministerium für Wirtschaft und Energie",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1piNHJKamdoYi1rYlJBZmRJcV9vZThQc2Ewa0g0ZkVjZUl2ZGtXajJ2OWItQUFHeDhyX2YwMEFIRHgzano4aUhERG42QzZuWEprNlBfWkRob016UFdlRHVmU293ajZ4Sy15S3B5Ukh5Q2hoaHhYLWhvdHgtbTlNRkgtbkVHUEY4V3BQYzJzRGFXaXRxMjdIWXhOaUlTQ1VRbFNGSmg4VE9uLVo5MlU0RTQtTnU?oc=5",
+        "title": "What’s happening this week in economics? - Deloitte",
+        "source": "Deloitte",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Lessons from China: Green trade leads to resilient growth - The World Economic Forum",
-        "source": "The World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLWdVbjM5ZFhTelNHOWluU09haEtrTGNzY0R2MHhYWEktVElLRWo3NlpIN1VoQ0lDU2g0TDNSVzJMa0VCM0NkUlVjTGZNVXYwazI5QlBpOXF1SHdUTEtEdmF6WWVoQ1RiczlYMUVibFNpbEpiSlpNR0tOTFBWbmNNUGRRX0pyUXVzS1hNX3dn?oc=5",
+        "title": "Beyond Trade: Why the EU–Mercosur Agreement Is Vital for Europe - Intereconomics | Review of European Economic Policy",
+        "source": "Intereconomics | Review of European Economic Policy",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRXM3WEtNQkc4U0pvREFoakxkZVR1b2xqbWZ3MUNHck1jSDN1STN5MmNOOGtUZkN2eGdiRXJjZURnQ0xmeVlyd29JWW5hQlVzNHBaT05XbklsX0dJdzcyZ1BqX3lfZDFkbDJmanRjSlNTbGJCUzZvcWJZS3kzT0xKemNWMVBzV3pJY3NQaTJ2c2FLdUpIRTNSNkZJdWdubDZ3bE5EY0w5NUVTTXJWbjZNRXFBLUlfeG1yOWVTSFk0N1dYN0dyci1WN3dCOGRfZw?oc=5",
         "hits": 0
       },
       {
@@ -276,7 +276,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "环保"
   }
 }

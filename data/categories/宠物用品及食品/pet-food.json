@@ -39,7 +39,7 @@
   "last_updated": "2026-06-10",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 240%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-48，PetfoodIndustry关注「Infographic: US pet food exports to...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food must have」增速 237%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-47，Pet Food Processing关注「Looking at Trump’s trade agenda - Pet...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -51,46 +51,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food industry news」增速 240% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food must have」增速 237% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 240.0,
-        "vol": "237K",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 237.0,
+        "vol": "616K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food b2b export",
-        "growth": 234.0,
-        "vol": "467K",
+        "platform": "youtube",
+        "kw": "pet food factory tour",
+        "growth": 179.0,
+        "vol": "364K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "pet food market alert",
-        "growth": 232.0,
-        "vol": "391K",
+        "growth": 177.0,
+        "vol": "519K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 231.0,
+        "growth": 37.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet market 2026",
-        "growth": 201.5,
+        "growth": 231.5,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Looking at Trump’s trade agenda - Pet Food Processing",
+        "source": "Pet Food Processing",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONm1zdFNCSXNPY2tYQ2dQMXJzX2NPQXo1TkVxdjY1Vl9KNVhFMldOTGFvX3NJQjhCSG94WjR0Smx5Q19zNi1xcG5LRUVqb21QRzllWVJNVExwVDliQkFfenRBRVJWZExpbjVNaVhwMTBhaWM1cUhqZ3hrNXR5S1lubHpzZjVHQQ?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -100,33 +107,26 @@
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "China PET Expansion Pressures Global Producers - czapp.com",
-        "source": "czapp.com",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZYWkhBeDR3NFFuelE5NVQzTlNrRTBSNktBTmJ3VkpZWnVqQWQzUmM4a0xtLTkzREg5NDktcjZ1STVsVmlra3ljRnhnZXpXNjdZTW9tdjZpcjc1aFl3UGp6S1ROdGVhYl8tc0p6NWJRV091dHRvbzJJSm44Sk9nenEzcEg2cDFTSnBtaFFRYw?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 48,
-        "title": "Top pet - Compact Edition",
-        "price": "$182.8",
-        "rating": 4.8,
+        "market": "JP",
+        "rank": 47,
+        "title": "Top pet - Eco Edition",
+        "price": "$135.4",
+        "rating": 4.0,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 37,
+        "rank": 8,
         "title": "Top pet - Premium Edition",
-        "price": "$73.0",
-        "rating": 4.8,
+        "price": "$84.0",
+        "rating": 4.5,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "宠物用品及食品"
   }
 }

@@ -363,7 +363,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "开关：海外社媒「electrical unboxing」增速 251%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
+    "trend_summary": "开关：海外社媒「electrical price trend」增速 250%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +28%，主要流向 中国香港 / 日本 / 美国。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -377,45 +377,45 @@
       "欧盟 CE 标志强制准入 → 开关 出口需通过合规认证",
       "美国 IRA 通胀削减法案补贴 → 开关 北美本地化制造红利",
       "越南市场 YoY +28% 领跑 集成电路 出口 → 开关需求强劲",
-      "海外社媒「electrical unboxing」增速 251% 领跑 → 开关社媒种草热度爆发"
+      "海外社媒「electrical price trend」增速 250% 领跑 → 开关社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical unboxing",
-        "growth": 251.0,
-        "vol": "248K",
+        "platform": "google",
+        "kw": "electrical price trend",
+        "growth": 250.0,
+        "vol": "612K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "electrical must have",
-        "growth": 248.0,
-        "vol": "397K",
+        "kw": "electrical new arrival",
+        "growth": 249.5,
+        "vol": "130K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electrical market 2026",
-        "growth": 246.5,
-        "vol": "376K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 243.5,
+        "platform": "x",
+        "kw": "electrical breaking",
+        "growth": 245.5,
+        "vol": "145K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
-        "growth": 234.5,
+        "growth": 240.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "electrical equipment sustainable manufacturing",
+        "growth": 88,
         "hits": 0
       },
       {
@@ -452,7 +452,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "电气设备及用品"
   }
 }

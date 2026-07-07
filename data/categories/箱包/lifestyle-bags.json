@@ -86,7 +86,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "生活类包袋：海外社媒「backpack must try」增速 224%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，The Times of India关注「India sets $1 trillion export goal for...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
+    "trend_summary": "生活类包袋：海外社媒「backpack aesthetic」增速 254%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，thenationalnews.com关注「Adnoc sets up global LNG trading...」，出口 YoY +8%，主要流向 美国 / 日本 / 英国。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -100,45 +100,52 @@
       "欧盟 CE 标志强制准入 → 生活类包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生活类包袋 通关",
       "韩国市场 YoY +8% 领跑 箱包 出口 → 生活类包袋需求强劲",
-      "海外社媒「backpack must try」增速 224% 领跑 → 生活类包袋社媒种草热度爆发"
+      "海外社媒「backpack aesthetic」增速 254% 领跑 → 生活类包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "backpack must try",
-        "growth": 224.5,
-        "vol": "33K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "luggage price trend",
-        "growth": 220.0,
-        "vol": "598K",
+        "platform": "instagram",
+        "kw": "backpack aesthetic",
+        "growth": 254.0,
+        "vol": "505K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "luggage factory tour",
-        "growth": 211.0,
-        "vol": "8K",
+        "kw": "luggage review 2026",
+        "growth": 252.5,
+        "vol": "128K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "bag wholesale supplier",
-        "growth": 96.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "bag supply chain",
+        "growth": 243.5,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 88.0,
+        "growth": 213.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "bag wholesale supplier",
+        "growth": 149.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Adnoc sets up global LNG trading platform to boost gas exports - thenationalnews.com",
+        "source": "thenationalnews.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmFuSkkwdkNsdjZZc2RZOVNnS3h6TXNsZmRKZmhRb3JycUdMUVdyVDVnWFlnQkZST05OWGEtNGVfQlVRU252SlRiV0NKYnRwcW40a0llaHd6YkZUeFJTM3JnSFhTNldJZWJ6bE80N3pnNmtPYWQ3azBzT2ZiY0hSSk04d2FTY1RHMnBqZk9LMWlObW93MFZZc2ZCa1k3cjIzWWpQSl84TzF6MkRfdTdkbGlJeHFUQm5UOHl3QWpsUQ?oc=5",
         "hits": 0
       },
       {
@@ -146,13 +153,6 @@
         "title": "India sets $1 trillion export goal for FY26 as merchandise, services trade rise - The Times of India",
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRE1RbDF5MEVJQlpYR1dvRUFkWVhaMm9KLVJOdUNCbjZwNzA2Y2xnNkdnSk9FQnpWZ1VJUmtTZTBtMjhBMThTczU2TldXd3VJamlqSXlvWllVYkN1MHJwRzR6UkZhMGpMMjNtQXFJQ2tubjBvNkJTLVdWQmZydjJXZHFyWmJnRnAzMjJHRUl3NVNyeEx6Qkl4cGJ5T3pPeWxJcUMtdVk1dzlyVU1UT245Q3ljVi1lNmt1dC1hMzJyNURkN1hkck5Hd21VSnFxZmo4cURWOEVWNGR4aEhFSURfeGFRdVNTSXRENVlnWGc2SG1CSlFVeUHSAfsBQVVfeXFMUGhhS2paa09fMDBxWXVTY1R6a21OYnp0cUxsTm90YzBpMXZ0dVJhY3FHaVpzMXBhTHNqX055V1FFeGxLT1Q5Q0I4MUtBeDNOUFYyNktCRXVta3UwT3FoYmh5MW9kYm1UY09zOGlyeDlYMzQ0ME5hRVg4QUJ4M3N2NGpoZnNYblByeXhsVDJvUVFBYWpmWXJObnloc2dlS2c3LTBVdXRwcXlJbEduVlpmUGgtYlE1SXBTWmowcjRMTXExUFFhb3ZBeEJndEx3MFNGcWFfV2UyNmx1cU12dkV2eU9xYnlrWGQzWnpCTEVKcHZ4NVpvOF9fTDROZ2M?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Russia Bag in Box Packaging - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRndHR3dfOENYVk9zWUZNUGJ2anFiSDFKT1EzTnZnSXR1eXNxcTMxSHlpR1FVcl9VVUhhdFZBQmt5b1Itci1LNE85Y09sLWltUGdfNkdfRGpEMlAybnJoOHgtMlZ2UTNud3BKLUhuc0FMclc5MllPRW9ydmdSY0VRak84MHpUZFVWdzB0MWI3bFRLa0JEbmg0OVlFb0VwbEQ0QzMyTDhhTnl0em5u?oc=5",
         "hits": 0
       },
       {
@@ -175,7 +175,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "箱包"
   }
 }

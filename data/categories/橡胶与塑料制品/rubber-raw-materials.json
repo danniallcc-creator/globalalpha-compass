@@ -261,7 +261,7 @@
     }
   },
   "dynamic_insight": {
-    "trend_summary": "橡胶原料：海外社媒「rubber new arrival」增速 250%，搜索端「rubber market 2026」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「Iran War Delivers Massive Swings in...」，出口 YoY +18%，主要流向 美国 / 日本 / 越南。",
+    "trend_summary": "橡胶原料：海外社媒「plastic b2b export」增速 252%，搜索端「plastic b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Butadiene rubber (BR) (HS: 400220)...」，出口 YoY +18%，主要流向 美国 / 日本 / 越南。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -275,45 +275,52 @@
       "欧盟 CE 标志强制准入 → 橡胶原料 出口需通过合规认证",
       "美国 FDA 注册要求 → 橡胶原料 进入北美市场必备门槛",
       "印度市场 YoY +18% 领跑 塑料制品 出口 → 橡胶原料需求强劲",
-      "海外社媒「rubber new arrival」增速 250% 领跑 → 橡胶原料社媒种草热度爆发"
+      "海外社媒「plastic b2b export」增速 252% 领跑 → 橡胶原料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "rubber new arrival",
-        "growth": 250.5,
-        "vol": "601K",
+        "platform": "google",
+        "kw": "plastic b2b export",
+        "growth": 252.0,
+        "vol": "431K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "rubber top 10",
-        "growth": 248.5,
-        "vol": "662K",
+        "platform": "google",
+        "kw": "plastic price trend",
+        "growth": 247.0,
+        "vol": "526K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "plastic aesthetic",
-        "growth": 246.0,
-        "vol": "274K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "rubber market 2026",
-        "growth": 175.5,
+        "platform": "x",
+        "kw": "rubber analyst",
+        "growth": 238.5,
+        "vol": "362K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "plastic b2b export",
-        "growth": 121.0,
+        "growth": 249.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "rubber wholesale supplier",
+        "growth": 218.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Butadiene rubber (BR) (HS: 400220) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OUTVyR3JkTUNubkVKUUNpcHVXZ2p3bldzOWxfOGZzOWs5UUhRRFFwSk1Kc05VWXdfN1dRSVNPV1pDY0tCREsySjdLcmY0SGdUY0J4OWRCaldwY1JFTm1fZQ?oc=5",
         "hits": 0
       },
       {
@@ -321,13 +328,6 @@
         "title": "Iran War Delivers Massive Swings in Chinese Petrochemicals Trade - Bloomberg.com",
         "source": "Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc0JVaTBDUkJINjc2c0RtWGhEbjJXS1ZMd202aFY4MnRVT0hENDZfS2g2OUZSWEp0a0VDUmxtQS0zdDRISm5HY0FoSnFqb1hBbTVDMFVKNGkza2F0VUdnaktxQzJlR3VBUWNXOURQSkpJUEEtenNwaVp4dGpTQkxwXy1BNjFLODEtMUxOWXF0dmRFSm5HLUZMVk43V2lHZVp6cm9IeTRhb0pBV2dyc1hBRFhRQTM0UQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Turkey’s Exports Climb to $24.94 Billion in June, Signaling Trade Momentum - CryptoRank",
-        "source": "CryptoRank",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wN3ZGcVJHOW5KV1lNUFFXNUYzODFUUjV1QWNPUm91S1FvQWJsMEtuWnNSaHZaZFdPamI3dGlsczNZblQxb2ZkaGJib2NIWUVLbVFBQnIxY1V5X2Z4QzlDQ1cyQmplSGtZSk5SWFJ4NA?oc=5",
         "hits": 0
       },
       {
@@ -350,7 +350,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "橡胶与塑料制品"
   }
 }

@@ -49,7 +49,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry breaking」增速 252%，搜索端「jewelry watches digital transformation」热度上行，SA Amazon BSR Top-44，Centurion Jewelry Show关注「The Retail Smiths: There’s More Than...」。",
+    "trend_summary": "手表：海外社媒「jewelry breaking」增速 246%，搜索端「jewelry watches market trend 2026」热度上行，SA Amazon BSR Top-45，Centurion Jewelry Show关注「The Retail Smiths: There’s More Than...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -60,45 +60,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry breaking」增速 252% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「jewelry breaking」增速 246% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "jewelry breaking",
-        "growth": 252.5,
-        "vol": "323K",
+        "growth": 245.5,
+        "vol": "141K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 248.5,
-        "vol": "125K",
+        "platform": "tiktok",
+        "kw": "jewelry #fyp",
+        "growth": 240.5,
+        "vol": "332K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "jewelry tutorial",
-        "growth": 241.5,
-        "vol": "754K",
+        "kw": "watch factory tour",
+        "growth": 230.0,
+        "vol": "751K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches digital transformation",
-        "growth": 89,
+        "kw": "jewelry watches market trend 2026",
+        "growth": 43,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches sustainable manufacturing",
-        "growth": 84,
+        "kw": "jewelry watches supply chain resilience",
+        "growth": 40,
         "hits": 2
       },
       {
@@ -118,24 +118,24 @@
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 44,
+        "rank": 45,
         "title": "Top jewelry - Compact Edition",
-        "price": "$255.8",
-        "rating": 4.9,
+        "price": "$73.8",
+        "rating": 4.0,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 42,
-        "title": "Top jewelry - Premium Edition",
-        "price": "$162.0",
-        "rating": 4.9,
+        "market": "JP",
+        "rank": 39,
+        "title": "Top jewelry - Eco Edition",
+        "price": "$172.4",
+        "rating": 4.4,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

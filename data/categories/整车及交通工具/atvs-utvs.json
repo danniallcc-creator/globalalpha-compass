@@ -134,7 +134,7 @@
   "last_updated": "2026-06-10",
   "data_source": "merged_existing",
   "dynamic_insight": {
-    "trend_summary": "ATV 与 UTV：海外社媒「electric vehicle wholesale supplier」增速 252%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Chinese EVs may hit U.S. within a few...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
+    "trend_summary": "ATV 与 UTV：海外社媒「electric vehicle viral」增速 240%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Valor International关注「Vehicle trade deficit surges on record...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -146,59 +146,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → ATV 与 UTV 出口需通过合规认证",
       "ATV 与 UTV主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「electric vehicle wholesale supplier」增速 252% 领跑 → ATV 与 UTV社媒种草热度爆发"
+      "海外社媒「electric vehicle viral」增速 240% 领跑 → ATV 与 UTV社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 251.5,
-        "vol": "102K",
+        "platform": "instagram",
+        "kw": "electric vehicle viral",
+        "growth": 240.5,
+        "vol": "36K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ev price trend",
-        "growth": 244.0,
-        "vol": "172K",
+        "platform": "youtube",
+        "kw": "electric vehicle top 10",
+        "growth": 239.5,
+        "vol": "82K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "ev market alert",
-        "growth": 239.0,
-        "vol": "341K",
+        "kw": "electric vehicle breaking",
+        "growth": 233.5,
+        "vol": "651K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle market 2026",
+        "growth": 222.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 248.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 219.0,
+        "growth": 179.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Chinese EVs may hit U.S. within a few years, one way or another - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWlmOFlfVXdrY3F3aEwwaHBadUdsQ25BZVdVek1MTGZlTUFNUUZrU1NJSUtjazVEYzl2aWxDT3NNb3FFMG02bUpUaUZWMGpRWkIwMHBaZWI4MjJnNi1xRG12RThjLXZYdmVsV2UydGpMeW1LRkJ0cmZVUHM2MXRXMjd30gGHAUFVX3lxTE1VWWxFSW0welZvbWhRU09xQVlnbU1LSGsyX2haTlgyaVRPWGg4ZEpVVGxpM0VXMFZNWkIyN3JfaEJrcFJuOUwtOUxJbzdJYTd2c0lOcjk5MkNWQ0d6dm9meDJtcGp4NzZDY0RtaEp2OGtOWTE1Qk9MWFJPWGFkS0xPNURvV3Racw?oc=5",
+        "title": "Vehicle trade deficit surges on record purchases of Chinese cars - Valor International",
+        "source": "Valor International",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYlYtR05NY2RQTGdieExzZ1BXYUh0RWwwZFF1XzRCc2lHSjBzYWdWdUljN1k0NUpVa0ZGODJ2WlItaEhhc1p0MXNuTk9Hck9rakRydk1CY0VhQkQwWGZLRXg5WG5pRGFFTFlBaTNRYWh0UWlkcTZOR1Z5RGNKQTdpZmRlRC1SamJnd0lxVG0zRjVuYWNzZWJiQUt6RmpTN0lfUmFfN2dkMldfR1RZLW40R2l4MjdkYmJuWTZHUGNjdExyTjd5ekxnT0FvSdIB2gFBVV95cUxOZllIc0FhbEhwU3NXeWZTN2lPelFTazBpTUlBVEdNSDVlT1RFWDdFTlBwNzRnbWNtNHU5SzRoRG5rLWJvcUxJYzFpZks3T1MtM2liTGVWSy1kdnlmVUd3MUg3X3o2czlmQmZNNHBkYVBLQllZaFZrVEFhaGNYZE9oYnd2bEdvMlhFa2NvWEJ2a3ZvcFVtME9pZnBEQ0JlMkdVUW5sS2JqRUtQc3ZjZzNjSUJLRkpnMTZYbEhQX2pESEJabHJDUU1NU2JVRWtEUzhITGNMTmg4VlBBdw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Why foreign marques are struggling to keep pace with Chinese EV demand - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ0xkYUJucnNVOHpuWi1mdnFNRDI4QjdPMGxmSjVONWczRl9FTHZ0OE5Ba0s3TTJCQU9jd2czQ0FvTlNMTUlzREJreDlzTFZfZVRDU3BsRzFSRHlhTlFPN0RBZ3ItV0JRMHBpTS1CTEJYQkxHUE9aWUlsaWdla0JTVXNPc2tuN2tFMmRSUXNBTzV4R3ROX3NjNWtJaWsxSDZXYzhfcVpEOEhSMm1HcTdJQklrVENTSjI1bHFrUGRiUVJ1YzJPaHBQQ195QjBfN1dkMWtHbTFB0gHWAUFVX3lxTE1EaXZSMmUxYm1BS1VfUEt2RkNwbUotZFZ2SHdrTEZRQzdrQU1QZkRiV0E0QWFaeEJjMEw3U1U1SUhwWTYtSzBJam9PdjU4THNhemp4NlBjd2Y4cWZwTTRnanNsNmI0MWM5Y1JQa0FaZjJuNS1RbGQ5ZGxHOW5TWmFHT3pmNXdVODY4ckpYNDg1WVJmbGxYNU5HcFlaTGl2TTZqYlFQQkR1M01OV3JjTEVMSEo5UzBONnlFNDh3QnV3eWl0ZElEYXZKS1ppRWN1ZXNtWnRoclE?oc=5",
+        "title": "BYD's sales rise for second month, buoyed by exports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjBvX09adTd6OUg3QzlZRHUxY3JCOTVRei1ZMjZhTFBRcU1GN3ZrRFgtM0ZtZkZNWEoxRUVEbnFwRl9lV1I0YkpZdXItaTYwZVBXQ2lUYTRIbHBRaGVUV2t1WVhwOXZMTzlqTXM0Z1VHbUVXWlc1N2p5Vmp0b1d5Vk1sbm84c2JZQ2JDb1pIR29VcWE1Vjh4RXFoOGNkVWN3M2F6U1BsdDY2dFAtWml0UGtn?oc=5",
         "hits": 0
       },
       {
@@ -221,7 +221,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-05",
+    "generated_at": "2026-07-07",
     "l1_ref": "整车及交通工具"
   }
 }
