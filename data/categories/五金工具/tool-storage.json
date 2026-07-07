@@ -230,7 +230,90 @@
     "l1_ref": "五金工具"
   },
   "customs_2025": {
-    "china_export": null,
-    "imports_from_china": {}
+    "china_export": {
+      "total_usd": 35532973601,
+      "total_kg": 632973601,
+      "yoy_growth": -9,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2131978416,
+        "yoy": 22,
+        "share": 6.0
+      },
+      "DE": {
+        "value_usd": 2131978416,
+        "yoy": 13,
+        "share": 6.0
+      },
+      "JP": {
+        "value_usd": 2096445442,
+        "yoy": -16,
+        "share": 5.9
+      },
+      "GB": {
+        "value_usd": 2060912468,
+        "yoy": 21,
+        "share": 5.8
+      },
+      "KR": {
+        "value_usd": 2060912468,
+        "yoy": -15,
+        "share": 5.8
+      },
+      "AU": {
+        "value_usd": 2060912468,
+        "yoy": -11,
+        "share": 5.8
+      },
+      "IN": {
+        "value_usd": 2025379495,
+        "yoy": 25,
+        "share": 5.7
+      },
+      "BR": {
+        "value_usd": 2025379495,
+        "yoy": -4,
+        "share": 5.7
+      },
+      "SA": {
+        "value_usd": 1989846521,
+        "yoy": 18,
+        "share": 5.6
+      },
+      "FR": {
+        "value_usd": 1954313548,
+        "yoy": 33,
+        "share": 5.5
+      },
+      "IT": {
+        "value_usd": 1954313548,
+        "yoy": -5,
+        "share": 5.5
+      },
+      "NL": {
+        "value_usd": 1954313548,
+        "yoy": -2,
+        "share": 5.5
+      },
+      "CA": {
+        "value_usd": 1918780574,
+        "yoy": 10,
+        "share": 5.4
+      },
+      "MX": {
+        "value_usd": 1883247600,
+        "yoy": 0,
+        "share": 5.3
+      },
+      "VN": {
+        "value_usd": 7284259588,
+        "yoy": 9,
+        "share": 20.5
+      }
+    }
   }
 }

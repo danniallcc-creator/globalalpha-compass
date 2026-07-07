@@ -155,22 +155,22 @@
   "news_sentiment": {
     "article_count": 5,
     "sentiment": {
-      "overall": "positive",
-      "positive_pct": 60.0,
+      "overall": "neutral",
+      "positive_pct": 40.0,
       "negative_pct": 20.0,
-      "neutral_pct": 20.0,
+      "neutral_pct": 40.0,
       "articles_analyzed": 5
     },
     "top_headlines": [
+      "Services PMI® at 54%; June 2026 ISM® Services PMI® Report - PR Newswire",
       "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
-      "Dry Bulk Freight Market Trends - Global Growth Insights",
       "Russia Commercial Laundry Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBo",
       "Genco Shipping & Trading updates its dry bulk strategy as global trade patterns evolve - AD HOC NEWS",
       "Baltic Dry Index Slips as Capesize Shipping Rates Weaken - Discovery Alert"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUsyYklDMWhROWpLZVRBZWdLbnNLaU5qUTZNa0ZQeUdSUjVEMzhHTG54NzBKckd1clhZNHB3Y05Hb1BLZmdCZTZuOEVHZDhyc3RWVXZlaWpMd0FmRWlvZnNLMGxvYmdjdHlkVkFhWnNIRzZQd1kxTGxqLTQwNGdPTW9Ya3R0dWgyQjRpZVFaU3JRQjY3dnkzbTdJYTk3Uml3bExaUU83RUl0S04y?oc=5",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
-      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNzlucnIwdVFvOGh4bXJvLW9NMk9TR1I4RU9zX0NTYnlySkl0VWhUMldyaGhlRWMtaFZCNVh2Tk5GOHRDQzJ5cmFHLXAzS2FoQzJMQ24zU3FIWnBGWjNhc3lXUVVYdjFOMl9ybUFfTkhRVmctNGoxblJTOXFLc2c2YXp5M1pxMHlzZ0E?oc=5",
       "https://news.google.com/rss/articles/CBMitwFBVV95cUxOczY5Q0tJemlZZG12Q2t2cXZOdnVyTFpKWmhpdXl2eFcwUThTYXlxbjliTFBSQ0tPQUdHYUF3NDJDSl9uUUFmUHN0dDh5MGMyQVpEa3JSQ1djY3NubnluVWg2cFhMZTVMNm54bzNLUEhIUTEzS1VyWjlTekttQXl2RFlwTTlTczlvR3RSczkzcmlqUWVrLTRnZ3ZMTGtGdjVlOE5tSFBLQ2tmdHRMZ3pScV93OENabFU?oc=5"
     ],
     "fetched_at": "2026-07-07"
@@ -178,25 +178,30 @@
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
+      "US": {
+        "value_usd": 1667357613.0,
+        "yoy": null,
+        "share": 19.4
+      },
+      "DE": {
+        "value_usd": 4167886467.4719954,
+        "yoy": null,
+        "share": 48.6
+      },
       "JP": {
         "value_usd": 1683303551.453,
         "yoy": null,
-        "share": 39.9
+        "share": 19.6
       },
-      "AU": {
-        "value_usd": 783918988.0309999,
+      "KR": {
+        "value_usd": 769804434.0,
         "yoy": null,
-        "share": 18.6
-      },
-      "CA": {
-        "value_usd": 1458850337.3139987,
-        "yoy": null,
-        "share": 34.6
+        "share": 9.0
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 7.0
+        "share": 3.4
       }
     }
   },
