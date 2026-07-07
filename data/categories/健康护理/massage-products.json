@@ -320,21 +320,19 @@
     }
   },
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax",
-      "ITR-3 AY 2026-27: Release Date, Who Can File, Last Date and How to File - ClearTax"
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5",
-      "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5zcGN0NDNBc2lUcUVQZUxXMkZTM0c1TlRhWHMzZG9VWDNOVXlzQTNNWFhOYnRBVmZJOEJuUHVVZw?oc=5"
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
     ],
     "fetched_at": "2026-07-07"
   }
