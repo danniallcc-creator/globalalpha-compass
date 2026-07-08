@@ -22,158 +22,18 @@
     "APP开发供应商",
     "APP开发工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "999999",
-      "name": "通用商品",
-      "data": [
-        {
-          "yr": "2024",
-          "amt": 500,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 472,
-          "yoy": 4
-        },
-        {
-          "yr": "2022",
-          "amt": 454,
-          "yoy": 8
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 120,
-          "yoy": 8
-        },
-        {
-          "c": "欧盟",
-          "amt": 95,
-          "yoy": 5
-        },
-        {
-          "c": "东南亚",
-          "amt": 72,
-          "yoy": 12
-        },
-        {
-          "c": "日本",
-          "amt": 55,
-          "yoy": 3
-        },
-        {
-          "c": "中东",
-          "amt": 42,
-          "yoy": 10
-        }
-      ]
-    }
-  ],
+  "export_data": null,
   "global_trends": null,
   "industry_analysis": {
-    "culture": "全球数字化转型加速推动技术服务需求持续增长；硅谷创新文化影响全球开发理念；中国工程师红利和技术服务能力具备全球竞争力",
-    "consumer": "企业级客户关注交付质量、数据安全和知识产权保护；开源社区生态降低全球开发者采用门槛；技术支持和持续运维能力成为关键决策因素",
-    "infra": "云计算和DevOps基础设施全球可达性提升；AI和大模型技术人才短缺推动外包需求增长；远程协作工具成熟使跨境技术服务成为常态",
-    "population": "全球开发者群体持续扩大，开源社区协作文化深厚；AI人才短缺推动企业将非核心技术模块外包；远程办公常态化推动分布式团队技术服务需求",
-    "social": "GDPR和数据本地化法规对出海技术项目提出合规挑战；开源文化培育全球开发者协作社区；技术普惠理念推动开发工具向低代码/无代码方向演进；AI伦理和算法透明度要求影响技术服务合规框架",
-    "environment": "绿色计算和低碳数据中心成为技术发展趋势；电子废弃物管理法规对硬件产品提出环保要求；能效优化技术在软件开发中日益受重视",
-    "opportunity": "中国开发团队在性价比、交付速度和技术栈覆盖上具备竞争优势；跨境SaaS产品、企业数字化转型和AI应用开发是重点方向；中文技术内容出海东南亚和中东市场前景广阔"
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Software development standards (ISO 12207), data protection regulations (GDPR), intellectual property protection, industry-specific compliance (HIPAA, PCI-DSS).",
-  "last_updated": "2026-06-10",
-  "data_source": "merged_existing",
-  "dynamic_insight": {
-    "trend_summary": "APP开发：海外社媒「software outsourcing trending now」增速 252%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Carnegie Endowment for International Peace关注「The Future of American Economic Power -...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
-    "product_profile": {
-      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
-      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
-      "工艺": "主流制造工艺 + 质量检测体系",
-      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
-      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
-      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
-    },
-    "reasons": [
-      "欧盟 CE 标志强制准入 → APP开发 出口需通过合规认证",
-      "东南亚市场 YoY +12% 领跑 通用商品 出口 → APP开发需求强劲",
-      "海外社媒「software outsourcing trending now」增速 252% 领跑 → APP开发社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "software outsourcing trending now",
-        "growth": 252.0,
-        "vol": "148K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "software outsourcing factory tour",
-        "growth": 241.0,
-        "vol": "773K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "tech service #fyp",
-        "growth": 234.5,
-        "vol": "524K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "software outsourcing b2b export",
-        "growth": 201.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "tech service market 2026",
-        "growth": 130.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The Future of American Economic Power - Carnegie Endowment for International Peace",
-        "source": "Carnegie Endowment for International Peace",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3BEMVZtV29Ib3otbFlFckNPd0Y2a1V0eXExMi1UQTNzQmMzZ21scUxlOHlMb1l5OE9mZUcwbXc4djU5dFlXQVZjNG56RG45NmlkWVc1QUJ4WXAyd21LcG9kaGpQVlRYVG1BMGxscjA1Q2NrZUdyNmtBbUhCbi0wZ2lxNmMzc25FbjBkdw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Global exports downturn deepens in May as war hits trade in services - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTmE5TjNQTjY5bWJEZEhwcVNPblVRUHBacEUwdzduY2xUazNTTHB6cnZvNUNKTmJOVmtjQW9DTlZxMC0yemJobHpldGZQVXp6NkJOQV9LVnJiY3JDZ3BIaFJGVVZpbzNSN2NKQ3pNTVpYTC1ORHYyOHBNdkgzVzdZQUxaNGVXNE1LY3B5eWMzc1Bhb3dNVmpqWjhRdXVoUnJsblFDdnJFZWI1YzY2XzVUdEV2cFk0ZWxDTUtFZHdKcFRDTXh2R2ltLWNJX3J3Yk52RFhwMTlkU2VmX0JVbERmdg?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 12,
-        "title": "Top APP Development - Premium Edition",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 18,
-        "title": "APP Development Best Seller EU",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      }
-    ],
-    "domain": "generic",
-    "generated_at": "2026-07-07",
-    "l1_ref": "开发与技术服务"
-  }
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }

@@ -76,6 +76,7 @@ L1_EN_MAP = {
     "面料及纺织原材料": "Fabrics & Textile Raw Materials",
     "鞋靴及配饰": "Footwear & Accessories",
     "食品及饮料": "Food & Beverage",
+    "运动户外鞋服及装备": "Sportswear & Outdoor Apparel",
 }
 
 # ---------------------------------------------------------------------------
@@ -130,6 +131,7 @@ HS_CODE_MAP = {
     "面料及纺织原材料": "50xx",
     "鞋靴及配饰": "64xx",
     "食品及饮料": "16xx",
+    "运动户外鞋服及装备": "65xx",
 }
 
 # ---------------------------------------------------------------------------
@@ -325,6 +327,12 @@ L2_HS_OVERRIDES = {
     "女鞋": "64xx",
     "男鞋": "64xx",
     "户外用鞋": "64xx",
+    # -- Sportswear & Outdoor --
+    "运动户外护具及用品": "65xx",
+    "运动户外鞋": "64xx",
+    "运动户外箱包": "42xx",
+    "运动户外服": "61xx",
+    "运动户外装备": "62xx",
 }
 
 # ---------------------------------------------------------------------------
@@ -583,6 +591,15 @@ INDUSTRY_TEMPLATES = {
         "environment": "Sustainable materials (recycled, bio-based). Shoe recycling and take-back programs. Chrome-free leather tanning. Carbon footprint of footwear manufacturing.",
         "opportunity": "Sustainable and circular footwear. Custom and 3D-printed footwear. Performance and smart footwear technology. Direct-to-consumer footwear brands."
     },
+    "运动户外鞋服及装备": {
+        "culture": "Sports and outdoor culture varies significantly by region. Running and fitness culture dominant in North America and Europe. Football/soccer gear demand strongest in Latin America, Europe, and Africa. Cricket equipment concentrated in South Asia and Commonwealth nations. Outdoor recreation (hiking, camping, skiing) deeply embedded in Western lifestyle.",
+        "consumer": "Performance-driven purchasing with emphasis on technical specifications. Athleisure trend blurring sport and lifestyle categories. Brand loyalty strong in athletic footwear and apparel. Online purchasing dominant with extensive size/fit research. Willingness to pay premium for innovation and technology.",
+        "infra": "Product safety and performance standards (CPSC, EN, ISO). Sport-specific certifications and testing. Moisture-wicking, UV protection, and thermal insulation testing. REACH compliance for textiles and footwear. Anti-doping material compliance for competitive sports.",
+        "population": "Global health and fitness consciousness driving market growth. Youth sports participation and parental spending. Active aging population seeking low-impact sports gear. Urbanization creating demand for compact home fitness equipment. Growing middle class in emerging markets.",
+        "social": "Social media fitness influencers driving trends. Outdoor recreation boom post-pandemic. Sustainability and recycled materials movement. Inclusivity in sports (adaptive sports, plus-size activewear). Esports and athleisure convergence.",
+        "environment": "Recycled ocean plastics and bio-based materials. Sustainable manufacturing and waterless dyeing. Carbon-neutral product lines. Leave No Trace principles for outdoor gear. Circular economy and take-back programs.",
+        "opportunity": "Smart sportswear with embedded sensors. Sustainable and recycled product lines. Direct-to-consumer brands. Outdoor recreation participation growth. Emerging market sports infrastructure and participation. Women-specific sports equipment."
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -650,6 +667,7 @@ COMPLIANCE_MAP = {
     "商务服务": "Professional certifications, data protection regulations (GDPR), anti-money laundering (AML) compliance, industry-specific regulatory requirements.",
     "设计服务": "Intellectual property protection, design registration and patent support, industry-specific standards compliance, client confidentiality and NDAs.",
     "家用电器": "Energy Star/EU Energy Label, safety certifications (UL/CE/CCC), refrigerant regulations (F-gas, SNAP), EMC compliance, WEEE directive.",
+    "运动户外鞋服及装备": "Textile fiber content labeling, REACH compliance (EU), CPSC safety standards (US), sport-specific certifications, footwear safety standards, protective equipment testing (EN/ASTM), UV protection ratings, flame retardant testing for outdoor gear.",
 }
 
 # ---------------------------------------------------------------------------

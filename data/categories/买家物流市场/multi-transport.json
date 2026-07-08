@@ -22,166 +22,18 @@
     "多式联运供应商",
     "多式联运工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "999999",
-      "name": "通用商品",
-      "data": [
-        {
-          "yr": "2024",
-          "amt": 500,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 472,
-          "yoy": 4
-        },
-        {
-          "yr": "2022",
-          "amt": 454,
-          "yoy": 8
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 120,
-          "yoy": 8
-        },
-        {
-          "c": "欧盟",
-          "amt": 95,
-          "yoy": 5
-        },
-        {
-          "c": "东南亚",
-          "amt": 72,
-          "yoy": 12
-        },
-        {
-          "c": "日本",
-          "amt": 55,
-          "yoy": 3
-        },
-        {
-          "c": "中东",
-          "amt": 42,
-          "yoy": 10
-        }
-      ]
-    }
-  ],
-  "global_trends": {
-    "google_trends": {
-      "interest_score": 42,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-07-07"
-    }
-  },
+  "export_data": null,
+  "global_trends": null,
   "industry_analysis": {
-    "culture": "文化偏好和地区差异对产品需求和规格有显著影响。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，但本地差异化仍是竞争优势。",
-    "consumer": "品质、性价比和可靠性是各市场的关键采购驱动因素。在线调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货稳定性和售后服务影响采购行为。",
-    "infra": "进入市场需取得质量认证并符合国际标准。高效的物流、分销网络和仓储能力至关重要。制造能力、供应链韧性和质量管控不可或缺。售后支持、备件供应和服务网络深受客户重视。",
-    "population": "人口结构变化显著影响市场需求格局。城市化推动特定产品需求和产品形态。年龄分布影响产品偏好和使用习惯。新兴市场人口增长和中产阶级扩大创造巨大商机。",
-    "social": "社交媒体和在线社区影响行业趋势和采购决策。消费者和B2B买家对可持续发展、道德采购和ESG关注度持续提升。生活方式和工作模式变化影响产品需求。社群推荐和同行评价日益重要。",
-    "environment": "各主要市场环保法规日趋严格。买家越来越看重可持续材料、生产工艺和包装。碳排放意识和报告要求不断提升。循环经济理念和生产者延伸责任制度逐步推广。",
-    "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-07-07",
-  "data_source": "merged_existing",
-  "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「logistics #fyp」增速 256%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，Maersk关注「Maersk Asia Pacific Monthly Market...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
-    "product_profile": {
-      "外观": "功能模块化 / 可折叠 / 轻量化",
-      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
-      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
-      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
-      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
-      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
-    },
-    "reasons": [
-      "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "东南亚市场 YoY +12% 领跑 通用商品 出口 → 多式联运需求强劲",
-      "海外社媒「logistics #fyp」增速 256% 领跑 → 多式联运社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics #fyp",
-        "growth": 256.5,
-        "vol": "499K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "freight market alert",
-        "growth": 254.0,
-        "vol": "175K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "freight b2b export",
-        "growth": 244.0,
-        "vol": "546K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "freight b2b export",
-        "growth": 241.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "logistics market 2026",
-        "growth": 96.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Maersk Asia Pacific Monthly Market Update – July 2026 - Maersk",
-        "source": "Maersk",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdHQzZDhYQjZueDVzcHBNbjlmVnIyQVdFZ2p5eWFTVU9kb2psR19xOGpYRkFLbWdDWkJIVThtbDVEcWczNWtCU0RCdmVVSlZlbGw2Rm13dW9YaTdjRmlDaG9lMU9TQ09Qc1RhaUI0RlFhNTVybjBqLXZlZkxzZlNjNHFqTGJkZG1GQmJlaTJldw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Cross-border e-commerce fosters new pathways for South-South cooperation - People's Daily Online",
-        "source": "People's Daily Online",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42RV9tNlhEbTA0eVlHbnlHaHpmRDRsVktwdXVfSkd1QUd2bUZpdldTc1NTNmFJbGY3Vjl0akg3ZTRWUDBmOFdIZkdtZTAzeGNDYTJkdi1aWTJhWndmZlFwdEs3b0g?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 12,
-        "title": "Top Multi Transport - Premium Edition",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 18,
-        "title": "Multi Transport Best Seller EU",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      }
-    ],
-    "domain": "sports_outdoor",
-    "generated_at": "2026-07-07",
-    "l1_ref": "买家物流市场"
-  }
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }

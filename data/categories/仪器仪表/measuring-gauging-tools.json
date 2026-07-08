@@ -6,17 +6,7 @@
   "parent_en": "Instruments & Meters",
   "l1_slug": "仪器仪表",
   "hs_codes": [
-    "842320",
-    "842330",
-    "842382",
-    "842389",
-    "842390",
-    "901600",
-    "901710",
-    "901720",
-    "901730",
-    "901780",
-    "901790"
+    "90xx"
   ],
   "keywords_en": [
     "measuring & gauging tools",
@@ -32,211 +22,18 @@
     "量具供应商",
     "量具工厂"
   ],
-  "export_data": {
-    "hs_chapter": "84",
-    "total_export_value_usd": 27563052,
-    "total_net_weight_kg": 17063052,
-    "top_partners": [],
-    "record_count": 0,
-    "period": "2024",
-    "reporter": "China",
-    "source": "deterministic_fallback",
-    "fetched_at": "2026-07-07"
-  },
-  "global_trends": {
-    "google_trends": {
-      "interest_score": 66,
-      "trend_direction": "down",
-      "related_topics": [],
-      "source": "google_suggest_api",
-      "fetched_at": "2026-07-07"
-    }
-  },
+  "export_data": null,
+  "global_trends": null,
   "industry_analysis": {
-    "culture": "文化偏好和地区差异对产品需求和规格有显著影响。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，但本地差异化仍是竞争优势。",
-    "consumer": "品质、性价比和可靠性是各市场的关键采购驱动因素。在线调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货稳定性和售后服务影响采购行为。",
-    "infra": "进入市场需取得质量认证并符合国际标准。高效的物流、分销网络和仓储能力至关重要。制造能力、供应链韧性和质量管控不可或缺。售后支持、备件供应和服务网络深受客户重视。",
-    "population": "人口结构变化显著影响市场需求格局。城市化推动特定产品需求和产品形态。年龄分布影响产品偏好和使用习惯。新兴市场人口增长和中产阶级扩大创造巨大商机。",
-    "social": "社交媒体和在线社区影响行业趋势和采购决策。消费者和B2B买家对可持续发展、道德采购和ESG关注度持续提升。生活方式和工作模式变化影响产品需求。社群推荐和同行评价日益重要。",
-    "environment": "各主要市场环保法规日趋严格。买家越来越看重可持续材料、生产工艺和包装。碳排放意识和报告要求不断提升。循环经济理念和生产者延伸责任制度逐步推广。",
-    "opportunity": "新兴市场需求持续增长，蕴含巨大发展潜力。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构筑竞争优势。跨境贸易便利化和自贸协定不断扩大市场覆盖。"
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
-  "compliance_summary": "US: NIST溯源校准, FCC(含无线模块), UL(用于危险场合) | EU: CE(MID测量仪器指令2014/32/EU), ATEX(防爆) | JP: 计量法型式承认(法制计量器), JIS工业仪表(自愿)",
-  "last_updated": "2026-07-07",
-  "data_source": "merged_existing",
-  "compliance_detail": {
-    "US": {
-      "cert": [
-        "NIST溯源校准",
-        "FCC(含无线模块)",
-        "UL(用于危险场合)"
-      ],
-      "std": [
-        "ANSI/ISA-18.2(仪表)",
-        "IEEE 1588(时间同步)"
-      ],
-      "banned": [
-        "含汞仪表(替代趋势)",
-        "禁用中国军事关联企业产品"
-      ],
-      "label": [
-        "NIST溯源证书",
-        "UL标识"
-      ],
-      "customs": [
-        "EAR出口管制(部分精密仪器须许可证)",
-        "ECCN分类须查"
-      ]
-    },
-    "EU": {
-      "cert": [
-        "CE(MID测量仪器指令2014/32/EU)",
-        "ATEX(防爆)"
-      ],
-      "std": [
-        "EN ISO 11064",
-        "OIML国际法制计量"
-      ],
-      "banned": [
-        "汞仪表(EU 2017逐步淘汰)"
-      ],
-      "label": [
-        "CE+M标识(法制计量)",
-        "DoC符合性声明"
-      ],
-      "customs": [
-        "MID认证必须(贸易结算计量器具)"
-      ]
-    },
-    "JP": {
-      "cert": [
-        "计量法型式承认(法制计量器)",
-        "JIS工业仪表(自愿)"
-      ],
-      "std": [
-        "JIS Z 8000计量",
-        "JIS C 1系列电子仪器"
-      ],
-      "banned": [
-        "汞高压计量器"
-      ],
-      "label": [
-        "型式承认号",
-        "JCSS校准证书"
-      ],
-      "customs": [
-        "法制计量器须型式承认"
-      ]
-    }
-  },
-  "dynamic_insight": {
-    "trend_summary": "量具：海外社媒「meter factory tour」增速 251%，搜索端「instrument wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Instruments Meters market poised for...」，出口 YoY +26%，主要流向 美国 / 德国 / 日本。",
-    "product_profile": {
-      "外观": "手持便携 / 台式精密 / IP67 工业级",
-      "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
-      "工艺": "校准溯源 / 无尘装配 / ISO 17025",
-      "色彩": "工业黑 / 警示黄 / 仪器灰",
-      "包装": "防震铝合金箱 / 防静电 / 校准证书",
-      "技术趋势": "物联网在线监测 / AI 预测校准 / 微型化"
-    },
-    "reasons": [
-      "欧盟 CE 标志强制准入 → 量具 出口需通过合规认证",
-      "美国 FCC 电磁兼容认证 → 电子类 量具 合规刚需",
-      "欧盟 ATEX 防爆认证 → 工业 量具 进入危险环境必备",
-      "印度市场 YoY +26% 领跑 医疗器械 出口 → 量具需求强劲",
-      "海外社媒「meter factory tour」增速 251% 领跑 → 量具社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "meter factory tour",
-        "growth": 251.0,
-        "vol": "783K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "instrument wholesale supplier",
-        "growth": 246.5,
-        "vol": "799K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "instrument breaking",
-        "growth": 244.5,
-        "vol": "131K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "instrument wholesale supplier",
-        "growth": 243.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "meter b2b export",
-        "growth": 190.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Instruments Meters market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/instruments-meters-2026",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Analysts: instruments meters sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/instruments-meters-2026",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 12,
-        "title": "Top Measuring & Gauging Tools - Premium Edition",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 18,
-        "title": "Measuring & Gauging Tools Best Seller EU",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      }
-    ],
-    "domain": "instruments",
-    "generated_at": "2026-06-19",
-    "l1_ref": "仪器仪表"
-  },
-  "customs_2025": {
-    "china_export": {
-      "total_usd": 815119487136.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
-    "imports_from_china": {
-      "DE": {
-        "value_usd": 325952473332.29596,
-        "yoy": null,
-        "share": 100.0
-      }
-    }
-  }
+  "compliance_summary": "CE marking, ISO 17025 calibration, accuracy and precision standards, environmental testing (IP rating), EMC compliance.",
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }

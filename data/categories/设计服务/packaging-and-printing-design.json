@@ -22,158 +22,18 @@
     "包装印刷设计供应商",
     "包装印刷设计工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "999999",
-      "name": "通用商品",
-      "data": [
-        {
-          "yr": "2024",
-          "amt": 500,
-          "yoy": 6
-        },
-        {
-          "yr": "2023",
-          "amt": 472,
-          "yoy": 4
-        },
-        {
-          "yr": "2022",
-          "amt": 454,
-          "yoy": 8
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 120,
-          "yoy": 8
-        },
-        {
-          "c": "欧盟",
-          "amt": 95,
-          "yoy": 5
-        },
-        {
-          "c": "东南亚",
-          "amt": 72,
-          "yoy": 12
-        },
-        {
-          "c": "日本",
-          "amt": 55,
-          "yoy": 3
-        },
-        {
-          "c": "中东",
-          "amt": 42,
-          "yoy": 10
-        }
-      ]
-    }
-  ],
+  "export_data": null,
   "global_trends": null,
   "industry_analysis": {
-    "culture": "文化偏好和地区差异显著影响产品需求和规格要求。当地习俗、传统和监管环境塑造市场需求。全球化推动部分消费偏好趋同，而本地化差异仍是竞争优势所在。",
-    "consumer": "品质、性价比和可靠性是各市场的关键购买驱动因素。线上调研、用户评价和产品对比对购买决策影响重大。品牌声誉、认证资质和信任度至关重要。便利性、供货能力和售后服务影响消费行为。",
-    "infra": "质量认证和国际标准合规是市场准入的必要条件。高效的物流配送网络、分销渠道和仓储体系不可或缺。制造能力、供应链韧性和质量管控尤为重要。售后支持、备件供应和服务网络受到客户高度重视。",
-    "population": "人口结构变化显著影响市场需求格局。城市化进程推动特定产品需求和形态演变。年龄分布影响产品偏好和使用模式。新兴市场人口增长和中产阶级扩张创造巨大商机。",
-    "social": "社交媒体和在线社区影响消费趋势和购买决策。消费者和B2B买家对可持续发展、道德采购和ESG议题关注度持续提升。生活方式变化和工作模式转变影响产品需求。社区推荐和同行评价日益重要。",
-    "environment": "各主要市场环保法规日趋严格。买家越来越重视可持续材料、生产工艺和包装。碳足迹意识和报告要求不断提升。循环经济理念和生产者延伸责任制度逐步推广。",
-    "opportunity": "新兴市场需求持续上升，增长潜力巨大。数字化转型和电子商务开辟新的市场准入渠道。创新、差异化和增值服务构建竞争优势。跨境贸易便利化和自由贸易协定拓展市场覆盖范围。"
+    "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
+    "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
+    "infra": "Quality certifications and international standards compliance required for market access. Efficient logistics, distribution networks, and warehousing essential. Manufacturing capabilities, supply chain resilience, and quality control important. After-sales support, spare parts, and service networks valued by customers.",
+    "population": "Demographic shifts significantly affect market demand patterns. Urbanization drives specific product needs and form factors. Age distribution influences product preferences and usage patterns. Population growth and middle-class expansion in emerging markets creates substantial opportunities.",
+    "social": "Social media and online communities influence trends and purchasing decisions. Sustainability, ethical sourcing, and ESG concerns growing among consumers and B2B buyers. Lifestyle changes and work patterns affect product demand. Community recommendations and peer reviews increasingly important.",
+    "environment": "Environmental regulations increasingly stringent across major markets. Sustainable materials, production processes, and packaging valued by buyers. Carbon footprint awareness and reporting requirements growing. Circular economy principles and extended producer responsibility gaining adoption.",
+    "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Intellectual property protection, design registration and patent support, industry-specific standards compliance, client confidentiality and NDAs.",
-  "last_updated": "2026-06-10",
-  "data_source": "merged_existing",
-  "dynamic_insight": {
-    "trend_summary": "包装印刷设计：海外社媒「industrial design market 2026」增速 256%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」，出口 YoY +12%，主要流向 美国 / 欧盟 / 东南亚。",
-    "product_profile": {
-      "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
-      "成分": "再生纸浆 / 大豆油墨 / 水性光油",
-      "工艺": "数码短版印刷 / 烫金 UV / 模切压痕",
-      "色彩": "四色 CMYK / Pantone 专色 / 金属色",
-      "包装": "托盘 + 缠绕膜 / 平装发货",
-      "技术趋势": "可降解材料 / 智能标签（NFC/RFID）/ 按需印刷 / 可持续设计"
-    },
-    "reasons": [
-      "欧盟 CE 标志强制准入 → 包装印刷设计 出口需通过合规认证",
-      "东南亚市场 YoY +12% 领跑 通用商品 出口 → 包装印刷设计需求强劲",
-      "海外社媒「industrial design market 2026」增速 256% 领跑 → 包装印刷设计社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "industrial design market 2026",
-        "growth": 256.5,
-        "vol": "20K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial design viral",
-        "growth": 245.5,
-        "vol": "446K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "industrial design top 10",
-        "growth": 242.5,
-        "vol": "242K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design market 2026",
-        "growth": 253.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 161.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
-        "source": "European Parliament",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "UK trade secretary hosts Chinese delegation in bid to boost services - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeVpXa0lLSTRBLVRLNGFmdDJ3TEsySHR2ckhfbkc5UkhTWW9fWWhYSkZJd1VfbUQ2MlBhMXZNVWY3bHRyVC1DOUppZEhwcGF1OFpJZkJaTXIyZVhTamR6cy1UZGVTa21aOEswNWhWRFBpZ1RDTnBWZ0NlYnJkYmQ4dWtqUnRjUUIxU016ejNsMFVFaUl4Zk1VUVVodkczYS16dUNveUZhUXU1YTBLR1RzSnQzM2Z3bEhNUkxrYtIBvAFBVV95cUxQVng5OW12SXprckZnUkQzSGJfa1dYbzlVcnJkcnkybS1VRVlPbVlhRzJuZXJBdm9rb21aTmhNR19RNUtwLWI5bnRvVThUcm42UWdhM19vNXBmbWMxYzdFUmpUSjVSN3YtLVlVZFhmZExZRFhHQ0FXemdQemoyYkpuR2FYb0ZPR3VMcWI0dk4yUlpTT2F6TTJLclNGMzRvTE8zMDc5Yl9fZTFtTWpRLVU4U1luUUYzbFJxc0I0aA?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 12,
-        "title": "Top Packaging and printing design - Premium Edition",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 18,
-        "title": "Packaging and printing design Best Seller EU",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      }
-    ],
-    "domain": "packaging_printing",
-    "generated_at": "2026-07-07",
-    "l1_ref": "设计服务"
-  }
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }

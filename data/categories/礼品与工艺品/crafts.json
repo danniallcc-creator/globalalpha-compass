@@ -6,13 +6,7 @@
   "parent_en": "Gifts & Crafts",
   "l1_slug": "礼品与工艺品",
   "hs_codes": [
-    "392640",
-    "442191",
-    "701810",
-    "711620",
-    "711719",
-    "732690",
-    "830629"
+    "95xx"
   ],
   "keywords_en": [
     "crafts",
@@ -28,243 +22,18 @@
     "工艺品供应商",
     "工艺品工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "950300",
-      "name": "玩具",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 408,
-          "yoy": 6
-        },
-        {
-          "yr": "2024",
-          "amt": 385,
-          "yoy": 7
-        },
-        {
-          "yr": "2023",
-          "amt": 360,
-          "yoy": -5
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 119.22,
-          "yoy": -5
-        },
-        {
-          "c": "英国",
-          "amt": 43.17,
-          "yoy": 3
-        },
-        {
-          "c": "德国",
-          "amt": 35.61,
-          "yoy": 2
-        },
-        {
-          "c": "日本",
-          "amt": 29.67,
-          "yoy": 6
-        },
-        {
-          "c": "澳大利亚",
-          "amt": 24.01,
-          "yoy": 9
-        }
-      ]
-    }
-  ],
+  "export_data": null,
   "global_trends": null,
   "industry_analysis": {
-    "culture": "中东馈赠文化（Wasta）使高档礼品成商务必需品；日本精美包装文化（Omotenashi）推动礼品附加值；圣诞/开斋节/排灯节礼品经济每年三次全球消费高峰",
-    "consumer": "定制化礼品（激光雕刻/3D打印个性化）年增20%；可持续礼品（有机/公平贸易）成欧美企业采购新标准；非遗工艺品数字化（NFT版权+实物配对）在收藏市场兴起",
-    "infra": "亚马逊Handmade平台为工艺品提供全球销售通道；Etsy全球工艺品GMV超100亿美元；中东礼品展(GIFTS Dubai)是全球顶级采购平台",
-    "population": "全球旅游业复苏推动旅游纪念品需求；超高净值人群（UHNW）对限量手工艺收藏品需求增长；Baby Boomer遗产赠礼文化推动高价值礼品",
-    "social": "企业ESG报告推动可持续企业礼品采购；反腐法规（中国/新加坡）限制政务礼品金额（但节庆消费不受影响）；文化挪用敏感性要求工艺品出口需标注文化来源",
-    "environment": "过度包装法规（欧盟PPWR）推动礼品包装减量；可降解礼品袋替代塑料袋成采购要求；森林木材可持续认证（FSC）覆盖木制工艺品",
-    "opportunity": "中国非遗工艺品出口（景德镇/苏绣/紫砂）品牌化；中东斋月礼品盒定制（日期椰枣+香水+茶具套装）；欧美企业定制礼品（刻名节日礼品）；东南亚旅游纪念品标准化出口；工艺品(Crafts)细分领域机会值得关注"
+    "culture": "Gift-giving traditions deeply rooted in cultures worldwide. Religious and cultural significance of certain gifts. Handicraft traditions important cultural heritage. Corporate gifting customs vary by region.",
+    "consumer": "Personalization and uniqueness valued. Seasonal demand peaks (holidays, festivals). Experience gifts competing with physical products. Online gift discovery and direct shipping growing.",
+    "infra": "General product safety compliance required. Material composition and origin labeling. Gift packaging and presentation important. E-commerce fulfillment with gift wrapping options.",
+    "population": "Aging populations with disposable income for gifts. Younger consumers seeking experiential and ethical gifts. Cultural diversity creating demand for diverse gift options.",
+    "social": "Experiential and charitable giving trends. Sustainable and fair-trade gifts preferred. Social media gift guides and recommendations. Subscription box gifting model growing.",
+    "environment": "Sustainable and eco-friendly gift materials. Minimal and recyclable gift packaging. Carbon-neutral shipping options. Locally made and artisan products valued.",
+    "opportunity": "Personalized and custom-made gifts. Cultural and artisan handicrafts. Corporate gifting programs. Subscription and curated gift boxes."
   },
   "compliance_summary": "General product safety (GPSD), REACH compliance, CPSIA for children's products, material composition labeling, country of origin marking.",
-  "last_updated": "2026-06-10",
-  "data_source": "merged_existing",
-  "demand_scenarios": {
-    "scenes": [
-      {
-        "scene": "企业商务礼品",
-        "crowd": "跨国公司采购部",
-        "reason": "年会/节日/客户答谢礼品，需定制LOGO，ESG可持续优先"
-      },
-      {
-        "scene": "旅游纪念品",
-        "crowd": "全球旅行者",
-        "reason": "旅游业复苏推动目的地文化纪念品消费"
-      },
-      {
-        "scene": "节庆消费",
-        "crowd": "家庭及个人",
-        "reason": "圣诞/开斋节/春节/排灯节礼品消费，季节性明显"
-      },
-      {
-        "scene": "非遗工艺品收藏",
-        "crowd": "中高端收藏爱好者",
-        "reason": "中国非遗品牌化出海，景德镇/苏绣等溢价空间大"
-      }
-    ],
-    "products": {
-      "cert": [
-        "Prop 65(加州)",
-        "REACH",
-        "CE",
-        "FSC木制品",
-        "公平贸易认证"
-      ],
-      "params": [
-        "食品接触件FDA认证",
-        "无毒环保油漆",
-        "跌落测试1m",
-        "包装防震",
-        "产品责任保险"
-      ],
-      "features": [
-        "激光/UV定制印刷",
-        "礼品精美包装",
-        "无LOGO素版+OEM两用",
-        "限量编号收藏版"
-      ],
-      "priceRange": {
-        "大众旅游纪念品": "$2-$30",
-        "企业定制礼品": "$10-$200",
-        "高端非遗工艺": "$100-$5000+"
-      }
-    },
-    "exportTrend": {
-      "2020": {
-        "scale": 95,
-        "yoy": -18
-      },
-      "2021": {
-        "scale": 130,
-        "yoy": 37
-      },
-      "2022": {
-        "scale": 145,
-        "yoy": 12
-      },
-      "2023": {
-        "scale": 155,
-        "yoy": 7
-      },
-      "2024": {
-        "scale": 165,
-        "yoy": 6
-      },
-      "trends": [
-        "中东斋月礼品盒定制需求爆发（日期椰枣+茶具套装）",
-        "非遗工艺品景德镇/苏绣品牌化出海逐步成功",
-        "企业ESG可持续礼品采购要求普及"
-      ],
-      "focus": [
-        "中东斋月礼品盒定制",
-        "非遗工艺品品牌出海",
-        "企业可持续定制礼品"
-      ]
-    }
-  },
-  "dynamic_insight": {
-    "trend_summary": "工艺品：海外社媒「gift #fyp」增速 246%，搜索端「gifts crafts digital transformation」热度上行，US Amazon BSR Top-41，Aju Press关注「Korea unveils five-year plan to promote...」，出口 YoY +9%，主要流向 美国 / 英国 / 德国。",
-    "product_profile": {
-      "外观": "精致礼盒 / 定制刻字 / 手工质感",
-      "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
-      "工艺": "手工浇注 / 激光雕刻 / 搪瓷彩绘",
-      "色彩": "节日红金 / 莫兰迪 / 季节限定",
-      "包装": "磁吸礼盒 / 丝带 / 贺卡定制",
-      "技术趋势": "POD 按需定制 / AR 互动贺卡 / NFT 数字收藏"
-    },
-    "reasons": [
-      "欧盟 REACH 法规限制有害化学物 → 驱动 工艺品 供应链合规升级",
-      "欧盟 CE 标志强制准入 → 工艺品 出口需通过合规认证",
-      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 工艺品 通关",
-      "澳大利亚市场 YoY +9% 领跑 玩具 出口 → 工艺品需求强劲",
-      "海外社媒「gift #fyp」增速 246% 领跑 → 工艺品社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "gift #fyp",
-        "growth": 245.5,
-        "vol": "192K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "craft industry news",
-        "growth": 214.0,
-        "vol": "268K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "gift market 2026",
-        "growth": 197.5,
-        "vol": "266K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "gifts crafts digital transformation",
-        "growth": 81,
-        "hits": 2
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "gifts crafts sustainable manufacturing",
-        "growth": 71,
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Korea unveils five-year plan to promote crafts as K-culture industry - Aju Press",
-        "source": "Aju Press",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uMnVZeEFyQmxJNFd2OEhHaFJOX1o2QkhKQzlqQVpTT2VFM1Fjd0xrclFTakZHYV9JdV9DSWxHZXpBV2JCS3lvZmxBYXRoZWQ0Qm92bnpONGNYaG_SAVdBVV95cUxOcllvNndjaFNENVdMNTQ1TVhBdS1nbXp6dnhBVFJBS2l6R2VxZUQxWDRmRUhLaVY5cjBRd2twSEE1d2E5Z19ud01QM2dTUWNBblNydnZjbjQ?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "150 UK small business grants to apply for right now - Small Business UK",
-        "source": "Small Business UK",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHb0JzSzVUWkx0THpyMndmek9XU0VxWVh4X0FjTUszaXBOU3drSGlqb2VLeEZmeTgxMXlXMnpueHpwQncyLVlxMi1jcmJDVm1BQXp1OTkzM1JMQmhNZlQ0WHppTjFkVV9vUkoxdmFn?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 41,
-        "title": "Top gift - Premium Edition",
-        "price": "$222.0",
-        "rating": 3.9,
-        "hits": 2
-      },
-      {
-        "dim": "Amazon",
-        "market": "UK",
-        "rank": 39,
-        "title": "Top craft - Smart Edition",
-        "price": "$208.1",
-        "rating": 4.4,
-        "hits": 2
-      }
-    ],
-    "domain": "gifts_crafts",
-    "generated_at": "2026-07-07",
-    "l1_ref": "礼品与工艺品"
-  }
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }

@@ -6,7 +6,7 @@
   "parent_en": "Vehicles & Transportation",
   "l1_slug": "整车及交通工具",
   "hs_codes": [
-    "871200"
+    "87xx"
   ],
   "keywords_en": [
     "tricycles",
@@ -22,206 +22,18 @@
     "三轮车供应商",
     "三轮车工厂"
   ],
-  "export_data": [
-    {
-      "hs_code": "870300",
-      "name": "汽车",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 1100,
-          "yoy": 12
-        },
-        {
-          "yr": "2024",
-          "amt": 980,
-          "yoy": 35
-        },
-        {
-          "yr": "2023",
-          "amt": 726,
-          "yoy": 62
-        }
-      ],
-      "top5": [
-        {
-          "c": "俄罗斯",
-          "amt": 240.77,
-          "yoy": 23
-        },
-        {
-          "c": "墨西哥",
-          "amt": 141.43,
-          "yoy": 18
-        },
-        {
-          "c": "比利时",
-          "amt": 112.2,
-          "yoy": 14
-        },
-        {
-          "c": "英国",
-          "amt": 92.55,
-          "yoy": 9
-        },
-        {
-          "c": "泰国",
-          "amt": 87.28,
-          "yoy": 21
-        }
-      ]
-    },
-    {
-      "hs_code": "870800",
-      "name": "汽车零配件",
-      "data": [
-        {
-          "yr": "2025",
-          "amt": 450,
-          "yoy": 7
-        },
-        {
-          "yr": "2024",
-          "amt": 420,
-          "yoy": 10
-        },
-        {
-          "yr": "2023",
-          "amt": 382,
-          "yoy": 12
-        }
-      ],
-      "top5": [
-        {
-          "c": "美国",
-          "amt": 91.61,
-          "yoy": -4
-        },
-        {
-          "c": "日本",
-          "amt": 55.71,
-          "yoy": 7
-        },
-        {
-          "c": "德国",
-          "amt": 49.37,
-          "yoy": 3
-        },
-        {
-          "c": "墨西哥",
-          "amt": 42.75,
-          "yoy": 13
-        },
-        {
-          "c": "韩国",
-          "amt": 34.97,
-          "yoy": 9
-        }
-      ]
-    }
-  ],
+  "export_data": null,
   "global_trends": null,
   "industry_analysis": {
-    "culture": "不同市场车型偏好差异显著：美国偏好SUV和皮卡，欧洲/日本偏爱紧凑型车，东南亚以两轮摩托车为主；汽车品牌具有身份象征意义；新能源车在部分市场接受度更高",
-    "consumer": "购车决策考量总拥有成本（燃油/维保/保险）；线上研究和对比充分；品牌历史和可靠性口碑重要；续航焦虑仍是部分市场电动车推广障碍",
-    "infra": "整车出口需通过ECE、DOT、CCC等同质认证和型式批准；排放检测认证是必要条件；经销商网络和售后服务体系是市场开拓基础；充电基础设施配套建设影响电动车市场发展",
-    "population": "城市化推动紧凑型车和新能源车需求；新兴市场快速增长的中产阶级带动消费升级和个人购车需求；老龄化社会对无障碍车辆设计提出新要求",
-    "social": "电动车转型与气候变化意识紧密关联；自动驾驶技术持续发展；共享出行和MaaS出行服务模式兴起；车辆联网和OTA空中升级成为标配",
-    "environment": "排放标准日趋严格（Euro 7、国六d、EPA Tier 4）；动力电池回收和梯次利用产业发展迅速；碳中和生产目标推动制造工艺变革；可持续制造理念广泛采用",
-    "opportunity": "新能源车及充电设施出口；智能网联和自动驾驶配套；新兴市场摩托车和电动车；微出行和最后一公里配送车辆；整车及交通工具(Vehicles & Transportation)细分领域机会值得关注"
+    "culture": "Vehicle preferences vary by market (SUVs in US, compact cars in Europe/Japan, two-wheelers in SE Asia). Status symbol associated with vehicle brands. Electric vehicle adoption culturally more accepted in some markets.",
+    "consumer": "Total cost of ownership (fuel, maintenance, insurance) considered. Online research and comparison extensive. Brand heritage and reliability reputation important. EV range anxiety still a barrier in some markets.",
+    "infra": "Homologation and type approval required (ECE, DOT, CCC). Emissions testing and certification. Dealer networks and after-sales service infrastructure. Charging infrastructure for EVs.",
+    "population": "Urbanization driving demand for compact and electric vehicles. Growing middle class in emerging markets upgrading to personal vehicles. Aging populations need accessible vehicle features.",
+    "social": "EV transition and climate change awareness. Autonomous vehicle development. Mobility-as-a-service and ride-sharing. Vehicle connectivity and over-the-air updates.",
+    "environment": "Emissions standards tightening (Euro 7, China 6d, EPA Tier 4). Battery recycling and second-life applications. Sustainable manufacturing. Carbon-neutral production targets.",
+    "opportunity": "Electric vehicles and charging infrastructure. Connected and autonomous vehicles. Emerging market vehicle ownership growth. Micro-mobility and last-mile delivery vehicles."
   },
   "compliance_summary": "ECE/EEC type approval, DOT/EPA compliance (US), CCC certification (China), emissions standards (Euro 6/China 6), crash safety testing (NCAP).",
-  "last_updated": "2026-06-10",
-  "data_source": "merged_existing",
-  "dynamic_insight": {
-    "trend_summary": "三轮车：海外社媒「electric vehicle viral」增速 240%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「BYD's sales rise for second month,...」，出口 YoY +62%，主要流向 俄罗斯 / 墨西哥 / 比利时。",
-    "product_profile": {
-      "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
-      "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
-      "工艺": "一体化压铸 / 激光焊接 / 800V 高压平台",
-      "色彩": "哑光灰 / 冰川蓝 / 定制双色车身",
-      "包装": "滚装船 RoRo / 集装箱框架 / 电池 UN3480 危包",
-      "技术趋势": "固态电池 / 800V 4C 超充 / 端到端自动驾驶"
-    },
-    "reasons": [
-      "欧盟 CE 标志强制准入 → 三轮车 出口需通过合规认证",
-      "三轮车主要流向 俄罗斯 / 墨西哥 / 比利时，出口集中度较高",
-      "海外社媒「electric vehicle viral」增速 240% 领跑 → 三轮车社媒种草热度爆发"
-    ],
-    "signals": [
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electric vehicle viral",
-        "growth": 240.5,
-        "vol": "36K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electric vehicle top 10",
-        "growth": 239.5,
-        "vol": "82K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electric vehicle breaking",
-        "growth": 233.5,
-        "vol": "651K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
-        "growth": 222.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 179.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "BYD's sales rise for second month, buoyed by exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjBvX09adTd6OUg3QzlZRHUxY3JCOTVRei1ZMjZhTFBRcU1GN3ZrRFgtM0ZtZkZNWEoxRUVEbnFwRl9lV1I0YkpZdXItaTYwZVBXQ2lUYTRIbHBRaGVUV2t1WVhwOXZMTzlqTXM0Z1VHbUVXWlc1N2p5Vmp0b1d5Vk1sbm84c2JZQ2JDb1pIR29VcWE1Vjh4RXFoOGNkVWN3M2F6U1BsdDY2dFAtWml0UGtn?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The secret behind China’s EV boom? Local alliances, not industrial policy: study - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ2dOSTBwUEQtNXdjdWF2NS13Rk9MUXJTVm9Cd3c4b3hKSkdzckJvWlp2cEFnVDZPRXE0ZXFZUm1kS2RGdUtLamlTdkVwNFg4UzhfZzVlb1RwandtZFZOM0s3Z1BJVjZzYUs1blU3bU9tSWd6VWxtNVRjMm5zaG42TUNrY0dIRGhNU0hyZ2xXODI5aXlDcE5FcU9seW4xZ3J4aENHOV9tLWRobjFXZ1lsUHJfWktTeWZYbDVlWG1iSktoeDVNVkFuUU96cXZ1RGtpaDZRbDJkXzRjQdIB2gFBVV95cUxPTlpiNVk1SEdoNGV6eE5rQy1oc1ktLVJIcXBvelUxWEhVQWVkYWpXSVZBSnFaVDViUDh6TlBBQ1phQUhfZkpkamhBTlpScUJFbXRpVnhNZnhCSXdBY2R3LTUtdGx2UXVja2x3TjhMY3FTQ3lHcllrd08zUHVfZlU4UkhhclE3NGVORXp1V3VHRWhkeEYwcFBjT1hRYzdXQ19BM1FGSlBPZGs4ZjZQSjZ0T2JJRW1CY3pvMkVNR3I2a1ZWYVJyVzdJRy1CS3kydFZCSFhMX0hhMkEyZw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 12,
-        "title": "Top Tricycles - Premium Edition",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 18,
-        "title": "Tricycles Best Seller EU",
-        "price": "",
-        "rating": "",
-        "hits": 1
-      }
-    ],
-    "domain": "vehicles_ev",
-    "generated_at": "2026-07-07",
-    "l1_ref": "整车及交通工具"
-  }
+  "last_updated": "2026-07-08",
+  "data_source": "base_generated"
 }
