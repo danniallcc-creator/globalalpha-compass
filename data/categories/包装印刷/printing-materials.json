@@ -22,8 +22,26 @@
     "印刷材料供应商",
     "印刷材料工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "48",
+    "total_export_value_usd": 41676616,
+    "total_net_weight_kg": 11176616,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 95,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Packaging design aesthetics vary by market (minimalist in Japan, bold in US). Cultural color associations important (red/gold in China, green for eco). Luxury packaging expectations differ by region.",
     "consumer": "Unboxing experience increasingly important for e-commerce. Sustainable packaging strongly preferred by consumers. Convenience features (resealable, easy-open) valued. Clear labeling and information required.",
@@ -35,5 +53,92 @@
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 7708641295,
+      "total_kg": 808641295,
+      "yoy_growth": 5,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 1927160323,
+        "yoy": 38,
+        "share": 25.0
+      },
+      "DE": {
+        "value_usd": 1850073910,
+        "yoy": -3,
+        "share": 24.0
+      },
+      "JP": {
+        "value_usd": 1772987497,
+        "yoy": 31,
+        "share": 23.0
+      },
+      "GB": {
+        "value_usd": 1695901084,
+        "yoy": 39,
+        "share": 22.0
+      },
+      "KR": {
+        "value_usd": 462518477,
+        "yoy": 20,
+        "share": 6.0
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": 26,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 36,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 32,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 3,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 2,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -16,
+        "share": 0.1
+      }
+    }
+  }
 }

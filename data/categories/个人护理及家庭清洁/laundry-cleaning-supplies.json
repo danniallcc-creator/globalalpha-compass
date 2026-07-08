@@ -22,8 +22,26 @@
     "衣物清洁护理供应商",
     "衣物清洁护理工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "34",
+    "total_export_value_usd": 39043753,
+    "total_net_weight_kg": 8543753,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 62,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Beauty standards and personal care routines vary by region. K-beauty and J-beauty trends influence global markets. Natural and organic ingredients are increasingly preferred across cultures. Traditional herbal ingredients gaining renewed interest in Asian markets.",
     "consumer": "Premiumization trend with consumers willing to pay more for quality. Demand for dermatologist-tested and hypoallergenic products. Subscription models gaining traction for replenishable items. Multi-functional products appeal to time-pressed consumers.",
@@ -35,5 +53,78 @@
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "news_sentiment": {
+    "article_count": 5,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 20.0,
+      "negative_pct": 20.0,
+      "neutral_pct": 60.0,
+      "articles_analyzed": 5
+    },
+    "top_headlines": [
+      "Services PMI® at 54%; June 2026 ISM® Services PMI® Report - PR Newswire",
+      "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
+      "Russia Commercial Laundry Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBo",
+      "Safe Bulkers focuses on fleet efficiency as dry bulk market evolves - AD HOC NEWS",
+      "Baltic Dry Index Slips as Capesize Shipping Rates Weaken - Discovery Alert"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUsyYklDMWhROWpLZVRBZWdLbnNLaU5qUTZNa0ZQeUdSUjVEMzhHTG54NzBKckd1clhZNHB3Y05Hb1BLZmdCZTZuOEVHZDhyc3RWVXZlaWpMd0FmRWlvZnNLMGxvYmdjdHlkVkFhWnNIRzZQd1kxTGxqLTQwNGdPTW9Ya3R0dWgyQjRpZVFaU3JRQjY3dnkzbTdJYTk3Uml3bExaUU83RUl0S04y?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOczY5Q0tJemlZZG12Q2t2cXZOdnVyTFpKWmhpdXl2eFcwUThTYXlxbjliTFBSQ0tPQUdHYUF3NDJDSl9uUUFmUHN0dDh5MGMyQVpEa3JSQ1djY3NubnluVWg2cFhMZTVMNm54bzNLUEhIUTEzS1VyWjlTekttQXl2RFlwTTlTczlvR3RSczkzcmlqUWVrLTRnZ3ZMTGtGdjVlOE5tSFBLQ2tmdHRMZ3pScV93OENabFU?oc=5"
+    ],
+    "fetched_at": "2026-07-08"
+  },
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "US": {
+        "value_usd": 1667357613.0,
+        "yoy": -12.1,
+        "share": 12.0
+      },
+      "DE": {
+        "value_usd": 4167886467.4719954,
+        "yoy": -2.7,
+        "share": 30.0
+      },
+      "JP": {
+        "value_usd": 1683303551.453,
+        "yoy": 2.8,
+        "share": 12.1
+      },
+      "GB": {
+        "value_usd": 3374211388.828002,
+        "yoy": 26.2,
+        "share": 24.3
+      },
+      "KR": {
+        "value_usd": 769804434.0,
+        "yoy": null,
+        "share": 5.5
+      },
+      "IT": {
+        "value_usd": 267330441.736,
+        "yoy": null,
+        "share": 1.9
+      },
+      "NL": {
+        "value_usd": 195184675.40499997,
+        "yoy": null,
+        "share": 1.4
+      },
+      "CA": {
+        "value_usd": 1458850337.3139987,
+        "yoy": 23.6,
+        "share": 10.5
+      },
+      "MX": {
+        "value_usd": 294081804.0,
+        "yoy": null,
+        "share": 2.1
+      }
+    }
+  }
 }

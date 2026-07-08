@@ -22,8 +22,26 @@
     "研磨材料供应商",
     "研磨材料工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "68",
+    "total_export_value_usd": 2143530,
+    "total_net_weight_kg": 11643530,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 82,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "DIY culture is strong in Western markets, driving demand for quality hand tools. Professional tradespeople prioritize durability and brand reputation. Regional preferences for tool types, sizes, and measurement systems (metric vs. imperial).",
     "consumer": "Professional users demand high-quality, durable tools with warranties. DIY enthusiasts seek value and versatility in multi-tools. Brand loyalty is strong in professional segments. Online reviews and YouTube demonstrations heavily influence purchasing decisions.",
@@ -35,5 +53,52 @@
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 13355461126.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 4362982812.740002,
+        "yoy": null,
+        "share": 40.2
+      },
+      "JP": {
+        "value_usd": 1063613936.767,
+        "yoy": null,
+        "share": 9.8
+      },
+      "GB": {
+        "value_usd": 3211533323.9459968,
+        "yoy": null,
+        "share": 29.6
+      },
+      "KR": {
+        "value_usd": 921755441.0,
+        "yoy": null,
+        "share": 8.5
+      },
+      "AU": {
+        "value_usd": 707043877.337,
+        "yoy": null,
+        "share": 6.5
+      },
+      "IT": {
+        "value_usd": 205160099.36299998,
+        "yoy": null,
+        "share": 1.9
+      },
+      "MX": {
+        "value_usd": 370446214.0,
+        "yoy": null,
+        "share": 3.4
+      }
+    }
+  }
 }

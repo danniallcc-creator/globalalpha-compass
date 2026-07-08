@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Building code compliance, ASTM/EN standards, fire safety ratings, environmental certifications (LEED, BREEAM), structural testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "门、窗及其配件：海外社媒「building wholesale supplier」增速 246%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Time Magazine关注「U.S. Declines to Renew Trade Pact With...」。",
+    "product_profile": {
+      "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
+      "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
+      "工艺": "大吨位压制 / 数码喷墨印花 / 钢化中空",
+      "色彩": "米白 / 岩灰 / 木纹色",
+      "包装": "木托盘 + 缠绕膜 / 防震护角 / 海运加固",
+      "技术趋势": "光伏建筑一体化 BIPV / 被动房标准 / 3D 打印建筑"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 门、窗及其配件 出口需通过合规认证",
+      "海外社媒「building wholesale supplier」增速 246% 领跑 → 门、窗及其配件社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building wholesale supplier",
+        "growth": 246.5,
+        "vol": "59K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cement price trend",
+        "growth": 244.0,
+        "vol": "705K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 240.5,
+        "vol": "407K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building wholesale supplier",
+        "growth": 243.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 127.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. Declines to Renew Trade Pact With Mexico And Canada. Here's What It Means for Each Country - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbkpIREo4NF9PaDgtNTI2am1yQUJ3TF9BXzI5aUdqVXRyMkYyZ1FoNTJXWTZCcEV0ZllSWUx6SklnRXJSWGtFbkNLY3RmM3NYZmZoeVVlRzNaUWNySTVhY3Jyb3F6UmZsLUZDWl9kUUtKNTNzVl8yQk1CMjVUXzljbVRFTHN0VERJSEIyUmxheGtNUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China targets US rare earth and other firms with export controls - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Door, Window & Accessories - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Door, Window & Accessories Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "building_materials",
+    "generated_at": "2026-07-08",
+    "l1_ref": "建材与房地产"
+  }
 }

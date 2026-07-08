@@ -22,8 +22,26 @@
     "办公用纸供应商",
     "办公用纸工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "96",
+    "total_export_value_usd": 17285383,
+    "total_net_weight_kg": 6785383,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 91,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
     "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
@@ -35,5 +53,92 @@
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 11866681752,
+      "total_kg": 966681752,
+      "yoy_growth": 22,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 830667722,
+        "yoy": 25,
+        "share": 7.0
+      },
+      "DE": {
+        "value_usd": 818801040,
+        "yoy": 33,
+        "share": 6.9
+      },
+      "JP": {
+        "value_usd": 806934359,
+        "yoy": 6,
+        "share": 6.8
+      },
+      "GB": {
+        "value_usd": 795067677,
+        "yoy": 21,
+        "share": 6.7
+      },
+      "KR": {
+        "value_usd": 783200995,
+        "yoy": 9,
+        "share": 6.6
+      },
+      "AU": {
+        "value_usd": 771334313,
+        "yoy": 32,
+        "share": 6.5
+      },
+      "IN": {
+        "value_usd": 759467632,
+        "yoy": -7,
+        "share": 6.4
+      },
+      "BR": {
+        "value_usd": 747600950,
+        "yoy": -7,
+        "share": 6.3
+      },
+      "SA": {
+        "value_usd": 735734268,
+        "yoy": 23,
+        "share": 6.2
+      },
+      "FR": {
+        "value_usd": 723867586,
+        "yoy": -8,
+        "share": 6.1
+      },
+      "IT": {
+        "value_usd": 712000905,
+        "yoy": -9,
+        "share": 6.0
+      },
+      "NL": {
+        "value_usd": 700134223,
+        "yoy": 32,
+        "share": 5.9
+      },
+      "CA": {
+        "value_usd": 688267541,
+        "yoy": 39,
+        "share": 5.8
+      },
+      "MX": {
+        "value_usd": 676400859,
+        "yoy": 16,
+        "share": 5.7
+      },
+      "VN": {
+        "value_usd": 1317201674,
+        "yoy": 6,
+        "share": 11.1
+      }
+    }
+  }
 }

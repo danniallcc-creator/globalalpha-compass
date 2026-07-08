@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CE marking, UL certification, NSF certification (food service equipment), electrical safety (IEC 60335), EMC compliance.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "农业和食品处理机械：海外社媒「commercial equipment analyst」增速 248%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」。",
+    "product_profile": {
+      "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
+      "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
+      "工艺": "CNC 精密加工 / 热处理 / 动平衡校准",
+      "色彩": "品牌主色（卡特黄/三一红/小松蓝）",
+      "包装": "海运木箱（熏蒸 ISPM-15）/ 托盘 + 缠绕膜",
+      "技术趋势": "工业物联网 IIoT / 数字孪生 / 远程预测性维护"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 农业和食品处理机械 出口需通过合规认证",
+      "海外社媒「commercial equipment analyst」增速 248% 领跑 → 农业和食品处理机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "commercial equipment analyst",
+        "growth": 247.5,
+        "vol": "577K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "commercial equipment review 2026",
+        "growth": 227.5,
+        "vol": "552K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "commercial equipment #fyp",
+        "growth": 224.5,
+        "vol": "519K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment b2b export",
+        "growth": 196.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment wholesale supplier",
+        "growth": 176.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Agricultural & Food Processing Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Agricultural & Food Processing Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "machinery",
+    "generated_at": "2026-07-08",
+    "l1_ref": "商业设备及机械"
+  }
 }

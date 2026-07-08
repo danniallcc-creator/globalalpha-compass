@@ -35,5 +35,95 @@
   },
   "compliance_summary": "ECE/EEC type approval, DOT/EPA compliance (US), CCC certification (China), emissions standards (Euro 6/China 6), crash safety testing (NCAP).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "拖车：海外社媒「electric vehicle industry report」增速 248%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「BYD's sales rise for second month,...」。",
+    "product_profile": {
+      "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
+      "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
+      "工艺": "一体化压铸 / 激光焊接 / 800V 高压平台",
+      "色彩": "哑光灰 / 冰川蓝 / 定制双色车身",
+      "包装": "滚装船 RoRo / 集装箱框架 / 电池 UN3480 危包",
+      "技术趋势": "固态电池 / 800V 4C 超充 / 端到端自动驾驶"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 拖车 出口需通过合规认证",
+      "海外社媒「electric vehicle industry report」增速 248% 领跑 → 拖车社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electric vehicle industry report",
+        "growth": 247.5,
+        "vol": "72K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "electric vehicle top 10",
+        "growth": 233.5,
+        "vol": "140K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electric vehicle breaking",
+        "growth": 230.5,
+        "vol": "411K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 178.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 153.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "BYD's sales rise for second month, buoyed by exports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjBvX09adTd6OUg3QzlZRHUxY3JCOTVRei1ZMjZhTFBRcU1GN3ZrRFgtM0ZtZkZNWEoxRUVEbnFwRl9lV1I0YkpZdXItaTYwZVBXQ2lUYTRIbHBRaGVUV2t1WVhwOXZMTzlqTXM0Z1VHbUVXWlc1N2p5Vmp0b1d5Vk1sbm84c2JZQ2JDb1pIR29VcWE1Vjh4RXFoOGNkVWN3M2F6U1BsdDY2dFAtWml0UGtn?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The secret behind China’s EV boom? Local alliances, not industrial policy: study - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ2dOSTBwUEQtNXdjdWF2NS13Rk9MUXJTVm9Cd3c4b3hKSkdzckJvWlp2cEFnVDZPRXE0ZXFZUm1kS2RGdUtLamlTdkVwNFg4UzhfZzVlb1RwandtZFZOM0s3Z1BJVjZzYUs1blU3bU9tSWd6VWxtNVRjMm5zaG42TUNrY0dIRGhNU0hyZ2xXODI5aXlDcE5FcU9seW4xZ3J4aENHOV9tLWRobjFXZ1lsUHJfWktTeWZYbDVlWG1iSktoeDVNVkFuUU96cXZ1RGtpaDZRbDJkXzRjQdIB2gFBVV95cUxPTlpiNVk1SEdoNGV6eE5rQy1oc1ktLVJIcXBvelUxWEhVQWVkYWpXSVZBSnFaVDViUDh6TlBBQ1phQUhfZkpkamhBTlpScUJFbXRpVnhNZnhCSXdBY2R3LTUtdGx2UXVja2x3TjhMY3FTQ3lHcllrd08zUHVfZlU4UkhhclE3NGVORXp1V3VHRWhkeEYwcFBjT1hRYzdXQ19BM1FGSlBPZGs4ZjZQSjZ0T2JJRW1CY3pvMkVNR3I2a1ZWYVJyVzdJRy1CS3kydFZCSFhMX0hhMkEyZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Trailers - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Trailers Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "vehicles_ev",
+    "generated_at": "2026-07-08",
+    "l1_ref": "整车及交通工具"
+  }
 }

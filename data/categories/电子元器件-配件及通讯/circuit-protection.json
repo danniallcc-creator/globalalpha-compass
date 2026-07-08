@@ -35,5 +35,97 @@
   },
   "compliance_summary": "RoHS compliance, REACH, CE marking, UL recognition, IEC standards, telecom equipment approvals (FCC Part 15, RED Directive).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "电源管理及电路保护：海外社媒「electronic component b2b export」增速 255%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Japan's exports rise on weak yen, AI...」。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 电源管理及电路保护 供应链合规升级",
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 电源管理及电路保护 成主流",
+      "欧盟 CE 标志强制准入 → 电源管理及电路保护 出口需通过合规认证",
+      "海外社媒「electronic component b2b export」增速 255% 领跑 → 电源管理及电路保护社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electronic component b2b export",
+        "growth": 255.0,
+        "vol": "260K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "chip tutorial",
+        "growth": 234.5,
+        "vol": "458K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "5g breaking",
+        "growth": 234.5,
+        "vol": "27K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electronic component b2b export",
+        "growth": 252.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "5g market 2026",
+        "growth": 212.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Japan's exports rise on weak yen, AI boom, but price-led gains mask weak volumes - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcXpmVjJKS19UNWRRbHotWEQ5VXdJMEVpT3ZObUtsMTU0NlEwdUljdVFmNWJ3cThzcFRyZEN6R01IbXdmZnd3ZzRKMDVkaFZwdk1lN3RTY0x3dkNvVVJJTlh0VkNHcmtGaXRXS3FmelcyZTlyWG82aHVrYWY5c0ZIZ0dDZFluaFQzYUNhYUZBcExrUV9ja2NRaXZVcUx2TUd2TGxHUmdxTmdYUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "AI surge sees HKTDC raise export forecast, Boost for Hong Kong exporters amid global uncertainties - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaWx6OFhfZmxFa1JhR19wdE5pX0F6bVBzajJsUTY5LXo5cVMzMzBmS19mS3pudXFQNGVidGFGUkxoa3owaDBoaGNMS3g2WHdQM2Y2Yko2MGctVU1vNVh2X1doQzN1bGFHZmh5RWRJVjJaSVl6RnRHRGRBa1VWWDBwZTJqR1FJX3J1YjVacFNPeTNuSWY1OXZLZUIxY21wMF9fVzRsczhVRkRXNTBPSHZTOGh5bnhzZGoxY3BDRzNYUUtISTJFYVlKN2hRVnJpSGFVd3M0Y1k5NjB1V1lVYTMxSFR3VEFTTkVfTVZYcGpCZ0V0QTF2QnZ3ZE5OOGxlWUxPbUpN?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Circuit Protection - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Circuit Protection Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-07-08",
+    "l1_ref": "电子元器件、配件及通讯"
+  }
 }

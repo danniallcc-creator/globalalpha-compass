@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CE marking, OSHA compliance (US), EN standards for lifting equipment, load testing and certification, operator training requirements.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "仓储：海外社媒「forklift supply chain」增速 248%，搜索端「conveyor b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's control over indium phosphide...」。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 仓储 出口需通过合规认证",
+      "海外社媒「forklift supply chain」增速 248% 领跑 → 仓储社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "forklift supply chain",
+        "growth": 247.5,
+        "vol": "610K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "forklift tutorial",
+        "growth": 226.5,
+        "vol": "30K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "conveyor must have",
+        "growth": 226.0,
+        "vol": "657K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "conveyor b2b export",
+        "growth": 206.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "forklift wholesale supplier",
+        "growth": 189.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China's control over indium phosphide exports threatens AI data centre rollout - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOXBrMUJic3lqQjF0SkRUdmE0dkNGU2E2ZWJvVlZnRmF5UFNtUzVKN2E1b0FwbG5BTU8teVJjYnEwLTFFZ09lZHhHVFJTYU9lSWI5WF9XLUp2cmY4U21kZ1RMa3FrR3JkQ2VSZXZtWEl5ZlJBZWtKaHBhUG1Uc0ZmZEFpZXNZQW52RWhUN0hVME9SZEMxcGxKMlRINlZnekJRWkZOaXlVSVk2bWE0ZGgwY19DdHM3WVBicEVvR3VSUTZjaEE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Wood Pallets Market Size, Industry Share, Forecast, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzeVhiTHVnMHRfbl9lbmEzOGFGdlMyZ0JfMGc5THFtWXQ5bEduSHlETl9FMFRLcnlfYk5YZ09rMDI4MmVuWlpndm5yT1p1R0ptUmdwYng1eHlITW5teEUyY3p5andMRUdJcFE2Wlo4bWZxM2xL?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Warehousing - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Warehousing Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-07-08",
+    "l1_ref": "物料搬运"
+  }
 }

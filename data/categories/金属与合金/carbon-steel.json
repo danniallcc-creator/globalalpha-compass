@@ -35,5 +35,97 @@
   },
   "compliance_summary": "Material certifications (mill test certificates per EN 10204), REACH compliance, RoHS, conflict minerals reporting, quality standards (ASTM, EN, JIS).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "碳钢：海外社媒「steel viral hack」增速 252%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Recycling Product News关注「Global trends affecting steel trade and...」。",
+    "product_profile": {
+      "外观": "工业标准卷材/板材/棒材 / 定制切割",
+      "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
+      "工艺": "热轧 / 冷轧 / 电解 / 粉末冶金",
+      "色彩": "金属原色 / 阳极氧化彩色",
+      "包装": "木托盘 + 钢带 / 防锈 VCI 膜 / 海运木箱",
+      "技术趋势": "CBAM 碳边境税驱动绿钢 / 氢能直接还原 / 再生金属溯源"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 碳钢 供应链合规升级",
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 碳钢 成主流",
+      "欧盟 CE 标志强制准入 → 碳钢 出口需通过合规认证",
+      "海外社媒「steel viral hack」增速 252% 领跑 → 碳钢社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "steel viral hack",
+        "growth": 252.0,
+        "vol": "586K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "aluminum wholesale supplier",
+        "growth": 242.5,
+        "vol": "176K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "aluminum tiktok made me buy",
+        "growth": 230.5,
+        "vol": "35K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "aluminum wholesale supplier",
+        "growth": 239.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "metal market 2026",
+        "growth": 155.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Global trends affecting steel trade and recycling - Recycling Product News",
+        "source": "Recycling Product News",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE1DT2lYOUZhMnhpRDJGdV9ReFVqYlItcFRwYXNiMkF4bTU1QTVGbzJWSnlmT3dhWU5WZ3RpZF9RazRoRGhGaVR0akZFQXA0dU9kbjdab09PMDJRdlRTcUhvc1VPeW5TUGp3OHVZREJ5UGd5WVFTaHFEcnpQcHZyeXFoeHZfVzFSOFB2NmhEYlRocmJOZE03OWpjM2FRMU9OS3VMYklyZXQ2UUxVaHlDVE1Xc0JJM01qM19uLWZyRl93b3JjeG1Z?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India opens steel dumping probe into China, Japan, Russia - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkdUSzY3RWpENURtT2l1RWlZS0swcWxxX3U0M1hsNVRpVlZCVVFTR2xlZnlObDdMNlZZcGQzc1cxT2ZtQzZVQVFDUTdNVExfX3h4dU9CRmYyRlk4alA1eG9BOEhpTHlpdEI1SUdUT1M4ZUJrZkVXU0FCQ0RtV1hDRTE5NldpcmdZcmZ3SUp2TXZXWjZ6WmJ0b0JpMVpKbU04TklQTTFR?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Carbon Steel - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Carbon Steel Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "metals",
+    "generated_at": "2026-07-08",
+    "l1_ref": "金属与合金"
+  }
 }

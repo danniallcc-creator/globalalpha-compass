@@ -22,8 +22,26 @@
     "泵及配件供应商",
     "泵及配件工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "84",
+    "total_export_value_usd": 44374704,
+    "total_net_weight_kg": 3874704,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 60,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "DIY culture is strong in Western markets, driving demand for quality hand tools. Professional tradespeople prioritize durability and brand reputation. Regional preferences for tool types, sizes, and measurement systems (metric vs. imperial).",
     "consumer": "Professional users demand high-quality, durable tools with warranties. DIY enthusiasts seek value and versatility in multi-tools. Brand loyalty is strong in professional segments. Online reviews and YouTube demonstrations heavily influence purchasing decisions.",
@@ -35,5 +53,22 @@
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 815119487136.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 325952473332.29596,
+        "yoy": null,
+        "share": 100.0
+      }
+    }
+  }
 }

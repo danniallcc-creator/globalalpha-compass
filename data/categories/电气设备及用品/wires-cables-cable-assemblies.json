@@ -35,5 +35,96 @@
   },
   "compliance_summary": "CE marking, UL/CSA certification, IEC standards, EMC directive, Low Voltage Directive (2014/35/EU), RoHS compliance.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "电线、电缆与电缆组件：海外社媒「electrical #fyp」增速 246%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 RoHS 限制有害物质 → 无铅/无卤 电线、电缆与电缆组件 成主流",
+      "欧盟 CE 标志强制准入 → 电线、电缆与电缆组件 出口需通过合规认证",
+      "海外社媒「electrical #fyp」增速 246% 领跑 → 电线、电缆与电缆组件社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "electrical #fyp",
+        "growth": 246.5,
+        "vol": "409K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electrical breaking",
+        "growth": 238.5,
+        "vol": "492K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "electrical trending now",
+        "growth": 229.0,
+        "vol": "72K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical b2b export",
+        "growth": 214.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 107.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Netherlands (NLD) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSZ0wya1BIdlM1a1dMcDJRMjdyU044b2szNW9qSUk4eWpDYnNIM2N3MkR4V0FIcWw1UmtkM0tfUjlxWk5teGl6eUdvRHFtUGtnSFE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Wires, Cables & Cable Assemblies - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Wires, Cables & Cable Assemblies Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-07-08",
+    "l1_ref": "电气设备及用品"
+  }
 }

@@ -35,5 +35,95 @@
   },
   "compliance_summary": "IEC standards (61215, 61730, 62109), UL certification (1741, 2703), CE marking, grid connection standards (IEEE 1547), performance certification (TUV, MCS).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "电池：海外社媒「solar must try」增速 248%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Why China’s green exports to the US are...」。",
+    "product_profile": {
+      "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
+      "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
+      "工艺": "CTP/CTC 一体化封装 / 半片多主栅 / 双面双玻",
+      "色彩": "哑光白 / 石墨灰 / 黑色全黑组件（BIPV 建筑一体化）",
+      "包装": "瓦楞纸 + 可降解 EPS / 符合欧盟 PPWR 包装法规",
+      "技术趋势": "AI EMS 能量管理 / 阳台储能即插即用 / V2G 双向逆变 / 钙钛矿叠层"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 电池 出口需通过合规认证",
+      "海外社媒「solar must try」增速 248% 领跑 → 电池社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "solar must try",
+        "growth": 247.5,
+        "vol": "631K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "energy storage tutorial",
+        "growth": 246.5,
+        "vol": "233K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "solar breaking",
+        "growth": 244.5,
+        "vol": "23K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "energy storage wholesale supplier",
+        "growth": 211.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 130.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Why China’s green exports to the US are suddenly surging - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcTR1TTlfTXJHNU1FWnFsWmQ2NXNhb1Y2dnlvSjZoWS1tNndXZFNsWFJzR3Nic19ZYkNOMW9nQUFZd0NTM2l4OHoyN0JTZkVNUkw0VmFVTGpjSWRKVm56RUppZkJEckFKRG5GcDBjeDBFMGdyeDI4cnEwU3o5TDVCUkx5TThGTk1fUWZkMExPaDhGUTN0NjZTQUx3M2dVU0ozWGNBNmgyQWRJa3Q4elFvNENOdkxuZURjeEHSAboBQVVfeXFMTTBQWFRtUGZQaE5tNThRcktzSzFRZnVWY3pNRlJUN01uQWtYaVFqaGNUQkRRc1J4cDZsV1EwN1EtMjYyMk5vZ1lFelJtaHp0TjBVTVREVXJuM2lCTUVQaWhnYm9zX21GSHhyenVqTXdGYnpLYmRObWVfWk1ObFlPZjJjRVgtaC1EVXI4cFRaZW01S2Z3RUx6WUVWczF4bG1LZnRmbUV4WXZxX3JTQ0RKSmltV2N2WEVsODhB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. Ethanol Push Collides With Brazil as Tariff Battle Reaches Breaking Point - Agrolatam",
+        "source": "Agrolatam",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdGxPNDNqakczRTFtSDFFVzVISFpuMFJ2Ukx3REZHZ0E3dmlZR01JVlhIcGVad2dBTU0taUZTRHAydkdTbFFwbVpfV2JnN1R4VnRsZ1V6TEsyOVppellna3NzVzl3dmtrOFVuUWktNDFkZGZhQS1GWVE0NTVKUzAzaQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Batteries - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Batteries Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "renewable_energy",
+    "generated_at": "2026-07-08",
+    "l1_ref": "可再生能源"
+  }
 }

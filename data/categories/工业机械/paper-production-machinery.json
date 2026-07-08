@@ -35,5 +35,96 @@
   },
   "compliance_summary": "CE marking, ISO certifications, Machinery Directive (2006/42/EC), pressure equipment directive (PED), ATEX for explosive atmospheres.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "造纸机械：海外社媒「industrial machinery viral」增速 246%，搜索端「industrial machinery wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」。",
+    "product_profile": {
+      "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
+      "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
+      "工艺": "CNC 精密加工 / 热处理 / 动平衡校准",
+      "色彩": "品牌主色（卡特黄/三一红/小松蓝）",
+      "包装": "海运木箱（熏蒸 ISPM-15）/ 托盘 + 缠绕膜",
+      "技术趋势": "工业物联网 IIoT / 数字孪生 / 远程预测性维护"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 造纸机械 出口需通过合规认证",
+      "欧盟 ATEX 防爆认证 → 工业 造纸机械 进入危险环境必备",
+      "海外社媒「industrial machinery viral」增速 246% 领跑 → 造纸机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery viral",
+        "growth": 246.5,
+        "vol": "750K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery industry report",
+        "growth": 224.5,
+        "vol": "760K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery new arrival",
+        "growth": 215.5,
+        "vol": "95K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 191.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 191.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese Export Flood Tests Europe’s Stomach for Trade War With Beijing - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnZyV0cwd05MejRzNDRKX3FpYVc4eTFLODhzNE1uZGY3aEhrXzFEc21EcVRHTEEwTTN0Z0hJamlvMnZCNXFzajRPTUpSbFVVYkc2ZXBvS3VuQ29mSklYZldncTR5V0dGVTJkaVo2VFd3MnNLUzhqNGZDU3daMzdFZzZhMVV3SG1KXzVXemxhZjJPT1RmcnJsb3NTRGU4NFpJMVdPNHlhSGt6T2dGYWdIV0tB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Paper Production Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Paper Production Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "machinery",
+    "generated_at": "2026-07-08",
+    "l1_ref": "工业机械"
+  }
 }

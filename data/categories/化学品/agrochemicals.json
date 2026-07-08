@@ -22,8 +22,26 @@
     "农用化学品供应商",
     "农用化学品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "38",
+    "total_export_value_usd": 22007495,
+    "total_net_weight_kg": 1507495,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 86,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Chemical industry standards and regulations vary significantly by market. Responsible care and stewardship increasingly expected. Technical expertise required for safe handling and application. Regional chemical manufacturing clusters.",
     "consumer": "B2B purchasing with technical specification requirements. Safety data sheets (SDS) mandatory. Regulatory compliance (REACH, TSCA) is a prerequisite. Long-term supply contracts common.",
@@ -35,5 +53,32 @@
   },
   "compliance_summary": "REACH registration (EU), TSCA compliance (US), GHS labeling, SDS requirements, transport regulations (ADR/IMDG/IATA).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 54046723047.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 13466603251.74002,
+        "yoy": null,
+        "share": 61.3
+      },
+      "GB": {
+        "value_usd": 4887893510.015998,
+        "yoy": null,
+        "share": 22.2
+      },
+      "CA": {
+        "value_usd": 3617252745.5420012,
+        "yoy": null,
+        "share": 16.5
+      }
+    }
+  }
 }

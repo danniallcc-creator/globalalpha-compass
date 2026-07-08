@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CPSC safety standards (US), EN standards (EU), sport-specific certifications, product liability insurance, age grading requirements.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "冰雪运动：海外社媒「fitness tutorial」增速 252%，搜索端「fitness wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「United Kingdom Winter Sports Equipment...」。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 冰雪运动 出口需通过合规认证",
+      "海外社媒「fitness tutorial」增速 252% 领跑 → 冰雪运动社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fitness tutorial",
+        "growth": 252.5,
+        "vol": "354K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "sports factory tour",
+        "growth": 240.0,
+        "vol": "765K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "sports #trending",
+        "growth": 220.5,
+        "vol": "559K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fitness wholesale supplier",
+        "growth": 140.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "sports outdoor market trend 2026",
+        "growth": 84,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "United Kingdom Winter Sports Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQci1GVGdXMFNuU202M19OeC1Ta1JsdXlIOGJCcVhPeC1CcVhXM1Vkald4blRqMEh3M3d0WnozempFRER5bHRYakdJUmhnSTBnM0Vwc3R5Tmh3MzVwODRlQldqRGZfZnphWnVXYXNBZnVlbnF0eWpXTm9kNTB0SnZDeS1hcUFQSTRMMWJ3Q1JKN1BwcUFwVUQtdi1BcElOZEVRZWhVRUZZQU9SUXc3UUppTzlPRjZJYU1CMWlj?oc=5",
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Academy Sports and Outdoors (NASDAQ:ASO) Shares Up 10.1% on Better-Than-Expected Earnings - MarketBeat",
+        "source": "MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHNCVXpXM1JxcDlOTXVvZUl0bnNQb1ZKdnVzV09VUjVPWVpJeFp3enY2eFhDeTVUSmF3OUFxb3VUdVVwZ3lrV2k4LTBkckhqVTFsdjhuSWFHRTBXRXFrZmw0RFlKRi1QNVpsRXJiUzVmclpfQkhvdTB0MGh4THo1eUUtV3VCOE4ya092ZHFSRGtxVWVFU2M2a1c3NzVqODhaVFJLTjA0VzFsZTBianNieVdqc1NvcUM3VUsweTd6VmNjcFdqWjFvSjNfTlZvZU9zcGxXQg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Winter Sports - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Winter Sports Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-07-08",
+    "l1_ref": "运动及娱乐"
+  }
 }

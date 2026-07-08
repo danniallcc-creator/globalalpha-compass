@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Product safety certifications (CPSC, CE), chemical compliance for garden products, furniture stability standards, electrical safety for powered equipment.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 38%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-47，Euronews.com关注「How cutting trade ties between Spain...」。",
+    "product_profile": {
+      "外观": "精致礼盒 / 定制刻字 / 手工质感",
+      "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
+      "工艺": "手工浇注 / 激光雕刻 / 搪瓷彩绘",
+      "色彩": "节日红金 / 莫兰迪 / 季节限定",
+      "包装": "磁吸礼盒 / 丝带 / 贺卡定制",
+      "技术趋势": "POD 按需定制 / AR 互动贺卡 / NFT 数字收藏"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
+      "海外社媒「home decor wholesale supplier」增速 38% 领跑 → 家居装饰社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "home decor wholesale supplier",
+        "growth": 38.5,
+        "vol": "71K",
+        "hits": 3
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "home decor tiktok made me buy",
+        "growth": 248.5,
+        "vol": "664K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "home decor must try",
+        "growth": 231.5,
+        "vol": "445K",
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor wholesale supplier",
+        "growth": 35.5,
+        "hits": 3
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 202.5,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "How cutting trade ties between Spain and the US would hit both sides - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOODg5TG11U29OazdjbnVzM2d3SGtUQXRGSXNDSnlWN0NqdjhIRUlsYjFtRmgtR1hJMW5WWk0ySS1nVGlHMXViZWN2Vm1HcGNidVktRDBJaU5hQlBzNlpZMVlVeXQ0VnhQUnJ0ZmEzZ2trZXVkZm5DbFJPaG9EVkRMUXlBRmJKNTB5MmhCU2hZX0ltQzZXZ1RWa09kWmR1NllEUVE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Growing Hope: Community Gardens for Displaced Communities - BORGEN Magazine",
+        "source": "BORGEN Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWVQyR1FJbnQ2dDdkazFZUUZNQXJ3QzRVZGw0YlhwMjZMX2NHY3piemFXUEMwTmczbUpqX1ZqTGRqeDFkdVBpWVdCSzZOOWlHSlVhRHFoSlE3WHFtNld1UVNBRGtPUHVUXzl1cExMSGN2WXhqM0c4bjBjYkJlNEhwczNJTVB5REtTRjlOcmhyVmN4UQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 47,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$231.5",
+        "rating": 4.1,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 46,
+        "title": "Top garden - Pro Edition",
+        "price": "$102.7",
+        "rating": 4.0,
+        "hits": 0
+      }
+    ],
+    "domain": "gifts_crafts",
+    "generated_at": "2026-07-08",
+    "l1_ref": "家居园艺"
+  }
 }

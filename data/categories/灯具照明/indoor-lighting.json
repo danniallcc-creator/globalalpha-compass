@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CE marking, UL listing, Energy Star, DLC qualification, photobiological safety (IEC 62471), EMC compliance.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "室内照明：海外社媒「lighting market alert」增速 254%，搜索端「lighting b2b export」热度上行，US Amazon BSR Top-12，Farm Progress关注「U.S. beef exports to China to pick up...」。",
+    "product_profile": {
+      "外观": "极简线条 / 无主灯设计 / 磁吸轨道",
+      "成分": "铝散热外壳 / COB 光源 / PMMA 导光板",
+      "工艺": "SMT 贴片 + 回流焊 / IP65 灌胶防水 / DALI 调光",
+      "色彩": "哑光黑 / 白 / 黄铜色（复古）",
+      "包装": "环保纸浆模塑 / 珍珠棉 / 开窗彩盒",
+      "技术趋势": "智能照明（Matter/Zigbee）/ 节律照明 / 太阳能一体化"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 室内照明 出口需通过合规认证",
+      "海外社媒「lighting market alert」增速 254% 领跑 → 室内照明社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "lighting market alert",
+        "growth": 254.0,
+        "vol": "755K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "led analyst",
+        "growth": 218.5,
+        "vol": "407K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "led review 2026",
+        "growth": 207.5,
+        "vol": "622K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "lighting b2b export",
+        "growth": 184.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "lighting led sustainable manufacturing",
+        "growth": 82,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. beef exports to China to pick up as rivals exhaust quotas - Farm Progress",
+        "source": "Farm Progress",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS1JIX25JUkQzWmV5Q3RaRVBUT0w4UEgtOHc0UEgzb3dtMVdVUWloeE51V05seENoc1JtbzNwcTY3Q3lEeEcyM2h5aVdYMFpEdW00Q1RpYlZrR3FtVk9mQlMtTHl4TXRIVEJoc1RMQUl2VWswSzdYbHBuSmVOczI0bnlUVTQzN25lYlpPcjNIZE9wbVlJZTN1ZEVLMWw0Tlhjdk5zdg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Norway (NOR) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaN1VZNHAtNTNWX0daemFkNXdkVmIweEhKQlN0TFlWSkJVYkFnTDFpWmlwNmVBRE1SWkMwZFRNRkxKRUl5TDR5YkpDMzk5NTYzVUE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Indoor Lighting - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Indoor Lighting Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "lighting",
+    "generated_at": "2026-07-08",
+    "l1_ref": "灯具照明"
+  }
 }

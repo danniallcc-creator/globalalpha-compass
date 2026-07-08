@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Software development standards (ISO 12207), data protection regulations (GDPR), intellectual property protection, industry-specific compliance (HIPAA, PCI-DSS).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "APP开发：海外社媒「tech service supply chain」增速 252%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Carnegie Endowment for International Peace关注「The Future of American Economic Power -...」。",
+    "product_profile": {
+      "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
+      "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
+      "工艺": "主流制造工艺 + 质量检测体系",
+      "色彩": "经典黑/白 + 市场流行色（年度 Pantone）",
+      "包装": "环保包装（可回收/可降解），符合欧盟 PPWR",
+      "技术趋势": "AI 赋能 / 智能化 / 可持续 / 数字化供应链"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → APP开发 出口需通过合规认证",
+      "海外社媒「tech service supply chain」增速 252% 领跑 → APP开发社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "tech service supply chain",
+        "growth": 252.5,
+        "vol": "296K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "software outsourcing factory tour",
+        "growth": 251.0,
+        "vol": "165K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "software outsourcing viral hack",
+        "growth": 247.0,
+        "vol": "112K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "software outsourcing b2b export",
+        "growth": 236.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "tech service wholesale supplier",
+        "growth": 232.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The Future of American Economic Power - Carnegie Endowment for International Peace",
+        "source": "Carnegie Endowment for International Peace",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR3BEMVZtV29Ib3otbFlFckNPd0Y2a1V0eXExMi1UQTNzQmMzZ21scUxlOHlMb1l5OE9mZUcwbXc4djU5dFlXQVZjNG56RG45NmlkWVc1QUJ4WXAyd21LcG9kaGpQVlRYVG1BMGxscjA1Q2NrZUdyNmtBbUhCbi0wZ2lxNmMzc25FbjBkdw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Global exports downturn deepens in May as war hits trade in services - S&P Global",
+        "source": "S&P Global",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTmE5TjNQTjY5bWJEZEhwcVNPblVRUHBacEUwdzduY2xUazNTTHB6cnZvNUNKTmJOVmtjQW9DTlZxMC0yemJobHpldGZQVXp6NkJOQV9LVnJiY3JDZ3BIaFJGVVZpbzNSN2NKQ3pNTVpYTC1ORHYyOHBNdkgzVzdZQUxaNGVXNE1LY3B5eWMzc1Bhb3dNVmpqWjhRdXVoUnJsblFDdnJFZWI1YzY2XzVUdEV2cFk0ZWxDTUtFZHdKcFRDTXh2R2ltLWNJX3J3Yk52RFhwMTlkU2VmX0JVbERmdg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top APP Development - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "APP Development Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "generic",
+    "generated_at": "2026-07-08",
+    "l1_ref": "开发与技术服务"
+  }
 }

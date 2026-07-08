@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CE marking, Machinery Directive compliance, ISO quality standards, structural steel fabrication standards (EN 1090), safety interlocks.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "能源矿产设备：海外社媒「construction equipment analyst」增速 248%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，South China Morning Post关注「China’s excavator exports surge 33% in...」。",
+    "product_profile": {
+      "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
+      "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
+      "工艺": "CNC 精密加工 / 热处理 / 动平衡校准",
+      "色彩": "品牌主色（卡特黄/三一红/小松蓝）",
+      "包装": "海运木箱（熏蒸 ISPM-15）/ 托盘 + 缠绕膜",
+      "技术趋势": "工业物联网 IIoT / 数字孪生 / 远程预测性维护"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 能源矿产设备 出口需通过合规认证",
+      "海外社媒「construction equipment analyst」增速 248% 领跑 → 能源矿产设备社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "construction equipment analyst",
+        "growth": 248.5,
+        "vol": "169K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "construction equipment supply chain",
+        "growth": 234.5,
+        "vol": "88K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "construction equipment aesthetic",
+        "growth": 225.0,
+        "vol": "555K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "construction equipment wholesale supplier",
+        "growth": 131.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "construction equipment b2b export",
+        "growth": 115.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s excavator exports surge 33% in first half amid shift to electric power - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPejVkNmRVSmhSZXY4WmdkM1dQbUdBOTQxTWoyTjJFaEw2MWswTFlfQ1Awbk1DVlFqdzJKcmtna1VHcWd6cmxWYzBwb3ZCZXBXbDMzamhBbzhrbnozSDU4bGxORWdxYW9lajJnMjdIeFZuLVF3aHlUOFA4eGtpeTlxcHdDNkcxLXR0REdFRGVMcFpOMzNGS053cllLVnZtYW9FQVF4a0VyN2g5VzZZaHBFYjZZazlaNkFTRm44cjM2aDRvb21lVFkxeU5ILV9mWjTSAc8BQVVfeXFMTUZfR2RYU3J6SGtJcVRSUDB3SjhCVXRGSUctTExpZW4yenI3N1FheXVXeXhnWUVQVTFHa1hrM0Q0TzBzQ2swZ2twbmxGNVhaeDFEZVFyXzMyU3VSR2IwX3ZwQkFxM2dPWmhocndmZEY4a2JtVGNPN1JLOHZWdDBMdHBUVFlQRWtCbEJLUExGaGU1SzN2RXZSYWpJdEFuRlM1UmdlMjNMV1F3dnFlbUpXdE1WSDNpbDdrMU1wR1p0a1lhRnZWVHYtTnF2c0VjaFNN?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "3 Chinese Industrial Stocks Riding The Export Shift Away From The US - simplywall.st",
+        "source": "simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZWIyZmhaWG83Qkl0MDVBS1I4WmtPLVNIdjZnQzVjVzVlT2NyRnNLV2gwTDRLM1hmTjRaOS00M2hXREtZQ2hvNXotZDFhcDVsLUk3ZEpSYm5sY2VuUHpDclA2aU5LeUFHUEJwMV9YcEJocTBWQlctSTM1aUhKTldfdnQtZi1uX1NiSmNPcFlNcGFvaDZNR3FCYlZpWHY5QUcwS1MwenNxTTBtY2F4bVllUVdwT212MEZObEJmaVVSa1FrZkg5THNnQ1BLaEJXWVhjYjVFcHk2aE0xd0VNSmtiNHF4RDhJOWJsQldrWnhyR2R1VElHVGZuSlRIV1_SAfwBQVVfeXFMT2ViMmZoWlhvN0JJdDA1QUtSOFprTy1TSHY2Z0M1Y1c1ZU9jckZzS1doMEw0SzNYZk40WjktNDNoV0RLWUNobzV6LWQxYXA1bC1JN2RKUmJubGNlblB6Q3JQNmlOS3lBR1BCcDFfWHBCaHEwVkJXLUkzNWlISk5XX3Z0LWYtbl9TYkpjT3BZTXBhb2g2TUdxQmJWaVh2OUFHMEtTMHpzcU0wbWNheG1ZZVFXcE9tdjBGTmxCZmlVUmtRa2ZIOUxzZ0NQS2hCV1lYY2I1RXB5NmhNMXdFTUprYjRxeEQ4STlibEJXa1p4ckdkdVRJR1RmbkpUSFdf?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Energy & Mineral Equipment - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Energy & Mineral Equipment Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "machinery",
+    "generated_at": "2026-07-08",
+    "l1_ref": "工程及建材机械"
+  }
 }

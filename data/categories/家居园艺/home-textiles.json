@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Product safety certifications (CPSC, CE), chemical compliance for garden products, furniture stability standards, electrical safety for powered equipment.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "家纺：海外社媒「home decor tiktok made me buy」增速 248%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Euronews.com关注「How cutting trade ties between Spain...」。",
+    "product_profile": {
+      "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
+      "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
+      "工艺": "数码印花 / 无缝针织 / 环保染整（Oeko-Tex）",
+      "色彩": "Pantone 年度色 / 植物染 / 数码渐变",
+      "包装": "卷筒装 / 真空压缩 / 再生纸管",
+      "技术趋势": "数字产品护照 DPP / 无水染色 / 3D 织造零废料"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 家纺 出口需通过合规认证",
+      "海外社媒「home decor tiktok made me buy」增速 248% 领跑 → 家纺社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "home decor tiktok made me buy",
+        "growth": 248.5,
+        "vol": "664K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "garden trending now",
+        "growth": 241.0,
+        "vol": "326K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "home decor must try",
+        "growth": 231.5,
+        "vol": "445K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 202.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "garden b2b export",
+        "growth": 102.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "How cutting trade ties between Spain and the US would hit both sides - Euronews.com",
+        "source": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOODg5TG11U29OazdjbnVzM2d3SGtUQXRGSXNDSnlWN0NqdjhIRUlsYjFtRmgtR1hJMW5WWk0ySS1nVGlHMXViZWN2Vm1HcGNidVktRDBJaU5hQlBzNlpZMVlVeXQ0VnhQUnJ0ZmEzZ2trZXVkZm5DbFJPaG9EVkRMUXlBRmJKNTB5MmhCU2hZX0ltQzZXZ1RWa09kWmR1NllEUVE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Growing Hope: Community Gardens for Displaced Communities - BORGEN Magazine",
+        "source": "BORGEN Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWVQyR1FJbnQ2dDdkazFZUUZNQXJ3QzRVZGw0YlhwMjZMX2NHY3piemFXUEMwTmczbUpqX1ZqTGRqeDFkdVBpWVdCSzZOOWlHSlVhRHFoSlE3WHFtNld1UVNBRGtPUHVUXzl1cExMSGN2WXhqM0c4bjBjYkJlNEhwczNJTVB5REtTRjlOcmhyVmN4UQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Home Textiles - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Home Textiles Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "textiles",
+    "generated_at": "2026-07-08",
+    "l1_ref": "家居园艺"
+  }
 }

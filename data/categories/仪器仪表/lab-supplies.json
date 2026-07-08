@@ -22,8 +22,26 @@
     "实验室用品供应商",
     "实验室用品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "90",
+    "total_export_value_usd": 15210240,
+    "total_net_weight_kg": 4710240,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 76,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
     "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
@@ -35,5 +53,182 @@
   },
   "compliance_summary": "CE marking, ISO 17025 calibration, accuracy and precision standards, environmental testing (IP rating), EMC compliance.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "news_sentiment": {
+    "article_count": 2,
+    "sentiment": {
+      "overall": "neutral",
+      "positive_pct": 50.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 50.0,
+      "articles_analyzed": 2
+    },
+    "top_headlines": [
+      "World PCR Tubes - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+      "Income Tax Business Code: Income Tax Nature of Business Code List for AY 2024-25 - ClearTax"
+    ],
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNG5fWFBjRXFQSml4Z1VpX3VudjYyWHZoNXNkS3ZKY1hhM0t2bmg1QVJXb1RQYm4wQmJSWGVLS3gtcnNxZjc0dnQzRFYxVDljY1FTRkMzZ1BEMHZ3UThBS19vRmJFbUlEdkpDOVJEVXZJNGxHbWdiWkdhWnNGUU90N1doRzdRcGhEOFJ2Q1JlOEs0MWotSDZ5bWdLX3pwLVJiNHdhM1VhUTlNTmxBdUpubU5IU1M2OElCN291a1Q5X3ZvU2J3QUNrMmR1el8xWmp3bEhpOVlxMnRUT29O?oc=5",
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYk1Ebno5OW96VW54R2Q4dGEyNzRrZE9HbmpyZnA0dFBqUXVQYUp1THUzcUlVa2RGYUdMdjgxTllncUpCVVRWMjNncGtSOUZaR1lMSEI1ZUwyeUtSSjl2eA?oc=5"
+    ],
+    "fetched_at": "2026-07-08"
+  },
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "Caught between a rock and a hard place: Mapping your supply chain - Supply Chain Management Review",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1SLUVCMFZmVWpyRWJqOGxXWEgtZ2tfdUdvUGlfMDAtOGpCamtZS003WkE4bVJIc1N2MGdmN1liUmY2WHp2Nk42bmZJLXk0N0RSeEE3TXNjeXNEbmdWYnRrVVlKSnhBSjJCa0FDcmZoN3FuLTR0UEtHN2cwZjJsUQ?oc=5\" target=\"_blank\">Caught between a rock and a hard place: Mapping your supp",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SLUVCMFZmVWpyRWJqOGxXWEgtZ2tfdUdvUGlfMDAtOGpCamtZS003WkE4bVJIc1N2MGdmN1liUmY2WHp2Nk42bmZJLXk0N0RSeEE3TXNjeXNEbmdWYnRrVVlKSnhBSjJCa0FDcmZoN3FuLTR0UEtHN2cwZjJsUQ?oc=5",
+        "published": "Mon, 06 Jul 2026",
+        "source": "Supply Chain Management Review"
+      },
+      {
+        "title": "United States Lab Water Purification Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNejFQdGdnemFycTY1dmtmemlaaDQ5OHU2RWtNck9aTGw3WjJZWVlUak1ZNGpLNTZTdU40RWhsM0pCV1NUVVhuYkJLUGdvZEY4ZHJVa3JaaGVTSGNNU2wtQXJveWtyZXJ1b0I2cGZTWm5COVBSS3ZleDVXN3FPUDNEd04tRXM1WnktbWFEV0lzNWhHWktlZTBCdlVLSlpnSGNHM1JFaGlwNVJZek50UWlGQmU1SmFRR1czej",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNejFQdGdnemFycTY1dmtmemlaaDQ5OHU2RWtNck9aTGw3WjJZWVlUak1ZNGpLNTZTdU40RWhsM0pCV1NUVVhuYkJLUGdvZEY4ZHJVa3JaaGVTSGNNU2wtQXJveWtyZXJ1b0I2cGZTWm5COVBSS3ZleDVXN3FPUDNEd04tRXM1WnktbWFEV0lzNWhHWktlZTBCdlVLSlpnSGNHM1JFaGlwNVJZek50UWlGQmU1SmFRR1czejhKTEwyc2h5bm8?oc=5",
+        "published": "Wed, 08 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "United Kingdom Gallic Acid - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbW40QzgtTl94cDlxMnZ6QldocF9Rb0ZSai15UEh3TFloc2VnOXZ0ZGw1VkVfMVlQQldLRkpPSjFWeV9weXl0UEZpM3ljVUQ2SmxDbndVUkI0ZW1yS0NsOWNKTkl4VTZHVlRYRGppS0c0azgxOV9jaGF1LWVaU0E1d3VGeUVGVmJIRmpwdFRqWWE4V0tDcHhsSkhYbUw3UHpjTFZPeWJFUjhkbUE?oc=5\" target=\"_bla",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbW40QzgtTl94cDlxMnZ6QldocF9Rb0ZSai15UEh3TFloc2VnOXZ0ZGw1VkVfMVlQQldLRkpPSjFWeV9weXl0UEZpM3ljVUQ2SmxDbndVUkI0ZW1yS0NsOWNKTkl4VTZHVlRYRGppS0c0azgxOV9jaGF1LWVaU0E1d3VGeUVGVmJIRmpwdFRqWWE4V0tDcHhsSkhYbUw3UHpjTFZPeWJFUjhkbUE?oc=5",
+        "published": "Thu, 02 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "United Kingdom Syringeless Filters - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXF5MEV5MFlxbWtMOGRuVTlTaG5qWTd4TWZfTGRVeEZhd2hUQW14ZUMyZF9BRU9ieFo1MEpCMEpnZUhkaGtyV19MY2Iwb0EwV2N3UkhodWp3RjFYZ3FVdldqc0hWTWFyaEwtb1VKekk0UHBQd1YyeGJncjEzZThkVWsxVEQ2WWgzajI4YUthR3AwUUhjVDF6UjFEeUl4UFBpOGNHRXV6c3dzTDhmRUZzNTVReW9yZw?oc=",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXF5MEV5MFlxbWtMOGRuVTlTaG5qWTd4TWZfTGRVeEZhd2hUQW14ZUMyZF9BRU9ieFo1MEpCMEpnZUhkaGtyV19MY2Iwb0EwV2N3UkhodWp3RjFYZ3FVdldqc0hWTWFyaEwtb1VKekk0UHBQd1YyeGJncjEzZThkVWsxVEQ2WWgzajI4YUthR3AwUUhjVDF6UjFEeUl4UFBpOGNHRXV6c3dzTDhmRUZzNTVReW9yZw?oc=5",
+        "published": "Tue, 07 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Germany Pyruvic Acid - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWFEX05pOU9kTWVRTlhVT0FfejRjeFlOckJYdmw4bG5YdlJ1bkQxNktKRHJMRFpkZWxNaTJzOVZKZk9HU0VxdWlDNmxIVGpmcldUbUlZM1lDMldSbTd4UDRhOHM2LUVTc0RQbzJpRW5hM3lPUFJGZDMwNEg5T3hjSng3NXdaMHRKeWdfTzRfNERkekx1NEozV09EeG9vbm9ValE0?oc=5\" target=\"_blank\">Germany",
+        "country": "DE",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWFEX05pOU9kTWVRTlhVT0FfejRjeFlOckJYdmw4bG5YdlJ1bkQxNktKRHJMRFpkZWxNaTJzOVZKZk9HU0VxdWlDNmxIVGpmcldUbUlZM1lDMldSbTd4UDRhOHM2LUVTc0RQbzJpRW5hM3lPUFJGZDMwNEg5T3hjSng3NXdaMHRKeWdfTzRfNERkekx1NEozV09EeG9vbm9ValE0?oc=5",
+        "published": "Thu, 02 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Sweden Evaluation Kits - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQbHZ0RV9ndnBjZm42NGxHRHdDMEpaa0ZOb3hJcm0wRkRfSXBXWkNpajZReU9kbGF4OG4tN083V0EzdDNIajdnWmFfaDhyZzRNZEtVb1N4WlM2SnE1M1JfN2g1VG8yU1NsRFAtVUluZnRmWE5pZmZQTmtBYVhfWHcyeG94UmxBWTloUWpTb0FaODJnZS12S3gwcUUzNm9sU3hvclVJQ2pB?oc=5\" target=\"_blank\">Swe",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbHZ0RV9ndnBjZm42NGxHRHdDMEpaa0ZOb3hJcm0wRkRfSXBXWkNpajZReU9kbGF4OG4tN083V0EzdDNIajdnWmFfaDhyZzRNZEtVb1N4WlM2SnE1M1JfN2g1VG8yU1NsRFAtVUluZnRmWE5pZmZQTmtBYVhfWHcyeG94UmxBWTloUWpTb0FaODJnZS12S3gwcUUzNm9sU3hvclVJQ2pB?oc=5",
+        "published": "Wed, 08 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Canada Decapping System - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2doRVRFdG92RHV2QXIyZmlWeDU3c1lScEdtTG9LOWRnMkVrb3kwTnZsRHVHbXlMTDY0Tl9yOFR0cE8xSVYzbTZZa3RUTjJManFPN3dFdmwycXpxaDI3MkdDY3V0VnFFMm5uTERwQ2F4dS13YzRGRFJOYUZkeUhEd3UzVkQ1NVBWbEhOVWFnSl81aWdrVlRBZTdGQ1pKTko3ck14YWF4Yw?oc=5\" target=\"_blank\">C",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2doRVRFdG92RHV2QXIyZmlWeDU3c1lScEdtTG9LOWRnMkVrb3kwTnZsRHVHbXlMTDY0Tl9yOFR0cE8xSVYzbTZZa3RUTjJManFPN3dFdmwycXpxaDI3MkdDY3V0VnFFMm5uTERwQ2F4dS13YzRGRFJOYUZkeUhEd3UzVkQ1NVBWbEhOVWFnSl81aWdrVlRBZTdGQ1pKTko3ck14YWF4Yw?oc=5",
+        "published": "Wed, 08 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Monomaterial Packaging Market Forecast Points Higher Toward 2035, Driven by Pharma Sustainability Mandates - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaUNKMERnZVdoRFNEWFVHTVl6NUlRM3BUb1RIek0tYVNfdDZHN1ljb29ObE5BTXJGNVdJRkR0Wm5OaC1WUGdXOWtHdW83c1hfbWx5YklGMjNjMXNQV185NWk3UW1EMkRJUFBSZEdfeE5YcHd6eWNWQTN3UVZGZTdDOFdUZjZjc1ZOamNEM0Nhd3cyeWlFS2Z3REdLcWlfR3AxVXg4QVM3N1FyUEQwbVlmeHpwbnNYRG9oV0",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaUNKMERnZVdoRFNEWFVHTVl6NUlRM3BUb1RIek0tYVNfdDZHN1ljb29ObE5BTXJGNVdJRkR0Wm5OaC1WUGdXOWtHdW83c1hfbWx5YklGMjNjMXNQV185NWk3UW1EMkRJUFBSZEdfeE5YcHd6eWNWQTN3UVZGZTdDOFdUZjZjc1ZOamNEM0Nhd3cyeWlFS2Z3REdLcWlfR3AxVXg4QVM3N1FyUEQwbVlmeHpwbnNYRG9oV0FYMkd1QkZLWFZXdDg1MnVQWmxTMzEw?oc=5",
+        "published": "Thu, 02 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "United Kingdom Automatic Chemiluminescence Immunoassay System - Market Analysis, Forecast, Size, Trends and Insights - I",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVWNyOGt1OGw4Si1ERERrcnhXSWR0QkFUOTg5SWlLU09JdkdzbTRTSDRrUzBzMDBiR25HRERTaEtyV2Qydy1hRXZwN0t2SEtOblZ5VmRQLWE1VzNPOVNPNlF3aFNuRmJ5bVVEbzdsM1RMRXJDVF85ekZveU5FS1dRaERsQnk0YjhLSVBTTUMxdnhIQ2ZCeE1BblFkaDR1bXVjMC1qUFBIdlg0N2ZlY3ZKLTNkLXZuVXhOOW",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVWNyOGt1OGw4Si1ERERrcnhXSWR0QkFUOTg5SWlLU09JdkdzbTRTSDRrUzBzMDBiR25HRERTaEtyV2Qydy1hRXZwN0t2SEtOblZ5VmRQLWE1VzNPOVNPNlF3aFNuRmJ5bVVEbzdsM1RMRXJDVF85ekZveU5FS1dRaERsQnk0YjhLSVBTTUMxdnhIQ2ZCeE1BblFkaDR1bXVjMC1qUFBIdlg0N2ZlY3ZKLTNkLXZuVXhOOWhYT05KQXJSQW00Skg4T25SOFl4OXhaOU1QVGZPVmU4Zw?oc=5",
+        "published": "Mon, 06 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "United Kingdom Auto Biochemistry Analyzer - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPMFo1WlFDTmNFOE1aWVZEem0tNGlSa1BzcXFRQ0lmR2VFUGZ3QjVhOWJlZjRVZlJWQ1VMenBiRWIzX29CeXVNR3hxd2FHNXFIZ3pLY0NQeGpXT3RkVXh1SHhfRzdMUWs1Rzk3YVNQdFVTRXlGeWNXRlFUQUpEWW1LNU5EV2pSbnBBS0lXWW1sbzhDZWhDc083RjgxaDdwVjZMWFRpdWEya1NLLXRGTG1adGlMZTJpSngwSW",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMFo1WlFDTmNFOE1aWVZEem0tNGlSa1BzcXFRQ0lmR2VFUGZ3QjVhOWJlZjRVZlJWQ1VMenBiRWIzX29CeXVNR3hxd2FHNXFIZ3pLY0NQeGpXT3RkVXh1SHhfRzdMUWs1Rzk3YVNQdFVTRXlGeWNXRlFUQUpEWW1LNU5EV2pSbnBBS0lXWW1sbzhDZWhDc083RjgxaDdwVjZMWFRpdWEya1NLLXRGTG1adGlMZTJpSngwSWU3WFpnQQ?oc=5",
+        "published": "Wed, 08 Jul 2026",
+        "source": "IndexBox"
+      }
+    ],
+    "country_summary": {
+      "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "DE": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {}
+  }
 }

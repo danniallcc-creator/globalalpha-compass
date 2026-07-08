@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Energy Star/EU Energy Label, safety certifications (UL/CE/CCC), refrigerant regulations (F-gas, SNAP), EMC compliance, WEEE directive.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "洗衣设备：海外社媒「appliance factory tour」增速 249%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Europe wants to rebalance trade with...」。",
+    "product_profile": {
+      "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
+      "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
+      "工艺": "IMD 模内装饰 / 一体注塑 / IPX 防水 / 能效 A+++",
+      "色彩": "莫兰迪灰 / 奶油白 / 复古绿（Retro）",
+      "包装": "蜂窝纸护角 + 瓦楞箱 / EPE 珍珠棉 / 欧盟 WEEE 标识",
+      "技术趋势": "Matter 智能家居互联 / AI 场景识别 / 热泵烘干 / R290 环保冷媒"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 洗衣设备 出口需通过合规认证",
+      "海外社媒「appliance factory tour」增速 249% 领跑 → 洗衣设备社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "appliance factory tour",
+        "growth": 249.0,
+        "vol": "656K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "appliance supply chain",
+        "growth": 246.5,
+        "vol": "738K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "appliance review 2026",
+        "growth": 232.5,
+        "vol": "491K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 212.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance b2b export",
+        "growth": 185.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe wants to rebalance trade with Beijing, but can't quit Chinese air conditioners - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcVljc1RuWjhTTjBrMndia3FwMTZycXFKUWhnVGRjcmJJUnlJVWVtS2tWNlVLTzhqQXlDY1pCcTh5ZFZ3OTBha2dRalZEWjdMVkMwU21GdGkxNG80WFhuQXBxZEd4NWhtTkxweVFKcU94dVVrc3RtYnhjZDZweU9Ua29nZC1TTkREQzZhTnJ4dVdFbkVPOE5rRTJWQ0hmZkx5T2V2Q0J6TXRzUdIBrwFBVV95cUxONDFwSjdqWXJlUmhFSkxtU2RqUlhhVnZLVnJjU1pZMW42a1g4UzVDV0hpVjNXY1BreDNRWTFJMnllNGlSTGtFcjIwSjF3MkhmSFc3SUxxaUwwZ3VxU09mSnBJOHBDZHUzeERGaDVNejh6VUE5OXZfTk9XellOd0N0SWMwaXQ5b2EwOTF2ZWxkMmZoT0NSc2dseF9lSlAwMUVsYmxBU1BoVGluNnNwUXo0?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese air conditioners are in hot demand in Europe as heat wave sends temperatures soaring - NBC News",
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSG1sTXRxYXA1UDN3TXRuR3ZHSkh2bXlhcmh6UzRMcHZpdUt5QmlJTlpnNTNkRDhyNnJHR1AyTzNqcFFMa1FTVmd6aUpnOUFweFM3S1BpeXBYR2dkYS1rd1NwT1pyNlk1eG0ydUNOSGJTY3R6YTVISkVPdmtZZklMdDA4aEhXeEZySmFhRlFRYklDNHBtekI2Sk9ZLUE0LW5uQ01wbE5HalFvdDhNMEYtTw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Laundry Appliances - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Laundry Appliances Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "home_appliance",
+    "generated_at": "2026-07-08",
+    "l1_ref": "家用电器"
+  }
 }

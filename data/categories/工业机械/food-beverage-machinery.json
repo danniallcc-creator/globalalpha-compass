@@ -35,5 +35,96 @@
   },
   "compliance_summary": "CE marking, ISO certifications, Machinery Directive (2006/42/EC), pressure equipment directive (PED), ATEX for explosive atmospheres.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "食品饮料机械：海外社媒「industrial machinery viral」增速 246%，搜索端「industrial machinery wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」。",
+    "product_profile": {
+      "外观": "透明可视包装 / 极简日系 / 国风插画",
+      "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
+      "工艺": "低温冻干 / HPP 超高压杀菌 / 氮气锁鲜",
+      "色彩": "高饱和多巴胺 / 天然色系（抹茶绿/可可棕）",
+      "包装": "可降解 PLA / 铝箔自立袋 / FSC 纸盒",
+      "技术趋势": "功能性食品（NMN/胶原蛋白）/ 个性化订阅 / 碳足迹标签"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 食品饮料机械 出口需通过合规认证",
+      "欧盟 ATEX 防爆认证 → 工业 食品饮料机械 进入危险环境必备",
+      "海外社媒「industrial machinery viral」增速 246% 领跑 → 食品饮料机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery viral",
+        "growth": 246.5,
+        "vol": "750K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery industry report",
+        "growth": 224.5,
+        "vol": "760K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery new arrival",
+        "growth": 215.5,
+        "vol": "95K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 191.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 191.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese Export Flood Tests Europe’s Stomach for Trade War With Beijing - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnZyV0cwd05MejRzNDRKX3FpYVc4eTFLODhzNE1uZGY3aEhrXzFEc21EcVRHTEEwTTN0Z0hJamlvMnZCNXFzajRPTUpSbFVVYkc2ZXBvS3VuQ29mSklYZldncTR5V0dGVTJkaVo2VFd3MnNLUzhqNGZDU3daMzdFZzZhMVV3SG1KXzVXemxhZjJPT1RmcnJsb3NTRGU4NFpJMVdPNHlhSGt6T2dGYWdIV0tB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Food & Beverage Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Food & Beverage Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "food_beverage",
+    "generated_at": "2026-07-08",
+    "l1_ref": "工业机械"
+  }
 }

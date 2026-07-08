@@ -22,8 +22,26 @@
     "焊接配套用品供应商",
     "焊接配套用品工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "82",
+    "total_export_value_usd": 18608540,
+    "total_net_weight_kg": 8108540,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 58,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "DIY culture is strong in Western markets, driving demand for quality hand tools. Professional tradespeople prioritize durability and brand reputation. Regional preferences for tool types, sizes, and measurement systems (metric vs. imperial).",
     "consumer": "Professional users demand high-quality, durable tools with warranties. DIY enthusiasts seek value and versatility in multi-tools. Brand loyalty is strong in professional segments. Online reviews and YouTube demonstrations heavily influence purchasing decisions.",
@@ -35,5 +53,62 @@
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "policy_updates": {
+    "articles": [
+      {
+        "title": "Northern America Laser Soldering - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxObG5ialpvNkIyRVY3TjRZdVA2TERhcmtZMlhiWFBKa2xPb0U5dHBpeHVBLXhLSm5qeFdhOHlqcFNUQWU1SmMtMGhkanRpSVVKYU9jRzY5WXMzbFB6MzBsd08xeE9HNUNrOTZobVNNMklCOFRNWEFJM0VIdHV6VUJhT3NmNXNPcldzTXJzMWZQS2o0VGQtUnZNMEUyb3JHTFRuU2JrMGlTNDBTS3JsZEZQcWt3SQ?oc=5\" t",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObG5ialpvNkIyRVY3TjRZdVA2TERhcmtZMlhiWFBKa2xPb0U5dHBpeHVBLXhLSm5qeFdhOHlqcFNUQWU1SmMtMGhkanRpSVVKYU9jRzY5WXMzbFB6MzBsd08xeE9HNUNrOTZobVNNMklCOFRNWEFJM0VIdHV6VUJhT3NmNXNPcldzTXJzMWZQS2o0VGQtUnZNMEUyb3JHTFRuU2JrMGlTNDBTS3JsZEZQcWt3SQ?oc=5",
+        "published": "Tue, 07 Jul 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Turkey Industrial Welding Machines - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXA5N2ZIQ0ZuNDM1ZFhvQmhIV01UZzRfeHJBc0hhZGwwU1Via3IxNXkwOVRjem51TkNWUXE0RUwwbmNjbGlaQ2JhNWZzVXdXMkRWR1duZTZzLWluUTF6UEdZN0stWk1ScWRXMmQ5dE5JcWRKUHhTYVBsVWFjLVV6WUo2bVVIdVlDQTg2NWl6RU4xcWtUY0doOV9qZmZWdlBjYnRwaWRPY2RsVUZjQlRBMGl4RkJvZw?oc=",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXA5N2ZIQ0ZuNDM1ZFhvQmhIV01UZzRfeHJBc0hhZGwwU1Via3IxNXkwOVRjem51TkNWUXE0RUwwbmNjbGlaQ2JhNWZzVXdXMkRWR1duZTZzLWluUTF6UEdZN0stWk1ScWRXMmQ5dE5JcWRKUHhTYVBsVWFjLVV6WUo2bVVIdVlDQTg2NWl6RU4xcWtUY0doOV9qZmZWdlBjYnRwaWRPY2RsVUZjQlRBMGl4RkJvZw?oc=5",
+        "published": "Sun, 05 Jul 2026",
+        "source": "IndexBox"
+      }
+    ],
+    "country_summary": {
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      }
+    }
+  },
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 15268423409.555004,
+        "yoy": null,
+        "share": 56.4
+      },
+      "GB": {
+        "value_usd": 6422621255.686015,
+        "yoy": null,
+        "share": 23.7
+      },
+      "CA": {
+        "value_usd": 5365297537.955008,
+        "yoy": null,
+        "share": 19.8
+      }
+    }
+  }
 }

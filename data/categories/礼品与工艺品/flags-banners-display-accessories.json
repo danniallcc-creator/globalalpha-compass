@@ -35,5 +35,97 @@
   },
   "compliance_summary": "General product safety (GPSD), REACH compliance, CPSIA for children's products, material composition labeling, country of origin marking.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "旗帜，横幅&展示设备：海外社媒「craft must have」增速 252%，搜索端「gift wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Gifts Crafts market poised for growth...」。",
+    "product_profile": {
+      "外观": "精致礼盒 / 定制刻字 / 手工质感",
+      "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
+      "工艺": "手工浇注 / 激光雕刻 / 搪瓷彩绘",
+      "色彩": "节日红金 / 莫兰迪 / 季节限定",
+      "包装": "磁吸礼盒 / 丝带 / 贺卡定制",
+      "技术趋势": "POD 按需定制 / AR 互动贺卡 / NFT 数字收藏"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 旗帜，横幅&展示设备 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 旗帜，横幅&展示设备 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 旗帜，横幅&展示设备 通关",
+      "海外社媒「craft must have」增速 252% 领跑 → 旗帜，横幅&展示设备社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "craft must have",
+        "growth": 252.0,
+        "vol": "477K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "gift breaking",
+        "growth": 251.5,
+        "vol": "76K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "craft price trend",
+        "growth": 227.0,
+        "vol": "444K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "gift wholesale supplier",
+        "growth": 216.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "craft b2b export",
+        "growth": 205.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Gifts Crafts market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/gifts-crafts-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: gifts crafts sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/gifts-crafts-2026",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Flags, Banners & Display Accessories - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Flags, Banners & Display Accessories Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "gifts_crafts",
+    "generated_at": "2026-07-08",
+    "l1_ref": "礼品与工艺品"
+  }
 }

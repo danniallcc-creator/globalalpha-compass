@@ -22,8 +22,26 @@
     "谷物供应商",
     "谷物工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "10",
+    "total_export_value_usd": 15171855,
+    "total_net_weight_kg": 14671855,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 47,
+      "trend_direction": "stable",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Agricultural practices deeply rooted in local traditions and climate. Dietary preferences drive crop selection. Organic and biodynamic farming gaining prestige. Traditional knowledge combined with modern technology.",
     "consumer": "Food safety and traceability increasingly demanded by consumers. Organic premium pricing accepted in developed markets. Seasonal availability less relevant with global supply chains. Plant-based protein trends affecting crop demand.",
@@ -35,5 +53,92 @@
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 26695132214,
+      "total_kg": 1795132214,
+      "yoy_growth": 4,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 5072075120,
+        "yoy": 5,
+        "share": 19.0
+      },
+      "DE": {
+        "value_usd": 4885209195,
+        "yoy": -2,
+        "share": 18.3
+      },
+      "JP": {
+        "value_usd": 4698343269,
+        "yoy": 31,
+        "share": 17.6
+      },
+      "GB": {
+        "value_usd": 4511477344,
+        "yoy": -10,
+        "share": 16.9
+      },
+      "KR": {
+        "value_usd": 4324611418,
+        "yoy": 14,
+        "share": 16.2
+      },
+      "AU": {
+        "value_usd": 3203415865,
+        "yoy": 22,
+        "share": 12.000000000000004
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": -14,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 3,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 12,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -11,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 25,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 39,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 19,
+        "share": 0.1
+      }
+    }
+  }
 }

@@ -35,5 +35,95 @@
   },
   "compliance_summary": "ANSI/ISEA standards, CE marking, EN ISO standards, product certification and third-party testing, quality management systems.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "消防用品：海外社媒「ppe aesthetic」增速 246%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
+    "product_profile": {
+      "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
+      "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
+      "工艺": "IP67 防水 / 防爆认证 / 阻燃 V0",
+      "色彩": "安全黄 / 警示橙 / 反光银",
+      "包装": "开窗彩盒 / 防静电袋 / CE 标识",
+      "技术趋势": "AI 视频分析 / 智能 PPE 传感器 / 生物识别门禁"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 消防用品 出口需通过合规认证",
+      "海外社媒「ppe aesthetic」增速 246% 领跑 → 消防用品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "ppe aesthetic",
+        "growth": 246.0,
+        "vol": "591K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "safety gear review 2026",
+        "growth": 239.5,
+        "vol": "521K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "safety gear supply chain",
+        "growth": 239.5,
+        "vol": "28K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ppe b2b export",
+        "growth": 224.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "safety gear wholesale supplier",
+        "growth": 131.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Disease at the border, trade uncertainty and a strained safety net - National Hog Farmer",
+        "source": "National Hog Farmer",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaTM5STZDR1BNN3VCVmVFUWt5Q1B6Tmx6OVpscWlFZ2JUZ0lEdkZxLTRBaEhUNWlkczBaMERPb3JoeFdBZGxyVFpoZGp6d2RSZVprMGZHaVAwTzU0V0VETW9JbW15RWh1UmNOSFkzSEIzdXBmbjdjb1dtYTh1V3l5RGhnU3dVeTZmMlhoOHIyUmJ6dEI5Z2Vzd3MxZ0c0R2N1NHJBLVpFZGNJSDZuOXBCZzctMVhuaDA?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Firefighting Supplies - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Firefighting Supplies Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "security_safety",
+    "generated_at": "2026-07-08",
+    "l1_ref": "安全用品"
+  }
 }

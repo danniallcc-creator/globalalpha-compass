@@ -22,8 +22,26 @@
     "提取物供应商",
     "提取物工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "13",
+    "total_export_value_usd": 49470913,
+    "total_net_weight_kg": 18970913,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 76,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
     "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
@@ -35,5 +53,92 @@
   },
   "compliance_summary": "FDA compliance for dietary supplements (21 CFR 111), GMP certification, health claims regulations, CE marking for health devices, product safety testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 32460198964,
+      "total_kg": 1560198964,
+      "yoy_growth": -6,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 6167437803,
+        "yoy": -9,
+        "share": 19.0
+      },
+      "DE": {
+        "value_usd": 5940216410,
+        "yoy": 15,
+        "share": 18.3
+      },
+      "JP": {
+        "value_usd": 5712995017,
+        "yoy": 7,
+        "share": 17.6
+      },
+      "GB": {
+        "value_usd": 5485773624,
+        "yoy": 20,
+        "share": 16.9
+      },
+      "KR": {
+        "value_usd": 5258552232,
+        "yoy": 30,
+        "share": 16.2
+      },
+      "AU": {
+        "value_usd": 3895223875,
+        "yoy": -16,
+        "share": 12.000000000000004
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 23,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": -20,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 6,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -3,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 19,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 27,
+        "share": 0.1
+      }
+    }
+  }
 }

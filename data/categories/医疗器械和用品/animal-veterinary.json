@@ -35,5 +35,97 @@
   },
   "compliance_summary": "FDA 510(k) clearance, CE MDR certification, ISO 13485 quality management, clinical evaluation, post-market surveillance.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "兽用医疗产品：海外社媒「medical device #fyp」增速 252%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，India Briefing关注「India’s MedTech Localization Push:...」。",
+    "product_profile": {
+      "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
+      "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
+      "工艺": "洁净室装配 / EO 灭菌 / ISO 13485 体系",
+      "色彩": "医疗白 / 淡蓝 / 浅绿（手术室专用）",
+      "包装": "灭菌 Tyvek 袋 / 双层无菌包 / UDI 追溯标签",
+      "技术趋势": "AI 辅助诊断 / 可穿戴监测 / 3D 打印植入物 / 远程医疗"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 兽用医疗产品 出口需通过合规认证",
+      "美国 FDA 注册要求 → 兽用医疗产品 进入北美市场必备门槛",
+      "ISO 13485 医疗器械质量体系 → 兽用医疗产品 全球市场准入",
+      "海外社媒「medical device #fyp」增速 252% 领跑 → 兽用医疗产品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "medical device #fyp",
+        "growth": 252.5,
+        "vol": "476K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "medical device tiktok made me buy",
+        "growth": 248.5,
+        "vol": "79K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "medical device analyst",
+        "growth": 241.5,
+        "vol": "191K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device market 2026",
+        "growth": 223.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "healthcare equipment b2b export",
+        "growth": 203.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India’s MedTech Localization Push: Market Entry Opportunities for Medical Device Manufacturers and Investors - India Briefing",
+        "source": "India Briefing",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMEFQWTM2NS1sd3VIcFIzeXdFTWVsNmFXT0lrbGhPc3Rrdkt0RGtMcEVWOG1zVXFGNXExbW1XREUtemVwbUtvbmhLZDRhZEZXNHlWS2NCM3VDbkxnS3U0ZTFKZHYyLS1yUkdTUWktSnphNlBqYndyZzRybC1CWThxbS1TS3ZYa3BhVUl2dEdsQVh1RlhtMUxaZnpZVXdKaU1JcmxyUC1zcVVVTjVSZEFNME5NTQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "An Overview of U.S.-China Life Sciences Competition and Cooperation - Asia Society",
+        "source": "Asia Society",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbG9GTGVRbFpFb2VESy1hbzBuMVRVVjR5RExLWUhTaUl3QkxJdXpkdERUTEExMVdQbkJ6dnJQYlZFRkFkR3RrY2JCcVpTS21aWS1zSjU2U0pQTHhJM1RQRUt4aGhpazl1X0NZVG1XNXkzc0RzQ2RFSklWYWhUVUdMNlpBcnV4U1JvOTlQNHF4SDlYeUNZZ0FvLTZ0RGFUNEhfemc?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Animal & Veterinary - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Animal & Veterinary Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "medical_devices",
+    "generated_at": "2026-07-08",
+    "l1_ref": "医疗器械和用品"
+  }
 }

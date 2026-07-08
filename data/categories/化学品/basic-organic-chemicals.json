@@ -22,8 +22,26 @@
     "基本有机原料供应商",
     "基本有机原料工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "29",
+    "total_export_value_usd": 50622893,
+    "total_net_weight_kg": 20122893,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 54,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Chemical industry standards and regulations vary significantly by market. Responsible care and stewardship increasingly expected. Technical expertise required for safe handling and application. Regional chemical manufacturing clusters.",
     "consumer": "B2B purchasing with technical specification requirements. Safety data sheets (SDS) mandatory. Regulatory compliance (REACH, TSCA) is a prerequisite. Long-term supply contracts common.",
@@ -35,5 +53,92 @@
   },
   "compliance_summary": "REACH registration (EU), TSCA compliance (US), GHS labeling, SDS requirements, transport regulations (ADR/IMDG/IATA).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 14382778844,
+      "total_kg": 1482778844,
+      "yoy_growth": -6,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 3451866922,
+        "yoy": 30,
+        "share": 24.0
+      },
+      "DE": {
+        "value_usd": 3322421912,
+        "yoy": 34,
+        "share": 23.1
+      },
+      "JP": {
+        "value_usd": 3178594124,
+        "yoy": 30,
+        "share": 22.1
+      },
+      "GB": {
+        "value_usd": 3034766336,
+        "yoy": 11,
+        "share": 21.1
+      },
+      "KR": {
+        "value_usd": 1395129547,
+        "yoy": -1,
+        "share": 9.699999999999996
+      },
+      "AU": {
+        "value_usd": 0,
+        "yoy": -11,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": -12,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 38,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 25,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": -5,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -17,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -16,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -17,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 7,
+        "share": 0.1
+      }
+    }
+  }
 }

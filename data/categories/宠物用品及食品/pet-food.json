@@ -35,5 +35,96 @@
   },
   "compliance_summary": "AAFCO standards (pet food), FDA compliance, CE marking for pet products, safety testing, ingredient and nutritional labeling.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 217%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-46，Pet Food Processing关注「Looking at Trump’s trade agenda - Pet...」。",
+    "product_profile": {
+      "外观": "可爱萌系 / 人宠同款 / 模块化",
+      "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
+      "工艺": "注塑一体 / 食品级灌装 / 防泼水设计",
+      "色彩": "马卡龙粉 / 薄荷绿 / 奶茶色",
+      "包装": "自立铝箔袋 / 可重复封口 / 再生纸盒",
+      "技术趋势": "智能喂食器 / 宠物健康项圈 / 冻干主粮"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
+      "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
+      "海外社媒「pet food industry news」增速 217% 领跑 → 宠物食品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet food industry news",
+        "growth": 217.0,
+        "vol": "443K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 170.0,
+        "vol": "620K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "pet food b2b export",
+        "growth": 168.0,
+        "vol": "61K",
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "pet food b2b export",
+        "growth": 165.0,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "pet market 2026",
+        "growth": 190.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Looking at Trump’s trade agenda - Pet Food Processing",
+        "source": "Pet Food Processing",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONm1zdFNCSXNPY2tYQ2dQMXJzX2NPQXo1TkVxdjY1Vl9KNVhFMldOTGFvX3NJQjhCSG94WjR0Smx5Q19zNi1xcG5LRUVqb21QRzllWVJNVExwVDliQkFfenRBRVJWZExpbjVNaVhwMTBhaWM1cUhqZ3hrNXR5S1lubHpzZjVHQQ?oc=5",
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Infographic: US pet food exports to Australia and New Zealand grew in 2025 - PetfoodIndustry",
+        "source": "PetfoodIndustry",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLVU4NzZMZkJaRkpnM1pBcVJRNzdrckFfX1FfV2VObnRPNkFsOXpkR3ZfeVlKdmU5eE1mSGJxYUc4VWNYeEdiWS1oUU5EcERodGJGU1VCZFFucHd5UFNkRUg2SFpiNnJVY1VaQi1JMG5FVTk2bGhiXzhaZDlpSW5WaUkwVTdFZmx0LVVjZFROcDA4ay15MXFLRzRGS1RDVzFnSF84VERqNmoyUTQ2elFLUDZBd2JOOFhqQjZaejNWenE1cWNiaVU3QVl3a1pPTjJQTXc?oc=5",
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "SA",
+        "rank": 46,
+        "title": "Top pet - Compact Edition",
+        "price": "$200.8",
+        "rating": 4.6,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 37,
+        "title": "Top pet - Premium Edition",
+        "price": "$196.0",
+        "rating": 4.6,
+        "hits": 0
+      }
+    ],
+    "domain": "pet_products",
+    "generated_at": "2026-07-08",
+    "l1_ref": "宠物用品及食品"
+  }
 }

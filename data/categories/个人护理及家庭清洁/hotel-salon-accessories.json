@@ -22,8 +22,26 @@
     "酒店用品及沙龙配件供应商",
     "酒店用品及沙龙配件工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "34",
+    "total_export_value_usd": 39043753,
+    "total_net_weight_kg": 8543753,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 61,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Beauty standards and personal care routines vary by region. K-beauty and J-beauty trends influence global markets. Natural and organic ingredients are increasingly preferred across cultures. Traditional herbal ingredients gaining renewed interest in Asian markets.",
     "consumer": "Premiumization trend with consumers willing to pay more for quality. Demand for dermatologist-tested and hypoallergenic products. Subscription models gaining traction for replenishable items. Multi-functional products appeal to time-pressed consumers.",
@@ -35,5 +53,55 @@
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "US": {
+        "value_usd": 1667357613.0,
+        "yoy": -12.1,
+        "share": 12.0
+      },
+      "DE": {
+        "value_usd": 4167886467.4719954,
+        "yoy": -2.7,
+        "share": 30.0
+      },
+      "JP": {
+        "value_usd": 1683303551.453,
+        "yoy": 2.8,
+        "share": 12.1
+      },
+      "GB": {
+        "value_usd": 3374211388.828002,
+        "yoy": 26.2,
+        "share": 24.3
+      },
+      "KR": {
+        "value_usd": 769804434.0,
+        "yoy": null,
+        "share": 5.5
+      },
+      "IT": {
+        "value_usd": 267330441.736,
+        "yoy": null,
+        "share": 1.9
+      },
+      "NL": {
+        "value_usd": 195184675.40499997,
+        "yoy": null,
+        "share": 1.4
+      },
+      "CA": {
+        "value_usd": 1458850337.3139987,
+        "yoy": 23.6,
+        "share": 10.5
+      },
+      "MX": {
+        "value_usd": 294081804.0,
+        "yoy": null,
+        "share": 2.1
+      }
+    }
+  }
 }

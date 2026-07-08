@@ -23,7 +23,15 @@
     "多式联运工厂"
   ],
   "export_data": null,
-  "global_trends": null,
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 49,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Cultural preferences and regional variations significantly influence product demand and specifications. Local customs, traditions, and regulatory environments shape market requirements. Globalization is creating convergence in some preferences while local differentiation remains a competitive advantage.",
     "consumer": "Quality, value, and reliability are key purchasing drivers across markets. Online research, reviews, and comparison heavily influence decisions. Brand reputation, certifications, and trust matter. Convenience, availability, and after-sales support affect purchasing behavior.",
@@ -35,5 +43,95 @@
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "多式联运：海外社媒「shipping viral」增速 246%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，Maersk关注「Maersk Asia Pacific Monthly Market...」。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
+      "海外社媒「shipping viral」增速 246% 领跑 → 多式联运社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "shipping viral",
+        "growth": 245.5,
+        "vol": "486K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "logistics #fyp",
+        "growth": 226.5,
+        "vol": "13K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "freight industry report",
+        "growth": 210.5,
+        "vol": "241K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "shipping wholesale supplier",
+        "growth": 88.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "cross-border logistics export opportunity emerging markets",
+        "growth": 84,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Maersk Asia Pacific Monthly Market Update – July 2026 - Maersk",
+        "source": "Maersk",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdHQzZDhYQjZueDVzcHBNbjlmVnIyQVdFZ2p5eWFTVU9kb2psR19xOGpYRkFLbWdDWkJIVThtbDVEcWczNWtCU0RCdmVVSlZlbGw2Rm13dW9YaTdjRmlDaG9lMU9TQ09Qc1RhaUI0RlFhNTVybjBqLXZlZkxzZlNjNHFqTGJkZG1GQmJlaTJldw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Rail Logistics Market Size, Share & Analysis, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4T2NxTFZ6aWJFT2NGeHcxLWpXV0cxNkVDeUtOOVJtQVQwNjM5aFk1MXlvd1hzbVlrTWxNVHBmbG5ubXdQXzdUMEZHcHlkbjhOQlFwR2hld0E5aTk4ZzNaTlhiSm1uaTZHT0NpbmZvcm9GMF9QbXhJ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Multi Transport - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Multi Transport Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-07-08",
+    "l1_ref": "买家物流市场"
+  }
 }

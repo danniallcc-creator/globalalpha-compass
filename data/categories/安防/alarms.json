@@ -35,5 +35,95 @@
   },
   "compliance_summary": "CE marking, UL certification, EN 50131 (alarm systems), EN 62676 (video surveillance), cybersecurity standards (IEC 62443).",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "警报器：海外社媒「security camera #trending」增速 256%，搜索端「security camera wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China targets US rare earth and other...」。",
+    "product_profile": {
+      "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
+      "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
+      "工艺": "IP67 防水 / 防爆认证 / 阻燃 V0",
+      "色彩": "安全黄 / 警示橙 / 反光银",
+      "包装": "开窗彩盒 / 防静电袋 / CE 标识",
+      "技术趋势": "AI 视频分析 / 智能 PPE 传感器 / 生物识别门禁"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 警报器 出口需通过合规认证",
+      "海外社媒「security camera #trending」增速 256% 领跑 → 警报器社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "security camera #trending",
+        "growth": 256.5,
+        "vol": "364K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "security camera industry report",
+        "growth": 249.5,
+        "vol": "445K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cctv price trend",
+        "growth": 247.0,
+        "vol": "565K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "security camera wholesale supplier",
+        "growth": 178.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cctv b2b export",
+        "growth": 134.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China targets US rare earth and other firms with export controls - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "From trade talks to seafarers' security in the Middle East: Foreign Secretary Misri details PM Modi's Fra - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMmE2VWFaQnV6NjlCWkRSeGlwWEM4ZXNReGxLc1lqTEJOeXN1ZXRTMi1KRzlsX3Z2bmpsUFNOMjFLVjI3alBIdUtxVkRyWWdjQWE0bzRBeTZZb2hwNEtub0d2c2xKVnh4VmVFNjAwWURscV85WVpvTnpldTNUYkdtMVpwclBGS0h0X29MaXBTSkJ5V0xtVW1PUVRRQVdPV2swZmJsNHc4VWdsbUJBcWpVa1dPVllqUWxmNXBlampFT201UGN3RHJxYVF4WGdCNU9TeGZ6UHhMR205UkdJODZuZHNnejVVTkUyQlNZbFhfVmtEeDdrd195eTIyc2N1TE16alNfZHVJUUkxQ2vSAZACQVVfeXFMUC1Bc2l3M1RYdXhHay1lR0xtVWlLUGlnRzJEVEhKaEdVQzdrRVNlMGwxbXVCbmc4dmkyajhFM0IwVGdseEU5YUFKZVE1bDNXeGdhMi1pLVAtQjQxREF1SzllWloycDl3OExzLVFMQTY3VW12QWk0bUJWdjhoMm0zeWxiazh1b29BUnhZU1U2dkRCTnp3bTBIUFJOTGxqbi1jT3p0cjZBb2o0QmxoTmxGMEs5ZzdqWFNzOEJKa29LZFhBajhtNDQzQ25kd1VmVWNyX2tGZDQ2dXZOTEpEU2VCR1lkazdQTzNpRVVfcFVmRzFCSW1FSmJhc1RsY1pTSVFQNzBfTlVrSEZpQWpFSGxTYVI?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Alarms - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Alarms Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "security_safety",
+    "generated_at": "2026-07-08",
+    "l1_ref": "安防"
+  }
 }

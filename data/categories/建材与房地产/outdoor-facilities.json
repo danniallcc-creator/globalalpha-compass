@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Building code compliance, ASTM/EN standards, fire safety ratings, environmental certifications (LEED, BREEAM), structural testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "户外设施类：海外社媒「building wholesale supplier」增速 246%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Time Magazine关注「U.S. Declines to Renew Trade Pact With...」。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 户外设施类 出口需通过合规认证",
+      "海外社媒「building wholesale supplier」增速 246% 领跑 → 户外设施类社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building wholesale supplier",
+        "growth": 246.5,
+        "vol": "59K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cement price trend",
+        "growth": 244.0,
+        "vol": "705K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 240.5,
+        "vol": "407K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building wholesale supplier",
+        "growth": 243.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 127.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. Declines to Renew Trade Pact With Mexico And Canada. Here's What It Means for Each Country - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbkpIREo4NF9PaDgtNTI2am1yQUJ3TF9BXzI5aUdqVXRyMkYyZ1FoNTJXWTZCcEV0ZllSWUx6SklnRXJSWGtFbkNLY3RmM3NYZmZoeVVlRzNaUWNySTVhY3Jyb3F6UmZsLUZDWl9kUUtKNTNzVl8yQk1CMjVUXzljbVRFTHN0VERJSEIyUmxheGtNUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China targets US rare earth and other firms with export controls - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Outdoor Facilities - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Outdoor Facilities Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-07-08",
+    "l1_ref": "建材与房地产"
+  }
 }

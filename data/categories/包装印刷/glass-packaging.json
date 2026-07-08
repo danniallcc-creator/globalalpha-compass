@@ -22,8 +22,26 @@
     "玻璃包装供应商",
     "玻璃包装工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "70",
+    "total_export_value_usd": 18164046,
+    "total_net_weight_kg": 17664046,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 64,
+      "trend_direction": "up",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "Packaging design aesthetics vary by market (minimalist in Japan, bold in US). Cultural color associations important (red/gold in China, green for eco). Luxury packaging expectations differ by region.",
     "consumer": "Unboxing experience increasingly important for e-commerce. Sustainable packaging strongly preferred by consumers. Convenience features (resealable, easy-open) valued. Clear labeling and information required.",
@@ -35,5 +53,27 @@
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": {
+      "total_usd": 32116417664.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 8267212323.771993,
+        "yoy": null,
+        "share": 79.3
+      },
+      "KR": {
+        "value_usd": 2164174289.0,
+        "yoy": null,
+        "share": 20.7
+      }
+    }
+  }
 }

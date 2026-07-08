@@ -35,5 +35,96 @@
   },
   "compliance_summary": "CE marking, ISO certifications, Machinery Directive (2006/42/EC), pressure equipment directive (PED), ATEX for explosive atmospheres.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "金属及冶金机械：海外社媒「industrial machinery viral」增速 246%，搜索端「industrial machinery wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」。",
+    "product_profile": {
+      "外观": "工业标准卷材/板材/棒材 / 定制切割",
+      "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
+      "工艺": "热轧 / 冷轧 / 电解 / 粉末冶金",
+      "色彩": "金属原色 / 阳极氧化彩色",
+      "包装": "木托盘 + 钢带 / 防锈 VCI 膜 / 海运木箱",
+      "技术趋势": "CBAM 碳边境税驱动绿钢 / 氢能直接还原 / 再生金属溯源"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 金属及冶金机械 出口需通过合规认证",
+      "欧盟 ATEX 防爆认证 → 工业 金属及冶金机械 进入危险环境必备",
+      "海外社媒「industrial machinery viral」增速 246% 领跑 → 金属及冶金机械社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery viral",
+        "growth": 246.5,
+        "vol": "750K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery industry report",
+        "growth": 224.5,
+        "vol": "760K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial machinery new arrival",
+        "growth": 215.5,
+        "vol": "95K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 191.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 191.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese Export Flood Tests Europe’s Stomach for Trade War With Beijing - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnZyV0cwd05MejRzNDRKX3FpYVc4eTFLODhzNE1uZGY3aEhrXzFEc21EcVRHTEEwTTN0Z0hJamlvMnZCNXFzajRPTUpSbFVVYkc2ZXBvS3VuQ29mSklYZldncTR5V0dGVTJkaVo2VFd3MnNLUzhqNGZDU3daMzdFZzZhMVV3SG1KXzVXemxhZjJPT1RmcnJsb3NTRGU4NFpJMVdPNHlhSGt6T2dGYWdIV0tB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Metal & Metallurgy Machinery - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Metal & Metallurgy Machinery Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "metals",
+    "generated_at": "2026-07-08",
+    "l1_ref": "工业机械"
+  }
 }

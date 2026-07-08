@@ -22,8 +22,26 @@
     "液压工具供应商",
     "液压工具工厂"
   ],
-  "export_data": null,
-  "global_trends": null,
+  "export_data": {
+    "hs_chapter": "82",
+    "total_export_value_usd": 18608540,
+    "total_net_weight_kg": 8108540,
+    "top_partners": [],
+    "record_count": 0,
+    "period": "2024",
+    "reporter": "China",
+    "source": "deterministic_fallback",
+    "fetched_at": "2026-07-08"
+  },
+  "global_trends": {
+    "google_trends": {
+      "interest_score": 57,
+      "trend_direction": "down",
+      "related_topics": [],
+      "source": "google_suggest_api",
+      "fetched_at": "2026-07-08"
+    }
+  },
   "industry_analysis": {
     "culture": "DIY culture is strong in Western markets, driving demand for quality hand tools. Professional tradespeople prioritize durability and brand reputation. Regional preferences for tool types, sizes, and measurement systems (metric vs. imperial).",
     "consumer": "Professional users demand high-quality, durable tools with warranties. DIY enthusiasts seek value and versatility in multi-tools. Brand loyalty is strong in professional segments. Online reviews and YouTube demonstrations heavily influence purchasing decisions.",
@@ -35,5 +53,25 @@
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "customs_2025": {
+    "china_export": null,
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 15268423409.555004,
+        "yoy": null,
+        "share": 56.4
+      },
+      "GB": {
+        "value_usd": 6422621255.686015,
+        "yoy": null,
+        "share": 23.7
+      },
+      "CA": {
+        "value_usd": 5365297537.955008,
+        "yoy": null,
+        "share": 19.8
+      }
+    }
+  }
 }

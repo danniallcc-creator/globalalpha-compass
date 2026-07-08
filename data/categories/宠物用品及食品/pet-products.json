@@ -35,5 +35,96 @@
   },
   "compliance_summary": "AAFCO standards (pet food), FDA compliance, CE marking for pet products, safety testing, ingredient and nutritional labeling.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "宠物用品：海外社媒「pet viral」增速 240%，搜索端「pet products supply chain resilience」热度上行，UK Amazon BSR Top-49，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
+    "product_profile": {
+      "外观": "可爱萌系 / 人宠同款 / 模块化",
+      "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
+      "工艺": "注塑一体 / 食品级灌装 / 防泼水设计",
+      "色彩": "马卡龙粉 / 薄荷绿 / 奶茶色",
+      "包装": "自立铝箔袋 / 可重复封口 / 再生纸盒",
+      "技术趋势": "智能喂食器 / 宠物健康项圈 / 冻干主粮"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
+      "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
+      "海外社媒「pet viral」增速 240% 领跑 → 宠物用品社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet viral",
+        "growth": 240.5,
+        "vol": "72K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet tiktok made me buy",
+        "growth": 233.5,
+        "vol": "145K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet breaking",
+        "growth": 232.5,
+        "vol": "512K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 94,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products market trend 2026",
+        "growth": 79,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
+        "source": "Kansas Reflector",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQzhXdUp3TFh6U1NFS3c0X2d5U0RWTEh6OE1ZMjU1UE43c3JvWnFKXzRWRGxiZUh1bEZWQWpDWF9GbkVCSzAtTm5PdDUxU2lqc3Y3NzBJd2Z5djc2em9DNkVyVk5YT1pPcUJkbW5hcFpxTUkzOWZpZXF5ang0ajFTdUZWa19pV0hqYWxFUlJ5cFBnZHJETEIwaGtISC0yQWpFSVZldUFQUUlXcUpXWXBOSWQyV3FEWmRoQkdzM0Fn?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - USDA (.gov)",
+        "source": "USDA (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 49,
+        "title": "Top pet food - Smart Edition",
+        "price": "$19.1",
+        "rating": 4.5,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "SA",
+        "rank": 46,
+        "title": "Top pet - Compact Edition",
+        "price": "$200.8",
+        "rating": 4.6,
+        "hits": 2
+      }
+    ],
+    "domain": "pet_products",
+    "generated_at": "2026-07-08",
+    "l1_ref": "宠物用品及食品"
+  }
 }

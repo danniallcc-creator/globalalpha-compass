@@ -35,5 +35,95 @@
   },
   "compliance_summary": "Building code compliance, ASTM/EN standards, fire safety ratings, environmental certifications (LEED, BREEAM), structural testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "墙纸/墙板：海外社媒「building wholesale supplier」增速 246%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Time Magazine关注「U.S. Declines to Renew Trade Pact With...」。",
+    "product_profile": {
+      "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
+      "成分": "再生纸浆 / 大豆油墨 / 水性光油",
+      "工艺": "数码短版印刷 / 烫金 UV / 模切压痕",
+      "色彩": "四色 CMYK / Pantone 专色 / 金属色",
+      "包装": "托盘 + 缠绕膜 / 平装发货",
+      "技术趋势": "可降解材料 / 智能标签（NFC/RFID）/ 按需印刷"
+    },
+    "reasons": [
+      "欧盟 CE 标志强制准入 → 墙纸/墙板 出口需通过合规认证",
+      "海外社媒「building wholesale supplier」增速 246% 领跑 → 墙纸/墙板社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building wholesale supplier",
+        "growth": 246.5,
+        "vol": "59K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cement price trend",
+        "growth": 244.0,
+        "vol": "705K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 240.5,
+        "vol": "407K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building wholesale supplier",
+        "growth": 243.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 127.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. Declines to Renew Trade Pact With Mexico And Canada. Here's What It Means for Each Country - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbkpIREo4NF9PaDgtNTI2am1yQUJ3TF9BXzI5aUdqVXRyMkYyZ1FoNTJXWTZCcEV0ZllSWUx6SklnRXJSWGtFbkNLY3RmM3NYZmZoeVVlRzNaUWNySTVhY3Jyb3F6UmZsLUZDWl9kUUtKNTNzVl8yQk1CMjVUXzljbVRFTHN0VERJSEIyUmxheGtNUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China targets US rare earth and other firms with export controls - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaTFRNGkzaENWU2dUd0hseGlKUjVhT0NlVVAwRUVlcFRPQW5BdEZhWVdwSFQ0ZGJaaTlYcXFScEdkUGFRcWdyUFpyZHhVU1dCdzE0bUk3RHQwdU5TVnZGa25IUGN1X01qRXo4SU9Nd2hKT0pEYVJNM1VLdXdaaHdrSHh6R2MySFp1RTdwc3YxUC1mN2ZrbVBLYkg2LUg1N3BOZk84TGRDX2NQcWM3M1BOSlc0eFZZZw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Wallpapers/Wall panels - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Wallpapers/Wall panels Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "packaging_printing",
+    "generated_at": "2026-07-08",
+    "l1_ref": "建材与房地产"
+  }
 }

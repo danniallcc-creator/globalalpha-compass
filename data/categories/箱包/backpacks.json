@@ -35,5 +35,97 @@
   },
   "compliance_summary": "REACH compliance, Prop 65 (California), product safety testing, material composition labeling, hardware durability testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "背包：海外社媒「backpack must try」增速 248%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，thenationalnews.com关注「Adnoc sets up global LNG trading...」。",
+    "product_profile": {
+      "外观": "极简通勤风 / 多功能模块化 / 可折叠",
+      "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
+      "工艺": "热压无缝 / YKK 防水拉链 / TSA 海关锁",
+      "色彩": "经典黑 / 沙漠卡其 / 莫兰迪奶茶",
+      "包装": "防尘布袋 / 再生纸盒 / 无塑料填充",
+      "技术趋势": "智能旅行箱（GPS/USB/电子秤）/ 数字锁 NFC"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 背包 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 背包 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 背包 通关",
+      "海外社媒「backpack must try」增速 248% 领跑 → 背包社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "backpack must try",
+        "growth": 248.5,
+        "vol": "452K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "backpack viral hack",
+        "growth": 243.0,
+        "vol": "303K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "luggage market 2026",
+        "growth": 220.5,
+        "vol": "540K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 217.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "bag wholesale supplier",
+        "growth": 182.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Adnoc sets up global LNG trading platform to boost gas exports - thenationalnews.com",
+        "source": "thenationalnews.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmFuSkkwdkNsdjZZc2RZOVNnS3h6TXNsZmRKZmhRb3JycUdMUVdyVDVnWFlnQkZST05OWGEtNGVfQlVRU252SlRiV0NKYnRwcW40a0llaHd6YkZUeFJTM3JnSFhTNldJZWJ6bE80N3pnNmtPYWQ3azBzT2ZiY0hSSk04d2FTY1RHMnBqZk9LMWlObW93MFZZc2ZCa1k3cjIzWWpQSl84TzF6MkRfdTdkbGlJeHFUQm5UOHl3QWpsUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India sets $1 trillion export goal for FY26 as merchandise, services trade rise - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRE1RbDF5MEVJQlpYR1dvRUFkWVhaMm9KLVJOdUNCbjZwNzA2Y2xnNkdnSk9FQnpWZ1VJUmtTZTBtMjhBMThTczU2TldXd3VJamlqSXlvWllVYkN1MHJwRzR6UkZhMGpMMjNtQXFJQ2tubjBvNkJTLVdWQmZydjJXZHFyWmJnRnAzMjJHRUl3NVNyeEx6Qkl4cGJ5T3pPeWxJcUMtdVk1dzlyVU1UT245Q3ljVi1lNmt1dC1hMzJyNURkN1hkck5Hd21VSnFxZmo4cURWOEVWNGR4aEhFSURfeGFRdVNTSXRENVlnWGc2SG1CSlFVeUHSAfsBQVVfeXFMUGhhS2paa09fMDBxWXVTY1R6a21OYnp0cUxsTm90YzBpMXZ0dVJhY3FHaVpzMXBhTHNqX055V1FFeGxLT1Q5Q0I4MUtBeDNOUFYyNktCRXVta3UwT3FoYmh5MW9kYm1UY09zOGlyeDlYMzQ0ME5hRVg4QUJ4M3N2NGpoZnNYblByeXhsVDJvUVFBYWpmWXJObnloc2dlS2c3LTBVdXRwcXlJbEduVlpmUGgtYlE1SXBTWmowcjRMTXExUFFhb3ZBeEJndEx3MFNGcWFfV2UyNmx1cU12dkV2eU9xYnlrWGQzWnpCTEVKcHZ4NVpvOF9fTDROZ2M?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Backpacks - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Backpacks Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "bags_luggage",
+    "generated_at": "2026-07-08",
+    "l1_ref": "箱包"
+  }
 }

@@ -35,5 +35,97 @@
   },
   "compliance_summary": "REACH compliance, Prop 65 (California), product safety testing, material composition labeling, hardware durability testing.",
   "last_updated": "2026-07-08",
-  "data_source": "base_generated"
+  "data_source": "base_generated",
+  "dynamic_insight": {
+    "trend_summary": "户外用箱包：海外社媒「backpack must try」增速 248%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，thenationalnews.com关注「Adnoc sets up global LNG trading...」。",
+    "product_profile": {
+      "外观": "功能模块化 / 可折叠 / 轻量化",
+      "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
+      "工艺": "热压无缝 / YKK 防水拉链 / 防水涂层",
+      "色彩": "户外军绿 / 卡其 / 多巴胺运动色",
+      "包装": "可压缩打包 / 环保纸盒 / 可重复使用收纳袋",
+      "技术趋势": "可穿戴运动数据 / 气凝胶保温 / 3D 打印定制"
+    },
+    "reasons": [
+      "欧盟 REACH 法规限制有害化学物 → 驱动 户外用箱包 供应链合规升级",
+      "欧盟 CE 标志强制准入 → 户外用箱包 出口需通过合规认证",
+      "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 户外用箱包 通关",
+      "海外社媒「backpack must try」增速 248% 领跑 → 户外用箱包社媒种草热度爆发"
+    ],
+    "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "backpack must try",
+        "growth": 248.5,
+        "vol": "452K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "backpack viral hack",
+        "growth": 243.0,
+        "vol": "303K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "luggage market 2026",
+        "growth": 220.5,
+        "vol": "540K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 217.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "bag wholesale supplier",
+        "growth": 182.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Adnoc sets up global LNG trading platform to boost gas exports - thenationalnews.com",
+        "source": "thenationalnews.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmFuSkkwdkNsdjZZc2RZOVNnS3h6TXNsZmRKZmhRb3JycUdMUVdyVDVnWFlnQkZST05OWGEtNGVfQlVRU252SlRiV0NKYnRwcW40a0llaHd6YkZUeFJTM3JnSFhTNldJZWJ6bE80N3pnNmtPYWQ3azBzT2ZiY0hSSk04d2FTY1RHMnBqZk9LMWlObW93MFZZc2ZCa1k3cjIzWWpQSl84TzF6MkRfdTdkbGlJeHFUQm5UOHl3QWpsUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India sets $1 trillion export goal for FY26 as merchandise, services trade rise - The Times of India",
+        "source": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRE1RbDF5MEVJQlpYR1dvRUFkWVhaMm9KLVJOdUNCbjZwNzA2Y2xnNkdnSk9FQnpWZ1VJUmtTZTBtMjhBMThTczU2TldXd3VJamlqSXlvWllVYkN1MHJwRzR6UkZhMGpMMjNtQXFJQ2tubjBvNkJTLVdWQmZydjJXZHFyWmJnRnAzMjJHRUl3NVNyeEx6Qkl4cGJ5T3pPeWxJcUMtdVk1dzlyVU1UT245Q3ljVi1lNmt1dC1hMzJyNURkN1hkck5Hd21VSnFxZmo4cURWOEVWNGR4aEhFSURfeGFRdVNTSXRENVlnWGc2SG1CSlFVeUHSAfsBQVVfeXFMUGhhS2paa09fMDBxWXVTY1R6a21OYnp0cUxsTm90YzBpMXZ0dVJhY3FHaVpzMXBhTHNqX055V1FFeGxLT1Q5Q0I4MUtBeDNOUFYyNktCRXVta3UwT3FoYmh5MW9kYm1UY09zOGlyeDlYMzQ0ME5hRVg4QUJ4M3N2NGpoZnNYblByeXhsVDJvUVFBYWpmWXJObnloc2dlS2c3LTBVdXRwcXlJbEduVlpmUGgtYlE1SXBTWmowcjRMTXExUFFhb3ZBeEJndEx3MFNGcWFfV2UyNmx1cU12dkV2eU9xYnlrWGQzWnpCTEVKcHZ4NVpvOF9fTDROZ2M?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 12,
+        "title": "Top Outdoor Use Bags & Cases - Premium Edition",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 18,
+        "title": "Outdoor Use Bags & Cases Best Seller EU",
+        "price": "",
+        "rating": "",
+        "hits": 1
+      }
+    ],
+    "domain": "sports_outdoor",
+    "generated_at": "2026-07-08",
+    "l1_ref": "箱包"
+  }
 }
