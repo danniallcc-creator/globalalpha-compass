@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "液体及化学品：海外社媒「auto accessory #trending」增速 228%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」。",
+    "trend_summary": "液体及化学品：海外社媒「car gadget price trend」增速 224%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 液体及化学品 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 液体及化学品 合规刚需",
-      "海外社媒「auto accessory #trending」增速 228% 领跑 → 液体及化学品社媒种草热度爆发"
+      "海外社媒「car gadget price trend」增速 224% 领跑 → 液体及化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto accessory #trending",
-        "growth": 227.5,
-        "vol": "129K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "car gadget must have",
-        "growth": 214.0,
-        "vol": "24K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "car gadget b2b export",
-        "growth": 211.0,
-        "vol": "712K",
+        "kw": "car gadget price trend",
+        "growth": 224.0,
+        "vol": "66K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "car gadget b2b export",
-        "growth": 208.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "auto accessory review 2026",
+        "growth": 223.5,
+        "vol": "512K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "car gadget aesthetic",
+        "growth": 219.0,
+        "vol": "218K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory wholesale supplier",
-        "growth": 187.5,
+        "growth": 155.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto accessory market 2026",
+        "growth": 144.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Auto exports down nearly 6% on auto parts supply disruptions - The Korea Herald",
-        "source": "The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52bnR6VDh0dEpWRDFTWHpWcEpOclBaVlByWmIzdF80V1JtU2xFdVJyclhwbGNmV0dteFJsYWpqUHMzMm12aXgxbTRCX05IeE8zQVJhR3JMQQ?oc=5",
+        "title": "Canada defends North American auto trade as Trump signals opposition to USMCA renewal - Car Dealership Guy News",
+        "source": "Car Dealership Guy News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORlk4Q1BZTkdtLW1uZzVWX3FMUlprc3lTamdKd3YzQllaSDJFTWJZT3FGS1RkMWJwTWxyYURsdGFLU2RNR0RyYzVaeElPQjNvOFBkbnpwSUFkWEFpcDhfZklnVlU1cjNtOXZYNl8wWVNOdHUxNklEOWlwdmIzMHBkUlhBTmYxOHdjaEtuZ2t0VG1sVEFMTlpJTkZMeTZTX0tpNFlUNFNMTWVlTHFqOFlyNWlwZ0RtNk9aMGc?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-08",
+    "generated_at": "2026-07-09",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

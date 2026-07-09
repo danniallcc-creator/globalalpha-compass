@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 46,
-      "trend_direction": "up",
+      "interest_score": 54,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-08"
+      "fetched_at": "2026-07-09"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing tiktok made me buy」增速 236%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，KITCO关注「China considers new import and export...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「procurement market alert」增速 255%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「China imposes trade curbs on dozens of...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing tiktok made me buy」增速 236% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「procurement market alert」增速 255% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing tiktok made me buy",
-        "growth": 236.5,
-        "vol": "440K",
+        "platform": "x",
+        "kw": "procurement market alert",
+        "growth": 255.0,
+        "vol": "237K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "procurement factory tour",
-        "growth": 230.0,
-        "vol": "514K",
+        "platform": "google",
+        "kw": "sourcing wholesale supplier",
+        "growth": 251.5,
+        "vol": "144K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing #fyp",
-        "growth": 229.5,
-        "vol": "726K",
+        "platform": "instagram",
+        "kw": "sourcing new arrival",
+        "growth": 249.5,
+        "vol": "787K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sourcing wholesale supplier",
+        "growth": 248.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 144.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "sourcing agency digital transformation",
-        "growth": 82,
+        "growth": 201.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China considers new import and export regime for gold which limits PBOC oversight - KITCO",
-        "source": "KITCO",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHJ2eFdzRG1IVl8wSzBwczBRcmQ4bkd3LXdUckFJS3VFd0NBdXNGNUhMVUd4Z2JPZVl4NmhrMkNQTXFpMHhfM2FRajU1QjVVWE1xSkhsdG1TUjJwa0UyT2tjc3VCcERuWktucUY2T0VtQVpHV2xfQ3JSaGdZclFpckdNNk5MTy1rakI2T0l0WXNDNGVMN1czZ2Y2NFRNdXVxZjFsZ2lKeGlMTHFtNW1tTVByMA?oc=5",
+        "title": "China imposes trade curbs on dozens of U.S. firms in retaliation for Pentagon blacklist - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQXo1RzZsUk1PSnJ4V2hJWEZmZG51bmZrRW5Na183b0I5TUlWbGpFR3lVTFVoQ0pBUkNoQlcyUm9QQW1oSTdWLTdvaHRoZUdVVnJFalNQOWRjSC1fVHFIOVJnZjliSTdxTXhWYkNqQVU2dlRmYlRJMW9vLWpwY3hiLVBFNk10alBTLW1ud1FtOF9iaDRtRURMNEQ2ZHpIcmtkN2M1VEl0b1doX3dBckptVEppZXlzVi1xMUx5ZtIBwgFBVV95cUxPNUNPb1BmUzVUdm1pZVFfcC1jUGVwaUVyV1NvSjZVM1lEdnF1MnpsSzNRTnBXbFY2cHIxb1EwQ29peXZmNHFxUE9tUTg3ZlVuenZYeVVNZ1JwLVhkVktMdVlNWGtYVjNsWWR1Zk5fa2hKZHRZeDJadElPXzQwY1g0MUJhUTdzOFU0THNJSVhJSUR0NXFVUjdyNlZtUXdGRjNlbDRMWXJVbzdNVDFWSEZ5Q0RkT0ZvekJLMVI2aFAxZ3FRZw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Next Drive Co., Ltd. Strengthens Its Position as the Best Japanese Used Car Exporter Serving Buyers Across Africa, Europe, and Oceania. - ma",
-        "source": "markets.businessinsider.com",
-        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYXhNaHo1SmFQME9IQ2M0bkdQV1E5dHMyNXdHbVktY2E2UDI0alBYbjVqX2RIQjV1eXBtQkI2Rm5xcXJyV3Fkemh5VjRhcTNxNHdodnVDQzlWeW9VNnVqZnBuZzMxMHFiYXlCVXdMT0FtOFBtM0x6UnBtZl9WanpKcnRqVUtRZEVXXzJiSXNjemdza1hmenoxYkJWem9oa3dvMGFhRFY0bTkxa2QxYzgtU1pHRmxpUWRwbGZHNDlydE4tckppM3cya3RJVWhrUC1lZE10N2FjeHUwcUdTQ1V4cmR6OXVwQTd3NTIzX3BQM3lBSWluNWU4VXllU043N0FPZUdFTXAtQWhHWG1GQnFyUWx1bVRzSmc?oc=5",
+        "title": "China’s Apparel Imports From Other Asian Countries On the Rise - WWD",
+        "source": "WWD",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOelR5bDJNM0hiZml5NEkybFBqa1BlaGpGc0RIWmxRS3NHem1mNVZMVlowX0xsQ2ZSOGtfMDdJTXpKWV9DcTl4Q1RuVF9oSDNkc21qTUJWamFOYXRVYmEwVXdudGFVVHJDbE5qai1BNWlFUkMzMUo0OUZ6MWc4WVM2Q2hKZW5DUk5DemJuNW9FUmVIS3NmNDdPNlpQNjNCaE1kbld3YXBYRXAxdlBSMXl6WVhaUmpjX3Z6X3J2OG9DNXRUcmZVZHc?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-08",
+    "generated_at": "2026-07-09",
     "l1_ref": "代理采购"
   }
 }

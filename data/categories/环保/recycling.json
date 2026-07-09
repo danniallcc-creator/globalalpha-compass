@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech price trend」增速 249%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Intereconomics | Review of European Economic Policy关注「Beyond Trade: Why the EU–Mercosur...」。",
+    "trend_summary": "回收：海外社媒「green tech must have」增速 239%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Intereconomics | Review of European Economic Policy关注「Beyond Trade: Why the EU–Mercosur...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech price trend」增速 249% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech must have」增速 239% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "green tech price trend",
-        "growth": 249.0,
-        "vol": "60K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "environmental new arrival",
-        "growth": 227.5,
-        "vol": "769K",
+        "kw": "green tech must have",
+        "growth": 239.0,
+        "vol": "15K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "environmental supply chain",
-        "growth": 226.5,
-        "vol": "692K",
+        "platform": "youtube",
+        "kw": "green tech unboxing",
+        "growth": 237.0,
+        "vol": "336K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 229.5,
+        "vol": "629K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental wholesale supplier",
+        "growth": 146.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 108.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "environmental green supply chain resilience",
-        "growth": 87,
+        "growth": 113.0,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Safeguarding China-EU Cooperation - China-US Focus",
-        "source": "China-US Focus",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWFDa1N1SEpYcWhFaTF1OWpJMWpVN2NTTERHNklnZ1BYZkdKUDFmSWVnY1ZzeFltZHRHQnVKVEs5NFF6Z2wwLVIyWV9zc3ZoTldzNlNPSmJBVm8xSDVsY1Q0N09tS2g1VUctaVpiM29NT2lCYmJSLXZ2SzlISGVrZW9sLWQ?oc=5",
+        "title": "What’s happening this week in economics? - Deloitte",
+        "source": "Deloitte",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-08",
+    "generated_at": "2026-07-09",
     "l1_ref": "环保"
   }
 }
