@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "内衣睡衣：海外社媒「apparel #fyp」增速 252%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，The Business of Fashion关注「Worldview |Vietnam Faces a Critical...」。",
+    "trend_summary": "内衣睡衣：海外社媒「apparel market 2026」增速 252%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，MSN关注「India-UK FTA to remove apparel tariffs,...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 内衣睡衣 供应链合规升级",
       "欧盟 CE 标志强制准入 → 内衣睡衣 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 内衣睡衣 通关",
-      "海外社媒「apparel #fyp」增速 252% 领跑 → 内衣睡衣社媒种草热度爆发"
+      "海外社媒「apparel market 2026」增速 252% 领跑 → 内衣睡衣社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "apparel #fyp",
-        "growth": 251.5,
-        "vol": "627K",
+        "platform": "google",
+        "kw": "apparel market 2026",
+        "growth": 252.5,
+        "vol": "711K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "clothing tiktok made me buy",
-        "growth": 241.5,
-        "vol": "702K",
+        "kw": "apparel trending now",
+        "growth": 248.0,
+        "vol": "739K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fashion unboxing",
-        "growth": 229.0,
-        "vol": "590K",
+        "platform": "tiktok",
+        "kw": "fashion must try",
+        "growth": 246.5,
+        "vol": "418K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "fashion b2b export",
-        "growth": 153.0,
+        "kw": "apparel market 2026",
+        "growth": 249.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "apparel fashion export opportunity emerging markets",
-        "growth": 83,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Worldview |Vietnam Faces a Critical Textile Test - The Business of Fashion",
-        "source": "The Business of Fashion",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3lCcEZhazVSbVRBSjlsTk1GRE9TRF95SEI3OGZVLWV5VUdLTTBLMFpPZzdFMUd5OE9DVnJEZDFJY1ZKcWVRdk9NTThsd2F0dFlrTnZwcWt2VWxkb0hlODBfTmhEcGNsdzVvR3ZBOU9weFY5a3REcVdrX3J5UzlVVlNiRHdBNG1mOU90b3cydUNYem5NbmtzWl9FbU1qMUFxZVNxT0ppclRHQQ?oc=5",
+        "source": "Google Trends",
+        "kw": "clothing wholesale supplier",
+        "growth": 148.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "India-UK FTA to remove apparel tariffs, boosting exports - MSN",
         "source": "MSN",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWDBtSDdaNGcxdXFRQ25pMjVOdHdHazZIaFAzUXJ4Qmk2SVNkQzVBTjVlTENaVjBXYlBIcy1WY0FvaXRiblY4Q0NCWmRueC1LcTZyRmtEQ0pGcHBwbFJIdDMxaHFyVktlcjRQR2s3WHZ2Wnk4VzNxTUlmcjh4enF5aE44Q2c3cXd1eDNYV2JONDNOVWxSd3pidV9WTEJCaUpOM3VfT0ktZ3JEUGgtSFZSbjU3S3dmVGE5X3FMbTZGVy0zUk5waDk4cmlrTDBIdkd5VGhCZEZHZ3FjY2NZS1JYNnU3Y2M1NnVhbXJOazdGMA?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Worldview |Vietnam Faces a Critical Textile Test - The Business of Fashion",
+        "source": "The Business of Fashion",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3lCcEZhazVSbVRBSjlsTk1GRE9TRF95SEI3OGZVLWV5VUdLTTBLMFpPZzdFMUd5OE9DVnJEZDFJY1ZKcWVRdk9NTThsd2F0dFlrTnZwcWt2VWxkb0hlODBfTmhEcGNsdzVvR3ZBOU9weFY5a3REcVdrX3J5UzlVVlNiRHdBNG1mOU90b3cydUNYem5NbmtzWl9FbU1qMUFxZVNxT0ppclRHQQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "服装及配饰"
   }
 }

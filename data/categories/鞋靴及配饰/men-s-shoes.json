@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "男鞋：海外社媒「footwear new arrival」增速 226%，搜索端「shoe market 2026」热度上行，US Amazon BSR Top-12，World Footwear关注「Global footwear trade weakens in early...」。",
+    "trend_summary": "男鞋：海外社媒「shoe #trending」增速 256%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，World Footwear关注「Global footwear trade weakens in early...」。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 男鞋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 男鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 男鞋 通关",
-      "海外社媒「footwear new arrival」增速 226% 领跑 → 男鞋社媒种草热度爆发"
+      "海外社媒「shoe #trending」增速 256% 领跑 → 男鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "footwear new arrival",
-        "growth": 226.5,
-        "vol": "181K",
+        "kw": "shoe #trending",
+        "growth": 255.5,
+        "vol": "762K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "footwear unboxing",
+        "growth": 254.0,
+        "vol": "207K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "footwear industry report",
-        "growth": 213.5,
-        "vol": "620K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "shoe market 2026",
-        "growth": 212.5,
-        "vol": "473K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "shoe market 2026",
-        "growth": 209.5,
+        "kw": "sneaker wholesale supplier",
+        "growth": 231.5,
+        "vol": "799K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 143.5,
+        "growth": 228.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "shoe market 2026",
+        "growth": 188.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "India targets $15B in leather and footwear exports by 2031 - Qazinform",
-        "source": "Qazinform",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmNzbVFTQUZvWFRWaGc2SzcwVi11bnZpam9mZDlhYU9DSktTTWhpa3M3UE9NazUzREM5WUo5LVdoRkp5dm81ZFBGV19ESS0yN2tQNWJkUlIzeWNkTkxRZUk5X1FzMWdQVGdlM0R1aVNHZVB3THRPTkpEWHFVWjRsbTNBdEJJV1RvOUF3OTNpLU1WTWJrQnfSAZYBQVVfeXFMTjlDUURRM0dmalNXNHNOanBiRFAteER1NWNYUXAxclpuRW9ua0ZNMHpqVnFlbDVwVWVrTzJBaXd6XzB2Zi1IdVdWUzNyR3FaSzI2azNlalBINGRQM0t0akY2MkU5LVFMTXVDUnBGSGhtVnNVQndKMU5IZXRmMDRFTUlXVVQ2ZTB2elhMem94NXVfTVJnbFpn?oc=5",
+        "title": "Piyush Goyal Calls on India’s Leather and Footwear Industry to Triple Growth, Target USD 15 Billion Exports and Expand Employment to 1 Crore",
+        "source": "A2Z Taxcorp LLP",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQNnZrME1fTzY2SEFpSDUtZkdJd2w4aDdILTduRmlqM2ZrUVhRZTlJczM5SV9wV3lFaDdmVlpPVDV0MkRqT1ExZE5NeWE4YnVHOFE0ZUVLN1cyTVJRTDl5MGxSTHE4NnNnSzZ2UlJNRFc4NWc0MVdzWnphaXUwUlZpVU5NZEkyMkNXak5fMXQ2b3piaTVqQ28zS3dKdlBFLWJ5RVhZZGhuSlU2QURKemlVZ2c4SDg0OGh5cjFKRV8zUVRlRXJzclpya2RrOHNwUTVUS3FTcmNQaFYwTFRYQW9HS3NNaGxYMExHVnBCeDdnY3FqWUFXT0E1YVJ6d0xEWURaN0hFamVqY3hpU1UyMnZhQzNpdGtoMGdHVzFEYzRGbjM1Y2pxQ1RkNGdNSURwNzJ4SDVDQXJELU4?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "鞋靴及配饰"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "隔热材料：海外社媒「cement b2b export」增速 244%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Tom's Hardware关注「While the U.S. flip-flops on chip...」。",
+    "trend_summary": "隔热材料：海外社媒「cement factory tour」增速 248%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Tom's Hardware关注「While the U.S. flip-flops on chip...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 隔热材料 出口需通过合规认证",
-      "海外社媒「cement b2b export」增速 244% 领跑 → 隔热材料社媒种草热度爆发"
+      "海外社媒「cement factory tour」增速 248% 领跑 → 隔热材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "cement factory tour",
+        "growth": 248.0,
+        "vol": "772K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "cement b2b export",
-        "growth": 244.0,
-        "vol": "677K",
+        "kw": "building wholesale supplier",
+        "growth": 242.5,
+        "vol": "600K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building #fyp",
-        "growth": 214.5,
-        "vol": "52K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "building viral",
-        "growth": 209.5,
-        "vol": "209K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 241.0,
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 238.5,
+        "vol": "352K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 175.5,
+        "growth": 239.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 206.0,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "建材与房地产"
   }
 }

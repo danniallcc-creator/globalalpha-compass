@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric market alert」增速 248%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-27，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
+    "trend_summary": "面料：海外社媒「fabric unboxing」增速 251%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-48，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric market alert」增速 248% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric unboxing」增速 251% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric market alert",
-        "growth": 248.0,
-        "vol": "14K",
+        "platform": "youtube",
+        "kw": "fabric unboxing",
+        "growth": 251.0,
+        "vol": "470K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "fabric viral hack",
-        "growth": 243.0,
-        "vol": "711K",
+        "growth": 222.0,
+        "vol": "75K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "fabric b2b export",
-        "growth": 206.0,
-        "vol": "263K",
+        "growth": 214.0,
+        "vol": "71K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 203.0,
+        "growth": 211.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric export opportunity emerging markets",
-        "growth": 92,
+        "kw": "textile fabric market trend 2026",
+        "growth": 82,
         "hits": 2
       },
       {
@@ -108,24 +108,24 @@
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 27,
+        "rank": 48,
         "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$124.5",
-        "rating": 3.8,
+        "price": "$250.5",
+        "rating": 4.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 16,
-        "title": "Top textile - Premium Edition",
-        "price": "$262.0",
+        "market": "DE",
+        "rank": 32,
+        "title": "Top fabric - Pro Edition",
+        "price": "$111.7",
         "rating": 4.8,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "面料及纺织原材料"
   }
 }

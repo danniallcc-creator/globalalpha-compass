@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "车轮、轮胎及配件：海外社媒「auto parts tutorial」增速 248%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Auto Parts Exports Drive US$9.9...」。",
+    "trend_summary": "车轮、轮胎及配件：海外社媒「auto parts price trend」增速 252%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Car Dealership Guy News关注「Canada defends North American auto...」。",
     "product_profile": {
       "外观": "OEM 原厂规格 / 改装升级款 / 赛车竞技款",
       "成分": "高强度钢 / 锻造铝合金 / 碳纤维 / 陶瓷",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 车轮、轮胎及配件 出口需通过合规认证",
-      "海外社媒「auto parts tutorial」增速 248% 领跑 → 车轮、轮胎及配件社媒种草热度爆发"
+      "海外社媒「auto parts price trend」增速 252% 领跑 → 车轮、轮胎及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "auto parts tutorial",
-        "growth": 248.5,
-        "vol": "537K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "auto parts industry report",
-        "growth": 247.5,
-        "vol": "127K",
+        "kw": "auto parts price trend",
+        "growth": 252.0,
+        "vol": "393K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "auto parts trending now",
-        "growth": 233.0,
-        "vol": "369K",
+        "kw": "auto parts #fyp",
+        "growth": 251.5,
+        "vol": "784K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "auto parts top 10",
+        "growth": 229.5,
+        "vol": "416K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts b2b export",
-        "growth": 135.0,
+        "kw": "auto parts market 2026",
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts wholesale supplier",
-        "growth": 121.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Mexico Auto Parts Exports Drive US$9.9 Billion Trade Surplus - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmJGSHdaMDFUaDl6dENEdGVmdWVVNlRDS05jWE9MSjloQVU3UEMxNFVNS2Z3dUo4VGlIV1VTd1pWNzZaVFVHeHJkT1ZOX2NzV0xtLV96RTFvS1hRLW9ENWFtdHFHZlFERjJxSmp3X0wzaFQwbDNVYS1YWEdycHB6UUZ3QkJVMDcxQXlTMENxNkhBZmE1T2FqUWJMSTVEOEpPX3JwYg?oc=5",
+        "growth": 187.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Canada defends North American auto trade as Trump signals opposition to USMCA renewal - Car Dealership Guy News",
         "source": "Car Dealership Guy News",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORlk4Q1BZTkdtLW1uZzVWX3FMUlprc3lTamdKd3YzQllaSDJFTWJZT3FGS1RkMWJwTWxyYURsdGFLU2RNR0RyYzVaeElPQjNvOFBkbnpwSUFkWEFpcDhfZklnVlU1cjNtOXZYNl8wWVNOdHUxNklEOWlwdmIzMHBkUlhBTmYxOHdjaEtuZ2t0VG1sVEFMTlpJTkZMeTZTX0tpNFlUNFNMTWVlTHFqOFlyNWlwZ0RtNk9aMGc?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "auto_parts",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "汽车零配件"
   }
 }

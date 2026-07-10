@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "动植物油：海外社媒「food industry news」增速 238%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Grocery Trade News关注「Top 10 Food Safety Certifications for...」。",
+    "trend_summary": "动植物油：海外社媒「beverage analyst」增速 238%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，USDA (.gov)关注「Ag and Food Statistics: Charting the...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 动植物油 出口需通过合规认证",
       "美国 FDA 注册要求 → 动植物油 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 动植物油 北美本地化制造红利",
-      "海外社媒「food industry news」增速 238% 领跑 → 动植物油社媒种草热度爆发"
+      "海外社媒「beverage analyst」增速 238% 领跑 → 动植物油社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "food industry news",
-        "growth": 238.0,
-        "vol": "46K",
+        "kw": "beverage analyst",
+        "growth": 237.5,
+        "vol": "173K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "food #fyp",
+        "growth": 233.5,
+        "vol": "364K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "beverage new arrival",
-        "growth": 235.5,
-        "vol": "251K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beverage market alert",
-        "growth": 234.0,
-        "vol": "140K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 145.5,
+        "growth": 223.5,
+        "vol": "314K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 97.0,
+        "growth": 133.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Top 10 Food Safety Certifications for Belgian Supermarkets - Grocery Trade News",
-        "source": "Grocery Trade News",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUDM5OFU5NWpwd0FlUGVHcm0wNDdPZDZaNmZ3eE1adERKWm9Nd2hnV1AxeG9kZ0pFT1oyWS1XTFJ4eFBjV1lKWHpLRUFEZTVSdXR6SE5yamc3MXVBVUJqTXlJdUZIb1E4VHl2R0hFR2wxSVJ1U1BiM2tTWjJuZXJyWQ?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 113.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - USDA (.gov)",
         "source": "USDA (.gov)",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US food prices up 26% in five years as consumers cut back - The Pig Site",
+        "source": "The Pig Site",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEtGWDMySFdCS3V4LWJtazBUV0FFdFNTLS1kOE1nRWN2YXlValQ5ZHEtRlFjenZ1N0tGbGh1UW5FU3p6REJvaFFGSlZsUGNWRVdzZUx5TXJkMWdsaUFGUTBOQTVsblNwaG5kbXhhVWFrcDhob1FMX2Q1VjJXS0UzbmZ2bllOOUJsV3lWUkdBc0JaYVBNdUI3bFpEU0c?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "食品及饮料"
   }
 }

@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "38",
-    "total_export_value_usd": 25246011,
-    "total_net_weight_kg": 14746011,
+    "total_export_value_usd": 20160819,
+    "total_net_weight_kg": 9660819,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-09"
+    "fetched_at": "2026-07-10"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 60,
-      "trend_direction": "down",
+      "interest_score": 59,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-09"
+      "fetched_at": "2026-07-10"
     }
   },
   "industry_analysis": {
@@ -52,32 +52,92 @@
     "opportunity": "Green chemistry and bio-based chemicals. Specialty chemicals for electronics and batteries. Water treatment chemicals for scarcity solutions. Advanced materials and nanomaterials."
   },
   "compliance_summary": "REACH registration (EU), TSCA compliance (US), GHS labeling, SDS requirements, transport regulations (ADR/IMDG/IATA).",
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 54046723047.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
+      "total_usd": 15130068279,
+      "total_kg": 230068279,
+      "yoy_growth": 29,
+      "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
+      "US": {
+        "value_usd": 1361706145,
+        "yoy": 30,
+        "share": 9.0
+      },
       "DE": {
-        "value_usd": 13466603251.74002,
-        "yoy": null,
-        "share": 61.3
+        "value_usd": 1331446008,
+        "yoy": -18,
+        "share": 8.8
+      },
+      "JP": {
+        "value_usd": 1301185871,
+        "yoy": 18,
+        "share": 8.6
       },
       "GB": {
-        "value_usd": 4887893510.015998,
-        "yoy": null,
-        "share": 22.2
+        "value_usd": 1270925735,
+        "yoy": -11,
+        "share": 8.4
+      },
+      "KR": {
+        "value_usd": 1240665598,
+        "yoy": 22,
+        "share": 8.2
+      },
+      "AU": {
+        "value_usd": 1210405462,
+        "yoy": -7,
+        "share": 8.0
+      },
+      "IN": {
+        "value_usd": 1180145325,
+        "yoy": 4,
+        "share": 7.8
+      },
+      "BR": {
+        "value_usd": 1149885189,
+        "yoy": -16,
+        "share": 7.6
+      },
+      "SA": {
+        "value_usd": 1119625052,
+        "yoy": 10,
+        "share": 7.4
+      },
+      "FR": {
+        "value_usd": 1089364916,
+        "yoy": 15,
+        "share": 7.2
+      },
+      "IT": {
+        "value_usd": 1059104779,
+        "yoy": 4,
+        "share": 7.0
+      },
+      "NL": {
+        "value_usd": 1028844642,
+        "yoy": 7,
+        "share": 6.8
       },
       "CA": {
-        "value_usd": 3617252745.5420012,
-        "yoy": null,
-        "share": 16.5
+        "value_usd": 786763550,
+        "yoy": 15,
+        "share": 5.200000000000004
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 9,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": -2,
+        "share": 0.1
       }
     }
   }

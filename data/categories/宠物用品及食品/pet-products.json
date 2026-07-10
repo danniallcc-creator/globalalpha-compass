@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet food b2b export」增速 253%，搜索端「pet products supply chain resilience」热度上行，UK Amazon BSR Top-43，USDA (.gov)关注「Ag and Food Statistics: Charting the...」。",
+    "trend_summary": "宠物用品：海外社媒「pet market 2026」增速 246%，搜索端「pet products supply chain resilience」热度上行，SA Amazon BSR Top-46，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet food b2b export」增速 253% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet market 2026」增速 246% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet food b2b export",
-        "growth": 253.0,
-        "vol": "34K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 252.0,
-        "vol": "200K",
+        "kw": "pet market 2026",
+        "growth": 246.5,
+        "vol": "72K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "pet #trending",
-        "growth": 245.5,
-        "vol": "145K",
+        "growth": 237.5,
+        "vol": "550K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet tiktok made me buy",
+        "growth": 234.5,
+        "vol": "6K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products supply chain resilience",
-        "growth": 64,
+        "growth": 81,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 63,
+        "kw": "pet products digital transformation",
+        "growth": 72,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
+        "source": "Kansas Reflector",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQzhXdUp3TFh6U1NFS3c0X2d5U0RWTEh6OE1ZMjU1UE43c3JvWnFKXzRWRGxiZUh1bEZWQWpDWF9GbkVCSzAtTm5PdDUxU2lqc3Y3NzBJd2Z5djc2em9DNkVyVk5YT1pPcUJkbW5hcFpxTUkzOWZpZXF5ang0ajFTdUZWa19pV0hqYWxFUlJ5cFBnZHJETEIwaGtISC0yQWpFSVZldUFQUUlXcUpXWXBOSWQyV3FEWmRoQkdzM0Fn?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Infographic: Latin America offers growth opportunities for U.S. pet food exports - PetfoodIndustry",
-        "source": "PetfoodIndustry",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNXY5TmZrcHpPMUNuWWhvR0hkVUpVa3N0VmZ3SG5JazI3aGNxTTVtRGZxdkQxbE1TblFwUHNjZkk5U3NIcUprMlVlZTlSdnJ3bl8wM1pXZW95SlV5akkzLVQ5eWoxXzBLWEFhSUdZZklPQno0c3ZHa0JEZDFaZWlUaFcyWWU5NGQxUkZVd2tVWVJxV2Z0TllET2FGMm5SeFpxaGcwU3ZqTUFfc0ZHdDA3TjJLRWhxbjRaaHh5Q2dwVEtUc00wWVdfQmx0T1ZlVnNMckdxdHVxaVRWS3NnSURn?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 43,
-        "title": "Top pet food - Smart Edition",
-        "price": "$244.1",
-        "rating": 4.5,
+        "market": "SA",
+        "rank": 46,
+        "title": "Top pet - Compact Edition",
+        "price": "$184.8",
+        "rating": 4.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 31,
-        "title": "Top pet food - Pro Edition",
-        "price": "$27.7",
-        "rating": 4.4,
+        "market": "JP",
+        "rank": 32,
+        "title": "Top pet - Eco Edition",
+        "price": "$45.4",
+        "rating": 4.3,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-07-09",
+    "generated_at": "2026-07-10",
     "l1_ref": "宠物用品及食品"
   }
 }
