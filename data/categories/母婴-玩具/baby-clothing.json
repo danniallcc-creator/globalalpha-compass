@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "婴儿服装：海外社媒「toys viral hack」增速 250%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「Free trade agreements to give major...」。",
+    "trend_summary": "婴儿服装：海外社媒「infant tutorial」增速 230%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，The Economic Times关注「Free trade agreements to give major...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 婴儿服装 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 婴儿服装 采购偏好",
-      "海外社媒「toys viral hack」增速 250% 领跑 → 婴儿服装社媒种草热度爆发"
+      "海外社媒「infant tutorial」增速 230% 领跑 → 婴儿服装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "infant tutorial",
+        "growth": 230.5,
+        "vol": "394K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "baby breaking",
+        "growth": 219.5,
+        "vol": "219K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "toys viral hack",
-        "growth": 250.0,
-        "vol": "260K",
+        "kw": "baby trending now",
+        "growth": 217.0,
+        "vol": "61K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "toys unboxing",
-        "growth": 218.0,
-        "vol": "777K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "baby review 2026",
-        "growth": 214.5,
-        "vol": "544K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "baby market 2026",
+        "growth": 169.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "toys b2b export",
-        "growth": 173.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "infant wholesale supplier",
-        "growth": 156.5,
+        "growth": 130.0,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-07-10",
+    "generated_at": "2026-07-11",
     "l1_ref": "母婴&玩具"
   }
 }

@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 90,
-      "trend_direction": "down",
+      "interest_score": 82,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-10"
+      "fetched_at": "2026-07-11"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购行业：海外社媒「sourcing market 2026」增速 250%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，WWD关注「China’s Apparel Imports From Other...」。",
+    "trend_summary": "代理采购行业：海外社媒「procurement industry news」增速 244%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Could Iran replace China as US soybean...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,52 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购行业 出口需通过合规认证",
-      "海外社媒「sourcing market 2026」增速 250% 领跑 → 代理采购行业社媒种草热度爆发"
+      "海外社媒「procurement industry news」增速 244% 领跑 → 代理采购行业社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 249.5,
-        "vol": "498K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing tiktok made me buy",
-        "growth": 230.5,
-        "vol": "292K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "sourcing supply chain",
-        "growth": 217.5,
-        "vol": "695K",
+        "kw": "procurement industry news",
+        "growth": 244.0,
+        "vol": "91K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "procurement unboxing",
+        "growth": 232.0,
+        "vol": "392K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "sourcing new arrival",
+        "growth": 230.5,
+        "vol": "652K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing market 2026",
-        "growth": 246.5,
+        "growth": 128.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 174.0,
+        "growth": 115.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s Apparel Imports From Other Asian Countries On the Rise - WWD",
-        "source": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOelR5bDJNM0hiZml5NEkybFBqa1BlaGpGc0RIWmxRS3NHem1mNVZMVlowX0xsQ2ZSOGtfMDdJTXpKWV9DcTl4Q1RuVF9oSDNkc21qTUJWamFOYXRVYmEwVXdudGFVVHJDbE5qai1BNWlFUkMzMUo0OUZ6MWc4WVM2Q2hKZW5DUk5DemJuNW9FUmVIS3NmNDdPNlpQNjNCaE1kbld3YXBYRXAxdlBSMXl6WVhaUmpjX3Z6X3J2OG9DNXRUcmZVZHc?oc=5",
+        "title": "Could Iran replace China as US soybean market? Farmers aren’t buying Trump pitch - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXdXblBrMldFTVc5SDlRZDBEcXZrZU9YMDBlWHRHLXpZdi1SeW00bl8xc2F0WFJvaGYxWktDRlBDMnl2X2VsNjBoWUVLMzBsR0dEZHRJbVp5NmVBZG9nd01mand3MF95VGFJQmtPQ19QcEVnNmcybXNIdDFVcEJBWFhjY2hSTllKUHFXa2o0TktjLUlKdVZ3TW5mS19CX29QajExUUxxN2xzbVZoUHVyMEZYMjRJb3NjZFplWFE4SHVIa09MRmhfUG1vSUdXMk3SAc8BQVVfeXFMTXFIRTZDTmhqa3BNQzQyY2I3dVBHcVlPUTAxTVhIUXEyWlFJU3RDN1MyRVRVaTNzU1NQR3Y0WUlucGsyUXVLLXR4TGJtalBxQ3lIUjZZdFFYU3FTYWJ6QlF0aV9uV2NiX0hrZEtDQ2MyanRZWWpmTFVWN1BldDlTalV0dkZhVDBqSFY1NXpVZmJSSk02NE9IY0huNFRadmFYVDN1MnFsc0hiZnVCUjd5VTNtZVFWZGYtQ1BSclo2U3VPYjFxVnNvWHFaLWtRU2lZ?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-10",
+    "generated_at": "2026-07-11",
     "l1_ref": "代理采购"
   }
 }

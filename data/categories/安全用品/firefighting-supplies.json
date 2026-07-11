@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "消防用品：海外社媒「ppe unboxing」增速 254%，搜索端「safety gear market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
+    "trend_summary": "消防用品：海外社媒「safety gear breaking」增速 248%，搜索端「safety gear wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「World Industrial Safety Equipment -...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 消防用品 出口需通过合规认证",
-      "海外社媒「ppe unboxing」增速 254% 领跑 → 消防用品社媒种草热度爆发"
+      "海外社媒「safety gear breaking」增速 248% 领跑 → 消防用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "ppe unboxing",
-        "growth": 254.0,
-        "vol": "94K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "safety gear supply chain",
-        "growth": 247.5,
-        "vol": "460K",
+        "kw": "safety gear breaking",
+        "growth": 248.5,
+        "vol": "549K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "safety gear tiktok made me buy",
-        "growth": 245.5,
-        "vol": "424K",
+        "platform": "google",
+        "kw": "safety gear wholesale supplier",
+        "growth": 246.5,
+        "vol": "717K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "safety gear market 2026",
-        "growth": 221.5,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "safety gear review 2026",
+        "growth": 231.5,
+        "vol": "244K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "safety gear wholesale supplier",
-        "growth": 121.5,
+        "growth": 243.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "safety gear market 2026",
+        "growth": 110.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "World Industrial Safety Equipment - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV3YtSnd0VXR5SjhGRGlXQnFMVW9peG9objFOaHVvVnBXQWJ5U2JUckNVTmN4NGhfZFBNRlI5eVRFVUhMbDR5MTU3TzdnZnBsWXZsUm1DU0RJOU8xVmlKYktGUHFIYWdGWjRhR0w2a1BQMXMyaU83QmRqLWtqckpzSmtPM0pVOVI5UTN4RjYwVjJfTDNlSHdnc0FIa0MybU10RGJSN0l1ODV4TC15Uy12bnpLQnY5cFg2bWxiUHp2Mll5Nk1tTDM4d1JHTVRLQ29qQ3hn?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
         "source": "European Parliament",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Expanding U.S. Agricultural Exports in Vietnam’s Rising Market - USDA Foreign Agricultural Service (.gov)",
-        "source": "USDA Foreign Agricultural Service (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGNpRlA0RzJtaDAtTnVzazdra3hnZlFQRjdRTUZYUXJKcWpsU0NNV0JnT2RrZGZjYlFDTm1FMUpzT1ZxTWpCa3UzcThpajkwSHV3ZGtJMTRRZzNJTjJSaVl2MGx6SE1VOVVtMjhZNGxPYWgzTlVRcHFVSW5IdmxsWm11akxSWVNLUW9WWXFOZw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-07-10",
+    "generated_at": "2026-07-11",
     "l1_ref": "安全用品"
   }
 }
