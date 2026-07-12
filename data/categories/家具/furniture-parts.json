@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家具零配件：海外社媒「desk viral」增速 250%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China's factory activity likely...」。",
+    "trend_summary": "家具零配件：海外社媒「furniture breaking」增速 256%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's factory activity likely...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家具零配件 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 家具零配件 出口欧美刚需",
-      "海外社媒「desk viral」增速 250% 领跑 → 家具零配件社媒种草热度爆发"
+      "海外社媒「furniture breaking」增速 256% 领跑 → 家具零配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "furniture breaking",
+        "growth": 255.5,
+        "vol": "151K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "desk viral",
-        "growth": 249.5,
-        "vol": "93K",
+        "kw": "furniture must have",
+        "growth": 234.0,
+        "vol": "166K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sofa must try",
-        "growth": 241.5,
-        "vol": "476K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "furniture market 2026",
-        "growth": 232.5,
-        "vol": "787K",
+        "platform": "x",
+        "kw": "furniture industry news",
+        "growth": 233.0,
+        "vol": "92K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "furniture market 2026",
-        "growth": 229.5,
+        "kw": "desk wholesale supplier",
+        "growth": 197.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sofa b2b export",
-        "growth": 191.0,
+        "growth": 180.0,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-11",
+    "generated_at": "2026-07-12",
     "l1_ref": "家具"
   }
 }

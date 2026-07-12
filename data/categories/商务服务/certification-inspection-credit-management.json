@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service industry news」增速 242%，搜索端「business service wholesale supplier」热度上行，US Amazon BSR Top-12，Ohio University关注「OHIO students, businesses see benefits...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service viral hack」增速 251%，搜索端「business service market 2026」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service industry news」增速 242% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service viral hack」增速 251% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "business service industry news",
-        "growth": 242.0,
-        "vol": "67K",
+        "platform": "tiktok",
+        "kw": "business service viral hack",
+        "growth": 251.0,
+        "vol": "147K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "business service tutorial",
-        "growth": 236.5,
-        "vol": "425K",
+        "platform": "instagram",
+        "kw": "business service #trending",
+        "growth": 237.5,
+        "vol": "345K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "business service wholesale supplier",
-        "growth": 232.5,
-        "vol": "262K",
+        "platform": "tiktok",
+        "kw": "business service tiktok made me buy",
+        "growth": 224.5,
+        "vol": "246K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "business service wholesale supplier",
-        "growth": 229.5,
+        "kw": "business service market 2026",
+        "growth": 136.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service b2b export",
-        "growth": 158.0,
+        "growth": 118.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
+        "source": "European Parliament",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "OHIO students, businesses see benefits from participation in Export Internship Program - Ohio University",
         "source": "Ohio University",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcTlUVVU5YmhNZFBrWm5KUDlUS0VsY2VjZ3pTbXZpX0xwa3dJLWQ5cXBxUllDV1RFRWRwQWJabzhsM1FSTFB6bXdDOVZDLURpSkxhVktucVQ1NlNWOGppSmFxTGE5V2l3WkdjYzJMTndrU1JiZWhzdktZVDdpZFpwd0NOeUxuUW1jdlJvby1XUW9SS2x3ZTljbDVvRXFqN25yUFd5OFBOSlBNUEZtWFc3cg?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "What’s changed at Business Finland? Rethinking how Finns turn ideas into exports - Arctic Today",
-        "source": "Arctic Today",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaHR0VXRiVmVPckNVcWNYTF9OXzc0d3ZKZnE5Q29SX0NmSmR1UENOYjRhUFdkUXhJTUQ3MmRnUUJKRmNGVTJzdHhmRWE4TWVLX3VHbU5ZeUFkalcwQ0YyM3NzdWNxUnNvdGs1REw5TGFHb2cxQ24wd08zYm5sZjhkSnVBeDZ4ZVlJdVZyTHhpVXB2b1Y0eW12MEczT2VwV19EV3B0TUs4Sy1QZ2M?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-11",
+    "generated_at": "2026-07-12",
     "l1_ref": "商务服务"
   }
 }

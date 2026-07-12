@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food price trend」增速 237%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-37，SeafoodSource关注「Umios purchases majority stake in pet...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food factory tour」增速 231%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-34，PetfoodIndustry关注「Cats continued US pet food market...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food price trend」增速 237% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food factory tour」增速 231% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 237.0,
-        "vol": "33K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 227.0,
-        "vol": "713K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 201.0,
-        "vol": "571K",
+        "kw": "pet food factory tour",
+        "growth": 231.0,
+        "vol": "390K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food viral hack",
+        "growth": 214.0,
+        "vol": "537K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 202.0,
+        "vol": "236K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 172.0,
+        "growth": 136.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet wholesale supplier",
-        "growth": 143.5,
+        "growth": 228.5,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Cats continued US pet food market growth in 2025 - PetfoodIndustry",
+        "source": "PetfoodIndustry",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONVBoUVZnZ05FN0s1T0ZMcnZzMk5WOFNGc2VFUURLV3A0cEhXZ3hxVi1nNWh5bFQzaHVYRFAxVW5lZ2VwUkFscXZoUXhmbkpaOTJmNHNRUF94emNDN3pNSW1JVERNcWVpdWs5bkE5ZXVZRHVfakVfNGU5LXN4TkE1VmFMMVJrUGlMdGtpWWluZ3dZSnBzeFFVdmlxaGhZS29zcEo0RXlVREVHTXpsWEdjWTU0UzNmM0NGTlZn?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "Kansas farmers suffer from tariffs and closing of Strait of Hormuz, ag experts say - Kansas Reflector",
-        "source": "Kansas Reflector",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQzhXdUp3TFh6U1NFS3c0X2d5U0RWTEh6OE1ZMjU1UE43c3JvWnFKXzRWRGxiZUh1bEZWQWpDWF9GbkVCSzAtTm5PdDUxU2lqc3Y3NzBJd2Z5djc2em9DNkVyVk5YT1pPcUJkbW5hcFpxTUkzOWZpZXF5ang0ajFTdUZWa19pV0hqYWxFUlJ5cFBnZHJETEIwaGtISC0yQWpFSVZldUFQUUlXcUpXWXBOSWQyV3FEWmRoQkdzM0Fn?oc=5",
+        "dim": "Amazon",
+        "market": "JP",
+        "rank": 34,
+        "title": "Top pet - Eco Edition",
+        "price": "$214.4",
+        "rating": 4.5,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 37,
+        "rank": 26,
         "title": "Top pet - Compact Edition",
-        "price": "$256.8",
-        "rating": 4.7,
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 31,
-        "title": "Top pet - Premium Edition",
-        "price": "$186.0",
-        "rating": 4.5,
+        "price": "$291.8",
+        "rating": 4.2,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-07-11",
+    "generated_at": "2026-07-12",
     "l1_ref": "宠物用品及食品"
   }
 }

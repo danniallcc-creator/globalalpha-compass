@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "医学美容：海外社媒「beauty breaking」增速 254%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，upi.com关注「K-beauty drives record South Korean SME...」。",
+    "trend_summary": "医学美容：海外社媒「cosmetic viral hack」增速 236%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Personal Care Insights关注「EU locks in US tariffs, but French...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 医学美容 出口需通过合规认证",
       "美国 FDA 注册要求 → 医学美容 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 医学美容 制造门槛",
-      "海外社媒「beauty breaking」增速 254% 领跑 → 医学美容社媒种草热度爆发"
+      "海外社媒「cosmetic viral hack」增速 236% 领跑 → 医学美容社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beauty breaking",
-        "growth": 254.5,
-        "vol": "200K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty #trending",
-        "growth": 251.5,
-        "vol": "513K",
+        "platform": "tiktok",
+        "kw": "cosmetic viral hack",
+        "growth": 236.0,
+        "vol": "169K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "cosmetic viral hack",
-        "growth": 251.0,
-        "vol": "778K",
+        "kw": "cosmetic must try",
+        "growth": 219.5,
+        "vol": "445K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "cosmetic top 10",
+        "growth": 211.5,
+        "vol": "234K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "cosmetic b2b export",
-        "growth": 176.0,
+        "kw": "beauty market 2026",
+        "growth": 112.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "skincare wholesale supplier",
-        "growth": 122.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "K-beauty drives record South Korean SME consumer exports - upi.com",
-        "source": "upi.com",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVWZfaFRlTFpuSWVEb2QwTFZqSWNYS0tnM1Q0aXdKbnAxNjZCajh4SFU2T0g3TURsS3FEcWc1NXlrbUJYQXFUSWFtUEx5cC1zVUR3ZnZYdnJrclE5REhjNXhJRnBwdXBiNHBCNko1SVBka05IS3FRVElBX1h6NEZtanpRc282XzBBeG9JZ19nQnZYeWljMU1wR0sxb9IBoAFBVV95cUxQSTZZYU5QU0ZLLTYtSk1nN25vZkM0Ym8zT0pNQ2JId1VJRWZ1ZDlleW1qODVDVXh0ZHlZWC10T09yV1ZrYms1WkI5V3gzRVFDdFB0LVB5TjBXbV9vR1FJODJ4dnJRdjBQazYtV2VsNzd5VEJ0MW9lQkxlTzEzTDYtRE45U0IycFN3VDBNZk1xQUNkdFhtVjZrQWo5QmV2T2h6?oc=5",
+        "growth": 105.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "EU locks in US tariffs, but French beauty wants full exemption as losses mount - Personal Care Insights",
         "source": "Personal Care Insights",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMFc1X0hEVDIweWlVOWhlYU93N2hnakdaX3UwN3lzdUdvRFlmODVtVzdWbmFEVG9JU0pvSmhERTUtQmsyaFRoR0xRMVlUTlZvYXFnVnNhMUpSYXZXWm9CTHdzRldZbTYwNFV1MUVRM2tLV2JXVkNnSEc0Ykp0aVI3Sjd3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "French beauty industry urges EU to remove US tariffs on cosmetics exports - Global Cosmetics News",
+        "source": "Global Cosmetics News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BRU0lKbEpaNTlIX1E5WHFEdzRxckJkZ1BTMDh6S1cyWmpuRzdXbmFWcnZnVEpMcVBlUjBpeUtaMlRLUFhoSzVuS3F6RmItTWQ1ZzlUcko1aWRxN0tnTWVzUm5LRWMyVXo1dEItNjNjVlV0eTlyb3ZuR2xYZWxDMGNYaGh4djB5NUdqZC0xckN5SUp4RUhDOVdFSHpQYzFWX1I0WEhpcm1ieFN6T1RR?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-07-11",
+    "generated_at": "2026-07-12",
     "l1_ref": "美妆"
   }
 }

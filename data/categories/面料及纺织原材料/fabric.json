@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric viral hack」增速 189%，搜索端「fabric b2b export」热度上行，DE Amazon BSR Top-41，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
+    "trend_summary": "面料：海外社媒「fabric factory tour」增速 181%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-40，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric viral hack」增速 189% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric factory tour」增速 181% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "fabric viral hack",
-        "growth": 189.0,
-        "vol": "30K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric must have",
-        "growth": 157.0,
-        "vol": "425K",
+        "platform": "youtube",
+        "kw": "fabric factory tour",
+        "growth": 181.0,
+        "vol": "36K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 150.0,
-        "vol": "224K",
+        "kw": "fabric price trend",
+        "growth": 177.0,
+        "vol": "348K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "fabric unboxing",
+        "growth": 175.0,
+        "vol": "648K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 147.0,
+        "growth": 156.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric market trend 2026",
-        "growth": 93,
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 71,
         "hits": 2
       },
       {
@@ -100,32 +100,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Polyamide Fabric (HS: 5902) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53OExyUlN1ZmpPall3NWxHVHFuTHV0d2dxdW5UeTBKdE1jNTlWOTFuVjNINEFnMHBrS3RlalVyTWI4QUhUc3BfVUE1SkxwblpCdzFaY0p0M3dpNU9v?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 41,
-        "title": "Top fabric - Pro Edition",
-        "price": "$110.7",
-        "rating": 4.8,
+        "title": "Fabric Winders Market Forecast to 2035: Automation and Technical Textiles Drive Demand - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYndIalBXSFhFQkhEOFk1S3pidFozaG5xX1I5SHBfdE9tRi15ZXNzQ1pKd1VrWF9JOS1LSm1VTzU0czJKOVdFcURISWNCdHc4S2d1TFl1Y0ZvdXlhU3htZTc0cENyV2tfczExN1YwNmQ1R08ybkc2U294a3JaRm83T2F4bUh5TnNXdWZUdGNhMTJXVVYtMXhPdzlPcWtLOUFlQmk3MG5QYjFNVjViMUVYQ1oxeGt2ZlVXZU54TUtzT0thMjNTQlZIQTA2NHBuVUNzam44?oc=5",
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 37,
+        "rank": 40,
         "title": "Top textile - Premium Edition",
-        "price": "$23.0",
-        "rating": 4.9,
+        "price": "$89.0",
+        "rating": 4.3,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "JP",
+        "rank": 38,
+        "title": "Top textile - Eco Edition",
+        "price": "$148.4",
+        "rating": 4.1,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-11",
+    "generated_at": "2026-07-12",
     "l1_ref": "面料及纺织原材料"
   }
 }
