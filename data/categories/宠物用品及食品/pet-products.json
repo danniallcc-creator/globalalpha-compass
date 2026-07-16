@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet #trending」增速 246%，搜索端「pet products sustainable manufacturing」热度上行，UK Amazon BSR Top-45，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
+    "trend_summary": "宠物用品：海外社媒「pet supply chain」增速 212%，搜索端「pet products supply chain resilience」热度上行，JP Amazon BSR Top-49，PetfoodIndustry关注「New EU trade pacts promise cheaper pet...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet #trending」增速 246% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet supply chain」增速 212% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet #trending",
-        "growth": 245.5,
-        "vol": "618K",
+        "platform": "x",
+        "kw": "pet supply chain",
+        "growth": 211.5,
+        "vol": "541K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet wholesale supplier",
-        "growth": 231.5,
-        "vol": "617K",
+        "kw": "pet food b2b export",
+        "growth": 210.0,
+        "vol": "94K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 231.0,
-        "vol": "390K",
+        "platform": "tiktok",
+        "kw": "pet must try",
+        "growth": 209.5,
+        "vol": "45K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products sustainable manufacturing",
-        "growth": 73,
+        "kw": "pet products supply chain resilience",
+        "growth": 83,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 70,
+        "kw": "pet products digital transformation",
+        "growth": 71,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "New EU trade pacts promise cheaper pet food ingredients but other risks - PetfoodIndustry",
+        "source": "PetfoodIndustry",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR1YwMjNiMG1EWGpmUUxkTWkzTnFjOE9TaEItMDlmbS1CVXZDUkZfZDFtdHZxcFE5NHpvSk9nWEhlRmNUNEFOXzlMWVd3d0tySUx6akFFTElZOUlYVW5iMG9EanpuTW9JVEJKb3FHRzlOb1dZaE94WG5BYlJ1ckhvcllqMEY1bUV0VU9RSXlqTFhycmpQT3JtMTFCV0ZRMFVhS3Rxb3NORFZPc1ZvaFR2QTNFUlgwajFiVzBMeHZwR01kZTZZRlMxWWxncTZnSUND?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Ag and Food Statistics: Charting the Essentials - Agricultural Trade - USDA (.gov)",
-        "source": "USDA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 45,
-        "title": "Top pet food - Smart Edition",
-        "price": "$291.1",
-        "rating": 4.5,
+        "market": "JP",
+        "rank": 49,
+        "title": "Top pet - Eco Edition",
+        "price": "$187.4",
+        "rating": 4.6,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 37,
-        "title": "Top pet food - Pro Edition",
-        "price": "$133.7",
-        "rating": 4.7,
+        "market": "SA",
+        "rank": 38,
+        "title": "Top pet - Compact Edition",
+        "price": "$245.8",
+        "rating": 4.1,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "宠物用品及食品"
   }
 }

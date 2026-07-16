@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "油漆涂料：海外社媒「chemical must try」增速 248%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
+    "trend_summary": "油漆涂料：海外社媒「chemical supply chain」增速 250%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 油漆涂料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 油漆涂料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 油漆涂料 通关",
-      "海外社媒「chemical must try」增速 248% 领跑 → 油漆涂料社媒种草热度爆发"
+      "海外社媒「chemical supply chain」增速 250% 领跑 → 油漆涂料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical must try",
-        "growth": 247.5,
-        "vol": "688K",
+        "platform": "x",
+        "kw": "chemical supply chain",
+        "growth": 249.5,
+        "vol": "186K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "chemical analyst",
+        "growth": 235.5,
+        "vol": "485K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "chemical #fyp",
-        "growth": 233.5,
-        "vol": "553K",
+        "kw": "chemical trending now",
+        "growth": 233.0,
+        "vol": "741K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical viral",
-        "growth": 205.5,
-        "vol": "68K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical wholesale supplier",
+        "growth": 223.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 153.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical market 2026",
-        "growth": 136.5,
+        "growth": 190.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Mid-Year 2026 Outlook: A Pivotal Moment for American Chemistry - American Chemistry Council",
-        "source": "American Chemistry Council",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPd3dSbkEwWXlsSGxkTTg3ZnRJWUtRU1R6OHMwWkFOUUgzNmZzcWdFUU9EU2hXSFhoa1Frc3NLdkozd1VqWkxWS3hydjFYY3pJNmNkZDBWUDFpa1RoczFEZWtETXpaLTlSZzZEYXdmc1MxX2JzaDhKVjVzRjhVSkRJM1pQM1lhekFWT2FmeGtmamwxeTJKaXdzQVpndkpQZ0JjOGtJN1R5UmpBRVBydWhyXzBlTEd5RTg5ek85X2t6Vm52TGVwU3daTGItVzNvNlZlYmNsanlDdkFRaG14WExzY05IR1lYM3F2aXBGVWk2XzFfODM1VWVZa3BsbVJzT3M?oc=5",
+        "title": "Iranian Customs Lifts Export Ban on Chemicals, Polymers, and Petrochemicals; Strictly Controls Industrial Tallow and Sulfonic Acid - ChemNet",
+        "source": "ChemNet",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqeEE1NXJmQjJmaGdLSTZJQnZUMV94Wi1ib055Ukx2NE5EbUZiVjhKOFpQXzR3OEF2eDAyUkVxNFh1cDY0ODRTOV9GUGhrUEFm?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "化学品"
   }
 }

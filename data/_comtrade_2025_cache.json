@@ -516,23 +516,22 @@
   "2025_HS90": {
     "data": {
       "china_export": {
-        "total_usd": 155586537049,
+        "total_usd": 149315294673.0,
         "total_kg": 0,
-        "yoy_growth": 4.2,
-        "period": "2025",
-        "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-        "data_quality": "official_proxy_2025",
-        "total_usd_2024": 149315294673
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
       },
       "imports_from_china": {
-        "US": {
-          "value_usd": 30059618422,
-          "yoy": -13.6,
+        "DE": {
+          "value_usd": 80390107463.87903,
+          "yoy": null,
           "share": 100.0
         }
       }
     },
-    "fetched_at": "2026-06-25"
+    "fetched_at": "2026-07-16"
   },
   "2025_HS85": {
     "data": {

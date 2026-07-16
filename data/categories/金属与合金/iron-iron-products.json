@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "铁和铁制品：海外社媒「metal price trend」增速 249%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Malaysian Steel Industry Faces Growing...」。",
+    "trend_summary": "铁和铁制品：海外社媒「steel market alert」增速 255%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，AL Circle关注「Canada’s aluminium exports jump 50.7%...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 铁和铁制品 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 铁和铁制品 成主流",
       "欧盟 CE 标志强制准入 → 铁和铁制品 出口需通过合规认证",
-      "海外社媒「metal price trend」增速 249% 领跑 → 铁和铁制品社媒种草热度爆发"
+      "海外社媒「steel market alert」增速 255% 领跑 → 铁和铁制品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "metal price trend",
-        "growth": 249.0,
-        "vol": "590K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "steel market alert",
-        "growth": 228.0,
-        "vol": "226K",
+        "growth": 255.0,
+        "vol": "667K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "steel unboxing",
-        "growth": 224.0,
-        "vol": "172K",
+        "kw": "metal factory tour",
+        "growth": 246.0,
+        "vol": "227K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "steel b2b export",
+        "growth": 240.0,
+        "vol": "394K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 171.0,
+        "growth": 237.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 160.5,
+        "growth": 145.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Malaysian Steel Industry Faces Growing Trade Barriers in EU, US, and Mexico - News and Statistics - IndexBox",
+        "title": "Canada’s aluminium exports jump 50.7% as trade surplus reaches four-year high - AL Circle",
+        "source": "AL Circle",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZUEzSUY0bXhXeGE0OWlhaDV5NVBFNEdQVkViLTFGMVUxUzNCYWFSend4eUlMWUJURkJWY2o2MVY5QjIxZTM3b0VoWkJhcjR3VUFna0FIa0ZmdzJNR2VSZVZiLW1Iank2cEYyZ0YxT0Y3MDJ3MlRtSVl6R01yTGRzREIwUkdFWWVsLTdCb2tfT3JGWVhXRTNaV0NzNHVYakNKTXJ2TGJqNXNIT1YzV2JvenBB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Brazil Slams EU Steel Quotas and Tariffs as Unfair Trade Barriers in 2026 - News and Statistics - IndexBox",
         "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUVJnU3dtNmxfazB3azdvMl9GSHV6b1VJWHMyN0d2bndyRE9ZV0p4ck9jM1AxRWxPcERUcHhhQVJTVTFBLV96SGZjQ0dFWXMwRmI1eHlNQWNxZlZndDVOMV9zMGxDTFppNm94WS1aMC14UDdVNTBVNVI1Z2hGX25wUG5xSU1NT3lqZEVBSjgtd3J3eS1ld25fTENR?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Angles/shapes/sections, iron or non-alloy steel, nes (HS: 721690) Product Trade, Exporters and Importers - The Observatory of Economic Compl",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOazE1WmJpeGZqQTNzcXk2SUl2N0RmLXhvVmdieERnWVE0UW5ZRDVmLVozSk1QeDEtWVpJVVoybS1SS1A0endHZXNGLWpqRmlNZTZVUVRfaEpIWmgxeE45TVhXSVlxMmtNVkxVaVctbmRoa09TclM3Rk5qZXZKYW5LYTdhSjBobUU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWN6RmRhX1k4TFp1amo3R1Brb3F3TTJMTWJ6YU54RmhSLTFFTGlUSTczbFdPeTM4RmtodTdzZEJ2QUxyZFJtZ2FUbEg3YzJaeUJqMGFMRjAxYmVZWHRMb1VZRlIxX25BZlhDYmN4WjNuLU9EM05fUkdDM3owelFxdmd0bDNueDUtTm50aHFKMHdUYndoN3BEbTlYYThnUDNWOVpITVJyNXlRRWt3QTh1TlVNVXd1NmdzaFNXN3RRbkk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "金属与合金"
   }
 }

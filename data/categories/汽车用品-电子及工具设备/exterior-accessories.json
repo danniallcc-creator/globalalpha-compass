@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "外部配件：海外社媒「car gadget trending now」增速 244%，搜索端「auto accessory market 2026」热度上行，US Amazon BSR Top-12，The Korea Herald关注「Auto exports down nearly 6% on auto...」。",
+    "trend_summary": "外部配件：海外社媒「car gadget trending now」增速 252%，搜索端「auto accessory market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Mexico (MEX) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,59 +49,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 外部配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 外部配件 合规刚需",
-      "海外社媒「car gadget trending now」增速 244% 领跑 → 外部配件社媒种草热度爆发"
+      "海外社媒「car gadget trending now」增速 252% 领跑 → 外部配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "car gadget trending now",
-        "growth": 244.0,
-        "vol": "748K",
+        "growth": 252.0,
+        "vol": "560K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "car gadget price trend",
-        "growth": 239.0,
-        "vol": "94K",
+        "platform": "x",
+        "kw": "auto accessory supply chain",
+        "growth": 227.5,
+        "vol": "565K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "car gadget factory tour",
-        "growth": 202.0,
-        "vol": "799K",
+        "platform": "x",
+        "kw": "car gadget industry news",
+        "growth": 203.0,
+        "vol": "98K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory market 2026",
-        "growth": 119.5,
+        "growth": 99.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto accessory wholesale supplier",
-        "growth": 111.5,
+        "source": "Linkedin",
+        "kw": "auto accessories market trend 2026",
+        "growth": 89,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Auto exports down nearly 6% on auto parts supply disruptions - The Korea Herald",
-        "source": "The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52bnR6VDh0dEpWRDFTWHpWcEpOclBaVlByWmIzdF80V1JtU2xFdVJyclhwbGNmV0dteFJsYWpqUHMzMm12aXgxbTRCX05IeE8zQVJhR3JMQQ?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
-        "source": "European Parliament",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "title": "United States Balance of Trade - Trading Economics",
+        "source": "Trading Economics",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sUEt3NVRJdXZMLTRuQVkwcE1sOS1jMjNVdnJnbDNPOHpjODJ0UDF5b3J2RUphSFl5WUNkZVZCakdmbXlfT3VCU2pvb3R2RTVqVVJnUVRRUzdQT19QX2hpTEVNSUpoUHFfVVJZ?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "时尚&商品：海外社媒「industrial design tiktok made me buy」增速 236%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
+    "trend_summary": "时尚&商品：海外社媒「industrial design price trend」增速 247%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，fundsforNGOs关注「Applications open for State Trade...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 时尚&商品 出口需通过合规认证",
-      "海外社媒「industrial design tiktok made me buy」增速 236% 领跑 → 时尚&商品社媒种草热度爆发"
+      "海外社媒「industrial design price trend」增速 247% 领跑 → 时尚&商品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "industrial design tiktok made me buy",
-        "growth": 235.5,
-        "vol": "713K",
+        "platform": "google",
+        "kw": "industrial design price trend",
+        "growth": 247.0,
+        "vol": "670K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "industrial design industry news",
-        "growth": 229.0,
-        "vol": "521K",
+        "platform": "google",
+        "kw": "industrial design market 2026",
+        "growth": 236.5,
+        "vol": "137K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "industrial design viral hack",
-        "growth": 216.0,
-        "vol": "526K",
+        "platform": "youtube",
+        "kw": "industrial design tutorial",
+        "growth": 232.5,
+        "vol": "794K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial design market 2026",
+        "growth": 233.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design wholesale supplier",
-        "growth": 94.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 89.0,
+        "growth": 203.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
-        "source": "European Parliament",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "title": "Applications open for State Trade Expansion Program 2026 (US) - fundsforNGOs",
+        "source": "fundsforNGOs",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbkJncUNVbF8yU3BNNkVUbF83cWJmcVlHQlE1N0tNVUdrbDdTdHNQWUtKMi1wbnROYy1SVU8wYmRrY2dxWGZYTEZRTTdPb2NSeGtZMHF5aVo1aUVmUFk4TXNfTG0xSUhZRmJGMDVKSU9EMHlDQS03VFZSLWJheTNEMUlNLTZjMnV5dzRRdXphcElPY210Umk0SVZkZWI1ZV81SDQ1WTJreHh6Z9IBqgFBVV95cUxPbkJncUNVbF8yU3BNNkVUbF83cWJmcVlHQlE1N0tNVUdrbDdTdHNQWUtKMi1wbnROYy1SVU8wYmRrY2dxWGZYTEZRTTdPb2NSeGtZMHF5aVo1aUVmUFk4TXNfTG0xSUhZRmJGMDVKSU9EMHlDQS03VFZSLWJheTNEMUlNLTZjMnV5dzRRdXphcElPY210Umk0SVZkZWI1ZV81SDQ1WTJreHh6Zw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Expanding U.S. Agricultural Exports in Vietnam’s Rising Market - USDA Foreign Agricultural Service (.gov)",
-        "source": "USDA Foreign Agricultural Service (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGNpRlA0RzJtaDAtTnVzazdra3hnZlFQRjdRTUZYUXJKcWpsU0NNV0JnT2RrZGZjYlFDTm1FMUpzT1ZxTWpCa3UzcThpajkwSHV3ZGtJMTRRZzNJTjJSaVl2MGx6SE1VOVVtMjhZNGxPYWgzTlVRcHFVSW5IdmxsWm11akxSWVNLUW9WWXFOZw?oc=5",
+        "title": "UK trade secretary hosts Chinese delegation in bid to boost services - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeVpXa0lLSTRBLVRLNGFmdDJ3TEsySHR2ckhfbkc5UkhTWW9fWWhYSkZJd1VfbUQ2MlBhMXZNVWY3bHRyVC1DOUppZEhwcGF1OFpJZkJaTXIyZVhTamR6cy1UZGVTa21aOEswNWhWRFBpZ1RDTnBWZ0NlYnJkYmQ4dWtqUnRjUUIxU016ejNsMFVFaUl4Zk1VUVVodkczYS16dUNveUZhUXU1YTBLR1RzSnQzM2Z3bEhNUkxrYtIBvAFBVV95cUxQVng5OW12SXprckZnUkQzSGJfa1dYbzlVcnJkcnkybS1VRVlPbVlhRzJuZXJBdm9rb21aTmhNR19RNUtwLWI5bnRvVThUcm42UWdhM19vNXBmbWMxYzdFUmpUSjVSN3YtLVlVZFhmZExZRFhHQ0FXemdQemoyYkpuR2FYb0ZPR3VMcWI0dk4yUlpTT2F6TTJLclNGMzRvTE8zMDc5Yl9fZTFtTWpRLVU4U1luUUYzbFJxc0I0aA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "设计服务"
   }
 }

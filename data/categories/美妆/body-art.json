@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "人体艺术：海外社媒「cosmetic viral hack」增速 236%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Personal Care Insights关注「EU locks in US tariffs, but French...」。",
+    "trend_summary": "人体艺术：海外社媒「cosmetic viral hack」增速 254%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Eye make-up preparations (HS: 330420)...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 人体艺术 出口需通过合规认证",
       "美国 FDA 注册要求 → 人体艺术 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 人体艺术 制造门槛",
-      "海外社媒「cosmetic viral hack」增速 236% 领跑 → 人体艺术社媒种草热度爆发"
+      "海外社媒「cosmetic viral hack」增速 254% 领跑 → 人体艺术社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "cosmetic viral hack",
-        "growth": 236.0,
-        "vol": "169K",
+        "growth": 254.0,
+        "vol": "553K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cosmetic must try",
-        "growth": 219.5,
-        "vol": "445K",
+        "platform": "google",
+        "kw": "cosmetic b2b export",
+        "growth": 246.0,
+        "vol": "462K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cosmetic top 10",
-        "growth": 211.5,
-        "vol": "234K",
+        "platform": "google",
+        "kw": "beauty price trend",
+        "growth": 245.0,
+        "vol": "206K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 112.5,
+        "kw": "cosmetic b2b export",
+        "growth": 243.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 105.5,
+        "source": "Linkedin",
+        "kw": "beauty cosmetics market trend 2026",
+        "growth": 92,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Eye make-up preparations (HS: 330420) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pNUdZaG1jVEF2MW40S1kxY1Rka0hKMkhkY0ZWZVRFXy1rdlZic1dwSUFTaEpQcFF3bnpwbW8wczk3WEtIYi1rZGxUZlFkM2JvSVg0a3Q3MUxUc0FWd2owZHZSM3MwNGM?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "EU locks in US tariffs, but French beauty wants full exemption as losses mount - Personal Care Insights",
         "source": "Personal Care Insights",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMFc1X0hEVDIweWlVOWhlYU93N2hnakdaX3UwN3lzdUdvRFlmODVtVzdWbmFEVG9JU0pvSmhERTUtQmsyaFRoR0xRMVlUTlZvYXFnVnNhMUpSYXZXWm9CTHdzRldZbTYwNFV1MUVRM2tLV2JXVkNnSEc0Ykp0aVI3Sjd3?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "French beauty industry urges EU to remove US tariffs on cosmetics exports - Global Cosmetics News",
-        "source": "Global Cosmetics News",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BRU0lKbEpaNTlIX1E5WHFEdzRxckJkZ1BTMDh6S1cyWmpuRzdXbmFWcnZnVEpMcVBlUjBpeUtaMlRLUFhoSzVuS3F6RmItTWQ1ZzlUcko1aWRxN0tnTWVzUm5LRWMyVXo1dEItNjNjVlV0eTlyb3ZuR2xYZWxDMGNYaGh4djB5NUdqZC0xckN5SUp4RUhDOVdFSHpQYzFWX1I0WEhpcm1ieFN6T1RR?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "美妆"
   }
 }

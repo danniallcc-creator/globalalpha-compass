@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "肉类及家禽：海外社媒「beverage analyst」增速 222%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，USDA (.gov)关注「Ag and Food Statistics: Charting the...」。",
+    "trend_summary": "肉类及家禽：海外社媒「beverage industry report」增速 248%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，USDA (.gov)关注「Ag and Food Statistics: Charting the...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 肉类及家禽 出口需通过合规认证",
       "美国 FDA 注册要求 → 肉类及家禽 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 肉类及家禽 北美本地化制造红利",
-      "海外社媒「beverage analyst」增速 222% 领跑 → 肉类及家禽社媒种草热度爆发"
+      "海外社媒「beverage industry report」增速 248% 领跑 → 肉类及家禽社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "beverage analyst",
-        "growth": 222.5,
-        "vol": "17K",
+        "platform": "google",
+        "kw": "beverage industry report",
+        "growth": 248.5,
+        "vol": "534K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "snack tiktok made me buy",
+        "growth": 243.5,
+        "vol": "749K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "food trending now",
-        "growth": 220.0,
-        "vol": "124K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "food price trend",
-        "growth": 206.0,
-        "vol": "384K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 192.5,
+        "growth": 216.0,
+        "vol": "483K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 152.5,
+        "growth": 108.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 95.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "US food prices up 26% in five years as consumers cut back - The Pig Site",
-        "source": "The Pig Site",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeEtGWDMySFdCS3V4LWJtazBUV0FFdFNTLS1kOE1nRWN2YXlValQ5ZHEtRlFjenZ1N0tGbGh1UW5FU3p6REJvaFFGSlZsUGNWRVdzZUx5TXJkMWdsaUFGUTBOQTVsblNwaG5kbXhhVWFrcDhob1FMX2Q1VjJXS0UzbmZ2bllOOUJsV3lWUkdBc0JaYVBNdUI3bFpEU0c?oc=5",
+        "title": "Market feels volatile, but Food Price Index trending lower - Food Business News",
+        "source": "Food Business News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmVoNjgtbzRSeVlJVElaX1JnQm5YZFRFMXBMd0ptYWo3bG4zaldzU3M1X01kSWRSNEVLbndtYkN3dkIzSUZWRVpiSVZCVjBMRTVEQzRXT0pZMU9jdXo1UjFzZE5uVWVBbGVLeHdQaTBoUTFHWk4tTDdEaVF3dFNqVzhqUC1ZaTcwQlRPUjFpckFSWnlCUTlYVC0tSVREOFR0Y3B6SzJndVk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "食品及饮料"
   }
 }

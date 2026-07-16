@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "特殊用途箱包：海外社媒「luggage #trending」增速 214%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，The Korea Times关注「[ED] Move to strengthen investor...」。",
+    "trend_summary": "特殊用途箱包：海外社媒「backpack b2b export」增速 240%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Germany Denitration Filter Bag - Market...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 特殊用途箱包 供应链合规升级",
       "欧盟 CE 标志强制准入 → 特殊用途箱包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 特殊用途箱包 通关",
-      "海外社媒「luggage #trending」增速 214% 领跑 → 特殊用途箱包社媒种草热度爆发"
+      "海外社媒「backpack b2b export」增速 240% 领跑 → 特殊用途箱包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "luggage #trending",
-        "growth": 213.5,
-        "vol": "508K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
         "kw": "backpack b2b export",
-        "growth": 207.0,
-        "vol": "366K",
+        "growth": 240.0,
+        "vol": "497K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "backpack market alert",
+        "growth": 218.0,
+        "vol": "348K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "backpack aesthetic",
-        "growth": 188.0,
-        "vol": "467K",
+        "kw": "luggage must have",
+        "growth": 217.0,
+        "vol": "401K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 204.0,
+        "growth": 237.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 184.5,
+        "kw": "bag wholesale supplier",
+        "growth": 195.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Germany Denitration Filter Bag - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1RUR19PakFQVzRrZEF5OTdCLWo0N0VmTFR6d1Y4S3JvYlFqUFhWYTNLZGFuWGV0dVlhUldkVW9fTVBHdGZERXZUYjVvMmdQZktROWJiQUlld3lEOV9fYWVsWFp0bXFGcHZuV3JWNHpYd3ZMR19CWm4tT2JYVVdXVUstQk9mUEh2clhGZ2VJWjhiYWR3bkZTclJ4NktoUUsweHdfcUVFOWpId1VYVks0SQ?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "[ED] Move to strengthen investor protection for more sound market - The Korea Times",
         "source": "The Korea Times",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMlFGWHUzVGlhYVE3OXhHQnRQWUhPeWRQRDFEejJpbjktLXlVVEVRTm1yU0txY21yRzBOV2QyYWhRV19MQjRkZ2dmWm50OGJNR2dxbmpjR25wWnVBd0JPUHpoMkZTbDFXTkhMMGdObjEwRDZZSFFjZkU2VjV1QzhDWHV1LTE2dWxOb1NoZFB6ZnZzVWNFQjh2bkp6MHVlN1JtZEl3YWlwX3RjX3NQeXg3SDhGdm9MSmtoU3ZN0gHAAUFVX3lxTE1TV1Rhb2gtamtyc0Y3Mmd0LUhHdVJYY3NoWHVhNUU0X3ZIZ3ZpekhOcTJpNmdfbGFjbXl3bUUwU1pPNjl6Rm05QVdUTnQ1LVlZVXBsRTNZdmx0SlpERVJVWGV3SjNCSUZRM2FCNEFtVGdHNlBlczNoaGR0ODRRTmNxUEZWdDdYZUswSnlsaTluRUM1UUttdjdfRm5TWUVEVWx5OURLbjlTbGYzXzBZXzEwSG01ZEtoNTNaRmZISUpVVQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Coffee Prices Show Divergent Trends in Domestic and International Markets – Conab Report June 2026 - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlRvWjdkUldhNUtoWDV0bEttQ2RoODA0SHJmOEJVQ0FrWDJkTnFTMmxTbnQtM0JVS3NqMzRVdV83VnBzU3lNenctUmVwalJiRl9kcUR4aV9ydXRFTFVXOGdPTmRZY2duemVWdjlEY200WFpWUk5yS3NxcGVVd1YyLTNnMnRrWm5FZ1NwUXpYeUUtSk5PT3B0UDE4cTNiZnA4TU1QNXUtNUZhNS1JNHZONkI4eEVEbWdNaFI4QngyQTByc1RJ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-07-12",
+    "generated_at": "2026-07-16",
     "l1_ref": "箱包"
   }
 }
