@@ -1283,21 +1283,24 @@ def fetch_local_keywords():
                 # 给一个稳健的种子值（按品类粗估）
                 cat_lower = (s.get('cat') or '').lower()
                 if any(k in cat_lower for k in ['3c', '家电', '小家电', '大家电']):
-                    growth = '+18%'
+                    growth = 18
                 elif any(k in cat_lower for k in ['美妆', '个护']):
-                    growth = '+22%'
+                    growth = 22
                 elif any(k in cat_lower for k in ['服饰', '女装', '男装', '童装']):
-                    growth = '+12%'
+                    growth = 12
                 elif '玩具' in cat_lower or '宠物' in cat_lower:
-                    growth = '+15%'
+                    growth = 15
                 else:
-                    growth = '+10%'
+                    growth = 10
+            # Ensure growth is always numeric (strip % if somehow still string)
+            if isinstance(growth, str):
+                growth = round(float(growth.replace('%', '').replace('+', '')), 1)
             items.append({
                 'platform': cfg['platform'],
                 'country': cfg['country'],
                 'keyword': kw,
                 'volume': s.get('volume', 'N/A'),
-                'growth': growth if isinstance(growth, str) else f"{growth:+.0f}%",
+                'growth': round(float(growth), 1) if not isinstance(growth, (int, float)) else round(growth, 1),
                 'cat': s.get('cat', cfg['cat']),
                 'insight': s.get('insight', f"{cfg['platform']} curated ({today_str()})")
             })

@@ -3864,11 +3864,12 @@ function renderCompass(cat, ctx) {
           }
         }
         if (topKw) {
-          var gColor = (topKw.growth||0) > 0 ? '#00ff88' : '#ff4444';
+          var _tg = typeof topKw.growth === 'number' ? topKw.growth : parseFloat(String(topKw.growth).replace(/[^0-9.\-]/g,'')) || 0;
+          var gColor = _tg > 0 ? '#00ff88' : '#ff4444';
           el.style.display = '';
           el.style.background = gColor + '22';
           el.style.color = gColor;
-          el.innerHTML = '\ud83d\udcf1 ' + topKw.keyword + ' ' + ((topKw.growth||0) > 0 ? '+' : '') + (topKw.growth||0).toFixed(0) + '%';
+          el.innerHTML = '\ud83d\udcf1 ' + topKw.keyword + ' ' + (_tg > 0 ? '+' : '') + _tg.toFixed(0) + '%';
         }
       }
     });
@@ -10197,12 +10198,14 @@ async function fetchTrendingJSON() {
 
 function growthBadge(growth) {
   if (growth === undefined || growth === null) return '';
-  var isPositive = growth >= 0;
-  var color = isPositive ? (growth > 50 ? '#22c55e' : '#4ade80') : '#f87171';
+  var gn = typeof growth === 'number' ? growth : parseFloat(String(growth).replace(/[^0-9.\-]/g,''));
+  if (isNaN(gn)) return '';
+  var isPositive = gn >= 0;
+  var color = isPositive ? (gn > 50 ? '#22c55e' : '#4ade80') : '#f87171';
   var arrow = isPositive ? '↑' : '↓';
   var bg = isPositive ? 'rgba(34,197,94,.12)' : 'rgba(248,113,113,.12)';
   return '<span style="display:inline-flex;align-items:center;gap:2px;padding:1px 6px;border-radius:6px;font-size:11px;font-weight:600;color:'+color+';background:'+bg+'">' +
-    arrow + ' ' + Math.abs(growth).toFixed(1) + '%' +
+    arrow + ' ' + Math.abs(gn).toFixed(1) + '%' +
   '</span>';
 }
 
@@ -10362,12 +10365,13 @@ function renderTrendLocal() {
     }).join('');
 
     var kwRows = keywords.length ? keywords.map(function(k){
-      var growthColor = (k.growth||0) > 0 ? 'text-green-400' : 'text-red-400';
-      var growthSign = (k.growth||0) > 0 ? '+' : '';
+      var gn = typeof k.growth === 'number' ? k.growth : parseFloat(String(k.growth).replace(/[^0-9.\-]/g,'')) || 0;
+      var growthColor = gn > 0 ? 'text-green-400' : gn < 0 ? 'text-red-400' : 'text-gray-400';
+      var growthSign = gn > 0 ? '+' : '';
       return '<div class="py-1 border-b border-white/5 last:border-0">' +
         '<div class="flex justify-between items-center gap-2">' +
           '<span class="font-mono text-xs text-yellow-300">' + k.keyword + '</span>' +
-          '<span class="text-[11px] ' + growthColor + ' flex-shrink-0">'+ growthSign + (k.growth||0).toFixed(0) +'%</span>' +
+          '<span class="text-[11px] ' + growthColor + ' flex-shrink-0">'+ growthSign + gn.toFixed(0) +'%</span>' +
         '</div>' +
         '<div class="text-[11px] text-gray-500 mt-0.5">'+ (k.cat||'') + ' · ' + (k.volume||'') +'</div>' +
         (k.insight ? '<div class="text-[11px] text-gray-400 mt-0.5">'+k.insight+'</div>' : '') +
