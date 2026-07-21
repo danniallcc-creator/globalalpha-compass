@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental wholesale supplier」增速 252%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Inspenet关注「Global diesel market: 5 changes...」。",
+    "trend_summary": "回收：海外社媒「green tech market alert」增速 251%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Deloitte关注「What’s happening this week in...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental wholesale supplier」增速 252% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech market alert」增速 251% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "environmental wholesale supplier",
-        "growth": 252.5,
-        "vol": "543K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "environmental industry report",
-        "growth": 243.5,
-        "vol": "57K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental supply chain",
-        "growth": 242.5,
-        "vol": "93K",
+        "kw": "green tech market alert",
+        "growth": 251.0,
+        "vol": "537K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 249.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "green tech viral hack",
+        "growth": 249.0,
+        "vol": "758K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "green tech unboxing",
+        "growth": 248.0,
+        "vol": "69K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 171.0,
+        "growth": 143.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Global diesel market: 5 changes redefining trade - Inspenet",
-        "source": "Inspenet",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGs3dUdzRzlGQjdqZTZmdjBWS2FTVUFOa2FqX2R3YlhhcVJIc3ZrMVBCRThWeWJMMzgwb0ZyM2dKRlpDNlF5NG5rX3NOb1hfRWhXZ0lPczR6aGdhN3IyaXM3SS1zVU82RGk0SzJPcVFwXzZOZzR5ZUNwLVhrNXUtblhzbW1ja3dra3VRVFhfNjQ?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental wholesale supplier",
+        "growth": 129.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "What’s happening this week in economics? - Deloitte",
         "source": "Deloitte",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Arab Regions Remain the Most Underrepresented in the Global Trade System - Global Issues.org",
+        "source": "Global Issues.org",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jaC1RVkRNelc1MURtRnBuTWJudGwyZ04zUHE1b3Bjb3laZ05NWEVVYTd4R0UxY3RMTGVfc0lDX2duYkp6Tkl0Q2J2OEhCdnFKQ3hFSm0zVWdSTFlEUUhR0gFkQVVfeXFMTTlNZzVMR0NZRjhmVGxidVh5WkJ6Rl9zeDhDR19wdzNZSGFEalh2WmZYcVJBWXhyS21wRXBnaVVzYmMzREZ3aDN6cUV5M0JHQ3lyWWVSRGhnN1JsYnBFUGZhb0V2TQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "环保"
   }
 }

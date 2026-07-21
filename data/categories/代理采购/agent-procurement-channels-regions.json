@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 81,
-      "trend_direction": "down",
+      "interest_score": 82,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-16"
+      "fetched_at": "2026-07-21"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-21",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing breaking」增速 252%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，AgWeb关注「Grains Rally as as Soybean Export...」。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing tiktok made me buy」增速 252%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Argentina (ARG) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,52 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
-      "海外社媒「sourcing breaking」增速 252% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing tiktok made me buy」增速 252% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "sourcing breaking",
+        "platform": "tiktok",
+        "kw": "sourcing tiktok made me buy",
         "growth": 251.5,
-        "vol": "270K",
+        "vol": "96K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "procurement aesthetic",
-        "growth": 238.0,
-        "vol": "213K",
+        "platform": "youtube",
+        "kw": "sourcing review 2026",
+        "growth": 249.5,
+        "vol": "616K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "sourcing industry report",
-        "growth": 229.5,
-        "vol": "227K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sourcing wholesale supplier",
-        "growth": 171.5,
+        "kw": "procurement b2b export",
+        "growth": 244.0,
+        "vol": "77K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 161.0,
+        "growth": 241.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Grains Rally as as Soybean Export Business Confirmed: Is it China and Will it Spur Fund Buying? - AgWeb",
-        "source": "AgWeb",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVkhXZXoyS2w2Vk5MNktHUzJxbUdZdXVFc2NxUnVKd3lCZXMzelBETkhzMFdGVWJ1SVozZ3BWVG5sWUJSZ0Nhc0hSV2FVb3VpaE94N3RWN05PdHdyUjBRY1RMd29CYkoyaFplOEpBcDJhSkZUSURtZFpGV1Z4OTlkT0tTT0o2YWNuakZYZ2plQlhhamVlalhsWmROTzBYb09MSzRCZ2FOOTBxUU5DY0dfdWhCdjllODQtR3k4?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sourcing market 2026",
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -109,6 +102,13 @@
         "title": "Argentina (ARG) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01Z1hURXpueGhTQmxLYzNiUTFmbHAxS2xQUXM2RjFhaWlKalZRVnd4ei1tQ3I2RGdZcG5LMC1GWnhBM0tVYnJUVXZYZ29oNzJmb0E?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "June 2026 — Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
+        "source": "Centre for Research on Energy and Clean Air",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0JKc25RLVhfMEdtaHlZWHdIM00zX3VHcXdkREtpeTRhSnRBdUJpSWZxdEMyZWF4SjJjNE5xdjNQeHc2a194Z25YTXNLZnZHd3pPY2VzQlQ2YUZxRVBYUmdVRXFmc3lsa3phWlVndkE1ZTV4YVFwVGJjZUJoTnJVd2oybjFqbW1qTnVROGs4bzBHcUQ2dWp4RTYtUUJGWm1UbUk1Uw?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "代理采购"
   }
 }

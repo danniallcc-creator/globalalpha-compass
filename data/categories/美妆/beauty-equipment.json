@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "美容设备：海外社媒「cosmetic viral hack」增速 254%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Eye make-up preparations (HS: 330420)...」。",
+    "trend_summary": "美容设备：海外社媒「beauty breaking」增速 254%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China’s Next Soft-Power Export Could Be...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 美容设备 出口需通过合规认证",
       "美国 FDA 注册要求 → 美容设备 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 美容设备 制造门槛",
-      "海外社媒「cosmetic viral hack」增速 254% 领跑 → 美容设备社媒种草热度爆发"
+      "海外社媒「beauty breaking」增速 254% 领跑 → 美容设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cosmetic viral hack",
-        "growth": 254.0,
-        "vol": "553K",
+        "platform": "x",
+        "kw": "beauty breaking",
+        "growth": 253.5,
+        "vol": "12K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "beauty review 2026",
+        "growth": 242.5,
+        "vol": "670K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "cosmetic b2b export",
-        "growth": 246.0,
-        "vol": "462K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beauty price trend",
-        "growth": 245.0,
-        "vol": "206K",
+        "kw": "skincare wholesale supplier",
+        "growth": 238.5,
+        "vol": "581K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "cosmetic b2b export",
-        "growth": 243.0,
+        "kw": "skincare wholesale supplier",
+        "growth": 235.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "beauty cosmetics market trend 2026",
-        "growth": 92,
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 187.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Eye make-up preparations (HS: 330420) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pNUdZaG1jVEF2MW40S1kxY1Rka0hKMkhkY0ZWZVRFXy1rdlZic1dwSUFTaEpQcFF3bnpwbW8wczk3WEtIYi1rZGxUZlFkM2JvSVg0a3Q3MUxUc0FWd2owZHZSM3MwNGM?oc=5",
+        "title": "China’s Next Soft-Power Export Could Be Beauty - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTnJlay1UakhsV2ZZb1VoZFhTNWYtYTBQOXh1eTNPcVhaMnJhcG5MRVZUbm95bUY0bkxIcjZxNlNkdUZDbWRLS0lsdjNON0dHQWZHa2VlSVJSaDlpNXlWZzBKSzBmX1R0MHBSQzl2NXV6eV9iWFdEUDlqQzI5R2QyVm4xQkYwV2N3TkdHSS1pc3VxRDRLa1JIQU1fSnFFOHJwMXc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU locks in US tariffs, but French beauty wants full exemption as losses mount - Personal Care Insights",
-        "source": "Personal Care Insights",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMFc1X0hEVDIweWlVOWhlYU93N2hnakdaX3UwN3lzdUdvRFlmODVtVzdWbmFEVG9JU0pvSmhERTUtQmsyaFRoR0xRMVlUTlZvYXFnVnNhMUpSYXZXWm9CTHdzRldZbTYwNFV1MUVRM2tLV2JXVkNnSEc0Ykp0aVI3Sjd3?oc=5",
+        "title": "How Far Can South Korea’s Export Rally Go? - Korea Economic Institute of America -",
+        "source": "Korea Economic Institute of America -",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EWGRTSVJvMl84bldJWmRnMERKVlI0SEFXSlBNZUpjSURBTm9ITWxqM2dOejJmTzQxSFJVOFNSNEh1eHdtdzVaTHpiWDZpYmR6dTFZbG1nWm5ER3hqRnFmU2FlNkpTMi01UlRpeTUxczlXWldncWc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "美妆"
   }
 }

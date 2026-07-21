@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "促销礼品&商务礼品：海外社媒「craft viral hack」增速 233%，搜索端「gift market 2026」热度上行，US Amazon BSR Top-12，livemint.com关注「The state can facilitate exports but...」。",
+    "trend_summary": "促销礼品&商务礼品：海外社媒「gift top 10」增速 246%，搜索端「craft b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Gifts Crafts market poised for growth...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,52 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 促销礼品&商务礼品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 促销礼品&商务礼品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 促销礼品&商务礼品 通关",
-      "海外社媒「craft viral hack」增速 233% 领跑 → 促销礼品&商务礼品社媒种草热度爆发"
+      "海外社媒「gift top 10」增速 246% 领跑 → 促销礼品&商务礼品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "craft viral hack",
-        "growth": 233.0,
-        "vol": "495K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "craft factory tour",
-        "growth": 224.0,
-        "vol": "511K",
+        "kw": "gift top 10",
+        "growth": 246.5,
+        "vol": "334K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "gift supply chain",
-        "growth": 220.5,
-        "vol": "87K",
+        "kw": "craft market alert",
+        "growth": 241.0,
+        "vol": "125K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "gift market 2026",
-        "growth": 189.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "craft aesthetic",
+        "growth": 232.0,
+        "vol": "164K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "craft b2b export",
-        "growth": 51.0,
+        "growth": 178.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "gift market 2026",
+        "growth": 160.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "The state can facilitate exports but it’s businesses that must turn competitive in global markets - livemint.com",
-        "source": "livemint.com",
-        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZXNmOS03MkEtOG5hLXFxc0VsaW5sT0lnNUV3RnpvY19lUHhVVm1FVXBDZUFNYU5iX2tsYmFZeXNBQzFhN0psUzJweTBlMEoxYmFZMjAtUUxyd1J5SzQ5NDJjUHFPV3VwZHVPZ0d5T3dmYUZNZmtHM0hoaElEdzktemRCRkIwY0pnZXkxQnFZamEzRjJiX1JfMUo2WHVjVWg3UVFUaGRicHZTN0xMLTVRMi1lS0w0UldVWlVhc0RZbXAxLUQ2YnhVcE8yVGJPSkFvUkl4Zk5sVkJTc2VWWENZclNsQm5KNFA1RjA1VU1rX25rT1FDMEdQQTZXLWRrWHkzZzJuZNIBigJBVV95cUxPMnF0WWN0OHRBVzBMODY4V3RFYVhxa0hleTVxQUNTZmh2TEpmdnBVUzlOVVJkaUhlZTN0MVgydS1FTmZYYWlfSkNSdFZQTDRFR3loWTFvQ3l4UzhWR1dSMmg5TmZuamNKOUNGdlJoV0JHWFU4aDVVdGdROHNSQWxRem82d0Jtek5Bbnh4MGhScnNjTEJxQ2V3RTRWclFVZjhORVc4ZTctOEtPcTFNUXcwWFlPd2dtSDFtTWdyWWQtUXJnWXJEU0ZnaU9VQlJSV0dXR1JkNVRBNkZvRHVJRlRwQ0NLdmc5OWx3Z09KNGpoMkNidzJMdkVNRnhqbmFYb05PM1FzQm5abjgtZw?oc=5",
+        "title": "Gifts Crafts market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/gifts-crafts-2026",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Analysts: gifts crafts sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/gifts-crafts-2026",
         "hits": 0
       },
       {
@@ -118,7 +125,7 @@
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "礼品与工艺品"
   }
 }

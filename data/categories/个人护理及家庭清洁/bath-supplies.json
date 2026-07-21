@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 48299616,
-    "total_net_weight_kg": 7799616,
+    "total_export_value_usd": 41720533,
+    "total_net_weight_kg": 1220533,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-16"
+    "fetched_at": "2026-07-21"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 75,
+      "interest_score": 48,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-16"
+      "fetched_at": "2026-07-21"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-21",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -69,86 +69,55 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZVdDdWRiWWt6cHhrMWhIdmtFTWk2YU16c3VPX21SVU1PRXh5RUotOF96cXdlckhxcFNaNzZCWVNibzUtQ2duSG9HUHBLTHplX3RacjJ2V2QyODdSMnlGZnpsajJUV2NRTzBxVzVCdnpOSGlhemtZLWZ5em1zaHhubllMVGpEZk1QUk9OaVJGcW9qbWEwSEU0dV9OT1h0ekppS0xzR3Nn?oc=5"
     ],
-    "fetched_at": "2026-07-16"
+    "fetched_at": "2026-07-21"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 13700058808.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
-      "DE": {
-        "value_usd": 4167886467.4719954,
-        "yoy": -2.7,
-        "share": 39.7
-      },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": 2.8,
-        "share": 16.0
+        "yoy": null,
+        "share": 26.6
       },
       "GB": {
         "value_usd": 3374211388.828002,
         "yoy": 26.2,
-        "share": 32.1
+        "share": 53.2
       },
       "KR": {
         "value_usd": 769804434.0,
         "yoy": null,
-        "share": 7.3
+        "share": 12.1
       },
       "BR": {
         "value_usd": 217194518.0,
         "yoy": null,
-        "share": 2.1
+        "share": 3.4
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 2.8
+        "share": 4.6
       }
     }
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "European Union Disodium Cocoamphodiacetate - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdTBVVmdfTGk1MldLVUJqckI5RXFIY1NVMlRyM003Y0FaQVFuUi1BeWdnNFQ3SFppNjNUWWNQVWxsLUdwSWtYWV9EaGdaQ3l5b0xuRE5qYTllOTZmemlfVFlrYVdQakxMYXo0SWZRV2s3eTI3QzhLbWF6T2VjS0VxUGRiRnR6bWg3RnhoWmVjRHJ0SHRCTGNTOXduNWV5Z1VQVENTQjhrNklLWENkYWlZTm9TLUpYOGJZbV",
-        "country": "EU",
+        "title": "The hidden trade success story in Americans’ bathroom cabinets - Washington Examiner",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNVi04a0lrRnJNZFFPdWRDeUNORG5wakViWGE4VEtmaEZIbU40bE1VWXlQSEpDZVBHSmhHTFJJQUlzalZsRVB4NVBsZWRtMW5BVEJneXk4QWxPSWhScWwtb2ZpZjhuS1Q4Nm42UXNDUGZ0VWRXVXROUTRPVGdwSW5Ea2JtNmRrUjQ0NUpYRVh3S1NGbGxTSlF0MGE4Zk9IMWRUOUt0VzJ6bklXUFNscXdjNA?oc=5\" targe",
+        "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdTBVVmdfTGk1MldLVUJqckI5RXFIY1NVMlRyM003Y0FaQVFuUi1BeWdnNFQ3SFppNjNUWWNQVWxsLUdwSWtYWV9EaGdaQ3l5b0xuRE5qYTllOTZmemlfVFlrYVdQakxMYXo0SWZRV2s3eTI3QzhLbWF6T2VjS0VxUGRiRnR6bWg3RnhoWmVjRHJ0SHRCTGNTOXduNWV5Z1VQVENTQjhrNklLWENkYWlZTm9TLUpYOGJZbVFtNE55Yy0?oc=5",
-        "published": "Tue, 14 Jul 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Q2 2026 Policy & Regulation: Affordability Promises Meet Retail Operating Realities - retail-insider.com",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdnFGVHYzX3B2dXE4Snd6UHhqek9qMVV1b2NpZ2xieEVoa2c0WDY3MVRwekNoNndKd1JZSnh4Vk5TMG5qbU5Ealg4VGs5akgyWkpLZDJWWmx2WDc5OXJTTHR4VjV3eHpublZnWHJYNGlPT2FNcFdHYks1a3dUQUJBbE96NmhqRzNWTzR6STZBRTNabjlhbERnQUtjeHpxT2lIS2VVek83QS16ZUkzQlBWRlJ1QTAzc2pxNm",
-        "country": "GB",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdnFGVHYzX3B2dXE4Snd6UHhqek9qMVV1b2NpZ2xieEVoa2c0WDY3MVRwekNoNndKd1JZSnh4Vk5TMG5qbU5Ealg4VGs5akgyWkpLZDJWWmx2WDc5OXJTTHR4VjV3eHpublZnWHJYNGlPT2FNcFdHYks1a3dUQUJBbE96NmhqRzNWTzR6STZBRTNabjlhbERnQUtjeHpxT2lIS2VVek83QS16ZUkzQlBWRlJ1QTAzc2pxNmM1UFIwZmJGdw?oc=5",
-        "published": "Thu, 09 Jul 2026",
-        "source": "retail-insider.com"
+        "category_relevance": "direct",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVi04a0lrRnJNZFFPdWRDeUNORG5wakViWGE4VEtmaEZIbU40bE1VWXlQSEpDZVBHSmhHTFJJQUlzalZsRVB4NVBsZWRtMW5BVEJneXk4QWxPSWhScWwtb2ZpZjhuS1Q4Nm42UXNDUGZ0VWRXVXROUTRPVGdwSW5Ea2JtNmRrUjQ0NUpYRVh3S1NGbGxTSlF0MGE4Zk9IMWRUOUt0VzJ6bklXUFNscXdjNA?oc=5",
+        "published": "Mon, 20 Jul 2026",
+        "source": "Washington Examiner"
       }
     ],
     "country_summary": {
-      "EU": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "GB": {
+      "US": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "应急车辆：海外社媒「ev industry news」增速 247%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China’s passenger car exports are up...」。",
+    "trend_summary": "应急车辆：海外社媒「electric vehicle must try」增速 242%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China’s passenger car exports are up...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 应急车辆 出口需通过合规认证",
-      "海外社媒「ev industry news」增速 247% 领跑 → 应急车辆社媒种草热度爆发"
+      "海外社媒「electric vehicle must try」增速 242% 领跑 → 应急车辆社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "ev industry news",
-        "growth": 247.0,
-        "vol": "478K",
+        "platform": "tiktok",
+        "kw": "electric vehicle must try",
+        "growth": 242.5,
+        "vol": "485K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 243.5,
-        "vol": "267K",
+        "platform": "tiktok",
+        "kw": "electric vehicle tiktok made me buy",
+        "growth": 232.5,
+        "vol": "524K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle industry report",
-        "growth": 223.5,
-        "vol": "396K",
+        "platform": "instagram",
+        "kw": "ev aesthetic",
+        "growth": 232.0,
+        "vol": "13K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 225.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 240.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
-        "growth": 79.5,
+        "growth": 172.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Mexico Meets Japanese Executives as EV Exports Slow - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWmxtYVNoLVNnMmtlek0wX1BLVFRLeXdFX2pvSDZ4ZHpKQ1RGLU81cUV4YnlWVi1UMjNPckY2cXU2WVczYUVXa0tfS05lWWlvanZtT3FfbC1QZ1VKZDAwbjBYLUxORER0andOS3RHelNwYXkzMG53bW9iZlA5UmRnZVFRM0JOUEV6QzM1eWxoS19YTWlVMFRZ?oc=5",
+        "title": "China’s passenger car exports are up 80% in June as EV demand grows, while sales drop at home - The Tribune-Democrat",
+        "source": "The Tribune-Democrat",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORm4tZWZoS0NleWxsME9lUFNGR0ZHTUdKZ2loLVJfanNfcldpMTY4TnA1VDBkS05ZM0E2a2lyTXRMTUd3WmJxM0dueVFBUlYyUWpMYV9RTHYtQ2JKYUNpa0RISlRIaE9QazZDUFhYNlRLdm5BRm8wV3RoLTJyRmdxcFQ5TUNMbmg5LW1BUmxBUEFtR0xQLVJiT05paG5uR3UwSDNuWFN4aVFZdUkwalJOdi16anY1SkdkbzRSa2tPZ1J6bWVkb056MmVhbDZGMGRKYnJ1VGN5ZmM0cl9pMU00d3ZhcFBDMmZZcklLQWlfOUtZZw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "整车及交通工具"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 60%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-32，BORGEN Magazine关注「Growing Hope: Community Gardens for...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 102%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-19，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,46 +48,53 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 60% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 102% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 60.5,
-        "vol": "308K",
+        "growth": 102.5,
+        "vol": "167K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor breaking",
-        "growth": 253.5,
-        "vol": "187K",
+        "platform": "google",
+        "kw": "home decor market 2026",
+        "growth": 256.5,
+        "vol": "246K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "home decor viral",
-        "growth": 241.5,
-        "vol": "784K",
+        "kw": "home decor new arrival",
+        "growth": 250.5,
+        "vol": "597K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 57.5,
+        "growth": 99.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 210.5,
+        "growth": 253.5,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -97,33 +104,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "North America Micro-Climate Indoor Gardening Pods Market Size & Share 2026-2035 - Global Market Insights Inc.",
-        "source": "Global Market Insights Inc.",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbG5qSTM0SlZ1WGptdklBbkpUd3FLRWQ4dUN1d1RabExreHprU2NnX1kwcVhaY1ByU0djaWlQcVRDTWxlbXlJY180d1AtU2t3VXdhX2ZjSzJYbVRpLWtVQTRPV1JSc3NncFR3dkhqMzI0TkswT1pQa0VKN0tXc3pNM2U3c0oxSUFUdUl4MkdpcVBBYnB0d3haMmdTSlRtVXdpT1lz?oc=5",
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 19,
+        "title": "Top garden - Smart Edition",
+        "price": "$249.1",
+        "rating": 4.2,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "DE",
-        "rank": 32,
+        "rank": 13,
         "title": "Top garden - Pro Edition",
-        "price": "$203.7",
-        "rating": 4.3,
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "UK",
-        "rank": 26,
-        "title": "Top garden - Smart Edition",
-        "price": "$252.1",
-        "rating": 3.8,
+        "price": "$239.7",
+        "rating": 4.5,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "家居园艺"
   }
 }

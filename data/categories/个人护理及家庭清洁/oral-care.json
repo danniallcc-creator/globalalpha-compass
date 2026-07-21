@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 48299616,
-    "total_net_weight_kg": 7799616,
+    "total_export_value_usd": 41720533,
+    "total_net_weight_kg": 1220533,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-16"
+    "fetched_at": "2026-07-21"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 83,
-      "trend_direction": "stable",
+      "interest_score": 55,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-16"
+      "fetched_at": "2026-07-21"
     }
   },
   "industry_analysis": {
@@ -52,26 +52,28 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-21",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 3,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 100.0,
+      "positive_pct": 66.7,
       "negative_pct": 0.0,
-      "neutral_pct": 0.0,
-      "articles_analyzed": 2
+      "neutral_pct": 33.3,
+      "articles_analyzed": 3
     },
     "top_headlines": [
+      "Andreea Marginean (Vantu) Appointed Head of Global Wholesale Channel at Swarovski - hrtoday.in",
       "CHFA launches Greenhouse program to support emerging Canadian wellness brands - retail-insider.com",
-      "NA finance panel backs 0.5% minimum tax for distributors, wholesalers of 14 goods - Profit by Pakist"
+      "From a family wholesale business to four retail stores, AD Enterprises continues to grow after more "
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVm1RWllWSVl3N180SWd4YnVnNFA2SDA4RFd1dk1XQ2hqM09OZkhkdlFuQmJGZjNkeE5nSFVoOXVuN0dsZ0lLWVM0VUlrN1pkLVlQYmZTVnZmcnVqUGItRTZ0U3pTa1pPRVBwc3BtWUtibFJjY256V1NGM2VHMHU2dWs2SXFVck5uQ3RIUVJZbGZfSV9BZzFVUmtRMTZVSWt4?oc=5",
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM0Rha3JuMXg0TkI3ZzVZX3IxX2RrenU1dTY1dXhkYWpwbjVvMS1NaTJYSDVMRlRFbDU0OG1XTHlvUUhFSU5vbG94NUx4RVQ1Vi1sYnJvV1BWS0pUaU1UcENvWU5pRFJ4NkRtZ3JuNnZfc29qdlhUWkFnd3pTMFZpZkNSY2tqc3dENzA4clROb2lZSHlGVTJyRE80Q0hoRHZ5Sjl2NlBUN3dNRzV1TUpEdnIyS3gxdnk1UU1sYkZFUjVCYVdUcktV?oc=5",
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRHRNYjhxVm0wSV94V3pEZ2t1bW9NOWZuaEw3RE5pVTFNX0hsSnE2OEt1cDdHUl9Oc3daQklZOFB4TzQ5akdjcTVCTzlvVDZaX29SdzhJamQyVzVsTmhnYk5EUTRON18yb1U1YllHWW1TRkdLUnBFajhsY1B1Q0d0c2l2Tm9nc0Q4ZHFvS3d1akpKOFhKSGdVamtCS0h4bDZwNGVXczBhZ3BMeTJjRE53TXdlb3czU2t0NnMwTlBwU2hxWHdpQmRfXzI1QWo?oc=5"
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTl9wTHdSalVOMWZWcEd6VTdSbXEwUUk4SFQzMWUzeG9aYVRhNmRzNXNYRVR0RGNjZC1LclE5c3RYUlI3QmdCNEFaNEYwcmxzOWI4YlRHdGxTVGlzQ2ViYVF3UWpwcE9oUzNxVFJDeFdTNHdndDd4bVN3SXlSakpYaVgxNkxNWGlUZF9DaWRlcFJKSFhWNTJzdHhZaER4UFRldUhCSHBvWFU1TG9KTjlLUEZwM05oWFNwdWVNTDVTZGhwRlhKV1ZHYXlUR1V0OHhEVHJNdUp5bDNZRDFpVHNCNTZHTTI?oc=5"
     ],
-    "fetched_at": "2026-07-16"
+    "fetched_at": "2026-07-21"
   },
   "policy_updates": {
     "articles": [
@@ -130,44 +132,32 @@
     }
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 13700058808.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
-      "DE": {
-        "value_usd": 4167886467.4719954,
-        "yoy": -2.7,
-        "share": 39.7
-      },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": 2.8,
-        "share": 16.0
+        "yoy": null,
+        "share": 26.6
       },
       "GB": {
         "value_usd": 3374211388.828002,
         "yoy": 26.2,
-        "share": 32.1
+        "share": 53.2
       },
       "KR": {
         "value_usd": 769804434.0,
         "yoy": null,
-        "share": 7.3
+        "share": 12.1
       },
       "BR": {
         "value_usd": 217194518.0,
         "yoy": null,
-        "share": 2.1
+        "share": 3.4
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 2.8
+        "share": 4.6
       }
     }
   }

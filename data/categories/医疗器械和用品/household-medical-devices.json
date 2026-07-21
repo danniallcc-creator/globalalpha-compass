@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家用医疗器械：海外社媒「medical device wholesale supplier」增速 246%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，Medical Device and Diagnostic industry关注「EU-Mexico Deal Opens Medtech Export...」。",
+    "trend_summary": "家用医疗器械：海外社媒「medical device supply chain」增速 248%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，flow – Deutsche Bank关注「Meeting the Middle East’s taste for...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,52 +50,52 @@
       "欧盟 CE 标志强制准入 → 家用医疗器械 出口需通过合规认证",
       "美国 FDA 注册要求 → 家用医疗器械 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 家用医疗器械 全球市场准入",
-      "海外社媒「medical device wholesale supplier」增速 246% 领跑 → 家用医疗器械社媒种草热度爆发"
+      "海外社媒「medical device supply chain」增速 248% 领跑 → 家用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "medical device wholesale supplier",
-        "growth": 246.5,
-        "vol": "520K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "medical device analyst",
-        "growth": 237.5,
-        "vol": "56K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "medical device supply chain",
-        "growth": 202.5,
-        "vol": "14K",
+        "growth": 248.5,
+        "vol": "629K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "medical device tiktok made me buy",
+        "growth": 238.5,
+        "vol": "368K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "medical device tutorial",
+        "growth": 229.5,
+        "vol": "90K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "medical device wholesale supplier",
-        "growth": 243.5,
+        "growth": 141.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 112.0,
+        "growth": 137.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU-Mexico Deal Opens Medtech Export Path - Medical Device and Diagnostic industry",
-        "source": "Medical Device and Diagnostic industry",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeG5XMl9WcDhjWGFXejBsS3BvcldjUmFEWExGckdUSm5lRFVRQ0o0S21sam1NNndIVy1CS1QxQzJqaUltVWhjNkxfT1djYjlGUDhWLXFIZG1TWG9mdm5Dc1JUYmxHM3ZQcEJXWVk5TGF5Rk5RbTI1UlNaakNHZFh6NUxmQnRpT2VMbmtXcnFOUXF1dFJuYXhfNm5jWEYtWGYybXY0T29wRTd3VWtZbV9fWUFxYjVfQQ?oc=5",
+        "title": "Meeting the Middle East’s taste for British cheese - flow – Deutsche Bank",
+        "source": "flow – Deutsche Bank",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXNiQlliWHR3ZFR6UXUwTEVXTVp3Q2dEOW1qaDBpYUtZYnY1YjhGelVlejJ6bHdDcURURGdsR3hsb1QycjFlNm1MY2lka29KZkF0QUtiMl9XeWxuVkctMVRfQkhMSmdJd2NqRmFLMlVyNHRkbTN1emRReHJVeTVFQXRCRUNZY1FtWFBoT0V3X1MwWFpLemc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "医疗器械和用品"
   }
 }

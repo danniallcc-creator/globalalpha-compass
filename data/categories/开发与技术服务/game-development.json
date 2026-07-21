@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "游戏开发：海外社媒「tech service analyst」增速 246%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，European Parliament关注「EU-US tariffs: tensions, trade deal and...」。",
+    "trend_summary": "游戏开发：海外社媒「tech service tiktok made me buy」增速 206%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，qz.com关注「Trump is threatening 100% tariffs on...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 游戏开发 出口需通过合规认证",
-      "海外社媒「tech service analyst」增速 246% 领跑 → 游戏开发社媒种草热度爆发"
+      "海外社媒「tech service tiktok made me buy」增速 206% 领跑 → 游戏开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "tech service tiktok made me buy",
+        "growth": 206.5,
+        "vol": "376K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "tech service analyst",
-        "growth": 245.5,
-        "vol": "23K",
+        "growth": 206.5,
+        "vol": "741K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "software outsourcing b2b export",
-        "growth": 243.0,
-        "vol": "99K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "software outsourcing industry news",
-        "growth": 213.0,
-        "vol": "505K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "software outsourcing b2b export",
-        "growth": 240.0,
+        "kw": "tech service wholesale supplier",
+        "growth": 203.5,
+        "vol": "183K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "tech service wholesale supplier",
-        "growth": 180.5,
+        "growth": 200.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "software outsourcing b2b export",
+        "growth": 158.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU-US tariffs: tensions, trade deal and what could change - European Parliament",
-        "source": "European Parliament",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYmZXMHYxREluX3lobG5BUG95R2xFU3dURHd1WWR4RE9PTzFtSWVqTF85WWxDNC1YVUxxNS1GNXhCYy1iYVh2aGVDRzdmcERZY1dab0ZGNnhxdWlnYXROWHNMd3RTZXNPaEhjdmIxZ25IUTFhSEYwbmZCeWxlcGNLZnhBajNPZlBwUlRadmdzZlNjSlBOUUhjclZfMkIxcVJWTGFiWGVHQTRFcmhKYlFCZ3RlWUw4cmNTWk13UzN3?oc=5",
+        "title": "Trump is threatening 100% tariffs on any country with a digital services tax on U.S. tech companies - qz.com",
+        "source": "qz.com",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NM2ZNdTh6SVViM1E1V3puMm9NRG80VWt1WEQ5NGpFTTFkQ2dvczRETG5DbTk0UnRHMjJ2T3RjbDZUbVlCbFpPWFJtVkR1T1l5SXFqZUw3dFdJRVdvQUtlRHpuMzgzZmJIV2FVVTcxdw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Global exports downturn deepens in May as war hits trade in services - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTmE5TjNQTjY5bWJEZEhwcVNPblVRUHBacEUwdzduY2xUazNTTHB6cnZvNUNKTmJOVmtjQW9DTlZxMC0yemJobHpldGZQVXp6NkJOQV9LVnJiY3JDZ3BIaFJGVVZpbzNSN2NKQ3pNTVpYTC1ORHYyOHBNdkgzVzdZQUxaNGVXNE1LY3B5eWMzc1Bhb3dNVmpqWjhRdXVoUnJsblFDdnJFZWI1YzY2XzVUdEV2cFk0ZWxDTUtFZHdKcFRDTXh2R2ltLWNJX3J3Yk52RFhwMTlkU2VmX0JVbERmdg?oc=5",
+        "title": "What is the value of US trade with China? - USAFacts",
+        "source": "USAFacts",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3dyLVlkYnFEOTBzZmdFUkJpYXcxSUtGWVZiWlktOFRnemhVQVlJSkc5SHF0M1Q4SThwdXJhTE1KN1JjeTQyUHhjWXFUU2NsZ2hZeVlCdFp3Y2ZTcHpYSUxOdk9lTGdyb1oxVEx1UkFPWGZaTTJWN0NaWHlVcTJnQw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "开发与技术服务"
   }
 }

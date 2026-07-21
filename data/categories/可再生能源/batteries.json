@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电池：海外社媒「energy storage wholesale supplier」增速 248%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Why China’s green exports to the US are...」。",
+    "trend_summary": "电池：海外社媒「energy storage tiktok made me buy」增速 246%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Why China’s green exports to the US are...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,38 +48,31 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 电池 出口需通过合规认证",
-      "海外社媒「energy storage wholesale supplier」增速 248% 领跑 → 电池社媒种草热度爆发"
+      "海外社媒「energy storage tiktok made me buy」增速 246% 领跑 → 电池社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "energy storage wholesale supplier",
-        "growth": 248.5,
-        "vol": "777K",
+        "platform": "tiktok",
+        "kw": "energy storage tiktok made me buy",
+        "growth": 246.5,
+        "vol": "237K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "solar new arrival",
+        "growth": 239.5,
+        "vol": "572K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "solar review 2026",
-        "growth": 240.5,
-        "vol": "669K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "photovoltaic viral hack",
-        "growth": 237.0,
-        "vol": "142K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "energy storage wholesale supplier",
-        "growth": 245.5,
+        "kw": "solar top 10",
+        "growth": 229.5,
+        "vol": "249K",
         "hits": 0
       },
       {
@@ -87,6 +80,13 @@
         "source": "Google Trends",
         "kw": "solar market 2026",
         "growth": 219.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "photovoltaic b2b export",
+        "growth": 195.0,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Deal or no deal: Five energy market lessons from the Middle East crisis - Institute for Energy Economics and Financial Analysis (IEEFA)",
-        "source": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWm1uOVBJc2tVd05jbzdLOEptUEJmMmM4SnZxZ3EwYzhXNjBka1FBX1ljNjEtTzUzaUZDUjFONmhCLXVHb3Y4VnN6V19xWVFiYTBzbnl5VFVfSmVEVDVUakhjbDl0ZHlTQkw1SkpuTi1EQW13U2RqTGNBMDh1aDNUSDhZWllRSzVET0YyZ0U1b0V1VVU?oc=5",
+        "title": "Morocco Energy & Sustainability Week 2026 Concludes in Marrakesh, Uniting Developers, Investors and Policymakers Behind the Kingdom's Energy",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPNE5ic1Z3TXlrV00tdmJBbjU4S2pvQWRyTXdmeG1JZXlNb19SS2duS09zWkZzRjR3UWZJR21PYVNtOGhDUV91Zkl2YU9vQWhuNWdOTW9DdVRhMUpUdnpuVlAzZlBtaW9TdndleUlVWUt0Yi04ZDZEcGFvT29kZkFaZ3BxX3h4bl8ybGZJZjA5SkFZY29RbHY0QWNqYXQwRjVSemZnNVpaSDNEN0RjMjVOM1AxYkppWGUzQWxEUmJkQ1pUYkVONDVtRnFTdl9QOHdEZEVUMm1iZUVxb250UXlUaDdiVTFrXzlZaFY3ak5MajFERTZ3dzEwVjExTTlFX0o3dUVncnd3a1BFc2lKN0lDVVQwVlFwRzVMaXd1cEhMUWlLb2xVM09aZ21PcEFwQUhSLWhpSw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-07-16",
+    "generated_at": "2026-07-21",
     "l1_ref": "可再生能源"
   }
 }
