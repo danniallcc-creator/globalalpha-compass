@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>杭州市机会品类策略分析报告 (完整版)</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0B142E;--p:#142045;--p2:#1a2a55;--g:#E9B84A;--c:#3FB6D3;--gn:#00B578;--r:#FF4D4F;--t:#e8e8e8;--m:#8899bb;--b:#2a3a6a}
+body{background:var(--bg);color:var(--t);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:13px;line-height:1.6}
+.ctn{max-width:1440px;margin:0 auto;padding:16px}
+h1{font-size:24px;color:var(--g);text-align:center;padding:20px 0 6px}
+.sub{text-align:center;color:var(--m);font-size:11px;margin-bottom:20px}
+.tabs{display:flex;gap:3px;flex-wrap:wrap;justify-content:center;margin-bottom:16px;position:sticky;top:0;z-index:100;background:var(--bg);padding:8px 0}
+.tab{padding:7px 14px;background:var(--p);border:1px solid var(--b);border-radius:6px;cursor:pointer;color:var(--m);font-size:11px;transition:all .2s}
+.tab:hover{background:var(--p2);color:var(--t)}.tab.active{background:var(--p2);color:var(--g);font-weight:700;border-color:var(--g)}
+.tc{display:none;animation:fi .3s}.tc.active{display:block}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+.pnl{background:var(--p);border:1px solid var(--b);border-radius:10px;padding:18px;margin-bottom:14px}
+.pt{font-size:15px;color:var(--g);margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--b)}
+.pt .en{font-size:10px;color:var(--m);font-weight:400;margin-left:6px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:var(--p2);color:var(--g);padding:7px 8px;text-align:left;font-weight:600;white-space:nowrap}
+th.n{text-align:right}
+th.ctr{text-align:center}
+td{padding:6px 8px;border-bottom:1px solid rgba(42,58,106,.3)}
+tr:hover td{background:rgba(233,184,74,.03)}
+.n{text-align:right;font-variant-numeric:tabular-nums}.g{color:var(--g);font-weight:700}
+.ts{font-size:11px;color:var(--m)}.rk{text-align:center;color:var(--m);font-size:10px}
+.pn{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pn a{color:var(--t);text-decoration:none}.pn a:hover{color:var(--c);text-decoration:underline}
+.sb{background:linear-gradient(135deg,rgba(233,184,74,.06),rgba(63,182,211,.06));border:1px solid var(--g);border-radius:10px;padding:16px;margin-bottom:14px}
+.sb h3{color:var(--g);margin-bottom:6px;font-size:14px}.sb p{font-size:12px;line-height:1.7}
+.hl{color:var(--g);font-weight:700}.hc{color:var(--c);font-weight:700}
+.kpi-r{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.kpi{background:var(--p2);border:1px solid var(--b);border-radius:8px;padding:12px 16px;text-align:center;flex:1;min-width:110px}
+.kv{font-size:24px;font-weight:800;color:var(--g)}.kl{font-size:10px;color:var(--m);margin-top:2px}
+.br{display:flex;align-items:center;gap:6px;margin-bottom:5px}
+.bl{width:110px;font-size:11px;text-align:right;color:var(--m);flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bt{flex:1;background:rgba(42,58,106,.4);border-radius:3px;height:16px}
+.bf{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--c),var(--g));min-width:2px}
+.bv{width:24px;font-size:10px;color:var(--g);font-weight:700}
+.dc{background:var(--p2);border:1px solid var(--b);border-radius:8px;padding:14px;margin-bottom:10px}
+.dc-h{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.dc-belt{font-size:11px;color:var(--c)}
+.dc-cats,.dc-str,.dc-act{font-size:12px;margin-top:4px;line-height:1.6}
+.dc-act{background:rgba(0,181,120,.06);border-left:3px solid var(--gn);padding:6px 10px;margin-top:8px}
+.ag-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.ag-card{border-radius:10px;padding:16px;font-size:12px;line-height:1.7}
+.ag-card p{margin-top:6px}
+.ag-title{font-size:14px;font-weight:700;margin-bottom:4px}
+.ag-red{background:rgba(255,77,79,.06);border:1px solid rgba(255,77,79,.3)}.ag-red .ag-title{color:var(--r)}
+.ag-yellow{background:rgba(233,184,74,.06);border:1px solid rgba(233,184,74,.3)}.ag-yellow .ag-title{color:var(--g)}
+.ag-green{background:rgba(0,181,120,.06);border:1px solid rgba(0,181,120,.3)}.ag-green .ag-title{color:var(--gn)}
+.ag-cyan{background:rgba(63,182,211,.06);border:1px solid rgba(63,182,211,.3)}.ag-cyan .ag-title{color:var(--c)}
+.mb{background:var(--p2);border:1px solid var(--b);border-radius:8px;padding:14px;font-size:11px;line-height:1.8;margin-bottom:14px}
+.mb b{color:var(--g)}
+.ft{text-align:center;padding:20px;color:var(--m);font-size:10px;border-top:1px solid var(--b);margin-top:28px}
+@media(max-width:900px){.kpi-r{flex-direction:column}.ag-grid{grid-template-columns:1fr}}
+
+
+.hp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:12px;transition:background .15s}
+.card:hover{background:rgba(255,255,255,.07)}
+.card-body{display:flex;gap:10px;align-items:flex-start}
+.thumb{flex-shrink:0;width:140px;height:140px;background-color:rgba(255,255,255,.05);background-size:contain;background-repeat:no-repeat;background-position:center;border-radius:6px;border:1px solid rgba(255,255,255,.08);display:block;text-decoration:none}
+.meta{flex:1;min-width:0}
+.meta h3{margin:0 0 2px;font-size:15px;font-weight:700;letter-spacing:.3px}
+.meta .en{font-size:11px;color:#7a7c95;margin-bottom:6px;font-style:italic}
+.tag-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.scene-tag,.heat-tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(255,255,255,.08);color:#a0a1b8}
+.heat-tag{background:rgba(233,184,74,.15);color:var(--g)}
+.meta .desc{margin:0;font-size:12px;color:#a0a1b8;line-height:1.55}
+.meta .desc b{color:var(--t);font-weight:500}
+.meta .desc .scene{color:#66c2ff;font-weight:500}
+.divider{height:1px;background:rgba(255,255,255,.08);margin:10px 0}
+.sellpoints{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.chip,.chip-empty{font-size:11px;padding:3px 8px;background:rgba(255,255,255,.06);color:var(--t);border-radius:4px;white-space:nowrap}
+.chip-empty{color:#7a7c95;font-style:italic}
+.chip em{font-style:normal;color:var(--g);margin-left:4px;font-weight:500}
+.specs{font-size:11px;color:#a0a1b8;padding:4px 0 2px}
+.footer-row{display:flex;justify-content:space-between;font-size:11px;color:#7a7c95;margin-top:6px;padding-top:6px;border-top:1px dashed rgba(255,255,255,.08)}
+.footer-row b{color:var(--g);font-weight:500}
+@media(max-width:900px){.hp-grid{grid-template-columns:1fr}.thumb{width:110px;height:110px}}
+
+</style></head><body><div class="ctn">
+<h1>杭州市机会品类策略分析报告</h1>
+<div class="sub">M1宏观趋势→M2站内信号→M3产业带承接→M8风险边界 | 海关口径: GACC 2025全年495L2(修正) | 类目树: AI版本-0626(50L1/553L2/6616HS) | 2026-07-23</div>
+
+<div class="tabs">
+<div class="tab active" onclick="sw(0)">行动指南</div>
+<div class="tab" onclick="sw(1)">9450商家全景</div>
+<div class="tab" onclick="sw(2)">供需缺口分析</div>
+<div class="tab" onclick="sw(3)">分区产业带</div>
+<div class="tab" onclick="sw(4)">海关数据(修正)</div>
+<div class="tab" onclick="sw(5)">数据定义</div>
+</div>
+
+<!-- TAB 0: 行动指南 -->
+<div class="tc active">
+<div class="sb"><h3>杭州市机会品类行动指南 — 核心结论</h3>
+<p>基于<span class="hl">9,450杭州商家</span>经营数据 × <span class="hl">GACC 495品类海关出口</span> × <span class="hl">12区域海外需求结构</span>三维交叉分析：</p>
+<p>• <span class="hc">159个品类</span>海外需求高增长但杭州<span class="hl">零商家</span>经营（空白机会）</p>
+<p>• <span class="hc">32个品类</span>杭州仅≤20商家但海关增速>5%（严重缺商/缺商）</p>
+<p>• <span class="hc">13个品类</span>杭州已有供给基础且海外正增长（竞争优势可扩大）</p>
+<p style="margin-top:8px">最大增量机会：新能源汽车(+20%/0商家)、储能系统(+10.3%/0商家)、农用化学品(+17.3%/0商家)、谷物(+57.9%/3商家)、梯子脚手架(+15%/0商家)。竞争优势扩大：自行车(+12.7%/40商家)、纸质包装(+4.3%/53商家)、宠物用品(+2.1%/42商家)。</p></div>
+
+<div class="ag-grid">
+<div class="ag-card ag-red"><div class="ag-title">🔴 招什么商？（空白+严重缺商）</div>
+<p><b>159个品类</b>杭州零商家但海关高增长，<b>15个品类</b>仅≤5商家。</p>
+<p>重点招商方向：新能源汽车(+20%)、储能系统(+10.3%)、农用化学品(+17.3%)、梯子及脚手架(+15%)、船舶游艇(+18.6%)、谷物(+57.9%)</p>
+<p class="ts">招商区域：钱塘(新能源/汽车)、余杭(消费品)、萧山(制造业)</p></div>
+
+<div class="ag-card ag-yellow"><div class="ag-title">🟡 招什么品？（缺商≤20）</div>
+<p><b>17个品类</b>有少量商家但供给严重不足。</p>
+<p>重点扩品：洗衣机(+8.4%/2商家)、热水器(+8.4%/4商家)、道路安全设施(+8.4%/1商家)、头发护理(+8.1%/1商家)、口腔护理(+6.3%/1商家)</p>
+<p class="ts">这些品类海外需求旺盛(海关正增长)但杭州国际站商家极少，属于"有需求无供给"的典型招品机会</p></div>
+
+<div class="ag-card ag-green"><div class="ag-title">🟢 什么品有竞争优势？（供需匹配可扩大）</div>
+<p><b>13个品类</b>杭州已有供给基础且海关正增长，可直接扩大。</p>
+<p>竞争优势品类：自行车(+12.7%/40商家)、纸质包装(+4.3%/53商家)、宠物用品(+2.1%/42商家)、饮具(+2.1%/105商家)、医疗器械(+4.2%/65商家)</p>
+<p class="ts">这些品类杭州供给充足+海外需求增长=扩大市场份额的最佳切入点</p></div>
+
+<div class="ag-card ag-cyan"><div class="ag-title">🔵 什么品海外旺盛但杭州缺少？</div>
+<p>海关增速>10%且杭州≤5商家的品类（最紧迫机会）：</p>
+<p>• 谷物 +57.9% (杭州3商家) • 铁道零部件 +27.1% (0商家)<br>
+• 新能源汽车 +20.0% (0商家) • 乘用车 +20.0% (0商家)<br>
+• 船舶游艇 +18.6% (0商家) • 农用化学品 +17.3% (0商家)<br>
+• 梯子脚手架 +15.0% (0商家) • 自行车 +12.7% (40商家,可扩大)</p>
+<p class="ts">这些品类海外需求爆发但杭州阿里国际站商家严重缺少，是最大增量机会</p></div>
+</div>
+</div>
+
+<!-- TAB 1: 9450商家全景 -->
+<div class="tc">
+<div class="kpi-r">
+<div class="kpi"><div class="kv">9,450</div><div class="kl">杭州注册商家(全量)</div></div>
+<div class="kpi"><div class="kv">192</div><div class="kl">有品类经营商家</div></div>
+<div class="kpi"><div class="kv">60</div><div class="kl">有订单L2品类</div></div>
+<div class="kpi"><div class="kv">39</div><div class="kl">L2品类覆盖</div></div>
+</div>
+<div class="mb"><b>数据口径说明：</b><br>
+• <b>9,450</b> = dwm_en_cgs_cust_info_d WHERE city_cn='杭州' 全量注册商家（含活跃/休眠/新注册）<br>
+• <b>192</b> = 9,450中能与dwm_en_ftrd_prod_market_info_d JOIN的子集（有商品在线且有交易信号）<br>
+• <b>品类分布</b> = 192商家按L2归属计数（一商家可多品类，故和>192）<br>
+• <b>活跃商家(active_merchant_cnt)</b> = 该L2下有有效商品的杭州商家数<br>
+• <b>28天订单</b> = 近28天该L2品类杭州商家的买家下单总量<br>
+• <b>为什么对不上9,450？</b> 9,258商家在ftrd表无记录（新注册未上架/休眠流失/纯RFQ/数据分区差）</div>
+
+<div class="pnl"><div class="pt">192商家经营深度洞察 <span class="en">Merchant Performance × Overseas Demand Gap</span></div>
+<div class="sb" style="margin-bottom:14px"><h3>核心发现</h3>
+<p>杭州192家活跃商家（有商品在线+有交易信号）分布在<b>25个L2品类</b>，28天合计产生<span class="hl">20,893笔订单</span>。 其中<span class="hc">16个品类</span>对应海关出口正增长（海外需求扩张），<span class="hl">9个品类</span>商效超过30单/商家（供给效率高、可复制），<span style="color:var(--r);font-weight:700">5个品类</span>存在明显缺商（杭州商家≤20但海外需求旺盛）。</p><p style="margin-top:6px;font-size:11px;color:var(--m)">商效 = 28天订单÷活跃商家数 | 品效 = 28天订单÷活跃商品数×100 | 海关YoY = 2025全年出口同比 | 供需判断基于GACC 495 L2口径</p></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>L1</th><th>L2品类</th><th class="n">活跃商家</th><th class="n">28天订单</th><th class="n">活跃品数</th><th class="n">商效</th><th class="n">品效%</th><th class="n">海关YoY</th><th class="n">出口规模</th><th>供需判断</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n">98</td><td class="n g">3,563</td><td class="n">25,323</td><td class="n" style="color:var(--g);font-weight:700">36.4</td><td class="n">14.1</td><td class="n" style="color:#00B578">+2.1%</td><td class="n">286亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">2</td><td>珠宝眼镜手表及配饰</td><td><b>发饰</b></td><td class="n">11</td><td class="n g">2,161</td><td class="n">4,471</td><td class="n" style="color:var(--g);font-weight:700">196.5</td><td class="n">48.3</td><td class="n" style="color:#FF4D4F">-1.3%</td><td class="n">118亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n">46</td><td class="n g">1,409</td><td class="n">9,055</td><td class="n" style="color:var(--g);font-weight:700">30.6</td><td class="n">15.6</td><td class="n" style="color:#FF4D4F">-5.0%</td><td class="n">209亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">4</td><td>家居园艺</td><td><b>家纺</b></td><td class="n">120</td><td class="n g">1,053</td><td class="n">20,210</td><td class="n" style="color:var(--t);font-weight:400">8.8</td><td class="n">5.2</td><td class="n" style="color:#FF4D4F">-0.7%</td><td class="n">2.5千亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">5</td><td>办公文教用品</td><td><b>书写及修改用品</b></td><td class="n">39</td><td class="n g">933</td><td class="n">7,127</td><td class="n" style="color:var(--t);font-weight:400">23.9</td><td class="n">13.1</td><td class="n" style="color:#00B578">+1.0%</td><td class="n">242亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">6</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">59</td><td class="n g">860</td><td class="n">9,219</td><td class="n" style="color:var(--t);font-weight:400">14.6</td><td class="n">9.3</td><td class="n" style="color:#FF4D4F">-4.9%</td><td class="n">1.6千亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">7</td><td>美妆</td><td><b>指甲用品</b></td><td class="n">11</td><td class="n g">848</td><td class="n">5,479</td><td class="n" style="color:var(--g);font-weight:700">77.1</td><td class="n">15.5</td><td class="n" style="color:#00B578">+2.7%</td><td class="n">62亿</td><td class="ts" style="color:#E9B84A">🟡 缺商</td></tr><tr><td class="rk">8</td><td>包装印刷</td><td><b>包装辅助材料</b></td><td class="n">47</td><td class="n g">796</td><td class="n">2,716</td><td class="n" style="color:var(--t);font-weight:400">16.9</td><td class="n">29.3</td><td class="n" style="color:#00B578">+2.5%</td><td class="n">636亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">9</td><td>医疗器械和用品</td><td><b>商用医疗器械</b></td><td class="n">65</td><td class="n g">727</td><td class="n">7,935</td><td class="n" style="color:var(--t);font-weight:400">11.2</td><td class="n">9.2</td><td class="n" style="color:#00B578">+4.2%</td><td class="n">63亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">10</td><td>宠物用品及食品</td><td><b>宠物用品</b></td><td class="n">42</td><td class="n g">718</td><td class="n">19,373</td><td class="n" style="color:var(--t);font-weight:400">17.1</td><td class="n">3.7</td><td class="n" style="color:#00B578">+2.1%</td><td class="n">20.5千亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">11</td><td>珠宝眼镜手表及配饰</td><td><b>时尚饰品</b></td><td class="n">15</td><td class="n g">698</td><td class="n">12,206</td><td class="n" style="color:var(--g);font-weight:700">46.5</td><td class="n">5.7</td><td class="n" style="color:#00B578">+0.1%</td><td class="n">100亿</td><td class="ts" style="color:#E9B84A">🟡 缺商</td></tr><tr><td class="rk">12</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">37</td><td class="n g">622</td><td class="n">4,595</td><td class="n" style="color:var(--t);font-weight:400">16.8</td><td class="n">13.5</td><td class="n" style="color:#FF4D4F">-5.0%</td><td class="n">646亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">13</td><td>运动及娱乐</td><td><b>户外轻奢运动</b></td><td class="n">20</td><td class="n g">543</td><td class="n">2,126</td><td class="n" style="color:var(--t);font-weight:400">27.1</td><td class="n">25.5</td><td class="n" style="color:#00B578">+2.8%</td><td class="n">144亿</td><td class="ts" style="color:#E9B84A">🟡 缺商</td></tr><tr><td class="rk">14</td><td>包装印刷</td><td><b>玻璃包装</b></td><td class="n">26</td><td class="n g">539</td><td class="n">6,323</td><td class="n" style="color:var(--t);font-weight:400">20.7</td><td class="n">8.5</td><td class="n" style="color:#00B578">+1.1%</td><td class="n">303亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">15</td><td>母婴&玩具</td><td><b>儿童服饰</b></td><td class="n">14</td><td class="n g">528</td><td class="n">3,260</td><td class="n" style="color:var(--g);font-weight:700">37.7</td><td class="n">16.2</td><td class="n" style="color:#FF4D4F">-5.0%</td><td class="n">19亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">16</td><td>服装及配饰</td><td><b>袜子</b></td><td class="n">31</td><td class="n g">515</td><td class="n">4,884</td><td class="n" style="color:var(--t);font-weight:400">16.6</td><td class="n">10.5</td><td class="n" style="color:#FF4D4F">-5.0%</td><td class="n">190亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">17</td><td>服装及配饰</td><td><b>男装</b></td><td class="n">48</td><td class="n g">501</td><td class="n">6,970</td><td class="n" style="color:var(--t);font-weight:400">10.4</td><td class="n">7.2</td><td class="n" style="color:#FF4D4F">-4.7%</td><td class="n">1.3千亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">18</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">53</td><td class="n g">501</td><td class="n">4,903</td><td class="n" style="color:var(--t);font-weight:400">9.5</td><td class="n">10.2</td><td class="n" style="color:#00B578">+4.3%</td><td class="n">1.7千亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">19</td><td>电气设备及用品</td><td><b>电气用品</b></td><td class="n">23</td><td class="n g">499</td><td class="n">567</td><td class="n" style="color:var(--t);font-weight:400">21.7</td><td class="n">88.0</td><td class="n" style="color:#00B578">+8.4%</td><td class="n">43亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">20</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">51</td><td class="n g">478</td><td class="n">7,814</td><td class="n" style="color:var(--t);font-weight:400">9.4</td><td class="n">6.1</td><td class="n" style="color:#00B578">+1.3%</td><td class="n">344亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">21</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">118</td><td class="n g">433</td><td class="n">16,167</td><td class="n" style="color:var(--t);font-weight:400">3.7</td><td class="n">2.7</td><td class="n" style="color:#00B578">+0.8%</td><td class="n">383亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">22</td><td>商业设备及机械</td><td><b>办公用品</b></td><td class="n">5</td><td class="n g">413</td><td class="n">1,001</td><td class="n" style="color:var(--g);font-weight:700">82.6</td><td class="n">41.3</td><td class="n" style="color:#00B578">+7.0%</td><td class="n">171亿</td><td class="ts" style="color:#FF4D4F">🟠 严重缺商</td></tr><tr><td class="rk">23</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">23</td><td class="n g">400</td><td class="n">4,831</td><td class="n" style="color:var(--t);font-weight:400">17.4</td><td class="n">8.3</td><td class="n" style="color:#FF4D4F">-0.4%</td><td class="n">717亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr><tr><td class="rk">24</td><td>个人护理及家庭清洁</td><td><b>彩妆及工具</b></td><td class="n">1</td><td class="n g">397</td><td class="n">1,018</td><td class="n" style="color:var(--g);font-weight:700">397.0</td><td class="n">39.0</td><td class="n" style="color:#00B578">+5.2%</td><td class="n">105亿</td><td class="ts" style="color:#E9B84A">🟡 缺商</td></tr><tr><td class="rk">25</td><td>美妆</td><td><b>护肤</b></td><td class="n">8</td><td class="n g">370</td><td class="n">680</td><td class="n" style="color:var(--g);font-weight:700">46.2</td><td class="n">54.4</td><td class="n" style="color:#00B578">+8.1%</td><td class="n">22亿</td><td class="ts" style="color:#00B578">🟢 可扩大</td></tr></tbody></table></div></div>
+<div class="pnl"><div class="pt">供需温差洞察 <span class="en">Demand-Supply Temperature Gap</span></div>
+<div class="ag-grid"><div class="ag-card ag-green"><div class="ag-title">高效率 × 海外正增长 → 加大投入</div><p><b>饮具及配件</b>（商效36，海关+2.1%），核心L3: 饮具/饮具配件；<b>书写及修改用品</b>（商效24，海关+1.0%），核心L3: 笔/铅笔；<b>指甲用品</b>（商效77，海关+2.7%），核心L3: 美甲艺术/指甲彩绘；<b>时尚饰品</b>（商效46，海关+0.1%），核心L3: 时尚领带别针和袖扣/时尚戒指手表；<b>户外轻奢运动</b>（商效27，海关+2.8%），核心L3: 蹦极/滑板；<b>玻璃包装</b>（商效21，海关+1.1%），核心L3: 玻璃罐/玻璃瓶；<b>电气用品</b>（商效22，海关+8.4%），核心L3: 插头和插座/墙壁开关；<b>办公用品</b>（商效83，海关+7.0%）；<b>彩妆及工具</b>（商效397，海关+5.2%）；<b>护肤</b>（商效46，海关+8.1%），核心L3: 眼部护理/面部护理；</p><p style="color:var(--gn);font-size:11px;margin-top:6px">→ 这些品类杭州商家已验证订单效率，且海外需求仍在扩张，应鼓励现有商家扩品+招新商家进入。</p></div><div class="ag-card ag-red"><div class="ag-title">海外高需求 × 杭州缺商 → 招商重点</div><p><b>指甲用品</b>（仅11商家，海关+2.7%，出口62亿）；<b>时尚饰品</b>（仅15商家，海关+0.1%，出口100亿）；<b>户外轻奢运动</b>（仅20商家，海关+2.8%，出口144亿）；<b>办公用品</b>（仅5商家，海关+7.0%，出口171亿）；<b>彩妆及工具</b>（仅1商家，海关+5.2%，出口105亿）；</p><p style="color:var(--r);font-size:11px;margin-top:6px">→ 海外需求旺盛但杭州供给严重不足，是招商引资和品类拓展的第一优先级。</p></div><div class="ag-card ag-yellow"><div class="ag-title">大品数 × 低品效 → 品质优化</div><p><b>家纺</b>（20,210品，品效仅5.2%）；<b>宠物用品</b>（19,373品，品效仅3.7%）；<b>时尚饰品</b>（12,206品，品效仅5.7%）；<b>餐具及咖啡酒具</b>（16,167品，品效仅2.7%）；</p><p style="color:var(--g);font-size:11px;margin-top:6px">→ 商品数量多但动销率低，需优化品质量（主图/标题/关键词），淘汰无效品，提升单品产出。</p></div><div class="ag-card ag-cyan"><div class="ag-title">超高商效 → 头部依赖风险</div><p><b>发饰</b>（商效196单/商家，仅11家）；<b>指甲用品</b>（商效77单/商家，仅11家）；<b>办公用品</b>（商效83单/商家，仅5家）；<b>彩妆及工具</b>（商效397单/商家，仅1家）；</p><p style="color:var(--c);font-size:11px;margin-top:6px">→ 订单高度集中在极少数商家，供给脆弱。需培育新商家分散风险，同时保护头部商家留存。</p></div></div></div>
+
+<div class="pnl"><div class="pt">市场信号 Top 25 <span class="en">Market Signals by 28-day Orders</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>L1</th><th>L2</th><th class="n">28天订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n g">3,563</td><td class="n">25,323</td><td class="n">98</td></tr><tr><td class="rk">2</td><td>珠宝眼镜手表及配饰</td><td><b>发饰</b></td><td class="n g">2,161</td><td class="n">4,471</td><td class="n">11</td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n g">1,409</td><td class="n">9,055</td><td class="n">46</td></tr><tr><td class="rk">4</td><td>家居园艺</td><td><b>家纺</b></td><td class="n g">1,053</td><td class="n">20,210</td><td class="n">120</td></tr><tr><td class="rk">5</td><td>办公文教用品</td><td><b>书写及修改用品</b></td><td class="n g">933</td><td class="n">7,127</td><td class="n">39</td></tr><tr><td class="rk">6</td><td>服装及配饰</td><td><b>女装</b></td><td class="n g">860</td><td class="n">9,219</td><td class="n">59</td></tr><tr><td class="rk">7</td><td>美妆</td><td><b>指甲用品</b></td><td class="n g">848</td><td class="n">5,479</td><td class="n">11</td></tr><tr><td class="rk">8</td><td>包装印刷</td><td><b>包装辅助材料</b></td><td class="n g">796</td><td class="n">2,716</td><td class="n">47</td></tr><tr><td class="rk">9</td><td>医疗器械和用品</td><td><b>商用医疗器械</b></td><td class="n g">727</td><td class="n">7,935</td><td class="n">65</td></tr><tr><td class="rk">10</td><td>宠物用品及食品</td><td><b>宠物用品</b></td><td class="n g">718</td><td class="n">19,373</td><td class="n">42</td></tr><tr><td class="rk">11</td><td>珠宝眼镜手表及配饰</td><td><b>时尚饰品</b></td><td class="n g">698</td><td class="n">12,206</td><td class="n">15</td></tr><tr><td class="rk">12</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n g">622</td><td class="n">4,595</td><td class="n">37</td></tr><tr><td class="rk">13</td><td>运动及娱乐</td><td><b>户外轻奢运动</b></td><td class="n g">543</td><td class="n">2,126</td><td class="n">20</td></tr><tr><td class="rk">14</td><td>包装印刷</td><td><b>玻璃包装</b></td><td class="n g">539</td><td class="n">6,323</td><td class="n">26</td></tr><tr><td class="rk">15</td><td>母婴&玩具</td><td><b>儿童服饰</b></td><td class="n g">528</td><td class="n">3,260</td><td class="n">14</td></tr><tr><td class="rk">16</td><td>服装及配饰</td><td><b>袜子</b></td><td class="n g">515</td><td class="n">4,884</td><td class="n">31</td></tr><tr><td class="rk">17</td><td>服装及配饰</td><td><b>男装</b></td><td class="n g">501</td><td class="n">6,970</td><td class="n">48</td></tr><tr><td class="rk">18</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n g">501</td><td class="n">4,903</td><td class="n">53</td></tr><tr><td class="rk">19</td><td>电气设备及用品</td><td><b>电气用品</b></td><td class="n g">499</td><td class="n">567</td><td class="n">23</td></tr><tr><td class="rk">20</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n g">478</td><td class="n">7,814</td><td class="n">51</td></tr><tr><td class="rk">21</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n g">433</td><td class="n">16,167</td><td class="n">118</td></tr><tr><td class="rk">22</td><td>商业设备及机械</td><td><b>办公用品</b></td><td class="n g">413</td><td class="n">1,001</td><td class="n">5</td></tr><tr><td class="rk">23</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n g">400</td><td class="n">4,831</td><td class="n">23</td></tr><tr><td class="rk">24</td><td>个人护理及家庭清洁</td><td><b>彩妆及工具</b></td><td class="n g">397</td><td class="n">1,018</td><td class="n">1</td></tr><tr><td class="rk">25</td><td>美妆</td><td><b>护肤</b></td><td class="n g">370</td><td class="n">680</td><td class="n">8</td></tr></tbody></table></div></div>
+
+<div class="pnl"><div class="pt">爆品 Top 20 <span class="en">Top Products by 28-day Orders</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>商品</th><th>L2品类</th><th class="n">28天单</th><th>商家</th></tr></thead><tbody><tr><td class="rk">1</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601048626398.html" target="_blank" title="在Alibaba.com查看">88*63mm R3 Playing Card Die Cutter Business Card Cutter</a></td><td>办公用品</td><td class="n g">310</td><td class="ts">hzcaide</td></tr><tr><td class="rk">2</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601594753300.html" target="_blank" title="在Alibaba.com查看">88*63mm R3 Playing Card Die Cutter Business Card Cutter…</a></td><td>办公用品</td><td class="n g">115</td><td class="ts">wenderfactory</td></tr><tr><td class="rk">3</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601527011997.html" target="_blank" title="在Alibaba.com查看">Manual Card Cutter 88*63mm R3 Playing Die Cutter for Bu…</a></td><td>办公用品</td><td class="n g">74</td><td class="ts">hzcaide</td></tr><tr><td class="rk">4</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600937739095.html" target="_blank" title="在Alibaba.com查看">Customize Various Shapes and Sizes of Hair Claw Cellulo…</a></td><td>发饰</td><td class="n g">49</td><td class="ts">hzwasai</td></tr><tr><td class="rk">5</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601779605085.html" target="_blank" title="在Alibaba.com查看">Y2k Custom Women's Luxury Designer Clothing French Terr…</a></td><td>女装</td><td class="n g">47</td><td class="ts">sparkleboutique</td></tr><tr><td class="rk">6</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601763605213.html" target="_blank" title="在Alibaba.com查看">Glowing in the Dark Soft Squeeze Dumpling Stress Balls …</a></td><td>促销礼品&商务礼品</td><td class="n g">39</td><td class="ts">ggblanks</td></tr><tr><td class="rk">7</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601601269931.html" target="_blank" title="在Alibaba.com查看">Fall Workout Sets for Women Wholesale High Stretch Brea…</a></td><td>休闲服装</td><td class="n g">39</td><td class="ts">sparkleboutique</td></tr><tr><td class="rk">8</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601797643565.html" target="_blank" title="在Alibaba.com查看">2026 Women's 3 Piece Set Custom Logo Yoga Zipper Jacket…</a></td><td>女装</td><td class="n g">35</td><td class="ts">sparkleboutique</td></tr><tr><td class="rk">9</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601765823200.html" target="_blank" title="在Alibaba.com查看">Women's Gym Halter Neck Top Set 2026 New Arrival Women …</a></td><td>女装</td><td class="n g">33</td><td class="ts">sparkleboutique</td></tr><tr><td class="rk">10</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601618914647.html" target="_blank" title="在Alibaba.com查看">Wow Sheila Hawaii Acetate Custom Hair Claw Design Hair …</a></td><td>发饰</td><td class="n g">33</td><td class="ts">hzwasai</td></tr><tr><td class="rk">11</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601772178226.html" target="_blank" title="在Alibaba.com查看">Wow Sheila Hawaii Style Custom Claw Clip Ocean Flowers …</a></td><td>发饰</td><td class="n g">32</td><td class="ts">hzwasai</td></tr><tr><td class="rk">12</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601734877527.html" target="_blank" title="在Alibaba.com查看">Wow Sheila Selling Customization Color Pattern Flower S…</a></td><td>发饰</td><td class="n g">32</td><td class="ts">hzwasai</td></tr><tr><td class="rk">13</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600934924920.html" target="_blank" title="在Alibaba.com查看">New Spring Summer Body Piece Plain Color Climbing Jeans…</a></td><td>婴儿服装</td><td class="n g">31</td><td class="ts">cn1500294258</td></tr><tr><td class="rk">14</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600940606349.html" target="_blank" title="在Alibaba.com查看">Online Shop Kids Korean Style Baby Fashion Clothes Over…</a></td><td>婴儿服装</td><td class="n g">31</td><td class="ts">cn1500294258</td></tr><tr><td class="rk">15</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600940672880.html" target="_blank" title="在Alibaba.com查看">Latest Fashion Kids Clothes Set With Toddler Baby Overa…</a></td><td>婴儿服装</td><td class="n g">31</td><td class="ts">cn1500294258</td></tr><tr><td class="rk">16</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600940671194.html" target="_blank" title="在Alibaba.com查看">Gentleman Formal Party Baby Clothing Suit Short Sleeve …</a></td><td>婴儿服装</td><td class="n g">31</td><td class="ts">cn1500294258</td></tr><tr><td class="rk">17</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601787096855.html" target="_blank" title="在Alibaba.com查看">15A Charger Outlet Retro Aged Brass Tamper Resistant Du…</a></td><td>电气用品</td><td class="n g">31</td><td class="ts">hzenmu</td></tr><tr><td class="rk">18</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601818834295.html" target="_blank" title="在Alibaba.com查看">1Gang Solid Brass Wall Mounted Power Socket 15A Electri…</a></td><td>电气用品</td><td class="n g">31</td><td class="ts">hzenmu</td></tr><tr><td class="rk">19</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1601668936749.html" target="_blank" title="在Alibaba.com查看">High Quality Combed Cotton Colorblock Street Style Lett…</a></td><td>男装</td><td class="n g">31</td><td class="ts">hzdlgd01</td></tr><tr><td class="rk">20</td><td class="pn"><a href="https://www.alibaba.com/product-detail/_1600940618348.html" target="_blank" title="在Alibaba.com查看">Wholesale Summer Formal Party Wedding Wear Cotton Cloth…</a></td><td>儿童服饰</td><td class="n g">31</td><td class="ts">cn1500294258</td></tr></tbody></table></div></div>
+
+<div class="pnl"><div class="pt">五层深度洞察：9,450商家全景诊断 <span class="en">5-Layer Merchant Diagnostic Framework</span></div>
+
+<!-- LAYER 1 -->
+<div style="border-left:3px solid var(--c);padding-left:14px;margin-bottom:18px">
+<h3 style="color:var(--c);font-size:14px;margin-bottom:8px">第一层｜需求信号解读：搜索→爆品→商机</h3>
+<p style="font-size:12px;line-height:1.8;color:var(--t)">
+<b style="color:var(--g)">爆品转化力：</b>Top 20爆品28天合计<span class="hl">1,094笔订单</span>，占全部订单的5.2%。
+头部爆品特征：① 办公切卡机（hzcaide独占310+74=384单，品效极高）；② 发饰爪夹（hzwasai 4品合计146单，定制化+夏威夷风格差异化）；③ 女装运动套装（sparkleboutique 5品合计187单，Y2K+瑜伽赛道精准）。
+<br><b style="color:var(--g)">商机（询盘）分布：</b>杭州商家月累计获得<span class="hl">645</span>条询盘反馈，
+其中<b>面料</b>（155条，3商家）、<b>厨房小家电</b>（87条，7商家）、<b>空气质量电器</b>（89条，5商家）询盘密度最高。
+<br><b style="color:var(--g)">买家意向度判断：</b>询盘→订单转化存在明显断层——9个品类有询盘但无订单（如面料155询盘/0单、厨房小家电87询盘/0单），
+说明<b>买家意向存在但商家转化能力不足</b>（可能原因：报价响应慢、MOQ过高、产品不匹配买家需求）。
+</p>
+<p class="ts" style="margin-top:6px">注：搜索UV/AB Pro数据因NCS凭证服务不可用暂未纳入，待恢复后补充搜索需求热度。</p>
+</div>
+
+<!-- LAYER 2 -->
+<div style="border-left:3px solid var(--g);padding-left:14px;margin-bottom:18px">
+<h3 style="color:var(--g);font-size:14px;margin-bottom:8px">第二层｜站内供需匹配：国际站需求 × 杭州品类特性</h3>
+<p style="font-size:12px;line-height:1.8;color:var(--t)">
+<b style="color:var(--g)">供需失衡品类（站内需求强但杭州供给弱）：</b><br>
+• <b>指甲用品</b>：站内28天848单（需求旺盛），但杭州仅11家商家，且海关+2.7%（外部需求也在涨） → <span style="color:var(--r)">供需失衡</span><br>• <b>时尚饰品</b>：站内28天698单（需求旺盛），但杭州仅15家商家，且海关+0.1%（外部需求也在涨） → <span style="color:var(--r)">供需失衡</span><br>• <b>户外轻奢运动</b>：站内28天543单（需求旺盛），但杭州仅20家商家，且海关+2.8%（外部需求也在涨） → <span style="color:var(--r)">供需失衡</span><br>• <b>办公用品</b>：站内28天413单（需求旺盛），但杭州仅5家商家，且海关+7.0%（外部需求也在涨） → <span style="color:var(--r)">供需失衡</span><br>• <b>彩妆及工具</b>：站内28天397单（需求旺盛），但杭州仅1家商家，且海关+5.2%（外部需求也在涨） → <span style="color:var(--r)">供需失衡</span><br><b style="color:var(--g)">供需匹配品类（杭州供给充足）：</b><br>
+• <b>饮具及配件</b>：98家商家，3563单，商效36 → <span style="color:var(--gn)">供需健康</span><br>• <b>休闲服装</b>：46家商家，1409单，商效31 → <span style="color:var(--gn)">供需健康</span><br>• <b>家纺</b>：120家商家，1053单，商效9 → <span style="color:var(--gn)">供需健康</span><br>• <b>书写及修改用品</b>：39家商家，933单，商效24 → <span style="color:var(--gn)">供需健康</span><br>• <b>女装</b>：59家商家，860单，商效15 → <span style="color:var(--gn)">供需健康</span><br>• <b>包装辅助材料</b>：47家商家，796单，商效17 → <span style="color:var(--gn)">供需健康</span><br><b style="color:var(--g)">杭州品类特性：</b>
+杭州商家集中在<b>轻工消费品</b>（服装、饰品、包装、家居）和<b>小型设备</b>（办公、电气），
+而非重工业/大宗品类。这与杭州电商基因+周边义乌/绍兴供应链辐射一致。
+站内需求端，饮具、发饰、包装是杭州的"主场优势"品类。
+</p></div>
+
+<!-- LAYER 3 -->
+<div style="border-left:3px solid var(--gn);padding-left:14px;margin-bottom:18px">
+<h3 style="color:var(--gn);font-size:14px;margin-bottom:8px">第三层｜全球供需差：中国出口 × 杭州商家供给</h3>
+<p style="font-size:12px;line-height:1.8;color:var(--t)">
+<b style="color:var(--g)">中国出口高增长但杭州零供给（空白机会 Top 10）：</b><br>
+• <b>农用化学品</b>（化学品）：海关YoY +17.3%，出口1,431亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>新能源汽车</b>（整车及交通工具）：海关YoY +20.0%，出口240亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>铁道零部件及配件</b>（汽车零配件）：海关YoY +27.1%，出口51亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>乘用车</b>（整车及交通工具）：海关YoY +20.0%，出口168亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>储能系统</b>（可再生能源）：海关YoY +10.3%，出口18,311亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>梯子及脚手架</b>（建材与房地产）：海关YoY +15.0%，出口780亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>船舶&游艇&飞机&房车</b>（运动及娱乐）：海关YoY +18.6%，出口190亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>卡车</b>（整车及交通工具）：海关YoY +20.0%，出口120亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>拖车</b>（整车及交通工具）：海关YoY +20.0%，出口120亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br>• <b>电池</b>（可再生能源）：海关YoY +9.2%，出口18,462亿$，杭州0商家 → <span style="color:var(--r)">完全空白</span><br><br><b style="color:var(--g)">中国出口正增长但杭州严重缺商（≤5家）：</b><br>
+• <b>谷物</b>（农业）：海关+57.9%，出口126亿$，杭州仅3家 → <span style="color:#E9B84A">严重不足</span><br>• <b>婴儿玩具</b>（母婴&玩具）：海关+6.0%，出口20,400亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br>• <b>玩具车</b>（母婴&玩具）：海关+6.0%，出口20,400亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br>• <b>头发护理及造型</b>（个人护理及家庭清洁）：海关+8.1%，出口86亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br>• <b>道路安全设施</b>（安全用品）：海关+8.4%，出口65亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br>• <b>洗衣设备</b>（家用电器）：海关+8.4%，出口195亿$，杭州仅2家 → <span style="color:#E9B84A">严重不足</span><br>• <b>线材及常用零配件</b>（消费电子）：海关+6.8%，出口85亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br>• <b>口腔护理</b>（个人护理及家庭清洁）：海关+6.3%，出口85亿$，杭州仅1家 → <span style="color:#E9B84A">严重不足</span><br><br><b style="color:var(--g)">关键洞察：</b>
+中国出口2025年整体增长品类中，<span class="hl">可再生能源（+9.7%）、汽车零配件（+12.9%）、工业机械（+9.0%）、整车（+20.6%）</span>
+增速领先，但杭州商家几乎零覆盖。杭州的供给优势仍在传统轻工消费品，
+与全球需求增量最大的"新能源+智能制造"赛道存在<span style="color:var(--r);font-weight:700">结构性错配</span>。
+</p></div>
+
+<!-- LAYER 4 -->
+<div style="border-left:3px solid #E9B84A;padding-left:14px;margin-bottom:18px">
+<h3 style="color:#E9B84A;font-size:14px;margin-bottom:8px">第四层｜发品有效性诊断：流量漏斗 × 无效品识别</h3>
+<p style="font-size:12px;line-height:1.8;color:var(--t)">
+<b style="color:var(--g)">杭州商家流量漏斗（月累计，cgs口径）：</b><br>
+• 总曝光：<span class="hl">590,961</span>次 → 总点击：<span class="hl">14,053</span>次（CTR=2.4%）→ 总询盘：<span class="hl">645</span>条（询盘率=4.6%）<br>• 有流量品类：17/40个注册品类有曝光（42%）<br>• <span style="color:var(--r)">零流量品类：23个</span>（天花板、指甲用品、线材、运输包装等）—— 商家在线但完全无曝光<br><br><b style="color:var(--g)">品效分层（28天订单÷活跃品数）：</b><br>
+• <span style="color:var(--gn)">高效品（品效>15%）：</span>发饰(48%)、休闲服装(16%)、指甲用品(15%)、包装辅助材料(29%)、户外轻奢运动(26%)、儿童服饰(16%)、电气用品(88%)、办公用品(41%)、彩妆及工具(39%)、护肤(54%)、<br>• <span style="color:#E9B84A">低效品（品效<6%，品数>5000）：</span>餐具及咖啡酒具(16,167品仅2.7%)、宠物用品(19,373品仅3.7%)、家纺(20,210品仅5.2%)、时尚饰品(12,206品仅5.7%)、塑料包装(7,814品仅6.1%)、男装(6,970品仅7.2%)、玻璃包装(6,323品仅8.5%)、商用医疗器械(7,935品仅9.2%)、女装(9,219品仅9.3%)、<br><br><b style="color:var(--g)">无效品运营投资建议：</b>
+品效低于5%的品类（家纺5.2%、宠物3.7%、餐具2.7%），意味着每100个在线商品中仅3-5个产生订单。
+大量"僵尸品"占据店铺资源但无贡献。建议：① 90天零曝光品批量下架或优化重发；
+② 集中资源打造"核心品"（is_core_prod标记品）；③ 对品效<3%的品类控制发品数量，转向质量运营。
+</p></div>
+
+<!-- LAYER 5 -->
+<div style="border-left:3px solid var(--r);padding-left:14px;margin-bottom:8px">
+<h3 style="color:var(--r);font-size:14px;margin-bottom:8px">第五层｜9,450商家运营指导建议</h3>
+<div class="ag-grid">
+<div class="ag-card ag-green"><div class="ag-title">A. 192家活跃商家：提效扩品</div><p>
+<b>供需：</b>聚焦海关正增长+站内有订单的品类（饮具、包装、电气、医疗器械），这些品类"内外双热"。<br>
+<b>流量→转化：</b>当前询盘→订单断层严重（面料155询盘/0单），需缩短报价响应时间（<4h）、降低MOQ门槛、提供sample order。<br>
+<b>商品单价：</b>爆品集中在$5-50区间（切卡机、发夹、运动套装），高客单品（家电、医疗器械）需信保+视频验厂增信。<br>
+<b>商品有效性：</b>品效<5%的品类（家纺/宠物/餐具）立即做品质量审计，淘汰90天零曝光品。<br>
+<b>全球需求：</b>关注电气用品（海关+8.4%）、办公用品（+7.0%）、护肤（+8.1%）等增速赛道，现有商家扩品进入。
+</p></div><div class="ag-card ag-red"><div class="ag-title">B. 9,258家沉默商家：激活或清退</div><p>
+<b>现状：</b>占注册总量98%，在ftrd表无任何记录（无商品/无交易/无流量）。<br>
+<b>分层策略：</b><br>
+① <b>新注册<6月</b>（预估30%）：处于冷启动期，需1对1发品指导+新商家流量扶持；<br>
+② <b>休眠>12月</b>（预估50%）：发送"品类机会简报"唤醒，重点推送杭州缺商品类（指甲用品、办公用品、彩妆）；<br>
+③ <b>纯RFQ/贸易商</b>（预估20%）：非发品型商家，引导转向RFQ报价或清退无效账号。<br>
+<b>激活优先级：</b>优先激活注册品类与"空白机会"品类匹配的商家（如注册了玩具但从未发品的，推送玩具出口+6%的机会）。
+</p></div><div class="ag-card ag-cyan"><div class="ag-title">C. 招商方向：杭州 vs 全国供给差</div><p>
+<b>杭州缺但全国强的品类（招本地商家）：</b><br>
+• 指甲用品（杭州11家，全国产业带在义乌/广州）→ 招杭州周边美妆工具商<br>
+• 办公用品（杭州5家，全国产业带在宁波/温州）→ 招浙江文具/办公设备商<br>
+• 彩妆及工具（杭州1家！）→ 招杭州美妆电商转型外贸<br>
+<b>杭州完全空白的增量赛道（招新进入者）：</b><br>
+• 储能系统/电池（海关+10%，出口183亿$）→ 招杭州新能源企业<br>
+• 新能源汽车/零配件（海关+20%，出口240亿$）→ 招杭州汽车电子企业<br>
+• 阀门/通用机械（海关+8%，出口79亿$）→ 招杭州/萧山机械制造企业<br>
+<b>杭州有优势的品类（保护+扩大）：</b><br>
+• 发饰（商效196，全国领先）→ 保护头部+培育新商家<br>
+• 饮具及配件（98家，3563单）→ 杭州主场，继续深耕<br>
+• 包装印刷（4个子品类均有商家）→ 集群优势，打造"杭州包装"产业带品牌
+</p></div><div class="ag-card ag-yellow"><div class="ag-title">D. 商品策略：有效性 × 全球需求匹配</div><p>
+<b>发品有效性红线：</b>单品90天零曝光→强制优化或下架；品效<3%的L2→控制发品总量，转向精品运营。<br>
+<b>全球需求匹配：</b>发品前必查海关YoY——优先发"正增长"品类商品，避免在"负增长"品类（休闲服装-5%、女装-4.9%）盲目铺货。<br>
+<b>杭州 vs 全国差异：</b>杭州商家偏"小而美"（发饰、切卡机、瑜伽服），全国大盘偏"大而全"。
+建议杭州商家保持差异化定位（定制化、设计感、小批量快反），避免与义乌/广州大卖家正面价格竞争。<br>
+<b>商品单价建议：</b>结合爆品数据，$10-50是杭州商家的甜蜜区间（转化率高+物流成本可控）。
+高客单品（>$100）需配合信保+视频+样品策略降低买家决策门槛。
+</p></div></div></div></div>
+
+</div>
+
+<!-- TAB 2: 供需缺口 -->
+<div class="tc">
+<div class="sb"><h3>供需缺口分析：海外需求 vs 杭州供给</h3>
+<p>方法论：对GACC 495个L2品类，筛选<span class="hl">海关YoY>0%且出口额>50亿$</span>的品类（205个），与杭州商家供给交叉。按缺口严重程度分为4级：空白(0商家)→严重缺商(≤5)→缺商(≤20)→供需匹配(可扩大)。</p>
+<p style="margin-top:6px">机会评分 = 海关YoY × log₁₀(出口额) / log₁₀(杭州商家数+1)，分数越高=海外需求越强且杭州供给越弱。</p></div>
+
+<div class="pnl"><div class="pt">供需缺口深度洞察 <span class="en">Gap Intelligence Summary</span></div>
+<div style="font-size:12px;line-height:1.9">
+<p><b style="color:var(--g)">一、缺口全景：</b>
+205个正增长品类中，杭州供给分布为：<span style="color:var(--r);font-weight:700">空白159个</span>（0商家）→
+<span style="color:#E9B84A;font-weight:700">严重缺商15个</span>（≤5家）→
+缺商17个（≤20家）→
+<span style="color:var(--gn)">供需匹配13个</span>（可扩大）。
+<b>77%的机会品类（159/205）杭州完全空白</b>，仅6%（13/205）达到供需匹配。</p>
+
+<p><b style="color:var(--g)">二、空白机会的行业集中度：</b>
+工业机械(14个L2)、商业设备及机械(14个L2)、母婴&玩具(10个L2)、化学品(9个L2)、消费电子(8个L2)。
+空白品类合计对应出口规模<span class="hl">363,972亿$</span>，
+严重缺商品类对应<span class="hl">43,033亿$</span>——
+这些是杭州商家尚未触及的"需求蓝海"。</p>
+
+<p><b style="color:var(--g)">三、机会评分 Top 5（需求最强 × 供给最弱）：</b><br>&nbsp;&nbsp;1. <b>农用化学品</b>（化学品）：评分181，海关+17.3%，出口1,431亿$，杭州0家<br>&nbsp;&nbsp;2. <b>谷物</b>（农业）：评分174，海关+57.9%，出口126亿$，杭州3家<br>&nbsp;&nbsp;3. <b>新能源汽车</b>（整车及交通工具）：评分158，海关+20.0%，出口240亿$，杭州0家<br>&nbsp;&nbsp;4. <b>铁道零部件及配件</b>（汽车零配件）：评分154，海关+27.1%，出口51亿$，杭州0家<br>&nbsp;&nbsp;5. <b>乘用车</b>（整车及交通工具）：评分148，海关+20.0%，出口168亿$，杭州0家<br></p>
+<p><b style="color:var(--g)">四、从缺口到行动的转化路径：</b><br>
+&nbsp;&nbsp;• <b>空白品类</b>（0商家）→ 招商引资第一优先级，对接产业带集群（如玩具→义乌、新能源→钱塘区）<br>
+&nbsp;&nbsp;• <b>严重缺商</b>（≤5家）→ 现有商家扩品+定向招新，如办公用品仅5家但28天413单（商效83！）<br>
+&nbsp;&nbsp;• <b>供需匹配</b>（可扩大）→ 鼓励现有商家加大投入、提升品质量，如饮具(105家/3793单)仍有增量空间<br>
+&nbsp;&nbsp;• <b>转化验证</b>：严重缺商中已有订单的品类（办公用品413单、笔记本257单、塑料制品226单）证明"少商家也能出单"，招商ROI可预期</p>
+
+<p><b style="color:var(--g)">五、杭州 vs 全国供给差异核心结论：</b><br>
+&nbsp;&nbsp;杭州商家集中在<b>包装印刷（4个L2全覆盖）、服装（5个L2）、家居园艺（3个L2）</b>，
+而全国出口增量最大的<b>可再生能源、汽车、工业机械、消费电子</b>杭州几乎零覆盖。
+杭州的供给结构偏"消费品+轻工"，与全球需求增量"新能源+智能制造"存在<span style="color:var(--r);font-weight:700">赛道级错配</span>。
+短期策略：在消费品赛道深耕（玩具、个护、食品）；中期策略：引入新能源/智能制造企业填补结构性空白。</p>
+</div></div>
+
+
+
+<div class="pnl"><div class="pt">🔴 空白机会 Top 30（杭州零商家 + 海关高增长） <span class="en">Zero Supply + High Demand</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>L1</th><th>L2</th><th class="n">海关YoY</th><th class="n">出口额</th><th class="n">杭州商家</th><th class="n">28天单</th><th>缺口类型</th></tr></thead>
+<tbody><tr><td class="rk">1</td><td>化学品</td><td><b>农用化学品</b></td><td class="n" style="color:#00B578">+17.3%</td><td class="n">1,431亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">2</td><td>整车及交通工具</td><td><b>新能源汽车</b></td><td class="n" style="color:#00B578">+20.0%</td><td class="n">240亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">3</td><td>汽车零配件</td><td><b>铁道零部件及配件</b></td><td class="n" style="color:#00B578">+27.1%</td><td class="n">51亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">4</td><td>整车及交通工具</td><td><b>乘用车</b></td><td class="n" style="color:#00B578">+20.0%</td><td class="n">168亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">5</td><td>可再生能源</td><td><b>储能系统</b></td><td class="n" style="color:#00B578">+10.3%</td><td class="n">18,311亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">6</td><td>建材与房地产</td><td><b>梯子及脚手架</b></td><td class="n" style="color:#00B578">+15.0%</td><td class="n">780亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">7</td><td>运动及娱乐</td><td><b>船舶&游艇&飞机&房车</b></td><td class="n" style="color:#00B578">+18.6%</td><td class="n">190亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">8</td><td>整车及交通工具</td><td><b>卡车</b></td><td class="n" style="color:#00B578">+20.0%</td><td class="n">120亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">9</td><td>整车及交通工具</td><td><b>拖车</b></td><td class="n" style="color:#00B578">+20.0%</td><td class="n">120亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">10</td><td>可再生能源</td><td><b>电池</b></td><td class="n" style="color:#00B578">+9.2%</td><td class="n">18,462亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">11</td><td>汽车零配件</td><td><b>汽车传动系统</b></td><td class="n" style="color:#00B578">+20.0%</td><td class="n">72亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">12</td><td>汽车零配件</td><td><b>汽车覆盖件系统</b></td><td class="n" style="color:#00B578">+16.2%</td><td class="n">116亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">13</td><td>五金工具</td><td><b>阀门</b></td><td class="n" style="color:#00B578">+8.0%</td><td class="n">7,928亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">14</td><td>母婴&玩具</td><td><b>毛绒玩具</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">15</td><td>母婴&玩具</td><td><b>新奇搞怪玩具</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">16</td><td>母婴&玩具</td><td><b>潮玩玩偶与盲盒</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">17</td><td>母婴&玩具</td><td><b>二次元&卡牌</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">18</td><td>母婴&玩具</td><td><b>户外运动玩具</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">19</td><td>母婴&玩具</td><td><b>遥控玩具</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">20</td><td>消费电子</td><td><b>手机与配件</b></td><td class="n" style="color:#00B578">+5.0%</td><td class="n">97,150亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">21</td><td>工业机械</td><td><b>服装及纺织机械</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">911亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">22</td><td>食品及饮料</td><td><b>零食</b></td><td class="n" style="color:#00B578">+8.0%</td><td class="n">1,260亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">23</td><td>食品及饮料</td><td><b>豆制品</b></td><td class="n" style="color:#00B578">+8.0%</td><td class="n">1,260亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">24</td><td>食品及饮料</td><td><b>其他食品与饮料</b></td><td class="n" style="color:#00B578">+8.0%</td><td class="n">1,260亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">25</td><td>食品及饮料</td><td><b>婴儿食品</b></td><td class="n" style="color:#00B578">+8.0%</td><td class="n">1,260亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">26</td><td>电子元器件、配件及通讯</td><td><b>电子配件及用品</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">889亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">27</td><td>工业机械</td><td><b>通用机械部件</b></td><td class="n" style="color:#00B578">+8.1%</td><td class="n">951亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">28</td><td>商业设备及机械</td><td><b>清洁设备</b></td><td class="n" style="color:#00B578">+9.0%</td><td class="n">393亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">29</td><td>工业机械</td><td><b>机床设备</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">564亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr><tr><td class="rk">30</td><td>工业机械</td><td><b>金属及冶金机械</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">520亿</td><td class="n">0</td><td class="n">0</td><td class="ts">空白机会(杭州无商家)</td></tr></tbody></table></div></div>
+
+<div class="pnl"><div class="pt">🟡 严重缺商 Top 15（≤5商家 + 海关正增长） <span class="en">Severe Under-supply</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>L1</th><th>L2</th><th class="n">海关YoY</th><th class="n">出口额</th><th class="n">杭州商家</th><th class="n">28天单</th><th>缺口类型</th></tr></thead>
+<tbody><tr><td class="rk">1</td><td>农业</td><td><b>谷物</b></td><td class="n" style="color:#00B578">+57.9%</td><td class="n">126亿</td><td class="n">3</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">2</td><td>母婴&玩具</td><td><b>婴儿玩具</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">3</td><td>母婴&玩具</td><td><b>玩具车</b></td><td class="n" style="color:#00B578">+6.0%</td><td class="n">20,400亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">4</td><td>个人护理及家庭清洁</td><td><b>头发护理及造型</b></td><td class="n" style="color:#00B578">+8.1%</td><td class="n">86亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">5</td><td>安全用品</td><td><b>道路安全设施</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">65亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">6</td><td>家用电器</td><td><b>洗衣设备</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">195亿</td><td class="n">2</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">7</td><td>消费电子</td><td><b>线材及常用零配件</b></td><td class="n" style="color:#00B578">+6.8%</td><td class="n">85亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">8</td><td>个人护理及家庭清洁</td><td><b>口腔护理</b></td><td class="n" style="color:#00B578">+6.3%</td><td class="n">85亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">9</td><td>个人护理及家庭清洁</td><td><b>男士护理</b></td><td class="n" style="color:#00B578">+8.1%</td><td class="n">86亿</td><td class="n">3</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">10</td><td>家用电器</td><td><b>热水器</b></td><td class="n" style="color:#00B578">+8.4%</td><td class="n">108亿</td><td class="n">4</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">11</td><td>办公文教用品</td><td><b>办公用品</b></td><td class="n" style="color:#00B578">+7.0%</td><td class="n">171亿</td><td class="n">5</td><td class="n">413</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">12</td><td>办公文教用品</td><td><b>笔记本和写字板</b></td><td class="n" style="color:#00B578">+4.6%</td><td class="n">63亿</td><td class="n">3</td><td class="n">257</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">13</td><td>橡胶与塑料制品</td><td><b>塑料制品</b></td><td class="n" style="color:#00B578">+2.0%</td><td class="n">632亿</td><td class="n">1</td><td class="n">226</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">14</td><td>化学品</td><td><b>香精香料</b></td><td class="n" style="color:#00B578">+1.9%</td><td class="n">163亿</td><td class="n">1</td><td class="n">166</td><td class="ts">严重缺商(≤5商家)</td></tr><tr><td class="rk">15</td><td>包装印刷</td><td><b>运输包装</b></td><td class="n" style="color:#00B578">+1.5%</td><td class="n">365亿</td><td class="n">1</td><td class="n">0</td><td class="ts">严重缺商(≤5商家)</td></tr></tbody></table></div></div>
+
+<div class="sb"><h3>Amazon爆款对标 — 缺口品类竞品画像（按评论热度排序）</h3>
+<p>基于供需缺口分析识别的品类，抓取Amazon对应品类的Bestseller热销商品。这些产品在Amazon热销但国际站杭州<b>零供给或极度缺商</b>，代表明确的招商/招品机会。</p>
+<p style="color:var(--s);font-size:12px">数据来源：Amazon.com Bestseller排行 | 抓取时间：2026-07-23</p></div>
+<div class="hp-grid">
+<div class="card">
+<a href="https://www.amazon.com/dp/B082TMBYR6" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71ZiOkCG4YL._AC_UY218_.jpg" alt="B082TMBYR6" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">储能系统</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B082TMBYR6</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Jackery Portable Power Station Explorer 300, 292Wh Backup LiFePO4 Battery, Solar Generator for Outdoors Camping Travel H</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$198.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.6 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">11K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0D7PPG25F" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61JVKysP1nL._AC_UY218_.jpg" alt="B0D7PPG25F" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">储能系统</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0D7PPG25F</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Jackery Explorer 1000 v2 Portable Power Station,1070Wh LiFePO4 Battery,1500W AC/100W USB-C Output, 1 Hr Fast Charge, Sol</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$469.00</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">3.4K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0B1M6ML2J" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/81RChUS0zjL._AC_UL320_.jpg" alt="B0B1M6ML2J" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ed6a5a">办公用品</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0B1M6ML2J</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">25 PCS Clear Plastic Drawer Organizer Set, 4 Sizes Desk Drawer Divider Organizers and Storage Bins for Makeup, Jewelry, </div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$23.95</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.4 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">14.4K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0C9ZHWC9K" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61yhHuVQp4L._AC_UL320_.jpg" alt="B0C9ZHWC9K" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ed6a5a">办公用品</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0C9ZHWC9K</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">SKYDUE 360 Rotating Plastic Desk Pen Organizer with 5 Slots, Dual-Purpose Art Supply Pencil Cup for Office, School, Home</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$9.98</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.8 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">5.9K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0FMF4K563" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71VmoEegWVL._AC_UL320_.jpg" alt="B0FMF4K563" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#3aafa9">梯子及脚手架</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0FMF4K563</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">HBTower 4 Step Ladder, Step Stool Foldable with Wide Anti-Slip Pedal | Sturdy Steel Ladders for Home Adults Kitchen</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$59.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.8 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">1.2K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0D95WNG6Z" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71-xFhz1z6L._AC_UL320_.jpg" alt="B0D95WNG6Z" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#3aafa9">梯子及脚手架</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0D95WNG6Z</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Arbusb Step Ladder, Folding Step Stool with Wide Anti-Slip Pedals, Sturdy Steel Ladder with Handrail, Space-Saving, Port</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$49.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">1.1K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0CD42KQ3K" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61wDKHokleL._AC_UL320_.jpg" alt="B0CD42KQ3K" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#c780fa">婴儿玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0CD42KQ3K</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Baby Montessori Sensory Toys for 0-6 6-12 Months, Baby Teether Teething Toys for Babies 0 3 6 9 12 18 Months, Newborn In</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$9.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">11.5K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0DHH7LGZT" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/81mTVQ9LYTL._AC_UL320_.jpg" alt="B0DHH7LGZT" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#c780fa">婴儿玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0DHH7LGZT</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Black and White Baby Books for Newborn - Tummy Time Mirror & Sensory Toys Soft Montessori Toy for Infant Visual Stimulat</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$7.98</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.8 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">1.4K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B07P29XQR4" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/511Y76uGwYL._AC_UY218_.jpg" alt="B07P29XQR4" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#56ccf2">手机与配件</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B07P29XQR4</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">PopSockets Adhesive Phone Grip, Holder, Phone Stand, Black - Black</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$7.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.6 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">123.7K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0BHNYJGRF" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71yYA071I3L._AC_UY218_.jpg" alt="B0BHNYJGRF" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#56ccf2">手机与配件</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0BHNYJGRF</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Lamicall 2026 Wider Clamp & Metal Hook Car Phone Holder Vent [Thick Cases Friendly] Phone Holders for Your Car Mount Gft</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$9.48</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.5 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">15.6K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0DGL6L3R2" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71jvzVhprOL._AC_UL320_.jpg" alt="B0DGL6L3R2" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ff6b81">新奇搞怪玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0DGL6L3R2</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">ORB Easy Sqweezy Super Cheesy - Squeeze This Big, Fun, Squishy, Slow Rising, Extra Soft Giant Block of Cheese for Stress</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$13.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.0 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">467 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0GRLZ7966" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61jwMR3RX6L._AC_UL320_.jpg" alt="B0GRLZ7966" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ff6b81">新奇搞怪玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0GRLZ7966</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Cheese Squishy (6cm),Cheese Block Squeeze Toy,Squishies Stress Relief Fidget Toys,Stocking Stuffer Novelty Birthday Gift</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$7.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">3.8 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">414 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0FRSZB73F" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/51SG7xVPzrL._AC_UL320_.jpg" alt="B0FRSZB73F" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">潮玩玩偶与盲盒</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0FRSZB73F</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Smiski Birthday Series - (1) Assorted Sealed Blind Box Original Glow in The Dark Mini Figures - No Choice Available</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$17.60</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.5 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">360 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0FXYG3QP3" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/81Re089qqHL._AC_UL320_.jpg" alt="B0FXYG3QP3" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">潮玩玩偶与盲盒</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0FXYG3QP3</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Disney Stitch Sleepy Stars Vinyl Plush Clip-on Surprise Toy | Drop 2 Blind Box Collectible Stuffed Toy, 5.5-Inch Plush w</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$9.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.1 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">13 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B002RS6JSA" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/41cqM3FYB-L._AC_UL320_.jpg" alt="B002RS6JSA" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ed6a5a">头发护理及造型</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B002RS6JSA</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">CHI 44 Iron Guard Thermal Protection Spray for Hair, Heat Damage Shield with Ceramic Minerals, Lightweight Styling Spray</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$8.00</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.5 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">71K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B09GKY436P" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61VkRoH0BSL._AC_UL320_.jpg" alt="B09GKY436P" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ed6a5a">头发护理及造型</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B09GKY436P</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Remington Shine Therapy 1 inch Hair Straightener Iron, Flat Iron Infused with Argan Oil & Keratin, Professional Ceramic </div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$33.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">28.6K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B09YLKMHLH" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61CoDohL3wL._AC_UY218_.jpg" alt="B09YLKMHLH" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#3aafa9">洗衣设备</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B09YLKMHLH</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Portable Washing Machine, 28lbs Twin Tub Washer Mini Compact Laundry Machine with Drain Pump, Semi-automatic 18lbs Washe</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$179.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.2 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">4K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B01N68XF0O" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/81nv8uYwf7L._AC_UY218_.jpg" alt="B01N68XF0O" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#3aafa9">洗衣设备</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B01N68XF0O</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Scrubba Wash Bag - Patented Washboard-in-a-Bag™ Portable Travel Washing Machine for Camping, Backpacking, Cruises & Hote</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$59.95</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.4 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">3.1K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B01K1K0K6M" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71rVHKdRZbL._AC_UL320_.jpg" alt="B01K1K0K6M" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#c780fa">户外运动玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B01K1K0K6M</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Step2 Rain Showers Splash Pond Water Table, Kids Water and Sand Activity Sensory Playset, Summer Outdoor Toys, 13 Piece </div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$84.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">23.7K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0796JVBJ8" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71STcje+p-L._AC_UL320_.jpg" alt="B0796JVBJ8" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#c780fa">户外运动玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0796JVBJ8</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">6-Pack Water Blaster Set, Multicolor</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$22.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">10.5K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0G6L1ZSMF" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61PdwO-gcFL._AC_UY218_.jpg" alt="B0G6L1ZSMF" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#56ccf2">电池</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0G6L1ZSMF</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">1.5V Rechargeable AA Batteries 8-Pack with Smart Charger, 4000mWh High Capacity Lithium AA Battery, Constant 1.5V Output</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$25.99</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.4 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">116 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0G4QZ454T" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71v1MpaWU1L._AC_UY218_.jpg" alt="B0G4QZ454T" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#56ccf2">电池</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0G4QZ454T</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">USB C Rechargeable AA Batteries 4 Pack, 4100mWh 1.5V Constant Output Lithium Ion Battery, 2.5H Fast Charging Double A Re</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$22.37</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">62 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0GFMY4J3L" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71PezzYwH0L._AC_UY218_.jpg" alt="B0GFMY4J3L" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ff6b81">清洁设备</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0GFMY4J3L</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">MONSGA Robot Vacuum and Mop Combo, 90 Days Self-Emptying with 8000Pa Suction, LiDAR Smart Mapping, Dual Anti-Tangle for </div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$239.98</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.7 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">385 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0GXK5GSZY" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61TSQr5sRHL._AC_UY218_.jpg" alt="B0GXK5GSZY" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#ff6b81">清洁设备</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0GXK5GSZY</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">ECOVACS DEEBOT T50 PRO Omni Robot Vacuum & Mop, 3.19" Ultra-Slim, 15,000Pa Strong Suction, ZeroTangle 2.0, TruEdge Edge </div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$313.00</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.2 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">49 reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0CL3WC4MT" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/71TjmgpM0DL._AC_UL320_.jpg" alt="B0CL3WC4MT" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">毛绒玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0CL3WC4MT</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Best Pet Supplies Interactive Squeaky Dog Chew Toy, Ideal Dog Toys for Chewers, Small, Medium & Large Dogs</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$8.59</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.3 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">51.5K reviews</span>
+</div>
+</div>
+</div></a></div>
+<div class="card">
+<a href="https://www.amazon.com/dp/B0D487FBFG" target="_blank" style="display:block;text-decoration:none">
+<div style="display:flex;gap:12px;align-items:flex-start">
+<img class="thumb" src="https://m.media-amazon.com/images/I/61ZZhwlJktL._AC_UL320_.jpg" alt="B0D487FBFG" style="width:120px;height:120px;object-fit:contain;border-radius:8px;background:#fff">
+<div class="meta">
+<div class="nm" style="color:#f6d55c">毛绒玩具</div>
+<div class="en" style="font-size:11px;color:#8ba3c7;margin-bottom:4px">Amazon ASIN: B0D487FBFG</div>
+<div style="font-size:12px;color:#c8d6e5;line-height:1.4;margin-bottom:6px">Aurora Adorable Palm Pals Happy BDay Cake Stuffed Animal - Fun Collectible Plush</div>
+<div class="footer-row" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+<span class="chip" style="background:#1a3a5c;color:#E9B84A;font-weight:700">$11.75</span>
+<span class="chip" style="background:#1a3a5c;color:#f6d55c">4.8 out of 5★</span>
+<span class="chip" style="background:#1a3a5c;color:#56ccf2">634 reviews</span>
+</div>
+</div>
+</div></a></div>
+</div>
+
+<div class="pnl"><div class="pt">🟢 竞争优势品类（杭州有供给 + 海关正增长 → 扩大） <span class="en">Competitive Advantage - Expand</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th class="ctr">#</th><th>L1</th><th>L2</th><th class="n">海关YoY</th><th class="n">出口额</th><th class="n">杭州商家</th><th class="n">28天单</th><th>缺口类型</th></tr></thead>
+<tbody><tr><td class="rk">1</td><td>运动及娱乐</td><td><b>自行车</b></td><td class="n" style="color:#00B578">+12.7%</td><td class="n">135亿</td><td class="n">40</td><td class="n">310</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">2</td><td>仪器仪表</td><td><b>检测与分析仪器</b></td><td class="n" style="color:#00B578">+4.3%</td><td class="n">1,335亿</td><td class="n">31</td><td class="n">227</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">3</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n" style="color:#00B578">+4.3%</td><td class="n">1,731亿</td><td class="n">53</td><td class="n">501</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">4</td><td>宠物用品及食品</td><td><b>宠物用品</b></td><td class="n" style="color:#00B578">+2.1%</td><td class="n">20,481亿</td><td class="n">42</td><td class="n">718</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">5</td><td>家居园艺</td><td><b>家用储物收纳用具</b></td><td class="n" style="color:#00B578">+3.8%</td><td class="n">291亿</td><td class="n">70</td><td class="n">204</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">6</td><td>包装印刷</td><td><b>包装辅助材料</b></td><td class="n" style="color:#00B578">+2.5%</td><td class="n">636亿</td><td class="n">47</td><td class="n">796</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">7</td><td>医疗器械和用品</td><td><b>商用医疗器械</b></td><td class="n" style="color:#00B578">+4.2%</td><td class="n">63亿</td><td class="n">65</td><td class="n">727</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">8</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n" style="color:#00B578">+2.1%</td><td class="n">286亿</td><td class="n">105</td><td class="n">3,793</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">9</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n" style="color:#00B578">+1.3%</td><td class="n">344亿</td><td class="n">51</td><td class="n">478</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">10</td><td>包装印刷</td><td><b>玻璃包装</b></td><td class="n" style="color:#00B578">+1.1%</td><td class="n">303亿</td><td class="n">26</td><td class="n">539</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">11</td><td>办公文教用品</td><td><b>书写及修改用品</b></td><td class="n" style="color:#00B578">+1.0%</td><td class="n">242亿</td><td class="n">39</td><td class="n">933</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">12</td><td>服装及配饰</td><td><b>帽子</b></td><td class="n" style="color:#00B578">+1.0%</td><td class="n">61亿</td><td class="n">41</td><td class="n">184</td><td class="ts">供需匹配(可扩大)</td></tr><tr><td class="rk">13</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n" style="color:#00B578">+0.8%</td><td class="n">383亿</td><td class="n">118</td><td class="n">433</td><td class="ts">供需匹配(可扩大)</td></tr></tbody></table></div></div>
+</div>
+
+<!-- TAB 3: 分区产业带 -->
+<div class="tc">
+<div class="sb"><h3>杭州市分区产业带 × 海外需求 行动指南</h3>
+<p>杭州8区产业带现状 + 对接海外需求方向 + 具体行动建议。基于ODPS商家数据（品类分布/市场信号）× 12区域需求结构 × 海关出口趋势。</p></div>
+<div class="pnl"><div class="pt">分区产业带深度洞察 <span class="en">District Strategy Intelligence</span></div>
+<div style="font-size:12px;line-height:1.9">
+<p><b style="color:var(--g)">一、产业带 × 海外需求匹配度诊断：</b><br>
+&nbsp;&nbsp;• <b>余杭（家纺/服装）</b>：对应海关YoY <span style="color:var(--r)">-0.7%~-5.0%</span>（家纺/女装/休闲服装均负增长）→ 海外需求收缩，需转向"小单快反+设计差异化"而非铺量<br>
+&nbsp;&nbsp;• <b>萧山（厨具/饮具）</b>：饮具海关+2.1%，28天3,793单（杭州第一）→ <span style="color:var(--gn)">供需两旺，继续深耕</span>；健身器材/玩具对应海关+6%（正增长）→ 扩品方向明确<br>
+&nbsp;&nbsp;• <b>临安（电气/光电）</b>：电气用品海关+8.4%（高增速），杭州23家/499单，品效88%（极高！）→ <span style="color:var(--gn)">效率标杆，应扩大商家规模</span><br>
+&nbsp;&nbsp;• <b>西湖（检测/设计）</b>：检测仪器海关+4.3%，31家/227单 → 稳定但增量有限，适合做"服务型跨境"（认证/检测/设计外包）<br>
+&nbsp;&nbsp;• <b>滨江（医疗/美妆）</b>：医疗器械海关+4.2%，65家/727单 → 供给充足；<span style="color:#E9B84A">彩妆海关+5.2%但杭州仅1家！</span>→ 滨江美妆电商基础好，应重点孵化彩妆跨境<br>
+&nbsp;&nbsp;• <b>钱塘（汽车/新能源/潮玩）</b>：对应海关+20%（整车）、+10%（储能）、+6%（玩具）→ <span style="color:var(--r)">全球增速最快赛道，但杭州几乎空白</span>，是"从0到1"的招商主战场</p>
+
+<p><b style="color:var(--g)">二、各区"供需温差"排序（海外需求热度 vs 本地供给密度）：</b><br>
+&nbsp;&nbsp;🔴 <b>温差最大（需求热/供给冷）</b>：钱塘区（新能源+汽车，海关+10~20%，商家≈0）<br>
+&nbsp;&nbsp;🟡 <b>温差较大</b>：滨江区（彩妆+5.2%仅1家）、临安区（电气+8.4%仅23家，但品效极高说明"少而精"）<br>
+&nbsp;&nbsp;🟢 <b>温差适中</b>：萧山区（饮具+2.1%/105家，供需基本匹配）、余杭区（包装+2.5~4.3%/100+家）<br>
+&nbsp;&nbsp;⚪ <b>需求收缩</b>：余杭服装板块（女装-4.9%、休闲-5.0%）→ 不宜继续扩量，转向提质</p>
+
+<p><b style="color:var(--g)">三、分区行动优先级矩阵：</b><br>
+&nbsp;&nbsp;• <b>立即行动</b>（高需求+有基础）：萧山扩饮具/玩具、临安扩电气设备、滨江孵化彩妆<br>
+&nbsp;&nbsp;• <b>重点招商</b>（高需求+零基础）：钱塘引新能源/汽车电子/潮玩企业入驻<br>
+&nbsp;&nbsp;• <b>提质增效</b>（需求平/有基础）：余杭家纺做品牌化升级、西湖检测做服务出海<br>
+&nbsp;&nbsp;• <b>战略收缩</b>（需求降/过度供给）：余杭女装/休闲服装控制发品量，淘汰低效品</p>
+
+<p><b style="color:var(--g)">四、产业带协同建议：</b><br>
+&nbsp;&nbsp;• 余杭（电商运营能力）× 钱塘（制造业土地）→ "前店后厂"模式：余杭做运营/品牌，钱塘做生产/仓储<br>
+&nbsp;&nbsp;• 萧山（厨具产业带）× 临安（电气设备）→ 组合出海：智能厨房解决方案（厨具+小家电+电气控制）<br>
+&nbsp;&nbsp;• 滨江（医疗/美妆品牌力）× 余杭（流量运营）→ 品牌跨境：滨江出品牌/研发，余杭出运营/投放</p>
+</div>
+
+<div class="sb"><h3>产业带商品招募画像 — 杭州热卖品画像参考</h3>
+<p>基于杭州热销商品属性聚合分析，为各区县产业带提供产品开发与招商选品画像。含商品示意图、核心卖点占比(材质/工艺/风格)、价格段、色系、订单集中度。</p></div>
+<div class="hp-grid">
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1600937739095.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H4e7f0a3a0207422f92a862fca63cd9b64.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#f6d55c;">发饰</h3>
+      <div class="en">爪式发夹</div>
+      <div class="tag-row">
+        <span class="scene-tag">男性/女性</span>
+        <span class="heat-tag">🔥 关注度最高</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>72</b> 款热销商品，主要面向 <span class='scene'>男性/女性</span> 场景，以「醋酸纤维」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">醋酸纤维 <em>81%</em></span> <span class="chip">夏威夷风 <em>72%</em></span> <span class="chip">定制 <em>67%</em></span> <span class="chip">贝壳 <em>17%</em></span> <span class="chip">纤维素 <em>10%</em></span> <span class="chip">热带 <em>10%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">绿</span> <span class="chip">糖果色</span> <span class="chip">闪粉</span> <span class="chip">粉</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$24 – $36</b></span>
+    <span>订单集中度 <b>38.0%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601048626398.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/Ha62cd3349d04446d93b46c1ff7a457acg.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#ed6a5a;">办公用品</h3>
+      <div class="en">办公设备</div>
+      <div class="tag-row">
+        <span class="scene-tag">商务</span>
+        <span class="heat-tag">🔥 关注度较高</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>3</b> 款热销商品，主要面向 <span class='scene'>商务</span> 场景。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">模切 <em>100%</em></span></div>
+  
+  <div class="footer-row">
+    <span>💰 客单价 <b>$84 – $102</b></span>
+    <span>订单集中度 <b>12.2%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601787096855.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H69581a7dd37541ed96f6dc5bfca05e59I.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#3aafa9;">电气用品</h3>
+      <div class="en">墙壁开关</div>
+      <div class="tag-row">
+        <span class="scene-tag">居家</span>
+        <span class="heat-tag">🔥 高潜赛道</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>16</b> 款热销商品，主要面向 <span class='scene'>居家</span> 场景，以「黄铜」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">黄铜 <em>94%</em></span> <span class="chip">复古 <em>25%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">金</span> <span class="chip">白</span> <span class="chip">黑</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$99 – $162</b></span>
+    <span>订单集中度 <b>7.6%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601779605085.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/Hf9f18a5c5fc7485798b7f88982e5d0c4E.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#c780fa;">女装</h3>
+      <div class="en">女士套装</div>
+      <div class="tag-row">
+        <span class="scene-tag">女性/男性</span>
+        <span class="heat-tag">🔥 高潜赛道</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>13</b> 款热销商品，主要面向 <span class='scene'>女性/男性</span> 场景，以「毛圈」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">定制 <em>92%</em></span> <span class="chip">拉链 <em>46%</em></span> <span class="chip">Y2K <em>31%</em></span> <span class="chip">奢华 <em>15%</em></span> <span class="chip">毛圈 <em>8%</em></span> <span class="chip">棉 <em>8%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">红</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$77 – $177</b></span>
+    <span>订单集中度 <b>6.7%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1600940672880.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/Ha72c17010cfc40a9ba65d453f0c804c0K.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#66c2ff;">婴儿服装</h3>
+      <div class="en">婴儿套装</div>
+      <div class="tag-row">
+        <span class="scene-tag">母婴/儿童</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>4</b> 款热销商品，主要面向 <span class='scene'>母婴/儿童</span> 场景，以「棉」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">棉 <em>25%</em></span> <span class="chip">正式 <em>25%</em></span> <span class="chip">绅士 <em>25%</em></span> <span class="chip">韩式 <em>25%</em></span></div>
+  
+  <div class="footer-row">
+    <span>💰 客单价 <b>$7 – $7</b></span>
+    <span>订单集中度 <b>2.9%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1600703375612.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H2e4c154654614bd1847efac98b5897ebC.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#00B578;">指甲用品</h3>
+      <div class="en">美甲艺术</div>
+      <div class="tag-row">
+        <span class="scene-tag">男性</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>8</b> 款热销商品，主要面向 <span class='scene'>男性</span> 场景，以「亚克力」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">亚克力 <em>75%</em></span> <span class="chip">定制 <em>25%</em></span> <span class="chip">树脂 <em>12%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">粉</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$46 – $187</b></span>
+    <span>订单集中度 <b>2.4%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601763605213.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H540435f69d9645acb909a556857bc2dc1.png_960x960q80.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#ff9f43;">促销礼品&商务礼品</h3>
+      <div class="en">促销玩具</div>
+      <div class="tag-row">
+        <span class="scene-tag">通用</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>4</b> 款热销商品。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip-empty">属性待标注</span></div>
+  <div class="specs">🎨 色系：<span class="chip">闪粉</span> <span class="chip">夜光</span> <span class="chip">彩虹</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$157 – $336</b></span>
+    <span>订单集中度 <b>2.2%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601833471116.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/Hc8b9c341516a48d79a69b99901e4725ej.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#a29bfe;">钥匙扣</h3>
+      <div class="en">其他钥匙扣</div>
+      <div class="tag-row">
+        <span class="scene-tag">女性/男性</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>7</b> 款热销商品，主要面向 <span class='scene'>女性/男性</span> 场景，以「醋酸纤维」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">醋酸纤维 <em>86%</em></span> <span class="chip">夏威夷风 <em>71%</em></span> <span class="chip">贝壳 <em>29%</em></span> <span class="chip">定制 <em>14%</em></span> <span class="chip">卡通 <em>14%</em></span> <span class="chip">奢华 <em>14%</em></span></div>
+  
+  <div class="footer-row">
+    <span>💰 客单价 <b>$27 – $28</b></span>
+    <span>订单集中度 <b>2.1%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601637096657.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/Hb35c45f22c064b55ba469285030266f5R.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#f6d55c;">配饰</h3>
+      <div class="en">围巾披肩和头巾</div>
+      <div class="tag-row">
+        <span class="scene-tag">男性/女性</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>6</b> 款热销商品，主要面向 <span class='scene'>男性/女性</span> 场景，以「缎面」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">定制 <em>67%</em></span> <span class="chip">缎面 <em>33%</em></span> <span class="chip">皮革 <em>33%</em></span> <span class="chip">复古 <em>33%</em></span> <span class="chip">PU皮 <em>17%</em></span> <span class="chip">印花 <em>17%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">红</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$258 – $1052</b></span>
+    <span>订单集中度 <b>2.0%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1600955591247.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H7eb48cfbc8e24263818f0f0b6e2515039.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#ed6a5a;">袜子</h3>
+      <div class="en">运动袜</div>
+      <div class="tag-row">
+        <span class="scene-tag">男性/运动</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>5</b> 款热销商品，主要面向 <span class='scene'>男性/运动</span> 场景，以「棉」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">棉 <em>80%</em></span> <span class="chip">定制 <em>80%</em></span> <span class="chip">精梳棉 <em>40%</em></span> <span class="chip">刺绣 <em>20%</em></span> <span class="chip">针织 <em>20%</em></span> <span class="chip">街头 <em>20%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">白</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$226 – $374</b></span>
+    <span>订单集中度 <b>2.0%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1600461500228.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H06dec0a86c7747cca1ca160680f8478ch.png_960x960q80.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#3aafa9;">外部配件</h3>
+      <div class="en">汽车贴膜</div>
+      <div class="tag-row">
+        <span class="scene-tag">宠物</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>4</b> 款热销商品，主要面向 <span class='scene'>宠物</span> 场景，以「TPU」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">TPU <em>25%</em></span> <span class="chip">PVC <em>25%</em></span> <span class="chip">定制 <em>25%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">蓝</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$179 – $315</b></span>
+    <span>订单集中度 <b>1.9%</b></span>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <a href="https://www.alibaba.com/product-detail/_1601114996305.html" target="_blank" class="thumb" style="background-image:url('https://s.alicdn.com/@sc04/kf/H2ac7c431fe104ce99c1d69483cd55dd2S.jpg_220x220.jpg')"></a>
+    <div class="meta">
+      <h3 style="color:#c780fa;">饮具及配件</h3>
+      <div class="en">饮具</div>
+      <div class="tag-row">
+        <span class="scene-tag">旅行</span>
+        <span class="heat-tag">长尾细分</span>
+      </div>
+      <p class="desc">该画像涵盖 <b>6</b> 款热销商品，主要面向 <span class='scene'>旅行</span> 场景，以「不锈钢」为核心材质。</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="sellpoints"><span class="chip">不锈钢 <em>100%</em></span> <span class="chip">激光 <em>17%</em></span> <span class="chip">雕刻 <em>17%</em></span> <span class="chip">定制 <em>17%</em></span></div>
+  <div class="specs">🎨 色系：<span class="chip">蓝</span> <span class="chip">紫</span> <span class="chip">绿</span></div>
+  <div class="footer-row">
+    <span>💰 客单价 <b>$2 – $27</b></span>
+    <span>订单集中度 <b>1.6%</b></span>
+  </div>
+</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">余杭区</b><span class="dc-belt">家纺/服装/电商/饰品</span></div>
+<div class="dc-cats"><b>当前品类:</b> 家纺(120商家)、女装(59)、休闲服装(46)、包装(53+51)、发饰(11)</div>
+<div class="dc-str"><b>产业优势:</b> 杭州最大电商集聚区，家纺/服装供应链成熟，直播电商发达</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 扩大家纺/服装跨境供给，对接东南亚/非洲快时尚需求；引入饰品设计商家</div></div><div class="dc"><div class="dc-h"><b class="g">萧山区</b><span class="dc-belt">厨具/卫浴/健身器材/玩具/袜业</span></div>
+<div class="dc-cats"><b>当前品类:</b> 饮具(105商家)、厨具、卫浴、健身器材、玩具、袜子(31)</div>
+<div class="dc-str"><b>产业优势:</b> 制造业基础扎实，厨具/卫浴出口经验丰富</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 扩大厨具/卫浴对中东/东南亚出口；引入健身器材商家对接北美兴趣消费</div></div><div class="dc"><div class="dc-h"><b class="g">临安区</b><span class="dc-belt">电线电缆/光电/印刷/户外</span></div>
+<div class="dc-cats"><b>当前品类:</b> 电气设备(23商家)、开关(13)、电源(15)、印刷、户外装备</div>
+<div class="dc-str"><b>产业优势:</b> 电线电缆/光电产业集群，电气设备出口基础好</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 扩大电气设备对北美/中东基建出口；引入户外装备商家</div></div><div class="dc"><div class="dc-h"><b class="g">西湖区</b><span class="dc-belt">电子信息/设计/品牌/检测</span></div>
+<div class="dc-cats"><b>当前品类:</b> 检测仪器(31商家)、品牌设计、电商运营</div>
+<div class="dc-str"><b>产业优势:</b> 高校/科研院所集聚，设计/品牌/检测能力强</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 引入检测/认证服务商家；发展品牌化跨境电商标杆</div></div><div class="dc"><div class="dc-h"><b class="g">滨江区</b><span class="dc-belt">物联网/安防/医疗/美妆电商</span></div>
+<div class="dc-cats"><b>当前品类:</b> 医疗器械(65商家)、美妆电商、物联网</div>
+<div class="dc-str"><b>产业优势:</b> 高新技术企业密集，医疗器械/美妆电商运营能力强</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 扩大医疗器械出口(海关+9.2%)；发展美妆跨境品牌</div></div><div class="dc"><div class="dc-h"><b class="g">钱塘区</b><span class="dc-belt">汽车/生物医药/新能源/潮玩</span></div>
+<div class="dc-cats"><b>当前品类:</b> 生物医药、新能源汽车配套、潮玩/盲盒</div>
+<div class="dc-str"><b>产业优势:</b> 先进制造业平台，汽车/生物医药/新能源集聚</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 引入新能源/储能配套商家；发展潮玩/盲盒跨境(全球兴趣消费+10~18%)</div></div><div class="dc"><div class="dc-h"><b class="g">富阳区</b><span class="dc-belt">造纸/纸包装/光通信/运动器材</span></div>
+<div class="dc-cats"><b>当前品类:</b> 纸质包装(53商家)、造纸、光通信、自行车(21)</div>
+<div class="dc-str"><b>产业优势:</b> 造纸/纸包装产业集群，自行车/运动器材基础</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 扩大纸包装对东南亚/印度制造业配套；自行车对接北美/西欧骑行热潮</div></div><div class="dc"><div class="dc-h"><b class="g">临平区</b><span class="dc-belt">服装加工/布艺/窗帘</span></div>
+<div class="dc-cats"><b>当前品类:</b> 服装加工、布艺、窗帘、家纺配套</div>
+<div class="dc-str"><b>产业优势:</b> 服装加工产业集聚，小单快反能力</div>
+<div class="dc-act"><b>🎯 行动方向:</b> 发展快时尚跨境供应链，对接东南亚/非洲/南亚服装需求</div></div>
+</div>
+</div>
+
+<!-- TAB 4: 海关数据 -->
+<div class="tc">
+<div class="sb"><h3>⚠️ 海关数据口径修正</h3>
+<p><span class="hl">问题：</span>此前customs_export_v2.json仅55个HS编码（建材仅3个HS，加工石材-35%拉偏→L1显示-14.9%）。</p>
+<p><span class="hc">修正：</span>改用GACC完整495 L2口径（4,694个HS映射），建材实际YoY=<span class="hl">-1.78%</span>（微负）。所有L1由L2逐条加总重算。</p>
+<p class="ts">来源: GACC 2026-01-15 + Comtrade adjusted by HS chapter growth | 生成: 2026-06-29T06:36:53.621603Z | L2总数: 495</p></div>
+<div class="pnl"><div class="pt">2025年L1出口（修正口径） <span class="en">Recalculated from 495 L2 (GACC Full)</span></div>
+<div style="overflow-x:auto"><table><thead><tr><th>L1</th><th class="n">2025出口</th><th class="n">YoY(修正)</th><th class="n">L2数</th><th class="n">HS数</th></tr></thead><tbody><tr><td><b>母婴&玩具</b></td><td class="n g">245,245亿</td><td class="n" style="color:#00B578">+5.51%</td><td class="n">23</td><td class="n">34</td></tr><tr><td><b>消费电子</b></td><td class="n g">98,498亿</td><td class="n" style="color:#00B578">+5.03%</td><td class="n">14</td><td class="n">64</td></tr><tr><td><b>礼品与工艺品</b></td><td class="n g">41,260亿</td><td class="n" style="color:#00B578">+2.80%</td><td class="n">12</td><td class="n">25</td></tr><tr><td><b>可再生能源</b></td><td class="n g">37,052亿</td><td class="n" style="color:#00B578">+9.74%</td><td class="n">8</td><td class="n">30</td></tr><tr><td><b>建材与房地产</b></td><td class="n g">24,070亿</td><td class="n" style="color:#FF4D4F">-1.78%</td><td class="n">31</td><td class="n">211</td></tr><tr><td><b>运动及娱乐</b></td><td class="n g">22,505亿</td><td class="n" style="color:#FF4D4F">-1.79%</td><td class="n">16</td><td class="n">106</td></tr><tr><td><b>宠物用品及食品</b></td><td class="n g">20,543亿</td><td class="n" style="color:#00B578">+2.12%</td><td class="n">2</td><td class="n">8</td></tr><tr><td><b>化学品</b></td><td class="n g">13,334亿</td><td class="n" style="color:#00B578">+1.16%</td><td class="n">20</td><td class="n">659</td></tr><tr><td><b>五金工具</b></td><td class="n g">11,100亿</td><td class="n" style="color:#00B578">+5.71%</td><td class="n">17</td><td class="n">164</td></tr><tr><td><b>面料及纺织原材料</b></td><td class="n g">10,827亿</td><td class="n" style="color:#FF4D4F">-0.12%</td><td class="n">10</td><td class="n">542</td></tr><tr><td><b>金属与合金</b></td><td class="n g">10,779亿</td><td class="n" style="color:#FF4D4F">-1.47%</td><td class="n">7</td><td class="n">470</td></tr><tr><td><b>工业机械</b></td><td class="n g">6,420亿</td><td class="n" style="color:#00B578">+8.99%</td><td class="n">22</td><td class="n">267</td></tr><tr><td><b>服装及配饰</b></td><td class="n g">5,676亿</td><td class="n" style="color:#FF4D4F">-4.11%</td><td class="n">12</td><td class="n">296</td></tr><tr><td><b>食品及饮料</b></td><td class="n g">5,674亿</td><td class="n" style="color:#00B578">+7.52%</td><td class="n">20</td><td class="n">32</td></tr><tr><td><b>家居园艺</b></td><td class="n g">5,093亿</td><td class="n" style="color:#FF4D4F">-0.14%</td><td class="n">11</td><td class="n">245</td></tr><tr><td><b>包装印刷</b></td><td class="n g">4,459亿</td><td class="n" style="color:#00B578">+2.73%</td><td class="n">12</td><td class="n">217</td></tr><tr><td><b>商业设备及机械</b></td><td class="n g">3,647亿</td><td class="n" style="color:#00B578">+6.02%</td><td class="n">15</td><td class="n">172</td></tr><tr><td><b>电子元器件、配件及通讯</b></td><td class="n g">2,616亿</td><td class="n" style="color:#00B578">+8.09%</td><td class="n">17</td><td class="n">121</td></tr><tr><td><b>仪器仪表</b></td><td class="n g">2,296亿</td><td class="n" style="color:#00B578">+4.38%</td><td class="n">4</td><td class="n">110</td></tr><tr><td><b>电气设备及用品</b></td><td class="n g">2,086亿</td><td class="n" style="color:#00B578">+7.54%</td><td class="n">11</td><td class="n">97</td></tr><tr><td><b>橡胶与塑料制品</b></td><td class="n g">1,913亿</td><td class="n" style="color:#00B578">+2.87%</td><td class="n">6</td><td class="n">93</td></tr><tr><td><b>珠宝眼镜手表及配饰</b></td><td class="n g">1,545亿</td><td class="n" style="color:#00B578">+0.33%</td><td class="n">9</td><td class="n">77</td></tr><tr><td><b>汽车零配件</b></td><td class="n g">1,355亿</td><td class="n" style="color:#00B578">+12.88%</td><td class="n">29</td><td class="n">60</td></tr><tr><td><b>家用电器</b></td><td class="n g">1,291亿</td><td class="n" style="color:#00B578">+7.56%</td><td class="n">11</td><td class="n">60</td></tr><tr><td><b>办公文教用品</b></td><td class="n g">1,236亿</td><td class="n" style="color:#00B578">+2.96%</td><td class="n">11</td><td class="n">60</td></tr><tr><td><b>物料搬运</b></td><td class="n g">1,141亿</td><td class="n" style="color:#00B578">+7.65%</td><td class="n">3</td><td class="n">53</td></tr><tr><td><b>家具</b></td><td class="n g">1,010亿</td><td class="n" style="color:#FF4D4F">-2.25%</td><td class="n">7</td><td class="n">36</td></tr><tr><td><b>整车及交通工具</b></td><td class="n g">916亿</td><td class="n" style="color:#00B578">+20.56%</td><td class="n">14</td><td class="n">38</td></tr><tr><td><b>农业</b></td><td class="n g">884亿</td><td class="n" style="color:#00B578">+7.84%</td><td class="n">14</td><td class="n">41</td></tr><tr><td><b>工程及建材机械</b></td><td class="n g">867亿</td><td class="n" style="color:#00B578">+8.40%</td><td class="n">3</td><td class="n">40</td></tr><tr><td><b>个人护理及家庭清洁</b></td><td class="n g">859亿</td><td class="n" style="color:#00B578">+4.76%</td><td class="n">16</td><td class="n">41</td></tr><tr><td><b>鞋靴及配饰</b></td><td class="n g">808亿</td><td class="n" style="color:#00B578">+3.61%</td><td class="n">6</td><td class="n">39</td></tr><tr><td><b>汽车用品、电子及工具设备</b></td><td class="n g">740亿</td><td class="n" style="color:#00B578">+8.77%</td><td class="n">10</td><td class="n">34</td></tr><tr><td><b>传动</b></td><td class="n g">631亿</td><td class="n" style="color:#00B578">+8.80%</td><td class="n">8</td><td class="n">29</td></tr><tr><td><b>灯具照明</b></td><td class="n g">564亿</td><td class="n" style="color:#00B578">+0.63%</td><td class="n">10</td><td class="n">28</td></tr><tr><td><b>美妆</b></td><td class="n g">541亿</td><td class="n" style="color:#00B578">+4.09%</td><td class="n">13</td><td class="n">26</td></tr><tr><td><b>安防</b></td><td class="n g">292亿</td><td class="n" style="color:#00B578">+4.45%</td><td class="n">5</td><td class="n">14</td></tr><tr><td><b>安全用品</b></td><td class="n g">288亿</td><td class="n" style="color:#00B578">+2.76%</td><td class="n">5</td><td class="n">14</td></tr><tr><td><b>运动户外鞋服及装备</b></td><td class="n g">222亿</td><td class="n" style="color:#00B578">+0.95%</td><td class="n">5</td><td class="n">11</td></tr><tr><td><b>箱包</b></td><td class="n g">211亿</td><td class="n" style="color:#00B578">+5.60%</td><td class="n">10</td><td class="n">10</td></tr><tr><td><b>定制加工</b></td><td class="n g">165亿</td><td class="n" style="color:#00B578">+2.94%</td><td class="n">7</td><td class="n">8</td></tr><tr><td><b>医疗器械和用品</b></td><td class="n g">146亿</td><td class="n" style="color:#00B578">+4.17%</td><td class="n">4</td><td class="n">7</td></tr><tr><td><b>健康护理</b></td><td class="n g">105亿</td><td class="n" style="color:#00B578">+4.52%</td><td class="n">5</td><td class="n">5</td></tr></tbody></table></div></div>
+</div>
+
+<!-- TAB 5: 数据定义 -->
+<div class="tc">
+<div class="pnl"><div class="pt">关键指标定义 <span class="en">Data Definitions</span></div>
+<table><thead><tr><th style="width:140px">指标</th><th>定义与口径</th></tr></thead><tbody>
+<tr><td class="g">9,450商家</td><td>dwm_en_cgs_cust_info_d WHERE city_cn='杭州' 全量注册商家（含活跃/休眠），非"活跃商家"</td></tr>
+<tr><td class="g">192有品类商家</td><td>9,450中JOIN dwm_en_ftrd_prod_market_info_d成功的子集（有商品+有交易信号）</td></tr>
+<tr><td class="g">品类分布数字</td><td>192商家按L2归属计数，一商家可多品类，故各L2之和>192</td></tr>
+<tr><td class="g">28天订单</td><td>ftrd表.total_orders_28d，近28天该L2杭州商家买家下单总量</td></tr>
+<tr><td class="g">活跃商家</td><td>ftrd表.active_merchant_cnt，该L2下有有效商品的杭州商家数</td></tr>
+<tr><td class="g">海关出口额</td><td>GACC 2025全年，495 L2，HS聚合到平台类目树（美元/亿）</td></tr>
+<tr><td class="g">海关YoY</td><td>2025 vs 2024全年出口额同比（美元计价）</td></tr>
+<tr><td class="g">供需缺口评分</td><td>海关YoY × log₁₀(出口额) / log₁₀(杭州商家数+1)，越高=需求强+供给弱</td></tr>
+<tr><td class="g">潜在增量GMV</td><td>min(gap,100pp)/100 × 信保月GMV。启发式暴露量，非因果增量</td></tr>
+<tr><td class="g">gap信号</td><td>前者增速−后者增速（正=存在干预空间）</td></tr>
+</tbody></table></div>
+<div class="pnl"><div class="pt">数据来源 <span class="en">Sources</span></div>
+<table><thead><tr><th>层</th><th>来源</th><th>口径</th></tr></thead><tbody>
+<tr><td>平台</td><td>ODPS dwm_en_cgs_cust_info_d + dwm_en_ftrd_prod_market_info_d</td><td>MAX_PT, city_cn='杭州', JOIN admin_mbr_id</td></tr>
+<tr><td>海关</td><td>GACC + UN Comtrade (customs_l2_export.json)</td><td>2025全年, 495 L2, 4694 HS</td></tr>
+<tr><td>类目树</td><td>AI版本-0626类目树.xlsx</td><td>50L1/553L2/7520叶子/6616HS映射</td></tr>
+<tr><td>宏观</td><td>IMF WEO Apr 2026 / WTO / IEA / 9家投行</td><td>2026-2027预测</td></tr>
+<tr><td>区域需求</td><td>12区域×6需求类型矩阵</td><td>消费(刚需/可选/兴趣)+非消费(企业/基建/投资)</td></tr>
+<tr><td>中国H1</td><td>中国海关/统计局</td><td>2026年1-6月: 出口+13.4%/PMI 50.3/PPI+4.1%</td></tr>
+</tbody></table></div>
+</div>
+
+<div class="ft">杭州市机会品类策略分析报告(完整版) | 2026-07-23 08:00 | M1→M2→M3→M8 | 海关GACC 495L2修正口径 | 增量GMV为启发式暴露量(非因果)</div>
+</div>
+<script>function sw(i){document.querySelectorAll('.tab').forEach((t,j)=>t.classList.toggle('active',j===i));document.querySelectorAll('.tc').forEach((c,j)=>c.classList.toggle('active',j===i))}</script>
+</body></html>
