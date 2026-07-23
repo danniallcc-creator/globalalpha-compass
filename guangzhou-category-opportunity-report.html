@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>广州机会品类策略分析报告</title>
+<style>
+:root{--bg:#0B142E;--p:#142045;--s:#1B2D5A;--t:#E8EAF0;--g:#E9B84A;--c:#3FB6D3;--gn:#00B578;--r:#FF4D4F;--b:#1A2744}
+*{margin:0;padding:0;box-sizing:border-box}body{font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--t);min-height:100vh}
+.w{max-width:1440px;margin:0 auto;padding:24px}
+h1{font-size:22px;color:var(--g);margin-bottom:4px}h1 small{font-size:13px;color:var(--t);opacity:.6;font-weight:400}
+.tabs{display:flex;gap:4px;margin:16px 0 12px;flex-wrap:wrap}.tab{padding:6px 14px;border-radius:4px;cursor:pointer;font-size:13px;background:var(--p);color:var(--t);opacity:.7;transition:.2s}.tab.a,.tab:hover{background:var(--s);opacity:1;color:var(--g)}
+.tc{display:none}.tc.a{display:block}
+.kpi-r{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:16px}.kpi{background:var(--p);border-radius:6px;padding:14px;text-align:center}.kpi b{display:block;font-size:22px;color:var(--g)}.kpi span{font-size:12px;opacity:.7}
+.pnl{background:var(--p);border-radius:6px;padding:16px;margin-bottom:14px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}th{background:var(--b);padding:8px 10px;text-align:left;font-weight:600;white-space:nowrap}td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,.05)}
+th.n,td.n{text-align:right}th.ctr,td.ctr{text-align:center}
+.rk{text-align:center;color:var(--g);font-weight:700}
+.sb{background:var(--s);border-left:3px solid var(--g);border-radius:4px;padding:14px;margin-bottom:14px}
+.sb h3{color:var(--g);font-size:15px;margin-bottom:6px}
+.ag-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-bottom:16px}
+.ag-card{border-radius:6px;padding:14px;border-left:4px solid}.ag-card.red{background:rgba(255,77,79,.08);border-color:var(--r)}.ag-card.yellow{background:rgba(233,184,74,.08);border-color:var(--g)}.ag-card.green{background:rgba(0,181,120,.08);border-color:var(--gn)}.ag-card.cyan{background:rgba(63,182,211,.08);border-color:var(--c)}
+.ag-card h4{font-size:14px;margin-bottom:6px}.ag-card ul{padding-left:16px;font-size:13px}.ag-card li{margin-bottom:4px}
+.dc{background:var(--p);border-radius:6px;padding:14px;margin-bottom:10px}.dc-h{display:flex;align-items:center;gap:10px;margin-bottom:8px}.dc-h b{font-size:15px}.dc-belt{font-size:12px;opacity:.6}
+.dc-cats,.dc-str,.dc-act{font-size:13px;margin-bottom:4px}.dc-act{color:var(--c)}
+.g{color:var(--gn)}.r{color:var(--r)}.y{color:var(--g)}
+.pn a{color:var(--t);text-decoration:none}.pn a:hover{color:var(--c);text-decoration:underline}
+.ins{background:var(--s);border-radius:6px;padding:16px;margin-bottom:14px}.ins h4{color:var(--c);margin-bottom:8px}
+@media(max-width:900px){.ag-grid{grid-template-columns:1fr}.kpi-r{grid-template-columns:repeat(2,1fr)}}
+</style></head><body><div class="w">
+<h1>广州机会品类策略分析报告 <small>| 生成时间: 2026-07-23 18:21:49</small></h1>
+<div class="tabs">
+<div class="tab a" onclick="sw(0)">行动指南</div>
+<div class="tab" onclick="sw(1)">3.1万商家全景</div>
+<div class="tab" onclick="sw(2)">供需缺口分析</div>
+<div class="tab" onclick="sw(3)">分区产业带</div>
+<div class="tab" onclick="sw(4)">海关数据</div>
+<div class="tab" onclick="sw(5)">数据定义</div>
+</div>
+<div class="tc a">
+<div class="sb"><h3>广州区域机会品类核心结论</h3>
+<p>基于3.1万家商家 × 53个L2品类 × 海关出口趋势的多维交叉分析，识别4类行动方向。</p></div>
+<div class="ag-grid">
+<div class="ag-card red"><h4>紧迫招商机会（空白/严重缺商）</h4><ul>
+<li><b>谷物</b>（农业）— 海关YoY +57.9%, 出口126.3亿$, 本地仅0商家</li>
+<li><b>农用化学品</b>（化学品）— 海关YoY +17.3%, 出口1430.9亿$, 本地仅0商家</li>
+<li><b>新能源汽车</b>（整车及交通工具）— 海关YoY +20.0%, 出口240.0亿$, 本地仅0商家</li>
+<li><b>电池</b> — +9.2%, 1商家，严重供不应求</li>
+<li><b>汽车传动系统</b> — +20.0%, 1商家，严重供不应求</li>
+</ul></div>
+<div class="ag-card yellow"><h4>优势品类（可扩大规模）</h4><ul>
+<li><b>时尚饰品</b> — 28天订单2.7万, 268商家</li>
+<li><b>手表</b> — 28天订单1.5万, 87商家</li>
+<li><b>汽车照明系统</b> — 28天订单1.3万, 491商家</li>
+<li><b>男装</b> — 28天订单1.2万, 280商家</li>
+<li><b>高级珠宝</b> — 28天订单1.2万, 230商家</li>
+</ul></div>
+<div class="ag-card green"><h4>高效品类（商效/品效TOP）</h4><ul>
+<li><b>手表</b> — 商效170.4, 品效24.7%</li>
+<li><b>工艺品</b> — 商效152.7, 品效62.7%</li>
+<li><b>时尚饰品</b> — 商效102.5, 品效19.3%</li>
+<li><b>眼镜</b> — 商效84.1, 品效33.4%</li>
+<li><b>高级珠宝</b> — 商效53.7, 品效11.3%</li>
+</ul></div>
+<div class="ag-card cyan"><h4>外热内冷（海外增长+本地缺供）</h4><ul>
+<li><b>电池</b> — 海关+9.2%, 本地1商家</li>
+<li><b>汽车传动系统</b> — 海关+20.0%, 本地1商家</li>
+<li><b>谷物</b> — 海关+57.9%, 本地0商家</li>
+<li><b>农业机械与设备</b> — 海关+11.1%, 本地1商家</li>
+<li><b>服装及纺织机械</b> — 海关+8.4%, 本地1商家</li>
+</ul></div></div></div>
+<div class="tc">
+<div class="kpi-r">
+<div class="kpi"><b>3.1万</b><span>注册商家总数</span></div>
+<div class="kpi"><b>601</b><span>有品类商家</span></div>
+<div class="kpi"><b>53</b><span>覆盖L2品类数</span></div>
+<div class="kpi"><b>33.6万</b><span>28天总订单</span></div>
+<div class="kpi"><b>409.0万</b><span>活跃商品数</span></div>
+</div>
+
+<div class="sb"><h3>Top 25 品类市场信号（按28天订单排序）</h3></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L1</th><th>L2品类</th><th class="n">商家</th><th class="n">订单</th><th class="n">商品</th><th class="n">商效</th><th class="n">品效%</th><th class="n">海关YoY</th><th>温差</th></tr>
+<tr><td class='rk'>1</td><td>珠宝眼镜手表及配饰</td><td>时尚饰品</td><td class='n'>268</td><td class='n'>2.7万</td><td class='n'>14.2万</td><td class='n'>102.5</td><td class='n'>19.3</td><td class='n g'>+0.1%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>2</td><td>珠宝眼镜手表及配饰</td><td>手表</td><td class='n'>87</td><td class='n'>1.5万</td><td class='n'>6.0万</td><td class='n'>170.4</td><td class='n'>24.7</td><td class='n '>+0.0%</td><td>待观察</td></tr>
+<tr><td class='rk'>3</td><td>汽车零配件</td><td>汽车照明系统</td><td class='n'>491</td><td class='n'>1.3万</td><td class='n'>14.3万</td><td class='n'>25.5</td><td class='n'>8.7</td><td class='n g'>+8.4%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>4</td><td>服装及配饰</td><td>男装</td><td class='n'>280</td><td class='n'>1.2万</td><td class='n'>8.5万</td><td class='n'>44.5</td><td class='n'>14.6</td><td class='n r'>-4.7%</td><td>外冷</td></tr>
+<tr><td class='rk'>5</td><td>珠宝眼镜手表及配饰</td><td>高级珠宝</td><td class='n'>230</td><td class='n'>1.2万</td><td class='n'>10.9万</td><td class='n'>53.7</td><td class='n'>11.3</td><td class='n g'>+0.1%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>6</td><td>美妆</td><td>指甲用品</td><td class='n'>236</td><td class='n'>1.2万</td><td class='n'>4.8万</td><td class='n'>49.0</td><td class='n'>24.3</td><td class='n g'>+2.7%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>7</td><td>礼品与工艺品</td><td>工艺品</td><td class='n'>67</td><td class='n'>1.0万</td><td class='n'>1.6万</td><td class='n'>152.7</td><td class='n'>62.7</td><td class='n r'>-0.2%</td><td>外冷</td></tr>
+<tr><td class='rk'>8</td><td>服装及配饰</td><td>女装</td><td class='n'>318</td><td class='n'>9,187</td><td class='n'>11.6万</td><td class='n'>28.9</td><td class='n'>7.9</td><td class='n r'>-4.9%</td><td>外冷</td></tr>
+<tr><td class='rk'>9</td><td>个人护理及家庭清洁</td><td>头发护理及造型</td><td class='n'>244</td><td class='n'>6,500</td><td class='n'>5.8万</td><td class='n'>26.6</td><td class='n'>11.2</td><td class='n g'>+8.1%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>10</td><td>服装及配饰</td><td>服装加工辅料</td><td class='n'>165</td><td class='n'>6,223</td><td class='n'>6.4万</td><td class='n'>37.7</td><td class='n'>9.8</td><td class='n r'>-0.4%</td><td>外冷</td></tr>
+<tr><td class='rk'>11</td><td>消费电子</td><td>手机壳与配件</td><td class='n'>204</td><td class='n'>6,118</td><td class='n'>5.1万</td><td class='n'>30.0</td><td class='n'>11.9</td><td class='n '>+0.0%</td><td>待观察</td></tr>
+<tr><td class='rk'>12</td><td>美妆</td><td>护肤</td><td class='n'>270</td><td class='n'>5,934</td><td class='n'>4.7万</td><td class='n'>22.0</td><td class='n'>12.5</td><td class='n g'>+8.1%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>13</td><td>服装及配饰</td><td>休闲服装</td><td class='n'>256</td><td class='n'>5,845</td><td class='n'>4.4万</td><td class='n'>22.8</td><td class='n'>13.3</td><td class='n r'>-5.0%</td><td>外冷</td></tr>
+<tr><td class='rk'>14</td><td>汽车零配件</td><td>汽车引擎</td><td class='n'>387</td><td class='n'>5,474</td><td class='n'>13.0万</td><td class='n'>14.1</td><td class='n'>4.2</td><td class='n g'>+8.4%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>15</td><td>珠宝眼镜手表及配饰</td><td>眼镜</td><td class='n'>65</td><td class='n'>5,468</td><td class='n'>1.6万</td><td class='n'>84.1</td><td class='n'>33.4</td><td class='n g'>+3.8%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>16</td><td>箱包</td><td>女士包袋</td><td class='n'>234</td><td class='n'>5,386</td><td class='n'>4.2万</td><td class='n'>23.0</td><td class='n'>12.9</td><td class='n g'>+5.6%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>17</td><td>汽车用品、电子及工具设备</td><td>外部配件</td><td class='n'>200</td><td class='n'>5,161</td><td class='n'>5.2万</td><td class='n'>25.8</td><td class='n'>9.9</td><td class='n g'>+12.6%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>18</td><td>包装印刷</td><td>塑料包装</td><td class='n'>346</td><td class='n'>4,906</td><td class='n'>4.8万</td><td class='n'>14.2</td><td class='n'>10.2</td><td class='n g'>+1.3%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>19</td><td>运动户外鞋服及装备</td><td>运动户外服</td><td class='n'>72</td><td class='n'>3,646</td><td class='n'>1.8万</td><td class='n'>50.6</td><td class='n'>20.3</td><td class='n r'>-5.0%</td><td>外冷</td></tr>
+<tr><td class='rk'>20</td><td>服装及配饰</td><td>内衣睡衣家居服</td><td class='n'>148</td><td class='n'>3,640</td><td class='n'>2.4万</td><td class='n'>24.6</td><td class='n'>15.5</td><td class='n r'>-5.0%</td><td>外冷</td></tr>
+<tr><td class='rk'>21</td><td>消费电子</td><td>线材及常用零配件</td><td class='n'>220</td><td class='n'>3,256</td><td class='n'>1.8万</td><td class='n'>14.8</td><td class='n'>18.5</td><td class='n g'>+6.8%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>22</td><td>美妆</td><td>接发用品与假发</td><td class='n'>72</td><td class='n'>3,201</td><td class='n'>3.1万</td><td class='n'>44.5</td><td class='n'>10.2</td><td class='n '>+0.0%</td><td>待观察</td></tr>
+<tr><td class='rk'>23</td><td>汽车零配件</td><td>汽车覆盖件系统</td><td class='n'>406</td><td class='n'>2,806</td><td class='n'>8.7万</td><td class='n'>6.9</td><td class='n'>3.2</td><td class='n g'>+16.2%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>24</td><td>汽车用品、电子及工具设备</td><td>汽车内饰件</td><td class='n'>155</td><td class='n'>2,788</td><td class='n'>3.5万</td><td class='n'>18.0</td><td class='n'>8.0</td><td class='n g'>+9.1%</td><td>供需匹配</td></tr>
+<tr><td class='rk'>25</td><td>工程及建材机械</td><td>工程建筑机械</td><td class='n'>131</td><td class='n'>2,769</td><td class='n'>8.5万</td><td class='n'>21.1</td><td class='n'>3.3</td><td class='n g'>+8.4%</td><td>供需匹配</td></tr>
+</table></div>
+<div class="sb"><h3>爆品 Top 20（28天订单最高商品）</h3></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L2品类</th><th class="pn">商品名称</th><th class="n">28天订单</th><th>商家ID</th></tr>
+<tr><td class='rk'>1</td><td>接发用品与假发</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601451257774.html' target='_blank'>300% High Density 3C Trendy Burmese Curly 3/4 Flip Over Half</a></td><td class='n'>96</td><td>yonghuihumanhair</td></tr>
+<tr><td class='rk'>2</td><td>护肤</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601463838842.html' target='_blank'>MELAO Ghk-cu Copper Peptide Serum Face Neck Tightening Facia</a></td><td class='n'>94</td><td>gzyilong</td></tr>
+<tr><td class='rk'>3</td><td>护肤</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601517444339.html' target='_blank'>Orange Enzyme Exfoliating Gel 100g Gel Facial Cleanser Rub-o</a></td><td class='n'>91</td><td>gzmengxi</td></tr>
+<tr><td class='rk'>4</td><td>接发用品与假发</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601226791082.html' target='_blank'>WXJ Wholesale Kim K 2x6 Lace Bob Wigs 12inch Vietnamese Doub</a></td><td class='n'>91</td><td>yonghuihumanhair</td></tr>
+<tr><td class='rk'>5</td><td>护肤</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601452319474.html' target='_blank'>Fast Effective Repair Pimple Scar Anti Spots Removal Gel Smo</a></td><td class='n'>87</td><td>gzbiying</td></tr>
+<tr><td class='rk'>6</td><td>男装</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1600744328907.html' target='_blank'>MT2334 Guangzhou Clothing Manufacturer Wholesale Custom 240g</a></td><td class='n'>86</td><td>laiteclothing</td></tr>
+<tr><td class='rk'>7</td><td>休闲服装</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_62053540818.html' target='_blank'>Best High Quality Women's Gym Wear Best High Waist TikTok Pa</a></td><td class='n'>84</td><td>janyaapparel</td></tr>
+<tr><td class='rk'>8</td><td>计算机软硬件</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601237014109.html' target='_blank'>VIP Custom-Made Products  2021 </a></td><td class='n'>77</td><td>gzmochen</td></tr>
+<tr><td class='rk'>9</td><td>接发用品与假发</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601389124698.html' target='_blank'>Best-selling Bob Fashion Curly Wigs HD Front Lace Fluffy, Na</a></td><td class='n'>74</td><td>ruixinbang</td></tr>
+<tr><td class='rk'>10</td><td>运动户外服</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1600843737281.html' target='_blank'>Wholesale New 2025 Men's Soccer Jersey Custom Club Team 25 2</a></td><td class='n'>73</td><td>yilongfushi</td></tr>
+<tr><td class='rk'>11</td><td>接发用品与假发</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_62155545919.html' target='_blank'>hot selling online sale best quality 100% natural 100% unpro</a></td><td class='n'>71</td><td>beautystage</td></tr>
+<tr><td class='rk'>12</td><td>庆典派对用品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601079922261.html' target='_blank'>Custom Luxury Elegant Trifold Pocket Laser Engraving Gold Mi</a></td><td class='n'>68</td><td>jojodog</td></tr>
+<tr><td class='rk'>13</td><td>庆典派对用品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601445365696.html' target='_blank'>Custom Luxury clear Acrylic Invites Card Gold Foil Velvet Po</a></td><td class='n'>68</td><td>jojodog</td></tr>
+<tr><td class='rk'>14</td><td>工艺品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601548689870.html' target='_blank'>Wedding Invitation Box Burgundy Velvet Acrylic Invitation in</a></td><td class='n'>65</td><td>jojodog</td></tr>
+<tr><td class='rk'>15</td><td>工艺品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601174521081.html' target='_blank'>Luxury Elegant White Royal Style Embossed Gold Foil Monogram</a></td><td class='n'>63</td><td>jojodog</td></tr>
+<tr><td class='rk'>16</td><td>工艺品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601116647176.html' target='_blank'>Best Sale Sage Green Velvet Envelope Wedding Invitation With</a></td><td class='n'>63</td><td>jojodog</td></tr>
+<tr><td class='rk'>17</td><td>工艺品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601418703627.html' target='_blank'>Luxury Laser Engraved Custom Shapes Gold Mirror Acrylic Wedd</a></td><td class='n'>62</td><td>jojodog</td></tr>
+<tr><td class='rk'>18</td><td>外部配件</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601515447217.html' target='_blank'>Carlas Factory Hot Selling High-quality Transparent PPF Prem</a></td><td class='n'>60</td><td>cncar8</td></tr>
+<tr><td class='rk'>19</td><td>工艺品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601548726144.html' target='_blank'>Navy Blue Velvet Lined Presentation Boxes Acrylic Wedding In</a></td><td class='n'>60</td><td>jojodog</td></tr>
+<tr><td class='rk'>20</td><td>庆典派对用品</td><td class='pn'><a href='https://www.alibaba.com/product-detail/_1601140789045.html' target='_blank'>Personalized Custom Luxury Elegant Laser Gold Mirror Acrylic</a></td><td class='n'>60</td><td>jojodog</td></tr>
+</table></div></div>
+<div class="tc">
+<div class="sb"><h3>供需缺口分析方法论</h3>
+<p>筛选条件：海关YoY > 0%（增长品类）且出口额 > 50亿$（规模品类）。</p>
+<p>评分公式：opp_score = YoY × log₁₀(出口额) / log₁₀(本地商家数+1)</p>
+<p>分级：空白(26个) | 严重缺商(117个) | 缺商 | 可扩大(13个)</p></div>
+
+<div class="ins"><h4>供需缺口深度洞察</h4>
+<p>在广州现有3.1万商家的基础上，与GACC海关出口趋势交叉后发现<b class="r">26个品类完全空白</b>、<b class="y">117个品类严重缺商</b>。
+空白品类集中在整车及交通工具、农业、汽车零配件、化学品、食品及饮料等L1行业。
+最高机会分品类：<b>电池</b>（得分130.39，海关+9.2%，出口18462.5亿$）。</p></div>
+<div class="sb"><h3>空白机会 Top 30（本地0商家，海外需求增长）</h3></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L1</th><th>L2品类</th><th class="n">海关YoY</th><th class="n">出口(亿$)</th><th class="n">机会分</th></tr>
+<tr><td class='rk'>1</td><td>农业</td><td>谷物</td><td class='n g'>+57.9%</td><td class='n'>126.3</td><td class='n y'>121.68</td></tr>
+<tr><td class='rk'>2</td><td>化学品</td><td>农用化学品</td><td class='n g'>+17.3%</td><td class='n'>1430.9</td><td class='n y'>54.53</td></tr>
+<tr><td class='rk'>3</td><td>整车及交通工具</td><td>新能源汽车</td><td class='n g'>+20.0%</td><td class='n'>240.0</td><td class='n y'>47.6</td></tr>
+<tr><td class='rk'>4</td><td>汽车零配件</td><td>铁道零部件及配件</td><td class='n g'>+27.1%</td><td class='n'>50.8</td><td class='n y'>46.24</td></tr>
+<tr><td class='rk'>5</td><td>整车及交通工具</td><td>乘用车</td><td class='n g'>+20.0%</td><td class='n'>168.0</td><td class='n y'>44.51</td></tr>
+<tr><td class='rk'>6</td><td>整车及交通工具</td><td>卡车</td><td class='n g'>+20.0%</td><td class='n'>120.0</td><td class='n y'>41.58</td></tr>
+<tr><td class='rk'>7</td><td>整车及交通工具</td><td>拖车</td><td class='n g'>+20.0%</td><td class='n'>120.0</td><td class='n y'>41.58</td></tr>
+<tr><td class='rk'>8</td><td>母婴&玩具</td><td>潮玩玩偶与盲盒</td><td class='n g'>+6.0%</td><td class='n'>20400.0</td><td class='n y'>25.86</td></tr>
+<tr><td class='rk'>9</td><td>消费电子</td><td>手机与配件</td><td class='n g'>+5.0%</td><td class='n'>97150.0</td><td class='n y'>24.94</td></tr>
+<tr><td class='rk'>10</td><td>食品及饮料</td><td>零食</td><td class='n g'>+8.0%</td><td class='n'>1260.0</td><td class='n y'>24.8</td></tr>
+<tr><td class='rk'>11</td><td>食品及饮料</td><td>豆制品</td><td class='n g'>+8.0%</td><td class='n'>1260.0</td><td class='n y'>24.8</td></tr>
+<tr><td class='rk'>12</td><td>食品及饮料</td><td>婴儿食品</td><td class='n g'>+8.0%</td><td class='n'>1260.0</td><td class='n y'>24.8</td></tr>
+<tr><td class='rk'>13</td><td>物料搬运</td><td>起重升降</td><td class='n g'>+8.1%</td><td class='n'>735.1</td><td class='n y'>23.22</td></tr>
+<tr><td class='rk'>14</td><td>电气设备及用品</td><td>中高压配电产品</td><td class='n g'>+8.4%</td><td class='n'>325.2</td><td class='n y'>21.1</td></tr>
+<tr><td class='rk'>15</td><td>家用电器</td><td>冰箱冰柜</td><td class='n g'>+8.4%</td><td class='n'>130.1</td><td class='n y'>17.76</td></tr>
+<tr><td class='rk'>16</td><td>工业机械</td><td>电工电气设备制造机械</td><td class='n g'>+8.4%</td><td class='n'>86.7</td><td class='n y'>16.28</td></tr>
+<tr><td class='rk'>17</td><td>工程及建材机械</td><td>建材机械</td><td class='n g'>+8.4%</td><td class='n'>86.7</td><td class='n y'>16.28</td></tr>
+<tr><td class='rk'>18</td><td>可再生能源</td><td>水力发电机</td><td class='n g'>+8.4%</td><td class='n'>65.0</td><td class='n y'>15.23</td></tr>
+<tr><td class='rk'>19</td><td>礼品与工艺品</td><td>纪念礼品</td><td class='n g'>+2.8%</td><td class='n'>20440.5</td><td class='n y'>12.2</td></tr>
+<tr><td class='rk'>20</td><td>建材与房地产</td><td>防火材料</td><td class='n g'>+4.0%</td><td class='n'>969.4</td><td class='n y'>12.1</td></tr>
+<tr><td class='rk'>21</td><td>农业</td><td>冷冻产品</td><td class='n g'>+5.0%</td><td class='n'>210.0</td><td class='n y'>11.61</td></tr>
+<tr><td class='rk'>22</td><td>包装印刷</td><td>包装原材料</td><td class='n g'>+4.3%</td><td class='n'>187.8</td><td class='n y'>9.8</td></tr>
+<tr><td class='rk'>23</td><td>化学品</td><td>生物化工产品</td><td class='n g'>+3.0%</td><td class='n'>309.0</td><td class='n y'>7.47</td></tr>
+<tr><td class='rk'>24</td><td>化学品</td><td>表面处理化学品</td><td class='n g'>+0.8%</td><td class='n'>221.9</td><td class='n y'>1.99</td></tr>
+<tr><td class='rk'>25</td><td>农业</td><td>豆类</td><td class='n g'>+0.3%</td><td class='n'>320.9</td><td class='n y'>0.68</td></tr>
+<tr><td class='rk'>26</td><td>化学品</td><td>掺合剂及添加剂</td><td class='n g'>+0.0%</td><td class='n'>140.1</td><td class='n y'>0.09</td></tr>
+</table></div>
+<div class="sb"><h3>缺失供给产品画像 — 空白机会品类产品参考</h3>
+<p>以下产品来自Google、商家自建站、品牌官网等外部渠道，对应上表空白机会品类。
+这些产品在海外市场已有成熟供给但国际站<b>零本地商家</b>，是明确的招商/招品方向。
+共覆盖 <b>15</b> 个品类、<b>45</b> 件参考产品。</p></div>
+<div class="hp-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:10px;margin-bottom:14px">
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://hellorfimg.zcool.cn/large/2011569275.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://hellorfimg.zcool.cn/large/2011569275.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">谷物</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">农业 | YoY +57.9% | 机会分 121.7</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">close up whole grain cereal with breakfast</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://hellorfimg.zcool.cn/large/2173513565.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://hellorfimg.zcool.cn/large/2173513565.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">谷物</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">农业 | YoY +57.9% | 机会分 121.7</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">variouscerealgrainbeanlegumeseedandricefoodingredients</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://hellorfimg.zcool.cn/large/483837901.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://hellorfimg.zcool.cn/large/483837901.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">谷物</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">农业 | YoY +57.9% | 机会分 121.7</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">bags with cereal grains (oat  barley  wheat  corn  beans  peas</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/318f0j00TQPYeVfFulqE/%E4%B9%99%E4%BA%8C%E8%83%BA%E5%9B%9B%E4%B9%99%E9%85%B8-EDTA.mp4.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/318f0j00TQPYeVfFulqE/%E4%B9%99%E4%BA%8C%E8%83%BA%E5%9B%9B%E4%B9%99%E9%85%B8-EDTA.mp4.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">农用化学品</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">化学品 | YoY +17.3% | 机会分 54.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">cas 60-00-4 agrochemical pesticide fertilizer edta ethylene</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00iyToEmOGSNqd/Tech-Grade-Map-Agrochemical-Hight-Quality-Fertilizer.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00iyToEmOGSNqd/Tech-Grade-Map-Agrochemical-Hight-Quality-Fertilizer.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">农用化学品</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">化学品 | YoY +17.3% | 机会分 54.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">tech grade map agrochemical hight quality fertilizer</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00VnTqEcOarNbw/Tech-Grade-Map-Agrochemical-Hight-Quality-Fertilizer.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00VnTqEcOarNbw/Tech-Grade-Map-Agrochemical-Hight-Quality-Fertilizer.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">农用化学品</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">化学品 | YoY +17.3% | 机会分 54.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">tech grade map agrochemical hight quality fertilizer</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://www2.autoimg.cn/chejiahaodfs/g31/M0B/B4/C8/autohomecar__ChxoHmYBID2ASRdkAA8hIPgeWAk782.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://www2.autoimg.cn/chejiahaodfs/g31/M0B/B4/C8/autohomecar__ChxoHmYBID2ASRdkAA8hIPgeWAk782.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新能源汽车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 47.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">这是一款专为轮椅使用者设计的evita电动汽车</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00QmeVrPpKJguz/Neta-Aya-Pure-Electric-Vehicle-400-Lite-Electric-Car-EV-Car.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00QmeVrPpKJguz/Neta-Aya-Pure-Electric-Vehicle-400-Lite-Electric-Car-EV-Car.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新能源汽车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 47.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">aya with five seats large space pure electric vehicle suvproduct</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00aFKisjRGCVzc/on-Sale-Electric-Vehicle-Plug-in-Hybrid-1-5-L-110-Km-Haval-EV-Car.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00aFKisjRGCVzc/on-Sale-Electric-Vehicle-Plug-in-Hybrid-1-5-L-110-Km-Haval-EV-Car.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新能源汽车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 47.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">l 110 km haval ev car - china electric car and electric vehicle</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00DnTcPLKyQAqd/Rail-Fastener-Railraod-Track-Spike-Dog-Spike.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00DnTcPLKyQAqd/Rail-Fastener-Railraod-Track-Spike-Dog-Spike.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">铁道零部件及配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">汽车零配件 | YoY +27.1% | 机会分 46.2</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">rail fastener railraod track spike dog spike</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://www.xindatielu.com/en/Uploads/5df8a52ba428b.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://www.xindatielu.com/en/Uploads/5df8a52ba428b.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">铁道零部件及配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">汽车零配件 | YoY +27.1% | 机会分 46.2</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ltd|railway fastener systems, rail springs, rail joints / fish</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://xindatielu.com/en/Uploads/5df8a1196e7ef.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://xindatielu.com/en/Uploads/5df8a1196e7ef.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">铁道零部件及配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">汽车零配件 | YoY +27.1% | 机会分 46.2</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">high-speed rail type iv railway fastener</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://pic.rmb.bdstatic.com/bjh/cms/240826/b91bd8a135e699e2b93c6bbc742967ef_1724678581.069_984.jpeg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://pic.rmb.bdstatic.com/bjh/cms/240826/b91bd8a135e699e2b93c6bbc742967ef_1724678581.069_984.jpeg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">乘用车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 44.5</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">1米,比途昂大,6/7座,2种前脸,27英寸大屏,搭2.3t+10at</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://pic.rmb.bdstatic.com/cms/57971fb6b1ce9cd3510650f0f5e6fd51_1698863371.9489_758.png" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://pic.rmb.bdstatic.com/cms/57971fb6b1ce9cd3510650f0f5e6fd51_1698863371.9489_758.png" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">乘用车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 44.5</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">中年男人心头好,又一日系suv黑马登场,c字型示宽灯一眼就能辨认</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00TofkgOAtAjcs/Cheapest-Electric-Electric-Car-Available-Cheap-Golf-Sightseeing-Truck-Passenger-Sedan-SUV-Battery-Mini-Electric-Vehicle-Car.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00TofkgOAtAjcs/Cheapest-Electric-Electric-Car-Available-Cheap-Golf-Sightseeing-Truck-Passenger-Sedan-SUV-Battery-Mini-Electric-Vehicle-Car.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">乘用车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 44.5</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">truck passenger sedan suv battery mini electric vehicle car</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://img6.tradewheel.com/uploads/images/products/9/3/sinotruk-howo-6x4-371hp-flatbed-lorry-truck-cargo-truck-zz1257n4641w1-0021566001620725171.jpg.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://img6.tradewheel.com/uploads/images/products/9/3/sinotruk-howo-6x4-371hp-flatbed-lorry-truck-cargo-truck-zz1257n4641w1-0021566001620725171.jpg.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">卡车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">sinotruk howo 6x4 371hp flatbed lorry truck cargo truck zz1257n</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00VciqrPlEgNog/Commercial-Vehicle-Dongfeng-4X2-Mini-Lorry-Truck-4-5ton-Light-Cargo-Truck-for-Sale.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00VciqrPlEgNog/Commercial-Vehicle-Dongfeng-4X2-Mini-Lorry-Truck-4-5ton-Light-Cargo-Truck-for-Sale.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">卡车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">commercial vehicle dongfeng 4x2 mini lorry truck 4.5ton light cargo tr</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00DjEialZsgIrc/Sinotruk-HOWO-Cargo-Truck-6X4-10-Wheels-40tons-Box-Truck-Cargo-Van-Truck-for-Sale.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00DjEialZsgIrc/Sinotruk-HOWO-Cargo-Truck-6X4-10-Wheels-40tons-Box-Truck-Cargo-Van-Truck-for-Sale.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">卡车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">sinotruk howo cargo truck 6x4 10 wheels 40tons box truck cargo van tru</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00OQWqbMinSFuj/China-60ton-4-Axis-60FT-Flatbed-Semi-Trailer-for-Africa.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00OQWqbMinSFuj/China-60ton-4-Axis-60FT-Flatbed-Semi-Trailer-for-Africa.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">拖车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">china 60ton 4 axis 60ft flatbed semi trailer for africa</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00BQqoFeksfjua/China-Factory-Container-Transport-Flatbed-Semi-Trailer-Three-Axle.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00BQqoFeksfjua/China-Factory-Container-Transport-Flatbed-Semi-Trailer-Three-Axle.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">拖车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">container transport flatbed semi trailer three axle</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://www.titanvehicle.cn/Uploads/products/2023-10-23/-Flatbed-Fence-Semi-Trailer-for-Sale--2-.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://www.titanvehicle.cn/Uploads/products/2023-10-23/-Flatbed-Fence-Semi-Trailer-for-Sale--2-.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">拖车</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">整车及交通工具 | YoY +20.0% | 机会分 41.6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">flatbed fence semi trailer for sale</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://s.alicdn.com/@sc02/kf/H32baf6d51d384ee9bfb412de9a519983F.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://s.alicdn.com/@sc02/kf/H32baf6d51d384ee9bfb412de9a519983F.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">潮玩玩偶与盲盒</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">master the art of unboxing disney blind box toys tips for an</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://mindzai.com/cdn/shop/files/med24063_0_1200x.jpg?v=1734452669" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://mindzai.com/cdn/shop/files/med24063_0_1200x.jpg?v=1734452669" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">潮玩玩偶与盲盒</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">mindzai - blind boxes, designer toys, creative goods</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://img.alicdn.com/bao/uploaded/i1/2011225268/O1CN0188cDQt1omnczFKnZ8_!!2011225268.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="https://img.alicdn.com/bao/uploaded/i1/2011225268/O1CN0188cDQt1omnczFKnZ8_!!2011225268.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">潮玩玩偶与盲盒</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">multi slow rising squishy blind box fidget toys random food</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00EKmktdyrkvoi/Wholesale-Accessories-for-Mobile-Phone-Manufacturers-Samsung-A22-A12-A23-A12-A53.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00EKmktdyrkvoi/Wholesale-Accessories-for-Mobile-Phone-Manufacturers-Samsung-A22-A12-A23-A12-A53.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">手机与配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">消费电子 | YoY +5.0% | 机会分 24.94</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale accessories for mobile phone manufacturers samsung a22</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00KGjepJsEyArN/Wholesale-OEM-Mobile-Phone-Holder-Folding-Accessories.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00KGjepJsEyArN/Wholesale-OEM-Mobile-Phone-Holder-Folding-Accessories.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">手机与配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">消费电子 | YoY +5.0% | 机会分 24.94</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale oem mobile phone holder folding accessories</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00VPskcLzMkZbN/Phone-Accessories-China-Factory-Wholesale-Price-Multi-Color-Caja-Del-Telefono-Movil-Mobile-Phone-Case-for-iPhone.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00VPskcLzMkZbN/Phone-Accessories-China-Factory-Wholesale-Price-Multi-Color-Caja-Del-Telefono-Movil-Mobile-Phone-Case-for-iPhone.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">手机与配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">消费电子 | YoY +5.0% | 机会分 24.94</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">phone accessories china factory wholesale price multi</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMxOTMxNjc4LjAxMjQ3OTg%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-11-18T12%3A07%3A59Z%2F-1%2F%2Ff27e707449ec3302ec7976ff7c18c3160523aa68fb52fb8bed3345bfb49dd740" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMxOTMxNjc4LjAxMjQ3OTg%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-11-18T12%3A07%3A59Z%2F-1%2F%2Ff27e707449ec3302ec7976ff7c18c3160523aa68fb52fb8bed3345bfb49dd740" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">零食</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">食品及饮料 | YoY +8.0% | 机会分 24.8</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">whole foods减脂好物</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://hellorfimg.zcool.cn/large/2133670231.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://hellorfimg.zcool.cn/large/2133670231.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">零食</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">食品及饮料 | YoY +8.0% | 机会分 24.8</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">unaltered unhealthy food snack dipping sauce crunchy and</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMzMjIxOTgxLjIyNTc0Mzg%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-12-03T10%3A33%3A01Z%2F-1%2F%2F5c45dd33acb6a27feddfff753b598af86ecb846a68f436c0aec8f9bbc2da3fd0" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMzMjIxOTgxLjIyNTc0Mzg%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-12-03T10%3A33%3A01Z%2F-1%2F%2F5c45dd33acb6a27feddfff753b598af86ecb846a68f436c0aec8f9bbc2da3fd0" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">零食</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">食品及饮料 | YoY +8.0% | 机会分 24.8</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">纽约老牌deli店,40年美味传承</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://imgcdn.tradechina.com/7fc86cafda594fe9b56c25dbcc76c4d2.jpeg?w=aW1hZ2Uvd2F0ZXJtYXJrLTkwMC5wbmc=&basic=watermark=1;object=aW1hZ2Uvd2F0ZXJtYXJrLTkwMC5wbmc=;p=9|70q" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://imgcdn.tradechina.com/7fc86cafda594fe9b56c25dbcc76c4d2.jpeg?w=aW1hZ2Uvd2F0ZXJtYXJrLTkwMC5wbmc=&basic=watermark=1;object=aW1hZ2Uvd2F0ZXJtYXJrLTkwMC5wbmc=;p=9|70q" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">毛绒玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale new soft plush toys filling custom soft toy stuffed</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00DCfoEZkcHbrV/Wholesale-Bulk-Custom-Elephant-Plush-Toys-Stuffed-Animals-Soft-Plushies-Doll-Peluche-Anime-Gift-Mascot-Baby-Toddlers-Kid-Child.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00DCfoEZkcHbrV/Wholesale-Bulk-Custom-Elephant-Plush-Toys-Stuffed-Animals-Soft-Plushies-Doll-Peluche-Anime-Gift-Mascot-Baby-Toddlers-Kid-Child.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">毛绒玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale bulk custom elephant plush toys stuffed animals soft</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00HMfcaqkrOopV/Wholesale-Bulk-Custom-Elephant-Plush-Toys-Stuffed-Animals-Soft-Plushies-Doll-Peluche-Anime-Gift-Mascot-Baby-Toddlers-Kid-Child.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00HMfcaqkrOopV/Wholesale-Bulk-Custom-Elephant-Plush-Toys-Stuffed-Animals-Soft-Plushies-Doll-Peluche-Anime-Gift-Mascot-Baby-Toddlers-Kid-Child.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">毛绒玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale bulk custom elephant plush toys stuffed animals soft</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/3addf47c-9ed8-429b-b10b-2623fdeca95d.JPG" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/3addf47c-9ed8-429b-b10b-2623fdeca95d.JPG" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新奇搞怪玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ft2106-092 wholesale tpr novelty toys outdoor sports america</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://dep03.sellersuniononline.com/upload/commodity2/20220727/20220727161611_8911141.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://dep03.sellersuniononline.com/upload/commodity2/20220727/20220727161611_8911141.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新奇搞怪玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">factory wholesale novelty dinosaur water gun toys for kids</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://dep03.sellersuniononline.com/upload/commodity2/20220727/20220727161611_1386900.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://dep03.sellersuniononline.com/upload/commodity2/20220727/20220727161611_1386900.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新奇搞怪玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">factory wholesale novelty dinosaur water gun toys for kids</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00lpSoDPIqAvbB/Sport-Series-Outdoor-Kids-Children-Plastic-Toys-Wholesale-Gift-Sports-Toy.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00lpSoDPIqAvbB/Sport-Series-Outdoor-Kids-Children-Plastic-Toys-Wholesale-Gift-Sports-Toy.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">户外运动玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">series outdoor kids children plastic toys wholesale gift sports</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/f51734f1-07e7-4d37-8e69-1ea3e3f51c80.JPG" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/f51734f1-07e7-4d37-8e69-1ea3e3f51c80.JPG" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">户外运动玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ft2106-092 wholesale tpr novelty toys outdoor sports america</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/9ca17b0c-12b4-411d-a360-b5832a2e99c0.JPG" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://cn-gtw-1251659875.cos.ap-shanghai.myqcloud.com/ueditor/20210625/9ca17b0c-12b4-411d-a360-b5832a2e99c0.JPG" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">户外运动玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ft2106-092 wholesale tpr novelty toys outdoor sports america</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://img6.tradewheel.com/uploads/images/products/7/2/116-remote-control-toy-car-4-channel-children-toys-car-wholesale-rc-cars-with-lights1-0602567001627875507.jpg.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://img6.tradewheel.com/uploads/images/products/7/2/116-remote-control-toy-car-4-channel-children-toys-car-wholesale-rc-cars-with-lights1-0602567001627875507.jpg.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">遥控玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">remote control toy car 4 channel children toys car wholesale rc</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://img6.tradewheel.com/uploads/images/products/6/6/wholesale-remote-control-toy-cars-1-16-24g-rc-car-high-speed-drift-spray-car-with-pvc-canopy1-0268572001627228578.jpg.webp" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://img6.tradewheel.com/uploads/images/products/6/6/wholesale-remote-control-toy-cars-1-16-24g-rc-car-high-speed-drift-spray-car-with-pvc-canopy1-0268572001627228578.jpg.webp" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">遥控玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">wholesale remote control toy cars 1 16 2</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://img.alicdn.com/bao/uploaded/i4/2214653106965/O1CN01EtbMjV21K1NMF7atf_!!2214653106965.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="https://img.alicdn.com/bao/uploaded/i4/2214653106965/O1CN01EtbMjV21K1NMF7atf_!!2214653106965.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">遥控玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">母婴&玩具 | YoY +6.0% | 机会分 25.86</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">rc remote control centipede cat interactive toys with egg</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00CoSWGkecEhzb/Textile-Garment-Tearing-Spinning-Yarn-Jeans-Denim-Opening-Cotton-Waste-Recycling-Machine.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00CoSWGkecEhzb/Textile-Garment-Tearing-Spinning-Yarn-Jeans-Denim-Opening-Cotton-Waste-Recycling-Machine.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">服装及纺织机械</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">工业机械 | YoY +8.4% | 机会分 24.9</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">textile garment tearing spinning yarn jeans denim opening cotton</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://cbu01.alicdn.com/img/ibank/2016/190/137/2867731091_956791997.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://cbu01.alicdn.com/img/ibank/2016/190/137/2867731091_956791997.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">服装及纺织机械</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">工业机械 | YoY +8.4% | 机会分 24.9</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">professional textile machinery</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+<div style="background:var(--p);border-radius:6px;padding:10px;border:1px solid rgba(255,255,255,.08)">
+<a href="http://image.made-in-china.com/226f3j00AeMVOlTFlauK/Garment-Recycling-Machine-Cleaning-Textile-Waste-Recycling-Machine-for-Clothes-Jeans-Making-Machinery.jpg" target="_blank" style="display:flex;gap:10px;text-decoration:none;color:inherit">
+<img src="http://image.made-in-china.com/226f3j00AeMVOlTFlauK/Garment-Recycling-Machine-Cleaning-Textile-Waste-Recycling-Machine-for-Clothes-Jeans-Making-Machinery.jpg" alt="" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0" onerror="this.style.display='none'">
+<div style="flex:1;min-width:0">
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">服装及纺织机械</div>
+<div style="font-size:11px;color:rgba(255,255,255,.45);margin-bottom:3px">工业机械 | YoY +8.4% | 机会分 24.9</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">garment recycling machine cleaning textile waste recycling</div>
+<div style="display:flex;gap:5px;flex-wrap:wrap;font-size:11px">
+<span style="background:#4285f4;padding:2px 6px;border-radius:3px;color:#fff;font-weight:600">Google</span>
+</div></div>
+</a></div>
+</div>
+<div class="sb"><h3>严重缺商 Top 15（≤5商家，供不应求）</h3></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L1</th><th>L2品类</th><th class="n">海关YoY</th><th class="n">出口(亿$)</th><th class="n">本地商家</th><th class="n">机会分</th></tr>
+<tr><td class='rk'>1</td><td>可再生能源</td><td>电池</td><td class='n g'>+9.2%</td><td class='n'>18462.5</td><td class='n r'>1</td><td class='n y'>130.39</td></tr>
+<tr><td class='rk'>2</td><td>汽车零配件</td><td>汽车传动系统</td><td class='n g'>+20.0%</td><td class='n'>72.0</td><td class='n r'>1</td><td class='n y'>123.4</td></tr>
+<tr><td class='rk'>3</td><td>工业机械</td><td>农业机械与设备</td><td class='n g'>+11.1%</td><td class='n'>1566.1</td><td class='n r'>1</td><td class='n y'>117.27</td></tr>
+<tr><td class='rk'>4</td><td>工业机械</td><td>服装及纺织机械</td><td class='n g'>+8.4%</td><td class='n'>910.6</td><td class='n r'>1</td><td class='n y'>82.58</td></tr>
+<tr><td class='rk'>5</td><td>汽车用品、电子及工具设备</td><td>外部配件</td><td class='n g'>+12.6%</td><td class='n'>90.1</td><td class='n r'>1</td><td class='n y'>81.81</td></tr>
+<tr><td class='rk'>6</td><td>工业机械</td><td>制冷及热交换设备</td><td class='n g'>+8.4%</td><td class='n'>411.9</td><td class='n r'>1</td><td class='n y'>72.96</td></tr>
+<tr><td class='rk'>7</td><td>商业设备及机械</td><td>印刷机</td><td class='n g'>+8.2%</td><td class='n'>432.8</td><td class='n r'>1</td><td class='n y'>71.72</td></tr>
+<tr><td class='rk'>8</td><td>消费电子</td><td>计算机软硬件</td><td class='n g'>+8.4%</td><td class='n'>325.2</td><td class='n r'>1</td><td class='n y'>70.1</td></tr>
+<tr><td class='rk'>9</td><td>电子元器件、配件及通讯</td><td>集成电路</td><td class='n g'>+8.4%</td><td class='n'>303.5</td><td class='n r'>1</td><td class='n y'>69.26</td></tr>
+<tr><td class='rk'>10</td><td>商业设备及机械</td><td>服装机械</td><td class='n g'>+8.4%</td><td class='n'>195.1</td><td class='n r'>1</td><td class='n y'>63.91</td></tr>
+<tr><td class='rk'>11</td><td>物料搬运</td><td>运输</td><td class='n g'>+9.1%</td><td class='n'>109.1</td><td class='n r'>1</td><td class='n y'>61.88</td></tr>
+<tr><td class='rk'>12</td><td>灯具照明</td><td>灯泡、灯管</td><td class='n g'>+8.4%</td><td class='n'>151.8</td><td class='n r'>1</td><td class='n y'>60.86</td></tr>
+<tr><td class='rk'>13</td><td>电子元器件、配件及通讯</td><td>二极管、晶体管和晶闸管</td><td class='n g'>+7.9%</td><td class='n'>194.3</td><td class='n r'>1</td><td class='n y'>60.28</td></tr>
+<tr><td class='rk'>14</td><td>母婴&玩具</td><td>新奇搞怪玩具</td><td class='n g'>+6.0%</td><td class='n'>20400.0</td><td class='n r'>2</td><td class='n y'>54.2</td></tr>
+<tr><td class='rk'>15</td><td>家用电器</td><td>清洁家电</td><td class='n g'>+8.4%</td><td class='n'>86.7</td><td class='n r'>1</td><td class='n y'>54.08</td></tr>
+</table></div>
+<div class="sb"><h3>Amazon爆款对标 — 缺口品类竞品画像（按评论热度排序）</h3>
+<p>基于供需缺口分析识别的品类，抓取Amazon对应品类的Bestseller热销商品。这些产品在Amazon热销但国际站本地<b>零供给或极度缺商</b>，代表明确的招商/招品机会。</p></div>
+<div class="hp-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:10px;margin-bottom:14px">
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B082TMBYR6" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71ZiOkCG4YL._AC_UY218_.jpg" alt="B082TMBYR6" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">储能系统</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B082TMBYR6</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Jackery Portable Power Station Explorer 300, 292Wh Backup LiFePO4 Battery, Solar</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$198.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.6 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(11K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0D7PPG25F" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61JVKysP1nL._AC_UY218_.jpg" alt="B0D7PPG25F" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">储能系统</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0D7PPG25F</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Jackery Explorer 1000 v2 Portable Power Station,1070Wh LiFePO4 Battery,1500W AC/</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$469.00</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(3.4K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0B1M6ML2J" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/81RChUS0zjL._AC_UL320_.jpg" alt="B0B1M6ML2J" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">办公用品</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0B1M6ML2J</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">25 PCS Clear Plastic Drawer Organizer Set, 4 Sizes Desk Drawer Divider Organizer</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$23.95</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.4 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(14.4K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0C9ZHWC9K" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61yhHuVQp4L._AC_UL320_.jpg" alt="B0C9ZHWC9K" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">办公用品</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0C9ZHWC9K</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">SKYDUE 360 Rotating Plastic Desk Pen Organizer with 5 Slots, Dual-Purpose Art Su</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$9.98</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.8 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(5.9K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0FMF4K563" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71VmoEegWVL._AC_UL320_.jpg" alt="B0FMF4K563" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">梯子及脚手架</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0FMF4K563</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">HBTower 4 Step Ladder, Step Stool Foldable with Wide Anti-Slip Pedal | Sturdy St</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$59.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.8 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(1.2K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0D95WNG6Z" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71-xFhz1z6L._AC_UL320_.jpg" alt="B0D95WNG6Z" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">梯子及脚手架</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0D95WNG6Z</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Arbusb Step Ladder, Folding Step Stool with Wide Anti-Slip Pedals, Sturdy Steel </div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$49.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(1.1K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0CD42KQ3K" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61wDKHokleL._AC_UL320_.jpg" alt="B0CD42KQ3K" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">婴儿玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0CD42KQ3K</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Baby Montessori Sensory Toys for 0-6 6-12 Months, Baby Teether Teething Toys for</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$9.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(11.5K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0DHH7LGZT" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/81mTVQ9LYTL._AC_UL320_.jpg" alt="B0DHH7LGZT" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">婴儿玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0DHH7LGZT</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Black and White Baby Books for Newborn - Tummy Time Mirror & Sensory Toys Soft M</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$7.98</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.8 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(1.4K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B07P29XQR4" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/511Y76uGwYL._AC_UY218_.jpg" alt="B07P29XQR4" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">手机与配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B07P29XQR4</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">PopSockets Adhesive Phone Grip, Holder, Phone Stand, Black - Black</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$7.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.6 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(123.7K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0BHNYJGRF" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71yYA071I3L._AC_UY218_.jpg" alt="B0BHNYJGRF" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">手机与配件</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0BHNYJGRF</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Lamicall 2026 Wider Clamp & Metal Hook Car Phone Holder Vent [Thick Cases Friend</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$9.48</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.5 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(15.6K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0DGL6L3R2" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71jvzVhprOL._AC_UL320_.jpg" alt="B0DGL6L3R2" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新奇搞怪玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0DGL6L3R2</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ORB Easy Sqweezy Super Cheesy - Squeeze This Big, Fun, Squishy, Slow Rising, Ext</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$13.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.0 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(467) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0GRLZ7966" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61jwMR3RX6L._AC_UL320_.jpg" alt="B0GRLZ7966" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">新奇搞怪玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0GRLZ7966</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Cheese Squishy (6cm),Cheese Block Squeeze Toy,Squishies Stress Relief Fidget Toy</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$7.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">3.8 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(414) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0FRSZB73F" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/51SG7xVPzrL._AC_UL320_.jpg" alt="B0FRSZB73F" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">潮玩玩偶与盲盒</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0FRSZB73F</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Smiski Birthday Series - (1) Assorted Sealed Blind Box Original Glow in The Dark</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$17.60</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.5 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(360) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0FXYG3QP3" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/81Re089qqHL._AC_UL320_.jpg" alt="B0FXYG3QP3" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">潮玩玩偶与盲盒</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0FXYG3QP3</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Disney Stitch Sleepy Stars Vinyl Plush Clip-on Surprise Toy | Drop 2 Blind Box C</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$9.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.1 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(13) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B002RS6JSA" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/41cqM3FYB-L._AC_UL320_.jpg" alt="B002RS6JSA" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">头发护理及造型</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B002RS6JSA</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">CHI 44 Iron Guard Thermal Protection Spray for Hair, Heat Damage Shield with Cer</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$8.00</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.5 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(71K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B09GKY436P" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61VkRoH0BSL._AC_UL320_.jpg" alt="B09GKY436P" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">头发护理及造型</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B09GKY436P</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Remington Shine Therapy 1 inch Hair Straightener Iron, Flat Iron Infused with Ar</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$33.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(28.6K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B09YLKMHLH" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61CoDohL3wL._AC_UY218_.jpg" alt="B09YLKMHLH" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">洗衣设备</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B09YLKMHLH</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Portable Washing Machine, 28lbs Twin Tub Washer Mini Compact Laundry Machine wit</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$179.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.2 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(4K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B01N68XF0O" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/81nv8uYwf7L._AC_UY218_.jpg" alt="B01N68XF0O" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">洗衣设备</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B01N68XF0O</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Scrubba Wash Bag - Patented Washboard-in-a-Bag™ Portable Travel Washing Machine </div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$59.95</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.4 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(3.1K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B01K1K0K6M" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71rVHKdRZbL._AC_UL320_.jpg" alt="B01K1K0K6M" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">户外运动玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B01K1K0K6M</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Step2 Rain Showers Splash Pond Water Table, Kids Water and Sand Activity Sensory</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$84.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(23.7K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0796JVBJ8" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71STcje+p-L._AC_UL320_.jpg" alt="B0796JVBJ8" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">户外运动玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0796JVBJ8</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">6-Pack Water Blaster Set, Multicolor</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$22.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(10.5K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0G6L1ZSMF" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61PdwO-gcFL._AC_UY218_.jpg" alt="B0G6L1ZSMF" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">电池</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0G6L1ZSMF</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">1.5V Rechargeable AA Batteries 8-Pack with Smart Charger, 4000mWh High Capacity </div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$25.99</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.4 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(116) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0G4QZ454T" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71v1MpaWU1L._AC_UY218_.jpg" alt="B0G4QZ454T" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">电池</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0G4QZ454T</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">USB C Rechargeable AA Batteries 4 Pack, 4100mWh 1.5V Constant Output Lithium Ion</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$22.37</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(62) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0GFMY4J3L" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71PezzYwH0L._AC_UY218_.jpg" alt="B0GFMY4J3L" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">清洁设备</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0GFMY4J3L</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">MONSGA Robot Vacuum and Mop Combo, 90 Days Self-Emptying with 8000Pa Suction, Li</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$239.98</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.7 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(385) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0GXK5GSZY" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61TSQr5sRHL._AC_UY218_.jpg" alt="B0GXK5GSZY" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">清洁设备</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0GXK5GSZY</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">ECOVACS DEEBOT T50 PRO Omni Robot Vacuum & Mop, 3.19" Ultra-Slim, 15,000Pa Stron</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$313.00</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.2 out of 5 stars, rating details★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(49) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0CL3WC4MT" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/71TjmgpM0DL._AC_UL320_.jpg" alt="B0CL3WC4MT" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">毛绒玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0CL3WC4MT</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Best Pet Supplies Interactive Squeaky Dog Chew Toy, Ideal Dog Toys for Chewers, </div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$8.59</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.3 out of 5 stars★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(51.5K) reviews</span>
+</div></div></a></div>
+<div style="background:var(--p);border-radius:6px;padding:12px;border:1px solid rgba(255,255,255,.08)">
+<a href="https://www.amazon.com/dp/B0D487FBFG" target="_blank" style="display:flex;gap:12px;text-decoration:none;color:inherit">
+<img src="https://m.media-amazon.com/images/I/61ZZhwlJktL._AC_UL320_.jpg" alt="B0D487FBFG" style="width:100px;height:100px;object-fit:contain;border-radius:6px;background:#fff;flex-shrink:0">
+<div>
+<div style="color:var(--g);font-size:13px;font-weight:600;margin-bottom:2px">毛绒玩具</div>
+<div style="font-size:11px;color:rgba(255,255,255,.5);margin-bottom:4px">ASIN: B0D487FBFG</div>
+<div style="font-size:12px;line-height:1.4;margin-bottom:6px;max-height:2.8em;overflow:hidden">Aurora Adorable Palm Pals Happy BDay Cake Stuffed Animal - Fun Collectible Plush</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;font-size:11px">
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--g);font-weight:700">$11.75</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:#f6d55c">4.8 out of 5 stars★</span>
+<span style="background:var(--b);padding:2px 6px;border-radius:3px;color:var(--c)">(634) reviews</span>
+</div></div></a></div>
+</div>
+<div class="sb"><h3>竞争优势品类（本地有供给 + 海关正增长 → 扩大）</h3></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L1</th><th>L2品类</th><th class="n">海关YoY</th><th class="n">出口(亿$)</th><th class="n">本地商家</th><th class="n">机会分</th></tr>
+<tr><td class='rk'>1</td><td>可再生能源</td><td>储能系统</td><td class='n g'>+10.3%</td><td class='n'>18310.7</td><td class='n'>27</td><td class='n y'>30.4</td></tr>
+<tr><td class='rk'>2</td><td>母婴&玩具</td><td>积木</td><td class='n g'>+6.0%</td><td class='n'>20400.0</td><td class='n'>31</td><td class='n y'>17.18</td></tr>
+<tr><td class='rk'>3</td><td>汽车零配件</td><td>汽车覆盖件系统</td><td class='n g'>+16.2%</td><td class='n'>116.2</td><td class='n'>92</td><td class='n y'>17.0</td></tr>
+<tr><td class='rk'>4</td><td>工业机械</td><td>空压机及零件</td><td class='n g'>+8.4%</td><td class='n'>151.8</td><td class='n'>21</td><td class='n y'>13.65</td></tr>
+<tr><td class='rk'>5</td><td>家用电器</td><td>厨房小家电</td><td class='n g'>+8.4%</td><td class='n'>151.8</td><td class='n'>22</td><td class='n y'>13.45</td></tr>
+<tr><td class='rk'>6</td><td>商业设备及机械</td><td>自动售货机</td><td class='n g'>+8.4%</td><td class='n'>86.7</td><td class='n'>31</td><td class='n y'>10.82</td></tr>
+<tr><td class='rk'>7</td><td>消费电子</td><td>扬声器及配件</td><td class='n g'>+8.4%</td><td class='n'>86.7</td><td class='n'>50</td><td class='n y'>9.53</td></tr>
+<tr><td class='rk'>8</td><td>汽车零配件</td><td>汽车引擎</td><td class='n g'>+8.4%</td><td class='n'>151.8</td><td class='n'>93</td><td class='n y'>9.29</td></tr>
+<tr><td class='rk'>9</td><td>个人护理及家庭清洁</td><td>男士护理</td><td class='n g'>+8.1%</td><td class='n'>86.5</td><td class='n'>72</td><td class='n y'>8.42</td></tr>
+<tr><td class='rk'>10</td><td>个人护理及家庭清洁</td><td>口腔护理</td><td class='n g'>+6.3%</td><td class='n'>85.0</td><td class='n'>45</td><td class='n y'>7.28</td></tr>
+<tr><td class='rk'>11</td><td>鞋靴及配饰</td><td>男鞋</td><td class='n g'>+3.6%</td><td class='n'>186.5</td><td class='n'>47</td><td class='n y'>4.86</td></tr>
+<tr><td class='rk'>12</td><td>面料及纺织原材料</td><td>皮革</td><td class='n g'>+2.1%</td><td class='n'>837.2</td><td class='n'>23</td><td class='n y'>4.45</td></tr>
+<tr><td class='rk'>13</td><td>家用电器</td><td>厨房大家电</td><td class='n g'>+2.5%</td><td class='n'>143.5</td><td class='n'>21</td><td class='n y'>4.03</td></tr>
+</table></div>
+</div>
+<div class="tc">
+<div class="sb"><h3>广州分区产业带 × 海外需求 行动指南</h3>
+<p>各区产业带现状 + 对接海外需求方向 + 具体行动建议。</p></div>
+
+<div class="ins"><h4>分区产业带深度洞察</h4>
+<p>共识别到<b>8个子区域</b>有明确品类集聚。规模最大的是<b class='g'>南粤大区</b>（587商家，52个品类）。</p></div>
+<div class="dc"><div class="dc-h"><b class="g">南粤大区</b><span class="dc-belt">指甲用品/家电零配件/外部配件/面料</span><span style="margin-left:auto;font-size:12px;opacity:.6">587商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 指甲用品(102)、家电零配件(59)、外部配件(55)、面料(45)、自行车(34)、天花板(31)</div>
+<div class='dc-act'><b>海外增长方向:</b> 指甲用品(+3%), 家电零配件(+8%), 外部配件(+13%), 自行车(+13%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">深莞惠大区</b><span class="dc-belt">家电零配件/面料/过家家玩具/玩具车</span><span style="margin-left:auto;font-size:12px;opacity:.6">5商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 家电零配件(2)、面料(1)、过家家玩具(1)、玩具车(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 家电零配件(+8%), 过家家玩具(+6%), 玩具车(+6%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">北方大区</b><span class="dc-belt">美容设备/厨房小家电/碳钢</span><span style="margin-left:auto;font-size:12px;opacity:.6">3商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 美容设备(1)、厨房小家电(1)、碳钢(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 美容设备(+8%), 厨房小家电(+8%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">中西部大区</b><span class="dc-belt">家电零配件/无机化学品</span><span style="margin-left:auto;font-size:12px;opacity:.6">2商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 家电零配件(1)、无机化学品(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 家电零配件(+8%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">闽汕大区</b><span class="dc-belt">洗衣设备</span><span style="margin-left:auto;font-size:12px;opacity:.6">1商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 洗衣设备(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 洗衣设备(+8%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">客户线上自注册专区</b><span class="dc-belt">家电零配件</span><span style="margin-left:auto;font-size:12px;opacity:.6">1商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 家电零配件(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 家电零配件(+8%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">香港大区</b><span class="dc-belt">户外运动玩具</span><span style="margin-left:auto;font-size:12px;opacity:.6">1商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 户外运动玩具(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 户外运动玩具(+6%)</div>
+</div>
+<div class="dc"><div class="dc-h"><b class="g">华东大区</b><span class="dc-belt">自行车</span><span style="margin-left:auto;font-size:12px;opacity:.6">1商家</span></div>
+<div class="dc-cats"><b>品类分布:</b> 自行车(1)</div>
+<div class='dc-act'><b>海外增长方向:</b> 自行车(+13%)</div>
+</div>
+</div>
+<div class="tc">
+<div class="sb"><h3>海关出口数据（GACC L1汇总）</h3>
+<p>数据来源：海关总署全量HS6→L2映射聚合，2025年1-5月累计出口额及同比变化。</p></div>
+<div class="pnl"><table>
+<tr><th class="ctr">#</th><th>L1行业</th><th class="n">2025出口(亿$)</th><th class="n">YoY</th><th class="n">L2数</th></tr>
+<tr><td class='rk'>1</td><td>母婴&玩具</td><td class='n'>245245</td><td class='n g'>+553.4%</td><td class='n'>23</td></tr>
+<tr><td class='rk'>2</td><td>消费电子</td><td class='n'>98498</td><td class='n g'>+502.8%</td><td class='n'>14</td></tr>
+<tr><td class='rk'>3</td><td>礼品与工艺品</td><td class='n'>41260</td><td class='n g'>+280.2%</td><td class='n'>12</td></tr>
+<tr><td class='rk'>4</td><td>可再生能源</td><td class='n'>37052</td><td class='n g'>+974.1%</td><td class='n'>8</td></tr>
+<tr><td class='rk'>5</td><td>建材与房地产</td><td class='n'>24070</td><td class='n r'>-152.1%</td><td class='n'>31</td></tr>
+<tr><td class='rk'>6</td><td>运动及娱乐</td><td class='n'>22505</td><td class='n r'>-174.2%</td><td class='n'>16</td></tr>
+<tr><td class='rk'>7</td><td>宠物用品及食品</td><td class='n'>20543</td><td class='n g'>+212.3%</td><td class='n'>2</td></tr>
+<tr><td class='rk'>8</td><td>化学品</td><td class='n'>13334</td><td class='n g'>+145.7%</td><td class='n'>20</td></tr>
+<tr><td class='rk'>9</td><td>五金工具</td><td class='n'>11100</td><td class='n g'>+586.4%</td><td class='n'>17</td></tr>
+<tr><td class='rk'>10</td><td>面料及纺织原材料</td><td class='n'>10827</td><td class='n r'>-11.6%</td><td class='n'>10</td></tr>
+<tr><td class='rk'>11</td><td>金属与合金</td><td class='n'>10779</td><td class='n r'>-146.8%</td><td class='n'>7</td></tr>
+<tr><td class='rk'>12</td><td>工业机械</td><td class='n'>6420</td><td class='n g'>+900.5%</td><td class='n'>22</td></tr>
+<tr><td class='rk'>13</td><td>服装及配饰</td><td class='n'>5676</td><td class='n r'>-408.4%</td><td class='n'>12</td></tr>
+<tr><td class='rk'>14</td><td>食品及饮料</td><td class='n'>5674</td><td class='n g'>+754.0%</td><td class='n'>20</td></tr>
+<tr><td class='rk'>15</td><td>家居园艺</td><td class='n'>5093</td><td class='n r'>-12.5%</td><td class='n'>11</td></tr>
+<tr><td class='rk'>16</td><td>包装印刷</td><td class='n'>4459</td><td class='n g'>+276.1%</td><td class='n'>12</td></tr>
+<tr><td class='rk'>17</td><td>商业设备及机械</td><td class='n'>3647</td><td class='n g'>+609.9%</td><td class='n'>15</td></tr>
+<tr><td class='rk'>18</td><td>电子元器件、配件及通讯</td><td class='n'>2616</td><td class='n g'>+809.0%</td><td class='n'>17</td></tr>
+<tr><td class='rk'>19</td><td>仪器仪表</td><td class='n'>2296</td><td class='n g'>+438.5%</td><td class='n'>4</td></tr>
+<tr><td class='rk'>20</td><td>电气设备及用品</td><td class='n'>2086</td><td class='n g'>+756.9%</td><td class='n'>11</td></tr>
+<tr><td class='rk'>21</td><td>橡胶与塑料制品</td><td class='n'>1913</td><td class='n g'>+287.9%</td><td class='n'>6</td></tr>
+<tr><td class='rk'>22</td><td>珠宝眼镜手表及配饰</td><td class='n'>1545</td><td class='n g'>+34.5%</td><td class='n'>9</td></tr>
+<tr><td class='rk'>23</td><td>汽车零配件</td><td class='n'>1355</td><td class='n g'>+1337.2%</td><td class='n'>29</td></tr>
+<tr><td class='rk'>24</td><td>家用电器</td><td class='n'>1291</td><td class='n g'>+759.0%</td><td class='n'>11</td></tr>
+<tr><td class='rk'>25</td><td>办公文教用品</td><td class='n'>1236</td><td class='n g'>+299.7%</td><td class='n'>11</td></tr>
+<tr><td class='rk'>26</td><td>物料搬运</td><td class='n'>1141</td><td class='n g'>+765.6%</td><td class='n'>3</td></tr>
+<tr><td class='rk'>27</td><td>家具</td><td class='n'>1010</td><td class='n r'>-214.6%</td><td class='n'>7</td></tr>
+<tr><td class='rk'>28</td><td>整车及交通工具</td><td class='n'>916</td><td class='n g'>+2059.1%</td><td class='n'>14</td></tr>
+<tr><td class='rk'>29</td><td>农业</td><td class='n'>884</td><td class='n g'>+1047.1%</td><td class='n'>14</td></tr>
+<tr><td class='rk'>30</td><td>工程及建材机械</td><td class='n'>867</td><td class='n g'>+840.0%</td><td class='n'>3</td></tr>
+<tr><td class='rk'>31</td><td>个人护理及家庭清洁</td><td class='n'>859</td><td class='n g'>+482.7%</td><td class='n'>16</td></tr>
+<tr><td class='rk'>32</td><td>鞋靴及配饰</td><td class='n'>808</td><td class='n g'>+361.3%</td><td class='n'>6</td></tr>
+<tr><td class='rk'>33</td><td>汽车用品、电子及工具设备</td><td class='n'>740</td><td class='n g'>+885.7%</td><td class='n'>10</td></tr>
+<tr><td class='rk'>34</td><td>传动</td><td class='n'>631</td><td class='n g'>+884.1%</td><td class='n'>8</td></tr>
+<tr><td class='rk'>35</td><td>灯具照明</td><td class='n'>564</td><td class='n g'>+93.5%</td><td class='n'>10</td></tr>
+<tr><td class='rk'>36</td><td>美妆</td><td class='n'>541</td><td class='n g'>+419.0%</td><td class='n'>13</td></tr>
+<tr><td class='rk'>37</td><td>安防</td><td class='n'>292</td><td class='n g'>+459.9%</td><td class='n'>5</td></tr>
+<tr><td class='rk'>38</td><td>安全用品</td><td class='n'>288</td><td class='n g'>+290.5%</td><td class='n'>5</td></tr>
+<tr><td class='rk'>39</td><td>运动户外鞋服及装备</td><td class='n'>222</td><td class='n g'>+111.1%</td><td class='n'>5</td></tr>
+<tr><td class='rk'>40</td><td>箱包</td><td class='n'>211</td><td class='n g'>+560.0%</td><td class='n'>10</td></tr>
+<tr><td class='rk'>41</td><td>定制加工</td><td class='n'>165</td><td class='n g'>+310.9%</td><td class='n'>7</td></tr>
+<tr><td class='rk'>42</td><td>医疗器械和用品</td><td class='n'>146</td><td class='n g'>+417.1%</td><td class='n'>4</td></tr>
+<tr><td class='rk'>43</td><td>健康护理</td><td class='n'>105</td><td class='n g'>+457.9%</td><td class='n'>5</td></tr>
+</table></div></div>
+<div class="tc">
+<div class="sb"><h3>数据定义与指标口径</h3></div>
+<div class="pnl"><table>
+<tr><th>指标</th><th>定义</th><th>数据源</th></tr>
+<tr><td>商家总数</td><td>广州注册在 dwm_en_cgs_cust_info_d 的去重 admin_mbr_id 数</td><td>cgs日表</td></tr>
+<tr><td>28天订单</td><td>近28天买家下单数(byr_order_cnt_28d)</td><td>ftrd日表</td></tr>
+<tr><td>商效</td><td>28天订单 ÷ 活跃商家数</td><td>计算指标</td></tr>
+<tr><td>品效%</td><td>28天订单 ÷ 活跃品数 × 100</td><td>计算指标</td></tr>
+<tr><td>供需缺口分</td><td>YoY × log₁₀(出口额亿$) / log₁₀(本地商家+1)</td><td>海关×ODPS</td></tr>
+<tr><td>海关YoY</td><td>2025年1-5月出口同比（GACC全量L2级495条）</td><td>海关总署</td></tr>
+<tr><td>温差判断</td><td>海关YoY>5%且本地≤20商家=外热内冷；YoY>0+订单>100=供需匹配</td><td>交叉计算</td></tr>
+</table></div>
+
+<div class="sb"><h3>底层数据源</h3></div>
+<div class="pnl"><table>
+<tr><th>表名</th><th>项目</th><th>用途</th></tr>
+<tr><td>dwm_en_cgs_cust_info_d</td><td>icbudwa</td><td>商家经营(城市/品类/流量/询盘/信保)</td></tr>
+<tr><td>dwm_en_ftrd_prod_market_info_d</td><td>icbudwa</td><td>商品市场信号(订单/GMV/品质量标)</td></tr>
+<tr><td>dim_en_pcate_v</td><td>icbudwa</td><td>类目维表(L1-L4)</td></tr>
+<tr><td>dim_en_prod</td><td>icbudwa</td><td>商品维表</td></tr>
+<tr><td>dim_en_comp</td><td>icbudwa</td><td>公司维表(区域定位)</td></tr>
+<tr><td>dws_en_log_prod_byr_sem_kw_app_imps_1d</td><td>icbudwa</td><td>搜索关键词曝光</td></tr>
+<tr><td>customs_l2_export.json</td><td>本地</td><td>海关总署L2级出口数据(495条)</td></tr>
+</table></div></div>
+
+</div>
+<script>
+function sw(i){
+  document.querySelectorAll('.tc').forEach((t,j)=>t.classList.toggle('a',j===i));
+  document.querySelectorAll('.tab').forEach((t,j)=>t.classList.toggle('a',j===i));
+}
+</script>
+</body></html>
