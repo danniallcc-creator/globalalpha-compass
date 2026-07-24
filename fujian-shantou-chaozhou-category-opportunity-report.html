@@ -139,6 +139,28 @@
   .hp-grid .link-btn{display:inline-block;margin-top:6px;padding:3px 10px;background:rgba(233,184,74,.14);color:var(--gold);font-size:11px;border-radius:4px;text-decoration:none;font-weight:600}
   .hp-grid .link-btn:hover{background:rgba(233,184,74,.25);text-decoration:none}
 
+  /* ---- Minshan L2 dual-column layout (订单Top5 vs 商机Top5) ---- */
+  .l2-block{margin:22px 0 28px;border:1px solid var(--line);border-radius:14px;background:rgba(11,18,44,.55);padding:14px 18px 20px}
+  .l2-block-hdr{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px;padding:8px 4px 12px;border-bottom:1px solid var(--line);margin-bottom:14px}
+  .l2-block-hdr .rk{color:var(--gold);font-size:14px;font-weight:700;background:rgba(233,184,74,.14);padding:3px 10px;border-radius:6px}
+  .l2-block-hdr .l2-name{font-size:17px;font-weight:600;color:#EAE0C0}
+  .l2-block-hdr .l2-mbr{font-size:12px;color:var(--dim)}
+  .l2-block-hdr .l2-mbr b{color:var(--gold);font-variant-numeric:tabular-nums}
+  .l2-dual{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .l2-col{background:rgba(0,0,0,.14);border-radius:10px;padding:12px 12px 6px;border:1px solid rgba(255,255,255,.05)}
+  .l2-col.orders-col{border-left:3px solid var(--gold)}
+  .l2-col.opp-col{border-left:3px solid var(--cyan)}
+  .col-hdr{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;margin-bottom:10px;padding-bottom:6px;border-bottom:1px dashed rgba(255,255,255,.08)}
+  .col-hdr.orders-hdr{color:var(--gold)}
+  .col-hdr.opp-hdr{color:var(--cyan)}
+  .col-hdr .col-sub{font-weight:400;font-size:11px;color:var(--dim);margin-left:auto}
+  .l2-col .hp-grid{grid-template-columns:1fr;gap:8px;margin-bottom:0}
+  .l2-col .hp-grid .card-body{gap:10px;padding:10px 12px}
+  .l2-col .hp-grid .thumb,.l2-col .hp-grid .thumb-fallback{flex:0 0 72px;height:72px}
+  .l2-col .hp-grid .card .meta .nm{font-size:11.5px;-webkit-line-clamp:2}
+  .l2-col .hp-grid .footer-row{padding:6px 12px;font-size:11px}
+  @media(max-width:1100px){.l2-dual{grid-template-columns:1fr}}
+
   /* ---- Amazon 缺失供给对标卡 (对齐杭州报告) ---- */
   .amz-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
   .amz-card{border:1px solid var(--line);border-radius:10px;background:var(--card);overflow:hidden;transition:transform .15s}
@@ -384,613 +406,1334 @@
     <div class="insight cyan">
       <p><b>口径说明：</b>与 <i>CGS商家分行业分大区分析_20260722</i> 表一致——商家的主营 L1 行业来自 <code>icbucdm.dws_en_prod_comp_td.main_cate_lv1_desc</code>，通过 <code>admin_mbr_id</code> 与 CGS 商家表关联；未匹配到主营行业的记为「未知」。</p>
     </div>
-    <div class="regions"><div class="rcard" style="--rcolor:#E9B84A"><h3>福建省 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">529</td><td class="n">12.1%</td><td class="n">179</td></tr><tr><td class="rk">2</td><td>Apparel & Accessories</td><td class="n">419</td><td class="n">9.6%</td><td class="n">145</td></tr><tr><td class="rk">3</td><td>Packaging & Printing</td><td class="n">271</td><td class="n">6.2%</td><td class="n">117</td></tr><tr><td class="rk">4</td><td>Construction & Real Estate</td><td class="n">266</td><td class="n">6.1%</td><td class="n">104</td></tr><tr><td class="rk">5</td><td>Luggage, Bags & Cases</td><td class="n">241</td><td class="n">5.5%</td><td class="n">81</td></tr><tr><td class="rk">6</td><td>Sports & Entertainment</td><td class="n">198</td><td class="n">4.5%</td><td class="n">67</td></tr><tr><td class="rk">7</td><td>Shoes & Accessories</td><td class="n">189</td><td class="n">4.3%</td><td class="n">59</td></tr><tr><td class="rk">8</td><td>Gifts & Crafts</td><td class="n">163</td><td class="n">3.7%</td><td class="n">55</td></tr><tr><td class="rk">9</td><td>Industrial Machinery</td><td class="n">149</td><td class="n">3.4%</td><td class="n">52</td></tr><tr><td class="rk">10</td><td>Consumer Electronics</td><td class="n">140</td><td class="n">3.2%</td><td class="n">46</td></tr><tr><td class="rk">11</td><td>Tools & Hardware</td><td class="n">122</td><td class="n">2.8%</td><td class="n">38</td></tr><tr><td class="rk">12</td><td>Mother, Kids & Toys</td><td class="n">107</td><td class="n">2.5%</td><td class="n">56</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#3FB6D3"><h3>汕头市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Mother, Kids & Toys</td><td class="n">283</td><td class="n">34.6%</td><td class="n">86</td></tr><tr><td class="rk">2</td><td>Packaging & Printing</td><td class="n">108</td><td class="n">13.2%</td><td class="n">35</td></tr><tr><td class="rk">3</td><td>Apparel & Accessories</td><td class="n">97</td><td class="n">11.8%</td><td class="n">21</td></tr><tr><td class="rk">4</td><td>Home & Garden</td><td class="n">40</td><td class="n">4.9%</td><td class="n">9</td></tr><tr><td class="rk">5</td><td>Food & Beverage</td><td class="n">33</td><td class="n">4.0%</td><td class="n">13</td></tr><tr><td class="rk">6</td><td>Industrial Machinery</td><td class="n">32</td><td class="n">3.9%</td><td class="n">6</td></tr><tr><td class="rk">7</td><td>Beauty</td><td class="n">25</td><td class="n">3.1%</td><td class="n">10</td></tr><tr><td class="rk">8</td><td>Consumer Electronics</td><td class="n">19</td><td class="n">2.3%</td><td class="n">4</td></tr><tr><td class="rk">9</td><td>Electronic Components, Accessories & Telecommunications</td><td class="n">16</td><td class="n">2.0%</td><td class="n">1</td></tr><tr><td class="rk">10</td><td>Personal Care & Household Cleaning</td><td class="n">16</td><td class="n">2.0%</td><td class="n">6</td></tr><tr><td class="rk">11</td><td>School & Office Supplies</td><td class="n">15</td><td class="n">1.8%</td><td class="n">2</td></tr><tr><td class="rk">12</td><td>Commercial Equipment & Machinery</td><td class="n">13</td><td class="n">1.6%</td><td class="n">1</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#B87BE0"><h3>潮州市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">178</td><td class="n">42.5%</td><td class="n">53</td></tr><tr><td class="rk">2</td><td>Construction & Real Estate</td><td class="n">107</td><td class="n">25.5%</td><td class="n">47</td></tr><tr><td class="rk">3</td><td>Packaging & Printing</td><td class="n">44</td><td class="n">10.5%</td><td class="n">20</td></tr><tr><td class="rk">4</td><td>Food & Beverage</td><td class="n">27</td><td class="n">6.4%</td><td class="n">5</td></tr><tr><td class="rk">5</td><td>Apparel & Accessories</td><td class="n">11</td><td class="n">2.6%</td><td class="n">0</td></tr><tr><td class="rk">6</td><td>Commercial Equipment & Machinery</td><td class="n">9</td><td class="n">2.1%</td><td class="n">5</td></tr><tr><td class="rk">7</td><td>Lights & Lighting</td><td class="n">5</td><td class="n">1.2%</td><td class="n">2</td></tr><tr><td class="rk">8</td><td>Mother, Kids & Toys</td><td class="n">5</td><td class="n">1.2%</td><td class="n">1</td></tr><tr><td class="rk">9</td><td>Furniture</td><td class="n">4</td><td class="n">1.0%</td><td class="n">0</td></tr><tr><td class="rk">10</td><td>Home Appliances</td><td class="n">4</td><td class="n">1.0%</td><td class="n">1</td></tr><tr><td class="rk">11</td><td>Pet Supplies</td><td class="n">4</td><td class="n">1.0%</td><td class="n">0</td></tr><tr><td class="rk">12</td><td>Beauty</td><td class="n">3</td><td class="n">0.7%</td><td class="n">1</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#FF8A6B"><h3>揭阳市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">101</td><td class="n">46.3%</td><td class="n">31</td></tr><tr><td class="rk">2</td><td>Furniture</td><td class="n">21</td><td class="n">9.6%</td><td class="n">10</td></tr><tr><td class="rk">3</td><td>Apparel & Accessories</td><td class="n">15</td><td class="n">6.9%</td><td class="n">1</td></tr><tr><td class="rk">4</td><td>Shoes & Accessories</td><td class="n">14</td><td class="n">6.4%</td><td class="n">1</td></tr><tr><td class="rk">5</td><td>Construction & Real Estate</td><td class="n">8</td><td class="n">3.7%</td><td class="n">0</td></tr><tr><td class="rk">6</td><td>Home Appliances</td><td class="n">6</td><td class="n">2.8%</td><td class="n">1</td></tr><tr><td class="rk">7</td><td>Medical devices & Supplies</td><td class="n">5</td><td class="n">2.3%</td><td class="n">2</td></tr><tr><td class="rk">8</td><td>Sports & Entertainment</td><td class="n">5</td><td class="n">2.3%</td><td class="n">1</td></tr><tr><td class="rk">9</td><td>Electronic Components, Accessories & Telecommunications</td><td class="n">4</td><td class="n">1.8%</td><td class="n">3</td></tr><tr><td class="rk">10</td><td>Tools & Hardware</td><td class="n">3</td><td class="n">1.4%</td><td class="n">0</td></tr><tr><td class="rk">11</td><td>Electrical Equipment & Supplies</td><td class="n">3</td><td class="n">1.4%</td><td class="n">0</td></tr><tr><td class="rk">12</td><td>Packaging & Printing</td><td class="n">3</td><td class="n">1.4%</td><td class="n">1</td></tr></tbody></table></div></div><h2 class="sec">L2 品类深度 · 商效/品效/海关温差（四区：福建·汕头·潮州·揭阳）</h2><h3 class="sub"><span class="region-title rt-fj">福建省</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>服装及配饰</td><td><b>男装</b></td><td class="n">11,968</td><td class="n">56,595</td><td class="n">245</td><td class="n">$1.20M</td><td class="n">48.8</td><td class="n">21.15%</td><td class="n">$1,277亿</td><td class="n">-4.7%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">2</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">8,977</td><td class="n">80,502</td><td class="n">221</td><td class="n">$618.5K</td><td class="n">40.6</td><td class="n">11.15%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n">6,710</td><td class="n">42,766</td><td class="n">223</td><td class="n">$1.55M</td><td class="n">30.1</td><td class="n">15.69%</td><td class="n">$209.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>礼品与工艺品</td><td><b>工艺品</b></td><td class="n">5,712</td><td class="n">20,528</td><td class="n">124</td><td class="n">$416.8K</td><td class="n">46.1</td><td class="n">27.83%</td><td class="n">$139.8亿</td><td class="n">-0.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">5</td><td>珠宝眼镜手表及配饰</td><td><b>时尚饰品</b></td><td class="n">3,799</td><td class="n">30,075</td><td class="n">36</td><td class="n">$191.7K</td><td class="n">105.5</td><td class="n">12.63%</td><td class="n">$100.1亿</td><td class="n">+0.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">6</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">3,703</td><td class="n">14,731</td><td class="n">105</td><td class="n">$193.5K</td><td class="n">35.3</td><td class="n">25.14%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>鞋靴及配饰</td><td><b>鞋靴零配件</b></td><td class="n">3,558</td><td class="n">15,342</td><td class="n">94</td><td class="n">$193.1K</td><td class="n">37.9</td><td class="n">23.19%</td><td class="n">$62.2亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">8</td><td>鞋靴及配饰</td><td><b>男鞋</b></td><td class="n">3,349</td><td class="n">33,274</td><td class="n">136</td><td class="n">$456.8K</td><td class="n">24.6</td><td class="n">10.06%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">9</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">3,152</td><td class="n">37,585</td><td class="n">287</td><td class="n">$324.2K</td><td class="n">11.0</td><td class="n">8.39%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">10</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">3,048</td><td class="n">32,205</td><td class="n">151</td><td class="n">$810.5K</td><td class="n">20.2</td><td class="n">9.46%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>珠宝眼镜手表及配饰</td><td><b>眼镜</b></td><td class="n">2,829</td><td class="n">2,916</td><td class="n">15</td><td class="n">$169.9K</td><td class="n">188.6</td><td class="n">97.02%</td><td class="n">$166.1亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>包装印刷</td><td><b>印刷服务</b></td><td class="n">2,349</td><td class="n">4,212</td><td class="n">65</td><td class="n">$146.6K</td><td class="n">36.1</td><td class="n">55.77%</td><td class="n">$83.0亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">13</td><td>珠宝眼镜手表及配饰</td><td><b>珠宝配件及工具</b></td><td class="n">2,242</td><td class="n">11,091</td><td class="n">26</td><td class="n">$204.5K</td><td class="n">86.2</td><td class="n">20.21%</td><td class="n">$220.4亿</td><td class="n">+0.2%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">14</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">2,218</td><td class="n">34,126</td><td class="n">277</td><td class="n">$304.9K</td><td class="n">8.0</td><td class="n">6.5%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">15</td><td>消费电子</td><td><b>计算机软硬件</b></td><td class="n">2,113</td><td class="n">14,124</td><td class="n">62</td><td class="n">$274.3K</td><td class="n">34.1</td><td class="n">14.96%</td><td class="n">$325.2亿</td><td class="n">+8.4%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">16</td><td>服装及配饰</td><td><b>帽子</b></td><td class="n">1,994</td><td class="n">7,357</td><td class="n">130</td><td class="n">$541.4K</td><td class="n">15.3</td><td class="n">27.1%</td><td class="n">$60.6亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">17</td><td>服装及配饰</td><td><b>女士包袋</b></td><td class="n">1,933</td><td class="n">2,471</td><td class="n">22</td><td class="n">$70.6K</td><td class="n">87.9</td><td class="n">78.23%</td><td class="n">$21.1亿</td><td class="n">+5.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">18</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">1,899</td><td class="n">22,885</td><td class="n">134</td><td class="n">$212.2K</td><td class="n">14.2</td><td class="n">8.3%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">19</td><td>箱包</td><td><b>女士包袋</b></td><td class="n">1,793</td><td class="n">19,572</td><td class="n">159</td><td class="n">$140.8K</td><td class="n">11.3</td><td class="n">9.16%</td><td class="n">$21.1亿</td><td class="n">+5.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">20</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">1,750</td><td class="n">14,627</td><td class="n">140</td><td class="n">$146.8K</td><td class="n">12.5</td><td class="n">11.96%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-st">汕头市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">3,930</td><td class="n">43,917</td><td class="n">74</td><td class="n">$516.3K</td><td class="n">53.1</td><td class="n">8.95%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">2</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">2,577</td><td class="n">8,067</td><td class="n">34</td><td class="n">$50.7K</td><td class="n">75.8</td><td class="n">31.94%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n">1,392</td><td class="n">7,995</td><td class="n">61</td><td class="n">$135.1K</td><td class="n">22.8</td><td class="n">17.41%</td><td class="n">$209.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>母婴&玩具</td><td><b>积木</b></td><td class="n">1,071</td><td class="n">16,346</td><td class="n">190</td><td class="n">$246.4K</td><td class="n">5.6</td><td class="n">6.55%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">5</td><td>美妆</td><td><b>护肤</b></td><td class="n">642</td><td class="n">2,503</td><td class="n">18</td><td class="n">$52.1K</td><td class="n">35.7</td><td class="n">25.65%</td><td class="n">$21.6亿</td><td class="n">+8.1%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">6</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">556</td><td class="n">790</td><td class="n">13</td><td class="n">$17.7K</td><td class="n">42.8</td><td class="n">70.38%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">474</td><td class="n">7,524</td><td class="n">62</td><td class="n">$51.0K</td><td class="n">7.6</td><td class="n">6.3%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">8</td><td>母婴&玩具</td><td><b>遥控玩具</b></td><td class="n">466</td><td class="n">16,781</td><td class="n">172</td><td class="n">$102.4K</td><td class="n">2.7</td><td class="n">2.78%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">9</td><td>母婴&玩具</td><td><b>益智玩具</b></td><td class="n">450</td><td class="n">13,772</td><td class="n">191</td><td class="n">$62.8K</td><td class="n">2.4</td><td class="n">3.27%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">10</td><td>美妆</td><td><b>彩妆及工具</b></td><td class="n">382</td><td class="n">6,943</td><td class="n">22</td><td class="n">$33.0K</td><td class="n">17.4</td><td class="n">5.5%</td><td class="n">$105.2亿</td><td class="n">+5.2%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">311</td><td class="n">6,805</td><td class="n">80</td><td class="n">$52.5K</td><td class="n">3.9</td><td class="n">4.57%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">12</td><td>母婴&玩具</td><td><b>玩具车</b></td><td class="n">306</td><td class="n">10,768</td><td class="n">175</td><td class="n">$29.0K</td><td class="n">1.7</td><td class="n">2.84%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">13</td><td>服装及配饰</td><td><b>男装</b></td><td class="n">301</td><td class="n">950</td><td class="n">20</td><td class="n">$64.8K</td><td class="n">15.1</td><td class="n">31.68%</td><td class="n">$1,277亿</td><td class="n">-4.7%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">14</td><td>母婴&玩具</td><td><b>婴童用品</b></td><td class="n">282</td><td class="n">2,255</td><td class="n">85</td><td class="n">$38.4K</td><td class="n">3.3</td><td class="n">12.51%</td><td class="n">$61.7亿</td><td class="n">+2.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">15</td><td>母婴&玩具</td><td><b>经典玩具</b></td><td class="n">260</td><td class="n">6,696</td><td class="n">183</td><td class="n">$43.5K</td><td class="n">1.4</td><td class="n">3.88%</td><td class="n">$19.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>母婴&玩具</td><td><b>户外运动玩具</b></td><td class="n">245</td><td class="n">8,698</td><td class="n">176</td><td class="n">$36.0K</td><td class="n">1.4</td><td class="n">2.82%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">17</td><td>母婴&玩具</td><td><b>拼图&游戏</b></td><td class="n">235</td><td class="n">3,949</td><td class="n">134</td><td class="n">$13.9K</td><td class="n">1.8</td><td class="n">5.95%</td><td class="n">$2.0万亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">18</td><td>珠宝眼镜手表及配饰</td><td><b>手表零部件</b></td><td class="n">221</td><td class="n">855</td><td class="n">3</td><td class="n">$9.1K</td><td class="n">73.7</td><td class="n">25.85%</td><td class="n">$460.0亿</td><td class="n">+0.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">19</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">215</td><td class="n">4,113</td><td class="n">31</td><td class="n">$18.7K</td><td class="n">6.9</td><td class="n">5.23%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">20</td><td>母婴&玩具</td><td><b>潮玩&盲盒</b></td><td class="n">199</td><td class="n">4,660</td><td class="n">158</td><td class="n">$19.3K</td><td class="n">1.3</td><td class="n">4.27%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-cz">潮州市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">952</td><td class="n">19,037</td><td class="n">137</td><td class="n">$139.3K</td><td class="n">6.9</td><td class="n">5.0%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">2</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">505</td><td class="n">1,159</td><td class="n">3</td><td class="n">$71.3K</td><td class="n">168.3</td><td class="n">43.57%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">3</td><td>家居园艺</td><td><b>厨具</b></td><td class="n">484</td><td class="n">7,355</td><td class="n">105</td><td class="n">$93.1K</td><td class="n">4.6</td><td class="n">6.58%</td><td class="n">$254.7亿</td><td class="n">-2.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">334</td><td class="n">6,186</td><td class="n">41</td><td class="n">$83.7K</td><td class="n">8.1</td><td class="n">5.4%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">5</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">218</td><td class="n">4,168</td><td class="n">69</td><td class="n">$53.5K</td><td class="n">3.2</td><td class="n">5.23%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">6</td><td>建材与房地产</td><td><b>浴室和厨房产品</b></td><td class="n">216</td><td class="n">16,939</td><td class="n">98</td><td class="n">$83.6K</td><td class="n">2.2</td><td class="n">1.28%</td><td class="n">$9,468亿</td><td class="n">-0.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n">190</td><td class="n">4,022</td><td class="n">108</td><td class="n">$58.9K</td><td class="n">1.8</td><td class="n">4.72%</td><td class="n">$285.8亿</td><td class="n">+2.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">8</td><td>商业设备及机械</td><td><b>餐厅酒店用品</b></td><td class="n">187</td><td class="n">925</td><td class="n">9</td><td class="n">$49.6K</td><td class="n">20.8</td><td class="n">20.22%</td><td class="n">$438.6亿</td><td class="n">+4.4%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">9</td><td>家具</td><td><b>家具五金</b></td><td class="n">119</td><td class="n">787</td><td class="n">2</td><td class="n">$3.2K</td><td class="n">59.5</td><td class="n">15.12%</td><td class="n">$60.3亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">10</td><td>家居园艺</td><td><b>餐厅酒店用品</b></td><td class="n">98</td><td class="n">1,839</td><td class="n">37</td><td class="n">$22.0K</td><td class="n">2.6</td><td class="n">5.33%</td><td class="n">$438.6亿</td><td class="n">+4.4%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>鞋靴及配饰</td><td><b>童鞋</b></td><td class="n">78</td><td class="n">232</td><td class="n">2</td><td class="n">$9.5K</td><td class="n">39.0</td><td class="n">33.62%</td><td class="n">$20.7亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>家居园艺</td><td><b>园艺用品</b></td><td class="n">57</td><td class="n">2,682</td><td class="n">52</td><td class="n">$8.6K</td><td class="n">1.1</td><td class="n">2.13%</td><td class="n">$637.7亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">13</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">45</td><td class="n">969</td><td class="n">26</td><td class="n">$14.4K</td><td class="n">1.7</td><td class="n">4.64%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">14</td><td>五金工具</td><td><b>手动工具</b></td><td class="n">44</td><td class="n">959</td><td class="n">2</td><td class="n">$11.8K</td><td class="n">22.0</td><td class="n">4.59%</td><td class="n">$569.0亿</td><td class="n">-1.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">15</td><td>服装及配饰</td><td><b>制服与表演服</b></td><td class="n">40</td><td class="n">1,200</td><td class="n">4</td><td class="n">$1.8K</td><td class="n">10.0</td><td class="n">3.33%</td><td class="n">$344.4亿</td><td class="n">-4.3%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>五金工具</td><td><b>日用百货</b></td><td class="n">38</td><td class="n">938</td><td class="n">2</td><td class="n">$11.2K</td><td class="n">19.0</td><td class="n">4.05%</td><td class="n">$122.8亿</td><td class="n">+2.4%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">17</td><td>五金工具</td><td><b>其他工具</b></td><td class="n">36</td><td class="n">925</td><td class="n">2</td><td class="n">$5.6K</td><td class="n">18.0</td><td class="n">3.89%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr><tr><td class="rk">18</td><td>珠宝眼镜手表及配饰</td><td><b>珠宝配件及工具</b></td><td class="n">31</td><td class="n">289</td><td class="n">1</td><td class="n">$5.4K</td><td class="n">31.0</td><td class="n">10.73%</td><td class="n">$220.4亿</td><td class="n">+0.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">19</td><td>家居园艺</td><td><b>室内照明</b></td><td class="n">30</td><td class="n">173</td><td class="n">3</td><td class="n">$155</td><td class="n">10.0</td><td class="n">17.34%</td><td class="n">$174.6亿</td><td class="n">-3.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">20</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">29</td><td class="n">1,377</td><td class="n">6</td><td class="n">$27.5K</td><td class="n">4.8</td><td class="n">2.11%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-jy">揭阳市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">1,734</td><td class="n">1,199</td><td class="n">58</td><td class="n">$236.3K</td><td class="n">29.9</td><td class="n">144.62%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">2</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">1,464</td><td class="n">221</td><td class="n">10</td><td class="n">$21.3K</td><td class="n">146.4</td><td class="n">662.44%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">3</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n">704</td><td class="n">368</td><td class="n">24</td><td class="n">$81.9K</td><td class="n">29.3</td><td class="n">191.3%</td><td class="n">$285.8亿</td><td class="n">+2.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">4</td><td>家居园艺</td><td><b>厨具</b></td><td class="n">546</td><td class="n">378</td><td class="n">33</td><td class="n">$52.3K</td><td class="n">16.5</td><td class="n">144.44%</td><td class="n">$254.7亿</td><td class="n">-2.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">5</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">345</td><td class="n">274</td><td class="n">7</td><td class="n">$7.5K</td><td class="n">49.3</td><td class="n">125.91%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">6</td><td>消费电子</td><td><b>手机壳与配件</b></td><td class="n">220</td><td class="n">156</td><td class="n">1</td><td class="n">$7.7K</td><td class="n">220.0</td><td class="n">141.03%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr><tr><td class="rk">7</td><td>医疗器械和用品</td><td><b>保健设备</b></td><td class="n">195</td><td class="n">85</td><td class="n">1</td><td class="n">$790</td><td class="n">195.0</td><td class="n">229.41%</td><td class="n">$20.8亿</td><td class="n">+4.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">8</td><td>鞋靴及配饰</td><td><b>女装</b></td><td class="n">177</td><td class="n">109</td><td class="n">1</td><td class="n">$1.1K</td><td class="n">177.0</td><td class="n">162.39%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">9</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">127</td><td class="n">84</td><td class="n">3</td><td class="n">$17.8K</td><td class="n">42.3</td><td class="n">151.19%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">10</td><td>家具</td><td><b>家具五金</b></td><td class="n">121</td><td class="n">83</td><td class="n">5</td><td class="n">$10.4K</td><td class="n">24.2</td><td class="n">145.78%</td><td class="n">$60.3亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">11</td><td>家居园艺</td><td><b>家用储物收纳用具</b></td><td class="n">119</td><td class="n">99</td><td class="n">19</td><td class="n">$40.7K</td><td class="n">6.3</td><td class="n">120.2%</td><td class="n">$290.5亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>医疗器械和用品</td><td><b>家用医疗器械</b></td><td class="n">82</td><td class="n">43</td><td class="n">2</td><td class="n">$968</td><td class="n">41.0</td><td class="n">190.7%</td><td class="n">$20.8亿</td><td class="n">+4.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">13</td><td>母婴&玩具</td><td><b>童鞋</b></td><td class="n">57</td><td class="n">43</td><td class="n">1</td><td class="n">$7.7K</td><td class="n">57.0</td><td class="n">132.56%</td><td class="n">$20.7亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">14</td><td>办公文教用品</td><td><b>书写及修改用品</b></td><td class="n">49</td><td class="n">41</td><td class="n">2</td><td class="n">$29.6K</td><td class="n">24.5</td><td class="n">119.51%</td><td class="n">$242.4亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">15</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">44</td><td class="n">42</td><td class="n">2</td><td class="n">$809</td><td class="n">22.0</td><td class="n">104.76%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>运动及娱乐</td><td><b>乐器</b></td><td class="n">42</td><td class="n">29</td><td class="n">1</td><td class="n">$2.8K</td><td class="n">42.0</td><td class="n">144.83%</td><td class="n">$340.0亿</td><td class="n">+0.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">17</td><td>电子元器件、配件及通讯</td><td><b>通讯</b></td><td class="n">41</td><td class="n">26</td><td class="n">3</td><td class="n">$8.6K</td><td class="n">13.7</td><td class="n">157.69%</td><td class="n">$342.7亿</td><td class="n">+7.1%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">18</td><td>家具</td><td><b>门、窗及其配件</b></td><td class="n">41</td><td class="n">11</td><td class="n">1</td><td class="n">$411</td><td class="n">41.0</td><td class="n">372.73%</td><td class="n">$1,043亿</td><td class="n">-3.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">19</td><td>服装及配饰</td><td><b>帽子</b></td><td class="n">31</td><td class="n">29</td><td class="n">3</td><td class="n">$5.9K</td><td class="n">10.3</td><td class="n">106.9%</td><td class="n">$60.6亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">20</td><td>汽车零配件</td><td><b>汽车制动系统</b></td><td class="n">29</td><td class="n">24</td><td class="n">1</td><td class="n">$25.6K</td><td class="n">29.0</td><td class="n">120.83%</td><td class="n">$24.0亿</td><td class="n">+20.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr></tbody></table><h2 class="sec">闽汕大区 · Top30 优势爆品（全大区 11,622 CGS 商家规模象限）</h2>
+    <div class="regions"><div class="rcard" style="--rcolor:#E9B84A"><h3>福建省 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">529</td><td class="n">12.1%</td><td class="n">179</td></tr><tr><td class="rk">2</td><td>Apparel & Accessories</td><td class="n">419</td><td class="n">9.6%</td><td class="n">145</td></tr><tr><td class="rk">3</td><td>Packaging & Printing</td><td class="n">271</td><td class="n">6.2%</td><td class="n">117</td></tr><tr><td class="rk">4</td><td>Construction & Real Estate</td><td class="n">266</td><td class="n">6.1%</td><td class="n">104</td></tr><tr><td class="rk">5</td><td>Luggage, Bags & Cases</td><td class="n">241</td><td class="n">5.5%</td><td class="n">81</td></tr><tr><td class="rk">6</td><td>Sports & Entertainment</td><td class="n">198</td><td class="n">4.5%</td><td class="n">67</td></tr><tr><td class="rk">7</td><td>Shoes & Accessories</td><td class="n">189</td><td class="n">4.3%</td><td class="n">59</td></tr><tr><td class="rk">8</td><td>Gifts & Crafts</td><td class="n">163</td><td class="n">3.7%</td><td class="n">55</td></tr><tr><td class="rk">9</td><td>Industrial Machinery</td><td class="n">149</td><td class="n">3.4%</td><td class="n">52</td></tr><tr><td class="rk">10</td><td>Consumer Electronics</td><td class="n">140</td><td class="n">3.2%</td><td class="n">46</td></tr><tr><td class="rk">11</td><td>Tools & Hardware</td><td class="n">122</td><td class="n">2.8%</td><td class="n">38</td></tr><tr><td class="rk">12</td><td>Mother, Kids & Toys</td><td class="n">107</td><td class="n">2.5%</td><td class="n">56</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#3FB6D3"><h3>汕头市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Mother, Kids & Toys</td><td class="n">283</td><td class="n">34.6%</td><td class="n">86</td></tr><tr><td class="rk">2</td><td>Packaging & Printing</td><td class="n">108</td><td class="n">13.2%</td><td class="n">35</td></tr><tr><td class="rk">3</td><td>Apparel & Accessories</td><td class="n">97</td><td class="n">11.8%</td><td class="n">21</td></tr><tr><td class="rk">4</td><td>Home & Garden</td><td class="n">40</td><td class="n">4.9%</td><td class="n">9</td></tr><tr><td class="rk">5</td><td>Food & Beverage</td><td class="n">33</td><td class="n">4.0%</td><td class="n">13</td></tr><tr><td class="rk">6</td><td>Industrial Machinery</td><td class="n">32</td><td class="n">3.9%</td><td class="n">6</td></tr><tr><td class="rk">7</td><td>Beauty</td><td class="n">25</td><td class="n">3.1%</td><td class="n">10</td></tr><tr><td class="rk">8</td><td>Consumer Electronics</td><td class="n">19</td><td class="n">2.3%</td><td class="n">4</td></tr><tr><td class="rk">9</td><td>Electronic Components, Accessories & Telecommunications</td><td class="n">16</td><td class="n">2.0%</td><td class="n">1</td></tr><tr><td class="rk">10</td><td>Personal Care & Household Cleaning</td><td class="n">16</td><td class="n">2.0%</td><td class="n">6</td></tr><tr><td class="rk">11</td><td>School & Office Supplies</td><td class="n">15</td><td class="n">1.8%</td><td class="n">2</td></tr><tr><td class="rk">12</td><td>Commercial Equipment & Machinery</td><td class="n">13</td><td class="n">1.6%</td><td class="n">1</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#B87BE0"><h3>潮州市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">178</td><td class="n">42.5%</td><td class="n">53</td></tr><tr><td class="rk">2</td><td>Construction & Real Estate</td><td class="n">107</td><td class="n">25.5%</td><td class="n">47</td></tr><tr><td class="rk">3</td><td>Packaging & Printing</td><td class="n">44</td><td class="n">10.5%</td><td class="n">20</td></tr><tr><td class="rk">4</td><td>Food & Beverage</td><td class="n">27</td><td class="n">6.4%</td><td class="n">5</td></tr><tr><td class="rk">5</td><td>Apparel & Accessories</td><td class="n">11</td><td class="n">2.6%</td><td class="n">0</td></tr><tr><td class="rk">6</td><td>Commercial Equipment & Machinery</td><td class="n">9</td><td class="n">2.1%</td><td class="n">5</td></tr><tr><td class="rk">7</td><td>Lights & Lighting</td><td class="n">5</td><td class="n">1.2%</td><td class="n">2</td></tr><tr><td class="rk">8</td><td>Mother, Kids & Toys</td><td class="n">5</td><td class="n">1.2%</td><td class="n">1</td></tr><tr><td class="rk">9</td><td>Furniture</td><td class="n">4</td><td class="n">1.0%</td><td class="n">0</td></tr><tr><td class="rk">10</td><td>Home Appliances</td><td class="n">4</td><td class="n">1.0%</td><td class="n">1</td></tr><tr><td class="rk">11</td><td>Pet Supplies</td><td class="n">4</td><td class="n">1.0%</td><td class="n">0</td></tr><tr><td class="rk">12</td><td>Beauty</td><td class="n">3</td><td class="n">0.7%</td><td class="n">1</td></tr></tbody></table></div><div class="rcard" style="--rcolor:#FF8A6B"><h3>揭阳市 · Top12 L1</h3><table style="margin-top:8px"><thead><tr><th class="rk">#</th><th>L1 主营行业</th><th class="n">商家</th><th class="n">占比</th><th class="n">金品</th></tr></thead><tbody><tr><td class="rk">1</td><td>Home & Garden</td><td class="n">101</td><td class="n">46.3%</td><td class="n">31</td></tr><tr><td class="rk">2</td><td>Furniture</td><td class="n">21</td><td class="n">9.6%</td><td class="n">10</td></tr><tr><td class="rk">3</td><td>Apparel & Accessories</td><td class="n">15</td><td class="n">6.9%</td><td class="n">1</td></tr><tr><td class="rk">4</td><td>Shoes & Accessories</td><td class="n">14</td><td class="n">6.4%</td><td class="n">1</td></tr><tr><td class="rk">5</td><td>Construction & Real Estate</td><td class="n">8</td><td class="n">3.7%</td><td class="n">0</td></tr><tr><td class="rk">6</td><td>Home Appliances</td><td class="n">6</td><td class="n">2.8%</td><td class="n">1</td></tr><tr><td class="rk">7</td><td>Medical devices & Supplies</td><td class="n">5</td><td class="n">2.3%</td><td class="n">2</td></tr><tr><td class="rk">8</td><td>Sports & Entertainment</td><td class="n">5</td><td class="n">2.3%</td><td class="n">1</td></tr><tr><td class="rk">9</td><td>Electronic Components, Accessories & Telecommunications</td><td class="n">4</td><td class="n">1.8%</td><td class="n">3</td></tr><tr><td class="rk">10</td><td>Tools & Hardware</td><td class="n">3</td><td class="n">1.4%</td><td class="n">0</td></tr><tr><td class="rk">11</td><td>Electrical Equipment & Supplies</td><td class="n">3</td><td class="n">1.4%</td><td class="n">0</td></tr><tr><td class="rk">12</td><td>Packaging & Printing</td><td class="n">3</td><td class="n">1.4%</td><td class="n">1</td></tr></tbody></table></div></div><h2 class="sec">L2 品类深度 · 商效/品效/海关温差（四区：福建·汕头·潮州·揭阳）</h2><h3 class="sub"><span class="region-title rt-fj">福建省</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>服装及配饰</td><td><b>男装</b></td><td class="n">11,968</td><td class="n">56,595</td><td class="n">245</td><td class="n">$1.20M</td><td class="n">48.8</td><td class="n">21.15%</td><td class="n">$1,277亿</td><td class="n">-4.7%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">2</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">8,977</td><td class="n">80,502</td><td class="n">221</td><td class="n">$618.5K</td><td class="n">40.6</td><td class="n">11.15%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n">6,710</td><td class="n">42,766</td><td class="n">223</td><td class="n">$1.55M</td><td class="n">30.1</td><td class="n">15.69%</td><td class="n">$209.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>礼品与工艺品</td><td><b>工艺品</b></td><td class="n">5,712</td><td class="n">20,528</td><td class="n">124</td><td class="n">$416.8K</td><td class="n">46.1</td><td class="n">27.83%</td><td class="n">$139.8亿</td><td class="n">-0.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">5</td><td>珠宝眼镜手表及配饰</td><td><b>时尚饰品</b></td><td class="n">3,799</td><td class="n">30,075</td><td class="n">36</td><td class="n">$191.7K</td><td class="n">105.5</td><td class="n">12.63%</td><td class="n">$100.1亿</td><td class="n">+0.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">6</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">3,703</td><td class="n">14,731</td><td class="n">105</td><td class="n">$193.5K</td><td class="n">35.3</td><td class="n">25.14%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>鞋靴及配饰</td><td><b>鞋靴零配件</b></td><td class="n">3,558</td><td class="n">15,342</td><td class="n">94</td><td class="n">$193.1K</td><td class="n">37.9</td><td class="n">23.19%</td><td class="n">$62.2亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">8</td><td>鞋靴及配饰</td><td><b>男鞋</b></td><td class="n">3,349</td><td class="n">33,274</td><td class="n">136</td><td class="n">$456.8K</td><td class="n">24.6</td><td class="n">10.06%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">9</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">3,152</td><td class="n">37,585</td><td class="n">287</td><td class="n">$324.2K</td><td class="n">11.0</td><td class="n">8.39%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">10</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">3,048</td><td class="n">32,205</td><td class="n">151</td><td class="n">$810.5K</td><td class="n">20.2</td><td class="n">9.46%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>珠宝眼镜手表及配饰</td><td><b>眼镜</b></td><td class="n">2,829</td><td class="n">2,916</td><td class="n">15</td><td class="n">$169.9K</td><td class="n">188.6</td><td class="n">97.02%</td><td class="n">$166.1亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>包装印刷</td><td><b>印刷服务</b></td><td class="n">2,349</td><td class="n">4,212</td><td class="n">65</td><td class="n">$146.6K</td><td class="n">36.1</td><td class="n">55.77%</td><td class="n">$83.0亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">13</td><td>珠宝眼镜手表及配饰</td><td><b>珠宝配件及工具</b></td><td class="n">2,242</td><td class="n">11,091</td><td class="n">26</td><td class="n">$204.5K</td><td class="n">86.2</td><td class="n">20.21%</td><td class="n">$220.4亿</td><td class="n">+0.2%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">14</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">2,218</td><td class="n">34,126</td><td class="n">277</td><td class="n">$304.9K</td><td class="n">8.0</td><td class="n">6.5%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">15</td><td>消费电子</td><td><b>计算机软硬件</b></td><td class="n">2,113</td><td class="n">14,124</td><td class="n">62</td><td class="n">$274.3K</td><td class="n">34.1</td><td class="n">14.96%</td><td class="n">$325.2亿</td><td class="n">+8.4%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">16</td><td>服装及配饰</td><td><b>帽子</b></td><td class="n">1,994</td><td class="n">7,357</td><td class="n">130</td><td class="n">$541.4K</td><td class="n">15.3</td><td class="n">27.1%</td><td class="n">$60.6亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">17</td><td>服装及配饰</td><td><b>女士包袋</b></td><td class="n">1,933</td><td class="n">2,471</td><td class="n">22</td><td class="n">$70.6K</td><td class="n">87.9</td><td class="n">78.23%</td><td class="n">$21.1亿</td><td class="n">+5.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">18</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">1,899</td><td class="n">22,885</td><td class="n">134</td><td class="n">$212.2K</td><td class="n">14.2</td><td class="n">8.3%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">19</td><td>箱包</td><td><b>女士包袋</b></td><td class="n">1,793</td><td class="n">19,572</td><td class="n">159</td><td class="n">$140.8K</td><td class="n">11.3</td><td class="n">9.16%</td><td class="n">$21.1亿</td><td class="n">+5.6%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">20</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">1,750</td><td class="n">14,627</td><td class="n">140</td><td class="n">$146.8K</td><td class="n">12.5</td><td class="n">11.96%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-st">汕头市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">3,930</td><td class="n">43,917</td><td class="n">74</td><td class="n">$516.3K</td><td class="n">53.1</td><td class="n">8.95%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">2</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">2,577</td><td class="n">8,067</td><td class="n">34</td><td class="n">$50.7K</td><td class="n">75.8</td><td class="n">31.94%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">3</td><td>服装及配饰</td><td><b>休闲服装</b></td><td class="n">1,392</td><td class="n">7,995</td><td class="n">61</td><td class="n">$135.1K</td><td class="n">22.8</td><td class="n">17.41%</td><td class="n">$209.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>母婴&玩具</td><td><b>积木</b></td><td class="n">1,071</td><td class="n">16,346</td><td class="n">190</td><td class="n">$246.4K</td><td class="n">5.6</td><td class="n">6.55%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">5</td><td>美妆</td><td><b>护肤</b></td><td class="n">642</td><td class="n">2,503</td><td class="n">18</td><td class="n">$52.1K</td><td class="n">35.7</td><td class="n">25.65%</td><td class="n">$21.6亿</td><td class="n">+8.1%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">6</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">556</td><td class="n">790</td><td class="n">13</td><td class="n">$17.7K</td><td class="n">42.8</td><td class="n">70.38%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">474</td><td class="n">7,524</td><td class="n">62</td><td class="n">$51.0K</td><td class="n">7.6</td><td class="n">6.3%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">8</td><td>母婴&玩具</td><td><b>遥控玩具</b></td><td class="n">466</td><td class="n">16,781</td><td class="n">172</td><td class="n">$102.4K</td><td class="n">2.7</td><td class="n">2.78%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">9</td><td>母婴&玩具</td><td><b>益智玩具</b></td><td class="n">450</td><td class="n">13,772</td><td class="n">191</td><td class="n">$62.8K</td><td class="n">2.4</td><td class="n">3.27%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">10</td><td>美妆</td><td><b>彩妆及工具</b></td><td class="n">382</td><td class="n">6,943</td><td class="n">22</td><td class="n">$33.0K</td><td class="n">17.4</td><td class="n">5.5%</td><td class="n">$105.2亿</td><td class="n">+5.2%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">311</td><td class="n">6,805</td><td class="n">80</td><td class="n">$52.5K</td><td class="n">3.9</td><td class="n">4.57%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">12</td><td>母婴&玩具</td><td><b>玩具车</b></td><td class="n">306</td><td class="n">10,768</td><td class="n">175</td><td class="n">$29.0K</td><td class="n">1.7</td><td class="n">2.84%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">13</td><td>服装及配饰</td><td><b>男装</b></td><td class="n">301</td><td class="n">950</td><td class="n">20</td><td class="n">$64.8K</td><td class="n">15.1</td><td class="n">31.68%</td><td class="n">$1,277亿</td><td class="n">-4.7%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">14</td><td>母婴&玩具</td><td><b>婴童用品</b></td><td class="n">282</td><td class="n">2,255</td><td class="n">85</td><td class="n">$38.4K</td><td class="n">3.3</td><td class="n">12.51%</td><td class="n">$61.7亿</td><td class="n">+2.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">15</td><td>母婴&玩具</td><td><b>经典玩具</b></td><td class="n">260</td><td class="n">6,696</td><td class="n">183</td><td class="n">$43.5K</td><td class="n">1.4</td><td class="n">3.88%</td><td class="n">$19.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>母婴&玩具</td><td><b>户外运动玩具</b></td><td class="n">245</td><td class="n">8,698</td><td class="n">176</td><td class="n">$36.0K</td><td class="n">1.4</td><td class="n">2.82%</td><td class="n">$2.0万亿</td><td class="n">+6.0%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">17</td><td>母婴&玩具</td><td><b>拼图&游戏</b></td><td class="n">235</td><td class="n">3,949</td><td class="n">134</td><td class="n">$13.9K</td><td class="n">1.8</td><td class="n">5.95%</td><td class="n">$2.0万亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">18</td><td>珠宝眼镜手表及配饰</td><td><b>手表零部件</b></td><td class="n">221</td><td class="n">855</td><td class="n">3</td><td class="n">$9.1K</td><td class="n">73.7</td><td class="n">25.85%</td><td class="n">$460.0亿</td><td class="n">+0.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">19</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">215</td><td class="n">4,113</td><td class="n">31</td><td class="n">$18.7K</td><td class="n">6.9</td><td class="n">5.23%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">20</td><td>母婴&玩具</td><td><b>潮玩&盲盒</b></td><td class="n">199</td><td class="n">4,660</td><td class="n">158</td><td class="n">$19.3K</td><td class="n">1.3</td><td class="n">4.27%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-cz">潮州市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">952</td><td class="n">19,037</td><td class="n">137</td><td class="n">$139.3K</td><td class="n">6.9</td><td class="n">5.0%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">2</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">505</td><td class="n">1,159</td><td class="n">3</td><td class="n">$71.3K</td><td class="n">168.3</td><td class="n">43.57%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">3</td><td>家居园艺</td><td><b>厨具</b></td><td class="n">484</td><td class="n">7,355</td><td class="n">105</td><td class="n">$93.1K</td><td class="n">4.6</td><td class="n">6.58%</td><td class="n">$254.7亿</td><td class="n">-2.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">4</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">334</td><td class="n">6,186</td><td class="n">41</td><td class="n">$83.7K</td><td class="n">8.1</td><td class="n">5.4%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">5</td><td>家居园艺</td><td><b>家居装饰</b></td><td class="n">218</td><td class="n">4,168</td><td class="n">69</td><td class="n">$53.5K</td><td class="n">3.2</td><td class="n">5.23%</td><td class="n">$496.8亿</td><td class="n">-0.6%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">6</td><td>建材与房地产</td><td><b>浴室和厨房产品</b></td><td class="n">216</td><td class="n">16,939</td><td class="n">98</td><td class="n">$83.6K</td><td class="n">2.2</td><td class="n">1.28%</td><td class="n">$9,468亿</td><td class="n">-0.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">7</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n">190</td><td class="n">4,022</td><td class="n">108</td><td class="n">$58.9K</td><td class="n">1.8</td><td class="n">4.72%</td><td class="n">$285.8亿</td><td class="n">+2.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">8</td><td>商业设备及机械</td><td><b>餐厅酒店用品</b></td><td class="n">187</td><td class="n">925</td><td class="n">9</td><td class="n">$49.6K</td><td class="n">20.8</td><td class="n">20.22%</td><td class="n">$438.6亿</td><td class="n">+4.4%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">9</td><td>家具</td><td><b>家具五金</b></td><td class="n">119</td><td class="n">787</td><td class="n">2</td><td class="n">$3.2K</td><td class="n">59.5</td><td class="n">15.12%</td><td class="n">$60.3亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">10</td><td>家居园艺</td><td><b>餐厅酒店用品</b></td><td class="n">98</td><td class="n">1,839</td><td class="n">37</td><td class="n">$22.0K</td><td class="n">2.6</td><td class="n">5.33%</td><td class="n">$438.6亿</td><td class="n">+4.4%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">11</td><td>鞋靴及配饰</td><td><b>童鞋</b></td><td class="n">78</td><td class="n">232</td><td class="n">2</td><td class="n">$9.5K</td><td class="n">39.0</td><td class="n">33.62%</td><td class="n">$20.7亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>家居园艺</td><td><b>园艺用品</b></td><td class="n">57</td><td class="n">2,682</td><td class="n">52</td><td class="n">$8.6K</td><td class="n">1.1</td><td class="n">2.13%</td><td class="n">$637.7亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">13</td><td>包装印刷</td><td><b>纸质包装</b></td><td class="n">45</td><td class="n">969</td><td class="n">26</td><td class="n">$14.4K</td><td class="n">1.7</td><td class="n">4.64%</td><td class="n">$1,731亿</td><td class="n">+4.3%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">14</td><td>五金工具</td><td><b>手动工具</b></td><td class="n">44</td><td class="n">959</td><td class="n">2</td><td class="n">$11.8K</td><td class="n">22.0</td><td class="n">4.59%</td><td class="n">$569.0亿</td><td class="n">-1.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">15</td><td>服装及配饰</td><td><b>制服与表演服</b></td><td class="n">40</td><td class="n">1,200</td><td class="n">4</td><td class="n">$1.8K</td><td class="n">10.0</td><td class="n">3.33%</td><td class="n">$344.4亿</td><td class="n">-4.3%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>五金工具</td><td><b>日用百货</b></td><td class="n">38</td><td class="n">938</td><td class="n">2</td><td class="n">$11.2K</td><td class="n">19.0</td><td class="n">4.05%</td><td class="n">$122.8亿</td><td class="n">+2.4%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">17</td><td>五金工具</td><td><b>其他工具</b></td><td class="n">36</td><td class="n">925</td><td class="n">2</td><td class="n">$5.6K</td><td class="n">18.0</td><td class="n">3.89%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr><tr><td class="rk">18</td><td>珠宝眼镜手表及配饰</td><td><b>珠宝配件及工具</b></td><td class="n">31</td><td class="n">289</td><td class="n">1</td><td class="n">$5.4K</td><td class="n">31.0</td><td class="n">10.73%</td><td class="n">$220.4亿</td><td class="n">+0.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">19</td><td>家居园艺</td><td><b>室内照明</b></td><td class="n">30</td><td class="n">173</td><td class="n">3</td><td class="n">$155</td><td class="n">10.0</td><td class="n">17.34%</td><td class="n">$174.6亿</td><td class="n">-3.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">20</td><td>服装及配饰</td><td><b>女装</b></td><td class="n">29</td><td class="n">1,377</td><td class="n">6</td><td class="n">$27.5K</td><td class="n">4.8</td><td class="n">2.11%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr></tbody></table><h3 class="sub"><span class="region-title rt-jy">揭阳市</span> Top20 L2 品类 · 商效/品效/海关温差（阿里正式 L2 · 中文口径）</h3><table><thead><tr><th class="rk">#</th><th>L1</th><th>L2 品类</th><th class="n">28日订单</th><th class="n">活跃商品</th><th class="n">活跃商家</th><th class="n">28日GMV</th><th class="n">商效(单/商家)</th><th class="n">品效%</th><th class="n">出口2025</th><th class="n">海关YoY</th><th class="ctr">温差</th></tr></thead><tbody><tr><td class="rk">1</td><td>家居园艺</td><td><b>餐具及咖啡酒具</b></td><td class="n">1,734</td><td class="n">1,199</td><td class="n">58</td><td class="n">$236.3K</td><td class="n">29.9</td><td class="n">144.62%</td><td class="n">$383.0亿</td><td class="n">+0.8%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">2</td><td>鞋靴及配饰</td><td><b>女鞋</b></td><td class="n">1,464</td><td class="n">221</td><td class="n">10</td><td class="n">$21.3K</td><td class="n">146.4</td><td class="n">662.44%</td><td class="n">$186.5亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">3</td><td>家居园艺</td><td><b>饮具及配件</b></td><td class="n">704</td><td class="n">368</td><td class="n">24</td><td class="n">$81.9K</td><td class="n">29.3</td><td class="n">191.3%</td><td class="n">$285.8亿</td><td class="n">+2.1%</td><td class="ctr"><span class="tag tag-hot-hot">外热内热·可扩</span></td></tr><tr><td class="rk">4</td><td>家居园艺</td><td><b>厨具</b></td><td class="n">546</td><td class="n">378</td><td class="n">33</td><td class="n">$52.3K</td><td class="n">16.5</td><td class="n">144.44%</td><td class="n">$254.7亿</td><td class="n">-2.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">5</td><td>服装及配饰</td><td><b>内衣睡衣家居服</b></td><td class="n">345</td><td class="n">274</td><td class="n">7</td><td class="n">$7.5K</td><td class="n">49.3</td><td class="n">125.91%</td><td class="n">$646.0亿</td><td class="n">-5.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">6</td><td>消费电子</td><td><b>手机壳与配件</b></td><td class="n">220</td><td class="n">156</td><td class="n">1</td><td class="n">$7.7K</td><td class="n">220.0</td><td class="n">141.03%</td><td class="n">—</td><td class="n">—</td><td class="ctr"><span class="tag">—</span></td></tr><tr><td class="rk">7</td><td>医疗器械和用品</td><td><b>保健设备</b></td><td class="n">195</td><td class="n">85</td><td class="n">1</td><td class="n">$790</td><td class="n">195.0</td><td class="n">229.41%</td><td class="n">$20.8亿</td><td class="n">+4.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">8</td><td>鞋靴及配饰</td><td><b>女装</b></td><td class="n">177</td><td class="n">109</td><td class="n">1</td><td class="n">$1.1K</td><td class="n">177.0</td><td class="n">162.39%</td><td class="n">$1,598亿</td><td class="n">-4.9%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">9</td><td>包装印刷</td><td><b>塑料包装</b></td><td class="n">127</td><td class="n">84</td><td class="n">3</td><td class="n">$17.8K</td><td class="n">42.3</td><td class="n">151.19%</td><td class="n">$344.4亿</td><td class="n">+1.3%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">10</td><td>家具</td><td><b>家具五金</b></td><td class="n">121</td><td class="n">83</td><td class="n">5</td><td class="n">$10.4K</td><td class="n">24.2</td><td class="n">145.78%</td><td class="n">$60.3亿</td><td class="n">+0.5%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">11</td><td>家居园艺</td><td><b>家用储物收纳用具</b></td><td class="n">119</td><td class="n">99</td><td class="n">19</td><td class="n">$40.7K</td><td class="n">6.3</td><td class="n">120.2%</td><td class="n">$290.5亿</td><td class="n">+3.8%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">12</td><td>医疗器械和用品</td><td><b>家用医疗器械</b></td><td class="n">82</td><td class="n">43</td><td class="n">2</td><td class="n">$968</td><td class="n">41.0</td><td class="n">190.7%</td><td class="n">$20.8亿</td><td class="n">+4.2%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">13</td><td>母婴&玩具</td><td><b>童鞋</b></td><td class="n">57</td><td class="n">43</td><td class="n">1</td><td class="n">$7.7K</td><td class="n">57.0</td><td class="n">132.56%</td><td class="n">$20.7亿</td><td class="n">+3.6%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">14</td><td>办公文教用品</td><td><b>书写及修改用品</b></td><td class="n">49</td><td class="n">41</td><td class="n">2</td><td class="n">$29.6K</td><td class="n">24.5</td><td class="n">119.51%</td><td class="n">$242.4亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">15</td><td>服装及配饰</td><td><b>服装加工辅料</b></td><td class="n">44</td><td class="n">42</td><td class="n">2</td><td class="n">$809</td><td class="n">22.0</td><td class="n">104.76%</td><td class="n">$717.2亿</td><td class="n">-0.4%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">16</td><td>运动及娱乐</td><td><b>乐器</b></td><td class="n">42</td><td class="n">29</td><td class="n">1</td><td class="n">$2.8K</td><td class="n">42.0</td><td class="n">144.83%</td><td class="n">$340.0亿</td><td class="n">+0.0%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">17</td><td>电子元器件、配件及通讯</td><td><b>通讯</b></td><td class="n">41</td><td class="n">26</td><td class="n">3</td><td class="n">$8.6K</td><td class="n">13.7</td><td class="n">157.69%</td><td class="n">$342.7亿</td><td class="n">+7.1%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">18</td><td>家具</td><td><b>门、窗及其配件</b></td><td class="n">41</td><td class="n">11</td><td class="n">1</td><td class="n">$411</td><td class="n">41.0</td><td class="n">372.73%</td><td class="n">$1,043亿</td><td class="n">-3.2%</td><td class="ctr"><span class="tag tag-cold">外冷·维稳</span></td></tr><tr><td class="rk">19</td><td>服装及配饰</td><td><b>帽子</b></td><td class="n">31</td><td class="n">29</td><td class="n">3</td><td class="n">$5.9K</td><td class="n">10.3</td><td class="n">106.9%</td><td class="n">$60.6亿</td><td class="n">+1.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr><tr><td class="rk">20</td><td>汽车零配件</td><td><b>汽车制动系统</b></td><td class="n">29</td><td class="n">24</td><td class="n">1</td><td class="n">$25.6K</td><td class="n">29.0</td><td class="n">120.83%</td><td class="n">$24.0亿</td><td class="n">+20.0%</td><td class="ctr"><span class="tag tag-hot-cold">外热内冷·紧迫</span></td></tr></tbody></table><h2 class="sec">闽汕大区 · 按 L2 类目分类的爆品矩阵（Top6 品类 × 订单/商机 双维度）</h2>
         <div class="insight">
-          <h3>Top30 爆品抓取逻辑</h3>
-          <p><b>范围：</b>闽汕大区 <b>11,622</b> 家 CGS 商家全量（口径：is_srvc='Y' 且 crnt_region_org_name='闽汕大区'），跨福建省 + 汕头 + 潮州 + 揭阳 + 未标注子桶。</p>
-          <p><b>排序：</b>按 <b>近 28 天订单数</b>（<code>byr_order_cnt_28d</code>）降序取 Top30（该字段为 icbudwa.dwm_en_ftrd_prod_market_info_d 的规范窗口，近似最新 28 天动能；表内无 180 天字段，故以最新 28 天窗口作为爆品排名口径）。</p>
-          <p><b>字段：</b>产品名称 · 价格段（$按 GMV/订单数分桶）· 核心属性（从商品名抽取的材质/工艺/风格关键词）· 订单数 · L2 类目 · 详情链接。</p>
+          <h3>抓取逻辑</h3>
+          <p><b>商家池：</b>闽汕大区 <b>11,622</b> 家 CGS 商家全量（口径：<code>is_srvc='Y' AND crnt_region_org_name='闽汕大区'</code>），跨福建省 + 汕头 + 潮州 + 揭阳 + 未标注子桶。</p>
+          <p><b>类目筛选：</b>按大区商家分布集中度，取 <code>dwm_en_cgs_cust_info_d.pcate_lv2_cn_desc</code> 商家数最高的 <b>Top6 L2 品类</b>（每类 5-15 家 CGS 商家）。</p>
+          <p><b>双维度爆品：</b>在每个 L2 类目内，从大区商家的商品池（<code>dwm_en_ftrd_prod_market_info_d</code>，近 28 天窗口）分别抓取：<b style="color:var(--gold)">左侧 = 订单Top5</b>（按 <code>byr_order_cnt_28d</code> 降序，反映高频出单的走量爆品）· <b style="color:var(--cyan)">右侧 = 商机Top5</b>（按 <code>rec_amt_28d</code> 降序，即 GMV 金额价值，反映高客单/高潜力的商机爆品）。合计 <b>60</b> 款商品。</p>
+          <p><b>字段：</b>产品名 · 价格段（$按 GMV/订单反推客单价分桶）· 核心属性（材质/工艺/风格关键词）· 订单/GMV · 详情链接。</p>
         </div>
-        <div class="hp-grid">
+        <div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 1</span>
+                <span class="l2-name">过家家玩具</span>
+                <span class="l2-mbr">大区商家数 <b>15</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601773791093.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H753778b77756449abc11f2a33dfea0a2u.png_350x350.png')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601574154404.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd34b206797cf403185c76aa9fc1e94296.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
                   <div class="rk">#1</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">2604 Custom Logo Wholesale 6 Panel New Unisex Plain 3D Embroidered OEM Men Baseball Sports Fitted Cap</div>
+                  <div class="cate fj">美容/美发/时尚装扮类</div>
+                  <div class="nm">Various Types Alas De Mariposa Moving Butterfly Wings Party Decoration Halloween Toys Girls Dress up Light-up Butterfly Wings</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $10-20</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span><span class="attr-tag">wholesale</span><span class="attr-tag">oem</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">eco</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601773791093.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601574154404.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>211</b></span>
-                <span>L2 · <b>帽子</b></span>
+                <span>📦 订单 <b>8</b></span>
+                <span>GMV $2,162</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601772190118.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hf84c7b69ae9e48b590979936cc89c885z.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601574972807.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H1d8c1f5dcc2641fbb96118fc9a01fd1fa.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
                   <div class="rk">#2</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">2604 Custom Logo Wholesale 6 Panel New Unisex Plain 3D Embroidered OEM Men Baseball Sports Fitted Cap</div>
+                  <div class="cate fj">美容/美发/时尚装扮类</div>
+                  <div class="nm">Alas De Mariposa Party Decoration Various Styles Butterfly Swing Moving Butterfly Wings Girls Dress up for Kids Cosplay</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $10-20</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span><span class="attr-tag">wholesale</span><span class="attr-tag">oem</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag">kids</span><span class="attr-tag">eco</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601772190118.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601574972807.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>207</b></span>
-                <span>L2 · <b>帽子</b></span>
+                <span>📦 订单 <b>6</b></span>
+                <span>GMV $233</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601811380963.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd3e1373e4bf74ef389c3a1b9c7291853q.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601628378672.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hb313c24814bd4222a695b36ded44baf8S.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
                   <div class="rk">#3</div>
-                  <div class="cate fj">儿童服饰</div>
-                  <div class="nm">Children&#x27;s Shirt Children&#x27;s Clothing Short-sleeved Candy-colored Boys Shirts Kids Costumes</div>
+                  <div class="cate fj">医生玩具</div>
+                  <div class="nm">Pretend Play Medical Kit with Carrying Bag and Dress up Costume Role Play Birthday Gift 30 Pcs Doctor Kit for Toddlers</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601811380963.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601628378672.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>144</b></span>
-                <span>L2 · <b>儿童服饰</b></span>
+                <span>📦 订单 <b>6</b></span>
+                <span>GMV $1,662</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601775832569.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H7c2e348a6fe5428a97ef272af06189783.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601567612780.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H904127dc26df4f7c998a0f6a3178547dO.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
                   <div class="rk">#4</div>
-                  <div class="cate fj">运动户外鞋</div>
-                  <div class="nm">OEM ODM Low Cut Wholesale Custom Logo SB Designer Luxury Female Original Platform Basketball Style Men Fashion Sneaker Shoes</div>
+                  <div class="cate fj">其他职业装扮类</div>
+                  <div class="nm">YT Simulated Light up Butterfly Swing Moving Electric Led Fairy Butterfly Wings Girls Dress up Pretend Play for Kid Cosplay</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span><span class="attr-tag">wholesale</span><span class="attr-tag">oem</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $5-10</span>
+                    <span class="attr-tag">led</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601775832569.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601567612780.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>135</b></span>
-                <span>L2 · <b>运动户外鞋</b></span>
+                <span>📦 订单 <b>4</b></span>
+                <span>GMV $22</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601766569832.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Heea7a0a3350f4f7c87e1fa0e04b7aecc7.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601249139652.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H4300acf9a8eb431e8262201340e7e3deG.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
                   <div class="rk">#5</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">KSUBI High Quality New Arrival Designer Brand Ripped Jeans Denim Homme Men&#x27;s Jeans</div>
+                  <div class="cate fj">厨房玩具</div>
+                  <div class="nm">Children Cook Role Play Play House Toy Mini Real Potable Kitchen Appliance Kitchen Toy Set Play Toy Gifts for Children</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601766569832.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601249139652.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>131</b></span>
-                <span>L2 · <b>男装</b></span>
+                <span>📦 订单 <b>4</b></span>
+                <span>GMV $480</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601574154404.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd34b206797cf403185c76aa9fc1e94296.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">美容/美发/时尚装扮类</div>
+                  <div class="nm">Various Types Alas De Mariposa Moving Butterfly Wings Party Decoration Halloween Toys Girls Dress up Light-up Butterfly Wings</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">eco</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601574154404.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$2,162</b></span>
+                <span>订单 8</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601668013590.html" target="_blank" class="thumb-fallback" title="点击查看商品详情">男</a>
+                <a href="https://www.alibaba.com/product-detail/_1601628378672.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hb313c24814bd4222a695b36ded44baf8S.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#6</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">Heavyweight 100%Cotton Tshirt Loose Trendy Graphic Boxy Fit t Shirt Graffiti Printed Rhinestones VALLEY Basic Men&#x27;s T-shirt</div>
+                  <div class="rk">#2</div>
+                  <div class="cate fj">医生玩具</div>
+                  <div class="nm">Pretend Play Medical Kit with Carrying Bag and Dress up Costume Role Play Birthday Gift 30 Pcs Doctor Kit for Toddlers</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601668013590.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601628378672.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>129</b></span>
-                <span>L2 · <b>男装</b></span>
+                <span>💰 GMV <b>$1,662</b></span>
+                <span>订单 6</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601029540571.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H3dd3e94de0494e53bd0b28f53939aa45I.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1600674786369.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H648941d710274ee1967765b5e0e59385Q.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#7</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">Club Company Customized Sports Waterproof 5 Panel Baseball Cap Hydro Breathable Rope Golf Hats with Rubber/PVC Logo Gorras</div>
+                  <div class="rk">#3</div>
+                  <div class="cate fj">厨房玩具</div>
+                  <div class="nm">38 Pieces Kids Real Cooking and Baking Set Mini Kitchen Toys for Girls Children Miniature Cooking Set for Real Cooking</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
-                    <span class="attr-tag">PVC</span><span class="attr-tag">logo</span><span class="attr-tag">custom</span>
+                    <span class="attr-tag">kids</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601029540571.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600674786369.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>121</b></span>
-                <span>L2 · <b>帽子</b></span>
+                <span>💰 GMV <b>$660</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601531024804.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H38e66c29174f435dad83e3cb72e6004bv.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601576530260.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H4ca8eebfb34e46b69155a2738c31ed87E.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#8</div>
-                  <div class="cate fj">运动户外服</div>
-                  <div class="nm">Men&#x27;s Toronto Baseball Jersey Custom Blue White Baseball Shirts with Embroidered Logos Stitched Uniforms</div>
+                  <div class="rk">#4</div>
+                  <div class="cate fj">厨房玩具</div>
+                  <div class="nm">Ebayro DIY Pinch Milk Tea Play Set Handmade Mini Plastic ABS Kitchen Toy Set for Kids Ages 5-13</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">plastic</span><span class="attr-tag">kids</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601531024804.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601576530260.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>117</b></span>
-                <span>L2 · <b>运动户外服</b></span>
+                <span>💰 GMV <b>$616</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601666087123.html" target="_blank" class="thumb-fallback" title="点击查看商品详情">男</a>
+                <a href="https://www.alibaba.com/product-detail/_1600980551712.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hf268c55c491a431aa1bd6c19978ae096y.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#9</div>
-                  <div class="cate fj">男鞋</div>
-                  <div class="nm">New Design Non-Slip Durable Fashion Sport Shoes Rubber Men Basketball Style Shoes Sneaker Hombres</div>
+                  <div class="rk">#5</div>
+                  <div class="cate fj">医生玩具</div>
+                  <div class="nm">GIVELONG Pretend Doctor Play Set Toy with Cart &amp; Trolley for Kids Ages 5+ Unisex Role Play Game</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">kids</span><span class="attr-tag">unisex</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600980551712.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$505</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div><div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 2</span>
+                <span class="l2-name">家电零配件</span>
+                <span class="l2-mbr">大区商家数 <b>12</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601857927091.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Ha12b48704c81490ab8dbf1d0ea894a5dN.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">其他家电零部件</div>
+                  <div class="nm">2026 Newest Touch Screen Dynamic LED Car Emblem for BMW Circular Emoji Display Animated Logo Badge Screen Car Accessories</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">logo</span><span class="attr-tag">led</span><span class="attr-tag">new</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601857927091.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>13</b></span>
+                <span>GMV $1,549</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600825459071.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/He107191bd34e4be0bd0901b6ccacb0d6U.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">洗衣设备零部件</div>
+                  <div class="nm">KH322B Industrial Washing Machine Controller 220V English Program PCB Circuit Board for Laundry Shop</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601666087123.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600825459071.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>103</b></span>
-                <span>L2 · <b>男鞋</b></span>
+                <span>📦 订单 <b>8</b></span>
+                <span>GMV $913</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601806733325.html" target="_blank" class="thumb-fallback" title="点击查看商品详情">帽</a>
+                <a href="https://www.alibaba.com/product-detail/_1600832790110.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H54fcd1b5d80242afbb9ae384b4c68928U.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#10</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">Luxury Waterproof Polyester/Cotton Beanie Bonnet Hats Men Women Winter Warm Custom Logo Character Street Style Fashionable</div>
+                  <div class="rk">#3</div>
+                  <div class="cate fj">洗衣设备零部件</div>
+                  <div class="nm">For Depend-O-Drain 455241 Drain Valve Coil 23RPM 220-240V 60/50HZ 0.24 AMPS</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600832790110.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>4</b></span>
+                <span>GMV $506</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601662583055.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H59d350da1b33442eacfeca0bc2c9cc58T.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">洗衣设备零部件</div>
+                  <div class="nm">MDB-0-2  2 Inch 180 Degree Industrial Washing Machine Drain Valve 2inch Straight  26680525 Electric Outlet Valve</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601662583055.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>4</b></span>
+                <span>GMV $1,952</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601751737206.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H53c4da13fd8c4b2b95860ce25aba771eq.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">洗衣设备零部件</div>
+                  <div class="nm">2inch  3inch Industrial Washing Machine Drain Valve Replacement for Depend O Drain Talley MDB-O-2 MDB-O-3 Solenoid Valve</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">men</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601751737206.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>4</b></span>
+                <span>GMV $687</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601371457462.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H4c27a8ad51fc442aa65b874711b2cb954.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">净水器配件</div>
+                  <div class="nm">3M Water Purifier 3/8 AP3 Quick Connector with Cap Filter Head</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601371457462.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$4,015</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601236509641.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H568d7269e24d4bb38654df7db9705cb6L.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">空调配件</div>
+                  <div class="nm">New Inverter Board PC1135 -1(B) PC1135 -2(B) Suitable for Daikin Central Air Conditioning Variable Frequency Board Module</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">new</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601236509641.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$2,595</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600825818146.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H579c77860e6f40eca359cad8413316cdo.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">空调配件</div>
+                  <div class="nm">Brand New Air Conditioner Screw Main Board 031-02507-003/001/000/100 Centrifuge Control Logic Board 031-02507-601 031-02507-610</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">new</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600825818146.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$2,561</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601683037516.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H8a225992ddeb41c4a1c62c0af7e54847f.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">空调配件</div>
+                  <div class="nm">E705DHD-72D2YG Central air Conditioning Variable Frequency Compressor E705DHD-72D2 YG</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601683037516.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$2,232</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601616069585.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H93eec158f4e64519a13802d05624be901.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">空调配件</div>
+                  <div class="nm">Brand New for Midea Central air Conditioning Board 17127000004061 ME-POWER-75A 171223000001353 17127000000444 FUJI-7MBP75RA120</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">new</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601616069585.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$2,142</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div><div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 3</span>
+                <span class="l2-name">自行车</span>
+                <span class="l2-mbr">大区商家数 <b>12</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601690729153.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H2abbe5979cba4dd68a844d93d02a920cW.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">Welcome to the Sub Thousand Gram 50mm Depth Wheelset Club 982g SFD Carbon Wheels Road/gravel Bike Wheels 35/40/45/50/55/65mm</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601690729153.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $3,143</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600739904669.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/He626a5f2ffa049e491b029fb65bbc8734.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">BUCKLOS Horquilla Mtb 29 Inch MTB Electric Downhill Inverted Fork Double Crown Inverted Fork  Aluminum Alloy Bicycle Fork</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">aluminum</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600739904669.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $1,575</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601663330457.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd0070efd49ec4810b3913c72ac5894f9z.jpeg_350x350.jpeg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">25 Pairs BUCKLOS Bicycle Disc Brake Pads Bike Hydraulic Disc Brake Pads for SHIMANO MT200 MT400 MT500 M315 M525 M475 M375 M445</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601663330457.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $1,446</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601348709992.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H53aa629e56cd4b54b43a0173ae49cfe61.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">自行车配件</div>
+                  <div class="nm">BUCKLOS Brake Pads Fit B01S B03S B05S Bicycle Hydraulic Disc Brake Pads Fit  MT200 Durable Mountain  Road Bike Brake Pads</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601348709992.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $431</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601670461561.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hedc6a43a935f4541b7edbad190ab18b88.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">BUCKLOS MTB Bike Fork 27.5/29 Inch Travel 175mm Air Suspension Forks Disc Brake Rebound Adjustment Bicycle Fork</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">men</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601670461561.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $918</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600232788792.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Ha6e18d6c177d451298f9a2b0413f266et.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">Synergy OEM Whosale Road Wheels Bike 700c Carbon Clincher Rims Wheelset Bicycle Carbon Rim</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">oem</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600232788792.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$9,986</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601536562527.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd0e90868fd8f4757b24e206f3c9b814fK.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">Anti-slip Breathable Silicone Road Bike Handlebar with Grip</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601536562527.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$6,064</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600526835474.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H394f0eea9096409dbd600f636c3e2968Z.jpeg_350x350.jpeg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">BUCKLOS  31.8mm Riser Handlebar Aluminum Alloy  Bicycle Handlebar for Mountain Bike</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">aluminum</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600526835474.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$5,635</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600428734835.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H5f0cfd361b504b49ab63d9d5c0ee93ccv.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">Synergy Super Light Weight Enduro 29 Rim Carbon MTB Rim  Bicycle Asymmetric 29er</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600428734835.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$5,431</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601360386057.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H9a9e79e2b2c146aab7993ba4ac9287ffT.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">自行车零件</div>
+                  <div class="nm">TB26 Aero Track Handlebar 14.6°Cycling Sprint Match Handle Bar Carbon Fixed Bent Handlebar</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601360386057.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$5,143</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div><div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 4</span>
+                <span class="l2-name">厨房小家电</span>
+                <span class="l2-mbr">大区商家数 <b>9</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601577800396.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H671b6752c14c4aeab2ccefa1b8827b7fa.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">榨汁机</div>
+                  <div class="nm">Bardefu 5042 8-in-1 Multifunctional 3L Blender with 8 Blades Modern Style Household Mixer Juicer Ice Smoothies Maker</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601806733325.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>95</b></span>
-                <span>L2 · <b>帽子</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601520350682.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H4cf4f073532f4995878b8eb8b7a61c8dY.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#11</div>
-                  <div class="cate fj">女装</div>
-                  <div class="nm">Y0790  Summer New Sleeveless Sports Vest, High Waist, Hip Lifting, Abdominal Tightening, Fitness Yoga Suit Set</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601520350682.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601577800396.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>91</b></span>
-                <span>L2 · <b>女装</b></span>
+                <span>📦 订单 <b>17</b></span>
+                <span>GMV $718</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601273774686.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H8592200b007645dc9f73d9f083f72515w.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601076157048.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hf1b91afcb2d64c6b9e135664f60f7994u.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#12</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">Link 16oz UV for DTF Cup Wrap Make up for Tumbler Libbey Glass Can Cartoon Cold Transfer Decal Free Choice PET Material</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601273774686.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>90</b></span>
-                <span>L2 · <b>印刷服务</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601760672602.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H82f40d94c2f24de6ba70de9110c95eebW.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#13</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">2026 Top High Quality New Arrival Designer Brand Ripped Jeans Denim Homme Men&#x27;s Jeans Ksubii Jeans</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601760672602.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>86</b></span>
-                <span>L2 · <b>男装</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1600994742670.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H614f1480b9db4db2a6f7031cc5e253bbV.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#14</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">DTG Custom Logo High Quality Acid Wash t Shirt Vintage Washed 280 Gsm Tshirt Printed Oversized Graphic T-shirt for Men</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600994742670.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>85</b></span>
-                <span>L2 · <b>男装</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601786387440.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H04e6ab872c16417e9bfee90462cc831ag.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#15</div>
-                  <div class="cate fj">女士包袋</div>
-                  <div class="nm">Multicolor Casual Dumpling Bag Women Portable Shoulder Bag Minimalist Student Crossbody Bag</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601786387440.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>83</b></span>
-                <span>L2 · <b>女士包袋</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601397873891.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H4650ebbfc2974352b620835cb0161e5dw.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#16</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">Professional Custom 16 oz UV Tumblers Cup Wrap Self-Adhesive Easy Peel Label Washable PET Cold Printing Eco-Friendly Factory</div>
+                  <div class="rk">#2</div>
+                  <div class="cate fj">空气炸锅</div>
+                  <div class="nm">In Stock Customized 2400W 6l High-capacity Multi Functional Air Fryer Pot German Dual Digital Power Smart air Fryers</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
                     <span class="attr-tag">custom</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601397873891.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601076157048.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>82</b></span>
-                <span>L2 · <b>印刷服务</b></span>
+                <span>📦 订单 <b>14</b></span>
+                <span>GMV $516</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1600424673123.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H5a9aa2ebf5f74cdf8967080b92ad87e53.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601383259127.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Ha41245e4143b4bfba661fa583ecad0b0J.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#17</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">High Quality Blank Cotton StreetWear Tshirt Oversized Drop Shoulder T-shirt Custom Print logo HeavyWeight White T Shirt for Men</div>
+                  <div class="rk">#3</div>
+                  <div class="cate fj">电烤箱</div>
+                  <div class="nm">Hot Sale  Certificated Home Kitchen Use Small 15L Electric Convection Oven for Bakery</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag">hot</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601383259127.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $267</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600885569486.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hc6d7ee744c114f75bb042b1caabfdaf67.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">绞肉机 &amp; 切片器</div>
+                  <div class="nm">Yam Pounder 3500W Multifunctional Food Machine Stainless Steel Fufu Pounder</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag">stainless</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600885569486.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>6</b></span>
+                <span>GMV $199</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601379400560.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H5882dd5afa134739b9f38296470847866.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">电饭锅</div>
+                  <div class="nm">Factory Price Electric Steamer 11 Preset Menu 6L Digital Slow Smart Pressure Cooker Rice Cookers Electric</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag">men</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601379400560.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>6</b></span>
+                <span>GMV $214</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601671994486.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd32e132b05094f1a83ab72d36afb937aO.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">电热煮锅</div>
+                  <div class="nm">YUEDISI New Arrival Cookware Mutil-color Custom Plug Electric Cooking Pot 1.5L Cooking Nonstick Electric Skillet</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">new</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600424673123.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601671994486.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>81</b></span>
-                <span>L2 · <b>男装</b></span>
+                <span>💰 GMV <b>$864</b></span>
+                <span>订单 3</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601644257994.html" target="_blank" class="thumb-fallback" title="点击查看商品详情">女</a>
+                <a href="https://www.alibaba.com/product-detail/_1601577800396.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H671b6752c14c4aeab2ccefa1b8827b7fa.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#18</div>
-                  <div class="cate fj">女鞋</div>
-                  <div class="nm">2026 Top Men&#x27;s Shoes High Top Women&#x27;s Shoes Black Lace up Designer Luxury  Leather Platform Casual Flats</div>
+                  <div class="rk">#2</div>
+                  <div class="cate fj">榨汁机</div>
+                  <div class="nm">Bardefu 5042 8-in-1 Multifunctional 3L Blender with 8 Blades Modern Style Household Mixer Juicer Ice Smoothies Maker</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601577800396.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$718</b></span>
+                <span>订单 17</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601734072232.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H879a249509134f73a54ac4052ac671d0U.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">电水壶</div>
+                  <div class="nm">Great Bear Factory Direct 2L Stainless Steel Automatic Shut-Off Electric Hot Water Kettle 1500W Fast Heating for Household Hotel</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">stainless</span><span class="attr-tag">hot</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601734072232.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$694</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601573356999.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H095e396e581b45aa8ee5db48d3a4d898X.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">咖啡豆研磨机</div>
+                  <div class="nm">Custom Logo Manual Coffee Grinder Powder Container External Adjustment Coffee Bean Grinder for Travel Camping Home Office</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">logo</span><span class="attr-tag">men</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601573356999.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$649</b></span>
+                <span>订单 3</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601521303527.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H795e42313eaf4d268e3273e18569aa60S.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">电水壶</div>
+                  <div class="nm">Hot Selling Best-Selling Factory Custom Electronic Kettle Automatic Power-Off Electric Kettle Home Use</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">hot</span><span class="attr-tag">best</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601521303527.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$612</b></span>
+                <span>订单 3</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div><div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 5</span>
+                <span class="l2-name">外部配件</span>
+                <span class="l2-mbr">大区商家数 <b>5</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_62028067488.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H43169815b8884215885f1c8ee9407f564.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">挡风玻璃刮水器</div>
+                  <div class="nm">KCTION Wholesale All-Season OEM Quality Hybrid Wiper Blades Rubber Refill Windscreen Wiper Blades Windshield Wipers</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">oem</span><span class="attr-tag">wholesale</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_62028067488.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>8</b></span>
+                <span>GMV $1,226</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1600200836594.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hff403f7185474d3a80e7852887f8946ap.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">牌照框</div>
+                  <div class="nm">Custom 3D logo Printed Debossed USA Car Standard Size Black Plastic License Plate Frame</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">logo</span><span class="attr-tag">printed</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600200836594.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $7,468</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601225981344.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H1c04e6c0b0ad40b3b36488ddc0e06987Q.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">遮阳板、挡风挡虫板</div>
+                  <div class="nm">Wholesale Car Make up Mirror  Car Sun Visor Mirror Travel Vanity Makeup Sun-shading Cosmetic Mirror With LED Lights</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">wholesale</span><span class="attr-tag">led</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601225981344.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>7</b></span>
+                <span>GMV $934</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601184136606.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hdef692ea0cd9439ea31c63aacb948a7cb.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#4</div>
+                  <div class="cate fj">挡风玻璃刮水器</div>
+                  <div class="nm">KCTION Factory Wholesale High Carbon Elastic Steel Sheet Car Boneless Windshield Wiper 14-32 Multifunctional Wiper Blade for Car</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
+                    <span class="attr-tag">wholesale</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601184136606.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>6</b></span>
+                <span>GMV $628</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601273267734.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H6c2a8f72ddbb4d74ba192c1594218d3e2.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">挡风玻璃刮水器</div>
+                  <div class="nm">Exterior Accessories Manufacturer Universal Car Wiper 14 Inch - 28 Inch Silicone Wiper Blade for Car bmw E90</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
                     <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601644257994.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601273267734.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>81</b></span>
-                <span>L2 · <b>女鞋</b></span>
+                <span>📦 订单 <b>5</b></span>
+                <span>GMV $899</span>
               </div>
             </div>
             
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601369898780.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H21da658383e34048873c8eb7ec68d78f4.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#19</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">Custom for DTF Screen Print Transfers Soft Iron-On Stickers for Apparel Decoration Personalized PET Heat Transfer Printing</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag">custom</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601369898780.html" target="_blank">🔗 查看详情</a>
                 </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>81</b></span>
-                <span>L2 · <b>印刷服务</b></span>
-              </div>
-            </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601773533557.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H1c24a35d62b149bd8b9140bbe2f81f2bV.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1600200836594.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hff403f7185474d3a80e7852887f8946ap.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#20</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">2604 Custom Logo Wholesale 6 Panel New Unisex Plain 3D Embroidered OEM Men Baseball Sports Fitted Cap</div>
+                  <div class="rk">#1</div>
+                  <div class="cate fj">牌照框</div>
+                  <div class="nm">Custom 3D logo Printed Debossed USA Car Standard Size Black Plastic License Plate Frame</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $10-20</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span><span class="attr-tag">wholesale</span><span class="attr-tag">oem</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">logo</span><span class="attr-tag">printed</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601773533557.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600200836594.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>80</b></span>
-                <span>L2 · <b>帽子</b></span>
+                <span>💰 GMV <b>$7,468</b></span>
+                <span>订单 7</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601786142588.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/He33540522347494b8aa78c9f9240c761v.png_350x350.png')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1600576589560.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hd363a2b12d8f4d70b14b346949b8b82ac.jpeg_350x350.jpeg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#21</div>
-                  <div class="cate fj">男鞋</div>
-                  <div class="nm">Custom Wholesale Gel Nycs 2026 High Quality Air Running Sneakers Men Summer Campus Sports Shoes Women Walking Style Shoes</div>
+                  <div class="rk">#2</div>
+                  <div class="cate fj">挡风玻璃刮水器</div>
+                  <div class="nm">SPOTLESS Auto Accessories Multifunction Wipers Car Front Windshield Windscreen Wiper Blade</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag">PU</span><span class="attr-tag">custom</span><span class="attr-tag">wholesale</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601786142588.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600576589560.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>80</b></span>
-                <span>L2 · <b>男鞋</b></span>
+                <span>💰 GMV <b>$4,578</b></span>
+                <span>订单 4</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601397911605.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Ha4b605e610674258bd30c56c8597f833i.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601038848029.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H3f5ffa110d3041fab00a6b151a997408T.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#22</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">High Quality Custom Wholesale UV for Screen Printing Cup Wraps Stickers Decals 16oz/20oz/24oz/40oz Eco-Friendly Cartoon Heat</div>
+                  <div class="rk">#3</div>
+                  <div class="cate fj">挡风玻璃刮水器</div>
+                  <div class="nm">OEM Car Wiper Blades Aerodynamic Silent Design Windshield Wipers with 18 Adapters</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag">custom</span><span class="attr-tag">wholesale</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">oem</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601397911605.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601038848029.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>80</b></span>
-                <span>L2 · <b>印刷服务</b></span>
+                <span>💰 GMV <b>$4,076</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601820262166.html" target="_blank" class="thumb-fallback" title="点击查看商品详情">男</a>
+                <a href="https://www.alibaba.com/product-detail/_1601676366634.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Heb092d2e836f4890936c12cbfc1d6748p.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#23</div>
-                  <div class="cate fj">男装</div>
-                  <div class="nm">Single Stitch High Version Ready Stock Letter Printing Bapees Tee Men Trendy PrintedApe Shirt Fashion Designer Bapees Shirt</div>
+                  <div class="rk">#4</div>
+                  <div class="cate fj">汽车贴膜</div>
+                  <div class="nm">10 Year Warranty Premium TPH TPU PPF Invisible Car Paint Protection Film Anti Scratch Self Healing High Gloss Hydrophobic</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag">premium</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601676366634.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$4,000</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601493677904.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H87588c8f466d4c4fba6b8dd4daca4f941.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">汽车贴膜</div>
+                  <div class="nm">Hydrophobic 7.5Mil TPU PPF Film Anti Scratch Self Healing PPF TPH Gloss Clear Car Body PPF Paint Protection Film for Car Paint</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $500+</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601493677904.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$3,375</b></span>
+                <span>订单 1</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+              </div>
+            </div><div class="l2-block">
+              <div class="l2-block-hdr">
+                <span class="rk">TOP 6</span>
+                <span class="l2-name">洗衣设备</span>
+                <span class="l2-mbr">大区商家数 <b>5</b> 家 · 商品池 = 该 L2 下闽汕大区商家全部有效商品</span>
+              </div>
+              <div class="l2-dual">
+                <div class="l2-col orders-col">
+                  <div class="col-hdr orders-hdr">📦 订单Top5 · 高频出单爆品 <span class="col-sub">按 byr_order_cnt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601607174201.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hb99de007029649a6ae7e0fda81bff96eS.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">干衣机</div>
+                  <div class="nm">Mini Plastic Household Drying Machine Hanging Clothes Dryer with Multiple Timed Drying Modes Portable Electric</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
+                    <span class="attr-tag">portable</span><span class="attr-tag">plastic</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601820262166.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601607174201.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>79</b></span>
-                <span>L2 · <b>男装</b></span>
+                <span>📦 订单 <b>3</b></span>
+                <span>GMV $183</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601574252341.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H28ed55ab3c94453c905ecb2c822368f1v.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601633935093.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H040a5681362f4e6991e637a8ffb5a344S.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#24</div>
-                  <div class="cate fj">供暖及制冷电器</div>
-                  <div class="nm">Portable Handheld Personal Pocket Fan Battery Operated Summer Gift for Outdoor Travel in Car or RV Small Plastic Hand Fan</div>
+                  <div class="rk">#2</div>
+                  <div class="cate fj">熨烫洗护家电</div>
+                  <div class="nm">Professional Portable Titanium Flat Iron Electronic Travel Foldable Iron Steamer Machine Custom Mini Steam Iron Clothes Electric</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">portable</span><span class="attr-tag">foldable</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601574252341.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601633935093.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>78</b></span>
-                <span>L2 · <b>供暖及制冷电器</b></span>
+                <span>📦 订单 <b>2</b></span>
+                <span>GMV $132</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601434018020.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hfb8cb904e5eb46fc80f4a6702f0106bcq.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601605732826.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/He879163f599c4fee841bff740ada15d9l.png_350x350.png')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#25</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">Wholesale High Quality UV for PVC Cup Wraps for 40oz/20oz/16oz Glass Can Printing Cartoon Design Durable &amp; Waterproof</div>
+                  <div class="rk">#3</div>
+                  <div class="cate fj">熨烫洗护家电</div>
+                  <div class="nm">Electric Cross-Border Popular Handheld Garment Steamer Home Ironing Machine Portable Steam Brush Travel Iron for Clothes</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag">PVC</span><span class="attr-tag">wholesale</span>
+                    <span class="attr-tag">portable</span><span class="attr-tag">men</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601434018020.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601605732826.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>77</b></span>
-                <span>L2 · <b>印刷服务</b></span>
+                <span>📦 订单 <b>2</b></span>
+                <span>GMV $62</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601369778674.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H3350203313a64a36962b9e44abb4d3c6m.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601603753622.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hf59ef015bb53423ba6bae4f6bdde3a6d2.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#26</div>
-                  <div class="cate fj">帽子</div>
-                  <div class="nm">Waterproof Snapback Cap Custom Hats Embroidered logo 5 Panel Sports Breathable Rope Gorras for Business</div>
+                  <div class="rk">#4</div>
+                  <div class="cate fj">洗衣机</div>
+                  <div class="nm">China Best Selling Quality Household Small Washing Machine Cheap Multifunctional Dehydrator Mini Panty Sock Washing Machine</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag">best</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601603753622.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>1</b></span>
+                <span>GMV $27</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601607830383.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H01af835af6f64f809581b6183b7a2fd6m.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#5</div>
+                  <div class="cate fj">干衣机</div>
+                  <div class="nm">Electric Compact Four Corner Shoe Clothing Dryer Household Intelligent Display Screen Timed Dehumidification Sterilization</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
+                    <span class="attr-tag" style="opacity:.5">—</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601607830383.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>📦 订单 <b>1</b></span>
+                <span>GMV $30</span>
+              </div>
+            </div>
+            
+                  </div>
+                </div>
+                <div class="l2-col opp-col">
+                  <div class="col-hdr opp-hdr">💰 商机Top5 · 高 GMV 潜力爆品 <span class="col-sub">按 rec_amt_28d 降序</span></div>
+                  <div class="hp-grid">
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601607174201.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hb99de007029649a6ae7e0fda81bff96eS.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#1</div>
+                  <div class="cate fj">干衣机</div>
+                  <div class="nm">Mini Plastic Household Drying Machine Hanging Clothes Dryer with Multiple Timed Drying Modes Portable Electric</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="attr-tag">portable</span><span class="attr-tag">plastic</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601607174201.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$183</b></span>
+                <span>订单 3</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601633935093.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H040a5681362f4e6991e637a8ffb5a344S.png_350x350.png')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#2</div>
+                  <div class="cate fj">熨烫洗护家电</div>
+                  <div class="nm">Professional Portable Titanium Flat Iron Electronic Travel Foldable Iron Steamer Machine Custom Mini Steam Iron Clothes Electric</div>
+                  <div class="tag-row">
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="attr-tag">custom</span><span class="attr-tag">portable</span><span class="attr-tag">foldable</span>
+                  </div>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601633935093.html" target="_blank">🔗 查看详情</a>
+                </div>
+              </div>
+              <div class="footer-row">
+                <span>💰 GMV <b>$132</b></span>
+                <span>订单 2</span>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-body">
+                <a href="https://www.alibaba.com/product-detail/_1601074780532.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H0c2cccadd90e4c72b7a711c76c83db72b.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <div class="meta">
+                  <div class="rk">#3</div>
+                  <div class="cate fj">熨烫洗护家电</div>
+                  <div class="nm">Mini Electric Domestic Home Use Sewing Machine Factory Price Industrial Lockstitch Wig Leather Brothers Parts for Shoe House</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $100-500</span>
-                    <span class="attr-tag">logo</span><span class="attr-tag">custom</span>
+                    <span class="attr-tag">leather</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601369778674.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601074780532.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>72</b></span>
-                <span>L2 · <b>帽子</b></span>
+                <span>💰 GMV <b>$116</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601713593916.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hf979dde453364c1884e97ce363e0eb42M.jpg_350x350.jpg')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1600843334743.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hfb4306c7f8a64180a99d38b11649a68fZ.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#27</div>
-                  <div class="cate fj">保健食品</div>
-                  <div class="nm">Maca Man Power Maca Plus Capsules Organic Herbal Supplement Male Vitality Supplement &amp; Male Enhancement ,Maca Root Capsules</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
-                  </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601713593916.html" target="_blank">🔗 查看详情</a>
-                </div>
-              </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>71</b></span>
-                <span>L2 · <b>保健食品</b></span>
-              </div>
-            </div>
-            
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601715286342.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H07423d2a427d404cad77e2452b3e411bH.png_350x350.png')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#28</div>
-                  <div class="cate fj">纸质包装</div>
-                  <div class="nm">Hologram 3 ml Vial Box Single Dual Double Five Ten 3ml Vial Peptid Packaging Box and Label with Plastic Tray</div>
+                  <div class="rk">#4</div>
+                  <div class="cate fj">熨烫洗护家电</div>
+                  <div class="nm">1800W 94A Steam Iron with Water Tank Industrial Steam Iron for Garment Factory</div>
                   <div class="tag-row">
                     <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
+                    <span class="attr-tag">men</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601715286342.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600843334743.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>71</b></span>
-                <span>L2 · <b>纸质包装</b></span>
+                <span>💰 GMV <b>$71</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
             <div class="card">
               <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1601355766645.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H00b2732ea0e6409e8b714d26364be5ebi.png_350x350.png')" title="点击查看商品详情"></a>
+                <a href="https://www.alibaba.com/product-detail/_1601321203876.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/H9fbe6116fe2a40ffb5646947d1a30a305.jpg_350x350.jpg')" title="点击查看商品详情"></a>
                 <div class="meta">
-                  <div class="rk">#29</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">Factory Custom Multiple Size Uv Dtf Cup Wrap Trasnfers Ready to Ship Uv Dtf Sticker Cup Wraps Transfers for 16oz Cup</div>
+                  <div class="rk">#5</div>
+                  <div class="cate fj">洗衣机</div>
+                  <div class="nm">Folding Mini Washing Machine Household Portable Underwear Socks Western Picture Power Packing Dimensions Sales Plastic Color</div>
                   <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag">custom</span>
+                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $50-100</span>
+                    <span class="attr-tag">portable</span><span class="attr-tag">plastic</span><span class="attr-tag">men</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601355766645.html" target="_blank">🔗 查看详情</a>
+                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1601321203876.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
               <div class="footer-row">
-                <span>📦 订单 <b>71</b></span>
-                <span>L2 · <b>印刷服务</b></span>
+                <span>💰 GMV <b>$64</b></span>
+                <span>订单 1</span>
               </div>
             </div>
             
-            <div class="card">
-              <div class="card-body">
-                <a href="https://www.alibaba.com/product-detail/_1600955178262.html" target="_blank" class="thumb" style="background-image:url('https://sc04.alicdn.com/kf/Hb518316fec344b1c8b9b1ba14a8de37cm.jpg_350x350.jpg')" title="点击查看商品详情"></a>
-                <div class="meta">
-                  <div class="rk">#30</div>
-                  <div class="cate fj">印刷服务</div>
-                  <div class="nm">For Crafts DecalsHalloween 3D UV DTF Transfer Sticker for 16oz Libbey Glass Waterproof Cup Wraps Sticker</div>
-                  <div class="tag-row">
-                    <span class="scene-tag" style="background:rgba(233,184,74,.18);color:#F5CE6E">💰 $20-50</span>
-                    <span class="attr-tag" style="opacity:.5">—</span>
                   </div>
-                  <a class="link-btn" href="https://www.alibaba.com/product-detail/_1600955178262.html" target="_blank">🔗 查看详情</a>
                 </div>
               </div>
-              <div class="footer-row">
-                <span>📦 订单 <b>70</b></span>
-                <span>L2 · <b>印刷服务</b></span>
-              </div>
-            </div>
             </div></div><div class="tab-panel" id="tab-gap">
     <div class="insight violet">
       <h3>缺口打分公式 & 分级说明</h3>
