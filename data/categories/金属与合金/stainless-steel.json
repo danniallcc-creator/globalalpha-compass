@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "不锈钢：海外社媒「aluminum tiktok made me buy」增速 252%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，AL Circle关注「Canada’s aluminium exports jump 50.7%...」。",
+    "trend_summary": "不锈钢：海外社媒「metal must have」增速 245%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，IEA – International Energy Agency关注「Executive summary – Global Critical...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 不锈钢 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 不锈钢 成主流",
       "欧盟 CE 标志强制准入 → 不锈钢 出口需通过合规认证",
-      "海外社媒「aluminum tiktok made me buy」增速 252% 领跑 → 不锈钢社媒种草热度爆发"
+      "海外社媒「metal must have」增速 245% 领跑 → 不锈钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "aluminum tiktok made me buy",
-        "growth": 251.5,
-        "vol": "506K",
+        "platform": "instagram",
+        "kw": "metal must have",
+        "growth": 245.0,
+        "vol": "362K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "aluminum tutorial",
-        "growth": 249.5,
-        "vol": "515K",
+        "platform": "tiktok",
+        "kw": "steel viral hack",
+        "growth": 242.0,
+        "vol": "458K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "steel analyst",
-        "growth": 249.5,
-        "vol": "496K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "steel b2b export",
-        "growth": 175.0,
+        "kw": "metal breaking",
+        "growth": 230.5,
+        "vol": "689K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 157.5,
+        "growth": 200.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Canada’s aluminium exports jump 50.7% as trade surplus reaches four-year high - AL Circle",
-        "source": "AL Circle",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZUEzSUY0bXhXeGE0OWlhaDV5NVBFNEdQVkViLTFGMVUxUzNCYWFSend4eUlMWUJURkJWY2o2MVY5QjIxZTM3b0VoWkJhcjR3VUFna0FIa0ZmdzJNR2VSZVZiLW1Iank2cEYyZ0YxT0Y3MDJ3MlRtSVl6R01yTGRzREIwUkdFWWVsLTdCb2tfT3JGWVhXRTNaV0NzNHVYakNKTXJ2TGJqNXNIT1YzV2JvenBB?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "steel b2b export",
+        "growth": 178.0,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Executive summary – Global Critical Minerals Outlook 2026 – Analysis - IEA – International Energy Agency",
         "source": "IEA – International Energy Agency",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbFNpdzloN056aHJMNWlmbng1YWZ0VnhkUEpjaUNFZUZlVkpJRXd5TDVWOE9iMlEtZ2dZS0t3aEZtWEJQNHk5ajlPRHZIb1FJRWE3TE5LYmpzVXNUX0pwem9Ndk4tZ3J6VThEMXRLeTNaZUx6bndEU2RrWmRWX1Q1NkJfTVBNOHdFX19j?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India opens steel dumping probe into China, Japan, Russia - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkdUSzY3RWpENURtT2l1RWlZS0swcWxxX3U0M1hsNVRpVlZCVVFTR2xlZnlObDdMNlZZcGQzc1cxT2ZtQzZVQVFDUTdNVExfX3h4dU9CRmYyRlk4alA1eG9BOEhpTHlpdEI1SUdUT1M4ZUJrZkVXU0FCQ0RtV1hDRTE5NldpcmdZcmZ3SUp2TXZXWjZ6WmJ0b0JpMVpKbU04TklQTTFR?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "金属与合金"
   }
 }

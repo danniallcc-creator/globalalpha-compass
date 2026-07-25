@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech market alert」增速 251%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Deloitte关注「What’s happening this week in...」。",
+    "trend_summary": "回收：海外社媒「environmental wholesale supplier」增速 252%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EU softens carbon market to ease...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech market alert」增速 251% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental wholesale supplier」增速 252% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "green tech market alert",
-        "growth": 251.0,
-        "vol": "537K",
+        "platform": "google",
+        "kw": "environmental wholesale supplier",
+        "growth": 252.5,
+        "vol": "633K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "green tech viral hack",
-        "growth": 249.0,
-        "vol": "758K",
+        "growth": 240.0,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "green tech unboxing",
-        "growth": 248.0,
-        "vol": "69K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "green tech b2b export",
-        "growth": 143.0,
+        "platform": "instagram",
+        "kw": "green tech must have",
+        "growth": 215.0,
+        "vol": "224K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 129.5,
+        "growth": 249.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental market 2026",
+        "growth": 120.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "What’s happening this week in economics? - Deloitte",
-        "source": "Deloitte",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+        "title": "EU softens carbon market to ease pressure on industry - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYS1kcGtvX2FiY0N0Rl9Ta0txX19fcUZJU3VWMDdqLU51Y1hpVmtyZ040UERmSzJROWdMVWZ4ZlhoRFVRY2V2R3NPRERFTWJvQU51VkkxZkVGMTlzYTJZaURHWmd6V1dwMWxpdGxneUpkby1YekZMdzFnRHJUVlNRZ1Bkdk5lanlhMTNqNy0wZnQ0MldNNHRpMHc5LXpETWtMZm8xRzN3?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Arab Regions Remain the Most Underrepresented in the Global Trade System - Global Issues.org",
-        "source": "Global Issues.org",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jaC1RVkRNelc1MURtRnBuTWJudGwyZ04zUHE1b3Bjb3laZ05NWEVVYTd4R0UxY3RMTGVfc0lDX2duYkp6Tkl0Q2J2OEhCdnFKQ3hFSm0zVWdSTFlEUUhR0gFkQVVfeXFMTTlNZzVMR0NZRjhmVGxidVh5WkJ6Rl9zeDhDR19wdzNZSGFEalh2WmZYcVJBWXhyS21wRXBnaVVzYmMzREZ3aDN6cUV5M0JHQ3lyWWVSRGhnN1JsYnBFUGZhb0V2TQ?oc=5",
+        "title": "Green Transition, Energy and Economic Security: An Avoidable Dilemma - Intereconomics | Review of European Economic Policy",
+        "source": "Intereconomics | Review of European Economic Policy",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUGdsWU9pZW55WS0zUUdyNmloZjZIaFJ5bjlYblEybDlZdWw2aUNxMUtMd0k1VktVc25CTlpnM09RY0JtVEE0d0lpNmwtS1FEU21QSFVhWE1LNGRUbVVlVlRYb3BkVVo3alNWeG1FODZkWTJPLWViSnNVaUU1TWlQUXprWVI3TlgwNnY2Q0xZT0lEZm0wUWZhTUNkbXRNU2FNSWswN0xXR0dYUEtkdXF3S29mb195dlhCdlVGbm5DR1hYenc4UjlPMkJ2X3pQN000UVVv?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "环保"
   }
 }

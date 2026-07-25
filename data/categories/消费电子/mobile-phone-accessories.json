@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手机与配件：海外社媒「earbuds viral」增速 234%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Consumer Electronics Market Size,...」。",
+    "trend_summary": "手机与配件：海外社媒「consumer electronics breaking」增速 246%，搜索端「earbuds wholesale supplier」热度上行，US Amazon BSR Top-12，S&P Global关注「TRADE REVIEW: Lackluster demand to cap...」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,45 +50,52 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 手机与配件 成主流",
       "欧盟 CE 标志强制准入 → 手机与配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 手机与配件 合规刚需",
-      "海外社媒「earbuds viral」增速 234% 领跑 → 手机与配件社媒种草热度爆发"
+      "海外社媒「consumer electronics breaking」增速 246% 领跑 → 手机与配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "earbuds viral",
-        "growth": 234.5,
-        "vol": "87K",
+        "platform": "x",
+        "kw": "consumer electronics breaking",
+        "growth": 245.5,
+        "vol": "618K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "smartphone unboxing",
-        "growth": 227.0,
-        "vol": "789K",
+        "platform": "google",
+        "kw": "earbuds wholesale supplier",
+        "growth": 237.5,
+        "vol": "73K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "earbuds tiktok made me buy",
-        "growth": 209.5,
-        "vol": "298K",
+        "kw": "smartphone must try",
+        "growth": 234.5,
+        "vol": "635K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "consumer electronics market 2026",
-        "growth": 203.5,
+        "kw": "earbuds wholesale supplier",
+        "growth": 234.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "consumer electronics supply chain resilience",
-        "growth": 86,
+        "source": "Google Trends",
+        "kw": "smartphone b2b export",
+        "growth": 164.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "TRADE REVIEW: Lackluster demand to cap Asian cobalt prices in Q3 despite DR Congo supply risks - S&P Global",
+        "source": "S&P Global",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNUzdDYnFveFhhclVVN1BZb2VFUi1xZHZzaXNjNnVSZDY2ZlBSYUFHWDZacEJFQUFUVjRkaGtqUEhaLWNvR3VFdUZpN3pIejkwcDJiaGpoU1FmeW05dXdZa2FZSVF5QXFQTnJjdVZidWhvVFRWZDRwYlZZdzNGZTE5LUdOTHd6UnY4dktjTHVXV29xQUNOX1ZnTWVodk9xOHVzNTJCM0wzdURiNzJiczh2RkpvQVA3dWM1V1hYTjJ2MjlZRXlYWWhiSmUydmtzNkFUcjBEUEZqdDI5bXM0aGgtTm56Q1UzSU80Tk5mSHBHVDhxMWZrMWtFTnF2UXg?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Consumer Electronics Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
         "source": "Fortune Business Insights",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaDZfREVEenJCbTFEY05KVEVYVDduUW02WFpSSDhmbVJKSUlsUnp6d2lvelcyVU5VQVIzSzFHU3hQOUZrSGtPVVU2QXN4NkdBSUNSeWpfWTRBY3NQcktfNlZ0SFV2dE91TlVGb1NxXzNic0lpclIwanppMEFJOEk?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Electrical machinery and electronics (HS: 85) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjWGJubWxjY3g3NUhkVXpjLU9OSTRXWjkzb3JVQXFLSFRaNERTcUx4NXgzb0l4TW5DeVlNZTBtZkY0UlNaT25wTEQ5Y3RLVVVscm1VOXRhUWpneG5Oa0x1ZzdpR1AtN1NrMEx6dmNET21saTdlSVhF?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "消费电子"
   }
 }

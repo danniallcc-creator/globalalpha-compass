@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "内饰配件系统：海外社媒「auto parts review 2026」增速 256%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，The Economic Times关注「India's auto parts exports to US remain...」。",
+    "trend_summary": "内饰配件系统：海外社媒「auto parts wholesale supplier」增速 234%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，The Economic Times关注「India's auto parts exports to US remain...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 内饰配件系统 出口需通过合规认证",
-      "海外社媒「auto parts review 2026」增速 256% 领跑 → 内饰配件系统社媒种草热度爆发"
+      "海外社媒「auto parts wholesale supplier」增速 234% 领跑 → 内饰配件系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "auto parts wholesale supplier",
+        "growth": 234.5,
+        "vol": "49K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "auto parts review 2026",
-        "growth": 255.5,
-        "vol": "228K",
+        "growth": 232.5,
+        "vol": "100K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts #fyp",
-        "growth": 254.5,
-        "vol": "387K",
+        "platform": "youtube",
+        "kw": "auto parts top 10",
+        "growth": 213.5,
+        "vol": "693K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts tiktok made me buy",
-        "growth": 239.5,
-        "vol": "321K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto parts wholesale supplier",
+        "growth": 231.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 107.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "auto parts sustainable manufacturing",
-        "growth": 89,
+        "growth": 190.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Hot Topics in International Trade - June 2026 - A US Departure From the USMCA. Is That Even Worthy of Discussion? - JD Supra",
-        "source": "JD Supra",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOENuS3ZoRHdWNEZWNHlaVzhZeDAwcGx4aWNwMTFtckhGS3FxUzYya3pqamowS0dURk8xRnM5amdtakduOTdnVWZGMmtxUVFJeEVSMzhSaHFnOEZBVjRTZjZVVmNnOG85YWZJUVJIVDdEREZCT0lDSjRsMUphSlJGV1JiX3daWG8?oc=5",
+        "title": "China's Auto Exports Are on Track to Top $100 Billion - Gasgoo",
+        "source": "Gasgoo",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQakpHeDBDZXF1em1nRVZSbWViRi1Lblo4U05zLTZsUFQtZm01dnoxY2dTTmk0VktnMEg4T3JQZ0lUUEZsWEwwelJaWEM0TzAwY0YyUzg1QU1wdnBrUDBxQkVOSHVpTGowR3R2OVFOWVVEejJwdlVsR2FIcjU2dG9hUElhUnZxYW16RTRiVHBYM1NCMzJtQW1KcEVrSjBHZXhiUWNfVUZNc1dsMFdZckNtS0RNZWxLT1F1U0Z6X3pkQW1aZw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "汽车零配件"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电线、电缆与电缆组件：海外社媒「electrical b2b export」增速 245%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
+    "trend_summary": "电线、电缆与电缆组件：海外社媒「electrical factory tour」增速 238%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电线、电缆与电缆组件 成主流",
       "欧盟 CE 标志强制准入 → 电线、电缆与电缆组件 出口需通过合规认证",
-      "海外社媒「electrical b2b export」增速 245% 领跑 → 电线、电缆与电缆组件社媒种草热度爆发"
+      "海外社媒「electrical factory tour」增速 238% 领跑 → 电线、电缆与电缆组件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "electrical factory tour",
+        "growth": 238.0,
+        "vol": "47K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical viral",
+        "growth": 233.5,
+        "vol": "678K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "electrical b2b export",
-        "growth": 245.0,
-        "vol": "474K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical breaking",
-        "growth": 232.5,
-        "vol": "633K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical #fyp",
-        "growth": 226.5,
-        "vol": "744K",
+        "kw": "electrical price trend",
+        "growth": 228.0,
+        "vol": "406K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical b2b export",
-        "growth": 242.0,
+        "growth": 216.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 180.5,
+        "source": "Linkedin",
+        "kw": "electrical equipment sustainable manufacturing",
+        "growth": 85,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Europe wants to rebalance trade with Beijing, but can't quit Chinese air conditioners - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcVljc1RuWjhTTjBrMndia3FwMTZycXFKUWhnVGRjcmJJUnlJVWVtS2tWNlVLTzhqQXlDY1pCcTh5ZFZ3OTBha2dRalZEWjdMVkMwU21GdGkxNG80WFhuQXBxZEd4NWhtTkxweVFKcU94dVVrc3RtYnhjZDZweU9Ua29nZC1TTkREQzZhTnJ4dVdFbkVPOE5rRTJWQ0hmZkx5T2V2Q0J6TXRzUdIBrwFBVV95cUxONDFwSjdqWXJlUmhFSkxtU2RqUlhhVnZLVnJjU1pZMW42a1g4UzVDV0hpVjNXY1BreDNRWTFJMnllNGlSTGtFcjIwSjF3MkhmSFc3SUxxaUwwZ3VxU09mSnBJOHBDZHUzeERGaDVNejh6VUE5OXZfTk9XellOd0N0SWMwaXQ5b2EwOTF2ZWxkMmZoT0NSc2dseF9lSlAwMUVsYmxBU1BoVGluNnNwUXo0?oc=5",
+        "title": "Citrus (HS: 0805) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KQkhBd0cxa3pYSjhZbFVCbTRTUlV4elRPcGZ1Rk9SYUlKUzlva0FxV0VDLXJhM2ZnMUhBbWUzaTBsMThmWjJfWUZhQjNaekk?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "电气设备及用品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "医学美容：海外社媒「beauty breaking」增速 254%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China’s Next Soft-Power Export Could Be...」。",
+    "trend_summary": "医学美容：海外社媒「skincare viral」增速 242%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Global Market Insights Inc.关注「Cosmetics and Beauty Market Size,...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 医学美容 出口需通过合规认证",
       "美国 FDA 注册要求 → 医学美容 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 医学美容 制造门槛",
-      "海外社媒「beauty breaking」增速 254% 领跑 → 医学美容社媒种草热度爆发"
+      "海外社媒「skincare viral」增速 242% 领跑 → 医学美容社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "skincare viral",
+        "growth": 242.5,
+        "vol": "705K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "beauty breaking",
-        "growth": 253.5,
-        "vol": "12K",
+        "growth": 228.5,
+        "vol": "16K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "beauty review 2026",
-        "growth": 242.5,
-        "vol": "670K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "skincare wholesale supplier",
-        "growth": 238.5,
-        "vol": "581K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 235.5,
+        "platform": "tiktok",
+        "kw": "skincare tiktok made me buy",
+        "growth": 209.5,
+        "vol": "676K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beauty market 2026",
-        "growth": 187.5,
+        "growth": 177.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "beauty cosmetics export opportunity emerging markets",
+        "growth": 91,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s Next Soft-Power Export Could Be Beauty - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTnJlay1UakhsV2ZZb1VoZFhTNWYtYTBQOXh1eTNPcVhaMnJhcG5MRVZUbm95bUY0bkxIcjZxNlNkdUZDbWRLS0lsdjNON0dHQWZHa2VlSVJSaDlpNXlWZzBKSzBmX1R0MHBSQzl2NXV6eV9iWFdEUDlqQzI5R2QyVm4xQkYwV2N3TkdHSS1pc3VxRDRLa1JIQU1fSnFFOHJwMXc?oc=5",
+        "title": "Cosmetics and Beauty Market Size, Forecasts Report 2026-2035 - Global Market Insights Inc.",
+        "source": "Global Market Insights Inc.",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nUGRLa0wwVFJfSFU3bDBoNGZFcEMzTVNmOFZnTVJNcThKYjEwTTFTVEF5VTlpS2ZDN3pOMXh6WG1EVk9rSU40WEFEZ29Na2UxQ2NMano0SlM2cmFNLWRaSEs0aUdOaWk4cFpRX0EzU1JHbld4cTNIUU1xLWw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How Far Can South Korea’s Export Rally Go? - Korea Economic Institute of America -",
-        "source": "Korea Economic Institute of America -",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EWGRTSVJvMl84bldJWmRnMERKVlI0SEFXSlBNZUpjSURBTm9ITWxqM2dOejJmTzQxSFJVOFNSNEh1eHdtdzVaTHpiWDZpYmR6dTFZbG1nWm5ER3hqRnFmU2FlNkpTMi01UlRpeTUxczlXWldncWc?oc=5",
+        "title": "India’s beauty growth spills across retail, dermocosmetics and exports - Personal Care Insights",
+        "source": "Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9faW5SNC1zb1Rwcm9LZk1WeDk2eV9VNkRNTjRCMklaamxIY3huR2lsc2kyVHluSjdMU092WTF2YlBGUmxMd1pkdkNTZ3gteEtaSk1hV2FGUk5pMFBHZ3Z0YnRWVGtWR3g5cDJrZzJhWE9nRm91?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "美妆"
   }
 }

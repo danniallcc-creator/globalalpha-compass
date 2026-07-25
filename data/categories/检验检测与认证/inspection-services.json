@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "检验服务：海外社媒「certification must have」增速 240%，搜索端「certification b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Glove Testing System Market Forecast...」。",
+    "trend_summary": "检验服务：海外社媒「testing market 2026」增速 252%，搜索端「testing market 2026」热度上行，US Amazon BSR Top-12，Modern Diplomacy关注「Beyond tariffs: What holds back...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 检验服务 出口需通过合规认证",
-      "海外社媒「certification must have」增速 240% 领跑 → 检验服务社媒种草热度爆发"
+      "海外社媒「testing market 2026」增速 252% 领跑 → 检验服务社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "certification must have",
-        "growth": 240.0,
-        "vol": "636K",
+        "platform": "google",
+        "kw": "testing market 2026",
+        "growth": 252.5,
+        "vol": "420K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "testing analyst",
-        "growth": 233.5,
-        "vol": "455K",
+        "platform": "google",
+        "kw": "testing industry report",
+        "growth": 249.5,
+        "vol": "343K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "certification factory tour",
-        "growth": 230.0,
-        "vol": "29K",
+        "platform": "tiktok",
+        "kw": "testing tiktok made me buy",
+        "growth": 246.5,
+        "vol": "195K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "certification b2b export",
-        "growth": 175.0,
+        "kw": "testing market 2026",
+        "growth": 249.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "testing wholesale supplier",
-        "growth": 172.5,
+        "growth": 132.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Beyond tariffs: What holds back Türkiye–ASEAN trade - Modern Diplomacy",
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFJWdURLX3BrZGdQanl1dXVxRF9aY0wzUmZpd1VDZzFTcDJaelB5dmRjSlk1V3lvc1RvTWxPUTMxTnVVNUUydVRqVVJqREtOVVYydWNCZHdmZU9DSXVxQkhhYWlXbDZNS2s2QnZIZHJtXzdNZEE1M0p2SWwwZ2RBQlB2MEF1aTVDeVgxVmw5QVZYaDg?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Glove Testing System Market Forecast Points Higher Toward 2035, Driven by Stricter Electrical Safety Mandates - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaDBqZWFTUE1ZNUxzMXl2eHl6SkNxQUZub1pQRkc3am1MTTU3YVdlWml6RXdndGVJNk9uWXRtVlM5OFctTjFuNGZYWXN1aDNzOFg0ZTltOWlsZjJnZm85TDdOYkwwQVNoamdWZDRiSDJBMVA0WndKUF9nX21MQUl4V3RLWE1sZTY1c2JUWVVLbjQtakJtY1k1aWpvTDZfQkJTQU00cjlNcXZtOEZfMTlQUkg4M3RJazhCMWMzU3dYMHNDMVlILXc5MVF2U21fRGR6OTN0MQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Dairy Testing Market Size, Share, Outlook Trends, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qb0xxc0VKNDZiWlJISDlGbWwtZUJBQTdDd3BKQTJhM3hxREY5Y3B2N3lhUnc3dGI4Ykt0QWRheXNpRlp2NWp3OFllOGx3Z1RqX2lkUk1lVFJWVjl3MWhnYkNaeTRPSWtuZnRjTkI1RkRFdEdvVEE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "检验检测与认证"
   }
 }

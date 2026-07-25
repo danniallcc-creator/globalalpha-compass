@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 14515277,
-    "total_net_weight_kg": 14015277,
+    "total_export_value_usd": 26180327,
+    "total_net_weight_kg": 5680327,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-21"
+    "fetched_at": "2026-07-25"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 46,
+      "interest_score": 61,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-21"
+      "fetched_at": "2026-07-25"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-25",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -69,48 +69,40 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxONlNEbWhuWWZqNmduYzJ4M05fS3VaWjAzY0lKSjRBVG5qQU4xQW4wTWV2ZEk1Wk8wc0pPSWg0M0FuLWtHTXFDcUJNQ1lvSkx6MFduQ3lYVmVZVmdrNGVvakVSSHcyUG1oOVBzTUxROExHRW9BS0MyWmhoUGljemVRV1dzU1lLeG5SSlZ3OE5QZw?oc=5"
     ],
-    "fetched_at": "2026-07-21"
+    "fetched_at": "2026-07-25"
   },
   "customs_2025": {
     "china_export": null,
-    "imports_from_china": {}
+    "imports_from_china": {
+      "JP": {
+        "value_usd": 5527161124.805,
+        "yoy": null,
+        "share": 44.5
+      },
+      "AU": {
+        "value_usd": 6906149664.940001,
+        "yoy": null,
+        "share": 55.5
+      }
+    }
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "A regulatory wave unlike anything before - Fastener + Fixing Magazine",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnROeDBSS3lGRDgtUVBmNXFsajlWQkJ0Sk5HTnpTS1BabzlMaFJOcm9UZDBSNG1DbkV3TklfaDNUQnBQak41Ny03QnpVelQ2c1VUY012bWJVSURSVHlGYkZLcllRMzFuM0JCM0VHRGZfMG9XRjhCMy01MmgzVnc4S29kM2lpdw?oc=5\" target=\"_blank\">A regulatory wave unlike anything before</a>&",
+        "title": "NEVIB battles compliance burden - Fastener + Fixing Magazine",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1qQmxxa0JIQlNwRElmSWtLX0pJZlFWN19pd2V0VjM1S1VxRkpTTlVXMC1wdGJLd0t6QzVMNlg2NVpVT0xUZ0ROLU5tdFBrckE4alQyQnVBNGZUTG5JU1NhOHFWaUVuTnVaRG13dDRxM3BWMWZvZ1c2QnpB?oc=5\" target=\"_blank\">NEVIB battles compliance burden</a>&nbsp;&nbsp;<font color=\"#6f",
         "country": "Unknown",
         "policy_type": "compliance",
         "impact": "neutral",
-        "impact_score": 0.3,
+        "impact_score": 0.2,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnROeDBSS3lGRDgtUVBmNXFsajlWQkJ0Sk5HTnpTS1BabzlMaFJOcm9UZDBSNG1DbkV3TklfaDNUQnBQak41Ny03QnpVelQ2c1VUY012bWJVSURSVHlGYkZLcllRMzFuM0JCM0VHRGZfMG9XRjhCMy01MmgzVnc4S29kM2lpdw?oc=5",
-        "published": "Wed, 15 Jul 2026",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qQmxxa0JIQlNwRElmSWtLX0pJZlFWN19pd2V0VjM1S1VxRkpTTlVXMC1wdGJLd0t6QzVMNlg2NVpVT0xUZ0ROLU5tdFBrckE4alQyQnVBNGZUTG5JU1NhOHFWaUVuTnVaRG13dDRxM3BWMWZvZ1c2QnpB?oc=5",
+        "published": "Fri, 24 Jul 2026",
         "source": "Fastener + Fixing Magazine"
-      },
-      {
-        "title": "Carbon border adjustment mechanism (CBAM): Policy Summary - GOV.UK",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ0RUQUU2WGdVOHNIZ2d5MllLMDdQNXAxUmVXUVdYWFZzNjlxV05DQmtFM1lBd2NVeFA0a09DUzVlVlYwZE85TUY5dWhDTnYyaHZSLVQ4UGZTOGFtR0ozQmxnUTlKejZvZ2M5WE8xRXdGT1MzZ01yRmNXV1lnNHNxYVlwcm5oaXVhLW5JeW9aSExzckpaa1JUaXNYcnd1M0dRSjczTXVsaEgydHpRQkpmTUdERnhGZXBSTW",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ0RUQUU2WGdVOHNIZ2d5MllLMDdQNXAxUmVXUVdYWFZzNjlxV05DQmtFM1lBd2NVeFA0a09DUzVlVlYwZE85TUY5dWhDTnYyaHZSLVQ4UGZTOGFtR0ozQmxnUTlKejZvZ2M5WE8xRXdGT1MzZ01yRmNXV1lnNHNxYVlwcm5oaXVhLW5JeW9aSExzckpaa1JUaXNYcnd1M0dRSjczTXVsaEgydHpRQkpmTUdERnhGZXBSTWpZTzVWcmg2ZmJQUFM4ejlENUhvcG9zZkt1UXlGZm9uRDk1NHNCR3lNLVFQYzg?oc=5",
-        "published": "Thu, 16 Jul 2026",
-        "source": "GOV.UK"
       }
     ],
     "country_summary": {
       "Unknown": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "US": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

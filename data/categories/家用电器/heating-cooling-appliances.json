@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "供暖及制冷电器：海外社媒「appliance market 2026」增速 250%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Europe wants to rebalance trade with...」。",
+    "trend_summary": "供暖及制冷电器：海外社媒「appliance review 2026」增速 256%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Europe wants to rebalance trade with...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 供暖及制冷电器 出口需通过合规认证",
-      "海外社媒「appliance market 2026」增速 250% 领跑 → 供暖及制冷电器社媒种草热度爆发"
+      "海外社媒「appliance review 2026」增速 256% 领跑 → 供暖及制冷电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "appliance review 2026",
+        "growth": 255.5,
+        "vol": "244K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "appliance market 2026",
-        "growth": 250.5,
-        "vol": "694K",
+        "kw": "appliance b2b export",
+        "growth": 255.0,
+        "vol": "727K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "appliance breaking",
-        "growth": 248.5,
-        "vol": "67K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "appliance industry news",
-        "growth": 246.0,
-        "vol": "188K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance market 2026",
-        "growth": 247.5,
+        "platform": "youtube",
+        "kw": "appliance top 10",
+        "growth": 242.5,
+        "vol": "96K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 234.0,
+        "growth": 252.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 228.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "The AI boom drove China's 27% export jump in June as AI and the Iran war reshape global trade - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLTFJc2lOaGMwUXVtOXBRUzRMZXAwd3NTMFZFUmxTdU8zQ0VzYmhDWGh1bmhwQ3EtX2I5U0tNdklCYTdEcDI1R3U2Ym54RWVqUF90czVvWWRuUDlQU1VmUkpKQ1BRc3lwVnc0bFluY1NYSU1PMktNQWFKY3hFS0k5aWdEVQ?oc=5",
+        "title": "China's H1 foreign trade posts 16.9 pct growth with optimized structure - Beijing Review",
+        "source": "Beijing Review",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oRzlCLXZPM1JkMmFwTkJ3QUF2Qk5lQno1Nkh6NTVpaHdTeGJCbmxxZllBaElfbWtkSVVEdjBVUHc0aG9FYUxPNnBEclg0RGw0b3ZVdnROY085MFMtb2VSalZTNmg1clhncXRzdUdVQURiRzg?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "家用电器"
   }
 }

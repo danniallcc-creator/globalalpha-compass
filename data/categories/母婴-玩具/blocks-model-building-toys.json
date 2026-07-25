@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "积木：海外社媒「baby #trending」增速 250%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，Business Standard关注「Free trade agreements to give major...」。",
+    "trend_summary": "积木：海外社媒「baby price trend」增速 232%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，The Economic Times关注「Free trade agreements to give major...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,59 +49,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 积木 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 积木 采购偏好",
-      "海外社媒「baby #trending」增速 250% 领跑 → 积木社媒种草热度爆发"
+      "海外社媒「baby price trend」增速 232% 领跑 → 积木社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby #trending",
-        "growth": 250.5,
-        "vol": "26K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "baby breaking",
-        "growth": 249.5,
-        "vol": "679K",
+        "platform": "google",
+        "kw": "baby price trend",
+        "growth": 232.0,
+        "vol": "30K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "baby #fyp",
-        "growth": 239.5,
-        "vol": "376K",
+        "kw": "toys must try",
+        "growth": 228.5,
+        "vol": "463K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "infant supply chain",
+        "growth": 219.5,
+        "vol": "182K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "baby market 2026",
-        "growth": 170.5,
+        "growth": 186.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "toys b2b export",
-        "growth": 135.0,
+        "kw": "infant wholesale supplier",
+        "growth": 143.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Free trade agreements to give major boost to toy exports: Industry - Business Standard",
-        "source": "Business Standard",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOejdfa1dyZWloMHczM1BKWDlRcC15MzdLdWFxMmlFVTRXc0pVMkZxSnZlaGY5VFNLLUVuVWZLYjBQUXdIRWR6ZDdiWHJnbUhzZGFfN21aU05ianVNOWU1bVF1NmpYWGJ6dlc1UWxHeDFyOXVPZFJDUmZwb1A3ZmFFeWVKZ21VQndDMGI3UGJUUUtBOEFZQ3BBSkFNWWhNcGk5VF9COHR3QlV2LWdnMllGTXVzM2VuUUZuU3Jla3JQU1ZjcDFvbnY1N0VOQUxiQdIB0wFBVV95cUxQWHYzM2ZZUEVjZjNuTWNleVZwdTRHTlRhVlFCLTlyYWMzUXF4d21Ic0JRbDQ4dmxEbzVRRXZnRmZILTZDLUpZZ3VMVWVqSFk1b3FTSUZVb18xSmo5YkZrWk1sZE55dTRvZzJtRGJlbDNaajl2S09tZnJLb2FnOWw5T1p5aEE2X1VHQzNNb19mdHlWbkoxLXN4a2hDdWVMU0phUFVxM1o2UTNzdGxBX25NRVpLMHVhU0piNnRhTjF4RXZNcXM3VXRMRTRHdGIwU01qNFBZ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "FM Sitharaman exhorts toymakers to aim for a fourth of global market share - The Economic Times",
+        "title": "Free trade agreements to give major boost to toy exports: Industry - The Economic Times",
         "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPS3ZSMV82UWN0bEdpSU1qdzgtbTEzcEN2VVpTSlBEd05TWk5ibkoxZF9obEoxbFZDRVhIZGJ0c3E5THFxTXVidVB4U3gtY3NWTGVsOTJUQ0NBZUlSeHRfVVB6N29zVDNQZzVRTTVUQ0I2SXktXzFlOFRLMTM5NVVjdDRGTWpkRVktNERwN3BfVkR4OUpLRlpjSFBMaTBKempXVnJ5V3hSa2FKQUxkOUhTOEZtalp0WVZMdDFVakt5SzQ3Y1RHaWh5VExIWEthRUNYNW8xZHAzdzd4MzRTNGs4R2syUko5Vjdy0gHuAUFVX3lxTE05NHk0VU52bmFSUVVtWmtRTV82dGdtZ3F2VUd6YlhlLVF2ZXZ3b0d3VjgxNFJTQkJmU3hhRVQ5VHQySGtXVU80ZkNFU1YwWFdSX09ZaHE4ZEwzdjhBOGFIU0dYY1BreThwSjRUWS02OFlMNjR4a1BzVzdmeGVxQ2JDR1pNVGU0b21zRWJuRUZSQllpZERoaUlrWVB5T052LUlXX3VjTFpkZG9GdDZwOGUyN082RGQwdEtoLXBBRXZVcXlMMklWVGlPTldib2JsZW5vVUppMVlTQUROLW9waTBvN2ExSGM1VkhuWVBNRmc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbU93RDZrWUF2RG03bi1kUUFIT1BPYkNkT0ZJc1NIam9hcUlZR0JSSGFFMDM3ay1jaXYwdFdTdm45NktlaVZGLXd1TDVYMEUtdUtBZFZnWWxCQjFHOWpGTVp2VjB4NXNSX0Z2WFBBMnQ4WTJCbzE1Qmlfa0NScHM2eXpPLUU1VzhzeGRBOUl2WXVPczdZU3lOdExDQTNrd3d5emoxQkl0Ylk5NmNMdEsta3BlSVdIeGFtMTdLWWhtTDktRUt6anNXd0p6R1JxSnZaeHVYWldZQlNvcUx6QjNv0gHkAUFVX3lxTE9TdjlHa3VEcG5UZk1pYURWbmRrOGtQQTlxUmlkRmtDbjlJWkZPYkZ0di1XM1FKemtxNzk2MFhzTERKU1BwRVU2NTMzalNjQ3hwRXVtUDBjYmVKekJGN1VuWlJYLU9SMm02Z1hoQ2dTYjEtanVYSFpmSkJwUWxXdXM5cV9udkJoVll1WjZrc0M5OGRNeGdIX2NvR1NVbTdUR09BTTBaVUhBUHNwc241WTdHcThRRWlqMUpKYXd4WGFWNHA0WjZmYnFRdVk2V1UxY0djTGNOZVpNR3M1ellqODdxUU5YOQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Breaking News- Indian Toys’ export grows from US$152.7 million in 2017-18 to US$ 384.7 million in 2025-26 - jharkhandstatenews.com",
+        "source": "jharkhandstatenews.com",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLVFTUFZqT0RsVWtBUkRUajVkVE9Pd1kyc2ZWalZoZHU2cVhiTEgta3phQldBdGw5NmtqSVFCamNwX1VHTU9weS01bEZRT0hnS3BVS0hBdUEwU3hPNG1hZE5zdTJLdFh4NG54ekJfV1FkeVJXVnJuUGc3VXQzQ1Y3Mmc5T243UF9yT1kxRmNhaEpraVhqS2d0VFRLeEV2TTcyQ3QzblVZdDJNNm9nT3A5bndOWk1VTU56dkY2dEFFYUNrQlFZRXBCeVQ1TlhlQjlDOTNuQ0dTUHJRZVZqeDJTakN6REFRVzQ?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "母婴&玩具"
   }
 }

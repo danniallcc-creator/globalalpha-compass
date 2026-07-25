@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 68,
-      "trend_direction": "stable",
+      "interest_score": 75,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-21"
+      "fetched_at": "2026-07-25"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-25",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight top 10」增速 250%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Rail Logistics Market Size, Share &...」。",
+    "trend_summary": "多式联运：海外社媒「logistics review 2026」增速 242%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，Market Research Future关注「Freight and Logistics Market Size,...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight top 10」增速 250% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「logistics review 2026」增速 242% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "freight top 10",
-        "growth": 250.5,
-        "vol": "758K",
+        "kw": "logistics review 2026",
+        "growth": 241.5,
+        "vol": "748K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "freight market alert",
-        "growth": 242.0,
-        "vol": "507K",
+        "platform": "google",
+        "kw": "shipping wholesale supplier",
+        "growth": 209.5,
+        "vol": "619K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics trending now",
-        "growth": 215.0,
-        "vol": "412K",
+        "platform": "instagram",
+        "kw": "logistics #trending",
+        "growth": 200.5,
+        "vol": "508K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "shipping wholesale supplier",
-        "growth": 173.5,
+        "growth": 206.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "logistics market 2026",
-        "growth": 144.5,
+        "source": "Linkedin",
+        "kw": "cross-border logistics export opportunity emerging markets",
+        "growth": 85,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Rail Logistics Market Size, Share & Analysis, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4T2NxTFZ6aWJFT2NGeHcxLWpXV0cxNkVDeUtOOVJtQVQwNjM5aFk1MXlvd1hzbVlrTWxNVHBmbG5ubXdQXzdUMEZHcHlkbjhOQlFwR2hld0E5aTk4ZzNaTlhiSm1uaTZHT0NpbmZvcm9GMF9QbXhJ?oc=5",
+        "title": "Freight and Logistics Market Size, Share, Growth Report 2035 - Market Research Future",
+        "source": "Market Research Future",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdFY3Tlg2dUZMV1ZZWjRrYUpWa2RVcUY3WTVUUHZfMzBndlVuWk83dTRKczQ1Q3ZleTlHUDFKTlBhME8zVEwyN2xzWXU1NzAtZVRHZWhMNUtYVnFuMl84RVV4am9oTEE0QU14N1BFLXFtNk9RNDVmMk84WFlLVHFwOEZfZlI?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Gordie Howe International Bridge to open July 27, benefit MI ag trade - Michigan Farm News",
-        "source": "Michigan Farm News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZU5DSUIxczN2SmpnQTF0eGdGX29lSkRrRnZoSl9kb0lSTUxTMl9vSGxxem5OMWZvNUxKckhHQm1PSXlLRzRHeHdBQ0p0Y3dLUHVrWlE1OHJjTFBJLTJsbnZRZ1FHM0gyMFFrTUIwdlpLWnI0aUhydnFOdDdsWm9zNnR3T2k0T2I4OVBoYVF2MTVjc3g0emRlb0RVM3VDWG5ldUxz?oc=5",
+        "title": "From Warehouse to Runway: New Cargo Hub Accelerates China’s Electronics Exports - iChongqing",
+        "source": "iChongqing",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLW1jWWFkYm44MlJYMFBrUGJjeHl2VFVfUjdNcUVHRHhKR1RCbjZTdU9GLVJtQnpkZDI3QmVSYmswd2MwVUpMUWxLZHVYMC1KT3NPUjk0azlKVlFlNEEybk9JMDJ2UzZON0JvTE1rUnBWb1JWVkstZ0ZLV2xJWWpuZ2dyMW9uTWpfZ3IwSGRhUjQxUGZ3VVNyVGdXNTVNcUFwWEc2UlZsQ19fMkRWc0dMalhfdTMyajFZ0gG-AUFVX3lxTE03V2RhRXphMXlIcDJsU2JYUVlMOTlJclI0c0kxcTZsVW1MNFlUeGlocF9WRWdLM1hZaVB0TWkwbUNRR0VKR1FfaGUzQWstNnE5VGY0RXlobmlTdFBsZG9PUFBTUVVFOENzdWhZZUYzc0dFTUxZajNkd21JMTZiRFFvWTVhZEg5OEpqa1JNS2hLQzNpTEVpSXJBUmJWM3VVNExZOWVnLXdtYi1SUmpRRm1tVkQ3UklTTUs0UGFpY0E?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "买家物流市场"
   }
 }

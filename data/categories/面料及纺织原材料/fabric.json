@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric must have」增速 242%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-44，Fibre2Fashion关注「| China exports $22.72 bn of fabric in...」。",
+    "trend_summary": "面料：海外社媒「fabric b2b export」增速 250%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-49，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric must have」增速 242% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric b2b export」增速 250% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric must have",
-        "growth": 242.0,
-        "vol": "302K",
+        "platform": "google",
+        "kw": "fabric b2b export",
+        "growth": 250.0,
+        "vol": "458K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric market alert",
-        "growth": 218.0,
-        "vol": "290K",
+        "platform": "tiktok",
+        "kw": "fabric viral hack",
+        "growth": 213.0,
+        "vol": "126K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric unboxing",
+        "platform": "tiktok",
+        "kw": "fabric trending now",
         "growth": 193.0,
-        "vol": "77K",
+        "vol": "192K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 112.0,
+        "growth": 247.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric digital transformation",
-        "growth": 92,
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "| China exports $22.72 bn of fabric in Jan-April; top 5 markets take 41% - Fibre2Fashion",
-        "source": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ0RaTjdrOWhhb2ZEUlpwV3NtLTVtWnBULVd4OTk1YWExWFBWaXVvdnNzVE90YVdaOURKVmNSVWxrV3hIeXlRNGdQWWVtc1ltLUZHSnQ3WHgzTllMYkxSLTZTNGFXdHlIU1ZYLVpoT2lMTGtSUmNzeHo2dUphdmJFODBOb0dkRERXeHJlUHg5aFpBVC1jR01CNndLS25ueTdFeU45ME1KYm40NFMxQjlsZmt4NUc2NmJmNVpSUnZzUmpVVTg0OWxDMFNMYmI1b1N6bzljcWtWUHdEczhtdVYw?oc=5",
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 91,
         "hits": 2
       },
       {
@@ -106,26 +99,33 @@
         "hits": 2
       },
       {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 44,
-        "title": "Top textile - Premium Edition",
-        "price": "$165.0",
-        "rating": 4.8,
+        "dim": "媒体",
+        "title": "Polyamide Fabric (HS: 5902) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53OExyUlN1ZmpPall3NWxHVHFuTHV0d2dxdW5UeTBKdE1jNTlWOTFuVjNINEFnMHBrS3RlalVyTWI4QUhUc3BfVUE1SkxwblpCdzFaY0p0M3dpNU9v?oc=5",
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 37,
+        "rank": 49,
         "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$284.5",
-        "rating": 4.2,
+        "price": "$280.5",
+        "rating": 4.1,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "JP",
+        "rank": 36,
+        "title": "Top textile - Eco Edition",
+        "price": "$272.4",
+        "rating": 4.0,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "面料及纺织原材料"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "数字标牌系列：海外社媒「commercial equipment b2b export」增速 244%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Europe growth hit more by China exports...」。",
+    "trend_summary": "数字标牌系列：海外社媒「commercial equipment review 2026」增速 244%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 数字标牌系列 出口需通过合规认证",
-      "海外社媒「commercial equipment b2b export」增速 244% 领跑 → 数字标牌系列社媒种草热度爆发"
+      "海外社媒「commercial equipment review 2026」增速 244% 领跑 → 数字标牌系列社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "commercial equipment review 2026",
+        "growth": 243.5,
+        "vol": "518K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "commercial equipment market alert",
+        "growth": 232.0,
+        "vol": "195K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "commercial equipment b2b export",
-        "growth": 244.0,
-        "vol": "290K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "commercial equipment industry report",
-        "growth": 242.5,
-        "vol": "373K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "commercial equipment top 10",
-        "growth": 187.5,
-        "vol": "749K",
+        "growth": 230.0,
+        "vol": "799K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment b2b export",
-        "growth": 241.0,
+        "growth": 227.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment market 2026",
-        "growth": 158.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Europe growth hit more by China exports than bigger trade gap, Goldman says - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNjJpdkF0c2oxMVlubW4wWnZuSEhkWmdHU3ZNeFRMMkIwVEtpd2JEUHdKTGxzcTVFUjJLNGlpbVdtc2RiSUt0UktBZmhzWUctRTlLelctTWVjOWV0SnRJV2VRNW8xSGNEazdCWkZJaVBXeWxod2RxbkRQRHZnejZfMnd2Y21IU3UwcUx4ZVlZUHA4YmkxdFdUeUJVWE1qdXdnT042MFV0SXpRSnBSdjJZT3FYbzJHQ3FjZlQzWWpodFZiT3ZoM0hkamJleVl5ZHRM?oc=5",
+        "growth": 181.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US May trade deficit widens as capital goods imports hit record high - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZXVGUWhvckhjbnlmLUN4ZUtvd3E1QnBGUEN6Z1h0MFZMU1lTYl9QUS1nV2tEYVBmUzFqdkxmb1ljYkxORGxtRnlkNm12WFZXOHNMb0Q4SWpDaklYaldtY19aSFdzMFJUNVliWTNPSkVTX0xLMklVellCZ2RNY1ExSVJnZFJqTkk1WW9LOHJjTzNQdFFEMWg5UWVMYzQyRGxGbkRWWU83WmwtRnRNZW1vVlZ5UU1BeEE1OEE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "商业设备及机械"
   }
 }

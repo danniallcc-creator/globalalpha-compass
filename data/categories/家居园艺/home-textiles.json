@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家纺：海外社媒「home decor market 2026」增速 256%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
+    "trend_summary": "家纺：海外社媒「home decor #fyp」增速 234%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，BORGEN Magazine关注「Growing Hope: Community Gardens for...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家纺 出口需通过合规认证",
-      "海外社媒「home decor market 2026」增速 256% 领跑 → 家纺社媒种草热度爆发"
+      "海外社媒「home decor #fyp」增速 234% 领跑 → 家纺社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "home decor market 2026",
-        "growth": 256.5,
-        "vol": "246K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor new arrival",
-        "growth": 250.5,
-        "vol": "597K",
+        "platform": "tiktok",
+        "kw": "home decor #fyp",
+        "growth": 233.5,
+        "vol": "337K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "home decor tutorial",
-        "growth": 243.5,
-        "vol": "763K",
+        "growth": 224.5,
+        "vol": "685K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "home decor top 10",
+        "growth": 220.5,
+        "vol": "600K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 253.5,
+        "growth": 193.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "garden b2b export",
-        "growth": 220.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
+        "kw": "home decor wholesale supplier",
+        "growth": 190.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Growing Hope: Community Gardens for Displaced Communities - BORGEN Magazine",
         "source": "BORGEN Magazine",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWVQyR1FJbnQ2dDdkazFZUUZNQXJ3QzRVZGw0YlhwMjZMX2NHY3piemFXUEMwTmczbUpqX1ZqTGRqeDFkdVBpWVdCSzZOOWlHSlVhRHFoSlE3WHFtNld1UVNBRGtPUHVUXzl1cExMSGN2WXhqM0c4bjBjYkJlNEhwczNJTVB5REtTRjlOcmhyVmN4UQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "New US tariffs linked to claims of foreign forced labour dismay and anger trading partners - The New Indian Express",
+        "source": "The New Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmNMUGpxYmdnZ3M1WGE3eUphRktPTkpSMXZQRS1tbkVPMnFrcTNhaG04dnhhX0NYaEVTQ3ZFTnprLXgyQUZqNkpuUWRBMG9Dei13MmFCQU16TldJQkExZFB1QUlvdnZ5cVpwb1kyVGEwQ3ZMQTFaaEp1Mkd1SVlPLXdNaWptVExENjc2Y0tBZHFjOEQ2YWhiZzBBOHV3VUtuUU5QZXBGV3ZIX3FPUnhheWpJbGRORWNidk8zMXJfMktTdGVkYndvMWJWWkZlUTZyRXNaNTlsRTTSAeYBQVVfeXFMTVRaU2x5QWxzRTM3Z0VxRXR1ZVVWZGFzU0VXb293RVE5SHNIT29XaWcydUhNSUVPTzU5Vzh1VXZnWmpYbDRsQ2hRNzhEVy1zNTRkOGdMVmxOWmR1SF9CSEJmc09HQWtCdXZna0FQbGt6NlAtc2t0Y3FDREIzSWJqaTVvWmk0bEo1TDI1a0VDWXZrN0tySGw5VjNld1pJVGN5NTRWd0xzcFpVLXJIMllCN0FNeFBRYUFPczRjVHozcExoby1NUlNZX1NqZVlYRkU1QWVxZ1dKLWxRUkJLdHp3SHh3by1Tc2c?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-07-21",
+    "generated_at": "2026-07-25",
     "l1_ref": "家居园艺"
   }
 }
