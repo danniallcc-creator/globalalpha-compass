@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "碳钢：海外社媒「metal must have」增速 245%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，IEA – International Energy Agency关注「Executive summary – Global Critical...」。",
+    "trend_summary": "碳钢：海外社媒「metal market 2026」增速 256%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，IEA – International Energy Agency关注「Executive summary – Global Critical...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 碳钢 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 碳钢 成主流",
       "欧盟 CE 标志强制准入 → 碳钢 出口需通过合规认证",
-      "海外社媒「metal must have」增速 245% 领跑 → 碳钢社媒种草热度爆发"
+      "海外社媒「metal market 2026」增速 256% 领跑 → 碳钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "metal market 2026",
+        "growth": 255.5,
+        "vol": "780K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "aluminum tutorial",
+        "growth": 249.5,
+        "vol": "213K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "metal must have",
-        "growth": 245.0,
-        "vol": "362K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel viral hack",
-        "growth": 242.0,
-        "vol": "458K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "metal breaking",
-        "growth": 230.5,
-        "vol": "689K",
+        "kw": "aluminum viral",
+        "growth": 234.5,
+        "vol": "400K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 200.5,
+        "growth": 252.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 178.0,
+        "growth": 219.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "India opens steel dumping probe into China, Japan, Russia - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkdUSzY3RWpENURtT2l1RWlZS0swcWxxX3U0M1hsNVRpVlZCVVFTR2xlZnlObDdMNlZZcGQzc1cxT2ZtQzZVQVFDUTdNVExfX3h4dU9CRmYyRlk4alA1eG9BOEhpTHlpdEI1SUdUT1M4ZUJrZkVXU0FCQ0RtV1hDRTE5NldpcmdZcmZ3SUp2TXZXWjZ6WmJ0b0JpMVpKbU04TklQTTFR?oc=5",
+        "title": "EU Steel Tariffs Have Investors Rethinking These Export Focused Industrial Stocks - simplywall.st",
+        "source": "simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdGEwUXhQNmtaRHgxUDJkOUdLbC1tdlNyVjMtZUl2YVJwaUMxeWhITjNSa2NLT0lNdThpOEdLZlUxWWhhbEdjNVl2b0NkZFNKZkhHRmZxLS1rQ3lIOVMxNTlDSzBkT0YyZVI2M3JhaWlibUlmekx1QjB0UG16eWtBTXc5VjZTWWdZSzFxNHBPUThSdHRVS3dRMWtQQk1vemFkLUVYaUVkX0tSaXhGWlBNQ29pV0NmbmJweHNVLXI2NDB6andQQTVOWDFTTWZ3MXV4ZFFBTXlsVdIB3AFBVV95cUxOaWxHVm1QY3kwNjZHaGtfWUN2VmdFdk5VSDRlbW9lVHpGbzdObTJfNnZJMy1ubE84eHBVejVuTzFOd3BVYkh5WENFZzFveXdTR0ZvTTJvUnA0VFJVdFVlQlJVbmxBT2dOWkthdGlLRnRzNGtiZy1TellyQWt5UXRVeXBkdHJNaTJOY1RJRnVBMXZxMlExazVsTkdhdGZyeGlfODEzR1Byd2hCS2ZQbDhnbDBqZ29JOWtJMmRaX2g5cFNvVnZNWkhQNTk3NVVMRER4ZHY4dFRNSG1kOG9p?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-07-25",
+    "generated_at": "2026-07-29",
     "l1_ref": "金属与合金"
   }
 }

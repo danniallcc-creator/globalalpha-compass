@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "即食食品：海外社媒「food market 2026」增速 252%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，USDA Economic Research Service (.gov)关注「Agricultural Trade - USDA Economic...」。",
+    "trend_summary": "即食食品：海外社媒「beverage unboxing」增速 246%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Market.us关注「Almond Products Market Size, Share |...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 即食食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 即食食品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 即食食品 北美本地化制造红利",
-      "海外社媒「food market 2026」增速 252% 领跑 → 即食食品社媒种草热度爆发"
+      "海外社媒「beverage unboxing」增速 246% 领跑 → 即食食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "beverage unboxing",
+        "growth": 246.0,
+        "vol": "553K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "food market 2026",
-        "growth": 252.5,
-        "vol": "60K",
+        "kw": "snack wholesale supplier",
+        "growth": 242.5,
+        "vol": "440K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "beverage unboxing",
-        "growth": 248.0,
-        "vol": "390K",
+        "kw": "snack tutorial",
+        "growth": 239.5,
+        "vol": "797K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage b2b export",
-        "growth": 245.0,
-        "vol": "687K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 239.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 249.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beverage b2b export",
-        "growth": 242.0,
+        "growth": 86.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Agricultural Trade - USDA Economic Research Service (.gov)",
-        "source": "USDA Economic Research Service (.gov)",
+        "title": "Almond Products Market Size, Share | CAGR of 6.4% - Market.us",
+        "source": "Market.us",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aZ2JlZDBOLVZ3VFZDLXNkZVQ0YXNuUGd1RGdsZy1OcjZUMGZOMFI3NVVfc2FQdm1iTUpYbEdRS1ZqZ2hDc09QQUhFMDZUcGFtT1NvcnljMkNjSUE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Agricultural Trade - ers.usda.gov",
+        "source": "ers.usda.gov",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Döhler Invests MX$1.2 Billion in New Mexico Plant - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONlhJWkhSY3ZnT2JqVXRwelVPS2czUDNTSjNQdGg1UUlmT3NJTklrMVZhTUkwS19TOTVJeVpOdzBfVUhaMzFHUmFScjZhaTBGUTVSX3psLTAwYlBnUjBtT2lVMGx3ZUZhNGdkVmRrd0d4clk5NDZNVWd1Qlp5dFJwemF1OUEzMFV2dlBHSEhKU2tGX29PNVN0VE5kZnZlckk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-25",
+    "generated_at": "2026-07-29",
     "l1_ref": "食品及饮料"
   }
 }

@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "68",
-    "total_export_value_usd": 26439304,
-    "total_net_weight_kg": 15939304,
+    "total_export_value_usd": 50194482,
+    "total_net_weight_kg": 19694482,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-25"
+    "fetched_at": "2026-07-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 46,
+      "interest_score": 73,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-25"
+      "fetched_at": "2026-07-29"
     }
   },
   "industry_analysis": {
@@ -52,37 +52,20 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-29",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": {
-      "total_usd": 13355461126.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 1304356137.0,
-        "yoy": null,
-        "share": 17.5
-      },
       "DE": {
         "value_usd": 4362982812.740002,
-        "yoy": 18.1,
-        "share": 58.7
-      },
-      "JP": {
-        "value_usd": 1063613936.767,
         "yoy": null,
-        "share": 14.3
+        "share": 57.6
       },
-      "AU": {
-        "value_usd": 707043877.337,
+      "GB": {
+        "value_usd": 3211533323.9459968,
         "yoy": null,
-        "share": 9.5
+        "share": 42.4
       }
     }
   }

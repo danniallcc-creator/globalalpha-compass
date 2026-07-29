@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 26180327,
-    "total_net_weight_kg": 5680327,
+    "total_export_value_usd": 12883303,
+    "total_net_weight_kg": 2383303,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-25"
+    "fetched_at": "2026-07-29"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 61,
+      "interest_score": 79,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-25"
+      "fetched_at": "2026-07-29"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-29",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -69,22 +69,11 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxONlNEbWhuWWZqNmduYzJ4M05fS3VaWjAzY0lKSjRBVG5qQU4xQW4wTWV2ZEk1Wk8wc0pPSWg0M0FuLWtHTXFDcUJNQ1lvSkx6MFduQ3lYVmVZVmdrNGVvakVSSHcyUG1oOVBzTUxROExHRW9BS0MyWmhoUGljemVRV1dzU1lLeG5SSlZ3OE5QZw?oc=5"
     ],
-    "fetched_at": "2026-07-25"
+    "fetched_at": "2026-07-29"
   },
   "customs_2025": {
     "china_export": null,
-    "imports_from_china": {
-      "JP": {
-        "value_usd": 5527161124.805,
-        "yoy": null,
-        "share": 44.5
-      },
-      "AU": {
-        "value_usd": 6906149664.940001,
-        "yoy": null,
-        "share": 55.5
-      }
-    }
+    "imports_from_china": {}
   },
   "policy_updates": {
     "articles": [
@@ -99,10 +88,29 @@
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1qQmxxa0JIQlNwRElmSWtLX0pJZlFWN19pd2V0VjM1S1VxRkpTTlVXMC1wdGJLd0t6QzVMNlg2NVpVT0xUZ0ROLU5tdFBrckE4alQyQnVBNGZUTG5JU1NhOHFWaUVuTnVaRG13dDRxM3BWMWZvZ1c2QnpB?oc=5",
         "published": "Fri, 24 Jul 2026",
         "source": "Fastener + Fixing Magazine"
+      },
+      {
+        "title": "Poland Lockbolt Fastening Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxONmxOSDRFejdjdzJJV3hDeUlaRlR4eG1HMXdadWR5NmdVdEJiT1VHS2U5OU95dlJSQnBEeXBEVHZFaVlibHZ0ZHNYVGFPWVo4aWhDNkRoOVZLeV9IV1hLZGxmTmJCZWc5MUVPazYzTFR6X0JvQ1pQWEhPV21MLURsUUdwOTN6TVRqMG1la2tpemFNMktGTHJtLS1hUFNyUXdpNFNrUWkyZm03dEVyT2FZUUtpTXo?oc=5\" ",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONmxOSDRFejdjdzJJV3hDeUlaRlR4eG1HMXdadWR5NmdVdEJiT1VHS2U5OU95dlJSQnBEeXBEVHZFaVlibHZ0ZHNYVGFPWVo4aWhDNkRoOVZLeV9IV1hLZGxmTmJCZWc5MUVPazYzTFR6X0JvQ1pQWEhPV21MLURsUUdwOTN6TVRqMG1la2tpemFNMktGTHJtLS1hUFNyUXdpNFNrUWkyZm03dEVyT2FZUUtpTXo?oc=5",
+        "published": "Tue, 28 Jul 2026",
+        "source": "IndexBox"
       }
     ],
     "country_summary": {
       "Unknown": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "EU": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
