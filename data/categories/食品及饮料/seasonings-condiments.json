@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "调味料及调味品：海外社媒「beverage unboxing」增速 246%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Market.us关注「Almond Products Market Size, Share |...」。",
+    "trend_summary": "调味料及调味品：海外社媒「beverage market alert」增速 253%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Market.us关注「Almond Products Market Size, Share |...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 调味料及调味品 出口需通过合规认证",
       "美国 FDA 注册要求 → 调味料及调味品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 调味料及调味品 北美本地化制造红利",
-      "海外社媒「beverage unboxing」增速 246% 领跑 → 调味料及调味品社媒种草热度爆发"
+      "海外社媒「beverage market alert」增速 253% 领跑 → 调味料及调味品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "beverage market alert",
+        "growth": 253.0,
+        "vol": "746K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "beverage unboxing",
-        "growth": 246.0,
-        "vol": "553K",
+        "growth": 252.0,
+        "vol": "419K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "snack wholesale supplier",
-        "growth": 242.5,
-        "vol": "440K",
+        "platform": "instagram",
+        "kw": "beverage new arrival",
+        "growth": 246.5,
+        "vol": "413K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "snack tutorial",
-        "growth": 239.5,
-        "vol": "797K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 242.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "snack wholesale supplier",
-        "growth": 239.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
-        "growth": 86.5,
+        "growth": 105.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Agricultural Trade - ers.usda.gov",
-        "source": "ers.usda.gov",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelVZbnNZeVVrLWpqVWFnZnpBdUZRekE3OHpvR3hMT1JLVVB3NEkwVXhvM0lCVEttTl83aHhhZ01lM3lBaWdBR0RuQmlJdFFFLWpJb25fZzVNNzVjUG15VWduWHhPcVY0VWFzcF8tMV9hTlJ1dFBUR294Z0s5NzZYaW9rTzc3aXhzbTJxZDFnZVpRRUlmQUVPZVd5S1hxc0xIaEhwWHJ3?oc=5",
+        "title": "Beyond Borders: Why International Markets Offer Massive Growth for U.S. Food Brands - totalfood.com",
+        "source": "totalfood.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lWk5jR19xZ2NURG5EVFBOSUJ1c1F5OHZtcEZTZDU1aWR1RWw2U1dCVVg0N1F1WVRwaklqaF84TFVudVdWd29MZEw5UXlYUVlBS3JNYm42UU1wREhzNjZsQ08zMmN1X0VDUmRJNkpfRUVqWC1EQlMyWUtyekpId1E?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "食品及饮料"
   }
 }

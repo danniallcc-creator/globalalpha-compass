@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "摩托车及脚踏车：海外社媒「electric vehicle supply chain」增速 224%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China car sales fall again, exports...」。",
+    "trend_summary": "摩托车及脚踏车：海外社媒「electric vehicle supply chain」增速 250%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China car sales fall again, exports...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 摩托车及脚踏车 出口需通过合规认证",
-      "海外社媒「electric vehicle supply chain」增速 224% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
+      "海外社媒「electric vehicle supply chain」增速 250% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "electric vehicle supply chain",
-        "growth": 224.5,
-        "vol": "108K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "ev unboxing",
-        "growth": 204.0,
-        "vol": "584K",
+        "growth": 250.5,
+        "vol": "26K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "electric vehicle tutorial",
-        "growth": 202.5,
-        "vol": "87K",
+        "growth": 247.5,
+        "vol": "421K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "ev price trend",
+        "growth": 230.0,
+        "vol": "149K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 109.5,
+        "growth": 147.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ev b2b export",
-        "growth": 105.0,
+        "growth": 114.0,
         "hits": 0
       },
       {
@@ -98,8 +98,8 @@
       },
       {
         "dim": "媒体",
-        "title": "Vietnam’s biggest company, Vingroup, expands overseas as its home market slows - ABC News - Breaking News, Latest News and Videos",
-        "source": "ABC News - Breaking News, Latest News and Videos",
+        "title": "Vietnam’s biggest company, Vingroup, goes global as its home market slows - abcnews.com",
+        "source": "abcnews.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbUp5ZWNTWlBxVVYzdE5VTUVFZ19ub0ktVzkydnNOS2Z5bHdCU0hwZS10dTk1RVVJbE81LWpNdUxhQ1ZYcU54aDVmeld5ZDJRaDY1SjA2VG1FTjFZemppdmIwSWhrSENnQ0Fob2dhTkFDY3BlaGkxS244bVcxT3MwMW5udng1a1k3X1BIRjQ1R201aUhLTklTZm9xaFhORUEtNkh5U2N5QThlUVM0TGtDaNIBtgFBVV95cUxOMllYQXZnLUV4c040SUV3ck16T19VTHdLeTZXNUV1SVFvQnJFMC1TaG9QTzFtR01PV1RPLVR4ODFXZW1IdXNpQTVyOThvVVZBNjZiellWZUd3aGduaTZLaTRJWkVTVWlmaGdkaHo3ejFEZGp6eUp3OG1aTXNhWWltdVRXNEs1eXMzVk9FdEZOM2pDOXhld3NyWEFlWXZqMklhOEg4UWJkTkVWbFQtNFMtazRFYWdrUQ?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "整车及交通工具"
   }
 }

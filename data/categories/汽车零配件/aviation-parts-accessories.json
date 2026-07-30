@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "航空零部件及配件：海外社媒「auto parts #fyp」增速 224%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「India's auto parts exports to US remain...」。",
+    "trend_summary": "航空零部件及配件：海外社媒「auto parts industry news」增速 251%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「India's auto parts exports to US remain...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 航空零部件及配件 出口需通过合规认证",
-      "海外社媒「auto parts #fyp」增速 224% 领跑 → 航空零部件及配件社媒种草热度爆发"
+      "海外社媒「auto parts industry news」增速 251% 领跑 → 航空零部件及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts #fyp",
-        "growth": 223.5,
-        "vol": "452K",
+        "platform": "x",
+        "kw": "auto parts industry news",
+        "growth": 251.0,
+        "vol": "261K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "auto parts price trend",
+        "growth": 238.0,
+        "vol": "66K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "auto parts viral hack",
-        "growth": 220.0,
-        "vol": "486K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "auto parts top 10",
-        "growth": 218.5,
-        "vol": "491K",
+        "growth": 238.0,
+        "vol": "672K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 186.0,
+        "growth": 90.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto parts wholesale supplier",
-        "growth": 149.5,
+        "source": "Linkedin",
+        "kw": "auto parts export opportunity emerging markets",
+        "growth": 85,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "A new African car export powerhouse is set to emerge before the end of the year - Business Insider Africa",
-        "source": "Business Insider Africa",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZUdHMkpWTGlja0VaZFJkRzQ0V1lWdThrNGRja1hzXzBiejU4Z1dRSWF4ZkxiRXd6alhEQkNscHZVbUFJMmFRdktCRkptZDg3VkNveWdzb1NScTdfVTEzbUhqZkYyWnN2RlpKV29IenRzcE91NGhyaGRTOUhvZXdCeGExRHRhVG1jVnd6UTV5REF2RFpvSzFfRmVCNUxpOWs5ZXc3MWwybGUxcFNLRENmYWJ3a24tNzI1dHFwOUtPaWt2blRCU3lKck1FT0ZnXzVzYUE?oc=5",
+        "title": "Germany (DEU) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ub3RsNjFvVk9ncFJJTXpoeTZZRURVTDZ5VGE3SXRYTE9WelVfYXo2VjZLQ0JNY09NcUVaTXE2NWN4N2E1eFBKcWh2ZDJuSUVfbmc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "汽车零配件"
   }
 }

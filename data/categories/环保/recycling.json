@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental analyst」增速 240%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EU softens carbon market to ease...」。",
+    "trend_summary": "回收：海外社媒「green tech must have」增速 252%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，China Daily Global Edition关注「China's dynamic expansion opportunities...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental analyst」增速 240% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech must have」增速 252% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "environmental analyst",
-        "growth": 239.5,
-        "vol": "712K",
+        "platform": "instagram",
+        "kw": "green tech must have",
+        "growth": 252.0,
+        "vol": "698K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "green tech market alert",
-        "growth": 238.0,
-        "vol": "367K",
+        "platform": "google",
+        "kw": "green tech b2b export",
+        "growth": 231.0,
+        "vol": "255K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "environmental breaking",
-        "growth": 218.5,
-        "vol": "688K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 192.5,
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 228.5,
+        "vol": "74K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 185.0,
+        "growth": 228.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "EU softens carbon market to ease pressure on industry - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYS1kcGtvX2FiY0N0Rl9Ta0txX19fcUZJU3VWMDdqLU51Y1hpVmtyZ040UERmSzJROWdMVWZ4ZlhoRFVRY2V2R3NPRERFTWJvQU51VkkxZkVGMTlzYTJZaURHWmd6V1dwMWxpdGxneUpkby1YekZMdzFnRHJUVlNRZ1Bkdk5lanlhMTNqNy0wZnQ0MldNNHRpMHc5LXpETWtMZm8xRzN3?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental market 2026",
+        "growth": 201.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "China's dynamic expansion opportunities - China Daily Global Edition",
         "source": "China Daily Global Edition",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcVljbkRvbjZYckgyTGpVdWprY1YxeW5YU0RKV1FBbmpCcHpJZEJIOVFIRWxVa3NVSzE3UE9ocVhtdVdZSWprQW5TRHdmOVBkWHBoUzRwQmllejd3WTdOY2lJam1NZl95UHBqSmtfMV9sR1kxSldvc2FTT3dwNnFPUXRYYw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
+        "source": "EPC, European Policy Centre",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "环保"
   }
 }

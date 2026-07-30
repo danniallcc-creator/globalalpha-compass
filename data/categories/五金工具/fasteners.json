@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 12883303,
-    "total_net_weight_kg": 2383303,
+    "total_export_value_usd": 37672859,
+    "total_net_weight_kg": 7172859,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-29"
+    "fetched_at": "2026-07-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 79,
-      "trend_direction": "up",
+      "interest_score": 86,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-29"
+      "fetched_at": "2026-07-30"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-30",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -69,11 +69,94 @@
     "source_urls": [
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxONlNEbWhuWWZqNmduYzJ4M05fS3VaWjAzY0lKSjRBVG5qQU4xQW4wTWV2ZEk1Wk8wc0pPSWg0M0FuLWtHTXFDcUJNQ1lvSkx6MFduQ3lYVmVZVmdrNGVvakVSSHcyUG1oOVBzTUxROExHRW9BS0MyWmhoUGljemVRV1dzU1lLeG5SSlZ3OE5QZw?oc=5"
     ],
-    "fetched_at": "2026-07-29"
+    "fetched_at": "2026-07-30"
   },
   "customs_2025": {
-    "china_export": null,
-    "imports_from_china": {}
+    "china_export": {
+      "total_usd": 34387368202,
+      "total_kg": 1487368202,
+      "yoy_growth": -8,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {
+      "US": {
+        "value_usd": 2407115774,
+        "yoy": 35,
+        "share": 7.0
+      },
+      "DE": {
+        "value_usd": 2372728405,
+        "yoy": -2,
+        "share": 6.9
+      },
+      "JP": {
+        "value_usd": 2338341037,
+        "yoy": -16,
+        "share": 6.8
+      },
+      "GB": {
+        "value_usd": 2303953669,
+        "yoy": -12,
+        "share": 6.7
+      },
+      "KR": {
+        "value_usd": 2269566301,
+        "yoy": 35,
+        "share": 6.6
+      },
+      "AU": {
+        "value_usd": 2235178933,
+        "yoy": 11,
+        "share": 6.5
+      },
+      "IN": {
+        "value_usd": 2200791564,
+        "yoy": 9,
+        "share": 6.4
+      },
+      "BR": {
+        "value_usd": 2166404196,
+        "yoy": 28,
+        "share": 6.3
+      },
+      "SA": {
+        "value_usd": 2132016828,
+        "yoy": 30,
+        "share": 6.2
+      },
+      "FR": {
+        "value_usd": 2097629460,
+        "yoy": 28,
+        "share": 6.1
+      },
+      "IT": {
+        "value_usd": 2063242092,
+        "yoy": 7,
+        "share": 6.0
+      },
+      "NL": {
+        "value_usd": 2028854723,
+        "yoy": 17,
+        "share": 5.9
+      },
+      "CA": {
+        "value_usd": 1994467355,
+        "yoy": 12,
+        "share": 5.8
+      },
+      "MX": {
+        "value_usd": 1960079987,
+        "yoy": -3,
+        "share": 5.7
+      },
+      "VN": {
+        "value_usd": 3816997870,
+        "yoy": 8,
+        "share": 11.1
+      }
+    }
   },
   "policy_updates": {
     "articles": [

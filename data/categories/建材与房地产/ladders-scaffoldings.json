@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "梯子及脚手架：海外社媒「cement price trend」增速 219%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，GOV.UK关注「Construction building materials:...」。",
+    "trend_summary": "梯子及脚手架：海外社媒「building tiktok made me buy」增速 238%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Tom's Hardware关注「While the U.S. flip-flops on chip...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 梯子及脚手架 出口需通过合规认证",
-      "海外社媒「cement price trend」增速 219% 领跑 → 梯子及脚手架社媒种草热度爆发"
+      "海外社媒「building tiktok made me buy」增速 238% 领跑 → 梯子及脚手架社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cement price trend",
-        "growth": 219.0,
-        "vol": "34K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cement unboxing",
-        "growth": 213.0,
-        "vol": "38K",
+        "platform": "tiktok",
+        "kw": "building tiktok made me buy",
+        "growth": 238.5,
+        "vol": "583K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "building analyst",
-        "growth": 198.5,
-        "vol": "64K",
+        "kw": "building breaking",
+        "growth": 229.5,
+        "vol": "575K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cement viral hack",
+        "growth": 229.0,
+        "vol": "409K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 130.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 156.0,
+        "growth": 116.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "building materials market trend 2026",
-        "growth": 88,
+        "dim": "媒体",
+        "title": "While the U.S. flip-flops on chip sanctions, China is building its own chip supply market — export controls are creating conditions for a Si",
+        "source": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQaC0zN1hjTkVNbDJ5MzE3Njc0cFN6UHFCQmhTVVIwZkJaWk9kNGxOTVhLdHVVTnVlWC0xNWNET0dDZHQ2dUZOVk1HRDd6RXQ0aVRIZ2FKVE41N0twdHJid0xPaG5tRkprZHVLQy0zOXlNQk0wci1oQ1ByNW03WXNLYzNMbDJsbkRoQ3kxcHVYZ0hwY0xGWF95NjdUN2NPZjA3V0lDSHoxaVl3el9DaXhGMVh4RC0zbW5CcFhKRU42dWVyVlAwamUySWYxT3FfN3c4M0pXTmlJdlZVb1I0WERNSDlDTUlUMEVJajhwQ1JlUzlTLWFJaEVzazhtaWYwVGJ6akFTVkNCX3lQOXc2dGNvbnBZNXgxNFZteVJpYVZ5SktGZ3RfM01CSTcyU3U5UXBPT284?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Construction building materials: commentary June 2026 - GOV.UK",
         "source": "GOV.UK",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOS2V3NGdRLU1oU1lZb25aYmtSTTFkc1VTUXFxMjk4YXVQZC1KRVNWbkY1RmRsRlhYai1sMW9XR1p0eXQ1WWJlLVpSb2dkUmN3M0hHVFVDdGRLVFZoUlZKVWwwc2E2X2Q2VWphNE1OeTZiTHI2enJXc1A4WTIwdWFieHVDMldxc3lIQWdiTlFWTW5tanY0UkN1UWw2Sl94RnJFa0VOYjBVN3NxS1c1V003TDI0NjVxQVBpXzBvZXNWN0s3S0dFdmkyampNZ2NuYUV4SXlJODRwVy1FTEhYbUVETTlB?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Executive summary – Global Critical Minerals Outlook 2026 – Analysis - IEA – International Energy Agency",
-        "source": "IEA – International Energy Agency",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbFNpdzloN056aHJMNWlmbng1YWZ0VnhkUEpjaUNFZUZlVkpJRXd5TDVWOE9iMlEtZ2dZS0t3aEZtWEJQNHk5ajlPRHZIb1FJRWE3TE5LYmpzVXNUX0pwem9Ndk4tZ3J6VThEMXRLeTNaZUx6bndEU2RrWmRWX1Q1NkJfTVBNOHdFX19j?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "建材与房地产"
   }
 }

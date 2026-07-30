@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food trending now」增速 226%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-49，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food factory tour」增速 216%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-41，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food trending now」增速 226% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food factory tour」增速 216% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 226.0,
-        "vol": "150K",
+        "platform": "youtube",
+        "kw": "pet food factory tour",
+        "growth": 216.0,
+        "vol": "12K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet food industry news",
+        "growth": 181.0,
+        "vol": "689K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "pet food b2b export",
-        "growth": 181.0,
-        "vol": "39K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food market alert",
-        "growth": 169.0,
-        "vol": "282K",
+        "growth": 159.0,
+        "vol": "151K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 178.0,
+        "growth": 156.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet wholesale supplier",
-        "growth": 224.5,
+        "growth": 190.5,
         "hits": 0
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Global aquatic food trade: The latest findings from SOFIA 2026 - Food and Agriculture Organization",
-        "source": "Food and Agriculture Organization",
+        "title": "Global aquatic food trade: The latest findings from SOFIA 2026 - fao.org",
+        "source": "fao.org",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd0ZCRTRFUWJtbUxBem1QaEpXSDNoV0pBOXJjNTZ6VmRUd05wd0FZQ1ZIQzYwS1dJakFTS3g1M0I0UnFBcFJHc0JLdGJtS1J1ZVJsT1hadEoydXJyQ1Z5aEs5dEFOWS1SeHd2TklQMjZvLU1HNWdKeHprRXNUMlBJS3JWcU9TS2lsX2w0VWhrZzFrdGJ2NVowMUpqR1Zfa1NvcEdlRmw0dE84WkQ4eGpxaGMtUnZxUEhpTjVwTUJxUkgydVdoNE9PSlNid05aVXNu?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 49,
+        "rank": 41,
         "title": "Top pet - Premium Edition",
-        "price": "$88.0",
-        "rating": 4.1,
+        "price": "$185.0",
+        "rating": 4.5,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 32,
+        "rank": 22,
         "title": "Top pet - Compact Edition",
-        "price": "$281.8",
-        "rating": 3.8,
+        "price": "$262.8",
+        "rating": 4.3,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-07-29",
+    "generated_at": "2026-07-30",
     "l1_ref": "宠物用品及食品"
   }
 }
