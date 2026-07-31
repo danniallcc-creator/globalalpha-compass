@@ -35,9 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 36,
+      "interest_score": 76,
       "trend_direction": "up",
-      "source": "deterministic_fallback",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-07-31"
     }
   },
