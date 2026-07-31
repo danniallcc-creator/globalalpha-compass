@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "风力发电产品：海外社媒「solar #fyp」增速 242%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，TradingView关注「Morocco Energy & Sustainability Week...」。",
+    "trend_summary": "风力发电产品：海外社媒「photovoltaic market alert」增速 255%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，China Briefing关注「Investing in Indonesia's Renewable...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 风力发电产品 出口需通过合规认证",
-      "海外社媒「solar #fyp」增速 242% 领跑 → 风力发电产品社媒种草热度爆发"
+      "海外社媒「photovoltaic market alert」增速 255% 领跑 → 风力发电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "solar #fyp",
-        "growth": 241.5,
-        "vol": "543K",
+        "platform": "x",
+        "kw": "photovoltaic market alert",
+        "growth": 255.0,
+        "vol": "186K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "energy storage viral",
-        "growth": 240.5,
-        "vol": "375K",
+        "kw": "photovoltaic aesthetic",
+        "growth": 250.0,
+        "vol": "334K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "battery price trend",
-        "growth": 233.0,
-        "vol": "647K",
+        "platform": "tiktok",
+        "kw": "battery trending now",
+        "growth": 232.0,
+        "vol": "112K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 142.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 120.0,
+        "growth": 137.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy digital transformation",
-        "growth": 91,
+        "dim": "媒体",
+        "title": "Investing in Indonesia's Renewable Energy Sector: A Market Entry Guide for Foreign Investors - China Briefing",
+        "source": "China Briefing",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVXFwUnZqLXkzTGd6TDNyeGFhNUZQYlotWHAzLWFtZTNxdi1fNWl6c05ldVdzX3YyOFQycTV5WE5sa3phY2s3ck1CMzlEMDVGQmgyN0dkUkdNXzdFMTZ5cTlpNzUwTzVJR3lwUG9EMVI1M3hneEJOVU94MjFBNGNfOGQtbmppODlXbDhwSjA2SUhOYVpWeklib3pZZWtaZ3FLdk9Wel9KN0cyWXYyTFp0YktleldkSHpVYVhSa1pjYXhra2dKcy1OaVphQUhzNVZubFVMZl9VY1g?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Morocco Energy & Sustainability Week 2026 Concludes in Marrakesh, Uniting Developers, Investors and Policymakers Behind the Kingdom's Energy",
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPNE5ic1Z3TXlrV00tdmJBbjU4S2pvQWRyTXdmeG1JZXlNb19SS2duS09zWkZzRjR3UWZJR21PYVNtOGhDUV91Zkl2YU9vQWhuNWdOTW9DdVRhMUpUdnpuVlAzZlBtaW9TdndleUlVWUt0Yi04ZDZEcGFvT29kZkFaZ3BxX3h4bl8ybGZJZjA5SkFZY29RbHY0QWNqYXQwRjVSemZnNVpaSDNEN0RjMjVOM1AxYkppWGUzQWxEUmJkQ1pUYkVONDVtRnFTdl9QOHdEZEVUMm1iZUVxb250UXlUaDdiVTFrXzlZaFY3ak5MajFERTZ3dzEwVjExTTlFX0o3dUVncnd3a1BFc2lKN0lDVVQwVlFwRzVMaXd1cEhMUWlLb2xVM09aZ21PcEFwQUhSLWhpSw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Trade mission to Asia highlights export opportunities - brownfieldagnews.com",
-        "source": "brownfieldagnews.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGtYRHJHU0lCTWNoeDJpd3dLc1lEbXpnM1JyeWI0S3NoUDRkb2JjR2dnRUZMNVZjeUl4bTJrcWFkUkwtSHZueDAyLUJPaUstUkxLR0oyaFJ1Z2I4WlMxVFJhbVBNTEFIdkxDdFk2SDFYeHlrVURaNGZkcGNkUkphQmJMZDRtTWFqTi1UTDVEdlUxMmdiSW5R?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-07-30",
+    "generated_at": "2026-07-31",
     "l1_ref": "可再生能源"
   }
 }

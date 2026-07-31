@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 40251957,
-    "total_net_weight_kg": 9751957,
+    "total_export_value_usd": 11125613,
+    "total_net_weight_kg": 625613,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-30"
+    "fetched_at": "2026-07-31"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 66,
-      "trend_direction": "down",
+      "interest_score": 59,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-30"
+      "fetched_at": "2026-07-31"
     }
   },
   "industry_analysis": {
@@ -52,54 +52,52 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-07-31",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "ASA Platinum Supplier Partner Spotlight: LIXIL - Supply House Times",
-      "FGI|FGI Industries Ltd|Price:4.280|Chg%:+0.035 - TradingKey"
+      "ASA Platinum Supplier Partner Spotlight: LIXIL - Supply House Times"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmI0eURxbTZSVnB1ZlVqVzVxelNaMW9YM2U5cHJDTmNrUzQxaXYwQzlTTFI1OHRTSFhqNEloRUJ4dUQ3UDBrdzJkNG5tazVtU3RUTTJkbXFIQ0dSSm02cjZSeGhleGtWc0dBcjBUYlQxZEtNbDRnTjBmbThES09TVEc3UWxYa1k4VUhtb3AwWQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aclN6T2xDWXp2YldkTlJxcTNzX0VuVF9yek9iaUJoOE9jcGF0MGxRSzdERDRmWm5uN0ktNVVWT3FYaEF6YjhwRkdCYnlSSDlWcmpveHZtSm0?oc=5"
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVmI0eURxbTZSVnB1ZlVqVzVxelNaMW9YM2U5cHJDTmNrUzQxaXYwQzlTTFI1OHRTSFhqNEloRUJ4dUQ3UDBrdzJkNG5tazVtU3RUTTJkbXFIQ0dSSm02cjZSeGhleGtWc0dBcjBUYlQxZEtNbDRnTjBmbThES09TVEc3UWxYa1k4VUhtb3AwWQ?oc=5"
     ],
-    "fetched_at": "2026-07-30"
+    "fetched_at": "2026-07-31"
   },
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 1667357613.0,
-        "yoy": null,
-        "share": 13.9
-      },
       "DE": {
         "value_usd": 4167886467.4719954,
         "yoy": -2.7,
-        "share": 34.8
+        "share": 34.9
+      },
+      "JP": {
+        "value_usd": 1683303551.453,
+        "yoy": null,
+        "share": 14.1
       },
       "GB": {
         "value_usd": 3374211388.828002,
-        "yoy": null,
-        "share": 28.2
+        "yoy": 26.2,
+        "share": 28.3
       },
-      "AU": {
-        "value_usd": 783918988.0309999,
+      "KR": {
+        "value_usd": 769804434.0,
         "yoy": null,
-        "share": 6.6
+        "share": 6.4
       },
-      "BR": {
-        "value_usd": 217194518.0,
-        "yoy": null,
-        "share": 1.8
+      "NL": {
+        "value_usd": 195184675.40499997,
+        "yoy": 3.6,
+        "share": 1.6
       },
       "CA": {
         "value_usd": 1458850337.3139987,
@@ -108,7 +106,7 @@
       },
       "MX": {
         "value_usd": 294081804.0,
-        "yoy": 23.6,
+        "yoy": null,
         "share": 2.5
       }
     }
