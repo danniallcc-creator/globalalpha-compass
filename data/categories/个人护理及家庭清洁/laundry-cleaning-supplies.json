@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 11125613,
-    "total_net_weight_kg": 625613,
+    "total_export_value_usd": 34495160,
+    "total_net_weight_kg": 3995160,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-31"
+    "fetched_at": "2026-08-01"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 88,
+      "interest_score": 73,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-31"
+      "fetched_at": "2026-08-01"
     }
   },
   "industry_analysis": {
@@ -52,44 +52,61 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 3,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 50.0,
-      "negative_pct": 50.0,
+      "overall": "positive",
+      "positive_pct": 66.7,
+      "negative_pct": 33.3,
       "neutral_pct": 0.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 3
     },
     "top_headlines": [
-      "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - fortunebusinessinsights.com",
+      "Demand headwinds weigh on dry bulk commodities - kpler.com",
+      "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
       "Fresh risks to shipping and global trade - Moneyweb"
     ],
     "source_urls": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHdwXzllYXU5eUNtei1PSXVoQ3pyMVpVMHRDUGVlS1Bhb1o1YmIyUkxGVW51Ylh3ZEduTTVVWkNLZHhDamxaNGlDS3dFZlUtcU9KTWdMQmNTV3JDazl3VmZ6TXlGbDNoOWROcGFOUVhlbG50eXNEV21VdEQ1UDBUdVN5TlZ3d0thMVB2YUQ1dnNuVkV4Q3lfZw?oc=5",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
       "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUFLV0JnM3pkMEk5VTIxajJDMzB5TlZhVUtVenotakJpREp6SkVZRDJ2ajVwSTd2WkxwRjh5OG02T1FkZ3pSR3JLRFBrZU5sV3pQT0FXb2EtN0Q1YVA0dlBYeE5Bc2tNR1JLNHFjYkVXNENLRHByQlBoQnhvbGI3Y3hUUkdRbHBFdEFTNUMtVlhheWg1a3JyWDRNX25OREx0a0tTeg?oc=5"
     ],
-    "fetched_at": "2026-07-31"
+    "fetched_at": "2026-08-01"
   },
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
+      "DE": {
+        "value_usd": 4167886467.4719954,
+        "yoy": -2.7,
+        "share": 48.6
+      },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": null,
-        "share": 61.3
+        "yoy": 2.8,
+        "share": 19.6
       },
-      "KR": {
-        "value_usd": 769804434.0,
+      "AU": {
+        "value_usd": 783918988.0309999,
         "yoy": null,
-        "share": 28.0
+        "share": 9.1
+      },
+      "NL": {
+        "value_usd": 195184675.40499997,
+        "yoy": 3.6,
+        "share": 2.3
+      },
+      "CA": {
+        "value_usd": 1458850337.3139987,
+        "yoy": 23.6,
+        "share": 17.0
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 10.7
+        "share": 3.4
       }
     }
   },

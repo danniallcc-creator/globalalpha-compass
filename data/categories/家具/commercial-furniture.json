@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "商用家具：海外社媒「sofa must try」增速 248%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，The Pig Site关注「Weekly pig report: Hog prices climb as...」。",
+    "trend_summary": "商用家具：海外社媒「furniture breaking」增速 252%，搜索端「sofa b2b export」热度上行，US Amazon BSR Top-12，The Pig Site关注「Weekly pig report: Hog prices climb as...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 商用家具 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 商用家具 出口欧美刚需",
-      "海外社媒「sofa must try」增速 248% 领跑 → 商用家具社媒种草热度爆发"
+      "海外社媒「furniture breaking」增速 252% 领跑 → 商用家具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sofa must try",
-        "growth": 247.5,
-        "vol": "230K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "desk tiktok made me buy",
-        "growth": 214.5,
-        "vol": "459K",
+        "platform": "x",
+        "kw": "furniture breaking",
+        "growth": 252.5,
+        "vol": "457K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "furniture trending now",
-        "growth": 212.0,
-        "vol": "379K",
+        "growth": 250.0,
+        "vol": "312K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "desk tiktok made me buy",
+        "growth": 241.5,
+        "vol": "153K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sofa b2b export",
+        "growth": 220.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "desk wholesale supplier",
-        "growth": 193.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "furniture market 2026",
-        "growth": 154.5,
+        "growth": 153.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Italian wood furniture exports drop 54% despite higher prices - InteriorDaily",
-        "source": "InteriorDaily",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWGtmdi15MzZfTVNhTkZIc1ZoN0VSakhyUjFaUXNlZW5Bcm9NWHNvSHVFT0NzeUNqb2pfUExUSVRjanFOTnpySjB0MExuOHFNTDRFYkhwWXNjT0s1WDlpazBXMDFSTzVyWTRXNGlTN05LN1Q5TnhvN0Vmb2hla2dvWWp0MHgzSklLbzJ0RzJSY0pXZHVER3BrVHd0VEZhLVZnYXRIcWh6U192VU0?oc=5",
+        "title": "Canada-Ukraine Free Trade Agreement as an Instrument of Development and Support of Ukrainian Economy at War - Вокс Україна",
+        "source": "Вокс Україна",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTFJfT01qUUd2V1VFX0xGV19pQ2V1UnNRdDViODdPUjFxQndwdkJHZV9henREcjJZZ3lvRjRDb2p3OFRyTHBkckhqM1d6TkNuZ0g5dUlPUkpJMUI3eDdCMzlqMGhaOFNxZGFaS2tvV2ZDeGVac3pVb015Z19IbjJPaVZSNlRneGEzV1JaSWM3Y2VUUWVvRTNnSm9reEtPQ29BZUVXVnBIQUpjckMzdXY1V1JXQXd3bjlqZ09Gc2dYZkNFUkZGMDNGTHRuaWhMQQ?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "家具"
   }
 }

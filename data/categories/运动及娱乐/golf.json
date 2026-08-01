@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "高尔夫：海外社媒「outdoor unboxing」增速 252%，搜索端「outdoor b2b export」热度上行，US Amazon BSR Top-12，WSJ关注「The Companies Trading Away Tariff...」。",
+    "trend_summary": "高尔夫：海外社媒「sports #fyp」增速 250%，搜索端「sports market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「The Companies Trading Away Tariff...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 高尔夫 出口需通过合规认证",
-      "海外社媒「outdoor unboxing」增速 252% 领跑 → 高尔夫社媒种草热度爆发"
+      "海外社媒「sports #fyp」增速 250% 领跑 → 高尔夫社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "sports #fyp",
+        "growth": 250.5,
+        "vol": "698K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "outdoor unboxing",
-        "growth": 252.0,
-        "vol": "153K",
+        "kw": "fitness tutorial",
+        "growth": 243.5,
+        "vol": "780K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sports must have",
-        "growth": 249.0,
-        "vol": "546K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "outdoor analyst",
-        "growth": 246.5,
-        "vol": "223K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "outdoor b2b export",
-        "growth": 187.0,
+        "platform": "tiktok",
+        "kw": "fitness tiktok made me buy",
+        "growth": 243.5,
+        "vol": "232K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sports market 2026",
-        "growth": 141.5,
+        "growth": 227.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fitness wholesale supplier",
+        "growth": 172.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "运动及娱乐"
   }
 }

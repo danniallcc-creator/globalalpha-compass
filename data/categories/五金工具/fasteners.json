@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 8534812,
-    "total_net_weight_kg": 18034812,
+    "total_export_value_usd": 9321604,
+    "total_net_weight_kg": 8821604,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-07-31"
+    "fetched_at": "2026-08-01"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 73,
+      "interest_score": 43,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-07-31"
+      "fetched_at": "2026-08-01"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 4,
@@ -74,20 +74,92 @@
       "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVpfUjZTdmVuUWZnUjJlc2ZjWnpaeUJYdWVTbnFydm5xZU9ueGZhR193MnlXX19scWpBR1I4RVF4cnJqOWhWOFZDanhzdXpwRVU3QXB1RE1DQTR5Zk05LVAtemxVdnlNUldsTVc4Xy05NlhsZzI2TmU3VVhFVXhELWtOQWVCd3IyV3lISFQ1Y3pVM2pjemZGN2lUQTgwa2tjNGtSTElZX2lPTDFzMXJweWR0cVprOUtEdDFj?oc=5",
       "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLW5ZaWY3bVRzWWQ2YXYzbUc0V3ZmX0lNUnlVWGx6STlDVHlPeFhBMXlDVGk3dFBiakJKZkZWdGJXQ19nRjRtbzYxdWhJSXkzYng0aE9IZy0zNTBHTk9UbzVTVnBBcmpCX1RSX21yQy0xdzFTVW9IUVBQUl9IeHBCY2ZqdTRoVlVTN3ZfOUJKdXdpTU9SZnJjaDhoYmswMEhQQjQ1WEp5M0hZNGFYQjBRRTdyYjBhVm5kbWRwcnNDMNIBxAFBVV95cUxQTjB0bjJpVEFXcFZLTWs4OXVtV3EwU3ZQNDhUOHpWdDVEWjdWS05yVC1jN3pQV1BBM050NUNUVHZvclF5ZVhhVkVVTEszOVVZWllfX3JJbGM3YjJzd1ptQU0yeWpNWFNYUlVNLVhINHhrV0cwczhtYzFKR1BhLVVkdklkNUd6ZTlZa3JCR2pHS0hQeEN2cGRGVEMxTFZHSnJEbDYtdVZxSHc1U0dsSUgtQjY4Um1pdEVnSnRxR3VQZlRxa0t3?oc=5"
     ],
-    "fetched_at": "2026-07-31"
+    "fetched_at": "2026-08-01"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 5965981617,
+      "total_kg": 1065981617,
+      "yoy_growth": 7,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
+      "US": {
+        "value_usd": 1312515955,
+        "yoy": -16,
+        "share": 22.0
+      },
+      "DE": {
+        "value_usd": 1258822121,
+        "yoy": 38,
+        "share": 21.1
+      },
       "JP": {
-        "value_usd": 5527161124.805,
-        "yoy": null,
-        "share": 44.5
+        "value_usd": 1211094268,
+        "yoy": 6,
+        "share": 20.3
+      },
+      "GB": {
+        "value_usd": 1157400433,
+        "yoy": 9,
+        "share": 19.4
+      },
+      "KR": {
+        "value_usd": 1026148838,
+        "yoy": -16,
+        "share": 17.199999999999996
       },
       "AU": {
-        "value_usd": 6906149664.940001,
-        "yoy": null,
-        "share": 55.5
+        "value_usd": 0,
+        "yoy": 22,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 13,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 32,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 35,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 39,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -13,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 10,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -7,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 1,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 17,
+        "share": 0.1
       }
     }
   },

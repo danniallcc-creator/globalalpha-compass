@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "男士包袋：海外社媒「bag wholesale supplier」增速 250%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，The Korea Times关注「[ED] Move to strengthen investor...」。",
+    "trend_summary": "男士包袋：海外社媒「backpack unboxing」增速 235%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，The Times of India关注「India sets $1 trillion export goal for...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 男士包袋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 男士包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 男士包袋 通关",
-      "海外社媒「bag wholesale supplier」增速 250% 领跑 → 男士包袋社媒种草热度爆发"
+      "海外社媒「backpack unboxing」增速 235% 领跑 → 男士包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "bag wholesale supplier",
-        "growth": 249.5,
-        "vol": "677K",
+        "platform": "youtube",
+        "kw": "backpack unboxing",
+        "growth": 235.0,
+        "vol": "17K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "luggage #fyp",
-        "growth": 240.5,
-        "vol": "315K",
+        "platform": "instagram",
+        "kw": "backpack aesthetic",
+        "growth": 234.0,
+        "vol": "588K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "backpack b2b export",
-        "growth": 240.0,
-        "vol": "781K",
+        "kw": "luggage market 2026",
+        "growth": 232.5,
+        "vol": "785K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 229.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 246.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 237.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "[ED] Move to strengthen investor protection for more sound market - The Korea Times",
-        "source": "The Korea Times",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMlFGWHUzVGlhYVE3OXhHQnRQWUhPeWRQRDFEejJpbjktLXlVVEVRTm1yU0txY21yRzBOV2QyYWhRV19MQjRkZ2dmWm50OGJNR2dxbmpjR25wWnVBd0JPUHpoMkZTbDFXTkhMMGdObjEwRDZZSFFjZkU2VjV1QzhDWHV1LTE2dWxOb1NoZFB6ZnZzVWNFQjh2bkp6MHVlN1JtZEl3YWlwX3RjX3NQeXg3SDhGdm9MSmtoU3ZN0gHAAUFVX3lxTE1TV1Rhb2gtamtyc0Y3Mmd0LUhHdVJYY3NoWHVhNUU0X3ZIZ3ZpekhOcTJpNmdfbGFjbXl3bUUwU1pPNjl6Rm05QVdUTnQ1LVlZVXBsRTNZdmx0SlpERVJVWGV3SjNCSUZRM2FCNEFtVGdHNlBlczNoaGR0ODRRTmNxUEZWdDdYZUswSnlsaTluRUM1UUttdjdfRm5TWUVEVWx5OURLbjlTbGYzXzBZXzEwSG01ZEtoNTNaRmZISUpVVQ?oc=5",
+        "growth": 223.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "India sets $1 trillion export goal for FY26 as merchandise, services trade rise - The Times of India",
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRE1RbDF5MEVJQlpYR1dvRUFkWVhaMm9KLVJOdUNCbjZwNzA2Y2xnNkdnSk9FQnpWZ1VJUmtTZTBtMjhBMThTczU2TldXd3VJamlqSXlvWllVYkN1MHJwRzR6UkZhMGpMMjNtQXFJQ2tubjBvNkJTLVdWQmZydjJXZHFyWmJnRnAzMjJHRUl3NVNyeEx6Qkl4cGJ5T3pPeWxJcUMtdVk1dzlyVU1UT245Q3ljVi1lNmt1dC1hMzJyNURkN1hkck5Hd21VSnFxZmo4cURWOEVWNGR4aEhFSURfeGFRdVNTSXRENVlnWGc2SG1CSlFVeUHSAfsBQVVfeXFMUGhhS2paa09fMDBxWXVTY1R6a21OYnp0cUxsTm90YzBpMXZ0dVJhY3FHaVpzMXBhTHNqX055V1FFeGxLT1Q5Q0I4MUtBeDNOUFYyNktCRXVta3UwT3FoYmh5MW9kYm1UY09zOGlyeDlYMzQ0ME5hRVg4QUJ4M3N2NGpoZnNYblByeXhsVDJvUVFBYWpmWXJObnloc2dlS2c3LTBVdXRwcXlJbEduVlpmUGgtYlE1SXBTWmowcjRMTXExUFFhb3ZBeEJndEx3MFNGcWFfV2UyNmx1cU12dkV2eU9xYnlrWGQzWnpCTEVKcHZ4NVpvOF9fTDROZ2M?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The hidden cost of import ban in Nigeria - TheCable",
+        "source": "TheCable",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVW9RV3hpaGkxUFFmQjU1LUQ1cnltNlBONmZRNExRWWFhejhtNEF5ZWRHY0dsZDdhcGE5TUJLZ2JMa0VQUWJUSnd6T3hsSXo4WUlkeHpJS2E3VFQ0MTBvdFlFT0pub19DWTNfaXh5U3djNm8?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "箱包"
   }
 }

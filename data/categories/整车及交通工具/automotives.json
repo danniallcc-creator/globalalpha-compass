@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "乘用车：海外社媒「ev must have」增速 252%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China car sales fall again, exports...」。",
+    "trend_summary": "乘用车：海外社媒「electric vehicle supply chain」增速 254%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's June dollar-denominated exports...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,58 +48,58 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 乘用车 出口需通过合规认证",
-      "海外社媒「ev must have」增速 252% 领跑 → 乘用车社媒种草热度爆发"
+      "海外社媒「electric vehicle supply chain」增速 254% 领跑 → 乘用车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "ev must have",
-        "growth": 252.0,
-        "vol": "109K",
+        "platform": "x",
+        "kw": "electric vehicle supply chain",
+        "growth": 253.5,
+        "vol": "133K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electric vehicle #trending",
-        "growth": 239.5,
-        "vol": "171K",
+        "platform": "youtube",
+        "kw": "ev factory tour",
+        "growth": 248.0,
+        "vol": "338K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electric vehicle breaking",
-        "growth": 238.5,
-        "vol": "690K",
+        "kw": "electric vehicle analyst",
+        "growth": 221.5,
+        "vol": "384K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 149.0,
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 147.5,
+        "growth": 122.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China car sales fall again, exports stay strong - Reuters",
+        "title": "China's June dollar-denominated exports jump 27% y/y, imports up 36% - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFNBdHF3QkhsNUNJS0dicVB2RDJxOHJqZTd3cGRleGdVUnJXelM2VlRLOU94MnA4eG9uUXlfMHNRckpLRWFSd0RBaXJQUEJEUTNaMzdBYTNYUVZMMV81SEU2QzgzUi1kRnVxVThhRFlHSkxKbzBKV2xSWmNmaHNfMllYWGxCQXFsekNCN1Z5bFJqVEN5NUlyS2dOTWVDWGtITjBN?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdS12c0NuUGZ6RnUtLVh6V0hKTElGT2lHVG1uM19qRGZWbGR0Y1UxaTRaQWp5bXF0a0p4Yl9ZNUV4R2s4YXZoYzJYMHgzbnpDR0pEZl9fV2tLOGtUU01YSW1iNldJTzV0YjJjdmowaWZNcFl5REdhTEJ2NDVBTEZTYTh3TlhQeWNzS25ZeFdNenZ1M0dmU04wMDhrQjdCMzVUTnpwd2swN0ZvTTFEUGhtaExRakxUVG1oVmc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s passenger car exports are up 80% in June as EV demand grows, while sales drop at home - Yahoo Finance",
-        "source": "Yahoo Finance",
+        "title": "China’s passenger car exports are up 80% in June as EV demand grows, while sales drop at home - finance.yahoo.com",
+        "source": "finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQjlmb3NhWGg0aFd2VW5rRjRaVVN5OUVTU01vYmVkbFNGMlYwUlFhOERVOE1adzBDcGswRGNDVGk2Wk43Qjk4MGpMRjd1djN3clZvTzlKYUhGeUdhNWhLdmtYd0owTzBiejFvV0FacXZLei11c1ZKZkZ3dWNCaWtBVVlEazNRY3drQXBabkI1MWw?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "整车及交通工具"
   }
 }

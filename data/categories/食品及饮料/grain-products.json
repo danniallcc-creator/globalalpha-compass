@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "谷物制品：海外社媒「food breaking」增速 256%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Market.us关注「Almond Products Market Size, Share |...」。",
+    "trend_summary": "谷物制品：海外社媒「snack viral」增速 254%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Tequila Industry Seeks New Markets as...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 谷物制品 出口需通过合规认证",
       "美国 FDA 注册要求 → 谷物制品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 谷物制品 北美本地化制造红利",
-      "海外社媒「food breaking」增速 256% 领跑 → 谷物制品社媒种草热度爆发"
+      "海外社媒「snack viral」增速 254% 领跑 → 谷物制品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "food breaking",
-        "growth": 255.5,
-        "vol": "99K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "beverage must try",
-        "growth": 244.5,
-        "vol": "153K",
+        "platform": "instagram",
+        "kw": "snack viral",
+        "growth": 253.5,
+        "vol": "145K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "food factory tour",
-        "growth": 226.0,
-        "vol": "696K",
+        "kw": "beverage unboxing",
+        "growth": 216.0,
+        "vol": "534K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beverage b2b export",
-        "growth": 180.0,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "food breaking",
+        "growth": 193.5,
+        "vol": "146K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 112.5,
+        "growth": 172.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Almond Products Market Size, Share | CAGR of 6.4% - Market.us",
-        "source": "Market.us",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aZ2JlZDBOLVZ3VFZDLXNkZVQ0YXNuUGd1RGdsZy1OcjZUMGZOMFI3NVVfc2FQdm1iTUpYbEdRS1ZqZ2hDc09QQUhFMDZUcGFtT1NvcnljMkNjSUE?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 123.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Tequila Industry Seeks New Markets as Exports Continue to Grow - Mexico Business News",
         "source": "Mexico Business News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMUJFZWt3X01tUkRPUjZ3RUI4dld5alpzZmZRSG93ZEZfY2V2QmkwU1JGYk92Q1U1RnVtVTU2UTdqaGJ5ak5iYkpXS2RHb2REcF9PUkh3ZDdUbWxmTFJpUGJlRHhQcm9MWTUwZGxyelNnd2lsYUR0UU5qVW1EV25Mc1B4b21JdmVMbjFVb09GTElBbnd1VkhhdmVTWGJFdFp0UExKbQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "🌏📈 Brazil's strategic pivot to Southeast Asia takes center stage at FHI 2026 - thesoutheastasiadesk.com",
+        "source": "thesoutheastasiadesk.com",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMDN3QmJyWDg1T1dsaTI5SEdqNXItSHRrQzBUejJUb3hDSlFyRUlkNDFxcm5ONFpqTmZ1Zkt1elgtZUl6bjhpQnlZX3BibzdKMVdJZWFZWkg1TEk4d0NVMHFHMHhRZjlNM2drMXlMRmVYM2VseVZuZHZQY1Y0N3FrVkJiaTNlQ25waWdsSGFyY2JUZ21sYXVmRHR4VDcyLU45VXZWUkxoaFRjX25tYnphVmZ3eUVlZk1VaHBJQ2ZGMFQyNVYzR3RPVnIyRVFPOTBwTTE0dkVIV0t4dzQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "食品及饮料"
   }
 }

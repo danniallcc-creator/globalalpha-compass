@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "二极管、晶体管和晶闸管：海外社媒「semiconductor price trend」增速 228%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Parts of electronic integrated circuits...」。",
+    "trend_summary": "二极管、晶体管和晶闸管：海外社媒「electronic component viral hack」增速 252%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Parts of electronic integrated circuits...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 二极管、晶体管和晶闸管 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 二极管、晶体管和晶闸管 成主流",
       "欧盟 CE 标志强制准入 → 二极管、晶体管和晶闸管 出口需通过合规认证",
-      "海外社媒「semiconductor price trend」增速 228% 领跑 → 二极管、晶体管和晶闸管社媒种草热度爆发"
+      "海外社媒「electronic component viral hack」增速 252% 领跑 → 二极管、晶体管和晶闸管社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "semiconductor price trend",
-        "growth": 228.0,
-        "vol": "465K",
+        "platform": "tiktok",
+        "kw": "electronic component viral hack",
+        "growth": 252.0,
+        "vol": "535K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "5g analyst",
+        "growth": 243.5,
+        "vol": "325K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "5g industry report",
-        "growth": 220.5,
-        "vol": "571K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electronic component aesthetic",
-        "growth": 202.0,
-        "vol": "155K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "5g market 2026",
-        "growth": 184.5,
+        "growth": 242.5,
+        "vol": "227K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 140.0,
+        "growth": 206.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chip wholesale supplier",
+        "growth": 189.5,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "益智玩具：海外社媒「toys new arrival」增速 212%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，The Economic Times关注「Free trade agreements to give major...」。",
+    "trend_summary": "益智玩具：海外社媒「baby breaking」增速 234%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，The Economic Times关注「Free trade agreements to give major...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 益智玩具 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 益智玩具 采购偏好",
-      "海外社媒「toys new arrival」增速 212% 领跑 → 益智玩具社媒种草热度爆发"
+      "海外社媒「baby breaking」增速 234% 领跑 → 益智玩具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "baby breaking",
+        "growth": 233.5,
+        "vol": "54K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "toys new arrival",
-        "growth": 211.5,
-        "vol": "736K",
+        "kw": "infant viral",
+        "growth": 231.5,
+        "vol": "354K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "baby trending now",
-        "growth": 199.0,
-        "vol": "382K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "baby market 2026",
-        "growth": 196.5,
-        "vol": "409K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "baby market 2026",
-        "growth": 193.5,
+        "platform": "x",
+        "kw": "toys analyst",
+        "growth": 227.5,
+        "vol": "383K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "infant wholesale supplier",
-        "growth": 116.5,
+        "growth": 198.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "baby market 2026",
+        "growth": 124.5,
         "hits": 0
       },
       {
@@ -99,8 +99,8 @@
       },
       {
         "dim": "媒体",
-        "title": "India Eyes Global Toy Leadership at 17th Toy Biz International B2B Expo 2026 - ETV Bharat",
-        "source": "ETV Bharat",
+        "title": "India Eyes Global Toy Leadership at 17th Toy Biz International B2B Expo 2026 - etvbharat.com",
+        "source": "etvbharat.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNUFzUTRsM3BSSV9WbXpVNjIwYk0wNGhFZGhkWldoelJQeXFlVTdBQ0JyYUI0SkVGTG5lX2swRmVrY21rTjI1aHNJZ21mT2pMV3FaY2hGNFIzWTNwNFBpbmF6SDU1TlpXSklwd04tWFpZN3VRLTNmTzNDTlFXV1J2TU44QmpQUnlJc1NJWVp1QlRsbzhqRktLcVhQd2pUNHdmR3pjUmFHMnlUbkxwQm9kRW1KclBTM3lnaURQc0dUd01xckZENFHSAcsBQVVfeXFMUDdidk9wNzY4Z3J5Q3NKcFpueGFMVmpYSlo3WFlLVS1hRnV5SEFTeU01bVVMRlI1Nm1WSE1ncDRjMUJUZE4wWlc2dlhXZVBPT2ZvbkZkblpQSlIxSl9Fd1VVbW51RzFzZFF6cU84TWRLUE9MRFBkLVBQNjNyS0JicTh0MmRWUUQzemEzeFFmcmZRN1dUejBQSmdkQVpQR2hzTEpJSC1jX3pKMl9sVEtyOVlFTDdXQ3FsMTdMYVVlTFY3UU9obG94UjNnZHc?oc=5",
         "hits": 0
       },
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-07-31",
+    "generated_at": "2026-08-01",
     "l1_ref": "母婴&玩具"
   }
 }
