@@ -74,6 +74,30 @@
   "policy_updates": {
     "articles": [
       {
+        "title": "US Administration Rebuilds Global Tariff Program Under Section 301 - morganlewis.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNERnOE1DM0xxUTBWdHU3am1ZY1dteFNYdGt0d2NmQmUzUlB1OVJiWlJITUY1ZFlLU2c3WGpOTW5ZUnIybHJMaEtvUE9RUUNVQUZsYm1QZFZCcnBWeGZsbFdUMm14TEpqUU43ZDJLYjZvUUZqTG5fSFlUeDd0MW5VcllZNU04ZHlqcHliX0JYZl9IdDdvelowOTFWT3Y2ejkza1NraDJtWGNITTQ?oc=5\" target=\"_bla",
+        "country": "US",
+        "policy_type": "tariff",
+        "impact": "negative",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNERnOE1DM0xxUTBWdHU3am1ZY1dteFNYdGt0d2NmQmUzUlB1OVJiWlJITUY1ZFlLU2c3WGpOTW5ZUnIybHJMaEtvUE9RUUNVQUZsYm1QZFZCcnBWeGZsbFdUMm14TEpqUU43ZDJLYjZvUUZqTG5fSFlUeDd0MW5VcllZNU04ZHlqcHliX0JYZl9IdDdvelowOTFWT3Y2ejkza1NraDJtWGNITTQ?oc=5",
+        "published": "Mon, 27 Jul 2026",
+        "source": "morganlewis.com"
+      },
+      {
+        "title": "Shark finning regulations have not significantly changed global trade, new analysis finds - Phys.org",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNYXB3WEUzQXhmMTVYUVlRaHZwTmhxbTBIbVg3RUJ4RWp5OXp5dEJyUU84NW9HUUpkM09ZclpHbk1hMGVldm4tTkw4ZTU2LXZncjhWcUF5cWhlam9laEI1QXpQd1RwR0Q2bFFDZTZqM0hib3RtV2RjaVY3VEVEd2VHTm5Sems?oc=5\" target=\"_blank\">Shark finning regulations have not significantly",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYXB3WEUzQXhmMTVYUVlRaHZwTmhxbTBIbVg3RUJ4RWp5OXp5dEJyUU84NW9HUUpkM09ZclpHbk1hMGVldm4tTkw4ZTU2LXZncjhWcUF5cWhlam9laEI1QXpQd1RwR0Q2bFFDZTZqM0hib3RtV2RjaVY3VEVEd2VHTm5Sems?oc=5",
+        "published": "Fri, 31 Jul 2026",
+        "source": "Phys.org"
+      },
+      {
         "title": "The EU-US Trade Framework: New Rules Published Reshaping Transatlantic Market Access - research.hktdc.com",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WWFVWV1JCbGRxNkZzd25yQ2tCbndaLXJneDVlamM0WnNVZzBEanF5M3dabXY1UWpMNlJ6NUlKanBGdVVTZHRNeEhwRW1Ja1QyNGctaHNPLVVMQ1dIVVVNNElR?oc=5\" target=\"_blank\">The EU-US Trade Framework: New Rules Published Reshaping Transatlantic Market Access</a>&nbsp;&",
         "country": "US",
@@ -112,12 +136,19 @@
     ],
     "country_summary": {
       "US": {
-        "trend": "opening",
+        "trend": "neutral",
         "key_policies": [
-          "tariff",
-          "access"
+          "access",
+          "tariff"
         ],
-        "impact": "positive"
+        "impact": "neutral"
+      },
+      "EU": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
       },
       "Unknown": {
         "trend": "neutral",
@@ -134,17 +165,27 @@
       "JP": {
         "value_usd": 1683303551.453,
         "yoy": null,
-        "share": 42.9
+        "share": 26.6
       },
-      "AU": {
-        "value_usd": 783918988.0309999,
-        "yoy": null,
-        "share": 20.0
+      "GB": {
+        "value_usd": 3374211388.828002,
+        "yoy": 26.2,
+        "share": 53.2
       },
-      "CA": {
-        "value_usd": 1458850337.3139987,
+      "KR": {
+        "value_usd": 769804434.0,
         "yoy": null,
-        "share": 37.2
+        "share": 12.1
+      },
+      "BR": {
+        "value_usd": 217194518.0,
+        "yoy": null,
+        "share": 3.4
+      },
+      "MX": {
+        "value_usd": 294081804.0,
+        "yoy": null,
+        "share": 4.6
       }
     }
   }
