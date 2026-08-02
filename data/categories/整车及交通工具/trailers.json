@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "拖车：海外社媒「electric vehicle supply chain」增速 254%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China car sales fall again, exports...」。",
+    "trend_summary": "拖车：海外社媒「electric vehicle #trending」增速 252%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China car sales fall again, exports...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 拖车 出口需通过合规认证",
-      "海外社媒「electric vehicle supply chain」增速 254% 领跑 → 拖车社媒种草热度爆发"
+      "海外社媒「electric vehicle #trending」增速 252% 领跑 → 拖车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electric vehicle supply chain",
-        "growth": 253.5,
-        "vol": "133K",
+        "platform": "instagram",
+        "kw": "electric vehicle #trending",
+        "growth": 251.5,
+        "vol": "157K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "ev factory tour",
-        "growth": 248.0,
-        "vol": "338K",
+        "platform": "x",
+        "kw": "ev industry news",
+        "growth": 249.0,
+        "vol": "213K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "electric vehicle analyst",
-        "growth": 221.5,
-        "vol": "384K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 189.5,
+        "growth": 225.5,
+        "vol": "383K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 122.5,
+        "growth": 135.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 109.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-01",
+    "generated_at": "2026-08-02",
     "l1_ref": "整车及交通工具"
   }
 }

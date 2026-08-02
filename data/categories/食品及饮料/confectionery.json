@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "糖果糕点：海外社媒「snack viral」增速 254%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Tequila Industry Seeks New Markets as...」。",
+    "trend_summary": "糖果糕点：海外社媒「beverage b2b export」增速 243%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，The Southeast Asia Desk关注「🌏📈 Brazil's strategic pivot to...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 糖果糕点 出口需通过合规认证",
       "美国 FDA 注册要求 → 糖果糕点 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 糖果糕点 北美本地化制造红利",
-      "海外社媒「snack viral」增速 254% 领跑 → 糖果糕点社媒种草热度爆发"
+      "海外社媒「beverage b2b export」增速 243% 领跑 → 糖果糕点社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "snack viral",
-        "growth": 253.5,
-        "vol": "145K",
+        "platform": "google",
+        "kw": "beverage b2b export",
+        "growth": 243.0,
+        "vol": "660K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "beverage unboxing",
-        "growth": 216.0,
-        "vol": "534K",
+        "platform": "google",
+        "kw": "beverage industry report",
+        "growth": 236.5,
+        "vol": "516K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "food breaking",
-        "growth": 193.5,
-        "vol": "146K",
+        "growth": 234.5,
+        "vol": "381K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 240.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 172.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 123.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Tequila Industry Seeks New Markets as Exports Continue to Grow - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMUJFZWt3X01tUkRPUjZ3RUI4dld5alpzZmZRSG93ZEZfY2V2QmkwU1JGYk92Q1U1RnVtVTU2UTdqaGJ5ak5iYkpXS2RHb2REcF9PUkh3ZDdUbWxmTFJpUGJlRHhQcm9MWTUwZGxyelNnd2lsYUR0UU5qVW1EV25Mc1B4b21JdmVMbjFVb09GTElBbnd1VkhhdmVTWGJFdFp0UExKbQ?oc=5",
+        "growth": 130.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "🌏📈 Brazil's strategic pivot to Southeast Asia takes center stage at FHI 2026 - The Southeast Asia Desk",
         "source": "The Southeast Asia Desk",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0p2M0xnR25Yc25sN1ZOX2pfVVhubWV1RUNJSktOeC1fbU92aXotbjZxbS1NTTlYTTFfb0pBVTA4SkJ0V3U4dUppUElpMFRTSGxZQWZZMWE2cmRYQTVUSnl0Q3l3dTlvMGZMc1JEWVVsaHRyd2RrVy1OdnV4dVJfUA?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Spanish exports of goods totalled 34.694 billion euros in May, up 3.3% on a seasonally adjusted basis - La Moncloa",
+        "source": "La Moncloa",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFNQMUdfcVhuSmw1Q2pEa093SWZUV2szLUZRNUZQLWZuaXZhV0FzcXFjWlp1RXNURVYxT0NNcnR1UkVIZGhJYXVfQjFLRV9NVVhBMUtBWHdROXc0ZWRPVW1GSVQxbUNQVkRlbUJNV192RVUxamxNZkZ5SG5uYXpXLVRyZkZoVHZ5YWhHSEU3Q21NS3pIYndYYVJzbTgxWE0?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-08-01",
+    "generated_at": "2026-08-02",
     "l1_ref": "食品及饮料"
   }
 }

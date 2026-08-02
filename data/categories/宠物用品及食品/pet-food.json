@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food unboxing」增速 226%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-30，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food b2b export」增速 199%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-44，Market Data Forecast关注「Pet Food Market Size, Share, Growth &...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food unboxing」增速 226% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food b2b export」增速 199% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 226.0,
-        "vol": "480K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
         "kw": "pet food b2b export",
-        "growth": 221.0,
-        "vol": "286K",
+        "growth": 199.0,
+        "vol": "243K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 216.0,
-        "vol": "383K",
+        "platform": "x",
+        "kw": "pet food industry news",
+        "growth": 198.0,
+        "vol": "233K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food viral hack",
+        "growth": 197.0,
+        "vol": "751K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 218.0,
+        "growth": 196.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "pet market 2026",
-        "growth": 116.5,
+        "kw": "pet wholesale supplier",
+        "growth": 96.5,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Pet Food Market Size, Share, Growth & Trends Report, 2034 - Market Data Forecast",
+        "source": "Market Data Forecast",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGaHNpOHJ5QWFHV2xsbE5IcEZNNU1ScWJkTGRlV1NTOXVPQmtCWVROb2RUNU52RURIbGt4SVdsYzFNR3dfN3FTdnNwNVVZVWg0dEF6WG5KRG1iMm9LdzFPQTNNZWdTMHU5UGN1anVodzFyUUE?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Weekly pig report: Hog prices climb as export demand and cash markets align - The Pig Site",
-        "source": "The Pig Site",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOODZrRGRUejhzb1ppNGkyV1RiT19VMTRPRGxrV21zdGF4MmNINmhiOGQ5dkQyNVIxdkZ2U1k5X1g1aURBZUpsdnl0SUMwYjJjeHJhdm02M2tfc21sMzFTUnVwYUV3N2d4SC16SjZIaGZORXgycy1zUnk5LUo0aVhLMTB5VzBuRklvdXVUcndYMzh4R1VfWTQ2VWhDZEdMTzBoMEZNcFpGN250SjREdnJv?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "JP",
-        "rank": 30,
-        "title": "Top pet - Eco Edition",
-        "price": "$16.4",
-        "rating": 4.4,
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 18,
+        "rank": 44,
         "title": "Top pet - Compact Edition",
-        "price": "$159.8",
-        "rating": 4.3,
+        "price": "$105.8",
+        "rating": 4.7,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 21,
+        "title": "Top pet - Premium Edition",
+        "price": "$245.0",
+        "rating": 4.4,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-01",
+    "generated_at": "2026-08-02",
     "l1_ref": "宠物用品及食品"
   }
 }
