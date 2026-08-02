@@ -55,13 +55,14 @@
   "last_updated": "2026-08-02",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
-    "imports_from_china": {
-      "DE": {
-        "value_usd": 3404901038.858999,
-        "yoy": null,
-        "share": 100.0
-      }
-    }
+    "china_export": {
+      "total_usd": 13467283342.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
+    "imports_from_china": {}
   }
 }
