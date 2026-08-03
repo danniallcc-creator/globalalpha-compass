@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "果蔬产品：海外社媒「beverage b2b export」增速 243%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Tequila Industry Seeks New Markets as...」。",
+    "trend_summary": "果蔬产品：海外社媒「food #fyp」增速 256%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Tequila Industry Seeks New Markets as...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 果蔬产品 出口需通过合规认证",
       "美国 FDA 注册要求 → 果蔬产品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 果蔬产品 北美本地化制造红利",
-      "海外社媒「beverage b2b export」增速 243% 领跑 → 果蔬产品社媒种草热度爆发"
+      "海外社媒「food #fyp」增速 256% 领跑 → 果蔬产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage b2b export",
-        "growth": 243.0,
-        "vol": "660K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "beverage industry report",
-        "growth": 236.5,
-        "vol": "516K",
+        "platform": "tiktok",
+        "kw": "food #fyp",
+        "growth": 256.5,
+        "vol": "173K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "food breaking",
-        "growth": 234.5,
-        "vol": "381K",
+        "kw": "snack supply chain",
+        "growth": 236.5,
+        "vol": "240K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "food industry news",
+        "growth": 228.0,
+        "vol": "715K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 210.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 240.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
-        "growth": 130.5,
+        "growth": 174.0,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-08-02",
+    "generated_at": "2026-08-03",
     "l1_ref": "食品及饮料"
   }
 }

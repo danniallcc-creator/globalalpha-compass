@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "90",
-    "total_export_value_usd": 18376617,
-    "total_net_weight_kg": 7876617,
+    "total_export_value_usd": 14147202,
+    "total_net_weight_kg": 3647202,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-02"
+    "fetched_at": "2026-08-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 57,
-      "trend_direction": "down",
+      "interest_score": 68,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     }
   },
   "industry_analysis": {
@@ -52,20 +52,92 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "CE marking, ISO 17025 calibration, accuracy and precision standards, environmental testing (IP rating), EMC compliance.",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 16997055888,
+      "total_kg": 2097055888,
+      "yoy_growth": -2,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
+      "US": {
+        "value_usd": 3059470059,
+        "yoy": 2,
+        "share": 18.0
+      },
       "DE": {
-        "value_usd": 80390107463.87903,
-        "yoy": null,
-        "share": 90.2
+        "value_usd": 2957487724,
+        "yoy": 32,
+        "share": 17.4
+      },
+      "JP": {
+        "value_usd": 2838508333,
+        "yoy": -19,
+        "share": 16.7
+      },
+      "GB": {
+        "value_usd": 2719528942,
+        "yoy": 30,
+        "share": 16.0
       },
       "KR": {
-        "value_usd": 8700620631.0,
-        "yoy": null,
-        "share": 9.8
+        "value_usd": 2617546606,
+        "yoy": 6,
+        "share": 15.4
+      },
+      "AU": {
+        "value_usd": 2515564271,
+        "yoy": 10,
+        "share": 14.8
+      },
+      "IN": {
+        "value_usd": 288949950,
+        "yoy": 38,
+        "share": 1.6999999999999922
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 19,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 32,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 34,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": -15,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 37,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -17,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 15,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
       }
     }
   }

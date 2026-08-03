@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "制服与表演服：海外社媒「fashion top 10」增速 236%，搜索端「clothing wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「US tariff puts Indian textile exporters...」。",
+    "trend_summary": "制服与表演服：海外社媒「fashion market alert」增速 240%，搜索端「clothing wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Top apparel exporter Vietnam faces...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,52 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 制服与表演服 供应链合规升级",
       "欧盟 CE 标志强制准入 → 制服与表演服 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 制服与表演服 通关",
-      "海外社媒「fashion top 10」增速 236% 领跑 → 制服与表演服社媒种草热度爆发"
+      "海外社媒「fashion market alert」增速 240% 领跑 → 制服与表演服社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fashion top 10",
-        "growth": 236.5,
-        "vol": "275K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "fashion analyst",
-        "growth": 226.5,
-        "vol": "410K",
+        "kw": "fashion market alert",
+        "growth": 240.0,
+        "vol": "447K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "fashion unboxing",
-        "growth": 226.0,
-        "vol": "484K",
+        "growth": 235.0,
+        "vol": "597K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "apparel #fyp",
+        "growth": 230.5,
+        "vol": "392K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "clothing wholesale supplier",
-        "growth": 193.5,
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "fashion b2b export",
-        "growth": 119.0,
+        "kw": "apparel market 2026",
+        "growth": 178.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "US tariff puts Indian textile exporters at disadvantage, industry body says - Reuters",
+        "title": "Top apparel exporter Vietnam faces higher US tariffs than peers - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON05Fd3Rsb1BOcjhnREFFanE2b1dadGFWYlpScGpwR3lJNXJMTWpaMkloQ1lqelBwUlZ0R2ZwUU9HcWhMcU41UnlqM3pMdjFXR3VlMUZ0VzVuV2lrSkVZd1diU3F6RURKZEJQaXVRUzExb0ExMk1acG5SRmxHVmVXVTFCcVRkNUp3SE8zbGNReHFsbVhVNG9aN09SNUc1Ymg1WEdfb1FkZWFERW9nLTE0VnB0dm5VRlNVdm9r?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUkVTMmNzZXFIUG1DaVNfZXdIU2h3TWZsNlFNWUFfbDZlN1ZQVFpncF9XbjhKQlBQVUZSYzkxbzY5V3F2NHpTa0hVOTZFZjVRNE5jUXl5dEVZdWxXQmxUWXQtQVdkNWU4bHgzZzJhdzJMQjlSNFFNQmdjN3pGcjJMREpvbHJUSlI4TDNzUm1weHdlRUllNEludnRtaW9KYXdiQ3ptQlp6MDJvbjFDbk9VYw?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-08-02",
+    "generated_at": "2026-08-03",
     "l1_ref": "服装及配饰"
   }
 }

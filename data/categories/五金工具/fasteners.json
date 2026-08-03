@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 50389413,
-    "total_net_weight_kg": 9889413,
+    "total_export_value_usd": 25205885,
+    "total_net_weight_kg": 4705885,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-02"
+    "fetched_at": "2026-08-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 68,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 4,
@@ -67,32 +67,99 @@
       "Industry leaders returning to Stuttgart - Fastener + Fixing Magazine",
       "Sundram Fasteners Q1 Results: Earnings call scheduled for Aug 6 - scanx.trade",
       "Bulk drug exporters see red as China tightens screws on overseas sellers - livemint.com",
-      "Bulk Drug Exporters See Red As China Tightens Screws On Overseas Sellers - menafn.com"
+      "Bulk Drug Exporters See Red As China Tightens Screws On Overseas Sellers - Menafn"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxONlNEbWhuWWZqNmduYzJ4M05fS3VaWjAzY0lKSjRBVG5qQU4xQW4wTWV2ZEk1Wk8wc0pPSWg0M0FuLWtHTXFDcUJNQ1lvSkx6MFduQ3lYVmVZVmdrNGVvakVSSHcyUG1oOVBzTUxROExHRW9BS0MyWmhoUGljemVRV1dzU1lLeG5SSlZ3OE5QZw?oc=5",
       "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVpfUjZTdmVuUWZnUjJlc2ZjWnpaeUJYdWVTbnFydm5xZU9ueGZhR193MnlXX19scWpBR1I4RVF4cnJqOWhWOFZDanhzdXpwRVU3QXB1RE1DQTR5Zk05LVAtemxVdnlNUldsTVc4Xy05NlhsZzI2TmU3VVhFVXhELWtOQWVCd3IyV3lISFQ1Y3pVM2pjemZGN2lUQTgwa2tjNGtSTElZX2lPTDFzMXJweWR0cVprOUtEdDFj?oc=5",
       "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLW5ZaWY3bVRzWWQ2YXYzbUc0V3ZmX0lNUnlVWGx6STlDVHlPeFhBMXlDVGk3dFBiakJKZkZWdGJXQ19nRjRtbzYxdWhJSXkzYng0aE9IZy0zNTBHTk9UbzVTVnBBcmpCX1RSX21yQy0xdzFTVW9IUVBQUl9IeHBCY2ZqdTRoVlVTN3ZfOUJKdXdpTU9SZnJjaDhoYmswMEhQQjQ1WEp5M0hZNGFYQjBRRTdyYjBhVm5kbWRwcnNDMNIBxAFBVV95cUxQTjB0bjJpVEFXcFZLTWs4OXVtV3EwU3ZQNDhUOHpWdDVEWjdWS05yVC1jN3pQV1BBM050NUNUVHZvclF5ZVhhVkVVTEszOVVZWllfX3JJbGM3YjJzd1ptQU0yeWpNWFNYUlVNLVhINHhrV0cwczhtYzFKR1BhLVVkdklkNUd6ZTlZa3JCR2pHS0hQeEN2cGRGVEMxTFZHSnJEbDYtdVZxSHc1U0dsSUgtQjY4Um1pdEVnSnRxR3VQZlRxa0t3?oc=5"
     ],
-    "fetched_at": "2026-08-02"
+    "fetched_at": "2026-08-03"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 48282012249,
+      "total_kg": 1382012249,
+      "yoy_growth": -1,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
+      "US": {
+        "value_usd": 14001783552,
+        "yoy": 4,
+        "share": 29.0
+      },
+      "DE": {
+        "value_usd": 13422399405,
+        "yoy": 5,
+        "share": 27.8
+      },
       "JP": {
-        "value_usd": 5527161124.805,
-        "yoy": null,
-        "share": 38.1
+        "value_usd": 12843015258,
+        "yoy": 38,
+        "share": 26.6
+      },
+      "GB": {
+        "value_usd": 8014814033,
+        "yoy": 6,
+        "share": 16.6
+      },
+      "KR": {
+        "value_usd": 0,
+        "yoy": 23,
+        "share": 0.1
       },
       "AU": {
-        "value_usd": 6906149664.940001,
-        "yoy": null,
-        "share": 47.6
+        "value_usd": 0,
+        "yoy": 18,
+        "share": 0.1
+      },
+      "IN": {
+        "value_usd": 0,
+        "yoy": 0,
+        "share": 0.1
+      },
+      "BR": {
+        "value_usd": 0,
+        "yoy": 28,
+        "share": 0.1
+      },
+      "SA": {
+        "value_usd": 0,
+        "yoy": 4,
+        "share": 0.1
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 23,
+        "share": 0.1
       },
       "IT": {
-        "value_usd": 2076646788.1780002,
-        "yoy": null,
-        "share": 14.3
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": -9,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": 11,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": -19,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 11,
+        "share": 0.1
       }
     }
   },

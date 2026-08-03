@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 88,
-      "trend_direction": "up",
+      "interest_score": 42,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「logistics must have」增速 249%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，Market Research Future关注「Freight and Logistics Market Size,...」。",
+    "trend_summary": "多式联运：海外社媒「shipping viral」增速 250%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，Market Research Future关注「Freight and Logistics Market Size,...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「logistics must have」增速 249% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「shipping viral」增速 250% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "logistics must have",
-        "growth": 249.0,
-        "vol": "76K",
+        "kw": "shipping viral",
+        "growth": 249.5,
+        "vol": "475K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "logistics factory tour",
-        "growth": 238.0,
-        "vol": "115K",
+        "growth": 249.0,
+        "vol": "795K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "shipping viral",
-        "growth": 198.5,
-        "vol": "176K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "logistics market 2026",
-        "growth": 170.5,
+        "platform": "google",
+        "kw": "shipping wholesale supplier",
+        "growth": 248.5,
+        "vol": "552K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "shipping wholesale supplier",
-        "growth": 109.5,
+        "growth": 245.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "freight b2b export",
+        "growth": 194.0,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Cross Border E-Commerce Market Size, Share & Growth, 2034 - Market Data Forecast",
-        "source": "Market Data Forecast",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONXpNNkwxZjVQaXBibjdUTFFvM0dYT1lGN2VDbXdaVlpzODVWRF9xTmpSR3ZvWUgxb3hOSVN6cDA1YUVxeGRCWlQ0amZUMXRrV2cxc3NMWEtEYkhhMDZzbXlwRHZrUHdvOGJ3M0ZLay0xQXZtRS1fdkgzQl9WaUdsQUxXRHRLZVE?oc=5",
+        "title": "US-Mexico Cross-Border Freight: Nearshoring Drives Rate Spikes - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcFk4cHNtaDREazExa1NDd1ZVWTNKTHNWRlE3dWhMM2VxTTJKUmZFR3NwV0ZmWFBmOFBxMWl0enpvMHVEb2owd2RKUDhpS3RqWDg1V1labS1kYWhjT3BmRnhWZ09VbGVPVXhPZkZDWkQxWXFFa1FwMHhfS182ZDFyWkxMdlg0S3I3RHBmcnVfeXljVUd0MzFfeUhNUFFzUEpJ?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-08-02",
+    "generated_at": "2026-08-03",
     "l1_ref": "买家物流市场"
   }
 }

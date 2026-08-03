@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech factory tour」增速 244%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，China Daily Global Edition关注「China's dynamic expansion opportunities...」。",
+    "trend_summary": "回收：海外社媒「green tech must have」增速 246%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，EPC, European Policy Centre关注「Does the EU enforce the green standards...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech factory tour」增速 244% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech must have」增速 246% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "green tech must have",
+        "growth": 246.0,
+        "vol": "626K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "green tech b2b export",
+        "growth": 225.0,
+        "vol": "424K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "green tech factory tour",
-        "growth": 244.0,
-        "vol": "464K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental must try",
-        "growth": 237.5,
-        "vol": "783K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "environmental breaking",
-        "growth": 234.5,
-        "vol": "632K",
+        "growth": 220.0,
+        "vol": "128K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 150.0,
+        "growth": 222.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 149.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China's dynamic expansion opportunities - China Daily Global Edition",
-        "source": "China Daily Global Edition",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcVljbkRvbjZYckgyTGpVdWprY1YxeW5YU0RKV1FBbmpCcHpJZEJIOVFIRWxVa3NVSzE3UE9ocVhtdVdZSWprQW5TRHdmOVBkWHBoUzRwQmllejd3WTdOY2lJam1NZl95UHBqSmtfMV9sR1kxSldvc2FTT3dwNnFPUXRYYw?oc=5",
+        "kw": "environmental wholesale supplier",
+        "growth": 157.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
         "source": "EPC, European Policy Centre",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe Has to Take on China to Save Free Trade - Council on Foreign Relations",
+        "source": "Council on Foreign Relations",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGtDUUlCYjgwUTlvejdIVEtzNkZZX05yaF9uSHE5b2FUci1UZkFQNkpWRmNFR0o1Z3JBOUJVZ3JCUnhCQm12TFZCdkFhbmY4SGVDLVpWemtsZ3cwQnUtLW9JamtPYW0wZUpVN2daRUZKREtQR2FXWmszOXMwX0VwaQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-08-02",
+    "generated_at": "2026-08-03",
     "l1_ref": "环保"
   }
 }
