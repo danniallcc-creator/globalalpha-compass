@@ -405,63 +405,47 @@
   "2025_HS73": {
     "data": {
       "china_export": {
-        "total_usd": 107256312985,
+        "total_usd": 109333652380.0,
         "total_kg": 0,
-        "yoy_growth": -1.9,
-        "period": "2025",
-        "source": "UN Comtrade + China Customs (GACC) 2025 official growth",
-        "data_quality": "official_proxy_2025",
-        "total_usd_2024": 109333652380
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
       },
       "imports_from_china": {
         "US": {
-          "value_usd": 10631911382,
-          "yoy": -27.0,
-          "share": 9.4
+          "value_usd": 10631911382.0,
+          "yoy": null,
+          "share": 16.0
         },
         "DE": {
           "value_usd": 37197415721.436035,
           "yoy": 68.4,
-          "share": 33.0
+          "share": 56.0
         },
         "JP": {
           "value_usd": 5527161124.805,
           "yoy": -2.7,
-          "share": 4.9
+          "share": 8.3
         },
-        "GB": {
-          "value_usd": 24126938051.51105,
-          "yoy": 19.9,
-          "share": 21.4
-        },
-        "KR": {
-          "value_usd": 6196586926,
+        "AU": {
+          "value_usd": 6906149664.940001,
           "yoy": null,
-          "share": 5.5
+          "share": 10.4
         },
         "IT": {
           "value_usd": 2076646788.1780002,
           "yoy": null,
-          "share": 1.8
-        },
-        "NL": {
-          "value_usd": 1322060499.825,
-          "yoy": 10.5,
-          "share": 1.2
-        },
-        "CA": {
-          "value_usd": 21409548001.47401,
-          "yoy": 9.8,
-          "share": 19.0
+          "share": 3.1
         },
         "MX": {
-          "value_usd": 4076210536,
+          "value_usd": 4076210536.0,
           "yoy": null,
-          "share": 3.6
+          "share": 6.1
         }
       }
     },
-    "fetched_at": "2026-06-23"
+    "fetched_at": "2026-08-04"
   },
   "2025_HS68": {
     "data": {

@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 25205885,
-    "total_net_weight_kg": 4705885,
+    "total_export_value_usd": 25107318,
+    "total_net_weight_kg": 4607318,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-03"
+    "fetched_at": "2026-08-04"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 88,
-      "trend_direction": "up",
+      "interest_score": 77,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-03"
+      "fetched_at": "2026-08-04"
     }
   },
   "industry_analysis": {
@@ -52,20 +52,47 @@
     "opportunity": "Sustainable and smart packaging solutions. Active and intelligent packaging. E-commerce optimized packaging design. Personalized and digital printing on packaging."
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 109333652380.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "US": {
         "value_usd": 10631911382.0,
         "yoy": null,
-        "share": 22.2
+        "share": 16.0
       },
       "DE": {
         "value_usd": 37197415721.436035,
         "yoy": 68.4,
-        "share": 77.8
+        "share": 56.0
+      },
+      "JP": {
+        "value_usd": 5527161124.805,
+        "yoy": -2.7,
+        "share": 8.3
+      },
+      "AU": {
+        "value_usd": 6906149664.940001,
+        "yoy": null,
+        "share": 10.4
+      },
+      "IT": {
+        "value_usd": 2076646788.1780002,
+        "yoy": null,
+        "share": 3.1
+      },
+      "MX": {
+        "value_usd": 4076210536.0,
+        "yoy": null,
+        "share": 6.1
       }
     }
   }

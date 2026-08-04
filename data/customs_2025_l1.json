@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2026-08-03T18:17:38",
-    "date": "2026-08-03",
+    "updated_at": "2026-08-04T01:52:01",
+    "date": "2026-08-04",
     "l1_count": 47,
     "building_materials_excluded": true,
     "excluded_l1s": [
@@ -129,14 +129,14 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 28345079421.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 16.6
+            "share": 0.0
           },
           "DE": {
-            "value_usd": 70854069947.02,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 41.4
+            "share": 0.0
           },
           "GB": {
             "value_usd": 0,
@@ -146,17 +146,17 @@
           "JP": {
             "value_usd": 28616160374.7,
             "yoy": 0,
-            "share": 16.7
+            "share": 56.8
           },
           "AU": {
-            "value_usd": 13326622796.53,
-            "yoy": 0,
-            "share": 7.8
-          },
-          "KR": {
             "value_usd": 0,
             "yoy": 0,
             "share": 0.0
+          },
+          "KR": {
+            "value_usd": 13086675378.0,
+            "yoy": 0,
+            "share": 26.0
           },
           "IN": {
             "value_usd": 0,
@@ -171,7 +171,7 @@
           "MX": {
             "value_usd": 4999390668.0,
             "yoy": 0,
-            "share": 2.9
+            "share": 9.9
           },
           "AE": {
             "value_usd": 0,
@@ -179,9 +179,9 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 24800455734.34,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 14.5
+            "share": 0.0
           },
           "SA": {
             "value_usd": 0,
@@ -194,9 +194,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 0,
+            "value_usd": 3692306806.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 7.3
           },
           "ID": {
             "value_usd": 0,
@@ -438,7 +438,7 @@
       "l3_count": 167,
       "customs_2025": {
         "china_export": {
-          "total_usd": 1643594435398.0,
+          "total_usd": 1752928087778.0,
           "total_kg": 0,
           "yoy_growth": 0.0,
           "data_quality": "estimated",
@@ -447,13 +447,19 @@
               "name_cn": "泵及配件",
               "name_en": "Pumps & Parts",
               "total_usd": 815119487136.0,
-              "share_pct": 49.6
+              "share_pct": 46.5
             },
             {
               "name_cn": "阀门",
               "name_en": "Valves",
               "total_usd": 815119487136.0,
-              "share_pct": 49.6
+              "share_pct": 46.5
+            },
+            {
+              "name_cn": "紧固件",
+              "name_en": "Fasteners",
+              "total_usd": 109333652380.0,
+              "share_pct": 6.2
             },
             {
               "name_cn": "研磨材料",
@@ -522,12 +528,6 @@
               "share_pct": 0.0
             },
             {
-              "name_cn": "紧固件",
-              "name_en": "Fasteners",
-              "total_usd": 0.0,
-              "share_pct": 0.0
-            },
-            {
               "name_cn": "钻头",
               "name_en": "Drill Bits",
               "total_usd": 0.0,
@@ -537,34 +537,34 @@
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 191975134846.0,
+            "value_usd": 157219344744.0,
             "yoy": 0,
-            "share": 14.4
+            "share": 12.6
           },
           "DE": {
             "value_usd": 861418002703.87,
             "yoy": 0,
-            "share": 64.8
+            "share": 69.1
           },
           "GB": {
-            "value_usd": 70648833812.55,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 5.3
+            "share": 0.0
           },
           "JP": {
-            "value_usd": 14335667619.6,
+            "value_usd": 19862828744.4,
             "yoy": 0,
-            "share": 1.1
+            "share": 1.6
           },
           "AU": {
-            "value_usd": 55240882839.78,
+            "value_usd": 62147032504.72,
             "yoy": 0,
-            "share": 4.2
+            "share": 5.0
           },
           "KR": {
             "value_usd": 71444322700.0,
             "yoy": 0,
-            "share": 5.4
+            "share": 5.7
           },
           "IN": {
             "value_usd": 0,
@@ -577,9 +577,9 @@
             "share": 0.0
           },
           "MX": {
-            "value_usd": 0,
+            "value_usd": 20554833444.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 1.6
           },
           "AE": {
             "value_usd": 0,
@@ -602,9 +602,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 65087098978.0,
+            "value_usd": 54503196572.0,
             "yoy": 0,
-            "share": 4.9
+            "share": 4.4
           },
           "ID": {
             "value_usd": 0,
@@ -650,32 +650,6 @@
             "l2_source": "动力工具"
           },
           {
-            "title": "[Lee Jong-Wha] Korea bets on industrial policy - The Korea Herald",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5\" target=\"_blank\">[Lee Jong-Wha] Korea bets on industrial policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5",
-            "published": "Wed, 29 Jul 2026",
-            "source": "The Korea Herald",
-            "l2_source": "动力工具"
-          },
-          {
-            "title": "U.S. Restricts Chinese Robot Imports Over National Security Concerns - 조선일보",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOG16Vmk5Ty1hankxRV9EcWN3RXVIYUk3LVp3RlltN1hpMFk0aUMwMW1fRGh2cTR3LWxQQmVvajhYWWYwdkFydENvZFI0LXc2VWhsZzcxSm04LW05MjBLZnlKbW5vV3pqN25hZlRsS1JaWU15NjF3aEYzWjJUbzVCeHJlSjdWQVpR?oc=5\" target=\"_blank\">U.S. Restricts Chinese Robot Imports Over N",
-            "country": "CN",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOG16Vmk5Ty1hankxRV9EcWN3RXVIYUk3LVp3RlltN1hpMFk0aUMwMW1fRGh2cTR3LWxQQmVvajhYWWYwdkFydENvZFI0LXc2VWhsZzcxSm04LW05MjBLZnlKbW5vV3pqN25hZlRsS1JaWU15NjF3aEYzWjJUbzVCeHJlSjdWQVpR?oc=5",
-            "published": "Wed, 29 Jul 2026",
-            "source": "조선일보",
-            "l2_source": "动力工具"
-          },
-          {
             "title": "The U.S. has expanded its front lines that push Chinese technology out of the market to robots and p.. - 매일경제",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyclQ4TlFSWXN0b0NOM2o2TmVUUExFT3Y5bWFNclVmUThqY0hDdUpBZGkwVkdQU0FkQU9CQVFpbW9tS0twdG9hUkhvM19XRjg?oc=5\" target=\"_blank\">The U.S. has expanded its front lines that push Chinese technology out of the market to robots and p..</a>&nbsp;&nbsp;<f",
             "country": "US",
@@ -689,16 +663,16 @@
             "l2_source": "动力工具"
           },
           {
-            "title": "Crypto payments and blockchain trade finance: where Bangladesh stands - thefinancialexpress.com.bd",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTUzcHRvU001WGZNUzhNamlkWklWUXJ6aXQ3aXFMYU9YWFJhejFtdktTdkJvVXJGQ0dua3BjdUVlZ2RydFpicnNocTZTbno1clE1ZWxYdUNlWU1KNWxQMXN4RGVvQTlWZ3ZCcGZlMEMzaEY2ZDdnZEhvLXFVQ3psMG1iTUxMSXpocWstWDlidlc1NlN5Yll2UUxfaGQ5dmJKalhYNnUwdFJBTTdpOVE?oc=5\" target=\"",
-            "country": "Unknown",
+            "title": "Why Bangladesh must modernise its container laws - The Financial Express",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSTBNVXdnWHluYktJWEVUaHctX2hsVWdtRWpJNXFwbHRVQUtUUGlfdExLcGxCYjhuLTZpV2Rfdk9kTkI0Q1FZWmF3Y09XMkt3U0RvT2lRZ25lM2ZFUDBudjRTUjJVeEVXYWVyVjFwLTZxZmFKSzFBZ0cxaFdxSkpJaS11ckRxX05RVlItUE84NVlvdEcwSlRaamVZaVR1ZTBpalNYRTB0SDVRa3RhZmJWZmtVR2pUQk1EVT",
+            "country": "US",
             "policy_type": "compliance",
             "impact": "neutral",
             "impact_score": 0.3,
             "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTUzcHRvU001WGZNUzhNamlkWklWUXJ6aXQ3aXFMYU9YWFJhejFtdktTdkJvVXJGQ0dua3BjdUVlZ2RydFpicnNocTZTbno1clE1ZWxYdUNlWU1KNWxQMXN4RGVvQTlWZ3ZCcGZlMEMzaEY2ZDdnZEhvLXFVQ3psMG1iTUxMSXpocWstWDlidlc1NlN5Yll2UUxfaGQ5dmJKalhYNnUwdFJBTTdpOVE?oc=5",
-            "published": "Wed, 29 Jul 2026",
-            "source": "thefinancialexpress.com.bd",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSTBNVXdnWHluYktJWEVUaHctX2hsVWdtRWpJNXFwbHRVQUtUUGlfdExLcGxCYjhuLTZpV2Rfdk9kTkI0Q1FZWmF3Y09XMkt3U0RvT2lRZ25lM2ZFUDBudjRTUjJVeEVXYWVyVjFwLTZxZmFKSzFBZ0cxaFdxSkpJaS11ckRxX05RVlItUE84NVlvdEcwSlRaamVZaVR1ZTBpalNYRTB0SDVRa3RhZmJWZmtVR2pUQk1EVTNjZlhHRU_SAcABQVVfeXFMTUkwTVV3Z1h5bmJLSVhFVGh3LV9obFVnbUVqSTVxcGx0VUFLVFBpX3RMS3BsQmI4bi02aVdkX3ZPZE5CNENRWVphd2NPVzJLd1NEb09pUWduZTNmRVAwbnY0U1IyVXhFV2FlclYxcC02cWZhSksxQWdHMWhXcUpKSWktdXJEcV9OUVZSLVBPODVZb3RHMEpUWmplWWlUdWUwaWpTWEUwdEg1UWt0YWZiVmZrVUdqVEJNRFUzY2ZYR0VP?oc=5",
+            "published": "Mon, 03 Aug 2026",
+            "source": "The Financial Express",
             "l2_source": "动力工具"
           },
           {
@@ -741,7 +715,7 @@
             "l2_source": "园林工具"
           },
           {
-            "title": "UK business secretary argues against rejoining EU customs union - ft.com",
+            "title": "UK business secretary argues against rejoining EU customs union - Financial Times",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOS196bnlWWWFWU0YyTHVveGcxWTNjUGs1ZlNqU3I3TEJfTnVuM3BzVjJsNGwxQjR1R2JiNk1GTTBSMkRNQWVOal95eE1HeUIzcXVvVVYwQXQydjMzY1d0cTcyRkxyZENkanZVdm5jWnBIblh2WEdkS0FITnB1RzREWURyME4?oc=5\" target=\"_blank\">UK business secretary argues against rejoining E",
             "country": "US",
             "policy_type": "compliance",
@@ -750,7 +724,7 @@
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS196bnlWWWFWU0YyTHVveGcxWTNjUGs1ZlNqU3I3TEJfTnVuM3BzVjJsNGwxQjR1R2JiNk1GTTBSMkRNQWVOal95eE1HeUIzcXVvVVYwQXQydjMzY1d0cTcyRkxyZENkanZVdm5jWnBIblh2WEdkS0FITnB1RzREWURyME4?oc=5",
             "published": "Thu, 30 Jul 2026",
-            "source": "ft.com",
+            "source": "Financial Times",
             "l2_source": "手动工具"
           },
           {
@@ -815,7 +789,6 @@
             "impact": "neutral",
             "affected_l2s": [
               "动力工具",
-              "手动工具",
               "紧固件"
             ]
           },
@@ -831,16 +804,6 @@
               "手动工具",
               "焊接配套用品",
               "钻头"
-            ]
-          },
-          "CN": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "动力工具"
             ]
           }
         }
@@ -864,74 +827,74 @@
       "l3_count": 32,
       "customs_2025": {
         "china_export": {
-          "total_usd": 50991167664.0,
-          "total_kg": 6291167664.0,
-          "yoy_growth": -2.0,
-          "data_quality": "estimated",
+          "total_usd": 0.0,
+          "total_kg": 0,
+          "yoy_growth": 0.0,
+          "data_quality": "complete",
           "l2_breakdown": [
             {
               "name_cn": "实验室用品",
               "name_en": "Lab Supplies",
-              "total_usd": 16997055888.0,
-              "share_pct": 33.3
+              "total_usd": 0.0,
+              "share_pct": 0
             },
             {
               "name_cn": "检测与分析仪器",
               "name_en": "Testing and Analysis Instruments",
-              "total_usd": 16997055888.0,
-              "share_pct": 33.3
+              "total_usd": 0.0,
+              "share_pct": 0
             },
             {
               "name_cn": "量具",
               "name_en": "Measuring & Gauging Tools",
-              "total_usd": 16997055888.0,
-              "share_pct": 33.3
+              "total_usd": 0.0,
+              "share_pct": 0
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 9178410177.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 18.0
+            "share": 0.0
           },
           "DE": {
-            "value_usd": 8872463172.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 17.4
+            "share": 0.0
           },
           "GB": {
-            "value_usd": 8158586826.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 16.0
+            "share": 0.0
           },
           "JP": {
-            "value_usd": 8515524999.0,
+            "value_usd": 39636510668.39,
             "yoy": 0,
-            "share": 16.7
+            "share": 51.5
           },
           "AU": {
-            "value_usd": 7546692813.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 14.8
+            "share": 0.0
           },
           "KR": {
-            "value_usd": 7852639818.0,
+            "value_usd": 26101861893.0,
             "yoy": 0,
-            "share": 15.4
+            "share": 33.9
           },
           "IN": {
-            "value_usd": 866849850.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 1.7
+            "share": 0.0
           },
           "VN": {
-            "value_usd": 0.0,
+            "value_usd": 0,
             "yoy": 0,
             "share": 0.0
           },
           "MX": {
-            "value_usd": 0.0,
+            "value_usd": 0,
             "yoy": 0,
             "share": 0.0
           },
@@ -941,24 +904,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 0.0,
+            "value_usd": 0,
             "yoy": 0,
             "share": 0.0
           },
           "SA": {
-            "value_usd": 0.0,
+            "value_usd": 0,
             "yoy": 0,
             "share": 0.0
           },
           "FR": {
-            "value_usd": 0.0,
+            "value_usd": 0,
             "yoy": 0,
             "share": 0.0
           },
           "BR": {
-            "value_usd": 0.0,
+            "value_usd": 11259802164.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 14.6
           },
           "ID": {
             "value_usd": 0,
@@ -991,20 +954,7 @@
             "l2_source": "实验室用品"
           },
           {
-            "title": "China's base metals trade; six stories in six charts - Reuters",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPV20yS0RiYmdUSjlvUlBmRVBNc3M1YTZBLVpVWEdjMkVBalg1Yk1kRXZtMGNBeWd2N28zemZ1YzN6Q1VsQVhNMC16Q1Q4SXowZzlVWUtZb0NlcDJpRWNCZ1J6MG5LSnhWWEl0RzRHV3dNNnExZkg1NnpqWU4xTzE2V21WZWpvbWl5OTM4UDhWSUNFV19Hb0ZkVWdhV2lFT3JCRVp0YTQ1UGtIVlByYkhiS1VFdHFMbFE?oc",
-            "country": "US",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV20yS0RiYmdUSjlvUlBmRVBNc3M1YTZBLVpVWEdjMkVBalg1Yk1kRXZtMGNBeWd2N28zemZ1YzN6Q1VsQVhNMC16Q1Q4SXowZzlVWUtZb0NlcDJpRWNCZ1J6MG5LSnhWWEl0RzRHV3dNNnExZkg1NnpqWU4xTzE2V21WZWpvbWl5OTM4UDhWSUNFV19Hb0ZkVWdhV2lFT3JCRVp0YTQ1UGtIVlByYkhiS1VFdHFMbFE?oc=5",
-            "published": "Wed, 29 Jul 2026",
-            "source": "Reuters",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "Global Developments on Regulatory Frameworks and Possible Harmonization - ISAAA.org",
+            "title": "Global Developments on Regulatory Frameworks and Possible Harmonization - isaaa.org",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5UNHRBVFk1MU9FWWhwNEpmWG5zLUhTcGdoa1pmOG1iblc1dEY2R1d1ZkdQTDI5d2MxS2dza3J5QjhpRDVma2UydUxUakszUzc3RDdaV214UEgwZUJaanJJc2VVWVV4VzB0NEFqblVENDM?oc=5\" target=\"_blank\">Global Developments on Regulatory Frameworks and Possible Harmonization</a>&",
             "country": "Unknown",
             "policy_type": "compliance",
@@ -1013,20 +963,7 @@
             "category_relevance": "indirect",
             "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UNHRBVFk1MU9FWWhwNEpmWG5zLUhTcGdoa1pmOG1iblc1dEY2R1d1ZkdQTDI5d2MxS2dza3J5QjhpRDVma2UydUxUakszUzc3RDdaV214UEgwZUJaanJJc2VVWVV4VzB0NEFqblVENDM?oc=5",
             "published": "Wed, 29 Jul 2026",
-            "source": "ISAAA.org",
-            "l2_source": "实验室用品"
-          },
-          {
-            "title": "U.S. Restricts Chinese Robot Imports Over National Security Concerns - 조선일보",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOG16Vmk5Ty1hankxRV9EcWN3RXVIYUk3LVp3RlltN1hpMFk0aUMwMW1fRGh2cTR3LWxQQmVvajhYWWYwdkFydENvZFI0LXc2VWhsZzcxSm04LW05MjBLZnlKbW5vV3pqN25hZlRsS1JaWU15NjF3aEYzWjJUbzVCeHJlSjdWQVpR?oc=5\" target=\"_blank\">U.S. Restricts Chinese Robot Imports Over N",
-            "country": "CN",
-            "policy_type": "compliance",
-            "impact": "neutral",
-            "impact_score": 0.3,
-            "category_relevance": "indirect",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOG16Vmk5Ty1hankxRV9EcWN3RXVIYUk3LVp3RlltN1hpMFk0aUMwMW1fRGh2cTR3LWxQQmVvajhYWWYwdkFydENvZFI0LXc2VWhsZzcxSm04LW05MjBLZnlKbW5vV3pqN25hZlRsS1JaWU15NjF3aEYzWjJUbzVCeHJlSjdWQVpR?oc=5",
-            "published": "Wed, 29 Jul 2026",
-            "source": "조선일보",
+            "source": "isaaa.org",
             "l2_source": "实验室用品"
           },
           {
@@ -1172,17 +1109,6 @@
               "检测与分析仪器"
             ]
           },
-          "US": {
-            "trend": "neutral",
-            "key_policies": [
-              "compliance"
-            ],
-            "impact": "neutral",
-            "affected_l2s": [
-              "实验室用品",
-              "检测与分析仪器"
-            ]
-          },
           "Unknown": {
             "trend": "opening",
             "key_policies": [
@@ -1194,14 +1120,15 @@
               "检测与分析仪器"
             ]
           },
-          "CN": {
+          "US": {
             "trend": "neutral",
             "key_policies": [
               "compliance"
             ],
             "impact": "neutral",
             "affected_l2s": [
-              "实验室用品"
+              "实验室用品",
+              "检测与分析仪器"
             ]
           }
         }
@@ -1335,88 +1262,88 @@
       "l3_count": 47,
       "customs_2025": {
         "china_export": {
-          "total_usd": 71991811660.0,
-          "total_kg": 4357244976.0,
-          "yoy_growth": -2.5,
+          "total_usd": 26934566684.0,
+          "total_kg": 0,
+          "yoy_growth": 0.0,
           "data_quality": "estimated",
           "l2_breakdown": [
-            {
-              "name_cn": "保健设备",
-              "name_en": "Health Care Equipment",
-              "total_usd": 16997055888.0,
-              "share_pct": 23.6
-            },
-            {
-              "name_cn": "按摩用品",
-              "name_en": "Massage Products",
-              "total_usd": 16997055888.0,
-              "share_pct": 23.6
-            },
             {
               "name_cn": "保健食品",
               "name_en": "Healthcare Supplements",
               "total_usd": 13467283342.0,
-              "share_pct": 18.7
+              "share_pct": 50.0
             },
             {
               "name_cn": "成人产品",
               "name_en": "Sex Products",
               "total_usd": 13467283342.0,
-              "share_pct": 18.7
+              "share_pct": 50.0
+            },
+            {
+              "name_cn": "保健设备",
+              "name_en": "Health Care Equipment",
+              "total_usd": 0.0,
+              "share_pct": 0.0
+            },
+            {
+              "name_cn": "按摩用品",
+              "name_en": "Massage Products",
+              "total_usd": 0.0,
+              "share_pct": 0.0
             },
             {
               "name_cn": "提取物",
               "name_en": "Extracts",
-              "total_usd": 11063133200.0,
-              "share_pct": 15.4
+              "total_usd": 0.0,
+              "share_pct": 0.0
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 6672096778.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 15.2
+            "share": 0.0
           },
           "DE": {
-            "value_usd": 6468132108.0,
-            "yoy": 0,
-            "share": 14.7
-          },
-          "GB": {
-            "value_usd": 5992214544.0,
-            "yoy": 0,
-            "share": 13.6
-          },
-          "JP": {
-            "value_usd": 6230173326.0,
-            "yoy": 0,
-            "share": 14.2
-          },
-          "AU": {
-            "value_usd": 5584285202.0,
-            "yoy": 0,
-            "share": 12.7
-          },
-          "KR": {
-            "value_usd": 5788249872.0,
-            "yoy": 0,
-            "share": 13.2
-          },
-          "IN": {
-            "value_usd": 1131056560.0,
-            "yoy": 0,
-            "share": 2.6
-          },
-          "VN": {
-            "value_usd": 3318939960.0,
-            "yoy": 0,
-            "share": 7.6
-          },
-          "MX": {
-            "value_usd": 553156660.0,
+            "value_usd": 694615800.62,
             "yoy": 0,
             "share": 1.3
+          },
+          "GB": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "JP": {
+            "value_usd": 26467713600.57,
+            "yoy": 0,
+            "share": 50.8
+          },
+          "AU": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "KR": {
+            "value_usd": 17401241262.0,
+            "yoy": 0,
+            "share": 33.4
+          },
+          "IN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "VN": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
+          },
+          "MX": {
+            "value_usd": 0,
+            "yoy": 0,
+            "share": 0.0
           },
           "AE": {
             "value_usd": 0,
@@ -1424,24 +1351,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 553156660.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 1.3
+            "share": 0.0
           },
           "SA": {
-            "value_usd": 553156660.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 1.3
+            "share": 0.0
           },
           "FR": {
-            "value_usd": 553156660.0,
+            "value_usd": 0,
             "yoy": 0,
-            "share": 1.3
+            "share": 0.0
           },
           "BR": {
-            "value_usd": 553156660.0,
+            "value_usd": 7506534776.0,
             "yoy": 0,
-            "share": 1.3
+            "share": 14.4
           },
           "ID": {
             "value_usd": 0,
@@ -1496,114 +1423,114 @@
       "l3_count": 66,
       "customs_2025": {
         "china_export": {
-          "total_usd": 1100719383133.0,
-          "total_kg": 12599895997.0,
-          "yoy_growth": 1.3,
+          "total_usd": 1003998321183.0,
+          "total_kg": 13878834047.0,
+          "yoy_growth": 1.1,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "农用设备",
               "name_en": "Agricultural Equipment",
               "total_usd": 815119487136.0,
-              "share_pct": 74.1
-            },
-            {
-              "name_cn": "观赏植物",
-              "name_en": "Ornamental Plants",
-              "total_usd": 52235287413.0,
-              "share_pct": 4.7
+              "share_pct": 81.2
             },
             {
               "name_cn": "动物制品",
               "name_en": "Animal Products",
-              "total_usd": 42023649780.0,
-              "share_pct": 3.8
-            },
-            {
-              "name_cn": "新鲜水果",
-              "name_en": "Fresh Fruit",
-              "total_usd": 34473258862.0,
-              "share_pct": 3.1
+              "total_usd": 50141729740.0,
+              "share_pct": 5.0
             },
             {
               "name_cn": "工业大麻产品",
               "name_en": "Industrial Hemp Products",
-              "total_usd": 26000609957.0,
-              "share_pct": 2.4
-            },
-            {
-              "name_cn": "冷冻产品",
-              "name_en": "Frozen Products",
-              "total_usd": 25898375524.0,
-              "share_pct": 2.4
-            },
-            {
-              "name_cn": "新鲜蔬菜",
-              "name_en": "Fresh Vegetables",
-              "total_usd": 25898375524.0,
-              "share_pct": 2.4
-            },
-            {
-              "name_cn": "蘑菇与松露",
-              "name_en": "Mushrooms & Truffles",
-              "total_usd": 25898375524.0,
-              "share_pct": 2.4
-            },
-            {
-              "name_cn": "豆类",
-              "name_en": "Beans",
-              "total_usd": 25898375524.0,
-              "share_pct": 2.4
+              "total_usd": 32242466894.0,
+              "share_pct": 3.2
             },
             {
               "name_cn": "谷物",
               "name_en": "Grain",
-              "total_usd": 16808028505.0,
-              "share_pct": 1.5
+              "total_usd": 26026944884.0,
+              "share_pct": 2.6
             },
             {
               "name_cn": "木材原料",
               "name_en": "Timber Raw Materials",
-              "total_usd": 10465559384.0,
+              "total_usd": 17399496933.0,
+              "share_pct": 1.7
+            },
+            {
+              "name_cn": "观赏植物",
+              "name_en": "Ornamental Plants",
+              "total_usd": 10931475824.0,
+              "share_pct": 1.1
+            },
+            {
+              "name_cn": "新鲜水果",
+              "name_en": "Fresh Fruit",
+              "total_usd": 10806527844.0,
+              "share_pct": 1.1
+            },
+            {
+              "name_cn": "冷冻产品",
+              "name_en": "Frozen Products",
+              "total_usd": 10332547982.0,
+              "share_pct": 1.0
+            },
+            {
+              "name_cn": "新鲜蔬菜",
+              "name_en": "Fresh Vegetables",
+              "total_usd": 10332547982.0,
+              "share_pct": 1.0
+            },
+            {
+              "name_cn": "蘑菇与松露",
+              "name_en": "Mushrooms & Truffles",
+              "total_usd": 10332547982.0,
+              "share_pct": 1.0
+            },
+            {
+              "name_cn": "豆类",
+              "name_en": "Beans",
+              "total_usd": 10332547982.0,
               "share_pct": 1.0
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 129067057360.0,
+            "value_usd": 107689279265.0,
             "yoy": 0,
-            "share": 16.9
+            "share": 16.0
           },
           "DE": {
-            "value_usd": 379688447116.3,
+            "value_usd": 359063229936.3,
             "yoy": 0,
-            "share": 49.7
+            "share": 53.3
           },
           "GB": {
-            "value_usd": 40359344045.0,
+            "value_usd": 29660717381.0,
             "yoy": 0,
-            "share": 5.3
+            "share": 4.4
           },
           "JP": {
-            "value_usd": 51624006093.0,
+            "value_usd": 31900400494.0,
             "yoy": 0,
-            "share": 6.8
+            "share": 4.7
           },
           "AU": {
-            "value_usd": 49241706106.89,
+            "value_usd": 40581874883.89,
             "yoy": 0,
-            "share": 6.4
+            "share": 6.0
           },
           "KR": {
-            "value_usd": 54020112918.0,
+            "value_usd": 53854745732.0,
             "yoy": 0,
-            "share": 7.1
+            "share": 8.0
           },
           "IN": {
-            "value_usd": 12058489254.0,
+            "value_usd": 8877080445.0,
             "yoy": 0,
-            "share": 1.6
+            "share": 1.3
           },
           "VN": {
             "value_usd": 0.0,
@@ -1626,19 +1553,19 @@
             "share": 0.0
           },
           "SA": {
-            "value_usd": 7171849293.0,
-            "yoy": 0,
-            "share": 0.9
-          },
-          "FR": {
-            "value_usd": 5836900182.0,
+            "value_usd": 5237330049.0,
             "yoy": 0,
             "share": 0.8
           },
-          "BR": {
-            "value_usd": 35353388100.0,
+          "FR": {
+            "value_usd": 1983849212.0,
             "yoy": 0,
-            "share": 4.6
+            "share": 0.3
+          },
+          "BR": {
+            "value_usd": 35440879090.0,
+            "yoy": 0,
+            "share": 5.3
           },
           "ID": {
             "value_usd": 0,
@@ -1754,168 +1681,168 @@
       "l3_count": 78,
       "customs_2025": {
         "china_export": {
-          "total_usd": 175896184320.0,
-          "total_kg": 37896184320.0,
-          "yoy_growth": 6.0,
+          "total_usd": 181598414680.0,
+          "total_kg": 3598414680.0,
+          "yoy_growth": 4.0,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "书写用品（新）",
               "name_en": "Writing Accessories",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "书籍与配件",
               "name_en": "Books & Book Accessories",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "办公用纸",
               "name_en": "Office Paper",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "办公胶水胶带",
               "name_en": "Office Adhesives & Tapes",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "办公裁剪用品",
               "name_en": "Office Cutting Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "办公装订用品",
               "name_en": "Office Binding Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "商业办公用品",
               "name_en": "Commercial Office Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "打印机耗材",
               "name_en": "Printer Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "教学用品",
               "name_en": "Education Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "板",
               "name_en": "Boards",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "板擦",
               "name_en": "Board Erasers",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "桌上收纳用品",
               "name_en": "Desk Organizers",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "涂改用品",
               "name_en": "Correction Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "笔",
               "name_en": "Pens",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "笔盒笔袋",
               "name_en": "Pencil Cases & Bags",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "笔记本和写字板",
               "name_en": "Notebooks & Writing Pads",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "绘图工具",
               "name_en": "Drafting Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "艺术用品",
               "name_en": "Art Supplies",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "荧光标记笔",
               "name_en": "Markers & Highlighters",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             },
             {
               "name_cn": "铅笔",
               "name_en": "Pencils",
-              "total_usd": 8794809216.0,
+              "total_usd": 9079920734.0,
               "share_pct": 5.0
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 36938198700.0,
+            "value_usd": 25423778040.0,
             "yoy": 0,
-            "share": 21.0
+            "share": 14.0
           },
           "DE": {
-            "value_usd": 35531029220.0,
+            "value_usd": 24515785980.0,
             "yoy": 0,
-            "share": 20.2
+            "share": 13.5
           },
           "GB": {
-            "value_usd": 32716690280.0,
+            "value_usd": 22881400240.0,
             "yoy": 0,
-            "share": 18.6
+            "share": 12.6
           },
           "JP": {
-            "value_usd": 34123859740.0,
+            "value_usd": 23789392320.0,
             "yoy": 0,
-            "share": 19.4
+            "share": 13.1
           },
           "AU": {
-            "value_usd": 5276885520.0,
+            "value_usd": 21428612920.0,
             "yoy": 0,
-            "share": 3.0
+            "share": 11.8
           },
           "KR": {
-            "value_usd": 31309520800.0,
+            "value_usd": 22155006580.0,
             "yoy": 0,
-            "share": 17.8
+            "share": 12.2
           },
           "IN": {
-            "value_usd": 0.0,
+            "value_usd": 20520620840.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 11.3
           },
           "VN": {
             "value_usd": 0.0,
@@ -1938,9 +1865,9 @@
             "share": 0.0
           },
           "SA": {
-            "value_usd": 0.0,
+            "value_usd": 1271188900.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.7
           },
           "FR": {
             "value_usd": 0.0,
@@ -1948,9 +1875,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 0.0,
+            "value_usd": 19612628780.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 10.8
           },
           "ID": {
             "value_usd": 0,
@@ -2021,120 +1948,120 @@
       "l3_count": 51,
       "customs_2025": {
         "china_export": {
-          "total_usd": 195000458307.0,
-          "total_kg": 5100458307.0,
-          "yoy_growth": 13.5,
+          "total_usd": 495505250079.0,
+          "total_kg": 4271597699.0,
+          "yoy_growth": 7.6,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
-              "name_cn": "玻璃包装",
-              "name_en": "Glass Packaging",
-              "total_usd": 54217047698.0,
-              "share_pct": 27.8
-            },
-            {
-              "name_cn": "包装原材料",
-              "name_en": "Packaging Raw Materials",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "包装辅助材料",
-              "name_en": "Packaging Auxiliary Materials",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "印刷服务",
-              "name_en": "Packaging & Printing Services",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "印刷材料",
-              "name_en": "Printing Materials",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "纸质包装",
-              "name_en": "Paper Packaging",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "纺织制品包装",
-              "name_en": "Textile Packaging",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "药物包装",
-              "name_en": "Pharmaceutical Packaging",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "运输包装",
-              "name_en": "Logistics Packaging",
-              "total_usd": 15146288347.0,
-              "share_pct": 7.8
-            },
-            {
-              "name_cn": "木、竹包装",
-              "name_en": "Wooden & Bamboo Packaging",
-              "total_usd": 10465559384.0,
-              "share_pct": 5.4
+              "name_cn": "金属包装",
+              "name_en": "Metal Packaging",
+              "total_usd": 109333652380.0,
+              "share_pct": 22.1
             },
             {
               "name_cn": "塑料包装",
               "name_en": "Plastic Packaging",
-              "total_usd": 9147544449.0,
-              "share_pct": 4.7
+              "total_usd": 47771096215.0,
+              "share_pct": 9.6
             },
             {
-              "name_cn": "金属包装",
-              "name_en": "Metal Packaging",
-              "total_usd": 0.0,
-              "share_pct": 0.0
+              "name_cn": "包装原材料",
+              "name_en": "Packaging Raw Materials",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "包装辅助材料",
+              "name_en": "Packaging Auxiliary Materials",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "印刷服务",
+              "name_en": "Packaging & Printing Services",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "印刷材料",
+              "name_en": "Printing Materials",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "纸质包装",
+              "name_en": "Paper Packaging",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "纺织制品包装",
+              "name_en": "Textile Packaging",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "药物包装",
+              "name_en": "Pharmaceutical Packaging",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "运输包装",
+              "name_en": "Logistics Packaging",
+              "total_usd": 37061709060.0,
+              "share_pct": 7.5
+            },
+            {
+              "name_cn": "玻璃包装",
+              "name_en": "Glass Packaging",
+              "total_usd": 24507332071.0,
+              "share_pct": 4.9
+            },
+            {
+              "name_cn": "木、竹包装",
+              "name_en": "Wooden & Bamboo Packaging",
+              "total_usd": 17399496933.0,
+              "share_pct": 3.5
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 62646633764.0,
+            "value_usd": 73294022436.0,
             "yoy": 0,
-            "share": 25.8
+            "share": 16.3
           },
           "DE": {
-            "value_usd": 87066561824.44,
+            "value_usd": 97655710996.44,
             "yoy": 0,
-            "share": 35.9
+            "share": 21.7
           },
           "GB": {
-            "value_usd": 40430455569.0,
+            "value_usd": 56170713260.0,
             "yoy": 0,
-            "share": 16.6
+            "share": 12.5
           },
           "JP": {
-            "value_usd": 47788252440.0,
+            "value_usd": 63853919056.81,
             "yoy": 0,
-            "share": 19.7
+            "share": 14.2
           },
           "AU": {
-            "value_usd": 1234936007.0,
+            "value_usd": 49464635598.94,
             "yoy": 0,
-            "share": 0.5
+            "share": 11.0
           },
           "KR": {
-            "value_usd": 1276798244.0,
+            "value_usd": 49236982391.0,
             "yoy": 0,
-            "share": 0.5
+            "share": 10.9
           },
           "IN": {
-            "value_usd": 1182608210.0,
+            "value_usd": 37423587370.0,
             "yoy": 0,
-            "share": 0.5
+            "share": 8.3
           },
           "VN": {
             "value_usd": 0.0,
@@ -2142,9 +2069,9 @@
             "share": 0.0
           },
           "MX": {
-            "value_usd": 0.0,
+            "value_usd": 4076210536.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.9
           },
           "AE": {
             "value_usd": 0,
@@ -2157,9 +2084,9 @@
             "share": 0.0
           },
           "SA": {
-            "value_usd": 73258915.0,
+            "value_usd": 1252763779.0,
             "yoy": 0,
-            "share": 0.0
+            "share": 0.3
           },
           "FR": {
             "value_usd": 0.0,
@@ -2167,9 +2094,9 @@
             "share": 0.0
           },
           "BR": {
-            "value_usd": 1130280413.0,
+            "value_usd": 18081900671.0,
             "yoy": 0,
-            "share": 0.5
+            "share": 4.0
           },
           "ID": {
             "value_usd": 0,
@@ -2189,82 +2116,82 @@
       "l3_count": 43,
       "customs_2025": {
         "china_export": {
-          "total_usd": 137162736288.0,
-          "total_kg": 3562736288.0,
-          "yoy_growth": 12.8,
+          "total_usd": 105418784735.0,
+          "total_kg": 5818784735.0,
+          "yoy_growth": -6.0,
           "data_quality": "estimated",
           "l2_breakdown": [
             {
               "name_cn": "基本有机原料",
               "name_en": "Basic Organic Chemicals",
-              "total_usd": 45148743707.0,
-              "share_pct": 32.9
+              "total_usd": 40660748644.0,
+              "share_pct": 38.6
             },
             {
               "name_cn": "农用化学品",
               "name_en": "Agrochemicals",
-              "total_usd": 39609279103.0,
-              "share_pct": 28.9
+              "total_usd": 31007539925.0,
+              "share_pct": 29.4
             },
             {
               "name_cn": "催化剂及化学助剂",
               "name_en": "Catalysts & Chemical Auxiliary Agents",
-              "total_usd": 26202356739.0,
-              "share_pct": 19.1
+              "total_usd": 16875248083.0,
+              "share_pct": 16.0
             },
             {
               "name_cn": "掺合剂及添加剂",
               "name_en": "Admixture & Additives",
-              "total_usd": 26202356739.0,
-              "share_pct": 19.1
+              "total_usd": 16875248083.0,
+              "share_pct": 16.0
             }
           ]
         },
         "imports_from_china": {
           "US": {
-            "value_usd": 18543487132.0,
+            "value_usd": 15696521170.0,
             "yoy": 0,
-            "share": 14.0
+            "share": 15.3
           },
           "DE": {
-            "value_usd": 17916840606.0,
+            "value_usd": 15195572448.0,
             "yoy": 0,
-            "share": 13.6
+            "share": 14.9
           },
           "GB": {
-            "value_usd": 16748305572.0,
+            "value_usd": 14112353505.0,
             "yoy": 0,
-            "share": 12.7
+            "share": 13.8
           },
           "JP": {
-            "value_usd": 17374952100.0,
+            "value_usd": 14653962978.0,
             "yoy": 0,
-            "share": 13.2
+            "share": 14.3
           },
           "AU": {
-            "value_usd": 13745605569.0,
+            "value_usd": 5262931574.0,
             "yoy": 0,
-            "share": 10.4
+            "share": 5.1
           },
           "KR": {
-            "value_usd": 16206417067.0,
+            "value_usd": 9342026176.0,
             "yoy": 0,
-            "share": 12.3
+            "share": 9.1
           },
           "IN": {
-            "value_usd": 7281984442.0,
+            "value_usd": 5127929588.0,
             "yoy": 0,
-            "share": 5.5
+            "share": 5.0
           },
           "VN": {
-            "value_usd": 752576302.0,
+            "value_usd": 9302261977.0,
             "yoy": 0,
-            "share": 0.6
+            "share": 9.1
           },
           "MX": {
-            "value_usd": 2376556746.0,
+            "value_usd": 1550376996.0,
             "yoy": 0,
-            "share": 1.8
+            "share": 1.5
           },
           "AE": {
             "value_usd": 0,
@@ -2272,24 +2199,24 @@
             "share": 0.0
           },
           "CA": {
-            "value_usd": 2455775304.0,
+            "value_usd": 1550376996.0,
             "yoy": 0,
-            "share": 1.9
+            "share": 1.5
           },
           "SA": {
-            "value_usd": 6847115400.0,
+            "value_usd": 3980412718.0,
             "yoy": 0,
-            "share": 5.2
+            "share": 3.9
           },
           "FR": {
-            "value_usd": 4820961396.0,
+            "value_usd": 1550376996.0,
             "yoy": 0,
-            "share": 3.6
+            "share": 1.5
           },
           "BR": {
-            "value_usd": 7022170910.0,
+            "value_usd": 4992927604.0,
             "yoy": 0,
-            "share": 5.3
+            "share": 4.9
           },
           "ID": {
             "value_usd": 0,

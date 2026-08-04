@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电线、电缆与电缆组件：海外社媒「electrical unboxing」增速 255%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
+    "trend_summary": "电线、电缆与电缆组件：海外社媒「electrical top 10」增速 248%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电线、电缆与电缆组件 成主流",
       "欧盟 CE 标志强制准入 → 电线、电缆与电缆组件 出口需通过合规认证",
-      "海外社媒「electrical unboxing」增速 255% 领跑 → 电线、电缆与电缆组件社媒种草热度爆发"
+      "海外社媒「electrical top 10」增速 248% 领跑 → 电线、电缆与电缆组件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electrical unboxing",
-        "growth": 255.0,
-        "vol": "191K",
+        "kw": "electrical top 10",
+        "growth": 248.5,
+        "vol": "667K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electrical price trend",
+        "growth": 247.0,
+        "vol": "135K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electrical tutorial",
-        "growth": 235.5,
-        "vol": "444K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical viral hack",
-        "growth": 216.0,
-        "vol": "271K",
+        "kw": "electrical review 2026",
+        "growth": 231.5,
+        "vol": "534K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical market 2026",
-        "growth": 208.5,
+        "growth": 203.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electrical equipment export opportunity emerging markets",
-        "growth": 81,
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 160.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Mexico’s exports support growth while USMCA uncertainty weighs on investment sentiment - Deloitte",
-        "source": "Deloitte",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNWxva0ZJVzNqMjN3MVdyUU9ZV3Yyc0dHNVBNdm5WR1JBemxDUGlzSGpjVEdfLTY1X0dTelMtbU05TzVvNkRjd3BfZWVWeWpPTU5JZmxjNzM3eVhCZFhHSUdzQnIzcDVGMC1UTnBWd1VVUm5uaFVlelFtSWh3R0pqRlBoU1JjQ2lSUHNMOTd3?oc=5",
+        "title": "Citrus (HS: 0805) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KQkhBd0cxa3pYSjhZbFVCbTRTUlV4elRPcGZ1Rk9SYUlKUzlva0FxV0VDLXJhM2ZnMUhBbWUzaTBsMThmWjJfWUZhQjNaekk?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-03",
+    "generated_at": "2026-08-04",
     "l1_ref": "电气设备及用品"
   }
 }

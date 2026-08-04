@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "生活类包袋：海外社媒「luggage #fyp」增速 244%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
+    "trend_summary": "生活类包袋：海外社媒「luggage price trend」增速 242%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 生活类包袋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 生活类包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生活类包袋 通关",
-      "海外社媒「luggage #fyp」增速 244% 领跑 → 生活类包袋社媒种草热度爆发"
+      "海外社媒「luggage price trend」增速 242% 领跑 → 生活类包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "luggage #fyp",
-        "growth": 243.5,
-        "vol": "112K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "backpack top 10",
-        "growth": 231.5,
-        "vol": "16K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "luggage market 2026",
-        "growth": 230.5,
-        "vol": "61K",
+        "kw": "luggage price trend",
+        "growth": 242.0,
+        "vol": "574K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 227.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "backpack must try",
+        "growth": 229.5,
+        "vol": "779K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "luggage breaking",
+        "growth": 222.5,
+        "vol": "110K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 156.5,
+        "growth": 209.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 165.5,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-03",
+    "generated_at": "2026-08-04",
     "l1_ref": "箱包"
   }
 }
