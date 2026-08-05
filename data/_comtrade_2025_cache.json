@@ -652,14 +652,29 @@
         "data_quality": "estimated"
       },
       "imports_from_china": {
+        "US": {
+          "value_usd": 462071207.0,
+          "yoy": -17.2,
+          "share": 8.9
+        },
+        "DE": {
+          "value_usd": 1679249008.221004,
+          "yoy": 39.1,
+          "share": 32.5
+        },
         "JP": {
           "value_usd": 1582585614.2870002,
           "yoy": null,
-          "share": 100.0
+          "share": 30.6
+        },
+        "GB": {
+          "value_usd": 1446193044.4580019,
+          "yoy": 1.7,
+          "share": 28.0
         }
       }
     },
-    "fetched_at": "2026-07-10"
+    "fetched_at": "2026-08-05"
   },
   "2025_HS13": {
     "data": {
