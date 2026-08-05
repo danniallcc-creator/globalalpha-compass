@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车照明系统：海外社媒「auto parts b2b export」增速 248%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Mexico (MEX) Exports, Imports, and...」。",
+    "trend_summary": "汽车照明系统：海外社媒「auto parts aesthetic」增速 243%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「India's auto parts exports to US remain...」。",
     "product_profile": {
       "外观": "极简线条 / 无主灯设计 / 磁吸轨道",
       "成分": "铝散热外壳 / COB 光源 / PMMA 导光板",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车照明系统 出口需通过合规认证",
-      "海外社媒「auto parts b2b export」增速 248% 领跑 → 汽车照明系统社媒种草热度爆发"
+      "海外社媒「auto parts aesthetic」增速 243% 领跑 → 汽车照明系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts b2b export",
-        "growth": 248.0,
-        "vol": "743K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "auto parts viral",
-        "growth": 246.5,
-        "vol": "410K",
+        "kw": "auto parts aesthetic",
+        "growth": 243.0,
+        "vol": "75K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts industry report",
-        "growth": 241.5,
-        "vol": "498K",
+        "platform": "tiktok",
+        "kw": "auto parts must try",
+        "growth": 242.5,
+        "vol": "28K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "auto parts analyst",
+        "growth": 217.5,
+        "vol": "712K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 245.0,
+        "growth": 211.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts wholesale supplier",
-        "growth": 197.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
+        "kw": "auto parts market 2026",
+        "growth": 68.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "India's auto parts exports to US remain strong despite tariff tensions - The Economic Times",
         "source": "The Economic Times",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZEtMVFJiZkE4Y1BrUkViT0pfT2RRU3FoVjVoLWdvRjNFYTJDTmpQVi1iUU1IUll5ZmxmTmVyT0lPbDZDSnNXbjFucXUyRzk5Y1Z6MlZrWFlVeHJ6QU92WGJiVGw4RjZ4V2lURVNxSTMycGNQQVY5QnVSaW9BbnBaeUNtLUp2N2d4N00zOGdBNDlLbWRtTHBMNXlvLUhKVXppWGFEblZDbllNRGNzQUdtZTJCUGc5OHo5bTIyM3Jxa1R6NEJab29tT1VzRUd5OXpMa1lIa1ByTFNBVHlYM18tOHVOemPSAeoBQVVfeXFMTXlKVkNBWGl3SEdMbXZpMkhKMFBRQUtzVHNxZmhnbF9Jd1docS1JLTE2WDBrZjlVZ1lPcFNuRlQwT3J1QXR6TDhTaFhlNlhpOU8xR3hra0RKNXhLSTk3MmJMRXdTNnB5di1XaGx5a0RHeXJDV295VmRZQm1NNXVFdnkxbHlJakxOczR4emlRQldYaEpuQl9NN2xwRTR1ejJtSTRmSDYxdzdKWk8wN0M3WHRrRWxnZWtTOV9Wd1RGOWE4ZXNHaWhWMUdfaUdhYVNvd0JGSWxjaFZPYm0tUEFLQ2VfX01EY2JZa1NR?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s export surge + Huawei’s Tau Scaling Law + Sino-German trade - Mercator Institute for China Studies (MERICS)",
+        "source": "Mercator Institute for China Studies (MERICS)",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1NGWmtldUY5QWRhdGo3T200S2lDeFo2bkdCYWZtQmo2eENISUNjUzZnUm4zN3RJT1pFbEQ4cUxTUUpoaDdEc1J6dXRSUW5CNHdYUGlJeXdXTDNSaUFTRnUtZ2VjUDFwYm1RaTRWdmx4TGJjQVlYekJqZFNJdEt1THZ4UFlFcGhVWjhCazRibENOclpRUTAwalRSQmUyQQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "lighting",
-    "generated_at": "2026-08-04",
+    "generated_at": "2026-08-05",
     "l1_ref": "汽车零配件"
   }
 }

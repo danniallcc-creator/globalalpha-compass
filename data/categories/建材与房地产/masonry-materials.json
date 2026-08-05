@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "砖石材料：海外社媒「building breaking」增速 256%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，tomshardware.com关注「While the U.S. flip-flops on chip...」。",
+    "trend_summary": "砖石材料：海外社媒「building wholesale supplier」增速 250%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Tom's Hardware关注「While the U.S. flip-flops on chip...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,58 +48,58 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 砖石材料 出口需通过合规认证",
-      "海外社媒「building breaking」增速 256% 领跑 → 砖石材料社媒种草热度爆发"
+      "海外社媒「building wholesale supplier」增速 250% 领跑 → 砖石材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building breaking",
-        "growth": 255.5,
-        "vol": "539K",
+        "platform": "google",
+        "kw": "building wholesale supplier",
+        "growth": 249.5,
+        "vol": "442K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building supply chain",
-        "growth": 246.5,
-        "vol": "679K",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 249.5,
+        "vol": "458K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cement aesthetic",
-        "growth": 244.0,
-        "vol": "312K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 210.0,
+        "platform": "google",
+        "kw": "cement price trend",
+        "growth": 240.0,
+        "vol": "694K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 199.5,
+        "growth": 246.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 96.0,
         "hits": 0
       },
       {
         "dim": "媒体",
         "title": "While the U.S. flip-flops on chip sanctions, China is building its own chip supply market — export controls are creating conditions for a Si",
-        "source": "tomshardware.com",
+        "source": "Tom's Hardware",
         "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQaC0zN1hjTkVNbDJ5MzE3Njc0cFN6UHFCQmhTVVIwZkJaWk9kNGxOTVhLdHVVTnVlWC0xNWNET0dDZHQ2dUZOVk1HRDd6RXQ0aVRIZ2FKVE41N0twdHJid0xPaG5tRkprZHVLQy0zOXlNQk0wci1oQ1ByNW03WXNLYzNMbDJsbkRoQ3kxcHVYZ0hwY0xGWF95NjdUN2NPZjA3V0lDSHoxaVl3el9DaXhGMVh4RC0zbW5CcFhKRU42dWVyVlAwamUySWYxT3FfN3c4M0pXTmlJdlZVb1I0WERNSDlDTUlUMEVJajhwQ1JlUzlTLWFJaEVzazhtaWYwVGJ6akFTVkNCX3lQOXc2dGNvbnBZNXgxNFZteVJpYVZ5SktGZ3RfM01CSTcyU3U5UXBPT284?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - News From The States",
-        "source": "News From The States",
+        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - newsfromthestates.com",
+        "source": "newsfromthestates.com",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3NGRVo1VjczMXBTaW1tUlFiN0IyZUdNNlIzbUhubzNDaTBqcWJPU2dERXlaY1hVUjZUSkRZaEx1SEJ1cnIzLTI0SWlmWWdpc2ZmRUxlcFR0eDY2dWFyV29yRlNaczl6bHZZN0FIXzRSNU5iY1pLYkVtRE1tOEgtWXdRWExOcUk2aEZ0YVNPZTZQcnNJTGZj?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-08-04",
+    "generated_at": "2026-08-05",
     "l1_ref": "建材与房地产"
   }
 }

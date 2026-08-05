@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工艺品：海外社媒「craft viral hack」增速 251%，搜索端「gifts crafts export opportunity emerging markets」热度上行，US Amazon BSR Top-48，CNBC关注「Gifts Crafts market poised for growth...」。",
+    "trend_summary": "工艺品：海外社媒「gift top 10」增速 248%，搜索端「gifts crafts export opportunity emerging markets」热度上行，SA Amazon BSR Top-44，CNBC关注「Gifts Crafts market poised for growth...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 工艺品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 工艺品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 工艺品 通关",
-      "海外社媒「craft viral hack」增速 251% 领跑 → 工艺品社媒种草热度爆发"
+      "海外社媒「gift top 10」增速 248% 领跑 → 工艺品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "craft viral hack",
-        "growth": 251.0,
-        "vol": "599K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "craft trending now",
-        "growth": 248.0,
-        "vol": "670K",
+        "platform": "youtube",
+        "kw": "gift top 10",
+        "growth": 247.5,
+        "vol": "82K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "gift industry report",
-        "growth": 246.5,
-        "vol": "747K",
+        "growth": 236.5,
+        "vol": "386K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "gift must try",
+        "growth": 230.5,
+        "vol": "537K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "gifts crafts export opportunity emerging markets",
-        "growth": 93,
+        "growth": 66,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "gifts crafts supply chain resilience",
-        "growth": 86,
+        "growth": 62,
         "hits": 2
       },
       {
@@ -107,25 +107,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 48,
-        "title": "Top gift - Premium Edition",
-        "price": "$161.0",
-        "rating": 4.4,
+        "market": "SA",
+        "rank": 44,
+        "title": "Top gift - Compact Edition",
+        "price": "$73.8",
+        "rating": 3.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 36,
-        "title": "Top craft - Smart Edition",
-        "price": "$225.1",
-        "rating": 4.7,
+        "market": "US",
+        "rank": 43,
+        "title": "Top craft - Heavy-Duty Edition",
+        "price": "$151.5",
+        "rating": 4.6,
         "hits": 2
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-08-04",
+    "generated_at": "2026-08-05",
     "l1_ref": "礼品与工艺品"
   }
 }

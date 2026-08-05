@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表零部件：海外社媒「jewelry review 2026」增速 232%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Bhaskar English关注「Indian jewellers unlikely to benefit...」。",
+    "trend_summary": "手表零部件：海外社媒「watch price trend」增速 245%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，Bhaskar English关注「Indian jewellers unlikely to benefit...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表零部件 出口需通过合规认证",
-      "海外社媒「jewelry review 2026」增速 232% 领跑 → 手表零部件社媒种草热度爆发"
+      "海外社媒「watch price trend」增速 245% 领跑 → 手表零部件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "jewelry review 2026",
-        "growth": 232.5,
-        "vol": "74K",
+        "platform": "google",
+        "kw": "watch price trend",
+        "growth": 245.0,
+        "vol": "503K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "watch b2b export",
+        "growth": 233.0,
+        "vol": "395K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "watch trending now",
-        "growth": 227.0,
-        "vol": "352K",
+        "kw": "jewelry tiktok made me buy",
+        "growth": 226.5,
+        "vol": "100K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "watch industry news",
-        "growth": 226.0,
-        "vol": "712K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "watch b2b export",
+        "growth": 230.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 192.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "jewelry watches export opportunity emerging markets",
-        "growth": 90,
+        "growth": 132.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-08-04",
+    "generated_at": "2026-08-05",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

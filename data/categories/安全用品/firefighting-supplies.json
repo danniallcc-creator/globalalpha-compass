@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "消防用品：海外社媒「ppe price trend」增速 252%，搜索端「safety gear wholesale supplier」热度上行，US Amazon BSR Top-12，The Pig Site关注「Weekly pig report: Hog prices climb as...」。",
+    "trend_summary": "消防用品：海外社媒「ppe market alert」增速 249%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，RFD-TV关注「Trade Deficit Strategy Could Reshape...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 消防用品 出口需通过合规认证",
-      "海外社媒「ppe price trend」增速 252% 领跑 → 消防用品社媒种草热度爆发"
+      "海外社媒「ppe market alert」增速 249% 领跑 → 消防用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ppe price trend",
-        "growth": 252.0,
-        "vol": "230K",
+        "platform": "x",
+        "kw": "ppe market alert",
+        "growth": 249.0,
+        "vol": "592K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "safety gear new arrival",
-        "growth": 236.5,
-        "vol": "776K",
+        "platform": "x",
+        "kw": "safety gear breaking",
+        "growth": 240.5,
+        "vol": "381K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "ppe must have",
-        "growth": 229.0,
-        "vol": "413K",
+        "platform": "youtube",
+        "kw": "ppe factory tour",
+        "growth": 240.0,
+        "vol": "756K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "safety gear wholesale supplier",
-        "growth": 171.5,
+        "kw": "ppe b2b export",
+        "growth": 235.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "safety equipment digital transformation",
-        "growth": 91,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Weekly pig report: Hog prices climb as export demand and cash markets align - The Pig Site",
-        "source": "The Pig Site",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOODZrRGRUejhzb1ppNGkyV1RiT19VMTRPRGxrV21zdGF4MmNINmhiOGQ5dkQyNVIxdkZ2U1k5X1g1aURBZUpsdnl0SUMwYjJjeHJhdm02M2tfc21sMzFTUnVwYUV3N2d4SC16SjZIaGZORXgycy1zUnk5LUo0aVhLMTB5VzBuRklvdXVUcndYMzh4R1VfWTQ2VWhDZEdMTzBoMEZNcFpGN250SjREdnJv?oc=5",
+        "source": "Google Trends",
+        "kw": "safety gear market 2026",
+        "growth": 185.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Trade Deficit Strategy Could Reshape Agricultural Export Markets - RFD-TV",
         "source": "RFD-TV",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUUycTZUQ2tKdUpmcm5nTkpzOXFtTXRlSnlkOGx6bllPQUJBaDRXZ2FHT3V2TTlUV2ZPQ29ydTlGMHZPMGNlZWxoUlhfM0l5ZEFZME9BT2dlb1JkSUNxbnhkeXQ4cnNWV3BKY0tQSUtVa1FYQUFmQzNlaWRSbGhScVlCZ0dTTjdPOG40SEtfUQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Expanding U.S. Agricultural Exports in Vietnam’s Rising Market - fas.usda.gov",
+        "source": "fas.usda.gov",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGNpRlA0RzJtaDAtTnVzazdra3hnZlFQRjdRTUZYUXJKcWpsU0NNV0JnT2RrZGZjYlFDTm1FMUpzT1ZxTWpCa3UzcThpajkwSHV3ZGtJMTRRZzNJTjJSaVl2MGx6SE1VOVVtMjhZNGxPYWgzTlVRcHFVSW5IdmxsWm11akxSWVNLUW9WWXFOZw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-08-04",
+    "generated_at": "2026-08-05",
     "l1_ref": "安全用品"
   }
 }
