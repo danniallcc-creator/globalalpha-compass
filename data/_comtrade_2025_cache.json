@@ -710,5 +710,25 @@
       }
     },
     "fetched_at": "2026-08-05"
+  },
+  "2025_HS53": {
+    "data": {
+      "china_export": {
+        "total_usd": 3620372476.0,
+        "total_kg": 0,
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
+      },
+      "imports_from_china": {
+        "US": {
+          "value_usd": 13203601.0,
+          "yoy": null,
+          "share": 100.0
+        }
+      }
+    },
+    "fetched_at": "2026-08-06"
   }
 }
