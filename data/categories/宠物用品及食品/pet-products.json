@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet food viral hack」增速 253%，搜索端「pet products digital transformation」热度上行，SA Amazon BSR Top-46，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
+    "trend_summary": "宠物用品：海外社媒「pet tiktok made me buy」增速 248%，搜索端「pet products export opportunity emerging markets」热度上行，JP Amazon BSR Top-37，Kansas Reflector关注「Kansas farmers suffer from tariffs and...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet food viral hack」增速 253% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet tiktok made me buy」增速 248% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 253.0,
-        "vol": "362K",
+        "kw": "pet tiktok made me buy",
+        "growth": 248.5,
+        "vol": "320K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "pet wholesale supplier",
+        "growth": 247.5,
+        "vol": "303K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "pet food aesthetic",
-        "growth": 230.0,
-        "vol": "444K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet top 10",
-        "growth": 213.5,
-        "vol": "422K",
+        "growth": 238.0,
+        "vol": "182K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products digital transformation",
-        "growth": 90,
+        "kw": "pet products export opportunity emerging markets",
+        "growth": 54,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products market trend 2026",
-        "growth": 80,
+        "kw": "pet products sustainable manufacturing",
+        "growth": 53,
         "hits": 2
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 46,
-        "title": "Top pet - Compact Edition",
-        "price": "$157.8",
-        "rating": 4.3,
+        "market": "JP",
+        "rank": 37,
+        "title": "Top pet - Eco Edition",
+        "price": "$221.4",
+        "rating": 4.2,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 22,
+        "rank": 29,
         "title": "Top pet - Premium Edition",
-        "price": "$39.0",
-        "rating": 3.9,
+        "price": "$246.0",
+        "rating": 4.5,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-05",
+    "generated_at": "2026-08-06",
     "l1_ref": "宠物用品及食品"
   }
 }

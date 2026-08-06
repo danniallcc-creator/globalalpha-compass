@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家具零配件：海外社媒「furniture price trend」增速 248%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，Вокс Україна关注「Canada-Ukraine Free Trade Agreement as...」。",
+    "trend_summary": "家具零配件：海外社媒「furniture breaking」增速 250%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，Вокс Україна关注「Canada-Ukraine Free Trade Agreement as...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家具零配件 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 家具零配件 出口欧美刚需",
-      "海外社媒「furniture price trend」增速 248% 领跑 → 家具零配件社媒种草热度爆发"
+      "海外社媒「furniture breaking」增速 250% 领跑 → 家具零配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "furniture price trend",
-        "growth": 248.0,
-        "vol": "25K",
+        "platform": "x",
+        "kw": "furniture breaking",
+        "growth": 250.5,
+        "vol": "448K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "desk tutorial",
+        "growth": 244.5,
+        "vol": "113K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "furniture must have",
-        "growth": 235.0,
-        "vol": "127K",
+        "growth": 234.0,
+        "vol": "446K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "furniture trending now",
-        "growth": 234.0,
-        "vol": "642K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "desk wholesale supplier",
+        "growth": 169.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "furniture market 2026",
-        "growth": 167.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sofa b2b export",
-        "growth": 163.0,
+        "growth": 133.5,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-05",
+    "generated_at": "2026-08-06",
     "l1_ref": "家具"
   }
 }

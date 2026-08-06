@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "53",
-    "total_export_value_usd": 11183648,
-    "total_net_weight_kg": 683648,
+    "total_export_value_usd": 32529037,
+    "total_net_weight_kg": 12029037,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-05"
+    "fetched_at": "2026-08-06"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 73,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-05"
+      "fetched_at": "2026-08-06"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": null,
@@ -60,17 +60,32 @@
       "US": {
         "value_usd": 13203601.0,
         "yoy": null,
-        "share": 9.0
+        "share": 8.6
       },
       "DE": {
-        "value_usd": 61695342.80400001,
-        "yoy": null,
-        "share": 42.1
+        "value_usd": 61695342.80399994,
+        "yoy": 38.6,
+        "share": 40.0
       },
-      "GB": {
-        "value_usd": 71583390.686,
+      "JP": {
+        "value_usd": 37665432.903000005,
+        "yoy": -4.9,
+        "share": 24.4
+      },
+      "KR": {
+        "value_usd": 36120001.0,
         "yoy": null,
-        "share": 48.9
+        "share": 23.4
+      },
+      "AU": {
+        "value_usd": 5344042.654,
+        "yoy": -5.8,
+        "share": 3.5
+      },
+      "SA": {
+        "value_usd": 277132.80299999996,
+        "yoy": null,
+        "share": 0.2
       }
     }
   }
