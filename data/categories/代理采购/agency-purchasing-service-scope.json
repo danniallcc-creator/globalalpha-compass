@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 46,
-      "trend_direction": "up",
+      "interest_score": 80,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-06"
+      "fetched_at": "2026-08-07"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing market 2026」增速 246%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「sourcing supply chain」增速 250%，搜索端「sourcing agency export opportunity emerging markets」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing market 2026」增速 246% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「sourcing supply chain」增速 250% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 246.5,
-        "vol": "182K",
+        "platform": "x",
+        "kw": "sourcing supply chain",
+        "growth": 249.5,
+        "vol": "323K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "sourcing #trending",
-        "growth": 245.5,
-        "vol": "269K",
+        "growth": 248.5,
+        "vol": "262K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "procurement b2b export",
-        "growth": 244.0,
-        "vol": "21K",
+        "platform": "x",
+        "kw": "sourcing analyst",
+        "growth": 246.5,
+        "vol": "234K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 243.5,
+        "source": "Linkedin",
+        "kw": "sourcing agency export opportunity emerging markets",
+        "growth": 82,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "procurement b2b export",
-        "growth": 241.0,
+        "source": "Linkedin",
+        "kw": "sourcing agency supply chain resilience",
+        "growth": 73,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Trump Administration’s New Section 301 Tariffs Reach Nearly All U.S. Imports - Ward and Smith, P.A.",
-        "source": "Ward and Smith, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVBxS3Vzb2FPOXFsa2VWeXh3eFNTTHA0Zjgyeko1MmVaZnpXLWVKbWtQenFQQ3FnVDJ4Y2xoODNhMWlzWXJMQVR4ODJMaFRUdDQycnYwUDNySGdfd3cwWTkyZGREc0J3OTBHdDd4ZVI3NXlOQk85eE80cnBXRkdVR09BTUN2clBCYXJOZUQtRXYyQkZZbmpUTzU1c3BYTVZOWDc5dFp5czc2c0pSRnNwTA?oc=5",
+        "title": "USDA revises beef export data, lowers sales by 90% - Farmers' Advance",
+        "source": "Farmers' Advance",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaTYwX1BGTUZOblFtdDhZU0pXRm9LQ3JON2RMN0FOZkxWT3I1ckd2UlMxOXpBRV9tTVlKXzJ1aUN0TVlkQkRCRTRrN2s5cFR6UUtvcXY5X1JNSnh3WDk4V0doaWtrWUNGbjZXZnl0VFRYR2dHOFVqQTROZGx0YW4wMmtVQUduNnllN1JmeWFiT1lHNmJ5eURyVk1sTGZ5RG14RHNUWHZOMEx4QXE2azBwSFZlRGI?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "代理采购"
   }
 }

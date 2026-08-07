@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车制动系统：海外社媒「auto parts tutorial」增速 254%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
+    "trend_summary": "汽车制动系统：海外社媒「auto parts #fyp」增速 236%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
     "product_profile": {
       "外观": "OEM 原厂规格 / 改装升级款 / 赛车竞技款",
       "成分": "高强度钢 / 锻造铝合金 / 碳纤维 / 陶瓷",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车制动系统 出口需通过合规认证",
-      "海外社媒「auto parts tutorial」增速 254% 领跑 → 汽车制动系统社媒种草热度爆发"
+      "海外社媒「auto parts #fyp」增速 236% 领跑 → 汽车制动系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto parts #fyp",
+        "growth": 236.5,
+        "vol": "467K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "auto parts tutorial",
-        "growth": 253.5,
-        "vol": "453K",
+        "kw": "auto parts unboxing",
+        "growth": 231.0,
+        "vol": "374K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "auto parts market alert",
-        "growth": 253.0,
-        "vol": "674K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts trending now",
-        "growth": 238.0,
-        "vol": "515K",
+        "growth": 224.0,
+        "vol": "466K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts market 2026",
-        "growth": 141.5,
+        "kw": "auto parts wholesale supplier",
+        "growth": 195.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 138.0,
+        "growth": 163.0,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "auto_parts",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "汽车零配件"
   }
 }

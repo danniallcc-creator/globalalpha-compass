@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "无线及物联网：海外社媒「semiconductor industry news」增速 222%，搜索端「chip wholesale supplier」热度上行，US Amazon BSR Top-12，fortune.com关注「The AI boom drove China's 27% export...」。",
+    "trend_summary": "无线及物联网：海外社媒「5g top 10」增速 238%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Fortune关注「The AI boom drove China's 27% export...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,58 +50,58 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 无线及物联网 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 无线及物联网 成主流",
       "欧盟 CE 标志强制准入 → 无线及物联网 出口需通过合规认证",
-      "海外社媒「semiconductor industry news」增速 222% 领跑 → 无线及物联网社媒种草热度爆发"
+      "海外社媒「5g top 10」增速 238% 领跑 → 无线及物联网社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "5g top 10",
+        "growth": 237.5,
+        "vol": "141K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "semiconductor trending now",
+        "growth": 234.0,
+        "vol": "742K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "semiconductor industry news",
-        "growth": 222.0,
-        "vol": "455K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "chip wholesale supplier",
-        "growth": 208.5,
-        "vol": "593K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "semiconductor price trend",
-        "growth": 206.0,
-        "vol": "217K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chip wholesale supplier",
-        "growth": 205.5,
+        "kw": "5g breaking",
+        "growth": 233.5,
+        "vol": "670K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 151.5,
+        "growth": 229.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electronic component b2b export",
+        "growth": 119.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "The AI boom drove China's 27% export jump in June as AI and the Iran war reshape global trade - fortune.com",
-        "source": "fortune.com",
+        "title": "The AI boom drove China's 27% export jump in June as AI and the Iran war reshape global trade - Fortune",
+        "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLTFJc2lOaGMwUXVtOXBRUzRMZXAwd3NTMFZFUmxTdU8zQ0VzYmhDWGh1bmhwQ3EtX2I5U0tNdklCYTdEcDI1R3U2Ym54RWVqUF90czVvWWRuUDlQU1VmUkpKQ1BRc3lwVnc0bFluY1NYSU1PMktNQWFKY3hFS0k5aWdEVQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Mexico Exports to US Reach Record US$54.2 Billion - mexicobusiness.news",
-        "source": "mexicobusiness.news",
+        "title": "Mexico Exports to US Reach Record US$54.2 Billion - Mexico Business News",
+        "source": "Mexico Business News",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ3lRUFBtWUptZ2p3SUxMR29OWmRYNWNNb0J0V2xCeXo5aUpGM2xqRkZ6OXljT0Q5a2RDdVFPR0VNdFE1SlktalA3V0RpUGJfZlNqajg2RVdNWTJ3cEpHR1o3b0hhVHBCYmMwUFA3VmpuZ2YzZkRySkh1TkltZGVyZmZxSDkzZmM5REI5emM2bHlkaHAySTB0SkhDUWdSZjg?oc=5",
         "hits": 0
       },
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

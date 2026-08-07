@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "网站开发：海外社媒「tech service breaking」增速 228%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，IBISWorld关注「UK Industry Fast Facts - IBISWorld」。",
+    "trend_summary": "网站开发：海外社媒「software outsourcing must have」增速 246%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「India parliamentary panel urges swift...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 网站开发 出口需通过合规认证",
-      "海外社媒「tech service breaking」增速 228% 领跑 → 网站开发社媒种草热度爆发"
+      "海外社媒「software outsourcing must have」增速 246% 领跑 → 网站开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "tech service breaking",
-        "growth": 228.5,
-        "vol": "684K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "tech service tiktok made me buy",
-        "growth": 223.5,
-        "vol": "99K",
+        "platform": "instagram",
+        "kw": "software outsourcing must have",
+        "growth": 246.0,
+        "vol": "536K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "software outsourcing industry news",
-        "growth": 214.0,
-        "vol": "166K",
+        "kw": "software outsourcing market alert",
+        "growth": 240.0,
+        "vol": "22K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "tech service tutorial",
+        "growth": 237.5,
+        "vol": "68K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "tech service wholesale supplier",
-        "growth": 174.5,
+        "growth": 143.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "software outsourcing b2b export",
-        "growth": 165.0,
+        "source": "Linkedin",
+        "kw": "tech services market trend 2026",
+        "growth": 90,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India parliamentary panel urges swift US trade deal, support for exporters hit by tariffs - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORFJEQlpuNkhTdjRFbzBhX2FfS3BfQVFYLUstbzQwMUp5eHRDLXRhMWVyb2dLa1ZreDBiQ05QcDEtWWVHVVB0RDFRYWkwVEdUTDZ0alZaTHV0SG44TEFkc1B2dzJDalF0UzhfMzcyUmRRM1RnMmZQcUpraWdLWjZsS2dBWHBsQ05NaUdIb3pHMU5CVTVyNGNyaWNoVWVwUzZreVpubUxqM2oxYWlVTjNRclRoTkVNUi1VdG1QVUxNSGlNUQ?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "UK Industry Fast Facts - IBISWorld",
         "source": "IBISWorld",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IMzd1Rm1YNFRvbVdfTThDeDBPREx4QzdDT0NHdkJFOXJxcnZTb2hRWGNqRm5BTEtpbFUyYUNZZ1Q3ak1velVUNmNkOS1FQUxQRkpHaWROUkgtUDlsSmRkbHduOW1VN1BZSnVpMkRTQQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Inside China’s two-speed economy: Why goods consumption is slumping even as exports and services boom - fortune.com",
-        "source": "fortune.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdERjWHdYQTlXdTUwbnQ3eDlLOW9Ga0RMbERFbkRUTGFrV1Q1U2J3MVhPSDZXZkdjYnBPM2U0R1JwWkM0U1B6S3JQeVBOdDVEVENmLW1xVnU4SnItem9VMEZhNHh3bkVfTWhuWVBxa3NaREZZTHJpSExpVUpoTE5kLWc5cVNQNnEzeHpWZFNJdllQM2gtaHlPSGI5amE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "开发与技术服务"
   }
 }

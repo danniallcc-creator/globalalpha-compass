@@ -76,39 +76,54 @@
         "data_quality": "estimated"
       },
       "imports_from_china": {
+        "US": {
+          "value_usd": 1667357613.0,
+          "yoy": -12.1,
+          "share": 11.6
+        },
         "DE": {
           "value_usd": 4167886467.4719954,
           "yoy": -2.7,
-          "share": 39.7
+          "share": 29.0
         },
         "JP": {
           "value_usd": 1683303551.453,
           "yoy": 2.8,
-          "share": 16.0
+          "share": 11.7
         },
         "GB": {
           "value_usd": 3374211388.828002,
           "yoy": 26.2,
-          "share": 32.1
+          "share": 23.4
         },
         "KR": {
           "value_usd": 769804434.0,
-          "yoy": null,
-          "share": 7.3
+          "yoy": 6.1,
+          "share": 5.3
         },
-        "BR": {
-          "value_usd": 217194518.0,
-          "yoy": null,
-          "share": 2.1
+        "AU": {
+          "value_usd": 783918988.0309999,
+          "yoy": 16.4,
+          "share": 5.4
+        },
+        "NL": {
+          "value_usd": 195184675.40499997,
+          "yoy": 3.6,
+          "share": 1.4
+        },
+        "CA": {
+          "value_usd": 1458850337.3139987,
+          "yoy": 23.6,
+          "share": 10.1
         },
         "MX": {
           "value_usd": 294081804.0,
-          "yoy": null,
-          "share": 2.8
+          "yoy": 23.6,
+          "share": 2.0
         }
       }
     },
-    "fetched_at": "2026-07-09"
+    "fetched_at": "2026-08-07"
   },
   "2025_HS96": {
     "data": {
@@ -730,5 +745,45 @@
       }
     },
     "fetched_at": "2026-08-06"
+  },
+  "2025_HS08": {
+    "data": {
+      "china_export": {
+        "total_usd": 27366567039.0,
+        "total_kg": 0,
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
+      },
+      "imports_from_china": {
+        "US": {
+          "value_usd": 410627263.0,
+          "yoy": null,
+          "share": 12.0
+        },
+        "DE": {
+          "value_usd": 2142522314.2210004,
+          "yoy": 55.1,
+          "share": 62.5
+        },
+        "JP": {
+          "value_usd": 124022942.466,
+          "yoy": null,
+          "share": 3.6
+        },
+        "GB": {
+          "value_usd": 696202147.2980006,
+          "yoy": 35.3,
+          "share": 20.3
+        },
+        "KR": {
+          "value_usd": 54991798.0,
+          "yoy": null,
+          "share": 1.6
+        }
+      }
+    },
+    "fetched_at": "2026-08-07"
   }
 }

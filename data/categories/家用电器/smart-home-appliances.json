@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "智能家用电器：海外社媒「appliance viral hack」增速 253%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，CNN关注「In record heat, a warming world has...」。",
+    "trend_summary": "智能家用电器：海外社媒「appliance trending now」增速 224%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，Future Market Insights关注「Home Appliances Glass Market - Future...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 智能家用电器 出口需通过合规认证",
-      "海外社媒「appliance viral hack」增速 253% 领跑 → 智能家用电器社媒种草热度爆发"
+      "海外社媒「appliance trending now」增速 224% 领跑 → 智能家用电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "appliance viral hack",
-        "growth": 253.0,
-        "vol": "415K",
+        "kw": "appliance trending now",
+        "growth": 224.0,
+        "vol": "383K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance wholesale supplier",
+        "growth": 223.5,
+        "vol": "163K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "appliance tutorial",
-        "growth": 241.5,
-        "vol": "522K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "appliance aesthetic",
-        "growth": 235.0,
-        "vol": "132K",
+        "growth": 216.5,
+        "vol": "305K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance market 2026",
-        "growth": 132.5,
+        "kw": "appliance wholesale supplier",
+        "growth": 220.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 114.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "In record heat, a warming world has come to rely on China to stay cool - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaURweFl3akFoczdPUlFXMUdCc2VvcWNUTmFwRWk5dzVUWjMtTmM1Nlk4M0JuQmtQVjh1cFdWQzhZS0h5OHhFOGtaN3JySHNNN2xWUDFuaWg3R3JWODZpYXZfQUdfUENlMnNVeU1BMFNta3BlX2hJREVrMU9YSDlTY1JDdlY?oc=5",
+        "growth": 125.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Home Appliances Glass Market - Future Market Insights",
         "source": "Future Market Insights",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KUjFJbXQ1NnlhcmRxOUJkaGNqRXFyUjM2VzFvd25GSUZLSVRMeWZtOWdWcmJ5XzVfVHBmejlxNHVXWkVrUGJ0VFZmYngzYlNYWi1lRjcxVmt5aE1MVDdVVUpoVUw4YXVwNWIzNEFTYUdEVTFwVVJzS1oyN2N5Zw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Smart Home Appliance Market Size, Share | Industry [2034] - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnB4S25wb3VRakRnYzQ2UU1yTDVyempJY1dIc3p2UmMwNmljUjhzeVM5TEp5eHFSVERBN0YwNVpodFV2V3pUZFNNYWVzcy1QNmpMaERqdm1oa1p4bWVRenQwWFVVamJpTUcyLUpxdzNfOVVYaGhjTXlPdGFvdGZFZg?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "家用电器"
   }
 }

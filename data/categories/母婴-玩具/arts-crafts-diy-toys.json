@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工艺品与DIY玩具：海外社媒「baby #fyp」增速 254%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，jharkhandstatenews.com关注「Breaking News- Indian Toys’ export...」。",
+    "trend_summary": "工艺品与DIY玩具：海外社媒「toys top 10」增速 238%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，marketplace.org关注「Leaving retirement for a new family...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,45 +49,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 工艺品与DIY玩具 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 工艺品与DIY玩具 采购偏好",
-      "海外社媒「baby #fyp」增速 254% 领跑 → 工艺品与DIY玩具社媒种草热度爆发"
+      "海外社媒「toys top 10」增速 238% 领跑 → 工艺品与DIY玩具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "toys top 10",
+        "growth": 238.5,
+        "vol": "271K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "baby industry news",
+        "growth": 231.0,
+        "vol": "519K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "baby #fyp",
-        "growth": 254.5,
-        "vol": "62K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "infant wholesale supplier",
-        "growth": 250.5,
-        "vol": "63K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby must have",
-        "growth": 240.0,
-        "vol": "788K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "infant wholesale supplier",
-        "growth": 247.5,
+        "kw": "toys must try",
+        "growth": 213.5,
+        "vol": "726K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "toys b2b export",
-        "growth": 167.0,
+        "growth": 172.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "baby toys market trend 2026",
+        "growth": 83,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Leaving retirement for a new family business - marketplace.org",
+        "source": "marketplace.org",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZXJJdkJuSjVSSUlNbWNwYmc3WV9USFJDZWlpd2taRktlYXQyR1gwdDRwYU1tN3BodzhYQkpPT3YyenFpN0U2ejQwWGxQWnNFeDFTUVZvTG1GXzdvLUh0dFFubndpemNsemt1RnhXNk5ZU3dLQng0OTgtRFgxemI2NW5JV3FxWmJzWjRuQXJpUjlDN1U?oc=5",
         "hits": 0
       },
       {
@@ -95,13 +102,6 @@
         "title": "Breaking News- Indian Toys’ export grows from US$152.7 million in 2017-18 to US$ 384.7 million in 2025-26 - jharkhandstatenews.com",
         "source": "jharkhandstatenews.com",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLVFTUFZqT0RsVWtBUkRUajVkVE9Pd1kyc2ZWalZoZHU2cVhiTEgta3phQldBdGw5NmtqSVFCamNwX1VHTU9weS01bEZRT0hnS3BVS0hBdUEwU3hPNG1hZE5zdTJLdFh4NG54ekJfV1FkeVJXVnJuUGc3VXQzQ1Y3Mmc5T243UF9yT1kxRmNhaEpraVhqS2d0VFRLeEV2TTcyQ3QzblVZdDJNNm9nT3A5bndOWk1VTU56dkY2dEFFYUNrQlFZRXBCeVQ1TlhlQjlDOTNuQ0dTUHJRZVZqeDJTakN6REFRVzQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "K. V. Toys India Q1 Results: Total income rises 23% YoY - scanx.trade",
-        "source": "scanx.trade",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzBaQlc5bFpvcU1iQll1Z3dwS3drclFKZFRhTVBsRFNwdzYweGY4YzJZV3BZUHBwd05zNURIVk1FWEEybHZhXzB0NFpqQUkzVldKc1hGRWhHc0NobU5odVAyem4tV3pURHp3cVpUT3ptY0tRcFBGekpSQ29aUG12NXBBaTRSb0pZOUZHanBOZWRIN0ZuRXA5SDJ2elFtT0NEcEkwWlg3aXhnRGNv?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "母婴&玩具"
   }
 }

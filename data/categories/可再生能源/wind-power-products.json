@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "风力发电产品：海外社媒「photovoltaic b2b export」增速 246%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，China Briefing关注「Investing in Indonesia's Renewable...」。",
+    "trend_summary": "风力发电产品：海外社媒「solar #fyp」增速 250%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，China Briefing关注「Investing in Indonesia's Renewable...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 风力发电产品 出口需通过合规认证",
-      "海外社媒「photovoltaic b2b export」增速 246% 领跑 → 风力发电产品社媒种草热度爆发"
+      "海外社媒「solar #fyp」增速 250% 领跑 → 风力发电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "solar #fyp",
+        "growth": 249.5,
+        "vol": "363K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "photovoltaic b2b export",
-        "growth": 246.0,
-        "vol": "277K",
+        "growth": 235.0,
+        "vol": "36K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "solar must try",
-        "growth": 229.5,
-        "vol": "283K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "solar industry report",
-        "growth": 220.5,
-        "vol": "578K",
+        "growth": 226.5,
+        "vol": "265K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 243.0,
+        "growth": 232.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "energy storage wholesale supplier",
-        "growth": 122.5,
+        "growth": 193.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "可再生能源"
   }
 }

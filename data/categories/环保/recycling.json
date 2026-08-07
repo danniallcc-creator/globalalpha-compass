@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental #fyp」增速 248%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，EPC, European Policy Centre关注「Does the EU enforce the green standards...」。",
+    "trend_summary": "回收：海外社媒「environmental breaking」增速 256%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，The Guardian关注「Europe’s most effective tool to cut...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental #fyp」增速 248% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental breaking」增速 256% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental #fyp",
-        "growth": 248.5,
-        "vol": "655K",
+        "platform": "x",
+        "kw": "environmental breaking",
+        "growth": 255.5,
+        "vol": "649K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "environmental supply chain",
+        "growth": 249.5,
+        "vol": "155K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "green tech price trend",
-        "growth": 247.0,
-        "vol": "189K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "green tech trending now",
-        "growth": 247.0,
-        "vol": "64K",
+        "kw": "green tech b2b export",
+        "growth": 244.0,
+        "vol": "750K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 159.0,
+        "growth": 241.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 154.5,
+        "growth": 226.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Europe’s most effective tool to cut greenhouse gas emissions ‘risks being weakened’ - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1JtaElfR2VKbmVDVzE0Y3NJS2VIQlR6Ull1OWtKUEo5aDk2aTJseWJVdWgxdTVjUGdrMm1wNWE0aUtZTmZkYkg5T0VTUFlnMjVCLV9ZbWtEaTFTeGo5bjNjWm5lVS03M1dSbWswRFY2c0pHeWZHRExOSU9nSmg0LVh5WFB2M1REc2I0NklEenZPd3RqVTdJQXhHU3NnR1A4aHd4R1BHdDVQOGJXVl9sbmRKaw?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
         "source": "EPC, European Policy Centre",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Europe Has to Take on China to Save Free Trade - Council on Foreign Relations",
-        "source": "Council on Foreign Relations",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGtDUUlCYjgwUTlvejdIVEtzNkZZX05yaF9uSHE5b2FUci1UZkFQNkpWRmNFR0o1Z3JBOUJVZ3JCUnhCQm12TFZCdkFhbmY4SGVDLVpWemtsZ3cwQnUtLW9JamtPYW0wZUpVN2daRUZKREtQR2FXWmszOXMwX0VwaQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "环保"
   }
 }

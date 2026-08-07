@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "男士包袋：海外社媒「bag tutorial」增速 252%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
+    "trend_summary": "男士包袋：海外社媒「bag tiktok made me buy」增速 254%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 男士包袋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 男士包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 男士包袋 通关",
-      "海外社媒「bag tutorial」增速 252% 领跑 → 男士包袋社媒种草热度爆发"
+      "海外社媒「bag tiktok made me buy」增速 254% 领跑 → 男士包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "bag tiktok made me buy",
+        "growth": 253.5,
+        "vol": "385K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "bag tutorial",
-        "growth": 252.5,
-        "vol": "705K",
+        "growth": 246.5,
+        "vol": "118K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "bag viral",
-        "growth": 249.5,
-        "vol": "414K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "backpack unboxing",
-        "growth": 244.0,
-        "vol": "281K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 219.0,
+        "platform": "google",
+        "kw": "bag wholesale supplier",
+        "growth": 235.5,
+        "vol": "615K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 211.5,
+        "growth": 232.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 154.5,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-06",
+    "generated_at": "2026-08-07",
     "l1_ref": "箱包"
   }
 }
