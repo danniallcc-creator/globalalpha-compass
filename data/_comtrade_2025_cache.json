@@ -785,5 +785,110 @@
       }
     },
     "fetched_at": "2026-08-07"
+  },
+  "2025_HS05": {
+    "data": {
+      "china_export": {
+        "total_usd": 3083264995.0,
+        "total_kg": 0,
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
+      },
+      "imports_from_china": {
+        "US": {
+          "value_usd": 602527803.0,
+          "yoy": null,
+          "share": 12.5
+        },
+        "DE": {
+          "value_usd": 3068588414.6769943,
+          "yoy": 42.1,
+          "share": 63.6
+        },
+        "JP": {
+          "value_usd": 163623141.06899998,
+          "yoy": null,
+          "share": 3.4
+        },
+        "GB": {
+          "value_usd": 342782997.10400015,
+          "yoy": null,
+          "share": 7.1
+        },
+        "KR": {
+          "value_usd": 45238239.0,
+          "yoy": null,
+          "share": 0.9
+        },
+        "SA": {
+          "value_usd": 25510.4,
+          "yoy": null,
+          "share": 0.0
+        },
+        "IT": {
+          "value_usd": 78569001.21599999,
+          "yoy": null,
+          "share": 1.6
+        },
+        "CA": {
+          "value_usd": 522345867.7039998,
+          "yoy": 49.5,
+          "share": 10.8
+        }
+      }
+    },
+    "fetched_at": "2026-08-07"
+  },
+  "2025_HS44": {
+    "data": {
+      "china_export": {
+        "total_usd": 34575948757.0,
+        "total_kg": 0,
+        "yoy_growth": null,
+        "period": "2024 (proxy)",
+        "source": "UN Comtrade",
+        "data_quality": "estimated"
+      },
+      "imports_from_china": {
+        "US": {
+          "value_usd": 3223483597.0,
+          "yoy": -40.5,
+          "share": 13.2
+        },
+        "DE": {
+          "value_usd": 6728128123.732,
+          "yoy": 57.8,
+          "share": 27.7
+        },
+        "JP": {
+          "value_usd": 1411516594.2319999,
+          "yoy": 1.8,
+          "share": 5.8
+        },
+        "AU": {
+          "value_usd": 1905099320.1499999,
+          "yoy": 8.4,
+          "share": 7.8
+        },
+        "IT": {
+          "value_usd": 298129850.299,
+          "yoy": null,
+          "share": 1.2
+        },
+        "CA": {
+          "value_usd": 9944579542.62399,
+          "yoy": 15.3,
+          "share": 40.9
+        },
+        "MX": {
+          "value_usd": 818557254.0,
+          "yoy": null,
+          "share": 3.4
+        }
+      }
+    },
+    "fetched_at": "2026-08-07"
   }
 }
