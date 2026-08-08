@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental breaking」增速 256%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，The Guardian关注「Europe’s most effective tool to cut...」。",
+    "trend_summary": "回收：海外社媒「green tech industry news」增速 241%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Egyptian Gazette关注「Egypt discusses int’l financing for...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,58 +48,58 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental breaking」增速 256% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech industry news」增速 241% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental breaking",
-        "growth": 255.5,
-        "vol": "649K",
+        "kw": "green tech industry news",
+        "growth": 241.0,
+        "vol": "13K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 240.5,
+        "vol": "563K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental supply chain",
-        "growth": 249.5,
-        "vol": "155K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "green tech b2b export",
-        "growth": 244.0,
-        "vol": "750K",
+        "kw": "green tech market alert",
+        "growth": 218.0,
+        "vol": "195K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 241.0,
+        "growth": 203.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 226.5,
+        "kw": "environmental market 2026",
+        "growth": 133.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Europe’s most effective tool to cut greenhouse gas emissions ‘risks being weakened’ - The Guardian",
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1JtaElfR2VKbmVDVzE0Y3NJS2VIQlR6Ull1OWtKUEo5aDk2aTJseWJVdWgxdTVjUGdrMm1wNWE0aUtZTmZkYkg5T0VTUFlnMjVCLV9ZbWtEaTFTeGo5bjNjWm5lVS03M1dSbWswRFY2c0pHeWZHRExOSU9nSmg0LVh5WFB2M1REc2I0NklEenZPd3RqVTdJQXhHU3NnR1A4aHd4R1BHdDVQOGJXVl9sbmRKaw?oc=5",
+        "title": "Egypt discusses int’l financing for green transition - Egyptian Gazette",
+        "source": "Egyptian Gazette",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbnVFdmt2eXpqd0VvQmJSQTdaQUU3UHEtMnFjNGkwNEpXM3FkUHRqNGlwbkJ2U0tYWHBfV1lYd1dhRjhJcjRqTXFoUm1vRzlNM2dYRjF5N1BVUENKVjltc3dmUmZRMjZFTGRsRlY2RVE3Zl9MOE5HMjlwRnRYb1pGVnlqMXEyby1QUlpFbVRGMkU?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
-        "source": "EPC, European Policy Centre",
+        "title": "Does the EU enforce the green standards it exports? - epc.eu",
+        "source": "epc.eu",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "环保"
   }
 }

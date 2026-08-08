@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 80,
-      "trend_direction": "stable",
+      "interest_score": 99,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-07"
+      "fetched_at": "2026-08-08"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing supply chain」增速 250%，搜索端「sourcing agency export opportunity emerging markets」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「sourcing viral」增速 250%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing supply chain」增速 250% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「sourcing viral」增速 250% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "sourcing supply chain",
+        "platform": "instagram",
+        "kw": "sourcing viral",
         "growth": 249.5,
-        "vol": "323K",
+        "vol": "796K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "sourcing #trending",
-        "growth": 248.5,
-        "vol": "262K",
+        "growth": 225.5,
+        "vol": "626K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "sourcing analyst",
-        "growth": 246.5,
-        "vol": "234K",
+        "platform": "google",
+        "kw": "procurement b2b export",
+        "growth": 218.0,
+        "vol": "23K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "sourcing agency export opportunity emerging markets",
-        "growth": 82,
+        "source": "Google Trends",
+        "kw": "procurement b2b export",
+        "growth": 215.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "sourcing agency supply chain resilience",
-        "growth": 73,
+        "source": "Google Trends",
+        "kw": "sourcing market 2026",
+        "growth": 124.5,
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "代理采购"
   }
 }

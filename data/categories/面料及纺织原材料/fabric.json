@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric b2b export」增速 230%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-38，Reuters关注「US tariff puts Indian textile exporters...」。",
+    "trend_summary": "面料：海外社媒「fabric must have」增速 235%，搜索端「textile fabric supply chain resilience」热度上行，SA Amazon BSR Top-42，Reuters关注「US tariff puts Indian textile exporters...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric b2b export」增速 230% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric must have」增速 235% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 230.0,
-        "vol": "617K",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 235.0,
+        "vol": "363K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "fabric market alert",
-        "growth": 230.0,
-        "vol": "567K",
+        "growth": 187.0,
+        "vol": "240K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric aesthetic",
-        "growth": 211.0,
-        "vol": "679K",
+        "platform": "youtube",
+        "kw": "fabric unboxing",
+        "growth": 106.0,
+        "vol": "432K",
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "fabric b2b export",
-        "growth": 227.0,
+        "source": "Linkedin",
+        "kw": "textile fabric supply chain resilience",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "textile fabric export opportunity emerging markets",
-        "growth": 83,
+        "growth": 65,
         "hits": 2
       },
       {
@@ -107,25 +107,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 38,
-        "title": "Top textile - Premium Edition",
-        "price": "$15.0",
-        "rating": 4.2,
+        "market": "SA",
+        "rank": 42,
+        "title": "Top textile - Compact Edition",
+        "price": "$222.8",
+        "rating": 4.6,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 38,
-        "title": "Top fabric - Smart Edition",
-        "price": "$29.1",
-        "rating": 4.9,
+        "market": "JP",
+        "rank": 41,
+        "title": "Top textile - Eco Edition",
+        "price": "$258.4",
+        "rating": 3.8,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "面料及纺织原材料"
   }
 }

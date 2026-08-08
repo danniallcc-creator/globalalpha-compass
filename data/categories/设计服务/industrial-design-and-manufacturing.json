@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工业设计与制造：海外社媒「industrial design tutorial」增速 252%，搜索端「industrial design b2b export」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
+    "trend_summary": "工业设计与制造：海外社媒「industrial design market 2026」增速 256%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 工业设计与制造 出口需通过合规认证",
-      "海外社媒「industrial design tutorial」增速 252% 领跑 → 工业设计与制造社媒种草热度爆发"
+      "海外社媒「industrial design market 2026」增速 256% 领跑 → 工业设计与制造社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial design market 2026",
+        "growth": 255.5,
+        "vol": "425K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial design wholesale supplier",
+        "growth": 238.5,
+        "vol": "574K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "industrial design tutorial",
-        "growth": 251.5,
-        "vol": "461K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "industrial design must try",
-        "growth": 243.5,
-        "vol": "217K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "industrial design industry news",
-        "growth": 232.0,
-        "vol": "368K",
+        "kw": "industrial design factory tour",
+        "growth": 238.0,
+        "vol": "323K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 107.0,
+        "kw": "industrial design market 2026",
+        "growth": 252.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "design services supply chain resilience",
-        "growth": 55,
+        "source": "Google Trends",
+        "kw": "industrial design wholesale supplier",
+        "growth": 235.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "设计服务"
   }
 }

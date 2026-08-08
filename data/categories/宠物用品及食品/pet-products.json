@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet market 2026」增速 246%，搜索端「pet products sustainable manufacturing」热度上行，UK Amazon BSR Top-47，RFD-TV关注「Agricultural Trade Deficit Narrows As...」。",
+    "trend_summary": "宠物用品：海外社媒「pet review 2026」增速 242%，搜索端「pet products supply chain resilience」热度上行，JP Amazon BSR Top-32，RFD-TV关注「Agricultural Trade Deficit Narrows As...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet market 2026」增速 246% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet review 2026」增速 242% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "pet review 2026",
+        "growth": 242.5,
+        "vol": "281K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "pet market 2026",
-        "growth": 246.5,
-        "vol": "248K",
+        "growth": 241.5,
+        "vol": "558K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "pet supply chain",
-        "growth": 226.5,
-        "vol": "737K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet tiktok made me buy",
-        "growth": 213.5,
-        "vol": "317K",
+        "kw": "pet breaking",
+        "growth": 238.5,
+        "vol": "707K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products sustainable manufacturing",
-        "growth": 60,
+        "kw": "pet products supply chain resilience",
+        "growth": 61,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products digital transformation",
-        "growth": 52,
+        "kw": "pet products export opportunity emerging markets",
+        "growth": 55,
         "hits": 2
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Expanding U.S. Agricultural Exports in Vietnam’s Rising Market - USDA Foreign Agricultural Service (.gov)",
-        "source": "USDA Foreign Agricultural Service (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGNpRlA0RzJtaDAtTnVzazdra3hnZlFQRjdRTUZYUXJKcWpsU0NNV0JnT2RrZGZjYlFDTm1FMUpzT1ZxTWpCa3UzcThpajkwSHV3ZGtJMTRRZzNJTjJSaVl2MGx6SE1VOVVtMjhZNGxPYWgzTlVRcHFVSW5IdmxsWm11akxSWVNLUW9WWXFOZw?oc=5",
+        "title": "MN Soybean farmer leader hosting Taiwan Trade Team - The Mighty 790 KFGO",
+        "source": "The Mighty 790 KFGO",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOREl1dHg2MjdSdUpsdnd5bDNBbUpPOHlyVHFqdnhIM1FPalhCZUNmYk0wYmI3SzBYWW4xM2Fjekh0emVQaDFoUE53QktONXlvSUFxTTQ2ZURGU1hETEhSaTFtbjhzNGZud1pKcjhSQXlOR2VCWmlHR1pwamdGUkRBQzVTUnh1Zw?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 47,
-        "title": "Top pet food - Smart Edition",
-        "price": "$124.1",
-        "rating": 4.5,
+        "market": "JP",
+        "rank": 32,
+        "title": "Top pet - Eco Edition",
+        "price": "$44.4",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 30,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$255.5",
-        "rating": 4.5,
+        "market": "DE",
+        "rank": 25,
+        "title": "Top pet food - Pro Edition",
+        "price": "$257.7",
+        "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "宠物用品及食品"
   }
 }

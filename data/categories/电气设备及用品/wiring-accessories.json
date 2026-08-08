@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "配线器材：海外社媒「electrical unboxing」增速 232%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「China's exports growth beats estimates...」。",
+    "trend_summary": "配线器材：海外社媒「electrical #trending」增速 256%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，cnbc.com关注「China's exports growth beats estimates...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -49,58 +49,58 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 配线器材 成主流",
       "欧盟 CE 标志强制准入 → 配线器材 出口需通过合规认证",
-      "海外社媒「electrical unboxing」增速 232% 领跑 → 配线器材社媒种草热度爆发"
+      "海外社媒「electrical #trending」增速 256% 领跑 → 配线器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electrical #trending",
+        "growth": 255.5,
+        "vol": "728K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electrical unboxing",
-        "growth": 232.0,
-        "vol": "283K",
+        "kw": "electrical tutorial",
+        "growth": 227.5,
+        "vol": "443K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electrical market alert",
-        "growth": 229.0,
-        "vol": "184K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical viral hack",
-        "growth": 228.0,
-        "vol": "101K",
+        "kw": "electrical industry news",
+        "growth": 213.0,
+        "vol": "528K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
-        "growth": 117.5,
+        "growth": 147.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electrical equipment sustainable manufacturing",
-        "growth": 91,
+        "source": "Google Trends",
+        "kw": "electrical market 2026",
+        "growth": 92.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's exports growth beats estimates in July, as AI-driven shipments surge - CNBC",
-        "source": "CNBC",
+        "title": "China's exports growth beats estimates in July, as AI-driven shipments surge - cnbc.com",
+        "source": "cnbc.com",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWVtbGZySFBPQjJKY3VOaTJyQU0wZTVfaDYzdEtHWDBJVUZ6amxGODd3YVpuT2plOHZock5mbk5fbE9pS3d3VndMM21zMjdtRG9aRG5KRm1zQ3o2ZGpCMTNzQVBobkR3TlgwTThXUzZWelF6TGRxQkpGRlZCRDhHLW04R0xwaXNOQjNBMkVFb3c4VnJkZUJXakFsZUnSAaIBQVVfeXFMTlM3M2l3d3lCZFA5MWRtVjV5M3puckl3NG9Lc2ctVzU0RldzMGI4d0MtbHZpRWxrOWJYYXJ5WlNmd08zTXBZZ0ZVWVh6bkotTXpvNFljUURlenNRRTlQaEFZRTh0QlVlM3g2RjRvcHQ1N3kyMGtPRnZ1eUN6dWFlN1F4dmFVOHppTG9kRlNJV0NWbzBubFFaT2hQeGY0bWdVTm93?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
-        "source": "The Washington Post",
+        "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - washingtonpost.com",
+        "source": "washingtonpost.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
         "hits": 0
       },
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-08-07",
+    "generated_at": "2026-08-08",
     "l1_ref": "电气设备及用品"
   }
 }
