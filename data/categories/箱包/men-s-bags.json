@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "男士包袋：海外社媒「luggage factory tour」增速 245%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
+    "trend_summary": "男士包袋：海外社媒「luggage breaking」增速 254%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「Dunnage Air Bags Market to Reach 170...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 男士包袋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 男士包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 男士包袋 通关",
-      "海外社媒「luggage factory tour」增速 245% 领跑 → 男士包袋社媒种草热度爆发"
+      "海外社媒「luggage breaking」增速 254% 领跑 → 男士包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "luggage factory tour",
-        "growth": 245.0,
-        "vol": "246K",
+        "platform": "x",
+        "kw": "luggage breaking",
+        "growth": 254.5,
+        "vol": "772K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "luggage must have",
-        "growth": 241.0,
-        "vol": "711K",
+        "platform": "google",
+        "kw": "luggage market 2026",
+        "growth": 236.5,
+        "vol": "21K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "luggage review 2026",
-        "growth": 223.5,
-        "vol": "663K",
+        "kw": "backpack top 10",
+        "growth": 221.5,
+        "vol": "395K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "luggage market 2026",
-        "growth": 128.5,
+        "growth": 233.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "bag wholesale supplier",
-        "growth": 115.5,
+        "kw": "backpack b2b export",
+        "growth": 174.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Dunnage Air Bags Market to Reach 170 Index by 2035 on Electronics Cargo Safety Demand - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcHgxRU1Vck9kT292VXd5UmpXUVVobEZHcVVHdlhCQTBDV2tfajYyanlxTS1zdjJ4WklCRG5LYXFnMTJPcmUwSDdaZlExdEV6QkxCX3VpczVjVG9DN2ZhMlV6VnBETGNhOTgxeDBFTzZrZ0VSYW9PZUVieUhtXzA1RjZTUkxZaGlLZEExc2NpY0FkdU9wcHNzZy11bkVNQ0w1Mnp1YThxay10TzdQajhFa0t0X3Rmdw?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Uflex commences commercial production at Mexico plant with 80 mn bag capacity - scanx.trade",
         "source": "scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzY1Wk10eHp2N3FmLUozLWdjZmFzd1Z0S3BpeXcycmVaMktpcWY1SUpPRVROMFd1YjVYUDdzSWM0aVZVa1UxV0VickNmcnFnZ0t5ZzJ5NnBPbDZTVmI3ZlVNbHd6RkMxa1ZlREs5Q2xodU85ODFFTE1rWmNxcFNkZk1temxqZUhSTW5PVl9UUHZSS3I0bWhnYkt4MnZSWGRNRmk1bEtmWGM4eXZWX0VudkxYQkVONUc0NklXcHpJLTZKSGphUmlNeFdtQjR6Qlg1ektmX3c3UGlsQVE?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The hidden cost of import ban in Nigeria - TheCable",
-        "source": "TheCable",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSVW9RV3hpaGkxUFFmQjU1LUQ1cnltNlBONmZRNExRWWFhejhtNEF5ZWRHY0dsZDdhcGE5TUJLZ2JMa0VQUWJUSnd6T3hsSXo4WUlkeHpJS2E3VFQ0MTBvdFlFT0pub19DWTNfaXh5U3djNm8?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-08",
+    "generated_at": "2026-08-09",
     "l1_ref": "箱包"
   }
 }

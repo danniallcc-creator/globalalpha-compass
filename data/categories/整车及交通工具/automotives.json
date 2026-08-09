@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "乘用车：海外社媒「electric vehicle tutorial」增速 244%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China's EV export boom is starting to...」。",
+    "trend_summary": "乘用车：海外社媒「electric vehicle industry report」增速 248%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's EV export boom is starting to...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 乘用车 出口需通过合规认证",
-      "海外社媒「electric vehicle tutorial」增速 244% 领跑 → 乘用车社媒种草热度爆发"
+      "海外社媒「electric vehicle industry report」增速 248% 领跑 → 乘用车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electric vehicle tutorial",
-        "growth": 243.5,
-        "vol": "757K",
+        "platform": "google",
+        "kw": "electric vehicle industry report",
+        "growth": 248.5,
+        "vol": "424K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electric vehicle tiktok made me buy",
-        "growth": 227.5,
-        "vol": "507K",
+        "platform": "google",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 241.5,
+        "vol": "652K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "ev factory tour",
-        "growth": 211.0,
-        "vol": "637K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
-        "growth": 201.5,
+        "platform": "x",
+        "kw": "electric vehicle supply chain",
+        "growth": 236.5,
+        "vol": "176K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 110.5,
+        "growth": 238.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 97.0,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-08",
+    "generated_at": "2026-08-09",
     "l1_ref": "整车及交通工具"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车传动系统：海外社媒「auto parts must have」增速 245%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
+    "trend_summary": "汽车传动系统：海外社媒「auto parts breaking」增速 256%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
     "product_profile": {
       "外观": "OEM 原厂规格 / 改装升级款 / 赛车竞技款",
       "成分": "高强度钢 / 锻造铝合金 / 碳纤维 / 陶瓷",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车传动系统 出口需通过合规认证",
-      "海外社媒「auto parts must have」增速 245% 领跑 → 汽车传动系统社媒种草热度爆发"
+      "海外社媒「auto parts breaking」增速 256% 领跑 → 汽车传动系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "auto parts breaking",
+        "growth": 255.5,
+        "vol": "234K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "auto parts must have",
-        "growth": 245.0,
-        "vol": "668K",
+        "kw": "auto parts aesthetic",
+        "growth": 254.0,
+        "vol": "392K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "auto parts factory tour",
-        "growth": 225.0,
-        "vol": "397K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts price trend",
-        "growth": 211.0,
-        "vol": "733K",
+        "kw": "auto parts tutorial",
+        "growth": 240.5,
+        "vol": "57K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts b2b export",
-        "growth": 166.0,
+        "kw": "auto parts wholesale supplier",
+        "growth": 236.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 140.5,
+        "growth": 150.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Why the USMCA Matters for North America’s Economic Future | Reports & Briefings | Jul 13, 2026 - Information Technology and Innovation Found",
-        "source": "Information Technology and Innovation Foundation",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbFgyamFab29UQ096bkRyMzN2ekhQWXR2ai1NSlQ1RzdCZmVTV0FweFUxaHhDUmcwNVVDY09JbFhpWXJtNXNjVVROYm91d2ZYODF0MGZvMENvQTRPR09xTTFocWRuNEY3UzBNQXhLWnQtUW5tZG5FLUZNSWV2OHBGUnRwT280Y3pzOG9aaDd1STVlUkROVkhsT3JNRnZVdkU?oc=5",
+        "title": "After a year of tariffs, automakers are still resistant to moving production to the US - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Id2ROb1h4TExiRG9jNWVxQTRBNC1pbGhRUnEzMTJxcnZJeWk0QTRXcE5qbjdKM0Y1QnZjTmlkeG1LUWRkUTF2ZjFtX0NIMEdTVVF0bFVvay1SM0s2VllGUHhLRFpZa0xRMlZvWDYxMjBvekxFTXdobW5XTkY?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "auto_parts",
-    "generated_at": "2026-08-08",
+    "generated_at": "2026-08-09",
     "l1_ref": "汽车零配件"
   }
 }

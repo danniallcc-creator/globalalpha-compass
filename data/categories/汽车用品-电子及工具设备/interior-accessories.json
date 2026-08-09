@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车内饰件：海外社媒「auto accessory breaking」增速 248%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's exports ride AI boom as...」。",
+    "trend_summary": "汽车内饰件：海外社媒「car gadget factory tour」增速 249%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's exports ride AI boom as...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车内饰件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 汽车内饰件 合规刚需",
-      "海外社媒「auto accessory breaking」增速 248% 领跑 → 汽车内饰件社媒种草热度爆发"
+      "海外社媒「car gadget factory tour」增速 249% 领跑 → 汽车内饰件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "car gadget factory tour",
+        "growth": 249.0,
+        "vol": "493K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "auto accessory new arrival",
+        "growth": 244.5,
+        "vol": "473K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "auto accessory breaking",
-        "growth": 247.5,
-        "vol": "272K",
+        "kw": "car gadget market alert",
+        "growth": 228.0,
+        "vol": "253K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "car gadget b2b export",
-        "growth": 245.0,
-        "vol": "369K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto accessory must try",
-        "growth": 238.5,
-        "vol": "267K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto accessory wholesale supplier",
+        "growth": 103.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "car gadget b2b export",
-        "growth": 242.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto accessory market 2026",
-        "growth": 110.5,
+        "growth": 100.0,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Brazil is vital to Argentina’s economy and foreign trade: here’s why - Buenos Aires Herald",
-        "source": "Buenos Aires Herald",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamlRMlRSc2N5akVEOXdheGdlOTZlNFFYbkd4Q3VYNDhsdHhUdkwtNXZocnBCNjN4VEgwSVQ0WnZ6SFM0cnlVVWp1MVJSZE5aa1o3OWtWVEkxRU9KeWMxWjNaYlVrcGVUNUlGWGdDeE92Qmp0VTNURTBqV3lNVVZSMm5NZUhhODZLSzJYRV9iVGJKbVJYZ0dabDlBbVY5dmR5Q0h5VlVNU04?oc=5",
+        "title": "After a year of tariffs, automakers are still resistant to moving production to the US - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Id2ROb1h4TExiRG9jNWVxQTRBNC1pbGhRUnEzMTJxcnZJeWk0QTRXcE5qbjdKM0Y1QnZjTmlkeG1LUWRkUTF2ZjFtX0NIMEdTVVF0bFVvay1SM0s2VllGUHhLRFpZa0xRMlZvWDYxMjBvekxFTXdobW5XTkY?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-08",
+    "generated_at": "2026-08-09",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

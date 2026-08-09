@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "橡胶原料：海外社媒「plastic unboxing」增速 228%，搜索端「rubber wholesale supplier」热度上行，US Amazon BSR Top-12，oec.world关注「Butadiene rubber (BR) (HS: 400220)...」。",
+    "trend_summary": "橡胶原料：海外社媒「plastic b2b export」增速 253%，搜索端「plastic b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Butadiene rubber (BR) (HS: 400220)...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 橡胶原料 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 橡胶原料 成主流",
       "欧盟 CE 标志强制准入 → 橡胶原料 出口需通过合规认证",
-      "海外社媒「plastic unboxing」增速 228% 领跑 → 橡胶原料社媒种草热度爆发"
+      "海外社媒「plastic b2b export」增速 253% 领跑 → 橡胶原料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "plastic b2b export",
+        "growth": 253.0,
+        "vol": "298K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "rubber must try",
+        "growth": 249.5,
+        "vol": "190K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "plastic unboxing",
-        "growth": 228.0,
-        "vol": "791K",
+        "kw": "rubber top 10",
+        "growth": 241.5,
+        "vol": "192K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "rubber #fyp",
-        "growth": 224.5,
-        "vol": "564K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "rubber tiktok made me buy",
-        "growth": 223.5,
-        "vol": "733K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "plastic b2b export",
+        "growth": 250.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "rubber wholesale supplier",
-        "growth": 149.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "rubber market 2026",
-        "growth": 125.5,
+        "growth": 214.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Butadiene rubber (BR) (HS: 400220) Product Trade, Exporters and Importers - oec.world",
-        "source": "oec.world",
+        "title": "Butadiene rubber (BR) (HS: 400220) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OUTVyR3JkTUNubkVKUUNpcHVXZ2p3bldzOWxfOGZzOWs5UUhRRFFwSk1Kc05VWXdfN1dRSVNPV1pDY0tCREsySjdLcmY0SGdUY0J4OWRCaldwY1JFTm1fZQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Univar Solutions Acquires H.M. Royal, Expanding Reach in Rubber, Plastics, and Adhesive Additives in the United States - The Manila Times",
-        "source": "The Manila Times",
-        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQd0J6OE13QkRkREtjZmV6a294M1pLMk42Rm8yaG5OalgwQW9IeS05Q2NFUE5TekxKSFlCVEllZlFTM0tpaXByb3paclU0Z3JJZmh5T1ZiYXVaaHVZQjduT0lpT1VIQVZfWUlfeEVvUDVvVXlNTlF5WjFIVWtkX0c3bmdrX1ptMnplaldaZEtUNVpNdmowTnNkODlfb1c4MTdkZ09TeUR1M1JEY1RmVkZ6TXFTcnBBT1hOWUQtQ0l3Y0pBZnp1dlJUZUN2MG9rT3JXeUF5MDRFSHl2MFRPRDYzTldyVHhlT0lnRmJKcWFOYmczb2RSSUh3VHVYaXJFRTFOencyRWUxdk9QMXlHT2pzQ2RtUGlsUdIBmwJBVV95cUxQYnpCXy15NkcxZUlOd1NHeGFuRExURjVkQlVPZjQta2JITjUzdDFQOUhZYkRnU09LdGh0b2xWdEtHb1ZES2FFRHBuOEE1TG1HVWI4dXZWa3hIYjBmTzRRVk5PYWw1N3BnU1h1NFFxUVpHcEhLWkV2V2QwMWtWYm5oQjJzTFVpMFdaTk9tR1Y1aTVBWm9UU2ZibzVyelZQWlBJZEdRMm0zVXRpSGhkbXd0U3NoRkY5NS1RYklKcFVEdkZOYjdWNi16YmVsNkh6enF3YnlhbExfWFNQZlJUeS1NOGxUQm16QkNfTDJUbW1wMS1ScnJFRHlCN3BiTnRmOTQzLTZaNUZfTjFqOHlFSVdRUG12bzRCYlFPYXow?oc=5",
+        "title": "Furnace Carbon Black Fillers Market Growth to 2035 Driven by Tire Manufacturing Demand - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeWpTVmI5ZGQ3SWVKdmx5cFBxNFEzb0Zwb0M3QjdZbmJja1RieEQ3aGxsN3l6SkhiOXBrZ3p1QUdlWUplRVZENEprekpid2gwR1ZITmNjQWlYWTNQaktjREVsM0I1dnBTZ2VxODY3dVgxSTFGLTV1T1dsV3BDcHdCU3RXdGlGTGczclROMGpJTHppWV9mRXpQZmx6VlRxSFVpQTZzRnNoYTIweUNkREMwSE5OTnY?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-08-08",
+    "generated_at": "2026-08-09",
     "l1_ref": "橡胶与塑料制品"
   }
 }
