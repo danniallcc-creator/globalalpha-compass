@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric price trend」增速 252%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-45，Reuters关注「US tariff puts Indian textile exporters...」。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 240%，搜索端「textile fabric export opportunity emerging markets」热度上行，JP Amazon BSR Top-38，The Observatory of Economic Complexity关注「Plastic Coated Textile Fabric (HS:...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric price trend」增速 252% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 240% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "fabric price trend",
-        "growth": 252.0,
-        "vol": "648K",
+        "growth": 240.0,
+        "vol": "57K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric factory tour",
-        "growth": 232.0,
-        "vol": "175K",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 214.0,
+        "vol": "583K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "fabric market alert",
-        "growth": 227.0,
-        "vol": "717K",
-        "hits": 2
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "fabric b2b export",
-        "growth": 118.0,
+        "growth": 186.0,
+        "vol": "498K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric digital transformation",
+        "kw": "textile fabric export opportunity emerging markets",
         "growth": 87,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "textile fabric market trend 2026",
+        "growth": 70,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Plastic Coated Textile Fabric (HS: 5903) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82UUpjOThMZF8ybUs0NGYyY1RNdXFxZTgzdzRmTkFPVnNBY211VmgzdlBFNGVEVDdyR0puX1hiVFdUQVlPSHdmSmRHTjBBOGFJeUwxRjNuendDMVZNYUFRTUFaelloanRtQVk5akJn?oc=5",
         "hits": 2
       },
       {
@@ -99,33 +106,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Africa Textile Market Size, Share & Trends, 2034 - marketdataforecast.com",
-        "source": "marketdataforecast.com",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SMW9fclpaMjlNdDdWZzQtNzBPblpxcE9ha2pxZmp4RFI0R25kbHFwQldyZTR1WV9Dc1FKMFpfT3hlUjMybVNtOWs4UGk1Rlk0VnplcXZFejhiUHM1bWNUZ1hva3p4WnZBVlZ2MEJhbUZweVVtMzJtUVBhcw?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
         "market": "JP",
-        "rank": 45,
+        "rank": 38,
         "title": "Top textile - Eco Edition",
-        "price": "$228.4",
-        "rating": 4.7,
+        "price": "$79.4",
+        "rating": 4.4,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 42,
-        "title": "Top textile - Compact Edition",
-        "price": "$270.8",
-        "rating": 4.2,
+        "market": "DE",
+        "rank": 27,
+        "title": "Top fabric - Pro Edition",
+        "price": "$49.7",
+        "rating": 4.9,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "面料及纺织原材料"
   }
 }

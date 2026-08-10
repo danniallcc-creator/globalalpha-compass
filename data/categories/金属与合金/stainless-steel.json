@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "不锈钢：海外社媒「metal price trend」增速 252%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，AeroTime关注「Lockheed Martin seeks domestic fighter...」。",
+    "trend_summary": "不锈钢：海外社媒「aluminum viral」增速 244%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，CME Group关注「Chicago No1 Busheling Ferrous Scrap...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 不锈钢 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 不锈钢 成主流",
       "欧盟 CE 标志强制准入 → 不锈钢 出口需通过合规认证",
-      "海外社媒「metal price trend」增速 252% 领跑 → 不锈钢社媒种草热度爆发"
+      "海外社媒「aluminum viral」增速 244% 领跑 → 不锈钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "metal price trend",
-        "growth": 252.0,
-        "vol": "746K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "steel top 10",
-        "growth": 247.5,
-        "vol": "574K",
+        "platform": "instagram",
+        "kw": "aluminum viral",
+        "growth": 243.5,
+        "vol": "82K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "metal #trending",
-        "growth": 243.5,
-        "vol": "161K",
+        "growth": 241.5,
+        "vol": "733K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "metal #fyp",
+        "growth": 239.5,
+        "vol": "168K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 171.0,
+        "growth": 235.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 120.5,
+        "growth": 150.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Lockheed Martin seeks domestic fighter metal supply amid China export controls - AeroTime",
-        "source": "AeroTime",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUFM2RHlrUFpja2R4VmtiSmI5czM3QndLem5TdlF2TnJnbjRkYWpDaXdHdzB2UTZyNW83WTFwMEFCZEF1YUJYZFVVdUNyemVSMHBJcUNGaGZScEE0dS10UGVUX3VFc3ZzUVVjbU42Vm5kb0VIOXJ1bVNpaFhJY252RWlQaUs4QlVuSzJxSXM2WWzSAZYBQVVfeXFMTnQxdjNyeHFCV096U09OODlWUnAtUVotRHZjakhWVDhBbkRXLVFhblA0azlGZ3lRRmxIaXp2aGpsbWMxMTVldWRzamNOa1cyYlgxLTJtaDNUTThZeWhBSTJBQWdEeTl2UkNydzNfYVRReGEwZnFORThGM0ZKSTctUVdQckxCNnBqd1ZCWmpWRUx3ZEJYMGJR?oc=5",
+        "title": "Chicago No1 Busheling Ferrous Scrap (Fastmarkets) Overview - CME Group",
+        "source": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZXltcmdITFNNZEl6TEtXcTZxWUlydlpZYlJaZW9Uc0FCS3lqRXdUUDhoNVN4QkkxYWgxdmNqLVhaY25oLWhtWm9sS2RJeV9hRTdfT1U5YWUxMmlHWW9CbHZScTgybDB0MEk1b3ByNjE4R1ZYNy1JQmtiLW5pczVWVEFCZVJyNndTd3ZtMno5TFFlay1IajVaT3k4aEw1aE1Tb3c?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Canadian aluminum finds homes in Europe - Recycling Today",
-        "source": "Recycling Today",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTlVib1VCQ0NtNmR0S2NEYjlmVXZuampvSjZJSFA4ekNtU20zVm1Gajh5ZTcxQjNLeDY4cDhOZVZPVG5qb2JwSnhJQy1zdFJvN0hydFFiLWdsdWVHbEp6VVZrR1hzT1NhNTdYSjVHZ0tBUXVkaG5VWE1KZUtFa2RObjFHNUxid1d4STdnajdVYVpGWmM4?oc=5",
+        "title": "November 10: The Day America Learns Whether It Has Solved Anything - InvestorNews",
+        "source": "InvestorNews",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZHotYlZiM09ucDZfOGVzbzJEV2h1ZDJwUHZuLVVHYnRGbTMxOXljXzMwa3ItSHV4ODVzUThGQVV1R3BLNFByaXo3U0lIVjRSaVhsTTQydnZBNGhpeHB0cXEtVlhsZ3FNY1hqdjQ1Mjd0ZTdxa2I4REVwQkx5Q1l6RVpHLXlQTHllQTFLYVJsNk1uNHQ1T1hRVVIxdVJNSkhJSHRjMVRhc3lKQQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "金属与合金"
   }
 }

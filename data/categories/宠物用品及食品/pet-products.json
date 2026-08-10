@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet tutorial」增速 254%，搜索端「pet products market trend 2026」热度上行，US Amazon BSR Top-45，RFD-TV关注「Agricultural Trade Deficit Narrows As...」。",
+    "trend_summary": "宠物用品：海外社媒「pet supply chain」增速 254%，搜索端「pet products supply chain resilience」热度上行，JP Amazon BSR Top-46，petfoodindustry.com关注「Infographic: Japan leads Asia’s top 10...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,52 +49,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet tutorial」增速 254% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet supply chain」增速 254% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet tutorial",
-        "growth": 253.5,
-        "vol": "26K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 249.0,
-        "vol": "36K",
+        "kw": "pet supply chain",
+        "growth": 253.5,
+        "vol": "412K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet tiktok made me buy",
-        "growth": 240.5,
-        "vol": "578K",
+        "kw": "pet must try",
+        "growth": 245.5,
+        "vol": "688K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 236.0,
+        "vol": "795K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products market trend 2026",
-        "growth": 93,
+        "kw": "pet products supply chain resilience",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 90,
+        "growth": 61,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Agricultural Trade Deficit Narrows As Exports Gain Ground - RFD-TV",
-        "source": "RFD-TV",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbGNFOGszQzUwLUo5Y1NaZkRwUFpQN3hDOW9OSzgxd2tRVnJBRWs2WW0yMVU2bUhWbHFfaWJXakFteG94NGROSERnTVlkN1ZrUVN0QVRpelV0aG5oX3N1Mm5rU1A3NW9XR05rVnpGVUNINTJCXzBoaDBrQkpVMEl4QXRrQmhqUQ?oc=5",
+        "title": "Infographic: Japan leads Asia’s top 10 pet food companies by 2025 revenue - petfoodindustry.com",
+        "source": "petfoodindustry.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMnJmdkxDUllkSWJ6TDIzZy1zOTU4d0JHdWZJOC0tYlg0OXFJbjQ4TlhRVUVQMWhJQ1lEdVlaOWtwRG4zZkRkSlV4RUduU1FnUDFtVE05ZXVTMnZ6NVM1bmNJbXgyQ2dKUFVCMjhFeUo5cWpzN2xQNDQzT09oWmlLeVpaRk9jUUJZZk5ncVB0RDdsOE1zY0RLM3dUM0VrODcteFhVdXB6eEZNZENTSTB4TXZCc0x1QkRCOHRNWTRpUnJhUXNfV005bGt2b0lINmVYdGVZV3pwRQ?oc=5",
         "hits": 0
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 45,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$161.5",
-        "rating": 4.4,
+        "market": "JP",
+        "rank": 46,
+        "title": "Top pet - Eco Edition",
+        "price": "$117.4",
+        "rating": 4.0,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 38,
-        "title": "Top pet food - Pro Edition",
-        "price": "$155.7",
-        "rating": 4.8,
+        "market": "UK",
+        "rank": 37,
+        "title": "Top pet food - Smart Edition",
+        "price": "$124.1",
+        "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "宠物用品及食品"
   }
 }

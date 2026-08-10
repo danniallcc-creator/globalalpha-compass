@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "美妆工具：海外社媒「cosmetic viral hack」增速 250%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「L'Oreal sales rise on haircare boom and...」。",
+    "trend_summary": "美妆工具：海外社媒「beauty industry news」增速 252%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，economy.ac关注「Chinese K-Beauty Counterfeits Spread to...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 美妆工具 出口需通过合规认证",
       "美国 FDA 注册要求 → 美妆工具 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 美妆工具 制造门槛",
-      "海外社媒「cosmetic viral hack」增速 250% 领跑 → 美妆工具社媒种草热度爆发"
+      "海外社媒「beauty industry news」增速 252% 领跑 → 美妆工具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cosmetic viral hack",
-        "growth": 250.0,
-        "vol": "560K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "cosmetic industry report",
-        "growth": 243.5,
-        "vol": "626K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "cosmetic market alert",
-        "growth": 238.0,
-        "vol": "618K",
+        "kw": "beauty industry news",
+        "growth": 252.0,
+        "vol": "158K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 194.5,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "beauty review 2026",
+        "growth": 251.5,
+        "vol": "751K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cosmetic must try",
+        "growth": 250.5,
+        "vol": "746K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 181.0,
+        "growth": 220.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 137.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "L'Oreal sales rise on haircare boom and 'lipstick effect' - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmU2UTU1UTdFbXAwYzBQd3QzZXFxSEhna2JkdnlDa3RnV1ZLSWpXWFFWdFRKLXExM1VqUG45aHdLOTRia3hlbUNETGp5cEpzOEgtZFpiNjFBSXgwdXpsRmxQVEtyQy1ZVUk4Wl9DZGVaXzhxZDgtdnZ1QmEzYTdfM2lEOU9wdEdKZlg2b2xOeDN1YVBiUGJaakVvaU55SmVEYjFiakdfeGtzTXZa?oc=5",
+        "title": "Chinese K-Beauty Counterfeits Spread to Europe, Underscoring Urgent Need for Premium Strategy to End War of Attrition - economy.ac",
+        "source": "economy.ac",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iNkFmU0JtdlJUaER4NThFZHBLUGVmLXRBS29xRndDdjE2LVB2LUdqUllfcnF5amw2TGs0QUhzNzZiQXpiS0h2WDlPbGlscUFTVHlxaUo4bw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "K-beauty booms in Brazil with 10-fold spike in five years - Korea JoongAng Daily",
-        "source": "Korea JoongAng Daily",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTlVrRmVkSjd5ek8xYTlmRWo0dzVRYkdqRjU4NUR0YllGUUtkd1VoelpnLVc1NHFQdjd2WHZ6S2ljRkR5dzZSRmJoRmtkUGdMVU1XdHBENzFDSS1OemRmeGJyX3hTYnVaTHlQczRPN0VmYm5LaVB2c2Q1eVAtR2pEZ0cwSE94THZUQ0JSd2hWVkFIWUlMOGN5LW5qaklYNHpVdXZBelFJdVdmdngt?oc=5",
+        "title": "Vietnam’s Beauty and Personal Care Market in 2026: Growth Trends and Market Entry Opportunities - Vietnam Briefing",
+        "source": "Vietnam Briefing",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSmJaX1FGNm94UXQzckdXUC1PYm9kWldocExRdzBBRWxyZVV4RnE2SlRwVnRWbjEyZVNmcGd6MjNzSndPOG1qaGRZYlZEaG40UzIwNnpTY3FGMFpESTNnWkhPQmZ5R1NDTjJwU3BpMWhCdGlLWk92TDZkd2Q1SEtzZWJ6bmNnUklDOXozLVBodVRGemhGaW5B?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "美妆"
   }
 }

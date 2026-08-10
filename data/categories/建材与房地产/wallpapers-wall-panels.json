@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "墙纸/墙板：海外社媒「cement industry news」增速 249%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，newsfromthestates.com关注「Why the stakes are high for Missouri in...」。",
+    "trend_summary": "墙纸/墙板：海外社媒「building #fyp」增速 240%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Egypt Today关注「Egypt’s building materials exports...」。",
     "product_profile": {
       "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
       "成分": "再生纸浆 / 大豆油墨 / 水性光油",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 墙纸/墙板 出口需通过合规认证",
-      "海外社媒「cement industry news」增速 249% 领跑 → 墙纸/墙板社媒种草热度爆发"
+      "海外社媒「building #fyp」增速 240% 领跑 → 墙纸/墙板社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "cement industry news",
-        "growth": 249.0,
-        "vol": "635K",
+        "platform": "tiktok",
+        "kw": "building #fyp",
+        "growth": 239.5,
+        "vol": "405K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "cement aesthetic",
-        "growth": 245.0,
-        "vol": "154K",
+        "kw": "cement must have",
+        "growth": 229.0,
+        "vol": "31K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cement factory tour",
-        "growth": 237.0,
-        "vol": "142K",
+        "platform": "tiktok",
+        "kw": "cement trending now",
+        "growth": 224.0,
+        "vol": "608K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "building wholesale supplier",
-        "growth": 198.5,
+        "kw": "cement b2b export",
+        "growth": 126.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 87.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - newsfromthestates.com",
-        "source": "newsfromthestates.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3NGRVo1VjczMXBTaW1tUlFiN0IyZUdNNlIzbUhubzNDaTBqcWJPU2dERXlaY1hVUjZUSkRZaEx1SEJ1cnIzLTI0SWlmWWdpc2ZmRUxlcFR0eDY2dWFyV29yRlNaczl6bHZZN0FIXzRSNU5iY1pLYkVtRE1tOEgtWXdRWExOcUk2aEZ0YVNPZTZQcnNJTGZj?oc=5",
+        "growth": 93.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Egypt’s building materials exports climb to $14.9B in 2025 - Egypt Today",
         "source": "Egypt Today",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdHJ5Vl8wV3RoUGxHVWFvOFc5WjBKb1VNc1JfTS05ODRMQzlSQ3RsTmtQY1IwTzBmTWlhVk5MUmFXcXZpdDNzS0RxOTdpVENzWEdLYzNxQnZsVnZmLThGbExZY3FBUVpBZkZqdFN4RWNrbG5jTGpOWW5WODlaUVFUbHRTZ01TbHZHNTlnZ2lDSUdZUmVvTzZiMW9qdVZaZUNlSkVnMmEzQTdXTXNkcUE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - Missouri Independent",
+        "source": "Missouri Independent",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRVI4LXUyUFRUeUFmcnctZE1pM1RVckg5eEMxZGlJMHRpVllYY25kakZjLWRSTWRLWWZUNmNDZFAxcWRjMkNfallpc0kzQllJNDEwdnRtS2ZXanBRT0pBRV80aW5XYVpPWnMzR1dYVlJTS2lTY2QzZVBydlg5OEJ0UkdET3d3RGNYRHlid2xqTktiRHF6aElPZ1lhSUpOMTN0VU5CNWpmOGQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "packaging_printing",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "建材与房地产"
   }
 }

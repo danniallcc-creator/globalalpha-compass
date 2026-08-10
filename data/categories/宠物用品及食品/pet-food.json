@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 249%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-27，Nation Thailand关注「Thailand Retains Rank as World’s...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food aesthetic」增速 236%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-46，petfoodindustry.com关注「Infographic: Japan leads Asia’s top 10...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food industry news」增速 249% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food aesthetic」增速 236% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 249.0,
-        "vol": "36K",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 236.0,
+        "vol": "795K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "pet food price trend",
-        "growth": 220.0,
-        "vol": "69K",
+        "growth": 218.0,
+        "vol": "161K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food aesthetic",
-        "growth": 210.0,
-        "vol": "783K",
+        "platform": "x",
+        "kw": "pet food market alert",
+        "growth": 200.0,
+        "vol": "397K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 61.0,
+        "growth": 143.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "pet market 2026",
-        "growth": 98.5,
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 85,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Infographic: Japan leads Asia’s top 10 pet food companies by 2025 revenue - petfoodindustry.com",
+        "source": "petfoodindustry.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMnJmdkxDUllkSWJ6TDIzZy1zOTU4d0JHdWZJOC0tYlg0OXFJbjQ4TlhRVUVQMWhJQ1lEdVlaOWtwRG4zZkRkSlV4RUduU1FnUDFtVE05ZXVTMnZ6NVM1bmNJbXgyQ2dKUFVCMjhFeUo5cWpzN2xQNDQzT09oWmlLeVpaRk9jUUJZZk5ncVB0RDdsOE1zY0RLM3dUM0VrODcteFhVdXB6eEZNZENTSTB4TXZCc0x1QkRCOHRNWTRpUnJhUXNfV005bGt2b0lINmVYdGVZV3pwRQ?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "Infographic: Brazil dominates South America’s top 10 pet food companies by 2025 revenue - petfoodindustry.com",
-        "source": "petfoodindustry.com",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQN2MyU3Jfam1zWnRjYlVObE9PUWhiOGFiYXZMTXVWenQxT3RHY1NiTmhJMWRmRFoxTHBERHQwMl9WcDNCenZDOXFqV2xHU0Q3UlJiakx2Nldlakt4c3pSMFFJWUlTUkUwWndBdjladUh3QkJvdnk4WFNJZzN0cndJWDQ2dWtGWXpSaWdzWGZYX2RrVkJfdGRuM0hMcHZkOFV6NUFvdkIwLTB3YVBYdlBDeWtaVDFfa0xKYVpxVm1pUmdIZGc0azdTdFYwNzZOLXRYM3lyTUdjQW9mR29RYkN6dk05Wl9LN2ZLSFBxOGVhUzFETmlTa01kUlJB?oc=5",
-        "hits": 2
-      },
-      {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 27,
-        "title": "Top pet - Premium Edition",
-        "price": "$277.0",
-        "rating": 4.6,
+        "market": "JP",
+        "rank": 46,
+        "title": "Top pet - Eco Edition",
+        "price": "$117.4",
+        "rating": 4.0,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 25,
+        "rank": 33,
         "title": "Top pet - Compact Edition",
-        "price": "$98.8",
-        "rating": 4.6,
+        "price": "$65.8",
+        "rating": 4.7,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "宠物用品及食品"
   }
 }

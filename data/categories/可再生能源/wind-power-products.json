@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "风力发电产品：海外社媒「photovoltaic market alert」增速 246%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，China Briefing关注「Investing in Indonesia's Renewable...」。",
+    "trend_summary": "风力发电产品：海外社媒「photovoltaic unboxing」增速 246%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's shifting energy mix weakens...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 风力发电产品 出口需通过合规认证",
-      "海外社媒「photovoltaic market alert」增速 246% 领跑 → 风力发电产品社媒种草热度爆发"
+      "海外社媒「photovoltaic unboxing」增速 246% 领跑 → 风力发电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "photovoltaic market alert",
+        "platform": "youtube",
+        "kw": "photovoltaic unboxing",
         "growth": 246.0,
-        "vol": "534K",
+        "vol": "126K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "battery factory tour",
+        "growth": 239.0,
+        "vol": "201K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "solar new arrival",
-        "growth": 227.5,
-        "vol": "64K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "energy storage viral",
-        "growth": 226.5,
-        "vol": "83K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "solar market 2026",
-        "growth": 181.5,
+        "growth": 224.5,
+        "vol": "206K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "energy storage wholesale supplier",
-        "growth": 173.5,
+        "growth": 138.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Investing in Indonesia's Renewable Energy Sector: A Market Entry Guide for Foreign Investors - China Briefing",
-        "source": "China Briefing",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVXFwUnZqLXkzTGd6TDNyeGFhNUZQYlotWHAzLWFtZTNxdi1fNWl6c05ldVdzX3YyOFQycTV5WE5sa3phY2s3ck1CMzlEMDVGQmgyN0dkUkdNXzdFMTZ5cTlpNzUwTzVJR3lwUG9EMVI1M3hneEJOVU94MjFBNGNfOGQtbmppODlXbDhwSjA2SUhOYVpWeklib3pZZWtaZ3FLdk9Wel9KN0cyWXYyTFp0YktleldkSHpVYVhSa1pjYXhra2dKcy1OaVphQUhzNVZubFVMZl9VY1g?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 123.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "China's shifting energy mix weakens pillar of global LNG growth - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeHQ1SlM0Qi05N0VkTUZZWDgybElvbWdJbWoxVUllZGhCdUY5WkZKemtLMWJCTExoelFaTFNqNDY5VVBLTC1YcDlwMkRjMkRFNWFwU0lUb1NVUU1LM0xZTDdCUWd5M2l2NGxyMFRCcXpwdE0ydnpBQ0RCN3JNcWRSdklCZGZGbzZJaVNlVUxaLTA2RzNNb0owV2tjdkZSbUdOYlFiLWlPQkVGLWFfUXF1dA?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Energy technology manufacturing is rebalancing in a dynamic era for trade and industrial policy – Analysis - IEA – International Energy Agen",
+        "source": "IEA – International Energy Agency",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS1hscnFCMGh0Qms1OG5QYW9UR0tWb2xZV3piaEZ2SnBEVVJEemFSVzY0eG9UOGV5VVhMY0lIckVmLTRuX01iY3pVUnliZFYtM1BJNUpDZnAzWERQWjk3YlpXRzc0UkxNdkQwalowTUpTMi1uYktEa2NscmpYOVk2LVVzT2Y2WW5KV2xtMXJRbi1ndENfSVZLN1lrZl9IWE9xRjVoWlJPWlhVYUttX2gzbE15dzJfazhEb0VXY19HREJzRU5lVTJN?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "可再生能源"
   }
 }

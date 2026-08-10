@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "生物化工产品：海外社媒「chemical tiktok made me buy」增速 248%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Mercator Institute for China Studies (MERICS)关注「China’s export surge + Huawei’s Tau...」。",
+    "trend_summary": "生物化工产品：海外社媒「chemical unboxing」增速 250%，搜索端「chemical market 2026」热度上行，US Amazon BSR Top-12，valorinternational.globo.com关注「U.S. sought full access to chemicals...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 生物化工产品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 生物化工产品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生物化工产品 通关",
-      "海外社媒「chemical tiktok made me buy」增速 248% 领跑 → 生物化工产品社媒种草热度爆发"
+      "海外社媒「chemical unboxing」增速 250% 领跑 → 生物化工产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical tiktok made me buy",
-        "growth": 248.5,
-        "vol": "203K",
+        "platform": "youtube",
+        "kw": "chemical unboxing",
+        "growth": 250.0,
+        "vol": "140K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "chemical market alert",
-        "growth": 248.0,
-        "vol": "776K",
+        "kw": "chemical breaking",
+        "growth": 241.5,
+        "vol": "788K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "chemical b2b export",
-        "growth": 241.0,
-        "vol": "270K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
+        "platform": "tiktok",
+        "kw": "chemical trending now",
         "growth": 238.0,
+        "vol": "779K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical market 2026",
-        "growth": 139.5,
+        "growth": 173.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 153.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s export surge + Huawei’s Tau Scaling Law + Sino-German trade - Mercator Institute for China Studies (MERICS)",
-        "source": "Mercator Institute for China Studies (MERICS)",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1NGWmtldUY5QWRhdGo3T200S2lDeFo2bkdCYWZtQmo2eENISUNjUzZnUm4zN3RJT1pFbEQ4cUxTUUpoaDdEc1J6dXRSUW5CNHdYUGlJeXdXTDNSaUFTRnUtZ2VjUDFwYm1RaTRWdmx4TGJjQVlYekJqZFNJdEt1THZ4UFlFcGhVWjhCazRibENOclpRUTAwalRSQmUyQQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "U.S. sought full access to chemicals and rare earths, minister says - Valor International",
-        "source": "Valor International",
+        "title": "U.S. sought full access to chemicals and rare earths, minister says - valorinternational.globo.com",
+        "source": "valorinternational.globo.com",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQckxtbW9GeHhjRUJma2RWanhKNF9RWlFMUW1JSG8wcFZnM0JaX1Z5YTVXb0hFbXBfbG5weDQycUlEVGpwOUtSa1RrX1Q4enBwWnlBWVBKaVFnRmMwQTNmNlBieU9hQ3NLWUNuSWpDWkFoeDlramFZRWNPMGI0Y2czUTFYY0FtTExiU05GdlFrM1N4eExoN3g5S3lUVjktZF9zRm5BRkFRVTJ3Zlpfc3FQTV81UkFOdlpQQnExWVp6ZkdycWc5NTlsU3dFUTDSAdsBQVVfeXFMT25HOGhJWHVIdHIzVWsxa0R2bzhqQTVfOFJyY3pscm1wcENSbm5jaldBeUw0c3RhQUZ1M0ZxLXpXY3llOUdpSzdWell5RWVpYzFQbXVYUVprWWJrRm5jaFEwNEpzN3RMNXVyZmtPNTc1Wnk5elZCZ18yNDkzVmE0WXZLYU5BN09PcGhwYmt5amhGNmVJVUZZOG9WbmU1Snh5NEJZeFJWOWVPbHlIc3NhTldpYXYtdkVqekE2M3d5dkFpUFdPZHlmZm1MWWRnbVlreTYwdm1NZlpNN1BJ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU chemical sector buried by China imports urges Brussels to act fast - Nikkei Asia",
+        "source": "Nikkei Asia",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeUcxSV9ucUJxNGtITzRzRm5mM1J5TVo1MlpsT1NlQldUQVBpd1NtY0dGSjFENjE2aTZMUjlROUtEdmhGcTRzWURPN0pwZ1RvNUFmNzFrN1YzTWMxLXI5SnhsT2xXSHVHZkVfWWNON0xHdTlwaWRzcFlsTHR3Zkh2SzdxRjFEMXJEbWtVclFqMVFyX1Q2RlQ0Zk5mNHB3TllHNko5b0JUeWlQR1FNc24xbnI5NHo0aHZEbHFFRzMxcw?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-08-09",
+    "generated_at": "2026-08-10",
     "l1_ref": "化学品"
   }
 }
