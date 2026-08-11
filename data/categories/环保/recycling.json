@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech factory tour」增速 245%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EU softens carbon market to ease...」。",
+    "trend_summary": "回收：海外社媒「environmental top 10」增速 250%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，The Guardian关注「Europe’s most effective tool to cut...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech factory tour」增速 245% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental top 10」增速 250% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "green tech factory tour",
-        "growth": 245.0,
-        "vol": "130K",
+        "kw": "environmental top 10",
+        "growth": 249.5,
+        "vol": "438K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "environmental market 2026",
-        "growth": 242.5,
-        "vol": "506K",
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 233.5,
+        "vol": "82K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "green tech trending now",
-        "growth": 229.0,
-        "vol": "799K",
+        "platform": "x",
+        "kw": "environmental analyst",
+        "growth": 231.5,
+        "vol": "127K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental wholesale supplier",
+        "growth": 209.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental market 2026",
-        "growth": 239.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "green tech b2b export",
-        "growth": 130.0,
+        "growth": 144.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU softens carbon market to ease pressure on industry - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYS1kcGtvX2FiY0N0Rl9Ta0txX19fcUZJU3VWMDdqLU51Y1hpVmtyZ040UERmSzJROWdMVWZ4ZlhoRFVRY2V2R3NPRERFTWJvQU51VkkxZkVGMTlzYTJZaURHWmd6V1dwMWxpdGxneUpkby1YekZMdzFnRHJUVlNRZ1Bkdk5lanlhMTNqNy0wZnQ0MldNNHRpMHc5LXpETWtMZm8xRzN3?oc=5",
+        "title": "Europe’s most effective tool to cut greenhouse gas emissions ‘risks being weakened’ - The Guardian",
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1JtaElfR2VKbmVDVzE0Y3NJS2VIQlR6Ull1OWtKUEo5aDk2aTJseWJVdWgxdTVjUGdrMm1wNWE0aUtZTmZkYkg5T0VTUFlnMjVCLV9ZbWtEaTFTeGo5bjNjWm5lVS03M1dSbWswRFY2c0pHeWZHRExOSU9nSmg0LVh5WFB2M1REc2I0NklEenZPd3RqVTdJQXhHU3NnR1A4aHd4R1BHdDVQOGJXVl9sbmRKaw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
-        "source": "EPC, European Policy Centre",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
+        "title": "1 Powerful Key to Green Ammonia Certificates - Inspenet",
+        "source": "Inspenet",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fTmJCd2x1VFBFNEhRT2NqRWhvRi1YRklLX0MxVmowMDEydzBIWTlRMW9UNU1OX1QyN0VpTllUWEVObWJOdDM2eGFIUlVNRXhMa0FCZUhacGpQeXBlMmxMemlEajYxelU?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "环保"
   }
 }

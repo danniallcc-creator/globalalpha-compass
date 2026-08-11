@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "监控器材：海外社媒「security camera #trending」增速 244%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，The Hill Times关注「New Strategic Exports Office a step...」。",
+    "trend_summary": "监控器材：海外社媒「cctv industry news」增速 241%，搜索端「security camera wholesale supplier」热度上行，US Amazon BSR Top-12，CNN关注「US suspends avocado inspections in...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 监控器材 出口需通过合规认证",
-      "海外社媒「security camera #trending」增速 244% 领跑 → 监控器材社媒种草热度爆发"
+      "海外社媒「cctv industry news」增速 241% 领跑 → 监控器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "security camera #trending",
-        "growth": 244.5,
-        "vol": "637K",
+        "platform": "x",
+        "kw": "cctv industry news",
+        "growth": 241.0,
+        "vol": "777K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "cctv trending now",
-        "growth": 236.0,
-        "vol": "225K",
+        "growth": 234.0,
+        "vol": "253K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "security camera tiktok made me buy",
-        "growth": 235.5,
-        "vol": "309K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cctv b2b export",
-        "growth": 232.0,
+        "growth": 233.5,
+        "vol": "460K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "security camera wholesale supplier",
-        "growth": 226.5,
+        "growth": 205.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "security camera market 2026",
+        "growth": 190.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US suspends avocado inspections in Mexican state, potentially disrupting fruit’s export from top producing region - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGNsZ0M5eTNvQ0ljQXdzUndsaGgzN0VIYVJqSWFIRGYtcEo0Qm9sX0hWTmstYUJyY19JM080WTl2NVNjdjlCRlpOZDdSMGpmRllkUkRfN25KdndBa0lGOXExMGROTUNzMmhqZm9XaGN1SGxBRDdzelYtRnVaVnFmSmVIYS01U25XQm9kRHFkeDRkV2M?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "New Strategic Exports Office a step forward in trade diversification, but Canada also faces infrastructure, price-competitiveness challenges",
         "source": "The Hill Times",
         "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUmR3Vkw3bTZucmNrV0xVWU11ZUpDS2h6S3RWVnNObUlLUklURXpWdVM2azA4Rk0yOGQ2OTZyQ2x0aFZzbU5lZUhxZHk0NlBQbzJpRklNZHlGeGRVUkpRSEtwdXVUbng5Si1FRUFyS1Q1bDV4aERfT3lGZFRzcEdMYUlRX3JBV3VQamhmRmdxZEF5NE5oU2I2SVJsYXY2czFqNVhGaEF0ZVZ3WkczdWhfU3lWTnQ0WU5MNThydXZBdGd5c0NMUkl3T2xqbmdlZ01aY2Q2UGM0cllQVVh4VDV0d0hjNTRMOUwtTVN0UGptN0FfWmdadGw1XzdPMHA5eHJuWXE2QWlyQTBiRWl3WlE2dlFtVFBjRDBBdGJSYjE4cFhTSk0?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China Hits Back at FCC's Escalating Restrictions - Geopolitechs",
-        "source": "Geopolitechs",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12S0Y0OUxLenF3Q2ljOS1IMk9hWmowVHlDczBVSjl2dFB5dmltZXE3dG1pMWdUdWo2ejRYcmV0UEdGRE1Qcks2TFVEbHFDWDlQNE5XNFJNc0xKTHhJcGNxaUNoSmFwWFpuaU5rYnZIcllBQVA3eTBJZA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "安防"
   }
 }

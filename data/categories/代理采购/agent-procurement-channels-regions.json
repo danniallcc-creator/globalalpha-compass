@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 87,
-      "trend_direction": "down",
+      "interest_score": 58,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-10"
+      "fetched_at": "2026-08-11"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「procurement unboxing」增速 235%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing wholesale supplier」增速 242%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
-      "海外社媒「procurement unboxing」增速 235% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing wholesale supplier」增速 242% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "procurement unboxing",
-        "growth": 235.0,
-        "vol": "64K",
+        "platform": "google",
+        "kw": "sourcing wholesale supplier",
+        "growth": 242.5,
+        "vol": "643K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "sourcing new arrival",
-        "growth": 228.5,
-        "vol": "286K",
+        "kw": "procurement must have",
+        "growth": 235.0,
+        "vol": "308K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "procurement factory tour",
-        "growth": 226.0,
-        "vol": "458K",
+        "kw": "sourcing top 10",
+        "growth": 233.5,
+        "vol": "607K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "procurement b2b export",
-        "growth": 189.0,
+        "kw": "sourcing wholesale supplier",
+        "growth": 239.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "sourcing agency export opportunity emerging markets",
-        "growth": 89,
+        "source": "Google Trends",
+        "kw": "sourcing market 2026",
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "代理采购"
   }
 }

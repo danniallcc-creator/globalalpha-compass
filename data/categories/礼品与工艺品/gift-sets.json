@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "礼品礼盒套装：海外社媒「gift #trending」增速 246%，搜索端「gift wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Gifts Crafts market poised for growth...」。",
+    "trend_summary": "礼品礼盒套装：海外社媒「craft industry news」增速 238%，搜索端「craft b2b export」热度上行，US Amazon BSR Top-12，ANI News关注「31st Gifts World Expo Delhi and...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,59 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 礼品礼盒套装 供应链合规升级",
       "欧盟 CE 标志强制准入 → 礼品礼盒套装 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 礼品礼盒套装 通关",
-      "海外社媒「gift #trending」增速 246% 领跑 → 礼品礼盒套装社媒种草热度爆发"
+      "海外社媒「craft industry news」增速 238% 领跑 → 礼品礼盒套装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "gift #trending",
-        "growth": 245.5,
-        "vol": "684K",
+        "platform": "x",
+        "kw": "craft industry news",
+        "growth": 238.0,
+        "vol": "686K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "gift wholesale supplier",
-        "growth": 239.5,
-        "vol": "609K",
+        "platform": "x",
+        "kw": "gift analyst",
+        "growth": 237.5,
+        "vol": "550K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "gift review 2026",
-        "growth": 221.5,
-        "vol": "353K",
+        "platform": "x",
+        "kw": "gift supply chain",
+        "growth": 214.5,
+        "vol": "785K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "gift wholesale supplier",
-        "growth": 236.5,
+        "kw": "craft b2b export",
+        "growth": 151.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "gift market 2026",
-        "growth": 105.5,
+        "growth": 144.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Gifts Crafts market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/gifts-crafts-2026",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Analysts: gifts crafts sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/gifts-crafts-2026",
+        "title": "31st Gifts World Expo Delhi and Inaugural Paperworld Delhi Set to Create North India's Largest Trade Fair Platform for the Gifting and Stati",
+        "source": "ANI News",
+        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPclhjQzltd0xzUUNRaU1Dc2psN0UzNDBYbktXNXo0MkJybnVhazE2NjN5dE0wbU9LZi1OZEN5d2s5UFdwVFhiSEM3RzFnb0hMeHAtTFNFOWwwZ052RW80NURnZjRaYnIxQUxjWDZmM1ZLTUpISW9nZVdqMWQxQTV3bGpvWGVHTmRPcjBNZ3JRS01OSDZwaGsybjJXRFdKd0l2RktWM3c2NzF1NVZic0pnMVZscDFvMDd5NUtqanQ1amFFTWVuQXpUTXZfMWUwZUlmR3VhVGtkM3dGUlVDXzY1RlIwZ1dKWGtPLWxxQzBvVkRSY0dUYmNZSUp1cVVLbjktcF9wT0NfT2dTWGw0ckthdVM1Q2Z6eE1vbUg2VnI1Ql9CU2J0Nkt2ZVFEbFJ1dmM?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +118,7 @@
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "礼品与工艺品"
   }
 }

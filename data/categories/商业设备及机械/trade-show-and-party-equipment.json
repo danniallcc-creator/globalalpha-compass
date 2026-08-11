@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "展会及派对设备：海外社媒「commercial equipment new arrival」增速 246%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's exports ride AI boom as...」。",
+    "trend_summary": "展会及派对设备：海外社媒「commercial equipment b2b export」增速 242%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 展会及派对设备 出口需通过合规认证",
-      "海外社媒「commercial equipment new arrival」增速 246% 领跑 → 展会及派对设备社媒种草热度爆发"
+      "海外社媒「commercial equipment b2b export」增速 242% 领跑 → 展会及派对设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "commercial equipment b2b export",
+        "growth": 242.0,
+        "vol": "15K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "commercial equipment new arrival",
-        "growth": 245.5,
-        "vol": "159K",
+        "kw": "commercial equipment aesthetic",
+        "growth": 240.0,
+        "vol": "225K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "commercial equipment analyst",
-        "growth": 241.5,
-        "vol": "639K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "commercial equipment industry news",
-        "growth": 232.0,
-        "vol": "166K",
+        "platform": "youtube",
+        "kw": "commercial equipment unboxing",
+        "growth": 186.0,
+        "vol": "320K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment b2b export",
-        "growth": 178.0,
+        "growth": 239.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment wholesale supplier",
-        "growth": 139.5,
+        "growth": 175.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's exports ride AI boom as domestic economy struggles - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRGpqNHVtR2tXdDB5RnBUeHF0U2oyRDRMNnduQVM0eHBWOTVxalVjSGdOMXlFZGxNRUc2dW9fcUttclVoVTdKbk5rRUlVOEdqWHFQRzd5WllrZGI2dnhOVEJXRDU1eFhSVlAtZDk2UEFCRExBdEQxMEdhTENzdzVRVWpaVUhJU2l2RU1KT0xobmNyeGtPcEY1S3Exb3doaG8?oc=5",
+        "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "商业设备及机械"
   }
 }

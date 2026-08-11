@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车照明系统：海外社媒「auto parts factory tour」增速 247%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Rhodium Group关注「How Chinese Cars Took Over Thailand -...」。",
+    "trend_summary": "汽车照明系统：海外社媒「auto parts viral」增速 250%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，rhg.com关注「How Chinese Cars Took Over Thailand -...」。",
     "product_profile": {
       "外观": "极简线条 / 无主灯设计 / 磁吸轨道",
       "成分": "铝散热外壳 / COB 光源 / PMMA 导光板",
@@ -48,51 +48,51 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车照明系统 出口需通过合规认证",
-      "海外社媒「auto parts factory tour」增速 247% 领跑 → 汽车照明系统社媒种草热度爆发"
+      "海外社媒「auto parts viral」增速 250% 领跑 → 汽车照明系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "auto parts factory tour",
-        "growth": 247.0,
-        "vol": "317K",
+        "platform": "instagram",
+        "kw": "auto parts viral",
+        "growth": 249.5,
+        "vol": "45K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto parts #fyp",
+        "growth": 238.5,
+        "vol": "354K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "auto parts review 2026",
-        "growth": 246.5,
-        "vol": "228K",
+        "kw": "auto parts tutorial",
+        "growth": 226.5,
+        "vol": "295K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts market 2026",
-        "growth": 243.5,
-        "vol": "641K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto parts b2b export",
+        "growth": 216.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 240.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto parts wholesale supplier",
-        "growth": 172.5,
+        "growth": 94.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How Chinese Cars Took Over Thailand - Rhodium Group",
-        "source": "Rhodium Group",
+        "title": "How Chinese Cars Took Over Thailand - rhg.com",
+        "source": "rhg.com",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vN244OW1kcmdOMjdTdTVpTWV5bGhQQ0x1WjRua2phaDAydUU5Sk5xT1hYN3Y2OXdPc2Q2Z1gzbHVSSlZhUXItdVFOOF9QaXVoZnVVcEdpRnRlYU1fTGNrRmtuVjVoMFhHLXVNVUVB?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "lighting",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "汽车零配件"
   }
 }

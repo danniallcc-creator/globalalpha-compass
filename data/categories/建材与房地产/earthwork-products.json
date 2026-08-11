@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "土工材料：海外社媒「building #fyp」增速 240%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Egypt Today关注「Egypt’s building materials exports...」。",
+    "trend_summary": "土工材料：海外社媒「cement unboxing」增速 215%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Missouri Independent关注「Why the stakes are high for Missouri in...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 土工材料 出口需通过合规认证",
-      "海外社媒「building #fyp」增速 240% 领跑 → 土工材料社媒种草热度爆发"
+      "海外社媒「cement unboxing」增速 215% 领跑 → 土工材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building #fyp",
-        "growth": 239.5,
-        "vol": "405K",
+        "platform": "youtube",
+        "kw": "cement unboxing",
+        "growth": 215.0,
+        "vol": "775K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cement must have",
-        "growth": 229.0,
-        "vol": "31K",
+        "platform": "x",
+        "kw": "cement industry news",
+        "growth": 191.0,
+        "vol": "683K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cement trending now",
-        "growth": 224.0,
-        "vol": "608K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 126.0,
+        "platform": "x",
+        "kw": "building breaking",
+        "growth": 182.5,
+        "vol": "658K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 93.5,
+        "growth": 170.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Egypt’s building materials exports climb to $14.9B in 2025 - Egypt Today",
-        "source": "Egypt Today",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdHJ5Vl8wV3RoUGxHVWFvOFc5WjBKb1VNc1JfTS05ODRMQzlSQ3RsTmtQY1IwTzBmTWlhVk5MUmFXcXZpdDNzS0RxOTdpVENzWEdLYzNxQnZsVnZmLThGbExZY3FBUVpBZkZqdFN4RWNrbG5jTGpOWW5WODlaUVFUbHRTZ01TbHZHNTlnZ2lDSUdZUmVvTzZiMW9qdVZaZUNlSkVnMmEzQTdXTXNkcUE?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 139.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - Missouri Independent",
         "source": "Missouri Independent",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRVI4LXUyUFRUeUFmcnctZE1pM1RVckg5eEMxZGlJMHRpVllYY25kakZjLWRSTWRLWWZUNmNDZFAxcWRjMkNfallpc0kzQllJNDEwdnRtS2ZXanBRT0pBRV80aW5XYVpPWnMzR1dYVlJTS2lTY2QzZVBydlg5OEJ0UkdET3d3RGNYRHlid2xqTktiRHF6aElPZ1lhSUpOMTN0VU5CNWpmOGQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "From grain to drones, the Ukraine-Turkey free trade agreement marks a milestone in bilateral cooperation - Atlantic Council",
+        "source": "Atlantic Council",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ1NfSWNtMndkUTdmellaaVlQUS1pb3ZNQkRoSGxINVVTWVBXdVlaQnRiZzFLM0xPcFZ2T1dvbm1uRXNqUUVlZ1lsWU5nMDlSaG04R1d4clVrRzlMUDJtVXFfN1h6SWx0VS05cXY4QkxyWGNwbDgxMGJ2RjUwdHFFMXJKOWlaWlJQbVhXaGRTRmU?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-08-10",
+    "generated_at": "2026-08-11",
     "l1_ref": "建材与房地产"
   }
 }
