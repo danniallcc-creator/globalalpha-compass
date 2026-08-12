@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "充电器，电池和电源：海外社媒「consumer electronics breaking」增速 254%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Farm Progress关注「Export Report: Nothing to write home...」。",
+    "trend_summary": "充电器，电池和电源：海外社媒「earbuds viral」增速 248%，搜索端「earbuds wholesale supplier」热度上行，US Amazon BSR Top-12，farmprogress.com关注「Export Report: Nothing to write home...」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,51 +50,51 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 充电器，电池和电源 成主流",
       "欧盟 CE 标志强制准入 → 充电器，电池和电源 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 充电器，电池和电源 合规刚需",
-      "海外社媒「consumer electronics breaking」增速 254% 领跑 → 充电器，电池和电源社媒种草热度爆发"
+      "海外社媒「earbuds viral」增速 248% 领跑 → 充电器，电池和电源社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "earbuds viral",
+        "growth": 248.5,
+        "vol": "751K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "earbuds supply chain",
+        "growth": 238.5,
+        "vol": "766K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "consumer electronics breaking",
-        "growth": 253.5,
-        "vol": "619K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "consumer electronics trending now",
-        "growth": 239.0,
-        "vol": "254K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "earbuds tutorial",
-        "growth": 237.5,
-        "vol": "601K",
+        "growth": 235.5,
+        "vol": "156K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "consumer electronics market 2026",
-        "growth": 233.5,
+        "kw": "earbuds wholesale supplier",
+        "growth": 147.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "smartphone b2b export",
-        "growth": 186.0,
+        "growth": 138.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Export Report: Nothing to write home about - Farm Progress",
-        "source": "Farm Progress",
+        "title": "Export Report: Nothing to write home about - farmprogress.com",
+        "source": "farmprogress.com",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVFJfVEJES2IzRzhKMkU4azFpSHN5QzdQZmVQMENYSk5XTFc0N2swMkgxdzlrSU1GYlUyWXdMNEdpTE9GOTFzRURqM3J6TTM4MFQya29LeDcwZVQtbnJOVUFsM1NGbDU0eXEwYlBTSm55V0J0bzFta1Y1NUtvbmc0dWNkRWlYNFk?oc=5",
         "hits": 0
       },
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-08-11",
+    "generated_at": "2026-08-12",
     "l1_ref": "消费电子"
   }
 }

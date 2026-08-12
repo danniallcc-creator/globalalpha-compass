@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 44954157,
-    "total_net_weight_kg": 14454157,
+    "total_export_value_usd": 41381926,
+    "total_net_weight_kg": 10881926,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-11"
+    "fetched_at": "2026-08-12"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 96,
+      "interest_score": 78,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-11"
+      "fetched_at": "2026-08-12"
     }
   },
   "industry_analysis": {
@@ -52,55 +52,45 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "ISO standards for mechanical power transmission, CE marking, bearing quality standards (ABMA/ISO), motor efficiency classes (IE1-IE4), ATEX for hazardous areas.",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
+      "US": {
+        "value_usd": 73293716681.0,
+        "yoy": -33.9,
+        "share": 12.5
+      },
       "DE": {
         "value_usd": 325952473332.29596,
         "yoy": 146.8,
-        "share": 42.2
+        "share": 55.5
       },
       "JP": {
         "value_usd": 63987310107.757,
-        "yoy": null,
-        "share": 8.3
-      },
-      "GB": {
-        "value_usd": 165583393715.99716,
-        "yoy": 8.9,
-        "share": 21.5
+        "yoy": 4.7,
+        "share": 10.9
       },
       "KR": {
         "value_usd": 31615068920.0,
         "yoy": null,
-        "share": 4.1
+        "share": 5.4
       },
       "BR": {
         "value_usd": 26928852124.0,
-        "yoy": null,
-        "share": 3.5
+        "yoy": 11.7,
+        "share": 4.6
       },
       "SA": {
         "value_usd": 11125265623.064999,
-        "yoy": null,
-        "share": 1.4
-      },
-      "IT": {
-        "value_usd": 13644383972.626999,
-        "yoy": null,
-        "share": 1.8
-      },
-      "CA": {
-        "value_usd": 78620224675.77396,
-        "yoy": null,
-        "share": 10.2
+        "yoy": 9.1,
+        "share": 1.9
       },
       "MX": {
         "value_usd": 54195282418.0,
-        "yoy": null,
-        "share": 7.0
+        "yoy": 4.8,
+        "share": 9.2
       }
     }
   }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "童鞋：海外社媒「toys market alert」增速 255%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，scanx.trade关注「K. V. Toys India Q1 Results: Total...」。",
+    "trend_summary": "童鞋：海外社媒「infant tiktok made me buy」增速 250%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，scanx.trade关注「K. V. Toys India Q1 Results: Total...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,31 +49,31 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 童鞋 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 童鞋 采购偏好",
-      "海外社媒「toys market alert」增速 255% 领跑 → 童鞋社媒种草热度爆发"
+      "海外社媒「infant tiktok made me buy」增速 250% 领跑 → 童鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "infant tiktok made me buy",
+        "growth": 250.5,
+        "vol": "259K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "toys market alert",
-        "growth": 255.0,
-        "vol": "343K",
+        "kw": "infant supply chain",
+        "growth": 244.5,
+        "vol": "485K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby #trending",
-        "growth": 253.5,
-        "vol": "136K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "toys aesthetic",
-        "growth": 239.0,
-        "vol": "260K",
+        "platform": "youtube",
+        "kw": "toys top 10",
+        "growth": 241.5,
+        "vol": "115K",
         "hits": 0
       },
       {
@@ -86,8 +86,8 @@
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "baby market 2026",
-        "growth": 160.5,
+        "kw": "infant wholesale supplier",
+        "growth": 219.5,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-08-11",
+    "generated_at": "2026-08-12",
     "l1_ref": "母婴&玩具"
   }
 }

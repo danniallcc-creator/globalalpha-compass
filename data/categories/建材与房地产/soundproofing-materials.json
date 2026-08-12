@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "隔音材料：海外社媒「cement unboxing」增速 215%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Missouri Independent关注「Why the stakes are high for Missouri in...」。",
+    "trend_summary": "隔音材料：海外社媒「cement industry news」增速 241%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Missouri Independent关注「Why the stakes are high for Missouri in...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 隔音材料 出口需通过合规认证",
-      "海外社媒「cement unboxing」增速 215% 领跑 → 隔音材料社媒种草热度爆发"
+      "海外社媒「cement industry news」增速 241% 领跑 → 隔音材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cement unboxing",
-        "growth": 215.0,
-        "vol": "775K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "cement industry news",
-        "growth": 191.0,
-        "vol": "683K",
+        "growth": 241.0,
+        "vol": "122K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "building breaking",
-        "growth": 182.5,
-        "vol": "658K",
+        "kw": "building analyst",
+        "growth": 234.5,
+        "vol": "14K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "building viral",
+        "growth": 228.5,
+        "vol": "572K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 170.5,
+        "growth": 220.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 139.0,
+        "kw": "building wholesale supplier",
+        "growth": 175.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-08-11",
+    "generated_at": "2026-08-12",
     "l1_ref": "建材与房地产"
   }
 }
