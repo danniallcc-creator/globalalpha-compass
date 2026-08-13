@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "开发系统：海外社媒「chip viral」增速 252%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Opinion | Why China’s trade partners...」。",
+    "trend_summary": "开发系统：海外社媒「5g new arrival」增速 230%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Opinion | Why China’s trade partners...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 开发系统 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 开发系统 成主流",
       "欧盟 CE 标志强制准入 → 开发系统 出口需通过合规认证",
-      "海外社媒「chip viral」增速 252% 领跑 → 开发系统社媒种草热度爆发"
+      "海外社媒「5g new arrival」增速 230% 领跑 → 开发系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "chip viral",
-        "growth": 252.5,
-        "vol": "735K",
+        "kw": "5g new arrival",
+        "growth": 230.5,
+        "vol": "535K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "chip tiktok made me buy",
+        "growth": 228.5,
+        "vol": "184K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "5g #trending",
-        "growth": 251.5,
-        "vol": "291K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "5g top 10",
-        "growth": 250.5,
-        "vol": "135K",
+        "kw": "semiconductor must have",
+        "growth": 224.0,
+        "vol": "305K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 204.5,
+        "growth": 186.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 152.0,
+        "growth": 171.0,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

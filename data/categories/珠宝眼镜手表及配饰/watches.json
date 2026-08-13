@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry #fyp」增速 240%，搜索端「jewelry watches sustainable manufacturing」热度上行，US Amazon BSR Top-37，Firstpost关注「India's gem and jewellery exports jump...」。",
+    "trend_summary": "手表：海外社媒「watch trending now」增速 244%，搜索端「jewelry watches supply chain resilience」热度上行，JP Amazon BSR Top-43，NDTV Profit关注「India-US Trade: Parliamentary Panel...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,53 +48,46 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry #fyp」增速 240% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch trending now」增速 244% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
+        "kw": "watch trending now",
+        "growth": 244.0,
+        "vol": "693K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
         "kw": "jewelry #fyp",
         "growth": 240.5,
-        "vol": "718K",
+        "vol": "30K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 225.5,
-        "vol": "505K",
+        "platform": "x",
+        "kw": "jewelry breaking",
+        "growth": 240.5,
+        "vol": "602K",
         "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry industry report",
-        "growth": 221.5,
-        "vol": "661K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "jewelry watches sustainable manufacturing",
-        "growth": 65,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches supply chain resilience",
-        "growth": 64,
+        "growth": 83,
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "India's gem and jewellery exports jump 26.5% in June on stronger global demand - Firstpost",
-        "source": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNHpHSlhwaWxXWEdWeFNtT2tqa1ZIZGo0U0pKSy16LTdWTkJ2d0pEUzZFMThvZ3A0ZmlPUnQyaGgzZ3JEYnZweFRYZFpOWVdFc1ZPQm92Tm5vMFhpS1EwM2ZKdVA4X3J5dGdMbHJVS2JTZ3czRlc0SEIyeElvNUlackFSenpLZ3JaMDc0Q0JoX29nTHlRRG5iSWZxQldCbVlKRkJKVmI5eUxobmZ6M2pIX1F4U0I5RGY2SGFTUC1xLUxXTjTSAcgBQVVfeXFMTzJKV0pneF92NV9vRXVzWk92WWcxeks4UkRaTWNVNFh2VUM3VkFIaWFTVkN2cXpodWNReThGYkd6TVdZMzQtU1lUYnFIVGpKX2l1S3BFRmxfeEtIck42ZVgwbEJOSVpKd2dEclJKMUlKZkliNkpnTV9pM1Q2NnpLZFpkUGVNYlhTMTBCNTN1dTFWVlE4X1BMS2Jsb3MteVktUmZWdHBPWW4wY25WcFFYU0NNM2dfcDdzeWZEUnRHcmJ1eUlZTk1yQ2E?oc=5",
-        "hits": 0
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "jewelry watches sustainable manufacturing",
+        "growth": 72,
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -104,26 +97,33 @@
         "hits": 0
       },
       {
+        "dim": "媒体",
+        "title": "Indian jewellers unlikely to benefit despite expiry of Trump tariffs: One law makes way for another; 10% ta... - Bhaskar English",
+        "source": "Bhaskar English",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSkNNNDFWdlp1eFpITlBiZFhZU1doeDJjZmFrWDBKVVRHTjJIUU9GTFFCRFlIYWw4b0ZvLW5CdllTU19DMTRweTJjWktUbHFZQWp6VVZ3blIwekM0dDV4UnF0ZVk4MDFwTUZhcTNHakZYOThfOFdpaGRPaEloTzlxTExjelRhLUFiRTJEWDRUZzhBUWtSeVp6TE9oMmpmWUZGbDlFTF9MNjRwNUV3ZFkyeml2YlRVQ3lxbEpjMnNwaDnSAcYBQVVfeXFMTnRiNTJ1ME9DSmJlNTZ6UDB1bUhWbldTUUtCRzNTVk9OR0hPZUlVdEV4YVBSLU1sOUpVQVBlWHcwYl9GeWd0N013eGg4VlU2NVVJcUwtOVljUWJETDd1TmRCN194YllneHhLeDFia2kxZHJTbW0zenE5eXZMeGI2ZURTdGxHMDNZdl9YV1NQMHZOSC1BQ0xESkcxNkJQMV9aZ2dHQjhmeVRWcmN2VkdTS1Zld1hTZjZ2SFJYdVRBWlMtdWVnaVB3?oc=5",
+        "hits": 0
+      },
+      {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 37,
-        "title": "Top watch - Heavy-Duty Edition",
-        "price": "$107.5",
+        "market": "JP",
+        "rank": 43,
+        "title": "Top jewelry - Eco Edition",
+        "price": "$236.4",
         "rating": 4.3,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 27,
+        "rank": 17,
         "title": "Top jewelry - Premium Edition",
-        "price": "$278.0",
+        "price": "$170.0",
         "rating": 4.1,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

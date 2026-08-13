@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电工仪表：海外社媒「electrical analyst」增速 234%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，Breakwave Advisors关注「Profound economic transformation -...」。",
+    "trend_summary": "电工仪表：海外社媒「electrical viral」增速 252%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，The Washington Post关注「The U.S. saw the first ‘China Shock.’...」。",
     "product_profile": {
       "外观": "手持便携 / 台式精密 / IP67 工业级",
       "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电工仪表 成主流",
       "欧盟 CE 标志强制准入 → 电工仪表 出口需通过合规认证",
-      "海外社媒「electrical analyst」增速 234% 领跑 → 电工仪表社媒种草热度爆发"
+      "海外社媒「electrical viral」增速 252% 领跑 → 电工仪表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical analyst",
-        "growth": 234.5,
-        "vol": "623K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical unboxing",
-        "growth": 232.0,
-        "vol": "514K",
+        "platform": "instagram",
+        "kw": "electrical viral",
+        "growth": 251.5,
+        "vol": "123K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "electrical tiktok made me buy",
-        "growth": 231.5,
-        "vol": "543K",
+        "kw": "electrical must try",
+        "growth": 228.5,
+        "vol": "238K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "electrical price trend",
+        "growth": 187.0,
+        "vol": "739K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electrical wholesale supplier",
-        "growth": 196.5,
+        "kw": "electrical market 2026",
+        "growth": 161.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical b2b export",
-        "growth": 146.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Profound economic transformation - Breakwave Advisors",
-        "source": "Breakwave Advisors",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmtUWUxWSmI5OG82VHpfRUZSUHpzbjFVX2NaT3ltRkNlajVQWjlYR1FRR2pzaEpiUkxjMjVFTHhZS3Jma0N5VEtOUEt5S1o1MFVNbVV2Y2s0OXptVld2cjZoY0tmdHFGeGdOU01CM1psWjYtYjVobmdWR1NsOWdaSlNrMTEybF8xQkE4QkR3?oc=5",
+        "growth": 122.0,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "The U.S. saw the first ‘China Shock.’ Now the world gets the sequel. - The Washington Post",
         "source": "The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUhVM1VfUHQxb1dNVW5sMVM1Z2xYeTJWN2VlUG8tb0ZvS3ZUN2JUSjl4QWhHclVaMTNtMGF1VUx5b2NKcjQ5eGNaN3hZTEIzbXdKMDFtUm5oNzBPckxrbkU4aE8yamRXd0d4QmpPQVRNMGVBWXZfZjdrNTlma1NnWXFaOFhMMmJOdExSTFdCeDVIUUpZUWt6LURxSFdYUjZ6NXl3Y0JkQ1liZlI3SU85Q0hlRQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Electrical machinery and electronics (HS: 85) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjWGJubWxjY3g3NUhkVXpjLU9OSTRXWjkzb3JVQXFLSFRaNERTcUx4NXgzb0l4TW5DeVlNZTBtZkY0UlNaT25wTEQ5Y3RLVVVscm1VOXRhUWpneG5Oa0x1ZzdpR1AtN1NrMEx6dmNET21saTdlSVhF?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "instruments",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "电气设备及用品"
   }
 }

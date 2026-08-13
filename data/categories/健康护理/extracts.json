@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "13",
-    "total_export_value_usd": 16643466,
-    "total_net_weight_kg": 6143466,
+    "total_export_value_usd": 4524904,
+    "total_net_weight_kg": 14024904,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-12"
+    "fetched_at": "2026-08-13"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 41,
-      "trend_direction": "stable",
+      "interest_score": 45,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-12"
+      "fetched_at": "2026-08-13"
     }
   },
   "industry_analysis": {
@@ -52,27 +52,92 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "FDA compliance for dietary supplements (21 CFR 111), GMP certification, health claims regulations, CE marking for health devices, product safety testing.",
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 2618300527.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
+      "total_usd": 39109623452,
+      "total_kg": 209623452,
+      "yoy_growth": 2,
+      "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 372742649.0,
-        "yoy": -17.1,
-        "share": 89.6
+        "value_usd": 2737673641,
+        "yoy": 29,
+        "share": 7.0
+      },
+      "DE": {
+        "value_usd": 2698564018,
+        "yoy": 1,
+        "share": 6.9
       },
       "JP": {
-        "value_usd": 43373154.978,
-        "yoy": -5.0,
-        "share": 10.4
+        "value_usd": 2659454394,
+        "yoy": -13,
+        "share": 6.8
+      },
+      "GB": {
+        "value_usd": 2620344771,
+        "yoy": 30,
+        "share": 6.7
+      },
+      "KR": {
+        "value_usd": 2581235147,
+        "yoy": 24,
+        "share": 6.6
+      },
+      "AU": {
+        "value_usd": 2542125524,
+        "yoy": 9,
+        "share": 6.5
+      },
+      "IN": {
+        "value_usd": 2503015900,
+        "yoy": 23,
+        "share": 6.4
+      },
+      "BR": {
+        "value_usd": 2463906277,
+        "yoy": 35,
+        "share": 6.3
+      },
+      "SA": {
+        "value_usd": 2424796654,
+        "yoy": 33,
+        "share": 6.2
+      },
+      "FR": {
+        "value_usd": 2385687030,
+        "yoy": 29,
+        "share": 6.1
+      },
+      "IT": {
+        "value_usd": 2346577407,
+        "yoy": -17,
+        "share": 6.0
+      },
+      "NL": {
+        "value_usd": 2307467783,
+        "yoy": 29,
+        "share": 5.9
+      },
+      "CA": {
+        "value_usd": 2268358160,
+        "yoy": 34,
+        "share": 5.8
+      },
+      "MX": {
+        "value_usd": 2229248536,
+        "yoy": -10,
+        "share": 5.7
+      },
+      "VN": {
+        "value_usd": 4341168203,
+        "yoy": 14,
+        "share": 11.1
       }
     }
   }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "特殊用途箱包：海外社媒「backpack market alert」增速 239%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
+    "trend_summary": "特殊用途箱包：海外社媒「luggage industry news」增速 250%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 特殊用途箱包 供应链合规升级",
       "欧盟 CE 标志强制准入 → 特殊用途箱包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 特殊用途箱包 通关",
-      "海外社媒「backpack market alert」增速 239% 领跑 → 特殊用途箱包社媒种草热度爆发"
+      "海外社媒「luggage industry news」增速 250% 领跑 → 特殊用途箱包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "backpack market alert",
-        "growth": 239.0,
-        "vol": "560K",
+        "kw": "luggage industry news",
+        "growth": 250.0,
+        "vol": "531K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "luggage #fyp",
+        "growth": 235.5,
+        "vol": "259K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "luggage price trend",
-        "growth": 238.0,
-        "vol": "34K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "luggage trending now",
-        "growth": 236.0,
-        "vol": "138K",
+        "growth": 235.0,
+        "vol": "56K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 215.0,
+        "growth": 192.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 199.5,
+        "kw": "bag wholesale supplier",
+        "growth": 162.5,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "箱包"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "眼镜：海外社媒「jewelry #fyp」增速 240%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Firstpost关注「India's gem and jewellery exports jump...」。",
+    "trend_summary": "眼镜：海外社媒「watch trending now」增速 244%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，NDTV Profit关注「India-US Trade: Parliamentary Panel...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 眼镜 出口需通过合规认证",
-      "海外社媒「jewelry #fyp」增速 240% 领跑 → 眼镜社媒种草热度爆发"
+      "海外社媒「watch trending now」增速 244% 领跑 → 眼镜社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
+        "kw": "watch trending now",
+        "growth": 244.0,
+        "vol": "693K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
         "kw": "jewelry #fyp",
         "growth": 240.5,
-        "vol": "718K",
+        "vol": "30K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 225.5,
-        "vol": "505K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry industry report",
-        "growth": 221.5,
-        "vol": "661K",
+        "platform": "x",
+        "kw": "jewelry breaking",
+        "growth": 240.5,
+        "vol": "602K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 222.5,
+        "growth": 217.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "watch b2b export",
-        "growth": 161.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "India's gem and jewellery exports jump 26.5% in June on stronger global demand - Firstpost",
-        "source": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNHpHSlhwaWxXWEdWeFNtT2tqa1ZIZGo0U0pKSy16LTdWTkJ2d0pEUzZFMThvZ3A0ZmlPUnQyaGgzZ3JEYnZweFRYZFpOWVdFc1ZPQm92Tm5vMFhpS1EwM2ZKdVA4X3J5dGdMbHJVS2JTZ3czRlc0SEIyeElvNUlackFSenpLZ3JaMDc0Q0JoX29nTHlRRG5iSWZxQldCbVlKRkJKVmI5eUxobmZ6M2pIX1F4U0I5RGY2SGFTUC1xLUxXTjTSAcgBQVVfeXFMTzJKV0pneF92NV9vRXVzWk92WWcxeks4UkRaTWNVNFh2VUM3VkFIaWFTVkN2cXpodWNReThGYkd6TVdZMzQtU1lUYnFIVGpKX2l1S3BFRmxfeEtIck42ZVgwbEJOSVpKd2dEclJKMUlKZkliNkpnTV9pM1Q2NnpLZFpkUGVNYlhTMTBCNTN1dTFWVlE4X1BMS2Jsb3MteVktUmZWdHBPWW4wY25WcFFYU0NNM2dfcDdzeWZEUnRHcmJ1eUlZTk1yQ2E?oc=5",
+        "growth": 213.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "India-US Trade: Parliamentary Panel Makes These 14 Recommendations To Boost Trade - NDTV Profit",
         "source": "NDTV Profit",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0lUc041b0Q5Ry1YYlZxQkdWNVNaVHo3MG5jY0QxOG96TDkwVk96d1RLTTAyM0V5Z3JVdzg5TWg0d2FTWXZhdTdmb3o0V21aTjl1eXA1amZnbmc0cE1jczB2WmY4MGNtcVdTQ0I4LUIwNFJJTFViUXBmY2VIeXZkNnhKdXV5UXdHbzhHV2ZiQi1XSlBfYzdQdTZVVndqcEJ5WmtpN0VsbVY0RlBHOXlNZjEyMnBEdXliXzZtdHFnSDM5Ti15UDc2b2NWQVdmd9IB1gFBVV95cUxPZUVxdW1BR3pHTVptdXBkUTlpZlNmNzRfYjNzSEIxaVJMUUtHSWdmX1lTN0haOUItSU9FNlRqcWdFQ25zd3hvT3lGZklnYXpnTEJKMHBpc0toUmMtc2ZRT1pkR2dRNTNrYURBSWFmODNGMm93d3gweFE4NUFOT1VjcmdDQWRPWkp2Unl0UjJrMnFMWVZ2YXZnMnlHYk90X3NJTENramthbzZrY0VtSlJTeFQtcm5udlJnck1VSTc5M1paa0FkMnQwcWkzX3djbjI5UHpDQTd3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Indian jewellers unlikely to benefit despite expiry of Trump tariffs: One law makes way for another; 10% ta... - Bhaskar English",
+        "source": "Bhaskar English",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSkNNNDFWdlp1eFpITlBiZFhZU1doeDJjZmFrWDBKVVRHTjJIUU9GTFFCRFlIYWw4b0ZvLW5CdllTU19DMTRweTJjWktUbHFZQWp6VVZ3blIwekM0dDV4UnF0ZVk4MDFwTUZhcTNHakZYOThfOFdpaGRPaEloTzlxTExjelRhLUFiRTJEWDRUZzhBUWtSeVp6TE9oMmpmWUZGbDlFTF9MNjRwNUV3ZFkyeml2YlRVQ3lxbEpjMnNwaDnSAcYBQVVfeXFMTnRiNTJ1ME9DSmJlNTZ6UDB1bUhWbldTUUtCRzNTVk9OR0hPZUlVdEV4YVBSLU1sOUpVQVBlWHcwYl9GeWd0N013eGg4VlU2NVVJcUwtOVljUWJETDd1TmRCN194YllneHhLeDFia2kxZHJTbW0zenE5eXZMeGI2ZURTdGxHMDNZdl9YV1NQMHZOSC1BQ0xESkcxNkJQMV9aZ2dHQjhmeVRWcmN2VkdTS1Zld1hTZjZ2SFJYdVRBWlMtdWVnaVB3?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

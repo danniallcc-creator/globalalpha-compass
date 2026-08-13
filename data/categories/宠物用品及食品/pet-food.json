@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food viral hack」增速 184%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-44，PetfoodIndustry关注「Infographic: Japan leads Asia’s top 10...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food market alert」增速 239%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-49，PetfoodIndustry关注「Infographic: Japan leads Asia’s top 10...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,38 +49,38 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food viral hack」增速 184% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food market alert」增速 239% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 184.0,
-        "vol": "637K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 179.0,
-        "vol": "435K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "pet food market alert",
-        "growth": 159.0,
-        "vol": "572K",
+        "growth": 239.0,
+        "vol": "796K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "pet food factory tour",
+        "growth": 221.0,
+        "vol": "123K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 184.0,
+        "vol": "203K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 142.0,
+        "growth": 174.0,
         "hits": 2
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 44,
-        "title": "Top pet - Compact Edition",
-        "price": "$48.8",
-        "rating": 4.8,
+        "market": "JP",
+        "rank": 49,
+        "title": "Top pet - Eco Edition",
+        "price": "$272.4",
+        "rating": 3.8,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 34,
-        "title": "Top pet - Premium Edition",
-        "price": "$136.0",
-        "rating": 3.8,
+        "market": "SA",
+        "rank": 37,
+        "title": "Top pet - Compact Edition",
+        "price": "$97.8",
+        "rating": 4.5,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-12",
+    "generated_at": "2026-08-13",
     "l1_ref": "宠物用品及食品"
   }
 }
