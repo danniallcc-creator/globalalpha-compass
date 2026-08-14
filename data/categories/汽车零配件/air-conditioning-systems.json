@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "空调系统：海外社媒「auto parts trending now」增速 247%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Rhodium Group关注「How Chinese Cars Took Over Thailand -...」。",
+    "trend_summary": "空调系统：海外社媒「auto parts market 2026」增速 246%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Rhodium Group关注「How Chinese Cars Took Over Thailand -...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,31 +48,38 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 空调系统 出口需通过合规认证",
-      "海外社媒「auto parts trending now」增速 247% 领跑 → 空调系统社媒种草热度爆发"
+      "海外社媒「auto parts market 2026」增速 246% 领跑 → 空调系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts trending now",
-        "growth": 247.0,
-        "vol": "166K",
+        "platform": "google",
+        "kw": "auto parts market 2026",
+        "growth": 246.5,
+        "vol": "457K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts #fyp",
-        "growth": 240.5,
-        "vol": "10K",
+        "platform": "instagram",
+        "kw": "auto parts new arrival",
+        "growth": 237.5,
+        "vol": "772K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "auto parts analyst",
-        "growth": 238.5,
-        "vol": "134K",
+        "platform": "youtube",
+        "kw": "auto parts factory tour",
+        "growth": 235.0,
+        "vol": "179K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto parts market 2026",
+        "growth": 243.5,
         "hits": 0
       },
       {
@@ -80,13 +87,6 @@
         "source": "Google Trends",
         "kw": "auto parts b2b export",
         "growth": 180.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto parts market 2026",
-        "growth": 122.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Are Chinese Auto Exports About to Hit the Ceiling? - Gasgoo",
-        "source": "Gasgoo",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1FYWDZZeXBjYWVDWEFGYjc2MnRIM3F4eFVDNkduaEtCM0pOQmJCVHZ4aU5pWlJQaFUxay1CSU1PODhOZHJTbFBEQm10blJPSW1qeC1pWjY3Z1dtWjBNclZTNUZmZzB1b2lTYUJaUzE0UGNGdHdzSmZjSUhIZ0h2MTBaWDZGUXBQTEpRZ0tKaVhZSEZoZGVVTzVTWFQ1bFVXTkhRMnB2RVg2Sjdic28yaQ?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "汽车零配件"
   }
 }

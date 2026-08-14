@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "行李箱及旅行包：海外社媒「luggage industry news」增速 250%，搜索端「backpack b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Trunks and Cases (HS: 4202) Product...」。",
+    "trend_summary": "行李箱及旅行包：海外社媒「luggage breaking」增速 252%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，scanx.trade关注「Uflex commences commercial production...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 行李箱及旅行包 供应链合规升级",
       "欧盟 CE 标志强制准入 → 行李箱及旅行包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 行李箱及旅行包 通关",
-      "海外社媒「luggage industry news」增速 250% 领跑 → 行李箱及旅行包社媒种草热度爆发"
+      "海外社媒「luggage breaking」增速 252% 领跑 → 行李箱及旅行包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
+        "kw": "luggage breaking",
+        "growth": 252.5,
+        "vol": "44K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "backpack market alert",
+        "growth": 249.0,
+        "vol": "380K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
         "kw": "luggage industry news",
-        "growth": 250.0,
-        "vol": "531K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "luggage #fyp",
-        "growth": 235.5,
-        "vol": "259K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "luggage price trend",
-        "growth": 235.0,
-        "vol": "56K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 192.0,
+        "growth": 237.0,
+        "vol": "217K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 162.5,
+        "growth": 118.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "luggage market 2026",
+        "growth": 92.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Trunks and Cases (HS: 4202) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sSHVYNWlaOGp4TjhwcENFd1pCUHN1QjcyQnE1M282dDdfSy1Jdmgxc1JNTWlIM2FhT2JxUEppRERDOGszeGM5Z3prcFFUa25EclJWbFBZU0xfUWxl?oc=5",
+        "title": "Uflex commences commercial production at Mexico plant with 80 mn bag capacity - scanx.trade",
+        "source": "scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzY1Wk10eHp2N3FmLUozLWdjZmFzd1Z0S3BpeXcycmVaMktpcWY1SUpPRVROMFd1YjVYUDdzSWM0aVZVa1UxV0VickNmcnFnZ0t5ZzJ5NnBPbDZTVmI3ZlVNbHd6RkMxa1ZlREs5Q2xodU85ODFFTE1rWmNxcFNkZk1temxqZUhSTW5PVl9UUHZSS3I0bWhnYkt4MnZSWGRNRmk1bEtmWGM4eXZWX0VudkxYQkVONUc0NklXcHpJLTZKSGphUmlNeFdtQjR6Qlg1ektmX3c3UGlsQVE?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "What Is a Trade War? History, Tariffs, & Impact - Encyclopedia Britannica",
-        "source": "Encyclopedia Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOQm1yN1o4dXBKdWVGdE1IeG9xN3NTaUdJQUFDOXR3NDZlZmVhYTVhSjdPMFllWHA5SXduczlPMTNoU3FmNEIybl80SEZjYnBPYVpZeHFQekFaVVAtNG9N?oc=5",
+        "title": "Bags Market Size, Share & Growth Report 2035 | MRFR - Market Research Future",
+        "source": "Market Research Future",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLaFo3VnFSMUNzc1JhRy1rY2hEYVVDbEF4M0hLU3U1d0hSd3FKU2h0TnczNy1OUGtjemVMTWUxbGNaYkxGMEc4MlF2cjJOcl91WVJBeXBKQmNBRVUzQkY0TXFOQVp3SFdON25rWHlpUQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "箱包"
   }
 }

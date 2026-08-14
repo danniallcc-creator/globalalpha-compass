@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 52,
-      "trend_direction": "up",
+      "interest_score": 84,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-14"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight new arrival」增速 246%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，aboutcoupang.com关注「U.S. tech company Coupang Inc. named to...」。",
+    "trend_summary": "多式联运：海外社媒「logistics factory tour」增速 245%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，China-US Focus关注「China’s Economy Presses Forward Despite...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight new arrival」增速 246% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「logistics factory tour」增速 245% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "freight new arrival",
-        "growth": 246.5,
-        "vol": "258K",
+        "platform": "youtube",
+        "kw": "logistics factory tour",
+        "growth": 245.0,
+        "vol": "266K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "freight viral hack",
+        "growth": 245.0,
+        "vol": "305K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 242.0,
-        "vol": "691K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "logistics industry news",
-        "growth": 233.0,
-        "vol": "483K",
+        "kw": "logistics #trending",
+        "growth": 228.5,
+        "vol": "105K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "freight b2b export",
-        "growth": 198.0,
+        "kw": "shipping wholesale supplier",
+        "growth": 116.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "logistics market 2026",
-        "growth": 110.5,
+        "source": "Linkedin",
+        "kw": "cross-border logistics market trend 2026",
+        "growth": 93,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "U.S. tech company Coupang Inc. named to 2026 Fortune Global 500™ for the first time - aboutcoupang.com",
-        "source": "aboutcoupang.com",
+        "title": "China’s Economy Presses Forward Despite Headwinds - China-US Focus",
+        "source": "China-US Focus",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0xLaWNFWm1na21GMk9DdVRDeUd2MGlsbUxKZHNGdzJUcHlXaE5PWVg5cjA5VzI3dU1PRGU2eUgybERWVkVBcDdlR3VtUFJPUFRCT3F1Z2c1WWJoZ1BwWndLWDlTN25OREN3WjF0V3loZF9udzV0alhKekNCMlQ4OUhxRGZXazdpVkJjY3FWeEZrS3ppUWVpNQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "U.S. tech company Coupang Inc. named to 2026 Fortune Global 500™ for the first time - Coupang, Inc.",
+        "source": "Coupang, Inc.",
         "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMl94a2FyMXlEZzJsOFZQbmNiTzllTG1MVTNhVE51YVNqVm9Vc2ZaanZNeWgtUkNnbHFZdS1wdk5WNEZiSG45ZEgyS2ZoZlZ0UHhVdkhVMEpFREVUSzFxTnZJQUppY2M2c3hWUFYyRjRESFpfMWJHdEFlZTBCMkktVWV5N2hFVzNJUHZKcWNxYUlFOS1mOG1OeTlmMGlYbWU3dWdHRnFmS0lVRmpRNWFEbkxyRzhNSEtSVm90a0UwSU9aNFlzS01nbEZRTGJxS2Zseld0aE1rSUlBeXdvRS1WeG42QmF3dHotbFU4WDVRZkN0WFh3?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Delivering Vision 2030: How FedEx is supporting Saudi Arabia’s trade expansion - Arab News",
-        "source": "Arab News",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oVm83b3dCWVA5U0pvVUhqZlg5bnQ3YXc1bmNXZXdZblpuNmF3SmgxTFU2MkdwT202QUdjeWg2NWVFSW1qLTRZNHRMd0JnQnhLUWlR?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "买家物流市场"
   }
 }

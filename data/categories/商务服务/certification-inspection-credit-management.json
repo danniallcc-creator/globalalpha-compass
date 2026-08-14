@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service tutorial」增速 248%，搜索端「business service wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「India-UK trade pact takes effect,...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service aesthetic」增速 255%，搜索端「business service market 2026」热度上行，US Amazon BSR Top-12，USAFacts关注「What is the value of US trade with...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service tutorial」增速 248% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service aesthetic」增速 255% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "business service tutorial",
-        "growth": 248.5,
-        "vol": "729K",
+        "platform": "instagram",
+        "kw": "business service aesthetic",
+        "growth": 255.0,
+        "vol": "190K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "business service industry news",
-        "growth": 242.0,
-        "vol": "776K",
+        "kw": "business service breaking",
+        "growth": 243.5,
+        "vol": "474K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "business service unboxing",
-        "growth": 233.0,
-        "vol": "524K",
+        "kw": "business service top 10",
+        "growth": 230.5,
+        "vol": "135K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "business service market 2026",
+        "growth": 161.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 147.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "business service b2b export",
-        "growth": 104.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "India-UK trade pact takes effect, cutting tariffs and boosting services trade - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlJ1ZU9CSkNQTGhPSUpEeERMZUxib3J2MWFMVmhvdXhsQmU3Mm5VWkU1MkdhX2RMLWJ3WkVVSHlQdlNwdURpQ0pEWU4wN1Y4SGtZbXE5Nl9zVUNwcDRvLWNMR3p1UUVxTFl3T25CRXF0UHJaRUlYaWhuV3lfQkVqMUU5eGRTVXNzVkI3ZkNBM3ZkbmJEbGRMUXBZeHNEcTZiUkpFNFk1V3k3LXFJTTJRRGNndXM?oc=5",
+        "growth": 117.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "What is the value of US trade with China? - USAFacts",
         "source": "USAFacts",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3dyLVlkYnFEOTBzZmdFUkJpYXcxSUtGWVZiWlktOFRnemhVQVlJSkc5SHF0M1Q4SThwdXJhTE1KN1JjeTQyUHhjWXFUU2NsZ2hZeVlCdFp3Y2ZTcHpYSUxOdk9lTGdyb1oxVEx1UkFPWGZaTTJWN0NaWHlVcTJnQw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Turkey (TUR) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVVnUyeWswUFRXMkdXQmdTWUJJSGd5T0d1SmJ6b0gzNXJKQzYwWV9ncGFxQjVfbnJXUGQ1REdEX0pxOFg1ZHd0cWxTbEQ2bnhDVHc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "商务服务"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "帽子：海外社媒「apparel market 2026」增速 244%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，EU Today关注「Indian Clothing Group Shifts Export...」。",
+    "trend_summary": "帽子：海外社媒「apparel #trending」增速 250%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「US tariff puts Indian textile exporters...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 帽子 供应链合规升级",
       "欧盟 CE 标志强制准入 → 帽子 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 帽子 通关",
-      "海外社媒「apparel market 2026」增速 244% 领跑 → 帽子社媒种草热度爆发"
+      "海外社媒「apparel #trending」增速 250% 领跑 → 帽子社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "apparel market 2026",
-        "growth": 244.5,
-        "vol": "577K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "apparel review 2026",
-        "growth": 243.5,
-        "vol": "654K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "clothing viral",
-        "growth": 239.5,
-        "vol": "308K",
+        "kw": "apparel #trending",
+        "growth": 249.5,
+        "vol": "290K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "apparel market 2026",
-        "growth": 241.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "apparel breaking",
+        "growth": 248.5,
+        "vol": "160K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "clothing tiktok made me buy",
+        "growth": 233.5,
+        "vol": "370K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fashion b2b export",
-        "growth": 203.0,
+        "growth": 95.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "apparel fashion digital transformation",
+        "growth": 87,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Indian Clothing Group Shifts Export Growth Towards Europe as US Share Falls - EU Today",
-        "source": "EU Today",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YYXpvckJiVEplSDZKLVRFanMwTXFMSm5Pb2Flc2hjTDFTY2xvczI0VDRha1dwcURXdlVNSXZObkxoeUxZU1IwZXdiVzhnZlJ4ZEpHN0RqLVQwd2VtWWFVT0hsMU5PQXRLb2RQbi1CTzlld1Jib3M5Mw?oc=5",
+        "title": "US tariff puts Indian textile exporters at disadvantage, industry body says - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON05Fd3Rsb1BOcjhnREFFanE2b1dadGFWYlpScGpwR3lJNXJMTWpaMkloQ1lqelBwUlZ0R2ZwUU9HcWhMcU41UnlqM3pMdjFXR3VlMUZ0VzVuV2lrSkVZd1diU3F6RURKZEJQaXVRUzExb0ExMk1acG5SRmxHVmVXVTFCcVRkNUp3SE8zbGNReHFsbVhVNG9aN09SNUc1Ymg1WEdfb1FkZWFERW9nLTE0VnB0dm5VRlNVdm9r?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China: share of global clothing exports 2025 - Statista",
-        "source": "Statista",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN0ZHWHM2eFZkZmx3RzZpdzFLN2pjMks2NFpvel9aRXlVM041OUk3cTVqZVJSZ25VWFdVWWhWZW5PdEMyQ29VZHpLNzFDVXRCb1VETnZIQWJ5ZXBfWFZGNGMwMmx2NndMYko1YmpzbUd6TjhYYVRjc0VMbGtqY2FqcEJrSkdjVkhNMWJV?oc=5",
+        "title": "FedEx Helps Drive a 14% Increase in Colombian Fashion Exports to International Markets - FedEx newsroom",
+        "source": "FedEx newsroom",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV0Z6c3Vua3JIbjRTNTBjVUM5S2hEVldfTG9IVFlQS0JJTk81R3lrY1I0NElYOUJ5dHNEUWJJMDBETm9kdzBiZEN1RTh4anJWTFA0TlkzY29KQzVGaFJyZnE3eVZSeGNjVS1TdERiZnVUOXdmN0Z4MW9STVlaM0Q0dUhiWnpRc0IzbGJENmlzQ2w3c1dSREx4T0xJeDNUY2N1NnV2b24yZGxZR2tWNEpiemJzNWtYUWxtRkFvS3ZyX3BzU1Uyajd3akNGblA3enJxcTNSa2FURFUzUVk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "服装及配饰"
   }
 }

@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "53",
-    "total_export_value_usd": 15602028,
-    "total_net_weight_kg": 15102028,
+    "total_export_value_usd": 4583682,
+    "total_net_weight_kg": 14083682,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-13"
+    "fetched_at": "2026-08-14"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 76,
+      "interest_score": 82,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-13"
+      "fetched_at": "2026-08-14"
     }
   },
   "industry_analysis": {
@@ -52,22 +52,92 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 3620372476.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
+      "total_usd": 44593208709,
+      "total_kg": 1693208709,
+      "yoy_growth": 19,
+      "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 13203601.0,
-        "yoy": null,
-        "share": 100.0
+        "value_usd": 6243049219,
+        "yoy": 17,
+        "share": 14.0
+      },
+      "DE": {
+        "value_usd": 6020083175,
+        "yoy": 2,
+        "share": 13.5
+      },
+      "JP": {
+        "value_usd": 5841710340,
+        "yoy": 7,
+        "share": 13.1
+      },
+      "GB": {
+        "value_usd": 5618744297,
+        "yoy": -5,
+        "share": 12.6
+      },
+      "KR": {
+        "value_usd": 5440371462,
+        "yoy": -19,
+        "share": 12.2
+      },
+      "AU": {
+        "value_usd": 5261998627,
+        "yoy": -13,
+        "share": 11.8
+      },
+      "IN": {
+        "value_usd": 5039032584,
+        "yoy": 38,
+        "share": 11.3
+      },
+      "BR": {
+        "value_usd": 4816066540,
+        "yoy": 31,
+        "share": 10.8
+      },
+      "SA": {
+        "value_usd": 312152460,
+        "yoy": -2,
+        "share": 0.6999999999999922
+      },
+      "FR": {
+        "value_usd": 0,
+        "yoy": 27,
+        "share": 0.1
+      },
+      "IT": {
+        "value_usd": 0,
+        "yoy": 22,
+        "share": 0.1
+      },
+      "NL": {
+        "value_usd": 0,
+        "yoy": 38,
+        "share": 0.1
+      },
+      "CA": {
+        "value_usd": 0,
+        "yoy": -12,
+        "share": 0.1
+      },
+      "MX": {
+        "value_usd": 0,
+        "yoy": 22,
+        "share": 0.1
+      },
+      "VN": {
+        "value_usd": 0,
+        "yoy": 20,
+        "share": 0.1
       }
     }
   }

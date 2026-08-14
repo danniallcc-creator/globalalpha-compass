@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "墙纸/墙板：海外社媒「building analyst」增速 244%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，newsfromthestates.com关注「Why the stakes are high for Missouri in...」。",
+    "trend_summary": "墙纸/墙板：海外社媒「cement trending now」增速 250%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Plastic Building Materials (HS: 3925)...」。",
     "product_profile": {
       "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
       "成分": "再生纸浆 / 大豆油墨 / 水性光油",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 墙纸/墙板 出口需通过合规认证",
-      "海外社媒「building analyst」增速 244% 领跑 → 墙纸/墙板社媒种草热度爆发"
+      "海外社媒「cement trending now」增速 250% 领跑 → 墙纸/墙板社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building analyst",
-        "growth": 243.5,
-        "vol": "94K",
+        "platform": "tiktok",
+        "kw": "cement trending now",
+        "growth": 250.0,
+        "vol": "184K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "cement price trend",
-        "growth": 237.0,
-        "vol": "567K",
+        "kw": "building market 2026",
+        "growth": 242.5,
+        "vol": "497K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cement unboxing",
-        "growth": 237.0,
-        "vol": "513K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 216.0,
+        "platform": "instagram",
+        "kw": "cement must have",
+        "growth": 238.0,
+        "vol": "294K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 129.5,
+        "growth": 239.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - newsfromthestates.com",
-        "source": "newsfromthestates.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3NGRVo1VjczMXBTaW1tUlFiN0IyZUdNNlIzbUhubzNDaTBqcWJPU2dERXlaY1hVUjZUSkRZaEx1SEJ1cnIzLTI0SWlmWWdpc2ZmRUxlcFR0eDY2dWFyV29yRlNaczl6bHZZN0FIXzRSNU5iY1pLYkVtRE1tOEgtWXdRWExOcUk2aEZ0YVNPZTZQcnNJTGZj?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cement b2b export",
+        "growth": 187.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Plastic Building Materials (HS: 3925) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yVG91c016M08yTnVHVlZ6M0FaX1NueGtydE9weGZvbEpMVUl6emhBdWRsVFFlSnpzcmtvOVZ0bGdBYUVpeHRzcEZJRERuaF9hc1lzRms5QWZuNW4yc19pQTU1dDIzYjhkN1E?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "From grain to drones, the Ukraine-Turkey free trade agreement marks a milestone in bilateral cooperation - Atlantic Council",
+        "source": "Atlantic Council",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ1NfSWNtMndkUTdmellaaVlQUS1pb3ZNQkRoSGxINVVTWVBXdVlaQnRiZzFLM0xPcFZ2T1dvbm1uRXNqUUVlZ1lsWU5nMDlSaG04R1d4clVrRzlMUDJtVXFfN1h6SWx0VS05cXY4QkxyWGNwbDgxMGJ2RjUwdHFFMXJKOWlaWlJQbVhXaGRTRmU?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "packaging_printing",
-    "generated_at": "2026-08-13",
+    "generated_at": "2026-08-14",
     "l1_ref": "建材与房地产"
   }
 }
