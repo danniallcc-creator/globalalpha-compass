@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "卫生用品：海外社媒「baby market 2026」增速 256%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，Daily Pioneer关注「India's Toy Industry Set to Capture 4%...」。",
+    "trend_summary": "卫生用品：海外社媒「toys market alert」增速 240%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，scanx.trade关注「K. V. Toys India Q1 Results: Total...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 卫生用品 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 卫生用品 采购偏好",
-      "海外社媒「baby market 2026」增速 256% 领跑 → 卫生用品社媒种草热度爆发"
+      "海外社媒「toys market alert」增速 240% 领跑 → 卫生用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "baby market 2026",
-        "growth": 256.5,
-        "vol": "332K",
+        "platform": "x",
+        "kw": "toys market alert",
+        "growth": 240.0,
+        "vol": "168K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "toys b2b export",
-        "growth": 250.0,
-        "vol": "167K",
+        "kw": "toys industry report",
+        "growth": 238.5,
+        "vol": "638K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "infant tutorial",
-        "growth": 233.5,
-        "vol": "560K",
+        "platform": "tiktok",
+        "kw": "toys viral hack",
+        "growth": 238.0,
+        "vol": "455K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "baby market 2026",
-        "growth": 253.5,
+        "growth": 163.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "toys b2b export",
-        "growth": 247.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "India's Toy Industry Set to Capture 4% of Global Market by 2047: DPIIT Playbook - Daily Pioneer",
-        "source": "Daily Pioneer",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS09oWUhNWHdBSXR0Z216Y2V2ZUJ0d3ZCS2hZOGVVazl3VVVqNlVyS2YzelZpbVBfUjhxbVJqc2hBNkFFaUwwSk1pVkctcDNibldLRV92N1dDQ0N6WXk2WFRPYmlqZkFsTTZITlRyeFl0eFZlYzFtLUlzT1pqeXpoTUVWenZSQTBtdFAxZVplWllDNVhWR3RRd0tGaTJfZUpwZ201T2pEYWk?oc=5",
+        "kw": "infant wholesale supplier",
+        "growth": 151.5,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "K. V. Toys India Q1 Results: Total income rises 23% YoY - scanx.trade",
         "source": "scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzBaQlc5bFpvcU1iQll1Z3dwS3drclFKZFRhTVBsRFNwdzYweGY4YzJZV3BZUHBwd05zNURIVk1FWEEybHZhXzB0NFpqQUkzVldKc1hGRWhHc0NobU5odVAyem4tV3pURHp3cVpUT3ptY0tRcFBGekpSQ29aUG12NXBBaTRSb0pZOUZHanBOZWRIN0ZuRXA5SDJ2elFtT0NEcEkwWlg3aXhnRGNv?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Stuffed Animal and Plush Toys Market Size, Share, Report, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanpuZ0dJQTFWVnh3NnVUa2lEMHprMFJxTlpwVG5pbW5zNDV6QzJQd2ZGQ29xTEd5UmpITmZoVXdObVFsSkY4bUFZS1FvZDhMQThJcmgyQUp4b0NRdkZMaGJNbkJ2U3MtbWJhTHJqUGhnZHg5SmcyTWtxV3hWbjU0M1Z3ajYxN29QX3lZ?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "母婴&玩具"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手机及电脑维修零部件：海外社媒「smartphone new arrival」增速 248%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「China’s New Export Engine: Supplying...」。",
+    "trend_summary": "手机及电脑维修零部件：海外社媒「smartphone unboxing」增速 248%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「China’s New Export Engine: Supplying...」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,45 +50,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 手机及电脑维修零部件 成主流",
       "欧盟 CE 标志强制准入 → 手机及电脑维修零部件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 手机及电脑维修零部件 合规刚需",
-      "海外社媒「smartphone new arrival」增速 248% 领跑 → 手机及电脑维修零部件社媒种草热度爆发"
+      "海外社媒「smartphone unboxing」增速 248% 领跑 → 手机及电脑维修零部件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "smartphone unboxing",
+        "growth": 248.0,
+        "vol": "335K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "smartphone new arrival",
-        "growth": 248.5,
-        "vol": "17K",
+        "kw": "smartphone aesthetic",
+        "growth": 231.0,
+        "vol": "770K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "smartphone unboxing",
-        "growth": 246.0,
-        "vol": "522K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "consumer electronics market 2026",
-        "growth": 239.5,
-        "vol": "637K",
+        "kw": "earbuds tutorial",
+        "growth": 219.5,
+        "vol": "341K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 236.5,
+        "growth": 160.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "earbuds wholesale supplier",
-        "growth": 169.5,
+        "growth": 118.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Inside China’s two-speed economy: Why goods consumption is slumping even as exports and services boom - Fortune",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdERjWHdYQTlXdTUwbnQ3eDlLOW9Ga0RMbERFbkRUTGFrV1Q1U2J3MVhPSDZXZkdjYnBPM2U0R1JwWkM0U1B6S3JQeVBOdDVEVENmLW1xVnU4SnItem9VMEZhNHh3bkVfTWhuWVBxa3NaREZZTHJpSExpVUpoTE5kLWc5cVNQNnEzeHpWZFNJdllQM2gtaHlPSGI5amE?oc=5",
+        "title": "China Shock 2.0 reshuffles winners and losers - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTXR3RXlZNHd2NTJJX0xtb0lvSE9wU1lLOVZmbmJqZXhJSjE2aG9CcjVOVlFLUlVmZHk4RVdjbm5PNk1WSGJGLUN6V2N3cVZWWUtnS1J1ak5pN3U0b3A0SXJ3U1lvQnFtRlJEcnRzcGJCYlNQeFNmX0x6ZzlnXzE1MGcxTDJUbF9VZlBJNHhNNllPdmFJM1BvRlRieVRFZE1mVUNNLXZlcGt4YWlXMVdfd0MyT21PeDRVMnA1UG00N1BwaUphcVhPZHdR?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "消费电子"
   }
 }

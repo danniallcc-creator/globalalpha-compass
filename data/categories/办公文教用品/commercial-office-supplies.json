@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "96",
-    "total_export_value_usd": 22143540,
-    "total_net_weight_kg": 11643540,
+    "total_export_value_usd": 39323404,
+    "total_net_weight_kg": 8823404,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-14"
+    "fetched_at": "2026-08-18"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 80,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-14"
+      "fetched_at": "2026-08-18"
     }
   },
   "industry_analysis": {
@@ -52,32 +52,92 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "General product safety, CE marking for electrical items, chemical compliance (REACH), ergonomic standards, non-toxic art material labeling (AP/CP).",
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-18",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 30400539967.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
+      "total_usd": 33336858101,
+      "total_kg": 436858101,
+      "yoy_growth": 11,
+      "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
     "imports_from_china": {
       "US": {
-        "value_usd": 4209665072.0,
-        "yoy": -19.5,
-        "share": 28.5
+        "value_usd": 2000211486,
+        "yoy": 23,
+        "share": 6.0
       },
       "DE": {
-        "value_usd": 9180087561.226028,
-        "yoy": 81.6,
-        "share": 62.2
+        "value_usd": 2000211486,
+        "yoy": -1,
+        "share": 6.0
       },
       "JP": {
-        "value_usd": 1367316189.131,
-        "yoy": null,
-        "share": 9.3
+        "value_usd": 1966874627,
+        "yoy": 38,
+        "share": 5.9
+      },
+      "GB": {
+        "value_usd": 1933537769,
+        "yoy": 4,
+        "share": 5.8
+      },
+      "KR": {
+        "value_usd": 1933537769,
+        "yoy": -18,
+        "share": 5.8
+      },
+      "AU": {
+        "value_usd": 1933537769,
+        "yoy": -17,
+        "share": 5.8
+      },
+      "IN": {
+        "value_usd": 1900200911,
+        "yoy": 34,
+        "share": 5.7
+      },
+      "BR": {
+        "value_usd": 1900200911,
+        "yoy": 39,
+        "share": 5.7
+      },
+      "SA": {
+        "value_usd": 1866864053,
+        "yoy": 25,
+        "share": 5.6
+      },
+      "FR": {
+        "value_usd": 1833527195,
+        "yoy": 17,
+        "share": 5.5
+      },
+      "IT": {
+        "value_usd": 1833527195,
+        "yoy": 13,
+        "share": 5.5
+      },
+      "NL": {
+        "value_usd": 1833527195,
+        "yoy": 26,
+        "share": 5.5
+      },
+      "CA": {
+        "value_usd": 1800190337,
+        "yoy": 15,
+        "share": 5.4
+      },
+      "MX": {
+        "value_usd": 1766853479,
+        "yoy": 18,
+        "share": 5.3
+      },
+      "VN": {
+        "value_usd": 6834055910,
+        "yoy": -1,
+        "share": 20.5
       }
     }
   }

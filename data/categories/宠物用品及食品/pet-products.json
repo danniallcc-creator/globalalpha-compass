@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet #trending」增速 242%，搜索端「pet products supply chain resilience」热度上行，UK Amazon BSR Top-49，PetfoodIndustry关注「Infographic: Japan leads Asia’s top 10...」。",
+    "trend_summary": "宠物用品：海外社媒「pet market 2026」增速 250%，搜索端「pet products digital transformation」热度上行，UK Amazon BSR Top-15，PetfoodIndustry关注「Infographic: Japan leads Asia’s top 10...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet #trending」增速 242% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet market 2026」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet #trending",
-        "growth": 241.5,
-        "vol": "104K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 219.0,
-        "vol": "720K",
+        "kw": "pet market 2026",
+        "growth": 250.5,
+        "vol": "34K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 217.0,
-        "vol": "613K",
+        "platform": "tiktok",
+        "kw": "pet must try",
+        "growth": 245.5,
+        "vol": "87K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 81,
-        "hits": 2
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 240.0,
+        "vol": "702K",
+        "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 80,
+        "growth": 93,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products export opportunity emerging markets",
+        "growth": 83,
         "hits": 2
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "USDA: New Zealand’s improving economy offers opportunity for pet food exports - petfoodprocessing.net",
-        "source": "petfoodprocessing.net",
+        "title": "USDA: New Zealand’s improving economy offers opportunity for pet food exports - Pet Food Processing",
+        "source": "Pet Food Processing",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3BEMDdEbER6RmduTUxyV2xUNjJhZHQ5Z0RUVmN5UlM2WUVVLTFWNVVObUxFbVJCRkR0bUhXRWliQ1AwU3dic2JwT2VyazNJTXctcHpBRWRwTGxMRlRoNjBETzNZdTNsTHAwOUFyZ01aQ2UxMnp0VVBIdzNHQWphbDlnZFN6VWhFQUpzeG5lUVdJajNfRmdaMjFaWFZKaTVtMFJsY0EtMXFJWjVmSDVPSjJsUU5ZMi1JV3RFakNrTTJCQQ?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 49,
+        "rank": 15,
         "title": "Top pet food - Smart Edition",
-        "price": "$251.1",
-        "rating": 4.9,
+        "price": "$105.1",
+        "rating": 4.1,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 40,
+        "rank": 14,
         "title": "Top pet - Premium Edition",
-        "price": "$274.0",
-        "rating": 4.1,
+        "price": "$182.0",
+        "rating": 4.3,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "宠物用品及食品"
   }
 }

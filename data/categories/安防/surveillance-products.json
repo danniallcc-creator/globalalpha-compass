@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "监控器材：海外社媒「security camera supply chain」增速 254%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Automotive News关注「Guest commentary: I’ve spent my career...」。",
+    "trend_summary": "监控器材：海外社媒「security camera top 10」增速 250%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Market Research Future关注「Home Security Camera Market Size, Share...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 监控器材 出口需通过合规认证",
-      "海外社媒「security camera supply chain」增速 254% 领跑 → 监控器材社媒种草热度爆发"
+      "海外社媒「security camera top 10」增速 250% 领跑 → 监控器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "security camera supply chain",
-        "growth": 253.5,
-        "vol": "39K",
+        "platform": "youtube",
+        "kw": "security camera top 10",
+        "growth": 250.5,
+        "vol": "596K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "security camera tiktok made me buy",
-        "growth": 235.5,
-        "vol": "368K",
+        "platform": "youtube",
+        "kw": "security camera tutorial",
+        "growth": 245.5,
+        "vol": "22K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cctv viral hack",
-        "growth": 229.0,
-        "vol": "47K",
+        "platform": "google",
+        "kw": "cctv b2b export",
+        "growth": 234.0,
+        "vol": "209K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cctv b2b export",
-        "growth": 216.0,
+        "growth": 231.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "security camera market 2026",
-        "growth": 124.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Guest commentary: I’ve spent my career defending import brands. Here’s why I’m fighting to keep Chinese autos out - Automotive News",
-        "source": "Automotive News",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMlc0Y1Flb2trZEwwWXVWaFh4WEt2V2hzNnpLRjE0ZFV3NnNKVk9JcVhvcDA0Vk9qUXNFbzl3NmtHeHpsN0l2bExsRnYwNVdaNXB4a0FOcTVmbjFUZDRpMUc0Y3JrUmtkU0JpNkQwRE03Z0hna3FGZHZadDNNZEV0S1NvSDFTNXkzQmVzazRpYjd0YUdmUTh6VkR5OA?oc=5",
+        "growth": 145.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Home Security Camera Market Size, Share & Growth Report | MRFR - Market Research Future",
         "source": "Market Research Future",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb1V3UDJBMVMzOWRtaHRJemRScUIwZ2tiaGVxbW16SDU1MXdrc3ZQVGlJdEFybjl6SDZscE5qNnYtM1hQVEJkWk95amdfN0xWdkJCaVp2eGxsaTNhTTQ2Y1pFa0xvX2Z4dmp5TERTN0JJOVByazI1SmM5amw5YU5VYjZpTQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China Hits Back at FCC's Escalating Restrictions - Geopolitechs",
+        "source": "Geopolitechs",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12S0Y0OUxLenF3Q2ljOS1IMk9hWmowVHlDczBVSjl2dFB5dmltZXE3dG1pMWdUdWo2ejRYcmV0UEdGRE1Qcks2TFVEbHFDWDlQNE5XNFJNc0xKTHhJcGNxaUNoSmFwWFpuaU5rYnZIcllBQVA3eTBJZA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "安防"
   }
 }

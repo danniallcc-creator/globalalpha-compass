@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "饮料：海外社媒「beverage viral hack」增速 242%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Asia Food Beverages关注「Global Frozen Fries Market Undergoing...」。",
+    "trend_summary": "饮料：海外社媒「beverage market alert」增速 239%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Coalition For A Prosperous America关注「Food Security Is Fertilizer Security -...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 饮料 出口需通过合规认证",
       "美国 FDA 注册要求 → 饮料 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 饮料 北美本地化制造红利",
-      "海外社媒「beverage viral hack」增速 242% 领跑 → 饮料社媒种草热度爆发"
+      "海外社媒「beverage market alert」增速 239% 领跑 → 饮料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "beverage viral hack",
-        "growth": 242.0,
-        "vol": "497K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "food #trending",
-        "growth": 230.5,
-        "vol": "423K",
+        "platform": "x",
+        "kw": "beverage market alert",
+        "growth": 239.0,
+        "vol": "458K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "beverage aesthetic",
-        "growth": 230.0,
-        "vol": "542K",
+        "growth": 234.0,
+        "vol": "291K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 122.5,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "food market 2026",
+        "growth": 229.5,
+        "vol": "347K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 119.5,
+        "growth": 226.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Global Frozen Fries Market Undergoing Structural Transformation - Asia Food Beverages",
-        "source": "Asia Food Beverages",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNjdzSC1rTHJrX0NyUWdXRnlEVVd1SkFiTUk4N045REdTNjlWZTBFWS1VZVhaTjhOaG1RelBRSXFyZTR0X2hFWC1FSTR3UUs2eElIdGtDUHRCRTZHZEZMQWY0cDBsUXdzbFd3bGhQaDlRdm5TVG5KMVFpVjA5NzEtTjMweDgwbVhKeDNxaV9Ka1dOYXdzelg2UHh3?oc=5",
-        "hits": 2
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 222.5,
+        "hits": 0
       },
       {
         "dim": "媒体",
         "title": "Food Security Is Fertilizer Security - Coalition For A Prosperous America",
         "source": "Coalition For A Prosperous America",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94Z0tzV2VBZU0zbk1qSjlTdDJvVDlSbkE3cHBIdnkxMVoxLXZ6N2Z5QURKWmY2Nk9keWh4dG1Ta2pFenkwbVE2RlFNZXdPNUhlY3o4dXk0SzZNaVhuQ3lzQkFtREY0Qjd6a0k0YUN3NHNwTGZ3cEE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The Sweet Route: Unlocking China’s Food Market via Hong Kong - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZW8wYV9kMUdfd2dOYUZHZThWUmFIb0hhVkRvY2NQRUctcG1JOFpzc1JraGFCWlBOZmdTU2F5eXhJRW1DNGU1SHFoOHdkbzRsOU05T005SnZvSUVfM3BTbzhoRGdhSXBFa05vRGQwRFB4blgxaEtZUzhSeEdNMEU0WVpuV3dMN3FQbGlnbzVVR2FsSVNHTTFpUWt4eUk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "食品及饮料"
   }
 }

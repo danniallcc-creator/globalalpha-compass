@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "合金钢：海外社媒「metal trending now」增速 249%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，Statista关注「Topic: Steel and metal import trading...」。",
+    "trend_summary": "合金钢：海外社媒「metal #fyp」增速 250%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，indexbox.io关注「Northern America Dental Alloys - Market...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 合金钢 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 合金钢 成主流",
       "欧盟 CE 标志强制准入 → 合金钢 出口需通过合规认证",
-      "海外社媒「metal trending now」增速 249% 领跑 → 合金钢社媒种草热度爆发"
+      "海外社媒「metal #fyp」增速 250% 领跑 → 合金钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "metal trending now",
-        "growth": 249.0,
-        "vol": "375K",
+        "kw": "metal #fyp",
+        "growth": 250.5,
+        "vol": "141K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "metal market 2026",
-        "growth": 246.5,
-        "vol": "354K",
+        "kw": "steel industry report",
+        "growth": 247.5,
+        "vol": "636K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "metal #trending",
-        "growth": 246.5,
-        "vol": "297K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "metal market 2026",
-        "growth": 243.5,
+        "platform": "youtube",
+        "kw": "steel top 10",
+        "growth": 236.5,
+        "vol": "650K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "steel b2b export",
-        "growth": 190.0,
+        "growth": 208.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "aluminum wholesale supplier",
+        "growth": 114.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Northern America Dental Alloys - Market Analysis, Forecast, Size, Trends and Insights - indexbox.io",
+        "source": "indexbox.io",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0Y0RHB3ZXdMQ3RmWlBxTWpxMEJqRmtEVEpMeHR0V2hWNVJhXzY4MkxkOVJtSFBhd2I5LXFTQ3ZtOWdvZEhISC1MUmpMblFLOUxMOFhVMmRfbk1tZUp6UjNCLXUtaWlQTlIyaDByWmJWSmpMdEtkTF9BY3liRGlSeThDdWRHWEFVX2tlb3FuQzcycGppdTlNTXRZZHFocXd0QXQxTDl3R3NuV1M0eWEyaA?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Topic: Steel and metal import trading in the UK - Statista",
         "source": "Statista",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0VTczQzNmJscnN5SkY5Sm4zanZfcWU2UTIzS0hyZEVUanVtZndjZ1Jxb1IyaVBualFqbUZ5OUVzWUEybjhRN0ItTlh2aUl4X3pjeERLSE4xWnEtb2ZPMXZIVi1TaEF5ekVrOGlNLUctdnlDSW1YVGFETGtNbFdGSmxVN0U?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Steel Wire (HS: 7229) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZbmxRaHRaSEZQaFFIY0dvZERhNFdGd3hLSlNacDZoMEtjMkZWajFOUlZlQzhKcVlsZXEtcnVyeE5jZjV6MUplaXlJUERmbko4SHBnVw?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "金属与合金"
   }
 }

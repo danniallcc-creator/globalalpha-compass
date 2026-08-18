@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 42,
-      "trend_direction": "down",
+      "interest_score": 65,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-14"
+      "fetched_at": "2026-08-18"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-18",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing #trending」增速 250%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Northeastern Global News关注「Why is the US buying Japanese yen?...」。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing wholesale supplier」增速 240%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，EU Today关注「Indian Clothing Group Shifts Export...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
-      "海外社媒「sourcing #trending」增速 250% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing wholesale supplier」增速 240% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sourcing #trending",
-        "growth": 250.5,
-        "vol": "350K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "sourcing review 2026",
-        "growth": 215.5,
-        "vol": "190K",
+        "platform": "google",
+        "kw": "sourcing wholesale supplier",
+        "growth": 239.5,
+        "vol": "502K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "sourcing wholesale supplier",
-        "growth": 195.5,
-        "vol": "728K",
+        "kw": "procurement price trend",
+        "growth": 238.0,
+        "vol": "195K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "procurement factory tour",
+        "growth": 231.0,
+        "vol": "347K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing wholesale supplier",
-        "growth": 192.5,
+        "growth": 236.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 170.5,
+        "kw": "procurement b2b export",
+        "growth": 184.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Why is the US buying Japanese yen? Experts explain the rare move - Northeastern Global News",
-        "source": "Northeastern Global News",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VU011Qko5SGRJeDh6THVuZGtxS0JfdGc3ek9uUFAzbDF3M1Rzb1FVRFZzcUZPd2EwbVlRQUxxU0t4VmtpQmlWUTlxRVFTSi1MSTdkYlBuT2VXYXNGaEhxcUxEeFdrODV1blE?oc=5",
+        "title": "Indian Clothing Group Shifts Export Growth Towards Europe as US Share Falls - EU Today",
+        "source": "EU Today",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YYXpvckJiVEplSDZKLVRFanMwTXFMSm5Pb2Flc2hjTDFTY2xvczI0VDRha1dwcURXdlVNSXZObkxoeUxZU1IwZXdiVzhnZlJ4ZEpHN0RqLVQwd2VtWWFVT0hsMU5PQXRLb2RQbi1CTzlld1Jib3M5Mw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Chinese e-commerce giant JD.com opens buying office in Korea - The Korea Times",
-        "source": "The Korea Times",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmV0Z0hDUnktN1hjOU9ybVNzM2VFRnFJLXF3V09vTEFXMHFWd19lcTFyd1lkMXA4OU9xbWhGOUZMYl9zZlp4VmV1bnM2aEY0LWp6dUpPV1ZxRUNzMnhOckYzRmZoaWxQUzhyS0lHUHlmRl8tNnd5QV9DLU1NNVFyM1ZnMmh4SGdnRk45ZGIxZG5QaXNZaDNtNU81SW9BZnQ0NHQ0SzRsZDNGVVB4a0ZSVTJn0gGyAUFVX3lxTE9uZXRnSENSeS03WGM5T3JtU3MzZUVGcUktcXdXT29MQVcwcVZ3X2VxMXJ3WWQxcDg5T3FtaEY5RkxiX3NmWnhWZXVuczZoRjQtanp1Sk9XVnFFQ3MyeE5yRjNGZmhpbFBTOHJLSUdQeWZGXy02d3lBX0MtTU01UXIzVmcyaHhIZ2dGTjlkYjFkblBpc1loM201TzVJb0FmdDQ0dDRLNGxkM0ZVUHhrRlJVMmc?oc=5",
+        "title": "Oil Market Report - August 2026 – Analysis - IEA – International Energy Agency",
+        "source": "IEA – International Energy Agency",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xTXNaRlk1XzJkUnJ0c2U0bnZZSDhLRWZzaFNSNk9iQXVfQWRfME1SZXFCZ1RNckpBQUYwbGdKdFFjQTRESHpROGRZRkQyMndXSW95NS1QS2V1VDZqRFVUR2N1WTkwajBt?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-18",
     "l1_ref": "代理采购"
   }
 }
