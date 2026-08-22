@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 26383464,
-    "total_net_weight_kg": 15883464,
+    "total_export_value_usd": 39017883,
+    "total_net_weight_kg": 8517883,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-18"
+    "fetched_at": "2026-08-22"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 97,
-      "trend_direction": "up",
+      "interest_score": 42,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-22"
     }
   },
   "industry_analysis": {
@@ -52,42 +52,15 @@
     "opportunity": "Sustainable and smart packaging solutions. Active and intelligent packaging. E-commerce optimized packaging design. Personalized and digital printing on packaging."
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-22",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": {
-      "total_usd": 109333652380.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
-      "US": {
-        "value_usd": 10631911382.0,
-        "yoy": -27.0,
-        "share": 12.7
-      },
-      "DE": {
-        "value_usd": 37197415721.436035,
-        "yoy": 68.4,
-        "share": 44.5
-      },
       "JP": {
         "value_usd": 5527161124.805,
         "yoy": null,
-        "share": 6.6
-      },
-      "GB": {
-        "value_usd": 24126938051.51105,
-        "yoy": null,
-        "share": 28.8
-      },
-      "KR": {
-        "value_usd": 6196586926.0,
-        "yoy": -2.9,
-        "share": 7.4
+        "share": 100.0
       }
     }
   }

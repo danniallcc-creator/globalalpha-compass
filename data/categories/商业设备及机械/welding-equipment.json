@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "焊接设备：海外社媒「commercial equipment price trend」增速 242%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico’s Computer Equipment Exports...」。",
+    "trend_summary": "焊接设备：海外社媒「commercial equipment industry news」增速 250%，搜索端「commercial equipment wholesale supplier」热度上行，US Amazon BSR Top-12，Successful Farming关注「U.S. Ag Exports ‘On the Right Track,’...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 焊接设备 出口需通过合规认证",
-      "海外社媒「commercial equipment price trend」增速 242% 领跑 → 焊接设备社媒种草热度爆发"
+      "海外社媒「commercial equipment industry news」增速 250% 领跑 → 焊接设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "commercial equipment industry news",
+        "growth": 250.0,
+        "vol": "772K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "commercial equipment tiktok made me buy",
+        "growth": 242.5,
+        "vol": "297K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "commercial equipment price trend",
-        "growth": 242.0,
-        "vol": "512K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "commercial equipment viral hack",
-        "growth": 239.0,
-        "vol": "158K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "commercial equipment trending now",
-        "growth": 237.0,
-        "vol": "174K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "commercial equipment b2b export",
-        "growth": 120.0,
+        "kw": "commercial equipment industry report",
+        "growth": 232.5,
+        "vol": "574K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment wholesale supplier",
-        "growth": 114.5,
+        "growth": 199.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment market 2026",
+        "growth": 143.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Mexico’s Computer Equipment Exports Surge 172% as AI Demand Grows - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHpXM3N1dVVDbWxwbzgxV0JxVzN6Y1JuRkxYTDdBQVB6MFd4M3Y4a0lnMnVaT1lENXF0dE51ZDdTYVJ3MUx3N2JsemhLY05YelpuYmhtYmx1YjhnSDd1SEM1cmRVa2Q0a3JIWEdmZ0ZvSnR2NDF2eWRfZVJJeDlJVEE3eWZ1SGRBa2dnOXJXODhfTnBxVHMyVVZQcVAxaGs?oc=5",
+        "title": "U.S. Ag Exports ‘On the Right Track,’ Trade Rep Says, but Farmers Still Wary - Successful Farming",
+        "source": "Successful Farming",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMTl1WlVmaHhnNEctRjZzUnB4ZTlPOUl5N1doZGNub3FfcXJNb2NRbnphU19IUThBMzJReG92SlNFUmY0YnJqOXNkTVo3b0J3bVJaaExYaDJBM0ZodGtWVndicmV3TnhwVDczNFJseDhyV3ktaWpvQXlFR1p5LWVNUXBxcWJrYjRZcXNQUjUtSmtlVVVFLVhTSFBmMEcxVnBHUTA5R2dVZ05ySmJiZzJFTkcyUk5rTHFP?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "AEM Members: Gain Critical Insights Into Global Equipment Trade Trends - AEM | Association of Equipment Manufacturers",
-        "source": "AEM | Association of Equipment Manufacturers",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSzRLaVdlSU51THN4WmRXZGZac1hDeDJfVGZHSFlzbEc4dl9qOUZST0VnQjBQSXVRWi15MS11WHBkZnQxLVd1ejZYZ2xvYWhpU1N1cVlzNDBRR2dFdU1iQ3BnX2tXNTBxTWo1UTJvbVcya1k2LUZKcmZsMWtlODZ1ampycTJUdlRfaVlaNkZzRUdTZzdubVp5TlV3?oc=5",
+        "title": "Turkish exports to Africa top $13B on strong diplomatic, trade efforts - Daily Sabah",
+        "source": "Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSkhlZjJjSHp1cTRfblBscmpGSGduNU9tdDVYRHh2TTdwNnV4UnJGV2ZqLXlYMzlTQklZR1JTMl9EYTNkcFlKbHlMcDVacFVvSTFlSWVuNWZobVZjTjZLMGpLTzZWMVF0bmpLaHVWNlVzSktEUXVZc29VVG1SdTZVcWhjR3pITDF3U05RWExhTmhqN3JVU0lJV1FyQ2Q3VmFzY1RpcDFEN29Mam0wYzhjbTFLaUZOZGc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-08-18",
+    "generated_at": "2026-08-22",
     "l1_ref": "商业设备及机械"
   }
 }

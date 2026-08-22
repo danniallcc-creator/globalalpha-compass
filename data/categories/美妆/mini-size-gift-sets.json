@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "小样及套装：海外社媒「beauty #fyp」增速 254%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，매일경제关注「There is a possibility that Korea's...」。",
+    "trend_summary": "小样及套装：海外社媒「cosmetic new arrival」增速 250%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，The National Law Review关注「Five Distinguished Cosmetic Bag...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 小样及套装 出口需通过合规认证",
       "美国 FDA 注册要求 → 小样及套装 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 小样及套装 制造门槛",
-      "海外社媒「beauty #fyp」增速 254% 领跑 → 小样及套装社媒种草热度爆发"
+      "海外社媒「cosmetic new arrival」增速 250% 领跑 → 小样及套装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "cosmetic new arrival",
+        "growth": 249.5,
+        "vol": "244K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "skincare wholesale supplier",
+        "growth": 248.5,
+        "vol": "299K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "beauty #fyp",
-        "growth": 253.5,
-        "vol": "735K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty must have",
-        "growth": 251.0,
-        "vol": "21K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "beauty trending now",
-        "growth": 223.0,
-        "vol": "715K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 180.5,
+        "growth": 235.5,
+        "vol": "525K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "skincare wholesale supplier",
-        "growth": 138.5,
+        "growth": 245.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 139.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "There is a possibility that Korea's exports of basic makeup and cosmetics (export code HS3304) will - 매일경제",
-        "source": "매일경제",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ndmJ4STY4NUpmQVE3bk1iTGNpVmdKRGdyNWZ0VmtqWlhjbmVCSXBtQUVTUFVfcEVFTTNhYzBXa3ZXUVpsRHJYME5pbG50N0hiN0pj?oc=5",
+        "title": "Five Distinguished Cosmetic Bag Suppliers in China 2026: Empowering Global Beauty Brands with Premium Packaging - The National Law Review",
+        "source": "The National Law Review",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWmVMMk1GS2ZaZHZ0OFh6WFVYa25zZ0FGbzRhYS05eUdwM3J6SXpkUi1STHdZQVd5bW9nd3h2cHZqeXlNOFpoWVpfT1dTM1dMZGJMLU13dGw2dl9ON3dHN1ZPSUtpQVg1RjB2VjZZbEtRMjA5eHVTazAtdnVjdzViNFBFTWZWN19xSWNiazN0Unc0cXZ2MnJneHhYU0lGOVlvLU14QXJvNHVhZm1rSFRz?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "[Global K-life] ④ Why the world is en-glamored with Korean beauty - KOREA.net",
-        "source": "KOREA.net",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kUG9qcmN6TEN1U1pDN3NDUTdMUnc1c2oyRW5xeW1sSzhEUV9HNnpUVnhfaVhFR0wtVzVPVEpKQUlTYkd0clJvRlRHd3hIMTZtWWF2eXhMdkJxSm1kc2RIaWllckppN21ZM3hMcHJR?oc=5",
+        "title": "L'Oreal sales rise on haircare boom and 'lipstick effect' - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNmU2UTU1UTdFbXAwYzBQd3QzZXFxSEhna2JkdnlDa3RnV1ZLSWpXWFFWdFRKLXExM1VqUG45aHdLOTRia3hlbUNETGp5cEpzOEgtZFpiNjFBSXgwdXpsRmxQVEtyQy1ZVUk4Wl9DZGVaXzhxZDgtdnZ1QmEzYTdfM2lEOU9wdEdKZlg2b2xOeDN1YVBiUGJaakVvaU55SmVEYjFiakdfeGtzTXZa?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-08-18",
+    "generated_at": "2026-08-22",
     "l1_ref": "美妆"
   }
 }

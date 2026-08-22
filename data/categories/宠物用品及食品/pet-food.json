@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food must have」增速 240%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-14，PetfoodIndustry关注「Infographic: Japan leads Asia’s top 10...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food must have」增速 202%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-44，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food must have」增速 240% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food must have」增速 202% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "pet food must have",
-        "growth": 240.0,
-        "vol": "702K",
+        "growth": 202.0,
+        "vol": "537K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food trending now",
+        "growth": 202.0,
+        "vol": "593K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "pet food market alert",
-        "growth": 230.0,
-        "vol": "292K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 226.0,
-        "vol": "714K",
+        "growth": 201.0,
+        "vol": "610K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 93.0,
+        "growth": 193.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "pet market 2026",
-        "growth": 247.5,
+        "source": "Linkedin",
+        "kw": "pet products digital transformation",
+        "growth": 93,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "USDA: Singapore’s ‘thriving economy’ offers opportunities for US pet food trade - Pet Food Processing",
+        "source": "Pet Food Processing",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGVyTFVJNllWZy04emREalVHdUhXM1hRYlVxaWNHdU1kclF0ZFZUT0x0Tm5IQ2dFTy1sdkpQWlJoTWI4Q2pzYzhSRGxfMk5fRVJoSjBrejdKVS1Oekc3ZF8xaHlpVXVvVVYyLWpYNHprY2d0cmRSTHNrOGhRWVlNaVpEMlBTVlZMQ3p2REI4Wk5nY0FYQVhNaDlUNkdWM284X2NxejdKRFVOTHBSZGZnMksyTmtLdHpSc1QzVThSWDVDQQ?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "USDA: New Zealand’s improving economy offers opportunity for pet food exports - Pet Food Processing",
-        "source": "Pet Food Processing",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3BEMDdEbER6RmduTUxyV2xUNjJhZHQ5Z0RUVmN5UlM2WUVVLTFWNVVObUxFbVJCRkR0bUhXRWliQ1AwU3dic2JwT2VyazNJTXctcHpBRWRwTGxMRlRoNjBETzNZdTNsTHAwOUFyZ01aQ2UxMnp0VVBIdzNHQWphbDlnZFN6VWhFQUpzeG5lUVdJajNfRmdaMjFaWFZKaTVtMFJsY0EtMXFJWjVmSDVPSjJsUU5ZMi1JV3RFakNrTTJCQQ?oc=5",
-        "hits": 2
-      },
-      {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 14,
-        "title": "Top pet - Premium Edition",
-        "price": "$182.0",
-        "rating": 4.3,
+        "market": "JP",
+        "rank": 44,
+        "title": "Top pet - Eco Edition",
+        "price": "$78.4",
+        "rating": 4.2,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 11,
+        "rank": 24,
         "title": "Top pet - Compact Edition",
-        "price": "$113.8",
-        "rating": 4.0,
+        "price": "$128.8",
+        "rating": 4.1,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-18",
+    "generated_at": "2026-08-22",
     "l1_ref": "宠物用品及食品"
   }
 }

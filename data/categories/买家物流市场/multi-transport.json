@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 56,
-      "trend_direction": "stable",
+      "interest_score": 46,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-18"
+      "fetched_at": "2026-08-22"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-22",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「logistics factory tour」增速 250%，搜索端「shipping wholesale supplier」热度上行，US Amazon BSR Top-12，China-US Focus关注「China’s Economy Presses Forward Despite...」。",
+    "trend_summary": "多式联运：海外社媒「freight market alert」增速 251%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，FreightWaves关注「Driver shortages, booming exports...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,45 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「logistics factory tour」增速 250% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight market alert」增速 251% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "logistics factory tour",
-        "growth": 250.0,
-        "vol": "410K",
+        "platform": "x",
+        "kw": "freight market alert",
+        "growth": 251.0,
+        "vol": "680K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "shipping tiktok made me buy",
+        "growth": 227.5,
+        "vol": "540K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "logistics review 2026",
-        "growth": 238.5,
-        "vol": "190K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 229.0,
-        "vol": "315K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "shipping wholesale supplier",
-        "growth": 108.5,
+        "kw": "shipping tutorial",
+        "growth": 225.5,
+        "vol": "265K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "logistics market 2026",
-        "growth": 101.5,
+        "growth": 190.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "shipping wholesale supplier",
+        "growth": 162.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Driver shortages, booming exports reshape US-Mexico freight market - FreightWaves",
+        "source": "FreightWaves",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDVrOUJtalQ3c2tJamxWUTlISE40RmR6NzVNS01ETHNGYjBNc1VWMmRVS2k4NVBsTXJMVkVYVVY4YlZ3bFljUUxsZDNDVkNlcGxGY1oxa3Q5MXlJdE1yOHRxVjlRZnQ5SU5jaFZCeGJhRWctRFFTdEJmVnA2cFZPWXBBZGJiamVQUnBpT3laeXZ4cmlpWjlkZDFRVjFlbXJO?oc=5",
         "hits": 0
       },
       {
@@ -102,13 +109,6 @@
         "title": "China’s Economy Presses Forward Despite Headwinds - China-US Focus",
         "source": "China-US Focus",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0xLaWNFWm1na21GMk9DdVRDeUd2MGlsbUxKZHNGdzJUcHlXaE5PWVg5cjA5VzI3dU1PRGU2eUgybERWVkVBcDdlR3VtUFJPUFRCT3F1Z2c1WWJoZ1BwWndLWDlTN25OREN3WjF0V3loZF9udzV0alhKekNCMlQ4OUhxRGZXazdpVkJjY3FWeEZrS3ppUWVpNQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Borderlands Mexico: ANPACT warns tariffs threaten truck trade as exports surge - FreightWaves",
-        "source": "FreightWaves",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmRULWQ0Q2kzUzNrdjA1SHZLUGc0R2F4MnYyNTJmUUtkeTRlNmI2OUFEU2k1VEx5c1ZCMFZnb0dTeW5rZV9rZlpDeWdVTmVhb3FvYUhnZHJhcXdXQzNzNVhGUTNIOEE1aE9hRWV0X1ZnZjlGU3RMMlQtdV9DLXR6M2ZWMmxiLVBwNk9CeXBVUDR1enBfWmU3ZGxMQnRWR3V2S0wyeGJ2RjNYcEZVNzdZcg?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-08-18",
+    "generated_at": "2026-08-22",
     "l1_ref": "买家物流市场"
   }
 }
