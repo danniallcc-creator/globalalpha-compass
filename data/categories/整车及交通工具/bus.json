@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公共汽车：海外社媒「ev viral hack」增速 254%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Record Mexican EV Sales Contrast 57%...」。",
+    "trend_summary": "公共汽车：海外社媒「electric vehicle breaking」增速 256%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China's EV export boom is starting to...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公共汽车 出口需通过合规认证",
-      "海外社媒「ev viral hack」增速 254% 领跑 → 公共汽车社媒种草热度爆发"
+      "海外社媒「electric vehicle breaking」增速 256% 领跑 → 公共汽车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "ev viral hack",
-        "growth": 254.0,
-        "vol": "388K",
+        "platform": "x",
+        "kw": "electric vehicle breaking",
+        "growth": 255.5,
+        "vol": "9K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "ev must have",
+        "growth": 250.0,
+        "vol": "72K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electric vehicle top 10",
-        "growth": 236.5,
-        "vol": "216K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electric vehicle tiktok made me buy",
-        "growth": 235.5,
-        "vol": "383K",
+        "kw": "electric vehicle review 2026",
+        "growth": 245.5,
+        "vol": "131K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 226.0,
+        "kw": "electric vehicle market 2026",
+        "growth": 169.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 166.5,
+        "growth": 119.5,
         "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Record Mexican EV Sales Contrast 57% Slump in Domestic Production - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOU1QcTFEdXF6VHVySnBWNWRHNW5TdW5oY3pmLWlVS3QyV0hyM2xuNkpfYTN6VFJjTHdhTlFfdktLQmtwbDcxUkxrdDhaa2tzSnp1cGtwU3ZFSGZWYmRTcUZkTnNzbk81QUtYZGlPNVZHaHBKV2YxVGVoNXRpb1Q0TGpsVFNpOXlVQWhDMkRHdlNESEdEVEloU0ppVTVnb3FydmRHTHd4elM?oc=5",
-        "hits": 2
       },
       {
         "dim": "媒体",
         "title": "China's EV export boom is starting to show up in the gasoline market - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2huWXltQ2pZM3ZsdXhLQjFfZUszdDZ4M3Y0cUZJZTJySGlzckhablQyRS0xOV91c0VlUmstVERBcDkxaW90VXI2RFNmV3BCeXpOWE84YmR6Ql9hWmxHYkhKaFhtRDVzTGVYTXA1emFyMDJNYkZmeEdQdzltblIzaEFJUDh4VFNUOWlibm1laWZ3OGw3Z0hmYnNNbHluMzRWRm5tNlg4VjdYeHl5cjVuMVBRM2MzRl8xdkZIWHQ1UldmSmdR?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "War Is Helping Chinese EVs Upend the Global Car Market - WSJ",
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY0VYNHI0R1N6RUhRWGFRMlNDNGlickNVblpPX2hFbmdpd0dacEhrQ3hvYUJqYUt3OVhyUlEzT0VKRHF2S1dGUFc3N1hGZ1l5UHJoLUFKRnNMM3d3MUpWMURfRkNsMjNXQVQxUjdxRFR0NDE3TXEwWDFHZHlaTVJZNEtOQTBfeVhYYnJmaXVZUnRVbklDbzN5V1MxZDRPNzQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "整车及交通工具"
   }
 }

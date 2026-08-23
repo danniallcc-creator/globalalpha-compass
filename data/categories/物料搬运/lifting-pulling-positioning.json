@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "起重升降：海外社媒「forklift #fyp」增速 240%，搜索端「conveyor b2b export」热度上行，US Amazon BSR Top-12，Department of Energy (.gov)关注「Nonproliferation - Department of Energy...」。",
+    "trend_summary": "起重升降：海外社媒「forklift industry report」增速 244%，搜索端「forklift wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Vibrating Feeder Pans Market Demand to...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 起重升降 出口需通过合规认证",
-      "海外社媒「forklift #fyp」增速 240% 领跑 → 起重升降社媒种草热度爆发"
+      "海外社媒「forklift industry report」增速 244% 领跑 → 起重升降社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "forklift #fyp",
-        "growth": 240.5,
-        "vol": "551K",
+        "platform": "google",
+        "kw": "forklift industry report",
+        "growth": 243.5,
+        "vol": "766K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "conveyor industry news",
+        "growth": 241.0,
+        "vol": "98K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "forklift #trending",
-        "growth": 237.5,
-        "vol": "602K",
+        "kw": "forklift viral",
+        "growth": 226.5,
+        "vol": "555K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "forklift review 2026",
-        "growth": 231.5,
-        "vol": "748K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "forklift wholesale supplier",
+        "growth": 219.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "conveyor b2b export",
-        "growth": 211.0,
+        "growth": 202.0,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "forklift market 2026",
-        "growth": 107.5,
+        "dim": "媒体",
+        "title": "Vibrating Feeder Pans Market Demand to Accelerate by 2035 on Automation and Hygienic Design Upgrades - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOVpPWklrWWxNbXdwS29SQmMyU0FHTkxaUFlFZXhUVjVLdFkyYnVsSnlTT0hvNUItMERlR0xPRk5sa3hWcW9PRVRYdEJKNkF3enpiaXpTOWZ0SVltVmptamgwMmNNR0hJNGRfTUt0c3J5U0hBTWx2cUQ1TUtkS2l3VlBMQk1wblp5Z3pwS0FETDFnaTlMdTFuNmFYNWNYMlNTbFdxTDBTUHpaNEtManExNGNQMWRhNl9UbERKSnl4RzVkd3lGdEM0czFR?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Nonproliferation - Department of Energy (.gov)",
         "source": "Department of Energy (.gov)",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wS0h0ZlEzdUhQQVFwVTZqVEJLSk42dVYtN21XSWkxS241VjBNSk1VTVNGUjhCN3RmUjRlOUUtenV5VW1UZm5BU3pmdi1SNXN5VmRJRUtJVQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Forklift Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5anZQYWRRU3c3LTNISUJ2R1o4OFhrb3c0SzNxZFNRV2FfWnBBeHRfUEROb1dlWS0wMGhnV2s0dW1WNno0UEQwVFcybFBDSXc2YlEwVmZLZzJEdU5mUldiQzdIUXJHeTVRYmpZa29XMA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "物料搬运"
   }
 }

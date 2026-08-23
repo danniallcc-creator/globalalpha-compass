@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "救生产品：海外社媒「safety gear #fyp」增速 240%，搜索端「safety gear market 2026」热度上行，US Amazon BSR Top-12，DirectIndustry e-Magazine关注「Japan's New Industrial Frontier (3/4):...」。",
+    "trend_summary": "救生产品：海外社媒「safety gear industry report」增速 250%，搜索端「safety gear wholesale supplier」热度上行，US Amazon BSR Top-12，Al Jazeera关注「Why have several nations raised red...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 救生产品 出口需通过合规认证",
-      "海外社媒「safety gear #fyp」增速 240% 领跑 → 救生产品社媒种草热度爆发"
+      "海外社媒「safety gear industry report」增速 250% 领跑 → 救生产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "safety gear #fyp",
-        "growth": 239.5,
-        "vol": "171K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "safety gear breaking",
-        "growth": 234.5,
-        "vol": "191K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "safety gear market 2026",
-        "growth": 231.5,
-        "vol": "156K",
+        "kw": "safety gear industry report",
+        "growth": 249.5,
+        "vol": "70K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "safety gear review 2026",
+        "growth": 229.5,
+        "vol": "387K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "ppe trending now",
+        "growth": 225.0,
+        "vol": "545K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "safety gear market 2026",
-        "growth": 228.5,
+        "kw": "safety gear wholesale supplier",
+        "growth": 176.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ppe b2b export",
-        "growth": 149.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Japan's New Industrial Frontier (3/4): Europe Isn't Japan's Biggest Market, So Why Are Manufacturers Betting on It? - DirectIndustry e-Magaz",
-        "source": "DirectIndustry e-Magazine",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeDZabmlUY2VVYUNlOWxTMjVCNms1bXo3OXQ3S1pCanB3Tnk2ZzNMTEZBTWQxYmlHQ1BiUDZNRXZtMmZ5X3FrZVlSUXViQTdGUk9DWDFEZnB2Z2I0MGRPTXZKY3VxX2JZeU9wcVVmM2FpdTZJbEFIVUQ0ZXlpMTlnMXo3Qm9EaEdYR3N1T3FtWUdUa2xiUkd0d0FLSHB3ZzRINUVqTGZ3QkxPem1uN2JYQ2UwMnVKaENpYVB2enc4N2dfNEpCRHVlMHFyVkZDakdsbjc1Yk5pTHlKN1VYMzRGOXM3ZXk?oc=5",
+        "growth": 100.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Why have several nations raised red flags over Indian farm exports? - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQk1XT3dERWE5NFgzbFllS2pPRDVYOGF2S2xGclhiSFB2TWdUdGVaRTlYT05uVVBNZVdJTVBWLWtpZGxDRzFLaUxnREFVYXlCejBqNmdRUHVVSFhjVzMyV2V6cnFNVUt4blM1WjI4WF84RUJ6YS1yeEV0VTJFT3pxcFMwb1dyRENWUnNwRnJJeGF5amZJTE5XQXUwZGFHaUpJTTlGTE9fOHJQcG_SAbABQVVfeXFMT2ZWQ2lpVG05emhkU1FWZ3VHcm9aRU1WME10ZkZaTE1Pbkd3Y3lJUzBLUkZuOWIxSGFsaVl0X3d5OGNLOWpUMFdiSmVzQ1dTZG9IYVA2LVZfS2Z5NFRiX01xTWR2N3dsVGgzMnVBaXdUVEY1TmJZYzJvWkpQWEprMHlKNTVXaG1qdVdYOFdhYjdTS0lZODBYb3FiR1hJZVB3bFBsM0JaaHBrR2g0SFllUno?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Are tariffs about trade or something else? - Farm Progress",
+        "source": "Farm Progress",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRVlXcVI4WnZFRGY5Umd0cXBNZDczWDNrckVvUVRIcXhDQV8yQ0lzOU5nSEliS1VKSG5kbDF0bjZ2MXA5aFFrTUxpdHNrSEptWW1ieXZaLU9uZkxjc1ozaGE0aWtPQnF3MUp2VndudFMyTllfLXRGT2k5bW5rbmx2RFYzTGpGai02b2tHN2RtQ3FSUHdPc3Rv?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "安全用品"
   }
 }

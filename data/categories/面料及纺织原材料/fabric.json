@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric b2b export」增速 247%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-49，The Observatory of Economic Complexity关注「Pile Fabric (HS: 6001) Product Trade,...」。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 242%，搜索端「fabric b2b export」热度上行，SA Amazon BSR Top-44，The Observatory of Economic Complexity关注「Pile Fabric (HS: 6001) Product Trade,...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric b2b export」增速 247% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 242% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "fabric b2b export",
-        "growth": 247.0,
-        "vol": "268K",
+        "kw": "fabric price trend",
+        "growth": 242.0,
+        "vol": "53K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "fabric unboxing",
-        "growth": 246.0,
-        "vol": "576K",
+        "kw": "fabric factory tour",
+        "growth": 234.0,
+        "vol": "607K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric market alert",
-        "growth": 243.0,
-        "vol": "118K",
+        "platform": "instagram",
+        "kw": "fabric must have",
+        "growth": 224.0,
+        "vol": "43K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 244.0,
+        "growth": 124.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric market trend 2026",
-        "growth": 25,
+        "kw": "textile fabric sustainable manufacturing",
+        "growth": 89,
         "hits": 2
       },
       {
@@ -107,25 +107,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 49,
-        "title": "Top textile - Premium Edition",
-        "price": "$267.0",
-        "rating": 3.8,
+        "market": "SA",
+        "rank": 44,
+        "title": "Top textile - Compact Edition",
+        "price": "$153.8",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 41,
-        "title": "Top textile - Eco Edition",
-        "price": "$238.4",
+        "market": "UK",
+        "rank": 39,
+        "title": "Top fabric - Smart Edition",
+        "price": "$57.1",
         "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "面料及纺织原材料"
   }
 }

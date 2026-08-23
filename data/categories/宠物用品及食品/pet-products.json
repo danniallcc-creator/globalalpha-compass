@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet viral」增速 244%，搜索端「pet products digital transformation」热度上行，JP Amazon BSR Top-44，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
+    "trend_summary": "宠物用品：海外社媒「pet #fyp」增速 252%，搜索端「pet products digital transformation」热度上行，SA Amazon BSR Top-46，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet viral」增速 244% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet #fyp」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet #fyp",
+        "growth": 251.5,
+        "vol": "245K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "pet viral",
+        "kw": "pet food aesthetic",
+        "growth": 251.0,
+        "vol": "608K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "pet industry report",
         "growth": 244.5,
-        "vol": "280K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet #trending",
-        "growth": 211.5,
-        "vol": "765K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food must have",
-        "growth": 202.0,
-        "vol": "537K",
+        "vol": "734K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 93,
+        "growth": 65,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products market trend 2026",
-        "growth": 66,
+        "kw": "pet products export opportunity emerging markets",
+        "growth": 56,
         "hits": 2
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 44,
-        "title": "Top pet - Eco Edition",
-        "price": "$78.4",
-        "rating": 4.2,
+        "market": "SA",
+        "rank": 46,
+        "title": "Top pet - Compact Edition",
+        "price": "$31.8",
+        "rating": 4.3,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 24,
-        "title": "Top pet - Compact Edition",
-        "price": "$128.8",
-        "rating": 4.1,
+        "market": "DE",
+        "rank": 43,
+        "title": "Top pet food - Pro Edition",
+        "price": "$102.7",
+        "rating": 4.3,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "宠物用品及食品"
   }
 }

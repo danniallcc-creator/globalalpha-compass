@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "耳塞和耳机：海外社媒「smartphone top 10」增速 246%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，CNBC关注「Trump's new global tariff draws rebukes...」。",
+    "trend_summary": "耳塞和耳机：海外社媒「consumer electronics industry news」增速 249%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Encyclopedia Britannica关注「Samsung - Encyclopedia Britannica」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,52 +50,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 耳塞和耳机 成主流",
       "欧盟 CE 标志强制准入 → 耳塞和耳机 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 耳塞和耳机 合规刚需",
-      "海外社媒「smartphone top 10」增速 246% 领跑 → 耳塞和耳机社媒种草热度爆发"
+      "海外社媒「consumer electronics industry news」增速 249% 领跑 → 耳塞和耳机社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "smartphone top 10",
+        "platform": "x",
+        "kw": "consumer electronics industry news",
+        "growth": 249.0,
+        "vol": "120K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "earbuds tiktok made me buy",
         "growth": 246.5,
-        "vol": "708K",
+        "vol": "209K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "smartphone aesthetic",
-        "growth": 240.0,
-        "vol": "401K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "consumer electronics market 2026",
-        "growth": 236.5,
-        "vol": "361K",
+        "platform": "tiktok",
+        "kw": "smartphone must try",
+        "growth": 237.5,
+        "vol": "453K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "consumer electronics market 2026",
-        "growth": 233.5,
+        "kw": "smartphone b2b export",
+        "growth": 93.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "earbuds wholesale supplier",
-        "growth": 184.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Trump's new global tariff draws rebukes from trade partners over forced labor justification - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbDJwekxfMzNvUzJab19OTGl0M0tYLTNKRmRTVFZKYUJBak5sanM2ajNnS0hlWUNsTzQ3dWNwZWdXZ1NzcG1YTWRoSjNNY0I5YmljUjByX21iMnV4VDktZU02SGh6LTJkenoyeUdWdUluVGdlSnZvWnV0U1NlZ2w1UDdNZVIwc1RpdHk0M0tKb9IBlAFBVV95cUxPbnlFVEhUYV9kQ0NRaVNJbS1lamlUdFNJek5zbHNuY1dramRvSDRDU1o2NklyMXBENWNVLXctT1ZTV2k1WWUyVmJ0OWFDYjVFZnUzVjhueHJHb241Y1BLOWwxRl9sN3otX3hweGo4ZnpuOFNiZ0lKalNBc0VSeXlFeTVfR2V0cG1teTR3VHdsaGphakRm?oc=5",
+        "source": "Linkedin",
+        "kw": "consumer electronics sustainable manufacturing",
+        "growth": 89,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Samsung - Encyclopedia Britannica",
         "source": "Encyclopedia Britannica",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CMEtMbDlLVmJXSWYwNzYzN3NCdEFrbTJpdU5ackg2NEhudEhQQzZFeGpNTEY2X1lTeUxFZzJmOWdRX0hlekdmVHRCbnU3R2hvWURhQkFTX01Vd0FqZ1lVVU1R?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Inside China’s two-speed economy: Why goods consumption is slumping even as exports and services boom - Fortune",
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdERjWHdYQTlXdTUwbnQ3eDlLOW9Ga0RMbERFbkRUTGFrV1Q1U2J3MVhPSDZXZkdjYnBPM2U0R1JwWkM0U1B6S3JQeVBOdDVEVENmLW1xVnU4SnItem9VMEZhNHh3bkVfTWhuWVBxa3NaREZZTHJpSExpVUpoTE5kLWc5cVNQNnEzeHpWZFNJdllQM2gtaHlPSGI5amE?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-08-22",
+    "generated_at": "2026-08-23",
     "l1_ref": "消费电子"
   }
 }
