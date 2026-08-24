@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车养护和清洁：海外社媒「auto accessory viral」增速 240%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: Detroit automakers fear...」。",
+    "trend_summary": "汽车养护和清洁：海外社媒「auto accessory must try」增速 238%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Mexico (MEX) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -49,45 +49,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车养护和清洁 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 汽车养护和清洁 合规刚需",
-      "海外社媒「auto accessory viral」增速 240% 领跑 → 汽车养护和清洁社媒种草热度爆发"
+      "海外社媒「auto accessory must try」增速 238% 领跑 → 汽车养护和清洁社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto accessory viral",
-        "growth": 240.5,
-        "vol": "21K",
+        "platform": "tiktok",
+        "kw": "auto accessory must try",
+        "growth": 238.5,
+        "vol": "188K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "auto accessory top 10",
+        "growth": 225.5,
+        "vol": "56K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "auto accessory #trending",
-        "growth": 232.5,
-        "vol": "587K",
+        "kw": "car gadget must have",
+        "growth": 223.0,
+        "vol": "181K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto accessory new arrival",
-        "growth": 228.5,
-        "vol": "594K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "car gadget b2b export",
+        "growth": 166.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory wholesale supplier",
-        "growth": 111.5,
+        "growth": 163.5,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "auto accessories supply chain resilience",
-        "growth": 81,
+        "dim": "媒体",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -95,13 +102,6 @@
         "title": "EXCLUSIVE: Detroit automakers fear North American trade deal revamp could cost them billions - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX2FGWlpQTGlTaUtCLVZValVhUFJoNG9LZ0JRdmc0OFJROUdKZEhsQm1RT0tIbVF2WmU5cm0wRkVpT3g3azU1Vzg0V21FN2Jhd193TDh1ZHF0NmN2Z2tiZGZ6NElNUDdNTEF4alNjdGFiVmR4TGt0ZV9LOFhxZVZWcFF6RUl3WTIyZ1lsd091TFBjNTdSZ0xFY0xHRGpfaXQ3UWZhR1RNRGs1Z1RVeWdoRWIzVkZmTVlwSW5sVTg1QXluS1V2elpnRS1Md21Za0NqTng5aQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Mexico Auto Parts Output Up 10% to US$52.9 Billion Through May - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGdOWjRyRWI0R0xKRFNTNlVjOXFsVjB6OWpfWUhXbFJiNTdrX3VrdVJDcTdqeXU1b3IzQTRMVDVjdndNc0VCU0ZnQkhMbXhWTE9EZXFid2VOek5QUjZzYWpvU2FRd19IbVVLSkg2NjNQajIwVW9LNENjclAxM2hZZmgwQUN3RGNMc1hSQW84Q284a2J4UDQxWDhPemNfQQ?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-23",
+    "generated_at": "2026-08-24",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

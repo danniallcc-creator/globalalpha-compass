@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "时尚&商品：海外社媒「industrial design market alert」增速 251%，搜索端「industrial design b2b export」热度上行，US Amazon BSR Top-12，markets.businessinsider.com关注「PxlPerfect Designs Urges Home Service...」。",
+    "trend_summary": "时尚&商品：海外社媒「industrial design #fyp」增速 254%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，markets.businessinsider.com关注「PxlPerfect Designs Urges Home Service...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 时尚&商品 出口需通过合规认证",
-      "海外社媒「industrial design market alert」增速 251% 领跑 → 时尚&商品社媒种草热度爆发"
+      "海外社媒「industrial design #fyp」增速 254% 领跑 → 时尚&商品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "industrial design #fyp",
+        "growth": 254.5,
+        "vol": "275K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "industrial design top 10",
+        "growth": 250.5,
+        "vol": "15K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "industrial design market alert",
-        "growth": 251.0,
-        "vol": "239K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial design #trending",
-        "growth": 246.5,
-        "vol": "177K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "industrial design b2b export",
-        "growth": 246.0,
-        "vol": "556K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 243.0,
+        "growth": 247.0,
+        "vol": "447K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design wholesale supplier",
-        "growth": 182.5,
+        "growth": 200.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial design b2b export",
+        "growth": 199.0,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "World Trade Center Delaware to explore West African export opportunities - Delaware LIVE News",
-        "source": "Delaware LIVE News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSXB5a2hQYVRLUWtwM09IdE5jcmp1MEt0cDBFdDRvSzd6N094MFpBcEVlNF9mOHRWRXVMNHRfWUxmUHZlemxqWmtwdVRPb3JrWUlXV3dMS2FseXd1MkFiX2tQT3VIYk5POUV1VVVLdHhvYUlGal9fb19LMjlnR2EtSFNKMlhyQlR1ZWhCWjhRaEhLcGNDOExNQUlsTW5GUHc?oc=5",
+        "title": "Honduras Coffee Exports Surge as Early-Season Recovery Lifts Shipments - stonex.com",
+        "source": "stonex.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVzFxcjN3Z1doLVJOeHU2ckNZSmZ6TlNpdFdwa1h1N0phTjc0dEwtQjVJR3VPX19vRVNKMXQ3ZTZBZXJPdnVfTHd1N01YVVBWT1ZiZDhBVFFCWlNJNnJHc0toTlRfZTRVZEFPMUZWd0hlTk5NaVBjbDRCRkdzVEQ4Q2hrWjZWN3JWVFU1dlFHdnpUMWFsR25JZjRsMHRSckFRcDI2Ujd5YklQWWwxMnc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-08-23",
+    "generated_at": "2026-08-24",
     "l1_ref": "设计服务"
   }
 }

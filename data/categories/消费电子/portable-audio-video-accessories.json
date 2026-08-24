@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "便携式音视频与配件：海外社媒「consumer electronics industry news」增速 249%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Encyclopedia Britannica关注「Samsung - Encyclopedia Britannica」。",
+    "trend_summary": "便携式音视频与配件：海外社媒「smartphone analyst」增速 250%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Encyclopedia Britannica关注「Samsung - Encyclopedia Britannica」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -50,45 +50,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 便携式音视频与配件 成主流",
       "欧盟 CE 标志强制准入 → 便携式音视频与配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 便携式音视频与配件 合规刚需",
-      "海外社媒「consumer electronics industry news」增速 249% 领跑 → 便携式音视频与配件社媒种草热度爆发"
+      "海外社媒「smartphone analyst」增速 250% 领跑 → 便携式音视频与配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "consumer electronics industry news",
-        "growth": 249.0,
-        "vol": "120K",
+        "kw": "smartphone analyst",
+        "growth": 249.5,
+        "vol": "609K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "earbuds tiktok made me buy",
-        "growth": 246.5,
-        "vol": "209K",
+        "platform": "youtube",
+        "kw": "consumer electronics factory tour",
+        "growth": 236.0,
+        "vol": "278K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "smartphone must try",
-        "growth": 237.5,
-        "vol": "453K",
+        "platform": "instagram",
+        "kw": "earbuds viral",
+        "growth": 230.5,
+        "vol": "656K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "consumer electronics market 2026",
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "smartphone b2b export",
-        "growth": 93.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "consumer electronics sustainable manufacturing",
-        "growth": 89,
+        "growth": 136.0,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-23",
+    "generated_at": "2026-08-24",
     "l1_ref": "消费电子"
   }
 }

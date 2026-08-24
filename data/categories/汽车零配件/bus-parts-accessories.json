@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts viral hack」增速 251%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: Detroit automakers fear...」。",
+    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts industry news」增速 252%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Mexico (MEX) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公交汽车零部件及配件 出口需通过合规认证",
-      "海外社媒「auto parts viral hack」增速 251% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
+      "海外社媒「auto parts industry news」增速 252% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts viral hack",
-        "growth": 251.0,
-        "vol": "74K",
+        "platform": "x",
+        "kw": "auto parts industry news",
+        "growth": 252.0,
+        "vol": "376K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts industry report",
-        "growth": 240.5,
-        "vol": "120K",
+        "platform": "youtube",
+        "kw": "auto parts factory tour",
+        "growth": 244.0,
+        "vol": "487K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto parts viral",
-        "growth": 240.5,
-        "vol": "771K",
+        "platform": "x",
+        "kw": "auto parts market alert",
+        "growth": 227.0,
+        "vol": "179K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts wholesale supplier",
-        "growth": 152.5,
+        "growth": 180.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts market 2026",
-        "growth": 127.5,
+        "kw": "auto parts b2b export",
+        "growth": 180.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EXCLUSIVE: Detroit automakers fear North American trade deal revamp could cost them billions - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX2FGWlpQTGlTaUtCLVZValVhUFJoNG9LZ0JRdmc0OFJROUdKZEhsQm1RT0tIbVF2WmU5cm0wRkVpT3g3azU1Vzg0V21FN2Jhd193TDh1ZHF0NmN2Z2tiZGZ6NElNUDdNTEF4alNjdGFiVmR4TGt0ZV9LOFhxZVZWcFF6RUl3WTIyZ1lsd091TFBjNTdSZ0xFY0xHRGpfaXQ3UWZhR1RNRGs1Z1RVeWdoRWIzVkZmTVlwSW5sVTg1QXluS1V2elpnRS1Md21Za0NqTng5aQ?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-23",
+    "generated_at": "2026-08-24",
     "l1_ref": "汽车零配件"
   }
 }

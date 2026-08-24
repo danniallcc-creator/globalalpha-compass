@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "油漆涂料：海外社媒「chemical top 10」增速 232%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Radioactive Chemicals (HS: 2844)...」。",
+    "trend_summary": "油漆涂料：海外社媒「chemical analyst」增速 250%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Newsweek关注「Eight US States Doug Ford Wants Canada...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 油漆涂料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 油漆涂料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 油漆涂料 通关",
-      "海外社媒「chemical top 10」增速 232% 领跑 → 油漆涂料社媒种草热度爆发"
+      "海外社媒「chemical analyst」增速 250% 领跑 → 油漆涂料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "chemical top 10",
-        "growth": 232.5,
-        "vol": "628K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "chemical unboxing",
-        "growth": 230.0,
-        "vol": "518K",
+        "platform": "x",
+        "kw": "chemical analyst",
+        "growth": 250.5,
+        "vol": "702K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "chemical analyst",
-        "growth": 228.5,
-        "vol": "645K",
+        "kw": "chemical breaking",
+        "growth": 241.5,
+        "vol": "618K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "chemical b2b export",
+        "growth": 240.0,
+        "vol": "646K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 107.0,
+        "growth": 237.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "chemicals market trend 2026",
-        "growth": 66,
+        "source": "Google Trends",
+        "kw": "chemical wholesale supplier",
+        "growth": 192.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Radioactive Chemicals (HS: 2844) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Inorganic chemicals in Hungary Trade - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WODE0TGZLM0ltY094V2JKTDhDcnE3aEkzWkpjdENpMVJ3UjNxZi1nNmZpQlpERTROakZRLWhHaTc4YUk0M253b1dwNlRBQTMwMVd3SV9KV3cwRmNmWlprRVlESQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "US PVC exports face pressure as trade barriers reshape flows - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORDVoWTkxVy1tSTU2LUVXN2VYTEZ3VWhDeVk2MGQ3X29XVlRpVkNtSmQzcE14UkQ0S0NkdDVGMllaWmxfaEx4WEZBSnJoLTJqdmR0YkZHaGI1ckFLdDUtUVVBYlVvOXpMSlpEd3pId0MxdTdwSVRoYnozNVd5cVJDbU1GVkVLc1Fsd1M4RTBEWFJnbHFhNjlVNDNlY04zLXI2X3g1bzd4SHlQdFVpUDExc3pZQjJzRHVxTmNJT2hGWktWZTdBU0hnTmRrbm5GUQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREMzQ0pzY0ZjZ0RIQTFLa19IWHY2UWhkVlNCY2JmVk56akNZQlF2VW9tRVBhbGFzRnFzdkR3WGo0NVlEZzBLbzV6VXgyQVdnLUp0a0tTMXN6d2ljMlFWLVg3QkpBYkVOSTgxS0hHSXhYU1NfLUlNOElsMThjYjBVbmRUaWZVUQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-08-23",
+    "generated_at": "2026-08-24",
     "l1_ref": "化学品"
   }
 }
