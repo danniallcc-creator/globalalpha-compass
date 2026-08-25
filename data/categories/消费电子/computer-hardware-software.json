@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "计算机软硬件：海外社媒「smartphone analyst」增速 250%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Encyclopedia Britannica关注「Samsung - Encyclopedia Britannica」。",
+    "trend_summary": "计算机软硬件：海外社媒「smartphone market alert」增速 245%，搜索端「consumer electronics market 2026」热度上行，US Amazon BSR Top-12，Fortune关注「Inside China’s two-speed economy: Why...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -50,52 +50,45 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 计算机软硬件 成主流",
       "欧盟 CE 标志强制准入 → 计算机软硬件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 计算机软硬件 合规刚需",
-      "海外社媒「smartphone analyst」增速 250% 领跑 → 计算机软硬件社媒种草热度爆发"
+      "海外社媒「smartphone market alert」增速 245% 领跑 → 计算机软硬件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "smartphone analyst",
-        "growth": 249.5,
-        "vol": "609K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "consumer electronics factory tour",
-        "growth": 236.0,
-        "vol": "278K",
+        "kw": "smartphone market alert",
+        "growth": 245.0,
+        "vol": "433K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "earbuds viral",
-        "growth": 230.5,
-        "vol": "656K",
+        "growth": 235.5,
+        "vol": "354K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "smartphone top 10",
+        "growth": 231.5,
+        "vol": "31K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 189.5,
+        "growth": 188.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "smartphone b2b export",
-        "growth": 136.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Samsung - Encyclopedia Britannica",
-        "source": "Encyclopedia Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CMEtMbDlLVmJXSWYwNzYzN3NCdEFrbTJpdU5ackg2NEhudEhQQzZFeGpNTEY2X1lTeUxFZzJmOWdRX0hlekdmVHRCbnU3R2hvWURhQkFTX01Vd0FqZ1lVVU1R?oc=5",
+        "kw": "earbuds wholesale supplier",
+        "growth": 122.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Inside China’s two-speed economy: Why goods consumption is slumping even as exports and services boom - Fortune",
         "source": "Fortune",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdERjWHdYQTlXdTUwbnQ3eDlLOW9Ga0RMbERFbkRUTGFrV1Q1U2J3MVhPSDZXZkdjYnBPM2U0R1JwWkM0U1B6S3JQeVBOdDVEVENmLW1xVnU4SnItem9VMEZhNHh3bkVfTWhuWVBxa3NaREZZTHJpSExpVUpoTE5kLWc5cVNQNnEzeHpWZFNJdllQM2gtaHlPSGI5amE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Samsung - Encyclopedia Britannica",
+        "source": "Encyclopedia Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CMEtMbDlLVmJXSWYwNzYzN3NCdEFrbTJpdU5ackg2NEhudEhQQzZFeGpNTEY2X1lTeUxFZzJmOWdRX0hlekdmVHRCbnU3R2hvWURhQkFTX01Vd0FqZ1lVVU1R?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "消费电子"
   }
 }

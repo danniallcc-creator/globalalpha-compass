@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "玩具车：海外社媒「infant tutorial」增速 252%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Italy Baby & Toddler Carriers &...」。",
+    "trend_summary": "玩具车：海外社媒「toys analyst」增速 248%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Italy Baby & Toddler Carriers &...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 玩具车 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 玩具车 采购偏好",
-      "海外社媒「infant tutorial」增速 252% 领跑 → 玩具车社媒种草热度爆发"
+      "海外社媒「toys analyst」增速 248% 领跑 → 玩具车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "toys analyst",
+        "growth": 247.5,
+        "vol": "340K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "infant tutorial",
-        "growth": 252.5,
-        "vol": "367K",
+        "kw": "toys unboxing",
+        "growth": 237.0,
+        "vol": "17K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby #trending",
-        "growth": 242.5,
-        "vol": "706K",
+        "platform": "youtube",
+        "kw": "toys top 10",
+        "growth": 235.5,
+        "vol": "117K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "infant viral",
-        "growth": 236.5,
-        "vol": "92K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "toys b2b export",
+        "growth": 208.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "infant wholesale supplier",
-        "growth": 220.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "baby toys export opportunity emerging markets",
-        "growth": 94,
+        "growth": 179.5,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "母婴&玩具"
   }
 }

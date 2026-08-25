@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "锁和钥匙：海外社媒「cctv must have」增速 243%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Trump crypto firm backs venture...」。",
+    "trend_summary": "锁和钥匙：海外社媒「security camera #fyp」增速 252%，搜索端「security camera market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Trump crypto firm backs venture...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 锁和钥匙 出口需通过合规认证",
-      "海外社媒「cctv must have」增速 243% 领跑 → 锁和钥匙社媒种草热度爆发"
+      "海外社媒「security camera #fyp」增速 252% 领跑 → 锁和钥匙社媒种草热度爆发"
     ],
     "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "security camera #fyp",
+        "growth": 251.5,
+        "vol": "647K",
+        "hits": 0
+      },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "cctv must have",
         "growth": 243.0,
-        "vol": "790K",
+        "vol": "370K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "cctv b2b export",
-        "growth": 205.0,
-        "vol": "716K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "security camera review 2026",
-        "growth": 203.5,
-        "vol": "392K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cctv b2b export",
-        "growth": 202.0,
+        "kw": "security camera industry report",
+        "growth": 242.5,
+        "vol": "781K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "security camera market 2026",
-        "growth": 125.5,
+        "growth": 208.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cctv b2b export",
+        "growth": 126.0,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "安防"
   }
 }

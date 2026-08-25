@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "海鲜：海外社媒「food trending now」增速 252%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Coalition For A Prosperous America关注「Food Security Is Fertilizer Security -...」。",
+    "trend_summary": "海鲜：海外社媒「food #fyp」增速 252%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Coalition For A Prosperous America关注「Food Security Is Fertilizer Security -...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,15 +50,23 @@
       "欧盟 CE 标志强制准入 → 海鲜 出口需通过合规认证",
       "美国 FDA 注册要求 → 海鲜 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 海鲜 北美本地化制造红利",
-      "海外社媒「food trending now」增速 252% 领跑 → 海鲜社媒种草热度爆发"
+      "海外社媒「food #fyp」增速 252% 领跑 → 海鲜社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "food trending now",
-        "growth": 252.0,
-        "vol": "558K",
+        "kw": "food #fyp",
+        "growth": 251.5,
+        "vol": "765K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "snack tiktok made me buy",
+        "growth": 247.5,
+        "vol": "259K",
         "hits": 0
       },
       {
@@ -66,29 +74,21 @@
         "platform": "tiktok",
         "kw": "beverage must try",
         "growth": 245.5,
-        "vol": "110K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "food must have",
-        "growth": 244.0,
-        "vol": "285K",
+        "vol": "788K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "snack wholesale supplier",
-        "growth": 216.5,
+        "growth": 127.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "beverage b2b export",
-        "growth": 216.0,
+        "kw": "food market 2026",
+        "growth": 126.5,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "食品及饮料"
   }
 }

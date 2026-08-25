@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 85,
-      "trend_direction": "up",
+      "interest_score": 65,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-24"
+      "fetched_at": "2026-08-25"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing #fyp」增速 256%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，flow – Deutsche Bank关注「Market update: the changing role of...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「procurement market alert」增速 253%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，CliftonLarsonAllen (CLA)关注「The Impact of Trump's Tariffs: A...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing #fyp」增速 256% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「procurement market alert」增速 253% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing #fyp",
-        "growth": 256.5,
-        "vol": "543K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing industry report",
-        "growth": 243.5,
-        "vol": "510K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "sourcing supply chain",
+        "kw": "procurement market alert",
+        "growth": 253.0,
+        "vol": "348K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "procurement factory tour",
+        "growth": 252.0,
+        "vol": "741K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "sourcing new arrival",
         "growth": 240.5,
-        "vol": "551K",
+        "vol": "146K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing wholesale supplier",
-        "growth": 198.5,
+        "kw": "sourcing market 2026",
+        "growth": 162.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 80.0,
+        "growth": 161.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The Impact of Trump's Tariffs: A Comprehensive Analysis - CliftonLarsonAllen (CLA)",
+        "source": "CliftonLarsonAllen (CLA)",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTBRLXAtXzNnMUd6YmdaQ2Y0M0NUS1ZnZUxWRENUYVB0N1RJeUd1MmNKdzJSMTVWbC16dzhHU0FIQ0JMRUhKbU1sVVdfcVE5YUt5ajFlNk80RlZHcXNobWxSRHE0dkNGbUk5bXkxVUtBYThMb3JzLTRDSlBYTFBFaXh2VEkySkRqQVRacmpuaUNVRENGS1V4NjlLT0lQV21wVldMNUFwalQ?oc=5",
         "hits": 0
       },
       {
@@ -102,13 +109,6 @@
         "title": "Market update: the changing role of ECAs - flow – Deutsche Bank",
         "source": "flow – Deutsche Bank",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYlpJWFUtVWlYZlZYUGg0VWctdVZYOEJ0ZUozYi1jelQwbmlYM0tmaFhfeS1JOVZKMW5kcVpwUnlCZ21HTHczY21QRlB1TTlNcnlVQXZWR3NNWGtUOExOSURSWlFGN0UzVTBWbEEtYnplLWUxMkpWN0RzWElPZENVWURSOVdTbXc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Trump Administration’s New Section 301 Tariffs Reach Nearly All U.S. Imports - Ward and Smith, P.A.",
-        "source": "Ward and Smith, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVBxS3Vzb2FPOXFsa2VWeXh3eFNTTHA0Zjgyeko1MmVaZnpXLWVKbWtQenFQQ3FnVDJ4Y2xoODNhMWlzWXJMQVR4ODJMaFRUdDQycnYwUDNySGdfd3cwWTkyZGREc0J3OTBHdDd4ZVI3NXlOQk85eE80cnBXRkdVR09BTUN2clBCYXJOZUQtRXYyQkZZbmpUTzU1c3BYTVZOWDc5dFp5czc2c0pSRnNwTA?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "代理采购"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet food trending now」增速 252%，搜索端「pet products export opportunity emerging markets」热度上行，UK Amazon BSR Top-41，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
+    "trend_summary": "宠物用品：海外社媒「pet breaking」增速 254%，搜索端「pet products export opportunity emerging markets」热度上行，US Amazon BSR Top-43，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet food trending now」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet breaking」增速 254% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 252.0,
-        "vol": "119K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet viral",
-        "growth": 247.5,
-        "vol": "177K",
+        "platform": "x",
+        "kw": "pet breaking",
+        "growth": 254.5,
+        "vol": "604K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet industry report",
-        "growth": 233.5,
-        "vol": "9K",
+        "kw": "pet food b2b export",
+        "growth": 252.0,
+        "vol": "114K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet analyst",
+        "growth": 250.5,
+        "vol": "751K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products export opportunity emerging markets",
-        "growth": 94,
+        "growth": 59,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products market trend 2026",
-        "growth": 40,
+        "kw": "pet products supply chain resilience",
+        "growth": 46,
         "hits": 2
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 41,
-        "title": "Top pet food - Smart Edition",
-        "price": "$160.1",
-        "rating": 4.8,
+        "market": "US",
+        "rank": 43,
+        "title": "Top pet - Premium Edition",
+        "price": "$78.0",
+        "rating": 3.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 26,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$79.5",
-        "rating": 4.2,
+        "market": "UK",
+        "rank": 33,
+        "title": "Top pet food - Smart Edition",
+        "price": "$202.1",
+        "rating": 3.8,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "宠物用品及食品"
   }
 }

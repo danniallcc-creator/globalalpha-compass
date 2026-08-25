@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "功能鞋：海外社媒「shoe trending now」增速 244%，搜索端「shoe market 2026」热度上行，US Amazon BSR Top-12，World Footwear关注「Global footwear production holds steady...」。",
+    "trend_summary": "功能鞋：海外社媒「shoe review 2026」增速 248%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，World Footwear关注「Global footwear production holds steady...」。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 功能鞋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 功能鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 功能鞋 通关",
-      "海外社媒「shoe trending now」增速 244% 领跑 → 功能鞋社媒种草热度爆发"
+      "海外社媒「shoe review 2026」增速 248% 领跑 → 功能鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "shoe trending now",
-        "growth": 244.0,
-        "vol": "689K",
+        "platform": "youtube",
+        "kw": "shoe review 2026",
+        "growth": 248.5,
+        "vol": "32K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "shoe #trending",
-        "growth": 234.5,
-        "vol": "322K",
+        "kw": "sneaker viral",
+        "growth": 238.5,
+        "vol": "314K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "footwear analyst",
+        "platform": "youtube",
+        "kw": "sneaker tutorial",
         "growth": 232.5,
-        "vol": "257K",
+        "vol": "523K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sneaker wholesale supplier",
+        "growth": 211.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "shoe market 2026",
-        "growth": 204.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "footwear b2b export",
-        "growth": 182.0,
+        "growth": 206.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Rubber Footwear (HS: 6402) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NLWg0cmlFU0ZRbFhsdFMtYkJYSDlLTTBGWGE1OHNXWF83RkFaYTBodDNrOHJYTUhJc2hMU2hkTjRsa2N2X3NNTTJYem5OdGpQaXF1MmNLLTlFbGM?oc=5",
+        "title": "Ukrainian father-son duo chose Bangladesh over Vietnam. Now their shoes reach 70 countries - The Business Standard",
+        "source": "The Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT3lpSmR6dWVUNzhkQW1uTWVraEU4cTNHYm5KQnFSQUU2YnQ4dloxS3BBa0N1TlpDTWduRW1uSWxxbmJWVkJvSEJCME4xRl8tN1lLNk4xOTFfTVVXVzZNUGZ0aVJVaEEzZnQ5WHpnQzVVb3dGYUFuZExQSE1USDhlV1dqT0pGaGd0cU9ndFlVSDZMdnZ3RGs1SnRlaUF4TzY5RzZtWURNWVdFS08yZHY1VDRpR25aVkN0dU14dHNBWdIBxAFBVV95cUxPYVNCbU5xdmdpSWF3OHN3YXBzd3l0aUtnZGdJc3lwOU1QTS11Wi1FOTMwaldzYW40RDZDaUU1ODVjdU9wcThTNzA4SmlLdTlONHdqS0NUaDIzOXgzbDI4ZHNYZGpqMzM1ZEVfazh4RmEwb3RaOEZQQ185VE5Lejh6QWxtUmg1bmdZY1NvWTQ4a0ZQYVg4Vi0zZmlyd1JwalJIdGVKQkNGUERRWFBvREtTV0VHd1lMZFZIZ3hpampETHRNdUVV?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "鞋靴及配饰"
   }
 }

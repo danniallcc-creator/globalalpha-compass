@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech must have」增速 243%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，EPC, European Policy Centre关注「Does the EU enforce the green standards...」。",
+    "trend_summary": "回收：海外社媒「environmental tutorial」增速 240%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，The Environment Journal关注「Elbows Up, Again: Impacts of...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech must have」增速 243% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental tutorial」增速 240% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "green tech must have",
-        "growth": 243.0,
-        "vol": "751K",
+        "platform": "youtube",
+        "kw": "environmental tutorial",
+        "growth": 239.5,
+        "vol": "153K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "green tech market alert",
-        "growth": 242.0,
-        "vol": "455K",
+        "kw": "environmental breaking",
+        "growth": 233.5,
+        "vol": "348K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental tiktok made me buy",
-        "growth": 231.5,
-        "vol": "100K",
+        "platform": "youtube",
+        "kw": "green tech unboxing",
+        "growth": 215.0,
+        "vol": "702K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 108.5,
+        "kw": "environmental market 2026",
+        "growth": 144.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "environmental green supply chain resilience",
-        "growth": 83,
+        "source": "Google Trends",
+        "kw": "green tech b2b export",
+        "growth": 54.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Elbows Up, Again: Impacts of U.S.-Canada trade war on the environmental industry - The Environment Journal",
+        "source": "The Environment Journal",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbmhLNnBfY195Q0lBeG56cmlia0NSTkxDQ2FFMjJwSDFuUG9iRlU3OGJRMEJ2aDktZ3RqbklJNHVieU5abEZsUURVQnhiaVg4ck1xckw4UnRLa2ZKRElDMjhhb1ZsOW16UGZlSi14Ni1WemI3bzRldURpZEpfU05WSXI4bG9HQ3dJbGtFTy14RzlVUmJpSVR1VFlYYXpTak1SLUtYSHJCODc4QQ?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Does the EU enforce the green standards it exports? - EPC, European Policy Centre",
         "source": "EPC, European Policy Centre",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObllDWmRkUUZUcDNjTV9KRUh0VXF0aHJCRGY1dVFwWGN3aG9NNG4zcGNOdkFONGU3emt4NFoyZ0V0emhjVktCdXpLNDJOOHlydjA1VEsyUnp2OFFqdkxqbjB6VlBobEVjbUNhYWpuUFZ6aFJndFFCLWprbEc4LUdneHNlOWhnUDNDcnc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China's Foreign Trade Exceeds 30 Trillion Yuan in First Seven Months, EV Exports Surge 71.2% - finance.biggo.com",
-        "source": "finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uZ1dWY252bXBsUGJBaE85aXlLcHc2LVVIekNLcklsdDRKYUpYWUpienM5TGRuLXBSdnJqc2tGM2tFN1BUbGFxMUtQUVRudC01YjF0VGNNYXJfRmEzeVNSMjVlS2R1ZG1PbzZtZldvLWs1U1hMWkE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "环保"
   }
 }

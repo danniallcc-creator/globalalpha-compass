@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "90",
-    "total_export_value_usd": 21210851,
-    "total_net_weight_kg": 710851,
+    "total_export_value_usd": 45552452,
+    "total_net_weight_kg": 15052452,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-24"
+    "fetched_at": "2026-08-25"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 80,
-      "trend_direction": "stable",
+      "interest_score": 70,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-24"
+      "fetched_at": "2026-08-25"
     }
   },
   "industry_analysis": {
@@ -52,28 +52,44 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "FDA compliance for dietary supplements (21 CFR 111), GMP certification, health claims regulations, CE marking for health devices, product safety testing.",
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
-      "positive_pct": 0.0,
+      "overall": "positive",
+      "positive_pct": 100.0,
       "negative_pct": 0.0,
-      "neutral_pct": 100.0,
+      "neutral_pct": 0.0,
       "articles_analyzed": 1
     },
     "top_headlines": [
-      "Wholesale, retail trade sales hit RM168.5bil in June: DOSM - NST Online"
+      "Wholesale Wellness Equipment Market Gains Attention as Businesses Seek Cost-Efficient Solutions - Th"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSW0xQzFuRk5yUW1sZ0dSUllYengxR2M4eElRaE8yeHdyZ3pZZ1hnT1NUakE5bnFJdzJSRFltZm9Xa0V2VmVqcUUtQzJINm9nVkJXODJZVFl4VTV4aVdaXzN5LWxkclJDcFhyek1qcUw1YzJNbXA2dHZSSkJxMUJVbnlnLU1WT2p0SnVTWVZGMDJDVVZLRGZ3Z1pSaTF3cUFFMFB6TGJlNUF2c0Ux0gGyAUFVX3lxTE9QeU5mYkVlSEd5M3dTQTRsOFZuTHlndXBXdDRra2tNeEQxR19pT0xiOHdjYU1YUmlZcDRjMy1OZUE2dEhfQ1lXcjVmdGpDc0lFUTFaRElNclNDeXIyaFNZMkpvRmNDZldQbTBwUzhnb0s5YlR1dy1DWllBZDNaWXNLeFpVclczRUNKMnVOZXcteVlUZ1FhRTR6emVkT3pfWDhvcjB0M0FnSkw2NTZCTW93OUE?oc=5"
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb1pSbDdFVFZObi1HdUQ1YmtPU0RZUjR2NDlyU18zTGllZlkzOXN2cEppX3ZEczdjMXk5VlE3dGFrOWZZazlYOUFRSDljSkF3bmFtN19Jd1dFb3FaZkd4bWJtdjBSOFdGZ1pma1ppWGdPd21nOU9PbUhiRFNDUnYwMDZkTi0yZkRYSTV1b0YyTzYzWlBjSHo4eFRmeGkyTXhtMFVqbWkweHVTbjBFUnB4QlVn?oc=5"
     ],
-    "fetched_at": "2026-08-22"
+    "fetched_at": "2026-08-25"
   },
   "customs_2025": {
     "china_export": null,
-    "imports_from_china": {}
+    "imports_from_china": {
+      "US": {
+        "value_usd": 30059618422.0,
+        "yoy": null,
+        "share": 42.6
+      },
+      "GB": {
+        "value_usd": 31729768321.91698,
+        "yoy": null,
+        "share": 45.0
+      },
+      "KR": {
+        "value_usd": 8700620631.0,
+        "yoy": null,
+        "share": 12.3
+      }
+    }
   },
   "policy_updates": {
     "articles": [

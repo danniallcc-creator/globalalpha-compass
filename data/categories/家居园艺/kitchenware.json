@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "厨具：海外社媒「home decor industry report」增速 242%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「White House props up yen against...」。",
+    "trend_summary": "厨具：海外社媒「home decor breaking」增速 252%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，Norwalk Hour关注「Trump moves toward levying new tariff...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 厨具 出口需通过合规认证",
-      "海外社媒「home decor industry report」增速 242% 领跑 → 厨具社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 252% 领跑 → 厨具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "home decor industry report",
-        "growth": 241.5,
-        "vol": "8K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "home decor breaking",
-        "growth": 237.5,
-        "vol": "665K",
+        "growth": 252.5,
+        "vol": "265K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "home decor #fyp",
-        "growth": 233.5,
-        "vol": "438K",
+        "kw": "home decor must try",
+        "growth": 241.5,
+        "vol": "76K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "home decor market 2026",
-        "growth": 198.5,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "garden aesthetic",
+        "growth": 241.0,
+        "vol": "113K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "garden b2b export",
-        "growth": 147.0,
+        "growth": 134.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor wholesale supplier",
+        "growth": 100.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Trump moves toward levying new tariff on China for flooding market with cheap goods, AP sources say - Norwalk Hour",
+        "source": "Norwalk Hour",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSkRoRE40eGQ3MmtGZXIwUThGdzBqUlVucEhQTFBELV8ybVRTQWV5bGdVMzdJUXVPdzlUMGEzN09jaDBHZnZiS2dSeFlxZGpfNUEwVTBfTUNzelBsNzFBUS1xSlNydTdpRUVZZXk2Z2w0ajJaM0l2WjNCREJua2VpS3ZYNm13RkRqV2RYeVN5c0xqTDlrZGcycWVtWlhDNERrOFE?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "White House props up yen against backdrop of Washington-Tokyo trade deal - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVpySnlsWXZKMmY5SWlncnlGOVdlOVVtcXYzQk1WbmFJNHp5X3BpM1ZRZFFTeDJSeGUtNGowb3p4djJtdWxSQ3MzUDJlN185aDhaU0tHMU1ONTBkdzVrd2JFanVkVHhSNTFFWUFuVEowbUNBdUlRVFR0RV9aa3Q5VkpaT0l5TWtleGI4bXp3ME4yM1JyWWZHSXhkWHZ0ck5WMzUzSFg4R2t0QlNmSFkxc1Y5d2l2U25fS25UVXdJbWN5X0xobWhtZQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Analysis-China’s property crisis grinds on after Evergrande sentencing - WKZO",
-        "source": "WKZO",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMlVWempyLUJwMWwtRUMxYTI5eC1qSWZYb2ZtUGJyVHBOMWE1LXdpUWFvamU5SjNCY0M4YUhnckFURDQ0aWV6bDJGdXpvUVZXNkVldS1yYWJ0SzA0eU9RZ2xFX2RrclpiRkFtRlJXUjdYZjg0QzZmcm1Cc0l3NUJoaEVwQ1BnMW1LUFNxVUl3ZzJfRlQ3YnpwSF85UG9OZ2c?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-24",
+    "generated_at": "2026-08-25",
     "l1_ref": "家居园艺"
   }
 }
