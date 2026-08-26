@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "氢能：海外社媒「battery trending now」增速 247%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，IEA – International Energy Agency关注「Energy technology manufacturing is...」。",
+    "trend_summary": "氢能：海外社媒「solar top 10」增速 240%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Tata Power eyes first solar exports to...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 氢能 出口需通过合规认证",
-      "海外社媒「battery trending now」增速 247% 领跑 → 氢能社媒种草热度爆发"
+      "海外社媒「solar top 10」增速 240% 领跑 → 氢能社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "battery trending now",
-        "growth": 247.0,
-        "vol": "37K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "battery must have",
-        "growth": 244.0,
-        "vol": "272K",
+        "platform": "youtube",
+        "kw": "solar top 10",
+        "growth": 240.5,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "photovoltaic b2b export",
-        "growth": 242.0,
-        "vol": "128K",
+        "growth": 229.0,
+        "vol": "464K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "energy storage tutorial",
+        "growth": 219.5,
+        "vol": "687K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 239.0,
+        "growth": 226.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy sustainable manufacturing",
-        "growth": 65,
+        "source": "Google Trends",
+        "kw": "energy storage wholesale supplier",
+        "growth": 166.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Energy technology manufacturing is rebalancing in a dynamic era for trade and industrial policy – Analysis - IEA – International Energy Agen",
-        "source": "IEA – International Energy Agency",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS1hscnFCMGh0Qms1OG5QYW9UR0tWb2xZV3piaEZ2SnBEVVJEemFSVzY0eG9UOGV5VVhMY0lIckVmLTRuX01iY3pVUnliZFYtM1BJNUpDZnAzWERQWjk3YlpXRzc0UkxNdkQwalowTUpTMi1uYktEa2NscmpYOVk2LVVzT2Y2WW5KV2xtMXJRbi1ndENfSVZLN1lrZl9IWE9xRjVoWlJPWlhVYUttX2gzbE15dzJfazhEb0VXY19HREJzRU5lVTJN?oc=5",
+        "title": "Tata Power eyes first solar exports to Europe as EU curbs China reliance - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc3NhOVJCa21TWVZHUDlTaW9FcTFMV3d5eVlGNXF0QTY1Q0JMdlAxSjU3U2NBc2hIUXZrZ0I0SzM3enRlX3VqRFFsUzlHWTNsSENDYUZwbEZVSXE4TE5YVlJ5ZWdWaW5TOXpncXpKZmlidGRDclhJYUZZQUc2c1FRblhEVXNwT0NOMEVYUGk4ZVFMS09XaFRYX3NKRlJTdE45bnlqemRvZXZtUXhPRUlaZ29vTjNEd0dUdGc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s 32,000-kilometer solar trade route that battled U.S. tariffs - The Japan Times",
-        "source": "The Japan Times",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYkhjQkVuQV9DTHdwUFNkWnFUaW5TRkJiRUU0NFZGSHUxam1qY191VmpUQnVHYTRkVkE4cDZKaGlobFVYX0tSZVBvXzRnM3c1WEE5eVlHRm5RUzF6MjZYMFo4c3JGejNHNWN0S3AtRWN4dDBtTkFBRDNJUS16TWdTS1RNLTFZRVFLMlE?oc=5",
+        "title": "Trump Trade War Could Be a Catalyst to Speed Canada’s Energy Transition, Experts Say - The Energy Mix",
+        "source": "The Energy Mix",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUlRtRmRYTFF5MTNTNUo0ZldyN085MS1GMWV1ZWdaZVdxQ1BkeTJmdm5GVTM0Y0FULURCSzhUVHViaGxRV1V0MzlBaEY4cEhGR3pLRmIzak50eXl1N01ubmpLellWMUdyMzk0U2RvaGlabVhlWVBrRUNGSzYtT1dpR1pfTWQ0c0dsR0NkZS1OS3FUQU9UMk0xRVhFcmxCa2ZHZWQ2SU9Xc0htMGUyRjVQSHdB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-08-25",
+    "generated_at": "2026-08-26",
     "l1_ref": "可再生能源"
   }
 }

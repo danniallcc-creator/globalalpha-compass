@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food b2b export」增速 252%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-43，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food market alert」增速 205%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-46，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food b2b export」增速 252% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food market alert」增速 205% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet food market alert",
+        "growth": 205.0,
+        "vol": "427K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "pet food b2b export",
-        "growth": 252.0,
-        "vol": "114K",
+        "growth": 183.0,
+        "vol": "54K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 241.0,
-        "vol": "567K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food must have",
-        "growth": 239.0,
-        "vol": "32K",
+        "kw": "pet food trending now",
+        "growth": 176.0,
+        "vol": "656K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 249.0,
+        "growth": 180.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "pet wholesale supplier",
-        "growth": 148.5,
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 89,
         "hits": 0
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Global trade buoyed by surge in tech equipment shipments - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVW1sRnpPMC1KOVZFYXRuQVJDN3YzZmJ5b2ZFZUVEMmEydkg5el9hYlJtTWNnemhMNTdEVFBQTEZxVHg0Z3JfTEhSbzJwSGVFdzNIWXoxYVgtSUhhSS1pUElKYTZKQ1pSbmV6NERVa3FGX3NoWl9jcWpCd3QzVldwYW5GX09iZWJLbjZtcF9VLTNkVkFicVFKSHI3Q0tLdFNHTk9jQnBZamozLXBsQzlrektOY0FabGhQNHQ3YnF2WWhfZlEzcVBkaDBnQThFY0dW?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 43,
-        "title": "Top pet - Premium Edition",
-        "price": "$78.0",
-        "rating": 3.8,
+        "title": "Animal Food in Australia Trade - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mMjRqRDRiY1lESThHTm1kV2JQSnprWHBJaVh0d3EyRjZRNTVueEUtd2Vtc1pydldYOTM2WFR5d3hmNWtiUUlBd3NwajlqaldoTWljSVluZXg4dVlDWm5XRGJlR1J0MFFkX05QQ0F6Y2x1NVBuT1dRQ2hSUQ?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 13,
+        "rank": 46,
         "title": "Top pet - Compact Edition",
-        "price": "$256.8",
-        "rating": 4.8,
+        "price": "$153.8",
+        "rating": 4.5,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 33,
+        "title": "Top pet - Premium Edition",
+        "price": "$110.0",
+        "rating": 4.7,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-25",
+    "generated_at": "2026-08-26",
     "l1_ref": "宠物用品及食品"
   }
 }

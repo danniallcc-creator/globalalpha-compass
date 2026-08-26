@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "儿童服装：海外社媒「toys analyst」增速 248%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Italy Baby & Toddler Carriers &...」。",
+    "trend_summary": "儿童服装：海外社媒「baby review 2026」增速 226%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，scanx.trade关注「K. V. Toys India Q1 Results: Total...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 儿童服装 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 儿童服装 采购偏好",
-      "海外社媒「toys analyst」增速 248% 领跑 → 儿童服装社媒种草热度爆发"
+      "海外社媒「baby review 2026」增速 226% 领跑 → 儿童服装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "baby review 2026",
+        "growth": 226.5,
+        "vol": "336K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "baby #trending",
+        "growth": 219.5,
+        "vol": "414K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "toys analyst",
-        "growth": 247.5,
-        "vol": "340K",
+        "kw": "baby breaking",
+        "growth": 218.5,
+        "vol": "114K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "toys unboxing",
-        "growth": 237.0,
-        "vol": "17K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "toys top 10",
-        "growth": 235.5,
-        "vol": "117K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "baby market 2026",
+        "growth": 198.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "toys b2b export",
-        "growth": 208.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "infant wholesale supplier",
-        "growth": 179.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Italy Baby & Toddler Carriers & Accessories - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdkxrUXprOFZWenotN041emRObjBGc21VOEZYYUNQOTRKY1c1Z2o2ZHRDVUtGX19OWW03LURhTVo3TnRMc25FZm91UGFLOUpkblBnVHphdlJrcVpXVnplMTVlX3VqMHdJdFczLXNkbk5wQmdCQnJRNGZYWGdCRjR4NXlsYTUyOHRGYjVNZjZZb05PQUQ3djBzU2dfTEVyTV9uSGo2OGd2eXAtNzFHMExwT2JiWGtWRU1fbmJ3ZA?oc=5",
+        "growth": 180.0,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "K. V. Toys India Q1 Results: Total income rises 23% YoY - scanx.trade",
         "source": "scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzBaQlc5bFpvcU1iQll1Z3dwS3drclFKZFRhTVBsRFNwdzYweGY4YzJZV3BZUHBwd05zNURIVk1FWEEybHZhXzB0NFpqQUkzVldKc1hGRWhHc0NobU5odVAyem4tV3pURHp3cVpUT3ptY0tRcFBGekpSQ29aUG12NXBBaTRSb0pZOUZHanBOZWRIN0ZuRXA5SDJ2elFtT0NEcEkwWlg3aXhnRGNv?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Who Buys the Most Toys? - Statista",
+        "source": "Statista",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemstajFueHB4MTVfcjNWZ0tEdG1Lb0hTUFItQmlBVFdJczltOElzaVl3RFVVR0tSY1NuakZSSXd1QTQtazRXTHd1eTVzSzQ2UjVDR21qTE1jMWNKY0M5MExOSmpUcUZSUlJtN3VmaEltRnpDNXJETEhwdTZ4cEpEdTBfYlN0WUJ3NllWQjk2RUtiR1pRdjR1dWpZemhxQjdiNWfSAaIBQVVfeXFMTnprLWoxbnhweDE1X3IzVmdLRHRtS29IU1BSLUJpQVRXSXM5bThJc2lZd0RVVUdLUmNTbmpGUkl3dUE0LWs0V0x3dXk1c0s0NlI1Q0dtakxNYzFjSmNDOTBMTkpqVHFGUlJSbTd1ZmhJbUZ6QzVyRExIcHU2eHBKRHUwX2JTdFlCdzZZVkI5NkVLYkdaUXY0dXVqWXpocUI3YjVn?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-08-25",
+    "generated_at": "2026-08-26",
     "l1_ref": "母婴&玩具"
   }
 }

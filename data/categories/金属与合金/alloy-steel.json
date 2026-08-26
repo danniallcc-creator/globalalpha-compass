@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "合金钢：海外社媒「metal factory tour」增速 251%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China eases Iran war aluminium shock,...」。",
+    "trend_summary": "合金钢：海外社媒「metal industry news」增速 248%，搜索端「metal market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Bar/rod, iron or non-alloy steel,...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 合金钢 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 合金钢 成主流",
       "欧盟 CE 标志强制准入 → 合金钢 出口需通过合规认证",
-      "海外社媒「metal factory tour」增速 251% 领跑 → 合金钢社媒种草热度爆发"
+      "海外社媒「metal industry news」增速 248% 领跑 → 合金钢社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "metal factory tour",
-        "growth": 251.0,
-        "vol": "557K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel viral hack",
-        "growth": 251.0,
-        "vol": "780K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "metal breaking",
-        "growth": 246.5,
-        "vol": "726K",
+        "kw": "metal industry news",
+        "growth": 248.0,
+        "vol": "700K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "aluminum wholesale supplier",
-        "growth": 202.5,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "steel industry report",
+        "growth": 226.5,
+        "vol": "247K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "steel aesthetic",
+        "growth": 210.0,
+        "vol": "167K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "metal market 2026",
-        "growth": 196.5,
+        "growth": 182.5,
         "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "steel b2b export",
+        "growth": 181.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Bar/rod, iron or non-alloy steel, indented or twisted, nes (HS: 721420) Product Trade, Exporters and Importers - The Observatory of Economic",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaDhFOGlHZjMtVm9FcXhCU1BIMWZIak1FMWxfMnQ2ZFNiRDNQY2xXTnlqSzRWVV9tdWNBN3EwU2lnaEYzUzFNdHA0MnBOVldVYkRLcTg1R0Jra3ZhaWNrTUUzVHFBZ1NSdk0xbVYxZTV0enpURGFaSTNaNDRwWnQzMi1pc18wUzE2ZmFNZlNJSQ?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
         "title": "China eases Iran war aluminium shock, but at a cost - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHJibjY1QldaZEVHTDd4ZGFRY2lwbVpVeWg1ak1HaWhjZVc1b2ZGaUU1NElzMXYzbXhrRkZiOTQwV2Y4d1hldC1fMXVtanZqeUotMWRkTV9laXBxNEZKdDVkaXJOTW84a01vQ1pEZjctNGM5QWVrcjZzMDZvRHpYdGdqTU1HX016Q25BaWN1eUxiRWZwVWJEeHl1bG9BMUdDX2F5MEFuWDNDZ3ZzcWVV?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Deoxidizers for Molten Metal Market EAF Expansion and Premium Alloy Demand to Fuel 4.8% CAGR Through 2035 - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcXBsWkF0LVROZlIwS1JfQ1FtRzVnWDExNWJnVGctOU9uRUYwVGI2WEZEb2UwZmI0a0tYMWZoOGU5SGN2ZVk3U3BHbDlzaFpKUzZkMF9kc3pVY1FHUmlxSm9MXzVTeEUyZTUyaUoxU0tvakwzTy1xNTBqN3d1eDhxbmlrUHRfWWdWcG45bnN6QUswRm03amwtMW44MWdyckw3MEt1d2NlWHJqRHlzOVdJdzBSd1FNSzdfbFdGWTk1SGd0b1JscmYxaGpVdzI2SDBkS1pnZ1RCNkdrWnRud1VtMUVB?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-08-25",
+    "generated_at": "2026-08-26",
     "l1_ref": "金属与合金"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet breaking」增速 254%，搜索端「pet products export opportunity emerging markets」热度上行，US Amazon BSR Top-43，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
+    "trend_summary": "宠物用品：海外社媒「pet tutorial」增速 214%，搜索端「pet products supply chain resilience」热度上行，SA Amazon BSR Top-46，Pet Food Processing关注「USDA: Singapore’s ‘thriving economy’...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet breaking」增速 254% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet tutorial」增速 214% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet breaking",
-        "growth": 254.5,
-        "vol": "604K",
+        "platform": "youtube",
+        "kw": "pet tutorial",
+        "growth": 214.5,
+        "vol": "16K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food b2b export",
-        "growth": 252.0,
-        "vol": "114K",
+        "platform": "instagram",
+        "kw": "pet viral",
+        "growth": 214.5,
+        "vol": "516K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet analyst",
-        "growth": 250.5,
-        "vol": "751K",
+        "platform": "tiktok",
+        "kw": "pet #fyp",
+        "growth": 205.5,
+        "vol": "352K",
         "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 59,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products supply chain resilience",
-        "growth": 46,
+        "growth": 89,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products sustainable manufacturing",
+        "growth": 89,
         "hits": 2
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Global trade buoyed by surge in tech equipment shipments - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVW1sRnpPMC1KOVZFYXRuQVJDN3YzZmJ5b2ZFZUVEMmEydkg5el9hYlJtTWNnemhMNTdEVFBQTEZxVHg0Z3JfTEhSbzJwSGVFdzNIWXoxYVgtSUhhSS1pUElKYTZKQ1pSbmV6NERVa3FGX3NoWl9jcWpCd3QzVldwYW5GX09iZWJLbjZtcF9VLTNkVkFicVFKSHI3Q0tLdFNHTk9jQnBZamozLXBsQzlrektOY0FabGhQNHQ3YnF2WWhfZlEzcVBkaDBnQThFY0dW?oc=5",
+        "title": "Animal Food in Australia Trade - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mMjRqRDRiY1lESThHTm1kV2JQSnprWHBJaVh0d3EyRjZRNTVueEUtd2Vtc1pydldYOTM2WFR5d3hmNWtiUUlBd3NwajlqaldoTWljSVluZXg4dVlDWm5XRGJlR1J0MFFkX05QQ0F6Y2x1NVBuT1dRQ2hSUQ?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 43,
-        "title": "Top pet - Premium Edition",
-        "price": "$78.0",
-        "rating": 3.8,
+        "market": "SA",
+        "rank": 46,
+        "title": "Top pet - Compact Edition",
+        "price": "$153.8",
+        "rating": 4.5,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 33,
-        "title": "Top pet food - Smart Edition",
-        "price": "$202.1",
-        "rating": 3.8,
+        "market": "DE",
+        "rank": 44,
+        "title": "Top pet food - Pro Edition",
+        "price": "$47.7",
+        "rating": 4.1,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-25",
+    "generated_at": "2026-08-26",
     "l1_ref": "宠物用品及食品"
   }
 }
