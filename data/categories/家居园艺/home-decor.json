@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 118%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-33，GlobeNewswire关注「Urban Gardening Products Market...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 36%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-49，Yahoo Finance关注「White House props up yen against...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,53 +48,46 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 118% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 36% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 118.5,
-        "vol": "301K",
+        "growth": 35.5,
+        "vol": "461K",
         "hits": 3
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "home decor tutorial",
+        "growth": 240.5,
+        "vol": "614K",
+        "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "home decor #fyp",
-        "growth": 253.5,
-        "vol": "153K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor #trending",
-        "growth": 230.5,
-        "vol": "145K",
+        "growth": 213.5,
+        "vol": "280K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 115.5,
+        "growth": 32.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 121.5,
+        "growth": 194.5,
         "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Urban Gardening Products Market Forecast 2026-2035 - GlobeNewswire",
-        "source": "GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOMXo3czh0VnFDbUdQZWhfMDVKME8tZWJRODNyczZ0dzJYbU00TFp4bVprVGNONHM2MnRta1pmb01BRzQ3eVhPUVNqM3NlYkQxLXhzamtqYllicGxoX0VwblNieVBFOFIzNmpJOGR2X1hUcTl6eFB0dkVNTXM3N1dlbTh5OWdfYTFCN2QxcjlhVEtQSnYxa29LenN0NEktQ1h5cGEzWUJzclF6OTRPejAwNDNsSGhxZ05BOWVZRzJnQUJPVUZ2Qi1fTlppNVZEdy1oYWFCRVcxdEJ2SEpBWW44NWsyLVlKVXVuOEM1XzZ6MlJKNzQxcTNZVnM3bkVoUFZlT0gyWjZ0THZ0aU9tV2tqRXg5bWM4b0JLU210RmxFRE96dzU0Si12Q2VqLXBhcXlCVURyZWRfUUl4LTRwSURF?oc=5",
-        "hits": 0
       },
       {
         "dim": "媒体",
@@ -104,26 +97,33 @@
         "hits": 0
       },
       {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 33,
-        "title": "Top garden - Pro Edition",
-        "price": "$252.7",
-        "rating": 4.5,
+        "dim": "媒体",
+        "title": "Trump heads into midterms short on foreign policy wins - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 30,
+        "rank": 49,
         "title": "Top garden - Heavy-Duty Edition",
-        "price": "$286.5",
-        "rating": 4.3,
+        "price": "$44.5",
+        "rating": 4.8,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "UK",
+        "rank": 37,
+        "title": "Top garden - Smart Edition",
+        "price": "$39.1",
+        "rating": 4.8,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "家居园艺"
   }
 }

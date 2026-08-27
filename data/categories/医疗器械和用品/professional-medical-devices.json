@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "商用医疗器械：海外社媒「medical device viral」增速 252%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，Rhodium Group关注「Can India Finally Realize Its...」。",
+    "trend_summary": "商用医疗器械：海外社媒「medical device market 2026」增速 230%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，Rhodium Group关注「Can India Finally Realize Its...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 商用医疗器械 出口需通过合规认证",
       "美国 FDA 注册要求 → 商用医疗器械 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 商用医疗器械 全球市场准入",
-      "海外社媒「medical device viral」增速 252% 领跑 → 商用医疗器械社媒种草热度爆发"
+      "海外社媒「medical device market 2026」增速 230% 领跑 → 商用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "medical device market 2026",
+        "growth": 230.5,
+        "vol": "218K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "medical device viral",
-        "growth": 251.5,
-        "vol": "723K",
+        "growth": 204.5,
+        "vol": "408K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "healthcare equipment aesthetic",
-        "growth": 249.0,
-        "vol": "460K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "medical device wholesale supplier",
-        "growth": 245.5,
-        "vol": "41K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "medical device wholesale supplier",
-        "growth": 242.5,
+        "platform": "tiktok",
+        "kw": "healthcare equipment viral hack",
+        "growth": 202.0,
+        "vol": "495K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "medical device market 2026",
-        "growth": 161.5,
+        "growth": 227.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "healthcare equipment b2b export",
+        "growth": 129.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Trade deals open new markets for Indian medical device makers, but import risks remain: AiMeD - The Economic Times",
-        "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZmtHdXBZbnN6ZWdKTDkwRHh0TkZMdVVfd2t1ZjV1R3JvOUdZVlE2dDNzdjZ6c01UQXcyQTRDNTJ4SWFmTzA2STIwNS1Hd2k3dUstNnRGamp1TERvY1pQcmxWNmpzR1pPOEpjUHhhX1N6VkU1MDQwZzc1RGMxSFA1WHBKWVFOeXpqaGVEQWtNTjZaRHFRN055ZC0xMUl4SGVQb0d5U1RMZ2RTZjM4NERQQjB1emFKZElfWUhiaGVyMzk2cklZdEdhdkk5NXAwS2hIakFtY25pSXNudUJBUENFY055SDdtUDUyQkRhbHFTY0tkWWVqUldxem1TSUNhVG1YZW1fZ3BaYjF3Z9IBjwJBVV95cUxOVzVzQUNiaTdQLWItcVBzd3loSTQyM3NLeVRtdVBfWkN1TTdLczdUVjN5RFRVNXBZektGbnNLRmpUcTA0TWVpM3phUTRyaEJXWUZBdGxJdURfUnFLajQwTThESjVjRnhPNEFmSnFNNTZkRDV4bWpHVmc2YWhxbS1zNXh0ekNpWVlsZ094REVRZHFzSm5MdzFrLTNVNlhoQ1ZhZ2tIX3ktSUdHVHpENG9xbW0xZUhwN0Q3QUdXczRnOTg0Uk5MaUxyU3BGM2JtZGd1bVItcHJaelhwa01RbEMtYXdTdGlxMXlFNU1hekRBV2lqNno4Vmh0RlpMX0ZZTUFURndoSTZuVVZ5RGZWT3JJ?oc=5",
+        "title": "High Performance Medical Plastics Market Size & Report 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObVh4eHNnSk81N0VZWUM0bDVTWEdLRlpJTEJyRXhsTU5rajd6YmxrMU44SUhhWlNrdkd2bUh6VE9lTmJkdThqajRHalhNVDEyd2VZMTA5YkE5TnloTUI1Y3RwTXJPWVFzUXVuc1dTM0xUU1JsUnFlNE1SblEwVjMtcTJfUTVJTzFtVFg4MW1JMUI?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "医疗器械和用品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "制服与表演服：海外社媒「clothing supply chain」增速 250%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，Türkiye Today关注「Trump puts $1.4B Turkish textile...」。",
+    "trend_summary": "制服与表演服：海外社媒「fashion market alert」增速 244%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Used Clothing in China Trade - The...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 制服与表演服 供应链合规升级",
       "欧盟 CE 标志强制准入 → 制服与表演服 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 制服与表演服 通关",
-      "海外社媒「clothing supply chain」增速 250% 领跑 → 制服与表演服社媒种草热度爆发"
+      "海外社媒「fashion market alert」增速 244% 领跑 → 制服与表演服社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "clothing supply chain",
-        "growth": 250.5,
-        "vol": "614K",
+        "kw": "fashion market alert",
+        "growth": 244.0,
+        "vol": "661K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "apparel #trending",
-        "growth": 247.5,
-        "vol": "42K",
+        "platform": "google",
+        "kw": "apparel price trend",
+        "growth": 235.0,
+        "vol": "127K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fashion analyst",
-        "growth": 242.5,
-        "vol": "299K",
+        "platform": "google",
+        "kw": "fashion industry report",
+        "growth": 231.5,
+        "vol": "501K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "apparel market 2026",
-        "growth": 224.5,
+        "growth": 212.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "clothing wholesale supplier",
-        "growth": 214.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Trump puts $1.4B Turkish textile exports at risk as US omits Türkiye from tariff relief - Türkiye Today",
-        "source": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZWlscjJCQWRzYnpUYTkxVHVneWs5NW5vb19ZSnRNYWEzc0k0YVVpdXRHRU9CVkcwdll2QW9BYnVyZjZ2cFhCam9fU1B2N2ZHenNaTTlaaHZYSW44eGJGaW1xQUVMa3dyM19FMWkyMWFvYVRPWnBuUTlYTmU3UENEc2ViVGdKN21STVJGcDhDX1JBaE9tMUJZQlRPcnZ0UVAwdlRFTm93TEt6MWtsTl9GU2pjM3JIamtVMHhFWXNWQnMtaWlZTWljTjd0UQ?oc=5",
+        "growth": 202.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Used Clothing in China Trade - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uUVZFWVUxY0xURXU3b1dZYUtPdVF5cDg5VG1nRVNaMGdwRE9NX0JLU1dZWVBPdEQzQ19fN002eGRUTXJfVHUyWnVwZ1pOY3dUajFkdkdFdTJNcWdDN1JaWUpLSXBCRDFVa2Vza0VLNlNTS0FxUmk1S2s3dDR0Zw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Apparel Market Size, Share, Future Trends & Forecast, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10ZGllZmF6c0hVN3NKUllOVHFYVzl3OGJjY21VSm0zMU5EOVdkOWZmRlVVRU9QbDRTdWdsQjlkbVEtb1R0Zkh5bFY3YmpmWTFOTGdmUWplZlcwSVFqVGFrTFlWbHRWYWdoWnJ0UzR3?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "服装及配饰"
   }
 }

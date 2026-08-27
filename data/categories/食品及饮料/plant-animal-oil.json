@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "动植物油：海外社媒「food breaking」增速 246%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Coalition For A Prosperous America关注「Food Security Is Fertilizer Security -...」。",
+    "trend_summary": "动植物油：海外社媒「food market 2026」增速 254%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，MarketsandMarkets关注「South-Korea Food Certification Market...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 动植物油 出口需通过合规认证",
       "美国 FDA 注册要求 → 动植物油 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 动植物油 北美本地化制造红利",
-      "海外社媒「food breaking」增速 246% 领跑 → 动植物油社媒种草热度爆发"
+      "海外社媒「food market 2026」增速 254% 领跑 → 动植物油社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "food breaking",
-        "growth": 245.5,
-        "vol": "660K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beverage new arrival",
-        "growth": 238.5,
-        "vol": "513K",
+        "platform": "google",
+        "kw": "food market 2026",
+        "growth": 254.5,
+        "vol": "379K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "beverage b2b export",
-        "growth": 228.0,
-        "vol": "446K",
+        "kw": "snack wholesale supplier",
+        "growth": 242.5,
+        "vol": "440K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beverage b2b export",
-        "growth": 225.0,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "food price trend",
+        "growth": 233.0,
+        "vol": "577K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 178.5,
+        "growth": 251.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 239.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "South-Korea Food Certification Market Size, Share,Trends, Growth Analysis Report, 2029 - MarketsandMarkets",
+        "source": "MarketsandMarkets",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXdlaEFWTHVTOUU0UWh5d0gzNFoyRjYwMXlpZUdXWDlmLU5wRzhRQWFpTmNCVFRDaTQ0SC1QZ1AzQl8yTkViTXp6MkZqejE2bHg2RFpZVXA3QzhLaWhCV0x5RlotS2NEYl91UkNoTVNTOHhFaHBBSHZOWi1UZW40MTdhYkwwTkVFTnhMZGRIajZEYlVqTlFPcEoxUlg?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Food Security Is Fertilizer Security - Coalition For A Prosperous America",
         "source": "Coalition For A Prosperous America",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94Z0tzV2VBZU0zbk1qSjlTdDJvVDlSbkE3cHBIdnkxMVoxLXZ6N2Z5QURKWmY2Nk9keWh4dG1Ta2pFenkwbVE2RlFNZXdPNUhlY3o4dXk0SzZNaVhuQ3lzQkFtREY0Qjd6a0k0YUN3NHNwTGZ3cEE?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Export Trading Group Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
-        "source": "Revelio Labs",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1pNEFsaFFTcjY1UWVrelFQTklRU0xGYkFkb0d3a3F0WjR1Zl9FSXliQkhVOS12ZjFxVVNOZkF0SEoyaVdZZzVGc1FwSHRidm11R2xzQnJvQlQteTI0d1Z0TWRWQ0swTG5aaFI5VTBOLUZZamo3Rm5Z?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "食品及饮料"
   }
 }

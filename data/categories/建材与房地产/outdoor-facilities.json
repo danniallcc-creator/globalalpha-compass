@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "户外设施类：海外社媒「building top 10」增速 234%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Al Jazeera关注「Who are Iran’s top trading partners US...」。",
+    "trend_summary": "户外设施类：海外社媒「cement unboxing」增速 244%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，News From The States关注「Why the stakes are high for Missouri in...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 户外设施类 出口需通过合规认证",
-      "海外社媒「building top 10」增速 234% 领跑 → 户外设施类社媒种草热度爆发"
+      "海外社媒「cement unboxing」增速 244% 领跑 → 户外设施类社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "building top 10",
-        "growth": 233.5,
-        "vol": "775K",
+        "kw": "cement unboxing",
+        "growth": 244.0,
+        "vol": "420K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building tiktok made me buy",
-        "growth": 233.5,
-        "vol": "137K",
+        "platform": "instagram",
+        "kw": "building new arrival",
+        "growth": 243.5,
+        "vol": "421K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cement factory tour",
-        "growth": 214.0,
-        "vol": "295K",
+        "platform": "google",
+        "kw": "building market 2026",
+        "growth": 236.5,
+        "vol": "390K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 233.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 168.5,
+        "growth": 215.5,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 157.0,
+        "dim": "媒体",
+        "title": "Why the stakes are high for Missouri in Trump’s Canada tariffs - News From The States",
+        "source": "News From The States",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3NGRVo1VjczMXBTaW1tUlFiN0IyZUdNNlIzbUhubzNDaTBqcWJPU2dERXlaY1hVUjZUSkRZaEx1SEJ1cnIzLTI0SWlmWWdpc2ZmRUxlcFR0eDY2dWFyV29yRlNaczl6bHZZN0FIXzRSNU5iY1pLYkVtRE1tOEgtWXdRWExOcUk2aEZ0YVNPZTZQcnNJTGZj?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Who are Iran’s top trading partners US would need to target to isolate it? - Al Jazeera",
         "source": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDkwbm1VSWQ1Qk96aDA1dzU5V1JBM1VIbERRbTM2d2lGS2NPbV9uZ3RSYkhCdDZtZGdXZWlBc0w1R3JuWWUtdzhhUFVsR0pPNVRoVEI3TVBFdVJwVEdnR3M3Q1d5NFd4Z3UwTGdqb0dLaUhfc0EwRl8yVlFKaWVnOVVIQ3lTZ215QjVNVEViQUhCY0xEWkNrQzQtZldCZ1JCLXBjNWc4SlpCMGR5bmJ6eGNLUdIBuAFBVV95cUxQTEkwVEZfSWo4YTdCamRzTkd6cnBpQnIyS0RqQnZycVVqQ0tGQ2VVRV9ESGF4WGwweVNaLVBjNGlQcU51SHlJNjhTVzJ1NDZYd0JtLWxCS3laa2tsbVVTM2xlQzd4eU5iM3VhWE1pdHVtZ1p3Y29PemoxRjVMUUw5bXZ6eVcwcFhmcVF0YzM0Wkc4VE5SbjU2YWxfT2wxV0p6MXFuZGxVLU9MRFpDRVJrNkJLTHBnV3lN?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSl83YVdteHJRemxNWlBpWUJLa3JkbDZMalFaNFc3c2tvX0xQNWFpWlVLaEppWWFaSmx4aHRZTVBmRWUxMXVKbVpaS20zSUVKaGlRRnU3TWlBajFBbHRLRElWbVNDYkN2SDVMY2NhRG83V29zVUxQQ2JOWFRNdG1tUUZB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "建材与房地产"
   }
 }

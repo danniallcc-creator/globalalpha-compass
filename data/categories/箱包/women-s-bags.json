@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "女士包袋：海外社媒「bag supply chain」增速 246%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「China Kraft Paper Shopping Bag - Market...」。",
+    "trend_summary": "女士包袋：海外社媒「bag wholesale supplier」增速 252%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「European Union Kraft Paper Shopping Bag...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 女士包袋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 女士包袋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 女士包袋 通关",
-      "海外社媒「bag supply chain」增速 246% 领跑 → 女士包袋社媒种草热度爆发"
+      "海外社媒「bag wholesale supplier」增速 252% 领跑 → 女士包袋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "bag supply chain",
-        "growth": 245.5,
-        "vol": "484K",
+        "platform": "google",
+        "kw": "bag wholesale supplier",
+        "growth": 252.5,
+        "vol": "797K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "backpack new arrival",
-        "growth": 243.5,
-        "vol": "470K",
+        "kw": "bag viral",
+        "growth": 228.5,
+        "vol": "721K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "bag tiktok made me buy",
-        "growth": 236.5,
-        "vol": "758K",
+        "platform": "x",
+        "kw": "bag supply chain",
+        "growth": 223.5,
+        "vol": "152K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 223.5,
+        "kw": "bag wholesale supplier",
+        "growth": 249.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "backpack b2b export",
-        "growth": 110.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China Kraft Paper Shopping Bag - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb21NUC1uNC1oNlBXbzhicktvcmstbjl2YjJFbmpFTnptY2s1S194VGljT05wd3lhUkdzSEFFeEgyYmtKRzhSem5kVU9lbDZVcWhtNTdBSFhtcXVONFlVX1JYWEJEWDlGd0hJUnMwb1RNcUdFb0I5VlV1TFZqV1RyR2hSdG5zMVRoUTBEQzhFWFc3bFJFS2l2cVdtSUxqZ1BCNlRoNmp3SGNQbVowaU9JVQ?oc=5",
+        "growth": 207.0,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "European Union Kraft Paper Shopping Bag - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbm5xZ0h3OHQtWHoybkhFOWc1Zl84Ri02azhrM3NzY3BHM1h4YWhyVS1HemJqdktvbFpCSGFwV1hXTG12MUMzWWh2bWNoRzZyZHZ0VXBHSVpQRFlXUFNld1BXQ0NSMl82a3RHZzRqNHpmMVpFLWYxb0FkeFBLZ0RDTnFGc0JRT2xGV3hXWXRJNXAzNmNiMUVyQUhpUTRFQmt5ZXBvaWktNVpyZkNjYnZpVG8yRUE4Z080ZVNqcA?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "GLOBAL MARKET OVERVIEW ONIONS - FreshPlaza",
+        "source": "FreshPlaza",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0pJU2VZSUdETTdzdzFNWGhGR1JNbnp4bGRoOFlrSW1yaDJkOWVSQ3ZPTDJMaFUyZzBFSWVkVURUM2l1UmhNeGZUbFFRbjI2NUJNX29jOWNXX0VITk5CRzExdW5yaXZmaXdkMFEwQzBPc1JlTWp1cFNOalhCZDBWRGJGdnFoTGxlejNIeHJBeGg?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-08-26",
+    "generated_at": "2026-08-27",
     "l1_ref": "箱包"
   }
 }
