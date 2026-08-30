@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "香水和香氛：海外社媒「skincare viral」增速 252%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Fortune Business Insights关注「Cosmetics Market Size, Share, Trends &...」。",
+    "trend_summary": "香水和香氛：海外社媒「skincare supply chain」增速 248%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Businesskorea关注「K-Beauty Exports Hit Record in Colombia...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 香水和香氛 出口需通过合规认证",
       "美国 FDA 注册要求 → 香水和香氛 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 香水和香氛 制造门槛",
-      "海外社媒「skincare viral」增速 252% 领跑 → 香水和香氛社媒种草热度爆发"
+      "海外社媒「skincare supply chain」增速 248% 领跑 → 香水和香氛社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "skincare viral",
-        "growth": 252.5,
-        "vol": "723K",
+        "platform": "x",
+        "kw": "skincare supply chain",
+        "growth": 248.5,
+        "vol": "91K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "skincare tutorial",
-        "growth": 241.5,
-        "vol": "182K",
+        "kw": "beauty factory tour",
+        "growth": 237.0,
+        "vol": "103K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty #trending",
-        "growth": 239.5,
-        "vol": "669K",
+        "platform": "youtube",
+        "kw": "cosmetic unboxing",
+        "growth": 227.0,
+        "vol": "560K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 210.0,
+        "growth": 126.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 143.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Cosmetics Market Size, Share, Trends & Growth Forecast 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OdjR6ZWRJdVRzVUh6ZTN4dmlMR3lMLXE1cXdVTm1QZEEtWTBIVmpod1R4ZGk5OUY2MjNDRHZacUJfcHh0SHFTb3djTm13cTNqYkllaGdpRHBVQmN2Ui10cmUwcFBVNDEzd0RLTnJxdFA?oc=5",
+        "source": "Linkedin",
+        "kw": "beauty cosmetics export opportunity emerging markets",
+        "growth": 85,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "K-Beauty Exports Hit Record in Colombia - Businesskorea",
         "source": "Businesskorea",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rcFlkbGEtMnNUUWVVbmFudFFCRm96dkJzTmx4ZnViYU5MVF92R08xWUswVFdmOWtjdkFLNHVUQ0lZMEEtRFVOeGtqUE1lNklFT3FieXZKcE5vSHFDNnRrWk5ybnJlSjRUVnhNN3FnbWJLWVhq?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "From K-Beauty Momentum to a Global Beauty Ecosystem - The Worldfolio",
+        "source": "The Worldfolio",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeUZTQ093OUdMWkMxWWRGTkQxRWMybzM3Ui1yR0lldk5XalJua1VsM05Sc0ZnZUdNZDJqbXMzZ0JYZ0c5SnUya3ZFWkNvNXNCa1VEQ3ZzUV9FQ2FTc2F0TDBYY0VTbGdNem51YzFVeVM2dmZtcWZBNmtMUkJONnZGX0xienhjOXhrSEtwRnhNZ0JfRkFIekZ1Mnhmdw?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-08-27",
+    "generated_at": "2026-08-30",
     "l1_ref": "美妆"
   }
 }

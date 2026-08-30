@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "园艺用品：海外社媒「garden market alert」增速 249%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「White House props up yen against...」。",
+    "trend_summary": "园艺用品：海外社媒「home decor breaking」增速 254%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，WSLS关注「Trump moves toward levying new tariff...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 园艺用品 出口需通过合规认证",
-      "海外社媒「garden market alert」增速 249% 领跑 → 园艺用品社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 254% 领跑 → 园艺用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "garden market alert",
-        "growth": 249.0,
-        "vol": "61K",
+        "kw": "home decor breaking",
+        "growth": 253.5,
+        "vol": "102K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "garden b2b export",
+        "growth": 253.0,
+        "vol": "294K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "home decor tutorial",
-        "growth": 240.5,
-        "vol": "614K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "garden trending now",
-        "growth": 234.0,
-        "vol": "480K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "home decor market 2026",
-        "growth": 194.5,
+        "kw": "home decor review 2026",
+        "growth": 230.5,
+        "vol": "615K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "garden b2b export",
-        "growth": 131.0,
+        "growth": 250.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 219.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "White House props up yen against backdrop of Washington-Tokyo trade deal - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVpySnlsWXZKMmY5SWlncnlGOVdlOVVtcXYzQk1WbmFJNHp5X3BpM1ZRZFFTeDJSeGUtNGowb3p4djJtdWxSQ3MzUDJlN185aDhaU0tHMU1ONTBkdzVrd2JFanVkVHhSNTFFWUFuVEowbUNBdUlRVFR0RV9aa3Q5VkpaT0l5TWtleGI4bXp3ME4yM1JyWWZHSXhkWHZ0ck5WMzUzSFg4R2t0QlNmSFkxc1Y5d2l2U25fS25UVXdJbWN5X0xobWhtZQ?oc=5",
+        "title": "Trump moves toward levying new tariff on China for flooding market with cheap goods, AP sources say - WSLS",
+        "source": "WSLS",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPelc2ZmZvVkM4b0hwbDJ3UUtTX2ZuZDg0QUYzWV9fTktWNVAxRklYLVN6WllCa0liaGpUZTlPczFOUU0wdzVkSk0xRGlqRUdPVmI3dUstT19HUG1leWlDMnpqVHBNbFVneEl6RDZnYWFBTDczM3N3akl3dUJpZzg0TWZpOVhtcGZvRE1jdm5iWUNSZmdmcWNJTGZCSzNQUkstb1RBN3d2bm1XbUtFbWxqSWxhUExDWFFXdmRWbEdJUlVZT2lyRGhwbVBfd1oyOUVIMFBITkd5aw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-27",
+    "generated_at": "2026-08-30",
     "l1_ref": "家居园艺"
   }
 }

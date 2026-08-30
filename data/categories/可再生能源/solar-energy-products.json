@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「photovoltaic market alert」增速 255%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，IEA – International Energy Agency关注「Energy technology manufacturing is...」。",
+    "trend_summary": "太阳能产品：海外社媒「energy storage tutorial」增速 236%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，BloombergNEF关注「Six Months In: The Iran War’s Global...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能产品 出口需通过合规认证",
-      "海外社媒「photovoltaic market alert」增速 255% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「energy storage tutorial」增速 236% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "energy storage tutorial",
+        "growth": 236.5,
+        "vol": "162K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "photovoltaic market alert",
-        "growth": 255.0,
-        "vol": "446K",
+        "kw": "solar analyst",
+        "growth": 208.5,
+        "vol": "649K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "battery trending now",
-        "growth": 252.0,
-        "vol": "241K",
+        "kw": "solar must try",
+        "growth": 204.5,
+        "vol": "720K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "photovoltaic aesthetic",
-        "growth": 240.0,
-        "vol": "98K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "photovoltaic b2b export",
+        "growth": 155.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "energy storage wholesale supplier",
-        "growth": 198.5,
+        "growth": 94.5,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "solar market 2026",
-        "growth": 125.5,
+        "dim": "媒体",
+        "title": "Six Months In: The Iran War’s Global Impact - BloombergNEF",
+        "source": "BloombergNEF",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWFFDOUxoTFVhc3haNzgzbVZ2aFF5R2plZjJNcXRSME1uYV91UDlNQ0hmMXJTeTFqYXFoMEJvNmZUN2RoVWw1Y0taNXdhdXJNeW1FZTdrTVNLN0Uwdk9TaHdoeTgyU2oxejFZOHRzUkE3YlBLTUxpUWRBaWlpeTFvWHRidlVKRkt5X2xLY0JGZw?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Energy technology manufacturing is rebalancing in a dynamic era for trade and industrial policy – Analysis - IEA – International Energy Agen",
         "source": "IEA – International Energy Agency",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS1hscnFCMGh0Qms1OG5QYW9UR0tWb2xZV3piaEZ2SnBEVVJEemFSVzY0eG9UOGV5VVhMY0lIckVmLTRuX01iY3pVUnliZFYtM1BJNUpDZnAzWERQWjk3YlpXRzc0UkxNdkQwalowTUpTMi1uYktEa2NscmpYOVk2LVVzT2Y2WW5KV2xtMXJRbi1ndENfSVZLN1lrZl9IWE9xRjVoWlJPWlhVYUttX2gzbE15dzJfazhEb0VXY19HREJzRU5lVTJN?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "How Southeast Asia Is Navigating a Fragmented Trading System - Asia Society",
-        "source": "Asia Society",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTVlLTk5lcDdWaFRFV2E5VGRkd25weVhTY25KRlZhcFd2bnZTa21fbm9GamQ0eXU2SzVtdmJXLThsZWl3amtPLXFCc1EzVHFjS1V6cDVRc2FyTEN1cVlNZFE3X0dEemJXd1FkM0JYSEE3QXhkZTVMNENZRkxUUFBQUUZLa1FZd3lYeXhjRDYxWXlyQ0NvRS1Td2hUYjU?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-08-27",
+    "generated_at": "2026-08-30",
     "l1_ref": "可再生能源"
   }
 }

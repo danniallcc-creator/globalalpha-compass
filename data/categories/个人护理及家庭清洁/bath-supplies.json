@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 19586342,
-    "total_net_weight_kg": 19086342,
+    "total_export_value_usd": 44165668,
+    "total_net_weight_kg": 3665668,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-27"
+    "fetched_at": "2026-08-30"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 62,
-      "trend_direction": "stable",
+      "interest_score": 42,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-27"
+      "fetched_at": "2026-08-30"
     }
   },
   "industry_analysis": {
@@ -52,49 +52,42 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-30",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
-      "overall": "neutral",
+      "overall": "negative",
       "positive_pct": 0.0,
-      "negative_pct": 50.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "negative_pct": 100.0,
+      "neutral_pct": 0.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "NextDAY Cabinets Highlights Six-Showroom Network Serving Trade Professionals Across Multiple Locatio",
-      "Canada-U.S. Trade War - Canadian Federation of Independent Business | CFIB"
+      "NextDAY Cabinets Highlights Six-Showroom Network Serving Trade Professionals Across Multiple Locatio"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdExQX3d3Y2RqN0ZJRFU3RmNIZEJsaHBTNHhQNFY3U052VndSVXZtUTBSZ3NNcE5jSTB5RTlZbjNkVGMtV19zMEltSUs2VzZWWXBaNmYxbFJmRlBNUEpHZDRCcVluR3BXa0p6aEg2LXBQN1pNaTFJajFHdmtJOWNvSl90bDNoYjNkMlhYcVB2VS1qeVRhc1NCTGlRTWxuck9nNEJwWTFNSWI2cl9oTkhjcC1jR3dnbV85UXMtM3ZoSTUtbDU2UU9XWk5yVl9meXgyWDJpWkFCa2tnaFJDNk1ENTlkNDhOcjd2dnFzcGdtWWNibm5aRnRn?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mSU1uRWRrNGJtV0tYTDV1ajJJR09QUlE0Tk1oUDB2d0xpUTE1b1dTc1VvODYyRE1CdzVUdURva1RkWndtNkRCTUljanhpTGhGUkxVZjNB?oc=5"
+      "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdExQX3d3Y2RqN0ZJRFU3RmNIZEJsaHBTNHhQNFY3U052VndSVXZtUTBSZ3NNcE5jSTB5RTlZbjNkVGMtV19zMEltSUs2VzZWWXBaNmYxbFJmRlBNUEpHZDRCcVluR3BXa0p6aEg2LXBQN1pNaTFJajFHdmtJOWNvSl90bDNoYjNkMlhYcVB2VS1qeVRhc1NCTGlRTWxuck9nNEJwWTFNSWI2cl9oTkhjcC1jR3dnbV85UXMtM3ZoSTUtbDU2UU9XWk5yVl9meXgyWDJpWkFCa2tnaFJDNk1ENTlkNDhOcjd2dnFzcGdtWWNibm5aRnRn?oc=5"
     ],
-    "fetched_at": "2026-08-27"
+    "fetched_at": "2026-08-30"
   },
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
+      "DE": {
+        "value_usd": 4167886467.4719954,
+        "yoy": -2.7,
+        "share": 67.8
+      },
       "JP": {
         "value_usd": 1683303551.453,
-        "yoy": null,
-        "share": 56.8
-      },
-      "KR": {
-        "value_usd": 769804434.0,
-        "yoy": null,
-        "share": 26.0
-      },
-      "BR": {
-        "value_usd": 217194518.0,
-        "yoy": null,
-        "share": 7.3
+        "yoy": 2.8,
+        "share": 27.4
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 9.9
+        "share": 4.8
       }
     }
   },

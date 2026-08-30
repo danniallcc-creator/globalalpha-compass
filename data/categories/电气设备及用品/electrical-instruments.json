@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电工仪表：海外社媒「electrical factory tour」增速 248%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「'They asked too much': Canadian dollar...」。",
+    "trend_summary": "电工仪表：海外社媒「electrical b2b export」增速 247%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Chinese power stocks slump after US...」。",
     "product_profile": {
       "外观": "手持便携 / 台式精密 / IP67 工业级",
       "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
@@ -49,52 +49,52 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电工仪表 成主流",
       "欧盟 CE 标志强制准入 → 电工仪表 出口需通过合规认证",
-      "海外社媒「electrical factory tour」增速 248% 领跑 → 电工仪表社媒种草热度爆发"
+      "海外社媒「electrical b2b export」增速 247% 领跑 → 电工仪表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical factory tour",
-        "growth": 248.0,
-        "vol": "575K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical industry news",
-        "growth": 237.0,
-        "vol": "660K",
+        "platform": "google",
+        "kw": "electrical b2b export",
+        "growth": 247.0,
+        "vol": "163K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "electrical viral",
-        "growth": 236.5,
-        "vol": "419K",
+        "kw": "electrical new arrival",
+        "growth": 237.5,
+        "vol": "552K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical wholesale supplier",
-        "growth": 226.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electrical breaking",
+        "growth": 222.5,
+        "vol": "704K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical b2b export",
-        "growth": 184.0,
+        "growth": 244.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 192.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83NFNjQUJ1RVkwU0YxVzBqLWdnY0tZc3RqTUVPVl9PeDF2LXc2MFZSRXRES252NWdFVXNpYTYtcXBuOEVCdXNHZE9UQ1JES3hHemFSME9JWU9kdFkwYzFTelVYY243eld3ZlVPMUtR0gFzQVVfeXFMUEc1X2k0MGN2ZENoQUh2X1Z6RkN6SGxVUDA3Ulh4RE90RXhtbENCMVE2UlVseXhpUFlKTl8xUDBFWF84d3pHdG90ZTVvMkdOa0FSUW5OSy05bG9yMVBINlVtRkozY3JsTXVCLVFkRGJJZ3hSbw?oc=5",
+        "title": "Chinese power stocks slump after US grid ban: is the sell-off warranted? - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaXpqX3hZN01lM3pvbjRadHB5TGt0bmpwdTJLSDNmalZqUmFYSk01a3FmZVVhUVFyNHdOX01yb191aFp2QmdPb29EVG9XMjRsS3lHTTRiMFNjajhCenFUVFJxcUpIOHJsdlBhZmQxOW9LWTdZdHZXMlZPNTU3Z1J1alZweVN1VVlHQUY5LWRuTkxlejlSb2tMeVlZd3VNZzJuN2lGbDN3bUpNdkc0TEY2ZDZCeFl1VUtJY3dB0gG7AUFVX3lxTE9pempfeFk3TWUzem9uNFp0cHlMa3RuanB1MktIM2ZqVmpSYVhKTTVrcWZlVWFRUXI0d05fTXJvX3VoWnZCZ09vb0RUb1cyNGxLeUdNNGIwU2NqOEJ6cVRUUnFxSkg4cmx2UGFmZDE5b0tZN1l0dlcyVk81NTdnUnVqVnB5U3VVWUdBRjktZG5OTGV6OVJva0x5WVl3dU1nMm43aUZsM3dtSk12RzRMRjZkNkJ4WXVVS0ljd0E?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "instruments",
-    "generated_at": "2026-08-27",
+    "generated_at": "2026-08-30",
     "l1_ref": "电气设备及用品"
   }
 }

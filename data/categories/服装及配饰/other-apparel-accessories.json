@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "其他服装及配饰：海外社媒「fashion market alert」增速 244%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Used Clothing in China Trade - The...」。",
+    "trend_summary": "其他服装及配饰：海外社媒「apparel factory tour」增速 248%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Used Clothing (HS: 6309) Product Trade,...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,52 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 其他服装及配饰 供应链合规升级",
       "欧盟 CE 标志强制准入 → 其他服装及配饰 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 其他服装及配饰 通关",
-      "海外社媒「fashion market alert」增速 244% 领跑 → 其他服装及配饰社媒种草热度爆发"
+      "海外社媒「apparel factory tour」增速 248% 领跑 → 其他服装及配饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fashion market alert",
-        "growth": 244.0,
-        "vol": "661K",
+        "platform": "youtube",
+        "kw": "apparel factory tour",
+        "growth": 248.0,
+        "vol": "612K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "apparel price trend",
-        "growth": 235.0,
-        "vol": "127K",
+        "platform": "youtube",
+        "kw": "fashion top 10",
+        "growth": 233.5,
+        "vol": "176K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fashion industry report",
-        "growth": 231.5,
-        "vol": "501K",
+        "platform": "youtube",
+        "kw": "apparel review 2026",
+        "growth": 222.5,
+        "vol": "635K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fashion b2b export",
+        "growth": 208.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "apparel market 2026",
-        "growth": 212.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "clothing wholesale supplier",
-        "growth": 202.5,
+        "growth": 176.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Used Clothing in China Trade - The Observatory of Economic Complexity",
+        "title": "Used Clothing (HS: 6309) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uUVZFWVUxY0xURXU3b1dZYUtPdVF5cDg5VG1nRVNaMGdwRE9NX0JLU1dZWVBPdEQzQ19fN002eGRUTXJfVHUyWnVwZ1pOY3dUajFkdkdFdTJNcWdDN1JaWUpLSXBCRDFVa2Vza0VLNlNTS0FxUmk1S2s3dDR0Zw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aa1ZJNEVFX1JpUDNkYVZWNU5VanNVNlpNS2hJaXVsQnVralhrUzdFOHBkSk5tWU54Q2lXNEF6cGtCZHJaZ21PN3RKRjZ0ZFQ5LWVoX04wQVQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-08-27",
+    "generated_at": "2026-08-30",
     "l1_ref": "服装及配饰"
   }
 }
