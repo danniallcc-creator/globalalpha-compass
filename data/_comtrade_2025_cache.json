@@ -334,9 +334,40 @@
         "source": "UN Comtrade",
         "data_quality": "estimated"
       },
-      "imports_from_china": {}
+      "imports_from_china": {
+        "DE": {
+          "value_usd": 37197415721.436035,
+          "yoy": 68.4,
+          "share": 48.4
+        },
+        "JP": {
+          "value_usd": 5527161124.805,
+          "yoy": null,
+          "share": 7.2
+        },
+        "AU": {
+          "value_usd": 6906149664.940001,
+          "yoy": null,
+          "share": 9.0
+        },
+        "IT": {
+          "value_usd": 2076646788.1780002,
+          "yoy": null,
+          "share": 2.7
+        },
+        "CA": {
+          "value_usd": 21043996578.246975,
+          "yoy": 8.0,
+          "share": 27.4
+        },
+        "MX": {
+          "value_usd": 4076210536.0,
+          "yoy": null,
+          "share": 5.3
+        }
+      }
     },
-    "fetched_at": "2026-08-23"
+    "fetched_at": "2026-08-31"
   },
   "2025_HS68": {
     "data": {

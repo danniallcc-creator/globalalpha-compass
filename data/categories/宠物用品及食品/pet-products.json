@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet market 2026」增速 252%，搜索端「pet products export opportunity emerging markets」热度上行，UK Amazon BSR Top-49，S&P Global关注「Global trade buoyed by surge in tech...」。",
+    "trend_summary": "宠物用品：海外社媒「pet top 10」增速 250%，搜索端「pet products supply chain resilience」热度上行，SA Amazon BSR Top-44，S&P Global关注「Global trade buoyed by surge in tech...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet market 2026」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet top 10」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet market 2026",
-        "growth": 252.5,
-        "vol": "783K",
+        "platform": "youtube",
+        "kw": "pet top 10",
+        "growth": 250.5,
+        "vol": "679K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food b2b export",
-        "growth": 248.0,
-        "vol": "373K",
+        "platform": "instagram",
+        "kw": "pet #trending",
+        "growth": 239.5,
+        "vol": "32K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 242.0,
-        "vol": "729K",
+        "platform": "x",
+        "kw": "pet breaking",
+        "growth": 239.5,
+        "vol": "403K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 58,
+        "kw": "pet products supply chain resilience",
+        "growth": 94,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products digital transformation",
-        "growth": 58,
+        "kw": "pet products export opportunity emerging markets",
+        "growth": 93,
         "hits": 2
       },
       {
@@ -106,25 +106,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 49,
-        "title": "Top pet food - Smart Edition",
-        "price": "$279.1",
-        "rating": 4.8,
+        "market": "SA",
+        "rank": 44,
+        "title": "Top pet - Compact Edition",
+        "price": "$15.8",
+        "rating": 4.7,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 38,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$44.5",
-        "rating": 4.1,
+        "rank": 33,
+        "title": "Top pet - Premium Edition",
+        "price": "$232.0",
+        "rating": 4.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-30",
+    "generated_at": "2026-08-31",
     "l1_ref": "宠物用品及食品"
   }
 }

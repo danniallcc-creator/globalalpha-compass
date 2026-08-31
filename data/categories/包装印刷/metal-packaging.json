@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 2514265,
-    "total_net_weight_kg": 2014265,
+    "total_export_value_usd": 26289500,
+    "total_net_weight_kg": 15789500,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-08-30"
+    "fetched_at": "2026-08-31"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 41,
-      "trend_direction": "stable",
+      "interest_score": 51,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-08-30"
+      "fetched_at": "2026-08-31"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Sustainable and smart packaging solutions. Active and intelligent packaging. E-commerce optimized packaging design. Personalized and digital printing on packaging."
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
@@ -63,6 +63,37 @@
       "source": "UN Comtrade",
       "data_quality": "estimated"
     },
-    "imports_from_china": {}
+    "imports_from_china": {
+      "DE": {
+        "value_usd": 37197415721.436035,
+        "yoy": 68.4,
+        "share": 48.4
+      },
+      "JP": {
+        "value_usd": 5527161124.805,
+        "yoy": null,
+        "share": 7.2
+      },
+      "AU": {
+        "value_usd": 6906149664.940001,
+        "yoy": null,
+        "share": 9.0
+      },
+      "IT": {
+        "value_usd": 2076646788.1780002,
+        "yoy": null,
+        "share": 2.7
+      },
+      "CA": {
+        "value_usd": 21043996578.246975,
+        "yoy": 8.0,
+        "share": 27.4
+      },
+      "MX": {
+        "value_usd": 4076210536.0,
+        "yoy": null,
+        "share": 5.3
+      }
+    }
   }
 }

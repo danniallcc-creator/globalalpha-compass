@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "冷却系统：海外社媒「auto parts new arrival」增速 244%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The American Action Forum关注「“Eh?”-conomic Warfare: The U.S.-Canada...」。",
+    "trend_summary": "冷却系统：海外社媒「auto parts trending now」增速 243%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Mexico (MEX) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 冷却系统 出口需通过合规认证",
-      "海外社媒「auto parts new arrival」增速 244% 领跑 → 冷却系统社媒种草热度爆发"
+      "海外社媒「auto parts trending now」增速 243% 领跑 → 冷却系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto parts trending now",
+        "growth": 243.0,
+        "vol": "348K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "auto parts new arrival",
-        "growth": 244.5,
-        "vol": "581K",
+        "kw": "auto parts must have",
+        "growth": 232.0,
+        "vol": "368K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "auto parts b2b export",
-        "growth": 244.0,
-        "vol": "723K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "auto parts review 2026",
-        "growth": 238.5,
-        "vol": "112K",
+        "growth": 229.0,
+        "vol": "595K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 241.0,
+        "growth": 226.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto parts wholesale supplier",
-        "growth": 179.5,
+        "source": "Linkedin",
+        "kw": "auto parts export opportunity emerging markets",
+        "growth": 90,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "“Eh?”-conomic Warfare: The U.S.-Canada Trade War - The American Action Forum",
-        "source": "The American Action Forum",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc2g2YTVnNFIwNmNtTmR3R2NHc2JGckVDcVNPZHllLWpMNmozM19idlZSXzhWd2RhOGZlMjRVY29xNHhEMzJQLVUtUXlGU01DNDFlbHBuaHdhNzB0X2JEOFhwR2N1ZFFtd3RFS2JqdnNqUzIzcGZjNGl6bDdsQ0ZVSS1EYXZoUXJTeGRNSG9EV1pCNTQ?oc=5",
+        "title": "Mexico (MEX) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HWlhzMDZKSmljVWdDZ1dhek45TzNibmpVWUhvLTZFLVA4Z19hTVVWSFJZTUI5SkxRY3FtbmVQcVZDa2l0SHA1b2VPaW1mZWlwRGc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-08-30",
+    "generated_at": "2026-08-31",
     "l1_ref": "汽车零配件"
   }
 }
