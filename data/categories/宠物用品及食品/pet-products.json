@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet top 10」增速 250%，搜索端「pet products supply chain resilience」热度上行，SA Amazon BSR Top-44，S&P Global关注「Global trade buoyed by surge in tech...」。",
+    "trend_summary": "宠物用品：海外社媒「pet #fyp」增速 230%，搜索端「pet products market trend 2026」热度上行，US Amazon BSR Top-37，Reuters关注「EU ban on animal products affects $1.8...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet top 10」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet #fyp」增速 230% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet #fyp",
+        "growth": 230.5,
+        "vol": "558K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "pet top 10",
-        "growth": 250.5,
-        "vol": "679K",
+        "kw": "pet food factory tour",
+        "growth": 221.0,
+        "vol": "122K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet #trending",
-        "growth": 239.5,
-        "vol": "32K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet breaking",
-        "growth": 239.5,
-        "vol": "403K",
+        "platform": "tiktok",
+        "kw": "pet must try",
+        "growth": 219.5,
+        "vol": "364K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 94,
+        "kw": "pet products market trend 2026",
+        "growth": 90,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products export opportunity emerging markets",
-        "growth": 93,
+        "growth": 84,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Global trade buoyed by surge in tech equipment shipments - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVW1sRnpPMC1KOVZFYXRuQVJDN3YzZmJ5b2ZFZUVEMmEydkg5el9hYlJtTWNnemhMNTdEVFBQTEZxVHg0Z3JfTEhSbzJwSGVFdzNIWXoxYVgtSUhhSS1pUElKYTZKQ1pSbmV6NERVa3FGX3NoWl9jcWpCd3QzVldwYW5GX09iZWJLbjZtcF9VLTNkVkFicVFKSHI3Q0tLdFNHTk9jQnBZamozLXBsQzlrektOY0FabGhQNHQ3YnF2WWhfZlEzcVBkaDBnQThFY0dW?oc=5",
+        "title": "EU ban on animal products affects $1.8 billion in Brazilian exports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRmxndTlHNFphUHAwZFE5QUJwOVN4N0VDQ1lCTy1RWlNvNm50Y2FDWjAyRjIxcHNab1NLYmNVZFgwUXFPX2dZYlJya1lIa21ZVTlLb25tZmFYY1ZFbGFJaWp3dDNpMHR3TmpIZDRVVWxjQ2d5U1d1eUpsaHoybndJLXUwbDRBd3EwMlZJVkZ3aVF0QVF5ZXpBSDhuNGZDU0tYLXRwVjNzdDlrZUI1RTc5RWhOcjlYNW9jU2lPRw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Singapore - December 2026 - USDA Foreign Agricultural Service (.gov)",
-        "source": "USDA Foreign Agricultural Service (.gov)",
+        "title": "Singapore - December 2026 - USDA (.gov)",
+        "source": "USDA (.gov)",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSakNFU1N4UTZtbkU0ZGhwN2JocmJzcnphd21WeTg1NDJvRlpmQnYtX1FLVkdlTjhqSE9FY19HaTRHbGNwaUVRY0VTWHNGaWVQcjE0THk5SGR0cTk4bzJ6N3JIZE9jYnZFNElwU2lLOEZDTU12QzUzZzFn?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 44,
-        "title": "Top pet - Compact Edition",
-        "price": "$15.8",
-        "rating": 4.7,
+        "market": "US",
+        "rank": 37,
+        "title": "Top pet food - Heavy-Duty Edition",
+        "price": "$19.5",
+        "rating": 4.2,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 33,
-        "title": "Top pet - Premium Edition",
-        "price": "$232.0",
-        "rating": 4.9,
+        "market": "DE",
+        "rank": 28,
+        "title": "Top pet food - Pro Edition",
+        "price": "$58.7",
+        "rating": 4.0,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-08-31",
+    "generated_at": "2026-09-06",
     "l1_ref": "宠物用品及食品"
   }
 }

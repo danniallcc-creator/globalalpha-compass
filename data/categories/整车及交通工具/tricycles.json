@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "三轮车：海外社媒「electric vehicle review 2026」增速 256%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: China's EV export boom is...」。",
+    "trend_summary": "三轮车：海外社媒「electric vehicle new arrival」增速 230%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，WSJ关注「War Is Helping Chinese EVs Upend the...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 三轮车 出口需通过合规认证",
-      "海外社媒「electric vehicle review 2026」增速 256% 领跑 → 三轮车社媒种草热度爆发"
+      "海外社媒「electric vehicle new arrival」增速 230% 领跑 → 三轮车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electric vehicle review 2026",
-        "growth": 256.5,
-        "vol": "779K",
+        "platform": "instagram",
+        "kw": "electric vehicle new arrival",
+        "growth": 229.5,
+        "vol": "747K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "electric vehicle tutorial",
-        "growth": 253.5,
-        "vol": "60K",
+        "growth": 224.5,
+        "vol": "498K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "ev aesthetic",
-        "growth": 251.0,
-        "vol": "562K",
+        "platform": "x",
+        "kw": "electric vehicle supply chain",
+        "growth": 212.5,
+        "vol": "228K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle wholesale supplier",
-        "growth": 221.5,
+        "growth": 113.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 125.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "COMMENTARY: China's EV export boom is starting to show up in the gasoline market - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2huWXltQ2pZM3ZsdXhLQjFfZUszdDZ4M3Y0cUZJZTJySGlzckhablQyRS0xOV91c0VlUmstVERBcDkxaW90VXI2RFNmV3BCeXpOWE84YmR6Ql9hWmxHYkhKaFhtRDVzTGVYTXA1emFyMDJNYkZmeEdQdzltblIzaEFJUDh4VFNUOWlibm1laWZ3OGw3Z0hmYnNNbHluMzRWRm5tNlg4VjdYeHl5cjVuMVBRM2MzRl8xdkZIWHQ1UldmSmdR?oc=5",
+        "growth": 95.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "War Is Helping Chinese EVs Upend the Global Car Market - WSJ",
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY0VYNHI0R1N6RUhRWGFRMlNDNGlickNVblpPX2hFbmdpd0dacEhrQ3hvYUJqYUt3OVhyUlEzT0VKRHF2S1dGUFc3N1hGZ1l5UHJoLUFKRnNMM3d3MUpWMURfRkNsMjNXQVQxUjdxRFR0NDE3TXEwWDFHZHlaTVJZNEtOQTBfeVhYYnJmaXVZUnRVbklDbzN5V1MxZDRPNzQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s Green Exports to Europe Are a Bright Spot Amid Trade Tensions - The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0ZsQnY1SFk5QnRZY2h0N2VuSko0QUxWSXdiOXZ1ZF9RY0RZTEprOXZxb1h3NmhaWDYyZDVoY09KVmZsQUU4UlNKaC16RmFTR3FGdGNKQXViWGVOeFRCU0lzdTlybWxwYkNKM0ttd1RxZllibVEyQkU3dE9KVkhiQnc4NjdfNmRtZTJSRWVtQ2o5eUFPNGhMcTRReloyQ0pFRndn?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-08-31",
+    "generated_at": "2026-09-06",
     "l1_ref": "整车及交通工具"
   }
 }
