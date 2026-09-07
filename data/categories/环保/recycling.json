@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental review 2026」增速 254%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，The Diplomat – Asia-Pacific Current Affairs Magazine关注「China’s Green Exports to Europe Are a...」。",
+    "trend_summary": "回收：海外社媒「environmental tiktok made me buy」增速 242%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，The Diplomat – Asia-Pacific Current Affairs Magazine关注「China’s Green Exports to Europe Are a...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental review 2026」增速 254% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental tiktok made me buy」增速 242% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "environmental tiktok made me buy",
+        "growth": 241.5,
+        "vol": "404K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "environmental analyst",
+        "growth": 202.5,
+        "vol": "325K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "environmental review 2026",
-        "growth": 253.5,
-        "vol": "758K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "environmental wholesale supplier",
-        "growth": 237.5,
-        "vol": "163K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "environmental market 2026",
-        "growth": 230.5,
-        "vol": "10K",
+        "kw": "environmental top 10",
+        "growth": 197.5,
+        "vol": "511K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 234.5,
+        "kw": "green tech b2b export",
+        "growth": 121.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 227.5,
+        "source": "Linkedin",
+        "kw": "environmental green supply chain resilience",
+        "growth": 93,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "环保"
   }
 }

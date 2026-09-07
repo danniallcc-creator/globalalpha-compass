@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 2019304,
-    "total_net_weight_kg": 11519304,
+    "total_export_value_usd": 16448300,
+    "total_net_weight_kg": 5948300,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-06"
+    "fetched_at": "2026-09-07"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 42,
+      "interest_score": 51,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-06"
+      "fetched_at": "2026-09-07"
     }
   },
   "industry_analysis": {
@@ -52,58 +52,67 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 4,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 60.0,
+      "positive_pct": 75.0,
       "negative_pct": 0.0,
-      "neutral_pct": 40.0,
-      "articles_analyzed": 5
+      "neutral_pct": 25.0,
+      "articles_analyzed": 4
     },
     "top_headlines": [
       "Dry Bulk Shipping Rates Surge on Tight Capesize Vessel Supply - Supply Chain Brain",
       "Dry Bulk Shipping Rates Surge on Tight Capesize Vessel Supply - Bloomberg.com",
       "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
-      "2026 Inbound Logistics Top 100 Truckers - inboundlogistics.com",
-      "4 Best Shipping ETFs for 2026 and How to Invest - The Motley Fool"
+      "2026 Inbound Logistics Top 100 Truckers - Inbound Logistics"
     ],
     "source_urls": [
       "https://news.google.com/rss/articles/CBMirgFBVV95cUxORXVmbVlrZG94aHFhWFdOM0FvRjdrUGRoOFpmMlBSODg3cjBaaEFITHNUQ2l5QnlYbUw2dkc0cXhsRWZYVFUybEFNTDJpMmdvcmxzTTBwQXlna3dkUDJwQ0puWWV5SDliNGJjV3NIVUFYRFVWNl9QQ2NucGZOekZSNzRsQV9QR0t3NmYyTGN4aEd2UWhYb3RETnpyblNMOWZRQkZqQnBYckw2WEdFSnc?oc=5",
       "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdnBCY09xWkhRU2hDMjJ4SFFkdERyWm41TC1OMWo4bmg4UmM2U1BzVzZEY25TVzNYcTZCSW5qOE9nVF84SWhrZDR0SW8zUU43MTItdzJCUmRfOS00VnVEczN6TnJETkxSM21WTEZ2MGxLVS1iUXlZMExGUnpEYlNzVlY3UlFxdFBoY3NfRWF3U3dIM0t0ME5UOGJuMnpWc3FEeFFKNkxxdHJJb3pQU3VKYjZ3?oc=5",
       "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5"
     ],
-    "fetched_at": "2026-09-06"
+    "fetched_at": "2026-09-07"
   },
   "customs_2025": {
     "china_export": null,
     "imports_from_china": {
+      "US": {
+        "value_usd": 1667357613.0,
+        "yoy": -12.1,
+        "share": 15.4
+      },
       "DE": {
         "value_usd": 4167886467.4719954,
         "yoy": -2.7,
-        "share": 41.5
+        "share": 38.6
       },
-      "GB": {
-        "value_usd": 3374211388.828002,
-        "yoy": null,
-        "share": 33.6
+      "JP": {
+        "value_usd": 1683303551.453,
+        "yoy": 2.8,
+        "share": 15.6
       },
       "KR": {
         "value_usd": 769804434.0,
         "yoy": null,
-        "share": 7.7
+        "share": 7.1
+      },
+      "AU": {
+        "value_usd": 783918988.0309999,
+        "yoy": 16.4,
+        "share": 7.3
       },
       "CA": {
         "value_usd": 1433973434.1739974,
         "yoy": 21.5,
-        "share": 14.3
+        "share": 13.3
       },
       "MX": {
         "value_usd": 294081804.0,
-        "yoy": null,
-        "share": 2.9
+        "yoy": 23.6,
+        "share": 2.7
       }
     }
   },

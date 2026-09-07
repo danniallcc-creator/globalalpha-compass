@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "显示屏、数码标识、光电子：海外社媒「5g #fyp」增速 252%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，newsweek.com关注「Eight US States Doug Ford Wants Canada...」。",
+    "trend_summary": "显示屏、数码标识、光电子：海外社媒「semiconductor price trend」增速 233%，搜索端「chip wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「China (CHN) Exports, Imports, and Trade...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -50,52 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 显示屏、数码标识、光电子 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 显示屏、数码标识、光电子 成主流",
       "欧盟 CE 标志强制准入 → 显示屏、数码标识、光电子 出口需通过合规认证",
-      "海外社媒「5g #fyp」增速 252% 领跑 → 显示屏、数码标识、光电子社媒种草热度爆发"
+      "海外社媒「semiconductor price trend」增速 233% 领跑 → 显示屏、数码标识、光电子社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "5g #fyp",
-        "growth": 251.5,
-        "vol": "436K",
+        "platform": "google",
+        "kw": "semiconductor price trend",
+        "growth": 233.0,
+        "vol": "308K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chip tiktok made me buy",
-        "growth": 251.5,
-        "vol": "155K",
+        "platform": "x",
+        "kw": "semiconductor industry news",
+        "growth": 233.0,
+        "vol": "10K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "5g must try",
-        "growth": 247.5,
-        "vol": "430K",
+        "platform": "x",
+        "kw": "5g analyst",
+        "growth": 220.5,
+        "vol": "292K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chip wholesale supplier",
+        "growth": 142.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 234.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "5g market 2026",
-        "growth": 99.5,
+        "growth": 132.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - newsweek.com",
-        "source": "newsweek.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
+        "title": "China (CHN) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDMHV0M3ZTYWZDX3EtWG9CZE1QZnVqZWpNVmtXbk9DVkVpM2xZYU51enNycWlnN1NSZ2wzclctWk9rSVdnTUZOdl91UmJFSFRTQ3c?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

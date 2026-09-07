@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "软件开发：海外社媒「tech service must try」增速 244%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Statistikmyndigheten SCB关注「Services exports strengthen the trade...」。",
+    "trend_summary": "软件开发：海外社媒「tech service #trending」增速 252%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，unctad.org关注「Digital services exports are growing...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 软件开发 出口需通过合规认证",
-      "海外社媒「tech service must try」增速 244% 领跑 → 软件开发社媒种草热度爆发"
+      "海外社媒「tech service #trending」增速 252% 领跑 → 软件开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "tech service must try",
-        "growth": 244.5,
-        "vol": "403K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "tech service viral",
-        "growth": 219.5,
-        "vol": "448K",
+        "kw": "tech service #trending",
+        "growth": 251.5,
+        "vol": "465K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "software outsourcing b2b export",
-        "growth": 217.0,
-        "vol": "465K",
+        "kw": "tech service wholesale supplier",
+        "growth": 250.5,
+        "vol": "166K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "software outsourcing market alert",
+        "growth": 248.0,
+        "vol": "351K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "tech service wholesale supplier",
+        "growth": 247.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "software outsourcing b2b export",
-        "growth": 214.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "tech service market 2026",
-        "growth": 208.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Services exports strengthen the trade balance - Statistikmyndigheten SCB",
-        "source": "Statistikmyndigheten SCB",
-        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOVjBPSHNUZllMQmdmYW9jcnhTdGxST1FPTVRjeXUxU29sVFFHNkRMYW5OWm5PRzF3eTE4UDJtNWxCOGY1Mk9hM2lYTGRaQ3lkUGIwRUtkR0FmWjZCNlZSRXBHWWpqdXgxYXNiNXktdjhwd05fQzRXS2Ftc3lZS2JVVWpJd3NfZGYzekdQTHlBNEl5UUt5X0ZGWk1TYmZsY2dKSDJZaHZMN1N2ZlBsZ1RNWHJLSzhFanl2NDlRcnpuVmZ5TFV3QWE3TWZaR3dDb3FPM3Q0N0EteUt0Q2RFR1RsRXpkeEJWZVVfS29HMG9ELUxUZkt1cTkwQ2FxSXlCQ0JQNmZxelRFdG1IeGdCV2dKcHR3akd3OXlTWm5VRTBDcGtWc1RBZmhpa29XY1Nab0pOMHY4?oc=5",
+        "growth": 112.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Digital services exports are growing fast. Least developed countries are not keeping pace - unctad.org",
         "source": "unctad.org",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdk1pWFVab3dRRTVEaXM2a2JQUmYwYUU4b0hYY3NaTVVDNXNGTUY4NlZ2NmFfamE3NWxRUlhLR21mU3Utb3pmTE9LcTZmd1YtSkx2c244Z2d0Q2UzQV82Q2NLUUo2ZkMwdFhHU25GcXFBQ214WmZjN2MyMHdOc3NlV3VDeWowY1dfcWhRWGxfc3Aza0h6WU83bWdaU3RIQThTOEQ4b3ZHdzRhN1Z3OFJPVmZn?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s Economy Presses Forward Despite Headwinds - China-US Focus",
+        "source": "China-US Focus",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0xLaWNFWm1na21GMk9DdVRDeUd2MGlsbUxKZHNGdzJUcHlXaE5PWVg5cjA5VzI3dU1PRGU2eUgybERWVkVBcDdlR3VtUFJPUFRCT3F1Z2c1WWJoZ1BwWndLWDlTN25OREN3WjF0V3loZF9udzV0alhKekNCMlQ4OUhxRGZXazdpVkJjY3FWeEZrS3ppUWVpNQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "开发与技术服务"
   }
 }

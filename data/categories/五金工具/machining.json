@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "82",
-    "total_export_value_usd": 10055640,
-    "total_net_weight_kg": 9555640,
+    "total_export_value_usd": 22829453,
+    "total_net_weight_kg": 2329453,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-06"
+    "fetched_at": "2026-09-07"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 61,
-      "trend_direction": "up",
+      "interest_score": 87,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-06"
+      "fetched_at": "2026-09-07"
     }
   },
   "industry_analysis": {
@@ -52,30 +52,62 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 27703148003.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
+      "US": {
+        "value_usd": 3159617282.0,
+        "yoy": -12.1,
+        "share": 9.1
+      },
       "DE": {
         "value_usd": 15268423409.555004,
         "yoy": null,
-        "share": 85.8
+        "share": 43.9
+      },
+      "JP": {
+        "value_usd": 1206550334.803,
+        "yoy": null,
+        "share": 3.5
+      },
+      "GB": {
+        "value_usd": 6422621255.686015,
+        "yoy": null,
+        "share": 18.5
       },
       "KR": {
         "value_usd": 662948129.0,
-        "yoy": null,
-        "share": 3.7
+        "yoy": 8.5,
+        "share": 1.9
       },
-      "IT": {
-        "value_usd": 366877504.237,
-        "yoy": null,
-        "share": 2.1
+      "BR": {
+        "value_usd": 962172946.0,
+        "yoy": 14.4,
+        "share": 2.8
+      },
+      "SA": {
+        "value_usd": 284983374.22800004,
+        "yoy": 13.0,
+        "share": 0.8
+      },
+      "CA": {
+        "value_usd": 5299803472.770006,
+        "yoy": 23.9,
+        "share": 15.2
       },
       "MX": {
         "value_usd": 1498056628.0,
         "yoy": null,
-        "share": 8.4
+        "share": 4.3
       }
     }
   }

@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 75,
+      "interest_score": 54,
       "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-06"
+      "fetched_at": "2026-09-07"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing tiktok made me buy」增速 250%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，Stockholm Environment Institute关注「Trase brings greater transparency to...」。",
+    "trend_summary": "代理采购渠道&区域：海外社媒「sourcing #trending」增速 252%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Stockholm Environment Institute关注「Trase brings greater transparency to...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购渠道&区域 出口需通过合规认证",
-      "海外社媒「sourcing tiktok made me buy」增速 250% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
+      "海外社媒「sourcing #trending」增速 252% 领跑 → 代理采购渠道&区域社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "sourcing #trending",
+        "growth": 251.5,
+        "vol": "378K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "sourcing tiktok made me buy",
-        "growth": 249.5,
-        "vol": "477K",
+        "kw": "sourcing #fyp",
+        "growth": 243.5,
+        "vol": "392K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "sourcing review 2026",
-        "growth": 238.5,
-        "vol": "659K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 236.5,
-        "vol": "625K",
+        "platform": "instagram",
+        "kw": "sourcing viral",
+        "growth": 227.5,
+        "vol": "69K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 233.5,
+        "kw": "sourcing wholesale supplier",
+        "growth": 181.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 79.0,
+        "growth": 112.0,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Best Sourcing Agencies in Vietnam: Top 5 Agents and Insider Manufacturing Tips - lepetitjournal.com",
-        "source": "lepetitjournal.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUR6VTlxb1NwMzdQVm5ZcUFISnZKWDJRTEx2Tkp2bm5NM1M0bXdHVFBuSVZ5Um5RX2xUMlNqTkZKSG02Z1d4RVlaYXZnd3pCYTVkTWpkMUdPTXZrcVBlZWtfWDJfY1lLRkhqSnhOX3JpQ2JFYnJPRTg1NndUbjNxRUtn?oc=5",
+        "title": "With 100% Tariffs Looming, Indian Suppliers Lay Plans to Pivot Away from the US Market - WWD",
+        "source": "WWD",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEU5dDYxYTBnTnczcEJ1Q1N6UU1ldmJMeHgyay1OUVpZdXVtRkRNTGo1Rm85eFJoRzZiem5ua0VrT2JJZTRpS2JBeTBCZV9sSFl2MHhsNE5jLVpRdWgtU00xMEpvRFU3dVUyaWZTNHRpNV9KZTBNVTlreUc2bUVQUmt1ZlZNQXVxQVpSUGhqYVpyVUV5RTRZRWpBMWtfMDMwZjhndDk4bnRPS1FPaFUzekxfNHZ1ZUM3?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "代理采购"
   }
 }

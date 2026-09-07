@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "塑料建材：海外社媒「building viral」增速 248%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「What new tariff walls in U.S.-Canada...」。",
+    "trend_summary": "塑料建材：海外社媒「building #fyp」增速 244%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，S&P Global关注「INSIGHT CONVERSATIONS: Cement industry...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 塑料建材 出口需通过合规认证",
-      "海外社媒「building viral」增速 248% 领跑 → 塑料建材社媒种草热度爆发"
+      "海外社媒「building #fyp」增速 244% 领跑 → 塑料建材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "building viral",
-        "growth": 248.5,
-        "vol": "106K",
+        "platform": "tiktok",
+        "kw": "building #fyp",
+        "growth": 243.5,
+        "vol": "199K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building tiktok made me buy",
+        "platform": "google",
+        "kw": "building industry report",
         "growth": 241.5,
-        "vol": "92K",
+        "vol": "434K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building must try",
-        "growth": 239.5,
-        "vol": "169K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 197.0,
+        "platform": "google",
+        "kw": "building market 2026",
+        "growth": 240.5,
+        "vol": "718K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 102.5,
+        "growth": 237.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkczaThjMDgwN2t0TGpkZzBIOWVlNGF6ZHJWYjRKcTl0ZDhiSFNxNVNETEJuY0FtUnVHR19RbGlQdXowZUd2T1E3TUVIMVptdFNkR2s0eGdvLWZERG1sUjQxaGFmek9hVi1vREMwU294R3N5dzFLakgxVHUyYU9zRGRMSThBcVRGaFZsZDRsc1dZQW9HOTQwYkt30gGfAUFVX3lxTFA5b21UZDdNQUtCOUw1Q3AtclpxZ0g1NVNrckdQMEF6eHNGYXNGTkhxa0IyTzg1SlhHekFrTjh4VE1paUNrZ3Z0d1RLelh1dEtVZGwyTWpwQXFscFpHU3FESE5KTDN2dFY2MWVoYlk0Z1I2alpIOUpzTHpXUTRnMFREV1BqY3EzYllfVnR4MktjaXJoMG9DMkRkZE5iNHpUMA?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building wholesale supplier",
+        "growth": 153.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "INSIGHT CONVERSATIONS: Cement industry leaders on growth, decarbonization and competitiveness - S&P Global",
         "source": "S&P Global",
         "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYmt4UWxRaFY5czJ0ZWhIX3BFTDhVVjJiWnVkcjBqM2VPTTR3c2FIOHVNbVh5RW1iR0M2YTRIZTdqaVlYeXpnLVd0b2NNZW1nMllKdnBSOTQ0OWxzQ0JDMENyZFZIQjlGUFhYdjJnYjhDMWQ5cnN6LXFnd2dqaGRKWWlzNlBGYXR2TWlnckI4ZnZHSlRxQXFVaWVKTFhKZkQzWkI3NFk4VXpWYXFCeFhNU25DaVJldjM0VDdFSWUtZ293UzdQUGdUelRXNURxdUdGRnFoY25LRlgzVmRkOG5odlhtdmxLd2tzcURWY3RB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkczaThjMDgwN2t0TGpkZzBIOWVlNGF6ZHJWYjRKcTl0ZDhiSFNxNVNETEJuY0FtUnVHR19RbGlQdXowZUd2T1E3TUVIMVptdFNkR2s0eGdvLWZERG1sUjQxaGFmek9hVi1vREMwU294R3N5dzFLakgxVHUyYU9zRGRMSThBcVRGaFZsZDRsc1dZQW9HOTQwYkt30gGfAUFVX3lxTFA5b21UZDdNQUtCOUw1Q3AtclpxZ0g1NVNrckdQMEF6eHNGYXNGTkhxa0IyTzg1SlhHekFrTjh4VE1paUNrZ3Z0d1RLelh1dEtVZGwyTWpwQXFscFpHU3FESE5KTDN2dFY2MWVoYlk0Z1I2alpIOUpzTHpXUTRnMFREV1BqY3EzYllfVnR4MktjaXJoMG9DMkRkZE5iNHpUMA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "建材与房地产"
   }
 }

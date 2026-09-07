@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "洗衣设备：海外社媒「appliance #trending」增速 244%，搜索端「appliance market 2026」热度上行，US Amazon BSR Top-12，wkow.com关注「Canada just announced new tariffs on US...」。",
+    "trend_summary": "洗衣设备：海外社媒「appliance viral」增速 248%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，CNN关注「Canada just announced new tariffs on US...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 洗衣设备 出口需通过合规认证",
-      "海外社媒「appliance #trending」增速 244% 领跑 → 洗衣设备社媒种草热度爆发"
+      "海外社媒「appliance viral」增速 248% 领跑 → 洗衣设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "appliance #trending",
-        "growth": 243.5,
+        "kw": "appliance viral",
+        "growth": 248.5,
         "vol": "699K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "appliance top 10",
-        "growth": 220.5,
-        "vol": "629K",
+        "kw": "appliance review 2026",
+        "growth": 241.5,
+        "vol": "556K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "appliance unboxing",
-        "growth": 182.0,
-        "vol": "186K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance market 2026",
-        "growth": 108.5,
+        "platform": "tiktok",
+        "kw": "appliance #fyp",
+        "growth": 239.5,
+        "vol": "793K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 95.0,
+        "growth": 175.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance market 2026",
+        "growth": 133.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - wkow.com",
-        "source": "wkow.com",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeUJZWmNsQmU4Y3NtQW9abUdkbVR6MzcwUmVHOHJac2VLZC1HclI4Znc2R1J4RkxiTzRfLVpTendrZlRlQ1dkbThRTHRxMVVyOVo0b3c1TFN2ODBkWDJIQ3huYmdzYkFaUFF4djF6TmxMMmh3OVRaVWpqR0RWZXRuNzJzdFlHSnFmeXVkVUg3Q3NBRU1INUJlbXdGSDZOSGw1WWxTeTF5d2N4ckpVLXpiRW5wQi1iaEx2TldrazNkQW94NjMtZjdQekx0T3FTZUJqSmpON1ppc0tSRFVwc2hURnp3OXRBQ3hneGhMejg1aEJTbmp0SHc?oc=5",
+        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSl83YVdteHJRemxNWlBpWUJLa3JkbDZMalFaNFc3c2tvX0xQNWFpWlVLaEppWWFaSmx4aHRZTVBmRWUxMXVKbVpaS20zSUVKaGlRRnU3TWlBajFBbHRLRElWbVNDYkN2SDVMY2NhRG83V29zVUxQQ2JOWFRNdG1tUUZB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-09-06",
+    "generated_at": "2026-09-07",
     "l1_ref": "家用电器"
   }
 }
