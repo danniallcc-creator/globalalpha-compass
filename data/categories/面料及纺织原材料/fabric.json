@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric industry news」增速 242%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-48，The Observatory of Economic Complexity关注「Knitted fabrics (HS: 60) Product Trade,...」。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 236%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-47，The National Law Review关注「Five Top Sofa Fabric Makers in China...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,82 +50,82 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric industry news」增速 242% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 236% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 242.0,
-        "vol": "381K",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 236.0,
+        "vol": "672K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "fabric viral hack",
-        "growth": 213.0,
-        "vol": "457K",
+        "growth": 215.0,
+        "vol": "597K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric aesthetic",
-        "growth": 209.0,
-        "vol": "746K",
+        "platform": "x",
+        "kw": "fabric industry news",
+        "growth": 169.0,
+        "vol": "328K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 58.0,
+        "growth": 111.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric market trend 2026",
-        "growth": 50,
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Knitted fabrics (HS: 60) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "title": "Five Top Sofa Fabric Makers in China 2026: Advancing Textile Quality and Sustainable Upholstery - The National Law Review",
+        "source": "The National Law Review",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX004LWg5dXNYbGl1OTY4OXNaYVgtcjEzVVcxTkZMbGYyT0w1QnlMQndvWXRzeTcyb0lhRGRQUGgtLUlCQVMzV1N6MVM5b25uVGxVdzNRM1lPdGdhMFFTdzNRMTBORDJhZ0IxUHdpUFJFbUdNNGh4dGh1Tnd5VHg0SlZ5ZVhSb29XUFhUTzdkcFRQWTFkUkpkMGNyd0NzRmI1ak1KMkpRWTdnY1Z0?oc=5",
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Made up fishing nets, of manmade textile materials (HS: 560811) Product Trade, Exporters and Importers - The Observatory of Economic Complex",
         "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHaHZCSEF6ajgtejRES2c5UWJtcVYydnlVQzNuMmhkTThaQ0tDazUxbW5lZk9GamJiSmR2bDdWN0l0QW9wN1BJcXBRU1lUR19GakVPaGM3dXZIYTQ?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Does AGOA’s third country rule damage African textile production? - New African Magazine",
-        "source": "New African Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtclFJUS13Smc3c0NrcVRUOUwxSEd4MVVfcTlmcVB6THpGUEw2TjJybEhYaGxRcWs2c0tlaGdMWm45TjFNakk4akNJMFhyMzJDOFVDVEg1MlQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ2cxZnE0ZGg3M0NJR2ZjS0cwQ1h6a0F2eDBKZ3pwcGtvTG9ZMGJlOUZZdTA2RlRDRk13cGtudVFiRlF4Q2pfejVpM3FIajk2ckhWX3ZteWJMVjM1dDZYUGFuaXprTWlWSUVCbXhGU0RiNU9NQlVJaEhlcFlYNjhucWExVjlTSnN0?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 48,
+        "rank": 47,
         "title": "Top textile - Premium Edition",
-        "price": "$13.0",
-        "rating": 4.2,
+        "price": "$181.0",
+        "rating": 4.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 38,
-        "title": "Top textile - Eco Edition",
-        "price": "$151.4",
-        "rating": 4.9,
+        "market": "US",
+        "rank": 42,
+        "title": "Top fabric - Heavy-Duty Edition",
+        "price": "$258.5",
+        "rating": 4.3,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-09-07",
+    "generated_at": "2026-09-08",
     "l1_ref": "面料及纺织原材料"
   }
 }

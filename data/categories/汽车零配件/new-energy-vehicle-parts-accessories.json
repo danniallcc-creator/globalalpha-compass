@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "新能源汽车零部件及配件：海外社媒「auto parts must try」增速 250%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Automakers thought Canada was getting a...」。",
+    "trend_summary": "新能源汽车零部件及配件：海外社媒「auto parts viral」增速 252%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「France (FRA) Exports, Imports, and...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 新能源汽车零部件及配件 出口需通过合规认证",
-      "海外社媒「auto parts must try」增速 250% 领跑 → 新能源汽车零部件及配件社媒种草热度爆发"
+      "海外社媒「auto parts viral」增速 252% 领跑 → 新能源汽车零部件及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts must try",
-        "growth": 250.5,
-        "vol": "407K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "auto parts viral",
-        "growth": 240.5,
-        "vol": "154K",
+        "growth": 251.5,
+        "vol": "398K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts viral hack",
-        "growth": 223.0,
-        "vol": "361K",
+        "platform": "google",
+        "kw": "auto parts wholesale supplier",
+        "growth": 234.5,
+        "vol": "248K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "auto parts price trend",
+        "growth": 233.0,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "auto parts b2b export",
-        "growth": 201.0,
+        "kw": "auto parts wholesale supplier",
+        "growth": 231.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 120.5,
+        "growth": 172.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Automakers thought Canada was getting a trade deal. Then tariffs doubled. - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNGxKTWY4NXdob1VndXB5N2ZlYUxGZ1VhVU9VNWM1M29rSHlrN0ZsX2c3QXVpalk0UlJQb1FqRElrU2dJcXFEcnpnS0NPYTdlSmdidHMwdXNqc25oMXhyUF81UzZ0OGlhamRVRDJrUmtXMFpCNEVzM2tnSnJUcmtSWFEwNWs0ODJpWEVUX0tGVUhzNlJfbFQ4alNFbm9oeTlySWVRUVJMLUJlZEp6MmJTbEJFYTgzTDh3Z3AxUEdCN2FGZUZIWG1qMlIzU0psSE5l?oc=5",
+        "title": "France (FRA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtQ0ZNV1pXSzFTcEVvLXB5UDJpWmlnaThPVWdxcnQzSFp0aFhUQ0ljM0ZHRkZWU1dUSmlTYzVtbktVRzJDVmg0aUdWNlMzYUZrZGc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Trump Says Tariffs Saved the U.S. Auto Industry. The Data Tells a Different Story - Time Magazine",
-        "source": "Time Magazine",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1EyWTktZm02aGJwUnZWODNiX1NjWGtiX1JzU05UODRSZnpRdms1QWlSQWtlbUJTQWZrTXBzM2M5U3d0aTYtSVpkcVBsNU9tUVMtXzREZkJOZWZfRnV5YkEtcVhoQ2VMc1RMeVZEbm90VFBndVpzaVIwUmhnT2JGMGRCN3Zpd0hCQmk5ZmgxZndsVUx0LW1lRUJTYw?oc=5",
+        "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkczaThjMDgwN2t0TGpkZzBIOWVlNGF6ZHJWYjRKcTl0ZDhiSFNxNVNETEJuY0FtUnVHR19RbGlQdXowZUd2T1E3TUVIMVptdFNkR2s0eGdvLWZERG1sUjQxaGFmek9hVi1vREMwU294R3N5dzFLakgxVHUyYU9zRGRMSThBcVRGaFZsZDRsc1dZQW9HOTQwYkt30gGfAUFVX3lxTFA5b21UZDdNQUtCOUw1Q3AtclpxZ0g1NVNrckdQMEF6eHNGYXNGTkhxa0IyTzg1SlhHekFrTjh4VE1paUNrZ3Z0d1RLelh1dEtVZGwyTWpwQXFscFpHU3FESE5KTDN2dFY2MWVoYlk0Z1I2alpIOUpzTHpXUTRnMFREV1BqY3EzYllfVnR4MktjaXJoMG9DMkRkZE5iNHpUMA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-07",
+    "generated_at": "2026-09-08",
     "l1_ref": "汽车零配件"
   }
 }

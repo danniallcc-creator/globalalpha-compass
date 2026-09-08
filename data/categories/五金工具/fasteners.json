@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 3506999,
-    "total_net_weight_kg": 13006999,
+    "total_export_value_usd": 43795621,
+    "total_net_weight_kg": 13295621,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-07"
+    "fetched_at": "2026-09-08"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 63,
-      "trend_direction": "down",
+      "interest_score": 76,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-07"
+      "fetched_at": "2026-09-08"
     }
   },
   "industry_analysis": {
@@ -52,66 +52,47 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 50.0,
+      "positive_pct": 0.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
-      "articles_analyzed": 2
+      "neutral_pct": 100.0,
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Sundram Fasteners completes Q1 FY27 earnings call, confirms no UPSI shared - scanx.trade",
-      "Sundram Fasteners rolls out V4 submersible pumps in four Tamil Nadu districts - scanx.trade"
+      "Australia Blind Rivet Fasteners - Market Analysis, Forecast, Size, Trends and Insights - IndexBox"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRVpfUjZTdmVuUWZnUjJlc2ZjWnpaeUJYdWVTbnFydm5xZU9ueGZhR193MnlXX19scWpBR1I4RVF4cnJqOWhWOFZDanhzdXpwRVU3QXB1RE1DQTR5Zk05LVAtemxVdnlNUldsTVc4Xy05NlhsZzI2TmU3VVhFVXhELWtOQWVCd3IyV3lISFQ1Y3pVM2pjemZGN2lUQTgwa2tjNGtSTElZX2lPTDFzMXJweWR0cVprOUtEdDFj?oc=5",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSjJhandEVkdSRVNNaGNpb2xCUmdSLU4xTzdJMHN6bkJuUV9aaWhjMW84bkdqUU4zMVh1NXRyX0dnU0lQTEJnbDhyVHlSMG5zckdIZVVxMGphTEszVC11MTBFYUt3eXVLRklycFlwcl9qY3BjcXVXRDNZQmJqWEQyeGtWMXJKMXhIZ2w4QWcwRHVrUkNxd09tR0R0eU5qdTJ4dHE4LWoxV21yWWpTQU9FT2s2WkFKOWJYZDhmaWRR?oc=5"
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjBoX3IweERfWmtjVzBNNG9xTXQtaFg1ZDh6Q3ZGZmMwMkVFWEM3Slcyalg1MmhlUTc1clVZYlZ1QVpPZXhBN2lkelNJNGlJMjRMeF9WdmNlVzdJTVZQakNVYldxUmcwNzRNaUcxVVB2SVpMeTV3d1VoQXFXNnQ4V084dW04cjVYV1NjR1V3QnZ3V2ZRYUlzUndIR0lFZkUtTXMzazAwMkJ5ZmxWM1RQSFh3?oc=5"
     ],
-    "fetched_at": "2026-08-31"
+    "fetched_at": "2026-09-08"
   },
   "customs_2025": {
-    "china_export": {
-      "total_usd": 109333652380.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2024 (proxy)",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
-      "DE": {
-        "value_usd": 37197415721.436035,
-        "yoy": 68.4,
-        "share": 48.4
+      "US": {
+        "value_usd": 10631911382.0,
+        "yoy": null,
+        "share": 41.0
       },
       "JP": {
         "value_usd": 5527161124.805,
         "yoy": null,
-        "share": 7.2
+        "share": 21.3
       },
-      "AU": {
-        "value_usd": 6906149664.940001,
+      "KR": {
+        "value_usd": 6196586926.0,
         "yoy": null,
-        "share": 9.0
+        "share": 23.9
       },
-      "IT": {
-        "value_usd": 2076646788.1780002,
+      "BR": {
+        "value_usd": 3603583490.0,
         "yoy": null,
-        "share": 2.7
-      },
-      "CA": {
-        "value_usd": 21043996578.246975,
-        "yoy": 8.0,
-        "share": 27.4
-      },
-      "MX": {
-        "value_usd": 4076210536.0,
-        "yoy": null,
-        "share": 5.3
+        "share": 13.9
       }
     }
   },

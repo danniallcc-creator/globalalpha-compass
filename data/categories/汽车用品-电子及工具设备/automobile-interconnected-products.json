@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "汽车互联类产品：海外社媒「auto accessory supply chain」增速 250%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Automakers thought Canada was getting a...」。",
+    "trend_summary": "汽车互联类产品：海外社媒「auto accessory breaking」增速 222%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Automakers thought Canada was getting a...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 汽车互联类产品 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 汽车互联类产品 合规刚需",
-      "海外社媒「auto accessory supply chain」增速 250% 领跑 → 汽车互联类产品社媒种草热度爆发"
+      "海外社媒「auto accessory breaking」增速 222% 领跑 → 汽车互联类产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "auto accessory supply chain",
-        "growth": 250.5,
-        "vol": "396K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "car gadget trending now",
-        "growth": 248.0,
-        "vol": "50K",
+        "kw": "auto accessory breaking",
+        "growth": 222.5,
+        "vol": "291K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "car gadget industry news",
-        "growth": 248.0,
-        "vol": "357K",
+        "kw": "auto accessory supply chain",
+        "growth": 222.5,
+        "vol": "133K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "auto accessory industry report",
+        "growth": 206.5,
+        "vol": "749K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "car gadget b2b export",
+        "growth": 135.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory wholesale supplier",
-        "growth": 205.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto accessory market 2026",
-        "growth": 158.5,
+        "growth": 98.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Trump Says Tariffs Saved the U.S. Auto Industry. The Data Tells a Different Story - Time Magazine",
-        "source": "Time Magazine",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1EyWTktZm02aGJwUnZWODNiX1NjWGtiX1JzU05UODRSZnpRdms1QWlSQWtlbUJTQWZrTXBzM2M5U3d0aTYtSVpkcVBsNU9tUVMtXzREZkJOZWZfRnV5YkEtcVhoQ2VMc1RMeVZEbm90VFBndVpzaVIwUmhnT2JGMGRCN3Zpd0hCQmk5ZmgxZndsVUx0LW1lRUJTYw?oc=5",
+        "title": "France (FRA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtQ0ZNV1pXSzFTcEVvLXB5UDJpWmlnaThPVWdxcnQzSFp0aFhUQ0ljM0ZHRkZWU1dUSmlTYzVtbktVRzJDVmg0aUdWNlMzYUZrZGc?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-07",
+    "generated_at": "2026-09-08",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }
