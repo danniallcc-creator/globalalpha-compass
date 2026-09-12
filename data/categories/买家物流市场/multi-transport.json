@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 71,
-      "trend_direction": "stable",
+      "interest_score": 43,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-08"
+      "fetched_at": "2026-09-12"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-12",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「logistics review 2026」增速 256%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，EIN News关注「Customs Clearance Service Market Growth...」。",
+    "trend_summary": "多式联运：海外社媒「freight b2b export」增速 241%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，FreightWaves关注「Driver shortages, booming exports...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,52 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「logistics review 2026」增速 256% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight b2b export」增速 241% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "logistics review 2026",
-        "growth": 256.5,
-        "vol": "272K",
+        "platform": "google",
+        "kw": "freight b2b export",
+        "growth": 241.0,
+        "vol": "378K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "freight analyst",
-        "growth": 246.5,
-        "vol": "753K",
+        "platform": "youtube",
+        "kw": "freight unboxing",
+        "growth": 230.0,
+        "vol": "170K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "shipping viral",
-        "growth": 242.5,
-        "vol": "706K",
+        "kw": "logistics must have",
+        "growth": 230.0,
+        "vol": "628K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "freight b2b export",
-        "growth": 231.0,
+        "growth": 238.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "shipping wholesale supplier",
-        "growth": 220.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Customs Clearance Service Market Growth Accelerates As Industry Expected To Reach $24.58 Billion By 2030 - EIN News",
-        "source": "EIN News",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUVFKOTlrRHdFM0lMVVdQZzNpNDEwUExsbGlKeEUzU2Q4cURGUXk1M3NYWmVXZ0Fyb2FtaF9lZ0V5V0l4b0JHWk9zdUZETXdMa0NxN2I3TDlnYkdBVVVzTnhpYWJ6aTRKbHdiUzZKS3lIZE1hNTdwR1VGNWRVR00yYXJmQ2J0cXNyYWZYeE9TN19OaGY3MnFtbFg2ekpSMHZsM3ZwdkpMTWVYcnFvdDZXRTZyakFZYVZSeTZ1TG5NaFNOaHl6TDZqbzl2bGRXOTdxLWlTRTQzdGNTYkV1OTg0?oc=5",
+        "kw": "logistics market 2026",
+        "growth": 213.5,
         "hits": 0
       },
       {
@@ -109,6 +102,13 @@
         "title": "Driver shortages, booming exports reshape US-Mexico freight market - FreightWaves",
         "source": "FreightWaves",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDVrOUJtalQ3c2tJamxWUTlISE40RmR6NzVNS01ETHNGYjBNc1VWMmRVS2k4NVBsTXJMVkVYVVY4YlZ3bFljUUxsZDNDVkNlcGxGY1oxa3Q5MXlJdE1yOHRxVjlRZnQ5SU5jaFZCeGJhRWctRFFTdEJmVnA2cFZPWXBBZGJiamVQUnBpT3laeXZ4cmlpWjlkZDFRVjFlbXJO?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Freight and Logistics Market Size, Share & Growth Report | MRFR - Market Research Future",
+        "source": "Market Research Future",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdFY3Tlg2dUZMV1ZZWjRrYUpWa2RVcUY3WTVUUHZfMzBndlVuWk83dTRKczQ1Q3ZleTlHUDFKTlBhME8zVEwyN2xzWXU1NzAtZVRHZWhMNUtYVnFuMl84RVV4am9oTEE0QU14N1BFLXFtNk9RNDVmMk84WFlLVHFwOEZfZlI?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "买家物流市场"
   }
 }

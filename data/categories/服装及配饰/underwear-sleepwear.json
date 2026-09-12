@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "内衣睡衣：海外社媒「fashion unboxing」增速 225%，搜索端「apparel market 2026」热度上行，US Amazon BSR Top-12，glossy.co关注「Fashion Briefing: The Canada-US trade...」。",
+    "trend_summary": "内衣睡衣：海外社媒「apparel breaking」增速 252%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，glossy.co关注「Fashion Briefing: The Canada-US trade...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 内衣睡衣 供应链合规升级",
       "欧盟 CE 标志强制准入 → 内衣睡衣 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 内衣睡衣 通关",
-      "海外社媒「fashion unboxing」增速 225% 领跑 → 内衣睡衣社媒种草热度爆发"
+      "海外社媒「apparel breaking」增速 252% 领跑 → 内衣睡衣社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fashion unboxing",
-        "growth": 225.0,
-        "vol": "743K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fashion aesthetic",
-        "growth": 222.0,
-        "vol": "317K",
+        "platform": "x",
+        "kw": "apparel breaking",
+        "growth": 252.5,
+        "vol": "128K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "apparel market 2026",
-        "growth": 219.5,
-        "vol": "37K",
+        "kw": "fashion b2b export",
+        "growth": 251.0,
+        "vol": "325K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "fashion industry report",
+        "growth": 243.5,
+        "vol": "424K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "fashion b2b export",
+        "growth": 248.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "apparel market 2026",
-        "growth": 216.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "clothing wholesale supplier",
-        "growth": 143.5,
+        "growth": 202.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Knitted clothing accesories (HS: 61) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "title": "Textiles (HS Section: 11) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10UzhPaFMybEZ1YjRfNk81LUU5RlVCWWFPQ21QbVZYMXBpbVRORk83QW9CaVVhazE4Vmh1dU10TVZQVlBtSlBGNExYUkN1WTctTDNUN3FIRVhkQlpYTERTSjZTRldWaHdzQUhN?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xa2hXd1pGaWlta24wS0tqTGZyUVRYcHF5X091T1VaR2N1V0ZYSk5hVmtkajhCVm1nSXRoTFB1cTMyXzRsRWJIVjBMM2U1dlUySFE?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "服装及配饰"
   }
 }

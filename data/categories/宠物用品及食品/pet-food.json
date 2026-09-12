@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food price trend」增速 243%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-41，Reuters关注「EU ban on animal products affects $1.8...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 242%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-46，USDA Foreign Agricultural Service (.gov)关注「Singapore - December 2026 - USDA...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food price trend」增速 243% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food industry news」增速 242% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet food industry news",
+        "growth": 242.0,
+        "vol": "494K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 243.0,
-        "vol": "461K",
+        "kw": "pet food b2b export",
+        "growth": 224.0,
+        "vol": "56K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 206.0,
-        "vol": "715K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 194.0,
-        "vol": "86K",
+        "platform": "x",
+        "kw": "pet food market alert",
+        "growth": 190.0,
+        "vol": "133K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 161.0,
+        "growth": 221.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "pet market 2026",
-        "growth": 176.5,
+        "kw": "pet wholesale supplier",
+        "growth": 122.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU ban on animal products affects $1.8 billion in Brazilian exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRmxndTlHNFphUHAwZFE5QUJwOVN4N0VDQ1lCTy1RWlNvNm50Y2FDWjAyRjIxcHNab1NLYmNVZFgwUXFPX2dZYlJya1lIa21ZVTlLb25tZmFYY1ZFbGFJaWp3dDNpMHR3TmpIZDRVVWxjQ2d5U1d1eUpsaHoybndJLXUwbDRBd3EwMlZJVkZ3aVF0QVF5ZXpBSDhuNGZDU0tYLXRwVjNzdDlrZUI1RTc5RWhOcjlYNW9jU2lPRw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Singapore - December 2026 - fas.usda.gov",
-        "source": "fas.usda.gov",
+        "title": "Singapore - December 2026 - USDA Foreign Agricultural Service (.gov)",
+        "source": "USDA Foreign Agricultural Service (.gov)",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSakNFU1N4UTZtbkU0ZGhwN2JocmJzcnphd21WeTg1NDJvRlpmQnYtX1FLVkdlTjhqSE9FY19HaTRHbGNwaUVRY0VTWHNGaWVQcjE0THk5SGR0cTk4bzJ6N3JIZE9jYnZFNElwU2lLOEZDTU12QzUzZzFn?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Dairy at forefront as U.S. and Canada step up trade dispute - Capital Press",
+        "source": "Capital Press",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPamNfc1Z4UXlkODdQUlFXZWQzSnpBb01oWVpmUkcwWHVCYkVucVhURWNhWW1xeTFFVEdBQXZ0Qmk4YUhmdFJDWDFkams4T1UybWZRaU1KUzVqMTUwX2lyTW4waHE0eHhiMWE5WkdrbUhLQmtqbmlZazR4SlI2MGJsZTJGc1h0aW5idGFFa09kakkyVHJHdk04Q3owRQ?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 41,
+        "rank": 46,
         "title": "Top pet - Premium Edition",
-        "price": "$51.0",
-        "rating": 3.8,
+        "price": "$27.0",
+        "rating": 4.4,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 28,
+        "rank": 27,
         "title": "Top pet - Compact Edition",
-        "price": "$285.8",
-        "rating": 4.3,
+        "price": "$181.8",
+        "rating": 4.0,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "宠物用品及食品"
   }
 }

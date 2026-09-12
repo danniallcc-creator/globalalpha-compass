@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts viral」增速 252%，搜索端「auto parts wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「France (FRA) Exports, Imports, and...」。",
+    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts supply chain」增速 250%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Mexico Tops US Trade Surplus Rankings...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公交汽车零部件及配件 出口需通过合规认证",
-      "海外社媒「auto parts viral」增速 252% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
+      "海外社媒「auto parts supply chain」增速 250% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto parts viral",
-        "growth": 251.5,
-        "vol": "398K",
+        "platform": "x",
+        "kw": "auto parts supply chain",
+        "growth": 249.5,
+        "vol": "339K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "auto parts wholesale supplier",
-        "growth": 234.5,
-        "vol": "248K",
+        "kw": "auto parts market 2026",
+        "growth": 241.5,
+        "vol": "596K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts price trend",
-        "growth": 233.0,
-        "vol": "509K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto parts wholesale supplier",
-        "growth": 231.5,
+        "platform": "youtube",
+        "kw": "auto parts review 2026",
+        "growth": 241.5,
+        "vol": "406K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 172.5,
+        "growth": 238.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "auto parts digital transformation",
+        "growth": 85,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "France (FRA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtQ0ZNV1pXSzFTcEVvLXB5UDJpWmlnaThPVWdxcnQzSFp0aFhUQ0ljM0ZHRkZWU1dUSmlTYzVtbktVRzJDVmg0aUdWNlMzYUZrZGc?oc=5",
+        "title": "Mexico Tops US Trade Surplus Rankings in July - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQmgxZWdxNlVFR082X2RDMUUzVDFWOUhYaE4wdkZZWW1kbTdpRHBDcUsyQmNuMERKRXdTcS1CNVdOZ0UwR0xNLXJLNmlCUGxISElSaURISG9TRFd2YkZFTFZsLW5MLVh1QlNiX3VhTkZNMGdBZ2hwc2xfaU9Mem96ZUQ1cWc0YnRfV2pGbG1HMFJ3eUxFY3VzRF9scTM?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals - CNBC",
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTkczaThjMDgwN2t0TGpkZzBIOWVlNGF6ZHJWYjRKcTl0ZDhiSFNxNVNETEJuY0FtUnVHR19RbGlQdXowZUd2T1E3TUVIMVptdFNkR2s0eGdvLWZERG1sUjQxaGFmek9hVi1vREMwU294R3N5dzFLakgxVHUyYU9zRGRMSThBcVRGaFZsZDRsc1dZQW9HOTQwYkt30gGfAUFVX3lxTFA5b21UZDdNQUtCOUw1Q3AtclpxZ0g1NVNrckdQMEF6eHNGYXNGTkhxa0IyTzg1SlhHekFrTjh4VE1paUNrZ3Z0d1RLelh1dEtVZGwyTWpwQXFscFpHU3FESE5KTDN2dFY2MWVoYlk0Z1I2alpIOUpzTHpXUTRnMFREV1BqY3EzYllfVnR4MktjaXJoMG9DMkRkZE5iNHpUMA?oc=5",
+        "title": "Trump Says Tariffs Saved the U.S. Auto Industry. The Data Tells a Different Story - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1EyWTktZm02aGJwUnZWODNiX1NjWGtiX1JzU05UODRSZnpRdms1QWlSQWtlbUJTQWZrTXBzM2M5U3d0aTYtSVpkcVBsNU9tUVMtXzREZkJOZWZfRnV5YkEtcVhoQ2VMc1RMeVZEbm90VFBndVpzaVIwUmhnT2JGMGRCN3Zpd0hCQmk5ZmgxZndsVUx0LW1lRUJTYw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "汽车零配件"
   }
 }

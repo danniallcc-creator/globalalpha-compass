@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "连接器及终端器：海外社媒「electrical b2b export」增速 247%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，Newsweek关注「Eight US States Doug Ford Wants Canada...」。",
+    "trend_summary": "连接器及终端器：海外社媒「electrical aesthetic」增速 220%，搜索端「electrical equipment export opportunity emerging markets」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -49,45 +49,52 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 连接器及终端器 成主流",
       "欧盟 CE 标志强制准入 → 连接器及终端器 出口需通过合规认证",
-      "海外社媒「electrical b2b export」增速 247% 领跑 → 连接器及终端器社媒种草热度爆发"
+      "海外社媒「electrical aesthetic」增速 220% 领跑 → 连接器及终端器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electrical b2b export",
-        "growth": 247.0,
-        "vol": "59K",
+        "platform": "instagram",
+        "kw": "electrical aesthetic",
+        "growth": 220.0,
+        "vol": "741K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical industry news",
-        "growth": 215.0,
-        "vol": "635K",
+        "platform": "tiktok",
+        "kw": "electrical must try",
+        "growth": 217.5,
+        "vol": "45K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "electrical industry report",
-        "growth": 211.5,
-        "vol": "602K",
+        "kw": "electrical price trend",
+        "growth": 205.0,
+        "vol": "690K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical b2b export",
-        "growth": 244.0,
+        "source": "Linkedin",
+        "kw": "electrical equipment export opportunity emerging markets",
+        "growth": 92,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 143.5,
+        "source": "Linkedin",
+        "kw": "electrical equipment supply chain resilience",
+        "growth": 89,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "EU wants initial Chinese action on trade gap by early October - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjNtYW00MklwT1hHUEVPaWVaQmpWVzFJUFE2N05VcUdSOEdldDF2M21WX2VwTWE4NHlndXVaNnVQemp4VFl5UDlpZjBLaXJNMmlmNkxqRmJPZEQ3Y2hVckljVEZjaXkwMDlyNTVqVTNWY1pZODJJMHhNeTgwc2J1Tkd5UkpKeEc2OVpfYVROcW5HZmItRk1tZUF4WVpMOUszTjc3MGNERWk4UQ?oc=5",
         "hits": 0
       },
       {
@@ -95,13 +102,6 @@
         "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - Newsweek",
         "source": "Newsweek",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "In US-Canada trade spat, Washington left out a key lever: Canadian oil - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNW5LXzNNTjR3OXdTOXBpN2IxeVVtWWR1MHF1VVp2dE5mdWNDbDg1dFZvSk9iQWNhZXJvVHRwN3liMlNSN0lRT1VsekoxZVdzUXdqRjFHU3lDTHpPOFRRdHdhcTVHcmZ5OHJfczBhM29PMThGWVJpMVpXd3pxekxYZHhhb0JydlY5bHktMFpLOXNtT3lxcHFTNHVicUpuRVNzLVNKNU43VkRVTC1lUm9lVkRWREhUeFU4NDlmS2k1NnpZZw?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "电气设备及用品"
   }
 }

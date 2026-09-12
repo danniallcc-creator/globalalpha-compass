@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "相机，无人机配件：海外社媒「consumer electronics industry news」增速 250%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Britannica关注「Samsung - Britannica」。",
+    "trend_summary": "相机，无人机配件：海外社媒「smartphone aesthetic」增速 245%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: India's Serious Fraud Office...」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,52 +50,52 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 相机，无人机配件 成主流",
       "欧盟 CE 标志强制准入 → 相机，无人机配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 相机，无人机配件 合规刚需",
-      "海外社媒「consumer electronics industry news」增速 250% 领跑 → 相机，无人机配件社媒种草热度爆发"
+      "海外社媒「smartphone aesthetic」增速 245% 领跑 → 相机，无人机配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "consumer electronics industry news",
-        "growth": 250.0,
-        "vol": "230K",
+        "platform": "instagram",
+        "kw": "smartphone aesthetic",
+        "growth": 245.0,
+        "vol": "587K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "smartphone must try",
+        "growth": 201.5,
+        "vol": "257K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "consumer electronics price trend",
-        "growth": 237.0,
-        "vol": "129K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "smartphone b2b export",
-        "growth": 224.0,
-        "vol": "744K",
+        "growth": 189.0,
+        "vol": "706K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "smartphone b2b export",
-        "growth": 221.0,
+        "growth": 178.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "earbuds wholesale supplier",
-        "growth": 131.5,
+        "kw": "consumer electronics market 2026",
+        "growth": 130.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Samsung - Britannica",
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CMEtMbDlLVmJXSWYwNzYzN3NCdEFrbTJpdU5ackg2NEhudEhQQzZFeGpNTEY2X1lTeUxFZzJmOWdRX0hlekdmVHRCbnU3R2hvWURhQkFTX01Vd0FqZ1lVVU1R?oc=5",
+        "title": "EXCLUSIVE: India's Serious Fraud Office recommends 'detailed' probe into Xiaomi's business in country - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZHg4WTBWRU9RMm16bXRLQnA2WHZfYm9ydEdPNnBXdHpKSEpRQi1rVS1hcW5VUk9DdlA3SE9ZWXpLMVZFNDUydzBYM2ROdmRqeEZfMmZtN0MxWDNRTnA3UklLYjNfTDlNNzcyY3Etb2JaSVZ2TGpIYVJWQWhsbGhTY0ZHdFNrS3FtYmdBN0pwU053OUZLU1NLT2ttZDM1emJ3VE10N3d6NF96UUxkLTFWUVV3elpNMTRLdjdjaV9MbHZDa2s3eTIxTEdrMk9CNl9oa0E?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "消费电子"
   }
 }

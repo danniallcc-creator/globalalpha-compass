@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "仓储：海外社媒「forklift industry report」增速 244%，搜索端「conveyor b2b export」热度上行，US Amazon BSR Top-12，dwt.com关注「BIS Restricts Exports of Black Mass...」。",
+    "trend_summary": "仓储：海外社媒「conveyor factory tour」增速 233%，搜索端「forklift wholesale supplier」热度上行，US Amazon BSR Top-12，Mexico Business News关注「Nearshoring Drives Mexico Freight: This...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 仓储 出口需通过合规认证",
-      "海外社媒「forklift industry report」增速 244% 领跑 → 仓储社媒种草热度爆发"
+      "海外社媒「conveyor factory tour」增速 233% 领跑 → 仓储社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "forklift industry report",
-        "growth": 244.5,
-        "vol": "483K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "forklift breaking",
-        "growth": 240.5,
-        "vol": "674K",
+        "platform": "youtube",
+        "kw": "conveyor factory tour",
+        "growth": 233.0,
+        "vol": "587K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "forklift new arrival",
-        "growth": 229.5,
-        "vol": "304K",
+        "growth": 231.5,
+        "vol": "120K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "conveyor b2b export",
-        "growth": 102.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "conveyor unboxing",
+        "growth": 220.0,
+        "vol": "35K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift wholesale supplier",
-        "growth": 96.5,
+        "growth": 188.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "material handling sustainable manufacturing",
+        "growth": 84,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "BIS Restricts Exports of Black Mass From Lithium-Ion Battery Recycling and Tungsten Waste - dwt.com",
-        "source": "dwt.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdEFHdEpXbE90bV9wa3pncXRIMGFTRXMyOHpMeHo3dWdoQzZqX0tiVEJpOXV2dEVSXzBNWHpsZ01Xa1FqZUo3WFhfT09nNUFHbmxHYkxqSndJOFBtd1dJUFhraWdobGx0NGVQRU5laVJVaUJuMHd0TlRSUHNKQm1lcVBpU3VpOWRCemYyZ2pKNzZlU2pNNmZ1V2RnZGxKZEttTXRJX2Y2RXZjcHJF?oc=5",
+        "title": "Nearshoring Drives Mexico Freight: This Week in Logistics - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTFZsSHFjN2R1dDg1QlJaanpvVFJtR09FaTVnV1pGcjJMRFNLM2NuOVFaY0Flc1J3aWtpcDBZVmVJa0JqZXpIZkxEUHlab25SRlhnbkR3R1JwaUd2UVRUZG9kWHN5azlRWTU5TV96aG9iRGhEWDhqRWJIXzlCalVSUWstYkpYcGQySWZMcWphbUFtSE9ONXc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Five Leading Material Handling Forklift Manufacturers in 2026: Driving Global Intralogistics Innovation - EIN Presswire",
-        "source": "EIN Presswire",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYW9ISF9BT04zMWhlcmgteFluNThmYUE0ZVp0cjVqUFBRNjIyWjl6cGZ2UnZYM0NEM3pMa0VBQ1Z2dEpkS0ZQdzRKWF96c2x0ZnVpWkFZT0JFVDdYbzFJa2FZUEJhQlhBWDJuZ2VKTEpLUFprVnNDUExUZTIzOGpvb2J0LUJZTkRaQ2hadk5OWHpPTkJqd3p5QlNSSG1hb1M1bGlSanVvSnNvUEtTWkpTeW9pOWMwSTZQUVU1c01MMDREaDd0NnJEX3Budi1lT1ZjUDA0QXFqSzFqQWxZNmFFTU1JWQ?oc=5",
+        "title": "Cargo Handling Equipment Market - Demand, Pricing, Competitive Insights, Market Size, Share - GlobeNewswire",
+        "source": "GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRHpBdUk0NXA4alFST3JlOXNOSGYweUFiT0tmQTFUUVY2RF9nY0ZPWGREdE1MZ1I3YkhMdGV4T2Z0bXE1Tl9YSGdLdmtQcDhyNm8tYzNVdmZQTlJWOUpuazdEdmk2Q0tNeDlOVERUd0s5ZDZGYm1ibjJ4WnJFbnVidlEwWjlqS2ZvbTBCanFIcWlCVXB4aEdoZ2k4QVl1cDZtZzF5LWg0SWNBMlJiVEZCbVl5ZTdaaERiM3VMR3BFWkJyX0ROd2FJZkdDZDRWblFiT2NINFJnOF9GbHdOY1hiVU9kTmQ1aWhfZmJwRlpB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-08",
+    "generated_at": "2026-09-12",
     "l1_ref": "物料搬运"
   }
 }
