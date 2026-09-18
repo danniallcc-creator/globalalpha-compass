@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food industry news」增速 242%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-46，USDA Foreign Agricultural Service (.gov)关注「Singapore - December 2026 - USDA...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food price trend」增速 240%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-45，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,46 +49,53 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food industry news」增速 242% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food price trend」增速 240% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 242.0,
-        "vol": "494K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet food b2b export",
-        "growth": 224.0,
-        "vol": "56K",
+        "kw": "pet food price trend",
+        "growth": 240.0,
+        "vol": "603K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food market alert",
-        "growth": 190.0,
-        "vol": "133K",
+        "platform": "youtube",
+        "kw": "pet food unboxing",
+        "growth": 235.0,
+        "vol": "605K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 181.0,
+        "vol": "71K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 221.0,
+        "growth": 176.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "pet wholesale supplier",
-        "growth": 122.5,
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 52,
         "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Import Bans Drive Iranian Pet Food Black Market - IranWire",
+        "source": "IranWire",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlA5U1AyX1FaZXlLZFlIUFg3RWtWbm9FSlo4a0pWWDFZdWNLTk5FcEMyQlRvbU5TdlJzcW1JX3dCZU1jUUFTYllPeENLMXZtR2gyZWJGSjJETm1pOC11dkpjM3JzVEpmRERheHQ0OWdwcDhNcHNWekRlT1NDenRSZjBsLW9zU0ZfaVdaT3JkNWtyQQ?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
@@ -98,33 +105,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Dairy at forefront as U.S. and Canada step up trade dispute - Capital Press",
-        "source": "Capital Press",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPamNfc1Z4UXlkODdQUlFXZWQzSnpBb01oWVpmUkcwWHVCYkVucVhURWNhWW1xeTFFVEdBQXZ0Qmk4YUhmdFJDWDFkams4T1UybWZRaU1KUzVqMTUwX2lyTW4waHE0eHhiMWE5WkdrbUhLQmtqbmlZazR4SlI2MGJsZTJGc1h0aW5idGFFa09kakkyVHJHdk04Q3owRQ?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 46,
-        "title": "Top pet - Premium Edition",
-        "price": "$27.0",
-        "rating": 4.4,
+        "market": "JP",
+        "rank": 45,
+        "title": "Top pet - Eco Edition",
+        "price": "$210.4",
+        "rating": 3.9,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 27,
+        "rank": 18,
         "title": "Top pet - Compact Edition",
-        "price": "$181.8",
-        "rating": 4.0,
+        "price": "$201.8",
+        "rating": 4.5,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "宠物用品及食品"
   }
 }

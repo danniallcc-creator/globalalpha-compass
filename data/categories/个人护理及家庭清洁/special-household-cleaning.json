@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 40306746,
-    "total_net_weight_kg": 19806746,
+    "total_export_value_usd": 17009936,
+    "total_net_weight_kg": 6509936,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-12"
+    "fetched_at": "2026-09-18"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 85,
-      "trend_direction": "up",
+      "interest_score": 56,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-12"
+      "fetched_at": "2026-09-18"
     }
   },
   "industry_analysis": {
@@ -52,40 +52,42 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-18",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 13700058808.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "DE": {
         "value_usd": 4167886467.4719954,
-        "yoy": null,
-        "share": 39.7
+        "yoy": -2.7,
+        "share": 58.4
       },
       "JP": {
         "value_usd": 1683303551.453,
         "yoy": null,
-        "share": 16.0
-      },
-      "GB": {
-        "value_usd": 3374211388.828002,
-        "yoy": null,
-        "share": 32.1
+        "share": 23.6
       },
       "KR": {
         "value_usd": 769804434.0,
         "yoy": null,
-        "share": 7.3
+        "share": 10.8
       },
       "BR": {
         "value_usd": 217194518.0,
         "yoy": null,
-        "share": 2.1
+        "share": 3.0
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 2.8
+        "share": 4.1
       }
     }
   }

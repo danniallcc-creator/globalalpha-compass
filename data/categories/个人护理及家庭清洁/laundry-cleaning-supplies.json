@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "34",
-    "total_export_value_usd": 40306746,
-    "total_net_weight_kg": 19806746,
+    "total_export_value_usd": 17009936,
+    "total_net_weight_kg": 6509936,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-12"
+    "fetched_at": "2026-09-18"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 76,
-      "trend_direction": "up",
+      "interest_score": 96,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-12"
+      "fetched_at": "2026-09-18"
     }
   },
   "industry_analysis": {
@@ -52,62 +52,64 @@
     "opportunity": "Emerging markets show strong growth potential. Private label and white-label opportunities. Cross-border e-commerce channels expanding rapidly. Probiotic and fermented ingredients trending globally."
   },
   "compliance_summary": "Cosmetic safety assessment, GMP certification, REACH compliance (EU), ingredient labeling, stability testing, preservative efficacy testing.",
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-18",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 4,
     "sentiment": {
       "overall": "neutral",
-      "positive_pct": 50.0,
+      "positive_pct": 0.0,
       "negative_pct": 0.0,
-      "neutral_pct": 50.0,
+      "neutral_pct": 100.0,
       "articles_analyzed": 4
     },
     "top_headlines": [
-      "Dry Bulk Shipping Rates Surge on Tight Capesize Vessel Supply - Bloomberg.com",
-      "Dry Bulk Shipping Market Size, Share | Growth Report [2034] - Fortune Business Insights",
+      "Dry Bulk Shipping Momentum Poised To Continue - Seeking Alpha",
+      "China fills Gulf void as war redraws cement feedstock trade - Splash247",
       "2026 Inbound Logistics Top 100 Truckers - Inbound Logistics",
       "Pulses Market - Future Market Insights"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdnBCY09xWkhRU2hDMjJ4SFFkdERyWm41TC1OMWo4bmg4UmM2U1BzVzZEY25TVzNYcTZCSW5qOE9nVF84SWhrZDR0SW8zUU43MTItdzJCUmRfOS00VnVEczN6TnJETkxSM21WTEZ2MGxLVS1iUXlZMExGUnpEYlNzVlY3UlFxdFBoY3NfRWF3U3dIM0t0ME5UOGJuMnpWc3FEeFFKNkxxdHJJb3pQU3VKYjZ3?oc=5",
-      "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaVB6VG00RXo4OE16dGdBY2JpTDNkTHdWSWFNWExXMmpjcEJxVGhWWmJvSVljOEwwLW1oR2RnZVE4NjRaSWd4eEh0eHFlUi1kNHRuSFBkWnN3a1RrcjZ4X1FCZm9JWWw1S216UUlVNi12bnpQc1A3cTMwdw?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNREpLbjBzMk85cjlnb1AwUTlLYUtnVjA2MUhyN2VBazQxT280RTFQdXNCZUNZdmExSUhLTmZZUDB3VU8xZ3hlRDEycnhsa3ROTXFteWtET2RMZkhkM05qVXB6bkJOanREX0tPN3M4eHBuT3FCTWNQU0Z1dTNXWHRoY2pDT0VfX0k2NlMtcWRNWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRElRMHJLNW52UEtqUm02cUtSX2JUaHpOZGdlbmtDc2xBSEZYalhyZGJvNjVMMmo1QlBvZHlNcmoxOGVtUGxkbXNxOWtEVlNicUs4bkZMTTRrZnhqTGJucDRxZUhVWGR4THUzZDBrWVdjeXd5QXZtaUs0SFlEZm16TlhSN0NaZnB2U3c?oc=5",
       "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QWUNnc0ZhREMxQ2lCOHZQWlVBTGJlSUkzdERpOWNSYnh2N2xRUkxnMm04X2VBQ0VDbzBxYkZtTmhDS0hsR0dTQzRHNmRmZXloX2FKQWtwMU5SbzYydHpkdkdwWWZuLUd4QXFz?oc=5"
     ],
-    "fetched_at": "2026-09-12"
+    "fetched_at": "2026-09-18"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 13700058808.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2024 (proxy)",
+      "source": "UN Comtrade",
+      "data_quality": "estimated"
+    },
     "imports_from_china": {
       "DE": {
         "value_usd": 4167886467.4719954,
-        "yoy": null,
-        "share": 39.7
+        "yoy": -2.7,
+        "share": 58.4
       },
       "JP": {
         "value_usd": 1683303551.453,
         "yoy": null,
-        "share": 16.0
-      },
-      "GB": {
-        "value_usd": 3374211388.828002,
-        "yoy": null,
-        "share": 32.1
+        "share": 23.6
       },
       "KR": {
         "value_usd": 769804434.0,
         "yoy": null,
-        "share": 7.3
+        "share": 10.8
       },
       "BR": {
         "value_usd": 217194518.0,
         "yoy": null,
-        "share": 2.1
+        "share": 3.0
       },
       "MX": {
         "value_usd": 294081804.0,
         "yoy": null,
-        "share": 2.8
+        "share": 4.1
       }
     }
   },

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "香水和香氛：海外社媒「beauty market 2026」增速 254%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Personal Care Insights关注「Peru cosmetics, essential oil and...」。",
+    "trend_summary": "香水和香氛：海外社媒「cosmetic industry report」增速 232%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Businesskorea关注「K-Beauty Exports Hit Record in Colombia...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 香水和香氛 出口需通过合规认证",
       "美国 FDA 注册要求 → 香水和香氛 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 香水和香氛 制造门槛",
-      "海外社媒「beauty market 2026」增速 254% 领跑 → 香水和香氛社媒种草热度爆发"
+      "海外社媒「cosmetic industry report」增速 232% 领跑 → 香水和香氛社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "beauty market 2026",
-        "growth": 254.5,
-        "vol": "315K",
+        "kw": "cosmetic industry report",
+        "growth": 231.5,
+        "vol": "83K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "skincare viral",
-        "growth": 243.5,
-        "vol": "517K",
+        "platform": "google",
+        "kw": "cosmetic b2b export",
+        "growth": 223.0,
+        "vol": "540K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty #trending",
-        "growth": 242.5,
-        "vol": "273K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beauty market 2026",
-        "growth": 251.5,
+        "platform": "tiktok",
+        "kw": "cosmetic must try",
+        "growth": 212.5,
+        "vol": "668K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 172.0,
+        "growth": 220.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beauty market 2026",
+        "growth": 176.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Peru cosmetics, essential oil and surfactant exports rise - Personal Care Insights",
-        "source": "Personal Care Insights",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlNiemxaRGdWSFc3VlpvNmJRVHRNSG11WDFIVHk0ZzFtTU16M3ZtMk5kSjFLenJ5eGcyWFBfM1VuRDR2MWZ0cWRDYUJnLWtYTWJrVmhyVzVBTmFtZmFNN04zWnVJU2tNQ1cxa2hCRmQ0OFBhVUhRUWpVZmZ5OTZOTkp5d3FVVVI4ZndN?oc=5",
+        "title": "K-Beauty Exports Hit Record in Colombia - Businesskorea",
+        "source": "Businesskorea",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rcFlkbGEtMnNUUWVVbmFudFFCRm96dkJzTmx4ZnViYU5MVF92R08xWUswVFdmOWtjdkFLNHVUQ0lZMEEtRFVOeGtqUE1lNklFT3FieXZKcE5vSHFDNnRrWk5ybnJlSjRUVnhNN3FnbWJLWVhq?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Europe’s K-Beauty boom - The Parliament Magazine",
-        "source": "The Parliament Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iWnVqOVdJRU5qN3R1U0gzamxmaFNWNzMteUhBQ2UtTm54U0pDUWtSQ3BuWi1TMjVpeENWZy1sTmRYTFB0MTIzYUpHeExlRjluUVJQcDFEUDFlVXg0NVVHMER1RmxYWllIcjFidlVTTkF0VkdwdGpneHdR?oc=5",
+        "title": "Brazilian beauty exports hit 10-year high despite U.S. drop - valorinternational.globo.com",
+        "source": "valorinternational.globo.com",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZUFvRHlWQ29wZ0tISVFyM054ME1heWxsS0UzeWtGa29jcVBvVmt2dEhkdHluZGdEaXY3bzZmZHZVckNXQVRQZkdfVzlNZl84MmVrQ2t1ZFVDOVdHU3d6TUxUZzVxYk9yN2pnMnl2Qk5mVzNpZXM5dXFfZUp5dHNvcUIxLW4wNFo0YmVPcUZCU3RkemdEQnJpd1h0TFlweS1GLUJqTGVJYmNvZmg2SFpoQVRIVlVXVk9lTm9kY01QT2dkVlXSAdIBQVVfeXFMTWk4dkhLa3NveDJxbkdIYVNZWGotY3VyM2RoN3dFVWRUT2xTVVNTeVVFSnpNMzhBNVBqTlJ0LUtKV0FWaDJ3Yl9oSnNhRENZcEktUFMxNHFIWTdvY1hvTjJqbUZ4ZFdZdm9MZlFTS1dWSmtibW9YeXhGeFYxbkVLS01wdlVpZjEyT3VMeWFDYmhQY0pJblNYcThER2NuWmlCaXRHUXBXQ0NydDdzQXVFa1B1dHotNGNHdnJ4Q3Q3OEg4TWRRb1hlajRmWXYtU0NNdGhn?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "美妆"
   }
 }

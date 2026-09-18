@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "幕墙配件：海外社媒「building viral」增速 230%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「Plywood Exterior Grade Market Forecast...」。",
+    "trend_summary": "幕墙配件：海外社媒「cement market alert」增速 249%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「From quarantine boxes to luxury cabins,...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 幕墙配件 出口需通过合规认证",
-      "海外社媒「building viral」增速 230% 领跑 → 幕墙配件社媒种草热度爆发"
+      "海外社媒「cement market alert」增速 249% 领跑 → 幕墙配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "building viral",
-        "growth": 229.5,
-        "vol": "282K",
+        "platform": "x",
+        "kw": "cement market alert",
+        "growth": 249.0,
+        "vol": "770K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "building review 2026",
-        "growth": 223.5,
-        "vol": "396K",
+        "platform": "google",
+        "kw": "building market 2026",
+        "growth": 246.5,
+        "vol": "387K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cement must have",
-        "growth": 219.0,
-        "vol": "515K",
+        "platform": "google",
+        "kw": "building industry report",
+        "growth": 246.5,
+        "vol": "374K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building market 2026",
-        "growth": 148.5,
+        "growth": 243.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 97.0,
+        "growth": 139.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Plywood Exterior Grade Market Forecast to Expand Through 2035, Driven by Semiconductor and Data Center Construction - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTGpoTkVpYmg1ZVdQU3piNzVWUEROSjRDMlJ4WUZ1TTFtVHYwNkxwRWljd3BKcG5iY2tfX0RhWlBWU1hQeFlsSlBQNWJyeFZUSU1tRjRKT2dkNFEtNUJhMTlmMkNCaWRub3pRRFRGREtiMWU4OVhnS0djOW9BUjZ3MFFXckJ0YmMtTC1SQl9ZTmdKYUswbE1YRmZ5d2I0NndGMHJhQWZRQ0FQNkdIS0hPUGljYmZDVkVhb0t5a3FKQ1VoeU9KSER6NC1xblIxNkxwX0VFdDFWWDdlRG9w?oc=5",
+        "title": "From quarantine boxes to luxury cabins, China's prefab home factories pivot to exports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUjFlTHZzbnlfMGxOLVJEa213eVo2VHpkU19aQmNyVmVMdUoxWlIyLTFkc216eFRTb0lRdndXTks0LU1UWjNWNUh3a3RUSV9OR09XOEZENWNxajgxSlBKUklOWlc0NGJ3VVVsNURmVFBCdG1fM0ZrcGpxRE5Bd3JORGg5aWplZk9YVDhsV3hWZEFoODVGUktJTjVvT2x6d1FTVUpOX19kU2dZRVNkY1J5akNrc2x3ZDZoeUNkTm16a3NLUzZUSENn?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Fed up with the U.S., Canada is aggressively seeking new trading partners - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVFF1RWNkYnRuUGRSS0JUdDdZNFpwQk9Pb0ZoN0REUzZ4Y2s4SXgzVDk1czh5a0Nnb0EtaWpFeWh4cGxLZjYxbzBtbjNYM3F6bVVyQXFCSmVETUR5Nm1RUlA1Zk9ZMEFfa0JMald6OFo3QkE0VDBteEVPVE02b05KdmZvWWJOUzB1YU9QXzFCNUR2bjJEMk1YODM5NF92MlQx?oc=5",
+        "title": "Who are Iran’s top trading partners US would need to target to isolate it? - Al Jazeera",
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDkwbm1VSWQ1Qk96aDA1dzU5V1JBM1VIbERRbTM2d2lGS2NPbV9uZ3RSYkhCdDZtZGdXZWlBc0w1R3JuWWUtdzhhUFVsR0pPNVRoVEI3TVBFdVJwVEdnR3M3Q1d5NFd4Z3UwTGdqb0dLaUhfc0EwRl8yVlFKaWVnOVVIQ3lTZ215QjVNVEViQUhCY0xEWkNrQzQtZldCZ1JCLXBjNWc4SlpCMGR5bmJ6eGNLUdIBuAFBVV95cUxQTEkwVEZfSWo4YTdCamRzTkd6cnBpQnIyS0RqQnZycVVqQ0tGQ2VVRV9ESGF4WGwweVNaLVBjNGlQcU51SHlJNjhTVzJ1NDZYd0JtLWxCS3laa2tsbVVTM2xlQzd4eU5iM3VhWE1pdHVtZ1p3Y29PemoxRjVMUUw5bXZ6eVcwcFhmcVF0YzM0Wkc4VE5SbjU2YWxfT2wxV0p6MXFuZGxVLU9MRFpDRVJrNkJLTHBnV3lN?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "建材与房地产"
   }
 }

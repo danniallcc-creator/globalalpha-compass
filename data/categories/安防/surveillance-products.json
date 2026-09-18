@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "监控器材：海外社媒「cctv viral hack」增速 255%，搜索端「security camera market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Trump crypto firm backs venture...」。",
+    "trend_summary": "监控器材：海外社媒「cctv b2b export」增速 255%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「India vows to protect energy security...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 监控器材 出口需通过合规认证",
-      "海外社媒「cctv viral hack」增速 255% 领跑 → 监控器材社媒种草热度爆发"
+      "海外社媒「cctv b2b export」增速 255% 领跑 → 监控器材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cctv b2b export",
+        "growth": 255.0,
+        "vol": "660K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cctv trending now",
+        "growth": 250.0,
+        "vol": "716K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "cctv viral hack",
-        "growth": 255.0,
-        "vol": "490K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "security camera #fyp",
-        "growth": 234.5,
-        "vol": "100K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "security camera top 10",
-        "growth": 226.5,
-        "vol": "386K",
+        "growth": 229.0,
+        "vol": "678K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "security camera market 2026",
-        "growth": 222.5,
+        "kw": "cctv b2b export",
+        "growth": 252.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "security camera wholesale supplier",
-        "growth": 164.5,
+        "source": "Linkedin",
+        "kw": "security cctv export opportunity emerging markets",
+        "growth": 77,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Trump crypto firm backs venture offering AI from restricted Chinese companies - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHhDcEM5cGN4V2duaGh3RmNtbVZndFdfWHBjSkF5ekRiN1JBVnRULTBUeTVld0I3czliYWZsckdXbVJfLTdJcldxY0V1VnV6NU1sME1uM3BWLUttZzR4RDVPSkJsTXlRQkRSTkFJc2pLelNEYXNBWHpUX1BGdzFBTGtmaFFwdE1DclphZDZncHMyTk5oNmFZSWhQRmVrUHdkaFpCb3ZBWWY4eExmcGZEMkJZekFPTEI3VG4zUQ?oc=5",
+        "title": "India vows to protect energy security as US Russia bill opens door to 100% tariffs - The Economic Times",
+        "source": "The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUzZiT20xYUt3Q2dFc21INDZKOENfdWZnVncyaDZZNHVtbGJuZFJMbGRxc09iUVA5YXdvS0ZjV1BIMU1WNHF4WGZnMlFfdzF2RHp0azFzMUswMm5sUmZyQW1hcDl2QU1QSkhhV3VnbTVjRGx1eGVUZUZCZEstWE94UlhOVmpCZHMyeEtwWmVKcTVrb2FPWTJod0dSczNFWWpvd1FoSmduQXhRM2Z5M2luQ29uM2tway1sNld3M1FIU1JHMjhsRzFXWWs0cXVhejh5N0pTbTl1cm81UlNJSTJDbWpkM003bnlCMGpz0gHwAUFVX3lxTE5FMUEydndtNmNxOTRYQ0dDTW5rdjBjb0dzc1phbEZRMExZdVJsT0NIS1ZLRVRoWEVoWGxpcXFNZmNLbkRNVDhDTlZobHRSdHhGc3FhVnF3OFc5NGJDTjNiZGY4S3J4YmUtMXpqNDhFTjVsREliQldUaXBvekF5Q3NnVWllVEdhN3ZJT1Utd1NtR0xQMXlwd2doRnQ4N0VaUlVKaUtoYmJ3NjhjZG12NW13ZXZDNkRZNkFkUHdNNTdpeVRQeGhNUWx2M1pFV1p5VWVzVmN3Q0xzU1ZYUHIwdDVMcjlXSk83WTh4dWhNYW1WUg?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "UK Entrepreneurs Secure New Trade Deals at Great British Pitch USA - Knutsford Guardian",
-        "source": "Knutsford Guardian",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTzJtSVJUTl9KWUhTcXM4QTlOMk5zYV9fckstNUZBZW5wRFJjandqWlZyUDNaT2ZvendBWVM4RElJbUpEWWlFV2taNHRlbXBvQ2x5UVRHVkp6ZFNUbTN3RTJCT3RsaFZzbWlTOHU4UXpGNFVHNXBNR2NIYUxYRFk2cWxCNG9zb0U0YjYtVkZmcGtnMHdYYU5RRmhRNmZCSEZRblNOTl9Gbld6MWZuWXVDTlZKWS1WZXl5aDhqOUprOHdmazhMOUhvNGo3SDU?oc=5",
+        "title": "UK Entrepreneurs Secure New Trade Deals at Great British Pitch USA - The Northern Echo",
+        "source": "The Northern Echo",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ3lnZExqVWhwSDdiakgtdUU2XzYwczdKUERsNEw2bkI0eXVnWjJIaWtpNjhSLXZfYVBZaFVGTDAwVHZQUTFWNnBZVW5kdERtemxjTlAzWXlvT1hydDhIQ2hxTEdOejN3a3BZc09YZXlMSE9UMkw0X295dXQxeHliNWVuYWFJbTNpVnE4MjhXQXJybE10RlZ5SUtldngzOVpQWjNaSkZSVVFzbEU2a0hNR1pQWTh3SWNWT2draW83ejZBWF9HZTlWbnNB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "安防"
   }
 }

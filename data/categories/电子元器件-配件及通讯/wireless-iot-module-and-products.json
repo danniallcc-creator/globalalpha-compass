@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "无线及物联网：海外社媒「chip tutorial」增速 254%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Electrical machinery and electronics...」。",
+    "trend_summary": "无线及物联网：海外社媒「5g new arrival」增速 240%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，Newsweek关注「Eight US States Doug Ford Wants Canada...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,58 +50,58 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 无线及物联网 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 无线及物联网 成主流",
       "欧盟 CE 标志强制准入 → 无线及物联网 出口需通过合规认证",
-      "海外社媒「chip tutorial」增速 254% 领跑 → 无线及物联网社媒种草热度爆发"
+      "海外社媒「5g new arrival」增速 240% 领跑 → 无线及物联网社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "chip tutorial",
-        "growth": 253.5,
-        "vol": "405K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "semiconductor price trend",
-        "growth": 248.0,
-        "vol": "269K",
+        "platform": "instagram",
+        "kw": "5g new arrival",
+        "growth": 240.5,
+        "vol": "776K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "semiconductor must have",
-        "growth": 229.0,
-        "vol": "211K",
+        "growth": 220.0,
+        "vol": "298K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "5g market 2026",
-        "growth": 223.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "semiconductor trending now",
+        "growth": 202.0,
+        "vol": "259K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electronic component b2b export",
-        "growth": 122.0,
+        "growth": 153.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chip wholesale supplier",
+        "growth": 90.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Electrical machinery and electronics (HS: 85) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjWGJubWxjY3g3NUhkVXpjLU9OSTRXWjkzb3JVQXFLSFRaNERTcUx4NXgzb0l4TW5DeVlNZTBtZkY0UlNaT25wTEQ5Y3RLVVVscm1VOXRhUWpneG5Oa0x1ZzdpR1AtN1NrMEx6dmNET21saTdlSVhF?oc=5",
+        "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Electronics Industry in Hong Kong - research.hktdc.com",
-        "source": "research.hktdc.com",
+        "title": "Electronics Industry in Hong Kong - HKTDC Research",
+        "source": "HKTDC Research",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mR1dXTWt5VGRmSXJUeHBBWnZwUWNWbFNPZUE4SFl4Z3BUbW83Z3p2NHQ3RXprZ0lxa3lWblJiQmVDdnpaVy1Ea1FnamNxSDVPR0ktN2FUUFo0U0c1S2hJ?oc=5",
         "hits": 0
       },
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

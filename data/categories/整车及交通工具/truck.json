@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "卡车：海外社媒「electric vehicle top 10」增速 248%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，reuters.com关注「China's car exports stay strong in...」。",
+    "trend_summary": "卡车：海外社媒「ev b2b export」增速 243%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's car exports stay strong in...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 卡车 出口需通过合规认证",
-      "海外社媒「electric vehicle top 10」增速 248% 领跑 → 卡车社媒种草热度爆发"
+      "海外社媒「ev b2b export」增速 243% 领跑 → 卡车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electric vehicle top 10",
-        "growth": 247.5,
-        "vol": "415K",
+        "platform": "google",
+        "kw": "ev b2b export",
+        "growth": 243.0,
+        "vol": "404K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electric vehicle tiktok made me buy",
-        "growth": 247.5,
-        "vol": "131K",
+        "platform": "google",
+        "kw": "ev price trend",
+        "growth": 240.0,
+        "vol": "522K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electric vehicle viral",
-        "growth": 237.5,
-        "vol": "751K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 206.5,
+        "platform": "google",
+        "kw": "electric vehicle market 2026",
+        "growth": 236.5,
+        "vol": "358K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ev b2b export",
-        "growth": 171.0,
+        "growth": 240.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle market 2026",
+        "growth": 233.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's car exports stay strong in August but domestic sales decline more - reuters.com",
-        "source": "reuters.com",
+        "title": "China's car exports stay strong in August but domestic sales decline more - Reuters",
+        "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ2VEOFBFc3FIc0xlQVlKbUd3UjRSTE92NUFlQXI5c3Jlb0pMVk9CUGl4R2czaDNTak9rSHNmYVJRVjVtRmdDTnZPQ3kzUHBkdnJBSnhYaW1jVjQ4YkNNNl9uRHppNi00c0tzcy0zUHlSU2o3Zkd3V2Vvd2tzVGFGa2hDcFNqdzMzQ0hYNzFubUpyUEx0aDJlUjZSb1lzcXBlRk92cFFtN24xN1dNak5GV2RJanc0cDVBRTlXWV9uVWt0NV8wMFplVUhFOFIydw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "American auto retreat from China accelerates - Axios",
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WOTZMVWM3aGVpN0xoclpXUll2VGdhMTNQTGV5RllsY0ZUa084UmtTSThzbVFkQ0hfczlYdXc5b1Jxa3poV3hxR3Y5RDVTeERNTGFTanNNX1oyZ2dsdWpHODRVX3RpUm9ZaGhlUndHVjVuM243ZS1Z?oc=5",
+        "title": "China’s Green Exports to Europe Are a Bright Spot Amid Trade Tensions - The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0ZsQnY1SFk5QnRZY2h0N2VuSko0QUxWSXdiOXZ1ZF9RY0RZTEprOXZxb1h3NmhaWDYyZDVoY09KVmZsQUU4UlNKaC16RmFTR3FGdGNKQXViWGVOeFRCU0lzdTlybWxwYkNKM0ttd1RxZllibVEyQkU3dE9KVkhiQnc4NjdfNmRtZTJSRWVtQ2o5eUFPNGhMcTRReloyQ0pFRndn?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-09-12",
+    "generated_at": "2026-09-18",
     "l1_ref": "整车及交通工具"
   }
 }
