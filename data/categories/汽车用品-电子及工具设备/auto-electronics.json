@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "车用电子：海外社媒「car gadget b2b export」增速 249%，搜索端「car gadget b2b export」热度上行，US Amazon BSR Top-12，Gasgoo关注「China Auto Parts Exports Up 13.9% YoY...」。",
+    "trend_summary": "车用电子：海外社媒「auto accessory top 10」增速 248%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，The American Action Forum关注「U.S.-Canada Trade Interdependence - The...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,38 +49,38 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 车用电子 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 车用电子 合规刚需",
-      "海外社媒「car gadget b2b export」增速 249% 领跑 → 车用电子社媒种草热度爆发"
+      "海外社媒「auto accessory top 10」增速 248% 领跑 → 车用电子社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "car gadget b2b export",
-        "growth": 249.0,
-        "vol": "12K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "car gadget unboxing",
-        "growth": 234.0,
-        "vol": "130K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "auto accessory top 10",
-        "growth": 212.5,
-        "vol": "620K",
+        "growth": 247.5,
+        "vol": "467K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto accessory #fyp",
+        "growth": 232.5,
+        "vol": "146K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "auto accessory wholesale supplier",
+        "growth": 221.5,
+        "vol": "160K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "car gadget b2b export",
-        "growth": 246.0,
+        "kw": "auto accessory wholesale supplier",
+        "growth": 218.5,
         "hits": 0
       },
       {
@@ -92,16 +92,16 @@
       },
       {
         "dim": "媒体",
-        "title": "China Auto Parts Exports Up 13.9% YoY in July, Imports Down 27.1% YoY - Gasgoo",
-        "source": "Gasgoo",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzQ1MlNDSXl6Z0kzVlZ0RHdjSTk0Y043cUo2dFRJemtQNjdEd0kteTktdW5IZ0lFUWdjZk5QOGNycWx6eHdUeVVZdENMbEJEazVtQkRNakpVY1Q1TUU1U3RHUWd3WUVmaHo0RF9DakdodU9YN21ETXZkR0hhYU40MnlFZXVyNlhOeTdZb2J2ZlBCdFdWWG1mVW5TOC01U0RFUWZtYUszRzMzWGsxcTI2Um4yY1F1eTBkbVpHUmxUa1lYSm45?oc=5",
+        "title": "U.S.-Canada Trade Interdependence - The American Action Forum",
+        "source": "The American Action Forum",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMzlXY3BhcDVuY1RXbWpYQlBDYm90a3BqdlQ4Z05iMHlBQ1gzTFZTNG02bEtPNTlzcWc5Zl9FaWNmcEJvU1dlUW94SXYwWlR5V0pINWpMMFF1Zi1PSUg4d2tFWFQtUFZDNXNUZ1NyNDF5ZnhlcU8wZkw1SUhoczhIRldqQQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "U.S.-Canada Trade Interdependence - The American Action Forum",
-        "source": "The American Action Forum",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMzlXY3BhcDVuY1RXbWpYQlBDYm90a3BqdlQ4Z05iMHlBQ1gzTFZTNG02bEtPNTlzcWc5Zl9FaWNmcEJvU1dlUW94SXYwWlR5V0pINWpMMFF1Zi1PSUg4d2tFWFQtUFZDNXNUZ1NyNDF5ZnhlcU8wZkw1SUhoczhIRldqQQ?oc=5",
+        "title": "Trump Says Tariffs Saved the U.S. Auto Industry. The Data Tells a Different Story - Time Magazine",
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1EyWTktZm02aGJwUnZWODNiX1NjWGtiX1JzU05UODRSZnpRdms1QWlSQWtlbUJTQWZrTXBzM2M5U3d0aTYtSVpkcVBsNU9tUVMtXzREZkJOZWZfRnV5YkEtcVhoQ2VMc1RMeVZEbm90VFBndVpzaVIwUmhnT2JGMGRCN3Zpd0hCQmk5ZmgxZndsVUx0LW1lRUJTYw?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "智能家用电器：海外社媒「appliance industry news」增速 251%，搜索端「appliance wholesale supplier」热度上行，US Amazon BSR Top-12，China Daily Global Edition关注「A trade bonanza for all, 20 years in...」。",
+    "trend_summary": "智能家用电器：海外社媒「appliance must try」增速 226%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WKOW关注「Canada just announced new tariffs on US...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 智能家用电器 出口需通过合规认证",
-      "海外社媒「appliance industry news」增速 251% 领跑 → 智能家用电器社媒种草热度爆发"
+      "海外社媒「appliance must try」增速 226% 领跑 → 智能家用电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "appliance industry news",
-        "growth": 251.0,
-        "vol": "779K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "appliance tiktok made me buy",
-        "growth": 248.5,
-        "vol": "84K",
+        "kw": "appliance must try",
+        "growth": 226.5,
+        "vol": "279K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "appliance aesthetic",
-        "growth": 243.0,
-        "vol": "335K",
+        "growth": 220.0,
+        "vol": "126K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "appliance wholesale supplier",
-        "growth": 232.5,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance b2b export",
+        "growth": 184.0,
+        "vol": "369K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 113.0,
+        "growth": 181.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "appliance wholesale supplier",
+        "growth": 109.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "A trade bonanza for all, 20 years in the making - China Daily Global Edition",
-        "source": "China Daily Global Edition",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0NUdWdETmNwVW1uT3c4czhUXzk2MklQaGhCdkxfTU5WTDBvMGxyenBnQ2VrMVJGZUFST2dMUGZ5WmVuQWlkMmxqd3Fhc2d3RnlHOUVXSEQ2RzlsWUdxSE0tNXh4Q3YycjdDeXdxWXRKM0pfcW1lSHlfZG4zZkZXOQ?oc=5",
+        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - WKOW",
+        "source": "WKOW",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeUJZWmNsQmU4Y3NtQW9abUdkbVR6MzcwUmVHOHJac2VLZC1HclI4Znc2R1J4RkxiTzRfLVpTendrZlRlQ1dkbThRTHRxMVVyOVo0b3c1TFN2ODBkWDJIQ3huYmdzYkFaUFF4djF6TmxMMmh3OVRaVWpqR0RWZXRuNzJzdFlHSnFmeXVkVUg3Q3NBRU1INUJlbXdGSDZOSGw1WWxTeTF5d2N4ckpVLXpiRW5wQi1iaEx2TldrazNkQW94NjMtZjdQekx0T3FTZUJqSmpON1ppc0tSRFVwc2hURnp3OXRBQ3hneGhMejg1aEJTbmp0SHc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "From quarantine boxes to luxury cabins, China's prefab home factories pivot to exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUjFlTHZzbnlfMGxOLVJEa213eVo2VHpkU19aQmNyVmVMdUoxWlIyLTFkc216eFRTb0lRdndXTks0LU1UWjNWNUh3a3RUSV9OR09XOEZENWNxajgxSlBKUklOWlc0NGJ3VVVsNURmVFBCdG1fM0ZrcGpxRE5Bd3JORGg5aWplZk9YVDhsV3hWZEFoODVGUktJTjVvT2x6d1FTVUpOX19kU2dZRVNkY1J5akNrc2x3ZDZoeUNkTm16a3NLUzZUSENn?oc=5",
+        "title": "Witnessing Chinese Enterprises' Massive Overseas Expansion: My On-Site Experience in Kazakhstan - 36Kr",
+        "source": "36Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NMFIyT0RTMWRSa0pvRExQd2ZQOE4zLXJwV0p4cEFqaGh4LTIzeWlnejk1VU5ZU01BYUIyTkgxNFdkS0lQS0xOUkZOZ1FDOEpVbjln?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "家用电器"
   }
 }

@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 49,
-      "trend_direction": "up",
+      "interest_score": 74,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-18"
+      "fetched_at": "2026-09-20"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-20",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight b2b export」增速 255%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，FreightWaves关注「Driver shortages, booming exports...」。",
+    "trend_summary": "多式联运：海外社媒「logistics #trending」增速 246%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，World Trade Organization关注「WTO | 2026 News items - New report...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,52 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight b2b export」增速 255% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「logistics #trending」增速 246% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "freight b2b export",
-        "growth": 255.0,
-        "vol": "614K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "freight industry report",
-        "growth": 215.5,
-        "vol": "163K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 211.0,
-        "vol": "795K",
+        "kw": "logistics #trending",
+        "growth": 245.5,
+        "vol": "575K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "logistics price trend",
+        "growth": 240.0,
+        "vol": "366K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "freight analyst",
+        "growth": 239.5,
+        "vol": "221K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "freight b2b export",
-        "growth": 252.0,
+        "growth": 208.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "shipping wholesale supplier",
+        "kw": "logistics market 2026",
         "growth": 150.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Driver shortages, booming exports reshape US-Mexico freight market - FreightWaves",
-        "source": "FreightWaves",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDVrOUJtalQ3c2tJamxWUTlISE40RmR6NzVNS01ETHNGYjBNc1VWMmRVS2k4NVBsTXJMVkVYVVY4YlZ3bFljUUxsZDNDVkNlcGxGY1oxa3Q5MXlJdE1yOHRxVjlRZnQ5SU5jaFZCeGJhRWctRFFTdEJmVnA2cFZPWXBBZGJiamVQUnBpT3laeXZ4cmlpWjlkZDFRVjFlbXJO?oc=5",
         "hits": 0
       },
       {
@@ -109,6 +102,13 @@
         "title": "WTO | 2026 News items - New report highlights growth potential of digital trade in Latin America, Caribbean - World Trade Organization",
         "source": "World Trade Organization",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93QUQzQ21GTGVjemVXaXlleERtUkVtVldUa2c2R09nS2RFbUttWXN0QWQ0WmZuLXp4T3R2NzlhdUl4eUloN0ZWa1RUdzFBbmZlR1hOMVlIcnBSZVhwaEEzc0lURTZuUHI2R0dlM2VodHEzTFdt?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "ITC and DHL Extend Partnership to Support SMEs Entering International Cross-Border Trade - Global Sources",
+        "source": "Global Sources",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLWtYdVNOb2lHcC1SV2l3VFlleW5IZmRFN0sweDVSQTFaOWN1dkZsN1JKVWdCYzhRNGR5aVRfSVdsQUFxVTU5TnZUR3YtZDlQTnJ0cmhPUjJ0ZUxKaEhIQkpWR0NHbHZhVUdZeFRoX1ZFc1pFc0JBcEhYaU9PREdzbW5XcnljV2NqUV9kZWtYUzgtd0xQNk5MNmkxdlBvc0hnR2F0VXU0Y0NSXzNJdHhfR3pwaDNibktwSnVIUVZHVU1RT2lPM2NaMW5FNFctQQ?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "买家物流市场"
   }
 }

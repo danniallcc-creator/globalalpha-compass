@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 84%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-36，Reuters关注「Trump heads into midterms short on...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 42%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-24，Reuters关注「Trump heads into midterms short on...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 84% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 42% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 84.5,
-        "vol": "607K",
+        "growth": 42.5,
+        "vol": "794K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor #trending",
-        "growth": 224.5,
+        "platform": "tiktok",
+        "kw": "home decor #fyp",
+        "growth": 247.5,
         "vol": "474K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "home decor viral",
-        "growth": 209.5,
-        "vol": "627K",
+        "kw": "home decor new arrival",
+        "growth": 246.5,
+        "vol": "169K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 81.5,
+        "growth": 39.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 158.5,
+        "growth": 120.5,
         "hits": 2
       },
       {
@@ -98,32 +98,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Trump moves toward levying new tariff on China for flooding market with cheap goods, AP sources say - Hartford Courant",
-        "source": "Hartford Courant",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRkJVcUNLY2hNSEpkLW9jQTNMWGlQUkpNTW5hdGk2NWp3bGJYWkJidFl0LW92Vkdmc3VaTjdIeHh5SUV0d3hzVXE3YzMzYWlyY21SMUxBelh0Z2dUTHB3X1Fma0ZXNFMwRlpVMHYzMzE5Mkx3YXhlZHZSTGxKdHNYMy1ZM25SdUllazJxeUpDVk05am1vYlJaVmwyb01NVnd6QWd3d2ZtMHpsc0l1aS1iaWFIYS13NlJNQ2xhc0JGbURQX0xYSVIxNlk2bWpuM1NXSFlCM3E5TFMwOTJtTXNJc3o4MmJmUGdzSi1WYW8wRlJ1dVdNY2RyT09FSQ?oc=5",
+        "title": "China’s car exports are booming. Why are Chinese buyers pulling back? - Firstpost",
+        "source": "Firstpost",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejZuWU5ldUV1MWNTOFh2UlJHY1RBQjcyVHZXZzJJcmhoc1VjenZhWDN3SUtJMVIzeTRyVjhEczlsa3p1V0Yxdl9CcGhHeWlJclllNDJjbmM1ODllNWFyWWtLQTlwMnZXemhNUHZEeldrU1BNYzNkQjNlUjhHb3RHUXAzUkVyZnVKb1lRSlJTX2wzVnhhSkI4Rjc3VnVIbEktSndGVmdOTlJrUkpRQUdRa0JHMUY5d9IBuwFBVV95cUxOeENhVHVoYVo0dTM0cDFzejFCTktCMnBZdnNicjBwTlhOXzZrQ29kMXl0NjJ3d3NEZHl1cHlSU1hkOFFTQ1doR3lCNFp0YTZUSENaT1pDOWV0Nk9QX3l1UDBuQlQwRS1uTHZuOVZ0OFZhcG4xQjlMdkhEQUVsRF9IdEVKb3NxMHNzbWk5YnJaLUQ1YTUzdzZRRElLMjdBaWMtR2oyaV8wVXJKOFA1R3NjV3B1UTdpQWVpWi1j?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 24,
+        "title": "Top garden - Pro Edition",
+        "price": "$252.7",
+        "rating": 4.4,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 36,
+        "rank": 14,
         "title": "Top garden - Smart Edition",
-        "price": "$109.1",
-        "rating": 4.7,
-        "hits": 0
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 34,
-        "title": "Top garden - Heavy-Duty Edition",
-        "price": "$250.5",
-        "rating": 4.4,
+        "price": "$230.1",
+        "rating": 3.9,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "家居园艺"
   }
 }

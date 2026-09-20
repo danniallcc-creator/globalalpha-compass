@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "摩托车及脚踏车：海外社媒「ev b2b export」增速 243%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's car exports stay strong in...」。",
+    "trend_summary": "摩托车及脚踏车：海外社媒「electric vehicle analyst」增速 234%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China says it will monitor EU moves on...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 摩托车及脚踏车 出口需通过合规认证",
-      "海外社媒「ev b2b export」增速 243% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
+      "海外社媒「electric vehicle analyst」增速 234% 领跑 → 摩托车及脚踏车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ev b2b export",
-        "growth": 243.0,
-        "vol": "404K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ev price trend",
-        "growth": 240.0,
-        "vol": "522K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electric vehicle market 2026",
-        "growth": 236.5,
-        "vol": "358K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 240.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
+        "platform": "x",
+        "kw": "electric vehicle analyst",
         "growth": 233.5,
+        "vol": "36K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "ev b2b export",
+        "growth": 232.0,
+        "vol": "755K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "ev must have",
+        "growth": 230.0,
+        "vol": "123K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 229.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle market 2026",
+        "growth": 224.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's car exports stay strong in August but domestic sales decline more - Reuters",
+        "title": "China says it will monitor EU moves on Chinese hybrid cars, opposes 'voluntary limit' on exports - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ2VEOFBFc3FIc0xlQVlKbUd3UjRSTE92NUFlQXI5c3Jlb0pMVk9CUGl4R2czaDNTak9rSHNmYVJRVjVtRmdDTnZPQ3kzUHBkdnJBSnhYaW1jVjQ4YkNNNl9uRHppNi00c0tzcy0zUHlSU2o3Zkd3V2Vvd2tzVGFGa2hDcFNqdzMzQ0hYNzFubUpyUEx0aDJlUjZSb1lzcXBlRk92cFFtN24xN1dNak5GV2RJanc0cDVBRTlXWV9uVWt0NV8wMFplVUhFOFIydw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT09Jd0tFOEZkOFllMmVadUwtWDY0RDctRzU2VXNiYUszaHRydVhSNEUwUXBpRFp6OERaOTR2dk5SY3lsNExxUnMyYWZNdHc5bG1YcjJrVWVCWmpIZFhXYk9QcXh4NllJN1pOdlFiUk11cllCWFdWMVkwS3dwR1NYeHluOERMbUFWbzI0ZmpBVF9Lb1Yya1FwYl9zd3RSZklOTkphM0w5RklEa1VPUUFNajlRSEFDZFFyNGxxTS15Vk5KQnVIU0E?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "整车及交通工具"
   }
 }

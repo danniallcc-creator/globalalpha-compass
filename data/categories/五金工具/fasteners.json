@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 39712727,
-    "total_net_weight_kg": 19212727,
+    "total_export_value_usd": 2144611,
+    "total_net_weight_kg": 11644611,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-18"
+    "fetched_at": "2026-09-20"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 41,
-      "trend_direction": "stable",
+      "interest_score": 49,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-18"
+      "fetched_at": "2026-09-20"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-20",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -73,7 +73,23 @@
   },
   "customs_2025": {
     "china_export": null,
-    "imports_from_china": {}
+    "imports_from_china": {
+      "JP": {
+        "value_usd": 5527161124.805,
+        "yoy": null,
+        "share": 36.5
+      },
+      "AU": {
+        "value_usd": 6906149664.940001,
+        "yoy": null,
+        "share": 45.6
+      },
+      "SA": {
+        "value_usd": 2726731547.951,
+        "yoy": null,
+        "share": 18.0
+      }
+    }
   },
   "policy_updates": {
     "articles": [

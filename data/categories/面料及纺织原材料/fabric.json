@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric unboxing」增速 212%，搜索端「textile fabric supply chain resilience」热度上行，US Amazon BSR Top-49，The Observatory of Economic Complexity关注「Coated Textile Fabric (HS: 5907)...」。",
+    "trend_summary": "面料：海外社媒「fabric market alert」增速 214%，搜索端「fabric b2b export」热度上行，US Amazon BSR Top-46，The National Law Review关注「Ten Reputable Velvet Upholstery Fabric...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,46 +50,53 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric unboxing」增速 212% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric market alert」增速 214% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric unboxing",
-        "growth": 212.0,
-        "vol": "732K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "fabric viral hack",
-        "growth": 209.0,
-        "vol": "553K",
+        "platform": "x",
+        "kw": "fabric market alert",
+        "growth": 214.0,
+        "vol": "656K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "fabric aesthetic",
-        "growth": 175.0,
-        "vol": "9K",
+        "growth": 210.0,
+        "vol": "643K",
         "hits": 2
       },
       {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "textile fabric supply chain resilience",
-        "growth": 87,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 177.0,
+        "vol": "696K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 46.0,
+        "growth": 143.0,
         "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "textile fabric market trend 2026",
+        "growth": 90,
+        "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Ten Reputable Velvet Upholstery Fabric Manufacturers in China 202 - The National Law Review",
+        "source": "The National Law Review",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPamdIU1BnTS1IUG1SNFlvTkdqd3F1V3R2NWJfNkRPc3NUOTRLZjNBQWUydEYtbjlkRVBwTGZzd05xamlqSlNTWlV0RnNnY2VfdTNxMzJUNFBXZU5kVUdUX2NSY2w4WXVBMzYwT0RZTFZEczdPTDI2NjAxaENUN1pJQkJCQUoydS1NamZXVEFBMVhueVpNcXFUemR0bUk3UzJxUmpuQ20xU2o3U0Q0MTlqV1pmSQ?oc=5",
+        "hits": 3
       },
       {
         "dim": "媒体",
@@ -99,33 +106,26 @@
         "hits": 2
       },
       {
-        "dim": "媒体",
-        "title": "Pile Fabric (HS: 6001) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vWXlLTTV3UmptbFVkN1JzVUpkWjh6Qll5RTJkRHpUMzJVeFdnbXB0cjlnMHRYdFhobklmU1pJeDZEbEY3cnB5Q2REd3Y5Q2VyUVA3Tll3?oc=5",
-        "hits": 2
-      },
-      {
         "dim": "Amazon",
         "market": "US",
-        "rank": 49,
+        "rank": 46,
         "title": "Top textile - Premium Edition",
-        "price": "$216.0",
-        "rating": 4.7,
+        "price": "$67.0",
+        "rating": 4.2,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 48,
-        "title": "Top fabric - Heavy-Duty Edition",
-        "price": "$285.5",
-        "rating": 4.9,
+        "market": "UK",
+        "rank": 40,
+        "title": "Top fabric - Smart Edition",
+        "price": "$79.1",
+        "rating": 4.5,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "面料及纺织原材料"
   }
 }

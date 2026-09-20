@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工业控制：海外社媒「electrical top 10」增速 242%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，Newsweek关注「Eight US States Doug Ford Wants Canada...」。",
+    "trend_summary": "工业控制：海外社媒「electrical industry report」增速 230%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 工业控制 成主流",
       "欧盟 CE 标志强制准入 → 工业控制 出口需通过合规认证",
-      "海外社媒「electrical top 10」增速 242% 领跑 → 工业控制社媒种草热度爆发"
+      "海外社媒「electrical industry report」增速 230% 领跑 → 工业控制社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical top 10",
-        "growth": 241.5,
-        "vol": "664K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "electrical b2b export",
-        "growth": 241.0,
-        "vol": "650K",
+        "kw": "electrical industry report",
+        "growth": 229.5,
+        "vol": "400K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical viral hack",
-        "growth": 238.0,
-        "vol": "370K",
+        "platform": "youtube",
+        "kw": "electrical unboxing",
+        "growth": 229.0,
+        "vol": "700K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electrical market alert",
+        "growth": 227.0,
+        "vol": "705K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electrical b2b export",
-        "growth": 238.0,
+        "kw": "electrical market 2026",
+        "growth": 129.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
-        "growth": 195.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - Newsweek",
-        "source": "Newsweek",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
+        "growth": 105.5,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "EU wants initial Chinese action on trade gap by early October - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjNtYW00MklwT1hHUEVPaWVaQmpWVzFJUFE2N05VcUdSOEdldDF2M21WX2VwTWE4NHlndXVaNnVQemp4VFl5UDlpZjBLaXJNMmlmNkxqRmJPZEQ3Y2hVckljVEZjaXkwMDlyNTVqVTNWY1pZODJJMHhNeTgwc2J1Tkd5UkpKeEc2OVpfYVROcW5HZmItRk1tZUF4WVpMOUszTjc3MGNERWk4UQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Eight US States Doug Ford Wants Canada To Target With Tariffs - Newsweek",
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeE1aejlhR2F3SkE4MnlEZTlzX0lHM1JVZXJUd2RucjVwaWNCRXRxbENSOTQ3dV90dlN3ZG82RjlCdHJadWlRM0Fibmt4aThjZUZNVk1aaEpweE1NMWR4YkRWVThqMlhTQTB2Q1JmSXRkeGRZY0FtcENaaVpXTzdacjQ0WlNzLTh4?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-09-18",
+    "generated_at": "2026-09-20",
     "l1_ref": "电气设备及用品"
   }
 }
