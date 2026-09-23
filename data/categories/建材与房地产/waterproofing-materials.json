@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "防水材料：海外社媒「building breaking」增速 248%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，Duluth News Tribune关注「US Senator's View: Trade with Canada,...」。",
+    "trend_summary": "防水材料：海外社媒「cement viral hack」增速 238%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Plastic Building Materials (HS: 3925)...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 防水材料 出口需通过合规认证",
-      "海外社媒「building breaking」增速 248% 领跑 → 防水材料社媒种草热度爆发"
+      "海外社媒「cement viral hack」增速 238% 领跑 → 防水材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building breaking",
-        "growth": 247.5,
-        "vol": "450K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "building wholesale supplier",
-        "growth": 244.5,
-        "vol": "55K",
+        "platform": "tiktok",
+        "kw": "cement viral hack",
+        "growth": 238.0,
+        "vol": "743K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "cement unboxing",
-        "growth": 240.0,
-        "vol": "249K",
+        "kw": "cement factory tour",
+        "growth": 234.0,
+        "vol": "475K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "building market 2026",
+        "growth": 230.5,
+        "vol": "162K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 227.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "building wholesale supplier",
-        "growth": 241.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "cement b2b export",
-        "growth": 174.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "US Senator's View: Trade with Canada, so good for Minnesota, threatened by tariffs - Duluth News Tribune",
-        "source": "Duluth News Tribune",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS21BdmFIVkswMFVfbzRmdmdPM0V2TWNxaVo2U09CNlNZSklfTHFSU1dJcnFUN3BSMWtOZ1pFVVNteTloQTlnR1M0X3Q0NmxOM0Y2em5tekJDSmNEYTVpNWVCa0ZrcTYyU0UtSjNGdDBLVzlhcWtFay1GUmZPWHRicUNDRXdtaFQzVzBlUWUtU0hJaTdFb182a3BJSVhIa3RKUldENGpQUHVvUThMUENQaU50Q1pzczRzbzVXeUt4ZDIzbUhQNUNj?oc=5",
+        "growth": 195.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Plastic Building Materials (HS: 3925) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yVG91c016M08yTnVHVlZ6M0FaX1NueGtydE9weGZvbEpMVUl6emhBdWRsVFFlSnpzcmtvOVZ0bGdBYUVpeHRzcEZJRERuaF9hc1lzRms5QWZuNW4yc19pQTU1dDIzYjhkN1E?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "‘So much chaos’: Escalating trade war with Canada impacts Pa.’s largest export market - TribLIVE.com",
+        "source": "TribLIVE.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQzFPYzFpNkkyaWhibGFwQWFOR2N6aTZ0VllkTzhJamp2Ny1ySGlUVi1ReEpRZnlNSFd1aFhoN3N2elJSQmRPRWxOMUo4STJJdkM2dFJub0xYTS1QZ0Y3RmZ0dWQzVHpiR1RNa3VqV0VuVmhOUU1LUktUTHprdnhrNEdOUEpGTUlYX3dQZWRTQ0tZVnhpQ1c0Y0JwQktTUkZDTW5KRXNGTGM3ZW82QndZQ0JTRGxjaVdTQVE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "建材与房地产"
   }
 }

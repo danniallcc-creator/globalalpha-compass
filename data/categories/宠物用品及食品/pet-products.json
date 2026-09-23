@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet wholesale supplier」增速 248%，搜索端「pet products market trend 2026」热度上行，DE Amazon BSR Top-48，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
+    "trend_summary": "宠物用品：海外社媒「pet viral」增速 250%，搜索端「pet products market trend 2026」热度上行，DE Amazon BSR Top-36，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet wholesale supplier」增速 248% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet viral」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet wholesale supplier",
-        "growth": 247.5,
-        "vol": "219K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet industry report",
-        "growth": 243.5,
-        "vol": "568K",
+        "platform": "instagram",
+        "kw": "pet viral",
+        "growth": 250.5,
+        "vol": "274K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 242.0,
-        "vol": "232K",
+        "kw": "pet food trending now",
+        "growth": 235.0,
+        "vol": "369K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 223.0,
+        "vol": "609K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products market trend 2026",
-        "growth": 82,
+        "growth": 78,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 64,
+        "growth": 78,
         "hits": 2
       },
       {
@@ -107,24 +107,24 @@
       {
         "dim": "Amazon",
         "market": "DE",
-        "rank": 48,
+        "rank": 36,
         "title": "Top pet food - Pro Edition",
-        "price": "$61.7",
-        "rating": 4.9,
+        "price": "$48.7",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 45,
-        "title": "Top pet food - Smart Edition",
-        "price": "$276.1",
-        "rating": 3.9,
+        "market": "SA",
+        "rank": 26,
+        "title": "Top pet - Compact Edition",
+        "price": "$72.8",
+        "rating": 4.2,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "宠物用品及食品"
   }
 }

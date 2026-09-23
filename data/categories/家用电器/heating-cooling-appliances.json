@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "供暖及制冷电器：海外社媒「appliance must try」增速 226%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WKOW关注「Canada just announced new tariffs on US...」。",
+    "trend_summary": "供暖及制冷电器：海外社媒「appliance supply chain」增速 254%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WKOW关注「Canada just announced new tariffs on US...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 供暖及制冷电器 出口需通过合规认证",
-      "海外社媒「appliance must try」增速 226% 领跑 → 供暖及制冷电器社媒种草热度爆发"
+      "海外社媒「appliance supply chain」增速 254% 领跑 → 供暖及制冷电器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "appliance must try",
-        "growth": 226.5,
-        "vol": "279K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "appliance aesthetic",
-        "growth": 220.0,
-        "vol": "126K",
+        "platform": "x",
+        "kw": "appliance supply chain",
+        "growth": 253.5,
+        "vol": "49K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "appliance b2b export",
-        "growth": 184.0,
-        "vol": "369K",
+        "growth": 248.0,
+        "vol": "384K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance wholesale supplier",
+        "growth": 238.5,
+        "vol": "407K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 181.0,
+        "growth": 245.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance wholesale supplier",
-        "growth": 109.5,
+        "growth": 235.5,
         "hits": 0
       },
       {
@@ -98,8 +98,8 @@
       },
       {
         "dim": "媒体",
-        "title": "Witnessing Chinese Enterprises' Massive Overseas Expansion: My On-Site Experience in Kazakhstan - 36Kr",
-        "source": "36Kr",
+        "title": "Witnessing Chinese Enterprises' Massive Overseas Expansion: My On-Site Experience in Kazakhstan - eu.36kr.com",
+        "source": "eu.36kr.com",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NMFIyT0RTMWRSa0pvRExQd2ZQOE4zLXJwV0p4cEFqaGh4LTIzeWlnejk1VU5ZU01BYUIyTkgxNFdkS0lQS0xOUkZOZ1FDOEpVbjln?oc=5",
         "hits": 0
       },
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "家用电器"
   }
 }

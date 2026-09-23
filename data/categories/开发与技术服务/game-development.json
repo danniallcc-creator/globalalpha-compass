@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "游戏开发：海外社媒「tech service #fyp」增速 250%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Alaska Business Magazine关注「Tech Experts Take Exports Accolades -...」。",
+    "trend_summary": "游戏开发：海外社媒「software outsourcing b2b export」增速 230%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「New Zealand parliament passes India...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 游戏开发 出口需通过合规认证",
-      "海外社媒「tech service #fyp」增速 250% 领跑 → 游戏开发社媒种草热度爆发"
+      "海外社媒「software outsourcing b2b export」增速 230% 领跑 → 游戏开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "software outsourcing b2b export",
+        "growth": 230.0,
+        "vol": "710K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "tech service #fyp",
-        "growth": 249.5,
-        "vol": "706K",
+        "kw": "software outsourcing viral hack",
+        "growth": 229.0,
+        "vol": "797K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "tech service supply chain",
-        "growth": 249.5,
-        "vol": "397K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "software outsourcing factory tour",
-        "growth": 236.0,
-        "vol": "495K",
+        "platform": "tiktok",
+        "kw": "tech service tiktok made me buy",
+        "growth": 222.5,
+        "vol": "357K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "software outsourcing b2b export",
-        "growth": 153.0,
+        "growth": 227.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "tech service wholesale supplier",
-        "growth": 117.5,
+        "kw": "tech service market 2026",
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Tech Experts Take Exports Accolades - Alaska Business Magazine",
-        "source": "Alaska Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CX3g1S2poRGNvRjNiRlBkNHBzSWdoRDE5QWZvX25RYV9MNElydGN5RHNJOEZLUVFtZzlaRjU3T2hVVGd4WGRtUkVmSEZOZnh3X0YycFVSMzBMM1MxQ3RDYTlVMDdteVZRMkhBeW5raV9aa1BEbTlnTk9n?oc=5",
+        "title": "New Zealand parliament passes India trade deal, cutting tariffs on most exports - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcHBVajVXVndfWmVicXJoVXJiSExiV3V1V0pKWVAtR185clpJb1RJYnBNV25Xd0ZaM2NoRkVyNjljMEJnWDB2VlhoLWdSMklILTFTQWRNUVRMQVdaZ05MR1l1UzlNZ1laMTZTMGRpekxsM0JXNlBrbVhhdktlUHF2LVR0aVlSRXlzakxSOUtYS09FMVhYdV9GRDk3ZFY0bm1rZld2Rw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Digital services exports are growing fast. Least developed countries are not keeping pace - unctad.org",
-        "source": "unctad.org",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdk1pWFVab3dRRTVEaXM2a2JQUmYwYUU4b0hYY3NaTVVDNXNGTUY4NlZ2NmFfamE3NWxRUlhLR21mU3Utb3pmTE9LcTZmd1YtSkx2c244Z2d0Q2UzQV82Q2NLUUo2ZkMwdFhHU25GcXFBQ214WmZjN2MyMHdOc3NlV3VDeWowY1dfcWhRWGxfc3Aza0h6WU83bWdaU3RIQThTOEQ4b3ZHdzRhN1Z3OFJPVmZn?oc=5",
+        "title": "USTR Seeks Comments on Foreign Trade Barriers for 2027 Trade Report - Buchanan Ingersoll & Rooney PC",
+        "source": "Buchanan Ingersoll & Rooney PC",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVHZMZ09VQ2Y5SkhGOFVrZTFaRThUUjFjYXJLSUt2aUZpdURzREQ1b0RmRGpKdk9tbXdYQXA5djdsMFBlS3JEVEhRaXJGdVo5QzJ1am5sWnh0a0NGOTdQc1RIWlFBU08zcUw2MGx4N0hHYS1ReVQ0ZWQyZ1U4OXRIdlpBeTdWc0NXME0zQ2ZpMXZaUQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "开发与技术服务"
   }
 }

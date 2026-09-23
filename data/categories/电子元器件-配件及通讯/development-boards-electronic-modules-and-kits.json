@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "开发系统：海外社媒「electronic component b2b export」增速 245%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，HKTDC Research关注「Electronics Industry in Hong Kong -...」。",
+    "trend_summary": "开发系统：海外社媒「chip viral」增速 248%，搜索端「chip wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「China (CHN) Exports, Imports, and Trade...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 开发系统 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 开发系统 成主流",
       "欧盟 CE 标志强制准入 → 开发系统 出口需通过合规认证",
-      "海外社媒「electronic component b2b export」增速 245% 领跑 → 开发系统社媒种草热度爆发"
+      "海外社媒「chip viral」增速 248% 领跑 → 开发系统社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "chip viral",
+        "growth": 248.5,
+        "vol": "404K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "electronic component b2b export",
-        "growth": 245.0,
-        "vol": "109K",
+        "kw": "chip wholesale supplier",
+        "growth": 231.5,
+        "vol": "724K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "5g #fyp",
-        "growth": 237.5,
-        "vol": "27K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "semiconductor price trend",
-        "growth": 231.0,
-        "vol": "507K",
+        "growth": 227.5,
+        "vol": "693K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electronic component b2b export",
-        "growth": 242.0,
+        "kw": "chip wholesale supplier",
+        "growth": 228.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 148.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Electronics Industry in Hong Kong - HKTDC Research",
-        "source": "HKTDC Research",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mR1dXTWt5VGRmSXJUeHBBWnZwUWNWbFNPZUE4SFl4Z3BUbW83Z3p2NHQ3RXprZ0lxa3lWblJiQmVDdnpaVy1Ea1FnamNxSDVPR0ktN2FUUFo0U0c1S2hJ?oc=5",
+        "growth": 118.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "China (CHN) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDMHV0M3ZTYWZDX3EtWG9CZE1QZnVqZWpNVmtXbk9DVkVpM2xZYU51enNycWlnN1NSZ2wzclctWk9rSVdnTUZOdl91UmJFSFRTQ3c?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Consumer Electronics Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaDZfREVEenJCbTFEY05KVEVYVDduUW02WFpSSDhmbVJKSUlsUnp6d2lvelcyVU5VQVIzSzFHU3hQOUZrSGtPVVU2QXN4NkdBSUNSeWpfWTRBY3NQcktfNlZ0SFV2dE91TlVGb1NxXzNic0lpclIwanppMEFJOEk?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

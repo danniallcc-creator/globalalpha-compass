@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 2144611,
-    "total_net_weight_kg": 11644611,
+    "total_export_value_usd": 38631216,
+    "total_net_weight_kg": 18131216,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-20"
+    "fetched_at": "2026-09-23"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 49,
-      "trend_direction": "up",
+      "interest_score": 77,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-20"
+      "fetched_at": "2026-09-23"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-23",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 1,
@@ -72,104 +72,49 @@
     "fetched_at": "2026-09-12"
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 116639871787.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "complete"
+    },
     "imports_from_china": {
-      "JP": {
-        "value_usd": 5527161124.805,
+      "DE": {
+        "value_usd": 37197415721.436035,
         "yoy": null,
-        "share": 36.5
+        "share": 79.1
       },
-      "AU": {
-        "value_usd": 6906149664.940001,
+      "KR": {
+        "value_usd": 6196586926.0,
         "yoy": null,
-        "share": 45.6
+        "share": 13.2
       },
-      "SA": {
-        "value_usd": 2726731547.951,
+      "BR": {
+        "value_usd": 3603583490.0,
         "yoy": null,
-        "share": 18.0
+        "share": 7.7
       }
     }
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "United States Corrosion-Resistant Fastener Sets - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPOVVLT2N3dHpCUEtFSlV2Q3RudGJIZHZadkpKSjY2Y1owRTJMWmFtRkQ2a3NXRGtMYWdkYTBpakEzU29fWW9XVDZXZExXTzFjd1R3WGlLSWZaSzZfNUkwNVZEcHExVWw4R0lIcDZqcUJTSW5Tb0VnZXc0a0lsVDhGejlpNHEtZXA3aEpoak5KWUo2dFNjYUhtQjJTcmhGTVVDRzV2eEpsYkFWUTNac3p6ZHo5dlRUSmpPZ2",
-        "country": "US",
+        "title": "Countdown to Stuttgart: Fastbolt Group - Fastener + Fixing Magazine",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQTlV3UzJ5dWlydm1SZGxXenJjLTJBR3NGV1Z4U0NxX280TnFxRzdkaFJsdktIa0hfSjYxcGZaazJTYl8ySEx6ekhYaEVGd3c1M01jNW5XWjVteTZlSjRWMThoblZMQjdxSENla2U3RWg1N2pzTlJXRzlhWjZiMXdtWjZsRER5Uk1rT0pxSQ?oc=5\" target=\"_blank\">Countdown to Stuttgart: Fastbolt Grou",
+        "country": "GB",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOVVLT2N3dHpCUEtFSlV2Q3RudGJIZHZadkpKSjY2Y1owRTJMWmFtRkQ2a3NXRGtMYWdkYTBpakEzU29fWW9XVDZXZExXTzFjd1R3WGlLSWZaSzZfNUkwNVZEcHExVWw4R0lIcDZqcUJTSW5Tb0VnZXc0a0lsVDhGejlpNHEtZXA3aEpoak5KWUo2dFNjYUhtQjJTcmhGTVVDRzV2eEpsYkFWUTNac3p6ZHo5dlRUSmpPZ2dxWTI4UTQxVFBWS1RZ?oc=5",
-        "published": "Fri, 11 Sep 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "China Corrosion-Resistant Fastener Sets - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNbVNqeEhrRzE0LVpkM0syelhmVHNQM2dORWYxbmZfYjVyczIxRXVHWEc2bkg0WEJtaFBIcHg4ZUQ0U1QtVW9GVGU4alpCSzRsT01MMF9EaDhiN0ZUWExzLXFPNjNXTHFfcUZoYThBYnpHTGdZbDVYZmlISWpyUTkxVkUxaXhEUGdFM1dVTVVKdkZmMWx2SGJSTkxsbHR1WHRVSWw1aTJqangtV2p0T3MwYkNvLW4wc2pNQn",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbVNqeEhrRzE0LVpkM0syelhmVHNQM2dORWYxbmZfYjVyczIxRXVHWEc2bkg0WEJtaFBIcHg4ZUQ0U1QtVW9GVGU4alpCSzRsT01MMF9EaDhiN0ZUWExzLXFPNjNXTHFfcUZoYThBYnpHTGdZbDVYZmlISWpyUTkxVkUxaXhEUGdFM1dVTVVKdkZmMWx2SGJSTkxsbHR1WHRVSWw1aTJqangtV2p0T3MwYkNvLW4wc2pNQnF3Zg?oc=5",
-        "published": "Fri, 11 Sep 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Carbon Border Adjustment Mechanism (CBAM): Policy summary - GOV.UK",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ0RUQUU2WGdVOHNIZ2d5MllLMDdQNXAxUmVXUVdYWFZzNjlxV05DQmtFM1lBd2NVeFA0a09DUzVlVlYwZE85TUY5dWhDTnYyaHZSLVQ4UGZTOGFtR0ozQmxnUTlKejZvZ2M5WE8xRXdGT1MzZ01yRmNXV1lnNHNxYVlwcm5oaXVhLW5JeW9aSExzckpaa1JUaXNYcnd1M0dRSjczTXVsaEgydHpRQkpmTUdERnhGZXBSTW",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZ0RUQUU2WGdVOHNIZ2d5MllLMDdQNXAxUmVXUVdYWFZzNjlxV05DQmtFM1lBd2NVeFA0a09DUzVlVlYwZE85TUY5dWhDTnYyaHZSLVQ4UGZTOGFtR0ozQmxnUTlKejZvZ2M5WE8xRXdGT1MzZ01yRmNXV1lnNHNxYVlwcm5oaXVhLW5JeW9aSExzckpaa1JUaXNYcnd1M0dRSjczTXVsaEgydHpRQkpmTUdERnhGZXBSTWpZTzVWcmg2ZmJQUFM4ejlENUhvcG9zZkt1UXlGZm9uRDk1NHNCR3lNLVFQYzg?oc=5",
-        "published": "Wed, 09 Sep 2026",
-        "source": "GOV.UK"
-      },
-      {
-        "title": "Canada Cadmium-Plated Fasteners - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQNUZldFhNMmI0LWNEZkRKWFlnZnhGX09WZlJsX1FEUTRNeXJwT29tLUtkekVSQm83ck9fSW9nZjNFeDZHbjVzblZoMm9UOVZrc09NcVJVdUFvOGhhRHItNS1qS3BYNkF6aEJWYzN1VTRROVRhbHFMaFhseXdJLUJoTVN2LVlRQW1LWnpxam9JQU1Gd3lVMHM2ZlBkc0VBNkdXRVFyc3VIcXg0bVVFNHhXYzhR?oc=5\" tar",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "direct",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNUZldFhNMmI0LWNEZkRKWFlnZnhGX09WZlJsX1FEUTRNeXJwT29tLUtkekVSQm83ck9fSW9nZjNFeDZHbjVzblZoMm9UOVZrc09NcVJVdUFvOGhhRHItNS1qS3BYNkF6aEJWYzN1VTRROVRhbHFMaFhseXdJLUJoTVN2LVlRQW1LWnpxam9JQU1Gd3lVMHM2ZlBkc0VBNkdXRVFyc3VIcXg0bVVFNHhXYzhR?oc=5",
-        "published": "Fri, 11 Sep 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Nigeria Composite Fastener Spacers - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxONVE1QTcxYjcwaFZhQ1VlYlFfYVhjQnU2NGpwRXFfcHc4X1FFUjIyQnphaDR6X3k5TEtGdFppUThhWWpwLWJnUl83M2NKWmN6cVVkODBYWTd5TWl4dVItMkdXTjRncF83Smp5bTY2eDB2Vkc2ekNEcFlFNkZtQllWazhsWmUzVDNCSXdTZTJQR050NDZZQnYyMzhGck9XSlpSbGlxY1FIbHFwYlIxWXkyTkxlbHhOZw?oc=",
-        "country": "Unknown",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVE1QTcxYjcwaFZhQ1VlYlFfYVhjQnU2NGpwRXFfcHc4X1FFUjIyQnphaDR6X3k5TEtGdFppUThhWWpwLWJnUl83M2NKWmN6cVVkODBYWTd5TWl4dVItMkdXTjRncF83Smp5bTY2eDB2Vkc2ekNEcFlFNkZtQllWazhsWmUzVDNCSXdTZTJQR050NDZZQnYyMzhGck9XSlpSbGlxY1FIbHFwYlIxWXkyTkxlbHhOZw?oc=5",
-        "published": "Sat, 12 Sep 2026",
-        "source": "IndexBox"
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTlV3UzJ5dWlydm1SZGxXenJjLTJBR3NGV1Z4U0NxX280TnFxRzdkaFJsdktIa0hfSjYxcGZaazJTYl8ySEx6ekhYaEVGd3c1M01jNW5XWjVteTZlSjRWMThoblZMQjdxSENla2U3RWg1N2pzTlJXRzlhWjZiMXdtWjZsRER5Uk1rT0pxSQ?oc=5",
+        "published": "Tue, 22 Sep 2026",
+        "source": "Fastener + Fixing Magazine"
       }
     ],
     "country_summary": {
-      "US": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "EU": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "Unknown": {
+      "GB": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

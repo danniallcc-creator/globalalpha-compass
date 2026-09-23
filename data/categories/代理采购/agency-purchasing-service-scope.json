@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 97,
-      "trend_direction": "up",
+      "interest_score": 87,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-20"
+      "fetched_at": "2026-09-23"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-23",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「procurement market alert」增速 224%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，stonex.com关注「Chinese Soybean Buying Turned Political...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「procurement price trend」增速 242%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，China Briefing关注「Trading Company China Setup 2026:...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「procurement market alert」增速 224% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「procurement price trend」增速 242% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "procurement market alert",
-        "growth": 224.0,
-        "vol": "23K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 222.5,
-        "vol": "337K",
+        "kw": "procurement price trend",
+        "growth": 242.0,
+        "vol": "353K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "procurement aesthetic",
-        "growth": 221.0,
-        "vol": "143K",
+        "kw": "sourcing #trending",
+        "growth": 239.5,
+        "vol": "360K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 219.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "sourcing must try",
+        "growth": 235.5,
+        "vol": "672K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 76.0,
+        "growth": 214.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "sourcing market 2026",
+        "growth": 93.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Chinese Soybean Buying Turned Political and U.S. Exports Depend on It - stonex.com",
-        "source": "stonex.com",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeU0yd0g1X1duaDZfdGlPS1pvU1YycDJxVGxVa2kzTTJwTFhqRkJDMHdLemtRdXhaRklWdUFVZExUd3hBYWZXZTFxeUlmWDVzdHZNbVE4RXJPbmpKanhCYjNxQlo2TC1UMWxXYm9reUpwSU04aVpwU0dEcEZtRUNDczkyaWw0cjhTNGN6Sk9qZmZMZlcwSXBLV1VHZElKQmxWU3BFT1EzVWdaS28?oc=5",
+        "title": "Trading Company China Setup 2026: Licences & Import-Export Rights - China Briefing",
+        "source": "China Briefing",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMEV1S3NzMDNXTHAyVW45aTNweHBzeU5pRGN2X2ZENWlvUGlhTVF1eDFHN0N4Y2ZtT2VWUkkwakhBdFlUUktQeXZDVloyMWpuMDJ4TmxwVGgxVUVZWTRvS2RUSHVfcE9VMUctSFp4VkRINkltbldqbzFwdnhFSmx2eHROc1BHOUtsNVE?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China-US Trade Rebounds Sharply in August as Exports Climb for Fifth Straight Month - WWD",
-        "source": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQWpGLU5aS0hWb0dRekRqVlBjcml3NE5FdDlqX3AyLXZEYnpPc3hCcEFyQ1pWazlEeXplUGpLakRubl9tUHByM0o5dWxpMFFCY2R4V0lOdWZoUm5MTWxGYlBaa1JyLWpkdWpwZHpVeDJMNU1OSTFBQ2I0RWdybS05WTVQdHh3UkFIaTcwbnRla185UmMwV0V0YWlxc1BzdTZRRE5FRGdFbHNEeDMydHgzS2ItQWgyMjN5ZUhySg?oc=5",
+        "title": "Trase brings greater transparency to global coffee supply chains - Stockholm Environment Institute",
+        "source": "Stockholm Environment Institute",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEFGYml5Q0l2U0dGakdaZ2xZOE5iYUtPOEk1QnUwUVhkRlI2LW8zS3cyakh4bGpIekhkS0ZHczh3RUpMNUdubkM1UWxDS3pGR2Z3eTdCbTVqSXpTWmw3RGpweXhSVmk5TzZ2eFVDb3lwbTMxaU8wc1Y3aWpEVE0xS3JlQXRyWTh1aFdZRDNXWQ?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "代理采购"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "珠宝包装及展示：海外社媒「jewelry supply chain」增速 218%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，The New York Times关注「The Allure of Japan’s Jewelry Resale...」。",
+    "trend_summary": "珠宝包装及展示：海外社媒「watch market alert」增速 255%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，The New York Times关注「The Allure of Japan’s Jewelry Resale...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 珠宝包装及展示 出口需通过合规认证",
-      "海外社媒「jewelry supply chain」增速 218% 领跑 → 珠宝包装及展示社媒种草热度爆发"
+      "海外社媒「watch market alert」增速 255% 领跑 → 珠宝包装及展示社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "jewelry supply chain",
-        "growth": 218.5,
-        "vol": "418K",
+        "kw": "watch market alert",
+        "growth": 255.0,
+        "vol": "570K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "jewelry viral",
+        "growth": 245.5,
+        "vol": "48K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "watch b2b export",
-        "growth": 216.0,
-        "vol": "266K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "watch aesthetic",
-        "growth": 211.0,
-        "vol": "264K",
+        "growth": 236.0,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "watch b2b export",
-        "growth": 213.0,
+        "growth": 233.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 186.5,
+        "growth": 62.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-09-20",
+    "generated_at": "2026-09-23",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }
