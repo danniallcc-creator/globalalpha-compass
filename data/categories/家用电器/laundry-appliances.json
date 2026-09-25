@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "洗衣设备：海外社媒「appliance supply chain」增速 254%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，WKOW关注「Canada just announced new tariffs on US...」。",
+    "trend_summary": "洗衣设备：海外社媒「appliance new arrival」增速 230%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，36Kr关注「Witnessing Chinese Enterprises' Massive...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 洗衣设备 出口需通过合规认证",
-      "海外社媒「appliance supply chain」增速 254% 领跑 → 洗衣设备社媒种草热度爆发"
+      "海外社媒「appliance new arrival」增速 230% 领跑 → 洗衣设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "appliance new arrival",
+        "growth": 230.5,
+        "vol": "556K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "appliance supply chain",
-        "growth": 253.5,
-        "vol": "49K",
+        "kw": "appliance industry news",
+        "growth": 227.0,
+        "vol": "578K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "appliance b2b export",
-        "growth": 248.0,
-        "vol": "384K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance wholesale supplier",
-        "growth": 238.5,
-        "vol": "407K",
+        "kw": "appliance industry report",
+        "growth": 221.5,
+        "vol": "665K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 245.0,
+        "growth": 183.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance wholesale supplier",
-        "growth": 235.5,
+        "kw": "appliance market 2026",
+        "growth": 111.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - WKOW",
-        "source": "WKOW",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeUJZWmNsQmU4Y3NtQW9abUdkbVR6MzcwUmVHOHJac2VLZC1HclI4Znc2R1J4RkxiTzRfLVpTendrZlRlQ1dkbThRTHRxMVVyOVo0b3c1TFN2ODBkWDJIQ3huYmdzYkFaUFF4djF6TmxMMmh3OVRaVWpqR0RWZXRuNzJzdFlHSnFmeXVkVUg3Q3NBRU1INUJlbXdGSDZOSGw1WWxTeTF5d2N4ckpVLXpiRW5wQi1iaEx2TldrazNkQW94NjMtZjdQekx0T3FTZUJqSmpON1ppc0tSRFVwc2hURnp3OXRBQ3hneGhMejg1aEJTbmp0SHc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Witnessing Chinese Enterprises' Massive Overseas Expansion: My On-Site Experience in Kazakhstan - eu.36kr.com",
-        "source": "eu.36kr.com",
+        "title": "Witnessing Chinese Enterprises' Massive Overseas Expansion: My On-Site Experience in Kazakhstan - 36Kr",
+        "source": "36Kr",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NMFIyT0RTMWRSa0pvRExQd2ZQOE4zLXJwV0p4cEFqaGh4LTIzeWlnejk1VU5ZU01BYUIyTkgxNFdkS0lQS0xOUkZOZ1FDOEpVbjln?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "3 Industrial Stocks to Watch as US China Trade Talks Return - webull.com",
+        "source": "webull.com",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fa2E0cjRkWnBfX2JQb0pqSE5hMVUwSF8zNjlIM1NXM2R1VEEzRTZDV2d1eDdObFBmdEJMeHJ0aVhkU1AxVl93QnBqbzRKQWJINGl5b1NPbkY?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "家用电器"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "激光设备：海外社媒「commercial equipment market alert」增速 249%，搜索端「commercial equipment market 2026」热度上行，US Amazon BSR Top-12，CNN关注「Canada just announced new tariffs on US...」。",
+    "trend_summary": "激光设备：海外社媒「commercial equipment wholesale supplier」增速 254%，搜索端「commercial equipment wholesale supplier」热度上行，US Amazon BSR Top-12，The Oklahoman关注「U.S.-Canada trade war threatens...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 激光设备 出口需通过合规认证",
-      "海外社媒「commercial equipment market alert」增速 249% 领跑 → 激光设备社媒种草热度爆发"
+      "海外社媒「commercial equipment wholesale supplier」增速 254% 领跑 → 激光设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "commercial equipment market alert",
-        "growth": 249.0,
-        "vol": "638K",
+        "platform": "google",
+        "kw": "commercial equipment wholesale supplier",
+        "growth": 253.5,
+        "vol": "465K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "commercial equipment top 10",
-        "growth": 224.5,
-        "vol": "273K",
+        "platform": "instagram",
+        "kw": "commercial equipment new arrival",
+        "growth": 236.5,
+        "vol": "197K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "commercial equipment supply chain",
-        "growth": 207.5,
-        "vol": "685K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "commercial equipment market 2026",
-        "growth": 178.5,
+        "kw": "commercial equipment industry news",
+        "growth": 228.0,
+        "vol": "557K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment wholesale supplier",
-        "growth": 123.5,
+        "growth": 250.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Canada just announced new tariffs on US goods. Here’s how the growing trade war could hurt Americans - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSl83YVdteHJRemxNWlBpWUJLa3JkbDZMalFaNFc3c2tvX0xQNWFpWlVLaEppWWFaSmx4aHRZTVBmRWUxMXVKbVpaS20zSUVKaGlRRnU3TWlBajFBbHRLRElWbVNDYkN2SDVMY2NhRG83V29zVUxQQ2JOWFRNdG1tUUZB?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment b2b export",
+        "growth": 93.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "U.S.-Canada trade war threatens Oklahoma's $1.65B export market - The Oklahoman",
         "source": "The Oklahoman",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWjQteWNVOGY5ZUhpZWZ4T0RoWjI1Z3lFUzVtRVVXX21sb3E0Y1RVcXMwbnFzSTZjWERVQm52MUdHc0pQcHdfRDVNSkRLZXluelVDZ01ScXdmYXhybUdxR3BJSVlrbmNfVEhWcDRDYVAwZWxFaVEzLU9HV2Rfa0g2dWtBNV9kcXNVUkdhVDltV3ZXNE5TYWdPSkh2MGg4UHY0bEc0V1E0RjdBaG9QaE1tNnpMRXdWYTlhcGZXbms5Tl8ya0FYNTFzT2lucWtPSndDMEpJc1NhdzROdw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "COSCO Scrutiny Raises New Risks for U.S. Agricultural Trade - agrolatam.com",
+        "source": "agrolatam.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUpnak1kVWZvNmlianFvZ1Y0bDBiVm55Nl9nNE1TN1hFZm5FUnByQWVXVkk5dk9mbWdTc29XX000dzlNOWhwZ0xhMGp0UjMzYVZXeUhBWXdFS1dackVCWXVyZmk3cmU3eTYwOEFxTm1paV9HZ0pQc2s1MUc5ZGpWb1pjcXhzdWhVOFRkc1pQSHQ0TkVVUDJVRGFB?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "商业设备及机械"
   }
 }

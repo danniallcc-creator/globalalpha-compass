@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "90",
-    "total_export_value_usd": 21872339,
-    "total_net_weight_kg": 1372339,
+    "total_export_value_usd": 9351013,
+    "total_net_weight_kg": 18851013,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-09-23"
+    "fetched_at": "2026-09-25"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 47,
-      "trend_direction": "stable",
+      "interest_score": 49,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-23"
+      "fetched_at": "2026-09-25"
     }
   },
   "industry_analysis": {
@@ -52,130 +52,158 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "CE marking, ISO 17025 calibration, accuracy and precision standards, environmental testing (IP rating), EMC compliance.",
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-25",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 3,
+    "article_count": 1,
     "sentiment": {
       "overall": "positive",
       "positive_pct": 100.0,
       "negative_pct": 0.0,
       "neutral_pct": 0.0,
-      "articles_analyzed": 3
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Latex Tubing for Laboratory Use Market Forecast to 2035: Semiconductor Wet Processing Demand Drives ",
-      "Diamond Prices Hit Two-Decade Low as Lab-Grown Supply Reshapes Market - diamondworld.net",
-      "INS: Wholesale trade turnover up 0.8% in first half of 2026 - Agerpres"
+      "Diamond Prices Hit Two-Decade Low as Lab-Grown Supply Reshapes Market - diamondworld.net"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSHp0cjNrNTFDQ3J2U1h5anlBUzd3M3RDT0IxSmYwNGk4azIyem9UQlpHemtLNWJVTW11NjRUTzlZMXF3MlhNUkJkbWpYUHFOU2lHQU5LYXVnLXdNVnpPOEcwTjM4cHViNUloUUZXU0w3YXBhNWFhZnk5SjFCem54VGlxRHEzSFVQVEQ0ZFdLdHNNcHB5RG9oc0R4VlE1Y25qamlGSzNnNEZic0NTZUljQ1FRUzBROHFwN2VhUkNjQllTeGMxdmpFWGdYVkQteEJ5U1RN?oc=5",
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTIzNXFvWVBvX3RMd1dNdmJVUTlfQ1ZJZVRrQV80NXJWX01fQUpkaktNR3BzVU5DVHFkeUF2NG9ueDR6ZkZQM3FxcEx0TFRQOXBMR1R0clVLOHU0Z0FqMlRzVVMzRlRjZ2VwUjZvVnJ4ZkpGbWwzQi16SkxoZ2J3SGZ0SnlNbXJjMHhwVUJsa2tadHRHS1BtXzRWblhZV1dfTlVMWDZ30gGzAUFVX3lxTE9jTm85LVA0VnROTmJ2VmhXbFJtQkVtOFlTcTcyQ1MxbUFlUkhlVjdITVNoaVBKd2VXSy1ZQVlGVDc5dlN6dDhvaGJHNFhQWUxmbzdxZFl3UWtIcXJ1RDdPa2RDR2NfTEpxMnBLMzlXVVJQbzJFOWM3N3hVT0VSY2g2RThGYnMzYzFUVlFDejBYa1JianVqSjJXZkp4NW9UMDJIZ21ZUmFKQkx4RTFzamxzTHlv?oc=5",
-      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzBUR3BkQXlzcVE2czZqd1p3ZGpZc1Jrd0FoUS1xdHROM1V5Q3hwLUp3Z1YyUHRZRk1ReW0zYjI0VUw3QjJia2NrUlppX0c1S2Z3NHZyclZzM2lmcERMekw4eDNJN0ZPeUd3dVFodzBLTTNMRWdna2FJQ1E4WGJORXJwTnkwLV9IcHUxd2Z0a0FmY3RTTXdoNm5lZHYwaTVUd1ZSaUZOVmw?oc=5"
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTIzNXFvWVBvX3RMd1dNdmJVUTlfQ1ZJZVRrQV80NXJWX01fQUpkaktNR3BzVU5DVHFkeUF2NG9ueDR6ZkZQM3FxcEx0TFRQOXBMR1R0clVLOHU0Z0FqMlRzVVMzRlRjZ2VwUjZvVnJ4ZkpGbWwzQi16SkxoZ2J3SGZ0SnlNbXJjMHhwVUJsa2tadHRHS1BtXzRWblhZV1dfTlVMWDZ30gGzAUFVX3lxTE9jTm85LVA0VnROTmJ2VmhXbFJtQkVtOFlTcTcyQ1MxbUFlUkhlVjdITVNoaVBKd2VXSy1ZQVlGVDc5dlN6dDhvaGJHNFhQWUxmbzdxZFl3UWtIcXJ1RDdPa2RDR2NfTEpxMnBLMzlXVVJQbzJFOWM3N3hVT0VSY2g2RThGYnMzYzFUVlFDejBYa1JianVqSjJXZkp4NW9UMDJIZ21ZUmFKQkx4RTFzamxzTHlv?oc=5"
     ],
-    "fetched_at": "2026-09-23"
+    "fetched_at": "2026-09-25"
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "How the Canada-US trade war is hitting supply-chain emissions - Sustainable Views",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnVuYUppQ0RiY3BiWjE1cHltRlVZYk9PYVVHc0VBUHdHSWswWDNQQU1COHlxT2kzd0JPbFpBQVZ5cGtJYy10eGFyaF85VlAwTjI1SXFyeGhyVG1US0JEUGktRUJFeTBKQlAxYnd2S3l0dTMxQ3BtM2NxcENYZ3FjeEZDZVlJdmF3Rk1wbF9MVVFfWXhYcTEtRzd6Ty1xbWY4cVFxRXJ2bw?oc=5\" target=\"_blank\">H",
+        "title": "UK, EU and US sanctions on Russia - Fieldfisher",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5\" t",
         "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
+        "policy_type": "sanction",
+        "impact": "negative",
+        "impact_score": 0.2,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVnVuYUppQ0RiY3BiWjE1cHltRlVZYk9PYVVHc0VBUHdHSWswWDNQQU1COHlxT2kzd0JPbFpBQVZ5cGtJYy10eGFyaF85VlAwTjI1SXFyeGhyVG1US0JEUGktRUJFeTBKQlAxYnd2S3l0dTMxQ3BtM2NxcENYZ3FjeEZDZVlJdmF3Rk1wbF9MVVFfWXhYcTEtRzd6Ty1xbWY4cVFxRXJ2bw?oc=5",
-        "published": "Sun, 20 Sep 2026",
-        "source": "Sustainable Views"
-      },
-      {
-        "title": "Denmark Hemostatsis Test Reagents - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNbzR0NkNzazMyTWJURldPX21GVU9jMlJOOU5uVUVMbzVUNFV5alVBeDF5UjdRdGhxQi1NWkFaNm1kNFhkYjI2RzFRWWpXdjU1bVdhazI1U0JNNml4R0VRWXJ1Z0dJYzd6bWpyeXc2SXd2V3B5enZRbjBVcGI2RjlMOVBDNVlBelk5bTVMQ3luTWo1MWRUWW1EY3phUlUzOUYtcEU4YXhoQk1kWWtuWmFic0dQMjY?oc=5\" ",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbzR0NkNzazMyTWJURldPX21GVU9jMlJOOU5uVUVMbzVUNFV5alVBeDF5UjdRdGhxQi1NWkFaNm1kNFhkYjI2RzFRWWpXdjU1bVdhazI1U0JNNml4R0VRWXJ1Z0dJYzd6bWpyeXc2SXd2V3B5enZRbjBVcGI2RjlMOVBDNVlBelk5bTVMQ3luTWo1MWRUWW1EY3phUlUzOUYtcEU4YXhoQk1kWWtuWmFic0dQMjY?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
         "published": "Tue, 22 Sep 2026",
-        "source": "IndexBox"
+        "source": "Fieldfisher"
       },
       {
-        "title": "Joint Statement on UK-Philippines Joint Economic and Trade Committee - Wired Gov",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPWXRuQkMzckg0dzQ3Vk85U3V4TmphTk9tZlMwS0FZOWtRZ0JCT3Bmcl9Ga2cyVklJNnRfcVRIY1U5WkdHQTdPXzZiUkFscHJiYzJyX3BTOTZRT2liUURQWjFtVUlaODNJMWpoNzZRRUlqXzhoUzFQck1RbEhSMzh6bS1PWnVJYnkxQWxQYjNVcnlra2RkeExNY2Z2STJPY204bS1NaGt5akRpRXNaV3B6dWpQNTNMbXdvV2",
-        "country": "GB",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWXRuQkMzckg0dzQ3Vk85U3V4TmphTk9tZlMwS0FZOWtRZ0JCT3Bmcl9Ga2cyVklJNnRfcVRIY1U5WkdHQTdPXzZiUkFscHJiYzJyX3BTOTZRT2liUURQWjFtVUlaODNJMWpoNzZRRUlqXzhoUzFQck1RbEhSMzh6bS1PWnVJYnkxQWxQYjNVcnlra2RkeExNY2Z2STJPY204bS1NaGt5akRpRXNaV3B6dWpQNTNMbXdvV2ZKLUM2ZFcyTU55RzFwTW4zd3hyQm8?oc=5",
-        "published": "Wed, 23 Sep 2026",
-        "source": "Wired Gov"
-      },
-      {
-        "title": "TCS Opens AI Manufacturing Lab - indiabusinesstrade.in",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFByd09nQ2FOVjUtcldYRDdHRzV3UzN1dWxYblI0OU0zRTB3N0ZORUF4QXJvdktRc08tdEZ0X0dsQTNmN2JiXzVWWmFmR3daVHl3WjVoOVRRTGsxUlNMNXFqaHI0U2c0SmtLRlU4Y1JESFVYYW10SzNn?oc=5\" target=\"_blank\">TCS Opens AI Manufacturing Lab</a>&nbsp;&nbsp;<font color=\"#6f6f6f\"",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByd09nQ2FOVjUtcldYRDdHRzV3UzN1dWxYblI0OU0zRTB3N0ZORUF4QXJvdktRc08tdEZ0X0dsQTNmN2JiXzVWWmFmR3daVHl3WjVoOVRRTGsxUlNMNXFqaHI0U2c0SmtLRlU4Y1JESFVYYW10SzNn?oc=5",
-        "published": "Fri, 18 Sep 2026",
-        "source": "indiabusinesstrade.in"
-      },
-      {
-        "title": "Vietnam Astrocyte Media - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2RPTnp2ZE54SC1nbjlDOUEtYnBERThicWxiellLektBS1dDWC1jZGlwazMtSnMzQ2JLOVZ1dDdlSW1TSjZQNWkyLUYwWDA4X05xX2tPcG5DZGVPR0JFandFT1VlNXpUQ3N4MmtTYnpwdnJZa29UdS1UNG1LbTFTUmVqcExIOE5Hak0xV0xkTGp0ZjNKQVktdGxaYTFtQWZXWlFqMlJoZw?oc=5\" target=\"_blank\">V",
-        "country": "VN",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2RPTnp2ZE54SC1nbjlDOUEtYnBERThicWxiellLektBS1dDWC1jZGlwazMtSnMzQ2JLOVZ1dDdlSW1TSjZQNWkyLUYwWDA4X05xX2tPcG5DZGVPR0JFandFT1VlNXpUQ3N4MmtTYnpwdnJZa29UdS1UNG1LbTFTUmVqcExIOE5Hak0xV0xkTGp0ZjNKQVktdGxaYTFtQWZXWlFqMlJoZw?oc=5",
-        "published": "Sun, 20 Sep 2026",
-        "source": "IndexBox"
-      },
-      {
-        "title": "Kenya targets regional market to drive healthcare manufacturing - standardmedia.co.ke",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOGMtMzhudDIxSnQtdUE5ZGlocl9NQTJJVkJnVklSRUd2VDhIQ3VtUGR6dGpxQ2hzVURiOUh6eDZPWVc2YUUyNV9fenNwNkJpTHRGMjJLZmc1VWV0UVI3cUNnelZ4TGV0bFpYSjM5enViUHAyVXNCV1RTSFZDRDhGR3lhbzJfT0dyYUMxY2tfaFU2Rlh0QXkza0NnT1l6T2hvdWlPMHE1RE9GYmpfWFdhVjdrVzl4dDU3Nj",
+        "title": "South Africa Cartridges for RT PCR Automatic Systems - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNaloxeFB1TGliSEVvaXRSZUxHN3FrR3M4NU1GRUVvSk96VzR1SVJQNDhGdm43YmpfdzhvZGtWUDZMeE9ITFBMd0Vub1U1RlAyYnpzQnVxc2J2bThKYXpKUTYxLWh2WTVPZ1l1Q001MW4yRGJ6QlNUZEtYUDZFbm8xcjVkOWYweW5MMW9DeXQtM0p4V0ZFTzZpSEx4SDFzZVJNQmlwejRiLUJwZXl4X3hlV01WVU9sMklVQX",
         "country": "Unknown",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOGMtMzhudDIxSnQtdUE5ZGlocl9NQTJJVkJnVklSRUd2VDhIQ3VtUGR6dGpxQ2hzVURiOUh6eDZPWVc2YUUyNV9fenNwNkJpTHRGMjJLZmc1VWV0UVI3cUNnelZ4TGV0bFpYSjM5enViUHAyVXNCV1RTSFZDRDhGR3lhbzJfT0dyYUMxY2tfaFU2Rlh0QXkza0NnT1l6T2hvdWlPMHE1RE9GYmpfWFdhVjdrVzl4dDU3NjF2ck1jSFhHUGhPb213SDUyaVJTek1ycE51eWdfNNIB1wFBVV95cUxOOGMtMzhudDIxSnQtdUE5ZGlocl9NQTJJVkJnVklSRUd2VDhIQ3VtUGR6dGpxQ2hzVURiOUh6eDZPWVc2YUUyNV9fenNwNkJpTHRGMjJLZmc1VWV0UVI3cUNnelZ4TGV0bFpYSjM5enViUHAyVXNCV1RTSFZDRDhGR3lhbzJfT0dyYUMxY2tfaFU2Rlh0QXkza0NnT1l6T2hvdWlPMHE1RE9GYmpfWFdhVjdrVzl4dDU3NjF2ck1jSFhHUGhPb213SDUyaVJTek1ycE51eWdfNA?oc=5",
-        "published": "Mon, 21 Sep 2026",
-        "source": "standardmedia.co.ke"
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaloxeFB1TGliSEVvaXRSZUxHN3FrR3M4NU1GRUVvSk96VzR1SVJQNDhGdm43YmpfdzhvZGtWUDZMeE9ITFBMd0Vub1U1RlAyYnpzQnVxc2J2bThKYXpKUTYxLWh2WTVPZ1l1Q001MW4yRGJ6QlNUZEtYUDZFbm8xcjVkOWYweW5MMW9DeXQtM0p4V0ZFTzZpSEx4SDFzZVJNQmlwejRiLUJwZXl4X3hlV01WVU9sMklVQXltZmJIbmNwUW5HX3lYUDZsMHdJZw?oc=5",
+        "published": "Wed, 23 Sep 2026",
+        "source": "IndexBox"
       },
       {
-        "title": "Push to strengthen regulation of imported, locally manufactured products - standardmedia.co.ke",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1dJNzBYSnZNTG5GQ2VzdVV1ZV8ybS1teTRiOVZvdk4tc0ZvTjljamN5RjQtZnVtWEVreVVhbG5qN0F2eHNDc0FuZlNCdkQwWlhaWTNwS3RDalNvdUQ3ek02ODA1b1EtaWhuaXgwcGx3V2xGY0thTEsxNHktd0NzSWx4ZEI4V09lTGVOODE3bmtselUteWh0NHNXem1BdkNPWW14RnZIU3Rwc1lSbDBrSkw2MThSNnlrZl",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1dJNzBYSnZNTG5GQ2VzdVV1ZV8ybS1teTRiOVZvdk4tc0ZvTjljamN5RjQtZnVtWEVreVVhbG5qN0F2eHNDc0FuZlNCdkQwWlhaWTNwS3RDalNvdUQ3ek02ODA1b1EtaWhuaXgwcGx3V2xGY0thTEsxNHktd0NzSWx4ZEI4V09lTGVOODE3bmtselUteWh0NHNXem1BdkNPWW14RnZIU3Rwc1lSbDBrSkw2MThSNnlrZlRzREVmYVB6bFRETGlpbm1fMkcyakdacWJlSmJVNNIB1wFBVV95cUxQN1dJNzBYSnZNTG5GQ2VzdVV1ZV8ybS1teTRiOVZvdk4tc0ZvTjljamN5RjQtZnVtWEVreVVhbG5qN0F2eHNDc0FuZlNCdkQwWlhaWTNwS3RDalNvdUQ3ek02ODA1b1EtaWhuaXgwcGx3V2xGY0thTEsxNHktd0NzSWx4ZEI4V09lTGVOODE3bmtselUteWh0NHNXem1BdkNPWW14RnZIU3Rwc1lSbDBrSkw2MThSNnlrZlRzREVmYVB6bFRETGlpbm1fMkcyakdacWJlSmJVNA?oc=5",
-        "published": "Thu, 17 Sep 2026",
-        "source": "standardmedia.co.ke"
-      },
-      {
-        "title": "Global Tobacco and Nicotine Forum 2026 - Слободен печат",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5BYzl5bkpNc3F5NThVNkgtb2lLdGNva096WU9TbU9EYTNTdzV3WU5yanpSVWplYjAtaFM2Mm1va0ZIc0VPeUVVVDJuTEhKTEgyTEtBcXFXaDJDWGV4TTVkNkphTjRnTm03Nk1sR05seUQ0MHJORld4eFdsbw?oc=5\" target=\"_blank\">Global Tobacco and Nicotine Forum 2026</a>&nbsp;&nbsp;<font c",
+        "title": "EU Council adopts temporary trade-liberalization measures for Armenian products - ԱՐՑԱԽ ԼՐԱՏՎԱԿԱՆ",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE55aU5fc2tkbUUxVnp5TWRwUDRlOU8xTkdVLUptclpoZjBIUnRJUzZBUTJNYVZKNTlzNjdJZGM2MlBNVjVFVXFhZ1JkUQ?oc=5\" target=\"_blank\">EU Council adopts temporary trade-liberalization measures for Armenian products</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ԱՐՑԱԽ ԼՐ",
         "country": "EU",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BYzl5bkpNc3F5NThVNkgtb2lLdGNva096WU9TbU9EYTNTdzV3WU5yanpSVWplYjAtaFM2Mm1va0ZIc0VPeUVVVDJuTEhKTEgyTEtBcXFXaDJDWGV4TTVkNkphTjRnTm03Nk1sR05seUQ0MHJORld4eFdsbw?oc=5",
-        "published": "Fri, 18 Sep 2026",
-        "source": "Слободен печат"
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE55aU5fc2tkbUUxVnp5TWRwUDRlOU8xTkdVLUptclpoZjBIUnRJUzZBUTJNYVZKNTlzNjdJZGM2MlBNVjVFVXFhZ1JkUQ?oc=5",
+        "published": "Thu, 24 Sep 2026",
+        "source": "ԱՐՑԱԽ ԼՐԱՏՎԱԿԱՆ"
+      },
+      {
+        "title": "India and Mexico move closer to a trade pact as auto and pharma exporters eye gains - Indiatimes",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOelNDb0o4a3p3U2NLQkVyMFlYNTFhOGtTMlJ0WERwNE5xWVFxdEVLa2Q0ZF9obnBDb1JDeXJaZUoyeVJwNUtrQVVQQzk0TVl0NGRCT01TaExlN3lkWmdPT2NUMndYWW5RNmFPdHZiRU5UQjhjVk5mNU9HalBzckdZUGxkVFRaXzZUM1pVT1ljV3h5V1hIRGlUZXZ0eWZ2Y0tQNmZjazlqbTlPWnkxNUNXNnIyelRNUW5CUj",
+        "country": "IN",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOelNDb0o4a3p3U2NLQkVyMFlYNTFhOGtTMlJ0WERwNE5xWVFxdEVLa2Q0ZF9obnBDb1JDeXJaZUoyeVJwNUtrQVVQQzk0TVl0NGRCT01TaExlN3lkWmdPT2NUMndYWW5RNmFPdHZiRU5UQjhjVk5mNU9HalBzckdZUGxkVFRaXzZUM1pVT1ljV3h5V1hIRGlUZXZ0eWZ2Y0tQNmZjazlqbTlPWnkxNUNXNnIyelRNUW5CUjZiRkJ6d01BS1R4RUpGXzFFS0ZldjYxY2Z6U2dzYWxNMU9WellKNlJOZElXbnB3LVp0WUp6Nkk4ZlVxMFlUOXJLZ9IB_wFBVV95cUxOT3BBWmcyYkNjYUVWbTlWMDg3LXBPVUIzcURIUUJQNlNJQ2ZBb1pyZjE3R2RBclV5NEZoc3M3UWxjYTdMODhCRTI3ZVJTS0xGUS1HbVJBRkFnbzUxSHlaOTNmamJvcUEzYkhKZi0yRjd0dHNJMEgwdUJGRm4zOEhLNUFCc0YwNWNtcGtzYmI0SGRUT2tNTXNibTRKZEJLdzJOdExYZFRWbzNPb3dMeHMtbDlncGUxTFAwYkV4MnRvS1FueUVkaHpKUzZTREU2Sk4zYU1Ma3hwNXRseEVWajd4SW1qX3RmWTJUM1M3TE9sMzRiTXRzMG8xaDdqSS1hTTg?oc=5",
+        "published": "Fri, 25 Sep 2026",
+        "source": "Indiatimes"
+      },
+      {
+        "title": "Global supply chains: a foresight report on risk and resilience (web version) - GOV.UK",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYmYweUFFa1k5anVqSGdrMVR6WnREcHoxa09PNmlwbFJ4RHZ3cG9CODBWY1N0MW80UU9mSTI4U1N3R2trQlUyWGZnQWhnV3FhS0E1ZTUxcnZxYUVwSE5sMkFWbnpJTTExb0dZX3owMS1qYndvaUJSRjF6c0YyU2hQOTlsaTlqT0lqUUFwOUwzX3pMRmNFdTREN2JOeGFQVzRiWldPZjlUeGV5X1liN2x2QTdvRTdRUHVlaH",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYmYweUFFa1k5anVqSGdrMVR6WnREcHoxa09PNmlwbFJ4RHZ3cG9CODBWY1N0MW80UU9mSTI4U1N3R2trQlUyWGZnQWhnV3FhS0E1ZTUxcnZxYUVwSE5sMkFWbnpJTTExb0dZX3owMS1qYndvaUJSRjF6c0YyU2hQOTlsaTlqT0lqUUFwOUwzX3pMRmNFdTREN2JOeGFQVzRiWldPZjlUeGV5X1liN2x2QTdvRTdRUHVlaHhzRmk5WmNsTDJ0czJPemxraUJ6a28wRFNVNDMycUUwc29jVURxYklUWVV1TDRJMDJINTdBZTNaUno4eWRuc0gtX0M?oc=5",
+        "published": "Thu, 24 Sep 2026",
+        "source": "GOV.UK"
+      },
+      {
+        "title": "EU Council Grants Temporary Trade Exemptions to Armenia - Hetq.am",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ocF9qSGJJN1FRcHRPWTRVZnRNZEZ1d3Q2VzN1YVEtTTdOdnkyNmxFYnZOUHlNd3dKZjlDbkJQenpoM1A3WENZUQ?oc=5\" target=\"_blank\">EU Council Grants Temporary Trade Exemptions to Armenia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hetq.am</font>",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ocF9qSGJJN1FRcHRPWTRVZnRNZEZ1d3Q2VzN1YVEtTTdOdnkyNmxFYnZOUHlNd3dKZjlDbkJQenpoM1A3WENZUQ?oc=5",
+        "published": "Thu, 24 Sep 2026",
+        "source": "Hetq.am"
+      },
+      {
+        "title": "Joint Statement on UK-Philippines Joint Economic and Trade Committee - Wired Gov",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNM0Y5Rk9YZ0otMmFFSXFsRHBwaGtPTVRjbWlPbVJDRDZuRElnczBWWS1zNUVkV2tKQks3d1pFQ1Uwc0U2ci1VYjRub044cnktMl9pN2lzd093R0haV0wtVlFGNjFmYU9nWVgtZV91LWF2T1l3aUFLYUlEOHFUSUdHSndlTHFXMEMyWnJ5Q09RU3ViLVYxYTdhLTdTOEY1dzdGVFVMNzZ4TXNWeW1JYlhBQTJUVG5RQ3VkaT",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM0Y5Rk9YZ0otMmFFSXFsRHBwaGtPTVRjbWlPbVJDRDZuRElnczBWWS1zNUVkV2tKQks3d1pFQ1Uwc0U2ci1VYjRub044cnktMl9pN2lzd093R0haV0wtVlFGNjFmYU9nWVgtZV91LWF2T1l3aUFLYUlEOHFUSUdHSndlTHFXMEMyWnJ5Q09RU3ViLVYxYTdhLTdTOEY1dzdGVFVMNzZ4TXNWeW1JYlhBQTJUVG5RQ3VkaTNPQmhXaGd3TTlKTXoxY1hYdlJKMkU?oc=5",
+        "published": "Wed, 23 Sep 2026",
+        "source": "Wired Gov"
+      },
+      {
+        "title": "AI Skills Reshape Graduate Hiring - India Business Trade",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFB3UDhhdTh4V3IxOHM2TElMclplV1RZUnlwbE80dDhHaC02aFBOczNPMzllTk4tZGFubHE2YzVsVUJIS1B6UWNHWS1vaU1FSXRDNDN3STFUQnM5Q29YUlZTQUt4Qzd2VFFhczBQeG5kMmhLb09sYkxiYWVkNA?oc=5\" target=\"_blank\">AI Skills Reshape Graduate Hiring</a>&nbsp;&nbsp;<font color=",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3UDhhdTh4V3IxOHM2TElMclplV1RZUnlwbE80dDhHaC02aFBOczNPMzllTk4tZGFubHE2YzVsVUJIS1B6UWNHWS1vaU1FSXRDNDN3STFUQnM5Q29YUlZTQUt4Qzd2VFFhczBQeG5kMmhLb09sYkxiYWVkNA?oc=5",
+        "published": "Thu, 24 Sep 2026",
+        "source": "India Business Trade"
+      },
+      {
+        "title": "Cytology Specimen Preparation Slides Market To 2035: Rising Demand from Cancer Screening and Digital Pathology - News an",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxPXzU4NFFacXB1U3dDdThuRDhWSTM0dTRkTDJ2VjNIVzAxMEFqbWRfdTQ4Slo4Nmw1dkRmaFl6WGx5ZEM2ZXpXM3cyTnZaWVFlbGpCTWRwcXZjUjJzSEpQVVI1aURSWlZRSlBaV2RvYURzQTJzeGV5TWVnaWdGcG8xTUNMQlFFVmpBenBSVUJIdHIzMTdXVUJJVUUzYkVPbnZpbEtjaTRuLUJ0QlFaWlYwWFZ1eGxxNmktUU",
+        "country": "Unknown",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPXzU4NFFacXB1U3dDdThuRDhWSTM0dTRkTDJ2VjNIVzAxMEFqbWRfdTQ4Slo4Nmw1dkRmaFl6WGx5ZEM2ZXpXM3cyTnZaWVFlbGpCTWRwcXZjUjJzSEpQVVI1aURSWlZRSlBaV2RvYURzQTJzeGV5TWVnaWdGcG8xTUNMQlFFVmpBenBSVUJIdHIzMTdXVUJJVUUzYkVPbnZpbEtjaTRuLUJ0QlFaWlYwWFZ1eGxxNmktUU1rejBDRFJjVlJSZzEyQnZ1aHhRS0VpYzYyeEpwSkQ0cU5vZklyRUxXQkJKMkZRclA2WjhqVTVpbXFJN1FvNTNzUQ?oc=5",
+        "published": "Wed, 23 Sep 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "Regional shipping trade, stronger maritime regulation in focus on World Maritime Day - stluciatimes.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMUtTTDFPcERtM21wNlZrRVhXMEFkUWI4Zkd5MVJtSmdMSEFneFZBWFVCbVdNVWZxQnpWZXlKYTRsZFk5SVpySExZMnJQZ3hpTElUZmx5cEtwcFVENExUNE5wWmlDWmNzeVdZcnA0eEZRM0RKa1d6ZGphci1jQW00YTBnemNMclJzX2lqQmJ5czJ3RnVBV0JaVkR1VmdtS1dJdnVaZmpXdTdtaWJoaEVGWFY1S0MxMlZqVz",
+        "country": "US",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMUtTTDFPcERtM21wNlZrRVhXMEFkUWI4Zkd5MVJtSmdMSEFneFZBWFVCbVdNVWZxQnpWZXlKYTRsZFk5SVpySExZMnJQZ3hpTElUZmx5cEtwcFVENExUNE5wWmlDWmNzeVdZcnA0eEZRM0RKa1d6ZGphci1jQW00YTBnemNMclJzX2lqQmJ5czJ3RnVBV0JaVkR1VmdtS1dJdnVaZmpXdTdtaWJoaEVGWFY1S0MxMlZqVzBqdFdqRGF3dw?oc=5",
+        "published": "Thu, 24 Sep 2026",
+        "source": "stluciatimes.com"
       }
     ],
     "country_summary": {
       "US": {
+        "trend": "tightening",
+        "key_policies": [
+          "sanction",
+          "compliance"
+        ],
+        "impact": "negative"
+      },
+      "Unknown": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
@@ -189,21 +217,7 @@
         ],
         "impact": "neutral"
       },
-      "GB": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "VN": {
-        "trend": "neutral",
-        "key_policies": [
-          "compliance"
-        ],
-        "impact": "neutral"
-      },
-      "Unknown": {
+      "IN": {
         "trend": "neutral",
         "key_policies": [
           "compliance"
@@ -213,12 +227,54 @@
     }
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 156743164129.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "complete"
+    },
     "imports_from_china": {
-      "US": {
-        "value_usd": 30059618422.0,
+      "DE": {
+        "value_usd": 80390107463.87903,
+        "yoy": 84.2,
+        "share": 61.8
+      },
+      "JP": {
+        "value_usd": 13212170222.795,
         "yoy": null,
-        "share": 100.0
+        "share": 10.2
+      },
+      "KR": {
+        "value_usd": 8700620631.0,
+        "yoy": null,
+        "share": 6.7
+      },
+      "AU": {
+        "value_usd": 3688022084.363,
+        "yoy": null,
+        "share": 2.8
+      },
+      "BR": {
+        "value_usd": 3753267388.0,
+        "yoy": null,
+        "share": 2.9
+      },
+      "IT": {
+        "value_usd": 2742249676.473,
+        "yoy": null,
+        "share": 2.1
+      },
+      "CA": {
+        "value_usd": 10601198422.201015,
+        "yoy": null,
+        "share": 8.2
+      },
+      "MX": {
+        "value_usd": 6902827228.0,
+        "yoy": null,
+        "share": 5.3
       }
     }
   }

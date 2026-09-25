@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "厨具：海外社媒「home decor supply chain」增速 218%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，IndexBox关注「Peat Moss Growing Media Market Forecast...」。",
+    "trend_summary": "厨具：海外社媒「home decor breaking」增速 250%，搜索端「home decor market 2026」热度上行，US Amazon BSR Top-12，reuters.com关注「Five takeaways from Trump's summit with...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 厨具 出口需通过合规认证",
-      "海外社媒「home decor supply chain」增速 218% 领跑 → 厨具社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 250% 领跑 → 厨具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 217.5,
-        "vol": "600K",
+        "kw": "home decor breaking",
+        "growth": 249.5,
+        "vol": "604K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "garden trending now",
+        "growth": 244.0,
+        "vol": "170K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor industry report",
-        "growth": 216.5,
-        "vol": "271K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "home decor market 2026",
-        "growth": 215.5,
-        "vol": "703K",
+        "growth": 225.5,
+        "vol": "16K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 212.5,
+        "growth": 73.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "garden b2b export",
-        "growth": 169.0,
+        "growth": 70.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Five takeaways from Trump's summit with Xi in Washington - reuters.com",
+        "source": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUZiUFVUOGt5dnNJYXpucXZQZ2NmbjlYdzZPV2ZDZFlUZ3AyZjJJNXNkVndsZ0dJSmgwZ3BlX2R3M1dYNWtILWhtdDh2aXFndHllTy1wa0RrU3M1ZW5tR1pvWEM4a1lMbXdyR2g1M2JQZlozNjVVLWZaYjBBYm1ZMEx5VW51eFlHQ01NNnZhNHlhVDBoMW4zU3VwOA?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Peat Moss Growing Media Market Forecast to Expand Through 2035, Driven by Greenhouse Horticulture Demand - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUEFtTEFpVmxHQS0yMHh1TmlYMzNCVTl2Q1E5WjVwVkZmQ1BiZWtPdXdpNVA5d1YtcFQ4Ry10UWxraFM3ckplMWNLb3hwNVdRRkxZWmVqVEoybDN3R3FQblB4R0xVdE5kdHVhNnVzeHFiaWYzZHdhMEF4ajdwWnZtdGNUbEs2VC1YYnRjTDBINlhOSEhTb1dKVlBXZzdsVzdKcFpfa2pEQTF1bGhMaUhiRHJpeDBraWRncWlQc281TEZSNFdnc2xfNUZWdjlOQQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Why Canada? America's northern neighbor seems an unlikely target for a trade war - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDJjMmh6TWNGTDljX250MEhMbUw4RVlOblhjcXMxRDEycWVQWk9IYmNxM09YQ0c1V3NPOVVyN3ZOaGZmbnlvSmpLREFfUE1naTVBdUlhRlYwQU1aSHJlU3pnUlJHQlQ2Q2Z1S1FxRkNlY0o1S3h1UzFEenhmd1JIOXZKMnd3SXR1TlN5aGY5dzdhOWdYR0ZZQXZyN2VhZjE3UWV4YQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "家居园艺"
   }
 }

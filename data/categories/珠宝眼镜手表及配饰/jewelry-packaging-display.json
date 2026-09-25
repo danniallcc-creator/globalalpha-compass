@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "珠宝包装及展示：海外社媒「watch market alert」增速 255%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，The New York Times关注「The Allure of Japan’s Jewelry Resale...」。",
+    "trend_summary": "珠宝包装及展示：海外社媒「jewelry #trending」增速 250%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，Bangkok Post关注「Jewellers call for more trade deals to...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 珠宝包装及展示 出口需通过合规认证",
-      "海外社媒「watch market alert」增速 255% 领跑 → 珠宝包装及展示社媒种草热度爆发"
+      "海外社媒「jewelry #trending」增速 250% 领跑 → 珠宝包装及展示社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "jewelry #trending",
+        "growth": 250.5,
+        "vol": "510K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "watch factory tour",
+        "growth": 225.0,
+        "vol": "39K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "watch market alert",
-        "growth": 255.0,
-        "vol": "570K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "jewelry viral",
-        "growth": 245.5,
-        "vol": "48K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "watch b2b export",
-        "growth": 236.0,
-        "vol": "124K",
+        "growth": 206.0,
+        "vol": "717K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "watch b2b export",
-        "growth": 233.0,
+        "growth": 176.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 62.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The Allure of Japan’s Jewelry Resale Market - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQanBaUVZGWEVlWUJ2eGY5djRidTA5R1ZJRVhqUUY1b09FTFRfZXZtRy02OURUTW1YUmZ6X2NKZUo3VVVucmsxVGhFdUJNZmo2RVJEanFWTzI5SkRWT0hKRG52RU5HZ2xxb05qUUk4VzdFWTdCaGQ1TDRLLWxTekhMbw?oc=5",
+        "growth": 165.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Jewellers call for more trade deals to boost Thai exports - Bangkok Post",
         "source": "Bangkok Post",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmFScWd6TU1tZXlqLVlReWZ1bkxxX3N0Nzlic0RoUXg0OXYyNUJaWU1rQnZiMjlFckpzNGpJcVdNcy1FajRGcU1hLUYyazlQaTN1cVpQMUFrSzlIVlJQMFBDbVJyTzRFbkRWT2JXT0pkdjdFTjZtQkYtT3Y3a0tuSVVLWHhPc1lOemJpNktMaUM2SlNpNG1vTVRkNktJVXRNOFV0dGtoZUJhTU5GV0RJ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "India faces 100% tariff threat over Russian oil after US House vote - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoVV9BNjBYTTRFMFg1V01KazlncmxrX0hkSmM3UXNCbHR0SlowdU9ST2VaRVNvT3J0MFIwc0c0ZUxGM3NLV1A2ZEZwVVFDd1JaZDI3dHlqQzRwdFk?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

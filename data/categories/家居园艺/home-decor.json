@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 162%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-48，IndexBox关注「Peat Moss Growing Media Market Forecast...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 44%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-31，reuters.com关注「Five takeaways from Trump's summit with...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,46 +48,53 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 162% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 44% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 162.5,
-        "vol": "65K",
+        "growth": 44.5,
+        "vol": "578K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 217.5,
-        "vol": "600K",
+        "kw": "home decor breaking",
+        "growth": 249.5,
+        "vol": "604K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor industry report",
-        "growth": 216.5,
-        "vol": "271K",
+        "growth": 225.5,
+        "vol": "16K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 159.5,
+        "growth": 41.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 212.5,
+        "growth": 73.5,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Five takeaways from Trump's summit with Xi in Washington - reuters.com",
+        "source": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUZiUFVUOGt5dnNJYXpucXZQZ2NmbjlYdzZPV2ZDZFlUZ3AyZjJJNXNkVndsZ0dJSmgwZ3BlX2R3M1dYNWtILWhtdDh2aXFndHllTy1wa0RrU3M1ZW5tR1pvWEM4a1lMbXdyR2g1M2JQZlozNjVVLWZaYjBBYm1ZMEx5VW51eFlHQ01NNnZhNHlhVDBoMW4zU3VwOA?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -97,33 +104,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Why Canada? America's northern neighbor seems an unlikely target for a trade war - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObDJjMmh6TWNGTDljX250MEhMbUw4RVlOblhjcXMxRDEycWVQWk9IYmNxM09YQ0c1V3NPOVVyN3ZOaGZmbnlvSmpLREFfUE1naTVBdUlhRlYwQU1aSHJlU3pnUlJHQlQ2Q2Z1S1FxRkNlY0o1S3h1UzFEenhmd1JIOXZKMnd3SXR1TlN5aGY5dzdhOWdYR0ZZQXZyN2VhZjE3UWV4YQ?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
         "market": "US",
-        "rank": 48,
+        "rank": 31,
         "title": "Top garden - Heavy-Duty Edition",
-        "price": "$200.5",
-        "rating": 4.9,
+        "price": "$36.5",
+        "rating": 4.0,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 23,
-        "title": "Top garden - Smart Edition",
-        "price": "$44.1",
-        "rating": 3.9,
+        "market": "DE",
+        "rank": 25,
+        "title": "Top garden - Pro Edition",
+        "price": "$264.7",
+        "rating": 4.9,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "家居园艺"
   }
 }

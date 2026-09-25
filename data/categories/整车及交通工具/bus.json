@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公共汽车：海外社媒「electric vehicle supply chain」增速 252%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China says it will monitor EU moves on...」。",
+    "trend_summary": "公共汽车：海外社媒「electric vehicle wholesale supplier」增速 252%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，reuters.com关注「EU seeks China curbs on hybrid car...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公共汽车 出口需通过合规认证",
-      "海外社媒「electric vehicle supply chain」增速 252% 领跑 → 公共汽车社媒种草热度爆发"
+      "海外社媒「electric vehicle wholesale supplier」增速 252% 领跑 → 公共汽车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electric vehicle supply chain",
+        "platform": "google",
+        "kw": "electric vehicle wholesale supplier",
         "growth": 251.5,
-        "vol": "469K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "ev market alert",
-        "growth": 222.0,
-        "vol": "331K",
+        "vol": "64K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electric vehicle top 10",
-        "growth": 219.5,
-        "vol": "563K",
+        "kw": "electric vehicle tutorial",
+        "growth": 250.5,
+        "vol": "229K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "ev price trend",
+        "growth": 236.0,
+        "vol": "183K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 248.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 184.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 146.0,
+        "growth": 195.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China says it will monitor EU moves on Chinese hybrid cars, opposes 'voluntary limit' on exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT09Jd0tFOEZkOFllMmVadUwtWDY0RDctRzU2VXNiYUszaHRydVhSNEUwUXBpRFp6OERaOTR2dk5SY3lsNExxUnMyYWZNdHc5bG1YcjJrVWVCWmpIZFhXYk9QcXh4NllJN1pOdlFiUk11cllCWFdWMVkwS3dwR1NYeHluOERMbUFWbzI0ZmpBVF9Lb1Yya1FwYl9zd3RSZklOTkphM0w5RklEa1VPUUFNajlRSEFDZFFyNGxxTS15Vk5KQnVIU0E?oc=5",
+        "title": "EU seeks China curbs on hybrid car exports to avert trade row, FT reports - reuters.com",
+        "source": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWJJNjFfalQxUWJJTEI1UjBCNDhyUFpvOXpqTUNHeW9ucXFJemVLajBadkQ5aF9tWnpjdWFoZ282dXM2b3pTbHpmQUtVVzNteTZXUjNEN1ZqQUJnWEFuUkQtMXpXYS1OX1oySWVNcXJVaE1uc2ViaE5lTDlFbUd5UEFNVGVQN3BlVlUzVWo0VFU2cjlrdjNfR2o1Y2FEdVpXamF3ZEgtcWNHU25iU2E4Y3cxaVc?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU asks China to voluntarily limit hybrid car exports - Financial Times",
-        "source": "Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXBHVk1XNnktaWhhOWNac0M0R0k3bE0zNXdabHE0SHJiNWhxaGxGTWdraVZfdWJOa1NRcFo1dGlSZjFzTGhUMC1XV2owXzliTDlfalFROWQyUjBOWUNZcFRUY1FPZkt0WXh3UzA2cGcyaDBqMnRyYVZvb29FTDFsd21YYy0?oc=5",
+        "title": "China’s Green Exports to Europe Are a Bright Spot Amid Trade Tensions - The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0ZsQnY1SFk5QnRZY2h0N2VuSko0QUxWSXdiOXZ1ZF9RY0RZTEprOXZxb1h3NmhaWDYyZDVoY09KVmZsQUU4UlNKaC16RmFTR3FGdGNKQXViWGVOeFRCU0lzdTlybWxwYkNKM0ttd1RxZllibVEyQkU3dE9KVkhiQnc4NjdfNmRtZTJSRWVtQ2o5eUFPNGhMcTRReloyQ0pFRndn?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "整车及交通工具"
   }
 }

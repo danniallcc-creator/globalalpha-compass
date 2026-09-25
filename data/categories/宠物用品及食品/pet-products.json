@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet viral」增速 250%，搜索端「pet products market trend 2026」热度上行，DE Amazon BSR Top-36，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
+    "trend_summary": "宠物用品：海外社媒「pet food factory tour」增速 243%，搜索端「pet products supply chain resilience」热度上行，US Amazon BSR Top-49，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet viral」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet food factory tour」增速 243% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet viral",
-        "growth": 250.5,
-        "vol": "274K",
+        "platform": "youtube",
+        "kw": "pet food factory tour",
+        "growth": 243.0,
+        "vol": "46K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
+        "platform": "youtube",
+        "kw": "pet food unboxing",
         "growth": 235.0,
-        "vol": "369K",
+        "vol": "756K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food aesthetic",
-        "growth": 223.0,
-        "vol": "609K",
+        "platform": "x",
+        "kw": "pet food market alert",
+        "growth": 232.0,
+        "vol": "673K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products market trend 2026",
-        "growth": 78,
+        "kw": "pet products supply chain resilience",
+        "growth": 94,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 78,
+        "growth": 68,
         "hits": 2
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "EU ban on animal products affects $1.8 billion in Brazilian exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRmxndTlHNFphUHAwZFE5QUJwOVN4N0VDQ1lCTy1RWlNvNm50Y2FDWjAyRjIxcHNab1NLYmNVZFgwUXFPX2dZYlJya1lIa21ZVTlLb25tZmFYY1ZFbGFJaWp3dDNpMHR3TmpIZDRVVWxjQ2d5U1d1eUpsaHoybndJLXUwbDRBd3EwMlZJVkZ3aVF0QVF5ZXpBSDhuNGZDU0tYLXRwVjNzdDlrZUI1RTc5RWhOcjlYNW9jU2lPRw?oc=5",
+        "title": "EXCLUSIVE: EU countries to seek import curbs on chemicals, plastics, sources say - reuters.com",
+        "source": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 36,
-        "title": "Top pet food - Pro Edition",
-        "price": "$48.7",
+        "market": "US",
+        "rank": 49,
+        "title": "Top pet - Premium Edition",
+        "price": "$97.0",
         "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "SA",
-        "rank": 26,
+        "rank": 41,
         "title": "Top pet - Compact Edition",
-        "price": "$72.8",
-        "rating": 4.2,
+        "price": "$241.8",
+        "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "宠物用品及食品"
   }
 }

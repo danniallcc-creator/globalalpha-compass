@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "通讯：海外社媒「chip viral」增速 248%，搜索端「chip wholesale supplier」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「China (CHN) Exports, Imports, and Trade...」。",
+    "trend_summary": "通讯：海外社媒「semiconductor trending now」增速 251%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「China (CHN) Exports, Imports, and Trade...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 通讯 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 通讯 成主流",
       "欧盟 CE 标志强制准入 → 通讯 出口需通过合规认证",
-      "海外社媒「chip viral」增速 248% 领跑 → 通讯社媒种草热度爆发"
+      "海外社媒「semiconductor trending now」增速 251% 领跑 → 通讯社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chip viral",
-        "growth": 248.5,
-        "vol": "404K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "chip wholesale supplier",
-        "growth": 231.5,
-        "vol": "724K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "5g #fyp",
-        "growth": 227.5,
-        "vol": "693K",
+        "kw": "semiconductor trending now",
+        "growth": 251.0,
+        "vol": "274K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "5g analyst",
+        "growth": 226.5,
+        "vol": "222K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "5g new arrival",
+        "growth": 221.5,
+        "vol": "308K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "chip wholesale supplier",
-        "growth": 228.5,
+        "kw": "electronic component b2b export",
+        "growth": 174.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 118.5,
+        "growth": 109.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Consumer Electronics Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaDZfREVEenJCbTFEY05KVEVYVDduUW02WFpSSDhmbVJKSUlsUnp6d2lvelcyVU5VQVIzSzFHU3hQOUZrSGtPVVU2QXN4NkdBSUNSeWpfWTRBY3NQcktfNlZ0SFV2dE91TlVGb1NxXzNic0lpclIwanppMEFJOEk?oc=5",
+        "title": "Active Electronic Components Market To 2035: AI and Electrification Drive Growth - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLWNtRnJwUFdWaF9iY2ZDWnRxX0pfd0loZGJhZU9STGxUcmZUTUdyWnlpU3ZBOElZTVhMY083Q0F1WERaX1ctME93X0ZHWU10cmxUU3c4aVd1VUJXMzVaM0hYaGFWdGlNcGdFdHh2MW85OFNQRmN6ZGlkaTVLVGJCY0JocVdPYnR1ZzZLQ0t6ajdST2N2NkFrNTZ4bE91MTVFQWRBR1FON3FSQVd4RjlSbGNFZ2xyckFuM3BtaTlB?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

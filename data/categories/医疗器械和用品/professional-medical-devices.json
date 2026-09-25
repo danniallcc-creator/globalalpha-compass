@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "商用医疗器械：海外社媒「medical device tutorial」增速 244%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Dominican Republic (DOM) Exports,...」。",
+    "trend_summary": "商用医疗器械：海外社媒「medical device breaking」增速 234%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Details on U.S.-China trade...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 商用医疗器械 出口需通过合规认证",
       "美国 FDA 注册要求 → 商用医疗器械 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 商用医疗器械 全球市场准入",
-      "海外社媒「medical device tutorial」增速 244% 领跑 → 商用医疗器械社媒种草热度爆发"
+      "海外社媒「medical device breaking」增速 234% 领跑 → 商用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "medical device tutorial",
-        "growth": 243.5,
-        "vol": "657K",
+        "platform": "x",
+        "kw": "medical device breaking",
+        "growth": 234.5,
+        "vol": "384K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "healthcare equipment b2b export",
-        "growth": 231.0,
-        "vol": "311K",
+        "kw": "medical device wholesale supplier",
+        "growth": 232.5,
+        "vol": "239K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "medical device tiktok made me buy",
-        "growth": 229.5,
-        "vol": "271K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "healthcare equipment b2b export",
-        "growth": 228.0,
+        "platform": "google",
+        "kw": "medical device industry report",
+        "growth": 225.5,
+        "vol": "157K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "medical device wholesale supplier",
-        "growth": 127.5,
+        "growth": 229.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "healthcare equipment b2b export",
+        "growth": 204.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Details on U.S.-China trade negotiations coming Monday, USTR Greer says - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92YUg4RTRCc3prWFk2WUtmZ09pc2lrM3BsRlhhZ2lpYlVuaGVUb0lMMEVOMThLNUlfS2hsWWMzQTFBUk55YmRteTdlYmNqc1RSWkxkUFk5Q2pzN21LZFZ1V1RxdVJrQnY2VlVBYUV1WkrSAXZBVV95cUxPMHo1ZFRqaUFJUXl1Q01HeUNxOUZyTlhVcVZfR2tQM2E3X0k1ZVhZcndEd192WVBLelF3dE1Eb19ZZWlDYkRwVmxSTmhIMG5CM05JSkNEY3FPUE9iTFItMWhMVHB5WFNMLURFSVBUZEp4WmJaaGV3?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Dominican Republic (DOM) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBZZUpQVnN4NnQ1b25GUnQ4aGRraTdwb0NjZnE0OWhuWDVKZHV0bS02QkJvOFdXZWRjMVp3endjMU5XYnV0bktjM0hId1M0VW5PRXc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Tijuana Pushes Medical Device Industry Toward Innovation - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ25BN2tUcy1wZXRuQTMyNjljbDRWMGNPMjg4NjRvQUlNRk00aVZRWHRPcWtwR2ZQajc0ZUFfb0d2RGtZcHd5T1NMcExRSUZyS0lhV0RHZ3RTVEVJc1UwaUh6bDRnSkxJU1lOQzN2dHh3VUh2Y1U2cDJ2Vko5dmY5UERyRFVIUXlGa2k4U2RKNXRJQUxSR0pURFFUSF9uVF9CVVFRRE9sU3VRVnRweEdB?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-09-23",
+    "generated_at": "2026-09-25",
     "l1_ref": "医疗器械和用品"
   }
 }
