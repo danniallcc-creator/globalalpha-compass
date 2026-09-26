@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry #trending」增速 250%，搜索端「jewelry watches digital transformation」热度上行，US Amazon BSR Top-48，Bangkok Post关注「Jewellers call for more trade deals to...」。",
+    "trend_summary": "手表：海外社媒「watch unboxing」增速 244%，搜索端「jewelry watches supply chain resilience」热度上行，SA Amazon BSR Top-44，Bangkok Post关注「Jewellers call for more trade deals to...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry #trending」增速 250% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch unboxing」增速 244% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "jewelry #trending",
-        "growth": 250.5,
-        "vol": "510K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "watch factory tour",
-        "growth": 225.0,
-        "vol": "39K",
+        "kw": "watch unboxing",
+        "growth": 244.0,
+        "vol": "643K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "watch market alert",
-        "growth": 206.0,
-        "vol": "717K",
+        "platform": "tiktok",
+        "kw": "jewelry tiktok made me buy",
+        "growth": 236.5,
+        "vol": "88K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "jewelry industry report",
+        "growth": 231.5,
+        "vol": "686K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches digital transformation",
-        "growth": 79,
+        "kw": "jewelry watches supply chain resilience",
+        "growth": 92,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches export opportunity emerging markets",
-        "growth": 63,
+        "growth": 91,
         "hits": 2
       },
       {
@@ -105,25 +105,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 48,
-        "title": "Top watch - Heavy-Duty Edition",
-        "price": "$191.5",
-        "rating": 4.0,
+        "market": "SA",
+        "rank": 44,
+        "title": "Top jewelry - Compact Edition",
+        "price": "$193.8",
+        "rating": 4.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 29,
-        "title": "Top watch - Pro Edition",
-        "price": "$127.7",
-        "rating": 4.1,
+        "market": "US",
+        "rank": 39,
+        "title": "Top watch - Heavy-Duty Edition",
+        "price": "$140.5",
+        "rating": 4.6,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-09-25",
+    "generated_at": "2026-09-26",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

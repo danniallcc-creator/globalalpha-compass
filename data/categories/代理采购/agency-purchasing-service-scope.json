@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 68,
-      "trend_direction": "stable",
+      "interest_score": 46,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-25"
+      "fetched_at": "2026-09-26"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing market 2026」增速 252%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，Stockholm Environment Institute关注「Trase brings greater transparency to...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「procurement viral hack」增速 244%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Stockholm Environment Institute关注「Trase brings greater transparency to...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing market 2026」增速 252% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「procurement viral hack」增速 244% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 251.5,
-        "vol": "302K",
+        "platform": "tiktok",
+        "kw": "procurement viral hack",
+        "growth": 244.0,
+        "vol": "587K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing wholesale supplier",
-        "growth": 247.5,
-        "vol": "98K",
+        "platform": "x",
+        "kw": "sourcing supply chain",
+        "growth": 230.5,
+        "vol": "376K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "procurement viral hack",
-        "growth": 239.0,
-        "vol": "87K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 248.5,
+        "kw": "sourcing #fyp",
+        "growth": 227.5,
+        "vol": "590K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing wholesale supplier",
-        "growth": 244.5,
+        "growth": 187.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "procurement b2b export",
+        "growth": 171.0,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China-US Trade Rebounds Sharply in August as Exports Climb for Fifth Straight Month - WWD",
-        "source": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQWpGLU5aS0hWb0dRekRqVlBjcml3NE5FdDlqX3AyLXZEYnpPc3hCcEFyQ1pWazlEeXplUGpLakRubl9tUHByM0o5dWxpMFFCY2R4V0lOdWZoUm5MTWxGYlBaa1JyLWpkdWpwZHpVeDJMNU1OSTFBQ2I0RWdybS05WTVQdHh3UkFIaTcwbnRla185UmMwV0V0YWlxc1BzdTZRRE5FRGdFbHNEeDMydHgzS2ItQWgyMjN5ZUhySg?oc=5",
+        "title": "Peru (PER) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yMVd6aTU2aU1pdU9iNy03cjNEM0FybUlQTFlSbzFId09lOV81VnViSDhXLURxTnExb1NsWG9HZWlsSm1xenVXcWhYMWU3WHVNZWc?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-09-25",
+    "generated_at": "2026-09-26",
     "l1_ref": "代理采购"
   }
 }

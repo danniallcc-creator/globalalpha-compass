@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "扬声器及配件：海外社媒「consumer electronics review 2026」增速 252%，搜索端「earbuds wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: India's Serious Fraud Office...」。",
+    "trend_summary": "扬声器及配件：海外社媒「consumer electronics industry news」增速 251%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: LG, Samsung face India...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -50,59 +50,59 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 扬声器及配件 成主流",
       "欧盟 CE 标志强制准入 → 扬声器及配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 扬声器及配件 合规刚需",
-      "海外社媒「consumer electronics review 2026」增速 252% 领跑 → 扬声器及配件社媒种草热度爆发"
+      "海外社媒「consumer electronics industry news」增速 251% 领跑 → 扬声器及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "consumer electronics industry news",
+        "growth": 251.0,
+        "vol": "563K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "consumer electronics #trending",
+        "growth": 232.5,
+        "vol": "392K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "consumer electronics review 2026",
-        "growth": 251.5,
-        "vol": "580K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "consumer electronics trending now",
-        "growth": 239.0,
-        "vol": "634K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "earbuds wholesale supplier",
-        "growth": 209.5,
-        "vol": "585K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "earbuds wholesale supplier",
-        "growth": 206.5,
+        "kw": "earbuds tutorial",
+        "growth": 227.5,
+        "vol": "480K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "smartphone b2b export",
-        "growth": 196.0,
+        "growth": 181.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "earbuds wholesale supplier",
+        "growth": 159.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EXCLUSIVE: India's Serious Fraud Office recommends 'detailed' probe into Xiaomi's business in country - Reuters",
+        "title": "EXCLUSIVE: LG, Samsung face India tariff evasion investigation over OLED TV parts - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZHg4WTBWRU9RMm16bXRLQnA2WHZfYm9ydEdPNnBXdHpKSEpRQi1rVS1hcW5VUk9DdlA3SE9ZWXpLMVZFNDUydzBYM2ROdmRqeEZfMmZtN0MxWDNRTnA3UklLYjNfTDlNNzcyY3Etb2JaSVZ2TGpIYVJWQWhsbGhTY0ZHdFNrS3FtYmdBN0pwU053OUZLU1NLT2ttZDM1emJ3VE10N3d6NF96UUxkLTFWUVV3elpNMTRLdjdjaV9MbHZDa2s3eTIxTEdrMk9CNl9oa0E?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeWZySUc1VVpNVFZwNjJZLXJxTG5WTGVvVlB2dHpkbXJGYjROUjBwLTdIMkNoM2h6WDE4ekJFZHlqYzNKNUxYR0ZydzJMRDFFMENSQk1Hdi05R0sxamttMmVKbGR1ejhCR1ZoT0RRQ2pveG5pNFlRLVQyUDlXNERRaHllcy12Y0pUOWFsemx5ZHdVR2E4YzZJX1JUMWZuYnlWVFA3UTUydWdYdlBRR1JaN05GUXVzV1VYeHh4Snc1U2N5Uy0zMExz?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Consumer Electronics Market Size, Share, Trends, Growth, 2034 - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaDZfREVEenJCbTFEY05KVEVYVDduUW02WFpSSDhmbVJKSUlsUnp6d2lvelcyVU5VQVIzSzFHU3hQOUZrSGtPVVU2QXN4NkdBSUNSeWpfWTRBY3NQcktfNlZ0SFV2dE91TlVGb1NxXzNic0lpclIwanppMEFJOEk?oc=5",
+        "title": "Samsung - Britannica",
+        "source": "Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CMEtMbDlLVmJXSWYwNzYzN3NCdEFrbTJpdU5ackg2NEhudEhQQzZFeGpNTEY2X1lTeUxFZzJmOWdRX0hlekdmVHRCbnU3R2hvWURhQkFTX01Vd0FqZ1lVVU1R?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-25",
+    "generated_at": "2026-09-26",
     "l1_ref": "消费电子"
   }
 }

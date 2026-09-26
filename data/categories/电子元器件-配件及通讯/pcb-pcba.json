@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电路板及组装：海外社媒「semiconductor trending now」增速 251%，搜索端「electronic component b2b export」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「China (CHN) Exports, Imports, and Trade...」。",
+    "trend_summary": "电路板及组装：海外社媒「chip wholesale supplier」增速 248%，搜索端「chip wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Active Electronic Components Market To...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 电路板及组装 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电路板及组装 成主流",
       "欧盟 CE 标志强制准入 → 电路板及组装 出口需通过合规认证",
-      "海外社媒「semiconductor trending now」增速 251% 领跑 → 电路板及组装社媒种草热度爆发"
+      "海外社媒「chip wholesale supplier」增速 248% 领跑 → 电路板及组装社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "semiconductor trending now",
-        "growth": 251.0,
-        "vol": "274K",
+        "platform": "google",
+        "kw": "chip wholesale supplier",
+        "growth": 247.5,
+        "vol": "357K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "5g analyst",
-        "growth": 226.5,
-        "vol": "222K",
+        "kw": "semiconductor industry news",
+        "growth": 241.0,
+        "vol": "553K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "5g new arrival",
-        "growth": 221.5,
-        "vol": "308K",
+        "kw": "electronic component aesthetic",
+        "growth": 240.0,
+        "vol": "252K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electronic component b2b export",
-        "growth": 174.0,
+        "kw": "chip wholesale supplier",
+        "growth": 244.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 109.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China (CHN) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDMHV0M3ZTYWZDX3EtWG9CZE1QZnVqZWpNVmtXbk9DVkVpM2xZYU51enNycWlnN1NSZ2wzclctWk9rSVdnTUZOdl91UmJFSFRTQ3c?oc=5",
+        "growth": 203.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Active Electronic Components Market To 2035: AI and Electrification Drive Growth - News and Statistics - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLWNtRnJwUFdWaF9iY2ZDWnRxX0pfd0loZGJhZU9STGxUcmZUTUdyWnlpU3ZBOElZTVhMY083Q0F1WERaX1ctME93X0ZHWU10cmxUU3c4aVd1VUJXMzVaM0hYaGFWdGlNcGdFdHh2MW85OFNQRmN6ZGlkaTVLVGJCY0JocVdPYnR1ZzZLQ0t6ajdST2N2NkFrNTZ4bE91MTVFQWRBR1FON3FSQVd4RjlSbGNFZ2xyckFuM3BtaTlB?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "South Korea (KOR) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFb3pSd3NpT0s5andZTy02ZG15OUpWVGJjcmM2UGhwcjU4T1ZEOU1tUHRBN2NyeHhkS0k1bmN3c3RveGxyb3NUWUxZdmdNRVRQLXc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-09-25",
+    "generated_at": "2026-09-26",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }
