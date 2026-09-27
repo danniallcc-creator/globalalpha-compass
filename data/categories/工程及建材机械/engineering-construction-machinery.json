@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工程建筑机械：海外社媒「construction equipment supply chain」增速 246%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，McKinsey & Company关注「Geopolitics and the geometry of global...」。",
+    "trend_summary": "工程建筑机械：海外社媒「construction equipment market alert」增速 248%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，CNS Maryland关注「How Maryland is caught up in the trade...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 工程建筑机械 出口需通过合规认证",
-      "海外社媒「construction equipment supply chain」增速 246% 领跑 → 工程建筑机械社媒种草热度爆发"
+      "海外社媒「construction equipment market alert」增速 248% 领跑 → 工程建筑机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "construction equipment supply chain",
-        "growth": 246.5,
-        "vol": "312K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "construction equipment analyst",
-        "growth": 242.5,
-        "vol": "710K",
+        "kw": "construction equipment market alert",
+        "growth": 248.0,
+        "vol": "455K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "construction equipment new arrival",
-        "growth": 237.5,
-        "vol": "158K",
+        "kw": "construction equipment #trending",
+        "growth": 244.5,
+        "vol": "497K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "construction equipment tutorial",
+        "growth": 235.5,
+        "vol": "566K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "construction equipment wholesale supplier",
-        "growth": 213.5,
+        "growth": 184.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "construction equipment b2b export",
-        "growth": 161.0,
+        "kw": "construction equipment market 2026",
+        "growth": 112.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "How Maryland is caught up in the trade war with Canada - CNS Maryland",
+        "source": "CNS Maryland",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXhOVXdmOUl2aFZnZE95cWJYTjY0eDNWYndrZEdCc2l4djI3Qm80NjM4bm1RMDQwalBoWGtfblVfWFdzZmRlQ29xcjEyYTc1RUtpVHljUmJCXzU4ck9FdDNuQ09RdWhzd0tpR3ZLTnFTUlAxZjBSSW9FWXFFN2R3SUlZUXg3eUJLS0NKeGtYUDBXZW1O?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Geopolitics and the geometry of global trade: September 2026 update - McKinsey & Company",
         "source": "McKinsey & Company",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JNHpCV0pXQVBEaUNuOFdvMXJDZWxBR0hLWG9CNnRsbEQ4X2w3d3FuWjZEeXJnNUhUd1V0dExiY0JNNjI2RTRfdW5IcXg4aFl6VXcwZG14eUF6YXBzNXdZMWItTUJYT0FudEFzMUtvTnQ1cDhJZURNdmFFQQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Three African economies show how China’s slowdown is reshaping trade - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd1VsQmtSZklOLXVYRTNIbUlnT2hPTzhraVdFVlNzTF9UeDNUUFFBOXRPU1dYX0c4WjdXdWdybGRCQm5UMnVFamptYjdISXpDdVY3ZHgyN3VTSmhYd1ExXzgyZzZaQlowQTRUM2VqbVlpUGt3dW9Rcm1XMHNGUDRObkR3c29oUC15endSaWxmV2NMYlZTQzRjRUQyRUlucFVINEM3d2hSbEFBb1J4QUZvdQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-09-26",
+    "generated_at": "2026-09-27",
     "l1_ref": "工程及建材机械"
   }
 }

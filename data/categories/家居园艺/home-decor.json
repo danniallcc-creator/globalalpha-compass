@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 78%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-28，IndexBox关注「Peat Moss Growing Media Market Forecast...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 58%，搜索端「home decor wholesale supplier」热度上行，UK Amazon BSR Top-34，Yahoo关注「The Collapse of Farm Exports Is the...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,46 +48,53 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 78% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 58% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 77.5,
-        "vol": "148K",
+        "growth": 58.5,
+        "vol": "439K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 253.5,
-        "vol": "158K",
+        "platform": "tiktok",
+        "kw": "home decor #fyp",
+        "growth": 223.5,
+        "vol": "114K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "home decor new arrival",
-        "growth": 221.5,
-        "vol": "785K",
+        "kw": "home decor viral",
+        "growth": 184.5,
+        "vol": "56K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 74.5,
+        "growth": 55.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 139.5,
+        "growth": 130.5,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "The Collapse of Farm Exports Is the Most Underappreciated Story in American Politics - Yahoo",
+        "source": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNakc4SFk1ajhiRE9laEJNN0JySV9uMnBFSV9wNy1jMjQzbHpoZWU2UXZvNGNvdjduMThYZ2Yyb252ZWVuX3BINFRkblBsd2FiTE5VNXdsWGpucG9feVdKV005U0RNdHF1OHRDWk9kQUJ1anpTRXEyN1JDamxOeF95OWFuUXNhUHZzZFBsTElkYlFTRHRuM1pGVGMxOVdsUWg2ck12YWx3?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -97,33 +104,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Govt monitoring market to prevent abnormal hike following fuel price adjustment: Commerce minister - The Financial Express",
-        "source": "The Financial Express",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLU51bmZ3eER0dGZpeml5TFFTTnFDTVEzLTRUSFEybTJQVFBPdlQtXzI4OXJiRU5UeDdldVVSbTlnamwxM3FORWdrRnFqc0k1LWEzbWhGQ3pxcnZ2bkR0VEhTaUlIYnF6ZTl2Tk44Qk5HTUhMU0V6ZEU4SF9HZDAyVE1NeHF0cG12UWJ0ZXBNeVZETWVMMGZvNDA2TzNtX0Q3bzB5MnA2ckJtMnNPV1N1SWNYZzlyMERWQndn?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 28,
+        "rank": 34,
         "title": "Top garden - Smart Edition",
-        "price": "$241.1",
-        "rating": 4.0,
+        "price": "$202.1",
+        "rating": 4.3,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 28,
-        "title": "Top garden - Heavy-Duty Edition",
-        "price": "$117.5",
-        "rating": 3.9,
+        "market": "DE",
+        "rank": 21,
+        "title": "Top garden - Pro Edition",
+        "price": "$224.7",
+        "rating": 4.9,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-09-26",
+    "generated_at": "2026-09-27",
     "l1_ref": "家居园艺"
   }
 }

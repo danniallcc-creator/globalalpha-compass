@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "警报器：海外社媒「security camera industry report」增速 230%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，Trade Brains关注「Aditya Infotech: CCTV Leader, AI Push...」。",
+    "trend_summary": "警报器：海外社媒「cctv trending now」增速 249%，搜索端「cctv b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Details on U.S.-China trade...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 警报器 出口需通过合规认证",
-      "海外社媒「security camera industry report」增速 230% 领跑 → 警报器社媒种草热度爆发"
+      "海外社媒「cctv trending now」增速 249% 领跑 → 警报器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cctv trending now",
+        "growth": 249.0,
+        "vol": "105K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "cctv unboxing",
+        "growth": 239.0,
+        "vol": "750K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "security camera industry report",
-        "growth": 229.5,
-        "vol": "301K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "security camera #fyp",
-        "growth": 219.5,
-        "vol": "332K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "security camera viral",
-        "growth": 217.5,
-        "vol": "191K",
+        "growth": 228.5,
+        "vol": "779K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cctv b2b export",
-        "growth": 214.0,
+        "growth": 203.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "security cctv sustainable manufacturing",
-        "growth": 88,
+        "source": "Google Trends",
+        "kw": "security camera wholesale supplier",
+        "growth": 174.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Aditya Infotech: CCTV Leader, AI Push and Rising Surveillance Demand; 5 Reasons to Keep This Stock on Your Radar - Trade Brains",
-        "source": "Trade Brains",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUUM2Ym9YV2prUFdVeTdqdWJxU0VHOVVwQjhqZ0FJdXVjVzZpaENEUkZxM3pEeWZXbmJNZ0k3Ym9taEFOWW9nSk1YSFQyX3poMldfM3N0TTZNRzh2d2pBSXlQSmc1ZlJWaF9YdXVGLXRCMS1fMUVNMU1GVTBPMExUUXJFbGNfTDgwOHJfQTk4dENLRklfMWJXV0NVYUhEVzBkbU9sbkE5YXZQcmpKYmIxRDZkOG1jUmtPQUpjNHZqckZFQ25qeS13bE9CaEExeklsQUs2S3lCaVQ5T1Z6azkyM01TM3dsaS1JRlZnbw?oc=5",
+        "title": "Details on U.S.-China trade negotiations coming Monday, USTR Greer says - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92YUg4RTRCc3prWFk2WUtmZ09pc2lrM3BsRlhhZ2lpYlVuaGVUb0lMMEVOMThLNUlfS2hsWWMzQTFBUk55YmRteTdlYmNqc1RSWkxkUFk5Q2pzN21LZFZ1V1RxdVJrQnY2VlVBYUV1WkrSAXZBVV95cUxPMHo1ZFRqaUFJUXl1Q01HeUNxOUZyTlhVcVZfR2tQM2E3X0k1ZVhZcndEd192WVBLelF3dE1Eb19ZZWlDYkRwVmxSTmhIMG5CM05JSkNEY3FPUE9iTFItMWhMVHB5WFNMLURFSVBUZEp4WmJaaGV3?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Membership Without Membership: What Can Europe Really Offer Canada? - Council on Foreign Relations",
-        "source": "Council on Foreign Relations",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZnVWakF1MHpGS1ZqZUpIYUx5UGxMMHJZbHA1czRySE51dzJfc3JjR0JXNWdhUnNPc2xZRFlqRGFkaDRpenRxMVBUWjdkZ2x1OWpRU0JmRzRfSmtQWmhuWk9qbEpUaWk3blpUcUxMbmZiWEpfRFNxa3NGNHRGVlNKNDhuNEJLSDFvRTZQdmV4dUtqMnpDSktGZzBR?oc=5",
+        "title": "UAE investors eye Sri Lanka ports, logistics, food security and technology opportunities - Gulf News",
+        "source": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNGhtTlFyZTRTWlpaMWV3TjhfTGRhVDdhLTZ0QWh4NWJtaEc2T1VfQTRQenFyYXlxVUF0RndEX0E1X3hxMFNGWWluVDZnSTNIVjRRa19pcnJWdXREcWwxM0J6WlZKTEtPZ1F5N0x2ZWdsZmtVNThBcnVEOGtaelNfck94dzJrSkM2UFdiX1R1UmVTMHNKODdqeGxrcWRpaGh5c3FVeHdxdklqaV9RYS02Uzdsa1I2TXlIVEROSzVoY3FGZjJpR3laRlAwR2ptYUlZZ0HSAeQBQVVfeXFMUG5DZzIzNHpka0V0MThSNldBRWxFVzUwRm02dHhBaXFLdFFSeG9zTWVTZE5IZ2VnTXgwR1hpanNLaklodGtIb25TcVp1VHpObTJCNVRTZEtVdUMwemhmWi1LSmJxY0tjbmYwY0pDaVFDMDhXQkQ5SHhVUkRTeEpDYmU0SXRORUxPU09YZ1ZQMmtLUHprSGY5YzdsNzh4YWN2UGI1QkhhM21kbGlRN1BjaVFFQTdENmVBU0tMLXdMWV9OU2d3a2FpYjdzaVM2LWhJbU12OUJqUHBjNVdwYW90S3JmLXVT?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-09-26",
+    "generated_at": "2026-09-27",
     "l1_ref": "安防"
   }
 }
