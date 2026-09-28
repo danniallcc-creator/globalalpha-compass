@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "其他礼品：海外社媒「gift #fyp」增速 226%，搜索端「craft b2b export」热度上行，US Amazon BSR Top-12，Vietnam.vn关注「Hanoi: Promoting trade and accelerating...」。",
+    "trend_summary": "其他礼品：海外社媒「gift market 2026」增速 254%，搜索端「gift market 2026」热度上行，US Amazon BSR Top-12，Daily Tribune关注「Up to 50% off export-quality goods at...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 其他礼品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 其他礼品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 其他礼品 通关",
-      "海外社媒「gift #fyp」增速 226% 领跑 → 其他礼品社媒种草热度爆发"
+      "海外社媒「gift market 2026」增速 254% 领跑 → 其他礼品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "gift #fyp",
-        "growth": 226.5,
-        "vol": "452K",
+        "platform": "google",
+        "kw": "gift market 2026",
+        "growth": 253.5,
+        "vol": "548K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "gift tiktok made me buy",
-        "growth": 219.5,
-        "vol": "144K",
+        "platform": "google",
+        "kw": "craft b2b export",
+        "growth": 251.0,
+        "vol": "18K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "gift viral",
-        "growth": 218.5,
-        "vol": "648K",
+        "growth": 250.5,
+        "vol": "612K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "gift market 2026",
+        "growth": 250.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "craft b2b export",
-        "growth": 162.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "gift wholesale supplier",
-        "growth": 129.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Hanoi: Promoting trade and accelerating the entry of rural industrial products into the market. - Vietnam.vn",
-        "source": "Vietnam.vn",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM2ZkLXVlOUpmaFg0ekswUXpZOV80TnpJM1V5MWRFVGFXY0V2OXdJem4xTGJhMFhlZFVza0V3XzU1YnVEbU0xWjhvdGctOWlCbG9kSEo2Q2xhUWIweGxidFRPdmdqMzJVdTg0cUdkTmFyaU55ZEFCME1xcFdIY3lDSEpMR3ZzUmliQlBKbXJGNVNyLVlEdURSQUpKYXg4QTlEUnFZM1hIMmNqcDgzVDRN?oc=5",
+        "growth": 248.0,
         "hits": 0
       },
       {
@@ -125,7 +118,7 @@
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-09-27",
+    "generated_at": "2026-09-28",
     "l1_ref": "礼品与工艺品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food trending now」增速 252%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-29，ایران‌وایر关注「Import Bans Drive Iranian Pet Food...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food b2b export」增速 245%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-47，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,51 +49,51 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food trending now」增速 252% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food b2b export」增速 245% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 252.0,
-        "vol": "215K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 238.0,
-        "vol": "673K",
+        "kw": "pet food b2b export",
+        "growth": 245.0,
+        "vol": "14K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 215.0,
-        "vol": "676K",
+        "platform": "instagram",
+        "kw": "pet food aesthetic",
+        "growth": 216.0,
+        "vol": "146K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food viral hack",
+        "growth": 210.0,
+        "vol": "45K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 73.0,
+        "growth": 242.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet wholesale supplier",
-        "growth": 170.5,
+        "growth": 116.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Import Bans Drive Iranian Pet Food Black Market - ایران‌وایر",
-        "source": "ایران‌وایر",
+        "title": "Import Bans Drive Iranian Pet Food Black Market - IranWire",
+        "source": "IranWire",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlA5U1AyX1FaZXlLZFlIUFg3RWtWbm9FSlo4a0pWWDFZdWNLTk5FcEMyQlRvbU5TdlJzcW1JX3dCZU1jUUFTYllPeENLMXZtR2gyZWJGSjJETm1pOC11dkpjM3JzVEpmRERheHQ0OWdwcDhNcHNWekRlT1NDenRSZjBsLW9zU0ZfaVdaT3JkNWtyQQ?oc=5",
         "hits": 2
       },
@@ -107,24 +107,24 @@
       {
         "dim": "Amazon",
         "market": "JP",
-        "rank": 29,
+        "rank": 47,
         "title": "Top pet - Eco Edition",
-        "price": "$122.4",
-        "rating": 4.0,
+        "price": "$205.4",
+        "rating": 4.6,
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 26,
-        "title": "Top pet - Premium Edition",
-        "price": "$68.0",
-        "rating": 4.0,
+        "market": "SA",
+        "rank": 29,
+        "title": "Top pet - Compact Edition",
+        "price": "$115.8",
+        "rating": 4.4,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-09-27",
+    "generated_at": "2026-09-28",
     "l1_ref": "宠物用品及食品"
   }
 }

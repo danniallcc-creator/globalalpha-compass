@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "生物化工产品：海外社媒「chemical viral hack」增速 243%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
+    "trend_summary": "生物化工产品：海外社媒「chemical must have」增速 244%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 生物化工产品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 生物化工产品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生物化工产品 通关",
-      "海外社媒「chemical viral hack」增速 243% 领跑 → 生物化工产品社媒种草热度爆发"
+      "海外社媒「chemical must have」增速 244% 领跑 → 生物化工产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical viral hack",
-        "growth": 243.0,
-        "vol": "419K",
+        "platform": "instagram",
+        "kw": "chemical must have",
+        "growth": 244.0,
+        "vol": "277K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "chemical #trending",
+        "growth": 238.5,
+        "vol": "667K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "chemical factory tour",
-        "growth": 239.0,
-        "vol": "577K",
+        "kw": "chemical top 10",
+        "growth": 237.5,
+        "vol": "582K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "chemical industry report",
-        "growth": 237.5,
-        "vol": "723K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical wholesale supplier",
+        "growth": 105.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 166.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical market 2026",
-        "growth": 113.5,
+        "growth": 101.0,
         "hits": 0
       },
       {
@@ -100,8 +100,8 @@
       },
       {
         "dim": "媒体",
-        "title": "Peru cosmetics, essential oil and surfactant exports rise - personalcareinsights.com",
-        "source": "personalcareinsights.com",
+        "title": "Peru cosmetics, essential oil and surfactant exports rise - Personal Care Insights",
+        "source": "Personal Care Insights",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlNiemxaRGdWSFc3VlpvNmJRVHRNSG11WDFIVHk0ZzFtTU16M3ZtMk5kSjFLenJ5eGcyWFBfM1VuRDR2MWZ0cWRDYUJnLWtYTWJrVmhyVzVBTmFtZmFNN04zWnVJU2tNQ1cxa2hCRmQ0OFBhVUhRUWpVZmZ5OTZOTkp5d3FVVVI4ZndN?oc=5",
         "hits": 0
       },
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-09-27",
+    "generated_at": "2026-09-28",
     "l1_ref": "化学品"
   }
 }

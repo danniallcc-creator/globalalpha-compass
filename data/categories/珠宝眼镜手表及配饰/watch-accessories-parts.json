@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表零部件：海外社媒「jewelry #trending」增速 254%，搜索端「jewelry wholesale supplier」热度上行，US Amazon BSR Top-12，Bangkok Post关注「Jewellers call for more trade deals to...」。",
+    "trend_summary": "手表零部件：海外社媒「watch price trend」增速 246%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Bangkok Post关注「Jewellers call for more trade deals to...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表零部件 出口需通过合规认证",
-      "海外社媒「jewelry #trending」增速 254% 领跑 → 手表零部件社媒种草热度爆发"
+      "海外社媒「watch price trend」增速 246% 领跑 → 手表零部件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "watch price trend",
+        "growth": 246.0,
+        "vol": "564K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "jewelry #trending",
-        "growth": 253.5,
-        "vol": "461K",
+        "kw": "watch must have",
+        "growth": 233.0,
+        "vol": "768K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "jewelry wholesale supplier",
-        "growth": 251.5,
-        "vol": "420K",
+        "kw": "jewelry market 2026",
+        "growth": 229.5,
+        "vol": "16K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "jewelry tiktok made me buy",
-        "growth": 249.5,
-        "vol": "310K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "jewelry market 2026",
+        "growth": 226.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry wholesale supplier",
-        "growth": 248.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "watch b2b export",
-        "growth": 206.0,
+        "growth": 190.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-09-27",
+    "generated_at": "2026-09-28",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }
