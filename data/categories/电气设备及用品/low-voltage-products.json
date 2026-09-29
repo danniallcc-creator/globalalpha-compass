@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "低压配电产品：海外社媒「electrical market 2026」增速 244%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
+    "trend_summary": "低压配电产品：海外社媒「electrical industry report」增速 248%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,38 +49,31 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 低压配电产品 成主流",
       "欧盟 CE 标志强制准入 → 低压配电产品 出口需通过合规认证",
-      "海外社媒「electrical market 2026」增速 244% 领跑 → 低压配电产品社媒种草热度爆发"
+      "海外社媒「electrical industry report」增速 248% 领跑 → 低压配电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "electrical market 2026",
-        "growth": 243.5,
-        "vol": "583K",
+        "kw": "electrical industry report",
+        "growth": 247.5,
+        "vol": "103K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical breaking",
-        "growth": 236.5,
-        "vol": "764K",
+        "platform": "instagram",
+        "kw": "electrical aesthetic",
+        "growth": 238.0,
+        "vol": "438K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical industry news",
-        "growth": 235.0,
-        "vol": "638K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 240.5,
+        "platform": "google",
+        "kw": "electrical wholesale supplier",
+        "growth": 234.5,
+        "vol": "380K",
         "hits": 0
       },
       {
@@ -88,6 +81,13 @@
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
         "growth": 231.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical market 2026",
+        "growth": 137.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Zhejiang, China: Green Power Supports the \"World Market\", Empowering Openness and Going Global - The National Law Review",
-        "source": "The National Law Review",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWdkWEV0dlNJXzAxYml6V256bmhRVWlVRlhENDZaeWl4ai1EeGVXU0FucTFiSHNjUXNoWjg5OVdZVTk2SVdHSU0zOXdtVExWMU5ZeHJBVjhaN2hfQl9SUVJMQmFqd1Z6MElqbzlOOWxPMEIyaHZMTzluR1ZnTnNMN0FmOXpEbE94eW9YcDdOeXJJUTFXUTJfbi1hc0g0QmFyWVlkUnoyOTdFTnNqa2szYi1R?oc=5",
+        "title": "Electrical machinery and electronics (HS: 85) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjWGJubWxjY3g3NUhkVXpjLU9OSTRXWjkzb3JVQXFLSFRaNERTcUx4NXgzb0l4TW5DeVlNZTBtZkY0UlNaT25wTEQ5Y3RLVVVscm1VOXRhUWpneG5Oa0x1ZzdpR1AtN1NrMEx6dmNET21saTdlSVhF?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-28",
+    "generated_at": "2026-09-29",
     "l1_ref": "电气设备及用品"
   }
 }

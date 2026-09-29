@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric unboxing」增速 255%，搜索端「fabric b2b export」热度上行，UK Amazon BSR Top-30，The Observatory of Economic Complexity关注「Coated Textile Fabric (HS: 5907)...」。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 219%，搜索端「fabric b2b export」热度上行，DE Amazon BSR Top-49，The Observatory of Economic Complexity关注「Coated Textile Fabric (HS: 5907)...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric unboxing」增速 255% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 219% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric unboxing",
-        "growth": 255.0,
-        "vol": "131K",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 219.0,
+        "vol": "680K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "fabric industry news",
+        "growth": 201.0,
+        "vol": "225K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "fabric trending now",
-        "growth": 248.0,
-        "vol": "732K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "fabric price trend",
-        "growth": 244.0,
-        "vol": "674K",
+        "growth": 199.0,
+        "vol": "614K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 168.0,
+        "growth": 137.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "textile fabric supply chain resilience",
-        "growth": 48,
+        "growth": 92,
         "hits": 2
       },
       {
@@ -100,32 +100,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Polyamide Fabric (HS: 5902) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53OExyUlN1ZmpPall3NWxHVHFuTHV0d2dxdW5UeTBKdE1jNTlWOTFuVjNINEFnMHBrS3RlalVyTWI4QUhUc3BfVUE1SkxwblpCdzFaY0p0M3dpNU9v?oc=5",
+        "title": "Greige Fabrics Market Outlook to 2035 - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0T2lCV0ZkanB0NGRuMmtfNG1HWGNxcG1nbVdlMkxabHFhcVhXRHhGbkdqX0p0Zy1xQnQ0ZGJnYjg2dGR3bnFQQXdaeWI0S1hRRHRub3NnLXV3RUtaTjU2ZU5VSGpQcnJDM0FXM3NPVW5ZcUxCaXc?oc=5",
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 30,
-        "title": "Top fabric - Smart Edition",
-        "price": "$235.1",
-        "rating": 4.3,
+        "market": "DE",
+        "rank": 49,
+        "title": "Top fabric - Pro Edition",
+        "price": "$86.7",
+        "rating": 4.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 26,
-        "title": "Top textile - Premium Edition",
-        "price": "$154.0",
-        "rating": 4.7,
+        "market": "JP",
+        "rank": 45,
+        "title": "Top textile - Eco Edition",
+        "price": "$54.4",
+        "rating": 4.5,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-09-28",
+    "generated_at": "2026-09-29",
     "l1_ref": "面料及纺织原材料"
   }
 }
