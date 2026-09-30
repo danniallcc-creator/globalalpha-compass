@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 60%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-35，Reuters关注「Five takeaways from Trump's summit with...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 204%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-41，IndexBox关注「Wheelbarrow Market Outlook to 2035 -...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,53 +48,46 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 60% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 204% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 60.5,
-        "vol": "222K",
+        "growth": 204.5,
+        "vol": "239K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor #trending",
-        "growth": 256.5,
-        "vol": "321K",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 251.5,
+        "vol": "335K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "home decor viral",
-        "growth": 243.5,
-        "vol": "712K",
+        "platform": "google",
+        "kw": "home decor industry report",
+        "growth": 218.5,
+        "vol": "73K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 57.5,
+        "growth": 201.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 60.5,
+        "growth": 39.5,
         "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Five takeaways from Trump's summit with Xi in Washington - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUZiUFVUOGt5dnNJYXpucXZQZ2NmbjlYdzZPV2ZDZFlUZ3AyZjJJNXNkVndsZ0dJSmgwZ3BlX2R3M1dYNWtILWhtdDh2aXFndHllTy1wa0RrU3M1ZW5tR1pvWEM4a1lMbXdyR2g1M2JQZlozNjVVLWZaYjBBYm1ZMEx5VW51eFlHQ01NNnZhNHlhVDBoMW4zU3VwOA?oc=5",
-        "hits": 0
       },
       {
         "dim": "媒体",
@@ -104,26 +97,33 @@
         "hits": 0
       },
       {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 35,
-        "title": "Top garden - Heavy-Duty Edition",
-        "price": "$143.5",
-        "rating": 3.9,
+        "dim": "媒体",
+        "title": "Jute exports rise 37 per cent as Bangladesh plans to double earnings by 2031 - thefinancialexpress.com.bd",
+        "source": "thefinancialexpress.com.bd",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaHo2TkE1UW5Xc1JXTTBqSWRDakhNWmNrTjFLOXZLeXg2d2FCY002ZmF5cVJVTTlIQjNISEVVRlFHR0djVnMzMUpHSWpQWXVDQmwyejMweXVZdHRhTGFiZFpZYVhuRl8yclU2NUUyc0E1UEJYRkxNVnVLd1F1U0FTTDQzRWR2QzM1alpDMF9PNEdoWjdIcENpLXFaUU5COWcwdVBKcDhhQnduZm5HLVBKbTZlVm01aWtONVU1WjdyR1NJWDg?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 28,
-        "title": "Top garden - Smart Edition",
-        "price": "$139.1",
-        "rating": 4.2,
+        "market": "DE",
+        "rank": 41,
+        "title": "Top garden - Pro Edition",
+        "price": "$236.7",
+        "rating": 4.0,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 23,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$80.5",
+        "rating": 4.9,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-09-29",
+    "generated_at": "2026-09-30",
     "l1_ref": "家居园艺"
   }
 }

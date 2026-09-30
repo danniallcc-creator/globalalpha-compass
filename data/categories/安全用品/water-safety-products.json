@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "救生产品：海外社媒「safety gear supply chain」增速 254%，搜索端「safety gear wholesale supplier」热度上行，US Amazon BSR Top-12，brownfieldagnews.com关注「Canadian tariffs take effect and...」。",
+    "trend_summary": "救生产品：海外社媒「safety gear analyst」增速 240%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，Brownfield Ag News关注「Canadian tariffs take effect and...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 救生产品 出口需通过合规认证",
-      "海外社媒「safety gear supply chain」增速 254% 领跑 → 救生产品社媒种草热度爆发"
+      "海外社媒「safety gear analyst」增速 240% 领跑 → 救生产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "safety gear supply chain",
-        "growth": 253.5,
-        "vol": "44K",
+        "kw": "safety gear analyst",
+        "growth": 240.5,
+        "vol": "155K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "ppe factory tour",
-        "growth": 247.0,
-        "vol": "101K",
+        "platform": "x",
+        "kw": "safety gear breaking",
+        "growth": 239.5,
+        "vol": "369K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "safety gear tiktok made me buy",
-        "growth": 246.5,
-        "vol": "80K",
+        "platform": "google",
+        "kw": "ppe b2b export",
+        "growth": 221.0,
+        "vol": "158K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ppe b2b export",
+        "growth": 218.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "safety gear wholesale supplier",
-        "growth": 221.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "safety gear market 2026",
-        "growth": 114.5,
+        "growth": 201.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Canadian tariffs take effect and economist says it could recreate North American trade flows - brownfieldagnews.com",
-        "source": "brownfieldagnews.com",
+        "title": "Canadian tariffs take effect and economist says it could recreate North American trade flows - Brownfield Ag News",
+        "source": "Brownfield Ag News",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVR6eldkZnkxcHZVc1F3ZDhwalZEd2hnLXkyNENBeF9rOXVfT0t1QkU2MUtmUEJ6X1lqNmFSWG85aFNvWXZwbVcxbUdLZXU0ZWZsbXlSaGlBVXNONnVvRU42bTdWZ18tQjh5VkNyaWRzMDAweHlnelh0bnBEZUZiOVBxSG1WVm12UXBfa0lmTFotNGtDTzVvQlNONERQM2p4dWcza2RRdDhPNDNYMmVKTmlBdHhBeVFqaVJGRWR5bHlDR0k4Zk5UaGFEbw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Bessent proposes AI safety notifications in talks with China ahead of Xi-Trump meeting - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mV29jcGk3elFUc0dicFB0SDhQckJLSV9ZLU9Mbm40SGdQZ0JHU0NfZVU1ODVxZGs4NjJLZ21aS0hPb280a1Zjbkp2M25zUG5Fc0lITTBWVmYzQXhTOFlQaTRMR2lFc2hQWG5kRTl0VHI2cmdCQWR4d09HYlo?oc=5",
+        "title": "Safety pins and other pins: of iron or steel (HS: 731940) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMFVOdmNvcHBQYTJLZ2F4TGxvZHNSVGM0b2RFa1JocVdDOVdZTU1DSGVUcG9HVmZ4R0laYWhGbmUySzNmcDBoczJRZW5XeXJ4Q1BxbzNjbEt2ZXUwNWFhYzdVV0swblQ3ZXVPc2NXOHJJNFdKUFZXVHhwS0N0SHZDNw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-09-29",
+    "generated_at": "2026-09-30",
     "l1_ref": "安全用品"
   }
 }

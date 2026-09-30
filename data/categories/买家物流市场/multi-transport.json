@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 76,
+      "interest_score": 64,
       "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-29"
+      "fetched_at": "2026-09-30"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight unboxing」增速 251%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，World Trade Organization关注「WTO | 2026 News items - New report...」。",
+    "trend_summary": "多式联运：海外社媒「freight market alert」增速 242%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，IDB | Inter American Development Bank关注「Connecting Markets, Powering Growth:...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,45 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight unboxing」增速 251% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight market alert」增速 242% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "freight unboxing",
-        "growth": 251.0,
-        "vol": "533K",
+        "platform": "x",
+        "kw": "freight market alert",
+        "growth": 242.0,
+        "vol": "465K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 249.0,
-        "vol": "647K",
+        "platform": "tiktok",
+        "kw": "freight must try",
+        "growth": 216.5,
+        "vol": "278K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "freight analyst",
-        "growth": 237.5,
-        "vol": "757K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "freight b2b export",
-        "growth": 189.0,
+        "growth": 207.5,
+        "vol": "217K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "logistics market 2026",
-        "growth": 148.5,
+        "growth": 192.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "freight b2b export",
+        "growth": 101.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean - IDB | Inter American Development Ba",
+        "source": "IDB | Inter American Development Bank",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlY0azJhdlRvVGxPdzNmdVM5M0tQWVJKa2ptUXBfT0dFLTRucG9vT1I4eHpLTzd5TVhLVW9oaHJYY2lUaF8wWlQtUTZJTmZfX0NTV1NqaFRTYTE2dG8zRng3cUZHV1lCb3FNVEltcF9hRmlFTjlZYUtaOVVUU3BBeDdYVEw5cmtacTBzZVQ0SDJlRkhZTUpiNGtBc001SFRQbW9adW1wSTNSM01ZdGRBZHBNRG1MZi1CWTAwdXlOeEVubDM5SFprbmhvY1h0TlMzTlhWQQ?oc=5",
         "hits": 0
       },
       {
@@ -102,13 +109,6 @@
         "title": "WTO | 2026 News items - New report highlights growth potential of digital trade in Latin America, Caribbean - World Trade Organization",
         "source": "World Trade Organization",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93QUQzQ21GTGVjemVXaXlleERtUkVtVldUa2c2R09nS2RFbUttWXN0QWQ0WmZuLXp4T3R2NzlhdUl4eUloN0ZWa1RUdzFBbmZlR1hOMVlIcnBSZVhwaEEzc0lURTZuUHI2R0dlM2VodHEzTFdt?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Virtual training series for MSMEs in Africa – facilitating cross-border trade in Africa - United Nations Economic Commission for Africa",
-        "source": "United Nations Economic Commission for Africa",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd01pd3dBNlR5R3B5N3k5NUlFcWRtQ3FEekdUQnpncWxVMk1JQjUtNmxLYkZRTUhCTHJraTdDS3JPZldWZTNzS1ZvY0V2Vnl1YzlJUjNXOTZGRENQT05Vek9CZzZzZ1dSTkV5WkhlRkFqanRTUVh5bUpzTWJUMjF2TlQ2RDZkY3kzclZFdGhaN2NXRkJMX1VWMTdOOG4xQ2N3dVNtSFlkc3FGa2s?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-09-29",
+    "generated_at": "2026-09-30",
     "l1_ref": "买家物流市场"
   }
 }

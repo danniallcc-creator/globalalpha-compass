@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry viral」增速 228%，搜索端「jewelry watches sustainable manufacturing」热度上行，US Amazon BSR Top-49，Sada Elbalad English关注「oha Jewellery and Watches Exhibition...」。",
+    "trend_summary": "手表：海外社媒「watch market alert」增速 250%，搜索端「jewelry watches export opportunity emerging markets」热度上行，UK Amazon BSR Top-46，Sada Elbalad English关注「oha Jewellery and Watches Exhibition...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry viral」增速 228% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch market alert」增速 250% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "watch market alert",
+        "growth": 250.0,
+        "vol": "44K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "jewelry viral",
-        "growth": 227.5,
-        "vol": "493K",
+        "growth": 230.5,
+        "vol": "761K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "jewelry new arrival",
-        "growth": 207.5,
-        "vol": "40K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "watch industry news",
-        "growth": 186.0,
-        "vol": "625K",
+        "platform": "youtube",
+        "kw": "jewelry top 10",
+        "growth": 215.5,
+        "vol": "770K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "jewelry watches sustainable manufacturing",
-        "growth": 61,
+        "kw": "jewelry watches export opportunity emerging markets",
+        "growth": 77,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches market trend 2026",
-        "growth": 54,
+        "growth": 61,
         "hits": 2
       },
       {
@@ -105,25 +105,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 49,
-        "title": "Top jewelry - Premium Edition",
-        "price": "$189.0",
-        "rating": 4.2,
+        "market": "UK",
+        "rank": 46,
+        "title": "Top watch - Smart Edition",
+        "price": "$71.1",
+        "rating": 4.1,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 30,
-        "title": "Top jewelry - Compact Edition",
-        "price": "$206.8",
+        "market": "DE",
+        "rank": 45,
+        "title": "Top watch - Pro Edition",
+        "price": "$99.7",
         "rating": 4.7,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-09-29",
+    "generated_at": "2026-09-30",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }
