@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "表面处理化学品：海外社媒「chemical #trending」增速 254%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
+    "trend_summary": "表面处理化学品：海外社媒「chemical breaking」增速 232%，搜索端「chemical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,38 +50,31 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 表面处理化学品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 表面处理化学品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 表面处理化学品 通关",
-      "海外社媒「chemical #trending」增速 254% 领跑 → 表面处理化学品社媒种草热度爆发"
+      "海外社媒「chemical breaking」增速 232% 领跑 → 表面处理化学品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical #trending",
-        "growth": 253.5,
-        "vol": "285K",
+        "platform": "x",
+        "kw": "chemical breaking",
+        "growth": 232.5,
+        "vol": "176K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "chemical price trend",
+        "growth": 221.0,
+        "vol": "127K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "chemical must try",
-        "growth": 246.5,
-        "vol": "398K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "chemical aesthetic",
-        "growth": 244.0,
-        "vol": "479K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
-        "growth": 154.0,
+        "kw": "chemical tiktok made me buy",
+        "growth": 194.5,
+        "vol": "98K",
         "hits": 0
       },
       {
@@ -89,6 +82,13 @@
         "source": "Google Trends",
         "kw": "chemical market 2026",
         "growth": 139.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 112.0,
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "化学品"
   }
 }

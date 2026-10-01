@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工程建筑机械：海外社媒「construction equipment breaking」增速 254%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，McKinsey & Company关注「Geopolitics and the geometry of global...」。",
+    "trend_summary": "工程建筑机械：海外社媒「construction equipment wholesale supplier」增速 254%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，Atlantic Council关注「Three African economies show how...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 工程建筑机械 出口需通过合规认证",
-      "海外社媒「construction equipment breaking」增速 254% 领跑 → 工程建筑机械社媒种草热度爆发"
+      "海外社媒「construction equipment wholesale supplier」增速 254% 领跑 → 工程建筑机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "construction equipment breaking",
+        "platform": "google",
+        "kw": "construction equipment wholesale supplier",
         "growth": 253.5,
-        "vol": "512K",
+        "vol": "184K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "construction equipment viral hack",
-        "growth": 250.0,
-        "vol": "249K",
+        "kw": "construction equipment #fyp",
+        "growth": 235.5,
+        "vol": "73K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "construction equipment wholesale supplier",
-        "growth": 246.5,
-        "vol": "692K",
+        "platform": "tiktok",
+        "kw": "construction equipment must try",
+        "growth": 234.5,
+        "vol": "766K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "construction equipment wholesale supplier",
-        "growth": 243.5,
+        "growth": 250.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "construction equipment b2b export",
-        "growth": 144.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Geopolitics and the geometry of global trade: September 2026 update - McKinsey & Company",
-        "source": "McKinsey & Company",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JNHpCV0pXQVBEaUNuOFdvMXJDZWxBR0hLWG9CNnRsbEQ4X2w3d3FuWjZEeXJnNUhUd1V0dExiY0JNNjI2RTRfdW5IcXg4aFl6VXcwZG14eUF6YXBzNXdZMWItTUJYT0FudEFzMUtvTnQ1cDhJZURNdmFFQQ?oc=5",
+        "kw": "construction equipment market 2026",
+        "growth": 209.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Three African economies show how China’s slowdown is reshaping trade - Atlantic Council",
         "source": "Atlantic Council",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd1VsQmtSZklOLXVYRTNIbUlnT2hPTzhraVdFVlNzTF9UeDNUUFFBOXRPU1dYX0c4WjdXdWdybGRCQm5UMnVFamptYjdISXpDdVY3ZHgyN3VTSmhYd1ExXzgyZzZaQlowQTRUM2VqbVlpUGt3dW9Rcm1XMHNGUDRObkR3c29oUC15endSaWxmV2NMYlZTQzRjRUQyRUlucFVINEM3d2hSbEFBb1J4QUZvdQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China is beating Germany at its own game of making highly engineered machinery and Europe is struggling to keep up - fortune.com",
+        "source": "fortune.com",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03U1FibmRteUJGekpnSmZoRnI5N1ZBZmNtVExaQVNsZFpOcFJIbEp1aHFhc0xZQ2hkNm9HajdiVlJOcnBJbF9jX29oUkFHbTIzYVZ4Y2x0N2hJSEFpblc3UUh0cjExc2VoNktnWUgydlNtb0tnVDVGem9hU1I?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "工程及建材机械"
   }
 }

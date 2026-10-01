@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家具零配件：海外社媒「furniture #trending」增速 250%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，Maryland Matters关注「How does trade war with Canada hit...」。",
+    "trend_summary": "家具零配件：海外社媒「furniture trending now」增速 251%，搜索端「sofa b2b export」热度上行，US Amazon BSR Top-12，marylandmatters.org关注「How does trade war with Canada hit...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,51 +49,51 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家具零配件 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 家具零配件 出口欧美刚需",
-      "海外社媒「furniture #trending」增速 250% 领跑 → 家具零配件社媒种草热度爆发"
+      "海外社媒「furniture trending now」增速 251% 领跑 → 家具零配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "furniture trending now",
+        "growth": 251.0,
+        "vol": "744K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "furniture #trending",
-        "growth": 249.5,
-        "vol": "621K",
+        "kw": "sofa aesthetic",
+        "growth": 240.0,
+        "vol": "701K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "sofa analyst",
-        "growth": 244.5,
-        "vol": "662K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "furniture review 2026",
-        "growth": 241.5,
-        "vol": "680K",
+        "kw": "furniture breaking",
+        "growth": 234.5,
+        "vol": "645K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "furniture market 2026",
-        "growth": 197.5,
+        "kw": "sofa b2b export",
+        "growth": 212.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "desk wholesale supplier",
-        "growth": 173.5,
+        "growth": 117.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How does trade war with Canada hit Maryland, hon? Pretty hard, eh? - Maryland Matters",
-        "source": "Maryland Matters",
+        "title": "How does trade war with Canada hit Maryland, hon? Pretty hard, eh? - marylandmatters.org",
+        "source": "marylandmatters.org",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdGJvMVJWdGEzeWJQNWxvNUtWUmZNZmJ3eW9oQWl5VUtIMTJlWkpYTVVBNHZXczFtcjFfb1VHSE1sQTNPTC1MeTIxRWFUbDRqV0ZPS2s0V2FlcS1ZSmJIdDVFTUI0bk93cGYxbUUxbXlUTHdGRE1GaGMwY2U1V0d1VHZJTEl4b3dRZXZDTlF4WFJ5NFMyMlRSQ1hDNWNQV3AzcGhHMw?oc=5",
         "hits": 0
       },
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "家具"
   }
 }

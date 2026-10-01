@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "服装加工辅料：海外社媒「fashion market alert」增速 229%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，Fibre2Fashion关注「Global supply shifts open growth window...」。",
+    "trend_summary": "服装加工辅料：海外社媒「apparel review 2026」增速 252%，搜索端「fashion b2b export」热度上行，US Amazon BSR Top-12，glossy.co关注「Fashion Briefing: The Canada-US trade...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 服装加工辅料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 服装加工辅料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 服装加工辅料 通关",
-      "海外社媒「fashion market alert」增速 229% 领跑 → 服装加工辅料社媒种草热度爆发"
+      "海外社媒「apparel review 2026」增速 252% 领跑 → 服装加工辅料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fashion market alert",
-        "growth": 229.0,
-        "vol": "358K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "fashion unboxing",
-        "growth": 228.0,
-        "vol": "446K",
+        "kw": "apparel review 2026",
+        "growth": 252.5,
+        "vol": "8K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fashion new arrival",
-        "growth": 217.5,
-        "vol": "553K",
+        "platform": "google",
+        "kw": "fashion industry report",
+        "growth": 245.5,
+        "vol": "354K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "apparel price trend",
+        "growth": 237.0,
+        "vol": "110K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fashion b2b export",
-        "growth": 162.0,
+        "growth": 174.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "clothing wholesale supplier",
-        "growth": 128.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Global supply shifts open growth window for Indian apparel: Report - Fibre2Fashion",
-        "source": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObzBmbi1WWm9CWVF6ZC00R3VGNloyamVuckFNOGE1UjBrWmRWRk42MWQ4QUhQS1d3cExwVkNzT3lIUGNtOThhbUc5b3NWMnk3LUpkM2o5ZFB6a0JHUjRhSHpCTTExc1M3cnNXdHJEbHpHOUdGaElBTmwzdG1fd1plQmowZTZmdmxrdEFNZlRyZWE5WmYtN1NnODZ2NkUwQlpIOUFqRGtuU1JHc0pFd1ZESDRrbmZDZjFhYzRFb2dzWEFXTjZBSTd6bVlsdFZ5ZkhoSGc?oc=5",
+        "kw": "apparel market 2026",
+        "growth": 138.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Fashion Briefing: The Canada-US trade war is creating a 'less integrated North American fashion market' - glossy.co",
         "source": "glossy.co",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVjlEMjFzbTZNNHU1MkE3M1VrMmdpZHlfQkVUNDNxcl93ZGNEWnZNOUxTb0JkeTBxYUhOekM0QzlvVklEOFg3a0pjd0tpQzMtci1VNTg3ckRjQWVQN2RxYWJfZ0RReHU1NVJKZkFCcGxrLVRxWHhxOHl2UmdaRWo0eWRndDdwT21yWXdaenFCeERnZ003Y3dTeEwzeHpscmpJSnc4RlpVX21oMGRmaXNMVnVYOHAzbERoYUE1bzFhRmxSaUU4VUN0Tlptdw?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Textiles (HS Section: 11) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xa2hXd1pGaWlta24wS0tqTGZyUVRYcHF5X091T1VaR2N1V0ZYSk5hVmtkajhCVm1nSXRoTFB1cTMyXzRsRWJIVjBMM2U1dlUySFE?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "服装及配饰"
   }
 }

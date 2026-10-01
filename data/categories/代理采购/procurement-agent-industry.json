@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 61,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-09-30"
+      "fetched_at": "2026-10-01"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购行业：海外社媒「sourcing #trending」增速 238%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Stocks Tied To Foreign Buying In US...」。",
+    "trend_summary": "代理采购行业：海外社媒「sourcing wholesale supplier」增速 250%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Companies left China to dodge tariffs....」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购行业 出口需通过合规认证",
-      "海外社媒「sourcing #trending」增速 238% 领跑 → 代理采购行业社媒种草热度爆发"
+      "海外社媒「sourcing wholesale supplier」增速 250% 领跑 → 代理采购行业社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sourcing #trending",
-        "growth": 238.5,
-        "vol": "253K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "sourcing must try",
-        "growth": 215.5,
-        "vol": "575K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "google",
-        "kw": "procurement b2b export",
-        "growth": 212.0,
-        "vol": "473K",
+        "kw": "sourcing wholesale supplier",
+        "growth": 249.5,
+        "vol": "621K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "procurement b2b export",
-        "growth": 209.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "sourcing top 10",
+        "growth": 235.5,
+        "vol": "531K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "procurement must have",
+        "growth": 224.0,
+        "vol": "459K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing wholesale supplier",
-        "growth": 159.5,
+        "growth": 246.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "procurement b2b export",
+        "growth": 117.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Companies left China to dodge tariffs. Now some are heading back - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXZhYnM4LUVqMVptczRMSnVLLUp2YVVfRm9kNGh2MnZmWVlYUEtERkowb0xsb2drVG12aTd1SVlPNUFiRW9HQjJRNEhVR1hBWjZKem4xTjBaaVZ2anhqdTRscDYwcVZZUmp5V0FncDRPXzhhQ3BZWjc1ZlkyWXFaM0pDTFM0eUU2S0FYaUhvVzFVeUhyREZJZm85V0IzWTBnaGFFM2ZRam4wY1lkTlVTMnBYV2xVclBuTHJTSGZR?oc=5",
         "hits": 0
       },
       {
@@ -102,13 +109,6 @@
         "title": "3 Stocks Tied To Foreign Buying In US Markets Investors May Be Missing - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlo0a2ZZYWh2Ti15WHAzc2swZHVXTVZuYmxHaTVEVUtORjY2cTNfcnRUZVBFMGxhYWw3aHNDRVBvYzQ2VGE3TnpTMnJ0bHpGTnEzOUFvNnM3bXdkNWh4LVgyZHFmYUpydWUwUXRENktyempqQnJfRUE3aE1KWXhzVE1LRzNaR25LbHFtd0xIVTU5R19hRjJZUA?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Trase brings greater transparency to global coffee supply chains - Stockholm Environment Institute",
-        "source": "Stockholm Environment Institute",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEFGYml5Q0l2U0dGakdaZ2xZOE5iYUtPOEk1QnUwUVhkRlI2LW8zS3cyakh4bGpIekhkS0ZHczh3RUpMNUdubkM1UWxDS3pGR2Z3eTdCbTVqSXpTWmw3RGpweXhSVmk5TzZ2eFVDb3lwbTMxaU8wc1Y3aWpEVE0xS3JlQXRyWTh1aFdZRDNXWQ?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "代理采购"
   }
 }

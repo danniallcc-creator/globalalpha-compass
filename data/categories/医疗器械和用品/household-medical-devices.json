@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家用医疗器械：海外社媒「medical device tiktok made me buy」增速 254%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，The Economic Times关注「Mexico, Brazil, UK see rising medical...」。",
+    "trend_summary": "家用医疗器械：海外社媒「healthcare equipment b2b export」增速 245%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「Mexico, Brazil, UK see rising medical...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 家用医疗器械 出口需通过合规认证",
       "美国 FDA 注册要求 → 家用医疗器械 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 家用医疗器械 全球市场准入",
-      "海外社媒「medical device tiktok made me buy」增速 254% 领跑 → 家用医疗器械社媒种草热度爆发"
+      "海外社媒「healthcare equipment b2b export」增速 245% 领跑 → 家用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "medical device tiktok made me buy",
-        "growth": 253.5,
-        "vol": "241K",
+        "platform": "google",
+        "kw": "healthcare equipment b2b export",
+        "growth": 245.0,
+        "vol": "178K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "medical device breaking",
-        "growth": 242.5,
-        "vol": "753K",
+        "kw": "medical device analyst",
+        "growth": 235.5,
+        "vol": "540K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "medical device tutorial",
-        "growth": 241.5,
-        "vol": "153K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
+        "platform": "google",
         "kw": "medical device market 2026",
-        "growth": 180.5,
+        "growth": 231.5,
+        "vol": "585K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 156.0,
+        "growth": 242.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device market 2026",
+        "growth": 228.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Details on U.S.-China trade negotiations coming Monday, USTR Greer says - cnbc.com",
-        "source": "cnbc.com",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92YUg4RTRCc3prWFk2WUtmZ09pc2lrM3BsRlhhZ2lpYlVuaGVUb0lMMEVOMThLNUlfS2hsWWMzQTFBUk55YmRteTdlYmNqc1RSWkxkUFk5Q2pzN21LZFZ1V1RxdVJrQnY2VlVBYUV1WkrSAXZBVV95cUxPMHo1ZFRqaUFJUXl1Q01HeUNxOUZyTlhVcVZfR2tQM2E3X0k1ZVhZcndEd192WVBLelF3dE1Eb19ZZWlDYkRwVmxSTmhIMG5CM05JSkNEY3FPUE9iTFItMWhMVHB5WFNMLURFSVBUZEp4WmJaaGV3?oc=5",
+        "title": "Impact of COVID-19 On Medical Devices Market Size | Forecast - Fortune Business Insights",
+        "source": "Fortune Business Insights",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVhiVU5uWDlBb1lTaXNGRkFXX0dkSzZZLWdlSnF1WEhmTWJ6cmVsbTRYNFFPdHNZN3VKM2lOaF9nQVZBY01hVWU4N1FQek5aRzJQeG5FZ09nNHJUdy1fSHJieXBUSUdvcTlQUmxLQ05pdEV0LU1RSlh1R3NSMjRxZm50ZGtfeW4tR1BjNHNn?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "医疗器械和用品"
   }
 }

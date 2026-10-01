@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "应急车辆：海外社媒「ev b2b export」增速 251%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EU seeks China curbs on hybrid car...」。",
+    "trend_summary": "应急车辆：海外社媒「electric vehicle viral」增速 254%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EU seeks China curbs on hybrid car...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 应急车辆 出口需通过合规认证",
-      "海外社媒「ev b2b export」增速 251% 领跑 → 应急车辆社媒种草热度爆发"
+      "海外社媒「electric vehicle viral」增速 254% 领跑 → 应急车辆社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ev b2b export",
-        "growth": 251.0,
-        "vol": "356K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "electric vehicle viral",
-        "growth": 250.5,
-        "vol": "266K",
+        "growth": 253.5,
+        "vol": "603K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electric vehicle supply chain",
-        "growth": 238.5,
-        "vol": "266K",
+        "kw": "ev industry news",
+        "growth": 251.0,
+        "vol": "636K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "electric vehicle new arrival",
+        "growth": 246.5,
+        "vol": "49K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 150.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ev b2b export",
-        "growth": 248.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle market 2026",
-        "growth": 211.5,
+        "growth": 112.0,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "EU Asks China to Limit Hybrids to 15% as Exports Hit Records - eletric-vehicles.com",
-        "source": "eletric-vehicles.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVA2Q2s5WXFoMFRENUF3NVYyV1hWTC1RSTE4cXZ5Q2VYNUlleWRaSUVyZVR3Y2d3Zk1PeTQtZ2FkaG11UkdsNUlYUzgyM19Kbm4tdFY5eTdKQmdYbVRTZ3UzMFVKY1FmaFRFU3VfOGhLQmhzWktfT2FnYUphSTlWbW1vWHExS2c5NFVoM0MzSWlralZrdVp4Z0tBMXU4QQ?oc=5",
+        "title": "EU presses China to cap hybrid car exports amid trade tension – report - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkh0VUVwUXl4U0JZV2ppZUUxTmRQWWFEUExVRE1aZkhsZmE4NWNMUWRpVGFFTkJyQjFjMXlzS1ZwWkl1aU1OMTE5YmNjdXFLTkxadUZqNUVKNjNzOTJub0R6VGE4MWNMREJzR3NJbUpFQXktMG5pYldwbVgtR2NEcVVJZF9hSTQxM3hYSHdOS0JCenJSTnFZ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-09-30",
+    "generated_at": "2026-10-01",
     "l1_ref": "整车及交通工具"
   }
 }
