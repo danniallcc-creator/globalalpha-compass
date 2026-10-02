@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "珠宝配件及工具：海外社媒「watch aesthetic」增速 252%，搜索端「jewelry market 2026」热度上行，US Amazon BSR Top-12，Bangkok Post关注「Jewellers call for more trade deals to...」。",
+    "trend_summary": "珠宝配件及工具：海外社媒「watch factory tour」增速 251%，搜索端「jewelry watches sustainable manufacturing」热度上行，US Amazon BSR Top-12，Financial Times关注「Japanese watchmakers push for overseas...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 珠宝配件及工具 出口需通过合规认证",
-      "海外社媒「watch aesthetic」增速 252% 领跑 → 珠宝配件及工具社媒种草热度爆发"
+      "海外社媒「watch factory tour」增速 251% 领跑 → 珠宝配件及工具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "watch aesthetic",
-        "growth": 252.0,
-        "vol": "315K",
+        "platform": "youtube",
+        "kw": "watch factory tour",
+        "growth": 251.0,
+        "vol": "245K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "jewelry market 2026",
-        "growth": 244.5,
-        "vol": "267K",
+        "kw": "watch price trend",
+        "growth": 228.0,
+        "vol": "720K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "jewelry wholesale supplier",
-        "growth": 233.5,
-        "vol": "669K",
+        "platform": "youtube",
+        "kw": "jewelry tutorial",
+        "growth": 222.5,
+        "vol": "365K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "jewelry watches sustainable manufacturing",
+        "growth": 89,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "jewelry market 2026",
-        "growth": 241.5,
+        "growth": 86.5,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "jewelry wholesale supplier",
-        "growth": 230.5,
+        "dim": "媒体",
+        "title": "Japanese watchmakers push for overseas growth - Financial Times",
+        "source": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzOXdwNDdDRURmcTM4bS1yaG95NnNLbHQ0bFBMbUdCSFdsYWdROUoxNFFTNHRjQjVVZXBhVzZPRXcxblFIaGVPeDNIRUpUMkF4QV82RFRZVHpGQkkyUkNtcGtlTGNMSFp3V3ZWcUdUQVA?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Jewellers call for more trade deals to boost Thai exports - Bangkok Post",
         "source": "Bangkok Post",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmFScWd6TU1tZXlqLVlReWZ1bkxxX3N0Nzlic0RoUXg0OXYyNUJaWU1rQnZiMjlFckpzNGpJcVdNcy1FajRGcU1hLUYyazlQaTN1cVpQMUFrSzlIVlJQMFBDbVJyTzRFbkRWT2JXT0pkdjdFTjZtQkYtT3Y3a0tuSVVLWHhPc1lOemJpNktMaUM2SlNpNG1vTVRkNktJVXRNOFV0dGtoZUJhTU5GV0RJ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "India faces 100% tariff threat over Russian oil after US House vote - BBC",
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoVV9BNjBYTTRFMFg1V01KazlncmxrX0hkSmM3UXNCbHR0SlowdU9ST2VaRVNvT3J0MFIwc0c0ZUxGM3NLV1A2ZEZwVVFDd1JaZDI3dHlqQzRwdFk?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-10-01",
+    "generated_at": "2026-10-02",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

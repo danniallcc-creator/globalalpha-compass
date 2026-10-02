@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电工仪表：海外社媒「electrical #fyp」增速 256%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
+    "trend_summary": "电工仪表：海外社媒「electrical tiktok made me buy」增速 236%，搜索端「electrical equipment digital transformation」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
     "product_profile": {
       "外观": "手持便携 / 台式精密 / IP67 工业级",
       "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 电工仪表 成主流",
       "欧盟 CE 标志强制准入 → 电工仪表 出口需通过合规认证",
-      "海外社媒「electrical #fyp」增速 256% 领跑 → 电工仪表社媒种草热度爆发"
+      "海外社媒「electrical tiktok made me buy」增速 236% 领跑 → 电工仪表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
+        "kw": "electrical tiktok made me buy",
+        "growth": 236.5,
+        "vol": "636K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
         "kw": "electrical #fyp",
-        "growth": 256.5,
-        "vol": "202K",
+        "growth": 226.5,
+        "vol": "483K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical supply chain",
-        "growth": 222.5,
-        "vol": "599K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electrical market alert",
-        "growth": 206.0,
-        "vol": "612K",
+        "platform": "instagram",
+        "kw": "electrical must have",
+        "growth": 226.0,
+        "vol": "195K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical market 2026",
-        "growth": 102.5,
+        "source": "Linkedin",
+        "kw": "electrical equipment digital transformation",
+        "growth": 90,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical wholesale supplier",
-        "growth": 93.5,
+        "source": "Linkedin",
+        "kw": "electrical equipment sustainable manufacturing",
+        "growth": 81,
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "instruments",
-    "generated_at": "2026-10-01",
+    "generated_at": "2026-10-02",
     "l1_ref": "电气设备及用品"
   }
 }

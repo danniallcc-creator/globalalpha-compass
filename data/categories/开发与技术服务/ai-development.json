@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "AI开发：海外社媒「tech service supply chain」增速 236%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，UN Trade and Development (UNCTAD)关注「Digital services exports are growing...」。",
+    "trend_summary": "AI开发：海外社媒「software outsourcing unboxing」增速 255%，搜索端「tech service wholesale supplier」热度上行，US Amazon BSR Top-12，Axios关注「Scoop: Anthropic breaks from major tech...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → AI开发 出口需通过合规认证",
-      "海外社媒「tech service supply chain」增速 236% 领跑 → AI开发社媒种草热度爆发"
+      "海外社媒「software outsourcing unboxing」增速 255% 领跑 → AI开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "tech service supply chain",
-        "growth": 236.5,
-        "vol": "31K",
+        "platform": "youtube",
+        "kw": "software outsourcing unboxing",
+        "growth": 255.0,
+        "vol": "760K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "tech service must try",
-        "growth": 228.5,
-        "vol": "450K",
+        "platform": "google",
+        "kw": "tech service wholesale supplier",
+        "growth": 252.5,
+        "vol": "464K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "tech service analyst",
-        "growth": 226.5,
-        "vol": "440K",
+        "platform": "instagram",
+        "kw": "tech service #trending",
+        "growth": 234.5,
+        "vol": "59K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "tech service wholesale supplier",
-        "growth": 220.5,
+        "growth": 249.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "software outsourcing b2b export",
-        "growth": 205.0,
+        "kw": "tech service market 2026",
+        "growth": 178.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Scoop: Anthropic breaks from major tech group over chips - Axios",
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wQXJjM3prLW5SV3pEUVJlS1lzZzlKbTFtNngzUUJSU0ZvR08xODFXMVlGSTNwNG5HdXN6WGpLMWt1VkdBaHowTUo1bEluQ0QyeUNmLXZTcFNFQjkxSFkzbTBRN01VWk11c1FQWGxaQWc3aWUy?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Digital services exports are growing fast. Least developed countries are not keeping pace - UN Trade and Development (UNCTAD)",
         "source": "UN Trade and Development (UNCTAD)",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdk1pWFVab3dRRTVEaXM2a2JQUmYwYUU4b0hYY3NaTVVDNXNGTUY4NlZ2NmFfamE3NWxRUlhLR21mU3Utb3pmTE9LcTZmd1YtSkx2c244Z2d0Q2UzQV82Q2NLUUo2ZkMwdFhHU25GcXFBQ214WmZjN2MyMHdOc3NlV3VDeWowY1dfcWhRWGxfc3Aza0h6WU83bWdaU3RIQThTOEQ4b3ZHdzRhN1Z3OFJPVmZn?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China services trade fair showcases innovation, promotes openness - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenBLUXAxZkU1UmZGS0t1S2hNYVBfcVJxalBnX0ZybkFhU0xROUpLN3pPRWk5WkdOTDg4MWllX2RoOHNOVUh1a2JQbGlJWE82eE4yVHVnVW85Y19lSC1va0NrVXRjX3JINTFOQ3N2bk5IZ1VBdlZYSFV1MTdnc2Vmd1R4VlBsTHdlWUJ6Z2QyYVRPU291RlN1MjhGMVZoSkRqY1E?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-10-01",
+    "generated_at": "2026-10-02",
     "l1_ref": "开发与技术服务"
   }
 }

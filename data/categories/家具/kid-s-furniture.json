@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "婴童家具：海外社媒「furniture trending now」增速 251%，搜索端「sofa b2b export」热度上行，US Amazon BSR Top-12，marylandmatters.org关注「How does trade war with Canada hit...」。",
+    "trend_summary": "婴童家具：海外社媒「furniture market 2026」增速 246%，搜索端「furniture market 2026」热度上行，US Amazon BSR Top-12，CNS Maryland关注「How Maryland is caught up in the trade...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 婴童家具 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 婴童家具 出口欧美刚需",
-      "海外社媒「furniture trending now」增速 251% 领跑 → 婴童家具社媒种草热度爆发"
+      "海外社媒「furniture market 2026」增速 246% 领跑 → 婴童家具社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "furniture trending now",
-        "growth": 251.0,
-        "vol": "744K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sofa aesthetic",
-        "growth": 240.0,
-        "vol": "701K",
+        "platform": "google",
+        "kw": "furniture market 2026",
+        "growth": 246.5,
+        "vol": "269K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "furniture breaking",
-        "growth": 234.5,
-        "vol": "645K",
+        "kw": "furniture industry news",
+        "growth": 242.0,
+        "vol": "361K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "desk tiktok made me buy",
+        "growth": 241.5,
+        "vol": "109K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sofa b2b export",
-        "growth": 212.0,
+        "kw": "furniture market 2026",
+        "growth": 243.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "desk wholesale supplier",
-        "growth": 117.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "How does trade war with Canada hit Maryland, hon? Pretty hard, eh? - marylandmatters.org",
-        "source": "marylandmatters.org",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdGJvMVJWdGEzeWJQNWxvNUtWUmZNZmJ3eW9oQWl5VUtIMTJlWkpYTVVBNHZXczFtcjFfb1VHSE1sQTNPTC1MeTIxRWFUbDRqV0ZPS2s0V2FlcS1ZSmJIdDVFTUI0bk93cGYxbUUxbXlUTHdGRE1GaGMwY2U1V0d1VHZJTEl4b3dRZXZDTlF4WFJ5NFMyMlRSQ1hDNWNQV3AzcGhHMw?oc=5",
+        "growth": 99.5,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "How Maryland is caught up in the trade war with Canada - CNS Maryland",
         "source": "CNS Maryland",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXhOVXdmOUl2aFZnZE95cWJYTjY0eDNWYndrZEdCc2l4djI3Qm80NjM4bm1RMDQwalBoWGtfblVfWFdzZmRlQ29xcjEyYTc1RUtpVHljUmJCXzU4ck9FdDNuQ09RdWhzd0tpR3ZLTnFTUlAxZjBSSW9FWXFFN2R3SUlZUXg3eUJLS0NKeGtYUDBXZW1O?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Other Furniture (HS: 9403) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNdGVRZFdEMXNiVDZ3TzBiSE04NnN1YkJkaGNCd2drUzRSSlM3TVVnelU3eURYaEd5QTZteGV2NEI3TDVfNnd0WEFXZ19ERFZQNF9Kb1ZkU3Q3eU0?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-10-01",
+    "generated_at": "2026-10-02",
     "l1_ref": "家具"
   }
 }
