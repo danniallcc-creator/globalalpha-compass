@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "乳制品：海外社媒「snack tutorial」增速 240%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，The Cattle Site关注「Canada's food and beverage sector faces...」。",
+    "trend_summary": "乳制品：海外社媒「beverage b2b export」增速 254%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Simply Wall Street关注「3 Food Trade Stocks Worth Watching As...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 乳制品 出口需通过合规认证",
       "美国 FDA 注册要求 → 乳制品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 乳制品 北美本地化制造红利",
-      "海外社媒「snack tutorial」增速 240% 领跑 → 乳制品社媒种草热度爆发"
+      "海外社媒「beverage b2b export」增速 254% 领跑 → 乳制品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "snack tutorial",
-        "growth": 240.5,
-        "vol": "221K",
+        "platform": "google",
+        "kw": "beverage b2b export",
+        "growth": 254.0,
+        "vol": "309K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "beverage industry report",
-        "growth": 239.5,
-        "vol": "632K",
+        "growth": 247.5,
+        "vol": "754K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "snack supply chain",
-        "growth": 239.5,
-        "vol": "86K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 175.5,
+        "platform": "tiktok",
+        "kw": "beverage must try",
+        "growth": 247.5,
+        "vol": "320K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 166.0,
+        "growth": 251.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "snack wholesale supplier",
+        "growth": 116.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "3 Food Trade Stocks Worth Watching As Export Rules Tighten - Simply Wall Street",
+        "source": "Simply Wall Street",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYXlCZnM1MWxvUEUtWGJsY1NlZTdzRnI5NXhBM25HdjUtaVNsUnJ3Z3VLS210WnJkZXlIYjhmRXpBRHJZRXpoSEM0czJJcjd5bldQN2dzT2lOUGt5X0gwV05mZkVLd0VLdklXLWZ6VjBtc1E1WENKVzV6aW9RYWEzVkU0S21zQ1RDbi1qWDI5RmVmbmZTcVl6bzR3dXo5d0FTZE5DUXNYRlRjNHNiMjN1bVJZWm9HWW5vbS1yd1lubThyd2_SAcMBQVVfeXFMT2F5QmZzNTFsb1BFLVhibGNTZWU3c0ZyOTV4QTNuR3Y1LWlTbFJyd2d1S0ttdFpyZGV5SGI4ZkV6QURyWUV6aEhDNHMySXI3eW5XUDdnc09pTlBreV9IMFdOZmZFS3dFS3ZJVy1melYwbXNRNVhDSlc1emlvUWFhM1ZFNEttc0NUQ24talgyOUZlZm5mU3FZem80d3V6OXdBU2ROQ1FzWEZUYzRzYjIzdW1SWVpvR1lub20tcndZbm04cndv?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Canada's food and beverage sector faces margin pressure - The Cattle Site",
         "source": "The Cattle Site",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUppWll6dTN2azBaZzJxRkkzTkVOVkg3SWFhQUZCbi1YeDIzdnQ0YUdZcUNwYTVGYUEzZWkydF9aMXpBVFV1UW1TOTQ3S2kya2JwUlFtVGg3ckVQRVNieVR4SlFnR3JuZ045Ync1TGdWNHl0aURDa1NHcVhVT3lubTYwRkV1ZjZUM3dJSG9HaE1MR1k?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Exporting Wine to China in 2026: Market Access and Strategies for European Producers - China Briefing",
-        "source": "China Briefing",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczdVVWhQRzFCcWtmVWlVLThkUWtzMTF1T0p1Q0hHbFpIakxpZG1FRkdJT3FDV1dPenNCbzhLOEdpWVZEdkJINHpQUHRwT251Y2RNMm1qRHFjOVJObDlaeW15cU5iaWlEQ3c1Rk9PbWVuVTkwVTNXdUdBeUdYQTlfTkh1cWhxa0RtLVF1NGFiWHQ1UQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-10-02",
+    "generated_at": "2026-10-03",
     "l1_ref": "食品及饮料"
   }
 }

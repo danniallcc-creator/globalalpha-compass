@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "07",
-    "total_export_value_usd": 50038549,
-    "total_net_weight_kg": 9538549,
+    "total_export_value_usd": 22459158,
+    "total_net_weight_kg": 1959158,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-10-02"
+    "fetched_at": "2026-10-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 84,
-      "trend_direction": "down",
+      "interest_score": 98,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-02"
+      "fetched_at": "2026-10-03"
     }
   },
   "industry_analysis": {
@@ -52,27 +52,32 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-03",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 14036341513.0,
+      "total_usd": 14334654541.0,
       "total_kg": 0,
       "yoy_growth": null,
-      "period": "2025",
+      "period": "2024 (proxy)",
       "source": "UN Comtrade",
-      "data_quality": "complete"
+      "data_quality": "estimated"
     },
     "imports_from_china": {
-      "DE": {
-        "value_usd": 1673382021.835,
+      "GB": {
+        "value_usd": 180774130.55699998,
         "yoy": null,
-        "share": 73.0
+        "share": 60.8
       },
-      "KR": {
-        "value_usd": 617487154.0,
+      "SA": {
+        "value_usd": 80030843.4,
         "yoy": null,
-        "share": 27.0
+        "share": 26.9
+      },
+      "MX": {
+        "value_usd": 36583075.0,
+        "yoy": null,
+        "share": 12.3
       }
     }
   }

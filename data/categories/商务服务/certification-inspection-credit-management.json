@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service viral」增速 252%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，russia's pivot to asia关注「Growing Russia-Hong Kong Economic...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service review 2026」增速 256%，搜索端「business service wholesale supplier」热度上行，US Amazon BSR Top-12，UA News Center关注「From Alabama to the world: UA helps...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service viral」增速 252% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service review 2026」增速 256% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "business service viral",
-        "growth": 252.5,
-        "vol": "652K",
+        "platform": "youtube",
+        "kw": "business service review 2026",
+        "growth": 255.5,
+        "vol": "364K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "business service tutorial",
+        "growth": 236.5,
+        "vol": "685K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "business service industry report",
-        "growth": 245.5,
-        "vol": "258K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "business service must have",
-        "growth": 236.0,
-        "vol": "78K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "business service b2b export",
-        "growth": 194.0,
+        "kw": "business service price trend",
+        "growth": 235.0,
+        "vol": "115K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 150.5,
+        "growth": 129.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Growing Russia-Hong Kong Economic Relations: From Trade & Investment to a Greater Bay Area Business Gateway - russia's pivot to asia",
-        "source": "russia's pivot to asia",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDJKcVdCOHFzbWxfTjNxdFQ1ckJONWFvWmxHd2dFR0RPeUFBS0RrdVFablY3ZG55VnMxdl8ybXdvVWx4VFZFX3pOTDlkdUQwQUlpSk9DaHF5X2N0bzRDMVh2QU5sb2tzd3BXTmRVUFhPWXZZYllyLUFXRDc5TnVFakhxREcwRnE5VU9TNWZjUjVNeXVDV01ldlVJTHhhanJfdU9sWVpUTEFQa3QtV3l3QTVCeWZiNHlQZUhDNXNrMXgwRVQ3cXV1amlZa1ZzR09SLUE?oc=5",
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "business services export opportunity emerging markets",
+        "growth": 92,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "From Alabama to the world: UA helps businesses grow through exporting - UA News Center",
         "source": "UA News Center",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDFNUEFvbWFKRDg5RTJmMVNKc3NUX2RRQlYxaDNXSWQ0cjVxY0dveHAzcmhLUG1rZTFJbnI3V2JEclNoWENjNlFpYUgyLXdkcncwd0l1RGV3RTNaNHRPYlhER1lza1psYUJHbHJFOHNGV0dUMkhVdDBaV2N0THR2aFBlbUJLaGVK?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "What’s happening this week in economics? - Deloitte",
+        "source": "Deloitte",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-02",
+    "generated_at": "2026-10-03",
     "l1_ref": "商务服务"
   }
 }

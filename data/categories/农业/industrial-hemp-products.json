@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "53",
-    "total_export_value_usd": 34295259,
-    "total_net_weight_kg": 13795259,
+    "total_export_value_usd": 44027175,
+    "total_net_weight_kg": 13527175,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-10-02"
+    "fetched_at": "2026-10-03"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 75,
-      "trend_direction": "down",
+      "interest_score": 59,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-02"
+      "fetched_at": "2026-10-03"
     }
   },
   "industry_analysis": {
@@ -52,47 +52,15 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-03",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": {
-      "total_usd": 3231650567.0,
-      "total_kg": 0,
-      "yoy_growth": null,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "complete"
-    },
+    "china_export": null,
     "imports_from_china": {
       "DE": {
-        "value_usd": 61695342.80400001,
+        "value_usd": 7711917.851,
         "yoy": null,
-        "share": 16.0
-      },
-      "JP": {
-        "value_usd": 37665432.903000005,
-        "yoy": null,
-        "share": 9.8
-      },
-      "KR": {
-        "value_usd": 36120001.0,
-        "yoy": null,
-        "share": 9.4
-      },
-      "BR": {
-        "value_usd": 112422416.0,
-        "yoy": null,
-        "share": 29.2
-      },
-      "IT": {
-        "value_usd": 112948926.95699999,
-        "yoy": null,
-        "share": 29.3
-      },
-      "MX": {
-        "value_usd": 24546048.0,
-        "yoy": null,
-        "share": 6.4
+        "share": 100.0
       }
     }
   }

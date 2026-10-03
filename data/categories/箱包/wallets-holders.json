@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "钱包和卡包：海外社媒「backpack viral hack」增速 250%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
+    "trend_summary": "钱包和卡包：海外社媒「luggage review 2026」增速 234%，搜索端「luggage market 2026」热度上行，US Amazon BSR Top-12，forbes.com关注「The Best Luggage We’ve Tested On Trips...」。",
     "product_profile": {
       "外观": "极简通勤风 / 多功能模块化 / 可折叠",
       "成分": "RPET 再生面料 / 素皮（苹果皮/仙人掌皮）/ 弹道尼龙",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 钱包和卡包 供应链合规升级",
       "欧盟 CE 标志强制准入 → 钱包和卡包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 钱包和卡包 通关",
-      "海外社媒「backpack viral hack」增速 250% 领跑 → 钱包和卡包社媒种草热度爆发"
+      "海外社媒「luggage review 2026」增速 234% 领跑 → 钱包和卡包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "backpack viral hack",
-        "growth": 250.0,
-        "vol": "306K",
+        "platform": "youtube",
+        "kw": "luggage review 2026",
+        "growth": 233.5,
+        "vol": "218K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "luggage price trend",
-        "growth": 217.0,
-        "vol": "95K",
+        "platform": "youtube",
+        "kw": "backpack top 10",
+        "growth": 228.5,
+        "vol": "309K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "bag viral",
-        "growth": 192.5,
-        "vol": "538K",
+        "platform": "x",
+        "kw": "backpack market alert",
+        "growth": 222.0,
+        "vol": "268K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "luggage market 2026",
-        "growth": 146.5,
+        "growth": 149.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "backpack b2b export",
-        "growth": 104.0,
+        "kw": "bag wholesale supplier",
+        "growth": 144.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The Best Luggage We’ve Tested On Trips Around The World - forbes.com",
+        "source": "forbes.com",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeXJZNlVsNUFEd19BT1B2QkZya0sxNkY1Z1ppLVYxWnZJN3ItN3hzQmlTUGRvby1EaU5jWnZwZWZwOV96SGh5VFZHRlplcFJ3UGZmTUtZZU9ZYjB1X1U4ZW5mV280am1hM1E?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "EXCLUSIVE: EU countries to seek import curbs on chemicals, plastics, sources say - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Reusable Shopping Bag Market Size, Share | Growth [2034] - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbnhCOC1ZQ2prUzd6VENYODcyWEZucGMzUHVJYXRFOWFTaEVER3hzU2VGaUs0NjEyc3M0SEV6UjN3WnVqV3hBSGVxS1Z6WW1ia1BaczVUcGxCQzZLU3l0bTA2YURGU2VVcy1QYUdTRUE1cF9WaWZNdy1fcUVwUk16dQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "bags_luggage",
-    "generated_at": "2026-10-02",
+    "generated_at": "2026-10-03",
     "l1_ref": "箱包"
   }
 }

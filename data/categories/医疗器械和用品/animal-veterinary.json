@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "兽用医疗产品：海外社媒「medical device new arrival」增速 240%，搜索端「medical device wholesale supplier」热度上行，US Amazon BSR Top-12，The Economic Times关注「Mexico, Brazil, UK see rising medical...」。",
+    "trend_summary": "兽用医疗产品：海外社媒「medical device top 10」增速 240%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，The Economic Times关注「Mexico, Brazil, UK see rising medical...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 兽用医疗产品 出口需通过合规认证",
       "美国 FDA 注册要求 → 兽用医疗产品 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 兽用医疗产品 全球市场准入",
-      "海外社媒「medical device new arrival」增速 240% 领跑 → 兽用医疗产品社媒种草热度爆发"
+      "海外社媒「medical device top 10」增速 240% 领跑 → 兽用医疗产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "medical device new arrival",
-        "growth": 240.5,
-        "vol": "238K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "healthcare equipment unboxing",
-        "growth": 231.0,
-        "vol": "244K",
+        "kw": "medical device top 10",
+        "growth": 239.5,
+        "vol": "311K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "medical device viral",
-        "growth": 221.5,
-        "vol": "662K",
+        "platform": "x",
+        "kw": "healthcare equipment industry news",
+        "growth": 228.0,
+        "vol": "358K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "medical device wholesale supplier",
-        "growth": 110.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "medical device supply chain",
+        "growth": 209.5,
+        "vol": "455K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 109.0,
+        "growth": 193.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device wholesale supplier",
+        "growth": 157.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Impact of COVID-19 On Medical Devices Market Size | Forecast - Fortune Business Insights",
-        "source": "Fortune Business Insights",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVhiVU5uWDlBb1lTaXNGRkFXX0dkSzZZLWdlSnF1WEhmTWJ6cmVsbTRYNFFPdHNZN3VKM2lOaF9nQVZBY01hVWU4N1FQek5aRzJQeG5FZ09nNHJUdy1fSHJieXBUSUdvcTlQUmxLQ05pdEV0LU1RSlh1R3NSMjRxZm50ZGtfeW4tR1BjNHNn?oc=5",
+        "title": "China, US pledge tariff cuts on $60 billion of goods including agriculture, toys, toasters - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaTBqVzRGcGNNZ2M5YWVLbUQxanlOVWhxYU5lWjNuYzJSWmtHV2lQTWdSUXlpTGM3M1UzU2JUckNLUGxIc3dFVWx5WlExNnotSmtQblE4UnM0Sk1OVnQycjVkR0ozUlpzMW5MMExHNll4NDR2dXpfWTNCMVpQT0docjI1SHFDeFdwYnZGVlVocXhzTy10WWViRk54VklyNzNiRFczXy04aURCdVdmSEdNbjNrRHpXNXM5LWRCZzJQajZVMVBx?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-10-02",
+    "generated_at": "2026-10-03",
     "l1_ref": "医疗器械和用品"
   }
 }

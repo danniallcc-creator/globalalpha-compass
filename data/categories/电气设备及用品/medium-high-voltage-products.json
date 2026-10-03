@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "中高压配电产品：海外社媒「electrical tiktok made me buy」增速 236%，搜索端「electrical equipment digital transformation」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
+    "trend_summary": "中高压配电产品：海外社媒「electrical market alert」增速 248%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EU wants initial Chinese action on...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 中高压配电产品 成主流",
       "欧盟 CE 标志强制准入 → 中高压配电产品 出口需通过合规认证",
-      "海外社媒「electrical tiktok made me buy」增速 236% 领跑 → 中高压配电产品社媒种草热度爆发"
+      "海外社媒「electrical market alert」增速 248% 领跑 → 中高压配电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electrical market alert",
+        "growth": 248.0,
+        "vol": "283K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "electrical tutorial",
+        "growth": 247.5,
+        "vol": "649K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "electrical tiktok made me buy",
-        "growth": 236.5,
-        "vol": "636K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical #fyp",
-        "growth": 226.5,
-        "vol": "483K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "electrical must have",
-        "growth": 226.0,
-        "vol": "195K",
+        "growth": 219.5,
+        "vol": "30K",
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electrical equipment digital transformation",
-        "growth": 90,
+        "source": "Google Trends",
+        "kw": "electrical wholesale supplier",
+        "growth": 170.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "electrical equipment sustainable manufacturing",
-        "growth": 81,
+        "source": "Google Trends",
+        "kw": "electrical b2b export",
+        "growth": 128.0,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Who Loses from China’s Export Gains? - Rhodium Group",
-        "source": "Rhodium Group",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81UU5iYmx5Y2h0Um9tQU1WMnlTdGNkY1ZvRU9za0pPak1mbmlkMnl4TlZUT0M2QVdPakpsRkZRZ1R0UlpQYXlXcXZXWEY5VVBjanhib3VILVAxU1lFS3dCOVp3aGlDOVk5Umh2QQ?oc=5",
+        "title": "3 Export Stocks With Trade Tailwinds Investors Should Watch Now - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOckpqdnlvcnNEYkhzT203V1R2aVJDaDdxdUdPd3VhaGY4emFGbEdwejNzWlljT2d5SXdzSTh0RC02YmZabDBUTFZkNUF5VXlXNkZuUnUzN3N2VUd3MjAzcUxDOWxTTS1SRFNFSU5OTkg2d1Rxb05DbVdHYUtpYjlCazdfWVRjdEFOaFhYeTM0OHNxdGtJY3BPR2RpY1Q?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-10-02",
+    "generated_at": "2026-10-03",
     "l1_ref": "电气设备及用品"
   }
 }
