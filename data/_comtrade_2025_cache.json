@@ -55,44 +55,24 @@
         "data_quality": "complete"
       },
       "imports_from_china": {
-        "US": {
-          "value_usd": 1667357613.0,
+        "GB": {
+          "value_usd": 421999895.14199996,
           "yoy": null,
-          "share": 33.1
-        },
-        "JP": {
-          "value_usd": 1683303551.453,
-          "yoy": null,
-          "share": 33.5
-        },
-        "KR": {
-          "value_usd": 769804434.0,
-          "yoy": null,
-          "share": 15.3
-        },
-        "BR": {
-          "value_usd": 217194518.0,
-          "yoy": null,
-          "share": 4.3
+          "share": 61.4
         },
         "SA": {
-          "value_usd": 131362471.24299999,
+          "value_usd": 118345300.67999999,
           "yoy": null,
-          "share": 2.6
-        },
-        "IT": {
-          "value_usd": 267330441.736,
-          "yoy": null,
-          "share": 5.3
+          "share": 17.2
         },
         "MX": {
-          "value_usd": 294081804.0,
+          "value_usd": 147040902.0,
           "yoy": null,
-          "share": 5.8
+          "share": 21.4
         }
       }
     },
-    "fetched_at": "2026-09-26"
+    "fetched_at": "2026-10-04"
   },
   "2025_HS96": {
     "data": {
@@ -680,39 +660,24 @@
         "data_quality": "complete"
       },
       "imports_from_china": {
-        "DE": {
-          "value_usd": 2142522314.2210004,
+        "JP": {
+          "value_usd": 124022942.466,
           "yoy": null,
-          "share": 49.4
-        },
-        "GB": {
-          "value_usd": 696202147.2980006,
-          "yoy": null,
-          "share": 16.1
-        },
-        "KR": {
-          "value_usd": 54991798.0,
-          "yoy": null,
-          "share": 1.3
+          "share": 40.4
         },
         "BR": {
-          "value_usd": 41983094.0,
+          "value_usd": 20991547.0,
           "yoy": null,
-          "share": 1.0
+          "share": 6.8
         },
         "CA": {
-          "value_usd": 1295643874.6440015,
+          "value_usd": 161961662.862,
           "yoy": 30.4,
-          "share": 29.9
-        },
-        "MX": {
-          "value_usd": 103673820.0,
-          "yoy": null,
-          "share": 2.4
+          "share": 52.8
         }
       }
     },
-    "fetched_at": "2026-09-25"
+    "fetched_at": "2026-10-04"
   },
   "2025_HS05": {
     "data": {
@@ -747,47 +712,32 @@
   "2025_HS44": {
     "data": {
       "china_export": {
-        "total_usd": 32298957000.0,
+        "total_usd": 34575948757.0,
         "total_kg": 0,
         "yoy_growth": null,
-        "period": "2025",
+        "period": "2024 (proxy)",
         "source": "UN Comtrade",
-        "data_quality": "complete"
+        "data_quality": "estimated"
       },
       "imports_from_china": {
-        "US": {
-          "value_usd": 3223483597.0,
-          "yoy": null,
-          "share": 21.7
-        },
         "GB": {
-          "value_usd": 8140214429.490003,
+          "value_usd": 1017526803.684,
           "yoy": null,
-          "share": 54.7
-        },
-        "AU": {
-          "value_usd": 1905099320.1499999,
-          "yoy": null,
-          "share": 12.8
+          "share": 53.0
         },
         "SA": {
           "value_usd": 494413049.647,
           "yoy": null,
-          "share": 3.3
-        },
-        "IT": {
-          "value_usd": 298129850.299,
-          "yoy": null,
-          "share": 2.0
+          "share": 25.7
         },
         "MX": {
-          "value_usd": 818557254.0,
+          "value_usd": 409278627.0,
           "yoy": null,
-          "share": 5.5
+          "share": 21.3
         }
       }
     },
-    "fetched_at": "2026-09-25"
+    "fetched_at": "2026-10-04"
   },
   "2025_HS10": {
     "data": {
@@ -799,9 +749,15 @@
         "source": "UN Comtrade",
         "data_quality": "complete"
       },
-      "imports_from_china": {}
+      "imports_from_china": {
+        "JP": {
+          "value_usd": 87910858.6,
+          "yoy": null,
+          "share": 100.0
+        }
+      }
     },
-    "fetched_at": "2026-09-25"
+    "fetched_at": "2026-10-04"
   },
   "2025_HS06": {
     "data": {

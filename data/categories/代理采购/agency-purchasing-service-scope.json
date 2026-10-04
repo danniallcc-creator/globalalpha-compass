@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 92,
+      "interest_score": 77,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-03"
+      "fetched_at": "2026-10-04"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing market 2026」增速 252%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Stocks Tied To Foreign Buying In US...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「sourcing breaking」增速 252%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，WWD关注「China-US Trade Rebounds Sharply in...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,52 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing market 2026」增速 252% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「sourcing breaking」增速 252% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 251.5,
-        "vol": "745K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "sourcing #trending",
-        "growth": 251.5,
-        "vol": "521K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "sourcing analyst",
-        "growth": 250.5,
-        "vol": "395K",
+        "kw": "sourcing breaking",
+        "growth": 252.5,
+        "vol": "120K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "sourcing must try",
+        "growth": 239.5,
+        "vol": "73K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "sourcing tiktok made me buy",
+        "growth": 223.5,
+        "vol": "768K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 248.5,
+        "kw": "sourcing wholesale supplier",
+        "growth": 214.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "procurement b2b export",
-        "growth": 241.0,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "3 Stocks Tied To Foreign Buying In US Markets Investors May Be Missing - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlo0a2ZZYWh2Ti15WHAzc2swZHVXTVZuYmxHaTVEVUtORjY2cTNfcnRUZVBFMGxhYWw3aHNDRVBvYzQ2VGE3TnpTMnJ0bHpGTnEzOUFvNnM3bXdkNWh4LVgyZHFmYUpydWUwUXRENktyempqQnJfRUE3aE1KWXhzVE1LRzNaR25LbHFtd0xIVTU5R19hRjJZUA?oc=5",
+        "growth": 123.0,
         "hits": 0
       },
       {
@@ -109,6 +102,13 @@
         "title": "China-US Trade Rebounds Sharply in August as Exports Climb for Fifth Straight Month - WWD",
         "source": "WWD",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQWpGLU5aS0hWb0dRekRqVlBjcml3NE5FdDlqX3AyLXZEYnpPc3hCcEFyQ1pWazlEeXplUGpLakRubl9tUHByM0o5dWxpMFFCY2R4V0lOdWZoUm5MTWxGYlBaa1JyLWpkdWpwZHpVeDJMNU1OSTFBQ2I0RWdybS05WTVQdHh3UkFIaTcwbnRla185UmMwV0V0YWlxc1BzdTZRRE5FRGdFbHNEeDMydHgzS2ItQWgyMjN5ZUhySg?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "August 2026 — Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
+        "source": "Centre for Research on Energy and Clean Air",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNXo3OWdzVzY3RlB5LTlZWl9maFp0QV8xRVJGSkEyWDJfVDljZkQ2TjZJaDlSNnJ2ZElZc010N2Z5MTkxVDVVMGY5XzBjWS0ya19oMnZpazc0MWJwMWo2QnlTLXB4WEJfaThsRk9Cblo3NDVKNUhleDJqTHdtQnhtNllKbEp2XzZaekd1OVFmQjlROW83Z0kzbGtHLUhvb29FNzA0MV9xbw?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "代理采购"
   }
 }

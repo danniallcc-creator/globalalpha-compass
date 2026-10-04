@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "运输：海外社媒「forklift breaking」增速 250%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，WSJ关注「Basic Materials Roundup: Market Talk -...」。",
+    "trend_summary": "运输：海外社媒「forklift #trending」增速 244%，搜索端「forklift market 2026」热度上行，US Amazon BSR Top-12，Council on Foreign Relations (CFR)关注「Dismantling China’s Supply-Chain Weapon...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 运输 出口需通过合规认证",
-      "海外社媒「forklift breaking」增速 250% 领跑 → 运输社媒种草热度爆发"
+      "海外社媒「forklift #trending」增速 244% 领跑 → 运输社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "forklift #trending",
+        "growth": 243.5,
+        "vol": "398K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "forklift breaking",
-        "growth": 250.5,
-        "vol": "603K",
+        "growth": 237.5,
+        "vol": "602K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "conveyor viral hack",
-        "growth": 244.0,
-        "vol": "143K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "conveyor trending now",
-        "growth": 234.0,
-        "vol": "733K",
+        "platform": "google",
+        "kw": "forklift market 2026",
+        "growth": 225.5,
+        "vol": "65K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "forklift market 2026",
-        "growth": 223.5,
+        "growth": 222.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "forklift wholesale supplier",
-        "growth": 101.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Basic Materials Roundup: Market Talk - WSJ",
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2WVdBMDhMaFgxOU41WElkeTdpRmdDcUo0TDBlaGZMN0RidXVOWUlOZDhSM1J2UXdHMDZfajQ3bngzVzVSMElEQkZPaDFNYUNnckN3NW9icnVLZTBzaXFiZzVWR202eE1MU2VsLUtGOC1Mak9rWHlXQjYxOUhndw?oc=5",
+        "kw": "conveyor b2b export",
+        "growth": 190.0,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Dismantling China’s Supply-Chain Weapon - Council on Foreign Relations (CFR)",
         "source": "Council on Foreign Relations (CFR)",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hQnhUelltZDhreHQ0bEJ6LXZPSGU5bFJKOWFwS0Z2RngwU0hVRmZONlNJWWE2b0NXUkRrWDA2em9oX2V3MHBfV3B4WW53aUNnbnd2MHZJakdwazM4VTNkSERpZF9LMEdWUzZlV2VmYmItcHpU?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Nonproliferation - Department of Energy (.gov)",
+        "source": "Department of Energy (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wS0h0ZlEzdUhQQVFwVTZqVEJLSk42dVYtN21XSWkxS241VjBNSk1VTVNGUjhCN3RmUjRlOUUtenV5VW1UZm5BU3pmdi1SNXN5VmRJRUtJVQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "物料搬运"
   }
 }

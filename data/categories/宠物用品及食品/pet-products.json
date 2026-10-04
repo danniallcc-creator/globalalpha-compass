@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet wholesale supplier」增速 252%，搜索端「pet products supply chain resilience」热度上行，US Amazon BSR Top-47，indexbox.io关注「Pet Products Market To 2035:...」。",
+    "trend_summary": "宠物用品：海外社媒「pet food unboxing」增速 247%，搜索端「pet products market trend 2026」热度上行，UK Amazon BSR Top-36，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet wholesale supplier」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet food unboxing」增速 247% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet wholesale supplier",
-        "growth": 252.5,
-        "vol": "512K",
+        "platform": "youtube",
+        "kw": "pet food unboxing",
+        "growth": 247.0,
+        "vol": "497K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "pet food must have",
-        "growth": 243.0,
-        "vol": "155K",
+        "kw": "pet new arrival",
+        "growth": 242.5,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet breaking",
-        "growth": 222.5,
-        "vol": "58K",
+        "platform": "instagram",
+        "kw": "pet viral",
+        "growth": 235.5,
+        "vol": "546K",
         "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 80,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products market trend 2026",
-        "growth": 64,
+        "growth": 74,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products sustainable manufacturing",
+        "growth": 59,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Pet Products Market To 2035: Humanization and Premiumization Drive Growth - News and Statistics - indexbox.io",
-        "source": "indexbox.io",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbFhITTlIU2RDcEZXR1BJalBzYzdIYnJHdjdyU3Npc1lTbVQwYnIwUVFaUGVjckFOeWFYVlhUdDdtSlhmei1KR2hvdG9URk5sYTk5LVRLOUVXM1FtOW81QmpZalhLZXBYRVQ0b21fd3l3STJBdDk1NUFPMmlndmZ0UFlKNXRmYXhNTnZyM1RLWFlJRGh3VnVjMjhLRDMxak9NODItOWNKWmhSU3d5SVBORw?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Import Bans Drive Iranian Pet Food Black Market - iranwire.com",
-        "source": "iranwire.com",
+        "title": "Import Bans Drive Iranian Pet Food Black Market - IranWire",
+        "source": "IranWire",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlA5U1AyX1FaZXlLZFlIUFg3RWtWbm9FSlo4a0pWWDFZdWNLTk5FcEMyQlRvbU5TdlJzcW1JX3dCZU1jUUFTYllPeENLMXZtR2gyZWJGSjJETm1pOC11dkpjM3JzVEpmRERheHQ0OWdwcDhNcHNWekRlT1NDenRSZjBsLW9zU0ZfaVdaT3JkNWtyQQ?oc=5",
         "hits": 0
       },
       {
+        "dim": "媒体",
+        "title": "EXCLUSIVE: EU countries to seek import curbs on chemicals, plastics, sources say - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
+        "hits": 0
+      },
+      {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 47,
-        "title": "Top pet food - Heavy-Duty Edition",
-        "price": "$74.5",
+        "market": "UK",
+        "rank": 36,
+        "title": "Top pet food - Smart Edition",
+        "price": "$188.1",
         "rating": 4.4,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 46,
-        "title": "Top pet - Eco Edition",
-        "price": "$189.4",
-        "rating": 3.9,
+        "market": "US",
+        "rank": 31,
+        "title": "Top pet - Premium Edition",
+        "price": "$176.0",
+        "rating": 4.2,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "宠物用品及食品"
   }
 }

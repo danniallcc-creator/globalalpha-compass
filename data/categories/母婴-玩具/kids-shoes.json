@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "童鞋：海外社媒「baby #trending」增速 256%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，Simply Wall Street关注「3 Consumer Export Stocks That Could...」。",
+    "trend_summary": "童鞋：海外社媒「toys unboxing」增速 250%，搜索端「baby market 2026」热度上行，US Amazon BSR Top-12，TVB关注「Import/export sector hopeful for market...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,59 +49,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 童鞋 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 童鞋 采购偏好",
-      "海外社媒「baby #trending」增速 256% 领跑 → 童鞋社媒种草热度爆发"
+      "海外社媒「toys unboxing」增速 250% 领跑 → 童鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "toys unboxing",
+        "growth": 250.0,
+        "vol": "466K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "baby #trending",
-        "growth": 255.5,
-        "vol": "447K",
+        "kw": "toys aesthetic",
+        "growth": 238.0,
+        "vol": "714K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "baby market 2026",
-        "growth": 250.5,
-        "vol": "698K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "baby must have",
-        "growth": 248.0,
-        "vol": "509K",
+        "growth": 205.5,
+        "vol": "688K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "baby market 2026",
-        "growth": 247.5,
+        "growth": 202.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "baby toys market trend 2026",
-        "growth": 72,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "3 Consumer Export Stocks That Could Gain From Sino US Tariff Cuts - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSnhKT2tOQUxNZkxRb0k3RFpLVWw3UG4yclF1ejUxOE5ZdXVJeUM2NmUySmN3TTNTZ2Q5aU8zVkZWYjlCNm04NnRBcERoaW90UUpKd3Axa1kzbndiUlZJRnNIc1dia3NPR0RQWXV3Ni1VaXNNclZnLVlGT1FuQ0xTcjd0NnZ6UGZudWh4eG9GeEFTdjI5RWR6VXpNZnUzN3dkQnJZWHhsekFjNXp2aTExNlhzclY3MjRXWEdsb0dXZEY1NFNyMUxtUERSVDc5eV9zU0tpd2xhLWNTdHNjRDhaZzZoejRKSi0wN2V0LdIB8gFBVV95cUxQMWJkbnFWRWdwWVpPa0pQUG12MzVxYmxFNnZDOVJLWDhJM1hWLWFxQU05djJLLXBrcEN4SG1vU0swTll6Nlg3bGdPcDBVWEc4V3ktMWxUOURzc09sZ0NxeWtQTTlOVHY5cS1ZcUtIZlp6R1JfeTNka2tVeTNDajVkbVl3UllMbFB1bHlZNDZhaUxIcnNPQ2lsNHlWT0FETjZ2Qjd1aDJYUGN0ZG9vTjNIVmFTSkNTT0RYaG5Ud3AxMndaXzNZaVJYTWo5T3NPUFNDTW9QNkRoRmRyOWwzaVFZcmFjVElTQl9TZk44WUJKUzN2UQ?oc=5",
+        "source": "Google Trends",
+        "kw": "infant wholesale supplier",
+        "growth": 147.5,
         "hits": 0
       },
       {
         "dim": "媒体",
         "title": "Import/export sector hopeful for market after Sino-US trade talks - TVB",
         "source": "TVB",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYjJFeUlNTnI3ZENkdVVTa2Q5SE9zVUd2NllUbUN5NlZlUm5PeVZJaWlhMjNUQzBNQkV3SVNiams0c2tyYTJxQVlBak85YmdFWW90UFVqelB2UEFTTEZOeWMtLWppSEpSaHJ1YUZ3UjcyS3kwcU4tZHFfRGJjV0RJT29zWVEyYWE5R09iNVhWWlQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWloxVU1sRjZwRlp5SDlXNUdtcVBWLWZOaVI5SEl1Z1JtQUlYeERESHpfTjN6TThNdG9Ib2FHYjViTXhjaXBnYjF2bVlyZGQ0R2JCU0RnS3ZLS3RvS0M4VThlZi1qVm9QM1pyRkRXSi1mNVMwZXpkMUhXUVFET0hoQlJ4SW9JM19ETVhwTlNHUW4?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +117,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "母婴&玩具"
   }
 }

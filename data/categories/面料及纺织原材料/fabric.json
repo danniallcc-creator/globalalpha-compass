@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric aesthetic」增速 237%，搜索端「textile fabric export opportunity emerging markets」热度上行，UK Amazon BSR Top-29，The Observatory of Economic Complexity关注「Coated Textile Fabric (HS: 5907)...」。",
+    "trend_summary": "面料：海外社媒「fabric trending now」增速 235%，搜索端「fabric b2b export」热度上行，JP Amazon BSR Top-34，IndexBox关注「Greige Fabrics Market Outlook to 2035 -...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,82 +50,82 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric aesthetic」增速 237% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric trending now」增速 235% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "fabric trending now",
+        "growth": 235.0,
+        "vol": "383K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "fabric aesthetic",
-        "growth": 237.0,
-        "vol": "670K",
+        "growth": 207.0,
+        "vol": "371K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 222.0,
-        "vol": "572K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "fabric factory tour",
-        "growth": 191.0,
-        "vol": "469K",
+        "platform": "google",
+        "kw": "fabric b2b export",
+        "growth": 187.0,
+        "vol": "88K",
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "textile fabric export opportunity emerging markets",
-        "growth": 50,
+        "source": "Google Trends",
+        "kw": "fabric b2b export",
+        "growth": 184.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "textile fabric sustainable manufacturing",
-        "growth": 44,
+        "growth": 92,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Coated Textile Fabric (HS: 5907) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xa2dfQjc2OGFjYzFrRGE5V3lobFp1TXpkN25WSUxHaXBydkxveFV5Q3BLWnVuQnQ1ejBZbnFMT0t4cEJSREU5eGtzdmdzVzdrWVhHQWgtLXZMTzRBbjdSNTBlaw?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "Greige Fabrics Market Outlook to 2035 - indexbox.io",
-        "source": "indexbox.io",
+        "title": "Greige Fabrics Market Outlook to 2035 - IndexBox",
+        "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0T2lCV0ZkanB0NGRuMmtfNG1HWGNxcG1nbVdlMkxabHFhcVhXRHhGbkdqX0p0Zy1xQnQ0ZGJnYjg2dGR3bnFQQXdaeWI0S1hRRHRub3NnLXV3RUtaTjU2ZU5VSGpQcnJDM0FXM3NPVW5ZcUxCaXc?oc=5",
         "hits": 2
       },
       {
+        "dim": "媒体",
+        "title": "China-US Trade Rebounds Sharply in August as Exports Climb for Fifth Straight Month - WWD",
+        "source": "WWD",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQWpGLU5aS0hWb0dRekRqVlBjcml3NE5FdDlqX3AyLXZEYnpPc3hCcEFyQ1pWazlEeXplUGpLakRubl9tUHByM0o5dWxpMFFCY2R4V0lOdWZoUm5MTWxGYlBaa1JyLWpkdWpwZHpVeDJMNU1OSTFBQ2I0RWdybS05WTVQdHh3UkFIaTcwbnRla185UmMwV0V0YWlxc1BzdTZRRE5FRGdFbHNEeDMydHgzS2ItQWgyMjN5ZUhySg?oc=5",
+        "hits": 0
+      },
+      {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 29,
-        "title": "Top fabric - Smart Edition",
-        "price": "$80.1",
-        "rating": 4.3,
+        "market": "JP",
+        "rank": 34,
+        "title": "Top textile - Eco Edition",
+        "price": "$129.4",
+        "rating": 4.7,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 25,
+        "rank": 30,
         "title": "Top textile - Premium Edition",
-        "price": "$96.0",
-        "rating": 3.9,
+        "price": "$197.0",
+        "rating": 4.6,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "面料及纺织原材料"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech aesthetic」增速 255%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Spherical Insights关注「Brazil’s Agribusiness Faces Changing...」。",
+    "trend_summary": "回收：海外社媒「environmental tiktok made me buy」增速 250%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Tridge关注「Propolis Suppliers & Manufacturers,...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech aesthetic」增速 255% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental tiktok made me buy」增速 250% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "environmental tiktok made me buy",
+        "growth": 249.5,
+        "vol": "502K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "green tech factory tour",
+        "growth": 247.0,
+        "vol": "662K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "green tech aesthetic",
-        "growth": 255.0,
-        "vol": "750K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "green tech price trend",
-        "growth": 251.0,
-        "vol": "541K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "environmental #trending",
-        "growth": 220.5,
-        "vol": "133K",
+        "growth": 245.0,
+        "vol": "27K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 210.0,
+        "growth": 229.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "environmental wholesale supplier",
-        "growth": 86.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Brazil’s Agribusiness Faces Changing Global Trade Conditions: Market Diversification and Export Outlook - Expert View by Spherical Insights ",
-        "source": "Spherical Insights",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOGhJZEQ0WnZWVzgtc3VmMTZuZUhDdnRockJ5OGU5TzlOM1JhdmhmdTZuTGpzd2dIbzRDMGhzTzRBZ0FsaTBuLTZZZWJvMjd0YjRLZDJBWTY3SXBwcFE0bnBPd2xXX3Nkalo3bFljYV9LcTMwdTNVYmRxTHlfNnFXbkV5TkdsTU1jLURoazJSS1JraHE4ZWMySnN1UEMwOWUzZXZxd3FtMFBuMlhwSnpuT1hCTUdQWHRSeElXd1ZfazA3Q3plZEJ1Nm1vZXpIaHN2LWlvQ0R6cXc0dw?oc=5",
+        "growth": 136.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Propolis Suppliers & Manufacturers, Export Data & Price Trends | Global Market Overview 2026 - Tridge",
         "source": "Tridge",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55Z1k5SEM5cTRiSDI1a29EQlBSWUVyMFNTZ1FsVWlFcXV2NzI5bXo5ZTBETV9yVUlaNXJyVTRiMllKRGwzX2FtMDA3QVdnNFFqMlVGaXprYUFYM1E?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Economic and environmental correlates of EU food trade: no evidence of an emission-oriented sourcing pattern - frontiersin.org",
+        "source": "frontiersin.org",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORUlmOVNfQkNpZ3FlWTRiTGR2ZGZURWh0RzJ0OWZTV2ZSVWZFQnlUVFJBQmJuUlYtUEt2WVpFY2xKOTIzeEZLMGxicjhXd0FhLTB2Njl5Mzdub1VoVmtsNy13MlJvZTA3VGFZMjZRZk43WldoU2hIbmtYa1RmWWZxcVRkZTNVOF9wdXFXY2x5TDI2cDFGV2xTR3hIZERhaTFNaHF4dg?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-10-03",
+    "generated_at": "2026-10-04",
     "l1_ref": "环保"
   }
 }
