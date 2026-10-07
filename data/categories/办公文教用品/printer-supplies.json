@@ -97,27 +97,24 @@
     }
   },
   "customs_2025": {
-    "china_export": null,
+    "china_export": {
+      "total_usd": 28969472569.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "complete"
+    },
     "imports_from_china": {
-      "US": {
-        "value_usd": 4150503632.0,
+      "JP": {
+        "value_usd": 1367316189.131,
         "yoy": null,
-        "share": 67.9
-      },
-      "GB": {
-        "value_usd": 924424298.3030001,
-        "yoy": null,
-        "share": 15.1
-      },
-      "BR": {
-        "value_usd": 547192391.0,
-        "yoy": null,
-        "share": 9.0
+        "share": 73.6
       },
       "NL": {
         "value_usd": 491387114.852,
         "yoy": null,
-        "share": 8.0
+        "share": 26.4
       }
     }
   }
