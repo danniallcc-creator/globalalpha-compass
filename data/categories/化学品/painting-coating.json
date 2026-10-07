@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "油漆涂料：海外社媒「chemical #fyp」增速 256%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
+    "trend_summary": "油漆涂料：海外社媒「chemical industry news」增速 247%，搜索端「chemical wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「EXCLUSIVE: EU countries to seek import...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 油漆涂料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 油漆涂料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 油漆涂料 通关",
-      "海外社媒「chemical #fyp」增速 256% 领跑 → 油漆涂料社媒种草热度爆发"
+      "海外社媒「chemical industry news」增速 247% 领跑 → 油漆涂料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical #fyp",
-        "growth": 256.5,
-        "vol": "520K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "chemical tiktok made me buy",
-        "growth": 229.5,
-        "vol": "424K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "chemical industry news",
-        "growth": 226.0,
-        "vol": "80K",
+        "growth": 247.0,
+        "vol": "229K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "chemical b2b export",
-        "growth": 176.0,
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "chemical new arrival",
+        "growth": 237.5,
+        "vol": "243K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "chemical top 10",
+        "growth": 236.5,
+        "vol": "780K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical wholesale supplier",
-        "growth": 95.5,
+        "growth": 203.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical b2b export",
+        "growth": 203.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Chemical Tanker Shipping Market Outlook to 2035 - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSVUtZEk0MHM1ZHpKYWxKZHlncUdyMkQwWkJNTEJNRGxTTlpUeU80dTZfekF0dmppam5TbHI4V2NHS0JlbXVsNm5HMGJ5YUR5b0N4WWJkZ2hrQTRlZHVHdUk1YmdRbkRIYVFtYVBaenFfYzdubXVpdUJYdXFYeTFOSWJNZw?oc=5",
+        "title": "Peru cosmetics, essential oil and surfactant exports rise - Personal Care Insights",
+        "source": "Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlNiemxaRGdWSFc3VlpvNmJRVHRNSG11WDFIVHk0ZzFtTU16M3ZtMk5kSjFLenJ5eGcyWFBfM1VuRDR2MWZ0cWRDYUJnLWtYTWJrVmhyVzVBTmFtZmFNN04zWnVJU2tNQ1cxa2hCRmQ0OFBhVUhRUWpVZmZ5OTZOTkp5d3FVVVI4ZndN?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-10-04",
+    "generated_at": "2026-10-07",
     "l1_ref": "化学品"
   }
 }

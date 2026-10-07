@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "ATV 与 UTV：海外社媒「electric vehicle top 10」增速 250%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EU seeks China curbs on hybrid car...」。",
+    "trend_summary": "ATV 与 UTV：海外社媒「electric vehicle #trending」增速 254%，搜索端「electric vehicle market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China says it will monitor EU moves on...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → ATV 与 UTV 出口需通过合规认证",
-      "海外社媒「electric vehicle top 10」增速 250% 领跑 → ATV 与 UTV社媒种草热度爆发"
+      "海外社媒「electric vehicle #trending」增速 254% 领跑 → ATV 与 UTV社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electric vehicle top 10",
-        "growth": 250.5,
-        "vol": "559K",
+        "platform": "instagram",
+        "kw": "electric vehicle #trending",
+        "growth": 253.5,
+        "vol": "448K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electric vehicle must try",
-        "growth": 241.5,
-        "vol": "628K",
+        "platform": "instagram",
+        "kw": "ev must have",
+        "growth": 249.0,
+        "vol": "444K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electric vehicle breaking",
-        "growth": 240.5,
-        "vol": "634K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "ev b2b export",
-        "growth": 220.0,
+        "platform": "google",
+        "kw": "ev price trend",
+        "growth": 244.0,
+        "vol": "295K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electric vehicle market 2026",
-        "growth": 181.5,
+        "growth": 235.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ev b2b export",
+        "growth": 234.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "EU seeks China curbs on hybrid car exports to avert trade row, FT reports - Reuters",
+        "title": "China says it will monitor EU moves on Chinese hybrid cars, opposes 'voluntary limit' on exports - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWJJNjFfalQxUWJJTEI1UjBCNDhyUFpvOXpqTUNHeW9ucXFJemVLajBadkQ5aF9tWnpjdWFoZ282dXM2b3pTbHpmQUtVVzNteTZXUjNEN1ZqQUJnWEFuUkQtMXpXYS1OX1oySWVNcXJVaE1uc2ViaE5lTDlFbUd5UEFNVGVQN3BlVlUzVWo0VFU2cjlrdjNfR2o1Y2FEdVpXamF3ZEgtcWNHU25iU2E4Y3cxaVc?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT09Jd0tFOEZkOFllMmVadUwtWDY0RDctRzU2VXNiYUszaHRydVhSNEUwUXBpRFp6OERaOTR2dk5SY3lsNExxUnMyYWZNdHc5bG1YcjJrVWVCWmpIZFhXYk9QcXh4NllJN1pOdlFiUk11cllCWFdWMVkwS3dwR1NYeHluOERMbUFWbzI0ZmpBVF9Lb1Yya1FwYl9zd3RSZklOTkphM0w5RklEa1VPUUFNajlRSEFDZFFyNGxxTS15Vk5KQnVIU0E?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-10-04",
+    "generated_at": "2026-10-07",
     "l1_ref": "整车及交通工具"
   }
 }

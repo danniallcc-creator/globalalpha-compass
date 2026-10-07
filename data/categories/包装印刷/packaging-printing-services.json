@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "48",
-    "total_export_value_usd": 5164750,
-    "total_net_weight_kg": 14664750,
+    "total_export_value_usd": 16751413,
+    "total_net_weight_kg": 16251413,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-10-04"
+    "fetched_at": "2026-10-07"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 83,
-      "trend_direction": "stable",
+      "interest_score": 51,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-04"
+      "fetched_at": "2026-10-07"
     }
   },
   "industry_analysis": {
@@ -52,92 +52,32 @@
     "opportunity": "Sustainable and smart packaging solutions. Active and intelligent packaging. E-commerce optimized packaging design. Personalized and digital printing on packaging."
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-07",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 41728243806,
-      "total_kg": 828243806,
-      "yoy_growth": -4,
+      "total_usd": 34998921783.0,
+      "total_kg": 0,
+      "yoy_growth": null,
       "period": "2025",
       "source": "UN Comtrade",
-      "data_quality": "estimated"
+      "data_quality": "complete"
     },
     "imports_from_china": {
-      "US": {
-        "value_usd": 4590106818,
-        "yoy": -19,
-        "share": 11.0
-      },
       "DE": {
-        "value_usd": 4464922087,
-        "yoy": 16,
-        "share": 10.7
-      },
-      "JP": {
-        "value_usd": 4339737355,
-        "yoy": 0,
-        "share": 10.4
-      },
-      "GB": {
-        "value_usd": 4214552624,
-        "yoy": -13,
-        "share": 10.1
+        "value_usd": 915724122.849,
+        "yoy": null,
+        "share": 31.6
       },
       "KR": {
-        "value_usd": 4089367892,
-        "yoy": 19,
-        "share": 9.8
-      },
-      "AU": {
-        "value_usd": 3964183161,
-        "yoy": 39,
-        "share": 9.5
-      },
-      "IN": {
-        "value_usd": 3838998430,
-        "yoy": 19,
-        "share": 9.2
-      },
-      "BR": {
-        "value_usd": 3713813698,
-        "yoy": 31,
-        "share": 8.9
+        "value_usd": 1389603670.0,
+        "yoy": 8.5,
+        "share": 48.0
       },
       "SA": {
-        "value_usd": 3588628967,
-        "yoy": -6,
-        "share": 8.6
-      },
-      "FR": {
-        "value_usd": 3463444235,
-        "yoy": 4,
-        "share": 8.3
-      },
-      "IT": {
-        "value_usd": 1460488533,
-        "yoy": 37,
-        "share": 3.499999999999984
-      },
-      "NL": {
-        "value_usd": 0,
-        "yoy": 25,
-        "share": 0.1
-      },
-      "CA": {
-        "value_usd": 0,
-        "yoy": 8,
-        "share": 0.1
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -2,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": -15,
-        "share": 0.1
+        "value_usd": 592049367.9339999,
+        "yoy": null,
+        "share": 20.4
       }
     }
   }

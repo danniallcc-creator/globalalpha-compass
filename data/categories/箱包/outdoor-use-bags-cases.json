@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "户外用箱包：海外社媒「bag viral」增速 246%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，Forbes关注「The Best Luggage We’ve Tested On Trips...」。",
+    "trend_summary": "户外用箱包：海外社媒「backpack industry report」增速 228%，搜索端「bag wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Suitcases And Travel Bags Market To...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 户外用箱包 供应链合规升级",
       "欧盟 CE 标志强制准入 → 户外用箱包 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 户外用箱包 通关",
-      "海外社媒「bag viral」增速 246% 领跑 → 户外用箱包社媒种草热度爆发"
+      "海外社媒「backpack industry report」增速 228% 领跑 → 户外用箱包社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "backpack industry report",
+        "growth": 227.5,
+        "vol": "227K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "luggage factory tour",
+        "growth": 214.0,
+        "vol": "95K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "bag viral",
-        "growth": 246.5,
-        "vol": "336K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "bag wholesale supplier",
-        "growth": 232.5,
-        "vol": "371K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "luggage #trending",
-        "growth": 231.5,
-        "vol": "224K",
+        "growth": 213.5,
+        "vol": "210K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "bag wholesale supplier",
-        "growth": 229.5,
+        "growth": 178.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "luggage market 2026",
-        "growth": 118.5,
+        "kw": "backpack b2b export",
+        "growth": 110.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Suitcases And Travel Bags Market To 2035: Premiumization and Smart Features Drive Growth - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOckVPS0RLc2pQOC0wcTRXLTZsbS0yazNtcGZYVURaUlh0MFpGVHF3cnNRWjNER0NoVm1xS3ZFMFB6NS1EQW1xSWZ3SUIyNG45LWJCbkMyb0hmN0pDTURtc2twb3lKWjg2a0JoVGthZEUza1hwbVkzb2Y5V2kzanBLRkZyU0hPcWZrYmM4ZTUzUEtwYVJJaGt2OU5aOTczYS1tWkFRMW8weHBKczU3MnB5T1NZUDB3bEpwRGFzaFNXRVhwQXd2?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "The Best Luggage We’ve Tested On Trips Around The World - Forbes",
         "source": "Forbes",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeXJZNlVsNUFEd19BT1B2QkZya0sxNkY1Z1ppLVYxWnZJN3ItN3hzQmlTUGRvby1EaU5jWnZwZWZwOV96SGh5VFZHRlplcFJ3UGZmTUtZZU9ZYjB1X1U4ZW5mV280am1hM1E?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "EXCLUSIVE: EU countries to seek import curbs on chemicals, plastics, sources say - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2RENzlWLV9HRWM5eHpVY2l4YjZEal9MMWdvS2o0ajVhdUJKTThlc2NQb2RYS1E2UnBtS0dLVS1USlFTaEZ4NHltNjBzNUxDLWplV1FET1FCN1UyZi1KZHNEbXJ2TGx5NjZLQ2x3NFFZeEhWYThNZFRndFNlSTRwcks1aUpqUEhsTEJpQXI3TFJwekdrMDdCTkJ3aW1WcWpiRV9SYkNreVdZQm5ySnc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-10-04",
+    "generated_at": "2026-10-07",
     "l1_ref": "箱包"
   }
 }

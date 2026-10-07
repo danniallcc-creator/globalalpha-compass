@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service top 10」增速 250%，搜索端「business service wholesale supplier」热度上行，US Amazon BSR Top-12，UA News Center关注「From Alabama to the world: UA helps...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service viral hack」增速 251%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，ING THINK Economic and financial analysis | ING THINK关注「Why India and Philippines aren’t losing...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service top 10」增速 250% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service viral hack」增速 251% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "business service top 10",
-        "growth": 250.5,
-        "vol": "670K",
+        "platform": "tiktok",
+        "kw": "business service viral hack",
+        "growth": 251.0,
+        "vol": "533K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "business service breaking",
-        "growth": 248.5,
-        "vol": "172K",
+        "kw": "business service supply chain",
+        "growth": 232.5,
+        "vol": "638K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "business service viral",
-        "growth": 244.5,
-        "vol": "633K",
+        "platform": "youtube",
+        "kw": "business service top 10",
+        "growth": 229.5,
+        "vol": "478K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "business service b2b export",
+        "growth": 217.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 184.5,
+        "growth": 115.5,
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "business service market 2026",
-        "growth": 171.5,
+        "dim": "媒体",
+        "title": "Why India and Philippines aren’t losing the AI battle – yet - ING THINK Economic and financial analysis | ING THINK",
+        "source": "ING THINK Economic and financial analysis | ING THINK",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMklCd18yc2dQdExlSmE1bUc3emptUHNPbmFKZVBNejNDYkNpb2FHeTFJc05yZnpZRlo3SHpPYzdYRFhhVGUxMjRsRkJ0NE9EZ0J4ZUtWcmtVY1N0cGV3TzB4d0RvbFpBa09fUXpBNFBvaUFqSlFtb1JhS01LakN4TmJ3?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "From Alabama to the world: UA helps businesses grow through exporting - UA News Center",
         "source": "UA News Center",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDFNUEFvbWFKRDg5RTJmMVNKc3NUX2RRQlYxaDNXSWQ0cjVxY0dveHAzcmhLUG1rZTFJbnI3V2JEclNoWENjNlFpYUgyLXdkcncwd0l1RGV3RTNaNHRPYlhER1lza1psYUJHbHJFOHNGV0dUMkhVdDBaV2N0THR2aFBlbUJLaGVK?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "What’s happening this week in economics? - Deloitte",
-        "source": "Deloitte",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-04",
+    "generated_at": "2026-10-07",
     "l1_ref": "商务服务"
   }
 }

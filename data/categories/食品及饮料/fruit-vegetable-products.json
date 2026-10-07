@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "果蔬产品：海外社媒「snack wholesale supplier」增速 242%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，Simply Wall Street关注「3 Food Trade Stocks Worth Watching As...」。",
+    "trend_summary": "果蔬产品：海外社媒「food industry news」增速 244%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，China Briefing关注「Exporting Wine to China in 2026: Market...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 果蔬产品 出口需通过合规认证",
       "美国 FDA 注册要求 → 果蔬产品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 果蔬产品 北美本地化制造红利",
-      "海外社媒「snack wholesale supplier」增速 242% 领跑 → 果蔬产品社媒种草热度爆发"
+      "海外社媒「food industry news」增速 244% 领跑 → 果蔬产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "snack wholesale supplier",
-        "growth": 241.5,
-        "vol": "608K",
+        "platform": "x",
+        "kw": "food industry news",
+        "growth": 244.0,
+        "vol": "540K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "food industry news",
-        "growth": 240.0,
-        "vol": "510K",
+        "kw": "snack supply chain",
+        "growth": 242.5,
+        "vol": "758K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "beverage viral hack",
-        "growth": 231.0,
-        "vol": "725K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 238.5,
+        "platform": "google",
+        "kw": "food price trend",
+        "growth": 238.0,
+        "vol": "486K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 138.5,
+        "growth": 125.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "food and beverage supply chain resilience",
+        "growth": 87,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "3 Food Trade Stocks Worth Watching As Export Rules Tighten - Simply Wall Street",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYXlCZnM1MWxvUEUtWGJsY1NlZTdzRnI5NXhBM25HdjUtaVNsUnJ3Z3VLS210WnJkZXlIYjhmRXpBRHJZRXpoSEM0czJJcjd5bldQN2dzT2lOUGt5X0gwV05mZkVLd0VLdklXLWZ6VjBtc1E1WENKVzV6aW9RYWEzVkU0S21zQ1RDbi1qWDI5RmVmbmZTcVl6bzR3dXo5d0FTZE5DUXNYRlRjNHNiMjN1bVJZWm9HWW5vbS1yd1lubThyd2_SAcMBQVVfeXFMT2F5QmZzNTFsb1BFLVhibGNTZWU3c0ZyOTV4QTNuR3Y1LWlTbFJyd2d1S0ttdFpyZGV5SGI4ZkV6QURyWUV6aEhDNHMySXI3eW5XUDdnc09pTlBreV9IMFdOZmZFS3dFS3ZJVy1melYwbXNRNVhDSlc1emlvUWFhM1ZFNEttc0NUQ24talgyOUZlZm5mU3FZem80d3V6OXdBU2ROQ1FzWEZUYzRzYjIzdW1SWVpvR1lub20tcndZbm04cndv?oc=5",
+        "title": "Exporting Wine to China in 2026: Market Access and Strategies for European Producers - China Briefing",
+        "source": "China Briefing",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczdVVWhQRzFCcWtmVWlVLThkUWtzMTF1T0p1Q0hHbFpIakxpZG1FRkdJT3FDV1dPenNCbzhLOEdpWVZEdkJINHpQUHRwT251Y2RNMm1qRHFjOVJObDlaeW15cU5iaWlEQ3c1Rk9PbWVuVTkwVTNXdUdBeUdYQTlfTkh1cWhxa0RtLVF1NGFiWHQ1UQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Canada's food and beverage sector faces margin pressure - thecattlesite.com",
-        "source": "thecattlesite.com",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUppWll6dTN2azBaZzJxRkkzTkVOVkg3SWFhQUZCbi1YeDIzdnQ0YUdZcUNwYTVGYUEzZWkydF9aMXpBVFV1UW1TOTQ3S2kya2JwUlFtVGg3ckVQRVNieVR4SlFnR3JuZ045Ync1TGdWNHl0aURDa1NHcVhVT3lubTYwRkV1ZjZUM3dJSG9HaE1MR1k?oc=5",
+        "title": "Sri Lanka Moves Up the Food Value Chain - PlanetFood News",
+        "source": "PlanetFood News",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oT0tycE9TYU1xLVp0bFdNc0NJSHN4MVFzNUVyRWk2Mlh5aGVyYTBYOTJkb2QzUWJBaHhXQkpTbllTdDNsRDN0aDVQYkVaNWJURlhOSndkREpNSjBBQ2NpZ0hFTV80cWJZVDJnZWpMbm5lbHhWdlFGcF93aXM?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-10-04",
+    "generated_at": "2026-10-07",
     "l1_ref": "食品及饮料"
   }
 }
