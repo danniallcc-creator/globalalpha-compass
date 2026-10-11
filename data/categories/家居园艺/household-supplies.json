@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "日用百货：海外社媒「home decor review 2026」增速 250%，搜索端「garden b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Egypt's Peat Market Report 2026 -...」。",
+    "trend_summary": "日用百货：海外社媒「garden trending now」增速 245%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Egypt's Peat Market Report 2026 -...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 日用百货 出口需通过合规认证",
-      "海外社媒「home decor review 2026」增速 250% 领跑 → 日用百货社媒种草热度爆发"
+      "海外社媒「garden trending now」增速 245% 领跑 → 日用百货社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor review 2026",
-        "growth": 249.5,
-        "vol": "47K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor top 10",
-        "growth": 234.5,
-        "vol": "97K",
+        "platform": "tiktok",
+        "kw": "garden trending now",
+        "growth": 245.0,
+        "vol": "579K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "home decor tutorial",
-        "growth": 208.5,
-        "vol": "757K",
+        "growth": 241.5,
+        "vol": "229K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "garden b2b export",
-        "growth": 203.0,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "home decor tiktok made me buy",
+        "growth": 230.5,
+        "vol": "632K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 183.5,
+        "growth": 188.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "home decor market 2026",
+        "growth": 177.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "China’s ‘Self-Reliance’ Drive Is Upending Trade With Europe - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0Q1dXlkX1N1VHlZdUZvaUlDNHVYSk9ZWERvQzFoRk9lc0lybmx1cURTWk1QUVlkcWdkOFNtaHg3ZzlfbVV6QUVoaDFBa3A5cHFJNzFwWXNKcTItWE5nMkNoOW9TWWFzaHp6a3Jydk1aVzY5eWduOVdMZGpRS1V4N2h5TWRqNmk5?oc=5",
+        "title": "VIDEO: Khmer products market under Ministry of Commerce’s AIMS project in Kampot attracts both local and foreign customers - Khmer Times",
+        "source": "Khmer Times",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTzdFcGh4ZzgzdUQ2V3F5VXQ4TWdLeTNEVUl2eWFyTmZOOHRYSnZDMlYtTi1oTnl6T2FfVWV2ZFl0ZHcwWlZ3ZUNwMFBPZTNUYmVubjlzQ1ZobGJoMzgyREFFMmRUUTNQeU02bElPWldDQzJoTGpBcW02YTNEYkZOWmFjbkwwNlY3T0h1cHJkUExFbTIteFIyZEJaTFBtSDhwQVREeWh4ckNLTm10Y0RuMHNxdWpuME91TnJ5S3BuVXlFeWNmZ3JkcVN4SmZFVDVZcEpFRllmbGtnT3FyeFdVRUEteWhvU2xVd2FqSllDV0pNQQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-10-07",
+    "generated_at": "2026-10-11",
     "l1_ref": "家居园艺"
   }
 }

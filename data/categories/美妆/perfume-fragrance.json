@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "香水和香氛：海外社媒「skincare viral」增速 248%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese beauty product exporters are...」。",
+    "trend_summary": "香水和香氛：海外社媒「beauty breaking」增速 230%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Beauty Products (HS: 3304) Product...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 香水和香氛 出口需通过合规认证",
       "美国 FDA 注册要求 → 香水和香氛 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 香水和香氛 制造门槛",
-      "海外社媒「skincare viral」增速 248% 领跑 → 香水和香氛社媒种草热度爆发"
+      "海外社媒「beauty breaking」增速 230% 领跑 → 香水和香氛社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "skincare viral",
-        "growth": 248.5,
-        "vol": "553K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cosmetic unboxing",
-        "growth": 240.0,
-        "vol": "133K",
+        "platform": "x",
+        "kw": "beauty breaking",
+        "growth": 229.5,
+        "vol": "546K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "cosmetic viral hack",
-        "growth": 231.0,
-        "vol": "247K",
+        "kw": "beauty trending now",
+        "growth": 215.0,
+        "vol": "771K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "beauty market 2026",
+        "growth": 191.5,
+        "vol": "443K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 137.5,
+        "kw": "beauty market 2026",
+        "growth": 188.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "beauty cosmetics sustainable manufacturing",
-        "growth": 90,
+        "source": "Google Trends",
+        "kw": "cosmetic b2b export",
+        "growth": 103.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Chinese beauty product exporters are sitting pretty despite US trade dispute - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVkIwcTZjNXZSQmpiMS1RZVY0NURneW9DY1VNNDI4bUpHVUlZRUlMTXByNEhCTHNzUm4wM3ZHdS1CdWlOMFZJcUpwUlE5WE9SeHZpSXAyTkF5S1RwWXNlYnA0RmNwRHpjOGl6QldNUnVlbEl6azR3bHhWV0pFbGdRRE5kdUx1clpPUXdEbnZmQUlfYWhybGxzekhTbWJ2UFYxd2tqSkNyMzlqc3JXRXdCMUptcXJqaU11T2NRSUdTTVIzYXE2TmJhV3JrWFFzWUpHZ0FJ?oc=5",
+        "title": "Beauty Products (HS: 3304) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FS3ZIRUUtQlk4UXNLNGpuYi1kYUlaVm5velYwWm8wMWpVMGczRlI0UEk3d2NnYkw5aEh0cklad2ZhQ2F1ckdZUEVfLVZ1OE5vLUVLOF85WXlnZkU?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Brazilian beauty exports hit 10-year high despite U.S. drop - Valor International",
-        "source": "Valor International",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZUFvRHlWQ29wZ0tISVFyM054ME1heWxsS0UzeWtGa29jcVBvVmt2dEhkdHluZGdEaXY3bzZmZHZVckNXQVRQZkdfVzlNZl84MmVrQ2t1ZFVDOVdHU3d6TUxUZzVxYk9yN2pnMnl2Qk5mVzNpZXM5dXFfZUp5dHNvcUIxLW4wNFo0YmVPcUZCU3RkemdEQnJpd1h0TFlweS1GLUJqTGVJYmNvZmg2SFpoQVRIVlVXVk9lTm9kY01QT2dkVlXSAdIBQVVfeXFMTWk4dkhLa3NveDJxbkdIYVNZWGotY3VyM2RoN3dFVWRUT2xTVVNTeVVFSnpNMzhBNVBqTlJ0LUtKV0FWaDJ3Yl9oSnNhRENZcEktUFMxNHFIWTdvY1hvTjJqbUZ4ZFdZdm9MZlFTS1dWSmtibW9YeXhGeFYxbkVLS01wdlVpZjEyT3VMeWFDYmhQY0pJblNYcThER2NuWmlCaXRHUXBXQ0NydDdzQXVFa1B1dHotNGNHdnJ4Q3Q3OEg4TWRRb1hlajRmWXYtU0NNdGhn?oc=5",
+        "title": "China to lower tariffs on US cosmetics as trade truce extends - Personal Care Insights",
+        "source": "Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZDllYTJIakVDbVRMLWtaZngwVkluSEZuazdNa3VMcXRyNDNVeENwUmVQMGItMnEyN2k2UTFNbFFXdms2eHdteGdrTGNCZWpjQzFyM2JWQmlwc2lCZWxKR0REcmFVVHFzRG9WMW9pXzZYbjg4c1A2SnN6UzlVb3hkX1J0cw?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-10-07",
+    "generated_at": "2026-10-11",
     "l1_ref": "美妆"
   }
 }
