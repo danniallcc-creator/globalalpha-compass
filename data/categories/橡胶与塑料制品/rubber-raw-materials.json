@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "橡胶原料：海外社媒「plastic viral hack」增速 213%，搜索端「rubber wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Egypt and South Africa Launch Joint...」。",
+    "trend_summary": "橡胶原料：海外社媒「rubber top 10」增速 234%，搜索端「plastic b2b export」热度上行，US Amazon BSR Top-12，IndexBox关注「Egypt and South Africa Launch Joint...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 橡胶原料 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 橡胶原料 成主流",
       "欧盟 CE 标志强制准入 → 橡胶原料 出口需通过合规认证",
-      "海外社媒「plastic viral hack」增速 213% 领跑 → 橡胶原料社媒种草热度爆发"
+      "海外社媒「rubber top 10」增速 234% 领跑 → 橡胶原料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "plastic viral hack",
+        "platform": "youtube",
+        "kw": "rubber top 10",
+        "growth": 233.5,
+        "vol": "80K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "plastic industry news",
+        "growth": 216.0,
+        "vol": "559K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "plastic must have",
         "growth": 213.0,
-        "vol": "10K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "rubber wholesale supplier",
-        "growth": 209.5,
-        "vol": "769K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "rubber must try",
-        "growth": 200.5,
-        "vol": "528K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "rubber wholesale supplier",
-        "growth": 206.5,
+        "vol": "449K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "plastic b2b export",
-        "growth": 179.0,
+        "growth": 169.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "rubber market 2026",
+        "growth": 168.5,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Natural uranium, its compounds, mixtures (HS: 284410) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
-        "source": "The Observatory of Economic Complexity",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tVzU1R0NfcS1ydmI0a1RFb0xJUWNwUF9VXzdudzdjd2E1T01ldjNRZnhUZDd3N2o3ODU3bVpQMGpVY2xZTEY4a004aWgtaG40ZTc4eUd0OTFNUmhnb1VCZ1JZRkxSbnhLbHRxVVVsVXlwb3I3bHdvTGJB?oc=5",
+        "title": "Andean Plastics Trade Fair Generates $7.8 Million in Business - PlasticsToday",
+        "source": "PlasticsToday",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZnhsZnd4dnIyY0F0ZThQMUtKSEpqMVpqcG9hTG1EenlXMHVvRFBHNFlJU1p2dzBqV1dQdU4tMHZsZkwtTE9CeVdfM1hSRlNHQi1IeWFyS21OMDBTaUlIUzJlMWJnX3BKWXREYjY4S2Y2NTlVNk9IcFZQZVJlYmtseEk3NldSb0hrWFpwTEVraUFGMGJZaVFHSzZhdlA?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-10-11",
+    "generated_at": "2026-10-12",
     "l1_ref": "橡胶与塑料制品"
   }
 }

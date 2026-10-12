@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "男鞋：海外社媒「shoe review 2026」增速 242%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，DatamarNews关注「Brazil footwear exports hit worst...」。",
+    "trend_summary": "男鞋：海外社媒「sneaker viral」增速 246%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Kids Dress Shoes For Toddlers Market To...」。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 男鞋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 男鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 男鞋 通关",
-      "海外社媒「shoe review 2026」增速 242% 领跑 → 男鞋社媒种草热度爆发"
+      "海外社媒「sneaker viral」增速 246% 领跑 → 男鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "shoe review 2026",
-        "growth": 242.5,
-        "vol": "455K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "footwear must try",
-        "growth": 224.5,
-        "vol": "581K",
+        "platform": "instagram",
+        "kw": "sneaker viral",
+        "growth": 246.5,
+        "vol": "458K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "sneaker viral",
-        "growth": 222.5,
-        "vol": "675K",
+        "kw": "footwear aesthetic",
+        "growth": 232.0,
+        "vol": "744K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "footwear new arrival",
+        "growth": 226.5,
+        "vol": "649K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 145.5,
+        "growth": 218.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "shoe market 2026",
-        "growth": 117.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Brazil footwear exports hit worst result since pandemic - DatamarNews",
-        "source": "DatamarNews",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaUN2TG1meWFXTlFQSEQ0cFlNMEdKU0JZNkp1aVo2Q3FQTktKckdPR0ktRDJxZXFyUjN0REhtVE1sNGlIVk1wZ1R6MHlPaVFqTGNnVFJjang1aFhMclJIdFAyNzFTV3B3VEg5dWFRbFRLQ3V2N1kxdVBNd3YweGZ3Zm5CVm1TV25VS2I3V3dmbHVhdE0?oc=5",
+        "kw": "footwear b2b export",
+        "growth": 167.0,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Kids Dress Shoes For Toddlers Market To 2035: Premiumization and Occasion Wear Drive Growth - News and Statistics - IndexBox",
         "source": "IndexBox",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSnM2TjRZNElEMjA4WWpVN1NRbUxnUU1QVEJ5ZWJmZHhqY2VPNFZyOTMycE44czJGOU1oZ28waU1nb0J0cS1MX2Q0cTJRRmh1UkRJX0VSeTJjVTZlV2xTU0JNM01QSGlVX3FpUEVxdXUyQ3V5cmY0SmNEQzN2SnRhaFJrS1RTZlljLWdpN1pLNVJ6bkVXU0NfTE9Fc2E0cEZfc0NZMER3Y1Z0RkhkSnI1bG5jVkgyZVRPRGZMSnEyb2ZHak5pUk92MHJOaTBfQQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Leather Footwear (HS: 6403) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00U3ltRjdYMW1jUlZlOVhhTWlUeUJ6Q0RNSDNhSUx1eDNkbnJZUTZxNDJZVDV1MVBSNkYzU1dvNzFRN1M4OW94ZjNlWW56TjJlNDlvMy1iUmg0LVdL?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-10-11",
+    "generated_at": "2026-10-12",
     "l1_ref": "鞋靴及配饰"
   }
 }
