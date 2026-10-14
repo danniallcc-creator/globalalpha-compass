@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "服装机械：海外社媒「commercial equipment viral hack」增速 253%，搜索端「commercial equipment market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China, US pledge tariff cuts on $60...」。",
+    "trend_summary": "服装机械：海外社媒「commercial equipment viral」增速 252%，搜索端「commercial equipment market 2026」热度上行，US Amazon BSR Top-12，ABC News - Breaking News, Latest News and Videos关注「China’s trade surplus hits $938 billion...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 服装机械 出口需通过合规认证",
-      "海外社媒「commercial equipment viral hack」增速 253% 领跑 → 服装机械社媒种草热度爆发"
+      "海外社媒「commercial equipment viral」增速 252% 领跑 → 服装机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "commercial equipment viral hack",
-        "growth": 253.0,
-        "vol": "201K",
+        "platform": "instagram",
+        "kw": "commercial equipment viral",
+        "growth": 252.5,
+        "vol": "444K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "commercial equipment price trend",
+        "growth": 245.0,
+        "vol": "13K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "commercial equipment trending now",
-        "growth": 252.0,
-        "vol": "632K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "commercial equipment tiktok made me buy",
-        "growth": 246.5,
-        "vol": "372K",
+        "growth": 235.0,
+        "vol": "279K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment market 2026",
-        "growth": 168.5,
+        "growth": 128.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "commercial equipment wholesale supplier",
-        "growth": 83.5,
+        "source": "Linkedin",
+        "kw": "commercial equipment digital transformation",
+        "growth": 94,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s trade surplus hits $938 billion for Jan-Sep as pressure ramps up to rebalance trade - ABC News - Breaking News, Latest News and Vide",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGc1cnBrYlczOWxNanlsN1BDU2hoWmk0c1l3TGZMalYwLTl2WVVWYko0alNKVGZmQzVrd3pRWTc5ejBBSWRVMTJHMFI3VVpwdUhDMUVTelBCOXRUQ3JUYW1CbWwtcUZvaVB4STl4Y2lpMk1ERlo2WC0tcWZ3ci1jb1I0ZGRnY2d0Yk1ZNExTR0wtalFTY2hvR01HU0dTLU83eGtwaVB1WDdseFhJ0gGyAUFVX3lxTE83YUdyYm40N1JoRDhHdF9pY2s0RTVnblZtZ0p1QnMwMkJZSTVsZ1d4MmhSYkVxdnFJelRJVTZoSW1WUllPSjBIdHdwTnZXRzRwTlkwYzhVc3A5MEVZSmgzcDZvZE93MG9mMnBpNUlMM1lFQUVlTlhlNTlfYUFKeVQ5YVBiRHpEbzFPUVNHNTJjeW91LUJfY3BtOFRIVDQ4ZFJxWDVzTFNJVUJxREVFTUJkamc?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "China, US pledge tariff cuts on $60 billion of goods including agriculture, toys, toasters - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaTBqVzRGcGNNZ2M5YWVLbUQxanlOVWhxYU5lWjNuYzJSWmtHV2lQTWdSUXlpTGM3M1UzU2JUckNLUGxIc3dFVWx5WlExNnotSmtQblE4UnM0Sk1OVnQycjVkR0ozUlpzMW5MMExHNll4NDR2dXpfWTNCMVpQT0docjI1SHFDeFdwYnZGVlVocXhzTy10WWViRk54VklyNzNiRFczXy04aURCdVdmSEdNbjNrRHpXNXM5LWRCZzJQajZVMVBx?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "$1.2 Billion Uganda Pipeline Opens New Export and Jobs Opportunities for North Dakota - Valley News Live",
-        "source": "Valley News Live",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSmRCd05fM3RYSGNjOHRGd3RoYjA1YlQtenozYUdRQ0tjT2dFdU1EbXRCbGt5VDFzLVQtLTNXRTZLdkZXbEF6MmYxaUZILUFTYVM2dk1VNVg5YmZ2NE5OOVRrajRFTTdFeU9sbndBNlZIZ0N6b3JSUGIycDZUY2dNYjRCczdGeThiRi1sME1STjlrd01DNnJKdGFmS1ozTklZakdyNEx2T0JfNGtZSHFONU82N19oRzBZT1HSAc4BQVVfeXFMTUI0dld6WlpFb1lvZ3M2aXpDQmpLMWlmYkd3Mm1nQS1GZHllRWhXV1RNS2ZpZ1FSSmM1S1pXYWtlTzVJTklOdGJIdHJ6aDF3dzJxTGlTaDJYYUcxTkRCN25RUWt0ZS1qNGNaX2phRFg1RnJHQU1BLWpJbTZ3TkJnalRkYkdzNnhiZlUwV0MtSVVfcXdoeWVBQXFwNnNlYWZIWjl6OWZJVFRpQlpjTm8wVDNVanpzUVJ0WDN1dWRIQmJ1Q3UtQ21Yck5ORlhlN1E?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-10-13",
+    "generated_at": "2026-10-14",
     "l1_ref": "商业设备及机械"
   }
 }

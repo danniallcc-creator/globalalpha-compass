@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「photovoltaic unboxing」增速 247%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese refiners suspend October fuel...」。",
+    "trend_summary": "太阳能产品：海外社媒「battery industry news」增速 251%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese refiners suspend October fuel...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能产品 出口需通过合规认证",
-      "海外社媒「photovoltaic unboxing」增速 247% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「battery industry news」增速 251% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "photovoltaic unboxing",
-        "growth": 247.0,
-        "vol": "49K",
+        "platform": "x",
+        "kw": "battery industry news",
+        "growth": 251.0,
+        "vol": "347K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "energy storage supply chain",
-        "growth": 242.5,
-        "vol": "73K",
+        "kw": "solar analyst",
+        "growth": 237.5,
+        "vol": "429K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "photovoltaic b2b export",
-        "growth": 235.0,
-        "vol": "565K",
+        "platform": "tiktok",
+        "kw": "solar must try",
+        "growth": 233.5,
+        "vol": "382K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "photovoltaic b2b export",
-        "growth": 232.0,
+        "kw": "energy storage wholesale supplier",
+        "growth": 176.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "solar market 2026",
-        "growth": 229.5,
+        "growth": 105.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "To achieve its next economic leap, Vietnam needs to move beyond the factory floor - Atlantic Council",
-        "source": "Atlantic Council",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeUJSX0xTamFZUWV0UjJiLXp4bmk1RUYya1RaN1kyVDZZcmp4TWwzMGV0OElNXzEwcC1vWWg5VGRzN3hrb2JYMGdmWm85dWk3aVc0YWNid1RhNDBhSFN5eTBaTXdWZkxUaDJpaHpIZDFkd2RqazFPd3RyWVNTejRBQXdIc25WRTNEelRwbktVbC1vTzNDcl8wSnFJalRZWFA2U0ZCNThDdW8zc1FSZmg3VG9zcERkTFFfX1MtRzN3Nnc3YUNkRU9LWnFQVWZtQQ?oc=5",
+        "title": "EU–Mediterranean green industrialisation: Connecting finance, trade and industrial policy - PubAffairs Bruxelles",
+        "source": "PubAffairs Bruxelles",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0QtRmFiYW5DY2l2Zm9fTEk4MlBxdy1pc2tydDdGVmdfWGkzQWFETENtcjhWRzV3Y3U3TVZGQUgxMklYT3gybjhoNUt1NlVSd2kydXE4NDZfVTZ4X2N4OXh3UTNQeWVvZDhYSEVDcUhSVFdVbDM3VVdkMFJKSVFfdkVPVEg4NUt1T2Y4MVFWc21DQS1BalhzSGtmeGJ0bTFib0thZTZCZDM5Q09vdHktT2xWMHNqYjJFZGViOGh1VUgwbmZpNDlRc2FybzV0WG9HM0VoVGlRWQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-10-13",
+    "generated_at": "2026-10-14",
     "l1_ref": "可再生能源"
   }
 }
