@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "生物化工产品：海外社媒「chemical supply chain」增速 236%，搜索端「chemical b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「EU seeks China curbs on hybrid car...」。",
+    "trend_summary": "生物化工产品：海外社媒「chemical market 2026」增速 236%，搜索端「chemical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「EU seeks China curbs on hybrid car...」。",
     "product_profile": {
       "外观": "工业标准桶 / IBC 吨桶 / 小瓶试剂",
       "成分": "水性 / 无溶剂 / 低 VOC / 生物基替代",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 生物化工产品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 生物化工产品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 生物化工产品 通关",
-      "海外社媒「chemical supply chain」增速 236% 领跑 → 生物化工产品社媒种草热度爆发"
+      "海外社媒「chemical market 2026」增速 236% 领跑 → 生物化工产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical supply chain",
+        "platform": "google",
+        "kw": "chemical market 2026",
         "growth": 236.5,
-        "vol": "505K",
+        "vol": "640K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "chemical industry report",
+        "growth": 213.5,
+        "vol": "566K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "chemical top 10",
-        "growth": 219.5,
-        "vol": "192K",
+        "kw": "chemical factory tour",
+        "growth": 212.0,
+        "vol": "27K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "chemical industry news",
-        "growth": 219.0,
-        "vol": "511K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "chemical market 2026",
+        "growth": 233.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chemical b2b export",
-        "growth": 153.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "chemicals export opportunity emerging markets",
-        "growth": 86,
+        "growth": 195.0,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Egypt’s chemical exports to Saudi Arabia surge 98% to $356m in 8M 2026 - Daily News Egypt",
-        "source": "Daily News Egypt",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZmFtMDFDZzVQcFB1bkI4b3dzc0h2MlptZ0FSdEdJTGJwMThCdXZZSDRrVnMyZUE1eHRPZjA3eFBRbnEteG9UWDdWdldmUjRUTDFpckIwMzZOb051Z3lyTFRPRFpKOHBueXRNMU96RDQ3eFhJS1BWWDBibGlva195b2JZeGZxYW9ybmVkU3hKeTBnbk00NGsxeTRMOU5FY0xBbDAwN29zYU5pTWF5amF3?oc=5",
+        "title": "Inorganic chemicals (HS: 28) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DTnpzNzV5MEtVLVJjWTUtNjVVTFFwajY1Zm53QzlmQXlSbjZSc2dMbm5Vd3laNW14eDJiWmU3ZjZHZUo1MmxzVTJEbm1WMmgyWDJIX0lnRFV1aGg4MDJEdQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "chemicals",
-    "generated_at": "2026-10-14",
+    "generated_at": "2026-10-15",
     "l1_ref": "化学品"
   }
 }

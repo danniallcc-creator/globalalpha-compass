@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "06",
-    "total_export_value_usd": 15000205,
-    "total_net_weight_kg": 14500205,
+    "total_export_value_usd": 39206023,
+    "total_net_weight_kg": 18706023,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-10-14"
+    "fetched_at": "2026-10-15"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 56,
-      "trend_direction": "stable",
+      "interest_score": 52,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-14"
+      "fetched_at": "2026-10-15"
     }
   },
   "industry_analysis": {
@@ -52,32 +52,32 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
       "total_usd": 1010095982.0,
       "total_kg": 0,
-      "yoy_growth": 15.2,
+      "yoy_growth": null,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "complete"
     },
     "imports_from_china": {
-      "GB": {
-        "value_usd": 3721802.118,
+      "JP": {
+        "value_usd": 140054265.252,
         "yoy": null,
-        "share": 1.4
+        "share": 91.4
       },
       "BR": {
         "value_usd": 1179493.0,
-        "yoy": 124.4,
-        "share": 0.4
-      },
-      "NL": {
-        "value_usd": 257212635.963,
         "yoy": null,
-        "share": 98.1
+        "share": 0.8
+      },
+      "CA": {
+        "value_usd": 11936787.679,
+        "yoy": null,
+        "share": 7.8
       }
     }
   }

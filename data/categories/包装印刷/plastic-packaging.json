@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "39",
-    "total_export_value_usd": 50792723,
-    "total_net_weight_kg": 20292723,
+    "total_export_value_usd": 19942611,
+    "total_net_weight_kg": 9442611,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-10-14"
+    "fetched_at": "2026-10-15"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 80,
+      "interest_score": 77,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-14"
+      "fetched_at": "2026-10-15"
     }
   },
   "industry_analysis": {
@@ -52,27 +52,22 @@
     "opportunity": "Sustainable and smart packaging solutions. Active and intelligent packaging. E-commerce optimized packaging design. Personalized and digital printing on packaging."
   },
   "compliance_summary": "Food contact materials compliance (EU 10/2011), REACH, recycling and waste regulations, labeling requirements, FSC certification for paper.",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
-      "total_usd": 199264826337.0,
+      "total_usd": 202988133154.0,
       "total_kg": 0,
       "yoy_growth": null,
-      "period": "2025",
+      "period": "2024 (proxy)",
       "source": "UN Comtrade",
-      "data_quality": "complete"
+      "data_quality": "estimated"
     },
     "imports_from_china": {
-      "DE": {
-        "value_usd": 7518041305.185,
+      "JP": {
+        "value_usd": 14833867635.568,
         "yoy": null,
-        "share": 34.9
-      },
-      "KR": {
-        "value_usd": 13999106147.0,
-        "yoy": null,
-        "share": 65.1
+        "share": 100.0
       }
     }
   }

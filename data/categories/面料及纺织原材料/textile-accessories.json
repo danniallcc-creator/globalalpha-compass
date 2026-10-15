@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "纺织配件：海外社媒「fabric aesthetic」增速 233%，搜索端「textile fabric market trend 2026」热度上行，US Amazon BSR Top-12，Fibre2Fashion关注「| $10 bn geotextiles market? The...」。",
+    "trend_summary": "纺织配件：海外社媒「fabric trending now」增速 235%，搜索端「textile fabric market trend 2026」热度上行，US Amazon BSR Top-12，The Observatory of Economic Complexity关注「Knitted fabrics (HS: 60) Product Trade,...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙 / 再生材料 PCR",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 纺织配件 供应链合规升级",
       "欧盟 CE 标志强制准入 → 纺织配件 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 纺织配件 通关",
-      "海外社媒「fabric aesthetic」增速 233% 领跑 → 纺织配件社媒种草热度爆发"
+      "海外社媒「fabric trending now」增速 235% 领跑 → 纺织配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "fabric aesthetic",
-        "growth": 233.0,
-        "vol": "313K",
+        "platform": "tiktok",
+        "kw": "fabric trending now",
+        "growth": 235.0,
+        "vol": "785K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "textile #fyp",
-        "growth": 217.5,
-        "vol": "754K",
+        "growth": 233.5,
+        "vol": "354K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "textile breaking",
-        "growth": 216.5,
-        "vol": "139K",
+        "platform": "tiktok",
+        "kw": "textile must try",
+        "growth": 224.5,
+        "vol": "576K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "textile fabric market trend 2026",
-        "growth": 89,
+        "growth": 91,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric digital transformation",
-        "growth": 87,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "| $10 bn geotextiles market? The textile opportunity beneath our feet - Fibre2Fashion",
-        "source": "Fibre2Fashion",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRlZoWkdIZUZtVWZ6bkNReFF1Tm53Y1V5eVZZaVNtbzI1U3NpN2dtbHU3MlhBa1dQX3NfanFtOWU5RTM4cFdsV1loX3JYeEszQnVWeEZtOWYtVGpUUHVKclBmZzdSZmhuZnk3dHh5bG50MVdQNm1BWTNnSGJTamlDcjd4dk81TC12aGZ1WGN6dzMwSWdiR2JfMUZCclRRczFaVnZRV2ppYm5XcXRpMTVjLXUzVzJ1Z1ZuSlVFWUZmVXE1U2NSa1JOZmZaZkNIZHh4VXJmd3pnVVFodHRHUmVEdUhmUmc?oc=5",
+        "kw": "textile fabric export opportunity emerging markets",
+        "growth": 73,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Knitted fabrics (HS: 60) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
         "source": "The Observatory of Economic Complexity",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHaHZCSEF6ajgtejRES2c5UWJtcVYydnlVQzNuMmhkTThaQ0tDazUxbW5lZk9GamJiSmR2bDdWN0l0QW9wN1BJcXBRU1lUR19GakVPaGM3dXZIYTQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Thailand's Cotton Fabric Market Report 2026 - Prices, Size, Forecast, and Companies - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWUydVhWa2d4a2lHaXhLQWRFY3BiNE82SWhDMm1fMk1fUDg1VGFyc0U5bTZIZ1JTTGk1ejhfNzdyQTM1ZEhid0xJSlAzSktHaHljLXJkTExhZVBJN3pMNUVoWXFpbFRHUnMwZ2hKbkFSLV94NEFhMVhMR3RBbkRHM3dpUEdfRzVGMC1aOUtkRjhsMjZqVnRGOURBM3ZWZWdNS0JVUEROeXdxZFZwc0xwN05MRQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-10-14",
+    "generated_at": "2026-10-15",
     "l1_ref": "面料及纺织原材料"
   }
 }

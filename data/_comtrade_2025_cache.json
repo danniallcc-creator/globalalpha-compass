@@ -2,27 +2,22 @@
   "2025_HS39": {
     "data": {
       "china_export": {
-        "total_usd": 199264826337.0,
+        "total_usd": 202988133154.0,
         "total_kg": 0,
         "yoy_growth": null,
-        "period": "2025",
+        "period": "2024 (proxy)",
         "source": "UN Comtrade",
-        "data_quality": "complete"
+        "data_quality": "estimated"
       },
       "imports_from_china": {
-        "DE": {
-          "value_usd": 7518041305.185,
+        "JP": {
+          "value_usd": 14833867635.568,
           "yoy": null,
-          "share": 34.9
-        },
-        "KR": {
-          "value_usd": 13999106147.0,
-          "yoy": null,
-          "share": 65.1
+          "share": 100.0
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS34": {
     "data": {
@@ -68,16 +63,26 @@
         "JP": {
           "value_usd": 1367316189.131,
           "yoy": null,
-          "share": 73.6
+          "share": 44.6
+        },
+        "AU": {
+          "value_usd": 663859760.702,
+          "yoy": null,
+          "share": 21.6
         },
         "NL": {
           "value_usd": 491387114.852,
           "yoy": null,
-          "share": 26.4
+          "share": 16.0
+        },
+        "MX": {
+          "value_usd": 544553198.0,
+          "yoy": null,
+          "share": 17.8
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS33": {
     "data": {
@@ -142,32 +147,32 @@
   "2025_HS48": {
     "data": {
       "china_export": {
-        "total_usd": 34998921783.0,
+        "total_usd": 36512944115.0,
         "total_kg": 0,
         "yoy_growth": null,
-        "period": "2025",
+        "period": "2024 (proxy)",
         "source": "UN Comtrade",
-        "data_quality": "complete"
+        "data_quality": "estimated"
       },
       "imports_from_china": {
-        "DE": {
-          "value_usd": 915724122.849,
+        "US": {
+          "value_usd": 2279806776.0,
           "yoy": null,
-          "share": 31.6
+          "share": 54.5
         },
         "KR": {
           "value_usd": 1389603670.0,
-          "yoy": 8.5,
-          "share": 48.0
-        },
-        "SA": {
-          "value_usd": 592049367.9339999,
           "yoy": null,
-          "share": 20.4
+          "share": 33.2
+        },
+        "BR": {
+          "value_usd": 515425535.0,
+          "yoy": null,
+          "share": 12.3
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS63": {
     "data": {
@@ -455,24 +460,29 @@
         "data_quality": "complete"
       },
       "imports_from_china": {
-        "JP": {
-          "value_usd": 541041209.695,
+        "DE": {
+          "value_usd": 644327872.994,
           "yoy": null,
-          "share": 57.3
+          "share": 36.9
         },
-        "IT": {
-          "value_usd": 147767003.921,
+        "AU": {
+          "value_usd": 608757050.708,
           "yoy": null,
-          "share": 15.6
+          "share": 34.8
         },
-        "CA": {
-          "value_usd": 255503423.27299997,
+        "SA": {
+          "value_usd": 29542522.768999998,
           "yoy": null,
-          "share": 27.1
+          "share": 1.7
+        },
+        "NL": {
+          "value_usd": 464198764.778,
+          "yoy": null,
+          "share": 26.6
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS07": {
     "data": {
@@ -555,24 +565,24 @@
         "data_quality": "complete"
       },
       "imports_from_china": {
-        "DE": {
-          "value_usd": 7711917.851,
-          "yoy": null,
-          "share": 6.3
+        "JP": {
+          "value_usd": 37665432.903000005,
+          "yoy": -4.9,
+          "share": 61.7
         },
         "AU": {
           "value_usd": 2672021.327,
           "yoy": null,
-          "share": 2.2
+          "share": 4.4
         },
-        "IT": {
-          "value_usd": 112948926.95699999,
+        "NL": {
+          "value_usd": 20731298.774,
           "yoy": null,
-          "share": 91.6
+          "share": 33.9
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS08": {
     "data": {
@@ -668,30 +678,30 @@
       "china_export": {
         "total_usd": 1010095982.0,
         "total_kg": 0,
-        "yoy_growth": 15.2,
+        "yoy_growth": null,
         "period": "2025",
         "source": "UN Comtrade",
         "data_quality": "complete"
       },
       "imports_from_china": {
-        "GB": {
-          "value_usd": 3721802.118,
+        "JP": {
+          "value_usd": 140054265.252,
           "yoy": null,
-          "share": 1.4
+          "share": 91.4
         },
         "BR": {
           "value_usd": 1179493.0,
-          "yoy": 124.4,
-          "share": 0.4
-        },
-        "NL": {
-          "value_usd": 257212635.963,
           "yoy": null,
-          "share": 98.1
+          "share": 0.8
+        },
+        "CA": {
+          "value_usd": 11936787.679,
+          "yoy": null,
+          "share": 7.8
         }
       }
     },
-    "fetched_at": "2026-10-07"
+    "fetched_at": "2026-10-15"
   },
   "2025_HS28": {
     "data": {

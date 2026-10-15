@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "有色金属：海外社媒「steel viral hack」增速 239%，搜索端「aluminum wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「Mercuria commits $500 million to US...」。",
+    "trend_summary": "有色金属：海外社媒「steel market alert」增速 254%，搜索端「steel b2b export」热度上行，US Amazon BSR Top-12，NioCorp Developments Ltd.关注「NioCorp Places 100% of Its Planned...」。",
     "product_profile": {
       "外观": "工业标准卷材/板材/棒材 / 定制切割",
       "成分": "低碳钢 / 再生铝 / 镍基高温合金 / 无铅黄铜",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 有色金属 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 有色金属 成主流",
       "欧盟 CE 标志强制准入 → 有色金属 出口需通过合规认证",
-      "海外社媒「steel viral hack」增速 239% 领跑 → 有色金属社媒种草热度爆发"
+      "海外社媒「steel market alert」增速 254% 领跑 → 有色金属社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel viral hack",
-        "growth": 239.0,
-        "vol": "714K",
+        "platform": "x",
+        "kw": "steel market alert",
+        "growth": 254.0,
+        "vol": "485K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "steel must try",
-        "growth": 233.5,
-        "vol": "130K",
+        "platform": "x",
+        "kw": "steel analyst",
+        "growth": 249.5,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "metal factory tour",
-        "growth": 230.0,
-        "vol": "151K",
+        "kw": "steel unboxing",
+        "growth": 240.0,
+        "vol": "267K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "aluminum wholesale supplier",
-        "growth": 224.5,
+        "kw": "steel b2b export",
+        "growth": 222.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "metal market 2026",
-        "growth": 104.5,
+        "source": "Linkedin",
+        "kw": "metal alloy market trend 2026",
+        "growth": 80,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "NioCorp Places 100% of Its Planned Critical Minerals Production Under Commercial Sales Agreements - NioCorp Developments Ltd.",
+        "source": "NioCorp Developments Ltd.",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWUlCN1J4WnhFZUdnQkdUNDY5Y2hPZFRrXzlsa056THBQZWUxV2F1Nk1raFY0cXFUOENDNDdfLVFmT3NzQmM5Ny1veEhLR2hFWGhtb2JYRzFJVFFtX1NVUkpJbTRVdkl6NjlZMkVDVE1pbWwtRzdzN08xSXl2RGprSV9ZQnNXYnU2MFRjNlNObUVtdlpPamxET3ZzQVpsel9CNUVTTk1XODRmSE5YbXlBbmJMWHBfWDdHcTN1UGJB?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Mercuria commits $500 million to US strategic minerals reserve initiative - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRGxXOW96ME1rY2NyWlI4Z1lubEZpLXViMUtLc2tvSFJFS01NUHB5VmV1WE1pajRSQ1hRbWNMZ2prVUdvdnMtZGVURkx4UnVJWENSSTJIeXZGMDU4a2M0WV9rQjNwQ3IyYzhTUjMxaGhNdmhwc21LREthVDZ6VFJvaE5YTzRTSnZOYWxubnZyRnJ4dEJJVVpUZE1CdVJqdWt6UWdLcHl4eUdoQTVRNDduT0RPNjB6Y3du?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Bahrain August 2026 Non-Oil Trade: Exports Fall 56%, Trade Deficit Hits BD210M - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMnRfTUVpd3lzeXNOVkxnUTItdG5WVVhodEExVi14WUxaMkZFcUZJVTI4U0FLOUhXaGUzc3RLZjNCQjRBQkVjd1J3dFhQRDh3M1VYU0gxWnVuZ0tHTnRXekgwY0J6UURzU0Zkd09tUGZCODBSRDFLdmJwV28xRUZCTFlvR2pYY1NzOWtMY2hHRDFWRUlXUVo5LXdnRUZ1N3IwS1NSalVreUYzdU9oM3U3TXVpWHo0RVhrSndzQVZCbXFfQQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "metals",
-    "generated_at": "2026-10-14",
+    "generated_at": "2026-10-15",
     "l1_ref": "金属与合金"
   }
 }

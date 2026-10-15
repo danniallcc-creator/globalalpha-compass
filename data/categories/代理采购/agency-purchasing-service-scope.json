@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 67,
-      "trend_direction": "up",
+      "interest_score": 84,
+      "trend_direction": "down",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-14"
+      "fetched_at": "2026-10-15"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购服务范围：海外社媒「sourcing breaking」增速 254%，搜索端「sourcing market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「US farmers push for China commitments...」。",
+    "trend_summary": "代理采购服务范围：海外社媒「sourcing breaking」增速 238%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「US farmers push for China commitments...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购服务范围 出口需通过合规认证",
-      "海外社媒「sourcing breaking」增速 254% 领跑 → 代理采购服务范围社媒种草热度爆发"
+      "海外社媒「sourcing breaking」增速 238% 领跑 → 代理采购服务范围社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "sourcing breaking",
-        "growth": 253.5,
-        "vol": "657K",
+        "growth": 238.5,
+        "vol": "127K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "sourcing market 2026",
-        "growth": 245.5,
-        "vol": "271K",
+        "kw": "procurement price trend",
+        "growth": 238.0,
+        "vol": "185K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "procurement aesthetic",
-        "growth": 237.0,
-        "vol": "703K",
+        "platform": "tiktok",
+        "kw": "procurement trending now",
+        "growth": 231.0,
+        "vol": "533K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 242.5,
+        "kw": "procurement b2b export",
+        "growth": 198.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing wholesale supplier",
-        "growth": 231.5,
+        "growth": 192.5,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "India Expands Crop Protection Exports as U.S. Agribusiness Looks Beyond China - AgroLatam",
-        "source": "AgroLatam",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSG9qUEFhV2R2V2M3YVI3b0pRR0JRS0Rja19oeUFnbHZjM0Zib2pzOFA0SUZ3b1ZoOGtxaF95ekNuV3o5cnMwSElldHZ1MzVoMEJURnFCRGJKQ1U1cjZrS0xSaE5jR01jZFNRdUlhcnNOUEZkbmlsMDJBYkxkMU9MMDlJMXdaUzZDY2daQndn?oc=5",
+        "title": "Chinese drivers stopped buying cars, so China’s automakers shipped them abroad: exports are up 64% while domestic sales fell 27% - Fortune",
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQjRFN2ZYTFBTemVBbGJIOHhZTlU3MVhkVWVKTTFHZElScVBlUXZYUEE1QTRKdXUtalNEOG5JOU9DQ0laYTdpOFltYXVhY0xOM1VJNjM5NThDRjdKYXNSQ05FZHdBMEtvMlVPc2UzQkRNa05XLVB5N2hrLXlxSHpFOF9Dbw?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-14",
+    "generated_at": "2026-10-15",
     "l1_ref": "代理采购"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts viral hack」增速 254%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Mexican auto exports slump in September...」。",
+    "trend_summary": "公交汽车零部件及配件：海外社媒「auto parts b2b export」增速 254%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China, EU strike deal to halve Chinese...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公交汽车零部件及配件 出口需通过合规认证",
-      "海外社媒「auto parts viral hack」增速 254% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
+      "海外社媒「auto parts b2b export」增速 254% 领跑 → 公交汽车零部件及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts viral hack",
+        "platform": "google",
+        "kw": "auto parts b2b export",
         "growth": 254.0,
-        "vol": "81K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "auto parts viral",
-        "growth": 239.5,
-        "vol": "762K",
+        "vol": "233K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "auto parts price trend",
-        "growth": 238.0,
-        "vol": "564K",
+        "kw": "auto parts industry report",
+        "growth": 228.5,
+        "vol": "243K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "auto parts trending now",
+        "growth": 197.0,
+        "vol": "706K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 139.0,
+        "growth": 251.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 129.5,
+        "growth": 89.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Mexican auto exports slump in September as US tariffs take toll - Reuters",
+        "title": "China, EU strike deal to halve Chinese hybrid exports - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGJBQ3U5X1l4T0ZNV3EwRlRRdDI3TFlOdTRoa2Z1V24tTE5DSTBDaS1obFFQczhfeG02WmpBZmlCQmRROGtYTzRzQTBzZGxrSEFxNGVWaWF6X0VnMUVrMzkzMmpweHg5RFRpc1g0ZXV0NjRiN3phampReEdnY3ZNNnVCMDhvLXlYdGVqaXRvZ2x0MkF4c1ltQ2dJLTNZZ0J4dnFORG5pMEc1T0dPb2VRX3R1Rjhid2R0Z19NUVY0aWM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHg5eDd4SHlldjU0OVlpTEVOaHB0QVpIOGhaTm9CSVN2WmE2RUtobThWUkpGM1NrMFVxeVFKMnctbEF4aV9JQnZIT0RjaXlWVHBhb3Noam5HemZnd0ZRTy1TSEJjUFljMl9md29ESGFUeVFha29xaWd0a050VjVjV2pFRS1qUWVJVm04SDJJUjRGcXBQUzE3TzhDaV9SWHR6TndZaGhMRUlib0NSekZFenBpUUtuTnZZSy1JekRHaDZoLTA?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "‘U.S. trade policy is damaging the U.S. auto industry’: Canada’s purchase of American cars hits new low as Trump’s tariffs backfire on U.S. ",
-        "source": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFNDc1F3cXVJTUpBVFJDZEZLZC1YaG9yUDU1aTVLVlA2eFlENG5GclRjYWlyRUVuOUYxeHF3TUtQUW1zTUVrNmUwakMzTl9mVHdvcERzSUFDZFVtUXpRVWRobEhwNHZlTzBSS2tqUWRPeGRVTXBuc2pJeXZXMnBVd045UjlCdzVqb3ZxS0ZFVWlSVWMwRXNRMElnRGtCa25KaWpWNmZB?oc=5",
+        "title": "China agrees to slash EU hybrid car exports in half, putting brake on trade war - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa2RCM0lJTlZrVnhlMmdjbldmMXpIekU5QzFIRzNqT25lNzNld25selhNcl9oYjFCWjRaX3ZSUzdGNDBrTmU0YzJJaUZneHRkQ2JZUmF4eUlSWG52QzE3VzBhLUFma0dqSG1wN1daLUd0Y0c0Q3NCblBKOV9sby1pQU1aUU1XWU1IbG1iQ2JiQUlrSzAwbDlFYnd5ZXkyblFYVjlxS1hVMFRRWVZmcmZ3OVpTekhjMnB6MW9rZ1BBYWg3eXJ4Yk1OM0d2NWTSAcwBQVVfeXFMTWk5X2h5SXFHS0JMQjVla2RTd0lUTC0ta0hWRVdVMzJHRU1FSlp2bUcyZkhTQlZ5UUktYW1BdFhuZ0pYX2ZDaFd3SmYteUNaRUhBbVBwelFfODBvMFhmeE1Lbmx1ZWdDSWVBRWlKRzJjMmVDbmp2c1VodGlXNGI4aDhFTDhuNUlQVjRjeUNIWXpaNzNuY1dBdkhGY3dwWklPMG9VT0wtZ3FUSEQxRzhtREkyV3JRRjF3TXlaYUxZWHpPVDVTamt0QWc4RDNo?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-10-14",
+    "generated_at": "2026-10-15",
     "l1_ref": "汽车零配件"
   }
 }
