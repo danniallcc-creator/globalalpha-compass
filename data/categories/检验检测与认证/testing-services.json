@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "检测服务：海外社媒「testing top 10」增速 234%，搜索端「testing wholesale supplier」热度上行，US Amazon BSR Top-12，World Trade Organization关注「OMC | United Kingdom: Ghana’s journey...」。",
+    "trend_summary": "检测服务：海外社媒「testing industry report」增速 242%，搜索端「testing market 2026」热度上行，US Amazon BSR Top-12，World Trade Organization关注「OMC | Guinea: From testing delays to...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 检测服务 出口需通过合规认证",
-      "海外社媒「testing top 10」增速 234% 领跑 → 检测服务社媒种草热度爆发"
+      "海外社媒「testing industry report」增速 242% 领跑 → 检测服务社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "testing industry report",
+        "growth": 242.5,
+        "vol": "336K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "testing market 2026",
+        "growth": 236.5,
+        "vol": "658K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "testing top 10",
-        "growth": 234.5,
-        "vol": "92K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "testing #trending",
-        "growth": 222.5,
-        "vol": "495K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "testing viral",
-        "growth": 220.5,
-        "vol": "748K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "testing wholesale supplier",
-        "growth": 165.5,
+        "kw": "testing tutorial",
+        "growth": 221.5,
+        "vol": "244K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "testing market 2026",
-        "growth": 115.5,
+        "growth": 233.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "testing wholesale supplier",
+        "growth": 80.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "OMC | United Kingdom: Ghana’s journey to meeting standards and reaching markets - World Trade Organization",
+        "title": "OMC | Guinea: From testing delays to trade gains - World Trade Organization",
         "source": "World Trade Organization",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN0tkYUl0TXF4cGQxMDJoUVhMbkt0X3djUXpCQmZOaHpqSmx2YkVTQVRXWHZHX3BwcG1nekNhcDJBYVdIWm5OdnlSYTJrZnFFalpyWldNd09jeHRNWTBNLTVFbXBoX0Qxa1NYclgyMDJSU1pfUTRMMDM2OHd4OVV3TVZEMFhpUQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1VWlaRmNxUlVIcmhmWC1QTExFVzNXbnVrQ2d0NHM0TTVPOVUzZnlVT0NFSE04UlNPV1prNWYxaDhKZGZ5SWlXNXBtRGhaSEw0SDdleVVrdDRxVGRBVkJxeVVoZ19aeFRXQ3o3Rkd4Y21oX1c5UGdqNHRn?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Sainfoin Seed Suppliers, Export Data & Price Trends | Global Market Overview 2026 - Tridge",
-        "source": "Tridge",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CWHQtOVkzN2FDWm1HZWl3ZndiMHhJV1d0R2hvenBrUi15LVJCRUdxWU10RTAtcUk2NDRfSFphajQ4Y1JGV2FRX3AxNGs1VHdSS0p5NHdlZWl3SVJEOHdCYWdn?oc=5",
+        "title": "AI In Testing, Inspection And Certification Market Size - Market.us",
+        "source": "Market.us",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ1B3VEZueks2VFNSa2xyemhzLXV4bktwZTNKSFNhYU44MWZNcV8yZUZaUHVRM3JLamM0dTJPdWdZVDg1TUx0MXo4SlpBUDV6XzA3aGotM2pwM1l1b0xMa2xFQkJ3UVkyZXQ1Y0hFaXBzcXVtaFg3VG00c2VTUG9FbA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "检验检测与认证"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "人体艺术：海外社媒「skincare supply chain」增速 242%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese beauty product exporters are...」。",
+    "trend_summary": "人体艺术：海外社媒「beauty breaking」增速 236%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Personal Care Insights关注「Indonesia backs cosmetics SMEs as...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,52 +50,52 @@
       "欧盟 CE 标志强制准入 → 人体艺术 出口需通过合规认证",
       "美国 FDA 注册要求 → 人体艺术 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 人体艺术 制造门槛",
-      "海外社媒「skincare supply chain」增速 242% 领跑 → 人体艺术社媒种草热度爆发"
+      "海外社媒「beauty breaking」增速 236% 领跑 → 人体艺术社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "skincare supply chain",
-        "growth": 242.5,
-        "vol": "435K",
+        "kw": "beauty breaking",
+        "growth": 236.5,
+        "vol": "124K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cosmetic aesthetic",
-        "growth": 227.0,
-        "vol": "741K",
+        "platform": "x",
+        "kw": "beauty industry news",
+        "growth": 232.0,
+        "vol": "122K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cosmetic new arrival",
-        "growth": 210.5,
-        "vol": "520K",
+        "platform": "tiktok",
+        "kw": "skincare tiktok made me buy",
+        "growth": 230.5,
+        "vol": "72K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 160.0,
+        "growth": 202.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 146.5,
+        "kw": "beauty market 2026",
+        "growth": 141.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Chinese beauty product exporters are sitting pretty despite US trade dispute - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVkIwcTZjNXZSQmpiMS1RZVY0NURneW9DY1VNNDI4bUpHVUlZRUlMTXByNEhCTHNzUm4wM3ZHdS1CdWlOMFZJcUpwUlE5WE9SeHZpSXAyTkF5S1RwWXNlYnA0RmNwRHpjOGl6QldNUnVlbEl6azR3bHhWV0pFbGdRRE5kdUx1clpPUXdEbnZmQUlfYWhybGxzekhTbWJ2UFYxd2tqSkNyMzlqc3JXRXdCMUptcXJqaU11T2NRSUdTTVIzYXE2TmJhV3JrWFFzWUpHZ0FJ?oc=5",
+        "title": "Indonesia backs cosmetics SMEs as beauty exports rise 13.7% - Personal Care Insights",
+        "source": "Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRUZkaXAycWJYM3lIa0FUVkNSX1dDWDZFM2xIN2haUkNhdXVlSHcydTRjODBqN3QtY3owcU5Rb2RzaEcwUXl0REU5NkVRRTJONzByRGNoOHRvZlBzQzUzRUxQMURWdFlFTWdjNDFTQkt5dWJ6ZkJ2ejB6NnZMdFZyZ01nMkJRUC1BcmNSR1Bn?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "美妆"
   }
 }

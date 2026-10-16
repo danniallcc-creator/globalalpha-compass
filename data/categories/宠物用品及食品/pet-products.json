@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet must try」增速 250%，搜索端「pet products sustainable manufacturing」热度上行，UK Amazon BSR Top-35，Animal Wellness Action关注「New Investigation Exposes Food Safety...」。",
+    "trend_summary": "宠物用品：海外社媒「pet analyst」增速 250%，搜索端「pet products digital transformation」热度上行，JP Amazon BSR Top-36，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,53 +49,46 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet must try」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet analyst」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet must try",
-        "growth": 249.5,
-        "vol": "266K",
+        "platform": "x",
+        "kw": "pet analyst",
+        "growth": 250.5,
+        "vol": "684K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 236.0,
-        "vol": "410K",
+        "platform": "x",
+        "kw": "pet supply chain",
+        "growth": 231.5,
+        "vol": "726K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 227.0,
-        "vol": "190K",
+        "platform": "google",
+        "kw": "pet food price trend",
+        "growth": 223.0,
+        "vol": "712K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products sustainable manufacturing",
-        "growth": 67,
+        "kw": "pet products digital transformation",
+        "growth": 94,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products supply chain resilience",
-        "growth": 61,
+        "growth": 85,
         "hits": 2
-      },
-      {
-        "dim": "媒体",
-        "title": "New Investigation Exposes Food Safety Failures and a Hidden Greyhound Racing Link in Australia’s Kangaroo Bushmeat Trade - Animal Wellness A",
-        "source": "Animal Wellness Action",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeVNCMUxuWEtOankwRlNkSkdxY1RObXhFV2ZBUmtNak1tSnk5RWYyQ2FtYkhvck1YNTRsbkR4Y3RuSmJickdpanVZQmZpLXdvZjJUYW9ub0pYdGFybnFoUDBZb0RKR2dqaUc4LXRILTV4OUdnaE9QX1V3OUkwUzVOMlJwaXppV0kxVTU5cWJ3OW4zaV9jRGNlWFlPSmF1QXB0Zlc1dFpueHlRRmFRQjV5NFNKZGI1Q003ekNaZ3hpdDN4alJrQnQ2YjE2NkM3U2M5LVJzTTc3bnRrR3c?oc=5",
-        "hits": 0
       },
       {
         "dim": "媒体",
@@ -105,26 +98,33 @@
         "hits": 0
       },
       {
+        "dim": "媒体",
+        "title": "Aquaculture - USDA (.gov)",
+        "source": "USDA (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NSFdmX3BHV1l5MkN5VGo1WGdlZlkyNWZGeWtrOGpuZXBSWnp0VWZielpaa2dvWkZDc3BybmNDTjJVTEtrRF9XWTR0aU9BZTcwZzIwWHNqamZMamNlcXY0cmlKYnFGUTYwZ2c?oc=5",
+        "hits": 0
+      },
+      {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 35,
-        "title": "Top pet food - Smart Edition",
-        "price": "$121.1",
-        "rating": 4.6,
+        "market": "JP",
+        "rank": 36,
+        "title": "Top pet - Eco Edition",
+        "price": "$121.4",
+        "rating": 4.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 24,
-        "title": "Top pet - Premium Edition",
-        "price": "$277.0",
-        "rating": 4.6,
+        "market": "DE",
+        "rank": 20,
+        "title": "Top pet food - Pro Edition",
+        "price": "$170.7",
+        "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "宠物用品及食品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「green tech trending now」增速 248%，搜索端「environmental wholesale supplier」热度上行，US Amazon BSR Top-12，Legis1关注「Chevron Phillips Lobbies on Recycling...」。",
+    "trend_summary": "回收：海外社媒「environmental analyst」增速 242%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Legis1关注「Chevron Phillips Lobbies on Recycling...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「green tech trending now」增速 248% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「environmental analyst」增速 242% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "environmental analyst",
+        "growth": 242.5,
+        "vol": "414K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "green tech trending now",
-        "growth": 248.0,
-        "vol": "649K",
+        "kw": "environmental #fyp",
+        "growth": 226.5,
+        "vol": "399K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "environmental tutorial",
-        "growth": 242.5,
-        "vol": "702K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "environmental breaking",
-        "growth": 237.5,
-        "vol": "778K",
+        "kw": "green tech factory tour",
+        "growth": 223.0,
+        "vol": "265K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 210.5,
+        "kw": "environmental market 2026",
+        "growth": 134.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 193.0,
+        "growth": 110.0,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "How can developing countries benefit more from biodiversity-based trade? - UN Trade and Development (UNCTAD)",
-        "source": "UN Trade and Development (UNCTAD)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQjUtYlprcGNnaDlNQ1Nfek5KVktfNXNya1hCTkFyclRqU1BUMkN1SEpoNXplU3ZzVXVucHNnY1FIN2ZYN0ZBUm5nRTY5ZXRySGtuUzdMLVBWd1ZwQ1c5bXF5b05SU1dGMnJnQ3RnN2VzYUNfSVZ4ZE82WVZkRzQzeEcyN3lmN0FnSUl5ZFRoWGNzTXBX?oc=5",
+        "title": "China, EU strike deal to halve Chinese hybrid exports - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHg5eDd4SHlldjU0OVlpTEVOaHB0QVpIOGhaTm9CSVN2WmE2RUtobThWUkpGM1NrMFVxeVFKMnctbEF4aV9JQnZIT0RjaXlWVHBhb3Noam5HemZnd0ZRTy1TSEJjUFljMl9md29ESGFUeVFha29xaWd0a050VjVjV2pFRS1qUWVJVm04SDJJUjRGcXBQUzE3TzhDaV9SWHR6TndZaGhMRUlib0NSekZFenBpUUtuTnZZSy1JekRHaDZoLTA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "环保"
   }
 }

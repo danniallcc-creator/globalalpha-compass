@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "卡车零部件：海外社媒「auto parts b2b export」增速 254%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China, EU strike deal to halve Chinese...」。",
+    "trend_summary": "卡车零部件：海外社媒「auto parts #trending」增速 250%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Mexican auto exports slump in September...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 卡车零部件 出口需通过合规认证",
-      "海外社媒「auto parts b2b export」增速 254% 领跑 → 卡车零部件社媒种草热度爆发"
+      "海外社媒「auto parts #trending」增速 250% 领跑 → 卡车零部件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "auto parts #trending",
+        "growth": 250.5,
+        "vol": "308K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "auto parts b2b export",
-        "growth": 254.0,
-        "vol": "233K",
+        "growth": 249.0,
+        "vol": "625K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "auto parts industry report",
-        "growth": 228.5,
-        "vol": "243K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts trending now",
-        "growth": 197.0,
-        "vol": "706K",
+        "platform": "instagram",
+        "kw": "auto parts viral",
+        "growth": 243.5,
+        "vol": "473K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts b2b export",
-        "growth": 251.0,
+        "growth": 246.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 89.5,
+        "growth": 141.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China, EU strike deal to halve Chinese hybrid exports - Reuters",
+        "title": "Mexican auto exports slump in September as US tariffs take toll - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHg5eDd4SHlldjU0OVlpTEVOaHB0QVpIOGhaTm9CSVN2WmE2RUtobThWUkpGM1NrMFVxeVFKMnctbEF4aV9JQnZIT0RjaXlWVHBhb3Noam5HemZnd0ZRTy1TSEJjUFljMl9md29ESGFUeVFha29xaWd0a050VjVjV2pFRS1qUWVJVm04SDJJUjRGcXBQUzE3TzhDaV9SWHR6TndZaGhMRUlib0NSekZFenBpUUtuTnZZSy1JekRHaDZoLTA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGJBQ3U5X1l4T0ZNV3EwRlRRdDI3TFlOdTRoa2Z1V24tTE5DSTBDaS1obFFQczhfeG02WmpBZmlCQmRROGtYTzRzQTBzZGxrSEFxNGVWaWF6X0VnMUVrMzkzMmpweHg5RFRpc1g0ZXV0NjRiN3phampReEdnY3ZNNnVCMDhvLXlYdGVqaXRvZ2x0MkF4c1ltQ2dJLTNZZ0J4dnFORG5pMEc1T0dPb2VRX3R1Rjhid2R0Z19NUVY0aWM?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "汽车零配件"
   }
 }

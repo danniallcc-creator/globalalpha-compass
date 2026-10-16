@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「energy storage tutorial」增速 240%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Export Stocks With Trade Tailwinds...」。",
+    "trend_summary": "太阳能产品：海外社媒「energy storage tiktok made me buy」增速 246%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Export Stocks With Trade Tailwinds...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能产品 出口需通过合规认证",
-      "海外社媒「energy storage tutorial」增速 240% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「energy storage tiktok made me buy」增速 246% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "energy storage tiktok made me buy",
+        "growth": 246.5,
+        "vol": "685K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "energy storage tutorial",
-        "growth": 239.5,
-        "vol": "693K",
+        "growth": 245.5,
+        "vol": "476K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "photovoltaic aesthetic",
-        "growth": 229.0,
-        "vol": "223K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "photovoltaic b2b export",
-        "growth": 223.0,
-        "vol": "111K",
+        "platform": "x",
+        "kw": "energy storage supply chain",
+        "growth": 240.5,
+        "vol": "707K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "photovoltaic b2b export",
-        "growth": 220.0,
+        "kw": "solar market 2026",
+        "growth": 133.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "energy storage wholesale supplier",
-        "growth": 131.5,
+        "growth": 95.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "可再生能源"
   }
 }

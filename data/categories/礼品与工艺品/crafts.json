@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工艺品：海外社媒「craft b2b export」增速 252%，搜索端「gifts crafts market trend 2026」热度上行，SA Amazon BSR Top-47，EIN News关注「Jinze Crafts Highlights Capabilities as...」。",
+    "trend_summary": "工艺品：海外社媒「craft trending now」增速 219%，搜索端「gifts crafts sustainable manufacturing」热度上行，JP Amazon BSR Top-42，EIN News关注「Jinze Crafts Highlights Capabilities as...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 工艺品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 工艺品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 工艺品 通关",
-      "海外社媒「craft b2b export」增速 252% 领跑 → 工艺品社媒种草热度爆发"
+      "海外社媒「craft trending now」增速 219% 领跑 → 工艺品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "craft b2b export",
-        "growth": 252.0,
-        "vol": "291K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "gift analyst",
-        "growth": 245.5,
-        "vol": "120K",
+        "platform": "tiktok",
+        "kw": "craft trending now",
+        "growth": 219.0,
+        "vol": "530K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "craft must have",
-        "growth": 242.0,
-        "vol": "224K",
+        "growth": 205.0,
+        "vol": "179K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "gift must try",
+        "growth": 204.5,
+        "vol": "188K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "gifts crafts market trend 2026",
-        "growth": 93,
+        "kw": "gifts crafts sustainable manufacturing",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "gifts crafts digital transformation",
-        "growth": 68,
+        "growth": 73,
         "hits": 2
       },
       {
@@ -100,32 +100,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Handicrafts Market Overview - Market Growth Reports",
-        "source": "Market Growth Reports",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORDBLTlNpeVNtWTltMzNSdFN4STIwWXBTRGNpbkZQbFdpZFNCcnIwOUlTOVdYZTdiNDhQVGVva2o1RndkM18ySllJYU9CX3lvT3lCM3pDZHc1TTFqT3hzY3VrcFI5OTlaUm5BWElHNW1LSmhqODhGWjBjY3VsbFd3X09n?oc=5",
+        "title": "Businesspeople in Ha Tinh contribute to elevating the status of local products. - Vietnam.vn",
+        "source": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGctRy1aODRhbzgxYzNHYlh5bW5nODAyc3BSbTcwV1RaVTZfVlBsUU5iN3EtN29WcGVPX08xS3FVNGtaVWRlTHhBRlU2bjdsQ0tnZFFKeDRjdGNpc1ZINU1yZ1ZSMmd5MWs5VWRjMExEaXNCNllwUFQ3OVpuY25nUTdmdXVDQQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "JP",
+        "rank": 42,
+        "title": "Top gift - Eco Edition",
+        "price": "$38.4",
+        "rating": 3.9,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 47,
-        "title": "Top gift - Compact Edition",
-        "price": "$175.8",
-        "rating": 4.7,
-        "hits": 2
-      },
-      {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 33,
-        "title": "Top gift - Premium Edition",
-        "price": "$169.0",
-        "rating": 4.4,
+        "market": "DE",
+        "rank": 36,
+        "title": "Top craft - Pro Edition",
+        "price": "$206.7",
+        "rating": 4.6,
         "hits": 2
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "礼品与工艺品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "公共汽车：海外社媒「electric vehicle breaking」增速 252%，搜索端「electric vehicle wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China, EU strike deal to halve Chinese...」。",
+    "trend_summary": "公共汽车：海外社媒「electric vehicle breaking」增速 244%，搜索端「ev b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China, EU strike deal to halve Chinese...」。",
     "product_profile": {
       "外观": "流线型低风阻 / 贯穿式尾灯 / 极简内饰",
       "成分": "三元锂/磷酸铁锂电池 / 高强度钢铝混合车身",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 公共汽车 出口需通过合规认证",
-      "海外社媒「electric vehicle breaking」增速 252% 领跑 → 公共汽车社媒种草热度爆发"
+      "海外社媒「electric vehicle breaking」增速 244% 领跑 → 公共汽车社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "electric vehicle breaking",
-        "growth": 252.5,
-        "vol": "610K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "electric vehicle supply chain",
-        "growth": 242.5,
-        "vol": "475K",
+        "growth": 243.5,
+        "vol": "495K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "electric vehicle industry report",
-        "growth": 233.5,
-        "vol": "12K",
+        "growth": 239.5,
+        "vol": "495K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electric vehicle wholesale supplier",
-        "growth": 196.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electric vehicle supply chain",
+        "growth": 195.5,
+        "vol": "516K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "ev b2b export",
-        "growth": 182.0,
+        "growth": 123.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electric vehicle wholesale supplier",
+        "growth": 71.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Chinese carmakers increasingly rely on overseas markets as September exports surge - The Washington Post",
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWUF2WFRFR0YySWYwYzVKemh2WF9qbjFxckRxSlkyMVd3T2g1UnJlbnJJbkhhWndKUlY2WHVhRHJoOHU1dk1VY1RIbzJ6ZkhIcHRNTGJpUHhIM2hScmJGeVcwLTNFUEo0REUwWG5tbzRBS1JoVVNPOTZwTXp6TEpXVGozSVhKNzhjaEFYSk9meVVXeWkxbk45N1dmNEx6OEI3WEZCMDdsUk1kTENIcnBGRXAzZGFTVVpXSEREVGkwbmFXeHhu?oc=5",
+        "title": "How Unstoppable Are China’s EV Exports? - Natixis CIB | Natixis Corporate & Investment Banking",
+        "source": "Natixis CIB | Natixis Corporate & Investment Banking",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaE0wMjFTbU9ObVhmaUM5cTNqTFA4NVNIV0NhZk4zR1RmY2xLUGh1emRVVEhtRGFhc05id1RFcVRGdl9LREhsTnVZZms0YldRMXdjREctWW5oNHkzVkZUT2lfN21YdXJERDJhRkk2NGVSVUdRR0UzajZGbkdEVlVpOWJn?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "vehicles_ev",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "整车及交通工具"
   }
 }

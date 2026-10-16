@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "石材：海外社媒「building #trending」增速 246%，搜索端「building market 2026」热度上行，US Amazon BSR Top-12，Council on Foreign Relations关注「Dismantling China’s Supply-Chain Weapon...」。",
+    "trend_summary": "石材：海外社媒「cement viral hack」增速 252%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Council on Foreign Relations关注「Dismantling China’s Supply-Chain Weapon...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 石材 出口需通过合规认证",
-      "海外社媒「building #trending」增速 246% 领跑 → 石材社媒种草热度爆发"
+      "海外社媒「cement viral hack」增速 252% 领跑 → 石材社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cement viral hack",
+        "growth": 252.0,
+        "vol": "448K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "building #trending",
-        "growth": 245.5,
-        "vol": "144K",
+        "growth": 235.5,
+        "vol": "490K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "building review 2026",
-        "growth": 239.5,
-        "vol": "686K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "building must try",
-        "growth": 238.5,
-        "vol": "98K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "building market 2026",
-        "growth": 135.5,
+        "platform": "x",
+        "kw": "building supply chain",
+        "growth": 227.5,
+        "vol": "167K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 132.0,
+        "growth": 131.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building wholesale supplier",
+        "growth": 110.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Global goods export growth hits joint-highest since mid-2021 - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVE4xcTBWZ0ZuRy1QbWZtWGFqZ3Q0al9EdHFHVncwZGR4dzg1RjNacV9rVEFRNFZSWVduaTQ4RUM3QTRpNHFNWmJPR1V4ZlNLRUhiMnVOajNSSlZGVm9GUmRCb2Z1amRINHJDeDNiNzdwclUzd0NaRW5pcXV0YTFnLU1kNzFoUWh5Z1hmUXlOWGw4Ni1vU2RlX3hhTkE5TklNUkIzN19JeVpPUWV6cTNwMHRCR0NlN1lncm1fNjJRb2FKR0JDSGVDU3hTbU1CYWZFeWoyc3Vn?oc=5",
+        "title": "‘So much chaos’: Escalating trade war with Canada impacts Pa.’s largest export market - TribLIVE.com",
+        "source": "TribLIVE.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQzFPYzFpNkkyaWhibGFwQWFOR2N6aTZ0VllkTzhJamp2Ny1ySGlUVi1ReEpRZnlNSFd1aFhoN3N2elJSQmRPRWxOMUo4STJJdkM2dFJub0xYTS1QZ0Y3RmZ0dWQzVHpiR1RNa3VqV0VuVmhOUU1LUktUTHprdnhrNEdOUEpGTUlYX3dQZWRTQ0tZVnhpQ1c0Y0JwQktTUkZDTW5KRXNGTGM3ZW82QndZQ0JTRGxjaVdTQVE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-10-15",
+    "generated_at": "2026-10-16",
     "l1_ref": "建材与房地产"
   }
 }
