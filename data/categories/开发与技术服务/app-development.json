@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "APP开发：海外社媒「tech service breaking」增速 248%，搜索端「tech service market 2026」热度上行，US Amazon BSR Top-12，Comisión Económica para América Latina y el Caribe关注「ECLAC: Goods Exports from the Region...」。",
+    "trend_summary": "APP开发：海外社媒「tech service #fyp」增速 256%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Inter-American Development Bank关注「Connecting Markets, Powering Growth:...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → APP开发 出口需通过合规认证",
-      "海外社媒「tech service breaking」增速 248% 领跑 → APP开发社媒种草热度爆发"
+      "海外社媒「tech service #fyp」增速 256% 领跑 → APP开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "tech service #fyp",
+        "growth": 256.5,
+        "vol": "392K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "tech service top 10",
+        "growth": 246.5,
+        "vol": "324K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
-        "kw": "tech service breaking",
-        "growth": 247.5,
-        "vol": "147K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "software outsourcing aesthetic",
-        "growth": 230.0,
-        "vol": "279K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "tech service market 2026",
-        "growth": 220.5,
-        "vol": "430K",
+        "kw": "tech service analyst",
+        "growth": 241.5,
+        "vol": "509K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "tech service market 2026",
-        "growth": 217.5,
+        "kw": "software outsourcing b2b export",
+        "growth": 189.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "tech service wholesale supplier",
-        "growth": 159.5,
+        "growth": 105.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean - Inter-American Development Bank",
+        "source": "Inter-American Development Bank",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlY0azJhdlRvVGxPdzNmdVM5M0tQWVJKa2ptUXBfT0dFLTRucG9vT1I4eHpLTzd5TVhLVW9oaHJYY2lUaF8wWlQtUTZJTmZfX0NTV1NqaFRTYTE2dG8zRng3cUZHV1lCb3FNVEltcF9hRmlFTjlZYUtaOVVUU3BBeDdYVEw5cmtacTBzZVQ0SDJlRkhZTUpiNGtBc001SFRQbW9adW1wSTNSM01ZdGRBZHBNRG1MZi1CWTAwdXlOeEVubDM5SFprbmhvY1h0TlMzTlhWQQ?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "ECLAC: Goods Exports from the Region Will Grow by 20% in 2026, and Modern Services Trade Creates Opportunities to Boost Economic Growth and ",
         "source": "Comisión Económica para América Latina y el Caribe",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVhBTHVZM3hVblk5eXZZQ1BjQjFaVkw1aW1HWnMyM2lYZ1lhMXZoYS12NlpVc3pHSHJORXZDTmdDSmRGVUgxSTU1V0tRVkRXTnp1VmNIYm5oTC1FeE9feXJycDBlVFBvWURQZE1YcUp6ZjhmU1BZN1FsVkp2bkdzQ3VuS2tFTEozMV9yWVZLM0E2LXljbmZHaWRubFYwM09WdW1hNzdSbTBTVVoxcFZONVpFUXhVOVZU?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China's September exports soar, putting $1 trillion trade surplus in sight - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVXg0RnM4TVlLaHEwQjBYdU16ZGhJaXpFeVVXYk9FLVg1RFp4cVlvWWNWa2xlRlhacndGbHpYeF9QMWs5Zy0ydnV6Ni1kV2dIUS1Ca0NEYVNpdHlQMk1EdFBOc2hxTVlJLXZXX2RKbVplTG5NY1B2NEl2UXRFaFROckZjUGdVZW1vcWpYUmdJR21JOTJrQkhIT3E5Y25CM1VCMDNwOWcxbVdsZw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "开发与技术服务"
   }
 }

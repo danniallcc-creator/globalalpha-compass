@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "功能鞋：海外社媒「sneaker tiktok made me buy」增速 252%，搜索端「footwear b2b export」热度上行，US Amazon BSR Top-12，IMARC Group关注「Footwear Manufacturing Plant Setup in...」。",
+    "trend_summary": "功能鞋：海外社媒「shoe #fyp」增速 256%，搜索端「sneaker wholesale supplier」热度上行，US Amazon BSR Top-12，IndexBox关注「Gucci's $1,000 Sneakers Made in China:...」。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -50,45 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 功能鞋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 功能鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 功能鞋 通关",
-      "海外社媒「sneaker tiktok made me buy」增速 252% 领跑 → 功能鞋社媒种草热度爆发"
+      "海外社媒「shoe #fyp」增速 256% 领跑 → 功能鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "sneaker tiktok made me buy",
-        "growth": 252.5,
-        "vol": "731K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "shoe #trending",
-        "growth": 247.5,
-        "vol": "33K",
+        "kw": "shoe #fyp",
+        "growth": 255.5,
+        "vol": "297K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "footwear must try",
-        "growth": 242.5,
-        "vol": "92K",
+        "kw": "footwear viral hack",
+        "growth": 251.0,
+        "vol": "307K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "footwear b2b export",
-        "growth": 235.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "shoe factory tour",
+        "growth": 247.0,
+        "vol": "515K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 126.5,
+        "growth": 214.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "footwear b2b export",
+        "growth": 212.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Gucci's $1,000 Sneakers Made in China: A Symbol of China's Manufacturing Shift - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHdCeVZfSkFudEFRS0k2c2VnZWtkWkFTaVJ4T25Lc3hVM1RPV1BKNFM1a2cyQUQ5ZjAzRlhKNVVHcWtPb0RaWTZkYUxfazZTZTJkNE1VRHFiNFc4NmY4d2RUZnVNbTFMQVVZTnB1VzJsU1lBYkNXYU5zZmQ1SVkxUGl2aE1qdGNtb29HUUZXaEFOU1FZZzByLV9NcEstb3pJUkU4ZFF3?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Footwear Manufacturing Plant Setup in India - IMARC Group",
         "source": "IMARC Group",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1o4OF90cG0zTUdBWk9UTDh2YWdCS0VZTXlZWGZPOE85TmtRYzROS3pwVFZjQTJUVUNvRXlHaWZ3U1E1VHB5MGJSMDZweWlEMjdTb1NGOXpuTEVrLU13Y3I1TVdWdzdPVDJXdmRFTXpkRU5MNkcxOHNqS05jbEFHOGdFbmxUeUE?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "German footwear sales remain subdued in the first half - World Footwear",
-        "source": "World Footwear",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVjFkWDRzRlpDbGM4UlhsdFNqWTVKNjc0cGNGajdUTG9faHFETHh3VXZnRnJlNlZnRUZqd0RIeHlSZFlsM2FadkVhdTNPWGtqV1RYWmxkMXhVcW5MaDRKVk1GTTR2TkkxSjFZMHMxVjhVc1RLV2twMk44Sk9LaFlsejRRLVdtejlHbnNDVVNDdUN4dmYwWHR1S3hWNERLX1pFOVE?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "鞋靴及配饰"
   }
 }

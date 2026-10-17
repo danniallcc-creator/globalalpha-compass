@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental analyst」增速 242%，搜索端「environmental market 2026」热度上行，US Amazon BSR Top-12，Legis1关注「Chevron Phillips Lobbies on Recycling...」。",
+    "trend_summary": "回收：海外社媒「green tech market alert」增速 249%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，Legis1关注「Chevron Phillips Lobbies on Recycling...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental analyst」增速 242% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech market alert」增速 249% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "environmental analyst",
-        "growth": 242.5,
-        "vol": "414K",
+        "kw": "green tech market alert",
+        "growth": 249.0,
+        "vol": "612K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "environmental #fyp",
-        "growth": 226.5,
-        "vol": "399K",
+        "platform": "google",
+        "kw": "environmental industry report",
+        "growth": 247.5,
+        "vol": "736K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "green tech factory tour",
-        "growth": 223.0,
-        "vol": "265K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "environmental market 2026",
-        "growth": 134.5,
+        "kw": "environmental top 10",
+        "growth": 243.5,
+        "vol": "113K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 110.0,
+        "growth": 152.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "environmental market 2026",
+        "growth": 136.5,
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "环保"
   }
 }

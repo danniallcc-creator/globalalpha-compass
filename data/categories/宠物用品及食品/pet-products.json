@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet analyst」增速 250%，搜索端「pet products digital transformation」热度上行，JP Amazon BSR Top-36，IranWire关注「Import Bans Drive Iranian Pet Food...」。",
+    "trend_summary": "宠物用品：海外社媒「pet #trending」增速 232%，搜索端「pet products digital transformation」热度上行，US Amazon BSR Top-48，USDA (.gov)关注「Dairy - Trade - USDA (.gov)」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet analyst」增速 250% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet #trending」增速 232% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet analyst",
-        "growth": 250.5,
-        "vol": "684K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet supply chain",
+        "platform": "instagram",
+        "kw": "pet #trending",
         "growth": 231.5,
-        "vol": "726K",
+        "vol": "784K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet food price trend",
-        "growth": 223.0,
-        "vol": "712K",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 222.0,
+        "vol": "360K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet breaking",
+        "growth": 211.5,
+        "vol": "645K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products digital transformation",
-        "growth": 94,
+        "growth": 83,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 85,
+        "kw": "pet products sustainable manufacturing",
+        "growth": 57,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Import Bans Drive Iranian Pet Food Black Market - IranWire",
-        "source": "IranWire",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlA5U1AyX1FaZXlLZFlIUFg3RWtWbm9FSlo4a0pWWDFZdWNLTk5FcEMyQlRvbU5TdlJzcW1JX3dCZU1jUUFTYllPeENLMXZtR2gyZWJGSjJETm1pOC11dkpjM3JzVEpmRERheHQ0OWdwcDhNcHNWekRlT1NDenRSZjBsLW9zU0ZfaVdaT3JkNWtyQQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Aquaculture - USDA (.gov)",
+        "title": "Dairy - Trade - USDA (.gov)",
         "source": "USDA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NSFdmX3BHV1l5MkN5VGo1WGdlZlkyNWZGeWtrOGpuZXBSWnp0VWZielpaa2dvWkZDc3BybmNDTjJVTEtrRF9XWTR0aU9BZTcwZzIwWHNqamZMamNlcXY0cmlKYnFGUTYwZ2c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91UVc4QldHaEJDdWFLcnowQlVKY0hzRWFTeXdhRUZJYTNpYVdsQ05IdlVJZVc0ZFBnRDB4VHJGR250TDVvbE5WeVk1T1kwOG1aNEw5ODBYeWt0SE9CMEFLWEIzcVdXbWNJcWc?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "This Chinese export boom really has legs – and wings - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck16MEY0SHdKODRjMFRrQjJjMzFfRFY0ZjVGWFdhbUsxT0lKYW5nR0NqVGJOX3g2VDZMbUh6d3d1bGt5cUtPV0hrUl9yTDVZbjRENDRGSnRTMmdJdjJqUHRzYVpkRXMzTnJn?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 36,
-        "title": "Top pet - Eco Edition",
-        "price": "$121.4",
-        "rating": 4.9,
+        "market": "US",
+        "rank": 48,
+        "title": "Top pet - Premium Edition",
+        "price": "$20.0",
+        "rating": 4.5,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 20,
-        "title": "Top pet food - Pro Edition",
-        "price": "$170.7",
+        "market": "UK",
+        "rank": 48,
+        "title": "Top pet food - Smart Edition",
+        "price": "$127.1",
         "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "宠物用品及食品"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "防水材料：海外社媒「cement viral hack」增速 252%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Council on Foreign Relations关注「Dismantling China’s Supply-Chain Weapon...」。",
+    "trend_summary": "防水材料：海外社媒「building #trending」增速 252%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Boston Consulting Group关注「China’s Petrochemical Strategies Are...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 防水材料 出口需通过合规认证",
-      "海外社媒「cement viral hack」增速 252% 领跑 → 防水材料社媒种草热度爆发"
+      "海外社媒「building #trending」增速 252% 领跑 → 防水材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "cement viral hack",
-        "growth": 252.0,
-        "vol": "448K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "building #trending",
-        "growth": 235.5,
-        "vol": "490K",
+        "growth": 252.5,
+        "vol": "275K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "building supply chain",
-        "growth": 227.5,
-        "vol": "167K",
+        "platform": "tiktok",
+        "kw": "cement trending now",
+        "growth": 247.0,
+        "vol": "793K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "cement unboxing",
+        "growth": 242.0,
+        "vol": "282K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 131.0,
+        "growth": 226.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "building wholesale supplier",
-        "growth": 110.5,
+        "source": "Linkedin",
+        "kw": "building materials market trend 2026",
+        "growth": 80,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China’s Petrochemical Strategies Are Reshaping Global Markets - Boston Consulting Group",
+        "source": "Boston Consulting Group",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMFMwcHdSeWtFTFVBNGlJSWNOQmNIeUVfajlnc21YbDY1eUZMeTI4Q1IzcFNEeHdFU183VkVqQ1puUlAxTFhXMDJ5SjlqYS1aOEJ4bVRqNGIwWlFBRzgwVDlLU2FQY0Y4Q1J5cUNpN3d3UEgyeFNfUHFfeUh3NlJ0ZkRhdw?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Dismantling China’s Supply-Chain Weapon - Council on Foreign Relations",
         "source": "Council on Foreign Relations",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hQnhUelltZDhreHQ0bEJ6LXZPSGU5bFJKOWFwS0Z2RngwU0hVRmZONlNJWWE2b0NXUkRrWDA2em9oX2V3MHBfV3B4WW53aUNnbnd2MHZJakdwazM4VTNkSERpZF9LMEdWUzZlV2VmYmItcHpU?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "‘So much chaos’: Escalating trade war with Canada impacts Pa.’s largest export market - TribLIVE.com",
-        "source": "TribLIVE.com",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQzFPYzFpNkkyaWhibGFwQWFOR2N6aTZ0VllkTzhJamp2Ny1ySGlUVi1ReEpRZnlNSFd1aFhoN3N2elJSQmRPRWxOMUo4STJJdkM2dFJub0xYTS1QZ0Y3RmZ0dWQzVHpiR1RNa3VqV0VuVmhOUU1LUktUTHprdnhrNEdOUEpGTUlYX3dQZWRTQ0tZVnhpQ1c0Y0JwQktTUkZDTW5KRXNGTGM3ZW82QndZQ0JTRGxjaVdTQVE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "建材与房地产"
   }
 }

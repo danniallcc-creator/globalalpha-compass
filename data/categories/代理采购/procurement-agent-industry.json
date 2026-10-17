@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 65,
+      "interest_score": 92,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-16"
+      "fetched_at": "2026-10-17"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Business licenses, trade compliance, quality inspection standards, intellectual property protection, contractual and legal compliance.",
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "代理采购行业：海外社媒「procurement aesthetic」增速 245%，搜索端「sourcing wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「US farmers push for China commitments...」。",
+    "trend_summary": "代理采购行业：海外社媒「sourcing breaking」增速 252%，搜索端「procurement b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「US farmers push for China commitments...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 代理采购行业 出口需通过合规认证",
-      "海外社媒「procurement aesthetic」增速 245% 领跑 → 代理采购行业社媒种草热度爆发"
+      "海外社媒「sourcing breaking」增速 252% 领跑 → 代理采购行业社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "procurement aesthetic",
-        "growth": 245.0,
-        "vol": "342K",
+        "platform": "x",
+        "kw": "sourcing breaking",
+        "growth": 251.5,
+        "vol": "464K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "procurement trending now",
-        "growth": 237.0,
-        "vol": "17K",
+        "platform": "google",
+        "kw": "procurement b2b export",
+        "growth": 242.0,
+        "vol": "312K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "sourcing top 10",
-        "growth": 195.5,
-        "vol": "622K",
+        "growth": 237.5,
+        "vol": "653K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "procurement b2b export",
+        "growth": 239.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sourcing wholesale supplier",
-        "growth": 188.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "sourcing market 2026",
-        "growth": 168.5,
+        "growth": 198.5,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Section 232 Pharmaceutical Tariffs Are Now in Effect Its Not Too Late to Consider Duty Mitigation Strategies - WilmerHale",
-        "source": "WilmerHale",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPanM0U2JmZ0JTcGpBdXlpQ3lFRmlVMG9tYWZxaENSbWpZT3JBZ0lEaWJLeV91dFlzTG9JVWNmRjc4dTFYY2xrSlYtZE01cWoyQlNkY25Pd19hZTZEa2g4TExGa0s2ME5lb3h4SUNWZGtGNmlVUmcxd1ptbjVHbzFKS09SY2I3dzVPOUJIS1FwSi1PT0VrbXZ4RFZmZnRGNFdvQlA4QTJLaGJDajNqTU1QRTNHampfQXBEM0VTYzA2b3pSdU16cFhBU3NwdEc4U2hlV2I2aFY3YjN3ZTlrVE5MSFZ3R0VIRGNYb1JzZ0RqTjJuR0lzSzFmbHdjRlN2dnc?oc=5",
+        "title": "Jyoti World Opens 2027 Partnership Opportunities With International Sourcing Teams - Kitsap Sun",
+        "source": "Kitsap Sun",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcHBtbWpIcHRrcnk2VjE4V1FRcEdVSUdkTF9pSjRJWEhUTzdid05TZDlHa1hQb2FpemtEWkNhZGlvcmU3RzhNMktmUm5VOWhNT0gtVlQ0Q3h5MUo2bjZaOTJVVlJPdTY3SDd2cXZJQ0ZJbHlTWHZhaFVndHZYM3RmU20zVzF6a3lrWV9vd2JXLXdWVkM5ZFpMZmdXeVBsUjNVMDU5eFd4bWJQb2xaVkQyVVFReGRzTjd1U3NjMlZpQVZaelFCd1FleXpBRUlOa09rT0E?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-10-16",
+    "generated_at": "2026-10-17",
     "l1_ref": "代理采购"
   }
 }
