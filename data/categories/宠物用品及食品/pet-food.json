@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food must have」增速 222%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-48，USDA (.gov)关注「Dairy - Trade - USDA (.gov)」。",
+    "trend_summary": "宠物食品：海外社媒「pet food aesthetic」增速 219%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-20，USDA (.gov)关注「Dairy - Trade - USDA (.gov)」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food must have」增速 222% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food aesthetic」增速 219% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "pet food must have",
-        "growth": 222.0,
-        "vol": "360K",
+        "kw": "pet food aesthetic",
+        "growth": 219.0,
+        "vol": "148K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "pet food market alert",
+        "growth": 193.0,
+        "vol": "455K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 188.0,
-        "vol": "560K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 139.0,
-        "vol": "346K",
+        "kw": "pet food trending now",
+        "growth": 191.0,
+        "vol": "200K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 128.0,
+        "growth": 87.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet wholesale supplier",
-        "growth": 167.5,
+        "growth": 181.5,
         "hits": 0
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "This Chinese export boom really has legs – and wings - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlowanVKaFdPYlZrOXM4Nk1Fc01KSzRMdWpzd0czb3pqT0kzYVkxbUNGeVZTRVprck16MEY0SHdKODRjMFRrQjJjMzFfRFY0ZjVGWFdhbUsxT0lKYW5nR0NqVGJOX3g2VDZMbUh6d3d1bGt5cUtPV0hrUl9yTDVZbjRENDRGSnRTMmdJdjJqUHRzYVpkRXMzTnJn?oc=5",
+        "title": "New Investigation Exposes Food Safety Failures and a Hidden Greyhound Racing Link in Australia’s Kangaroo Bushmeat Trade - Animal Wellness A",
+        "source": "Animal Wellness Action",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0tnMzZIQU04Z1NFcUtydDdxQWh6eWh1UXRyZUtBTlF3Uzltb2VEM1hVSkItSGZmUXVGSnFOTU9CTUg4RjNnODNKazBnRWxXbTZvVTBab1JYNjhwNDgyWXEzdGoxcGJldDVGOW9YSE1TYTdjRER0U01LRGZyekt1LUNNYS1YclJ0NFVjc3ZZejc2c2YxTmZReHZCamVYMElHNHo0US16b0Q?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 48,
-        "title": "Top pet - Premium Edition",
-        "price": "$20.0",
-        "rating": 4.5,
+        "market": "SA",
+        "rank": 20,
+        "title": "Top pet - Compact Edition",
+        "price": "$108.8",
+        "rating": 4.8,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "JP",
-        "rank": 22,
+        "rank": 8,
         "title": "Top pet - Eco Edition",
-        "price": "$242.4",
-        "rating": 4.4,
+        "price": "$57.4",
+        "rating": 4.8,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-17",
+    "generated_at": "2026-10-18",
     "l1_ref": "宠物用品及食品"
   }
 }

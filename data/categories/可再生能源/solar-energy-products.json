@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「solar market 2026」增速 252%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Export Stocks With Trade Tailwinds...」。",
+    "trend_summary": "太阳能产品：海外社媒「photovoltaic viral hack」增速 238%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，NRDC关注「Market Boundaries Matter: Western...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能产品 出口需通过合规认证",
-      "海外社媒「solar market 2026」增速 252% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「photovoltaic viral hack」增速 238% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "solar market 2026",
-        "growth": 251.5,
-        "vol": "540K",
+        "platform": "tiktok",
+        "kw": "photovoltaic viral hack",
+        "growth": 238.0,
+        "vol": "259K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "solar #trending",
-        "growth": 247.5,
-        "vol": "297K",
+        "growth": 227.5,
+        "vol": "628K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "energy storage supply chain",
-        "growth": 237.5,
-        "vol": "747K",
+        "kw": "solar analyst",
+        "growth": 227.5,
+        "vol": "231K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "solar market 2026",
-        "growth": 248.5,
+        "growth": 189.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy digital transformation",
-        "growth": 87,
+        "source": "Google Trends",
+        "kw": "photovoltaic b2b export",
+        "growth": 163.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Market Boundaries Matter: Western Electricity Markets Can Better Share Affordable Power - NRDC",
+        "source": "NRDC",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORWZnQjIyeDZBaUZ0WG51aXVzdjRfU3hpY3I0bng1N09iZWZ6VlJORDBxZlhaS0FNMWx3NzJFaTRFZExOWDZabWJycTZQcTByeFVWck1OLUxHOGgwLUxJY28wYTdIQnpEWjJMNTlaeW1hQTdJZDQ0YnQzajJVdXpBMzd0WVZTeTM0aVptekNBbVpUN2g2NEU2Nk5FT2RhaXA5WVE5RU9HRnN1OE80TTVTQmM2UzMxN24zVVFabw?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "3 Export Stocks With Trade Tailwinds Investors Should Watch Now - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOckpqdnlvcnNEYkhzT203V1R2aVJDaDdxdUdPd3VhaGY4emFGbEdwejNzWlljT2d5SXdzSTh0RC02YmZabDBUTFZkNUF5VXlXNkZuUnUzN3N2VUd3MjAzcUxDOWxTTS1SRFNFSU5OTkg2d1Rxb05DbVdHYUtpYjlCazdfWVRjdEFOaFhYeTM0OHNxdGtJY3BPR2RpY1Q?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "EU–Mediterranean green industrialisation: Connecting finance, trade and industrial policy - PubAffairs Bruxelles",
-        "source": "PubAffairs Bruxelles",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0QtRmFiYW5DY2l2Zm9fTEk4MlBxdy1pc2tydDdGVmdfWGkzQWFETENtcjhWRzV3Y3U3TVZGQUgxMklYT3gybjhoNUt1NlVSd2kydXE4NDZfVTZ4X2N4OXh3UTNQeWVvZDhYSEVDcUhSVFdVbDM3VVdkMFJKSVFfdkVPVEg4NUt1T2Y4MVFWc21DQS1BalhzSGtmeGJ0bTFib0thZTZCZDM5Q09vdHktT2xWMHNqYjJFZGViOGh1VUgwbmZpNDlRc2FybzV0WG9HM0VoVGlRWQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-10-17",
+    "generated_at": "2026-10-18",
     "l1_ref": "可再生能源"
   }
 }
