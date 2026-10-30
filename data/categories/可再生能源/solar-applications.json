@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能应用：海外社媒「photovoltaic viral hack」增速 238%，搜索端「solar market 2026」热度上行，US Amazon BSR Top-12，NRDC关注「Market Boundaries Matter: Western...」。",
+    "trend_summary": "太阳能应用：海外社媒「solar #trending」增速 240%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Export Stocks With Trade Tailwinds...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能应用 出口需通过合规认证",
-      "海外社媒「photovoltaic viral hack」增速 238% 领跑 → 太阳能应用社媒种草热度爆发"
+      "海外社媒「solar #trending」增速 240% 领跑 → 太阳能应用社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "photovoltaic viral hack",
-        "growth": 238.0,
-        "vol": "259K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "solar #trending",
-        "growth": 227.5,
-        "vol": "628K",
+        "growth": 239.5,
+        "vol": "757K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "solar analyst",
-        "growth": 227.5,
-        "vol": "231K",
+        "kw": "energy storage supply chain",
+        "growth": 225.5,
+        "vol": "182K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "solar market 2026",
-        "growth": 189.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "battery trending now",
+        "growth": 224.0,
+        "vol": "779K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 163.0,
+        "growth": 178.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Market Boundaries Matter: Western Electricity Markets Can Better Share Affordable Power - NRDC",
-        "source": "NRDC",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORWZnQjIyeDZBaUZ0WG51aXVzdjRfU3hpY3I0bng1N09iZWZ6VlJORDBxZlhaS0FNMWx3NzJFaTRFZExOWDZabWJycTZQcTByeFVWck1OLUxHOGgwLUxJY28wYTdIQnpEWjJMNTlaeW1hQTdJZDQ0YnQzajJVdXpBMzd0WVZTeTM0aVptekNBbVpUN2g2NEU2Nk5FT2RhaXA5WVE5RU9HRnN1OE80TTVTQmM2UzMxN24zVVFabw?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "energy storage wholesale supplier",
+        "growth": 134.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "3 Export Stocks With Trade Tailwinds Investors Should Watch Now - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOckpqdnlvcnNEYkhzT203V1R2aVJDaDdxdUdPd3VhaGY4emFGbEdwejNzWlljT2d5SXdzSTh0RC02YmZabDBUTFZkNUF5VXlXNkZuUnUzN3N2VUd3MjAzcUxDOWxTTS1SRFNFSU5OTkg2d1Rxb05DbVdHYUtpYjlCazdfWVRjdEFOaFhYeTM0OHNxdGtJY3BPR2RpY1Q?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "From just-in-time to just-in-case: oil executives say world needs more export routes - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDR0Q2ZrRW1NUW9NNU13Q0hldFhocVBkZTJrRHpicldtQXRjNEp3akpjaEI3NUtESWJqT0EwS2kwaXg4c21iQTg5Yy0xX3Q0aVNhTXg4dHRCNmZYU1N3aWZWN3JjZGR0WHBrNzFJZkhXNnBPVzltUHp1U0U4Q0E2MEtQa1prMDMzSHBoQlE5RlZiQ29zTmZvbWhVM3JPOURSN3htdFdCZ3FfVlowQ1FmRC1IWWVYUnVrandwcThELWQxdGpoeXc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-10-18",
+    "generated_at": "2026-10-30",
     "l1_ref": "可再生能源"
   }
 }
