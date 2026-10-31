@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "传感器：海外社媒「semiconductor trending now」增速 246%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: India-China thaw faces...」。",
+    "trend_summary": "传感器：海外社媒「electronic component market alert」增速 253%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: India-China thaw faces...」。",
     "product_profile": {
       "外观": "手持便携 / 台式精密 / IP67 工业级",
       "成分": "航空铝外壳 / MEMS 传感器 / 蓝宝石视窗",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 传感器 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 传感器 成主流",
       "欧盟 CE 标志强制准入 → 传感器 出口需通过合规认证",
-      "海外社媒「semiconductor trending now」增速 246% 领跑 → 传感器社媒种草热度爆发"
+      "海外社媒「electronic component market alert」增速 253% 领跑 → 传感器社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "electronic component market alert",
+        "growth": 253.0,
+        "vol": "142K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "semiconductor trending now",
-        "growth": 246.0,
-        "vol": "323K",
+        "kw": "5g must try",
+        "growth": 248.5,
+        "vol": "491K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electronic component market alert",
-        "growth": 243.0,
-        "vol": "269K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "5g market 2026",
-        "growth": 201.5,
-        "vol": "247K",
+        "kw": "5g analyst",
+        "growth": 244.5,
+        "vol": "176K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 198.5,
+        "growth": 128.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electronic component b2b export",
-        "growth": 88.0,
+        "source": "Linkedin",
+        "kw": "electronic components market trend 2026",
+        "growth": 85,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Washington’s $70 Billion in Lost Protection: Liberation Day, One Year Later - Coalition For A Prosperous America",
-        "source": "Coalition For A Prosperous America",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTUdDMGxkVTF2UE92VmdtX0E2MFAzSnk0bFpkSDE2VEh4Q0I4Q1ZtZ3lHTEpqRnlzNWxheUZkR0FZYVM5YVJxUWk0ODNRSmtkX2VKalVMS1lMZjVwNUJydVpvT0h1SDRMcnN1STRVcU1qbzQzclhnN0Z1YWhsdFJLZlJLc1VEbE9XVEM1Qks1ZlptSWpob01xUVd6Ni0tcVZBRnE5MQ?oc=5",
+        "title": "Wire Ferrules Market Forecast to 2035: Growth Driven by Industrial Automation and Renewable Energy - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT0RvcnN3LTRxVklwWktzSThQSm9jMTZ0UjU1UXZjTkVUUTd1UVgwZG16SG9PTWo4Mnp0bF9zNHVKZGNPamhiVm5BTFZvRG92ZlNBSEFoS0VKU0JrOVhkaXFabVpIWUR4amdNeXA2ajJFa3R1MkRmc2ljSnZ6eHpuTG1nVXFZX09aYU9lRUIxMlc4TWZ5S2NhQXpLNkhKUGNXVUljYkRuOV9KbU5VTVB6VTRzQm9RQlRKdDZkMFNrSzdodUhRemc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "instruments",
-    "generated_at": "2026-10-30",
+    "generated_at": "2026-10-31",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }
