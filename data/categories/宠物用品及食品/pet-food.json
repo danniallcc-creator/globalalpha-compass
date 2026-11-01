@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food trending now」增速 239%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-36，Reuters关注「Argentina sees EU soymeal opportunity...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food unboxing」增速 251%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-43，Nation Thailand关注「Thailand Targets Global Pet Hub Status...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food trending now」增速 239% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food unboxing」增速 251% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 239.0,
-        "vol": "676K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 186.0,
-        "vol": "12K",
+        "platform": "youtube",
+        "kw": "pet food unboxing",
+        "growth": 251.0,
+        "vol": "373K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "pet food price trend",
-        "growth": 156.0,
-        "vol": "699K",
+        "growth": 228.0,
+        "vol": "643K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food viral hack",
+        "growth": 160.0,
+        "vol": "423K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 105.0,
+        "growth": 136.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet market 2026",
-        "growth": 252.5,
+        "growth": 232.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Argentina sees EU soymeal opportunity as deforestation rules threaten Brazil trade - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVhTUW1FTzJQVHVEbTc4QUdaaHpqd21IM1hQRWdWMDMzYjVGVThBU3h1YzN1bVFka1BzUU9SZXg0cC15Z0kxYzM5YzhxODVrMEtqak9fTHVocjBRQjJPNE9UQThxUHV1NFpsTnpHRXJIT3AtRmZGSExmRkloUGlvTG45TDJvVFp6b3A0RFpQZFdZRGlZaFVlSnYxM04tdXRYbW5iX3B4YURFMGl0YWxVRm13SVUzWkpJREk0UlBNbEVJNlBZelNzaHNR?oc=5",
-        "hits": 0
+        "title": "Thailand Targets Global Pet Hub Status as Pet Food Exports Reach $3.28 Billion - Nation Thailand",
+        "source": "Nation Thailand",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUNnZhdG5ySURNcTFqdW10UzdCVlg4SlBjdDY4SUxIcmx6emYyNkdHaDNCYU9pMEgtUFMyM2t6alhOWW5fRkdQUmVCTllsaXQzOXh1YlBRcFh4RVVzVUhHMHVOaG5fOFU?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Wheat - Wheat Sector at a Glance - USDA (.gov)",
-        "source": "USDA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLXRQaWdqaVB5UW91dDhwWUo3VlRmMFFXcmxnSDVLSXVMYkVoVW50TTVYMm9UTHV3ZEFrWU5jM1J1bTd1NHJxZTU4Nks3clkxeFVKU3NON21BQXVOY3pMeVRnLUR3Z0w2R0t3UzJ1VDlRX1FBNkE?oc=5",
+        "title": "Pet Economy: Why the Promising Pet Industry Faces a Premature Decline Before Reaching Its Prime - 36Kr",
+        "source": "36Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6R1dNNWNNYjZvZmY4X2MyMENfV1g5Q2hiTEpETC0xc2JDQ1lJdnNYbTUySnpzRkFtX1BMdjdYYlpoeVdVQjlyci1idUhGLU8zZkd3?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "SA",
-        "rank": 36,
-        "title": "Top pet - Compact Edition",
-        "price": "$122.8",
-        "rating": 4.0,
+        "market": "JP",
+        "rank": 43,
+        "title": "Top pet - Eco Edition",
+        "price": "$234.4",
+        "rating": 4.2,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 30,
+        "rank": 17,
         "title": "Top pet - Premium Edition",
-        "price": "$36.0",
-        "rating": 4.1,
+        "price": "$284.0",
+        "rating": 4.2,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-31",
+    "generated_at": "2026-11-01",
     "l1_ref": "宠物用品及食品"
   }
 }

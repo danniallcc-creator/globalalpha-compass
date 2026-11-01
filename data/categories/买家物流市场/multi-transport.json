@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 98,
+      "interest_score": 92,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-10-31"
+      "fetched_at": "2026-11-01"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight aesthetic」增速 251%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，ODI: Think change关注「E-commerce and international trade in...」。",
+    "trend_summary": "多式联运：海外社媒「freight market alert」增速 246%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，Automotive Logistics关注「US tariffs drive 12% drop in Mexico...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,45 +56,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight aesthetic」增速 251% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight market alert」增速 246% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "freight aesthetic",
-        "growth": 251.0,
-        "vol": "739K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics #fyp",
-        "growth": 249.5,
-        "vol": "441K",
+        "platform": "x",
+        "kw": "freight market alert",
+        "growth": 246.0,
+        "vol": "467K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "logistics market 2026",
-        "growth": 248.5,
-        "vol": "111K",
+        "growth": 244.5,
+        "vol": "626K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "logistics #trending",
+        "growth": 237.5,
+        "vol": "452K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "logistics market 2026",
-        "growth": 245.5,
+        "growth": 241.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "freight b2b export",
-        "growth": 112.0,
+        "kw": "shipping wholesale supplier",
+        "growth": 162.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US tariffs drive 12% drop in Mexico vehicle exports as OEM strategies diverge - Automotive Logistics",
+        "source": "Automotive Logistics",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN3JXXzBJNEkyOVFYUHFnX2VrQTlDalJFaDYxYU9NQXNTWjVBd1VOUmN6U1QzWWdTaU1sakJLQW9sUFNYeE5QRDZRU2Z0aFVjTTRVMGVyaUs1Mm9kS1VFZWx0ZnE0Z2wyZ0xrUTdwdVJLd2Y0RVBjMFlkZ3VCMVdGYVFQU2c2cnNqZk1yYmUtQ283TGtrTGpWNmhoQXlRZXFodVgtU1VkTENyYVg3ZTdodFhqSkQ5d2xMR3lBQkV0cjlTVWNNZEE?oc=5",
         "hits": 0
       },
       {
@@ -102,13 +109,6 @@
         "title": "E-commerce and international trade in Sri Lanka: findings from a survey of 953 exporters and importers - ODI: Think change",
         "source": "ODI: Think change",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWmhEODdxXzlVb3IyRVUwbTdza0RsUDhNdF83VEZ3SXMtbkVad196VHNCUDBQc0ZWZTNvdmRoQTBYV3U4NXdxS3hOcmJNSnhvMkF0MkVicGVKUDNaVWhtanNEUk1wUllkOFNvSHVsTlM4V2I0dGlNVGtLdnh3VEJlSG9wTHd0bklsWEhzSHZBN29IaUd3VFFYTmctUktYZllkZGF5MVgxN2p3R1BFQXFUYnF1MXJoU2NRZDVZOUtLX2dHSV9DeDVvRDdQeGRzRzA?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Five Reputable Cross-Border Transportation Service Providers in 2026: Digitalizing Global Supply Chain Resilience - Democrat and Chronicle",
-        "source": "Democrat and Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWHVuVE4yUFFyVGJWTHE3eDg0TE9NWEFaUkFNc3hFN0tIekU3T2tEcmlYelNRZXExV1ZZR1p3RUZuZHJEQ2RySnZGSGg0LWFMaE9hekhEVG5mbHJTM2FBMHRHdk1Ma00tT3BrNmh0TXdwQlVWbmxiSXNYWEtYNGJGWVhTR1NtZGZqLS1tdGUzaVBvaE5weFBtYXJuXy10VjdjdlFKVzV3Q2oxcThQdi1aejJZT3dEN29zZ3hkRExvWE1ScG1lc2hIUW9PSXJKSFNuLWdYcWtrdWlQYUE3MXN2RlNCUDBvVU0xR2VsbjNpdGFMTUMtT05PRjk4alhlVDBIc2FocEZOWXI?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-10-31",
+    "generated_at": "2026-11-01",
     "l1_ref": "买家物流市场"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet market 2026」增速 256%，搜索端「pet products export opportunity emerging markets」热度上行，UK Amazon BSR Top-37，Reuters关注「Argentina sees EU soymeal opportunity...」。",
+    "trend_summary": "宠物用品：海外社媒「pet food unboxing」增速 251%，搜索端「pet products sustainable manufacturing」热度上行，US Amazon BSR Top-46，36Kr关注「Pet Economy: Why the Promising Pet...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet market 2026」增速 256% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet food unboxing」增速 251% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "pet food unboxing",
+        "growth": 251.0,
+        "vol": "373K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "pet market 2026",
-        "growth": 255.5,
-        "vol": "357K",
+        "growth": 235.5,
+        "vol": "629K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet analyst",
-        "growth": 246.5,
-        "vol": "778K",
+        "platform": "youtube",
+        "kw": "pet tutorial",
+        "growth": 235.5,
+        "vol": "664K",
         "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet tiktok made me buy",
-        "growth": 245.5,
-        "vol": "14K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 63,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products sustainable manufacturing",
-        "growth": 58,
+        "growth": 76,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products digital transformation",
+        "growth": 59,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Argentina sees EU soymeal opportunity as deforestation rules threaten Brazil trade - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVhTUW1FTzJQVHVEbTc4QUdaaHpqd21IM1hQRWdWMDMzYjVGVThBU3h1YzN1bVFka1BzUU9SZXg0cC15Z0kxYzM5YzhxODVrMEtqak9fTHVocjBRQjJPNE9UQThxUHV1NFpsTnpHRXJIT3AtRmZGSExmRkloUGlvTG45TDJvVFp6b3A0RFpQZFdZRGlZaFVlSnYxM04tdXRYbW5iX3B4YURFMGl0YWxVRm13SVUzWkpJREk0UlBNbEVJNlBZelNzaHNR?oc=5",
+        "title": "Pet Economy: Why the Promising Pet Industry Faces a Premature Decline Before Reaching Its Prime - 36Kr",
+        "source": "36Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6R1dNNWNNYjZvZmY4X2MyMENfV1g5Q2hiTEpETC0xc2JDQ1lJdnNYbTUySnpzRkFtX1BMdjdYYlpoeVdVQjlyci1idUhGLU8zZkd3?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Wheat - Wheat Sector at a Glance - USDA (.gov)",
-        "source": "USDA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLXRQaWdqaVB5UW91dDhwWUo3VlRmMFFXcmxnSDVLSXVMYkVoVW50TTVYMm9UTHV3ZEFrWU5jM1J1bTd1NHJxZTU4Nks3clkxeFVKU3NON21BQXVOY3pMeVRnLUR3Z0w2R0t3UzJ1VDlRX1FBNkE?oc=5",
+        "title": "New Investigation Exposes Food Safety Failures and a Hidden Greyhound Racing Link in Australia’s Kangaroo Bushmeat Trade - Animal Wellness A",
+        "source": "Animal Wellness Action",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0tnMzZIQU04Z1NFcUtydDdxQWh6eWh1UXRyZUtBTlF3Uzltb2VEM1hVSkItSGZmUXVGSnFOTU9CTUg4RjNnODNKazBnRWxXbTZvVTBab1JYNjhwNDgyWXEzdGoxcGJldDVGOW9YSE1TYTdjRER0U01LRGZyekt1LUNNYS1YclJ0NFVjc3ZZejc2c2YxTmZReHZCamVYMElHNHo0US16b0Q?oc=5",
         "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 46,
+        "title": "Top pet food - Heavy-Duty Edition",
+        "price": "$189.5",
+        "rating": 4.5,
+        "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 37,
+        "rank": 45,
         "title": "Top pet food - Smart Edition",
-        "price": "$24.1",
-        "rating": 4.2,
-        "hits": 2
-      },
-      {
-        "dim": "Amazon",
-        "market": "SA",
-        "rank": 36,
-        "title": "Top pet - Compact Edition",
-        "price": "$122.8",
-        "rating": 4.0,
+        "price": "$223.1",
+        "rating": 3.9,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-10-31",
+    "generated_at": "2026-11-01",
     "l1_ref": "宠物用品及食品"
   }
 }
