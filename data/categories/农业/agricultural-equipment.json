@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "84",
-    "total_export_value_usd": 47450372,
-    "total_net_weight_kg": 16950372,
+    "total_export_value_usd": 16681815,
+    "total_net_weight_kg": 16181815,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-11-01"
+    "fetched_at": "2026-11-10"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 88,
-      "trend_direction": "up",
+      "interest_score": 92,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-11-01"
+      "fetched_at": "2026-11-10"
     }
   },
   "industry_analysis": {
@@ -52,13 +52,13 @@
     "opportunity": "Precision agriculture and smart farming technology. High-value specialty crops for export. Organic and certified sustainable products. Agricultural technology and automation."
   },
   "compliance_summary": "Phytosanitary certificates, MRL (maximum residue limits), organic certification (USDA/EU), GlobalGAP, country-of-origin labeling.",
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-10",
   "data_source": "base_generated",
   "customs_2025": {
     "china_export": {
       "total_usd": 877171637363.0,
       "total_kg": 0,
-      "yoy_growth": null,
+      "yoy_growth": 7.6,
       "period": "2025",
       "source": "UN Comtrade",
       "data_quality": "complete"
@@ -67,17 +67,17 @@
       "JP": {
         "value_usd": 63987310107.757,
         "yoy": null,
-        "share": 65.5
-      },
-      "BR": {
-        "value_usd": 13464426062.0,
-        "yoy": null,
-        "share": 13.8
+        "share": 57.4
       },
       "NL": {
         "value_usd": 20295595204.725,
         "yoy": null,
-        "share": 20.8
+        "share": 18.2
+      },
+      "MX": {
+        "value_usd": 27097641209.0,
+        "yoy": null,
+        "share": 24.3
       }
     }
   }

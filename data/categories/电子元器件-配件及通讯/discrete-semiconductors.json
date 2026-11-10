@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "二极管、晶体管和晶闸管：海外社媒「chip tiktok made me buy」增速 244%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: India-China thaw faces...」。",
+    "trend_summary": "二极管、晶体管和晶闸管：海外社媒「chip tutorial」增速 248%，搜索端「5g market 2026」热度上行，US Amazon BSR Top-12，Global Times关注「Brazil-China trade hits record $143.3...」。",
     "product_profile": {
       "外观": "SMT 贴片 / QFN/BGA 封装 / 模块化",
       "成分": "硅基 / 第三代半导体 SiC/GaN / 无铅焊料",
@@ -50,52 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 二极管、晶体管和晶闸管 供应链合规升级",
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 二极管、晶体管和晶闸管 成主流",
       "欧盟 CE 标志强制准入 → 二极管、晶体管和晶闸管 出口需通过合规认证",
-      "海外社媒「chip tiktok made me buy」增速 244% 领跑 → 二极管、晶体管和晶闸管社媒种草热度爆发"
+      "海外社媒「chip tutorial」增速 248% 领跑 → 二极管、晶体管和晶闸管社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "chip tutorial",
+        "growth": 247.5,
+        "vol": "659K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "semiconductor must have",
+        "growth": 247.0,
+        "vol": "670K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "chip tiktok made me buy",
-        "growth": 243.5,
-        "vol": "138K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "5g market 2026",
-        "growth": 231.5,
-        "vol": "130K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "semiconductor trending now",
-        "growth": 208.0,
-        "vol": "388K",
+        "growth": 240.5,
+        "vol": "47K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "5g market 2026",
-        "growth": 228.5,
+        "growth": 185.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "chip wholesale supplier",
-        "growth": 149.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "COMMENTARY: India-China thaw faces major economic tests - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ3FMM19PeTFpWkFkcHZsOFBnY2VWd0M1SmF5a2Y0bFJ4dUR1UmJhZmFDZXFVR09Uck9JUVRaQlctNUhzOXNzQU9GWDRHRE1uMHpSdjF0UnVzYllEelhMVWpld3VYNFM5MkdKcGhfV1lFeWk2dnd3Z2Q4aVFMVEJXUkh4OFdYQWg3WGVoc0F3R21TbHBOUXZBVW9CTV9EU2U4TTFDNldHeVJkTmZQTHBDdW9ReUQzXy1rdnJPekZWbk5yS2g4Q1hRTVVKWUtGQQ?oc=5",
+        "growth": 127.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Brazil-China trade hits record $143.3 billion as bilateral economic ties expand - Global Times",
         "source": "Global Times",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SX1BPVVVmdUo4Z0gxQkhVTEV5QmRHanlvbE50UGh1RzgyOS1JbkdreWQ5ZW84dmVWVkxnWktsWHpNMGJ6ZWxCSUNfc3NKVl9pLUUzLThYWjJobFlNbGFMbDJR?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "💡 Electrical machinery and electronics - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjWGJubWxjY3g3NUhkVXpjLU9OSTRXWjkzb3JVQXFLSFRaNERTcUx4NXgzb0l4TW5DeVlNZTBtZkY0UlNaT25wTEQ5Y3RLVVVscm1VOXRhUWpneG5Oa0x1ZzdpR1AtN1NrMEx6dmNET21saTdlSVhF?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "electronics_components",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "电子元器件、配件及通讯"
   }
 }

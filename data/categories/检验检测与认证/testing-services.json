@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "检测服务：海外社媒「certification must have」增速 249%，搜索端「certification b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「FCC votes to ban all Chinese labs from...」。",
+    "trend_summary": "检测服务：海外社媒「testing top 10」增速 240%，搜索端「testing wholesale supplier」热度上行，US Amazon BSR Top-12，South China Morning Post关注「Opinion | 4 reasons Washington doesn’t...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 检测服务 出口需通过合规认证",
-      "海外社媒「certification must have」增速 249% 领跑 → 检测服务社媒种草热度爆发"
+      "海外社媒「testing top 10」增速 240% 领跑 → 检测服务社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "certification must have",
-        "growth": 249.0,
-        "vol": "521K",
+        "platform": "youtube",
+        "kw": "testing top 10",
+        "growth": 240.5,
+        "vol": "627K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "testing tutorial",
-        "growth": 230.5,
-        "vol": "690K",
+        "kw": "certification unboxing",
+        "growth": 213.0,
+        "vol": "91K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "testing tiktok made me buy",
-        "growth": 230.5,
-        "vol": "272K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "certification b2b export",
-        "growth": 205.0,
+        "kw": "certification trending now",
+        "growth": 202.0,
+        "vol": "327K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "testing wholesale supplier",
-        "growth": 147.5,
+        "growth": 126.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "testing market 2026",
+        "growth": 109.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "FCC votes to ban all Chinese labs from testing US electronics - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWwwSGZXVUdWRlY3d3FPckZwOEp5alZQcWZ1OVh5ZDdwM0l1WWl6dV9mdWpaR3MyeVVFREsxckVEZDlBYU83alN1SDdsbUVvd3NPUTB3NE1CRG5HVEJkM0lGa1BJWEJwRFBocUNRdG5BbnUwM0xaVnNyWWc5NGhOVm1OblhleDB0ZHRqaHl5OUhNUVRoSGIyQWpKbE9ONWZzZlFNSWc3aXE5enEtRWpNNFZ3?oc=5",
+        "title": "Opinion | 4 reasons Washington doesn’t want Chinese labs testing US-bound electronics - South China Morning Post",
+        "source": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSGdBQkpocGpLcVJtSGR3Mjc3UU43VlhTOC1NNkpWaHpEWVV3UFRXakN2djZXdG9uVzhkU0lkLUpFd296cU42ajg2cVdJMFY3XzJtbWdSYVhXRGlZNHctWTVtT0hFTDV2d0hodVNmWE0xMzlpZENFYjY0SHkxVFBIdWRscWw3UjAyQ3pnLTlabHF2WEdMZjJDSlpUa0ZOZm5TbS1VQXc0NXlvV2tBbmlQNDd0ejZCdERodXfSAboBQVVfeXFMTUk1bmhvSjlZcjlBNUd6Nkw4WHZaT2g1QmUwUGRWNXJoRWVXdGxKRXhiVUVUUGFUR3RuU05iUXBNMXlqazhEa1BuZUV2Z0NWZnMzUlQ5cTN5c3RYZGRhUXB3Q3RjU2NyR01LekVFMUdQZ0I4a2NBWXhxamhya2tmMkRUazJaNVpUTjBKczN1TUlLelVqMFU3dExtOGdLeFc2cUZuWjltMzI0bzVDYW1fYjhqSjVGOTl2eldB?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Mexico Tightens Avocado Export Rules as Prices Fall - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbGlJMWFuM0d0UjRxdjVlczR6Tkt6ZHlWbjNxcXluczltQmppNXk2SUJIR0hta0QtMFlyalNNMjMtYXJXYmRXMGwyaF9pekw1WUdNbUVZbGRneThOaVUtTExvUVpPWG5QdWQ3YzlqeGJlTm5JTzJlbVpqdmFLTzVIa1FBTjItOGdxMzBaZ3dUb0tuWjZuelNfVDVR?oc=5",
+        "title": "Australian Wool Market Softens Fourth Week as Pass-In Rate Halves - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdjF6ZHVTRHBkMUdsalM5R29BcjRSaG5uaHNsNVlOUnlrakpUWEdBYTJ5ZnU5aUVsUUVvbHkzdHBvT2FtRTFOSm8tNE1LOENIalNKeVJQb1h5VF9kRTVHaG43YXZtc1FaUEJpaTcxZFp5ZmRmQmh2MnJab0FkM3lZbVAyV1VMUGFuSmVOekJnMF96LVQ1MWVEd2RmcTZaUlFObkVKUXFFa1A?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "检验检测与认证"
   }
 }

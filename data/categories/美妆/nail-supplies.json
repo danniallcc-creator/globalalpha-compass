@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "指甲用品：海外社媒「cosmetic new arrival」增速 250%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's economic growth picks up as...」。",
+    "trend_summary": "指甲用品：海外社媒「cosmetic viral hack」增速 240%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's economic growth picks up as...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,45 +50,45 @@
       "欧盟 CE 标志强制准入 → 指甲用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 指甲用品 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 指甲用品 制造门槛",
-      "海外社媒「cosmetic new arrival」增速 250% 领跑 → 指甲用品社媒种草热度爆发"
+      "海外社媒「cosmetic viral hack」增速 240% 领跑 → 指甲用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "cosmetic new arrival",
-        "growth": 249.5,
-        "vol": "421K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "skincare tiktok made me buy",
-        "growth": 245.5,
-        "vol": "63K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "cosmetic viral hack",
-        "growth": 238.0,
-        "vol": "291K",
+        "growth": 240.0,
+        "vol": "266K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 125.5,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cosmetic b2b export",
+        "growth": 238.0,
+        "vol": "509K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "beauty breaking",
+        "growth": 233.5,
+        "vol": "161K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 113.0,
+        "growth": 235.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "beauty cosmetics digital transformation",
+        "growth": 91,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "South Korea exports hit record US$7B as US demand surges - Personal Care Insights",
+        "title": "China’s beauty paradox: Exports catch up to K-beauty despite domestic slowdown - Personal Care Insights",
         "source": "Personal Care Insights",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOblVTNTNWM0FfZWRwbUY1akNuYk5wcC0xUkRTQm1RYVRsSko3VDQzdDZmeWxWampUS0NtdFcwSDdocEd4OFZaVWJmcWlTbGdYVnlUVGNMQWRIQVN4T0NPWXdYSTVjZmt4OXk4blMxUzY2RVlTV3Y1RUV6V3doU0NsRQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yN0tzT01zSFJEdHl1SDF1SzRnZ1A3UUJySE51bG94cXVzQWxwRUFOMWpCNHpXZHpqbTk0OVNwc0xETWFycFpTNTFhSUExdmVfMDdwN2R5N0dWLUV1a1dVcDJXamZfYkZsY2UwZDlrTklzbVBWUzdicEZ6SVU?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "美妆"
   }
 }

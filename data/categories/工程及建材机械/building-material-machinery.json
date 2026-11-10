@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "建材机械：海外社媒「construction equipment tiktok made me buy」增速 236%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，Table.Briefings关注「Export controls: New export rules for...」。",
+    "trend_summary": "建材机械：海外社媒「construction equipment industry report」增速 250%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China’s 5,000-Ton Digging Machines Are...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 建材机械 出口需通过合规认证",
-      "海外社媒「construction equipment tiktok made me buy」增速 236% 领跑 → 建材机械社媒种草热度爆发"
+      "海外社媒「construction equipment industry report」增速 250% 领跑 → 建材机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "construction equipment tiktok made me buy",
-        "growth": 236.5,
-        "vol": "649K",
+        "platform": "google",
+        "kw": "construction equipment industry report",
+        "growth": 249.5,
+        "vol": "495K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "construction equipment unboxing",
-        "growth": 234.0,
-        "vol": "431K",
+        "platform": "x",
+        "kw": "construction equipment breaking",
+        "growth": 249.5,
+        "vol": "618K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "construction equipment tutorial",
-        "growth": 229.5,
-        "vol": "165K",
+        "platform": "google",
+        "kw": "construction equipment wholesale supplier",
+        "growth": 246.5,
+        "vol": "542K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "construction equipment wholesale supplier",
-        "growth": 86.5,
+        "growth": 243.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "construction machinery sustainable manufacturing",
-        "growth": 80,
+        "source": "Google Trends",
+        "kw": "construction equipment b2b export",
+        "growth": 135.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Export controls: New export rules for tunnel boring machines, excavators and drones - Table.Briefings",
-        "source": "Table.Briefings",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLTVOSEpEV21DUl8tOHdzNU80WkRtVFh3dmRIeWtoUGVVQzV4WHFfTlF5ZVA0aXFJWmQ0ZGpEdXFFdU05dEdvNk5wNUNZVjFpMVFUTkJJNUtGM2JGUTJMS1V1OXo1OGFIZXEwS0tmREdGVjZfdk5HbkVEaE13WWdYcV9RZDZmZ2FyNzhNWlJvQlVWbGdSY0JzNVk1bkJhUm1hYkppRHpxNzhTWTlMaVhLNmFkT2tKZw?oc=5",
+        "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEODdKSl9DS2I3bWhsbWtjcjE5WjRlVG03VnBDY3lyN3hESVluM2RRaXdaX216Q2dzcEVpR0o3UWVZVlFIUFQxRE5qRTdaeHZ3Z0xydEkwX0FBdXRCZFJMaXVwdEdUaERNOXQ5VWNReXJSbGdHQkh6WEU3ZWNCOHl6bHJaV2kzN0c1SEs2Y1IwdEFyaFd6cWpEeVlYdw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's mini excavators make a big impact in global markets - Xinhua",
-        "source": "Xinhua",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YVjBUbUtSblRQZjgwR1V1bEoySHExUFd2TnBBeDN5RmVBbVFIY01GeTlIU2JWQWlyRkxGVFBVYWtocmpyY0trYXdXWllWM05FVlphdEhFTWpKbTQxbFNDbDhkTllRMElaSGZQQWNLZGQzRE9ZclF5anpMYk0?oc=5",
+        "title": "Global Construction Machinery Export Growth Reshapes Demand for Crawler Crane Undercarriage Parts - FinancialContent",
+        "source": "FinancialContent",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX2VaVC1BUl9hcmxQbHFSSV9rYUQtNlVqZmhGZ1ZJVVRneF9la290aXppdmlwTnMyOEd1YXYyZ1BJV3Zxb2xCcWQ5dVU2ckVINDNaRks5WnBxVEMyM191OUxoZFBJV2pfeXpRcVlpZFhDSDZ1cG9uTlF4T05HVFlVWG03N0JzVDRleG50bkxRRHBuc2dna2FtUzZSWFZ2dmVZYWVZZ1ROT294Ymhvc01jeG8zS1lBdTR3VzBJeVFmOUw1WWlPWHJvNTZCaGJqYkllbXdCbTRiZmlFMllHX2pVTXAtXy1oMGpBWE40UTdGQlViVnpHTnc?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "工程及建材机械"
   }
 }

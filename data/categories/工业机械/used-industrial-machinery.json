@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "二手工业机械：海外社媒「industrial machinery #trending」增速 256%，搜索端「industrial machinery wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China Slaps Export Curbs on More Drones...」。",
+    "trend_summary": "二手工业机械：海外社媒「industrial machinery must have」增速 252%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China Slaps Export Curbs on More Drones...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 二手工业机械 出口需通过合规认证",
       "欧盟 ATEX 防爆认证 → 工业 二手工业机械 进入危险环境必备",
-      "海外社媒「industrial machinery #trending」增速 256% 领跑 → 二手工业机械社媒种草热度爆发"
+      "海外社媒「industrial machinery must have」增速 252% 领跑 → 二手工业机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "industrial machinery #trending",
-        "growth": 255.5,
-        "vol": "233K",
+        "kw": "industrial machinery must have",
+        "growth": 252.0,
+        "vol": "74K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "industrial machinery factory tour",
-        "growth": 251.0,
-        "vol": "307K",
+        "platform": "instagram",
+        "kw": "industrial machinery aesthetic",
+        "growth": 249.0,
+        "vol": "678K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "industrial machinery wholesale supplier",
-        "growth": 245.5,
-        "vol": "70K",
+        "platform": "tiktok",
+        "kw": "industrial machinery #fyp",
+        "growth": 233.5,
+        "vol": "526K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery b2b export",
+        "growth": 210.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial machinery wholesale supplier",
-        "growth": 242.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial machinery market 2026",
-        "growth": 208.5,
+        "growth": 117.5,
         "hits": 0
       },
       {
@@ -99,9 +99,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Trump says imported robotics pose national security risks but does not impose tariffs - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSzYzMENTbWlLLWdKa2YzdVN4bXhKZUpVeG8tWm1RUVFHcmg5bXdiQ2dtY3lWYlY0dlF4anMyWWc2NF9zQld1TjlSMlFhR3hfMkxzY05iRGM5MmFXNGpQaGRNN3p6NW9YYm9sVXZXV0IwTE9BdDE5WkdHN3cwUnFzWGRDRHVPR2MxU1M2ZXktSk5MWG9aOHg4c0Rxc2diRzQ1RWUxZzlNRnJoMi1wTEFZWHNCWEJ0eGlxX01CektB?oc=5",
+        "title": "Global Construction Machinery Export Growth Reshapes Demand for Crawler Crane Undercarriage Parts - FinancialContent",
+        "source": "FinancialContent",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX2VaVC1BUl9hcmxQbHFSSV9rYUQtNlVqZmhGZ1ZJVVRneF9la290aXppdmlwTnMyOEd1YXYyZ1BJV3Zxb2xCcWQ5dVU2ckVINDNaRks5WnBxVEMyM191OUxoZFBJV2pfeXpRcVlpZFhDSDZ1cG9uTlF4T05HVFlVWG03N0JzVDRleG50bkxRRHBuc2dna2FtUzZSWFZ2dmVZYWVZZ1ROT294Ymhvc01jeG8zS1lBdTR3VzBJeVFmOUw1WWlPWHJvNTZCaGJqYkllbXdCbTRiZmlFMllHX2pVTXAtXy1oMGpBWE40UTdGQlViVnpHTnc?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "工业机械"
   }
 }

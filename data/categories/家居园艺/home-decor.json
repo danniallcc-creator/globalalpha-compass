@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 184%，搜索端「home decor wholesale supplier」热度上行，DE Amazon BSR Top-47，UKFT关注「International opportunities: Mexico,...」。",
+    "trend_summary": "家居装饰：海外社媒「home decor wholesale supplier」增速 234%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-44，MPR News关注「Midterms ended in a blue wave....」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -48,30 +48,30 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 家居装饰 出口需通过合规认证",
-      "海外社媒「home decor wholesale supplier」增速 184% 领跑 → 家居装饰社媒种草热度爆发"
+      "海外社媒「home decor wholesale supplier」增速 234% 领跑 → 家居装饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "home decor wholesale supplier",
-        "growth": 184.5,
-        "vol": "408K",
+        "growth": 234.5,
+        "vol": "265K",
         "hits": 3
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor review 2026",
-        "growth": 255.5,
-        "vol": "100K",
+        "platform": "x",
+        "kw": "home decor breaking",
+        "growth": 239.5,
+        "vol": "586K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 233.5,
+        "platform": "instagram",
+        "kw": "home decor new arrival",
+        "growth": 223.5,
         "vol": "297K",
         "hits": 2
       },
@@ -79,15 +79,22 @@
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 181.5,
+        "growth": 231.5,
         "hits": 3
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor market 2026",
-        "growth": 81.5,
+        "growth": 194.5,
         "hits": 2
+      },
+      {
+        "dim": "媒体",
+        "title": "Midterms ended in a blue wave. Minnesota farmers have mixed feelings about it. - MPR News",
+        "source": "MPR News",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUnFsSHRlQTdrc1gyUzVhSjV6X3JjTlY3TzV4bkdndGs1X25vMUlrYS1sWURKcW9RQ0ZJTDBCRTZ4UUw2cmRoa2RzdzBhYU1ieFpTTmpUT2tyRU5WN25SZC1SaGFTV1FDTVE2Tktta0dxRlg1dmlaMms3cGNWYUU1SXlTWng5aE1uRWtFMGt3OVhVRDlWU2RVMmpiSWZiY24tMGpReTdfN3BDM3VWclJDSGZYZUFid3dN?oc=5",
+        "hits": 0
       },
       {
         "dim": "媒体",
@@ -97,33 +104,26 @@
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Iron Chelates (EDDHA/EDTA) Market To 2035: High-Value Horticulture to Drive Growth - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdHBIcWc0b1AyUjd3bmlnUENfZUl2Y2dHM09TdS10cmwzVGZSUEM3QnNpbmxQbUU2dDZXeGZmbzlucEFLTjRhWlY5NE5iU0RrUVVyZGZMVmxHY3h5eTlkV1FKdXNCbWVuc0JOTS0zakkwcUFTS3Bzczk5VlJnVEc5MmlYa2pmYzFoUUhJNlFNMFNpOURsc2lVV2ZHYkVEVURfd0NjVzk3RFE3ZDRfaTV2TU5tVTdDQThvYXNlMFlLUVg1Z0FjYlBHcQ?oc=5",
-        "hits": 0
-      },
-      {
         "dim": "Amazon",
-        "market": "DE",
-        "rank": 47,
-        "title": "Top garden - Pro Edition",
-        "price": "$92.7",
-        "rating": 4.4,
+        "market": "US",
+        "rank": 44,
+        "title": "Top garden - Heavy-Duty Edition",
+        "price": "$281.5",
+        "rating": 4.3,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 39,
+        "rank": 8,
         "title": "Top garden - Smart Edition",
-        "price": "$232.1",
-        "rating": 4.6,
+        "price": "$185.1",
+        "rating": 4.7,
         "hits": 0
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "家居园艺"
   }
 }

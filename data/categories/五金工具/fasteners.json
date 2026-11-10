@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 46656172,
-    "total_net_weight_kg": 16156172,
+    "total_export_value_usd": 47287882,
+    "total_net_weight_kg": 16787882,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-11-01"
+    "fetched_at": "2026-11-10"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 95,
+      "interest_score": 59,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-11-01"
+      "fetched_at": "2026-11-10"
     }
   },
   "industry_analysis": {
@@ -52,7 +52,7 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-10",
   "data_source": "base_generated",
   "news_sentiment": {
     "article_count": 2,
@@ -83,35 +83,54 @@
       "data_quality": "complete"
     },
     "imports_from_china": {
-      "GB": {
-        "value_usd": 3043705760.981,
+      "JP": {
+        "value_usd": 5527161124.805,
         "yoy": null,
-        "share": 59.4
+        "share": 61.5
       },
-      "IT": {
-        "value_usd": 2076646788.1780002,
+      "AU": {
+        "value_usd": 3453074832.4700003,
         "yoy": null,
-        "share": 40.6
+        "share": 38.5
       }
     }
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "Sundram Fasteners declares ₹4.05 per share interim dividend for FY27 - scanx.trade",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQYUFtWjM1cnQ4dmQ1MXlJUEFHekJ2dzRuNE1Vb0pSRzl0ekM0VDQ5RXBqU0haXzg4ZVBvdXpBRVJfejJTWGhUTVRVblVFQ2t4TVpVYnRVdjhZb2hkNXkyLVRQVVVCWXNjU1Ixd1lieGdiVTA4ejZ4V0NOYksxVWl0NUFERmlqdHI4d2N5Mmx2VjBKSmNmTWlFejUtdklMT3FVTEtzWjBRNDVheWpyN2RIdjNIUnV6aDhITm",
-        "country": "Unknown",
+        "title": "U.S. Midterm Rout Unlikely to Change Trump’s Trade Policy - SupplyChainBrain",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhYSzRLdldFbjhsSHUwcU05QVJXa3BuLTB0b1Z1WHFiX2h2dFBwQ28yQWVESGNLMnU5dzd2ejlxTnZZb2o5WVRrZXUxWWE1OEtMXy1HMGpqRHJtZWhLd280Q3BxemtWamR4aWtfc1hoXzc0SGJkM1Vva3l3eTBQZ3hDbk1NZmJ5VHd5YUpkQlBiYVhXUnZCSFJyWXNyaFhjSk80UjlJWklyb1lfTWhaYloyR21peXpFak",
+        "country": "US",
         "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
-        "category_relevance": "direct",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYUFtWjM1cnQ4dmQ1MXlJUEFHekJ2dzRuNE1Vb0pSRzl0ekM0VDQ5RXBqU0haXzg4ZVBvdXpBRVJfejJTWGhUTVRVblVFQ2t4TVpVYnRVdjhZb2hkNXkyLVRQVVVCWXNjU1Ixd1lieGdiVTA4ejZ4V0NOYksxVWl0NUFERmlqdHI4d2N5Mmx2VjBKSmNmTWlFejUtdklMT3FVTEtzWjBRNDVheWpyN2RIdjNIUnV6aDhITmZDMQ?oc=5",
-        "published": "Fri, 30 Oct 2026",
-        "source": "scanx.trade"
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhYSzRLdldFbjhsSHUwcU05QVJXa3BuLTB0b1Z1WHFiX2h2dFBwQ28yQWVESGNLMnU5dzd2ejlxTnZZb2o5WVRrZXUxWWE1OEtMXy1HMGpqRHJtZWhLd280Q3BxemtWamR4aWtfc1hoXzc0SGJkM1Vva3l3eTBQZ3hDbk1NZmJ5VHd5YUpkQlBiYVhXUnZCSFJyWXNyaFhjSk80UjlJWklyb1lfTWhaYloyR21peXpFakRkR3BYaF9VNl9lTVBKQ0dDOU1XM1R1QWtjTA?oc=5",
+        "published": "Thu, 05 Nov 2026",
+        "source": "SupplyChainBrain"
+      },
+      {
+        "title": "China Extends U.S. Trade Truce By Two Months - SupplyChainBrain",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPYy1nVVlOZmVKREhwLXZLd0JDblB2YUI5QzZ3anFRV2I0b01RVlpQRlBOUHVpWFpWU3VxMWpoOV9GdjFuYzlDaGtDMy1KU3VYQzRLZWxoNXdxM0JRdGltY0c2b2N4Y2Y1cW9iNlNCcm13dndKMUJYWDA5YXhTeXNsY1FIS0w3ZlRBNTlUcWc2WGpHZEx4eGlJbXliQ1lnSkd5M1RqREZvRHNNT3I3a2dFalVwNl9jVGRZRE",
+        "country": "CN",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYy1nVVlOZmVKREhwLXZLd0JDblB2YUI5QzZ3anFRV2I0b01RVlpQRlBOUHVpWFpWU3VxMWpoOV9GdjFuYzlDaGtDMy1KU3VYQzRLZWxoNXdxM0JRdGltY0c2b2N4Y2Y1cW9iNlNCcm13dndKMUJYWDA5YXhTeXNsY1FIS0w3ZlRBNTlUcWc2WGpHZEx4eGlJbXliQ1lnSkd5M1RqREZvRHNNT3I3a2dFalVwNl9jVGRZRERQSUlkLU81bFNIRXc?oc=5",
+        "published": "Mon, 09 Nov 2026",
+        "source": "SupplyChainBrain"
       }
     ],
     "country_summary": {
-      "Unknown": {
+      "US": {
+        "trend": "neutral",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "neutral"
+      },
+      "CN": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

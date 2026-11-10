@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "饮具及配件：海外社媒「home decor review 2026」增速 256%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，UKFT关注「International opportunities: Mexico,...」。",
+    "trend_summary": "饮具及配件：海外社媒「home decor breaking」增速 240%，搜索端「home decor wholesale supplier」热度上行，US Amazon BSR Top-12，MPR News关注「Midterms ended in a blue wave....」。",
     "product_profile": {
       "外观": "极简牛皮 / 数码印刷彩盒 / 异形结构",
       "成分": "再生纸浆 / 大豆油墨 / 水性光油",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 饮具及配件 出口需通过合规认证",
-      "海外社媒「home decor review 2026」增速 256% 领跑 → 饮具及配件社媒种草热度爆发"
+      "海外社媒「home decor breaking」增速 240% 领跑 → 饮具及配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "home decor review 2026",
-        "growth": 255.5,
-        "vol": "100K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "garden factory tour",
-        "growth": 242.0,
-        "vol": "112K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "home decor supply chain",
-        "growth": 233.5,
-        "vol": "297K",
+        "kw": "home decor breaking",
+        "growth": 239.5,
+        "vol": "586K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "garden viral hack",
+        "growth": 238.0,
+        "vol": "397K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "home decor wholesale supplier",
+        "growth": 234.5,
+        "vol": "265K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "home decor wholesale supplier",
-        "growth": 181.5,
+        "growth": 231.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "garden b2b export",
-        "growth": 136.0,
+        "kw": "home decor market 2026",
+        "growth": 194.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Midterms ended in a blue wave. Minnesota farmers have mixed feelings about it. - MPR News",
+        "source": "MPR News",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUnFsSHRlQTdrc1gyUzVhSjV6X3JjTlY3TzV4bkdndGs1X25vMUlrYS1sWURKcW9RQ0ZJTDBCRTZ4UUw2cmRoa2RzdzBhYU1ieFpTTmpUT2tyRU5WN25SZC1SaGFTV1FDTVE2Tktta0dxRlg1dmlaMms3cGNWYUU1SXlTWng5aE1uRWtFMGt3OVhVRDlWU2RVMmpiSWZiY24tMGpReTdfN3BDM3VWclJDSGZYZUFid3dN?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "International opportunities: Mexico, China, South Korea and marketplaces - UKFT",
         "source": "UKFT",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91NnFfSUFvZWVMTmhzbVVxR3pVZE14NjNOYXl1dEdza0tYeWtSc3BEMk5sN3owb1hoLXRrX2hnazVja2dIU2dKX2VLejVvZFBob3RFcGE0aWp2YVZ3XzJWcnEtMGZJLUpILUM4bFhTUXI3LUhGOXh4Mk9fbm1FOWc?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Iron Chelates (EDDHA/EDTA) Market To 2035: High-Value Horticulture to Drive Growth - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdHBIcWc0b1AyUjd3bmlnUENfZUl2Y2dHM09TdS10cmwzVGZSUEM3QnNpbmxQbUU2dDZXeGZmbzlucEFLTjRhWlY5NE5iU0RrUVVyZGZMVmxHY3h5eTlkV1FKdXNCbWVuc0JOTS0zakkwcUFTS3Bzczk5VlJnVEc5MmlYa2pmYzFoUUhJNlFNMFNpOURsc2lVV2ZHYkVEVURfd0NjVzk3RFE3ZDRfaTV2TU5tVTdDQThvYXNlMFlLUVg1Z0FjYlBHcQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "packaging_printing",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "家居园艺"
   }
 }

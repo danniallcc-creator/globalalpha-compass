@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "太阳能产品：海外社媒「battery trending now」增速 250%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「IEA flags concentration of clean energy...」。",
+    "trend_summary": "太阳能产品：海外社媒「solar industry report」增速 214%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Carbon Brief关注「Analysis: China’s clean-tech exports in...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 太阳能产品 出口需通过合规认证",
-      "海外社媒「battery trending now」增速 250% 领跑 → 太阳能产品社媒种草热度爆发"
+      "海外社媒「solar industry report」增速 214% 领跑 → 太阳能产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "battery trending now",
-        "growth": 250.0,
-        "vol": "430K",
+        "platform": "google",
+        "kw": "solar industry report",
+        "growth": 214.5,
+        "vol": "70K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "solar new arrival",
-        "growth": 243.5,
-        "vol": "338K",
+        "platform": "google",
+        "kw": "photovoltaic b2b export",
+        "growth": 213.0,
+        "vol": "310K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "solar #fyp",
-        "growth": 237.5,
-        "vol": "725K",
+        "platform": "x",
+        "kw": "energy storage supply chain",
+        "growth": 195.5,
+        "vol": "171K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "energy storage wholesale supplier",
-        "growth": 195.5,
+        "kw": "photovoltaic b2b export",
+        "growth": 210.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "renewable energy digital transformation",
-        "growth": 94,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "IEA flags concentration of clean energy supply chains as emerging challenge - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObTNqb1FZSDBNTWQ5VG5YbjNaOU5GbzJvWXRXY1FxMHRDa1hpbGFYb3FoMFQ0ZVlrTEtzUDk0aGx1TXV1U0FfWFExdzBMY1pSZ0JrUUJXV2F2SzVJTmI5WTkxV2tRNXFpSkhvQ2o5b3lFRVBqQzEzVHVkTGdIeFdvZENxbzhFR3dfOXEyRGpjWUlSdjRIYkw2WWtFQlNzTFVnUkI1Y2dTYnNQSnhka3U3VlM1NkZJbldXdEpPbW13?oc=5",
+        "source": "Google Trends",
+        "kw": "solar market 2026",
+        "growth": 131.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Analysis: China’s clean-tech exports in 2026 to avoid as much CO2 as Brazil emits in a year - Carbon Brief",
         "source": "Carbon Brief",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMjF0MXluQ0xUamdTRHA1Y3BleHJNYXgzU3VUa1Y4NzliYVU4MGNFODNiVWxJSjFsX0JTR3NNemhSLS1ZVDJrWUtCaEdreFRuem83ZGdQa1NNWjV6MXcxNVNVeHU3QU5ndFAzMGtwV0lWczdsZGNpYmNxRWlacllod2FIRXprcURsbnViV1ZXZmJRRTB0Q2NhckpGaGZqTVdSWVFUb2dXNFJKd2FOOV9mdko0ZHNMVnI4?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "How Texas Leads the Next Generation of Energy Exports - RMI",
+        "source": "RMI",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTk5iUkpnQmhITHBVZFhZR0dVMkxpdEdVQVBJX0JSYXBJSjkxbVZkY1owLU1tMzMtbVh0ZmF2Zm14cFRHUnlNcTVtVWNPa1M4aFRsYS1YVWZaSnZMVU5lWjZTUVlMNEVBVmdQZUdJNVhOVnJJd2dadTVicGROZWc4bGRHTkd0clE?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "可再生能源"
   }
 }

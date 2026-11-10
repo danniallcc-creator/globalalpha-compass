@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "通用零部件：海外社媒「auto parts aesthetic」增速 254%，搜索端「auto parts market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Mexican auto exports slump in September...」。",
+    "trend_summary": "通用零部件：海外社媒「auto parts new arrival」增速 246%，搜索端「auto parts b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「US to suspend South Africa and Rwanda...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 通用零部件 出口需通过合规认证",
-      "海外社媒「auto parts aesthetic」增速 254% 领跑 → 通用零部件社媒种草热度爆发"
+      "海外社媒「auto parts new arrival」增速 246% 领跑 → 通用零部件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "auto parts aesthetic",
-        "growth": 254.0,
-        "vol": "775K",
+        "kw": "auto parts new arrival",
+        "growth": 246.5,
+        "vol": "321K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "auto parts viral hack",
-        "growth": 252.0,
-        "vol": "383K",
+        "platform": "youtube",
+        "kw": "auto parts top 10",
+        "growth": 238.5,
+        "vol": "328K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "auto parts market alert",
-        "growth": 248.0,
-        "vol": "247K",
+        "platform": "youtube",
+        "kw": "auto parts tutorial",
+        "growth": 225.5,
+        "vol": "407K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "auto parts b2b export",
+        "growth": 190.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto parts market 2026",
-        "growth": 215.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "auto parts market trend 2026",
-        "growth": 89,
+        "growth": 182.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Mexican auto exports slump in September as US tariffs take toll - Reuters",
+        "title": "US to suspend South Africa and Rwanda from duty-free trade access - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGJBQ3U5X1l4T0ZNV3EwRlRRdDI3TFlOdTRoa2Z1V24tTE5DSTBDaS1obFFQczhfeG02WmpBZmlCQmRROGtYTzRzQTBzZGxrSEFxNGVWaWF6X0VnMUVrMzkzMmpweHg5RFRpc1g0ZXV0NjRiN3phampReEdnY3ZNNnVCMDhvLXlYdGVqaXRvZ2x0MkF4c1ltQ2dJLTNZZ0J4dnFORG5pMEc1T0dPb2VRX3R1Rjhid2R0Z19NUVY0aWM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXBRdlBrbE5GVUt6UUhpRWFyUUNFTlBtSTAtdXgyaDA1OFl6ajZTQWg1SGlTakZXRXFNc0x4V1QtMHdmc1Vpb0ZWUGxlai1xR2xJTDd5YnVfZXBuY3ZyU1JDQk5tWU5PMEUwZlV2NGpGamg3SEZ0clF1NzA2R25McW52dzk0aGxLUkVnXzFwNlRpYlY3SlR2ckJnNHZPOUx6ZHNzNg?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "汽车零配件"
   }
 }

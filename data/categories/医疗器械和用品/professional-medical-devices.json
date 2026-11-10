@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "商用医疗器械：海外社媒「healthcare equipment aesthetic」增速 248%，搜索端「medical device market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「China, EU strike deal to halve Chinese...」。",
+    "trend_summary": "商用医疗器械：海外社媒「healthcare equipment trending now」增速 245%，搜索端「healthcare equipment b2b export」热度上行，US Amazon BSR Top-12，Bureau of Labor Statistics (.gov)关注「Puerto Rico: Price Movements of Top...」。",
     "product_profile": {
       "外观": "医疗级白色 / 抗菌涂层 / 人体工学",
       "成分": "医用级 316L 不锈钢 / PEEK / 医用硅胶 / 钛合金",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 商用医疗器械 出口需通过合规认证",
       "美国 FDA 注册要求 → 商用医疗器械 进入北美市场必备门槛",
       "ISO 13485 医疗器械质量体系 → 商用医疗器械 全球市场准入",
-      "海外社媒「healthcare equipment aesthetic」增速 248% 领跑 → 商用医疗器械社媒种草热度爆发"
+      "海外社媒「healthcare equipment trending now」增速 245% 领跑 → 商用医疗器械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "healthcare equipment aesthetic",
-        "growth": 248.0,
-        "vol": "79K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "healthcare equipment trending now",
-        "growth": 247.0,
-        "vol": "219K",
+        "growth": 245.0,
+        "vol": "42K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "medical device industry report",
-        "growth": 225.5,
-        "vol": "97K",
+        "platform": "youtube",
+        "kw": "medical device tutorial",
+        "growth": 235.5,
+        "vol": "170K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "medical device market 2026",
-        "growth": 195.5,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "medical device review 2026",
+        "growth": 226.5,
+        "vol": "154K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "healthcare equipment b2b export",
-        "growth": 135.0,
+        "growth": 182.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "China, EU strike deal to halve Chinese hybrid exports - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHg5eDd4SHlldjU0OVlpTEVOaHB0QVpIOGhaTm9CSVN2WmE2RUtobThWUkpGM1NrMFVxeVFKMnctbEF4aV9JQnZIT0RjaXlWVHBhb3Noam5HemZnd0ZRTy1TSEJjUFljMl9md29ESGFUeVFha29xaWd0a050VjVjV2pFRS1qUWVJVm04SDJJUjRGcXBQUzE3TzhDaV9SWHR6TndZaGhMRUlib0NSekZFenBpUUtuTnZZSy1JekRHaDZoLTA?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "medical device wholesale supplier",
+        "growth": 118.5,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Puerto Rico: Price Movements of Top Exports and Other Highlights - Bureau of Labor Statistics (.gov)",
         "source": "Bureau of Labor Statistics (.gov)",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNejh1M0l4OVdZYkdiQnJsZzF2LVl6c2Nja3h0aTVrendhSWFQalp2RXpKM09xcEdhYk9vY3lrVkVtUTdPc3pWbWZyXzVJVVhxeV9kY21hc1M4QVFwUUNvLTZ0Q0o2S1RmdXZEcHB2NGFacHZFeHlvLTBnWTJaSHhJeW41Z0pONjZ2SkE?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "US Exports to China 2026 - The US-China Business Council",
+        "source": "The US-China Business Council",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYWUtwNkdSdTh1TUNxWVVvOENDVGJEd2hic012SFpHTEJuTzZLdWNhVzNSMWxlbDVkVGdJMml5VV85ZnNic2hxYnRvc2NMYUszMFBXMGVFdlZhYnJSdWNjZnc5Tkl6X21fM3c?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "medical_devices",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "医疗器械和用品"
   }
 }

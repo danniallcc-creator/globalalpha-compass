@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "外部配件：海外社媒「auto accessory supply chain」增速 252%，搜索端「auto accessory market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Mexican auto exports slump in September...」。",
+    "trend_summary": "外部配件：海外社媒「auto accessory #trending」增速 254%，搜索端「auto accessory wholesale supplier」热度上行，US Amazon BSR Top-12，HKTDC Research关注「EU and Chinese Mainland Reach Hybrid...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 外部配件 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 外部配件 合规刚需",
-      "海外社媒「auto accessory supply chain」增速 252% 领跑 → 外部配件社媒种草热度爆发"
+      "海外社媒「auto accessory #trending」增速 254% 领跑 → 外部配件社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "auto accessory supply chain",
-        "growth": 252.5,
-        "vol": "27K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "car gadget aesthetic",
-        "growth": 252.0,
-        "vol": "335K",
+        "kw": "auto accessory #trending",
+        "growth": 253.5,
+        "vol": "786K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "car gadget industry news",
-        "growth": 248.0,
-        "vol": "12K",
+        "kw": "auto accessory breaking",
+        "growth": 246.5,
+        "vol": "645K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "auto accessory market 2026",
-        "growth": 163.5,
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "car gadget viral hack",
+        "growth": 245.0,
+        "vol": "629K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "auto accessory wholesale supplier",
-        "growth": 123.5,
+        "growth": 100.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Mexican auto exports slump in September as US tariffs take toll - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGJBQ3U5X1l4T0ZNV3EwRlRRdDI3TFlOdTRoa2Z1V24tTE5DSTBDaS1obFFQczhfeG02WmpBZmlCQmRROGtYTzRzQTBzZGxrSEFxNGVWaWF6X0VnMUVrMzkzMmpweHg5RFRpc1g0ZXV0NjRiN3phampReEdnY3ZNNnVCMDhvLXlYdGVqaXRvZ2x0MkF4c1ltQ2dJLTNZZ0J4dnFORG5pMEc1T0dPb2VRX3R1Rjhid2R0Z19NUVY0aWM?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "car gadget b2b export",
+        "growth": 100.0,
         "hits": 0
       },
       {
@@ -102,6 +95,13 @@
         "title": "EU and Chinese Mainland Reach Hybrid Vehicle Trade Understanding - HKTDC Research",
         "source": "HKTDC Research",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YNkNUbHZVX2FVdGdidHlFeWpoRVRWX2dZUV9ZTTRrUnVFTmZvNExKeHI1VlpsUUgzN2c4ak5DTnhKT0hJQ3ZSWWgxWW0tajFOOXlWdFhxRWcwWkR1M1ROQTRR?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Welcome to the new ‘Made in China’ - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y25vVzlZR2p6UjJEQmhNeklKSWx5eG5PV2t4VVdETTdZb0hkTW1qMHBTaTN1VWhYams1Q28yMWYwWjl1cGJ2NHBkWV9mTDlYWlhDbGVCUWcyVXA1SE9RQjFodw?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "汽车用品、电子及工具设备"
   }
 }

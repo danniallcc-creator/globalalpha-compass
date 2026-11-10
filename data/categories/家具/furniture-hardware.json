@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "家具五金：海外社媒「furniture breaking」增速 256%，搜索端「sofa b2b export」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「Surging China Exports Push Trade...」。",
+    "trend_summary": "家具五金：海外社媒「sofa aesthetic」增速 252%，搜索端「desk wholesale supplier」热度上行，US Amazon BSR Top-12，InteriorDaily关注「Poland's furniture exports to US plunge...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,52 +49,52 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 家具五金 出口需通过合规认证",
       "FSC 森林认证 → 纸木类 家具五金 出口欧美刚需",
-      "海外社媒「furniture breaking」增速 256% 领跑 → 家具五金社媒种草热度爆发"
+      "海外社媒「sofa aesthetic」增速 252% 领跑 → 家具五金社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "furniture breaking",
-        "growth": 256.5,
-        "vol": "469K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "desk viral",
-        "growth": 252.5,
-        "vol": "396K",
+        "kw": "sofa aesthetic",
+        "growth": 252.0,
+        "vol": "238K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "sofa viral hack",
+        "growth": 207.0,
+        "vol": "260K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "sofa analyst",
-        "growth": 250.5,
-        "vol": "97K",
+        "kw": "furniture industry news",
+        "growth": 202.0,
+        "vol": "195K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "desk wholesale supplier",
+        "growth": 130.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sofa b2b export",
-        "growth": 242.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "furniture market 2026",
-        "growth": 175.5,
+        "growth": 93.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Surging China Exports Push Trade Surplus Toward Fresh Record - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWVSSF96T3R5Ry1QeGlWQmFMV0dyLW9EYjNyek03QkZTOXlheVVvNW0xNVNSZ1F5RW84OERGS0RlLVhvdE9ON3d4eHQ5S3UtWml5Y3pTS0NaX00xSGV0UkVpS3YxY3ZidU80dHIzZVdrcmphYnhNcldOY0VvUlJNWWQ3eFNrb3pnNVdhQV9HY1FYZlVFUmVlb0diVmhZam1GaHVxcUxyRWhQajdnVkhlVk1iTEE?oc=5",
+        "title": "Poland's furniture exports to US plunge 25% as American market weakens - InteriorDaily",
+        "source": "InteriorDaily",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVUx0dW5MTXJ6eFc5dXMydDBSRkFFTkZyT3czM19BS0hnc0FyVFFxU0pSU2o2UEVUNmFnRlQ2bDNnbWlyQV9DNGtkdlQ1SW9iR3Y0QVZadEdhZTdZUEpYNFhDVmRfalpVNG9NZjVRWGtmQ2tFVFcyN1dmWXg5dmVFTnZxc3ZRNzFrU3c3eW5RTWtjOXJvbGNwcjdPQ1llX2dxZm9PajdVOU9TZmxNOE9rWVRQdThPaEE?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-11-01",
+    "generated_at": "2026-11-10",
     "l1_ref": "家具"
   }
 }
