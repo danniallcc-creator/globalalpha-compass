@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "建材机械：海外社媒「construction equipment industry report」增速 250%，搜索端「construction equipment wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China’s 5,000-Ton Digging Machines Are...」。",
+    "trend_summary": "建材机械：海外社媒「construction equipment viral」增速 248%，搜索端「construction equipment b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Construction Machinery market poised...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 建材机械 出口需通过合规认证",
-      "海外社媒「construction equipment industry report」增速 250% 领跑 → 建材机械社媒种草热度爆发"
+      "海外社媒「construction equipment viral」增速 248% 领跑 → 建材机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "construction equipment industry report",
-        "growth": 249.5,
-        "vol": "495K",
+        "platform": "instagram",
+        "kw": "construction equipment viral",
+        "growth": 247.5,
+        "vol": "652K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "construction equipment breaking",
-        "growth": 249.5,
-        "vol": "618K",
+        "kw": "construction equipment market alert",
+        "growth": 244.0,
+        "vol": "260K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "construction equipment wholesale supplier",
-        "growth": 246.5,
-        "vol": "542K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "construction equipment wholesale supplier",
-        "growth": 243.5,
+        "platform": "instagram",
+        "kw": "construction equipment must have",
+        "growth": 241.0,
+        "vol": "499K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "construction equipment b2b export",
-        "growth": 135.0,
+        "growth": 184.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "construction machinery supply chain resilience",
+        "growth": 83,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEODdKSl9DS2I3bWhsbWtjcjE5WjRlVG03VnBDY3lyN3hESVluM2RRaXdaX216Q2dzcEVpR0o3UWVZVlFIUFQxRE5qRTdaeHZ3Z0xydEkwX0FBdXRCZFJMaXVwdEdUaERNOXQ5VWNReXJSbGdHQkh6WEU3ZWNCOHl6bHJaV2kzN0c1SEs2Y1IwdEFyaFd6cWpEeVlYdw?oc=5",
+        "title": "Construction Machinery market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/construction-machinery-2026",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Global Construction Machinery Export Growth Reshapes Demand for Crawler Crane Undercarriage Parts - FinancialContent",
-        "source": "FinancialContent",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX2VaVC1BUl9hcmxQbHFSSV9rYUQtNlVqZmhGZ1ZJVVRneF9la290aXppdmlwTnMyOEd1YXYyZ1BJV3Zxb2xCcWQ5dVU2ckVINDNaRks5WnBxVEMyM191OUxoZFBJV2pfeXpRcVlpZFhDSDZ1cG9uTlF4T05HVFlVWG03N0JzVDRleG50bkxRRHBuc2dna2FtUzZSWFZ2dmVZYWVZZ1ROT294Ymhvc01jeG8zS1lBdTR3VzBJeVFmOUw1WWlPWHJvNTZCaGJqYkllbXdCbTRiZmlFMllHX2pVTXAtXy1oMGpBWE40UTdGQlViVnpHTnc?oc=5",
+        "title": "Analysts: construction machinery sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/construction-machinery-2026",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "工程及建材机械"
   }
 }

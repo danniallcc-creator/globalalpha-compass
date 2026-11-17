@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工业控制：海外社媒「electrical unboxing」增速 249%，搜索端「electrical b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's economic growth picks up as...」。",
+    "trend_summary": "工业控制：海外社媒「electrical top 10」增速 248%，搜索端「electrical market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Canada's trade surplus widens to more...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -49,59 +49,59 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 工业控制 成主流",
       "欧盟 CE 标志强制准入 → 工业控制 出口需通过合规认证",
-      "海外社媒「electrical unboxing」增速 249% 领跑 → 工业控制社媒种草热度爆发"
+      "海外社媒「electrical top 10」增速 248% 领跑 → 工业控制社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "electrical unboxing",
-        "growth": 249.0,
-        "vol": "75K",
+        "kw": "electrical top 10",
+        "growth": 247.5,
+        "vol": "409K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "electrical review 2026",
-        "growth": 237.5,
-        "vol": "126K",
+        "platform": "google",
+        "kw": "electrical market 2026",
+        "growth": 238.5,
+        "vol": "748K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "electrical breaking",
-        "growth": 237.5,
-        "vol": "566K",
+        "kw": "electrical industry news",
+        "growth": 232.0,
+        "vol": "261K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "electrical market 2026",
+        "growth": 235.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical b2b export",
-        "growth": 229.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "electrical wholesale supplier",
-        "growth": 175.5,
+        "growth": 163.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's economic growth picks up as exports boom, consumers balk - Reuters",
+        "title": "Canada's trade surplus widens to more than four-year high in September - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelFIVGVwcy1oY2RvRVlaQTl5REpEc1hfS0ZUb1lTeWN0M2tBbTctTWo4NzVXeWthQVNab2p1eUFYQ2xtejBoc1ktQlZFQXh1U3hOSWdNdlBzTzNvcThPMFVyNnIzSTgyQ3lXbW8taGQtTV92Vl9uUGZOWjc1cGp6NTJBTDNpcWpEUnRCMjhXcVRYNkVXSFNwaHF3UGFGU0NqZTZWZzJXc0FyX3BnUkxhVWVSNzI?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNajVmTlFjZ0JCOG11S1BTTUxBNnFrMXBCb1J6a3dtX1RjMmtYdWxXUlVaeXZZU2JEb05YdnlCNy12aFJITlBxeWI0Y1VLNzRfM3JPNlhkTm1ES3JEN2l6QjZNYXFWUVQ0dHFRdDRnRnF0QWxtN2xFUTE2UU02Q1czak13SzVab2ZWNlB0YjRRZENSemxYbGt6UWkybm1Vbk5vcEJYelFaNDVubU85a3hIRXpYbDE?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Do we finally agree on overcapacity? Now what? - Brookings",
-        "source": "Brookings",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNmtuV3YyRXAwYUxZY3BaUEJqSDRhNTgwSjlCV0k4WWFZSDlkVGoyWHhKX3pPM2l0aW54WmFlX2xEeUJTRGpoUWdhQjZvOXNpZlJYRE9fWW03ek0tSW10UFBVODFlTXhRSTRUWUxRbWx4N0VqdXRCMXUzYnlnZ2ZyUkcxY3c5Tjg?oc=5",
+        "title": "Japan exports post huge miss in September as growth slows to 16.7% - CNBC",
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aTU1JaGJTTUNFU2Y3SXBVMnF4TGdLNDIzT1V0UDJHYm00SUxBZ2N3TEdZUzJ3VGZIMFRFY0NLdFoydW00ZkljQUFqa25TMW5TaVdYQTJ2SjROOUtDV19HYzRncEN2ekFVOE1EdHlYcUJwckdRMlNCYWk4aktpVTDSAYQBQVVfeXFMTTBNN3hmTmQxd0g0c3oyU3dFNk0ydThhN2Vhd2JDa0hhbWRuNnhZQVU1b2daLTc1QW1neGQ3YjJycllxbER3Q3lra3VESnpsbE9vT0hna2o0UERJWjc1bTVBbnJIMFplTlZjVFduTDgwTnFBZ0xSbC1FWWFhYzRHRnRnOEZY?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "电气设备及用品"
   }
 }

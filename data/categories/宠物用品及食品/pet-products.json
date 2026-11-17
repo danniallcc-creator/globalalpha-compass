@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物用品：海外社媒「pet #fyp」增速 252%，搜索端「pet products supply chain resilience」热度上行，UK Amazon BSR Top-38，World Economic Forum关注「AI investment boosts export outlook,...」。",
+    "trend_summary": "宠物用品：海外社媒「pet food viral hack」增速 247%，搜索端「pet products sustainable manufacturing」热度上行，DE Amazon BSR Top-43，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,82 +49,82 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物用品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物用品 进入北美市场必备门槛",
-      "海外社媒「pet #fyp」增速 252% 领跑 → 宠物用品社媒种草热度爆发"
+      "海外社媒「pet food viral hack」增速 247% 领跑 → 宠物用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "pet #fyp",
-        "growth": 252.5,
-        "vol": "166K",
+        "kw": "pet food viral hack",
+        "growth": 247.0,
+        "vol": "624K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "pet review 2026",
+        "growth": 246.5,
+        "vol": "136K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "pet food factory tour",
-        "growth": 226.0,
-        "vol": "732K",
+        "growth": 243.0,
+        "vol": "158K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "pet wholesale supplier",
-        "growth": 222.5,
-        "vol": "449K",
-        "hits": 0
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "pet products sustainable manufacturing",
+        "growth": 94,
+        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "pet products supply chain resilience",
-        "growth": 51,
-        "hits": 2
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products export opportunity emerging markets",
-        "growth": 50,
+        "growth": 88,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "AI investment boosts export outlook, and other trade news to know - World Economic Forum",
-        "source": "World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNm80c0xrMy1jREVsdWJESG1PdHBCOVZUMFc5bk5qekprU1BYcmhJZXFmanV2QzZ1V1g0cGJEUllQQWxfVVRManpXVENQTmJKbTdFVzZBaHBtV2JraVZINVZrR3kzb2NQdklheUVsR2JtdGhyNFREcm9MbEJrbDM5T0FRU0g4WEpvdU13a0J5RlAtWGg0Nk5JX3FWQlh3djZYVlF6M2pyU0JsNVk0ZFg5NTNic0FfQ3hwdWRGNWJ2Q2Q?oc=5",
+        "title": "China tops US in Asian pet food export volume - PetfoodIndustry",
+        "source": "PetfoodIndustry",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2RoWW8wSXEzaUtfTmFUcVJSTlcxYm9IQ2lBN28zQnlvR3BvTnpIQ1hGcWNQOGhuYml3YnJHTENLYkh0eUV4Um1yM3pDVFR2eE9yVWtsMWJ6RW05S1gyVkJZVDJlWnJ4LW5NOGdYQjdHeW9yaDk5V3hmY2xRRG5JdjNZSGlrWE5SMDk1NUE0QTEzU25ZVDlyZThicHBLQXFzd0pKWl8zU0FTdVE?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Weekly protein report: US beef export sales fall 29% below four-week average - The Cattle Site",
-        "source": "The Cattle Site",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFFHUkVvZnNLTU10czRrZ19TbF9WSHpKZlc4Rlk0WG9NZ3pUY0lBaGlZMno5X3I0RlRLaGVKaWpCa3NnQVRKNDNWVmY2VGFhWjRKNTFKYnE4dlZJXzVTaVUzeUJmZWdxa0w2YkhXX244WEJqQ0gwbnlKdllYYjE1aG9adHNmdEJ4eFkwVUtlbDdHeWo5RVVUSjc4MkF0TFlWa25sc09pQ0s3OFd0ZWhwN0UxSQ?oc=5",
+        "title": "Portable Wet Dog Food Market To 2035: Convenience and Premiumization Drive Growth - News and Statistics - IndexBox",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTjh5T0UxbUtXcHpRbXBWeFdZVE1uM1g0dm5zdDRaMnVTckVLb1F4NFBJQkFnV084OXhVYi1SdHBhYUZnUzd2ejUtaWNuT2tCbmdSMkJzbjdGblE5MDhEYm5NcmJDdFBhanc5OUlPUnk2RHVyOHJSRkUtRU9EaFE0NXYwTnZIdmF0RkpMbUFiSEZMVzFZOVM1QTBCUEtfckhjOHV5OGhkZ1A3bzhDY1JKWEVOcldXNmM?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 38,
-        "title": "Top pet food - Smart Edition",
-        "price": "$138.1",
-        "rating": 3.8,
+        "market": "DE",
+        "rank": 43,
+        "title": "Top pet food - Pro Edition",
+        "price": "$139.7",
+        "rating": 4.4,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 34,
-        "title": "Top pet - Eco Edition",
-        "price": "$49.4",
-        "rating": 4.2,
+        "market": "US",
+        "rank": 36,
+        "title": "Top pet food - Heavy-Duty Edition",
+        "price": "$276.5",
+        "rating": 4.0,
         "hits": 2
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "宠物用品及食品"
   }
 }

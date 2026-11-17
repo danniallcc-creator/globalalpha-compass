@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "其他礼品：海外社媒「gift tutorial」增速 254%，搜索端「craft b2b export」热度上行，US Amazon BSR Top-12，The Detroit News关注「2026 China Top 10 OEM ODM Craft Gift...」。",
+    "trend_summary": "其他礼品：海外社媒「craft price trend」增速 252%，搜索端「gift wholesale supplier」热度上行，US Amazon BSR Top-12，The Detroit News关注「2026 China Top 10 OEM ODM Craft Gift...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 其他礼品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 其他礼品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 其他礼品 通关",
-      "海外社媒「gift tutorial」增速 254% 领跑 → 其他礼品社媒种草热度爆发"
+      "海外社媒「craft price trend」增速 252% 领跑 → 其他礼品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "gift tutorial",
-        "growth": 253.5,
-        "vol": "515K",
+        "platform": "google",
+        "kw": "craft price trend",
+        "growth": 252.0,
+        "vol": "792K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "gift tiktok made me buy",
-        "growth": 250.5,
-        "vol": "552K",
+        "platform": "youtube",
+        "kw": "craft unboxing",
+        "growth": 233.0,
+        "vol": "494K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "craft b2b export",
-        "growth": 245.0,
-        "vol": "529K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "craft b2b export",
-        "growth": 242.0,
+        "kw": "gift industry report",
+        "growth": 199.5,
+        "vol": "144K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "gift wholesale supplier",
-        "growth": 168.5,
+        "growth": 142.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "gifts crafts export opportunity emerging markets",
+        "growth": 66,
         "hits": 0
       },
       {
@@ -100,9 +100,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Jinze Crafts Highlights Capabilities as a Certified Cute Jewelry Box Birthday Gift For Girls Designer - EIN News",
-        "source": "EIN News",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUG1MWmViQkx3bjlIaVhDMmdhU2VGcHNYdWYyLXZBNlh1WTJqUkFFX3NvMDNUOWlEOUdNcEFRcF85ckIzWXhOcE0xQ2RYT0YyS0FCbnR3Ykc4MkJVTm9yLXBWZVFtRHdiUWtaMFh3OXN2MldGMjhncTJZb0E5TEpqOUVGbEdiRDZ6eTlreDkwTEZReFdZTUVoXzB0TXNoa05fLUQxYnhZZEVQUnVCUkFodUxQTElLQm1IOWI2SmQ1ZnplLVl5YjRFNWxxTUQ4OTlHNWtvVU5Bb2xxaFk?oc=5",
+        "title": "Five Reputable Custom Keychain Manufacturers in China 2026: Advancing Enamel Craftsmanship - The Detroit News",
+        "source": "The Detroit News",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUm5IU3pMU21TMkhrVzRnVU1QTVNLMkxMYUVwVEhnZzhlSkVnSndxUGFtNlZ5OHFZcDdjSVYwZWktaXB3SmF3NkdRNnBwSGpXSlZReWFYU3FmY0NuLXNtc2JXb1dRY2xNblVqWFNPWmpYVnRZMGtxREpfNkhCOTc0YjRuM0Zla1F2MWZ3aW5UN3NpUDhwbHVwZ1YydmowTzVUTUFKVmotSzN2aVFQRmhnSG9uMS1XNXBmbHFvZTUzSmpQNG1yVDBIUEx1eldvc3pwaU1tSnZsOUFuaTh3SWc?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "礼品与工艺品"
   }
 }

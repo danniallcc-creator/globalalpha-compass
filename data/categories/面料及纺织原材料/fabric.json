@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "面料：海外社媒「fabric industry news」增速 226%，搜索端「fabric b2b export」热度上行，DE Amazon BSR Top-49，IndexBox关注「Industrial Glove Fabrics Market To...」。",
+    "trend_summary": "面料：海外社媒「fabric price trend」增速 235%，搜索端「fabric b2b export」热度上行，UK Amazon BSR Top-43，Sandler, Travis & Rosenberg, P.A.关注「CAFTA-DR Short Supply Requests for...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,82 +50,82 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 面料 供应链合规升级",
       "欧盟 CE 标志强制准入 → 面料 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 面料 通关",
-      "海外社媒「fabric industry news」增速 226% 领跑 → 面料社媒种草热度爆发"
+      "海外社媒「fabric price trend」增速 235% 领跑 → 面料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "fabric industry news",
-        "growth": 226.0,
-        "vol": "429K",
+        "platform": "google",
+        "kw": "fabric price trend",
+        "growth": 235.0,
+        "vol": "651K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
         "kw": "fabric viral hack",
-        "growth": 211.0,
-        "vol": "559K",
+        "growth": 233.0,
+        "vol": "662K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
         "kw": "fabric must have",
-        "growth": 188.0,
-        "vol": "677K",
+        "growth": 185.0,
+        "vol": "477K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "fabric b2b export",
-        "growth": 162.0,
+        "growth": 91.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "textile fabric export opportunity emerging markets",
+        "kw": "textile fabric supply chain resilience",
         "growth": 89,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Industrial Glove Fabrics Market To 2035: Cut-Resistant Glove Demand Drives Growth - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeWptTnBPbDBWem05X1gzejA4QnFrbVI2WVpLWHlQd1JJM3E4LWZScEVDeUxmTXh3eVhxRXptMnZxUHM1SlpmYUx5OGFfTVFxVXFuLWgzY0FOVG9jWFRmM1hkNXctQnR2OHJUX0M1ZEFyRkE1Q0FOY1AzYzByRWVZdkE0cDlaVlRPM0g3aXI4djhHSUNQazVjMERwMkcycUhxcVpCcENNcWljV1ZlRVdHOF9XdEtBajV5QlJ5VGFMRQ?oc=5",
+        "title": "CAFTA-DR Short Supply Requests for Wrinkle-Free Fabrics Approved - Sandler, Travis & Rosenberg, P.A.",
+        "source": "Sandler, Travis & Rosenberg, P.A.",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMnJGME9Ea1pqWFdObEZmRHNva1RuZHp2M01VWTFqRS1LV25SSHNZVVN5WVVtdVpBajlsQmhaamh1ZzNVei16M1dvVTktN19xNDZ3S2xFRjhYV2NHeFFuQm12NkNOUzF1bjU4aU5TenlJUFRVRWtYLWlobk1vdVA1dEZncWVva21mVGZyM2k5d0V0bFVhWVp2WnBjZEJnRTA2bVZvcXlhMlNKUmtCQjJodlpScE5YWVp6T2c3cVJBZnRxSkIzSHNXb01ESThQYmVkUXc?oc=5",
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Fabrics Market To 2035: Apparel and Technical Textiles Drive Forward Growth - News and Statistics - IndexBox",
-        "source": "IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNFFhQU15OVhmTkNPTGNhdTF1X090U3NNXzBCWmdZNlZjV2RnelVpLXlIaEkyRnAtWnBKc1dZYmFmbmRKdk5QWFYyNGdDUTd0anFEY3BhV0I4RHJzbmVhT0xPZW93MmJ2bEJaSlJWUFo4LUp3akhudWRNbjVLNl9ZaHdRSTZxQ09qM2NMYTg5QWZmRW9OZW5HeWhONmFjaDlVVkpVMjFuLXJVd2hiVVFZZjl6dXl0ZmxkcFpwQQ?oc=5",
-        "hits": 2
-      },
-      {
-        "dim": "Amazon",
-        "market": "DE",
-        "rank": 49,
-        "title": "Top fabric - Pro Edition",
-        "price": "$25.7",
-        "rating": 4.9,
+        "title": "Rubber Textile Fabric (HS: 5906) Product Trade, Exporters and Importers - The Observatory of Economic Complexity",
+        "source": "The Observatory of Economic Complexity",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QaVZhLURqV2VXOHlBQXN2UVhLeWFIZEE5ZnBWWGFvTThxSlJ1VkdteUtoZkF3bUpaSGZmdTlWcnVvd3dVR29mZXZTT3g2c09qVkpaZkNseWZaa1FNS0hwYzJkbw?oc=5",
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "UK",
-        "rank": 38,
+        "rank": 43,
         "title": "Top fabric - Smart Edition",
-        "price": "$143.1",
-        "rating": 3.8,
+        "price": "$217.1",
+        "rating": 4.8,
+        "hits": 2
+      },
+      {
+        "dim": "Amazon",
+        "market": "DE",
+        "rank": 35,
+        "title": "Top fabric - Pro Edition",
+        "price": "$197.7",
+        "rating": 4.8,
         "hits": 2
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "面料及纺织原材料"
   }
 }

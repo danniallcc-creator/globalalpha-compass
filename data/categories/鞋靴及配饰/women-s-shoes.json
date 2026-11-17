@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "女鞋：海外社媒「shoe industry news」增速 241%，搜索端「shoe market 2026」热度上行，US Amazon BSR Top-12，World Footwear关注「APICCAPS to launch market-entry...」。",
+    "trend_summary": "女鞋：海外社媒「shoe #fyp」增速 248%，搜索端「footwear b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Footwear Shoes market poised for growth...」。",
     "product_profile": {
       "外观": "Chunky 厚底 / 复古德训 / 飞织鞋面",
       "成分": "EVA 中底 / TPU 支撑片 / 再生橡胶大底 / 飞织 PET",
@@ -50,59 +50,59 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 女鞋 供应链合规升级",
       "欧盟 CE 标志强制准入 → 女鞋 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 女鞋 通关",
-      "海外社媒「shoe industry news」增速 241% 领跑 → 女鞋社媒种草热度爆发"
+      "海外社媒「shoe #fyp」增速 248% 领跑 → 女鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "shoe #fyp",
+        "growth": 248.5,
+        "vol": "523K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "x",
         "kw": "shoe industry news",
-        "growth": 241.0,
-        "vol": "317K",
+        "growth": 243.0,
+        "vol": "89K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "footwear unboxing",
-        "growth": 225.0,
-        "vol": "139K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "shoe factory tour",
-        "growth": 219.0,
-        "vol": "6K",
+        "platform": "google",
+        "kw": "footwear industry report",
+        "growth": 223.5,
+        "vol": "460K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "shoe market 2026",
-        "growth": 214.5,
+        "kw": "footwear b2b export",
+        "growth": 220.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "sneaker wholesale supplier",
-        "growth": 200.5,
+        "growth": 98.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "APICCAPS to launch market-entry initiative in the US - World Footwear",
-        "source": "World Footwear",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTWRhdnRqTDE1YWxUN3l5elBHT3FDcXpiQnI3ZlJwZ2ZxT2hndUkxX3pfN0NEVDZFTDE5aE50WW1aUVJ4NlgwRHBCNHJkTnIwVW1qZll6eTJaWWxuLVAxRklIMmEyTEFCNEJLZHgxRUFNUmx4dXNSTlFNd0dvcjhxbC0wQVBVREY1VnVjUmRaWkpaR0p0RHVTVWhaRFhQdzA?oc=5",
+        "title": "Footwear Shoes market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/footwear-shoes-2026",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Brazil’s shoe industry loses export ground as imports rise - Valor International",
-        "source": "Valor International",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGVnRHl4djQ4WHNURU9SM1lVYUNVcWdDRDBBR0FaVzlqVkxyYzdhdmlvbmowZnBORk1NM3lwNUNjMWJSaE5ZUXdHVGRyNkJ0MnFSSnBBN2VLUUtESnpBZzZEeWpGZnJqa2w4UVZITzRKWFFCMm1Mc1A3WVpuUFZ0WXU1MFVlMEJTa1lvVlpyNGtXUy1CVGE1R0FEUVBJT2JNNFVzdTRkSWxlempOVXg2TjFLR1VLUldvcFc0azFFV1JZSHfSAdIBQVVfeXFMUEJQb1lkZzhhRW1EMWpnNE1NSGVocWFGWExrWndJTXlHZ3Nxdy1VaVluWmpLNXY3NEZ1VGF4bVRnVHVUd0huVTJ4TTU1eWVOUGliT2JYTTd3bWV3UldwWHlObTF6azU3OUs2TnZmTWdnSHA3TjZrNnR0S3MxOUU1WFgzdDl5Q2hmV1UtR0NtMHl0WnhNZXJGcG55SmQ4cTBXQjlvckROeW5SQnM5NXg2dkFPbWsxRU9pRjZRU2NiaExWU1k1QURBbEJYOGVxT1Z2NmRB?oc=5",
+        "title": "Analysts: footwear shoes sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/footwear-shoes-2026",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "footwear",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "鞋靴及配饰"
   }
 }

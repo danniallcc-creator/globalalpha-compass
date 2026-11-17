@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "果蔬产品：海外社媒「food market 2026」增速 252%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Business Sweden关注「Taste of Success: Exporting Swedish...」。",
+    "trend_summary": "果蔬产品：海外社媒「snack tiktok made me buy」增速 240%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Food And Beverage market poised for...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 果蔬产品 出口需通过合规认证",
       "美国 FDA 注册要求 → 果蔬产品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 果蔬产品 北美本地化制造红利",
-      "海外社媒「food market 2026」增速 252% 领跑 → 果蔬产品社媒种草热度爆发"
+      "海外社媒「snack tiktok made me buy」增速 240% 领跑 → 果蔬产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "food market 2026",
-        "growth": 251.5,
-        "vol": "401K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "food #fyp",
-        "growth": 251.5,
-        "vol": "106K",
+        "kw": "snack tiktok made me buy",
+        "growth": 239.5,
+        "vol": "603K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beverage aesthetic",
-        "growth": 209.0,
-        "vol": "792K",
+        "platform": "youtube",
+        "kw": "food review 2026",
+        "growth": 214.5,
+        "vol": "449K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "food market 2026",
-        "growth": 248.5,
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "food industry news",
+        "growth": 214.0,
+        "vol": "592K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beverage b2b export",
-        "growth": 110.0,
+        "growth": 136.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "food market 2026",
+        "growth": 124.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Taste of Success: Exporting Swedish Food & Beverage Products to the UK - Business Sweden",
-        "source": "Business Sweden",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWDlQMXFxellsamY5Sm5pa3B4TFExZTZhZFZUYV9rS2NEM2lfVG1RX0ZDSng3bFp3S3VVT2NGdzN5Ry1OUC1SWGdhaUJrWFRpSGFaWS0tOHZ3ZGlMa3I0NmRVY1NQNkk0c3FXR2JyOHJWdXJhVzVQQWpCeXRKWnlON3ZtdGluemd0aWZTZ3JzdDFDNHkzcVBWWHEyUGYwbkZVZmV6MF9YT25rMkkycFU1dHJOXy1RdDlHTHlIaA?oc=5",
+        "title": "Food And Beverage market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/food-and-beverage-2026",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Which Foods Are Most Vulnerable to Import Tariffs? - Purdue Exponent",
-        "source": "Purdue Exponent",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM0lxaEFGQk9uQnZIRUUxdlgzOGYxdlAxOHlkcnR0U1RIcTlYUS1YR3M3aHJWbTdvdkJkY0ZKUXAzdzlsUk9ObFJPQ292eldLUVZaODA4V0VuUzIweW1KZWZKbHlXcmR0dGJkTk9TRFR6Q0lDU2xubDRlOTE3d0p2MlJEUmNGaHI0WThaVi0taGEyQmZfRlR3UDlsa2NtazdvZlFrOWtraXpZeWpNSmo4YlBSdURYZFNqZVlMNk95cWxfQ0E4ZFVsMEx2cFZuOUFzV19xQmdUT2w5a2xKS2ZBMg?oc=5",
+        "title": "Analysts: food and beverage sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/food-and-beverage-2026",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "食品及饮料"
   }
 }

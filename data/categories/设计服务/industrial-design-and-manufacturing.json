@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工业设计与制造：海外社媒「industrial design analyst」增速 244%，搜索端「industrial design market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Foreign investment flows into China...」。",
+    "trend_summary": "工业设计与制造：海外社媒「industrial design supply chain」增速 242%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，CNBC关注「Design Services market poised for...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 工业设计与制造 出口需通过合规认证",
-      "海外社媒「industrial design analyst」增速 244% 领跑 → 工业设计与制造社媒种草热度爆发"
+      "海外社媒「industrial design supply chain」增速 242% 领跑 → 工业设计与制造社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "industrial design analyst",
-        "growth": 243.5,
-        "vol": "396K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "industrial design tutorial",
-        "growth": 232.5,
-        "vol": "155K",
+        "kw": "industrial design supply chain",
+        "growth": 241.5,
+        "vol": "388K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "industrial design market alert",
-        "growth": 230.0,
-        "vol": "100K",
+        "kw": "industrial design industry news",
+        "growth": 241.0,
+        "vol": "84K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial design wholesale supplier",
+        "growth": 238.5,
+        "vol": "455K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial design wholesale supplier",
+        "growth": 235.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design market 2026",
-        "growth": 175.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial design b2b export",
-        "growth": 160.0,
+        "growth": 103.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Foreign investment flows into China fall 4.3% y/y in first three quarters - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdzRHVjFYRmlzYmJrR0FLY2M5YXdGSXN0NmhTRVdEMkpfd2dkMkx3a1g4WGpvSVNyTGxvdzA5V3pWcy1vbTU2ZWdfbDBidm04ckJGbnFOT1pZTDR0akRzbTJYbXpqcy1PT0pFbVFrcGYtSWw4RmNmU3U1RlBfb0lwNWo3dlZXRkFhV3UyS01MTTZ2eGswck9HVzN5MzZUdjdTYWdkb3VveVBOTkhYSXVmbGpySHJHQUhoNUU5Yzh4NA?oc=5",
+        "title": "Design Services market poised for growth amid global supply chain shifts",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/markets/design-services-2026",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China trade secret proposals could put market access at risk for foreign companies - World Trademark Review (WTR)",
-        "source": "World Trademark Review (WTR)",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVHlmUE9EZUVsQktNQ2VlXzBWMm8tOFVUZi1TVXZ6Z0NwZ1A4VmtiQVVUYjJtRHRvSGxEVE8tZFZCN1BYLXFxdDgydk1KbXpuR2g5RFVMWENzMDc1OTJRNU9wTnQya1V0UDJLSVR1R1FTSnFTNWNDbl9BR1Nna2NaTGFVdUFIdEtKRTNORGExQ3BHaWZuVW53cmp0cFVVZHZfLXhoUDR0SXIyWE4tWFAxWDg4Vk9UbUZ0VTNEMQ?oc=5",
+        "title": "Analysts: design services sector to expand 8-12% in 2026 driven by emerging markets",
+        "source": "BLOOMBERG",
+        "url": "https://www.bloomberg.com/markets/design-services-2026",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "设计服务"
   }
 }

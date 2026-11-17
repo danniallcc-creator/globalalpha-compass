@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "木工机械：海外社媒「industrial machinery must have」增速 252%，搜索端「industrial machinery b2b export」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China Slaps Export Curbs on More Drones...」。",
+    "trend_summary": "木工机械：海外社媒「industrial machinery price trend」增速 239%，搜索端「industrial machinery wholesale supplier」热度上行，US Amazon BSR Top-12，Sandler, Travis & Rosenberg, P.A.关注「No Section 232 Tariffs on Robotics and...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -49,59 +49,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 木工机械 出口需通过合规认证",
       "欧盟 ATEX 防爆认证 → 工业 木工机械 进入危险环境必备",
-      "海外社媒「industrial machinery must have」增速 252% 领跑 → 木工机械社媒种草热度爆发"
+      "海外社媒「industrial machinery price trend」增速 239% 领跑 → 木工机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial machinery must have",
-        "growth": 252.0,
-        "vol": "74K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "industrial machinery aesthetic",
-        "growth": 249.0,
-        "vol": "678K",
+        "platform": "google",
+        "kw": "industrial machinery price trend",
+        "growth": 239.0,
+        "vol": "159K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "industrial machinery #fyp",
-        "growth": 233.5,
-        "vol": "526K",
+        "kw": "industrial machinery tiktok made me buy",
+        "growth": 228.5,
+        "vol": "567K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "industrial machinery b2b export",
-        "growth": 210.0,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "industrial machinery wholesale supplier",
+        "growth": 226.5,
+        "vol": "776K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial machinery wholesale supplier",
-        "growth": 117.5,
+        "growth": 223.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "industrial machinery market 2026",
+        "growth": 163.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China Slaps Export Curbs on More Drones and Industrial Machinery - Bloomberg.com",
-        "source": "Bloomberg.com",
+        "title": "No Section 232 Tariffs on Robotics and Industrial Machinery - Sandler, Travis & Rosenberg, P.A.",
+        "source": "Sandler, Travis & Rosenberg, P.A.",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVi1fWFpDMU9ZYjhFUFdnblNtWnlPUTZnOFdlT0pzYzV1QXlQWnAxS3FIUW1QUEYwa0RNeG1qOGtnZmg5SzVsMkFTMnA1ZmpISzhzSlVVM1ozRjJZQmEyUG1aUmg2NmprQUVEaE1acUUwaUlwODJvby1IV2VfeVhlbkJkcGZCSTJjM1dIaUk2eEhhUFRQeXZua1hXN2lXU0l2STBtcXdXZGxkZGpYaFgtZkN2VHRzc0JnMlhqa2FUQXdOVk51VENidVl3?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China Slaps Export Curbs on More Drones and Industrial Machinery - Bloomberg",
+        "source": "Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaUJwVW1IR0ExWmUzSXV6YTBrYUw0WXJVUTFtenFRYXQ0QmZBaWdXYWFmNEVDMm92SWxPNlRYc19ubkFVRVhBbUc5aERhNVJRUUJzUWpNWHJFcTR5OHozUGNZWWEyLU9kdU95R3BaZXF4T19zeTBrZkU1ZzI2aXdlNkJXaE02Q01fSlV5eFBsVEdqLUM0Z0w1WFI5SjVnY2NmdFd0VDRQZ3UzODhyaURpNzhkVTVzUQ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Global Construction Machinery Export Growth Reshapes Demand for Crawler Crane Undercarriage Parts - FinancialContent",
-        "source": "FinancialContent",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX2VaVC1BUl9hcmxQbHFSSV9rYUQtNlVqZmhGZ1ZJVVRneF9la290aXppdmlwTnMyOEd1YXYyZ1BJV3Zxb2xCcWQ5dVU2ckVINDNaRks5WnBxVEMyM191OUxoZFBJV2pfeXpRcVlpZFhDSDZ1cG9uTlF4T05HVFlVWG03N0JzVDRleG50bkxRRHBuc2dna2FtUzZSWFZ2dmVZYWVZZ1ROT294Ymhvc01jeG8zS1lBdTR3VzBJeVFmOUw1WWlPWHJvNTZCaGJqYkllbXdCbTRiZmlFMllHX2pVTXAtXy1oMGpBWE40UTdGQlViVnpHTnc?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-10",
+    "generated_at": "2026-11-17",
     "l1_ref": "工业机械"
   }
 }
