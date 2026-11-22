@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工程建筑机械：海外社媒「construction equipment viral」增速 248%，搜索端「construction equipment b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Construction Machinery market poised...」。",
+    "trend_summary": "工程建筑机械：海外社媒「construction equipment analyst」增速 242%，搜索端「construction equipment market 2026」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「China’s 5,000-Ton Digging Machines Are...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 工程建筑机械 出口需通过合规认证",
-      "海外社媒「construction equipment viral」增速 248% 领跑 → 工程建筑机械社媒种草热度爆发"
+      "海外社媒「construction equipment analyst」增速 242% 领跑 → 工程建筑机械社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "construction equipment analyst",
+        "growth": 241.5,
+        "vol": "748K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "construction equipment viral",
-        "growth": 247.5,
-        "vol": "652K",
+        "kw": "construction equipment #trending",
+        "growth": 232.5,
+        "vol": "282K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "construction equipment market alert",
-        "growth": 244.0,
-        "vol": "260K",
+        "growth": 232.0,
+        "vol": "203K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "construction equipment must have",
-        "growth": 241.0,
-        "vol": "499K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "construction equipment market 2026",
+        "growth": 194.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "construction equipment b2b export",
-        "growth": 184.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "construction machinery supply chain resilience",
-        "growth": 83,
+        "growth": 182.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Construction Machinery market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/construction-machinery-2026",
+        "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEODdKSl9DS2I3bWhsbWtjcjE5WjRlVG03VnBDY3lyN3hESVluM2RRaXdaX216Q2dzcEVpR0o3UWVZVlFIUFQxRE5qRTdaeHZ3Z0xydEkwX0FBdXRCZFJMaXVwdEdUaERNOXQ5VWNReXJSbGdHQkh6WEU3ZWNCOHl6bHJaV2kzN0c1SEs2Y1IwdEFyaFd6cWpEeVlYdw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: construction machinery sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/construction-machinery-2026",
+        "title": "CNH to sell 70% stake in construction equipment business - Manufacturing Dive",
+        "source": "Manufacturing Dive",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3FtOGJnSVk1VTZOUkY5d2ZUZkNIeXVIYWpzbnl0RU9kX0t1NFNmdjZiRmxqb2JJQ1NBUWI2MVdUcC05amtTZ0lsTjNaeE1QSlRXdW8wVEJHall2ckJSNUhoYjZSeEVGQlBXNV9Pbmo3NWFmMWg4cEs4MzlSQTVlMXlNZEgxY1dmLTh5RnpKWVUtQ2lZZ1FJQm0tOHk1emdjS2NXeU5OcVpnX0JuZHc1dmtR?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "工程及建材机械"
   }
 }

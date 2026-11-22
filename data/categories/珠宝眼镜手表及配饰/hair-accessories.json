@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "发饰：海外社媒「watch aesthetic」增速 251%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Jewelry Watches market poised for...」。",
+    "trend_summary": "发饰：海外社媒「jewelry breaking」增速 250%，搜索端「watch b2b export」热度上行，US Amazon BSR Top-12，Luxus Plus关注「Following the agreement signed between...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 发饰 出口需通过合规认证",
-      "海外社媒「watch aesthetic」增速 251% 领跑 → 发饰社媒种草热度爆发"
+      "海外社媒「jewelry breaking」增速 250% 领跑 → 发饰社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "jewelry breaking",
+        "growth": 250.5,
+        "vol": "788K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "x",
+        "kw": "jewelry analyst",
+        "growth": 243.5,
+        "vol": "413K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "watch aesthetic",
-        "growth": 251.0,
-        "vol": "661K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "jewelry #fyp",
-        "growth": 221.5,
-        "vol": "319K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "watch trending now",
-        "growth": 216.0,
-        "vol": "520K",
+        "kw": "jewelry viral",
+        "growth": 241.5,
+        "vol": "75K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "watch b2b export",
-        "growth": 162.0,
+        "growth": 152.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "jewelry market 2026",
-        "growth": 94.5,
+        "kw": "jewelry wholesale supplier",
+        "growth": 126.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Jewelry Watches market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/jewelry-watches-2026",
+        "title": "Following the agreement signed between Switzerland and China, what are the implications for the watchmaking industry? - Luxus Plus",
+        "source": "Luxus Plus",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc2xUQ2RDcE5WaGo5Yy1UMzZodjNHMVY4ZWwtczM0U1Vzb01QSUxJQ0piMnc1NWJDRDJlQUFkU0tUcXFXMWhXODVySTdXakdKUi1DWGRXbnFobG9WekJucGtiSTJvcEUwZnZKQmoxN0I2YXducUtaWXpSd1oxbDJjTUJZR3NZUEM2MmpFZHI3RERjY3kyUFVtOV8wNGZxdlNyb1NoZ0ZPd2RHTms4aXJpRk5jM18wU3FVc1VNaTNISlpnQkEwNW5iNlBaV3dTSTFtbksxanFVbmRxZw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: jewelry watches sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/jewelry-watches-2026",
+        "title": "Maria Cristina Squarcialupi on Italian jewellery exports to emerging markets, Unoaerre's fashion jewellery - FashionNetwork France",
+        "source": "FashionNetwork France",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM3diY0E2NEFJR3F4bml6ekpTUUNjM2tuV1dUYWZlRFhmMjM2ektnZnpqQ21CSHkxQkZBWktXV2d4U200ZE5KTERYdVJIajl0aEhNWFJ0SkVvR29jRk4xVFV6bllMSWRSSkNYcVNxQnJMRkFtSTRiaEZWdWlUVUs5b2FBalV2cDZ1X3FzQThhU0ZDMjBoWDV3VllQU2RMNTAyVFdQSGJwbUc2ZjY5SGV3NHpVNmdqOVFxaEg1a3ZTYXU1VXYzZTFNRVJ0MzJXSmNQeWRHWE1MY2loazlnQmVoSHZEVmdTTFN4?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "二手美容：海外社媒「cosmetic industry report」增速 250%，搜索端「skincare wholesale supplier」热度上行，US Amazon BSR Top-12，CNN关注「Chinese beauty brands are building a...」。",
+    "trend_summary": "二手美容：海外社媒「beauty review 2026」增速 252%，搜索端「beauty market 2026」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese beauty brands, flush with...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,52 +50,45 @@
       "欧盟 CE 标志强制准入 → 二手美容 出口需通过合规认证",
       "美国 FDA 注册要求 → 二手美容 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 二手美容 制造门槛",
-      "海外社媒「cosmetic industry report」增速 250% 领跑 → 二手美容社媒种草热度爆发"
+      "海外社媒「beauty review 2026」增速 252% 领跑 → 二手美容社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "beauty review 2026",
+        "growth": 251.5,
+        "vol": "199K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "cosmetic unboxing",
+        "growth": 247.0,
+        "vol": "699K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "cosmetic industry report",
-        "growth": 249.5,
-        "vol": "191K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "beauty must have",
-        "growth": 244.0,
-        "vol": "30K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "skincare wholesale supplier",
-        "growth": 241.5,
-        "vol": "757K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "skincare wholesale supplier",
-        "growth": 238.5,
+        "growth": 231.5,
+        "vol": "301K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "beauty market 2026",
-        "growth": 154.5,
+        "growth": 141.5,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Chinese beauty brands are building a bigger global presence - CNN",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbWNwRUpwdDZhb0syLU4tcUN1U1RsRUxoUXA4aE55REVJcXU2dWc3dnJWQXM2SnhQVGJVZ09VZnhKdW9qZnctOWlJSW03cWhzY0xyd3lqUHNNcHdFb0xWLU1Sc2ZNeHhHWjdEOUFOZFVvV2tMbjgzVHRITE5CZkVvUWNZRW9fRzl2Ti1z?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "cosmetic b2b export",
+        "growth": 111.0,
         "hits": 0
       },
       {
@@ -103,6 +96,13 @@
         "title": "Chinese beauty brands, flush with success at home, start to vie for global shelf space - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd29zTzc4XzJ1dmVYNkJkaVUxMERuVUhjRGZWWUI5RURGV3BxWWw1S1BHODlpS0xFOWotenNSMHQyMHJtVDVkNHdYb3FtbnpSMWE0WXNKLVJBLUxtQ08zc3VvY0Y0WVhxbklRVFlSRFJJVU9XTzdhcTRBSVBRcUtJVkhNaElrU0lJTGJZc2YxeWFOV1QzaE5tQ3pSZFB1MFhCa0dsUERmQ0dYbm5lX3hGX0Z2ZnpBay0tQ0R6TVZQLVJ4OXpEUkkzU2hyam1mQXBS?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Chinese beauty brands are building a bigger global presence - CNN",
+        "source": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbWNwRUpwdDZhb0syLU4tcUN1U1RsRUxoUXA4aE55REVJcXU2dWc3dnJWQXM2SnhQVGJVZ09VZnhKdW9qZnctOWlJSW03cWhzY0xyd3lqUHNNcHdFb0xWLU1Sc2ZNeHhHWjdEOUFOZFVvV2tMbjgzVHRITE5CZkVvUWNZRW9fRzl2Ti1z?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "美妆"
   }
 }

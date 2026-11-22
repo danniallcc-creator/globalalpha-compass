@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "乳制品：海外社媒「snack tiktok made me buy」增速 240%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，CNBC关注「Food And Beverage market poised for...」。",
+    "trend_summary": "乳制品：海外社媒「beverage analyst」增速 246%，搜索端「food market 2026」热度上行，US Amazon BSR Top-12，Sandler, Travis & Rosenberg, P.A.关注「U.S. Origin Statements on Seafood...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,59 +50,59 @@
       "欧盟 CE 标志强制准入 → 乳制品 出口需通过合规认证",
       "美国 FDA 注册要求 → 乳制品 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 乳制品 北美本地化制造红利",
-      "海外社媒「snack tiktok made me buy」增速 240% 领跑 → 乳制品社媒种草热度爆发"
+      "海外社媒「beverage analyst」增速 246% 领跑 → 乳制品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "snack tiktok made me buy",
-        "growth": 239.5,
-        "vol": "603K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "food review 2026",
-        "growth": 214.5,
-        "vol": "449K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "food industry news",
-        "growth": 214.0,
-        "vol": "592K",
+        "kw": "beverage analyst",
+        "growth": 245.5,
+        "vol": "638K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "beverage b2b export",
-        "growth": 136.0,
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "food price trend",
+        "growth": 244.0,
+        "vol": "786K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "food #fyp",
+        "growth": 240.5,
+        "vol": "482K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 124.5,
+        "growth": 178.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "beverage b2b export",
+        "growth": 141.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Food And Beverage market poised for growth amid global supply chain shifts",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/markets/food-and-beverage-2026",
+        "title": "U.S. Origin Statements on Seafood Labeling are Focus of FDA Guidance - Sandler, Travis & Rosenberg, P.A.",
+        "source": "Sandler, Travis & Rosenberg, P.A.",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3YzQ1dzM2NYd3ZNdDAwak9aM19Yb1FQQzBKdW1PNXFjRkw4S0tENlY3cjNCT3QzRFBiM2c2amJPRHRjTTA3Sm9HUERFaVRvUUpUdDh1QUtsaTIwdE16QmliRHJucnRHemMxNHFSOUNhQWNRbFNHaHVIN0I0MFFMZXZqaHdHODNHeGExcjlMUER2NW5QOWlTQ09IcENibENoQ2FzTE9ZZ2RYVFZpSVhrVlNjN1dIT3gxZ1E1dV9HeTlLS1NkZmRmMzRTTW9EX2lkcnN4cA?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Analysts: food and beverage sector to expand 8-12% in 2026 driven by emerging markets",
-        "source": "BLOOMBERG",
-        "url": "https://www.bloomberg.com/markets/food-and-beverage-2026",
+        "title": "Dafgårds swedish meatballs - Client case | Try Swedish - Business Sweden",
+        "source": "Business Sweden",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VUlWWHNnMzZBVUV2OWtqemNBdHp4ZnYteW5lQXp5VlI5SU1WLXZvZ2ROVEwzMUk4Vkh4ZER1eHJmVzcyNVRFT3doVWhpRU9yOFBlQ1VmLUt3NGpBUnh3MXd5cFpjYjBiLXIxMGZabnJHeDZxVzJMdFNSUQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "食品及饮料"
   }
 }

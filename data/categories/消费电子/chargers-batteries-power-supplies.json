@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "充电器，电池和电源：海外社媒「smartphone new arrival」增速 250%，搜索端「smartphone b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's economic growth picks up as...」。",
+    "trend_summary": "充电器，电池和电源：海外社媒「smartphone market alert」增速 249%，搜索端「earbuds wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg关注「How China’s Export Machine Shocked the...」。",
     "product_profile": {
       "外观": "极简曲面 / CNC 铝合金中框 / 亲肤硅胶耳塞",
       "成分": "ABS+PC 外壳 / 钴酸锂或硅碳负极电池 / 稀土磁钢",
@@ -50,59 +50,59 @@
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 充电器，电池和电源 成主流",
       "欧盟 CE 标志强制准入 → 充电器，电池和电源 出口需通过合规认证",
       "美国 FCC 电磁兼容认证 → 电子类 充电器，电池和电源 合规刚需",
-      "海外社媒「smartphone new arrival」增速 250% 领跑 → 充电器，电池和电源社媒种草热度爆发"
+      "海外社媒「smartphone market alert」增速 249% 领跑 → 充电器，电池和电源社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "smartphone new arrival",
-        "growth": 250.5,
-        "vol": "389K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "smartphone analyst",
-        "growth": 245.5,
-        "vol": "390K",
+        "kw": "smartphone market alert",
+        "growth": 249.0,
+        "vol": "314K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "earbuds viral",
-        "growth": 239.5,
-        "vol": "171K",
+        "platform": "tiktok",
+        "kw": "smartphone must try",
+        "growth": 241.5,
+        "vol": "517K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "earbuds wholesale supplier",
+        "growth": 232.5,
+        "vol": "554K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "smartphone b2b export",
-        "growth": 155.0,
+        "kw": "earbuds wholesale supplier",
+        "growth": 229.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "consumer electronics market 2026",
-        "growth": 113.5,
+        "growth": 214.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's economic growth picks up as exports boom, consumers balk - Reuters",
+        "title": "How China’s Export Machine Shocked the World - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTY3X0s5cV9Ma1d0S2ZEV3I0X1RzVFVTZ0R4c3djenU3aGZpMUxCeGRiN3BFQWdrSnJLTENBZ1E0SktPSTZNck5PVFpSYkpIVjdoWVNuY1FMLVJVT29VZTFNN0k0UnNOSHZucHdCekxhdGxKQ3drMjJCcXRNcjljMlF4R0RuRzR3UkJVRU5aMHA3Vm5veVhlSnRfUTlTeXdIVmRsWnFWNUhPbUI2Q21NOE9ZUnJ4S3g2WXhXVDM4TQ?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China's new export curbs draw a line around its AI crown jewels - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPelFIVGVwcy1oY2RvRVlaQTl5REpEc1hfS0ZUb1lTeWN0M2tBbTctTWo4NzVXeWthQVNab2p1eUFYQ2xtejBoc1ktQlZFQXh1U3hOSWdNdlBzTzNvcThPMFVyNnIzSTgyQ3lXbW8taGQtTV92Vl9uUGZOWjc1cGp6NTJBTDNpcWpEUnRCMjhXcVRYNkVXSFNwaHF3UGFGU0NqZTZWZzJXc0FyX3BnUkxhVWVSNzI?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "The End of Convergence - Council on Foreign Relations",
-        "source": "Council on Foreign Relations",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52NVJyNGhkU1ZjdlM0dUxLbGExbWV5ZUpXajZLV0JRcm9ROEVBNUpXQ3Y4LThTV0ZIa1JnVnl3UC1pM1Z3NVl5WVJXRl9DN1g1QkhnRzlXYjFFY0ROMFZv?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQS1XZ0liaXgydVhrTDZ3Z3piOTUyYVlBNFZXdTVPenctR01Hb0RuZEtvNVZObkFHRE9Pb0dkTURvamlKanJVQm1hX2k5cERiSnpQbmRsaTJSS2VZY0NEaEpGanlxODFiR1IxbFozM0p4a3Y0Sl9NdFFMd1Zrd05lQlQyaS1ZYlJqQURvYXpxNVFzSEJUd3JKZ1lGbWtGSDNqaWhR?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "consumer_electronics",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "消费电子"
   }
 }

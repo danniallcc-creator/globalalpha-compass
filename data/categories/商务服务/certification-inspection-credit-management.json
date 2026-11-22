@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service aesthetic」增速 227%，搜索端「business service market 2026」热度上行，US Amazon BSR Top-12，World Economic Forum关注「AI investment boosts export outlook,...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service b2b export」增速 244%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「India's October trade deficit hits...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service aesthetic」增速 227% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service b2b export」增速 244% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "business service aesthetic",
-        "growth": 227.0,
-        "vol": "167K",
+        "platform": "google",
+        "kw": "business service b2b export",
+        "growth": 244.0,
+        "vol": "576K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "business service tutorial",
+        "growth": 229.5,
+        "vol": "225K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "tiktok",
-        "kw": "business service #fyp",
-        "growth": 221.5,
-        "vol": "737K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "business service viral",
-        "growth": 217.5,
-        "vol": "574K",
+        "kw": "business service viral hack",
+        "growth": 226.0,
+        "vol": "550K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "business service market 2026",
-        "growth": 173.5,
+        "kw": "business service b2b export",
+        "growth": 241.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service wholesale supplier",
-        "growth": 129.5,
+        "growth": 118.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "AI investment boosts export outlook, and other trade news to know - World Economic Forum",
-        "source": "World Economic Forum",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNm80c0xrMy1jREVsdWJESG1PdHBCOVZUMFc5bk5qekprU1BYcmhJZXFmanV2QzZ1V1g0cGJEUllQQWxfVVRManpXVENQTmJKbTdFVzZBaHBtV2JraVZINVZrR3kzb2NQdklheUVsR2JtdGhyNFREcm9MbEJrbDM5T0FRU0g4WEpvdU13a0J5RlAtWGg0Nk5JX3FWQlh3djZYVlF6M2pyU0JsNVk0ZFg5NTNic0FfQ3hwdWRGNWJ2Q2Q?oc=5",
+        "title": "India's October trade deficit hits one-year high of $39.88 billion as gold imports jump - Reuters",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVC1qbUMzMG9XdFpsRGZQQzNVa3d1R2hfem5KQUplcU1DZWd4amxfa0Z0cTQ0QkU2SkkybmlacTlaNFlNSlB0UkJ6OWJZTUxzZ19lbDlZcmt2RHFMeUF3UjhvRHpFWnVwYzU0RkN1WF9MWFFuOThuMHJUaTdPdDh4VWtQMm9pVEZDZFdjcmVicDZzVDlhSzdHUTBsNWF4VkV2Y1FtRlAyT0tYZmhCdWFyUERaQy1JNDJuVU0tSw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "US Exports to China 2026 - The US-China Business Council",
-        "source": "The US-China Business Council",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYWUtwNkdSdTh1TUNxWVVvOENDVGJEd2hic012SFpHTEJuTzZLdWNhVzNSMWxlbDVkVGdJMml5VV85ZnNic2hxYnRvc2NMYUszMFBXMGVFdlZhYnJSdWNjZnc5Tkl6X21fM3c?oc=5",
+        "title": "Indonesian factories enjoy record export sales growth as trade rebounds - S&P Global",
+        "source": "S&P Global",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVVwWTRTS3FfQ2NJTk85MzNrSjVqMkhDSGlmRXF4TVB6RjR4Y1oxTU45TDlFT0NkQVhERmxzRlVzdTNzYXM0WVV5OHl3YjFiWXI1bTBEYWF5cF9lSWFqTFpEYk5iLWlJRzg0TlRXUGd1Ykw4ZkNDcF9STzJUTEFWUDdFTG53Rk1PY3JlUWtfMUlfZkZqM2pDMGU1VDlBdEVtYkFHUmhqN2JWMERwMS0xclE0NXRISGhZZ0FSSnZOSjdpbklFaFpqRWZFU1dOU1JCYkgySWZsVzhIRkk2ZlVSNklCX04?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-11-17",
+    "generated_at": "2026-11-22",
     "l1_ref": "商务服务"
   }
 }

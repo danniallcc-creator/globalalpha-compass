@@ -24,22 +24,22 @@
   ],
   "export_data": {
     "hs_chapter": "73",
-    "total_export_value_usd": 23312927,
-    "total_net_weight_kg": 2812927,
+    "total_export_value_usd": 45098805,
+    "total_net_weight_kg": 4598805,
     "top_partners": [],
     "record_count": 0,
     "period": "2024",
     "reporter": "China",
     "source": "deterministic_fallback",
-    "fetched_at": "2026-11-17"
+    "fetched_at": "2026-11-22"
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 57,
-      "trend_direction": "down",
+      "interest_score": 82,
+      "trend_direction": "up",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-11-17"
+      "fetched_at": "2026-11-22"
     }
   },
   "industry_analysis": {
@@ -52,24 +52,26 @@
     "opportunity": "Smart tools with IoT integration and digital measurement. Emerging market infrastructure development driving demand. E-commerce direct-to-consumer channels reducing distribution costs. Cordless battery platform ecosystems creating brand lock-in."
   },
   "compliance_summary": "ISO quality standards, DIN/ANSI specifications, CE marking (EU), product liability insurance, safety testing for power tools.",
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-22",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 1,
+    "article_count": 2,
     "sentiment": {
       "overall": "positive",
       "positive_pct": 100.0,
       "negative_pct": 0.0,
       "neutral_pct": 0.0,
-      "articles_analyzed": 1
+      "articles_analyzed": 2
     },
     "top_headlines": [
-      "Wholesale prices bump up again in October - HBS Dealer"
+      "Wholesale prices bump up again in October - HBS Dealer",
+      "Asia 2026: Market analysis - Fastener + Fixing Magazine"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLOHZ2X1BYY0JHcHJCM0hTcTBNbnI3bzlWcjdMYlFIVTJneWJWTmtfbjUxbjl4RWNmbFBrWFRrYzRyMnJYSzJkT1l1VzMwMmpxSTh4cmFnRmFQblM3VDdTQTBuNngtbEw1?oc=5"
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLOHZ2X1BYY0JHcHJCM0hTcTBNbnI3bzlWcjdMYlFIVTJneWJWTmtfbjUxbjl4RWNmbFBrWFRrYzRyMnJYSzJkT1l1VzMwMmpxSTh4cmFnRmFQblM3VDdTQTBuNngtbEw1?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTFB5T3lZbEVtSkdGNG02QWRpWjQ2VWZoQmdkSW1SQ29ZMjNhTi1wWTBHZHcxRHFKRl9weV82VTdNcUplTDdQV1IyRzhFbXB2MktpVjBpVTRfOTgxbl9Mak9NT21hSXFleGNzNk1TTk1aeVJKdw?oc=5"
     ],
-    "fetched_at": "2026-11-17"
+    "fetched_at": "2026-11-22"
   },
   "customs_2025": {
     "china_export": {
@@ -84,35 +86,40 @@
       "JP": {
         "value_usd": 5527161124.805,
         "yoy": null,
-        "share": 61.5
+        "share": 58.8
       },
-      "AU": {
-        "value_usd": 3453074832.4700003,
+      "BR": {
+        "value_usd": 1801791745.0,
         "yoy": null,
-        "share": 38.5
+        "share": 19.2
+      },
+      "IT": {
+        "value_usd": 2076646788.1780002,
+        "yoy": null,
+        "share": 22.1
       }
     }
   },
   "policy_updates": {
     "articles": [
       {
-        "title": "FTC Urged to Probe Companies Not Sharing Tariff Refunds With Consumers - SupplyChainBrain",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ0FFYnFHS01DdjltazdVdTFUWkI1bDhHY2VYYjNKRGhab0FqeDRoMUp2MzFpMWhVbjZzV2NyMmNMbkNuaFVRQ016ZTF6aDNKWVVjS3RGRWRHNURrbUF5bXZ0V1p1SzV1ZWFiVzdtbXhPOE5lYVZlMzJwbU1sQjVNcEF6Y1Z4QWkwQUNKbjQ1VlJlZkdzb2VmMmk3R0w1S3hndDk3d0ZRaDl4M0FwbzVzT1d1ZGdTeC1kVm",
-        "country": "Unknown",
-        "policy_type": "tariff",
+        "title": "Self Tapping Screws Set Market To 2035: DIY Demand and E-Commerce Fuel Growth - News and Statistics - IndexBox",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOV25aTWppOEw3d2tITW42VXNPY0NYZXRjZE5rOC1RWlJMSFhFc1BUNnU4Y2N2d2V4WTRBSnh0ODZCOEJENXFxMGg4RFhuNHpYdVBScmpOUXVDYmFiMDgwN2otQTYxb1pPOEZlNEt1dWs2UHc1dEJta0tHSTJOaWVTdXpSWXBKLThxTmFkTVhfMjhNT2NZWV9pdTY5OXVhV3Zpem9IWnZ0U2NlVmFvTmVseklFcHhEUm1rUE",
+        "country": "EU",
+        "policy_type": "compliance",
         "impact": "neutral",
         "impact_score": 0.3,
         "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ0FFYnFHS01DdjltazdVdTFUWkI1bDhHY2VYYjNKRGhab0FqeDRoMUp2MzFpMWhVbjZzV2NyMmNMbkNuaFVRQ016ZTF6aDNKWVVjS3RGRWRHNURrbUF5bXZ0V1p1SzV1ZWFiVzdtbXhPOE5lYVZlMzJwbU1sQjVNcEF6Y1Z4QWkwQUNKbjQ1VlJlZkdzb2VmMmk3R0w1S3hndDk3d0ZRaDl4M0FwbzVzT1d1ZGdTeC1kVmJ0YnJremx5VHZBbE5ENU9DakFIR2p1VFMzR1NkNkYtdmJ6VS1rX3FibUxTMDQ0TFE?oc=5",
-        "published": "Fri, 13 Nov 2026",
-        "source": "SupplyChainBrain"
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV25aTWppOEw3d2tITW42VXNPY0NYZXRjZE5rOC1RWlJMSFhFc1BUNnU4Y2N2d2V4WTRBSnh0ODZCOEJENXFxMGg4RFhuNHpYdVBScmpOUXVDYmFiMDgwN2otQTYxb1pPOEZlNEt1dWs2UHc1dEJta0tHSTJOaWVTdXpSWXBKLThxTmFkTVhfMjhNT2NZWV9pdTY5OXVhV3Zpem9IWnZ0U2NlVmFvTmVseklFcHhEUm1rUEZTQTY5ck51T3NUc1E?oc=5",
+        "published": "Mon, 16 Nov 2026",
+        "source": "IndexBox"
       }
     ],
     "country_summary": {
-      "Unknown": {
+      "EU": {
         "trend": "neutral",
         "key_policies": [
-          "tariff"
+          "compliance"
         ],
         "impact": "neutral"
       }
