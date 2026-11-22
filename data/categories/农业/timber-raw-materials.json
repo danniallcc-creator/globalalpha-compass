@@ -55,7 +55,25 @@
   "last_updated": "2026-11-22",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": null,
-    "imports_from_china": {}
+    "china_export": {
+      "total_usd": 32298957000.0,
+      "total_kg": 0,
+      "yoy_growth": null,
+      "period": "2025",
+      "source": "UN Comtrade",
+      "data_quality": "complete"
+    },
+    "imports_from_china": {
+      "GB": {
+        "value_usd": 1017526803.684,
+        "yoy": null,
+        "share": 45.2
+      },
+      "CA": {
+        "value_usd": 1234889054.977,
+        "yoy": null,
+        "share": 54.8
+      }
+    }
   }
 }

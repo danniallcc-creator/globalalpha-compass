@@ -35,10 +35,9 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 62,
+      "interest_score": 92,
       "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "source": "deterministic_fallback",
       "fetched_at": "2026-11-22"
     }
   },
@@ -55,21 +54,19 @@
   "last_updated": "2026-11-22",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "positive",
       "positive_pct": 100.0,
       "negative_pct": 0.0,
       "neutral_pct": 0.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Leather Craft Tools Market To 2035: Premium Demand and Maker Culture Fuel Growth - News and Statisti",
-      "The Digital Sourcing Stack: 7 Online-Only Tools That Traditional Wholesale Cannot Match - Alibaba"
+      "Leather Craft Tools Market To 2035: Premium Demand and Maker Culture Fuel Growth - News and Statisti"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdnVHRzRwUkpWTDVXTjZhU0hRVXZBMXRMc09Ia2tTMlY3WEMyN2NOcDFvR2J1d3VkVHlYb0FVaFllRkJSZ29PQ2lTcmJtaDg0eDFtZmotOUFZdFd3VjZwZk92ZExBSzB1dU1jNUxVMlhkY09FMXhFSTg4WldvRThaSjNMX2tuLWt1WUs1Q3dmRmkwZ2l5R2xSTjBybDZod004RF9iZGwwcWhudXFUWXRqRTVoR255Nnh2bUVPQ0pWbkxJdXgwUkE?oc=5",
-      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFV5MUpobnVOUVFTZzcwaU1NaVdoSnFFV1hFdFV5MXNFSnVfUnN6LWNqUHRicXVkQkJndVRTdE5OczhYTGJPTWwxaTlCbS1rSVV5ajU0MEZmUjJSSWtLdzZjMVIzYUtyTW9EZXQ5cGtFbTVFbkctVW9lXzJPbnQ2UlQ5Q0M1aTFmblZsbnFmazNNc2kzN0ppMkxNQ3Z0R1lsaUlGdDdidGVjMlNoYjZHUFdSc3RKdkwybzB2djZtX3dqVzVkeEYyOWVSUjQ2VmlLdnVF?oc=5"
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdnVHRzRwUkpWTDVXTjZhU0hRVXZBMXRMc09Ia2tTMlY3WEMyN2NOcDFvR2J1d3VkVHlYb0FVaFllRkJSZ29PQ2lTcmJtaDg0eDFtZmotOUFZdFd3VjZwZk92ZExBSzB1dU1jNUxVMlhkY09FMXhFSTg4WldvRThaSjNMX2tuLWt1WUs1Q3dmRmkwZ2l5R2xSTjBybDZod004RF9iZGwwcWhudXFUWXRqRTVoR255Nnh2bUVPQ0pWbkxJdXgwUkE?oc=5"
     ],
     "fetched_at": "2026-11-22"
   },
@@ -93,54 +90,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "arvid lindblad",
-            "volume": "500+",
-            "growth": -6.7
-          },
-          {
-            "keyword": "whitney peak",
-            "volume": "200+",
-            "growth": 112.0
-          },
-          {
-            "keyword": "alvin wyatt",
-            "volume": "200+",
-            "growth": -5.1
-          },
-          {
-            "keyword": "f1",
-            "volume": "20000+",
-            "growth": 76.2
-          },
-          {
-            "keyword": "college football georgia standings",
+            "keyword": "skubal",
             "volume": "5000+",
-            "growth": 125.7
+            "growth": 124.4
           },
           {
-            "keyword": "sam hauser",
-            "volume": "500+",
-            "growth": 16.1
+            "keyword": "abdul carter",
+            "volume": "1000+",
+            "growth": 79.6
           },
           {
-            "keyword": "jake fette",
-            "volume": "200+",
-            "growth": 1.9
-          },
-          {
-            "keyword": "nina dobrev",
-            "volume": "200+",
-            "growth": 3.7
-          },
-          {
-            "keyword": "f1 tv",
+            "keyword": "nfc south standings",
             "volume": "2000+",
-            "growth": 62.4
+            "growth": 79.5
           },
           {
-            "keyword": "drew mestemaker",
+            "keyword": "courtland sutton",
             "volume": "2000+",
-            "growth": 39.4
+            "growth": 21.0
+          },
+          {
+            "keyword": "kingston flemings",
+            "volume": "200+",
+            "growth": 34.6
+          },
+          {
+            "keyword": "liam coen",
+            "volume": "200+",
+            "growth": 61.3
+          },
+          {
+            "keyword": "david bailey",
+            "volume": "1000+",
+            "growth": 102.7
+          },
+          {
+            "keyword": "franchising",
+            "volume": "1000+",
+            "growth": 68.6
+          },
+          {
+            "keyword": "river plate - lanús",
+            "volume": "1000+",
+            "growth": 99.6
+          },
+          {
+            "keyword": "travis hunter",
+            "volume": "1000+",
+            "growth": 124.3
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -191,17 +188,17 @@
         "trending_keywords": [
           {
             "keyword": "#ToolTok",
-            "volume": "47B views",
+            "volume": "28B views",
             "growth": 96.9
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "43B views",
+            "volume": "29B views",
             "growth": 57.4
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "31B views",
+            "volume": "55B views",
             "growth": 67.0
           }
         ],
@@ -223,6 +220,18 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekhjeVlRM0psMkdMNk9MVzg3Tng3ZkhZWTBySWxlendaV01lZ1hFYkdWSUFDUk9HMU0waklHZGVXb0ZaLXF3RFpCb0JFTDBpd1JaT0pfY0FYeDdzNWZWYUdxeUl3Q1RYbWwyTjJaOHZDM2d6aC1pb08tTHpPdkdzV3VxRGZvNGtqelg0NTNHRDI2R3ZRaUVOMFVGamJ0UEw4QTdaeVo3aFZ4bFoyaXUzM0V1S1VZLVUt?oc=5",
         "published": "Mon, 16 Nov 2026",
         "source": "Holland & Knight"
+      },
+      {
+        "title": "Why Tariffs Aren’t Bringing Factories Back to the U.S. - Harvard Business Review",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQOENZS3JQdWY1MUlzRmJkV1RXWDI0clVhdEUyR0tGOFpXOGJ6RWE2ekRqMGJzLW9DVnh5dWF5VEl0eU1yd1hqQlBvRWRRVFM4cUQxM2Z2YVVUaVRTLXNGSnFNOVRxTFk1YVpLX2pDeUhSUVd3QjFyYkpXRTZGVklUWkdB?oc=5\" target=\"_blank\">Why Tariffs Aren’t Bringing Factories Back to the U",
+        "country": "US",
+        "policy_type": "tariff",
+        "impact": "neutral",
+        "impact_score": 0.3,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOENZS3JQdWY1MUlzRmJkV1RXWDI0clVhdEUyR0tGOFpXOGJ6RWE2ekRqMGJzLW9DVnh5dWF5VEl0eU1yd1hqQlBvRWRRVFM4cUQxM2Z2YVVUaVRTLXNGSnFNOVRxTFk1YVpLX2pDeUhSUVd3QjFyYkpXRTZGVklUWkdB?oc=5",
+        "published": "Thu, 19 Nov 2026",
+        "source": "Harvard Business Review"
       },
       {
         "title": "WTO | 2026 News items - New trade-restrictive measures surge but WTO members step up trade facilitation efforts - World ",

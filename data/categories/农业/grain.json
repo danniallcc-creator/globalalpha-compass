@@ -37,8 +37,7 @@
     "google_trends": {
       "interest_score": 56,
       "trend_direction": "stable",
-      "related_topics": [],
-      "source": "google_suggest_api",
+      "source": "deterministic_fallback",
       "fetched_at": "2026-11-22"
     }
   },
@@ -55,89 +54,22 @@
   "last_updated": "2026-11-22",
   "data_source": "base_generated",
   "customs_2025": {
-    "china_export": {
-      "total_usd": 54529228022,
-      "total_kg": 1629228022,
-      "yoy_growth": 12,
-      "period": "2025",
-      "source": "UN Comtrade",
-      "data_quality": "estimated"
-    },
+    "china_export": null,
     "imports_from_china": {
       "US": {
-        "value_usd": 14722891565,
-        "yoy": 14,
-        "share": 27.0
-      },
-      "DE": {
-        "value_usd": 14123070057,
-        "yoy": -19,
-        "share": 25.9
-      },
-      "JP": {
-        "value_usd": 13523248549,
-        "yoy": 34,
-        "share": 24.8
-      },
-      "GB": {
-        "value_usd": 12160017848,
-        "yoy": 18,
-        "share": 22.3
-      },
-      "KR": {
-        "value_usd": 0,
-        "yoy": 11,
-        "share": 0.1
+        "value_usd": 139726703.0,
+        "yoy": null,
+        "share": 4.9
       },
       "AU": {
-        "value_usd": 0,
-        "yoy": 5,
-        "share": 0.1
-      },
-      "IN": {
-        "value_usd": 0,
-        "yoy": -9,
-        "share": 0.1
-      },
-      "BR": {
-        "value_usd": 0,
-        "yoy": 2,
-        "share": 0.1
-      },
-      "SA": {
-        "value_usd": 0,
-        "yoy": 28,
-        "share": 0.1
-      },
-      "FR": {
-        "value_usd": 0,
-        "yoy": -12,
-        "share": 0.1
+        "value_usd": 2712743488.328,
+        "yoy": null,
+        "share": 95.1
       },
       "IT": {
-        "value_usd": 0,
-        "yoy": -11,
-        "share": 0.1
-      },
-      "NL": {
-        "value_usd": 0,
-        "yoy": 26,
-        "share": 0.1
-      },
-      "CA": {
-        "value_usd": 0,
-        "yoy": 12,
-        "share": 0.1
-      },
-      "MX": {
-        "value_usd": 0,
-        "yoy": -18,
-        "share": 0.1
-      },
-      "VN": {
-        "value_usd": 0,
-        "yoy": 13,
-        "share": 0.1
+        "value_usd": 769730.956,
+        "yoy": null,
+        "share": 0.0
       }
     }
   }
