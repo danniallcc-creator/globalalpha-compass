@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "软件开发：海外社媒「software outsourcing must have」增速 252%，搜索端「tech service market 2026」热度上行，US Amazon BSR Top-12，S&P Global关注「Indonesian factories enjoy record...」。",
+    "trend_summary": "软件开发：海外社媒「tech service must try」增速 248%，搜索端「software outsourcing b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's trade surplus soars past $1...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 软件开发 出口需通过合规认证",
-      "海外社媒「software outsourcing must have」增速 252% 领跑 → 软件开发社媒种草热度爆发"
+      "海外社媒「tech service must try」增速 248% 领跑 → 软件开发社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "software outsourcing must have",
-        "growth": 252.0,
-        "vol": "639K",
+        "platform": "tiktok",
+        "kw": "tech service must try",
+        "growth": 247.5,
+        "vol": "191K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "tech service #trending",
-        "growth": 249.5,
-        "vol": "683K",
+        "platform": "x",
+        "kw": "tech service supply chain",
+        "growth": 236.5,
+        "vol": "646K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "tech service top 10",
-        "growth": 245.5,
-        "vol": "358K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "tech service market 2026",
-        "growth": 216.5,
+        "platform": "x",
+        "kw": "tech service breaking",
+        "growth": 222.5,
+        "vol": "264K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "software outsourcing b2b export",
-        "growth": 195.0,
+        "growth": 112.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Indonesian factories enjoy record export sales growth as trade rebounds - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVVwWTRTS3FfQ2NJTk85MzNrSjVqMkhDSGlmRXF4TVB6RjR4Y1oxTU45TDlFT0NkQVhERmxzRlVzdTNzYXM0WVV5OHl3YjFiWXI1bTBEYWF5cF9lSWFqTFpEYk5iLWlJRzg0TlRXUGd1Ykw4ZkNDcF9STzJUTEFWUDdFTG53Rk1PY3JlUWtfMUlfZkZqM2pDMGU1VDlBdEVtYkFHUmhqN2JWMERwMS0xclE0NXRISGhZZ0FSSnZOSjdpbklFaFpqRWZFU1dOU1JCYkgySWZsVzhIRkk2ZlVSNklCX04?oc=5",
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "tech services market trend 2026",
+        "growth": 93,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "China's trade surplus soars past $1 trillion as AI boom powers exports - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSkdyZ0hqUllXMmZjUVB1QnBoMXFCYWdEUldHN3hPWVo3MFNNbWlGX2dmWWVtdVVnTU5icUpXRGl3a09jSWpEN0x3VXJQQnNOZkxCbVhnREhXdWFoa25HbXIzUlZqVXVaVXd3T19HcmdxWGxHbjl5WC0zeDB5S3Q0SUxTNUREYm9lTE5IU0JJdXBSd1h5Q21uNHFfNGtqSi1tMkFmY1FDTWxEUmJ1enE3TUZSTWhYWVdjVHhoM2t0SmU4dVU?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Ranked: The Top Countries for Tech Services Exports - Visual Capitalist",
+        "source": "Visual Capitalist",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3ExMDltZm03VzJZRUxnbndjWnF3STZXWjBySC1LdnNIN2xNUy1YMlRrTWMwc1AwTG9EQnJqalFBS3d4NGVoNnJhQUk1V2pWQmJiaVprZWVCVm5SSENCYWFvSGJGaWg4czQ4TFhwZTEwUjFNbFltdUpLdEhvbkNSb1B6R1NSOFc3WWpWNFVXSVVBS2pTTlNfeA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "开发与技术服务"
   }
 }

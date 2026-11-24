@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "羽毛和羽绒：海外社媒「fabric trending now」增速 252%，搜索端「textile market 2026」热度上行，US Amazon BSR Top-12，Arab News PK关注「Pakistan textile exporters warn...」。",
+    "trend_summary": "羽毛和羽绒：海外社媒「textile wholesale supplier」增速 216%，搜索端「textile wholesale supplier」热度上行，US Amazon BSR Top-12，Apparel Resources关注「India’s Textile and Apparel Exports...」。",
     "product_profile": {
       "外观": "功能整理（防水/阻燃/抗菌）/ 数码印花",
       "成分": "再生 PET 纱线 / 有机棉 / 莱赛尔天丝 / 生物基尼龙",
@@ -50,52 +50,52 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 羽毛和羽绒 供应链合规升级",
       "欧盟 CE 标志强制准入 → 羽毛和羽绒 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 羽毛和羽绒 通关",
-      "海外社媒「fabric trending now」增速 252% 领跑 → 羽毛和羽绒社媒种草热度爆发"
+      "海外社媒「textile wholesale supplier」增速 216% 领跑 → 羽毛和羽绒社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "fabric trending now",
-        "growth": 252.0,
-        "vol": "234K",
+        "platform": "google",
+        "kw": "textile wholesale supplier",
+        "growth": 216.5,
+        "vol": "354K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "textile market 2026",
-        "growth": 190.5,
-        "vol": "104K",
+        "platform": "instagram",
+        "kw": "fabric aesthetic",
+        "growth": 215.0,
+        "vol": "785K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "fabric unboxing",
-        "growth": 188.0,
-        "vol": "152K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "textile market 2026",
-        "growth": 187.5,
+        "kw": "textile top 10",
+        "growth": 209.5,
+        "vol": "672K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "textile wholesale supplier",
-        "growth": 113.5,
+        "growth": 213.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "textile market 2026",
+        "growth": 157.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Pakistan textile exporters warn EU-India trade deal could erode market advantage - Arab News PK",
-        "source": "Arab News PK",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaGF0alhuNGZ1TTdFYmNxNldJU1I0ZFpBX3dkOS15NmctZVVaNmN0ckJTZHpBZEdpZHRlVHlkbklIU0NLYUlEVVNkSllWd1FMdjBqQW9ZQ0x4QUp4bWJORkRpVE9PS3ZTWk9sd2pNZWtBZmxlV1lhVUtNaU1UNTRwb1dWU051VENCYVp6eVprcUFkQkh3eEJZd1JCQ3JyZ2pCdEZqelFxeGN6cVR0bm16UklaZUdsdl81aWlFT0FB?oc=5",
+        "title": "India’s Textile and Apparel Exports Need 20% Annual Growth to Reach US $100 Billion by FY ’31: Report - Apparel Resources",
+        "source": "Apparel Resources",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWGNZZDZWYkRoVFJrbXAwU21NRjlhN3FsSWEyYmwwVENyRHdRZXZ4NlotaWRwanR3TlRia0VSY05kZ2JDN3M1LVloYk8ydzgxWkdrMkZiWllRTmRtcmJycmpFdVVZc2N1LWFsTnhkM1k1ckl2LW95SmpPa2pzS2FYN0xrWkNWTlFib1hLT1BxOV90dEkxRzdsQTVpc0s3S1piOGNIenJTeVFVSjJxNEFiQ1piWlJvMDd2U3VlSUNYanFERGVaTk1jS2JkTmw0M3lYdnZhY0RUd2dWN2paNGwwWUNwSjE?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "textiles",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "面料及纺织原材料"
   }
 }

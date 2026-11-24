@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "手表：海外社媒「jewelry breaking」增速 250%，搜索端「jewelry watches supply chain resilience」热度上行，US Amazon BSR Top-31，Luxus Plus关注「Following the agreement signed between...」。",
+    "trend_summary": "手表：海外社媒「watch price trend」增速 248%，搜索端「jewelry watches digital transformation」热度上行，US Amazon BSR Top-46，TradingView关注「Watches of Switzerland Group Q2...」。",
     "product_profile": {
       "外观": "极简几何 / 层叠叠戴 / 复古 Vintage",
       "成分": "钛钢 316L / 925 银 / 培育钻石（Lab-Grown）/ 再生金",
@@ -48,82 +48,82 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 手表 出口需通过合规认证",
-      "海外社媒「jewelry breaking」增速 250% 领跑 → 手表社媒种草热度爆发"
+      "海外社媒「watch price trend」增速 248% 领跑 → 手表社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "jewelry breaking",
-        "growth": 250.5,
-        "vol": "788K",
+        "platform": "google",
+        "kw": "watch price trend",
+        "growth": 248.0,
+        "vol": "356K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "jewelry analyst",
-        "growth": 243.5,
-        "vol": "413K",
+        "kw": "watch industry news",
+        "growth": 217.0,
+        "vol": "708K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "jewelry viral",
-        "growth": 241.5,
-        "vol": "75K",
+        "platform": "google",
+        "kw": "jewelry industry report",
+        "growth": 214.5,
+        "vol": "204K",
         "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "jewelry watches supply chain resilience",
-        "growth": 94,
-        "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
         "kw": "jewelry watches digital transformation",
-        "growth": 87,
+        "growth": 89,
+        "hits": 2
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "jewelry watches sustainable manufacturing",
+        "growth": 85,
         "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "Following the agreement signed between Switzerland and China, what are the implications for the watchmaking industry? - Luxus Plus",
-        "source": "Luxus Plus",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc2xUQ2RDcE5WaGo5Yy1UMzZodjNHMVY4ZWwtczM0U1Vzb01QSUxJQ0piMnc1NWJDRDJlQUFkU0tUcXFXMWhXODVySTdXakdKUi1DWGRXbnFobG9WekJucGtiSTJvcEUwZnZKQmoxN0I2YXducUtaWXpSd1oxbDJjTUJZR3NZUEM2MmpFZHI3RERjY3kyUFVtOV8wNGZxdlNyb1NoZ0ZPd2RHTms4aXJpRk5jM18wU3FVc1VNaTNISlpnQkEwNW5iNlBaV3dTSTFtbksxanFVbmRxZw?oc=5",
-        "hits": 0
+        "title": "Watches of Switzerland Group Q2 Earnings Call Highlights - TradingView",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa05VdGt0TDkzOEl6WWtKYnc0ZndXaEVYZjZ6cFBteUxCLWtSUWdUdmgzcTlMSzJKRjkyQ0UxNGtyTGozcDZWeFduSUlWb21zSHdOQ3JHR2NiX1VMU1NUSGcwMTlzVlk5R2NpVXBTdVVibnZ1VldId2d1cWQ1cUkwZXVsbzBtYkdGOGhzR29nMDcwTHpBTzMzeXg3OEdHYk5DZ2RsM09PM2pjaVBYcDVkc2JZbHY4cUhn?oc=5",
+        "hits": 2
       },
       {
         "dim": "媒体",
-        "title": "A Swiss Watch Brand Goes Italian - The New York Times",
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV3hXYWY0TWV1T29OVGZrTG1LVjI0ZnR2SDlxeTRnOHpIZEJRZEVLZ1QyeHQyMnRKemFnVHBHaGhSUUdnYVFBSHgxSDlVRU1CQ2hTQlhLVFdTT3Z6MURvLWtOUkVKWEVUQ0U0emRwQ2kyY2oxamtCWVhnNDBKTTJCSTlfOU1ZZw?oc=5",
-        "hits": 0
+        "title": "Watches of Switzerland’s jewellery growth outpaces watches - Something About Rocks",
+        "source": "Something About Rocks",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU2tsV3NITEptX21JRmlNNzhQSm5iVzRXR3Z1N09LVlFnX3QwTFI4QVRPTkNzcjhVTlltay1sUi04V09keXR4ZWZDUVB2d3R4NlhZTU01bjVzUVd6XzZMWmVIWmpybUNCZFVqVi1SRzFxOGdvX1M5dW12R3RORlJkMWFWSUM5amVJY204OXZ1NVkwd056?oc=5",
+        "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 31,
-        "title": "Top jewelry - Premium Edition",
-        "price": "$279.0",
-        "rating": 4.7,
+        "rank": 46,
+        "title": "Top watch - Heavy-Duty Edition",
+        "price": "$33.5",
+        "rating": 3.8,
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "UK",
-        "rank": 28,
-        "title": "Top watch - Smart Edition",
-        "price": "$82.1",
-        "rating": 4.1,
+        "market": "DE",
+        "rank": 41,
+        "title": "Top watch - Pro Edition",
+        "price": "$34.7",
+        "rating": 4.4,
         "hits": 2
       }
     ],
     "domain": "jewelry_watches",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "珠宝眼镜手表及配饰"
   }
 }

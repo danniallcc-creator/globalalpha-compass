@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 85,
-      "trend_direction": "up",
+      "interest_score": 95,
+      "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-11-22"
+      "fetched_at": "2026-11-24"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-11-22",
+  "last_updated": "2026-11-24",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight must try」增速 250%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「3 Asia Pacific Stocks Tied To APEC...」。",
+    "trend_summary": "多式联运：海外社媒「freight analyst」增速 250%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，Coupang, Inc.关注「Coupang celebrates America’s Small...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,59 +56,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight must try」增速 250% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight analyst」增速 250% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "freight must try",
-        "growth": 250.5,
-        "vol": "238K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics #fyp",
-        "growth": 239.5,
-        "vol": "791K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "freight market alert",
-        "growth": 216.0,
-        "vol": "595K",
+        "kw": "freight analyst",
+        "growth": 249.5,
+        "vol": "694K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "freight top 10",
+        "growth": 240.5,
+        "vol": "774K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "logistics price trend",
+        "growth": 233.0,
+        "vol": "763K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "freight b2b export",
-        "growth": 97.0,
+        "growth": 211.0,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "cross-border logistics market trend 2026",
-        "growth": 88,
+        "source": "Google Trends",
+        "kw": "logistics market 2026",
+        "growth": 201.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "3 Asia Pacific Stocks Tied To APEC Trade Rules and Cross Border Growth - Yahoo Finance",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUUhYNjBDOTlHZXpfdnJtekhhYkozbHpLWHVHS0xsaE45SXdyZkhaMGpZX25GQ3Iwa1hDeHhNWEMxOHVtNzM4eFM2d2YzR0E1S2I5MTR5VXZIZW9YcHo0djFtenE5aFhXWHN0cnZEMlNjNndFNVhxMVFqQ0JDTlM4dHVDMl91Y1dacFBJYmZVVUFLcUE3bnc?oc=5",
+        "title": "Coupang celebrates America’s Small Business Saturday with global reach - Coupang, Inc.",
+        "source": "Coupang, Inc.",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUVvLU11Qno3ajVMUm0xTVUxc0ZLdnQzdVN1blQ2MkM0My1WQjZoRWJUaEVGS0JpVHVqekdYOC0zZ1JNdkxSMFo4eXJSZmh5eE1XYkJMSWo3emFSSW5BaFVSclNqNlZDZUVIQWJzdG9heEtFUmFkZmJfQmFrZ0RKZXlFTDdydw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How Beijing plans to cut trade costs and speed cross-border payments - South China Morning Post",
-        "source": "South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUlhieDBOLVFxMW1HU1JnbWVDMndKTTJ3d0ZXS1ROamstakxreFFYejdkRzFTQ1Z3c2NvMC10Nnk1VDVsV1JUX1lSSHV2dExldFZRUW9GWVN1azZsc0s4bGppZHlEVkY1RG9nU3ozZ0lQUWhDbzRTZTNMSVdCbkRlVDVzTTdqRkVoVllyVHlQallwcTJsazYxeFYwSG4zTHJydGw1cXplTERQNXFYc1U2WnNZLWZ1RER6MXpYOElMVUJqZVN1TE5F?oc=5",
+        "title": "Best Import-Export Platforms for Cross-Border Trade - Alibaba",
+        "source": "Alibaba",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYzFNTUxsaVI1ZnVzRWtNMkZMZXhETkp5N1hSRV9maF9vTldBb0FaN0Zxby1VV29TM1F4RnhBSi14OVc0SDFHVTk1cE0teXdFVU55MlpzcjdmV1d4SjFLLTRKYVVVcjNVd2x5LVMtRDB5NkVwVFJiWldRSDRhRVlNWnlRcDlkWlpaOHFEUGl6ZFlOb0JQX2xZQVhKUXZTZEpqN0Nmag?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "买家物流市场"
   }
 }

@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "电池：海外社媒「energy storage wholesale supplier」增速 246%，搜索端「energy storage wholesale supplier」热度上行，US Amazon BSR Top-12，The Economist关注「China’s exports of clean tech to...」。",
+    "trend_summary": "电池：海外社媒「solar review 2026」增速 242%，搜索端「photovoltaic b2b export」热度上行，US Amazon BSR Top-12，Real Instituto Elcano关注「Managing energy interdependence between...」。",
     "product_profile": {
       "外观": "极简白电化 / 可堆叠模块化 / IP65 户外防护外壳",
       "成分": "LiFePO4 磷酸铁锂电芯 / 单晶硅 PERC/TOPCon/HJT 电池片",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 电池 出口需通过合规认证",
-      "海外社媒「energy storage wholesale supplier」增速 246% 领跑 → 电池社媒种草热度爆发"
+      "海外社媒「solar review 2026」增速 242% 领跑 → 电池社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "solar review 2026",
+        "growth": 241.5,
+        "vol": "572K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
-        "kw": "energy storage wholesale supplier",
-        "growth": 245.5,
-        "vol": "330K",
+        "kw": "photovoltaic b2b export",
+        "growth": 235.0,
+        "vol": "477K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "energy storage tiktok made me buy",
-        "growth": 228.5,
-        "vol": "28K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "energy storage viral",
-        "growth": 220.5,
-        "vol": "546K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "energy storage wholesale supplier",
-        "growth": 242.5,
+        "platform": "google",
+        "kw": "solar industry report",
+        "growth": 224.5,
+        "vol": "605K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "photovoltaic b2b export",
-        "growth": 165.0,
+        "growth": 232.0,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "renewable energy sustainable manufacturing",
+        "growth": 73,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China’s exports of clean tech to South-East Asia are soaring - The Economist",
-        "source": "The Economist",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTF5RTRIZC16VjlHazR4WXR2SDRrYy1FTWxxRDBLNmpiMWY5alhJaERKX1QyTGJRaFRxNktycVk5U0NsYjE0UkNmYUQtV3R3Wkg3MGptcUZrQ2FIM1dleVFpMS00WDIzTk5PQTdrSHdud0Z4TnJISjJlLWlaalhIUG9vUlhJWUtEMGFjS1ZnY2VPMkVjMkZSYkxWOUg2WElTdnBDVQ?oc=5",
+        "title": "Managing energy interdependence between Morocco and Spain - Real Instituto Elcano",
+        "source": "Real Instituto Elcano",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbDRuWFBselBRczhxTDYxLWRVYjNrR1BhNTZMSWR0M2Q5V2hTY2RRSmxpcUV2UGZENnlZVzlGbTBOOUszcnpPWXhab3psQ3VWa0pDWGJId2NKQmpCTVdTOFROY0FfN3FTYVlzTnlkc2RIZXdUWFJpNjhZUHNma09HN09ORG02ZmpydnJZbkZGZkFvY1I4cklubGU0bjhDQU1USEZvczd1WWIzUQ?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Indonesian factories enjoy record export sales growth as trade rebounds - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVVwWTRTS3FfQ2NJTk85MzNrSjVqMkhDSGlmRXF4TVB6RjR4Y1oxTU45TDlFT0NkQVhERmxzRlVzdTNzYXM0WVV5OHl3YjFiWXI1bTBEYWF5cF9lSWFqTFpEYk5iLWlJRzg0TlRXUGd1Ykw4ZkNDcF9STzJUTEFWUDdFTG53Rk1PY3JlUWtfMUlfZkZqM2pDMGU1VDlBdEVtYkFHUmhqN2JWMERwMS0xclE0NXRISGhZZ0FSSnZOSjdpbklFaFpqRWZFU1dOU1JCYkgySWZsVzhIRkk2ZlVSNklCX04?oc=5",
+        "title": "Mapping Clean Energy for Export in Africa - International Institute for Sustainable Development",
+        "source": "International Institute for Sustainable Development",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWDdNOWxaMmdYM0g0R1JXamh3NjZiSWY4RHRmejZxQUpFYklDb1dra29YYjc0RmNpS3NkY2tOTE0zQ1htb0VCbmVpR2x5OVBtS0daeHJIMVBhQkdwS0labjZ2S2tHM0lfeHNtSVBhQmlPWUYwcDJGYVZtdFlBMnBTeA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "renewable_energy",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "可再生能源"
   }
 }

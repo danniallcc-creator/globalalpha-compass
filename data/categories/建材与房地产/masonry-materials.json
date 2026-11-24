@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "砖石材料：海外社媒「building review 2026」增速 246%，搜索端「building wholesale supplier」热度上行，US Amazon BSR Top-12，S&P Global关注「Indonesian factories enjoy record...」。",
+    "trend_summary": "砖石材料：海外社媒「building #fyp」增速 256%，搜索端「cement b2b export」热度上行，US Amazon BSR Top-12，Yahoo Finance关注「Vietnam Export Stocks Worth Watching As...」。",
     "product_profile": {
       "外观": "大板岩纹 / 微水泥 / 哑光大理石纹",
       "成分": "再生骨料 / 低碳水泥 / 无甲醛胶黏剂",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 砖石材料 出口需通过合规认证",
-      "海外社媒「building review 2026」增速 246% 领跑 → 砖石材料社媒种草热度爆发"
+      "海外社媒「building #fyp」增速 256% 领跑 → 砖石材料社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "building review 2026",
-        "growth": 246.5,
-        "vol": "69K",
+        "platform": "tiktok",
+        "kw": "building #fyp",
+        "growth": 255.5,
+        "vol": "394K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "cement b2b export",
+        "growth": 252.0,
+        "vol": "176K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "building breaking",
-        "growth": 219.5,
-        "vol": "506K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "building wholesale supplier",
-        "growth": 217.5,
-        "vol": "437K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "building wholesale supplier",
-        "growth": 214.5,
+        "growth": 224.5,
+        "vol": "568K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cement b2b export",
-        "growth": 119.0,
+        "growth": 249.0,
         "hits": 0
       },
       {
-        "dim": "媒体",
-        "title": "Indonesian factories enjoy record export sales growth as trade rebounds - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVVwWTRTS3FfQ2NJTk85MzNrSjVqMkhDSGlmRXF4TVB6RjR4Y1oxTU45TDlFT0NkQVhERmxzRlVzdTNzYXM0WVV5OHl3YjFiWXI1bTBEYWF5cF9lSWFqTFpEYk5iLWlJRzg0TlRXUGd1Ykw4ZkNDcF9STzJUTEFWUDdFTG53Rk1PY3JlUWtfMUlfZkZqM2pDMGU1VDlBdEVtYkFHUmhqN2JWMERwMS0xclE0NXRISGhZZ0FSSnZOSjdpbklFaFpqRWZFU1dOU1JCYkgySWZsVzhIRkk2ZlVSNklCX04?oc=5",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "building market 2026",
+        "growth": 135.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "Vietnam Export Stocks Worth Watching As Trade Rules Tighten - Yahoo Finance",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdE5ibF9pcTdiRHZ3Mno0ZHJ3ZEpsdExJb1RBaDRxRmpRd1ZFdDdSc0VEVXRRRmI1aFZtS1VsTEhsc25uNGhReTRyV3B0d2JQUklKSHctLWF0cVcyRlVyaDZPU21XUUljRmItUUZkVjk0Zk9MblNBZnBIQ3AwdkFPZzNXY3Fqbk5mbUYwQ1JXY3BidmNTV3RHbmZEMjB0LWJ1bkY0?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Earthquake Resistant Building Materials Market To 2035: Seismic Code Updates and Urbanization Fuel Forward Growth - News and Statistics - In",
+        "source": "IndexBox",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPWnc2ejNROGM2MUtJQTRHSWtEQ2p0dXJaRkNXUnNLNVNzcWNURzFrcU91WWpVNGZKNUdoeDNnMXZjVjBVdWpNNmVZeUo0eE9kVkxWTlphcU1KNEQ5emhNS3RfYjdjQ2FqbklWbEsyZ3NDdE1Bd3l5bTg4MUxsZWNBQTBQODh2WVF6VFN4ajN6OHYzWU5RVnoxeHJWdlhKRHhUUmRNQXBPTzk2dmVDeEJNR0h3TXZVN3V0bGY3Z0xLSW9qYUM0TDV1ZEkyMXRYN0FqMUhMNTdwbi1ET3d3a0R2ME9yay1VQTFLanlWQW9iQ2ZjazZ6ZTFDcHdMdnVlQQ?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "building_materials",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "建材与房地产"
   }
 }

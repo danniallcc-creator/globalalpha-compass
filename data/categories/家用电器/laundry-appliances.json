@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "洗衣设备：海外社媒「appliance review 2026」增速 228%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's yuan dilemma: too weak abroad...」。",
+    "trend_summary": "洗衣设备：海外社媒「appliance b2b export」增速 252%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: AI bust hurts Chinese...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 洗衣设备 出口需通过合规认证",
-      "海外社媒「appliance review 2026」增速 228% 领跑 → 洗衣设备社媒种草热度爆发"
+      "海外社媒「appliance b2b export」增速 252% 领跑 → 洗衣设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "google",
+        "kw": "appliance b2b export",
+        "growth": 252.0,
+        "vol": "719K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "youtube",
         "kw": "appliance review 2026",
-        "growth": 228.5,
-        "vol": "690K",
+        "growth": 248.5,
+        "vol": "494K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "appliance price trend",
-        "growth": 218.0,
-        "vol": "207K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "appliance tutorial",
-        "growth": 203.5,
-        "vol": "434K",
+        "platform": "x",
+        "kw": "appliance market alert",
+        "growth": 234.0,
+        "vol": "149K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 156.0,
+        "growth": 249.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance wholesale supplier",
-        "growth": 118.5,
+        "kw": "appliance market 2026",
+        "growth": 212.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's yuan dilemma: too weak abroad and too strong at home - Reuters",
+        "title": "COMMENTARY: AI bust hurts Chinese stocks far more than GDP - Reuters",
         "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdG8tUkNHdE1DSTdndG40UGVsSEh6cVBmcFZBSmFHNi10VU9ET3JPbU1XRlg3bHI4SnptNGcxV3BGNHdXT2Qycm9Oa1VfRmJNNFFyNGxJN0ZfbHdyNi1zbHRISnBlZWNKUGdqT0V0UVJHRHhFLWRYVTB1alpvSGRCZWZaTzJyaHdicWpyVDdGQmVWVlFqREs2TTNMcVZYVlllb1FCUlVZMDMxQQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUFLdUZQYzFtXzVMTHBnR1lTMnhES0gzd2dKY0p5dlVkWUNiX0hFYUZvdGxSaDI0ak5GZkdQZWtpZU41eGpuWHBKX3ZnbE1abnJzME1Xa3RRcVo2dGVKcWJLZ3JLUkNqMHp3RXBOOGF2VzZWYU5oTHZibUlHX3M5VXRGYldyVDMxNzJ2c052VEdpTHRHZU9ucEM5R1dHYk5qNHp5eW9kTDNyZ0RTTE9HUTNOVU1aN1FnajAtczlZUG5aZnhlbElTVWt3ZDVyaDR4a0E?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "“Domestic Demand Freezes, Export Opportunities Narrow”: China Faces a Structural Economic Crisis as Consumption Recovery Remains Elusive Des",
-        "source": "https://economy.ac/",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RNFk2Tlp4WFJIbERuQ2RjbFBXUHEzNzR4cTZlMW4xSVdMRjlSVHdEUkxfT2kzaF9YRUtKN241bXRyMGtDV3Q5MHNSUGs4LUpwaVpUVWlLUQ?oc=5",
+        "title": "Wired for Beijing: How China Captured the Home Appliance Industry and Reached Into American Homes - Coalition For A Prosperous America",
+        "source": "Coalition For A Prosperous America",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTy1zOUJNdlE5cU96dVFlWkpJZXdqcVkxSUx0b2hvTXNWcGp4X1dCXzlZY1BzX0hFVHR6R0RiWVNMR0Y1cDVXVEROZkMxLUxQUDhfZTRSb0lPVmExRC1aYUQ5ZTVqSWlHODZnU2szUWlkNHlaTjluMGJaUjdXbkNPZ3E2X0RmZ2NhOGpBUm8xeE0yMDZKTFg3Y3cwWEFDNVZRdWVVUEN5N3Q2SE9zRmt6VmpubUt1bXRxNFFCNzdiYzh4aWdqc2c?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "家用电器"
   }
 }

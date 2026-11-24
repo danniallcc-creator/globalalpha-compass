@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "锁和钥匙：海外社媒「cctv unboxing」增速 251%，搜索端「security camera wholesale supplier」热度上行，US Amazon BSR Top-12，AgroLatam关注「Trump's Asia Talks Put U.S. Soybean...」。",
+    "trend_summary": "锁和钥匙：海外社媒「cctv industry news」增速 227%，搜索端「security camera market 2026」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「The AI Slump Is Exposing the Economic...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 锁和钥匙 出口需通过合规认证",
-      "海外社媒「cctv unboxing」增速 251% 领跑 → 锁和钥匙社媒种草热度爆发"
+      "海外社媒「cctv industry news」增速 227% 领跑 → 锁和钥匙社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "cctv unboxing",
-        "growth": 251.0,
-        "vol": "635K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "security camera review 2026",
-        "growth": 231.5,
-        "vol": "728K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
-        "kw": "security camera supply chain",
-        "growth": 228.5,
-        "vol": "226K",
+        "kw": "cctv industry news",
+        "growth": 227.0,
+        "vol": "278K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "cctv trending now",
+        "growth": 216.0,
+        "vol": "167K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "security camera viral",
+        "growth": 206.5,
+        "vol": "209K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "security camera wholesale supplier",
-        "growth": 191.5,
+        "kw": "security camera market 2026",
+        "growth": 143.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "security cctv market trend 2026",
-        "growth": 91,
+        "kw": "security cctv supply chain resilience",
+        "growth": 80,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "The AI Slump Is Exposing the Economic Costs of Economic Statecraft - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaVFEVlpJVHR2cHRneEFrMmxWUW9UeHlLRlJaMjZYYTFPTVZhbE9RSmtGSUFtbWhpRDNCa3YzRkJudjhSR0VjbVRYV3FXbGFLYVoxekp6UFQ4UThNYkRuS3N4dS1tMmpHeE1qMThsUEdEWVN0cldrbndXMTdJelpfaFdBS2pVMzJYaG1IY1I1cG4ySVRMb1V0RXdGb0JWQVlCZ2c?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Trump's Asia Talks Put U.S. Soybean Exports and China Trade in the Spotlight - AgroLatam",
         "source": "AgroLatam",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV21VbHFVQjZDVUdQVGdnODB3Szg4c2ZvTHdjZHRYNjBZMXkxbjQzTVRBQThyYWJ0Zk1hdVNvenR1cl94VVhZc2d3NE1XeXNOT1FFa1MxRlZGMXJ4RC04SlpmQUF0UHowajBWcWxWSUExMFY4by1WVkNGMDhYdGs5YTZXNGJfUDZMQjZJ?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Boeing Company | History, Aircraft, Defense, & Space - Britannica",
-        "source": "Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZWk1EMVh2T3E1T2xiZktWVDl4UkNKeGxjdHkwTW96LXVKd1pYN19xZmhTbFFRbDA3RzV1QlhvTWpsZFZKMU9MMm1PbFlvVnJvbkFGaGVrTnZMNDA?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "安防"
   }
 }

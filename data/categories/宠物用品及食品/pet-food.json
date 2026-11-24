@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food unboxing」增速 234%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-42，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food trending now」增速 248%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-25，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food unboxing」增速 234% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food trending now」增速 248% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food unboxing",
-        "growth": 234.0,
-        "vol": "775K",
+        "platform": "tiktok",
+        "kw": "pet food trending now",
+        "growth": 248.0,
+        "vol": "69K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "pet food industry news",
-        "growth": 233.0,
-        "vol": "495K",
+        "kw": "pet food market alert",
+        "growth": 239.0,
+        "vol": "408K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food viral hack",
-        "growth": 222.0,
-        "vol": "447K",
+        "platform": "instagram",
+        "kw": "pet food must have",
+        "growth": 217.0,
+        "vol": "466K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 68.0,
+        "growth": 71.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "pet wholesale supplier",
-        "growth": 226.5,
+        "source": "Linkedin",
+        "kw": "pet products supply chain resilience",
+        "growth": 71,
         "hits": 0
       },
       {
@@ -107,24 +107,24 @@
       {
         "dim": "Amazon",
         "market": "JP",
-        "rank": 42,
+        "rank": 25,
         "title": "Top pet - Eco Edition",
-        "price": "$75.4",
-        "rating": 4.7,
+        "price": "$257.4",
+        "rating": 4.8,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 34,
+        "rank": 9,
         "title": "Top pet - Premium Edition",
-        "price": "$283.0",
-        "rating": 4.8,
+        "price": "$156.0",
+        "rating": 4.6,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "宠物用品及食品"
   }
 }

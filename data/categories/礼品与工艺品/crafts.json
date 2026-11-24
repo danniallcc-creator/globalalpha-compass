@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "工艺品：海外社媒「gift viral」增速 240%，搜索端「gifts crafts sustainable manufacturing」热度上行，US Amazon BSR Top-41，Detroit Free Press关注「Five Reputable Custom Keychain...」。",
+    "trend_summary": "工艺品：海外社媒「craft unboxing」增速 241%，搜索端「gifts crafts supply chain resilience」热度上行，SA Amazon BSR Top-48，Detroit Free Press关注「Five Reputable Custom Keychain...」。",
     "product_profile": {
       "外观": "精致礼盒 / 定制刻字 / 手工质感",
       "成分": "天然大豆蜡 / 再生木 / 陶瓷 / 黄铜",
@@ -50,45 +50,45 @@
       "欧盟 REACH 法规限制有害化学物 → 驱动 工艺品 供应链合规升级",
       "欧盟 CE 标志强制准入 → 工艺品 出口需通过合规认证",
       "欧亚 EAC (CU TR) 认证 → 俄罗斯/中亚 5 国 工艺品 通关",
-      "海外社媒「gift viral」增速 240% 领跑 → 工艺品社媒种草热度爆发"
+      "海外社媒「craft unboxing」增速 241% 领跑 → 工艺品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "craft unboxing",
+        "growth": 241.0,
+        "vol": "461K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "gift viral",
-        "growth": 239.5,
-        "vol": "485K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "gift tutorial",
-        "growth": 236.5,
-        "vol": "617K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "craft factory tour",
+        "kw": "craft aesthetic",
         "growth": 236.0,
-        "vol": "444K",
+        "vol": "795K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "gift industry report",
+        "growth": 227.5,
+        "vol": "289K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "gifts crafts sustainable manufacturing",
-        "growth": 93,
+        "kw": "gifts crafts supply chain resilience",
+        "growth": 58,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Linkedin",
-        "kw": "gifts crafts digital transformation",
-        "growth": 76,
+        "kw": "gifts crafts market trend 2026",
+        "growth": 55,
         "hits": 2
       },
       {
@@ -100,25 +100,25 @@
       },
       {
         "dim": "Amazon",
-        "market": "US",
-        "rank": 41,
-        "title": "Top gift - Premium Edition",
-        "price": "$193.0",
-        "rating": 4.7,
+        "market": "SA",
+        "rank": 48,
+        "title": "Top gift - Compact Edition",
+        "price": "$110.8",
+        "rating": 4.2,
         "hits": 2
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 41,
-        "title": "Top craft - Heavy-Duty Edition",
-        "price": "$99.5",
-        "rating": 4.2,
+        "rank": 44,
+        "title": "Top gift - Premium Edition",
+        "price": "$199.0",
+        "rating": 4.0,
         "hits": 2
       }
     ],
     "domain": "gifts_crafts",
-    "generated_at": "2026-11-22",
+    "generated_at": "2026-11-24",
     "l1_ref": "礼品与工艺品"
   }
 }
