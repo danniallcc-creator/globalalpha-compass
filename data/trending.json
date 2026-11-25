@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-25T00:17:30.884246Z",
+    "updated_at": "2026-11-25T20:56:18.009087Z",
     "date": "2026-11-25",
     "version": "3.0",
     "sources": [
@@ -22,619 +22,217 @@
       "TAC Index"
     ]
   },
-  "amazon_bsr": {
-    "US": [
-      {
-        "rank": 1,
-        "asin": "B0FY6Y9WZT",
-        "title": "$54.00",
-        "cat": "PlayStation DualSense™ Wireles",
-        "price": "N/A",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #1 in US market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 2,
-        "asin": "B0H6K928WL",
-        "title": "$79.99",
-        "cat": "Grand Theft Auto VI - PlayStat",
-        "price": "N/A",
-        "rating": 3.2,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #2 in US market (2026-11-25)",
-        "growth": -100.0
-      },
-      {
-        "rank": 3,
-        "asin": "B07RZ74VLR",
-        "title": "$10.00",
-        "cat": "Roblox Digital Gift Card - 1,0",
-        "price": "N/A",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #3 in US market (2026-11-25)",
-        "growth": -100.0
-      },
-      {
-        "rank": 4,
-        "asin": "B0F1J12R6N",
-        "title": "$49.00",
-        "cat": "XBOX Wireless Gaming Controlle",
-        "price": "N/A",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #4 in US market (2026-11-25)",
-        "growth": -100.0
-      },
-      {
-        "rank": 5,
-        "asin": "B00K59HKIQ",
-        "title": "$100.00",
-        "cat": "$100 PlayStation Store Gift Ca",
-        "price": "N/A",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #5 in US market (2026-11-25)",
-        "growth": -100.0
-      },
-      {
-        "rank": 6,
-        "asin": "B0HGHB3V16",
-        "title": "$499.00",
-        "cat": "Nintendo Switch 2 + Mario Kart",
-        "price": "N/A",
-        "rating": 4.8,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #6 in US market (2026-11-25)",
-        "growth": 26.2
-      },
-      {
-        "rank": 7,
-        "asin": "B09V7Z4TJG",
-        "title": "$13.23",
-        "cat": "medicube Toner Pads Zero Pore ",
-        "price": "N/A",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #7 in US market (2026-11-25)",
-        "growth": 103.9
-      },
-      {
-        "rank": 8,
-        "asin": "B0B2RM68G2",
-        "title": "$13.99",
-        "cat": "BIODANCE Bio-Collagen Real Dee",
-        "price": "N/A",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #8 in US market (2026-11-25)",
-        "growth": 49.6
-      },
-      {
-        "rank": 9,
-        "asin": "B0DGTMR754",
-        "title": "$13.23",
-        "cat": "medicube Jelly Gel Mask with S",
-        "price": "N/A",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #9 in US market (2026-11-25)",
-        "growth": 16.3
-      },
-      {
-        "rank": 10,
-        "asin": "B077RTL1HJ",
-        "title": "$17.49",
-        "cat": "Illiyoon Ceramide Ato Concentr",
-        "price": "N/A",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #10 in US market (2026-11-25)",
-        "growth": 82.0
-      }
-    ],
-    "DE": [
-      {
-        "rank": 1,
-        "asin": "B001BEAWZM",
-        "title": "Trending Product #1",
-        "cat": "Calvin Klein Men's Trunks 3pk ",
-        "price": "USD2721",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #1 in DE market (2026-11-25)",
-        "growth": 15.0
-      },
-      {
-        "rank": 2,
-        "asin": "B07FJ78GBC",
-        "title": "USD 11.83",
-        "cat": "adidas Adilette Aqua Unisex Sl",
-        "price": "N/A",
-        "rating": 4.2,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #2 in DE market (2026-11-25)",
-        "growth": 163.8
-      },
-      {
-        "rank": 3,
-        "asin": "B003U3554A",
-        "title": "Trending Product #3",
-        "cat": "Calvin Klein Men Low Rise Trun",
-        "price": "USD2680",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #3 in DE market (2026-11-25)",
-        "growth": 65.4
-      },
-      {
-        "rank": 4,
-        "asin": "B0F5B9P7Z8",
-        "title": "USD 18.40",
-        "cat": "adidas Unisex Cushioned Crew S",
-        "price": "N/A",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #4 in DE market (2026-11-25)",
-        "growth": -14.2
-      },
-      {
-        "rank": 5,
-        "asin": "B07T5SJMZ4",
-        "title": "USD 22.45",
-        "cat": "Jachuey Noos Trunks 7 Pack | C",
-        "price": "N/A",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #5 in DE market (2026-11-25)",
-        "growth": 17.0
-      },
-      {
-        "rank": 6,
-        "asin": "B0CKJ6YNX5",
-        "title": "Trending Product #6",
-        "cat": "PUMA Unisex St Runner L Low-To",
-        "price": "USD2971",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #6 in DE market (2026-11-25)",
-        "growth": 75.8
-      },
-      {
-        "rank": 7,
-        "asin": "B008YETL18",
-        "title": "Trending Product #7",
-        "cat": "De'Longhi EcoDecalk Coffee Mac",
-        "price": "USD1838",
-        "rating": 4.8,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #7 in DE market (2026-11-25)",
-        "growth": 38.7
-      },
-      {
-        "rank": 8,
-        "asin": "B08W1KQ2JR",
-        "title": "USD 13.93",
-        "cat": "Bolsius Rustic Pillar Candles,",
-        "price": "N/A",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #8 in DE market (2026-11-25)",
-        "growth": 27.6
-      },
-      {
-        "rank": 9,
-        "asin": "B0CKZ2S13R",
-        "title": "Trending Product #9",
-        "cat": "the carpet Relax Rug, Fluffy, ",
-        "price": "USD6042",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #9 in DE market (2026-11-25)",
-        "growth": 59.0
-      },
-      {
-        "rank": 10,
-        "asin": "B074P8RR96",
-        "title": "USD 11.10",
-        "cat": "Swiffer Dust magnet refill pac",
-        "price": "N/A",
-        "rating": 4.8,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #10 in DE market (2026-11-25)",
-        "growth": 2.7
-      }
-    ],
-    "JP": [
-      {
-        "rank": 1,
-        "asin": "B0B1HKVX1X",
-        "title": "Trending Product #1",
-        "cat": "Aimedia Drum-Type Washing Mach",
-        "price": "USD566",
-        "rating": 3.9,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #1 in JP market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 2,
-        "asin": "B0CTJLRR39",
-        "title": "Trending Product #2",
-        "cat": "ISKALT IST001 2-WH Anti-Vibrat",
-        "price": "USD1239",
-        "rating": 4.2,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #2 in JP market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 3,
-        "asin": "B09248MSXW",
-        "title": "Trending Product #3",
-        "cat": "ECO PLUS Refrigerator Mat, Ant",
-        "price": "USD1315",
-        "rating": 4.2,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #3 in JP market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 4,
-        "asin": "B0H2DP7WGN",
-        "title": "Trending Product #4",
-        "cat": "Sharp ES-LP3 Lint Filter, Anti",
-        "price": "USD373",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #4 in JP market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 5,
-        "asin": "B0DDPQ3HWZ",
-        "title": "Trending Product #5",
-        "cat": "Hisense HW-K55B Washing Machin",
-        "price": "USD15083",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #5 in JP market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 6,
-        "asin": "B0DL5BN2PB",
-        "title": "Trending Product #6",
-        "cat": "Star Filter Ventilation Fan Fi",
-        "price": "USD2038",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #6 in JP market (2026-11-25)",
-        "growth": 82.4
-      },
-      {
-        "rank": 7,
-        "asin": "B086WCH4FH",
-        "title": "USD 11.89",
-        "cat": "Towel Laboratory [Volume Rich]",
-        "price": "N/A",
-        "rating": 4.5,
-        "reviews": 191,
-        "trend": "up",
-        "insight": "BSR #7 in JP market (2026-11-25)",
-        "growth": 66.3
-      },
-      {
-        "rank": 8,
-        "asin": "B0DFCKNWL5",
-        "title": "Trending Product #8",
-        "cat": "Electric Blanket, Mat, Multi-U",
-        "price": "USD2330",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #8 in JP market (2026-11-25)",
-        "growth": 64.0
-      },
-      {
-        "rank": 9,
-        "asin": "B0DDNVZNQH",
-        "title": "Trending Product #9",
-        "cat": "YUSIDO Hot Water Bottle, Recha",
-        "price": "USD1509",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #9 in JP market (2026-11-25)",
-        "growth": 89.0
-      },
-      {
-        "rank": 10,
-        "asin": "B0BFKKVLSQ",
-        "title": "Trending Product #10",
-        "cat": "Shimojima HEIKO PP Food Storag",
-        "price": "USD572",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #10 in JP market (2026-11-25)",
-        "growth": 87.6
-      }
-    ],
-    "UK": [
-      {
-        "rank": 1,
-        "asin": "B08HLGKP9J",
-        "title": "USD 7.65",
-        "cat": "Velvet Classic Quilted Toilet ",
-        "price": "N/A",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #1 in UK market (2026-11-25)",
-        "growth": 11.8
-      },
-      {
-        "rank": 2,
-        "asin": "B0714LLB2T",
-        "title": "Trending Product #2",
-        "cat": "Cadbury Dairy Milk Chocolate G",
-        "price": "USD1762",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #2 in UK market (2026-11-25)",
-        "growth": 157.8
-      },
-      {
-        "rank": 3,
-        "asin": "B09QH374ZT",
-        "title": "Trending Product #3",
-        "cat": "by Amazon Still Spring Water, ",
-        "price": "USD326",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #3 in UK market (2026-11-25)",
-        "growth": 65.4
-      },
-      {
-        "rank": 4,
-        "asin": "B007C7KGKI",
-        "title": "Trending Product #4",
-        "cat": "Coca-Cola Zero Sugar Soft Drin",
-        "price": "USD1971",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #4 in UK market (2026-11-25)",
-        "growth": 168.2
-      },
-      {
-        "rank": 5,
-        "asin": "B01KZ3Y84K",
-        "title": "Trending Product #5",
-        "cat": "Diet Coke Soft Drink Cans, 24 ",
-        "price": "USD1939",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #5 in UK market (2026-11-25)",
-        "growth": 153.4
-      },
-      {
-        "rank": 6,
-        "asin": "B072VTRG79",
-        "title": "Trending Product #6",
-        "cat": "Red Bull Energy Drink 250 ml x",
-        "price": "USD3194",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #6 in UK market (2026-11-25)",
-        "growth": 103.8
-      },
-      {
-        "rank": 7,
-        "asin": "B09V7Z4TJG",
-        "title": "Trending Product #7",
-        "cat": "medicube Toner Pads Zero Pore ",
-        "price": "USD2103",
-        "rating": 4.6,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #7 in UK market (2026-11-25)",
-        "growth": 103.9
-      },
-      {
-        "rank": 8,
-        "asin": "B0DGTMR754",
-        "title": "Trending Product #8",
-        "cat": "medicube Jelly Gel Mask with S",
-        "price": "USD1971",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #8 in UK market (2026-11-25)",
-        "growth": 16.3
-      },
-      {
-        "rank": 9,
-        "asin": "B08WR5CPNB",
-        "title": "USD 7.49",
-        "cat": "Maybelline Mascara, Lash Sensa",
-        "price": "N/A",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #9 in UK market (2026-11-25)",
-        "growth": 3.8
-      },
-      {
-        "rank": 10,
-        "asin": "B01M6UUOY2",
-        "title": "USD 5.14",
-        "cat": "Garnier Micellar Water 700ml, ",
-        "price": "N/A",
-        "rating": 4.7,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #10 in UK market (2026-11-25)",
-        "growth": -9.8
-      }
-    ],
-    "SA": [
-      {
-        "rank": 1,
-        "asin": "B0CR7CPJDV",
-        "title": "SAR 35.09",
-        "cat": "infino 5 Pairs Men's 100% Cott",
-        "price": "N/A",
-        "rating": 4.2,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #1 in SA market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 2,
-        "asin": "B001BEAWXY",
-        "title": "SAR 119.00",
-        "cat": "Calvin Klein Mens Medium Rise ",
-        "price": "N/A",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #2 in SA market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 3,
-        "asin": "B0CKXRXW4M",
-        "title": "SAR 134.55",
-        "cat": "adidas Galaxy 7 Running Shoes ",
-        "price": "N/A",
-        "rating": 3.8,
-        "reviews": 0,
-        "trend": "new",
-        "insight": "BSR #3 in SA market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 4,
-        "asin": "B0BH99G98C",
-        "title": "SAR 40.00",
-        "cat": "American Eagle Mens Basic Soli",
-        "price": "N/A",
-        "rating": 4.3,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #4 in SA market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 5,
-        "asin": "B0CGRT2277",
-        "title": "SAR 276.94",
-        "cat": "New Balance 530 Unisex Shoes",
-        "price": "N/A",
-        "rating": 4.0,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #5 in SA market (2026-11-25)",
-        "growth": 50.0
-      },
-      {
-        "rank": 6,
-        "asin": "B07XCM3X1F",
-        "title": "SAR 15.00",
-        "cat": "ULTECHNOVO Digital Hanging Lug",
-        "price": "N/A",
-        "rating": 4.2,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #6 in SA market (2026-11-25)",
-        "growth": 108.3
-      },
-      {
-        "rank": 7,
-        "asin": "B01FN772MS",
-        "title": "SAR 27.19",
-        "cat": "L'Oréal Paris Elvive Extraordi",
-        "price": "N/A",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "up",
-        "insight": "BSR #7 in SA market (2026-11-25)",
-        "growth": 35.5
-      },
-      {
-        "rank": 8,
-        "asin": "B07P83MJFM",
-        "title": "SAR 16.50",
-        "cat": "Dove Moisturising Soap Bar Nou",
-        "price": "N/A",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #8 in SA market (2026-11-25)",
-        "growth": 95.0
-      },
-      {
-        "rank": 9,
-        "asin": "B07MJVCYV2",
-        "title": "SAR 8.09",
-        "cat": "Garnier Ultra Doux Nourishing ",
-        "price": "N/A",
-        "rating": 4.4,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #9 in SA market (2026-11-25)",
-        "growth": 100.5
-      },
-      {
-        "rank": 10,
-        "asin": "B07NF7SP9L",
-        "title": "Trending Product #10",
-        "cat": "Lux Perfumed Hand Wash Velvet ",
-        "price": "SAR1209",
-        "rating": 4.5,
-        "reviews": 0,
-        "trend": "stable",
-        "insight": "BSR #10 in SA market (2026-11-25)",
-        "growth": 20.4
-      }
-    ]
-  },
+  "amazon_bsr": {},
   "local_ecom": {
+    "AliExpress（全球）": [
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "Trending",
+        "title": "Men's Quartz Watch with Embedded Hip Hop Bracelet And Cross Necklace Set Best Bi",
+        "price": "see listing",
+        "gmv_rank": 1,
+        "insight": "AliExpress 全站畅销榜 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "Trending",
+        "title": "One exquisite keychain",
+        "price": "see listing",
+        "gmv_rank": 2,
+        "insight": "AliExpress 实时趋势品 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "消费电子",
+        "title": "Electronics ATTINY406-SF 100% New electronics ATTINY406-SF ATTINY406-SFR SOIC-20",
+        "price": "see listing",
+        "gmv_rank": 3,
+        "insight": "AliExpress 电子热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "消费电子",
+        "title": "AYN Thor Android Handheld Dual Screen Clamshell 6'' AMOLED Screen 1080p Gaming E",
+        "price": "see listing",
+        "gmv_rank": 4,
+        "insight": "AliExpress 电子热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "消费电子",
+        "title": "Best 5Pcs/Lot in Quality 5Pcs/Lot Original XL4016E1 XL4016 4016 TO-220-5 Best in",
+        "price": "see listing",
+        "gmv_rank": 5,
+        "insight": "AliExpress 电子热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "消费电子",
+        "title": "Electronics ATTINY3224-SSU 100% New electronics ATTINY3224-SSU ATTINY3224-SSUR S",
+        "price": "see listing",
+        "gmv_rank": 6,
+        "insight": "AliExpress 电子热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "家居家纺",
+        "title": "Cordless Handheld Vacuum Cleaner Suction Vacuum Cleaner Can Absorb Dust Debris P",
+        "price": "see listing",
+        "gmv_rank": 7,
+        "insight": "AliExpress 家居热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "家居家纺",
+        "title": "Astronaut Projector Galaxy Starry Night Lights for Bedroom LED Nebula Lamp Decor",
+        "price": "see listing",
+        "gmv_rank": 8,
+        "insight": "AliExpress 家居热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "女装",
+        "title": "Long Sleeve Ruched Bodycon Dress Women Turtleneck Bandage Mini Dresses Autumn Bl",
+        "price": "see listing",
+        "gmv_rank": 9,
+        "insight": "AliExpress 女装热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "女装",
+        "title": "Ladies Solid Notched Lapel Long Sleeve Midi Dress Double Breasted Front Split Sl",
+        "price": "see listing",
+        "gmv_rank": 10,
+        "insight": "AliExpress 女装热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "女装",
+        "title": "Women's Spring and Autumn Long Sleeve Party Club Evening Elegant Tight Mini Dres",
+        "price": "see listing",
+        "gmv_rank": 11,
+        "insight": "AliExpress 女装热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "女装",
+        "title": "Ladies' Spring and Summer Casual Loose Plus Size Bee Bow Pattern Printed Round N",
+        "price": "see listing",
+        "gmv_rank": 12,
+        "insight": "AliExpress 女装热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "女装",
+        "title": "Elegant White Lace Print Slim-Fit Fishtail Dress, V-Neck Sleeveless Backless Tie",
+        "price": "see listing",
+        "gmv_rank": 13,
+        "insight": "AliExpress 女装热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "玩具",
+        "title": "Mini Induction Hover Drone Rechargeable Flying Helicopter Safe Fall-Resistant To",
+        "price": "see listing",
+        "gmv_rank": 14,
+        "insight": "AliExpress 玩具热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "玩具",
+        "title": "Assorted Party Gift Set with Multiple Small Gifts for Guests, Birthday Wedding H",
+        "price": "see listing",
+        "gmv_rank": 15,
+        "insight": "AliExpress 玩具热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "玩具",
+        "title": "2026 Cars Toy Car Cars Movie Die‑cast Toy Car 1:55, Boost DJ Wingo Snot‑Rod Smok",
+        "price": "see listing",
+        "gmv_rank": 16,
+        "insight": "AliExpress 玩具热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "美妆个护",
+        "title": "ICONSIGN Upgrade Version Lash Lift Kit Lifting Eyelashes Lasting 6-8 Weeks Lash ",
+        "price": "see listing",
+        "gmv_rank": 17,
+        "insight": "AliExpress 美妆热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "美妆个护",
+        "title": "Beauty of Joseon - Relief Sun : Rice + Probiotic SPF50+ PA++++ - (50ml)",
+        "price": "see listing",
+        "gmv_rank": 18,
+        "insight": "AliExpress 美妆热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "美妆个护",
+        "title": "7 in 1 H2O2 Beauty Skin Cleansing Hydrofacial Machine Facial Machine Water Aqua ",
+        "price": "see listing",
+        "gmv_rank": 19,
+        "insight": "AliExpress 美妆热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "宠物用品",
+        "title": "Best-selling Winter Warm Pet Bed Enclosed Thickened Cat Bed Dog Bed",
+        "price": "see listing",
+        "gmv_rank": 20,
+        "insight": "AliExpress 宠物热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "宠物用品",
+        "title": "Best-selling Dog and Cat Bed, All-season, Non-removable, Grid-pattern Wavy Desig",
+        "price": "see listing",
+        "gmv_rank": 21,
+        "insight": "AliExpress 宠物热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "宠物用品",
+        "title": "Cross-border pet dog leakage toy balls, teething puzzles, anti-boring and biting",
+        "price": "see listing",
+        "gmv_rank": 22,
+        "insight": "AliExpress 宠物热销 · 2026-11-25"
+      },
+      {
+        "platform": "AliExpress",
+        "country": "Global",
+        "cat": "工具五金",
+        "title": "Car Window Door Emergency Open Key Lost Lock Out Unlock Auto Tools Kit Air Wedge",
+        "price": "see listing",
+        "gmv_rank": 23,
+        "insight": "AliExpress 工具热销 · 2026-11-25"
+      }
+    ],
     "Coupang（韩国）": [
       {
         "platform": "Coupang",
@@ -878,7 +476,7 @@
         "country": "PK/BD/NP/LK",
         "cat": "Trending",
         "title": "Flash Sale",
-        "price": "Rs.484",
+        "price": "Rs.1,898",
         "gmv_rank": 1,
         "insight": "Daraz live trending (2026-11-25)"
       },
@@ -895,8 +493,8 @@
         "platform": "Daraz",
         "country": "PK/BD/NP/LK",
         "cat": "Trending",
-        "title": "Dove Intense Repair Shampoo 175ML",
-        "price": "Rs.484",
+        "title": "Shaving Machine 3 In 1 Rechargeable Hair Clipper Shaver beard Styling ",
+        "price": "Rs.1,898",
         "gmv_rank": 3,
         "insight": "Daraz live trending (2026-11-25)"
       }
@@ -1611,7 +1209,7 @@
         "country": "日本",
         "keyword": "ワイヤレスイヤホン",
         "volume": "220K/月",
-        "growth": 2.5,
+        "growth": -5.2,
         "cat": "3C",
         "insight": "无线耳机长青"
       },
@@ -1696,7 +1294,7 @@
         "country": "巴西/墨西哥/阿根廷",
         "keyword": "celular",
         "volume": "680K/月",
-        "growth": 8.1,
+        "growth": 3.6,
         "cat": "3C",
         "insight": "手机搜索量第一"
       },
@@ -1743,7 +1341,7 @@
         "country": "巴西",
         "keyword": "geladeira",
         "volume": "240K/月",
-        "growth": 17.1,
+        "growth": 17.7,
         "cat": "大家电",
         "insight": "冰箱搜索旺盛"
       },
@@ -1752,7 +1350,7 @@
         "country": "巴西",
         "keyword": "celular samsung",
         "volume": "220K/月",
-        "growth": 41.2,
+        "growth": 31.6,
         "cat": "3C",
         "insight": "三星手机品牌词"
       },
@@ -1790,7 +1388,7 @@
         "country": "东南亚",
         "keyword": "baju wanita",
         "volume": "520K/月",
-        "growth": -6.8,
+        "growth": -11.4,
         "cat": "女装",
         "insight": "印尼女装稳居榜首"
       },
@@ -1799,7 +1397,7 @@
         "country": "东南亚",
         "keyword": "iphone case",
         "volume": "380K/月",
-        "growth": -100.0,
+        "growth": -10.0,
         "cat": "3C配件",
         "insight": "手机壳跨品类"
       },
@@ -1837,7 +1435,7 @@
         "country": "东南亚",
         "keyword": "หูฟัง bluetooth",
         "volume": "290K/月",
-        "growth": -100.0,
+        "growth": 16.7,
         "cat": "3C",
         "insight": "泰国蓝牙耳机搜索"
       },
@@ -1846,7 +1444,7 @@
         "country": "东南亚",
         "keyword": "รองเท้าผ้าใบ",
         "volume": "220K/月",
-        "growth": -100.0,
+        "growth": -4.0,
         "cat": "运动",
         "insight": "运动鞋稳定流量"
       },
@@ -1884,7 +1482,7 @@
         "country": "南亚",
         "keyword": "mobile phone",
         "volume": "420K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "3C",
         "insight": "手机搜索领跑"
       },
@@ -1893,7 +1491,7 @@
         "country": "南亚",
         "keyword": "kurta women",
         "volume": "230K/月",
-        "growth": -100.0,
+        "growth": -50.0,
         "cat": "女装",
         "insight": "南亚传统服饰热销"
       },
@@ -1931,7 +1529,7 @@
         "country": "印度",
         "keyword": "mobile under 15000",
         "volume": "780K/月",
-        "growth": -100.0,
+        "growth": -14.6,
         "cat": "3C",
         "insight": "中端手机搜索王"
       },
@@ -1940,7 +1538,7 @@
         "country": "印度",
         "keyword": "air conditioner",
         "volume": "420K/月",
-        "growth": -100.0,
+        "growth": -16.7,
         "cat": "大家电",
         "insight": "空调季节峰值"
       },
@@ -1978,7 +1576,7 @@
         "country": "中东",
         "keyword": "iphone 16",
         "volume": "320K/月",
-        "growth": -100.0,
+        "growth": -12.5,
         "cat": "3C",
         "insight": "苹果新机搜索"
       },
@@ -1987,7 +1585,7 @@
         "country": "中东",
         "keyword": "perfume",
         "volume": "280K/月",
-        "growth": -41.7,
+        "growth": -6.5,
         "cat": "美妆",
         "insight": "中东香水文化深厚"
       },
@@ -2034,7 +1632,7 @@
         "country": "中东",
         "keyword": "sneakers nike",
         "volume": "160K/月",
-        "growth": -100.0,
+        "growth": -33.8,
         "cat": "运动",
         "insight": "Nike品牌词高频"
       },
@@ -2072,7 +1670,7 @@
         "country": "波兰",
         "keyword": "telefon",
         "volume": "410K/月",
-        "growth": -30.2,
+        "growth": 10.8,
         "cat": "3C",
         "insight": "波兰手机搜索领跑"
       },
@@ -2081,7 +1679,7 @@
         "country": "波兰",
         "keyword": "klimatyzator",
         "volume": "180K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "家电",
         "insight": "空调夏季峰值"
       },
@@ -2119,7 +1717,7 @@
         "country": "荷兰/比利时",
         "keyword": "airfryer",
         "volume": "230K/月",
-        "growth": -6.1,
+        "growth": 15.2,
         "cat": "小家电",
         "insight": "空气炸锅荷兰必买"
       },
@@ -2128,7 +1726,7 @@
         "country": "荷兰/比利时",
         "keyword": "bluetooth speaker",
         "volume": "180K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "3C",
         "insight": "蓝牙音箱高频"
       },
@@ -2166,7 +1764,7 @@
         "country": "澳大利亚",
         "keyword": "air fryer",
         "volume": "160K/月",
-        "growth": -23.7,
+        "growth": -3.8,
         "cat": "小家电",
         "insight": "空气炸锅澳洲热销"
       },
@@ -2175,7 +1773,7 @@
         "country": "澳大利亚",
         "keyword": "robot vacuum",
         "volume": "120K/月",
-        "growth": -4.3,
+        "growth": 0.0,
         "cat": "家电",
         "insight": "扫地机器人热门"
       },
@@ -2213,7 +1811,7 @@
         "country": "新西兰",
         "keyword": "heater",
         "volume": "70K/月",
-        "growth": -100.0,
+        "growth": -15.1,
         "cat": "家电",
         "insight": "冬季取暖器搜索"
       },
@@ -2222,7 +1820,7 @@
         "country": "新西兰",
         "keyword": "merino wool",
         "volume": "55K/月",
-        "growth": -100.0,
+        "growth": -10.0,
         "cat": "服饰",
         "insight": "美利奴羊毛新西兰特色"
       },
@@ -2260,7 +1858,7 @@
         "country": "非洲",
         "keyword": "phone",
         "volume": "380K/月",
-        "growth": -32.6,
+        "growth": -12.9,
         "cat": "3C",
         "insight": "非洲手机搜索王"
       },
@@ -2269,7 +1867,7 @@
         "country": "非洲",
         "keyword": "generator",
         "volume": "180K/月",
-        "growth": -4.2,
+        "growth": -26.1,
         "cat": "电器",
         "insight": "家用发电机刚需"
       },
@@ -2307,7 +1905,7 @@
         "country": "南非",
         "keyword": "tv",
         "volume": "210K/月",
-        "growth": 0.0,
+        "growth": 18.8,
         "cat": "家电",
         "insight": "电视搜索常青"
       },
@@ -2316,7 +1914,7 @@
         "country": "南非",
         "keyword": "laptop",
         "volume": "180K/月",
-        "growth": -9.1,
+        "growth": -2.9,
         "cat": "3C",
         "insight": "笔电学习办公"
       },
@@ -2354,7 +1952,7 @@
         "country": "美国",
         "keyword": "pokemon cards",
         "volume": "520K/月",
-        "growth": 16.9,
+        "growth": 7.2,
         "cat": "收藏",
         "insight": "宝可梦卡牌收藏热"
       },
@@ -2363,7 +1961,7 @@
         "country": "美国",
         "keyword": "iphone unlocked",
         "volume": "380K/月",
-        "growth": 33.3,
+        "growth": 16.7,
         "cat": "3C",
         "insight": "解锁版iPhone二手刚需"
       },
@@ -2410,7 +2008,7 @@
         "country": "美国/全球",
         "keyword": "cheap home decor",
         "volume": "320K/月",
-        "growth": -100.0,
+        "growth": -50.8,
         "cat": "家居",
         "insight": "低价家居主力"
       },
@@ -2457,7 +2055,7 @@
         "country": "美国/英国",
         "keyword": "viral skincare",
         "volume": "420K/月",
-        "growth": -100.0,
+        "growth": -12.5,
         "cat": "美妆",
         "insight": "美妆短视频爆款"
       },
@@ -2495,7 +2093,7 @@
         "country": "美国",
         "keyword": "patio furniture",
         "volume": "380K/月",
-        "growth": -10.0,
+        "growth": -11.1,
         "cat": "户外家具",
         "insight": "露台家具夏季"
       },
@@ -2504,7 +2102,7 @@
         "country": "美国",
         "keyword": "air conditioner",
         "volume": "320K/月",
-        "growth": -31.3,
+        "growth": -26.6,
         "cat": "家电",
         "insight": "空调旺季"
       },
@@ -2542,7 +2140,7 @@
         "country": "美国",
         "keyword": "sectional sofa",
         "volume": "480K/月",
-        "growth": 0.0,
+        "growth": -3.8,
         "cat": "家具",
         "insight": "转角沙发Wayfair自营单品全美第一"
       },
@@ -2551,7 +2149,7 @@
         "country": "美国",
         "keyword": "patio furniture set",
         "volume": "320K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "户外家具",
         "insight": "夏季户外家具搜索量同比+42%"
       },
@@ -2589,7 +2187,7 @@
         "country": "美国",
         "keyword": "shein dress",
         "volume": "1.2M/月",
-        "growth": -12.3,
+        "growth": -23.1,
         "cat": "女装",
         "insight": "SHEIN连衣裙搜索量百万级"
       },
@@ -2598,7 +2196,7 @@
         "country": "美国",
         "keyword": "shein curve plus size",
         "volume": "320K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "大码女装",
         "insight": "大码女装SHEIN细分赛道暴增"
       },
@@ -2636,7 +2234,7 @@
         "country": "美国",
         "keyword": "personalized gifts",
         "volume": "650K/月",
-        "growth": 42.9,
+        "growth": -4.8,
         "cat": "定制礼品",
         "insight": "个性化礼品Etsy核心品类"
       },
@@ -2645,7 +2243,7 @@
         "country": "美国",
         "keyword": "custom name necklace",
         "volume": "380K/月",
-        "growth": -100.0,
+        "growth": 0.0,
         "cat": "手工首饰",
         "insight": "刻字项链Etsy长青爆款"
       },
@@ -2683,7 +2281,7 @@
         "country": "俄罗斯",
         "keyword": "платье",
         "volume": "680K/月",
-        "growth": -28.6,
+        "growth": -24.7,
         "cat": "女装",
         "insight": "连衣裙俄罗斯第一搜索词"
       },
@@ -2692,7 +2290,7 @@
         "country": "俄罗斯",
         "keyword": "кроссовки",
         "volume": "420K/月",
-        "growth": -49.2,
+        "growth": -15.3,
         "cat": "运动",
         "insight": "运动鞋稳居前列"
       },
@@ -2730,7 +2328,7 @@
         "country": "俄罗斯",
         "keyword": "смартфон",
         "volume": "380K/月",
-        "growth": 12.5,
+        "growth": -3.1,
         "cat": "3C",
         "insight": "智能手机俄罗斯通用词"
       },
@@ -2739,7 +2337,7 @@
         "country": "俄罗斯",
         "keyword": "наушники",
         "volume": "290K/月",
-        "growth": -6.8,
+        "growth": -9.7,
         "cat": "3C",
         "insight": "耳机搜索高频"
       },
@@ -2777,7 +2375,7 @@
         "country": "哈萨克斯坦",
         "keyword": "смартфон",
         "volume": "210K/月",
-        "growth": -100.0,
+        "growth": -17.6,
         "cat": "3C",
         "insight": "中亚手机搜索领跑"
       },
@@ -2786,7 +2384,7 @@
         "country": "哈萨克斯坦",
         "keyword": "холодильник",
         "volume": "120K/月",
-        "growth": -100.0,
+        "growth": -17.2,
         "cat": "大家电",
         "insight": "冰箱刚需"
       },
@@ -2817,76 +2415,183 @@
         "cat": "3C",
         "insight": "耳机增长"
       }
+    ],
+    "AliExpress（全球）": [
+      {
+        "keyword": "best deal",
+        "volume": "AliExpress Ranking",
+        "growth": 80,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "best electric lighter",
+        "volume": "AliExpress Ranking",
+        "growth": 76,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "best electronic cleaner",
+        "volume": "AliExpress Ranking",
+        "growth": 72,
+        "cat": "消费电子",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "best electronics cleaner",
+        "volume": "AliExpress Ranking",
+        "growth": 68,
+        "cat": "消费电子",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "best sellers",
+        "volume": "AliExpress Ranking",
+        "growth": 64,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "best selling stickers",
+        "volume": "AliExpress Ranking",
+        "growth": 60,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "booksellers",
+        "volume": "AliExpress Ranking",
+        "growth": 56,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "electronics for cheap",
+        "volume": "AliExpress Ranking",
+        "growth": 52,
+        "cat": "消费电子",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "hot deals",
+        "volume": "AliExpress Ranking",
+        "growth": 48,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "hot selling",
+        "volume": "AliExpress Ranking",
+        "growth": 44,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "photo frame electronic best buy",
+        "volume": "AliExpress Ranking",
+        "growth": 40,
+        "cat": "消费电子",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "productos innovadores",
+        "volume": "AliExpress Ranking",
+        "growth": 36,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "top rated",
+        "volume": "AliExpress Ranking",
+        "growth": 32,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "trending",
+        "volume": "AliExpress Ranking",
+        "growth": 28,
+        "cat": "Trending",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      },
+      {
+        "keyword": "trending gadgets",
+        "volume": "AliExpress Ranking",
+        "growth": 24,
+        "cat": "消费电子",
+        "insight": "AliExpress Ranking Keywords · 2026-11-25"
+      }
     ]
   },
   "social_hotwords": {
     "TikTok": [
       {
         "keyword": "#TikTokMadeMeBuyIt",
-        "count": "17B views",
+        "count": "21B views",
         "product": "洗地机/美容仪/收纳神器/LED灯",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 50.0
       },
       {
         "keyword": "#CleanTok",
-        "count": "49B views",
+        "count": "34B views",
         "product": "洗地机/消毒凝胶/超声波清洗机",
         "insight": "TikTok trending (2026-11-25)",
-        "growth": -100.0
+        "growth": -16.7
       },
       {
         "keyword": "#AmazonFinds",
-        "count": "29B views",
+        "count": "34B views",
         "product": "3C配件/厨房神器/宠物用品",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 50.0
       },
       {
         "keyword": "#AIGadgets",
-        "count": "55B views",
+        "count": "35B views",
         "product": "AI录音笔/AI翻译器/AI绘图板",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 50.0
       },
       {
         "keyword": "#SmartHome",
-        "count": "32B views",
+        "count": "15B views",
         "product": "智能灯/智能插座/AI音箱/传感器",
         "insight": "TikTok trending (2026-11-25)",
-        "growth": -100.0
+        "growth": -2.6
       },
       {
         "keyword": "#PetLovers",
-        "count": "23B views",
+        "count": "55B views",
         "product": "智能喂食器/宠物摄像头/GPS项圈",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 11.8
       },
       {
         "keyword": "#GreenLiving",
-        "count": "25B views",
+        "count": "60B views",
         "product": "竹制收纳/可堆肥袋/LED节能灯",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 29.4
       },
       {
         "keyword": "#GameSetup",
-        "count": "9B views",
+        "count": "29B views",
         "product": "RGB灯条/电竞桌椅/机械键盘",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 64.0
       },
       {
         "keyword": "#SkincareRoutine",
-        "count": "56B views",
+        "count": "58B views",
         "product": "美容仪/精华液/面膜/防晒",
         "insight": "TikTok trending (2026-11-25)",
         "growth": 125.0
       },
       {
         "keyword": "#FitnessAtHome",
-        "count": "23B views",
+        "count": "11B views",
         "product": "哑铃/健身镜/泡沫滚轴/瑜伽垫",
         "insight": "TikTok trending (2026-11-25)",
         "growth": -18.9
@@ -2895,56 +2600,56 @@
     "Instagram": [
       {
         "keyword": "Quiet Luxury",
-        "count": "1656M posts",
+        "count": "1546M posts",
         "product": "极简家居/无LOGO包/羊绒针织",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 71.0
       },
       {
         "keyword": "AI Art Studio",
-        "count": "1101M posts",
+        "count": "113M posts",
         "product": "AI绘图平板/数字框架屏",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 100.2
       },
       {
         "keyword": "Functional Fitness",
-        "count": "1509M posts",
+        "count": "1380M posts",
         "product": "哑铃/壶铃/健身镜",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": -2.4
       },
       {
         "keyword": "Halal Beauty",
-        "count": "1353M posts",
+        "count": "896M posts",
         "product": "清真口红/无酒精香水/清真护肤",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": -6.2
       },
       {
         "keyword": "Minimalist Home",
-        "count": "1989M posts",
+        "count": "846M posts",
         "product": "极简家具/收纳系统/无印良品风",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 73.8
       },
       {
         "keyword": "Pet Fashion",
-        "count": "827M posts",
+        "count": "948M posts",
         "product": "宠物服饰/宠物配件/智能项圈",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 86.2
       },
       {
         "keyword": "Sustainable Living",
-        "count": "422M posts",
+        "count": "1600M posts",
         "product": "环保家居/可降解用品/竹制品",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 22.7
       },
       {
         "keyword": "Smart Home Decor",
-        "count": "1214M posts",
+        "count": "938M posts",
         "product": "智能灯具/氛围灯/智能窗帘",
         "insight": "Instagram trending topic (2026-11-25)",
         "growth": 50.3
@@ -2953,56 +2658,56 @@
     "YouTube": [
       {
         "keyword": "AI Gadget Reviews",
-        "count": "5B views",
+        "count": "6B views",
         "product": "AI录笔/AR眼镜/AI音箱",
         "insight": "YouTube trending search (2026-11-25)",
         "growth": 50.0
       },
       {
         "keyword": "Off-Grid Living",
-        "count": "1B views",
+        "count": "8B views",
         "product": "太阳能系统/储能/净水设备",
         "insight": "YouTube trending search (2026-11-25)",
         "growth": -100.0
       },
       {
         "keyword": "Budget Build PC",
-        "count": "15B views",
+        "count": "13B views",
         "product": "CPU散热器/M.2固态/机箱风扇",
         "insight": "YouTube trending search (2026-11-25)",
-        "growth": -100.0
+        "growth": 2.8
       },
       {
         "keyword": "Elderly Parent Care",
         "count": "7B views",
         "product": "智能药盒/防跌感应灯/视频通话大屏",
         "insight": "YouTube trending search (2026-11-25)",
-        "growth": -100.0
+        "growth": -43.5
       },
       {
         "keyword": "Smart Home Tour",
-        "count": "7B views",
+        "count": "12B views",
         "product": "Matter网关/智能门锁/传感器套装",
         "insight": "YouTube trending search (2026-11-25)",
-        "growth": -100.0
+        "growth": 50.0
       },
       {
         "keyword": "EV Review 2026",
-        "count": "14B views",
+        "count": "1B views",
         "product": "EV充电桩/车载配件/便携储能",
         "insight": "YouTube trending search (2026-11-25)",
         "growth": 60.6
       },
       {
         "keyword": "Solar Panel DIY",
-        "count": "13B views",
+        "count": "8B views",
         "product": "太阳能板/逆变器/储能电池",
         "insight": "YouTube trending search (2026-11-25)",
         "growth": 34.3
       },
       {
         "keyword": "Robot Vacuum Test",
-        "count": "5B views",
+        "count": "7B views",
         "product": "扫地机/洗地机/擦窗机器人",
         "insight": "YouTube trending search (2026-11-25)",
         "growth": 86.6
@@ -3010,306 +2715,306 @@
     ],
     "X": [
       {
-        "keyword": "Happy Thanksgiving",
-        "count": "92K posts",
+        "keyword": "Aaron Rodgers",
+        "count": "324K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 71.3
+        "growth": 74.9
       },
       {
-        "keyword": "Creighton",
-        "count": "385K posts",
+        "keyword": "Steelers",
+        "count": "170K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": -10.1
+        "growth": 72.0
       },
       {
-        "keyword": "Vini",
-        "count": "488K posts",
-        "product": "跨境电商热门关联品类",
-        "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": -14.4
-      },
-      {
-        "keyword": "Tyrone Taylor",
-        "count": "364K posts",
+        "keyword": "Packers",
+        "count": "302K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
         "growth": 143.5
       },
       {
-        "keyword": "Kilmar Abrego Garcia",
-        "count": "309K posts",
+        "keyword": "Thanksgiving",
+        "count": "131K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 149.4
+        "growth": 84.1
       },
       {
-        "keyword": "Essence Fest",
-        "count": "283K posts",
+        "keyword": "Tomlin",
+        "count": "425K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 146.9
+        "growth": -17.8
       },
       {
-        "keyword": "Mike Boynton",
-        "count": "365K posts",
+        "keyword": "McAfee",
+        "count": "462K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 141.5
+        "growth": 27.9
       },
       {
-        "keyword": "Real Madrid",
-        "count": "196K posts",
+        "keyword": "Green Bay",
+        "count": "483K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 70.4
+        "growth": 2.0
       },
       {
-        "keyword": "Iowa",
-        "count": "68K posts",
+        "keyword": "Xreal Aura",
+        "count": "277K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": 49.9
+        "growth": 34.0
       },
       {
-        "keyword": "Bellingham",
-        "count": "175K posts",
+        "keyword": "Rooney",
+        "count": "436K posts",
         "product": "跨境电商热门关联品类",
         "insight": "X/Twitter trending topic (2026-11-25)",
-        "growth": -4.3
+        "growth": 77.6
+      },
+      {
+        "keyword": "Arod",
+        "count": "56K posts",
+        "product": "跨境电商热门关联品类",
+        "insight": "X/Twitter trending topic (2026-11-25)",
+        "growth": 143.3
       }
     ]
   },
   "search_growth": {
     "US": [
       {
-        "keyword": "jacksonville vs indiana",
+        "keyword": "luis suárez",
         "traffic": "1000+"
       },
       {
-        "keyword": "umbc vs iowa",
-        "traffic": "1000+"
-      },
-      {
-        "keyword": "celtics vs wizards",
+        "keyword": "buck flips bobcat viral video",
         "traffic": "500+"
       },
       {
-        "keyword": "cris collinsworth",
+        "keyword": "aaron rodgers next team",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "patriots record",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "nfl tomorrow",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "football tonight",
         "traffic": "500+"
       },
       {
-        "keyword": "boeing 737 max",
+        "keyword": "ethan mbappé",
         "traffic": "200+"
       },
       {
-        "keyword": "milwaukee vs florida",
-        "traffic": "200+"
+        "keyword": "kent state golden flashes football",
+        "traffic": "10000+"
       },
       {
-        "keyword": "cade cunningham",
-        "traffic": "5000+"
+        "keyword": "matt damon",
+        "traffic": "500+"
       },
       {
-        "keyword": "thomas markle",
-        "traffic": "1000+"
-      },
-      {
-        "keyword": "red dead redemption",
-        "traffic": "1000+"
-      },
-      {
-        "keyword": "rutgers basketball",
+        "keyword": "bayern",
         "traffic": "500+"
       }
     ],
     "DE": [
       {
-        "keyword": "störung microsoft",
-        "traffic": "500+"
+        "keyword": "edeka",
+        "traffic": "1000+"
       },
       {
-        "keyword": "eike immel",
-        "traffic": "500+"
-      },
-      {
-        "keyword": "monika schnitzer",
+        "keyword": "luis suárez",
         "traffic": "200+"
       },
       {
-        "keyword": "muse",
+        "keyword": "yanik spalt",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "bayern munich",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "hiroki itō",
         "traffic": "100+"
       },
       {
-        "keyword": "volkswagen china",
-        "traffic": "500+"
+        "keyword": "utrecht",
+        "traffic": "1000+"
       },
       {
-        "keyword": "classement real madrid – psv eindhoven",
+        "keyword": "davis cup 2026 spielplan",
+        "traffic": "5000+"
+      },
+      {
+        "keyword": "karen read",
         "traffic": "200+"
       },
       {
-        "keyword": "microsoft code red",
-        "traffic": "100+"
-      },
-      {
-        "keyword": "sylvester stallone",
+        "keyword": "chiara ferragni",
         "traffic": "200+"
       },
       {
-        "keyword": "anika neuer manuel neuer",
-        "traffic": "10000+"
-      },
-      {
-        "keyword": "man city vs ssc napoli standings",
-        "traffic": "2000+"
+        "keyword": "fcb",
+        "traffic": "1000+"
       }
     ],
     "JP": [
       {
-        "keyword": "ロシア海軍",
-        "traffic": "2000+"
-      },
-      {
-        "keyword": "nhk world-japan",
+        "keyword": "psg vs roma",
         "traffic": "100+"
       },
       {
-        "keyword": "エルニーニョ",
+        "keyword": "マンチェスターユナイテッド",
         "traffic": "500+"
       },
       {
-        "keyword": "マジック 対 ピストンズ",
+        "keyword": "mu",
+        "traffic": "2000+"
+      },
+      {
+        "keyword": "バスレーン",
         "traffic": "200+"
       },
       {
-        "keyword": "金河成",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "特別番組",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "催涙スプレー",
+        "keyword": "インテル 対 シュトゥットガルト",
         "traffic": "100+"
       },
       {
-        "keyword": "井口浩之",
+        "keyword": "club brugge vs liverpool",
         "traffic": "100+"
       },
       {
-        "keyword": "中国産 人工甘味料",
-        "traffic": "5000+"
+        "keyword": "内山 理名",
+        "traffic": "10000+"
       },
       {
-        "keyword": "高市早苗",
-        "traffic": "1000+"
+        "keyword": "nasdaq",
+        "traffic": "100+"
+      },
+      {
+        "keyword": "北海道日本ハムファイターズ",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "警察犬",
+        "traffic": "100+"
       }
     ],
     "UK": [
       {
-        "keyword": "thomas markle",
-        "traffic": "500+"
-      },
-      {
-        "keyword": "amanda seyfried",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "aircraft",
-        "traffic": "500+"
-      },
-      {
-        "keyword": "gta6 pc",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "travel",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "billy evans",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "nick dinsmore",
-        "traffic": "100+"
-      },
-      {
-        "keyword": "elizabeth holmes",
-        "traffic": "2000+"
-      },
-      {
-        "keyword": "trinity rodman",
-        "traffic": "100+"
-      },
-      {
-        "keyword": "dancing with the stars",
+        "keyword": "livescore",
         "traffic": "1000+"
+      },
+      {
+        "keyword": "victor munoz",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "constitution hill horse",
+        "traffic": "500+"
+      },
+      {
+        "keyword": "suarez",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "as roma",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "munya chawawa",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "bayern",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "flashscore",
+        "traffic": "1000+"
+      },
+      {
+        "keyword": "united game",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "senne lammens",
+        "traffic": "200+"
       }
     ],
     "SA": [
       {
-        "keyword": "الراتب",
+        "keyword": "ميناء جدة",
+        "traffic": "5000+"
+      },
+      {
+        "keyword": "slavia praha vs villarreal cf standings",
         "traffic": "200+"
       },
       {
-        "keyword": "نظمي النصر",
+        "keyword": "psg",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "sabah fk vs fc barcelona standings",
+        "traffic": "5000+"
+      },
+      {
+        "keyword": "şahtar donetsk - fenerbahçe",
+        "traffic": "200+"
+      },
+      {
+        "keyword": "karim adeyemi",
         "traffic": "100+"
       },
       {
-        "keyword": "لانس",
+        "keyword": "غزل المحلة ضد السويس بتروجيت",
         "traffic": "200+"
       },
       {
-        "keyword": "como 1907 vs aek athens f.c. standings",
-        "traffic": "200+"
+        "keyword": "وكيل ذكي",
+        "traffic": "500+"
       },
       {
-        "keyword": "كيليان مبابي",
-        "traffic": "200+"
+        "keyword": "كلوب بروج ضد ليفربول",
+        "traffic": "2000+"
       },
       {
-        "keyword": "إيفان بيريشيتش",
-        "traffic": "100+"
-      },
-      {
-        "keyword": "باريس سان جيرمان",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "jobe bellingham",
-        "traffic": "200+"
-      },
-      {
-        "keyword": "feyenoord vs porto",
-        "traffic": "100+"
-      },
-      {
-        "keyword": "ivan perišić",
-        "traffic": "200+"
+        "keyword": "club brugge vs liverpool",
+        "traffic": "2000+"
       }
     ]
   },
   "product_recommendations": [
     {
       "trend": "AI硬件/AI科技 (2026-11-25)",
-      "score": 571.2,
-      "avgGrowth": 33.4,
-      "sources": "BSR + 本土电商 + 社交(Instagram) + 社交(TikTok) + 社交(YouTube)",
+      "score": 495.4,
+      "avgGrowth": 21.9,
+      "sources": "本土电商 + 社交(Instagram) + 社交(TikTok) + 社交(YouTube)",
       "signalCount": 14,
       "topSignals": [
-        "BSR JP #1: Trending Product #1",
-        "BSR UK #2: Trending Product #2",
-        "BSR SA #1: SAR 35.09",
+        "AliExpress（全球） Global: One exquisite keychain",
+        "AliExpress（全球） Global: Elegant White Lace Print Slim-Fit Fishta",
+        "AliExpress（全球） Global: Car Window Door Emergency Open Key Lost ",
         "Coupang（韩国） KR: AI视觉扫地机器人激光导航"
       ],
       "products": [
         {
           "name": "AI录音笔+实时转录(32GB)",
-          "targetMarket": "BD/EG/JP/KR/LK/NP+",
+          "targetMarket": "BD/EG/Global/KR/LK/NP+",
           "hs": "8519",
           "priceUS": "$89-149",
           "certNeeded": [
@@ -3322,7 +3027,7 @@
         },
         {
           "name": "儿童AI学习机 双语对话",
-          "targetMarket": "BD/EG/JP/KR/LK/NP+",
+          "targetMarket": "BD/EG/Global/KR/LK/NP+",
           "hs": "8471",
           "priceUS": "$65-99",
           "certNeeded": [
@@ -3336,7 +3041,7 @@
         },
         {
           "name": "AR轻量化眼镜(显示/导航)",
-          "targetMarket": "BD/EG/JP/KR/LK/NP+",
+          "targetMarket": "BD/EG/Global/KR/LK/NP+",
           "hs": "9004",
           "priceUS": "$199-399",
           "certNeeded": [
@@ -3351,20 +3056,20 @@
     },
     {
       "trend": "宠物科技 (2026-11-25)",
-      "score": 298.3,
-      "avgGrowth": 20.7,
-      "sources": "BSR + 本土电商 + 社交(Instagram) + 社交(TikTok)",
-      "signalCount": 10,
+      "score": 385.6,
+      "avgGrowth": 12.3,
+      "sources": "本土电商 + 社交(Instagram) + 社交(TikTok)",
+      "signalCount": 12,
       "topSignals": [
-        "BSR DE #9: Trending Product #9",
-        "Coupang（韩国） KR: 宠物自动饮水机+滤芯订阅",
-        "Rakuten（日本） JP: 国产无谷猫粮5kg",
-        "Catch（澳洲） AU: 澳洲产宠物零食牛肉干1kg"
+        "AliExpress（全球） Global: Best-selling Winter Warm Pet Bed Enclose",
+        "AliExpress（全球） Global: Best-selling Dog and Cat Bed, All-season",
+        "AliExpress（全球） Global: Cross-border pet dog leakage toy balls, ",
+        "Coupang（韩国） KR: 宠物自动饮水机+滤芯订阅"
       ],
       "products": [
         {
           "name": "宠物GPS+健康监测项圈",
-          "targetMarket": "AU/CA/DE/EU/JP/KR+",
+          "targetMarket": "AU/CA/EU/Global/JP/KR+",
           "hs": "8517",
           "priceUS": "$69+$9.99/月",
           "certNeeded": [
@@ -3377,7 +3082,7 @@
         },
         {
           "name": "自动猫咪喂食器AI识别",
-          "targetMarket": "AU/CA/DE/EU/JP/KR+",
+          "targetMarket": "AU/CA/EU/Global/JP/KR+",
           "hs": "8479",
           "priceUS": "$89-149",
           "certNeeded": [
@@ -3390,7 +3095,7 @@
         },
         {
           "name": "宠物摄像头双向对话+零食投喂",
-          "targetMarket": "AU/CA/DE/EU/JP/KR+",
+          "targetMarket": "AU/CA/EU/Global/JP/KR+",
           "hs": "8525",
           "priceUS": "$59-99",
           "certNeeded": [
@@ -3404,20 +3109,20 @@
     },
     {
       "trend": "美容健康 (2026-11-25)",
-      "score": 213.3,
-      "avgGrowth": 20.8,
+      "score": 237.3,
+      "avgGrowth": 16.6,
       "sources": "本土电商 + 社交(Instagram) + 社交(TikTok)",
-      "signalCount": 8,
+      "signalCount": 10,
       "topSignals": [
+        "AliExpress（全球） Global: Beauty of Joseon - Relief Sun : Rice + P",
+        "AliExpress（全球） Global: 7 in 1 H2O2 Beauty Skin Cleansing Hydrof",
         "Coupang（韩国） KR: K-Beauty水光精华7件套",
-        "Noon（中东） UAE/SA/EG: 沙漠肌补水精华",
-        "The Market（新西兰） NZ: Antipodes奇异果护肤套装",
-        "TikTok Shop（美国/英国） US/UK: 宠物按摩刷自动收毛款"
+        "Noon（中东） UAE/SA/EG: 沙漠肌补水精华"
       ],
       "products": [
         {
           "name": "射频EMS冷敷美容仪合一",
-          "targetMarket": "EG/KR/NZ/SA/UAE/UK+",
+          "targetMarket": "EG/Global/KR/NZ/SA/UAE+",
           "hs": "8543",
           "priceUS": "$129-199",
           "certNeeded": [
@@ -3430,7 +3135,7 @@
         },
         {
           "name": "颈部加热按摩仪3D揉捏",
-          "targetMarket": "EG/KR/NZ/SA/UAE/UK+",
+          "targetMarket": "EG/Global/KR/NZ/SA/UAE+",
           "hs": "9019",
           "priceUS": "$49-89",
           "certNeeded": [
@@ -3443,7 +3148,7 @@
         },
         {
           "name": "Sunrise闹钟灯+白噪音机",
-          "targetMarket": "EG/KR/NZ/SA/UAE/UK+",
+          "targetMarket": "EG/Global/KR/NZ/SA/UAE+",
           "hs": "9405",
           "priceUS": "$35-65",
           "certNeeded": [
@@ -3456,21 +3161,74 @@
       ]
     },
     {
-      "trend": "清洁家电 (2026-11-25)",
-      "score": 163.3,
-      "avgGrowth": 7.3,
-      "sources": "本土电商 + 社交(TikTok) + 社交(YouTube)",
-      "signalCount": 5,
+      "trend": "出行/电动车 (2026-11-25)",
+      "score": 211.1,
+      "avgGrowth": 9.2,
+      "sources": "本土电商 + 社交(YouTube)",
+      "signalCount": 12,
       "topSignals": [
+        "AliExpress（全球） Global: Long Sleeve Ruched Bodycon Dress Women T",
+        "AliExpress（全球） Global: Ladies Solid Notched Lapel Long Sleeve M",
+        "AliExpress（全球） Global: Women's Spring and Autumn Long Sleeve Pa",
+        "AliExpress（全球） Global: Elegant White Lace Print Slim-Fit Fishta"
+      ],
+      "products": [
+        {
+          "name": "折叠电动自行车20英寸轻量",
+          "targetMarket": "AU/BE/CA/EU/Global/JP+",
+          "hs": "8711",
+          "priceUS": "$599-899",
+          "certNeeded": [
+            "UL",
+            "CE",
+            "EN15194"
+          ],
+          "channel": "亚马逊+独立站",
+          "timeline": "春夏旺季"
+        },
+        {
+          "name": "EV便携充电器Type2 7kW",
+          "targetMarket": "AU/BE/CA/EU/Global/JP+",
+          "hs": "8504",
+          "priceUS": "$199-349",
+          "certNeeded": [
+            "CE",
+            "TUV",
+            "UL"
+          ],
+          "channel": "亚马逊+独立站",
+          "timeline": "全年"
+        },
+        {
+          "name": "E-Cargo电动货运自行车",
+          "targetMarket": "AU/BE/CA/EU/Global/JP+",
+          "hs": "8711",
+          "priceUS": "$2499-3999",
+          "certNeeded": [
+            "CE",
+            "EN15194"
+          ],
+          "channel": "本地经销商+B2B",
+          "timeline": "全年"
+        }
+      ]
+    },
+    {
+      "trend": "清洁家电 (2026-11-25)",
+      "score": 204.0,
+      "avgGrowth": 17.1,
+      "sources": "本土电商 + 社交(TikTok) + 社交(YouTube)",
+      "signalCount": 7,
+      "topSignals": [
+        "AliExpress（全球） Global: Cordless Handheld Vacuum Cleaner Suction",
+        "AliExpress（全球） Global: 7 in 1 H2O2 Beauty Skin Cleansing Hydrof",
         "Coupang（韩国） KR: AI视觉扫地机器人激光导航",
-        "Wildberries（俄罗斯） RU/BY/KZ/UZ: 国产空气净化器HEPA13",
-        "TikTok热词: #TikTokMadeMeBuyIt (17B views)",
-        "TikTok热词: #CleanTok (49B views)"
+        "Wildberries（俄罗斯） RU/BY/KZ/UZ: 国产空气净化器HEPA13"
       ],
       "products": [
         {
           "name": "洗地机湿干两用大吸力",
-          "targetMarket": "BY/KR/KZ/RU/UZ",
+          "targetMarket": "BY/Global/KR/KZ/RU/UZ",
           "hs": "8509",
           "priceUS": "$179-299",
           "certNeeded": [
@@ -3483,7 +3241,7 @@
         },
         {
           "name": "扫地机器人激光导航",
-          "targetMarket": "BY/KR/KZ/RU/UZ",
+          "targetMarket": "BY/Global/KR/KZ/RU/UZ",
           "hs": "8509",
           "priceUS": "$299-499",
           "certNeeded": [
@@ -3495,7 +3253,7 @@
         },
         {
           "name": "HEPA空气净化器(甲醛数显)",
-          "targetMarket": "BY/KR/KZ/RU/UZ",
+          "targetMarket": "BY/Global/KR/KZ/RU/UZ",
           "hs": "8421",
           "priceUS": "$129-249",
           "certNeeded": [
@@ -3509,69 +3267,16 @@
       ]
     },
     {
-      "trend": "出行/电动车 (2026-11-25)",
-      "score": 163.1,
-      "avgGrowth": 13.8,
-      "sources": "本土电商 + 社交(YouTube)",
-      "signalCount": 8,
-      "topSignals": [
-        "Yahoo! Shopping（日本） JP: 户外折叠桌椅Coleman套装",
-        "Lazada（东南亚2） TH/PH/MY: 电动滑板车折叠款40km续航",
-        "Bol.com（欧洲） NL/BE: 电动自行车配件LED灯+锁",
-        "Catch（澳洲） AU: 露营折叠椅+冷藏箱套装"
-      ],
-      "products": [
-        {
-          "name": "折叠电动自行车20英寸轻量",
-          "targetMarket": "AU/BE/CA/EU/JP/MX+",
-          "hs": "8711",
-          "priceUS": "$599-899",
-          "certNeeded": [
-            "UL",
-            "CE",
-            "EN15194"
-          ],
-          "channel": "亚马逊+独立站",
-          "timeline": "春夏旺季"
-        },
-        {
-          "name": "EV便携充电器Type2 7kW",
-          "targetMarket": "AU/BE/CA/EU/JP/MX+",
-          "hs": "8504",
-          "priceUS": "$199-349",
-          "certNeeded": [
-            "CE",
-            "TUV",
-            "UL"
-          ],
-          "channel": "亚马逊+独立站",
-          "timeline": "全年"
-        },
-        {
-          "name": "E-Cargo电动货运自行车",
-          "targetMarket": "AU/BE/CA/EU/JP/MX+",
-          "hs": "8711",
-          "priceUS": "$2499-3999",
-          "certNeeded": [
-            "CE",
-            "EN15194"
-          ],
-          "channel": "本地经销商+B2B",
-          "timeline": "全年"
-        }
-      ]
-    },
-    {
       "trend": "智能家居/Matter (2026-11-25)",
-      "score": 144.1,
-      "avgGrowth": -29.9,
+      "score": 193.5,
+      "avgGrowth": 19.5,
       "sources": "本土电商 + 社交(Instagram) + 社交(TikTok) + 社交(YouTube)",
       "signalCount": 5,
       "topSignals": [
         "Noon（中东） UAE/SA/EG: Matter协议智能面板+AI语音控制",
         "Bol.com（欧洲） NL/BE: Philips Hue智能灯泡10件套",
-        "TikTok热词: #SmartHome (32B views)",
-        "Instagram热词: Smart Home Decor (1214M posts)"
+        "TikTok热词: #SmartHome (15B views)",
+        "Instagram热词: Smart Home Decor (938M posts)"
       ],
       "products": [
         {
@@ -3615,20 +3320,20 @@
     },
     {
       "trend": "游戏电竞 (2026-11-25)",
-      "score": 143.8,
-      "avgGrowth": -9.0,
-      "sources": "BSR + 本土电商 + 社交(TikTok)",
+      "score": 145.8,
+      "avgGrowth": 16.0,
+      "sources": "本土电商 + 社交(TikTok)",
       "signalCount": 4,
       "topSignals": [
-        "BSR US #4: $49.00",
+        "AliExpress（全球） Global: AYN Thor Android Handheld Dual Screen Cl",
         "Naver Shopping（韩国） KR: 游戏笔记本RTX4060韩国版",
         "Noon（中东） UAE/SA/EG: 电竞椅Pro+腰靠套装",
-        "TikTok热词: #GameSetup (9B views)"
+        "TikTok热词: #GameSetup (29B views)"
       ],
       "products": [
         {
           "name": "电竞机械键盘热插拔RGB",
-          "targetMarket": "EG/KR/SA/UAE/US",
+          "targetMarket": "EG/Global/KR/SA/UAE",
           "hs": "8471",
           "priceUS": "$59-129",
           "certNeeded": [
@@ -3640,7 +3345,7 @@
         },
         {
           "name": "电竞椅人体工学Pro",
-          "targetMarket": "EG/KR/SA/UAE/US",
+          "targetMarket": "EG/Global/KR/SA/UAE",
           "hs": "9401",
           "priceUS": "$199-399",
           "certNeeded": [
@@ -3652,7 +3357,7 @@
         },
         {
           "name": "RGB灯条+桌面灯板套装",
-          "targetMarket": "EG/KR/SA/UAE/US",
+          "targetMarket": "EG/Global/KR/SA/UAE",
           "hs": "9405",
           "priceUS": "$29-69",
           "certNeeded": [
@@ -3672,9 +3377,9 @@
       "signalCount": 4,
       "topSignals": [
         "Jumia（非洲） NG/EG/KE/CI: 家用太阳能套件300W+电池",
-        "YouTube热词: Off-Grid Living (1B views)",
-        "YouTube热词: EV Review 2026 (14B views)",
-        "YouTube热词: Solar Panel DIY (13B views)"
+        "YouTube热词: Off-Grid Living (8B views)",
+        "YouTube热词: EV Review 2026 (1B views)",
+        "YouTube热词: Solar Panel DIY (8B views)"
       ],
       "products": [
         {
@@ -3733,6 +3438,72 @@
       "lang": "en"
     },
     {
+      "title": "The Daily View: Resilience has a price, and global trade is starting to pay it - Lloyd's List",
+      "summary": "The Daily View: Resilience has a price, and global trade is starting to pay it&nbsp;&nbsp;Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcDk3OVYtWjRVeDBvQlRaekRtank0SkVYbDdRQnJaSFp4MENtSXlqY29kR0ZkU1hXZ0F6LWhXMUtYWndjQTNIZGdCUG1pU2cxMnFkeno3aUhXRzZWTU45YngyTy01RDZVS0JjSGNRYVREbHVfTHR4dG5tSnc1OE9fTVByLU53b2JSd0xNYV9JdHp2RUoweXpVNkdHMGRIQmp3RjUwVkNqYUk0ZVhpUktlVjZDMA?oc=5",
+      "src": "Lloyd's List",
+      "src_full": "Lloyd's List Maritime",
+      "tag": "shipping",
+      "risk": "low",
+      "pub_time": "Wed, 25 Nov 2026 17:45:53 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the",
+      "summary": "European Commission Speech Brussels, 25 Nov 2026 Thank you. Thank you so much.\nAllow me to start with a short message of support, but also a message of encouragement, to all women and girls who have suffered, ...",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+      "src": "EU Trade",
+      "src_full": "European Commission - Trade",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Wed, 25 Nov 2026 15:42:36 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Trump announces new trade tariffs: Which countries are affected? - Al Jazeera",
+      "summary": "Trump announces new trade tariffs: Which countries are affected?&nbsp;&nbsp;Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEJUV292VEZ6TjdJalc2UkRBWGVDaUVVa1ZyMFZGbE5kakN2VTA2bnNuSUFsNVJSZE9jMTdnVDFEZExLbEhLcy1oTHRkbV9GYzdzV05vREFrNXM5RWRTS1lGdTZzMUhTQzRoQ2FqNW9oakZNT0l0R3RyTjZrMkZkeDlKVjFiaFB2a09wRWp4Q050eXNib1M1U3hLNndVQW12cE9KbFBtYWRyaGJj0gGyAUFVX3lxTE1zaEVXa2ZXOGhyOHJ1Yk1SSENISGhHZVpwekNrMGpkaENvVTNuT1lmN01ESWZSeUVCelJKbGlEV203eWRXLTdjRGU3Ny1vOG85OVBOSklDN1dPRWdpSHRrQ2JmWlNxR2FNYTF4V19mRjhPemsxcnJsZkJqU2haVkRoNzNkdFFRdkI5YzRRcVBVbV9VUzRmVFdPaThCQVNHTXdxaGFkVmJJLWNMOXRqZzN5UXc?oc=5",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 25 Nov 2026 15:00:52 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Donald Trump announces raft of new tariffs on major economies - Financial Times",
+      "summary": "Donald Trump announces raft of new tariffs on major economies&nbsp;&nbsp;Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZHc3TDUxWVRLbmRUa1hzMWJseUNEMUQzOUtfajgxMVFlM2NoWDNyRlZYWUVfZEgwbWctWm5FakVubjdZT25mcUtzU3JfcjVQcVFDUXFtWEdISDJuSFdUZGQ3VG1wODYtZzFJT0NpZV8xLUxoMFlLbThuN3VZUGhrNTJXek0?oc=5",
+      "src": "FT Trade",
+      "src_full": "Financial Times",
+      "tag": "trade",
+      "risk": "high",
+      "pub_time": "Wed, 25 Nov 2026 14:00:55 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Trump Tariffs on 14 Economies: Can Section 301 Survive WTO Law? - Diplomacy and Law",
+      "summary": "Trump Tariffs on 14 Economies: Can Section 301 Survive WTO Law?&nbsp;&nbsp;Diplomacy and Law",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfaXQxTjFmN1NxVG1Va3dybzJSYzV3TW9JYXNaSWxJcVRBV0RpNXlYbHlWakQ0WUxCN3g2cG83a1VFeHNvRm9Nak0ycnZVM1FUOVRZaXc0MEtOSlhRUEs0?oc=5",
+      "src": "USTR 301",
+      "src_full": "USTR Section 301 Investigation",
+      "tag": "policy",
+      "risk": "high",
+      "pub_time": "Wed, 25 Nov 2026 10:40:18 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "Almost 60% of primary energy used for electricity is lost to conversion and transmission",
+      "summary": "In 2025, the United States consumed 34 quadrillion British thermal units (quads) of primary energy to deliver 14 quads of electricity sales to end users, with nearly 60% lost. About 95% of the losses came from converting primary energy into electricity, mostly due to lost heat fr",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
+      "src": "EIA",
+      "src_full": "U.S. Energy Information Administration",
+      "tag": "energy",
+      "risk": "low",
+      "pub_time": "Wed, 25 Nov 2026  09:00:00 EST",
+      "lang": "en"
+    },
+    {
       "title": "Supply dependencies leave global trade exposed, and other trade news to know this month - World Economic Forum",
       "summary": "Supply dependencies leave global trade exposed, and other trade news to know this month&nbsp;&nbsp;World Economic Forum",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2t4SVJIbktEa3A5WDB2d0NEVU01c2w1NHNYR3dvT2VCMHRwNzdOMTJIdUp5eTVCOWNEWmJHdWhrQUhET2ZWYV9Ea0w5cVhUd2JaMFc2MHhPeXQ2Q3ZlbEduellkRmNVWjdtMHFMNWdEUXJWd2xyZXZPUkhJUWw5Q2dRV3V1elBwTkd6Sk9naUV3ZGNHV3VGRFBHNUFjOVZ5?oc=5",
@@ -3741,17 +3512,6 @@
       "tag": "trade",
       "risk": "low",
       "pub_time": "Wed, 18 Nov 2026 19:22:23 GMT",
-      "lang": "en"
-    },
-    {
-      "title": "Shipping’s resilience will not outlast erosion of global rules, ICS warns - Lloyd's List",
-      "summary": "Shipping’s resilience will not outlast erosion of global rules, ICS warns&nbsp;&nbsp;Lloyd's List",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ0pxc1RFS2xfNjlsM2NwVEFhOEJReHM5TnlteVNDbEJfVXd1X0MtbVdBR1hDQV9iNGM1X2VXMDlWTkVWLVNrWEZPYUNENDBIajFlSnluMF93aWNzazE2OE80aXptUURWc1h4ak0xVm03SEw4d0xKamRvTkVFZmNUdGNNeGc0QzNxTktIdHdHR2wwWFA1YUNaZS1QZUZSeHlQc2k3RVVaT2dsUGlq?oc=5",
-      "src": "Lloyd's List",
-      "src_full": "Lloyd's List Maritime",
-      "tag": "shipping",
-      "risk": "high",
-      "pub_time": "Wed, 18 Nov 2026 16:00:24 GMT",
       "lang": "en"
     },
     {
@@ -3766,23 +3526,23 @@
       "lang": "en"
     },
     {
-      "title": "Opportunity knocks for emerging market corporate debt - RankiaPro",
-      "summary": "Opportunity knocks for emerging market corporate debt&nbsp;&nbsp;RankiaPro",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRGxzY1ROekMtb3RWYVFoVTl6SHZhYjUtcl9fbms5SlltRUFvcHF6NnpPY2JJSTNVZEkzM2lRc3hWc19PZklMY0tEZUVWN0RoYTZVeVJTMkV3N1FBdy0wbGd4N0gwYm9kUVJtYkNWSVJ4ZDVieGdKdTV4M0taNWpaV3dhX2RLcE9jMGtIMGI5NGpjUQ?oc=5",
-      "src": "Emerging Markets",
-      "src_full": "Emerging Markets & Currency",
-      "tag": "economy",
-      "risk": "low",
-      "pub_time": "Wed, 11 Nov 2026 18:49:07 GMT",
-      "lang": "en"
-    },
-    {
       "title": "U.S. Trade Representative’s Section 301 Report Targets Forced Labor Enforcement And Imposes Tariffs On 60 Countries - Le",
       "summary": "U.S. Trade Representative’s Section 301 Report Targets Forced Labor Enforcement And Imposes Tariffs On 60 Countries&nbsp;&nbsp;Legal 500",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWDRIY0FDTFpLMWY5SGNuN1B3bjJOYXR0LWNyTFRJSDlOUkZYTmZJeTBJSmN3dkoyN2VZMDAxdkZQNzNlalNzY1ZvR0NpdklIZEhUM2Zyd29GdU9RZWhXQ0RCd2lJc2ZNS01TSXZFX3VNc2ZlbzlOcVhJLS1EQ1U0TWw4LWR3WmdfaVVIdTNLUHZFdTBsdks3Z2ZZbFA3V3J2WW5nOHgzV2ZGdEw2WXlQRk1ObXhsQXNTaERrcWR4MzNFOHRnNDhEM1FlVVhGTnVXcTdaallBU0sxaDIwZFBhV1E4Y1dKd29TWjNhbWsyQmlrTmZOQ3owbTBtVDdSVE1tbGh1RE5B?oc=5",
       "src": "USTR 301",
       "src_full": "USTR Section 301 Investigation",
       "tag": "policy",
+      "risk": "high",
+      "pub_time": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "OPEC’s Oil Production Nears Prewar Levels on Saudi Rebound - WSJ",
+      "summary": "OPEC’s Oil Production Nears Prewar Levels on Saudi Rebound&nbsp;&nbsp;WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkZ3Y3c3WE51TWt2RUVhZUdxbk5PM3FCdjNERW94S3NEckxuUVBidkxiRHdHUnl6RGxLZnIwZjh1UTlmak1tOW50MmZWemFEQlY5UUs3Z2pISzVodWhiRjFZSHN0T2xLTkVIV3A0Y0xUbnJOVy1ZRDJYWlNPbGJ6M1VHa2VLN2xMRDlJdkpESnZLZzFoWHc2WFg0eE43dzZsTGlEU1JVQjBkUQ?oc=5",
+      "src": "OPEC",
+      "src_full": "OPEC Secretariat",
+      "tag": "energy",
       "risk": "high",
       "pub_time": "Wed, 11 Nov 2026 08:00:00 GMT",
       "lang": "en"
@@ -3821,8 +3581,8 @@
       "lang": "en"
     },
     {
-      "title": "How Election Losses Will Alter the Politics of Trump’s Tariffs - Bloomberg.com",
-      "summary": "How Election Losses Will Alter the Politics of Trump’s Tariffs&nbsp;&nbsp;Bloomberg.com",
+      "title": "How Election Losses Will Alter the Politics of Trump’s Tariffs - Bloomberg",
+      "summary": "How Election Losses Will Alter the Politics of Trump’s Tariffs&nbsp;&nbsp;Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkR4Y281dTEzaXdYZjZVeGhIVlZLUDJMZVBCTWM3TWNWLUpLdE1lRkRTX3VmN3RPR1p6a2J6Yzc1MEJTN1hUY3BrUVBWS0gwSU5UUnpZS3ViTFNaM0MySTlWSGVSZHB0UHR0QWtYNnhmMFhMUUNVUEFad0k4Q0YzZmZTMDFmalFjUkgxby1KejBKY3lhQW9Ud3FhR3VaOUh2d3ppYmlDSQ?oc=5",
       "src": "Bloomberg",
       "src_full": "Bloomberg Economics",
@@ -3854,14 +3614,14 @@
       "lang": "en"
     },
     {
-      "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
-      "summary": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say&nbsp;&nbsp;Reuters",
+      "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat - Reuters",
+      "summary": "Trump set to add new sweeping tariffs, undeterred by midterms defeat&nbsp;&nbsp;Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
-      "src": "USTR 301",
-      "src_full": "USTR Section 301 Investigation",
-      "tag": "policy",
+      "src": "Reuters Trade",
+      "src_full": "Reuters - Business",
+      "tag": "trade",
       "risk": "high",
-      "pub_time": "Tue, 24 Nov 2026 18:48:05 GMT",
+      "pub_time": "Tue, 24 Nov 2026 16:19:00 GMT",
       "lang": "en"
     },
     {
@@ -3873,17 +3633,6 @@
       "tag": "politics",
       "risk": "high",
       "pub_time": "Tue, 24 Nov 2026 13:12:40 GMT",
-      "lang": "en"
-    },
-    {
-      "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
-      "summary": "European Commission Statement Strasbourg, 24 Nov 2026 Madame Chair, honourable Members.\nThank you for the opportunity to join you today to present the main elements of the European Semester Autumn Package, adopted ...",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2571",
-      "src": "EU Trade",
-      "src_full": "European Commission - Trade",
-      "tag": "policy",
-      "risk": "low",
-      "pub_time": "Tue, 24 Nov 2026 12:26:20 GMT",
       "lang": "en"
     },
     {
@@ -3942,17 +3691,6 @@
       "lang": "en"
     },
     {
-      "title": "The Daily View: Black Sea escalation is redrawing shipping’s risk map - Lloyd's List",
-      "summary": "The Daily View: Black Sea escalation is redrawing shipping’s risk map&nbsp;&nbsp;Lloyd's List",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ01rU25iMUFVa0RiR0pPSk44ZHEyNjZSejVRZmplN0VGREVOdDRONWJ5U3BubGhPZFRuZTdSRlp0cG5kdFlvdXBzczhOTFFwV2NZdlpkZ0RrVWtOUmIwVFBBVjJyOEwxUmx1V1NtbGwyU05WNFgwb0FQeTZYQXBBeDQtMkJ3LUZhN0xQUm41UVBMdmIxLTZ5UDlxODFBSjIweVlycXBhZw?oc=5",
-      "src": "Lloyd's List",
-      "src_full": "Lloyd's List Maritime",
-      "tag": "shipping",
-      "risk": "low",
-      "pub_time": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "lang": "en"
-    },
-    {
       "title": "OFAC Sanctions And Digital Assets: Regulation, Compliance, And Recent Developments - Legal 500",
       "summary": "OFAC Sanctions And Digital Assets: Regulation, Compliance, And Recent Developments&nbsp;&nbsp;Legal 500",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaGkzTU1MWlhoMnkxOUxYXzkyVU5OOGEtcWFKR0dmOHFUWFdUMGR1b25GcVJMWUhRNnVxbU02TGdiX1djbHRrYlFmNUtSanBoNHllaUdxUWxMTUlCME13Sk9MMzV1VWI2OGNXQmlYc0pOU0VuMDl0b3pFbzA3Y0lvS3N6ekRqVHFtd192LS1PVTQ2NS02R29lM3ZnRWM5NjVLdkgyRVlsU2xtelJnQmVOenlOYkkwa3N5N1dJeUFRMG5EeV9TMmxzMDdXcExSQmNTQ0QxZEUyYXU1eEhp?oc=5",
@@ -3972,6 +3710,17 @@
       "tag": "shipping",
       "risk": "low",
       "pub_time": "Tue, 03 Nov 2026 06:00:37 GMT",
+      "lang": "en"
+    },
+    {
+      "title": "ECB Leaves Rates Unchanged, Cites Energy Shock as Inflation Driver as December Hike Moves Into Focus - Morningstar",
+      "summary": "ECB Leaves Rates Unchanged, Cites Energy Shock as Inflation Driver as December Hike Moves Into Focus&nbsp;&nbsp;Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQkxKY1VlOXpyUzVMNXR5NS1vc1RkOVRZRjBZb2NHbHlSaVZtUU1JVFBZTy1hS0JLcTBHeTVJX1VzZldJRy1WSmJRZXRZeFAwZ3pacERBOVBXeTZLVDE1N1JXQTBBM1B2MmdMUHBXYVg3MXdCc0dEMjh1UUFFYW1mS19DN0h3NWlzRVA3MXJWMUdMb19HQzdNQmkzM2ZwWXJWY19CMTVFV0NlUnFSREZNX2VBSjBlcDEtVVJUS2lTMlB0Ykk1VGt2UWpSdUItWUZ5RTNLVg?oc=5",
+      "src": "Fed/ECB Rates",
+      "src_full": "Central Bank Interest Rate Decisions",
+      "tag": "economy",
+      "risk": "low",
+      "pub_time": "Thu, 29 Oct 2026 07:00:00 GMT",
       "lang": "en"
     },
     {
@@ -4006,58 +3755,14 @@
       "risk": "high",
       "pub_time": "Thu, 12 Nov 2026 08:00:00 GMT",
       "lang": "en"
-    },
-    {
-      "title": "Nigeria Hits OPEC Oil Production Quota for Sixth Straight Month - Crude Oil Prices Today | OilPrice.com",
-      "summary": "Nigeria Hits OPEC Oil Production Quota for Sixth Straight Month&nbsp;&nbsp;Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVzdhVWV6NmhjUkZPd0U1MlRlc3o5emwxaEtNbHkwOHlYZWx2QV9PV0xEbUpkY1ZjN3hfSms5MmpHZDNoeFVicTZYczE5ZVZWdnJLdEZmU2dIVjFNMDF0WHNsUHdYOXJ1THBTMnlPRFhHbnFIY3ZXWEJQUG92dGdpaFVxNmNTSEFad0tfNmVZTUpyZ3VnZUI4WEJycTc1dVhXS2YxNldISG5IU0lQNlE5cEsybTZ2VERhWmRZ0gHAAUFVX3lxTE1KSkMwc0ZTU0dKTWVyaTE3UDJJMGNqMkxlb01uQVZ4bXFsNnhwYjNkSi1sVDhHcVJqWWs4dGZEWmVkbXBoZmotd09yR2ZMaENEclhfQTRDZWgwZWJiQTQxbVhnVlJnRjV4SG1BR3dzMlpZVENaaWJCc3JRQ05TX2VxVi1qNzh2Y2hyWHhwSFZPcnpPRTUzZGhXWEdwSTRWTmJGNm9XS2FSZ0I0V0p4MHUyY1hqLUxoNmtfZGl4dUtKRw?oc=5",
-      "src": "OPEC",
-      "src_full": "OPEC Secretariat",
-      "tag": "energy",
-      "risk": "low",
-      "pub_time": "Thu, 12 Nov 2026 08:00:00 GMT",
-      "lang": "en"
-    },
-    {
-      "title": "Nation Building through LNG and NGLs: Powering Canada’s Economic Growth, Trade and Global Energy Security - S&P Global",
-      "summary": "Nation Building through LNG and NGLs: Powering Canada’s Economic Growth, Trade and Global Energy Security&nbsp;&nbsp;S&P Global",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNenE3OW1QZTdwODlRajJvUlVMdldid1dHQUZJamlvRlZFOG9hME1TRGhNUkR5eVJUYldWUmlEbTRYUHotNW1lNHViWGxSeW1fMGY4ZjQ3ZW00MDZ0RnhIbHVpbDJycEpnUzVmYXJiRTlRZ3EwYkk1SGE1elNkcmN5VVFPQWFyS1YtdGhZSUxSNTljU0xSSVpXeHRucnJveVZzR0xMVWhqZi01VXNxQmdFM1pmOTg4WEhKa0E4TktuY0xwMExKbnRnZi0wREZFTmxLMm5vQkFTNEpERVBkUnIxVEZveWh6LXVHT0RUbV9HVnhobEpqREdB?oc=5",
-      "src": "S&P Energy",
-      "src_full": "S&P Global Commodity Insights",
-      "tag": "energy",
-      "risk": "low",
-      "pub_time": "Thu, 12 Nov 2026 08:00:00 GMT",
-      "lang": "en"
-    },
-    {
-      "title": "Morningstar holds 2027 Brent forecast at $71/bbl as Persian Gulf supply recovers - Oil & Gas Journal",
-      "summary": "Morningstar holds 2027 Brent forecast at $71/bbl as Persian Gulf supply recovers&nbsp;&nbsp;Oil & Gas Journal",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdUJzUVA2cjBmemR5eGU0YllmWVR5SkZrdEpual9ZQnZyS1lGYTNHNkFvSk02Ml9OQ1F5cHFfSWFIVFdELXBBX1ROMWpUQmZYcmJyem1XTnQ0OFlDeWVlSFoyUzJHOUNCTGRPYU5PeEtBUE82dzFheTViSFFMTHhFNVNPSC16TXJlTU9DOHhEM1JVUVF6UVlQR0hkQ3ZhSXVra3VOTmdGaVlRZUlXa0NwMFFFZVhsaTZUWW14bVoxODFYejdycFEwS185cmtjVk9UdTJ0RmVrcUQ3d0Fjek4zdGZR?oc=5",
-      "src": "OilPrice",
-      "src_full": "OilPrice.com Energy News",
-      "tag": "energy",
-      "risk": "low",
-      "pub_time": "Thu, 12 Nov 2026 08:00:00 GMT",
-      "lang": "en"
-    },
-    {
-      "title": "Iran downplays new U.S. task force aimed at disrupting ground transport routes - CBS News",
-      "summary": "Iran downplays new U.S. task force aimed at disrupting ground transport routes&nbsp;&nbsp;CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5",
-      "src": "Middle East",
-      "src_full": "Middle East Conflict & Trade",
-      "tag": "trade",
-      "risk": "low",
-      "pub_time": "Sun, 08 Nov 2026 08:00:00 GMT",
-      "lang": "en"
     }
   ],
   "risk_indicators": {
     "scfi_index": 1747,
     "scfi_change": -4.0,
     "oil_price": 91.15,
-    "gold_price": 3618.15,
-    "dxy": 101.87,
+    "gold_price": 3525.1,
+    "dxy": 101.95,
     "us_10y": 3.96,
     "vix": 15.65,
     "risk_level": "medium"
@@ -4065,24 +3770,24 @@
   "freight_pricing": {
     "container": [
       {
-        "title": "Xeneta Shipping Index (XSI-C) | Global Container Price Index - Xeneta Shipping Index (XSI-C)",
-        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9sRTVBLXdyckhNX3ZyVGJYLXJSa3V0YzVEUTJ0XzRGdnN6aTZwOFZ6NlhvandaMkFkWDdiQ2p5aw?oc=5"
-      },
-      {
         "title": "News Carriers' November rate hikes 'doomed' say analysts, as demand goes flat - The Loadstar",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcXZBa2VZMmNIZHFxSGFvLTU2X09BZ0ZGbzFUVS1xaGtQYkZSa3NVWHBWaE1Id3RaWVpVLUtTeDhFWUdBb3NfLTM0RjRHd3pOd0N6eER1a2VHYllSeFJGU3ZneWhXb2JUb3hRTGdvMUtrSHhvQXVNZnBBb002RU9xQ3VKWmxtcEZaZGE1cW5UalNkX2FGbzRRaw?oc=5"
       },
       {
-        "title": "New ‘conundrum’: Asia-US, Europe ocean rates diverge - FreightWaves",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFhNQTgxRktCSTNRWG5ZTi1yNUUtcEN5anVTaHN3UXJ1NzgycUo3elV1Q1lBRkN5Nmt2VVhmbTlxYk5JQl92bzkyTmtyWEstR0wzUVZ6VUdNRTA1MzI4T2t3aFU3REtna1JITDhzQVhNaHJuNGhkWFRicDMxVW9FMHV0M2FkUDduWkE?oc=5"
+        "title": "Asia - US air rates already nearing last year’s high on peak season volumes - November 3, 2026 Update - Freightos",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR2RrZHNzV2sya2Uxd0lmTVptdWxKSlBTczNoN1VwWHExakgwNENZM1Z1cFlpRFBQQTIzWTZVbnhxOXQ1bXN1dTU2eEw3Wm5wdFI3aldrOUVzMXUzeTNVTTdnU1plQkMxRU13dDNQZl8yTGZBWm03Q2M4c0JZSUROS3hSWmtOTndfTHpVSzc2cG9LVUp6R1pBWkx3N1Y3dDBJcTBHd19SLWJyZDZQX3ZwZEFxT3ZYUGhyQkoyX1lGdDdmcGNLb3pvQWh5Vk1LSDZ3eWh3Wms3SQ?oc=5"
+      },
+      {
+        "title": "Asia–Europe freight rates rebound as carriers tighten capacity - Metro Global",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc1M2MGRTTHZtSWdoZF9IS1hOOXo1TnNCeTlsUWk1dDZZWGozSkxSQVg5R3BLYlZwelJaWGR3U21LZG41NjJZbEVZMTcxVnJiQU45ZXRDZU5SZkVzM1JLa2FtNW03U2RIMWQwTWNXdVVDdFVwREI5bHFQdUVsZ01PWkc1SDJzN3lOdnZfLVpDTGFOM25xZkswejNYN29WaGtM?oc=5"
       },
       {
         "title": "Early Lunar New Year set to drive up December ocean demand on Asia-Europe - Journal of Commerce",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYXpPa0VrMVo3azBrRnpieFloQnFsQWZrRUFNdnFjY3dzNk1hNHFMMkJXMU5YVWtERFZTSHBVeXZYaUgyMHZoN0swaWgweXJUd3Vqc1I5S3hFSGhreDl6Zm40QlpoLUlpUWVJcmEzR2FaR1RYV3FzcXU4cWpiUU9mS1I5YU9VVjJCU1ozMmwzWVlpc1hoSTRqdF9QcnR4WWc2R1BzcVhkemxHbjFKS3c?oc=5"
       },
       {
-        "title": "Asia–Europe freight rates rebound as carriers tighten capacity - Metro Global",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc1M2MGRTTHZtSWdoZF9IS1hOOXo1TnNCeTlsUWk1dDZZWGozSkxSQVg5R3BLYlZwelJaWGR3U21LZG41NjJZbEVZMTcxVnJiQU45ZXRDZU5SZkVzM1JLa2FtNW03U2RIMWQwTWNXdVVDdFVwREI5bHFQdUVsZ01PWkc1SDJzN3lOdnZfLVpDTGFOM25xZkswejNYN29WaGtM?oc=5"
+        "title": "Asia–US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2p4MFduR0pmX25iWjI2bFFnYXRBZHZOYXNOaGxZYWs5RXFveWFFd1pCUlhtY0hINkRBS0pQQ0VsMWxlNFBULUZ5MXdhN3p6NWNqUl8taWVqMFlGeWVHclNIN1o2Sno4Z0I4RkdHZnRkckFXNGF3bVF5czQ5WUdqa19TQURzUkpTRG1sem1CRkpMLWxyekxXU082VFF0T180a1p5YUZ0QnU?oc=5"
       }
     ],
     "bulk": [
@@ -4121,7 +3826,7 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOGpYS0Z0blNkRmFjYWVMSEdGcWxFNnE0blQ5elU0a1d6bWlxTDkzcHVpVnNtU1BxTXlvbjVaOXV5MWNTQmJ4YkdWRVdKVEpwRGhqQi1lYzluUWwya281STJBRTAtYkEwMlFEMFNhZE8tMGtyelRmTFZrdU1SVXdtZUxVX0N4bzRNc0lncE5UdUpOaW1rRklfTXZyMTBmVE4yejRZbl9ubDdyZW5XN0FMZk9BSFdSX2tj0gG-AUFVX3lxTE0zRE0waGM3eFlRY21hUWc4c2p0RjZLYklmeFNnZjB3dG1WU0hjVXg1YzVSZUhlaHc0b3EzdkNieVN3MUg1YVZsOURtM3BRY1F2T1hJVFNCU1J4TktHN0VLeWptMm1zRnRETUpVOUhLN2ZTSE8wTkNsT1VYUXpEMHFJUHpUaXgtN21DSkR4R3h3eUVVckl6Tkg3anZuM0NuNUhhUHFwOVBjYk84eHhZdjNqc09BcG8tMkxEMmN4cGc?oc=5"
       },
       {
-        "title": "China vs US Suppliers: Overcoming Shipping Times and Fulfillment Challenges in 2026 - Alibaba",
+        "title": "China vs US Suppliers: Overcoming Shipping Times and Fulfillment Challenges in 2026 - Alibaba.com",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT1dwamxHVHBYMXNtR1V5RFhfWVo0bmhuNlFJREJVYTNMR0RmaFR5VF9pWWhtUHVnRDBZb2VXUDVrRkJ1VHdtX1pwVmVYaWFlWHp0Z1p3Y3dDamVfRDktZU5CbndQNVM5VUtNSXB4WEZ0ZEJ2amtDWGI3andzWVJBck9SeXJPZWFTZUV3N0VBWkNEYm9UcUpVZWRydmhVVmpUeEtadEFnME9BMTFqUXdUMmd4YVRFM2xmcnJOR1BZX0pzWjkyUm1ZT0k5NnQ5dw?oc=5"
       },
       {
@@ -4130,6 +3835,10 @@
       }
     ],
     "air": [
+      {
+        "title": "Asia - US air rates already nearing last year’s high on peak season volumes - November 3, 2026 Update - Freightos",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR2RrZHNzV2sya2Uxd0lmTVptdWxKSlBTczNoN1VwWHExakgwNENZM1Z1cFlpRFBQQTIzWTZVbnhxOXQ1bXN1dTU2eEw3Wm5wdFI3aldrOUVzMXUzeTNVTTdnU1plQkMxRU13dDNQZl8yTGZBWm03Q2M4c0JZSUROS3hSWmtOTndfTHpVSzc2cG9LVUp6R1pBWkx3N1Y3dDBJcTBHd19SLWJyZDZQX3ZwZEFxT3ZYUGhyQkoyX1lGdDdmcGNLb3pvQWh5Vk1LSDZ3eWh3Wms3SQ?oc=5"
+      },
       {
         "title": "Weekly Air Cargo Trends – October 26 to November 1, 2026 - American Journal of Transportation",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1NTWVJLQlZqNnpxY2I5MzJVZ2ZBY0Q3eFpxd3lrMnQzNzVxQUU2eV9PaVNiVWVSRXB5QUNscUQwdnR1UlhCeWY1bldodTBnUFdSeWdiSndvbmhQNENUd3V2eDE2cnNiWUhMVUpzeC15YmpJaGxiMmt1OGV1NGZBdmY2MVFBQQ?oc=5"
@@ -4145,10 +3854,6 @@
       {
         "title": "Air cargo: demand is soaring, and so is kerosene - Upply",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWdOWDV2UF8wcTlpLXF4T2pzN2o1QXNuektyNEJTV0dIMG13Q25lcnJKdm03c0h0d2VFZWw3V0hPLTdZaFF1RS1jMkZWLVNYazRoMGRkMEVUNlJJU0t6OXRnYVVFaWt5RWQzN09WSGFQLVVMNVNneDY1Szk4N05CcU5ad245MEduc3Br0gGbAUFVX3lxTE8wd2hzZ195RlNZSW9wek9vZkxoMmpjRGl0ek5wRHFQaXBJaGlxMzFiVFVfTDFJU3ctRWlZendZOE8teUxDZC04UGVlemEwNmdJSVFmcGYyUzUzaGIwOHpyMUFTb1BOeE9WdkhoWjlJbWdxUlN1djF2azRiSElvazI2dXBuYlNLQ0pVdngtR0xzLWNZM1pQRmJIaE9N?oc=5"
-      },
-      {
-        "title": "US air cargo recovering from outage; new US-CN tensions ahead of talks - November 17, 2026 Update - Freightos",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ2lKRllqM1AtRVRIY3dzS2w2Q3lWZkVtSVBrWHBvRnBZRVhiTTA0UjdYSzNEaHRFbXB5SzBUUTAxMkJuTnJoWWlEYkVQVWVLM2NONE10V3QzSlZFV3BvZDdDN0FxV1FOenIxcHNKTmFsbUx6VE5TMWtVY1EwaUg4VEMweVoyN0hieG1DX0p6UGpyZE4xLXVRakFzdkdRa1doMVFHdjkxRnJrVktpUld2SUp3THpSdWc2ZFdpZ3c3VGVqX2ZJc0lfaEN4dkUycjBtUWlqZw?oc=5"
       }
     ],
     "rates": {
@@ -4205,7 +3910,7 @@
       "headlines": [
         "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz ",
         "Hormuz oil traffic is down 40 percent: Are Iran’s tanker attacks working? - Al Jazeera",
-        "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking "
+        "Iran Shipping Update – November 23, 2026 - United Against Nuclear Iran | UANI"
       ],
       "latest_date": "Fri, 30 Oct 2026 07:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?oc=5",
@@ -4237,8 +3942,8 @@
       "name": "巴拿马运河",
       "headlines": [
         "Panama Canal Raises Daily Transit Capacity as Water Conditions Improve - gCaptain",
-        "Panama Canal to cap ship transits due to El Nino drought - DW.com",
-        "Navigating climate risk - Financial Management magazine"
+        "Chile's Strait Of Magellan Sees 70% Traffic Spike As Panama Canal Crisis Grows - Latin Times",
+        "Panama Canal increases daily capacity to 34 ships; raises draft restrictions to 50 feet - ICIS"
       ],
       "latest_date": "Wed, 11 Nov 2026 08:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjBHX3UzcHM2Wm1pUVFDZXRFWFNocFllSzZnbGJ5OGxPV2FiTzNnRFEyUnV3MmdtZGFQSGtlRXdfa1gzcTZIbGg1U1A4RWp0cXhwN2ROb0x1emNTb3VYa003b2FFbmFEVUsyX1pLWHB3NWpDbC0xVTVvYlV4R2Z0RGVURXVZdnY1UjhOYnlYbXk5REdnUFNN?oc=5",
@@ -4247,19 +3952,19 @@
     "south_china_sea": {
       "name": "南海争议区",
       "headlines": [
-        "China, ASEAN countries struggle over South China Sea code of conduct - DW.com",
         "Tapping Out or Tapping In? South China Sea Oil and Gas in 2026 - Asia Maritime Transparency Initiati",
-        "ASEAN, China fall short of agreeing on South China Sea code - Al Jazeera"
+        "ASEAN, China fall short of agreeing on South China Sea code - Al Jazeera",
+        "One of the world's most contested seas is proving too much for Asia's leaders to resolve - CNBC"
       ],
-      "latest_date": "Sun, 22 Nov 2026 23:19:54 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkVyX0p0ejFoY0YtX3lqQ0IxMVdSTnFTTFAzQTFjZnE4Y3FnSFVwTVQ3WkRyUGV5V25rTHBOLTNuZWdOSFdvSlhpbzN5dlZ1Qm9DMkRFMm1OVmY1c0RsdlYwUGRiNFhwUnctZGhuTWhENVhEZk1mRTlEd2VfSzJ2MEdLbmFVNGVqNG1XVEE1bWJGWUlqNXRiRGRwSmltOHcwc2fSAaIBQVVfeXFMUGVWdmZKRjV4eUd5a2pVUFBXZUEwZ3hmU29vVndTbnU3VUtNUzNXMEpJT0tidWxXdHRaQ1BqcGlmU29oRTEzYmxpNEtTTjhpVVVBdi1XbVdrRjFLRlNiQWRtVHpzLWtLSmpwTWs3OTlJYW1wZURjWXo1c3ZIeFBqM0hyaDJBQ0ZRdlp3VzRKM2I3QnVKSFhuWV84dE9qT0NaMWpR?oc=5",
+      "latest_date": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0lqQ3dVOUh1WllJXzI3Z1pQVGtkdjN3T0x1a25vVFVDWUJIUkxtMjNGZHVyRC1FRXNFV0l6OUhta1hZN0k5UDAybFVwQzFJMDJ6QWtZS0t2Z1ZpcGlNeEZhUjRXTzdVRUJGZVgxMnc1TTBQTm1EVlV3UTVBajZndjhfY2I2UlVaLVd4NQ?oc=5",
       "updated": "2026-11-25"
     },
     "ukraine_blacksea": {
       "name": "乌克兰-黑海",
       "headlines": [
         "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply - Al Jazeera",
-        "Russia turns to Arctic WW2 route to export grain - Reuters",
+        "Russia turns to giant plastic bags to store unexported grain as Black Sea trade stalls - Reuters",
         "Reaping what they sow: The “grain war” between Russia and Ukraine is once again threatening global f"
       ],
       "latest_date": "Tue, 03 Nov 2026 08:00:00 GMT",
@@ -4270,8 +3975,8 @@
       "name": "美国关税壁垒",
       "headlines": [
         "U.S. Trade Representative’s Section 301 Report Targets Forced Labor Enforcement And Imposes Tariffs ",
-        "Can the courts end Trump's illegal tariffs? - Peterson Institute for International Economics",
-        "Section 301 Investigations Up as Congress Eyes Trade Authority - Legis1"
+        "Section 301 Investigations Up as Congress Eyes Trade Authority - Legis1",
+        "U.S. proposes new tariffs on 14 trading partners, including China and the EU - CNBC"
       ],
       "latest_date": "Wed, 11 Nov 2026 08:00:00 GMT",
       "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWDRIY0FDTFpLMWY5SGNuN1B3bjJOYXR0LWNyTFRJSDlOUkZYTmZJeTBJSmN3dkoyN2VZMDAxdkZQNzNlalNzY1ZvR0NpdklIZEhUM2Zyd29GdU9RZWhXQ0RCd2lJc2ZNS01TSXZFX3VNc2ZlbzlOcVhJLS1EQ1U0TWw4LWR3WmdfaVVIdTNLUHZFdTBsdks3Z2ZZbFA3V3J2WW5nOHgzV2ZGdEw2WXlQRk1ObXhsQXNTaERrcWR4MzNFOHRnNDhEM1FlVVhGTnVXcTdaallBU0sxaDIwZFBhV1E4Y1dKd29TWjNhbWsyQmlrTmZOQ3owbTBtVDdSVE1tbGh1RE5B?oc=5",
@@ -4287,12 +3992,12 @@
     "africa_debt": {
       "name": "非洲债务与基建",
       "headlines": [
-        "How Beijing's Africa ambitions, financed by China's mega banks, triggered a crisis in Zambia - Inter",
+        "Ambitions financed by China’s megabanks triggered Zambia crisis - Asia Times",
         "China’s Banking Expansion in Africa: Infrastructure, Partnerships and Adoption Challenges - Modern D",
         "How Chinese 'toxic loans' fueled Zambia's debt spiral - Le Monde.fr"
       ],
-      "latest_date": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVnNLSFBSWUJlUm5WamdENUhmTS11Zm9VTHo5eVU4SnpUck5VMWJTdUZYYkdkd2J1OS1DM3liQy1PQ0FVdUlhVGgwQnVGMTNJV0NieUFJRW1uTFdXOWc0MFRQQnNEdzdDb2ktMDAzc0hIMjF5T0NCSUppZUw4VDI2bi1yLUNsMy1kWmdkaThCM0owS3J6UGhiVTAwS05QQnAzQUwzUkV0dVN0UUl3YWQ0MGxDUk1BSXBKR1F5dzNzUWtUd0FicFhXejZweUwwdElRREtHSUN3?oc=5",
+      "latest_date": "Sat, 31 Oct 2026 07:00:00 GMT",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFI1Y0RBS2R3QjhPbEhVbTRDaktBampOdF9VU1RJamRBdmV3NEl3cmc3ZERMQnZTQjFxcnhad2VIN0lpdjRPRnJOZVpQWHhBWmo3UDBhSERidzJiVGYzMFJZcUo4RGJDLXQ3dTNuREY5dm1QR0VsM1ZmVFdHcHR5RDlFX1JzV2QtbkNHdDR4QjZ0Rm05bmVjQXZ3?oc=5",
       "updated": "2026-11-25"
     }
   }

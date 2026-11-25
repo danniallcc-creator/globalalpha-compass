@@ -35,9 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 43,
+      "interest_score": 63,
       "trend_direction": "down",
-      "source": "deterministic_fallback",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-11-25"
     }
   },
@@ -54,21 +55,19 @@
   "last_updated": "2026-11-25",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 2,
+    "article_count": 1,
     "sentiment": {
       "overall": "neutral",
       "positive_pct": 0.0,
       "negative_pct": 0.0,
       "neutral_pct": 100.0,
-      "articles_analyzed": 2
+      "articles_analyzed": 1
     },
     "top_headlines": [
-      "Tashkent hosts first Central Asia hardware industry expo - UzDaily",
-      "Top 10 Best B2B E-commerce Platforms In India In 2027 - Inventiva"
+      "Tashkent hosts first Central Asia hardware industry expo - UzDaily"
     ],
     "source_urls": [
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZzdieGhRNVdCTXF6cUtBQjFydmRReFY0M0gtRWl6eUcxNW1iZzQxZ2hTOXpxYTNSc2htTGV5RjgxMTZzSThaV01ENVdzRmZXVzVGdUN1S19YdVlmd1RLX0wzTXBLOTQ1SkRKaGVBS0xQakt4bWhaV1UwTmNibEIxZ3pudWQ4T2d2Y0J3?oc=5",
-      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWm1vRmdDZjZFZFdYclJyMEdXcVVWQmV2VHdpSXhSekNMWmtUNEcxMUdFV0h0MFYydVBVSk9hMkFPS0pPRXFWVFFuVDdpZ2RabS0wZlNXRlU3UmZGbWxzUDRBY2RhSW1WbXV0c2oyVzg1bzEyWTd2N1FVQWhGUnc0a05OVlg0b0IyOExwZHhlR3FzNlE?oc=5"
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZzdieGhRNVdCTXF6cUtBQjFydmRReFY0M0gtRWl6eUcxNW1iZzQxZ2hTOXpxYTNSc2htTGV5RjgxMTZzSThaV01ENVdzRmZXVzVGdUN1S19YdVlmd1RLX0wzTXBLOTQ1SkRKaGVBS0xQakt4bWhaV1UwTmNibEIxZ3pudWQ4T2d2Y0J3?oc=5"
     ],
     "fetched_at": "2026-11-25"
   },
@@ -92,54 +91,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "tristan da silva",
+            "keyword": "jojo romero",
+            "volume": "500+",
+            "growth": 88.3
+          },
+          {
+            "keyword": "bruno fernandes",
             "volume": "200+",
-            "growth": 96.1
+            "growth": 38.7
           },
           {
-            "keyword": "golden knights vs oilers",
-            "volume": "2000+",
-            "growth": 15.7
-          },
-          {
-            "keyword": "ben franklin",
-            "volume": "1000+",
-            "growth": 19.1
-          },
-          {
-            "keyword": "nba starting lineups",
-            "volume": "1000+",
-            "growth": 81.9
-          },
-          {
-            "keyword": "joe vinson son",
+            "keyword": "mindhunter",
             "volume": "200+",
-            "growth": 48.1
+            "growth": 91.8
           },
           {
-            "keyword": "celtics vs wizards",
+            "keyword": "heat vs 76ers",
             "volume": "10000+",
-            "growth": 20.5
+            "growth": 56.2
           },
           {
-            "keyword": "jacksonville vs indiana",
-            "volume": "5000+",
-            "growth": -19.6
+            "keyword": "molly miller",
+            "volume": "500+",
+            "growth": 79.9
           },
           {
-            "keyword": "vanderbilt vs ohio state",
+            "keyword": "start 'em, sit 'em",
             "volume": "2000+",
-            "growth": 26.2
+            "growth": 84.5
           },
           {
-            "keyword": "umbc vs iowa",
-            "volume": "2000+",
-            "growth": 127.4
+            "keyword": "south dakota state basketball",
+            "volume": "200+",
+            "growth": 48.0
           },
           {
-            "keyword": "milwaukee vs florida",
+            "keyword": "trump accounts",
             "volume": "1000+",
-            "growth": -10.1
+            "growth": -12.1
+          },
+          {
+            "keyword": "illia zabarnyi",
+            "volume": "200+",
+            "growth": 46.3
+          },
+          {
+            "keyword": "is giannis playing today",
+            "volume": "200+",
+            "growth": 9.2
           }
         ],
         "business_opportunity": "YouTube平台\"Hand Tools\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -195,12 +194,12 @@
           },
           {
             "keyword": "#DIYProjects",
-            "volume": "17B views",
+            "volume": "26B views",
             "growth": 63.9
           },
           {
             "keyword": "#WorkshopSetup",
-            "volume": "53B views",
+            "volume": "14B views",
             "growth": 120.4
           }
         ],
@@ -211,18 +210,6 @@
   },
   "policy_updates": {
     "articles": [
-      {
-        "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5\" target=\"_blank\">US-China Relations in the Trump 2.0",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
-        "published": "Fri, 20 Nov 2026",
-        "source": "China Briefing"
-      },
       {
         "title": "EU Caps Chinese Hybrid Imports at 350,000 From Dec. 1 - shattered.io",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQY3lMUGNrRFRGMmxJd3JyX2FzcVhKNzk1VWk0TGxBYzdCbl8tVkYySVBSakhoV09WWDRPM0dsaTc2N190MGF2eE80QllZOHlxSkxyejc2T1dnbjdDMGxWNmptMkNpWGZ2QWVFQU9kbWhmcmp4UVVwclNxTlg3NEZmVg?oc=5\" target=\"_blank\">EU Caps Chinese Hybrid Imports at 350,000 From Dec. 1",
@@ -246,9 +233,40 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeFdhWXRlbGwtTS1LSFRTTGR5T3NUbUhkektlTjFrUzZrdVJtZXlESUlTZFh5VU4zbHA2SzRLeGNUNG1yYk1Rd3dBeTMtSVMzbUstODJXVDlWM1dUTXllT2Z0WmZCdHZmODRjcHJoLXZrMzNqUUtQYmx4d3hFWnhnaGJHdWpObFk2UDM3REdLa0plYmM4UFlSWnEzRG9peXVMRGZ0Sy0xdUNjVDZ4?oc=5",
         "published": "Sat, 21 Nov 2026",
         "source": "FreightWaves"
+      },
+      {
+        "title": "Insulated Needle Nose Pliers Market To 2035: Growth Driven by Electrical Safety Compliance and DIY Electrification - New",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRFh6NkdFYVFueEdaMjdtMmRMT19lU1ZfTDVTV2dIeFdSVG02cmtCTXp3c0xhUEpCMzlBT2lmZ050NHMtbmlncnJQczg4b0lMd25ZcTRNUkVmd04wMWt1VmRLZmtFSjVyRU5TMjlaUUNMMTZQY3hkalotQ2J0V3Qyc2x0UC0za2xXdFdrUi1raDIxMzhmRy1WZFF2aTZIUTZncTEyYkcwV0xrTmdaV3JSTGZiXzBVM0xUbU",
+        "country": "GB",
+        "policy_type": "compliance",
+        "impact": "neutral",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRFh6NkdFYVFueEdaMjdtMmRMT19lU1ZfTDVTV2dIeFdSVG02cmtCTXp3c0xhUEpCMzlBT2lmZ050NHMtbmlncnJQczg4b0lMd25ZcTRNUkVmd04wMWt1VmRLZmtFSjVyRU5TMjlaUUNMMTZQY3hkalotQ2J0V3Qyc2x0UC0za2xXdFdrUi1raDIxMzhmRy1WZFF2aTZIUTZncTEyYkcwV0xrTmdaV3JSTGZiXzBVM0xUbUdKRWNQWDlkSWFsTzBLalYtcEk3NFZ5emRJSlliNEMtSHRXdVRrOW5vcVBDZHdlZDJFeTA0MzE?oc=5",
+        "published": "Mon, 23 Nov 2026",
+        "source": "IndexBox"
+      },
+      {
+        "title": "EU confirms quota plan for hybrid imports from China, UK, U.S., Japan, Turkey, other exporters - Automotive News",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUNKd0FBT3FLUERabVVnMDZrVGcwQUpnQXZiVmVSTDdwTUg1R3RqaERkRWNUdmtkZlJoV3dSMlZTTE9tTVFTLV9uZHp5S21JUnU4VU1JVE05UU5HOVRGQU5yQTAyTWhSWGFpWmItT3ZiR1BMT1JLVGlvUGgyOGtCQ1VQNmluclItSzhHc3VqTQ?oc=5\" target=\"_blank\">EU confirms quota plan for hybrid",
+        "country": "EU",
+        "policy_type": "compliance",
+        "impact": "negative",
+        "impact_score": 0.2,
+        "category_relevance": "indirect",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcUNKd0FBT3FLUERabVVnMDZrVGcwQUpnQXZiVmVSTDdwTUg1R3RqaERkRWNUdmtkZlJoV3dSMlZTTE9tTVFTLV9uZHp5S21JUnU4VU1JVE05UU5HOVRGQU5yQTAyTWhSWGFpWmItT3ZiR1BMT1JLVGlvUGgyOGtCQ1VQNmluclItSzhHc3VqTQ?oc=5",
+        "published": "Tue, 24 Nov 2026",
+        "source": "Automotive News"
       }
     ],
     "country_summary": {
+      "EU": {
+        "trend": "tightening",
+        "key_policies": [
+          "compliance"
+        ],
+        "impact": "negative"
+      },
       "US": {
         "trend": "neutral",
         "key_policies": [
@@ -256,7 +274,7 @@
         ],
         "impact": "neutral"
       },
-      "EU": {
+      "GB": {
         "trend": "neutral",
         "key_policies": [
           "compliance"

@@ -716,31 +716,26 @@
   "2025_HS29": {
     "data": {
       "china_export": {
-        "total_usd": 131727150513.0,
+        "total_usd": 134018030794.0,
         "total_kg": 0,
         "yoy_growth": null,
-        "period": "2024 (proxy)",
+        "period": "2025",
         "source": "UN Comtrade",
-        "data_quality": "estimated"
+        "data_quality": "complete"
       },
       "imports_from_china": {
         "GB": {
           "value_usd": 1573368074.964,
           "yoy": null,
-          "share": 16.7
+          "share": 37.6
         },
-        "BR": {
-          "value_usd": 6083708003.0,
+        "NL": {
+          "value_usd": 2613173874.823,
           "yoy": null,
-          "share": 64.7
-        },
-        "CA": {
-          "value_usd": 1751501789.039,
-          "yoy": null,
-          "share": 18.6
+          "share": 62.4
         }
       }
     },
-    "fetched_at": "2026-10-16"
+    "fetched_at": "2026-11-25"
   }
 }
