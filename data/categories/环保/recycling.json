@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "回收：海外社媒「environmental tiktok made me buy」增速 246%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，World Bank Blogs关注「Developing-country exporters and...」。",
+    "trend_summary": "回收：海外社媒「green tech viral hack」增速 248%，搜索端「green tech b2b export」热度上行，US Amazon BSR Top-12，World Bank Blogs关注「Developing-country exporters and...」。",
     "product_profile": {
       "外观": "工业设备 / 模块化集装箱式 / 撬装",
       "成分": "不锈钢 304 / PVDF 膜 / 活性炭",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 回收 出口需通过合规认证",
-      "海外社媒「environmental tiktok made me buy」增速 246% 领跑 → 回收社媒种草热度爆发"
+      "海外社媒「green tech viral hack」增速 248% 领跑 → 回收社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "tiktok",
+        "kw": "green tech viral hack",
+        "growth": 248.0,
+        "vol": "181K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
         "kw": "environmental tiktok made me buy",
-        "growth": 246.5,
-        "vol": "659K",
+        "growth": 224.5,
+        "vol": "567K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "green tech industry news",
-        "growth": 227.0,
-        "vol": "723K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "green tech factory tour",
-        "growth": 225.0,
-        "vol": "396K",
+        "platform": "google",
+        "kw": "green tech b2b export",
+        "growth": 203.0,
+        "vol": "10K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "green tech b2b export",
-        "growth": 204.0,
+        "growth": 200.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "environmental wholesale supplier",
-        "growth": 167.5,
+        "kw": "environmental market 2026",
+        "growth": 189.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "EU and Indonesia Sign Trade and Investment Agreement - Impakter",
-        "source": "Impakter",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1faWtVNS1oVXYxTV8zM01EU2VHZ2FBVkJrMUtfWjBObndrVnZtbVlqN1U3cDNfcHJUOXZ3eFZWT3BMZHhFZUJUWUlEWEZPdGpJc1o2ZGtVa1ltVHhmUjI2cU1DUk5EUzRjU3c?oc=5",
+        "title": "In Argentina’s Patagonia, a shale boom drives big promises and deep doubts - Courthouse News",
+        "source": "Courthouse News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnZEYi1abDBkSzREVURkVFdtcE8zdGJ5NTctek0wY0JXanE0TTBEdEdkWjk4RXZfUkRSZmw0MGV1emlKWVVpdHlmd3FVLUU4NGdGbjRybW1uamVMcjhpYkY3WklBcWRCcDNOX3NtNE5XOXlKQlVhXzBTRjFGajRnTk1JS3VLVnU5Z0o5WHp0cFFENGJnTS04bVR4cjJOM2VjbWtkcVZR?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "environmental",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "l1_ref": "环保"
   }
 }

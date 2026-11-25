@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "二手美容：海外社媒「skincare supply chain」增速 234%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Chinese beauty brands, flush with...」。",
+    "trend_summary": "二手美容：海外社媒「beauty #trending」增速 252%，搜索端「cosmetic b2b export」热度上行，US Amazon BSR Top-12，Personal Care Insights关注「Brazil first to ratify Latin American...」。",
     "product_profile": {
       "外观": "磨砂玻璃瓶 / 金属磁吸盖 / 极简极简主义",
       "成分": "烟酰胺 / 视黄醇 / 玻尿酸 / 植物提取物（Clean Beauty）",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 二手美容 出口需通过合规认证",
       "美国 FDA 注册要求 → 二手美容 进入北美市场必备门槛",
       "GMP 生产质量管理 → 医药/食品类 二手美容 制造门槛",
-      "海外社媒「skincare supply chain」增速 234% 领跑 → 二手美容社媒种草热度爆发"
+      "海外社媒「beauty #trending」增速 252% 领跑 → 二手美容社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "skincare supply chain",
-        "growth": 233.5,
-        "vol": "203K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "cosmetic aesthetic",
-        "growth": 232.0,
-        "vol": "492K",
+        "kw": "beauty #trending",
+        "growth": 251.5,
+        "vol": "597K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "skincare tutorial",
-        "growth": 227.5,
-        "vol": "115K",
+        "platform": "tiktok",
+        "kw": "cosmetic must try",
+        "growth": 239.5,
+        "vol": "488K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "beauty trending now",
+        "growth": 237.0,
+        "vol": "137K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "cosmetic b2b export",
-        "growth": 177.0,
+        "growth": 207.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "skincare wholesale supplier",
-        "growth": 105.5,
+        "growth": 193.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Brazil first to ratify Latin American deal to ease cosmetics exports - Personal Care Insights",
+        "source": "Personal Care Insights",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWXAtMlM3dER3WE1DT2REMVNGS285RUNvOEdyektFRW03SjcwcllFUmprY3pSbUJuaEpmT0RCVXBpOVZoOWt6Qmg0OXZsNk95VDNtbzVfTl90cUZVTGs0QXRON09neDdPZzEtWW1EQ2oxZFhRNjc4V0luc0ViV3ZkVENhSXBTbXFqcC1vUjVR?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Chinese beauty brands, flush with success at home, start to vie for global shelf space - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd29zTzc4XzJ1dmVYNkJkaVUxMERuVUhjRGZWWUI5RURGV3BxWWw1S1BHODlpS0xFOWotenNSMHQyMHJtVDVkNHdYb3FtbnpSMWE0WXNKLVJBLUxtQ08zc3VvY0Y0WVhxbklRVFlSRFJJVU9XTzdhcTRBSVBRcUtJVkhNaElrU0lJTGJZc2YxeWFOV1QzaE5tQ3pSZFB1MFhCa0dsUERmQ0dYbm5lX3hGX0Z2ZnpBay0tQ0R6TVZQLVJ4OXpEUkkzU2hyam1mQXBS?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Guinness Atkinson debuts K-Beauty ETF to ride $11B export boom - Dealroom",
-        "source": "Dealroom",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcFJSajJ2S3Byay1qd1FPTEp0SHR0X3RnOXRkc0FTeExKNDhoc2JTWlVFUDZ5UVdyUU81ek9MTHlweXdPbDhOZXRwSGl6LTlQak5xR1VBRlVnZUtrSk1hZmpQNFgxYVVtQW9KNFp6LVBfcXZBZmJGRHdEQUZJX24wakZjQUpxN1VZYm4taVA5V2o1eGVFcWN6N3JuOA?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "beauty_cosmetics",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "l1_ref": "美妆"
   }
 }

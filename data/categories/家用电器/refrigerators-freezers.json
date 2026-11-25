@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "冰箱冰柜：海外社媒「appliance b2b export」增速 252%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: AI bust hurts Chinese...」。",
+    "trend_summary": "冰箱冰柜：海外社媒「appliance industry news」增速 248%，搜索端「appliance b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「COMMENTARY: AI bust hurts Chinese...」。",
     "product_profile": {
       "外观": "嵌入式一体化 / 圆润 R 角设计 / 哑光磨砂面板",
       "成分": "ABS 工程塑料 / 食品级不锈钢 304 / BLDC 无刷电机",
@@ -48,45 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 冰箱冰柜 出口需通过合规认证",
-      "海外社媒「appliance b2b export」增速 252% 领跑 → 冰箱冰柜社媒种草热度爆发"
+      "海外社媒「appliance industry news」增速 248% 领跑 → 冰箱冰柜社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
+        "platform": "x",
+        "kw": "appliance industry news",
+        "growth": 248.0,
+        "vol": "355K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
         "platform": "google",
         "kw": "appliance b2b export",
-        "growth": 252.0,
-        "vol": "719K",
+        "growth": 237.0,
+        "vol": "567K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "appliance review 2026",
-        "growth": 248.5,
-        "vol": "494K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "appliance market alert",
-        "growth": 234.0,
-        "vol": "149K",
+        "platform": "tiktok",
+        "kw": "appliance viral hack",
+        "growth": 236.0,
+        "vol": "7K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "appliance b2b export",
-        "growth": 249.0,
+        "growth": 234.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "appliance market 2026",
-        "growth": 212.5,
+        "kw": "appliance wholesale supplier",
+        "growth": 141.5,
         "hits": 0
       },
       {
@@ -98,9 +98,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Wired for Beijing: How China Captured the Home Appliance Industry and Reached Into American Homes - Coalition For A Prosperous America",
-        "source": "Coalition For A Prosperous America",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTy1zOUJNdlE5cU96dVFlWkpJZXdqcVkxSUx0b2hvTXNWcGp4X1dCXzlZY1BzX0hFVHR6R0RiWVNMR0Y1cDVXVEROZkMxLUxQUDhfZTRSb0lPVmExRC1aYUQ5ZTVqSWlHODZnU2szUWlkNHlaTjluMGJaUjdXbkNPZ3E2X0RmZ2NhOGpBUm8xeE0yMDZKTFg3Y3cwWEFDNVZRdWVVUEN5N3Q2SE9zRmt6VmpubUt1bXRxNFFCNzdiYzh4aWdqc2c?oc=5",
+        "title": "China’s Booming Exports Obscure Economic Strain at Home - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcy1XZVFtNF9ZTHNqeGNUZHBRTkw1SDlWbEMtTGpDS1FJY085WXNtMEFDSC1RT2xZVkhDMVk4cVotY3ZSU21oYlpLcUJRcFluTzBaN05kYThsTThFOFRLcHh0OHNmN3h3djk0M2pabEhybWVndi1OVWVxS2NrRWwxc2kzZjdmbTN0cFVSbnllY3JMTlBWWlNlZHdzdEd4X0VzdEIwU2E2SlJvN0hj?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "home_appliance",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "l1_ref": "家用电器"
   }
 }

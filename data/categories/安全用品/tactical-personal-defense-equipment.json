@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "警军用品：海外社媒「ppe b2b export」增速 242%，搜索端「ppe b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「Welcome to the new ‘Made in China’ -...」。",
+    "trend_summary": "警军用品：海外社媒「safety gear new arrival」增速 246%，搜索端「safety gear market 2026」热度上行，US Amazon BSR Top-12，AgroLatam关注「China and Argentina Negotiate New...」。",
     "product_profile": {
       "外观": "工业坚固型 / 隐蔽安装 / 人体工学",
       "成分": "ABS+PC / 芳纶纤维（Kevlar）/ 反光条",
@@ -48,45 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 警军用品 出口需通过合规认证",
-      "海外社媒「ppe b2b export」增速 242% 领跑 → 警军用品社媒种草热度爆发"
+      "海外社媒「safety gear new arrival」增速 246% 领跑 → 警军用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "ppe b2b export",
-        "growth": 242.0,
-        "vol": "65K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "safety gear breaking",
-        "growth": 202.5,
-        "vol": "569K",
+        "platform": "instagram",
+        "kw": "safety gear new arrival",
+        "growth": 246.5,
+        "vol": "70K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "google",
         "kw": "safety gear market 2026",
-        "growth": 199.5,
-        "vol": "248K",
+        "growth": 243.5,
+        "vol": "98K",
         "hits": 0
       },
       {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "ppe b2b export",
-        "growth": 239.0,
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "safety gear top 10",
+        "growth": 242.5,
+        "vol": "69K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "safety gear market 2026",
-        "growth": 196.5,
+        "growth": 240.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "ppe b2b export",
+        "growth": 91.0,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "China and Argentina Negotiate New Agricultural Trade Agreements to Expand Food Exports - AgroLatam",
+        "source": "AgroLatam",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0x2YnJVVUtiOVJtb24taTZfUVVjMFRUSDR2clJuWXFwTTgtZm5CcnNTcnJZQ0tmYWFZWkJTQU1nLVlwbzBuNkEyZjJHcDdnQWZ2c2I2MW9xdG5DMnZjX2ZEb2JoUzctekZBTWRiRlQtSU93SmF2MjJVV1Z4SUNBVXlUZjAwMmgtQk9panM1MTBGTThqakE?oc=5",
         "hits": 0
       },
       {
@@ -94,13 +101,6 @@
         "title": "Welcome to the new ‘Made in China’ - Reuters",
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jWXRwMFJHeWNSdnlCLUVvNXNmTWV1bHRkS1Y4Y25vVzlZR2p6UjJEQmhNeklKSWx5eG5PV2t4VVdETTdZb0hkTW1qMHBTaTN1VWhYams1Q28yMWYwWjl1cGJ2NHBkWV9mTDlYWlhDbGVCUWcyVXA1SE9RQjFodw?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Legislative Update: China, Clothing, Enforcement, Semiconductors, Exports, Product Safety - Sandler, Travis & Rosenberg, P.A.",
-        "source": "Sandler, Travis & Rosenberg, P.A.",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQXFKcHM1MzBmczFMcVdMaXhFc2w2UHJHOXF5cTMzM0RBMElvdWtFVW5rR1JlUE1PVDlraEsxMXlwNHBBcmF5b3Q3ZHF5R0ZEQmFSbW84c2J4RU9xX0lFR0QwQUVRd2ZGbTJXQnQyWmpGd1BtdVh1ZEZUaWhNeFVNY0I4cjVoS2xfZ1VHM1FzYVg1OFJJcldvd0dwVVE0alNKTGlmUFhndG80Z293NnJhbmQ3MUJsNGFwQ2hDNEY5dUZuQno0RWtmZWlzOGt1aTdEdDZQNEFxUFZhSnpzcURZcHYtMWlxZmhzcEtj?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "security_safety",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "l1_ref": "安全用品"
   }
 }

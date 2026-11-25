@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food trending now」增速 248%，搜索端「pet food b2b export」热度上行，JP Amazon BSR Top-25，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food factory tour」增速 212%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-28，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,45 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food trending now」增速 248% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food factory tour」增速 212% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "pet food trending now",
-        "growth": 248.0,
-        "vol": "69K",
+        "platform": "youtube",
+        "kw": "pet food factory tour",
+        "growth": 212.0,
+        "vol": "203K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "pet food market alert",
-        "growth": 239.0,
-        "vol": "408K",
+        "kw": "pet food industry news",
+        "growth": 200.0,
+        "vol": "776K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "instagram",
-        "kw": "pet food must have",
-        "growth": 217.0,
-        "vol": "466K",
+        "platform": "google",
+        "kw": "pet food b2b export",
+        "growth": 170.0,
+        "vol": "556K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 71.0,
+        "growth": 167.0,
         "hits": 2
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "pet products supply chain resilience",
-        "growth": 71,
+        "source": "Google Trends",
+        "kw": "pet wholesale supplier",
+        "growth": 201.5,
         "hits": 0
       },
       {
@@ -99,32 +99,32 @@
       },
       {
         "dim": "媒体",
-        "title": "Thailand Targets Global Pet Hub Status as Pet Food Exports Reach $3.28 Billion - Nation Thailand",
-        "source": "Nation Thailand",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUNnZhdG5ySURNcTFqdW10UzdCVlg4SlBjdDY4SUxIcmx6emYyNkdHaDNCYU9pMEgtUFMyM2t6alhOWW5fRkdQUmVCTllsaXQzOXh1YlBRcFh4RVVzVUhHMHVOaG5fOFU?oc=5",
+        "title": "11 associations supporting the pet food industry - Pet Food Processing",
+        "source": "Pet Food Processing",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdXRfMWRnRGcwRHNDUDNUcFMtMkpfSlRtejd3S0VyYTQxeFFEMGJpV3hxTVpzWmNBRnNPeUZrVkJuZ251QldJTG55eXNyNVFRQzJKRjJYMFhURXNZVENCdHJMMkZOTzhJQXAxVDltemxmVzNIX2lsclc4TUo2RTVhemtxUDFxbTItOUZuMnJ1aTZkU2xkQkM1UU15SEp6UQ?oc=5",
         "hits": 2
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 25,
-        "title": "Top pet - Eco Edition",
-        "price": "$257.4",
-        "rating": 4.8,
+        "market": "SA",
+        "rank": 28,
+        "title": "Top pet - Compact Edition",
+        "price": "$238.8",
+        "rating": 4.3,
         "hits": 0
       },
       {
         "dim": "Amazon",
         "market": "US",
-        "rank": 9,
+        "rank": 26,
         "title": "Top pet - Premium Edition",
-        "price": "$156.0",
+        "price": "$241.0",
         "rating": 4.6,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "l1_ref": "宠物用品及食品"
   }
 }
