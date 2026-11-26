@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "孕产用品：海外社媒「infant wholesale supplier」增速 234%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，The Independent关注「‘China Haul’: empty suitcases in,...」。",
+    "trend_summary": "孕产用品：海外社媒「toys b2b export」增速 253%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，Tridge关注「Fresh Baby Octopus Suppliers, Export...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,52 +49,45 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 孕产用品 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 孕产用品 采购偏好",
-      "海外社媒「infant wholesale supplier」增速 234% 领跑 → 孕产用品社媒种草热度爆发"
+      "海外社媒「toys b2b export」增速 253% 领跑 → 孕产用品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "google",
-        "kw": "infant wholesale supplier",
-        "growth": 234.5,
-        "vol": "743K",
+        "kw": "toys b2b export",
+        "growth": 253.0,
+        "vol": "208K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "baby breaking",
-        "growth": 223.5,
-        "vol": "402K",
+        "kw": "infant supply chain",
+        "growth": 242.5,
+        "vol": "168K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "toys unboxing",
-        "growth": 196.0,
-        "vol": "660K",
+        "platform": "google",
+        "kw": "infant wholesale supplier",
+        "growth": 240.5,
+        "vol": "6K",
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "toys b2b export",
+        "growth": 250.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "infant wholesale supplier",
-        "growth": 231.5,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "baby market 2026",
-        "growth": 106.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "‘China Haul’: empty suitcases in, packed suitcases out - The Independent",
-        "source": "The Independent",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQlcwdE9fNzRMOVBSU1lPbVpQUnN1czE1LWVvSU1jaUxYZ29hTzJ2aHM1SFhUZW03Z2pkVlJpMkEzTFYyWElrb2tkM0RVd2ljUHA2X1BncXdJXzFDaUJHNlVzc1pwemRCMXg1emRwLUFwelZoWWRmcWFTOTlhaG5VUHdLR3VNN2lNN3hVSU41bWw2cEczLXRxZDJQYmdoYl9uRDlLYmtZVXlKQ00zTFRJMnlCbElGOTZ0MldFVA?oc=5",
+        "growth": 237.5,
         "hits": 0
       },
       {
@@ -124,7 +117,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-11-25",
+    "generated_at": "2026-11-26",
     "l1_ref": "母婴&玩具"
   }
 }
