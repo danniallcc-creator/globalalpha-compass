@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "金融设备：海外社媒「commercial equipment breaking」增速 256%，搜索端「commercial equipment b2b export」热度上行，US Amazon BSR Top-12，Reuters关注「China's new export curbs draw a line...」。",
+    "trend_summary": "金融设备：海外社媒「commercial equipment breaking」增速 252%，搜索端「commercial equipment wholesale supplier」热度上行，US Amazon BSR Top-12，AgroLatam关注「China and India Expand Agricultural...」。",
     "product_profile": {
       "外观": "工业涂装（黄/红/蓝品牌色）/ 模块化",
       "成分": "高强度铸钢 / 耐磨合金 / 稀土永磁",
@@ -48,52 +48,52 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 金融设备 出口需通过合规认证",
-      "海外社媒「commercial equipment breaking」增速 256% 领跑 → 金融设备社媒种草热度爆发"
+      "海外社媒「commercial equipment breaking」增速 252% 领跑 → 金融设备社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
         "kw": "commercial equipment breaking",
-        "growth": 255.5,
-        "vol": "520K",
+        "growth": 251.5,
+        "vol": "358K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "instagram",
-        "kw": "commercial equipment must have",
-        "growth": 248.0,
-        "vol": "772K",
+        "kw": "commercial equipment new arrival",
+        "growth": 238.5,
+        "vol": "460K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "commercial equipment analyst",
-        "growth": 240.5,
-        "vol": "214K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "commercial equipment b2b export",
+        "kw": "commercial equipment market alert",
         "growth": 237.0,
+        "vol": "607K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "commercial equipment wholesale supplier",
-        "growth": 232.5,
+        "growth": 230.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "commercial equipment b2b export",
+        "growth": 229.0,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's new export curbs draw a line around its AI crown jewels - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQS1XZ0liaXgydVhrTDZ3Z3piOTUyYVlBNFZXdTVPenctR01Hb0RuZEtvNVZObkFHRE9Pb0dkTURvamlKanJVQm1hX2k5cERiSnpQbmRsaTJSS2VZY0NEaEpGanlxODFiR1IxbFozM0p4a3Y0Sl9NdFFMd1Zrd05lQlQyaS1ZYlJqQURvYXpxNVFzSEJUd3JKZ1lGbWtGSDNqaWhR?oc=5",
+        "title": "China and India Expand Agricultural Sales in Latin America, Putting U.S. Suppliers to the Test - AgroLatam",
+        "source": "AgroLatam",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ19WLVRvYjBPeHF0UUdGWTd6WVVQRkJZMGotRkh0SHpDQWFZVGZNMGN4eGhOVEZubU5zNTYtVmRHa0lFcmpWeGR3RzVRMGQzZTdleVlWbG56YWZvU2NYRklBMVk1cjBLemVWRG1HZ05YSUp4aVdwZWJkMms3QUxnRXFaMkQ1WVgzQmhad1lvcEM?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "machinery",
-    "generated_at": "2026-11-26",
+    "generated_at": "2026-11-27",
     "l1_ref": "商业设备及机械"
   }
 }

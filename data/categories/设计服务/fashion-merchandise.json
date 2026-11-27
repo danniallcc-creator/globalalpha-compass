@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "时尚&商品：海外社媒「industrial design breaking」增速 254%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，Reuters关注「China's new export curbs draw a line...」。",
+    "trend_summary": "时尚&商品：海外社媒「industrial design supply chain」增速 238%，搜索端「industrial design wholesale supplier」热度上行，US Amazon BSR Top-12，Visual Capitalist关注「Which Countries Have the Most...」。",
     "product_profile": {
       "外观": "宽松廓形（Oversize）/ 无缝一体织 / 多口袋工装",
       "成分": "再生 PET 面料 / 有机棉 GOTS / 莱卡弹力纤维 / Cordura",
@@ -48,59 +48,59 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 时尚&商品 出口需通过合规认证",
-      "海外社媒「industrial design breaking」增速 254% 领跑 → 时尚&商品社媒种草热度爆发"
+      "海外社媒「industrial design supply chain」增速 238% 领跑 → 时尚&商品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "industrial design breaking",
-        "growth": 253.5,
-        "vol": "96K",
+        "kw": "industrial design supply chain",
+        "growth": 237.5,
+        "vol": "465K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "instagram",
+        "kw": "industrial design new arrival",
+        "growth": 223.5,
+        "vol": "695K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "youtube",
-        "kw": "industrial design tutorial",
-        "growth": 247.5,
-        "vol": "547K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "industrial design tiktok made me buy",
-        "growth": 235.5,
-        "vol": "413K",
+        "kw": "industrial design factory tour",
+        "growth": 221.0,
+        "vol": "368K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "industrial design wholesale supplier",
-        "growth": 161.5,
+        "growth": 150.5,
         "hits": 0
       },
       {
         "dim": "搜索",
-        "source": "Linkedin",
-        "kw": "design services digital transformation",
-        "growth": 92,
+        "source": "Google Trends",
+        "kw": "industrial design market 2026",
+        "growth": 107.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "China's new export curbs draw a line around its AI crown jewels - Reuters",
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpIM3FfOEVIU0g3dkIzdlhrWnVpRHNhd3BaQS1XZ0liaXgydVhrTDZ3Z3piOTUyYVlBNFZXdTVPenctR01Hb0RuZEtvNVZObkFHRE9Pb0dkTURvamlKanJVQm1hX2k5cERiSnpQbmRsaTJSS2VZY0NEaEpGanlxODFiR1IxbFozM0p4a3Y0Sl9NdFFMd1Zrd05lQlQyaS1ZYlJqQURvYXpxNVFzSEJUd3JKZ1lGbWtGSDNqaWhR?oc=5",
+        "title": "Which Countries Have the Most Concentrated Export Markets? - Visual Capitalist",
+        "source": "Visual Capitalist",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTRCZ0NSNnlxU1BoU1gtTmZ2b2pmYnRQNjNhY19qVW91cm1jQnFMUGVlYlNtbzZqelYtajJCMXQtcTR5TEh2bl9lQndSQnR4amlwcW5YU1VCWlhIemhXZVdUTWV3NXpOWWxsTGpVSFU4UjhXRmJVbE4wbFJtOVFTV013T2gyZlNnR1MydUtQZXliT3RNLXJfV2N4a3dRQWZiUFBVUnlBODJwb1k?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Comments to USTR on Foreign Trade Barriers for the 2027 National Trade Estimate Report - Information Technology and Innovation Foundation",
-        "source": "Information Technology and Innovation Foundation",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWFV3ZldWTjJ2dE1BdFFHQkM1ek9fc29CUkFvN05sUmFZbk85OHBLQmsybU9WMV9QMjVxdHRXZ1huR3g4U0JITDlSdkxBRzRWRk5OdW52OEJhUnhSWHE3WmhZRGdhOXE1a21fS0V3NUctbXpXRUE4b1h0eEJOTUxWWm41RHlQRjRULXBhWngzdXRsS09lU2RTNFRqbF9CMThEY3JFelJkcjBFVFpTMy1jNzgwYmQ2ZGdGS2ZfR1FWeHFFcGdYM2Y0?oc=5",
+        "title": "NI goods exports grew in 2025, official figures suggest - BBC",
+        "source": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HQWZTVnBmeXZRSWhLNXJLbU5IQzAxTUg2SENTMWtlVDRvVEJvNW5vZkw0MURwalIyT2xpaHdTMWVSZ01sWU9RbGYzMzN1dE5HZzI1RXkyYktEa3M?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "apparel_fashion",
-    "generated_at": "2026-11-26",
+    "generated_at": "2026-11-27",
     "l1_ref": "设计服务"
   }
 }

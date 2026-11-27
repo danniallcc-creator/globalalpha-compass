@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "海鲜：海外社媒「beverage unboxing」增速 247%，搜索端「snack wholesale supplier」热度上行，US Amazon BSR Top-12，DatamarNews关注「Argentine Food Industry Forecasts...」。",
+    "trend_summary": "海鲜：海外社媒「beverage b2b export」增速 254%，搜索端「beverage b2b export」热度上行，US Amazon BSR Top-12，Tridge关注「Coffee Extract Suppliers &...」。",
     "product_profile": {
       "外观": "透明可视包装 / 极简日系 / 国风插画",
       "成分": "零添加 / 有机认证 / 清真 Halal / 植物基",
@@ -50,45 +50,52 @@
       "欧盟 CE 标志强制准入 → 海鲜 出口需通过合规认证",
       "美国 FDA 注册要求 → 海鲜 进入北美市场必备门槛",
       "美国 IRA 通胀削减法案补贴 → 海鲜 北美本地化制造红利",
-      "海外社媒「beverage unboxing」增速 247% 领跑 → 海鲜社媒种草热度爆发"
+      "海外社媒「beverage b2b export」增速 254% 领跑 → 海鲜社媒种草热度爆发"
     ],
     "signals": [
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "beverage b2b export",
+        "growth": 254.0,
+        "vol": "613K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "beverage industry report",
+        "growth": 247.5,
+        "vol": "324K",
+        "hits": 0
+      },
       {
         "dim": "海外社媒",
         "platform": "youtube",
         "kw": "beverage unboxing",
         "growth": 247.0,
-        "vol": "684K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "food #fyp",
-        "growth": 238.5,
-        "vol": "285K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "x",
-        "kw": "food breaking",
-        "growth": 232.5,
-        "vol": "623K",
+        "vol": "278K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "snack wholesale supplier",
-        "growth": 149.5,
+        "kw": "beverage b2b export",
+        "growth": 251.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "food market 2026",
-        "growth": 109.5,
+        "growth": 115.5,
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Coffee Extract Suppliers & Manufacturers, Export Data & Price Trends | Global Market Overview 2026 - Tridge",
+        "source": "Tridge",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VLUhkQl9ZbnBnU3BiSU1ZRFZNbzhMZ3Voc0R5N2ZOUlRRNVprUlRtOVJmQjJiQm1uWE45UTRQLWxIcVROSkZPaFJhSTh1TVFJQkhjRkFjWGNWaFNnTFp1RjlrWQ?oc=5",
         "hits": 0
       },
       {
@@ -96,13 +103,6 @@
         "title": "Argentine Food Industry Forecasts Record Exports Amid Slumping Domestic Consumption - DatamarNews",
         "source": "DatamarNews",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdVpuUUpPWV8yUndvZ09tMndCbDJ5cktYZTlpcGl0Q2piYlUwQjJzajhLM1ZobDQxUnRGUTNEUWZIdXVTVjFMYWFzTnpReWFxcVVkMVNnaHJTX3NrajVpbjYwanRBYmdxZW5pd1VuMUhxQVVTX0FHNjBWRmdFSi0yNDgyNHpLSmFqUUx5TTY2YW14UW1zcTY3QkxpZHNNbUZwcllWWWFZQVJBOVFUR2lFaEx5WmhEek43?oc=5",
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "Balsamic Vinegar Suppliers & Manufacturers, Export Data & Price Trends | Global Market Overview 2026 - Tridge",
-        "source": "Tridge",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JTHg3MDNNbDJxYUoyUjJrbmNTRkJaMmZ6ekdNQTRNaFYwUzhQQU9Vemh0ZmxEcktsZHJCU0RTVC1fZVNNOERRYUtGUU92ZXlPWU5YbnV2dnliVTNUMnlNbUZSdzM2QQ?oc=5",
         "hits": 0
       },
       {
@@ -125,7 +125,7 @@
       }
     ],
     "domain": "food_beverage",
-    "generated_at": "2026-11-26",
+    "generated_at": "2026-11-27",
     "l1_ref": "食品及饮料"
   }
 }

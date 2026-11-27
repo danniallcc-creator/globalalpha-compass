@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "认证、检验与信用管理：海外社媒「business service #fyp」增速 256%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，National Hog Farmer关注「South Dakota launches first-ever trade...」。",
+    "trend_summary": "认证、检验与信用管理：海外社媒「business service b2b export」增速 250%，搜索端「business service b2b export」热度上行，US Amazon BSR Top-12，World Economic Forum关注「AI investment boosts export outlook,...」。",
     "product_profile": {
       "外观": "数字化服务交付 / SaaS 平台 / 顾问报告",
       "成分": "专家知识库 / 数据库 / 合规框架",
@@ -48,52 +48,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 认证、检验与信用管理 出口需通过合规认证",
-      "海外社媒「business service #fyp」增速 256% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
+      "海外社媒「business service b2b export」增速 250% 领跑 → 认证、检验与信用管理社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "business service #fyp",
-        "growth": 255.5,
-        "vol": "631K",
+        "platform": "google",
+        "kw": "business service b2b export",
+        "growth": 250.0,
+        "vol": "696K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "business service industry news",
-        "growth": 250.0,
-        "vol": "564K",
+        "kw": "business service analyst",
+        "growth": 238.5,
+        "vol": "199K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "business service b2b export",
-        "growth": 239.0,
-        "vol": "136K",
+        "platform": "youtube",
+        "kw": "business service review 2026",
+        "growth": 223.5,
+        "vol": "372K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "business service b2b export",
-        "growth": 236.0,
+        "growth": 247.0,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "business service wholesale supplier",
-        "growth": 205.5,
-        "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "South Dakota launches first-ever trade mission to Australia - National Hog Farmer",
-        "source": "National Hog Farmer",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlVZMEZPbUNhZlhXVTJPX1k4NjJYV1U2MktET2Q1SG9mZDdncVVTc1hCeFJ6VldUUzg5a0lJVVlBdFBWVXYzVVVLOVZFeG5JNm5rRlRxWkF2X2ZITDQwYmRfTmdmalA1bUdORlB3ODdsc2ZBcHY5ak9vX05lU0hsLXJSdl9nLU9zeWZhS01RWHpGazl3cXVoLTVkbERHSmNkNFhvdmNZbUU?oc=5",
+        "kw": "business service market 2026",
+        "growth": 208.5,
         "hits": 0
       },
       {
@@ -101,6 +94,13 @@
         "title": "AI investment boosts export outlook, and other trade news to know - World Economic Forum",
         "source": "World Economic Forum",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNm80c0xrMy1jREVsdWJESG1PdHBCOVZUMFc5bk5qekprU1BYcmhJZXFmanV2QzZ1V1g0cGJEUllQQWxfVVRManpXVENQTmJKbTdFVzZBaHBtV2JraVZINVZrR3kzb2NQdklheUVsR2JtdGhyNFREcm9MbEJrbDM5T0FRU0g4WEpvdU13a0J5RlAtWGg0Nk5JX3FWQlh3djZYVlF6M2pyU0JsNVk0ZFg5NTNic0FfQ3hwdWRGNWJ2Q2Q?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "What’s happening this week in economics? - Deloitte",
+        "source": "Deloitte",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
         "hits": 0
       },
       {
@@ -123,7 +123,7 @@
       }
     ],
     "domain": "business_services",
-    "generated_at": "2026-11-26",
+    "generated_at": "2026-11-27",
     "l1_ref": "商务服务"
   }
 }

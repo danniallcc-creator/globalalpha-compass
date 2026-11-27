@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "童鞋：海外社媒「toys b2b export」增速 253%，搜索端「toys b2b export」热度上行，US Amazon BSR Top-12，Tridge关注「Fresh Baby Octopus Suppliers, Export...」。",
+    "trend_summary": "童鞋：海外社媒「baby #fyp」增速 252%，搜索端「infant wholesale supplier」热度上行，US Amazon BSR Top-12，Vietnam Investment Review - VIR关注「US farm trade mission heads to Vietnam...」。",
     "product_profile": {
       "外观": "圆润 R 角（儿童安全）/ 马卡龙色系 / 模块化",
       "成分": "食品级硅胶 / ABS 无毒塑料 / 有机棉",
@@ -49,52 +49,59 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 童鞋 出口需通过合规认证",
       "Oeko-Tex 无害纺织品认证 → 欧洲 童鞋 采购偏好",
-      "海外社媒「toys b2b export」增速 253% 领跑 → 童鞋社媒种草热度爆发"
+      "海外社媒「baby #fyp」增速 252% 领跑 → 童鞋社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "toys b2b export",
-        "growth": 253.0,
-        "vol": "208K",
+        "platform": "tiktok",
+        "kw": "baby #fyp",
+        "growth": 251.5,
+        "vol": "761K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "infant supply chain",
-        "growth": 242.5,
-        "vol": "168K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
-        "platform": "google",
-        "kw": "infant wholesale supplier",
-        "growth": 240.5,
-        "vol": "6K",
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "toys b2b export",
+        "platform": "tiktok",
+        "kw": "baby trending now",
         "growth": 250.0,
+        "vol": "653K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "toys unboxing",
+        "growth": 229.0,
+        "vol": "345K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "infant wholesale supplier",
-        "growth": 237.5,
+        "growth": 118.5,
+        "hits": 0
+      },
+      {
+        "dim": "搜索",
+        "source": "Linkedin",
+        "kw": "baby toys sustainable manufacturing",
+        "growth": 89,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Fresh Baby Octopus Suppliers, Export Data & Price Trends | Global Market Overview 2026 - Tridge",
-        "source": "Tridge",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4QVhmWG1YVHpLTHlZTmVBOGRUNlRKS3I0OVUzMW1uaFFHNTg5dmlZeml5alQ4OEY3ckN5dzh0dlhkS3dxaWxubTRfV3pNZ0xTeldLWUlYSjNKdEIxdGdhUDdWVlQxMTVh?oc=5",
+        "title": "US farm trade mission heads to Vietnam with record delegation - Vietnam Investment Review - VIR",
+        "source": "Vietnam Investment Review - VIR",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlQtWjZqUVZkV3lpeUt3d1RYUVRpQjJGT21jc0tZSWVXaDhjUEE0SHhQeHlpVmZ4YW9lTFFFT0xZSFp6OXpQajdmeDJaYUVfVHUwMzVkM2l4MWRxbkM0WjZHaWlndTdzQ1hUZVpKbkY5VmpTb1RPMlBqVjd6RkpWUWNZTXdwcTQ5RmtTZ0lTbG9nNlZYT21z?oc=5",
+        "hits": 0
+      },
+      {
+        "dim": "媒体",
+        "title": "Stepping up the game - chinadailyhk",
+        "source": "chinadailyhk",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HRDVIbWgxVUFNblMtVFhxMEFTTzU1cWR0V2NkamQwdUc0ZXdQQS1rdzFlMTZvZzRyS3dxaHRqa1dnTnRDT3YtSHk4Rlg3cmNwWkhmdUlvNzY?oc=5",
         "hits": 0
       },
       {
@@ -117,7 +124,7 @@
       }
     ],
     "domain": "toys_baby",
-    "generated_at": "2026-11-26",
+    "generated_at": "2026-11-27",
     "l1_ref": "母婴&玩具"
   }
 }
