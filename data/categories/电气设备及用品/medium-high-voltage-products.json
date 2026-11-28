@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "中高压配电产品：海外社媒「electrical price trend」增速 245%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg.com关注「How China’s Export Machine Shocked the...」。",
+    "trend_summary": "中高压配电产品：海外社媒「electrical market alert」增速 254%，搜索端「electrical wholesale supplier」热度上行，US Amazon BSR Top-12，Bloomberg关注「China Locks In Export Power by...」。",
     "product_profile": {
       "外观": "根据目标市场偏好定制（简约/工业风/彩色）",
       "成分": "符合目标市场合规要求（REACH/RoHS/FDA 等）",
@@ -49,59 +49,59 @@
     "reasons": [
       "欧盟 RoHS 限制有害物质 → 无铅/无卤 中高压配电产品 成主流",
       "欧盟 CE 标志强制准入 → 中高压配电产品 出口需通过合规认证",
-      "海外社媒「electrical price trend」增速 245% 领跑 → 中高压配电产品社媒种草热度爆发"
+      "海外社媒「electrical market alert」增速 254% 领跑 → 中高压配电产品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "google",
-        "kw": "electrical price trend",
-        "growth": 245.0,
-        "vol": "527K",
-        "hits": 0
-      },
-      {
-        "dim": "海外社媒",
         "platform": "x",
         "kw": "electrical market alert",
-        "growth": 243.0,
-        "vol": "8K",
+        "growth": 254.0,
+        "vol": "135K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "electrical must try",
-        "growth": 236.5,
-        "vol": "305K",
+        "platform": "youtube",
+        "kw": "electrical top 10",
+        "growth": 240.5,
+        "vol": "522K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "youtube",
+        "kw": "electrical unboxing",
+        "growth": 229.0,
+        "vol": "476K",
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "electrical wholesale supplier",
-        "growth": 172.5,
+        "growth": 186.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "electrical b2b export",
-        "growth": 155.0,
+        "kw": "electrical market 2026",
+        "growth": 157.5,
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "How China’s Export Machine Shocked the World - Bloomberg.com",
-        "source": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLTY3X0s5cV9Ma1d0S2ZEV3I0X1RzVFVTZ0R4c3djenU3aGZpMUxCeGRiN3BFQWdrSnJLTENBZ1E0SktPSTZNck5PVFpSYkpIVjdoWVNuY1FMLVJVT29VZTFNN0k0UnNOSHZucHdCekxhdGxKQ3drMjJCcXRNcjljMlF4R0RuRzR3UkJVRU5aMHA3Vm5veVhlSnRfUTlTeXdIVmRsWnFWNUhPbUI2Q21NOE9ZUnJ4S3g2WXhXVDM4TQ?oc=5",
+        "title": "China Locks In Export Power by Equipping the World’s Factories - Bloomberg",
+        "source": "Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeUt6cWEzdzlQTHJDekd5U291dzc3cVhWdmY1STNSZE13LVRIaFkxNGpyb1M2Tk45VUk4dzJtOG5lQmVMQzNaeHM2eFF4eTlKTVRWNi1PTk9iWXdCMllUelZodDVFV251M05OQW81YVF0c3RRMWF2MWt0WWRCZG5oYmt4WGdpaWRBZjB3dW9NOGdjSDJIazJoTm5SWTR5N3FVTWNUbi1tQ2FuWEViYXhZSUpybw?oc=5",
         "hits": 0
       },
       {
         "dim": "媒体",
-        "title": "Indonesian factories enjoy record export sales growth as trade rebounds - S&P Global",
-        "source": "S&P Global",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUVVwWTRTS3FfQ2NJTk85MzNrSjVqMkhDSGlmRXF4TVB6RjR4Y1oxTU45TDlFT0NkQVhERmxzRlVzdTNzYXM0WVV5OHl3YjFiWXI1bTBEYWF5cF9lSWFqTFpEYk5iLWlJRzg0TlRXUGd1Ykw4ZkNDcF9STzJUTEFWUDdFTG53Rk1PY3JlUWtfMUlfZkZqM2pDMGU1VDlBdEVtYkFHUmhqN2JWMERwMS0xclE0NXRISGhZZ0FSSnZOSjdpbklFaFpqRWZFU1dOU1JCYkgySWZsVzhIRkk2ZlVSNklCX04?oc=5",
+        "title": "Beyond the Trade Deficit: A Roadmap for Managing Europe–China Competition - CIRSD",
+        "source": "CIRSD",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcGxFeTVjOUIyQXYyaE5lN2lfR0VaY3pUU0tUUTZheDRVWnBCYVBHbHBhZkphd096a0ZWZnRFZjVhMmVJU29zcG5LQzJuMEdGT3dFdDNYTjEtVDUxM1FnOS0wSEh3bVM5T1dkYVpZWWd3UVBhSFFHaXdjd1diLXFNNWplYUh3bU05dFBJUl9vbGNLdG1Ud1M1Z2FZazlBVTREWHV4TzRpN0paT2s?oc=5",
         "hits": 0
       },
       {
@@ -124,7 +124,7 @@
       }
     ],
     "domain": "generic",
-    "generated_at": "2026-11-27",
+    "generated_at": "2026-11-28",
     "l1_ref": "电气设备及用品"
   }
 }

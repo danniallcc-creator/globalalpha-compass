@@ -37,7 +37,7 @@
   "last_updated": "2026-07-08",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "宠物食品：海外社媒「pet food market alert」增速 251%，搜索端「pet food b2b export」热度上行，US Amazon BSR Top-49，PetfoodIndustry关注「China tops US in Asian pet food export...」。",
+    "trend_summary": "宠物食品：海外社媒「pet food aesthetic」增速 227%，搜索端「pet food b2b export」热度上行，SA Amazon BSR Top-44，Pet Food Processing关注「11 associations supporting the pet food...」。",
     "product_profile": {
       "外观": "可爱萌系 / 人宠同款 / 模块化",
       "成分": "食品级不锈钢 / 天然橡胶 / 有机配方粮",
@@ -49,53 +49,46 @@
     "reasons": [
       "欧盟 CE 标志强制准入 → 宠物食品 出口需通过合规认证",
       "美国 FDA 注册要求 → 宠物食品 进入北美市场必备门槛",
-      "海外社媒「pet food market alert」增速 251% 领跑 → 宠物食品社媒种草热度爆发"
+      "海外社媒「pet food aesthetic」增速 227% 领跑 → 宠物食品社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "x",
-        "kw": "pet food market alert",
-        "growth": 251.0,
-        "vol": "46K",
-        "hits": 2
-      },
-      {
-        "dim": "海外社媒",
         "platform": "instagram",
         "kw": "pet food aesthetic",
-        "growth": 245.0,
-        "vol": "574K",
+        "growth": 227.0,
+        "vol": "299K",
         "hits": 2
       },
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "pet food factory tour",
-        "growth": 166.0,
-        "vol": "618K",
+        "platform": "google",
+        "kw": "pet food price trend",
+        "growth": 217.0,
+        "vol": "88K",
+        "hits": 2
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "tiktok",
+        "kw": "pet food viral hack",
+        "growth": 208.0,
+        "vol": "32K",
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "pet food b2b export",
-        "growth": 67.0,
+        "growth": 129.0,
         "hits": 2
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
-        "kw": "pet wholesale supplier",
-        "growth": 183.5,
+        "kw": "pet market 2026",
+        "growth": 201.5,
         "hits": 0
-      },
-      {
-        "dim": "媒体",
-        "title": "China tops US in Asian pet food export volume - PetfoodIndustry",
-        "source": "PetfoodIndustry",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2RoWW8wSXEzaUtfTmFUcVJSTlcxYm9IQ2lBN28zQnlvR3BvTnpIQ1hGcWNQOGhuYml3YnJHTENLYkh0eUV4Um1yM3pDVFR2eE9yVWtsMWJ6RW05S1gyVkJZVDJlWnJ4LW5NOGdYQjdHeW9yaDk5V3hmY2xRRG5JdjNZSGlrWE5SMDk1NUE0QTEzU25ZVDlyZThicHBLQXFzd0pKWl8zU0FTdVE?oc=5",
-        "hits": 2
       },
       {
         "dim": "媒体",
@@ -105,26 +98,33 @@
         "hits": 2
       },
       {
-        "dim": "Amazon",
-        "market": "US",
-        "rank": 49,
-        "title": "Top pet - Premium Edition",
-        "price": "$267.0",
-        "rating": 4.7,
+        "dim": "媒体",
+        "title": "Mexico's Food Export Success Is Hiding a Growing Problem - Mexico Business News",
+        "source": "Mexico Business News",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSWt5QVp3NDQ1ZUVZTHBtWG5HdHNuVHhkVnRBc1l0LThCeVB6ZW5MMjdNLWJCblVHbjMwM3NmaHNMLV9oQUdrcWVZWkhzaE1zd1YxekRvNlFVTUFVTnNyaGlDWWxGZjVQV1hVeldsMmxPMWtBVm01T3JvWXBiVGFKeEZYN2p2U0dEWjVRSWt0Q1FTRDJkWXU3WFhrUlg?oc=5",
         "hits": 0
       },
       {
         "dim": "Amazon",
-        "market": "JP",
-        "rank": 45,
-        "title": "Top pet - Eco Edition",
-        "price": "$183.4",
-        "rating": 4.4,
+        "market": "SA",
+        "rank": 44,
+        "title": "Top pet - Compact Edition",
+        "price": "$275.8",
+        "rating": 4.9,
+        "hits": 0
+      },
+      {
+        "dim": "Amazon",
+        "market": "US",
+        "rank": 4,
+        "title": "Top pet - Premium Edition",
+        "price": "$265.0",
+        "rating": 4.8,
         "hits": 0
       }
     ],
     "domain": "pet_products",
-    "generated_at": "2026-11-27",
+    "generated_at": "2026-11-28",
     "l1_ref": "宠物用品及食品"
   }
 }

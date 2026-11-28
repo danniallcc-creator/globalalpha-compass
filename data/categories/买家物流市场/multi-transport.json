@@ -25,11 +25,11 @@
   "export_data": null,
   "global_trends": {
     "google_trends": {
-      "interest_score": 59,
+      "interest_score": 47,
       "trend_direction": "stable",
       "related_topics": [],
       "source": "google_suggest_api",
-      "fetched_at": "2026-11-27"
+      "fetched_at": "2026-11-28"
     }
   },
   "industry_analysis": {
@@ -42,10 +42,10 @@
     "opportunity": "Emerging markets offer significant growth potential with rising demand. Digital transformation and e-commerce create new market access channels. Innovation, differentiation, and value-added services provide competitive advantages. Cross-border trade facilitation and free trade agreements expanding market reach."
   },
   "compliance_summary": "Freight forwarding licenses, customs brokerage compliance, Incoterms knowledge, cargo insurance, trade compliance and sanctions screening.",
-  "last_updated": "2026-11-27",
+  "last_updated": "2026-11-28",
   "data_source": "base_generated",
   "dynamic_insight": {
-    "trend_summary": "多式联运：海外社媒「freight unboxing」增速 251%，搜索端「freight b2b export」热度上行，US Amazon BSR Top-12，The Detroit News关注「Five Reputable One-Stop Steel...」。",
+    "trend_summary": "多式联运：海外社媒「freight new arrival」增速 220%，搜索端「logistics market 2026」热度上行，US Amazon BSR Top-12，The Detroit News关注「Five Reputable One-Stop Steel...」。",
     "product_profile": {
       "外观": "功能模块化 / 可折叠 / 轻量化",
       "成分": "碳纤维 / Dyneema 超高分子量 PE / Cordura",
@@ -56,45 +56,45 @@
     },
     "reasons": [
       "欧盟 CE 标志强制准入 → 多式联运 出口需通过合规认证",
-      "海外社媒「freight unboxing」增速 251% 领跑 → 多式联运社媒种草热度爆发"
+      "海外社媒「freight new arrival」增速 220% 领跑 → 多式联运社媒种草热度爆发"
     ],
     "signals": [
       {
         "dim": "海外社媒",
-        "platform": "youtube",
-        "kw": "freight unboxing",
-        "growth": 251.0,
-        "vol": "386K",
+        "platform": "instagram",
+        "kw": "freight new arrival",
+        "growth": 219.5,
+        "vol": "795K",
+        "hits": 0
+      },
+      {
+        "dim": "海外社媒",
+        "platform": "google",
+        "kw": "logistics market 2026",
+        "growth": 211.5,
+        "vol": "565K",
         "hits": 0
       },
       {
         "dim": "海外社媒",
         "platform": "x",
-        "kw": "shipping supply chain",
-        "growth": 240.5,
-        "vol": "509K",
+        "kw": "logistics industry news",
+        "growth": 207.0,
+        "vol": "457K",
         "hits": 0
       },
       {
-        "dim": "海外社媒",
-        "platform": "tiktok",
-        "kw": "logistics trending now",
-        "growth": 240.0,
-        "vol": "65K",
+        "dim": "搜索",
+        "source": "Google Trends",
+        "kw": "logistics market 2026",
+        "growth": 208.5,
         "hits": 0
       },
       {
         "dim": "搜索",
         "source": "Google Trends",
         "kw": "freight b2b export",
-        "growth": 227.0,
-        "hits": 0
-      },
-      {
-        "dim": "搜索",
-        "source": "Google Trends",
-        "kw": "shipping wholesale supplier",
-        "growth": 155.5,
+        "growth": 107.0,
         "hits": 0
       },
       {
@@ -106,9 +106,9 @@
       },
       {
         "dim": "媒体",
-        "title": "Michoacan Avocado Shipments Resume Following 10-Day Halt - Mexico Business News",
-        "source": "Mexico Business News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcTJOUVVLNDhrejJtbWpkTVUtM1R4RTlQbmJ1YXBrZEVlVndOeTNuX2RPLU4tUFRhMmRtRkU2VkxTMWRFZWF1cVE3RjFxTkJxOTI2MjdTZnhLR0pOZGtGNkFwTFZvcnp2SVA0UzNmVktMSUtQZGhscWVyZ1hyRWthWEE4OGZQV0gyS3pCS3NPTjRuNVZUTmJza0ljckdsS2VVMG1PWQ?oc=5",
+        "title": "We agreed to deepen private sector engagement, address tariff and non-tariff barriers, simplify customs procedures, facilitate cross-border ",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZkU1OWdRd0FfTXRfclo5dlhOWHMxcWVxWmt6Q1NsUG5lMFJxWTVNNGF2ZE1PS3B3N1RyVldUNkszdmlPTVdUUkZjUzJvaThzdmc0WjR1R193Qlh6b0tQaHl2dzJWWHJzbU9DOHpmczNyUnk5WVdTMC0tN2RFU0lUbTR4ZFR4cDg4aGtvcWVmNHVQMnA4VldHU2lhWXlQOW9ZWk55WUV5cjR3SnVvZThzTk52M28td0NUYzAwTjNnUFpycnFpdTFjdDBHQUtNV2FxYXZxQzFaVHk4b2NleDdV?oc=5",
         "hits": 0
       },
       {
@@ -131,7 +131,7 @@
       }
     ],
     "domain": "sports_outdoor",
-    "generated_at": "2026-11-27",
+    "generated_at": "2026-11-28",
     "l1_ref": "买家物流市场"
   }
 }
