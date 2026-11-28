@@ -35,9 +35,10 @@
   },
   "global_trends": {
     "google_trends": {
-      "interest_score": 81,
+      "interest_score": 51,
       "trend_direction": "down",
-      "source": "deterministic_fallback",
+      "related_topics": [],
+      "source": "google_suggest_api",
       "fetched_at": "2026-11-28"
     }
   },
@@ -54,19 +55,18 @@
   "last_updated": "2026-11-28",
   "data_source": "base_generated",
   "news_sentiment": {
-    "article_count": 5,
+    "article_count": 4,
     "sentiment": {
       "overall": "positive",
-      "positive_pct": 60.0,
+      "positive_pct": 75.0,
       "negative_pct": 0.0,
-      "neutral_pct": 40.0,
-      "articles_analyzed": 5
+      "neutral_pct": 25.0,
+      "articles_analyzed": 4
     },
     "top_headlines": [
       "What Bath & Body Works (BBWI) Said on Its Q3 Earnings Call - TradingView",
       "Top 8 Wholesale Fashion Jewelry Manufacturers in 2026: Bulk Supply and OEM/ODM for Brand Buyers - De",
       "When Innerwear Meets Skincare: The Rise of Beauty Benefit-Enhanced Fabrics - Fibre2Fashion",
-      "Young designers learn tricks of the trade at NYC Jewelry Week panel - The Jewelry Wire",
       "BBWI Q3 Earnings Beat Estimates on Digital & Wholesale Gains - TradingView"
     ],
     "source_urls": [
@@ -96,54 +96,54 @@
         "platform": "YouTube",
         "trending_keywords": [
           {
-            "keyword": "dick vitale",
+            "keyword": "morgan scalley",
             "volume": "50K+",
-            "growth": 23.3
+            "growth": 83.3
           },
           {
-            "keyword": "hawks vs celtics",
+            "keyword": "gta 6 chapter 3 mission list",
             "volume": "50K+",
-            "growth": -1.4
+            "growth": 50.2
           },
           {
-            "keyword": "marquette basketball",
+            "keyword": "texas tech basketball",
             "volume": "50K+",
-            "growth": 1.6
+            "growth": 112.9
           },
           {
-            "keyword": "blake griffin",
+            "keyword": "mega millions winning numbers",
             "volume": "50K+",
-            "growth": 107.3
+            "growth": 70.8
           },
           {
-            "keyword": "rumer willis",
+            "keyword": "stephon castle",
             "volume": "50K+",
-            "growth": 48.4
+            "growth": -16.7
           },
           {
-            "keyword": "bucks vs pistons",
+            "keyword": "jim caviezel",
             "volume": "50K+",
-            "growth": 51.8
+            "growth": 39.2
           },
           {
-            "keyword": "nets vs raptors",
+            "keyword": "lakers game today",
             "volume": "50K+",
-            "growth": 86.3
+            "growth": 109.9
           },
           {
-            "keyword": "tennessee vs fgcu",
+            "keyword": "chris pratt",
             "volume": "50K+",
-            "growth": 103.4
+            "growth": 65.5
           },
           {
-            "keyword": "jeff purinton",
+            "keyword": "matisse thybulle",
             "volume": "50K+",
-            "growth": 8.9
+            "growth": 124.0
           },
           {
-            "keyword": "minnesota vs wisconsin",
+            "keyword": "toumani camara",
             "volume": "50K+",
-            "growth": 67.9
+            "growth": 59.0
           }
         ],
         "business_opportunity": "YouTube平台\"Body Care\"相关搜索趋势上升，跨境电商卖家可关注该品类的选品和营销布局机会",
@@ -194,17 +194,17 @@
         "trending_keywords": [
           {
             "keyword": "#CarTok",
-            "volume": "54B views",
+            "volume": "10B views",
             "growth": 86.5
           },
           {
             "keyword": "#CarAccessories",
-            "volume": "42B views",
+            "volume": "51B views",
             "growth": 78.4
           },
           {
             "keyword": "#AutoDetail",
-            "volume": "18B views",
+            "volume": "57B views",
             "growth": 102.1
           }
         ],
@@ -250,42 +250,6 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0p6Q19hWEZhR2R4ODhrWkF4N05JMGcya053UVY3ektWd2IxU1VVdzQwTU9ucDFqdXp4Z2swX3VwTTdiN2FUdkU2N25GWjQzUk03VThDZ1NpR1NvNWFpelVQYTcxcUhKd0ZSMFljVlpvOG5OVUh2X1JyM2d1bHlUNnU4WFJtVFVmMTNlNTFndmJWbW5GQTE5SFFCUnBFZ1NPbk4wNWd3c0FlSHJWVUkyOEJoWFFoUE9lZ0JaUm1OcUc4RkRCcVF3?oc=5",
         "published": "Wed, 25 Nov 2026",
         "source": "IndexBox"
-      },
-      {
-        "title": "What’s in the Employment Rights Act? - Lewis Silkin",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOUGNwX3o2dTdjaFZieTF2MU8yMFNsc3Z2bU5USGVNNnpsaFFnV01faXltZWQyQklPQWJxajlkRTRvbFBwSTFYeG5RdnRaQ1lFQzd6YTFfbHAyaEdQUFhySHdlRE04SkkzUTBTUjdoX25wdnY0NnI2Tkc4elVCNld5WUxneTBtT2FoYnc?oc=5\" target=\"_blank\">What’s in the Employment Rights Act?</a>",
-        "country": "US",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUGNwX3o2dTdjaFZieTF2MU8yMFNsc3Z2bU5USGVNNnpsaFFnV01faXltZWQyQklPQWJxajlkRTRvbFBwSTFYeG5RdnRaQ1lFQzd6YTFfbHAyaEdQUFhySHdlRE04SkkzUTBTUjdoX25wdnY0NnI2Tkc4elVCNld5WUxneTBtT2FoYnc?oc=5",
-        "published": "Wed, 25 Nov 2026",
-        "source": "Lewis Silkin"
-      },
-      {
-        "title": "Ministry of Economy proposes aligning wildlife law with EU rules: what will change - ЭкоПолитика",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGlJYXVQLW50ZTVReWRuZl93aVUxUlZHYTdTbGtqQ1lzczh3eTNpOVI2YWZVM3FvaWJvZEhhMk5Sb3lxS1BKdWtray1WOEdzTm9wTzZhQnZFcDM5RjF6WkxFTkYwYXp3MTlpWnBWX01SRGxrWUZHbHl0QmlMOHRzQU9lZXA3ZUJuTmlqc3lLM2RULTNuZWRuR0hPVTR2azNHX3ZtVzBWdlQ5V1dxM3pfWC01M0JaQ00?oc",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdGlJYXVQLW50ZTVReWRuZl93aVUxUlZHYTdTbGtqQ1lzczh3eTNpOVI2YWZVM3FvaWJvZEhhMk5Sb3lxS1BKdWtray1WOEdzTm9wTzZhQnZFcDM5RjF6WkxFTkYwYXp3MTlpWnBWX01SRGxrWUZHbHl0QmlMOHRzQU9lZXA3ZUJuTmlqc3lLM2RULTNuZWRuR0hPVTR2azNHX3ZtVzBWdlQ5V1dxM3pfWC01M0JaQ00?oc=5",
-        "published": "Fri, 27 Nov 2026",
-        "source": "ЭкоПолитика"
-      },
-      {
-        "title": "Employment Rights Act 2025: updated timeline - Personnel Today",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeWFtQWpGcFdfNW1EY01wSUdCdzhROFZxQjhybDRsZUlkS0Y3SmNrdDcyVDBHR2k0OHhadWNNaWstckhpSHVsLUpQYVVNSHRpTmk1Q05SSkRtcXhDRmdabndlY1BkX0l2RFJKeUV5cFRCOU53NDhWOS10amZEOWpYMUlGa04?oc=5\" target=\"_blank\">Employment Rights Act 2025: updated timeline</a>",
-        "country": "EU",
-        "policy_type": "compliance",
-        "impact": "neutral",
-        "impact_score": 0.3,
-        "category_relevance": "indirect",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeWFtQWpGcFdfNW1EY01wSUdCdzhROFZxQjhybDRsZUlkS0Y3SmNrdDcyVDBHR2k0OHhadWNNaWstckhpSHVsLUpQYVVNSHRpTmk1Q05SSkRtcXhDRmdabndlY1BkX0l2RFJKeUV5cFRCOU53NDhWOS10amZEOWpYMUlGa04?oc=5",
-        "published": "Tue, 24 Nov 2026",
-        "source": "Personnel Today"
       },
       {
         "title": "News - Scottish Housing Regulator asks government to allow charging landlords for regulation - Inside Housing",
